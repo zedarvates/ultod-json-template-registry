@@ -1,0 +1,25 @@
+{
+  "id": "smoke_bomb",
+  "name": "Bombe de Fumée",
+  "description": "Un appareil qui crée un nuage de fumée dense",
+  "profession": "engineering",
+  "station_type": "workbench",
+  "skill_requirement": 30,
+  "ingredients": [
+    {"item_template_id": "copper_casing", "quantity": 1},
+    {"item_template_id": "sulfur_powder", "quantity": 2},
+    {"item_template_id": "charcoal", "quantity": 3},
+    {"item_template_id": "fuse", "quantity": 1}
+  ],
+  "result": {
+    "item_template_id": "smoke_bomb",
+    "quantity": 1,
+    "quality_range": {
+      "min": "common",
+      "max": "rare"
+    }
+  },
+  "crafting_time_seconds": 40,
+  "difficulty": 0.7,
+  "experience_gained": 45
+}

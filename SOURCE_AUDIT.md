@@ -59,6 +59,8 @@ Le lot `masterpiece` publie ses trois créations, identiques octet pour octet en
 
 Le lot `dungeons` publie ses six layouts depuis la source serveur : antre de glace, crypte d'ossements profonde, crypte de démonstration, crypte générée par grammaire, forteresse d'obsidienne et repaire de racines. Les six copies client divergent ; aucune compatibilité client n'est revendiquée. Tuiles, murs, marqueurs, références de boss et récompenses restent déclaratifs, sans asset inclus ou certifié. Les cinq fichiers `skillclass` restent exclus car ils déclarent être importés de Sphere et reprennent la taxonomie de compétences Ultima Online.
 
+Le lot `recipe` publie cinq fichiers identiques octet pour octet entre les sources serveur et client auditées : robe de tissu, armure de fer, épée de fer, armure de cuir et bombe fumigène. Ingrédients, stations, niveaux, qualités, durées et expériences sont déclaratifs et doivent être validés côté serveur. `healing_potion.json` reste exclu pour ses composants `peacebloom` et `silverleaf` associés à Warcraft. `minor_strength_enchant.json` reste exclu dans l'attente d'une adaptation plus originale de ses composants, notamment `arcane_dust`.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

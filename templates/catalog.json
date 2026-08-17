@@ -782,6 +782,66 @@
                         "compatibility":  [
 
                                           ]
+                    },
+                    {
+                        "name":  "cloth-robe",
+                        "kind":  "recipe-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/recipes/cloth-robe/v0.1.0/template.json",
+                        "source_file":  "cloth_robe.json",
+                        "sha256":  "0e29495d8662fbe3afa66b4f39386eda1c8135cb747fe1db564243b2bea3a916",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "iron-armor",
+                        "kind":  "recipe-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/recipes/iron-armor/v0.1.0/template.json",
+                        "source_file":  "iron_armor.json",
+                        "sha256":  "e2c8b2c190e6710d1bbca90220691bb3639b938390f83cdcadd14fa4324f1334",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "iron-sword",
+                        "kind":  "recipe-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/recipes/iron-sword/v0.1.0/template.json",
+                        "source_file":  "iron_sword.json",
+                        "sha256":  "8a56c245b41db910005126e506ad325081ccfd8a7b18396b366c830904dc490c",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "leather-armor",
+                        "kind":  "recipe-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/recipes/leather-armor/v0.1.0/template.json",
+                        "source_file":  "leather_armor.json",
+                        "sha256":  "260dfe4268f4517841b8cd542ebc3e71d80dcc60a7dd6eb2fb72576f96f10404",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "smoke-bomb",
+                        "kind":  "recipe-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/recipes/smoke-bomb/v0.1.0/template.json",
+                        "source_file":  "smoke_bomb.json",
+                        "sha256":  "08bc3b0c256d159835f10c513921f79264715fffad734bfd904684d0a1cc69c4",
+                        "compatibility":  [
+
+                                          ]
                     }
                 ]
 }

@@ -1,0 +1,24 @@
+{
+  "id": "leather_armor",
+  "name": "Armure de Cuir",
+  "description": "Une armure légère et flexible en cuir",
+  "profession": "leatherworking",
+  "station_type": "workbench",
+  "skill_requirement": 20,
+  "ingredients": [
+    {"item_template_id": "thick_leather", "quantity": 6},
+    {"item_template_id": "linen_thread", "quantity": 4},
+    {"item_template_id": "iron_buckles", "quantity": 8}
+  ],
+  "result": {
+    "item_template_id": "leather_armor",
+    "quantity": 1,
+    "quality_range": {
+      "min": "common",
+      "max": "uncommon"
+    }
+  },
+  "crafting_time_seconds": 25,
+  "difficulty": 0.4,
+  "experience_gained": 25
+}

@@ -1,0 +1,24 @@
+{
+  "id": "iron_armor",
+  "name": "Armure de Fer",
+  "description": "Une armure complète en fer pour protection",
+  "profession": "blacksmithing",
+  "station_type": "anvil",
+  "skill_requirement": 35,
+  "ingredients": [
+    {"item_template_id": "iron_ingot", "quantity": 8},
+    {"item_template_id": "leather_straps", "quantity": 4},
+    {"item_template_id": "iron_rivets", "quantity": 12}
+  ],
+  "result": {
+    "item_template_id": "iron_armor",
+    "quantity": 1,
+    "quality_range": {
+      "min": "common",
+      "max": "rare"
+    }
+  },
+  "crafting_time_seconds": 45,
+  "difficulty": 0.6,
+  "experience_gained": 40
+}

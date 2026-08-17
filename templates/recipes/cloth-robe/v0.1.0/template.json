@@ -1,0 +1,24 @@
+{
+  "id": "cloth_robe",
+  "name": "Robe de Tissu",
+  "description": "Une robe légère et confortable en tissu",
+  "profession": "tailoring",
+  "station_type": "loom",
+  "skill_requirement": 15,
+  "ingredients": [
+    {"item_template_id": "linen_cloth", "quantity": 8},
+    {"item_template_id": "silk_thread", "quantity": 3},
+    {"item_template_id": "silver_needle", "quantity": 1}
+  ],
+  "result": {
+    "item_template_id": "cloth_robe",
+    "quantity": 1,
+    "quality_range": {
+      "min": "common",
+      "max": "uncommon"
+    }
+  },
+  "crafting_time_seconds": 20,
+  "difficulty": 0.3,
+  "experience_gained": 20
+}

@@ -1,0 +1,24 @@
+{
+  "id": "iron_sword",
+  "name": "Épée de Fer",
+  "description": "Une épée basique mais fiable",
+  "profession": "blacksmithing",
+  "station_type": "anvil",
+  "skill_requirement": 25,
+  "ingredients": [
+    {"item_template_id": "iron_ore", "quantity": 3},
+    {"item_template_id": "coal", "quantity": 2},
+    {"item_template_id": "wood", "quantity": 1}
+  ],
+  "result": {
+    "item_template_id": "iron_sword",
+    "quantity": 1,
+    "quality_range": {
+      "min": "common",
+      "max": "rare"
+    }
+  },
+  "crafting_time_seconds": 30,
+  "difficulty": 0.3,
+  "experience_gained": 25
+}
