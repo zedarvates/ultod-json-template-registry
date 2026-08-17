@@ -1,0 +1,177 @@
+{
+  "template_type": "biome",
+  "id": "celestial",
+  "name": "Royaumes Célestes",
+  "description": "Les cieux éternels avec des anges, des étoiles et des énergies divines",
+  "category": "magical",
+  "level_range": {
+    "min": 35,
+    "max": 60
+  },
+  "difficulty": "hard",
+  "size": "large",
+  "climate": "celestial",
+  "terrain_types": ["cloud_platforms", "star_crystals", "divine_temples"],
+  "visual_theme": {
+    "sky_color": "#FFFFFF",
+    "ground_texture": "cloud_platforms.png",
+    "ambient_light": 1.0,
+    "fog_density": 0.2,
+    "particle_effects": ["star_dust", "angel_feathers", "light_rays"]
+  },
+  "audio_theme": {
+    "background_music": "heavenly_choir.mp3",
+    "ambient_sounds": ["angel_wings", "crystal_harmonies", "divine_whispers"],
+    "footstep_sounds": "cloud_steps"
+  },
+  "resources": [
+    {
+      "type": "star_shards",
+      "rarity": "uncommon",
+      "respawn_time": 1800,
+      "max_per_area": 10
+    },
+    {
+      "type": "divine_essence",
+      "rarity": "rare",
+      "respawn_time": 3600,
+      "max_per_area": 5
+    },
+    {
+      "type": "archangel_blade",
+      "rarity": "legendary",
+      "respawn_time": 86400,
+      "max_per_area": 1
+    }
+  ],
+  "monsters": [
+    {
+      "template_id": "seraphim_guardian",
+      "spawn_rate": 0.3,
+      "max_count": 4,
+      "level_range": [50, 60]
+    },
+    {
+      "template_id": "fallen_angel",
+      "spawn_rate": 0.5,
+      "max_count": 8,
+      "level_range": [40, 55]
+    },
+    {
+      "template_id": "star_elemental",
+      "spawn_rate": 0.7,
+      "max_count": 15,
+      "level_range": [35, 45]
+    }
+  ],
+  "npcs": [
+    {
+      "template_id": "celestial_guardian",
+      "spawn_points": ["heaven_gate"],
+      "schedule": "always"
+    },
+    {
+      "template_id": "divine_scholar",
+      "spawn_points": ["wisdom_temple"],
+      "schedule": "always"
+    },
+    {
+      "template_id": "star_weaver",
+      "spawn_points": ["astral_forge"],
+      "schedule": "daytime"
+    }
+  ],
+  "dungeons": [
+    {
+      "template_id": "heavenly_palace",
+      "entrance_location": "throne_room",
+      "required_level": 55
+    },
+    {
+      "template_id": "star_forge",
+      "entrance_location": "celestial_anvil",
+      "required_level": 50
+    }
+  ],
+  "events": [
+    {
+      "template_id": "divine_judgment",
+      "trigger_condition": "player_corruption_high",
+      "cooldown_hours": 12
+    },
+    {
+      "template_id": "star_shower",
+      "trigger_condition": "night_time",
+      "cooldown_hours": 48
+    },
+    {
+      "template_id": "angelic_chorus",
+      "trigger_condition": "player_pure",
+      "cooldown_hours": 24
+    }
+  ],
+  "environmental_effects": [
+    {
+      "type": "holy_protection",
+      "strength": 0.5,
+      "radius": 150,
+      "description": "Protection contre les ténèbres et le mal"
+    },
+    {
+      "type": "mana_amplification",
+      "strength": 0.4,
+      "description": "Amplification de tous les sorts sacrés"
+    },
+    {
+      "type": "flight_grace",
+      "strength": 0.6,
+      "description": "Capacité de vol améliorée dans les cieux"
+    }
+  ],
+  "exploration_points": [
+    {
+      "id": "heaven_gate",
+      "type": "portal",
+      "description": "Porte d'entrée vers les royaumes célestes",
+      "rewards": ["divine_blessing", "holy_protection"]
+    },
+    {
+      "id": "wisdom_temple",
+      "type": "temple",
+      "description": "Temple de la sagesse divine",
+      "rewards": ["knowledge_boost", "divine_insight"]
+    },
+    {
+      "id": "astral_forge",
+      "type": "workshop",
+      "description": "Forge astrale pour créer des armes divines",
+      "requirements": {"level": 45}
+    }
+  ],
+  "weather_patterns": [
+    {
+      "type": "divine_light",
+      "probability": 0.6,
+      "duration_hours": 18,
+      "effects": ["healing_aura", "holy_damage_boost", "corruption_purge"]
+    },
+    {
+      "type": "celestial_storm",
+      "probability": 0.2,
+      "duration_hours": 6,
+      "effects": ["lightning_damage", "flight_disruption", "angel_summoning"]
+    },
+    {
+      "type": "eternal_serenity",
+      "probability": 0.2,
+      "duration_hours": 24,
+      "effects": ["perfect_balance", "enhanced_meditation", "time_dilation"]
+    }
+  ],
+  "day_night_cycle": {
+    "day_duration_hours": 18,
+    "night_duration_hours": 6,
+    "dawn_dusk_duration_minutes": 60,
+    "night_effects": ["star_alignment", "cosmic_energy_surge", "prophecy_visions"]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "template_type": "biome",
+  "id": "tundra",
+  "name": "Frozen Tundra",
+  "description": "Icy plains covered in snow with harsh winds and polar creatures",
+  "category": "dangerous",
+  "level_range": {
+    "min": 20,
+    "max": 40
+  },
+  "difficulty": "hard",
+  "size": "large",
+  "climate": "freezing",
+  "terrain_types": ["snow_fields", "ice_cracks", "frozen_lake"],
+  "visual_theme": {
+    "sky_color": "#E0F6FF",
+    "ground_texture": "snow_ground.png",
+    "ambient_light": 0.8,
+    "fog_density": 0.2,
+    "particle_effects": ["snowfall", "ice_crystals", "wind_gusts"]
+  },
+  "audio_theme": {
+    "background_music": "tundra_wind.mp3",
+    "ambient_sounds": ["howling_wind", "ice_cracking", "distant_wolf_howl"],
+    "footstep_sounds": "snow_crunch"
+  },
+  "resources": [
+    {
+      "type": "ice_crystals",
+      "rarity": "common",
+      "respawn_time": 600,
+      "max_per_area": 30
+    },
+    {
+      "type": "polar_fur",
+      "rarity": "uncommon",
+      "respawn_time": 1200,
+      "max_per_area": 12
+    },
+    {
+      "type": "frost_essence",
+      "rarity": "rare",
+      "respawn_time": 3600,
+      "max_per_area": 3
+    }
+  ],
+  "monsters": [
+    {
+      "template_id": "polar_bear",
+      "spawn_rate": 0.6,
+      "max_count": 6,
+      "level_range": [25, 35]
+    },
+    {
+      "template_id": "frost_wolf",
+      "spawn_rate": 0.8,
+      "max_count": 15,
+      "level_range": [22, 30]
+    },
+    {
+      "template_id": "ice_elemental",
+      "spawn_rate": 0.3,
+      "max_count": 4,
+      "level_range": [35, 40]
+    }
+  ],
+  "npcs": [
+    {
+      "template_id": "polar_trader",
+      "spawn_points": ["trading_post"],
+      "schedule": "always"
+    },
+    {
+      "template_id": "ice_fisher",
+      "spawn_points": ["fishing_hut"],
+      "schedule": "daytime"
+    }
+  ],
+  "dungeons": [
+    {
+      "template_id": "ice_palace",
+      "entrance_location": "frozen_throne",
+      "required_level": 35
+    }
+  ],
+  "events": [
+    {
+      "template_id": "blizzard",
+      "trigger_condition": "random_0_3_percent",
+      "cooldown_hours": 6
+    },
+    {
+      "template_id": "aurora_borealis",
+      "trigger_condition": "night_time",
+      "cooldown_hours": 48
+    }
+  ],
+  "environmental_effects": [
+    {
+      "type": "cold_damage_over_time",
+      "strength": 0.3,
+      "radius": 150,
+      "description": "Constant cold damage in frozen areas"
+    },
+    {
+      "type": "slippery_ground",
+      "strength": 0.5,
+      "description": "Increased chance of slipping on ice"
+    },
+    {
+      "type": "wind_resistance",
+      "strength": 0.4,
+      "description": "Strong winds reduce movement speed"
+    }
+  ],
+  "exploration_points": [
+    {
+      "id": "trading_post",
+      "type": "merchant",
+      "description": "Polar trading post with exotic goods",
+      "rewards": ["rare_furs", "ice_weapons"]
+    },
+    {
+      "id": "fishing_hut",
+      "type": "resource_node",
+      "description": "Ice fishing hut with fresh catches",
+      "requirements": {"level": 25}
+    }
+  ],
+  "weather_patterns": [
+    {
+      "type": "snow",
+      "probability": 0.5,
+      "duration_hours": 8,
+      "effects": ["reduced_visibility", "slippery_ground"]
+    },
+    {
+      "type": "blizzard",
+      "probability": 0.2,
+      "duration_hours": 4,
+      "effects": ["very_low_visibility", "freezing_damage", "movement_penalty"]
+    },
+    {
+      "type": "clear",
+      "probability": 0.3,
+      "duration_hours": 12
+    }
+  ],
+  "day_night_cycle": {
+    "day_duration_hours": 18,
+    "night_duration_hours": 6,
+    "dawn_dusk_duration_minutes": 30,
+    "night_effects": ["aurora_lights", "increased_cold", "polar_animal_activity"]
+  }
+}

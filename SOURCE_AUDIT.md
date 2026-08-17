@@ -25,6 +25,8 @@ Le lot suivant ajoute `haptics/default_patterns.json`. Les copies serveur et bui
 
 Le lot `avatars` ajoute trois presets. `preset_defaut.json` était identique côté serveur et build client VR ; `human_athletic_f.json` et `human_balanced_m.json` étaient uniquement présents côté serveur. Les valeurs sont conservées sans modification, mais les marqueurs source tels que `mvp_ready` ne constituent pas une validation des assets, du rendu ou de l'intégration runtime.
 
+Le lot `biomes` ajoute huit modèles identiques côté serveur et build client VR. Les noms de textures, sons, créatures, NPC, donjons et événements sont conservés comme identifiants logiques. Les fichiers correspondants, leurs droits et leur disponibilité runtime ne sont ni inclus ni certifiés.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

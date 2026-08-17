@@ -1,0 +1,149 @@
+{
+  "template_type": "biome",
+  "id": "ocean",
+  "name": "Océan Profond",
+  "description": "Les profondeurs marines avec des créatures aquatiques et des trésors engloutis",
+  "category": "dangerous",
+  "level_range": {
+    "min": 20,
+    "max": 45
+  },
+  "difficulty": "hard",
+  "size": "large",
+  "climate": "water",
+  "terrain_types": ["coral_reef", "deep_trench", "shipwreck"],
+  "visual_theme": {
+    "sky_color": "#4169E1",
+    "ground_texture": "ocean_floor.png",
+    "ambient_light": 0.3,
+    "fog_density": 0.6,
+    "particle_effects": ["bubbles", "fish_schools", "light_rays"]
+  },
+  "audio_theme": {
+    "background_music": "ocean_depths.mp3",
+    "ambient_sounds": ["water_pressure", "fish_sounds", "distant_ships"],
+    "footstep_sounds": "water_movement"
+  },
+  "resources": [
+    {
+      "type": "pearls",
+      "rarity": "uncommon",
+      "respawn_time": 2400,
+      "max_per_area": 6
+    },
+    {
+      "type": "coral_gems",
+      "rarity": "rare",
+      "respawn_time": 4800,
+      "max_per_area": 4
+    },
+    {
+      "type": "poseidons_trident",
+      "rarity": "legendary",
+      "respawn_time": 86400,
+      "max_per_area": 1
+    }
+  ],
+  "monsters": [
+    {
+      "template_id": "giant_squid",
+      "spawn_rate": 0.4,
+      "max_count": 3,
+      "level_range": [35, 45]
+    },
+    {
+      "template_id": "shark_hunter",
+      "spawn_rate": 0.6,
+      "max_count": 8,
+      "level_range": [25, 35]
+    },
+    {
+      "template_id": "merfolk_warrior",
+      "spawn_rate": 0.5,
+      "max_count": 12,
+      "level_range": [20, 30]
+    }
+  ],
+  "npcs": [
+    {
+      "template_id": "merfolk_merchant",
+      "spawn_points": ["coral_city"],
+      "schedule": "always"
+    },
+    {
+      "template_id": "diver_explorer",
+      "spawn_points": ["shipwreck_site"],
+      "schedule": "daytime"
+    }
+  ],
+  "dungeons": [
+    {
+      "template_id": "atlantis_ruins",
+      "entrance_location": "underwater_pyramid",
+      "required_level": 40
+    }
+  ],
+  "events": [
+    {
+      "template_id": "whirlpool",
+      "trigger_condition": "random_0_5_percent",
+      "cooldown_hours": 8
+    },
+    {
+      "template_id": "kraken_awakening",
+      "trigger_condition": "high_treasure_density",
+      "cooldown_hours": 24
+    }
+  ],
+  "environmental_effects": [
+    {
+      "type": "oxygen_drain",
+      "strength": 0.4,
+      "radius": 100,
+      "description": "Drain constant d'oxygène sous l'eau"
+    },
+    {
+      "type": "pressure_damage",
+      "strength": 0.2,
+      "description": "Dégâts de pression aux grandes profondeurs"
+    },
+    {
+      "type": "swim_speed_bonus",
+      "strength": 0.3,
+      "description": "Bonus de vitesse de nage"
+    }
+  ],
+  "exploration_points": [
+    {
+      "id": "coral_city",
+      "type": "underwater_city",
+      "description": "Cité de corail avec marchands aquatiques",
+      "rewards": ["rare_underwater_items", "breathing_potions"]
+    },
+    {
+      "id": "shipwreck_site",
+      "type": "treasure_site",
+      "description": "Épave de navire avec trésors anciens",
+      "requirements": {"level": 30}
+    }
+  ],
+  "weather_patterns": [
+    {
+      "type": "storm",
+      "probability": 0.2,
+      "duration_hours": 4,
+      "effects": ["rough_waves", "reduced_visibility", "strong_currents"]
+    },
+    {
+      "type": "calm",
+      "probability": 0.8,
+      "duration_hours": 20
+    }
+  ],
+  "day_night_cycle": {
+    "day_duration_hours": 12,
+    "night_duration_hours": 12,
+    "dawn_dusk_duration_minutes": 30,
+    "night_effects": ["deeper_darkness", "increased_predator_activity", "bioluminescent_glow"]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "template_type": "biome",
+  "id": "mystic",
+  "name": "Mystic Realms",
+  "description": "Surreal magical landscapes with floating islands and arcane creatures",
+  "category": "magical",
+  "level_range": {
+    "min": 25,
+    "max": 50
+  },
+  "difficulty": "medium",
+  "size": "large",
+  "climate": "magical",
+  "terrain_types": ["floating_islands", "magic_streams", "crystal_trees"],
+  "visual_theme": {
+    "sky_color": "#9D4EDD",
+    "ground_texture": "magic_soil.png",
+    "ambient_light": 0.6,
+    "fog_density": 0.4,
+    "particle_effects": ["magic_sparks", "floating_runes", "color_shifts"]
+  },
+  "audio_theme": {
+    "background_music": "mystic_harmony.mp3",
+    "ambient_sounds": ["magic_hum", "wind_chimes", "distant_echoes"],
+    "footstep_sounds": "soft_magic"
+  },
+  "resources": [
+    {
+      "type": "mana_crystals",
+      "rarity": "common",
+      "respawn_time": 900,
+      "max_per_area": 20
+    },
+    {
+      "type": "arcane_essence",
+      "rarity": "rare",
+      "respawn_time": 1800,
+      "max_per_area": 8
+    },
+    {
+      "type": "legendary_tome",
+      "rarity": "legendary",
+      "respawn_time": 7200,
+      "max_per_area": 1
+    }
+  ],
+  "monsters": [
+    {
+      "template_id": "arcane_spirit",
+      "spawn_rate": 0.6,
+      "max_count": 10,
+      "level_range": [28, 38]
+    },
+    {
+      "template_id": "rune_beast",
+      "spawn_rate": 0.5,
+      "max_count": 6,
+      "level_range": [35, 45]
+    },
+    {
+      "template_id": "illusion_phoenix",
+      "spawn_rate": 0.2,
+      "max_count": 2,
+      "level_range": [42, 50]
+    }
+  ],
+  "npcs": [
+    {
+      "template_id": "arcane_scholar",
+      "spawn_points": ["magic_library"],
+      "schedule": "always"
+    },
+    {
+      "template_id": "rune_smith",
+      "spawn_points": ["enchanting_workshop"],
+      "schedule": "daytime"
+    },
+    {
+      "template_id": "mystic_trader",
+      "spawn_points": ["floating_market"],
+      "schedule": "always"
+    }
+  ],
+  "dungeons": [
+    {
+      "template_id": "arcane_tower",
+      "entrance_location": "tower_base",
+      "required_level": 40
+    },
+    {
+      "template_id": "illusion_maze",
+      "entrance_location": "mirror_portal",
+      "required_level": 35
+    }
+  ],
+  "events": [
+    {
+      "template_id": "mana_storm",
+      "trigger_condition": "high_mana_density",
+      "cooldown_hours": 12
+    },
+    {
+      "template_id": "reality_shift",
+      "trigger_condition": "random_0_2_percent",
+      "cooldown_hours": 24
+    },
+    {
+      "template_id": "arcane_convergence",
+      "trigger_condition": "full_moon",
+      "cooldown_hours": 168
+    }
+  ],
+  "environmental_effects": [
+    {
+      "type": "mana_regeneration",
+      "strength": 0.4,
+      "radius": 100,
+      "description": "Enhanced mana regeneration in magical areas"
+    },
+    {
+      "type": "spell_power_boost",
+      "strength": 0.3,
+      "description": "Increased spell damage and effects"
+    },
+    {
+      "type": "reality_distortion",
+      "strength": 0.2,
+      "description": "Chance of teleporting short distances"
+    }
+  ],
+  "exploration_points": [
+    {
+      "id": "magic_library",
+      "type": "library",
+      "description": "Ancient library with magical tomes and knowledge",
+      "rewards": ["spell_knowledge", "rare_books"]
+    },
+    {
+      "id": "enchanting_workshop",
+      "type": "workshop",
+      "description": "Magical workshop for enchanting equipment",
+      "requirements": {"level": 30}
+    },
+    {
+      "id": "floating_market",
+      "type": "market",
+      "description": "Floating market with magical goods",
+      "rewards": ["rare_artifacts", "magic_items"]
+    }
+  ],
+  "weather_patterns": [
+    {
+      "type": "arcane_rain",
+      "probability": 0.4,
+      "duration_hours": 6,
+      "effects": ["mana_boost", "healing_aura", "colorful_particles"]
+    },
+    {
+      "type": "reality_storm",
+      "probability": 0.1,
+      "duration_hours": 2,
+      "effects": ["teleportation_risk", "illusion_effects", "mana_drain"]
+    },
+    {
+      "type": "clear",
+      "probability": 0.5,
+      "duration_hours": 16
+    }
+  ],
+  "day_night_cycle": {
+    "day_duration_hours": 14,
+    "night_duration_hours": 10,
+    "dawn_dusk_duration_minutes": 45,
+    "night_effects": ["enhanced_magic", "spirit_activity", "aurora_effects"]
+  }
+}

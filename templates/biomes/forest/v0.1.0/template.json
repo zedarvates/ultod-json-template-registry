@@ -1,0 +1,150 @@
+{
+  "template_type": "biome",
+  "id": "forest",
+  "name": "Ancient Forest",
+  "description": "A dense, mystical forest filled with ancient trees and magical creatures",
+  "category": "natural",
+  "level_range": {
+    "min": 1,
+    "max": 25
+  },
+  "difficulty": "easy",
+  "size": "large",
+  "climate": "temperate",
+  "terrain_types": ["forest", "clearing", "river"],
+  "visual_theme": {
+    "sky_color": "#87CEEB",
+    "ground_texture": "forest_floor.png",
+    "ambient_light": 0.7,
+    "fog_density": 0.3,
+    "particle_effects": ["leaves_falling", "fireflies"]
+  },
+  "audio_theme": {
+    "background_music": "forest_ambient.mp3",
+    "ambient_sounds": ["birds", "wind_trees", "distant_waterfall"],
+    "footstep_sounds": "forest_leaves"
+  },
+  "resources": [
+    {
+      "type": "wood",
+      "rarity": "common",
+      "respawn_time": 300,
+      "max_per_area": 50
+    },
+    {
+      "type": "herbs",
+      "rarity": "uncommon",
+      "respawn_time": 600,
+      "max_per_area": 20
+    },
+    {
+      "type": "rare_flowers",
+      "rarity": "rare",
+      "respawn_time": 1800,
+      "max_per_area": 5
+    }
+  ],
+  "monsters": [
+    {
+      "template_id": "wolf",
+      "spawn_rate": 0.8,
+      "max_count": 15,
+      "level_range": [1, 5]
+    },
+    {
+      "template_id": "spider",
+      "spawn_rate": 0.6,
+      "max_count": 10,
+      "level_range": [2, 4]
+    },
+    {
+      "template_id": "dryad",
+      "spawn_rate": 0.3,
+      "max_count": 3,
+      "level_range": [8, 15]
+    }
+  ],
+  "npcs": [
+    {
+      "template_id": "druid_elder",
+      "spawn_points": ["sacred_grove"],
+      "schedule": "daytime"
+    },
+    {
+      "template_id": "herbalist",
+      "spawn_points": ["herb_garden"],
+      "schedule": "always"
+    }
+  ],
+  "dungeons": [
+    {
+      "template_id": "ancient_ruins",
+      "entrance_location": "hidden_clearing",
+      "required_level": 10
+    }
+  ],
+  "events": [
+    {
+      "template_id": "wolf_pack_attack",
+      "trigger_condition": "player_level_5_plus",
+      "cooldown_hours": 24
+    },
+    {
+      "template_id": "fairy_circle_ritual",
+      "trigger_condition": "night_time",
+      "cooldown_hours": 168
+    }
+  ],
+  "environmental_effects": [
+    {
+      "type": "healing_aura",
+      "strength": 0.2,
+      "radius": 50,
+      "description": "Natural healing from forest spirits"
+    },
+    {
+      "type": "stealth_bonus",
+      "strength": 0.3,
+      "description": "Improved stealth in dense foliage"
+    }
+  ],
+  "exploration_points": [
+    {
+      "id": "sacred_grove",
+      "type": "shrine",
+      "description": "Ancient druid shrine with healing powers",
+      "rewards": ["health_boost", "nature_blessing"]
+    },
+    {
+      "id": "hidden_cave",
+      "type": "dungeon_entrance",
+      "description": "Entrance to underground caverns",
+      "requirements": {"level": 15}
+    }
+  ],
+  "weather_patterns": [
+    {
+      "type": "clear",
+      "probability": 0.6,
+      "duration_hours": 8
+    },
+    {
+      "type": "rain",
+      "probability": 0.3,
+      "duration_hours": 4,
+      "effects": ["reduced_visibility", "slippery_ground"]
+    },
+    {
+      "type": "fog",
+      "probability": 0.1,
+      "duration_hours": 6,
+      "effects": ["low_visibility", "muffled_sounds"]
+    }
+  ],
+  "day_night_cycle": {
+    "day_duration_hours": 12,
+    "night_duration_hours": 12,
+    "dawn_dusk_duration_minutes": 30,
+    "night_effects": ["increased_monster_spawns", "reduced_visibility"]
+  }
+}

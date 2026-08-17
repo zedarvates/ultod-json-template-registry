@@ -1,0 +1,144 @@
+{
+  "template_type": "biome",
+  "id": "cave",
+  "name": "Deep Caverns",
+  "description": "Dark underground caves filled with crystal formations and mysterious creatures",
+  "category": "dangerous",
+  "level_range": {
+    "min": 15,
+    "max": 35
+  },
+  "difficulty": "medium",
+  "size": "medium",
+  "climate": "cool",
+  "terrain_types": ["cave_walls", "crystal_formations", "underground_lake"],
+  "visual_theme": {
+    "sky_color": "#000000",
+    "ground_texture": "cave_floor.png",
+    "ambient_light": 0.2,
+    "fog_density": 0.8,
+    "particle_effects": ["crystal_glow", "dust_motes", "dripping_water"]
+  },
+  "audio_theme": {
+    "background_music": "cave_ambient.mp3",
+    "ambient_sounds": ["water_drops", "crystal_hum", "distant_rumble"],
+    "footstep_sounds": "stone_footsteps"
+  },
+  "resources": [
+    {
+      "type": "crystals",
+      "rarity": "uncommon",
+      "respawn_time": 1200,
+      "max_per_area": 15
+    },
+    {
+      "type": "gems",
+      "rarity": "rare",
+      "respawn_time": 2400,
+      "max_per_area": 5
+    },
+    {
+      "type": "mithril_ore",
+      "rarity": "epic",
+      "respawn_time": 4800,
+      "max_per_area": 2
+    }
+  ],
+  "monsters": [
+    {
+      "template_id": "cave_spider",
+      "spawn_rate": 0.7,
+      "max_count": 12,
+      "level_range": [18, 25]
+    },
+    {
+      "template_id": "crystal_golem",
+      "spawn_rate": 0.4,
+      "max_count": 4,
+      "level_range": [28, 35]
+    },
+    {
+      "template_id": "dark_bat",
+      "spawn_rate": 0.8,
+      "max_count": 20,
+      "level_range": [15, 22]
+    }
+  ],
+  "npcs": [
+    {
+      "template_id": "crystal_merchant",
+      "spawn_points": ["crystal_market"],
+      "schedule": "always"
+    },
+    {
+      "template_id": "cave_explorer",
+      "spawn_points": ["explorer_camp"],
+      "schedule": "daytime"
+    }
+  ],
+  "dungeons": [
+    {
+      "template_id": "crystal_chamber",
+      "entrance_location": "glowing_crystal",
+      "required_level": 25
+    }
+  ],
+  "events": [
+    {
+      "template_id": "crystal_quake",
+      "trigger_condition": "random_0_5_percent",
+      "cooldown_hours": 8
+    },
+    {
+      "template_id": "crystal_harvest",
+      "trigger_condition": "crystal_density_high",
+      "cooldown_hours": 24
+    }
+  ],
+  "environmental_effects": [
+    {
+      "type": "darkness_penalty",
+      "strength": 0.4,
+      "radius": 200,
+      "description": "Reduced visibility in dark caves"
+    },
+    {
+      "type": "echo_bonus",
+      "strength": 0.2,
+      "description": "Enhanced sound detection"
+    }
+  ],
+  "exploration_points": [
+    {
+      "id": "crystal_market",
+      "type": "merchant",
+      "description": "Underground crystal market with rare goods",
+      "rewards": ["rare_crystals", "mining_tools"]
+    },
+    {
+      "id": "explorer_camp",
+      "type": "camp",
+      "description": "Camp of cave explorers offering quests",
+      "requirements": {"level": 20}
+    }
+  ],
+  "weather_patterns": [
+    {
+      "type": "clear",
+      "probability": 0.9,
+      "duration_hours": 24
+    },
+    {
+      "type": "fog",
+      "probability": 0.1,
+      "duration_hours": 4,
+      "effects": ["reduced_visibility", "muffled_sounds"]
+    }
+  ],
+  "day_night_cycle": {
+    "day_duration_hours": 0,
+    "night_duration_hours": 24,
+    "dawn_dusk_duration_minutes": 0,
+    "night_effects": ["permanent_darkness", "monster_aggression"]
+  }
+}

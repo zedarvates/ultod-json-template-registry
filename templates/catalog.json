@@ -242,6 +242,102 @@
                         "compatibility":  [
 
                                           ]
+                    },
+                    {
+                        "name":  "cave",
+                        "kind":  "biome-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/biomes/cave/v0.1.0/template.json",
+                        "source_file":  "cave_biome.json",
+                        "sha256":  "c6a203b20a88801a39115d8db6315dfe88d34b35701fb9db169f7675669b6d32",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "celestial",
+                        "kind":  "biome-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/biomes/celestial/v0.1.0/template.json",
+                        "source_file":  "celestial_biome.json",
+                        "sha256":  "6ad8dd60a3f2468327d8670c445faab378a357b27137d59683e80ad171b2e4e8",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "desert",
+                        "kind":  "biome-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/biomes/desert/v0.1.0/template.json",
+                        "source_file":  "desert_biome.json",
+                        "sha256":  "905e1a67cc3ea6b3176f2867937e0d369411f5dbcfc7f8889db3d58600a591b8",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "forest",
+                        "kind":  "biome-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/biomes/forest/v0.1.0/template.json",
+                        "source_file":  "forest_biome.json",
+                        "sha256":  "52f1de8c8e8ca10c788db26859460435bb0127a26467cd8932cf80984aad6bc1",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "mystic",
+                        "kind":  "biome-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/biomes/mystic/v0.1.0/template.json",
+                        "source_file":  "mystic_biome.json",
+                        "sha256":  "eb4319ed7f15f74d8f7549611f205ea0a4f36faf1c6ef17c18441532cf5f1313",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "ocean",
+                        "kind":  "biome-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/biomes/ocean/v0.1.0/template.json",
+                        "source_file":  "ocean_biome.json",
+                        "sha256":  "508d2171e560024a6da8081ad3a75c5e4a3df5d5005b1b4059c4ded3d8abf7b2",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "tundra",
+                        "kind":  "biome-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/biomes/tundra/v0.1.0/template.json",
+                        "source_file":  "tundra_biome.json",
+                        "sha256":  "cc0a5b658ac2276b8d806b37c3943e9c6f26b3f2e916686b8013594cce393be5",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "volcano",
+                        "kind":  "biome-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/biomes/volcano/v0.1.0/template.json",
+                        "source_file":  "volcano_biome.json",
+                        "sha256":  "c5e77c2fd2a398c1bd0f165ccd4f0e66dc8a4448265f87f56205422008a65a08",
+                        "compatibility":  [
+
+                                          ]
                     }
                 ]
 }

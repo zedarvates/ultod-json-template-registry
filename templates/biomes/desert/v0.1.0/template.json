@@ -1,0 +1,144 @@
+{
+  "template_type": "biome",
+  "id": "desert",
+  "name": "Sahara Ancien",
+  "description": "Un désert impitoyable avec des tempêtes de sable et des ruines anciennes",
+  "category": "dangerous",
+  "level_range": {
+    "min": 10,
+    "max": 35
+  },
+  "difficulty": "medium",
+  "size": "large",
+  "climate": "hot",
+  "terrain_types": ["sand_dunes", "rocky_canyon", "ancient_ruins"],
+  "visual_theme": {
+    "sky_color": "#FFD700",
+    "ground_texture": "desert_sand.png",
+    "ambient_light": 0.9,
+    "fog_density": 0.1,
+    "particle_effects": ["sand_particles", "heat_waves", "dust_devils"]
+  },
+  "audio_theme": {
+    "background_music": "desert_winds.mp3",
+    "ambient_sounds": ["wind_howling", "sand_crunching", "distant_thunder"],
+    "footstep_sounds": "sand_footsteps"
+  },
+  "resources": [
+    {
+      "type": "ancient_coins",
+      "rarity": "uncommon",
+      "respawn_time": 1800,
+      "max_per_area": 8
+    },
+    {
+      "type": "scarab_gems",
+      "rarity": "rare",
+      "respawn_time": 3600,
+      "max_per_area": 3
+    },
+    {
+      "type": "pharaoh_gold",
+      "rarity": "legendary",
+      "respawn_time": 7200,
+      "max_per_area": 1
+    }
+  ],
+  "monsters": [
+    {
+      "template_id": "sand_elemental",
+      "spawn_rate": 0.7,
+      "max_count": 12,
+      "level_range": [15, 25]
+    },
+    {
+      "template_id": "scorpion_giant",
+      "spawn_rate": 0.8,
+      "max_count": 18,
+      "level_range": [12, 20]
+    },
+    {
+      "template_id": "pharaoh_guard",
+      "spawn_rate": 0.3,
+      "max_count": 4,
+      "level_range": [25, 35]
+    }
+  ],
+  "npcs": [
+    {
+      "template_id": "desert_trader",
+      "spawn_points": ["oasis_camp"],
+      "schedule": "always"
+    },
+    {
+      "template_id": "archaeologist",
+      "spawn_points": ["ruins_entrance"],
+      "schedule": "daytime"
+    }
+  ],
+  "dungeons": [
+    {
+      "template_id": "pharaoh_tomb",
+      "entrance_location": "pyramid_entrance",
+      "required_level": 30
+    }
+  ],
+  "events": [
+    {
+      "template_id": "sandstorm",
+      "trigger_condition": "random_0_8_percent",
+      "cooldown_hours": 4
+    },
+    {
+      "template_id": "oasis_appearance",
+      "trigger_condition": "player_thirsty",
+      "cooldown_hours": 12
+    }
+  ],
+  "environmental_effects": [
+    {
+      "type": "thirst_drain",
+      "strength": 0.5,
+      "radius": 200,
+      "description": "Drain constant de la barre d'hydratation"
+    },
+    {
+      "type": "heat_stroke_risk",
+      "strength": 0.3,
+      "description": "Risque de coup de chaleur sans protection"
+    }
+  ],
+  "exploration_points": [
+    {
+      "id": "oasis_camp",
+      "type": "rest_area",
+      "description": "Campement au milieu du désert avec eau et repos",
+      "rewards": ["water_restoration", "cooling_buff"]
+    },
+    {
+      "id": "pyramid_entrance",
+      "type": "dungeon_entrance",
+      "description": "Entrée d'une pyramide ancienne",
+      "requirements": {"level": 25}
+    }
+  ],
+  "weather_patterns": [
+    {
+      "type": "sandstorm",
+      "probability": 0.3,
+      "duration_hours": 3,
+      "effects": ["reduced_visibility", "damage_over_time", "movement_penalty"]
+    },
+    {
+      "type": "clear",
+      "probability": 0.7,
+      "duration_hours": 18
+    }
+  ],
+  "day_night_cycle": {
+    "day_duration_hours": 16,
+    "night_duration_hours": 8,
+    "dawn_dusk_duration_minutes": 45,
+    "night_effects": ["cooler_temperatures", "increased_scorpion_activity"]
+  }
+}

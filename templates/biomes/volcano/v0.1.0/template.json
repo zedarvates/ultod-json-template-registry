@@ -1,0 +1,139 @@
+{
+  "template_type": "biome",
+  "id": "volcano",
+  "name": "Volcanic Wasteland",
+  "description": "A harsh volcanic landscape filled with lava flows and fire elementals",
+  "category": "dangerous",
+  "level_range": {
+    "min": 30,
+    "max": 50
+  },
+  "difficulty": "hard",
+  "size": "medium",
+  "climate": "hot",
+  "terrain_types": ["lava_field", "rocky_crag", "ash_plain"],
+  "visual_theme": {
+    "sky_color": "#FF4500",
+    "ground_texture": "volcanic_rock.png",
+    "ambient_light": 0.9,
+    "fog_density": 0.1,
+    "particle_effects": ["ash_falling", "lava_sparks", "heat_shimmer"]
+  },
+  "audio_theme": {
+    "background_music": "volcano_rumble.mp3",
+    "ambient_sounds": ["lava_bubbling", "rock_cracking", "distant_eruption"],
+    "footstep_sounds": "rocky_ground"
+  },
+  "resources": [
+    {
+      "type": "obsidian",
+      "rarity": "uncommon",
+      "respawn_time": 900,
+      "max_per_area": 25
+    },
+    {
+      "type": "sulfur",
+      "rarity": "common",
+      "respawn_time": 450,
+      "max_per_area": 40
+    },
+    {
+      "type": "fire_crystal",
+      "rarity": "rare",
+      "respawn_time": 3600,
+      "max_per_area": 3
+    }
+  ],
+  "monsters": [
+    {
+      "template_id": "fire_elemental",
+      "spawn_rate": 0.9,
+      "max_count": 8,
+      "level_range": [35, 45]
+    },
+    {
+      "template_id": "lava_beast",
+      "spawn_rate": 0.7,
+      "max_count": 5,
+      "level_range": [40, 50]
+    },
+    {
+      "template_id": "ash_wraith",
+      "spawn_rate": 0.4,
+      "max_count": 3,
+      "level_range": [45, 50]
+    }
+  ],
+  "npcs": [
+    {
+      "template_id": "fire_shaman",
+      "spawn_points": ["lava_shrine"],
+      "schedule": "always"
+    }
+  ],
+  "dungeons": [
+    {
+      "template_id": "volcano_core",
+      "entrance_location": "crater_entrance",
+      "required_level": 40
+    }
+  ],
+  "events": [
+    {
+      "template_id": "volcanic_eruption",
+      "trigger_condition": "random_0_1_percent",
+      "cooldown_hours": 12
+    },
+    {
+      "template_id": "lava_flow",
+      "trigger_condition": "eruption_event",
+      "cooldown_hours": 6
+    }
+  ],
+  "environmental_effects": [
+    {
+      "type": "fire_damage_over_time",
+      "strength": 0.5,
+      "radius": 100,
+      "description": "Constant fire damage in volcanic areas"
+    },
+    {
+      "type": "heat_resistance_penalty",
+      "strength": 0.3,
+      "description": "Reduced heat resistance effectiveness"
+    }
+  ],
+  "exploration_points": [
+    {
+      "id": "lava_shrine",
+      "type": "shrine",
+      "description": "Ancient fire shrine with flame blessings",
+      "rewards": ["fire_resistance", "flame_blessing"]
+    },
+    {
+      "id": "crystal_cave",
+      "type": "resource_node",
+      "description": "Rich deposits of fire crystals",
+      "requirements": {"level": 35}
+    }
+  ],
+  "weather_patterns": [
+    {
+      "type": "ash_storm",
+      "probability": 0.4,
+      "duration_hours": 6,
+      "effects": ["reduced_visibility", "periodic_damage"]
+    },
+    {
+      "type": "clear",
+      "probability": 0.6,
+      "duration_hours": 12
+    }
+  ],
+  "day_night_cycle": {
+    "day_duration_hours": 14,
+    "night_duration_hours": 10,
+    "dawn_dusk_duration_minutes": 20,
+    "night_effects": ["lava_glow_increased", "monster_aggression"]
+  }
+}
