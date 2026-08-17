@@ -59,4 +59,7 @@ Le registre suit un versionnage sémantique par modèle. Les règles détaillée
 
 ## Licence
 
-Aucune licence open source n'est sélectionnée à ce stade. L'ajout d'une licence fera l'objet d'une décision explicite avant publication de modèles réutilisables.
+Les schémas, modèles et documents originaux de ce registre sont distribués sous
+licence Apache-2.0. Cette licence ne couvre pas le serveur Zig propriétaire, les
+services hébergés, les données de production, les ressources tierces ni les
+composants commerciaux d'Ultimate Odycer.
