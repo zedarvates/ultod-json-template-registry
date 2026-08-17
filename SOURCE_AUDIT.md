@@ -51,6 +51,8 @@ Le lot `marriage` publie `romantic_marriage.json`, identique octet pour octet en
 
 Le lot `social_event` publie `wedding_ceremony.json`, identique octet pour octet entre les sources serveur et client auditées. Les participants, horaires, frais, expérience et objets distribués sont déclaratifs et doivent être autorisés et validés côté serveur. `mount/frost_dragon_mythic.json` reste exclu car il contient un chemin d'asset interne non audité et des paramètres de combat. `treasure_maps/treasure_map_tier_5.json` reste exclu en raison de références fortement évocatrices d'Ultima Online et de valeurs économiques non adaptées.
 
+Le lot suivant publie `dungeon/crypt_of_shadows.json` depuis la source serveur et `paragons/paragon_master_config.json`. La copie client du donjon diverge : sa compatibilité reste donc vide et aucune synchronisation client n'est revendiquée. Les difficultés, apparitions, statistiques, butins et récompenses sont déclaratifs et doivent être calculés et validés côté serveur. `bods/bod_blacksmith_platemail.json` et `champions/champion_despise_vermin.json` restent exclus pour références directes à Ultima Online. `planets/terre.json` reste exclu comme configuration runtime interne divergente, et `pvp/temporal_chronomancer_arena.json` pour ses contrôles administratifs et mécanismes internes détaillés.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

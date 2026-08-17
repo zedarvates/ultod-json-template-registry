@@ -1,0 +1,38 @@
+{
+  "id": "crypt_of_shadows",
+  "name": "Crypt of Shadows",
+  "description": "An ancient, shadow-infested tomb filled with dangerous traps and undead monsters.",
+  "min_level": 15,
+  "max_level": 25,
+  "theme": "shadow",
+  "base_difficulty": "normal",
+  "room_count_range": {
+    "min": 5,
+    "max": 10
+  },
+  "enemy_density": 1.5,
+  "treasure_density": 0.8,
+  "trap_density": 1.2,
+  "time_limit_minutes": 45,
+  "reward_schema_version": 1,
+  "rewards": [
+    {
+      "type": "gold",
+      "gold": 250,
+      "chance": 1.0
+    },
+    {
+      "type": "experience",
+      "experience": 1500,
+      "chance": 1.0
+    },
+    {
+      "type": "item",
+      "item_id": "shadow_essence",
+      "quantity": 1,
+      "experience": 0,
+      "gold": 0,
+      "chance": 0.5
+    }
+  ]
+}

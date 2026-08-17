@@ -1,0 +1,18 @@
+{
+  "global_spawn_chance": 0.05,
+  "stat_multipliers": {
+    "hp_multiplier": 5.0,
+    "damage_multiplier": 1.75,
+    "speed_multiplier": 1.4,
+    "fame_multiplier": 4.0
+  },
+  "visual_override": {
+    "hue_tint": "#FFD700",
+    "scale_multiplier": 1.15,
+    "aura_particle": "gold_paragon_sparkles"
+  },
+  "extra_loot_table": [
+    { "item_template_id": "paragon_chest", "chance": 0.25 },
+    { "item_template_id": "minor_artifact_bag", "chance": 0.10 }
+  ]
+}

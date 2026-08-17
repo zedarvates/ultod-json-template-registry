@@ -626,6 +626,30 @@
                         "compatibility":  [
 
                                           ]
+                    },
+                    {
+                        "name":  "crypt-of-shadows",
+                        "kind":  "dungeon-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/dungeons/crypt-of-shadows/v0.1.0/template.json",
+                        "source_file":  "crypt_of_shadows.json",
+                        "sha256":  "15b9a8737e88eb7117ace9c291ba8761b5d02676f5843d657da29ffe75f6b64f",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "master-config",
+                        "kind":  "paragon-config",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/paragons/master-config/v0.1.0/template.json",
+                        "source_file":  "paragon_master_config.json",
+                        "sha256":  "2c3600c9c039994a0a874652e7ce31236973d8d2b2e877d91a762ccae993136a",
+                        "compatibility":  [
+
+                                          ]
                     }
                 ]
 }
