@@ -83,6 +83,8 @@ Les familles `cities`, `sects`, `lineage` et `npcs` sont entièrement exclues ap
 
 Les cinq petites familles à droits mixtes sont entièrement exclues après audit, soit 114 fichiers. `bulk_orders` reprend une mécanique fortement associée à Ultima Online et son fichier de récolte contient en plus une référence tierce. Les 17 `talent` forment un arbre très proche de Warcraft. `racial_traits` contient des contrôles admin/debug, des assets et un fichier One Piece. `race` combine imports Sphere, Skaven, Tiefling, Drow, clans Vampire, contrôles internes et assets. Enfin, les 35 `skills` restent exclues pour contrôles admin/debug, références tierces, état runtime, commerce ou assets ; même les sept fichiers structurellement génériques conservent des marqueurs de debug.
 
+Le lot `abilities` publie dix capacités de boss originales et génériques, identiques octet pour octet entre serveur et client. Leurs coûts, portées, délais, effets, durées et conditions sont déclaratifs et restent serveur-autoritaires. Les 17 capacités racine sont exclues pour leurs noms directement associés à Warcraft ; les 49 autres exposent des contrôles admin/debug, des secrets logiques, du commerce ou des liaisons internes. Les 66 fichiers `class` sont entièrement exclus : le lot mélange imports Sphere, classes Aion, noms Warcraft, rôles administratifs et nombreux chemins d'assets, sans sous-ensemble dont la provenance soit suffisamment isolée.
+
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :
 
 - du contenu narratif et de jeu dont les droits ou les inspirations doivent être vérifiés ;

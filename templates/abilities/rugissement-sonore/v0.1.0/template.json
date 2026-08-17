@@ -1,0 +1,1 @@
+{"id":"rugissement_sonore","name":"Rugissement sonore","description":"Onde sonore qui effraie les cibles proches.","ability_type":"control","category":"boss","target_type":"area","range":12,"cooldown":18000,"resource_cost":{"type":"none","amount":0},"duration":2500,"effects":[{"effect_type":"fear_aoe","value":1,"duration":2500}],"requirements":{"level":1,"class":"boss"}}

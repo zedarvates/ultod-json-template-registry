@@ -11862,6 +11862,106 @@
       "source_file": "rts/rts_abilities.json",
       "sha256": "285b1615f2dfa378c9adddf9308fe0d3f2d52767237656f0731b4d223f7ba8d0",
       "compatibility": []
+    },
+    {
+      "name": "charge",
+      "kind": "boss-ability-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/abilities/charge/v0.1.0/template.json",
+      "source_file": "abilities/boss/charge.json",
+      "sha256": "6b895ee4b661634baa71a1f42299c6a40464c2f7777c645478db5f56f2de0fa8",
+      "compatibility": []
+    },
+    {
+      "name": "charge-double",
+      "kind": "boss-ability-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/abilities/charge-double/v0.1.0/template.json",
+      "source_file": "abilities/boss/charge_double.json",
+      "sha256": "9a7c98bf63221612f6a0264902028313ba46142c5737f84dce5de327109d1926",
+      "compatibility": []
+    },
+    {
+      "name": "colere-du-gardien",
+      "kind": "boss-ability-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/abilities/colere-du-gardien/v0.1.0/template.json",
+      "source_file": "abilities/boss/colere_du_gardien.json",
+      "sha256": "5c964fc73c8ebee6874bf5e3fcf6409fc4fc389bcd4eff0e29e0714e9eb2b25d",
+      "compatibility": []
+    },
+    {
+      "name": "coup-de-fleau",
+      "kind": "boss-ability-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/abilities/coup-de-fleau/v0.1.0/template.json",
+      "source_file": "abilities/boss/coup_de_fleau.json",
+      "sha256": "41975cfbfe2fc6bc6dacf42bad2f20060b36b5dd7df0db3dc9cad2d845916b7f",
+      "compatibility": []
+    },
+    {
+      "name": "frenesie-sanguinaire",
+      "kind": "boss-ability-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/abilities/frenesie-sanguinaire/v0.1.0/template.json",
+      "source_file": "abilities/boss/frenesie_sanguinaire.json",
+      "sha256": "3af4edb65afa03e3fb9b284541b8f11a2500e90f8ab3996e48718b25cf869ff3",
+      "compatibility": []
+    },
+    {
+      "name": "griffure",
+      "kind": "boss-ability-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/abilities/griffure/v0.1.0/template.json",
+      "source_file": "abilities/boss/griffure.json",
+      "sha256": "1329a5fa2fda0f5e44ddd99e2eed90701c1e49274581639969986b65ab374bb1",
+      "compatibility": []
+    },
+    {
+      "name": "invocation-ossements",
+      "kind": "boss-ability-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/abilities/invocation-ossements/v0.1.0/template.json",
+      "source_file": "abilities/boss/invocation_ossements.json",
+      "sha256": "c5fd61c4c57297980a7fb4d7a6cb3cdbaecc167470799162f8e64ff03e258888",
+      "compatibility": []
+    },
+    {
+      "name": "malediction-majeure",
+      "kind": "boss-ability-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/abilities/malediction-majeure/v0.1.0/template.json",
+      "source_file": "abilities/boss/malediction_majeure.json",
+      "sha256": "6e6b301d5a41b910a020f94e4d527e5f1c55888bd26cc943316a3fc4858bfae9",
+      "compatibility": []
+    },
+    {
+      "name": "malediction-mineure",
+      "kind": "boss-ability-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/abilities/malediction-mineure/v0.1.0/template.json",
+      "source_file": "abilities/boss/malediction_mineure.json",
+      "sha256": "a967e467155b933f80fa33bafa1871a75455f6b0502bdac3aad0e42eacc6000b",
+      "compatibility": []
+    },
+    {
+      "name": "rugissement-sonore",
+      "kind": "boss-ability-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/abilities/rugissement-sonore/v0.1.0/template.json",
+      "source_file": "abilities/boss/rugissement_sonore.json",
+      "sha256": "5148693dc5925049a5c5a4cd0dd34d2259cf80b3a86d2cef2a301a0a59336cab",
+      "compatibility": []
     }
   ]
 }

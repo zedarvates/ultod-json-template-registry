@@ -4,7 +4,7 @@ Ce dossier accueille les modèles et schémas JSON versionnés du registre.
 
 ## État actuel
 
-La collection contient actuellement 16 schémas, un modèle de motifs haptiques, trois presets d'avatar, huit biomes, trois collections d'achievements, un modèle d'événement, trois configurations de guilde, un modèle de lieu, un blueprint de maison, un modèle de noms, six styles architecturaux, quatre modèles de rift, une configuration de groupe, un parcours de mentorat, un modèle de mariage, un événement social, sept donjons, une configuration de parangons, deux modèles de boss, trois chefs-d'œuvre d'artisanat, cinq recettes, 29 modèles de créatures, cinq prologues, quatre quêtes manuelles, dix professions, 21 modèles de divinités fictives, 30 modèles d'énergie, un modèle d'IA, quatre modèles RTS, cinq blueprints, six systèmes divins abstraits, un manifeste de génération et 1 000 quêtes générées. Ils sont publiés en `v0.1.0` avec le statut `experimental` et sans certification de compatibilité, d'assets, de rendu, de balancing ou d'exactitude culturelle.
+La collection contient actuellement 16 schémas, un modèle de motifs haptiques, trois presets d'avatar, huit biomes, trois collections d'achievements, un modèle d'événement, trois configurations de guilde, un modèle de lieu, un blueprint de maison, un modèle de noms, six styles architecturaux, quatre modèles de rift, une configuration de groupe, un parcours de mentorat, un modèle de mariage, un événement social, sept donjons, une configuration de parangons, deux modèles de boss, trois chefs-d'œuvre d'artisanat, cinq recettes, 29 modèles de créatures, cinq prologues, quatre quêtes manuelles, dix professions, 21 modèles de divinités fictives, 30 modèles d'énergie, un modèle d'IA, quatre modèles RTS, cinq blueprints, six systèmes divins abstraits, dix capacités de boss, un manifeste de génération et 1 000 quêtes générées. Ils sont publiés en `v0.1.0` avec le statut `experimental` et sans certification de compatibilité, d'assets, de rendu, de balancing ou d'exactitude culturelle.
 
 Les permissions, rangs et accès de banque décrits dans les modèles de guilde sont uniquement déclaratifs. Ils ne doivent jamais remplacer une autorisation et une validation côté serveur.
 
@@ -37,6 +37,8 @@ Les progressions, talents, capacités, recettes et récompenses de professions s
 Les domaines divins, bénédictions, malédictions, reliques, capacités d'énergie, conversions, synergies, événements, nœuds et récoltes sont déclaratifs. Toute activation, mutation ou attribution doit être autorisée et validée côté serveur.
 
 Les modèles d'IA, RTS et systèmes divins restent des contrats déclaratifs serveur-autoritaires. Les blueprints ne certifient aucun asset, rendu ou assemblage runtime.
+
+Les capacités de boss sont également serveur-autoritaires : cible, phase, ressources, délais, limites et effets doivent être validés côté serveur.
 
 Le fichier `catalog.json` fournit leur chemin, leur version et leur empreinte SHA-256.
 
