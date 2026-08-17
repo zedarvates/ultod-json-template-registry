@@ -1,0 +1,153 @@
+{
+  "species_id": "cn_jiangshi",
+  "species_name": "Jiangshi",
+  "chemistry": "ammonia",
+  "base_traits": {
+    "scale": 1.8,
+    "diet": "carnivore",
+    "locomotion_preference": "jumping",
+    "aggressiveness": 0.6
+  },
+  "parts": [
+    {
+      "part_id": "head_jaw_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "armor_plate_01",
+      "attach_point": "Chest",
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_crawler_01",
+      "attach_point": "LeftUpperLeg",
+      "position": [
+        -0.15,
+        -0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_crawler_01",
+      "attach_point": "RightUpperLeg",
+      "position": [
+        0.15,
+        -0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "eye_normal_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0.05,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "loot_table": {
+    "guaranteed_drops": [
+      {
+        "item": "talisman_scrap",
+        "chance": 1.0,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "common_drops": [
+      {
+        "item": "grave_dust",
+        "chance": 0.5,
+        "min_quantity": 1,
+        "max_quantity": 3
+      },
+      {
+        "item": "rotted_robe",
+        "chance": 0.35,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "rare_drops": [
+      {
+        "item": "jade_burial_piece",
+        "chance": 0.1,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "epic_drops": [
+      {
+        "item": "hopping_corpse_seal",
+        "chance": 0.03,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "currency": {
+      "chance": 0.85,
+      "min_quantity": 6,
+      "max_quantity": 26
+    }
+  }
+}

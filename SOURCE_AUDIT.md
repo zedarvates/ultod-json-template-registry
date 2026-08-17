@@ -61,6 +61,8 @@ Le lot `dungeons` publie ses six layouts depuis la source serveur : antre de gla
 
 Le lot `recipe` publie cinq fichiers identiques octet pour octet entre les sources serveur et client auditées : robe de tissu, armure de fer, épée de fer, armure de cuir et bombe fumigène. Ingrédients, stations, niveaux, qualités, durées et expériences sont déclaratifs et doivent être validés côté serveur. `healing_potion.json` reste exclu pour ses composants `peacebloom` et `silverleaf` associés à Warcraft. `minor_strength_enchant.json` reste exclu dans l'attente d'une adaptation plus originale de ses composants, notamment `arcane_dust`.
 
+Le lot `creatures` publie 29 des 30 fichiers depuis la source serveur : animaux communs, créatures fantasy et figures mythologiques celtiques, chinoises ou nordiques, plus un drone d'entraînement lunaire. Les 29 copies présentes côté client divergent ; le drone lunaire est absent du client. Aucune compatibilité client n'est donc revendiquée. Chimies, traits, anatomies, pièces et butins sont déclaratifs, sans asset inclus ou certifié, et les entrées mythologiques ne constituent pas des références culturelles ou historiques. `xenomorph.json` reste exclu comme référence directe à la franchise Alien.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

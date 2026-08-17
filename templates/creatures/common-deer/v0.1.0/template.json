@@ -1,0 +1,183 @@
+{
+  "species_id": "common_deer",
+  "species_name": "Cerf",
+  "chemistry": "water_carbon",
+  "base_traits": {
+    "scale": 1.2,
+    "diet": "herbivore",
+    "locomotion_preference": "walking",
+    "aggressiveness": 0.2
+  },
+  "parts": [
+    {
+      "part_id": "head_jaw_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "antenna_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_hoof_01",
+      "attach_point": "LeftUpperLeg",
+      "position": [
+        -0.1,
+        -0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_hoof_01",
+      "attach_point": "RightUpperLeg",
+      "position": [
+        0.1,
+        -0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_hoof_01",
+      "attach_point": "Hips",
+      "position": [
+        0,
+        -0.2,
+        -0.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "tail_whip_01",
+      "attach_point": "TailBase",
+      "position": [
+        0,
+        0,
+        -0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "eye_normal_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0.05,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "loot_table": {
+    "guaranteed_drops": [
+      {
+        "item": "venison_raw",
+        "chance": 1.0,
+        "min_quantity": 1,
+        "max_quantity": 3
+      }
+    ],
+    "common_drops": [
+      {
+        "item": "deer_hide",
+        "chance": 0.6,
+        "min_quantity": 1,
+        "max_quantity": 2
+      },
+      {
+        "item": "deer_antler",
+        "chance": 0.3,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "rare_drops": [
+      {
+        "item": "pristine_hide",
+        "chance": 0.07,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "currency": {
+      "chance": 0.25,
+      "min_quantity": 1,
+      "max_quantity": 4
+    }
+  }
+}

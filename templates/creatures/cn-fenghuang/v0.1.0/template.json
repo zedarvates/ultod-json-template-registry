@@ -1,0 +1,166 @@
+{
+  "species_id": "cn_fenghuang",
+  "species_name": "Fenghuang (Phénix)",
+  "chemistry": "plasma",
+  "base_traits": {
+    "scale": 1.2,
+    "diet": "omnivore",
+    "locomotion_preference": "flying",
+    "aggressiveness": 0.3
+  },
+  "parts": [
+    {
+      "part_id": "head_beak_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "wing_feather_01",
+      "attach_point": "Chest",
+      "position": [
+        -0.3,
+        0.1,
+        -0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        20
+      ],
+      "scale": [
+        1.2,
+        1.2,
+        1.2
+      ]
+    },
+    {
+      "part_id": "wing_feather_01",
+      "attach_point": "Chest",
+      "position": [
+        0.3,
+        0.1,
+        -0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        -20
+      ],
+      "scale": [
+        1.2,
+        1.2,
+        1.2
+      ]
+    },
+    {
+      "part_id": "tail_fin_01",
+      "attach_point": "TailBase",
+      "position": [
+        0,
+        0,
+        -0.3
+      ],
+      "rotation": [
+        15,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_crawler_01",
+      "attach_point": "LeftUpperLeg",
+      "position": [
+        -0.1,
+        -0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_crawler_01",
+      "attach_point": "RightUpperLeg",
+      "position": [
+        0.1,
+        -0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "loot_table": {
+    "guaranteed_drops": [
+      {
+        "item": "phoenix_plume",
+        "chance": 1.0,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "common_drops": [
+      {
+        "item": "sunfire_down",
+        "chance": 0.45,
+        "min_quantity": 1,
+        "max_quantity": 3
+      }
+    ],
+    "rare_drops": [
+      {
+        "item": "rebirth_ash",
+        "chance": 0.12,
+        "min_quantity": 1,
+        "max_quantity": 2
+      }
+    ],
+    "epic_drops": [
+      {
+        "item": "fenghuang_tailfeather",
+        "chance": 0.04,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "currency": {
+      "chance": 0.9,
+      "min_quantity": 12,
+      "max_quantity": 40
+    }
+  }
+}

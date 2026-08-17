@@ -1,0 +1,145 @@
+{
+  "species_id": "celt_selkie",
+  "species_name": "Selkie",
+  "chemistry": "water_carbon",
+  "base_traits": {
+    "scale": 1.3,
+    "diet": "carnivore",
+    "locomotion_preference": "swimming",
+    "aggressiveness": 0.3
+  },
+  "parts": [
+    {
+      "part_id": "head_beak_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_insect_01",
+      "attach_point": "LeftUpperLeg",
+      "position": [
+        -0.1,
+        -0.15,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        20
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_insect_01",
+      "attach_point": "RightUpperLeg",
+      "position": [
+        0.1,
+        -0.15,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -20
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "tail_fin_01",
+      "attach_point": "TailBase",
+      "position": [
+        0,
+        0,
+        -0.3
+      ],
+      "rotation": [
+        15,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "eye_normal_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0.05,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "loot_table": {
+    "guaranteed_drops": [
+      {
+        "item": "seal_skin",
+        "chance": 1.0,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "common_drops": [
+      {
+        "item": "sea_salt",
+        "chance": 0.5,
+        "min_quantity": 1,
+        "max_quantity": 3
+      },
+      {
+        "item": "pearl_shard",
+        "chance": 0.3,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "rare_drops": [
+      {
+        "item": "selkie_coat",
+        "chance": 0.08,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "currency": {
+      "chance": 0.6,
+      "min_quantity": 4,
+      "max_quantity": 16
+    }
+  }
+}

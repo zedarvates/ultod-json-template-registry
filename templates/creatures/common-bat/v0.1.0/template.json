@@ -1,0 +1,120 @@
+{
+  "species_id": "common_bat",
+  "species_name": "Chauve-souris",
+  "chemistry": "water_carbon",
+  "base_traits": {
+    "scale": 0.4,
+    "diet": "carnivore",
+    "locomotion_preference": "flying",
+    "aggressiveness": 0.3
+  },
+  "parts": [
+    {
+      "part_id": "head_jaw_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "wing_bat_01",
+      "attach_point": "Chest",
+      "position": [
+        -0.25,
+        0.05,
+        -0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        25
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "part_id": "wing_bat_01",
+      "attach_point": "Chest",
+      "position": [
+        0.25,
+        0.05,
+        -0.05
+      ],
+      "rotation": [
+        0,
+        0,
+        -25
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "part_id": "eye_compound_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0.05,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "loot_table": {
+    "guaranteed_drops": [
+      {
+        "item": "bat_wing",
+        "chance": 1.0,
+        "min_quantity": 1,
+        "max_quantity": 2
+      }
+    ],
+    "common_drops": [
+      {
+        "item": "guano",
+        "chance": 0.5,
+        "min_quantity": 1,
+        "max_quantity": 3
+      }
+    ],
+    "rare_drops": [
+      {
+        "item": "echo_gland",
+        "chance": 0.05,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "currency": {
+      "chance": 0.15,
+      "min_quantity": 1,
+      "max_quantity": 3
+    }
+  }
+}

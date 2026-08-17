@@ -1,0 +1,172 @@
+{
+  "species_id": "vik_draugr",
+  "species_name": "Draugar",
+  "chemistry": "ammonia",
+  "base_traits": {
+    "scale": 1.9,
+    "diet": "carnivore",
+    "locomotion_preference": "walking",
+    "aggressiveness": 0.8
+  },
+  "parts": [
+    {
+      "part_id": "head_jaw_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "armor_plate_01",
+      "attach_point": "Chest",
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_crawler_heavy",
+      "attach_point": "LeftUpperLeg",
+      "position": [
+        -0.15,
+        -0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_crawler_heavy",
+      "attach_point": "RightUpperLeg",
+      "position": [
+        0.15,
+        -0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "claw_scythe",
+      "attach_point": "LeftShoulder",
+      "position": [
+        -0.3,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "claw_scythe",
+      "attach_point": "RightShoulder",
+      "position": [
+        0.3,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "loot_table": {
+    "guaranteed_drops": [
+      {
+        "item": "barrow_bone",
+        "chance": 1.0,
+        "min_quantity": 1,
+        "max_quantity": 4
+      }
+    ],
+    "common_drops": [
+      {
+        "item": "rusted_seax",
+        "chance": 0.4,
+        "min_quantity": 1,
+        "max_quantity": 1
+      },
+      {
+        "item": "grave_silver",
+        "chance": 0.4,
+        "min_quantity": 1,
+        "max_quantity": 3
+      }
+    ],
+    "rare_drops": [
+      {
+        "item": "draugr_eye",
+        "chance": 0.1,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "epic_drops": [
+      {
+        "item": "barrow_king_ring",
+        "chance": 0.03,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "currency": {
+      "chance": 0.85,
+      "min_quantity": 8,
+      "max_quantity": 30
+    }
+  }
+}

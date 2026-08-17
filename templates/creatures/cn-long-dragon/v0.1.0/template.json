@@ -1,0 +1,185 @@
+{
+  "species_id": "cn_long_dragon",
+  "species_name": "Long (Dragon céleste)",
+  "chemistry": "water_carbon",
+  "base_traits": {
+    "scale": 2.5,
+    "diet": "carnivore",
+    "locomotion_preference": "swimming",
+    "aggressiveness": 0.7
+  },
+  "parts": [
+    {
+      "part_id": "head_beak_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "horn_demonic_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0.1,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_crawler_heavy",
+      "attach_point": "LeftShoulder",
+      "position": [
+        -0.2,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        20
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_crawler_heavy",
+      "attach_point": "RightShoulder",
+      "position": [
+        0.2,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -20
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "tail_whip_01",
+      "attach_point": "TailBase",
+      "position": [
+        0,
+        0,
+        -0.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "tail_fin_01",
+      "attach_point": "TailBase",
+      "position": [
+        0,
+        0,
+        -0.5
+      ],
+      "rotation": [
+        20,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "eye_compound_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0.05,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "loot_table": {
+    "guaranteed_drops": [
+      {
+        "item": "dragon_scale",
+        "chance": 1.0,
+        "min_quantity": 2,
+        "max_quantity": 5
+      }
+    ],
+    "common_drops": [
+      {
+        "item": "cloud_essence",
+        "chance": 0.5,
+        "min_quantity": 1,
+        "max_quantity": 3
+      }
+    ],
+    "rare_drops": [
+      {
+        "item": "dragon_whisker",
+        "chance": 0.15,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "epic_drops": [
+      {
+        "item": "long_pearl",
+        "chance": 0.06,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "currency": {
+      "chance": 1.0,
+      "min_quantity": 40,
+      "max_quantity": 150
+    }
+  }
+}

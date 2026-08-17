@@ -1,0 +1,172 @@
+{
+  "species_id": "celt_kelpie",
+  "species_name": "Kelpie",
+  "chemistry": "water_carbon",
+  "base_traits": {
+    "scale": 1.7,
+    "diet": "carnivore",
+    "locomotion_preference": "swimming",
+    "aggressiveness": 0.7
+  },
+  "parts": [
+    {
+      "part_id": "head_jaw_large",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_hoof_01",
+      "attach_point": "LeftUpperLeg",
+      "position": [
+        -0.1,
+        -0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_hoof_01",
+      "attach_point": "RightUpperLeg",
+      "position": [
+        0.1,
+        -0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_hoof_01",
+      "attach_point": "Hips",
+      "position": [
+        0,
+        -0.2,
+        -0.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_hoof_01",
+      "attach_point": "Spine",
+      "position": [
+        0,
+        0.2,
+        -0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "tail_fin_01",
+      "attach_point": "TailBase",
+      "position": [
+        0,
+        0,
+        -0.3
+      ],
+      "rotation": [
+        15,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "loot_table": {
+    "guaranteed_drops": [
+      {
+        "item": "kelpie_mane",
+        "chance": 1.0,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "common_drops": [
+      {
+        "item": "river_weed",
+        "chance": 0.55,
+        "min_quantity": 1,
+        "max_quantity": 3
+      },
+      {
+        "item": "waterlogged_bridle",
+        "chance": 0.3,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "rare_drops": [
+      {
+        "item": "drowned_offering",
+        "chance": 0.12,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "epic_drops": [
+      {
+        "item": "kelpie_bridle",
+        "chance": 0.03,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "currency": {
+      "chance": 0.8,
+      "min_quantity": 6,
+      "max_quantity": 24
+    }
+  }
+}

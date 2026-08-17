@@ -1,0 +1,185 @@
+{
+  "species_id": "fant_med_unicorn",
+  "species_name": "Licorne",
+  "chemistry": "water_carbon",
+  "base_traits": {
+    "scale": 1.4,
+    "diet": "herbivore",
+    "locomotion_preference": "walking",
+    "aggressiveness": 0.1
+  },
+  "parts": [
+    {
+      "part_id": "head_jaw_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "horn_angelic_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0.15,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_hoof_01",
+      "attach_point": "LeftUpperLeg",
+      "position": [
+        -0.1,
+        -0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_hoof_01",
+      "attach_point": "RightUpperLeg",
+      "position": [
+        0.1,
+        -0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_hoof_01",
+      "attach_point": "Hips",
+      "position": [
+        0,
+        -0.2,
+        -0.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_hoof_01",
+      "attach_point": "Spine",
+      "position": [
+        0,
+        0.2,
+        -0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "tail_whip_01",
+      "attach_point": "TailBase",
+      "position": [
+        0,
+        0,
+        -0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "loot_table": {
+    "guaranteed_drops": [
+      {
+        "item": "unicorn_hair",
+        "chance": 1.0,
+        "min_quantity": 1,
+        "max_quantity": 3
+      }
+    ],
+    "common_drops": [
+      {
+        "item": "pure_spring_water",
+        "chance": 0.45,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "rare_drops": [
+      {
+        "item": "silver_hoof",
+        "chance": 0.1,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "epic_drops": [
+      {
+        "item": "unicorn_horn",
+        "chance": 0.05,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "currency": {
+      "chance": 0.7,
+      "min_quantity": 8,
+      "max_quantity": 30
+    }
+  }
+}

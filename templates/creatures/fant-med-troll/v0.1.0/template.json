@@ -1,0 +1,202 @@
+{
+  "species_id": "fant_med_troll",
+  "species_name": "Troll",
+  "chemistry": "silicate",
+  "base_traits": {
+    "scale": 2.5,
+    "diet": "omnivore",
+    "locomotion_preference": "walking",
+    "aggressiveness": 0.6
+  },
+  "parts": [
+    {
+      "part_id": "head_jaw_large",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "armor_plate_01",
+      "attach_point": "Chest",
+      "position": [
+        0,
+        0.1,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "shell_spikes_01",
+      "attach_point": "Spine",
+      "position": [
+        0,
+        0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_crawler_heavy",
+      "attach_point": "LeftUpperLeg",
+      "position": [
+        -0.2,
+        -0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_crawler_heavy",
+      "attach_point": "RightUpperLeg",
+      "position": [
+        0.2,
+        -0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "claw_scythe",
+      "attach_point": "LeftShoulder",
+      "position": [
+        -0.3,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "claw_scythe",
+      "attach_point": "RightShoulder",
+      "position": [
+        0.3,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "tail_whip_01",
+      "attach_point": "TailBase",
+      "position": [
+        0,
+        0,
+        -0.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "loot_table": {
+    "guaranteed_drops": [
+      {
+        "item": "troll_hide",
+        "chance": 1.0,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "common_drops": [
+      {
+        "item": "troll_fat",
+        "chance": 0.5,
+        "min_quantity": 1,
+        "max_quantity": 2
+      },
+      {
+        "item": "crude_club",
+        "chance": 0.25,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "rare_drops": [
+      {
+        "item": "regenerating_flesh",
+        "chance": 0.1,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "currency": {
+      "chance": 0.8,
+      "min_quantity": 6,
+      "max_quantity": 25
+    }
+  }
+}

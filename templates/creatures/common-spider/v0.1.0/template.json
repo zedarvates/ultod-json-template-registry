@@ -1,0 +1,164 @@
+{
+  "species_id": "common_spider",
+  "species_name": "Araignée",
+  "chemistry": "water_carbon",
+  "base_traits": {
+    "scale": 0.5,
+    "diet": "carnivore",
+    "locomotion_preference": "crawling",
+    "aggressiveness": 0.4
+  },
+  "parts": [
+    {
+      "part_id": "head_jaw_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_insect_01",
+      "attach_point": "LeftShoulder",
+      "position": [
+        -0.15,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        30
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_insect_01",
+      "attach_point": "RightShoulder",
+      "position": [
+        0.15,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -30
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_insect_01",
+      "attach_point": "LeftUpperLeg",
+      "position": [
+        -0.1,
+        -0.15,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        30
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_insect_01",
+      "attach_point": "RightUpperLeg",
+      "position": [
+        0.1,
+        -0.15,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -30
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "eye_compound_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0.05,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "loot_table": {
+    "guaranteed_drops": [
+      {
+        "item": "spider_silk",
+        "chance": 1.0,
+        "min_quantity": 1,
+        "max_quantity": 4
+      }
+    ],
+    "common_drops": [
+      {
+        "item": "venom_sac",
+        "chance": 0.4,
+        "min_quantity": 1,
+        "max_quantity": 1
+      },
+      {
+        "item": "chitin_plate",
+        "chance": 0.35,
+        "min_quantity": 1,
+        "max_quantity": 2
+      }
+    ],
+    "rare_drops": [
+      {
+        "item": "silk_gland",
+        "chance": 0.06,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "currency": {
+      "chance": 0.2,
+      "min_quantity": 1,
+      "max_quantity": 4
+    }
+  }
+}

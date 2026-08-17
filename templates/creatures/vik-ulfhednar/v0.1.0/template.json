@@ -1,0 +1,202 @@
+{
+  "species_id": "vik_ulfhednar",
+  "species_name": "Ulfhednar (Ours berserker)",
+  "chemistry": "water_carbon",
+  "base_traits": {
+    "scale": 2.0,
+    "diet": "carnivore",
+    "locomotion_preference": "walking",
+    "aggressiveness": 0.85
+  },
+  "parts": [
+    {
+      "part_id": "head_jaw_large",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_crawler_heavy",
+      "attach_point": "LeftUpperLeg",
+      "position": [
+        -0.15,
+        -0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_crawler_heavy",
+      "attach_point": "RightUpperLeg",
+      "position": [
+        0.15,
+        -0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_crawler_heavy",
+      "attach_point": "Hips",
+      "position": [
+        0,
+        -0.2,
+        -0.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_crawler_heavy",
+      "attach_point": "Spine",
+      "position": [
+        0,
+        0.2,
+        -0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "claw_scythe",
+      "attach_point": "LeftShoulder",
+      "position": [
+        -0.3,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "claw_scythe",
+      "attach_point": "RightShoulder",
+      "position": [
+        0.3,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "tail_whip_01",
+      "attach_point": "TailBase",
+      "position": [
+        0,
+        0,
+        -0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "loot_table": {
+    "guaranteed_drops": [
+      {
+        "item": "wolf_pelt",
+        "chance": 1.0,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "common_drops": [
+      {
+        "item": "berserker_tooth",
+        "chance": 0.45,
+        "min_quantity": 1,
+        "max_quantity": 2
+      },
+      {
+        "item": "torn_cloth",
+        "chance": 0.4,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "rare_drops": [
+      {
+        "item": "rage_totem",
+        "chance": 0.1,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "currency": {
+      "chance": 0.8,
+      "min_quantity": 6,
+      "max_quantity": 24
+    }
+  }
+}

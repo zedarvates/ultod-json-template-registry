@@ -1,0 +1,110 @@
+{
+  "species_id": "celt_banshee",
+  "species_name": "Banshee",
+  "faction_id": "fae_court",
+  "chemistry": "ammonia",
+  "base_traits": {
+    "scale": 1.5,
+    "diet": "omnivore",
+    "locomotion_preference": "walking",
+    "aggressiveness": 0.5
+  },
+  "parts": [
+    {
+      "part_id": "head_jaw_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "horn_angelic_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0.15,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "eye_compound_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0.05,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "loot_table": {
+    "guaranteed_drops": [
+      {
+        "item": "wailing_shroud",
+        "chance": 1.0,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "common_drops": [
+      {
+        "item": "grave_dust",
+        "chance": 0.5,
+        "min_quantity": 1,
+        "max_quantity": 3
+      }
+    ],
+    "rare_drops": [
+      {
+        "item": "keening_echo",
+        "chance": 0.12,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "epic_drops": [
+      {
+        "item": "banshee_tear",
+        "chance": 0.04,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "currency": {
+      "chance": 0.6,
+      "min_quantity": 5,
+      "max_quantity": 20
+    }
+  }
+}

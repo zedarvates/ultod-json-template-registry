@@ -4,7 +4,7 @@ Ce dossier accueille les modèles et schémas JSON versionnés du registre.
 
 ## État actuel
 
-La collection contient actuellement 16 schémas, un modèle de motifs haptiques, trois presets d'avatar, huit biomes, trois collections d'achievements, un modèle d'événement, trois configurations de guilde, un modèle de lieu, un blueprint de maison, un modèle de noms, six styles architecturaux, quatre modèles de rift, une configuration de groupe, un parcours de mentorat, un modèle de mariage, un événement social, sept donjons, une configuration de parangons, deux modèles de boss, trois chefs-d'œuvre d'artisanat et cinq recettes. Ils sont publiés en `v0.1.0` avec le statut `experimental` et sans certification de compatibilité, d'assets, de rendu, de balancing ou d'exactitude culturelle.
+La collection contient actuellement 16 schémas, un modèle de motifs haptiques, trois presets d'avatar, huit biomes, trois collections d'achievements, un modèle d'événement, trois configurations de guilde, un modèle de lieu, un blueprint de maison, un modèle de noms, six styles architecturaux, quatre modèles de rift, une configuration de groupe, un parcours de mentorat, un modèle de mariage, un événement social, sept donjons, une configuration de parangons, deux modèles de boss, trois chefs-d'œuvre d'artisanat, cinq recettes et 29 modèles de créatures. Ils sont publiés en `v0.1.0` avec le statut `experimental` et sans certification de compatibilité, d'assets, de rendu, de balancing ou d'exactitude culturelle.
 
 Les permissions, rangs et accès de banque décrits dans les modèles de guilde sont uniquement déclaratifs. Ils ne doivent jamais remplacer une autorisation et une validation côté serveur.
 
@@ -25,6 +25,8 @@ Les statistiques, phases, capacités, invocations et butins de boss doivent êtr
 Les matériaux, expériences, bonus permanents, immunités et propriétés de chefs-d'œuvre doivent être validés et attribués côté serveur.
 
 Les ingrédients, stations, niveaux, qualités, temps de fabrication et expériences de recettes doivent être validés côté serveur.
+
+Les chimies, traits, anatomies, pièces et butins de créatures sont déclaratifs ; ils ne constituent pas une référence scientifique ou culturelle.
 
 Le fichier `catalog.json` fournit leur chemin, leur version et leur empreinte SHA-256.
 

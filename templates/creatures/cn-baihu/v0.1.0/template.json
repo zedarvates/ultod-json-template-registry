@@ -1,0 +1,185 @@
+{
+  "species_id": "cn_baihu",
+  "species_name": "Baihu (Tigre blanc)",
+  "chemistry": "water_carbon",
+  "base_traits": {
+    "scale": 1.6,
+    "diet": "carnivore",
+    "locomotion_preference": "walking",
+    "aggressiveness": 0.7
+  },
+  "parts": [
+    {
+      "part_id": "head_jaw_large",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_crawler_heavy",
+      "attach_point": "LeftUpperLeg",
+      "position": [
+        -0.1,
+        -0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_crawler_heavy",
+      "attach_point": "RightUpperLeg",
+      "position": [
+        0.1,
+        -0.2,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_crawler_heavy",
+      "attach_point": "Hips",
+      "position": [
+        0,
+        -0.2,
+        -0.3
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_crawler_heavy",
+      "attach_point": "Spine",
+      "position": [
+        0,
+        0.2,
+        -0.4
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "tail_whip_01",
+      "attach_point": "TailBase",
+      "position": [
+        0,
+        0,
+        -0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "eye_compound_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0.05,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "loot_table": {
+    "guaranteed_drops": [
+      {
+        "item": "white_tiger_pelt",
+        "chance": 1.0,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "common_drops": [
+      {
+        "item": "tiger_fang",
+        "chance": 0.5,
+        "min_quantity": 1,
+        "max_quantity": 2
+      }
+    ],
+    "rare_drops": [
+      {
+        "item": "metal_essence",
+        "chance": 0.12,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "epic_drops": [
+      {
+        "item": "baihu_claw",
+        "chance": 0.04,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "currency": {
+      "chance": 0.9,
+      "min_quantity": 10,
+      "max_quantity": 36
+    }
+  }
+}

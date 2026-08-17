@@ -1,0 +1,172 @@
+{
+  "species_id": "vik_kraken",
+  "species_name": "Kraken",
+  "chemistry": "water_carbon",
+  "base_traits": {
+    "scale": 3.0,
+    "diet": "carnivore",
+    "locomotion_preference": "swimming",
+    "aggressiveness": 0.8
+  },
+  "parts": [
+    {
+      "part_id": "head_beak_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_insect_01",
+      "attach_point": "LeftShoulder",
+      "position": [
+        -0.2,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        30
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_insect_01",
+      "attach_point": "RightShoulder",
+      "position": [
+        0.2,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -30
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_insect_01",
+      "attach_point": "LeftUpperLeg",
+      "position": [
+        -0.1,
+        -0.15,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        30
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "leg_insect_01",
+      "attach_point": "RightUpperLeg",
+      "position": [
+        0.1,
+        -0.15,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        -30
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "tail_fin_01",
+      "attach_point": "TailBase",
+      "position": [
+        0,
+        0,
+        -0.3
+      ],
+      "rotation": [
+        15,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "loot_table": {
+    "guaranteed_drops": [
+      {
+        "item": "kraken_tentacle",
+        "chance": 1.0,
+        "min_quantity": 2,
+        "max_quantity": 5
+      }
+    ],
+    "common_drops": [
+      {
+        "item": "deep_ink",
+        "chance": 0.55,
+        "min_quantity": 1,
+        "max_quantity": 3
+      },
+      {
+        "item": "barnacle_cluster",
+        "chance": 0.4,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "rare_drops": [
+      {
+        "item": "kraken_beak",
+        "chance": 0.12,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "epic_drops": [
+      {
+        "item": "abyssal_pearl",
+        "chance": 0.05,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "currency": {
+      "chance": 1.0,
+      "min_quantity": 30,
+      "max_quantity": 120
+    }
+  }
+}

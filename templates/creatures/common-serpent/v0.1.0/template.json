@@ -1,0 +1,126 @@
+{
+  "species_id": "common_serpent",
+  "species_name": "Serpent",
+  "chemistry": "water_carbon",
+  "base_traits": {
+    "scale": 1.5,
+    "diet": "carnivore",
+    "locomotion_preference": "crawling",
+    "aggressiveness": 0.5
+  },
+  "parts": [
+    {
+      "part_id": "head_jaw_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "tail_whip_01",
+      "attach_point": "TailBase",
+      "position": [
+        0,
+        0,
+        -0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "tail_stinger_01",
+      "attach_point": "TailBase",
+      "position": [
+        0,
+        0,
+        -0.4
+      ],
+      "rotation": [
+        20,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "eye_normal_01",
+      "attach_point": "Head",
+      "position": [
+        0,
+        0.05,
+        0.1
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "loot_table": {
+    "guaranteed_drops": [
+      {
+        "item": "snake_skin",
+        "chance": 1.0,
+        "min_quantity": 1,
+        "max_quantity": 2
+      }
+    ],
+    "common_drops": [
+      {
+        "item": "venom_vial",
+        "chance": 0.45,
+        "min_quantity": 1,
+        "max_quantity": 1
+      },
+      {
+        "item": "serpent_fang",
+        "chance": 0.3,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "rare_drops": [
+      {
+        "item": "shed_royal_scale",
+        "chance": 0.06,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "currency": {
+      "chance": 0.2,
+      "min_quantity": 1,
+      "max_quantity": 4
+    }
+  }
+}
