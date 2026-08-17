@@ -1,0 +1,32 @@
+name: Validate registry
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Parse every JSON document
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          files = sorted(Path("templates").rglob("*.json"))
+          if not files:
+              raise SystemExit("No JSON templates found")
+          for path in files:
+              with path.open(encoding="utf-8") as stream:
+                  json.load(stream)
+          print(f"Validated {len(files)} JSON documents")
+          PY
