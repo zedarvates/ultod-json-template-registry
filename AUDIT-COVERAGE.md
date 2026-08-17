@@ -7,7 +7,7 @@ Ce rapport agrégé suit l'inventaire exhaustif sans publier les chemins sensibl
 - Candidats serveur courants : 4009
 - Entrées du catalogue public : 1186
 - Candidats couverts par une empreinte publiée : 1186
-- Candidats encore en attente d'audit : 2454
+- Candidats encore en attente d'audit : 2340
 - Chemins multisources divergents : 95
 - JSON invalides : 0
 - Gitleaks : propre sur les trois sources et le registre public

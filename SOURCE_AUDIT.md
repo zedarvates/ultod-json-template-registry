@@ -81,6 +81,8 @@ Les six fichiers publiés de `divine_system` couvrent des alignements, exemples 
 
 Les familles `cities`, `sects`, `lineage` et `npcs` sont entièrement exclues après audit. La ville unique est divergente et expose des assets/runtime ; les 12 techniques de secte et les 16 lignées embarquent des contrôles admin/debug, des assets ou des références culturelles ; les 23 PNJ sont divergents et combinent contrôles administratifs, assets, économie ou services internes.
 
+Les cinq petites familles à droits mixtes sont entièrement exclues après audit, soit 114 fichiers. `bulk_orders` reprend une mécanique fortement associée à Ultima Online et son fichier de récolte contient en plus une référence tierce. Les 17 `talent` forment un arbre très proche de Warcraft. `racial_traits` contient des contrôles admin/debug, des assets et un fichier One Piece. `race` combine imports Sphere, Skaven, Tiefling, Drow, clans Vampire, contrôles internes et assets. Enfin, les 35 `skills` restent exclues pour contrôles admin/debug, références tierces, état runtime, commerce ou assets ; même les sept fichiers structurellement génériques conservent des marqueurs de debug.
+
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :
 
 - du contenu narratif et de jeu dont les droits ou les inspirations doivent être vérifiés ;

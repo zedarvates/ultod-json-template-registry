@@ -16,7 +16,7 @@
   "catalog_entry_count": 1186,
   "server_current_covered_by_published_hash": 1186,
   "server_current_not_covered_by_published_hash": 2823,
-  "server_current_pending_audit": 2454,
+  "server_current_pending_audit": 2340,
   "gitleaks": {
     "root_templates": "clean",
     "server_templates": "clean",
@@ -134,14 +134,14 @@
     },
     {
       "family": "bulk_orders",
-      "audit_state": "pending",
+      "audit_state": "audited",
       "source_current_count": 4,
       "published_or_deduplicated_count": 0,
       "not_published_count": 4,
       "client_identical_count": 4,
       "client_divergent_count": 0,
       "client_missing_count": 0,
-      "disposition": "pending-review",
+      "disposition": "excluded",
       "review_basis": "third-party references or mixed-rights content family"
     },
     {
@@ -590,26 +590,26 @@
     },
     {
       "family": "race",
-      "audit_state": "pending",
+      "audit_state": "audited",
       "source_current_count": 33,
       "published_or_deduplicated_count": 0,
       "not_published_count": 33,
       "client_identical_count": 33,
       "client_divergent_count": 0,
       "client_missing_count": 0,
-      "disposition": "pending-review",
+      "disposition": "excluded",
       "review_basis": "third-party references or mixed-rights content family"
     },
     {
       "family": "racial_traits",
-      "audit_state": "pending",
+      "audit_state": "audited",
       "source_current_count": 25,
       "published_or_deduplicated_count": 0,
       "not_published_count": 25,
       "client_identical_count": 25,
       "client_divergent_count": 0,
       "client_missing_count": 0,
-      "disposition": "pending-review",
+      "disposition": "excluded",
       "review_basis": "third-party references or mixed-rights content family"
     },
     {
@@ -698,14 +698,14 @@
     },
     {
       "family": "skills",
-      "audit_state": "pending",
+      "audit_state": "audited",
       "source_current_count": 35,
       "published_or_deduplicated_count": 0,
       "not_published_count": 35,
       "client_identical_count": 35,
       "client_divergent_count": 0,
       "client_missing_count": 0,
-      "disposition": "pending-review",
+      "disposition": "excluded",
       "review_basis": "third-party references or mixed-rights content family"
     },
     {
@@ -746,14 +746,14 @@
     },
     {
       "family": "talent",
-      "audit_state": "pending",
+      "audit_state": "audited",
       "source_current_count": 17,
       "published_or_deduplicated_count": 0,
       "not_published_count": 17,
       "client_identical_count": 17,
       "client_divergent_count": 0,
       "client_missing_count": 0,
-      "disposition": "pending-review",
+      "disposition": "excluded",
       "review_basis": "third-party references or mixed-rights content family"
     },
     {
