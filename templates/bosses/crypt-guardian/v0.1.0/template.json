@@ -1,0 +1,35 @@
+{
+  "id": "gardien_crypte_01",
+  "name": "Gardien de la Crypte",
+  "base_hp": 6000,
+  "hp_per_level": 300,
+  "base_attack": 70,
+  "base_defense": 45,
+  "loot_ref": "loot_crypte_commune",
+  "phases": [
+    {
+      "phase": "phase_1",
+      "hp_threshold_pct": 100,
+      "abilities": ["coup_de_fleau", "malediction_mineure"]
+    },
+    {
+      "phase": "phase_2",
+      "hp_threshold_pct": 75,
+      "abilities": ["coup_de_fleau", "malediction_mineure", "invocation_ossements"],
+      "add_template": "custom_beast_01",
+      "add_count": 2
+    },
+    {
+      "phase": "phase_3",
+      "hp_threshold_pct": 50,
+      "abilities": ["coup_de_fleau", "malediction_majeure", "invocation_ossements"],
+      "add_template": "custom_beast_01",
+      "add_count": 3
+    },
+    {
+      "phase": "enraged",
+      "hp_threshold_pct": 25,
+      "abilities": ["colere_du_gardien", "malediction_majeure"]
+    }
+  ]
+}

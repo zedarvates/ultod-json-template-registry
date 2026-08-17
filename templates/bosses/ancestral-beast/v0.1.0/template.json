@@ -1,0 +1,35 @@
+{
+  "id": "custom_beast_01",
+  "name": "Bête Ancestrale",
+  "base_hp": 4000,
+  "hp_per_level": 350,
+  "base_attack": 60,
+  "base_defense": 25,
+  "loot_ref": "loot_table_commune",
+  "phases": [
+    {
+      "phase": "phase_1",
+      "hp_threshold_pct": 100,
+      "abilities": ["griffure", "charge"]
+    },
+    {
+      "phase": "phase_2",
+      "hp_threshold_pct": 75,
+      "abilities": ["griffure", "charge", "rugissement_sonore"],
+      "add_template": "custom_beast_01",
+      "add_count": 1
+    },
+    {
+      "phase": "phase_3",
+      "hp_threshold_pct": 50,
+      "abilities": ["griffure", "charge_double", "rugissement_sonore"],
+      "add_template": "custom_beast_01",
+      "add_count": 2
+    },
+    {
+      "phase": "enraged",
+      "hp_threshold_pct": 25,
+      "abilities": ["frenesie_sanguinaire", "charge_double"]
+    }
+  ]
+}

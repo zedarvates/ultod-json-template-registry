@@ -4,7 +4,7 @@ Ce dossier accueille les modèles et schémas JSON versionnés du registre.
 
 ## État actuel
 
-La collection contient actuellement 16 schémas, un modèle de motifs haptiques, trois presets d'avatar, huit biomes, trois collections d'achievements, un modèle d'événement, trois configurations de guilde, un modèle de lieu, un blueprint de maison, un modèle de noms, six styles architecturaux, quatre modèles de rift, une configuration de groupe, un parcours de mentorat, un modèle de mariage, un événement social, un donjon et une configuration de parangons. Ils sont publiés en `v0.1.0` avec le statut `experimental` et sans certification de compatibilité, d'assets, de rendu, de balancing ou d'exactitude culturelle.
+La collection contient actuellement 16 schémas, un modèle de motifs haptiques, trois presets d'avatar, huit biomes, trois collections d'achievements, un modèle d'événement, trois configurations de guilde, un modèle de lieu, un blueprint de maison, un modèle de noms, six styles architecturaux, quatre modèles de rift, une configuration de groupe, un parcours de mentorat, un modèle de mariage, un événement social, un donjon, une configuration de parangons et deux modèles de boss. Ils sont publiés en `v0.1.0` avec le statut `experimental` et sans certification de compatibilité, d'assets, de rendu, de balancing ou d'exactitude culturelle.
 
 Les permissions, rangs et accès de banque décrits dans les modèles de guilde sont uniquement déclaratifs. Ils ne doivent jamais remplacer une autorisation et une validation côté serveur.
 
@@ -19,6 +19,8 @@ Le consentement, les coûts, bonus, logements et stockages partagés d'un mariag
 Les participants, horaires, frais et récompenses d'un événement social doivent être autorisés et validés côté serveur.
 
 Les difficultés, apparitions, statistiques et récompenses de donjon ou de parangon doivent être calculées et validées côté serveur.
+
+Les statistiques, phases, capacités, invocations et butins de boss doivent être calculés et validés côté serveur.
 
 Le fichier `catalog.json` fournit leur chemin, leur version et leur empreinte SHA-256.
 

@@ -650,6 +650,30 @@
                         "compatibility":  [
 
                                           ]
+                    },
+                    {
+                        "name":  "ancestral-beast",
+                        "kind":  "boss-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/bosses/ancestral-beast/v0.1.0/template.json",
+                        "source_file":  "custom_beast_01.json",
+                        "sha256":  "8a5772a34aac9b0922894e5f18da84f162eae80c78bfa14fd5a6c35e9c1eeda2",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "crypt-guardian",
+                        "kind":  "boss-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/bosses/crypt-guardian/v0.1.0/template.json",
+                        "source_file":  "gardien_crypte_01.json",
+                        "sha256":  "5102b23e6ca8ca47e7d8c72dcb7277c5080d645547179b4b0edc31020862adba",
+                        "compatibility":  [
+
+                                          ]
                     }
                 ]
 }

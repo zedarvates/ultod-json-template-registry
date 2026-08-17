@@ -53,6 +53,8 @@ Le lot `social_event` publie `wedding_ceremony.json`, identique octet pour octet
 
 Le lot suivant publie `dungeon/crypt_of_shadows.json` depuis la source serveur et `paragons/paragon_master_config.json`. La copie client du donjon diverge : sa compatibilité reste donc vide et aucune synchronisation client n'est revendiquée. Les difficultés, apparitions, statistiques, butins et récompenses sont déclaratifs et doivent être calculés et validés côté serveur. `bods/bod_blacksmith_platemail.json` et `champions/champion_despise_vermin.json` restent exclus pour références directes à Ultima Online. `planets/terre.json` reste exclu comme configuration runtime interne divergente, et `pvp/temporal_chronomancer_arena.json` pour ses contrôles administratifs et mécanismes internes détaillés.
 
+Le lot `bosses` publie `custom_beast_01.json` et `gardien_crypte_01.json`, identiques octet pour octet entre les sources serveur et client auditées. Leurs statistiques, phases, capacités, invocations et références de butin sont déclaratives et doivent être résolues et validées côté serveur. Les deux fichiers `loot` restent exclus car leurs commentaires révèlent des chemins et statistiques d'implémentation Zig et les copies client divergent. Les deux tournois restent exclus pour leurs mécanismes économiques, pari ou contrôles administratifs. Les deux fichiers `virtues_factions` restent exclus pour leurs marqueurs associés à Ultima Online, notamment Britain.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :
