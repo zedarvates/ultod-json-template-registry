@@ -43,6 +43,8 @@ Le lot `styles` publie les six fichiers audités : citadelle elfique, crypte d'o
 
 Le lot `rifts` publie les quatre fichiers audités : chaos, dimensionnel, élémentaire et temporel. Les copies serveur et client sont identiques octet pour octet. Les niveaux, coordonnées, vagues, délais, propriétés, objectifs et récompenses sont des valeurs déclaratives non certifiées ; toute activation et attribution doit être autorisée et validée côté serveur. Aucun code serveur, protocole interne ou état de production n'est inclus.
 
+Le lot `party` publie `adventure_party.json`, identique octet pour octet entre les sources serveur et client auditées. Les méthodes de butin, bonus, appartenances, factions et limites de composition sont déclaratifs et doivent être recalculés, autorisés et validés côté serveur. `city_layouts/havre_du_roi.json` reste exclu car les copies divergent et la source contient un layout résolu par le serveur ainsi que des chemins d'assets internes. `gathering_node/mithril_vein.json` reste exclu en raison de sa référence explicite au Mithril associé à Tolkien.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

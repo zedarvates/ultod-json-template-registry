@@ -1,0 +1,32 @@
+{
+  "id": "adventure_party",
+  "name": "Groupe d'Aventure",
+  "description": "Un groupe équilibré pour les quêtes et explorations",
+  "max_members": 5,
+  "loot_methods": ["round_robin", "master_looter", "need_before_greed"],
+  "default_loot_method": "round_robin",
+  "level_range": {
+    "min": 1,
+    "max": 100
+  },
+  "bonuses": [
+    {
+      "type": "experience",
+      "value": 10.0,
+      "condition": "full_party",
+      "description": "+10% d'expérience en groupe complet"
+    },
+    {
+      "type": "loot",
+      "value": 5.0,
+      "condition": "guild_members",
+      "description": "+5% de loot avec membres de guilde"
+    }
+  ],
+  "restrictions": {
+    "allow_cross_faction": true,
+    "allow_different_classes": true,
+    "require_guild_membership": false,
+    "max_same_class": 3
+  }
+}
