@@ -57,6 +57,8 @@ Le lot `bosses` publie `custom_beast_01.json` et `gardien_crypte_01.json`, ident
 
 Le lot `masterpiece` publie ses trois créations, identiques octet pour octet entre les sources serveur et client auditées : armure divine, élixir de vie éternelle et lame d'éternité. Les matériaux, expériences, propriétés, immunités et bonus permanents sont déclaratifs et doivent être validés puis attribués côté serveur. Les trois fichiers `ability` restent exclus dans l'attente d'une adaptation originale, car le lot contient des noms de capacités directement associés à Warcraft, notamment `Blizzard` et `Frostbolt`.
 
+Le lot `dungeons` publie ses six layouts depuis la source serveur : antre de glace, crypte d'ossements profonde, crypte de démonstration, crypte générée par grammaire, forteresse d'obsidienne et repaire de racines. Les six copies client divergent ; aucune compatibilité client n'est revendiquée. Tuiles, murs, marqueurs, références de boss et récompenses restent déclaratifs, sans asset inclus ou certifié. Les cinq fichiers `skillclass` restent exclus car ils déclarent être importés de Sphere et reprennent la taxonomie de compétences Ultima Online.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

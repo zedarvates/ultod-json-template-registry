@@ -710,6 +710,78 @@
                         "compatibility":  [
 
                                           ]
+                    },
+                    {
+                        "name":  "ice-lair",
+                        "kind":  "dungeon-layout",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/dungeons/ice-lair/v0.1.0/template.json",
+                        "source_file":  "antre_glace_isole.json",
+                        "sha256":  "449be25b82924f26c32aae193c7d625aeb3feec2a91a767d6368cff30b698218",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "deep-bone-crypt",
+                        "kind":  "dungeon-layout",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/dungeons/deep-bone-crypt/v0.1.0/template.json",
+                        "source_file":  "crypte_ossements_profonde.json",
+                        "sha256":  "f214013af07be56d7b1e783a7b4679a5cb9e5c6c6022ecd6a4adc58d3c1158c6",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "demo-crypt",
+                        "kind":  "dungeon-layout",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/dungeons/demo-crypt/v0.1.0/template.json",
+                        "source_file":  "exemple_crypte.json",
+                        "sha256":  "71a6fd1fe905149f162aa9891994f1abf06e80b8623c02af9ccabe289ba36451",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "grammar-generated-crypt",
+                        "kind":  "dungeon-layout",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/dungeons/grammar-generated-crypt/v0.1.0/template.json",
+                        "source_file":  "exemple_genere_grammaire.json",
+                        "sha256":  "58c7cd977e8879f096dfe5c2fe0babc072204a6b830163d71a9e28dfab509fa5",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "obsidian-fortress",
+                        "kind":  "dungeon-layout",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/dungeons/obsidian-fortress/v0.1.0/template.json",
+                        "source_file":  "forteresse_obsidienne.json",
+                        "sha256":  "9c27e0b5047eb3456e41f463efc8b7a27bafa68313a42c2a462d10fc7c9059ca",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "root-lair",
+                        "kind":  "dungeon-layout",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/dungeons/root-lair/v0.1.0/template.json",
+                        "source_file":  "repaire_racines.json",
+                        "sha256":  "d4a86f5a9c77eac952bc3ba954637bb70feb85814e154d1f2a3b0d2073f2a5a8",
+                        "compatibility":  [
+
+                                          ]
                     }
                 ]
 }

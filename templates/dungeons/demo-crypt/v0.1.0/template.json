@@ -1,0 +1,90 @@
+{
+  "dungeon_id": "exemple_crypte",
+  "name": "Crypte de démonstration",
+  "theme": "crypt",
+  "min_level": 5,
+  "max_level": 12,
+  "base_difficulty": "normal",
+  "time_limit_minutes": 45,
+  "reward_schema_version": 1,
+  "lot": { "width": 16, "depth": 16, "cell_size": 1.0, "floor_height": 3.0 },
+  "levels": [
+    {
+      "depth": 0,
+      "tiles": [
+        { "x": 6, "z": 6, "part_id": "sol_dalle" }, { "x": 7, "z": 6, "part_id": "sol_dalle" },
+        { "x": 8, "z": 6, "part_id": "sol_dalle" }, { "x": 9, "z": 6, "part_id": "sol_dalle" },
+        { "x": 6, "z": 7, "part_id": "sol_dalle" }, { "x": 7, "z": 7, "part_id": "sol_dalle" },
+        { "x": 8, "z": 7, "part_id": "sol_dalle" }, { "x": 9, "z": 7, "part_id": "sol_dalle" },
+        { "x": 6, "z": 8, "part_id": "sol_dalle" }, { "x": 7, "z": 8, "part_id": "sol_dalle" },
+        { "x": 8, "z": 8, "part_id": "sol_dalle" }, { "x": 9, "z": 8, "part_id": "sol_dalle" },
+        { "x": 7, "z": 9, "part_id": "sol_dalle" }, { "x": 8, "z": 9, "part_id": "sol_dalle" },
+        { "x": 7, "z": 10, "part_id": "sol_dalle" }, { "x": 8, "z": 10, "part_id": "sol_dalle" },
+        { "x": 7, "z": 11, "part_id": "sol_dalle" }, { "x": 8, "z": 11, "part_id": "sol_dalle" }
+      ],
+      "walls": [
+        { "x": 6, "z": 6, "edge": "N", "part_id": "mur_pierre_brute" },
+        { "x": 7, "z": 6, "edge": "N", "part_id": "mur_pierre_brute" },
+        { "x": 8, "z": 6, "edge": "N", "part_id": "mur_pierre_brute" },
+        { "x": 9, "z": 6, "edge": "N", "part_id": "mur_pierre_brute" },
+        { "x": 6, "z": 6, "edge": "W", "part_id": "mur_pierre_brute" },
+        { "x": 6, "z": 7, "edge": "W", "part_id": "mur_pierre_brute" },
+        { "x": 6, "z": 8, "edge": "W", "part_id": "mur_pierre_brute" },
+        { "x": 10, "z": 6, "edge": "W", "part_id": "mur_pierre_brute" },
+        { "x": 10, "z": 7, "edge": "W", "part_id": "mur_pierre_brute" },
+        { "x": 10, "z": 8, "edge": "W", "part_id": "mur_pierre_brute" },
+        { "x": 6, "z": 9, "edge": "N", "part_id": "mur_pierre_brute" },
+        { "x": 9, "z": 9, "edge": "N", "part_id": "mur_pierre_brute" },
+        { "x": 7, "z": 9, "edge": "W", "part_id": "mur_pierre_brute" },
+        { "x": 9, "z": 9, "edge": "W", "part_id": "mur_pierre_brute" },
+        { "x": 7, "z": 9, "edge": "N", "part_id": "porte_bois" },
+        { "x": 7, "z": 12, "edge": "N", "part_id": "mur_pierre_brute" },
+        { "x": 8, "z": 12, "edge": "N", "part_id": "mur_pierre_brute" },
+        { "x": 7, "z": 10, "edge": "W", "part_id": "mur_pierre_brute" },
+        { "x": 9, "z": 10, "edge": "W", "part_id": "mur_pierre_brute" },
+        { "x": 7, "z": 11, "edge": "W", "part_id": "mur_pierre_brute" },
+        { "x": 9, "z": 11, "edge": "W", "part_id": "porte_herse" }
+      ],
+      "markers": [
+        { "x": 7, "z": 6, "part_id": "entree", "rotation": 0 },
+        { "x": 8, "z": 6, "part_id": "torche", "rotation": 0 },
+        { "x": 6, "z": 8, "part_id": "torche", "rotation": 0 },
+        { "x": 8, "z": 8, "part_id": "spawner", "rotation": 0, "ref": "custom_beast_01" },
+        { "x": 9, "z": 8, "part_id": "spawner", "rotation": 0, "ref": "custom_beast_01" },
+        { "x": 6, "z": 7, "part_id": "piege_pics", "rotation": 0 },
+        { "x": 8, "z": 10, "part_id": "coffre", "rotation": 0, "ref": "loot_crypte_commune" },
+        { "x": 7, "z": 11, "part_id": "escalier_desc", "rotation": 180 }
+      ]
+    },
+    {
+      "depth": 1,
+      "tiles": [
+        { "x": 7, "z": 10, "part_id": "sol_terre" }, { "x": 8, "z": 10, "part_id": "sol_terre" },
+        { "x": 7, "z": 11, "part_id": "sol_terre" }, { "x": 8, "z": 11, "part_id": "sol_terre" },
+        { "x": 7, "z": 12, "part_id": "sol_lave" }, { "x": 8, "z": 12, "part_id": "sol_lave" }
+      ],
+      "walls": [
+        { "x": 7, "z": 10, "edge": "N", "part_id": "mur_brique" },
+        { "x": 8, "z": 10, "edge": "N", "part_id": "mur_brique" },
+        { "x": 7, "z": 10, "edge": "W", "part_id": "mur_brique" },
+        { "x": 9, "z": 10, "edge": "W", "part_id": "mur_brique" },
+        { "x": 9, "z": 11, "edge": "W", "part_id": "mur_brique" },
+        { "x": 9, "z": 12, "edge": "W", "part_id": "mur_brique" },
+        { "x": 7, "z": 13, "edge": "N", "part_id": "mur_brique" },
+        { "x": 8, "z": 13, "edge": "N", "part_id": "mur_brique" },
+        { "x": 7, "z": 12, "edge": "W", "part_id": "mur_grille" }
+      ],
+      "markers": [
+        { "x": 7, "z": 11, "part_id": "escalier_mont", "rotation": 0 },
+        { "x": 8, "z": 12, "part_id": "autel", "rotation": 0 },
+        { "x": 7, "z": 12, "part_id": "boss", "rotation": 0, "ref": "gardien_crypte_01" },
+        { "x": 8, "z": 10, "part_id": "sortie", "rotation": 0 }
+      ]
+    }
+  ],
+  "rewards": [
+    { "type": "gold", "gold": 150 },
+    { "type": "experience", "experience": 350 },
+    { "type": "item", "item_id": "healing_potion", "quantity": 1, "chance": 0.25 }
+  ]
+}

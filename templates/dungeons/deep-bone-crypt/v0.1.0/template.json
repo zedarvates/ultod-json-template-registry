@@ -1,0 +1,2455 @@
+{
+ "dungeon_id": "crypte_ossements_profonde",
+ "name": "crypte_ossements_profonde",
+ "theme": "crypt",
+ "min_level": 10,
+ "max_level": 18,
+ "base_difficulty": "normal",
+ "time_limit_minutes": 0,
+ "reward_schema_version": 1,
+ "lot": {
+  "width": 26,
+  "depth": 26,
+  "cell_size": 1,
+  "floor_height": 3
+ },
+ "levels": [
+  {
+   "depth": 0,
+   "tiles": [
+    {
+     "x": 6,
+     "z": 4,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 7,
+     "z": 4,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 8,
+     "z": 4,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 9,
+     "z": 4,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 10,
+     "z": 4,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 5,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 5,
+     "z": 5,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 6,
+     "z": 5,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 7,
+     "z": 5,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 8,
+     "z": 5,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 9,
+     "z": 5,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 10,
+     "z": 5,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 6,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 6,
+     "z": 6,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 7,
+     "z": 6,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 8,
+     "z": 6,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 9,
+     "z": 6,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 10,
+     "z": 6,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 7,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 8,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 15,
+     "z": 8,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 16,
+     "z": 8,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 17,
+     "z": 8,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 9,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 8,
+     "z": 9,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 9,
+     "z": 9,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 10,
+     "z": 9,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 15,
+     "z": 9,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 16,
+     "z": 9,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 17,
+     "z": 9,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 10,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 8,
+     "z": 10,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 9,
+     "z": 10,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 10,
+     "z": 10,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 11,
+     "z": 10,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 12,
+     "z": 10,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 13,
+     "z": 10,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 14,
+     "z": 10,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 15,
+     "z": 10,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 16,
+     "z": 10,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 17,
+     "z": 10,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 11,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 8,
+     "z": 11,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 9,
+     "z": 11,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 10,
+     "z": 11,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 15,
+     "z": 11,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 16,
+     "z": 11,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 17,
+     "z": 11,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 3,
+     "z": 12,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 12,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 5,
+     "z": 12,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 6,
+     "z": 12,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 7,
+     "z": 12,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 8,
+     "z": 12,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 9,
+     "z": 12,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 10,
+     "z": 12,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 16,
+     "z": 12,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 3,
+     "z": 13,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 13,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 5,
+     "z": 13,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 8,
+     "z": 13,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 9,
+     "z": 13,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 10,
+     "z": 13,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 16,
+     "z": 13,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 19,
+     "z": 13,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 20,
+     "z": 13,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 21,
+     "z": 13,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 3,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 5,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 6,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 7,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 8,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 9,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 10,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 11,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 12,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 13,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 14,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 15,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 16,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 18,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 19,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 20,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 21,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 22,
+     "z": 14,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 3,
+     "z": 15,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 15,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 5,
+     "z": 15,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 15,
+     "z": 15,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 16,
+     "z": 15,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 18,
+     "z": 15,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 19,
+     "z": 15,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 20,
+     "z": 15,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 21,
+     "z": 15,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 22,
+     "z": 15,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 3,
+     "z": 16,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 16,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 5,
+     "z": 16,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 8,
+     "z": 16,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 9,
+     "z": 16,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 10,
+     "z": 16,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 11,
+     "z": 16,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 12,
+     "z": 16,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 13,
+     "z": 16,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 14,
+     "z": 16,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 15,
+     "z": 16,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 16,
+     "z": 16,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 17,
+     "z": 16,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 18,
+     "z": 16,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 19,
+     "z": 16,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 20,
+     "z": 16,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 21,
+     "z": 16,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 22,
+     "z": 16,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 17,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 8,
+     "z": 17,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 9,
+     "z": 17,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 10,
+     "z": 17,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 13,
+     "z": 17,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 14,
+     "z": 17,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 15,
+     "z": 17,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 16,
+     "z": 17,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 18,
+     "z": 17,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 19,
+     "z": 17,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 20,
+     "z": 17,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 21,
+     "z": 17,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 22,
+     "z": 17,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 18,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 8,
+     "z": 18,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 9,
+     "z": 18,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 10,
+     "z": 18,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 13,
+     "z": 18,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 14,
+     "z": 18,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 15,
+     "z": 18,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 16,
+     "z": 18,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 19,
+     "z": 18,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 20,
+     "z": 18,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 21,
+     "z": 18,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 2,
+     "z": 19,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 3,
+     "z": 19,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 19,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 5,
+     "z": 19,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 8,
+     "z": 19,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 9,
+     "z": 19,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 10,
+     "z": 19,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 13,
+     "z": 19,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 14,
+     "z": 19,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 15,
+     "z": 19,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 16,
+     "z": 19,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 20,
+     "z": 19,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 2,
+     "z": 20,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 3,
+     "z": 20,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 20,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 5,
+     "z": 20,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 8,
+     "z": 20,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 9,
+     "z": 20,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 10,
+     "z": 20,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 13,
+     "z": 20,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 14,
+     "z": 20,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 15,
+     "z": 20,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 16,
+     "z": 20,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 20,
+     "z": 20,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 2,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 3,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 5,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 6,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 7,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 8,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 9,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 10,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 11,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 12,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 13,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 14,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 15,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 16,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 17,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 18,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 19,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 20,
+     "z": 21,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 2,
+     "z": 22,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 3,
+     "z": 22,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 22,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 5,
+     "z": 22,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 2,
+     "z": 23,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 3,
+     "z": 23,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 4,
+     "z": 23,
+     "part_id": "sol_dalle"
+    },
+    {
+     "x": 5,
+     "z": 23,
+     "part_id": "sol_dalle"
+    }
+   ],
+   "walls": [
+    {
+     "x": 6,
+     "z": 4,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 6,
+     "z": 4,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 7,
+     "z": 4,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 8,
+     "z": 4,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 9,
+     "z": 4,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 10,
+     "z": 4,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 11,
+     "z": 4,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 4,
+     "z": 5,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 4,
+     "z": 5,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 5,
+     "z": 5,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 5,
+     "z": 6,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 6,
+     "z": 5,
+     "edge": "W",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 11,
+     "z": 5,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 4,
+     "z": 6,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 5,
+     "z": 6,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 6,
+     "z": 6,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 6,
+     "z": 7,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 7,
+     "z": 7,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 8,
+     "z": 7,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 9,
+     "z": 7,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 10,
+     "z": 7,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 11,
+     "z": 6,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 4,
+     "z": 7,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 5,
+     "z": 7,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 4,
+     "z": 8,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 5,
+     "z": 8,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 15,
+     "z": 8,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 15,
+     "z": 8,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 16,
+     "z": 8,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 17,
+     "z": 8,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 18,
+     "z": 8,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 4,
+     "z": 9,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 5,
+     "z": 9,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 8,
+     "z": 9,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 8,
+     "z": 9,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 9,
+     "z": 9,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 10,
+     "z": 9,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 11,
+     "z": 9,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 15,
+     "z": 9,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 18,
+     "z": 9,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 4,
+     "z": 10,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 5,
+     "z": 10,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 8,
+     "z": 10,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 11,
+     "z": 10,
+     "edge": "W",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 11,
+     "z": 10,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 11,
+     "z": 11,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 12,
+     "z": 10,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 12,
+     "z": 11,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 13,
+     "z": 10,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 13,
+     "z": 11,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 14,
+     "z": 10,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 14,
+     "z": 11,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 15,
+     "z": 10,
+     "edge": "W",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 18,
+     "z": 10,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 4,
+     "z": 11,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 4,
+     "z": 12,
+     "edge": "N",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 5,
+     "z": 11,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 8,
+     "z": 11,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 11,
+     "z": 11,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 15,
+     "z": 11,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 15,
+     "z": 12,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 16,
+     "z": 12,
+     "edge": "N",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 17,
+     "z": 12,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 18,
+     "z": 11,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 3,
+     "z": 12,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 3,
+     "z": 12,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 5,
+     "z": 12,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 6,
+     "z": 12,
+     "edge": "W",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 6,
+     "z": 12,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 6,
+     "z": 13,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 7,
+     "z": 12,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 7,
+     "z": 13,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 8,
+     "z": 12,
+     "edge": "W",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 11,
+     "z": 12,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 16,
+     "z": 12,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 17,
+     "z": 12,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 3,
+     "z": 13,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 6,
+     "z": 13,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 8,
+     "z": 13,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 11,
+     "z": 13,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 16,
+     "z": 13,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 17,
+     "z": 13,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 19,
+     "z": 13,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 19,
+     "z": 13,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 20,
+     "z": 13,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 21,
+     "z": 13,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 22,
+     "z": 13,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 3,
+     "z": 14,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 6,
+     "z": 14,
+     "edge": "W",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 6,
+     "z": 14,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 6,
+     "z": 15,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 7,
+     "z": 14,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 7,
+     "z": 15,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 8,
+     "z": 14,
+     "edge": "W",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 8,
+     "z": 15,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 9,
+     "z": 15,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 10,
+     "z": 15,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 11,
+     "z": 14,
+     "edge": "W",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 11,
+     "z": 14,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 11,
+     "z": 15,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 12,
+     "z": 14,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 12,
+     "z": 15,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 13,
+     "z": 14,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 13,
+     "z": 15,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 14,
+     "z": 14,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 14,
+     "z": 15,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 15,
+     "z": 14,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 17,
+     "z": 14,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 18,
+     "z": 14,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 18,
+     "z": 14,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 22,
+     "z": 14,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 23,
+     "z": 14,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 3,
+     "z": 15,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 6,
+     "z": 15,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 15,
+     "z": 15,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 15,
+     "z": 16,
+     "edge": "N",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 16,
+     "z": 16,
+     "edge": "N",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 17,
+     "z": 15,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 18,
+     "z": 15,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 23,
+     "z": 15,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 3,
+     "z": 16,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 3,
+     "z": 17,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 4,
+     "z": 17,
+     "edge": "N",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 5,
+     "z": 17,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 6,
+     "z": 16,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 8,
+     "z": 16,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 8,
+     "z": 16,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 9,
+     "z": 16,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 10,
+     "z": 16,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 11,
+     "z": 16,
+     "edge": "W",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 11,
+     "z": 16,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 11,
+     "z": 17,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 12,
+     "z": 16,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 12,
+     "z": 17,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 13,
+     "z": 16,
+     "edge": "W",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 13,
+     "z": 16,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 14,
+     "z": 16,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 17,
+     "z": 16,
+     "edge": "W",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 17,
+     "z": 16,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 17,
+     "z": 17,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 18,
+     "z": 16,
+     "edge": "W",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 23,
+     "z": 16,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 4,
+     "z": 17,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 5,
+     "z": 17,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 8,
+     "z": 17,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 11,
+     "z": 17,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 13,
+     "z": 17,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 17,
+     "z": 17,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 18,
+     "z": 17,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 18,
+     "z": 18,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 22,
+     "z": 18,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 23,
+     "z": 17,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 4,
+     "z": 18,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 4,
+     "z": 19,
+     "edge": "N",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 5,
+     "z": 18,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 8,
+     "z": 18,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 11,
+     "z": 18,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 13,
+     "z": 18,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 17,
+     "z": 18,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 19,
+     "z": 18,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 19,
+     "z": 19,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 20,
+     "z": 19,
+     "edge": "N",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 21,
+     "z": 19,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 22,
+     "z": 18,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 2,
+     "z": 19,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 2,
+     "z": 19,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 3,
+     "z": 19,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 5,
+     "z": 19,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 6,
+     "z": 19,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 8,
+     "z": 19,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 11,
+     "z": 19,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 13,
+     "z": 19,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 17,
+     "z": 19,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 20,
+     "z": 19,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 21,
+     "z": 19,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 2,
+     "z": 20,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 6,
+     "z": 20,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 8,
+     "z": 20,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 8,
+     "z": 21,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 9,
+     "z": 21,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 10,
+     "z": 21,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 11,
+     "z": 20,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 13,
+     "z": 20,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 13,
+     "z": 21,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 14,
+     "z": 21,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 15,
+     "z": 21,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 16,
+     "z": 21,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 17,
+     "z": 20,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 20,
+     "z": 20,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 21,
+     "z": 20,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 2,
+     "z": 21,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 6,
+     "z": 21,
+     "edge": "W",
+     "part_id": "porte_bois"
+    },
+    {
+     "x": 6,
+     "z": 21,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 6,
+     "z": 22,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 7,
+     "z": 21,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 7,
+     "z": 22,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 8,
+     "z": 22,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 9,
+     "z": 22,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 10,
+     "z": 22,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 11,
+     "z": 21,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 11,
+     "z": 22,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 12,
+     "z": 21,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 12,
+     "z": 22,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 13,
+     "z": 22,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 14,
+     "z": 22,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 15,
+     "z": 22,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 16,
+     "z": 22,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 17,
+     "z": 21,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 17,
+     "z": 22,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 18,
+     "z": 21,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 18,
+     "z": 22,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 19,
+     "z": 21,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 19,
+     "z": 22,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 20,
+     "z": 22,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 21,
+     "z": 21,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 2,
+     "z": 22,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 6,
+     "z": 22,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 2,
+     "z": 23,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 2,
+     "z": 24,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 3,
+     "z": 24,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 4,
+     "z": 24,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 5,
+     "z": 24,
+     "edge": "N",
+     "part_id": "mur_pierre_brute"
+    },
+    {
+     "x": 6,
+     "z": 23,
+     "edge": "W",
+     "part_id": "mur_pierre_brute"
+    }
+   ],
+   "markers": [
+    {
+     "x": 8,
+     "z": 5,
+     "part_id": "entree",
+     "rotation": 0,
+     "ref": null
+    },
+    {
+     "x": 4,
+     "z": 21,
+     "part_id": "sortie",
+     "rotation": 0,
+     "ref": null
+    },
+    {
+     "x": 20,
+     "z": 16,
+     "part_id": "boss",
+     "rotation": 0,
+     "ref": "custom_beast_01"
+    },
+    {
+     "x": 21,
+     "z": 16,
+     "part_id": "spawner",
+     "rotation": 0,
+     "ref": "custom_beast_01"
+    },
+    {
+     "x": 8,
+     "z": 4,
+     "part_id": "torche",
+     "rotation": 0,
+     "ref": null
+    },
+    {
+     "x": 4,
+     "z": 12,
+     "part_id": "torche",
+     "rotation": 0,
+     "ref": null
+    },
+    {
+     "x": 15,
+     "z": 16,
+     "part_id": "torche",
+     "rotation": 0,
+     "ref": null
+    },
+    {
+     "x": 16,
+     "z": 8,
+     "part_id": "torche",
+     "rotation": 0,
+     "ref": null
+    },
+    {
+     "x": 9,
+     "z": 9,
+     "part_id": "torche",
+     "rotation": 0,
+     "ref": null
+    },
+    {
+     "x": 4,
+     "z": 19,
+     "part_id": "torche",
+     "rotation": 0,
+     "ref": null
+    },
+    {
+     "x": 20,
+     "z": 13,
+     "part_id": "torche",
+     "rotation": 0,
+     "ref": null
+    },
+    {
+     "x": 9,
+     "z": 16,
+     "part_id": "torche",
+     "rotation": 0,
+     "ref": null
+    },
+    {
+     "x": 9,
+     "z": 18,
+     "part_id": "coffre",
+     "rotation": 0,
+     "ref": "loot_table_commune"
+    },
+    {
+     "x": 6,
+     "z": 6,
+     "part_id": "ratelier_armes",
+     "rotation": 0,
+     "ref": null
+    },
+    {
+     "x": 10,
+     "z": 6,
+     "part_id": "tonneau_poudre",
+     "rotation": 0,
+     "ref": null
+    },
+    {
+     "x": 10,
+     "z": 4,
+     "part_id": "brasero",
+     "rotation": 0,
+     "ref": null
+    },
+    {
+     "x": 18,
+     "z": 14,
+     "part_id": "brasero",
+     "rotation": 0,
+     "ref": null
+    },
+    {
+     "x": 22,
+     "z": 14,
+     "part_id": "brasero",
+     "rotation": 0,
+     "ref": null
+    },
+    {
+     "x": 8,
+     "z": 20,
+     "part_id": "tonneau_poudre",
+     "rotation": 0,
+     "ref": null
+    },
+    {
+     "x": 10,
+     "z": 16,
+     "part_id": "banniere_dechiree",
+     "rotation": 0,
+     "ref": null
+    }
+   ]
+  }
+ ],
+ "rewards": [
+  { "type": "gold", "gold": 400 },
+  { "type": "experience", "experience": 800 },
+  { "type": "item", "item_id": "mana_potion", "quantity": 1, "chance": 0.30 }
+ ]
+}
