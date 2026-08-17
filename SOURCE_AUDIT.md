@@ -21,6 +21,8 @@ Le build client n'est donc pas la source de référence la plus récente.
 
 La version initiale publie uniquement les 16 fichiers du sous-ensemble `schemas/`, sous forme d'instantanés `v0.1.0` non modifiés et marqués `experimental`.
 
+Le lot suivant ajoute `haptics/default_patterns.json`. Les copies serveur et build client VR étaient identiques lors de l'audit ; la date plus récente du fichier client correspond uniquement à une copie plus tardive. Ce modèle est publié en `v0.1.0` avec le statut `experimental` et sans preuve d'intégration runtime.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

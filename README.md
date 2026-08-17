@@ -4,7 +4,7 @@ Registre central destiné aux modèles JSON versionnés de l'écosystème Ultima
 
 ## Statut
 
-**Registre expérimental.** Une première collection de 16 schémas JSON est publiée en version `0.1.0`.
+**Registre expérimental.** Une première collection de 16 schémas JSON et un modèle de motifs haptiques sont publiés en version `0.1.0`.
 
 Ces schémas sont des instantanés non certifiés. Aucun n'est encore déclaré compatible avec une version précise d'un client ou du serveur.
 
@@ -38,6 +38,11 @@ templates/
     <nom-du-schema>/
       v<MAJEUR>.<MINEUR>.<CORRECTIF>/
         schema.json
+        README.md
+  haptics/
+    <nom-du-modele>/
+      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+        template.json
         README.md
 ```
 

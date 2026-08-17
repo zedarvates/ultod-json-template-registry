@@ -1,0 +1,46 @@
+{
+  "patterns": [
+    {
+      "id": "soft",
+      "amplitude": 0.3,
+      "frequency": 0.5,
+      "duration_ms": 50
+    },
+    {
+      "id": "hard",
+      "amplitude": 1.0,
+      "frequency": 1.0,
+      "duration_ms": 200
+    },
+    {
+      "id": "buzz",
+      "amplitude": 0.5,
+      "frequency": 0.2,
+      "duration_ms": 500
+    },
+    {
+      "id": "heartbeat",
+      "amplitude": 0.6,
+      "frequency": 0.1,
+      "duration_ms": 100
+    },
+    {
+      "id": "fail",
+      "amplitude": 0.6,
+      "frequency": 0.9,
+      "duration_ms": 150
+    },
+    {
+      "id": "explosion",
+      "amplitude": 1.0,
+      "frequency": 0.5,
+      "duration_ms": 400
+    },
+    {
+      "id": "magic_charge",
+      "amplitude": 0.4,
+      "frequency": 0.8,
+      "duration_ms": 30
+    }
+  ]
+}

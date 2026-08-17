@@ -194,6 +194,18 @@
                         "compatibility":  [
 
                                           ]
+                    },
+                    {
+                        "name":  "default-patterns",
+                        "kind":  "haptic-pattern-set",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/haptics/default-patterns/v0.1.0/template.json",
+                        "source_file":  "default_patterns.json",
+                        "sha256":  "064af1898abda7a26591a139c3b749b1a7e3ed69a8ec81c50848a7cb498e84a2",
+                        "compatibility":  [
+
+                                          ]
                     }
                 ]
 }
