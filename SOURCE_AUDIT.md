@@ -47,6 +47,8 @@ Le lot `party` publie `adventure_party.json`, identique octet pour octet entre l
 
 Le lot `mentorship` publie `combat_training.json`, identique octet pour octet entre les sources serveur et client auditées. Les niveaux, réputation, objectifs, durées, expérience, points de compétence et titres sont des valeurs déclaratives non certifiées. Le serveur doit vérifier l'éligibilité et la progression puis rester seul responsable de toute attribution.
 
+Le lot `marriage` publie `romantic_marriage.json`, identique octet pour octet entre les sources serveur et client auditées. Il ne contient aucune identité réelle, SKU ou monnaie premium. Le consentement mutuel, les prérequis, le coût de cérémonie, les bonus, le logement et le stockage partagé doivent être vérifiés transactionnellement côté serveur ; `ceremony_cost` reste une unité abstraite non certifiée.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :
