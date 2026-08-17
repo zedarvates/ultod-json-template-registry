@@ -1,0 +1,436 @@
+{
+  "profession_id": "woodworker_artificer",
+  "name": "Woodworker/Artificer",
+  "description": "A skilled artisan who combines woodworking with mechanical engineering, creating powerful weapons, tools, and mechanical devices.",
+  "base_skill": "woodworking",
+  "max_skill": 100,
+  "skill_progression": {
+    "novice": {
+      "min_skill": 1,
+      "max_skill": 20,
+      "name": "Novice Woodworker"
+    },
+    "apprentice": {
+      "min_skill": 21,
+      "max_skill": 40,
+      "name": "Apprentice Woodworker"
+    },
+    "journeyman": {
+      "min_skill": 41,
+      "max_skill": 60,
+      "name": "Journeyman Woodworker"
+    },
+    "expert": {
+      "min_skill": 61,
+      "max_skill": 80,
+      "name": "Expert Woodworker"
+    },
+    "master": {
+      "min_skill": 81,
+      "max_skill": 100,
+      "name": "Master Woodworker"
+    }
+  },
+  "talent_tree": {
+    "branches": [
+      {
+        "id": "weapon_crafting",
+        "name": "Weapon Crafting",
+        "description": "Specialize in creating wooden weapons and bows",
+        "max_points": 10,
+        "talents": [
+          {
+            "id": "bow_mastery",
+            "name": "Bow Mastery",
+            "description": "Increase bow crafting quality by 12% per rank",
+            "max_rank": 5,
+            "effects": {
+              "bow_quality": 0.12,
+              "bow_damage": 0.08,
+              "bow_accuracy": 0.06
+            },
+            "requirements": [
+              {
+                "type": "skill_level",
+                "value": 30
+              }
+            ]
+          },
+          {
+            "id": "crossbow_mastery",
+            "name": "Crossbow Mastery",
+            "description": "Increase crossbow crafting quality by 10% per rank",
+            "max_rank": 5,
+            "effects": {
+              "crossbow_quality": 0.1,
+              "crossbow_damage": 0.07,
+              "crossbow_reload": 0.05
+            },
+            "requirements": [
+              {
+                "type": "skill_level",
+                "value": 40
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mechanical_devices",
+        "name": "Mechanical Devices",
+        "description": "Master the art of creating mechanical devices and traps",
+        "max_points": 10,
+        "talents": [
+          {
+            "id": "trap_mastery",
+            "name": "Trap Mastery",
+            "description": "Increase trap effectiveness by 15% per rank",
+            "max_rank": 5,
+            "effects": {
+              "trap_damage": 0.15,
+              "trap_duration": 0.08,
+              "trap_success": 0.1
+            },
+            "requirements": [
+              {
+                "type": "skill_level",
+                "value": 35
+              }
+            ]
+          },
+          {
+            "id": "clockwork_devices",
+            "name": "Clockwork Devices",
+            "description": "Create advanced mechanical devices",
+            "max_rank": 5,
+            "effects": {
+              "device_quality": 0.12,
+              "device_durability": 0.1,
+              "device_functionality": 0.08
+            },
+            "requirements": [
+              {
+                "type": "skill_level",
+                "value": 55
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "id": "basic_workshop",
+      "name": "Basic Workshop",
+      "description": "Use the basic workshop to create simple wooden items",
+      "required_skill": 1,
+      "required_talent_points": 0
+    },
+    {
+      "id": "mechanical_bench",
+      "name": "Mechanical Bench",
+      "description": "Access the mechanical bench to create advanced devices",
+      "required_skill": 25,
+      "required_talent_points": 5
+    },
+    {
+      "id": "masterwork_crafting",
+      "name": "Masterwork Crafting",
+      "description": "Create masterwork quality wooden items",
+      "required_skill": 50,
+      "required_talent_points": 10
+    },
+    {
+      "id": "legendary_workshop",
+      "name": "Legendary Workshop",
+      "description": "Access the legendary workshop for ultimate creations",
+      "required_skill": 85,
+      "required_talent_points": 15
+    }
+  ],
+  "market_integration": {
+    "base_value_multiplier": 1.05,
+    "quality_multipliers": {
+      "common": 1.0,
+      "uncommon": 1.4,
+      "rare": 1.8,
+      "epic": 2.8,
+      "legendary": 4.5
+    },
+    "reputation_bonuses": {
+      "local": 1.08,
+      "town": 1.15,
+      "regional": 1.25,
+      "national": 1.4,
+      "world": 1.8
+    }
+  },
+  "practice_benefits": {
+    "inspiration": {
+      "max_stacks": 5,
+      "bonus_per_stack": 0.04,
+      "chance_to_gain": 0.18
+    },
+    "decay_mechanic": {
+      "enabled": true,
+      "rate": 0.0011,
+      "decay_threshold": 82
+    }
+  },
+  "synergies": [
+    "woodworker+blacksmith",
+    "woodworker+mining",
+    "woodworker+engineering"
+  ],
+  "recipes": [
+    {
+      "id": "wooden_arrow",
+      "name": "Wooden Arrow",
+      "difficulty": "easy",
+      "required_skill": 1,
+      "materials": [
+        {
+          "item": "wooden_shaft",
+          "quantity": 1
+        },
+        {
+          "item": "feather",
+          "quantity": 1
+        },
+        {
+          "item": "simple_fletching",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item": "wooden_arrow",
+        "quantity": 5
+      },
+      "craft_time": 1500
+    },
+    {
+      "id": "simple_bow",
+      "name": "Simple Bow",
+      "difficulty": "medium",
+      "required_skill": 20,
+      "materials": [
+        {
+          "item": "yew_wood",
+          "quantity": 2
+        },
+        {
+          "item": "bow_string",
+          "quantity": 1
+        },
+        {
+          "item": "wooden_grip",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item": "simple_bow",
+        "quantity": 1
+      },
+      "craft_time": 6000
+    },
+    {
+      "id": "mechanical_trap",
+      "name": "Mechanical Trap",
+      "difficulty": "hard",
+      "required_skill": 45,
+      "materials": [
+        {
+          "item": "iron_spring",
+          "quantity": 1
+        },
+        {
+          "item": "mechanical_parts",
+          "quantity": 2
+        },
+        {
+          "item": "trigger_mechanism",
+          "quantity": 1
+        },
+        {
+          "item": "wooden_frame",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item": "mechanical_trap",
+        "quantity": 1
+      },
+      "craft_time": 10000
+    },
+    {
+      "id": "clockwork_automaton",
+      "name": "Clockwork Automaton",
+      "difficulty": "very_hard",
+      "required_skill": 75,
+      "materials": [
+        {
+          "item": "brass_gears",
+          "quantity": 5
+        },
+        {
+          "item": "crystal_power_core",
+          "quantity": 1
+        },
+        {
+          "item": "enchanted_wood",
+          "quantity": 2
+        },
+        {
+          "item": "arcane_energy_crystal",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item": "clockwork_automaton",
+        "quantity": 1
+      },
+      "craft_time": 25000
+    }
+  ],
+  "quests": [
+    {
+      "id": "first_wood",
+      "name": "First Wood",
+      "description": "Create your first wooden arrow",
+      "requirements": [
+        {
+          "type": "skill",
+          "value": 1
+        },
+        {
+          "type": "item",
+          "item": "wooden_arrow",
+          "quantity": 5
+        }
+      ],
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 30
+        },
+        {
+          "type": "item",
+          "item": "basic_toolkit",
+          "quantity": 1
+        },
+        {
+          "type": "reputation",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "id": "master_craftsman",
+      "name": "Master Craftsman",
+      "description": "Create 100 masterwork items",
+      "requirements": [
+        {
+          "type": "skill",
+          "value": 80
+        },
+        {
+          "type": "craft_count",
+          "craft_type": "masterwork",
+          "value": 100
+        }
+      ],
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 700
+        },
+        {
+          "type": "item",
+          "item": "master_workshop",
+          "quantity": 1
+        },
+        {
+          "type": "reputation",
+          "value": 300
+        },
+        {
+          "type": "title",
+          "value": "Master Craftsman"
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "bowyer",
+      "name": "Master Bowyer",
+      "description": "Create 200 bows and crossbows",
+      "requirements": {
+        "type": "craft_count",
+        "value": 200
+      },
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 200
+        },
+        {
+          "type": "item",
+          "item": "master_bowyers_kit",
+          "quantity": 1
+        },
+        {
+          "type": "title",
+          "value": "Master Bowyer"
+        }
+      ]
+    },
+    {
+      "id": "artificer",
+      "name": "Legendary Artificer",
+      "description": "Reach skill level 100",
+      "requirements": {
+        "type": "skill_level",
+        "value": 100
+      },
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 1000
+        },
+        {
+          "type": "item",
+          "item": "legendary_workshop",
+          "quantity": 1
+        },
+        {
+          "type": "title",
+          "value": "Legendary Artificer"
+        }
+      ]
+    },
+    {
+      "id": "trap_master",
+      "name": "Trap Master",
+      "description": "Create 50 complex mechanical traps",
+      "requirements": {
+        "type": "craft_count",
+        "craft_type": "trap",
+        "value": 50
+      },
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 400
+        },
+        {
+          "type": "item",
+          "item": "trap_masters_blueprint",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "id": "woodworker_artificer"
+}

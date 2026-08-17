@@ -1,0 +1,28 @@
+{
+  "id": "engineering",
+  "name": "Ingénierie",
+  "description": "Création d'appareils mécaniques et d'explosifs",
+  "primary_skill": "dexterity",
+  "secondary_skill": "intelligence",
+  "tools_required": ["engineering_toolkit", "screwdriver", "wrench"],
+  "workshops": [
+    {
+      "id": "basic_workbench",
+      "level_requirement": 20,
+      "bonuses": {
+        "speed_multiplier": 1.0,
+        "quality_bonus": 0.0,
+        "experience_bonus": 1.0
+      }
+    },
+    {
+      "id": "advanced_workbench",
+      "level_requirement": 50,
+      "bonuses": {
+        "speed_multiplier": 1.4,
+        "quality_bonus": 0.15,
+        "experience_bonus": 1.25
+      }
+    }
+  ]
+}

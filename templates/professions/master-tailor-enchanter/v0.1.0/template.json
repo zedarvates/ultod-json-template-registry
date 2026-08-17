@@ -1,0 +1,419 @@
+{
+  "profession_id": "master_tailor_enchanter",
+  "name": "Master Tailor/Enchanter",
+  "description": "A versatile artisan who combines the art of tailoring with magical enchantment, creating powerful cloth armor and enchanted items.",
+  "base_skill": "tailoring",
+  "max_skill": 100,
+  "skill_progression": {
+    "novice": {
+      "min_skill": 1,
+      "max_skill": 20,
+      "name": "Novice Tailor"
+    },
+    "apprentice": {
+      "min_skill": 21,
+      "max_skill": 40,
+      "name": "Apprentice Tailor"
+    },
+    "journeyman": {
+      "min_skill": 41,
+      "max_skill": 60,
+      "name": "Journeyman Tailor"
+    },
+    "expert": {
+      "min_skill": 61,
+      "max_skill": 80,
+      "name": "Expert Tailor"
+    },
+    "master": {
+      "min_skill": 81,
+      "max_skill": 100,
+      "name": "Master Tailor"
+    }
+  },
+  "talent_tree": {
+    "branches": [
+      {
+        "id": "cloth_armor",
+        "name": "Cloth Armor Crafting",
+        "description": "Specialize in creating magical cloth armor and robes",
+        "max_points": 10,
+        "talents": [
+          {
+            "id": "robe_mastery",
+            "name": "Robe Mastery",
+            "description": "Increase robe crafting quality by 12% per rank",
+            "max_rank": 5,
+            "effects": {
+              "robe_quality": 0.12,
+              "robe_intellect": 0.08
+            },
+            "requirements": [
+              {
+                "type": "skill_level",
+                "value": 30
+              }
+            ]
+          },
+          {
+            "id": "cloth_armor_specialist",
+            "name": "Cloth Armor Specialist",
+            "description": "Increase cloth armor crafting quality by 10% per rank",
+            "max_rank": 5,
+            "effects": {
+              "cloth_armor_quality": 0.1,
+              "cloth_armor_spell_power": 0.06
+            },
+            "requirements": [
+              {
+                "type": "skill_level",
+                "value": 40
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "enchanting",
+        "name": "Enchanting",
+        "description": "Master the art of enchanting items with magical properties",
+        "max_points": 10,
+        "talents": [
+          {
+            "id": "weapon_enchanting",
+            "name": "Weapon Enchanting",
+            "description": "Increase weapon enchanting power by 8% per rank",
+            "max_rank": 5,
+            "effects": {
+              "weapon_enchant_power": 0.08,
+              "enchant_duration": 0.05
+            },
+            "requirements": [
+              {
+                "type": "skill_level",
+                "value": 35
+              }
+            ]
+          },
+          {
+            "id": "armor_enchanting",
+            "name": "Armor Enchanting",
+            "description": "Increase armor enchanting power by 10% per rank",
+            "max_rank": 5,
+            "effects": {
+              "armor_enchant_power": 0.1,
+              "enchant_resistance": 0.06
+            },
+            "requirements": [
+              {
+                "type": "skill_level",
+                "value": 45
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "id": "basic_tailoring",
+      "name": "Basic Tailoring",
+      "description": "Use the basic loom to create simple cloth items",
+      "required_skill": 1,
+      "required_talent_points": 0
+    },
+    {
+      "id": "enchanting_bench",
+      "name": "Enchanting Bench",
+      "description": "Access the enchanting bench to enchant items",
+      "required_skill": 20,
+      "required_talent_points": 3
+    },
+    {
+      "id": "masterwork_tailoring",
+      "name": "Masterwork Tailoring",
+      "description": "Create masterwork quality cloth items",
+      "required_skill": 50,
+      "required_talent_points": 8
+    },
+    {
+      "id": "legendary_enchanting",
+      "name": "Legendary Enchanting",
+      "description": "Access legendary enchanting techniques",
+      "required_skill": 80,
+      "required_talent_points": 15
+    }
+  ],
+  "market_integration": {
+    "base_value_multiplier": 1.1,
+    "quality_multipliers": {
+      "common": 1.0,
+      "uncommon": 1.6,
+      "rare": 2.2,
+      "epic": 3.5,
+      "legendary": 5.5
+    },
+    "reputation_bonuses": {
+      "local": 1.12,
+      "town": 1.22,
+      "regional": 1.35,
+      "national": 1.55,
+      "world": 2.2
+    }
+  },
+  "practice_benefits": {
+    "inspiration": {
+      "max_stacks": 5,
+      "bonus_per_stack": 0.055,
+      "chance_to_gain": 0.22
+    },
+    "decay_mechanic": {
+      "enabled": true,
+      "rate": 0.0009,
+      "decay_threshold": 78
+    }
+  },
+  "synergies": [
+    "tailor+enchanter",
+    "herbalist+tailor",
+    "enchanter+alchemist"
+  ],
+  "recipes": [
+    {
+      "id": "linen_bolt",
+      "name": "Linen Bolt",
+      "difficulty": "easy",
+      "required_skill": 1,
+      "materials": [
+        {
+          "item": "linen_thread",
+          "quantity": 5
+        },
+        {
+          "item": "simple_dye",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item": "linen_bolt",
+        "quantity": 1
+      },
+      "craft_time": 2000
+    },
+    {
+      "id": "linen_shirt",
+      "name": "Linen Shirt",
+      "difficulty": "easy",
+      "required_skill": 5,
+      "materials": [
+        {
+          "item": "linen_bolt",
+          "quantity": 1
+        },
+        {
+          "item": "simple_button",
+          "quantity": 3
+        }
+      ],
+      "result": {
+        "item": "linen_shirt",
+        "quantity": 1
+      },
+      "craft_time": 4000
+    },
+    {
+      "id": "magical_robe",
+      "name": "Magical Robe",
+      "difficulty": "medium",
+      "required_skill": 35,
+      "materials": [
+        {
+          "item": "silk_bolt",
+          "quantity": 2
+        },
+        {
+          "item": "magic_thread",
+          "quantity": 1
+        },
+        {
+          "item": "mana_crystal",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item": "magical_robe",
+        "quantity": 1
+      },
+      "craft_time": 8000
+    },
+    {
+      "id": "enchanted_cloak",
+      "name": "Enchanted Cloak",
+      "difficulty": "hard",
+      "required_skill": 65,
+      "materials": [
+        {
+          "item": "shadow_cloth",
+          "quantity": 1
+        },
+        {
+          "item": "enchanting_dust",
+          "quantity": 3
+        },
+        {
+          "item": "arcane_crystal",
+          "quantity": 1
+        },
+        {
+          "item": "essence_of_magic",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item": "enchanted_cloak",
+        "quantity": 1
+      },
+      "craft_time": 15000
+    }
+  ],
+  "quests": [
+    {
+      "id": "first_cloth",
+      "name": "First Cloth",
+      "description": "Create your first linen shirt",
+      "requirements": [
+        {
+          "type": "skill",
+          "value": 5
+        },
+        {
+          "type": "item",
+          "item": "linen_shirt",
+          "quantity": 1
+        }
+      ],
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 40
+        },
+        {
+          "type": "item",
+          "item": "tailoring_kit",
+          "quantity": 1
+        },
+        {
+          "type": "reputation",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": "enchanting_master",
+      "name": "Enchanting Master",
+      "description": "Enchant 50 items with powerful enchantments",
+      "requirements": [
+        {
+          "type": "skill",
+          "value": 70
+        },
+        {
+          "type": "craft_count",
+          "craft_type": "enchanting",
+          "value": 50
+        }
+      ],
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 600
+        },
+        {
+          "type": "item",
+          "item": "enchanted_loom",
+          "quantity": 1
+        },
+        {
+          "type": "reputation",
+          "value": 250
+        },
+        {
+          "type": "title",
+          "value": "Enchanting Master"
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "cloth_master",
+      "name": "Cloth Master",
+      "description": "Create 300 cloth items",
+      "requirements": {
+        "type": "craft_count",
+        "value": 300
+      },
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 250
+        },
+        {
+          "type": "item",
+          "item": "masters_loom",
+          "quantity": 1
+        },
+        {
+          "type": "title",
+          "value": "Cloth Master"
+        }
+      ]
+    },
+    {
+      "id": "enchanting_legend",
+      "name": "Enchanting Legend",
+      "description": "Reach skill level 100 in enchanting",
+      "requirements": {
+        "type": "skill_level",
+        "value": 100
+      },
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 1000
+        },
+        {
+          "type": "item",
+          "item": "legendary_enchanting_table",
+          "quantity": 1
+        },
+        {
+          "type": "title",
+          "value": "Legendary Enchanter"
+        }
+      ]
+    },
+    {
+      "id": "perfect_enchantments",
+      "name": "Perfect Enchantments",
+      "description": "Create 25 perfect enchantments",
+      "requirements": {
+        "type": "perfect_crafts",
+        "value": 25
+      },
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 400
+        },
+        {
+          "type": "item",
+          "item": "perfect_enchant_crystal",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "id": "master_tailor_enchanter"
+}

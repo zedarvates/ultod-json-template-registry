@@ -67,6 +67,8 @@ Le lot `content_pipeline` publie son manifeste et 1 000 quêtes générées, ide
 
 Le lot narratif publie les cinq fichiers `prologues`, identiques octet pour octet entre les sources serveur et client auditées, ainsi que quatre quêtes génériques : maîtrise d'artisanat, exemple, chasse aux gobelins et entraînement d'invocateur. Les copies client de la quête exemple et de la chasse aux gobelins divergent ; aucune compatibilité client n'est revendiquée pour elles. Les deux chaînes de quêtes temporelles restent exclues parce qu'elles exposent des contrôles administratifs et des points d'intégration internes. Les choix narratifs, objectifs et récompenses publiés restent déclaratifs.
 
+Le lot `professions` publie dix fichiers identiques octet pour octet entre les sources serveur et client auditées : quatre spécialisations originales et six contrats cœur sous `professions/profession`. Les progressions, talents, capacités, recettes et récompenses sont déclaratifs et doivent être validés côté serveur. Les 47 autres fichiers restent exclus en l'état pour chemins d'assets non audités, références Aion ou Ultima Online, contrôles administratifs/runtime ou intégrations commerciales. Leur publication exige une adaptation originale et la suppression explicite de ces dépendances.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

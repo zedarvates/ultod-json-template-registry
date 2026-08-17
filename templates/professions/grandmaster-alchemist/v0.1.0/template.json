@@ -1,0 +1,427 @@
+{
+  "profession_id": "grandmaster_alchemist",
+  "name": "Grandmaster Alchemist",
+  "description": "A master of potion brewing, elixir creation, and transmutation, combining ancient knowledge with modern alchemical techniques.",
+  "base_skill": "alchemy",
+  "max_skill": 100,
+  "skill_progression": {
+    "novice": {
+      "min_skill": 1,
+      "max_skill": 20,
+      "name": "Novice Alchemist"
+    },
+    "apprentice": {
+      "min_skill": 21,
+      "max_skill": 40,
+      "name": "Apprentice Alchemist"
+    },
+    "journeyman": {
+      "min_skill": 41,
+      "max_skill": 60,
+      "name": "Journeyman Alchemist"
+    },
+    "expert": {
+      "min_skill": 61,
+      "max_skill": 80,
+      "name": "Expert Alchemist"
+    },
+    "grandmaster": {
+      "min_skill": 81,
+      "max_skill": 100,
+      "name": "Grandmaster Alchemist"
+    }
+  },
+  "talent_tree": {
+    "branches": [
+      {
+        "id": "potion_mastery",
+        "name": "Potion Mastery",
+        "description": "Specialize in creating healing and utility potions",
+        "max_points": 10,
+        "talents": [
+          {
+            "id": "healing_potions",
+            "name": "Healing Potions",
+            "description": "Increase healing potion effectiveness by 15% per rank",
+            "max_rank": 5,
+            "effects": {
+              "healing_power": 0.15,
+              "potion_duration": 0.05
+            },
+            "requirements": [
+              {
+                "type": "skill_level",
+                "value": 25
+              }
+            ]
+          },
+          {
+            "id": "mana_potions",
+            "name": "Mana Potions",
+            "description": "Increase mana potion effectiveness by 12% per rank",
+            "max_rank": 5,
+            "effects": {
+              "mana_restore": 0.12,
+              "mana_duration": 0.04
+            },
+            "requirements": [
+              {
+                "type": "skill_level",
+                "value": 35
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "transmutation",
+        "name": "Transmutation",
+        "description": "Master the art of transmuting materials",
+        "max_points": 10,
+        "talents": [
+          {
+            "id": "metal_transmutation",
+            "name": "Metal Transmutation",
+            "description": "Increase success rate of metal transmutation by 10% per rank",
+            "max_rank": 5,
+            "effects": {
+              "transmutation_success": 0.1,
+              "metal_purity": 0.08
+            },
+            "requirements": [
+              {
+                "type": "skill_level",
+                "value": 50
+              }
+            ]
+          },
+          {
+            "id": "elemental_transmutation",
+            "name": "Elemental Transmutation",
+            "description": "Unlock transmutation of elemental materials",
+            "max_rank": 3,
+            "effects": {
+              "elemental_mastery": 0.15,
+              "elemental_purity": 0.1
+            },
+            "requirements": [
+              {
+                "type": "skill_level",
+                "value": 70
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "id": "basic_brewing",
+      "name": "Basic Brewing",
+      "description": "Use the basic alchemical station to create simple potions",
+      "required_skill": 1,
+      "required_talent_points": 0
+    },
+    {
+      "id": "advanced_brewing",
+      "name": "Advanced Brewing",
+      "description": "Create advanced potions with enhanced effects",
+      "required_skill": 30,
+      "required_talent_points": 5
+    },
+    {
+      "id": "transmutation_circle",
+      "name": "Transmutation Circle",
+      "description": "Use transmutation circles to transform materials",
+      "required_skill": 50,
+      "required_talent_points": 10
+    },
+    {
+      "id": "philosophers_stone",
+      "name": "Philosopher's Stone",
+      "description": "Access the legendary philosopher's stone for ultimate transmutations",
+      "required_skill": 90,
+      "required_talent_points": 15
+    }
+  ],
+  "market_integration": {
+    "base_value_multiplier": 1.2,
+    "quality_multipliers": {
+      "common": 1.0,
+      "uncommon": 1.8,
+      "rare": 2.5,
+      "epic": 4.0,
+      "legendary": 6.0
+    },
+    "reputation_bonuses": {
+      "local": 1.15,
+      "town": 1.25,
+      "regional": 1.4,
+      "national": 1.6,
+      "world": 2.5
+    }
+  },
+  "practice_benefits": {
+    "inspiration": {
+      "max_stacks": 5,
+      "bonus_per_stack": 0.06,
+      "chance_to_gain": 0.25
+    },
+    "decay_mechanic": {
+      "enabled": true,
+      "rate": 0.0008,
+      "decay_threshold": 75
+    }
+  },
+  "synergies": [
+    "blacksmith+alchemist",
+    "herbalist+alchemist",
+    "enchanter+alchemist"
+  ],
+  "recipes": [
+    {
+      "id": "minor_health_potion",
+      "name": "Minor Health Potion",
+      "difficulty": "easy",
+      "required_skill": 5,
+      "materials": [
+        {
+          "item": "peacebloom",
+          "quantity": 2
+        },
+        {
+          "item": "silverleaf",
+          "quantity": 1
+        },
+        {
+          "item": "empty_vial",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item": "minor_health_potion",
+        "quantity": 1
+      },
+      "craft_time": 3000
+    },
+    {
+      "id": "mana_potion",
+      "name": "Mana Potion",
+      "difficulty": "medium",
+      "required_skill": 25,
+      "materials": [
+        {
+          "item": "stranglekelp",
+          "quantity": 2
+        },
+        {
+          "item": "empty_vial",
+          "quantity": 1
+        },
+        {
+          "item": "crystal_water",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item": "mana_potion",
+        "quantity": 1
+      },
+      "craft_time": 6000
+    },
+    {
+      "id": "greater_healing_potion",
+      "name": "Greater Healing Potion",
+      "difficulty": "hard",
+      "required_skill": 60,
+      "materials": [
+        {
+          "item": "khadgar_whisker",
+          "quantity": 2
+        },
+        {
+          "item": "mountain_silversage",
+          "quantity": 1
+        },
+        {
+          "item": "crystal_vial",
+          "quantity": 1
+        },
+        {
+          "item": "healing_essence",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item": "greater_healing_potion",
+        "quantity": 1
+      },
+      "craft_time": 12000
+    },
+    {
+      "id": "transmute_iron_to_gold",
+      "name": "Transmute Iron to Gold",
+      "difficulty": "very_hard",
+      "required_skill": 80,
+      "materials": [
+        {
+          "item": "iron_bar",
+          "quantity": 1
+        },
+        {
+          "item": "philosophers_stone_dust",
+          "quantity": 1
+        },
+        {
+          "item": "transmutation_crystal",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item": "gold_bar",
+        "quantity": 1
+      },
+      "craft_time": 30000
+    }
+  ],
+  "quests": [
+    {
+      "id": "first_potion",
+      "name": "First Potion",
+      "description": "Brew your first health potion",
+      "requirements": [
+        {
+          "type": "skill",
+          "value": 5
+        },
+        {
+          "type": "item",
+          "item": "minor_health_potion",
+          "quantity": 1
+        }
+      ],
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 50
+        },
+        {
+          "type": "item",
+          "item": "alchemist_bench",
+          "quantity": 1
+        },
+        {
+          "type": "reputation",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "id": "transmutation_master",
+      "name": "Transmutation Master",
+      "description": "Successfully complete 100 transmutations",
+      "requirements": [
+        {
+          "type": "skill",
+          "value": 80
+        },
+        {
+          "type": "craft_count",
+          "craft_type": "transmutation",
+          "value": 100
+        }
+      ],
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 800
+        },
+        {
+          "type": "item",
+          "item": "philosophers_stone",
+          "quantity": 1
+        },
+        {
+          "type": "reputation",
+          "value": 300
+        },
+        {
+          "type": "title",
+          "value": "Transmutation Master"
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "potion_master",
+      "name": "Potion Master",
+      "description": "Brew 500 potions",
+      "requirements": {
+        "type": "craft_count",
+        "value": 500
+      },
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 300
+        },
+        {
+          "type": "item",
+          "item": "masters_brewing_set",
+          "quantity": 1
+        },
+        {
+          "type": "title",
+          "value": "Potion Master"
+        }
+      ]
+    },
+    {
+      "id": "grand_alchemist",
+      "name": "Grand Alchemist",
+      "description": "Reach skill level 100",
+      "requirements": {
+        "type": "skill_level",
+        "value": 100
+      },
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 1000
+        },
+        {
+          "type": "item",
+          "item": "grandmasters_lab",
+          "quantity": 1
+        },
+        {
+          "type": "title",
+          "value": "Grandmaster Alchemist"
+        }
+      ]
+    },
+    {
+      "id": "perfect_transmutations",
+      "name": "Perfect Transmutations",
+      "description": "Achieve 100% success rate on 50 transmutations",
+      "requirements": {
+        "type": "perfect_crafts",
+        "value": 50
+      },
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 500
+        },
+        {
+          "type": "item",
+          "item": "perfect_transmutation_crystal",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "id": "grandmaster_alchemist"
+}

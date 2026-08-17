@@ -1,0 +1,28 @@
+{
+  "id": "alchemy",
+  "name": "Alchimie",
+  "description": "Création de potions, élixirs et poisons",
+  "primary_skill": "intelligence",
+  "secondary_skill": "wisdom",
+  "tools_required": ["cauldron", "mortar_pestle", "herb_press"],
+  "workshops": [
+    {
+      "id": "basic_lab",
+      "level_requirement": 5,
+      "bonuses": {
+        "speed_multiplier": 1.0,
+        "quality_bonus": 0.0,
+        "experience_bonus": 1.0
+      }
+    },
+    {
+      "id": "advanced_lab",
+      "level_requirement": 35,
+      "bonuses": {
+        "speed_multiplier": 1.4,
+        "quality_bonus": 0.15,
+        "experience_bonus": 1.25
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "leatherworking",
+  "name": "Travail du Cuir",
+  "description": "Création d'armures en cuir et d'objets en peau",
+  "primary_skill": "dexterity",
+  "secondary_skill": "strength",
+  "tools_required": ["leatherworking_knife", "needle_thread", "tanning_rack"],
+  "workshops": [
+    {
+      "id": "basic_tannery",
+      "level_requirement": 10,
+      "bonuses": {
+        "speed_multiplier": 1.0,
+        "quality_bonus": 0.0,
+        "experience_bonus": 1.0
+      }
+    },
+    {
+      "id": "advanced_tannery",
+      "level_requirement": 40,
+      "bonuses": {
+        "speed_multiplier": 1.3,
+        "quality_bonus": 0.12,
+        "experience_bonus": 1.2
+      }
+    }
+  ]
+}

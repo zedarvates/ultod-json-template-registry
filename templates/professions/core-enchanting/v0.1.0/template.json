@@ -1,0 +1,28 @@
+{
+  "id": "enchanting",
+  "name": "Enchantement",
+  "description": "Imprégnation d'objets avec des propriétés magiques",
+  "primary_skill": "intelligence",
+  "secondary_skill": "wisdom",
+  "tools_required": ["enchanting_rod", "arcane_dust", "rune_stone"],
+  "workshops": [
+    {
+      "id": "basic_enchanting_table",
+      "level_requirement": 15,
+      "bonuses": {
+        "speed_multiplier": 1.0,
+        "quality_bonus": 0.0,
+        "experience_bonus": 1.0
+      }
+    },
+    {
+      "id": "advanced_enchanting_table",
+      "level_requirement": 45,
+      "bonuses": {
+        "speed_multiplier": 1.5,
+        "quality_bonus": 0.18,
+        "experience_bonus": 1.3
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "blacksmithing",
+  "name": "Forge",
+  "description": "Création et réparation d'armes et d'armures",
+  "primary_skill": "strength",
+  "secondary_skill": "dexterity",
+  "tools_required": ["hammer", "anvil", "forge"],
+  "workshops": [
+    {
+      "id": "basic_forge",
+      "level_requirement": 1,
+      "bonuses": {
+        "speed_multiplier": 1.0,
+        "quality_bonus": 0.0,
+        "experience_bonus": 1.0
+      }
+    },
+    {
+      "id": "advanced_forge",
+      "level_requirement": 25,
+      "bonuses": {
+        "speed_multiplier": 1.5,
+        "quality_bonus": 0.1,
+        "experience_bonus": 1.2
+      }
+    }
+  ]
+}
