@@ -39,6 +39,8 @@ Le lot `houses` publie uniquement `exemple_maisonnette_meublee.json`, identique 
 
 Le lot `names` publie uniquement `viking.json`, identique octet pour octet entre les sources serveur et client auditées. Ce modèle emploie des noms historiques et des termes issus de la mythologie nordique pour générer des noms de fiction ; il ne constitue pas une référence linguistique, historique ou culturelle. `elfe.json` et `nain.json` sont exclus en raison de noms directement associés à Tolkien, `lovecraftien.json` en raison de références directes au mythe de Cthulhu, `fantasy.json` en raison de marqueurs associés notamment à Warcraft et D&D, et `gaulois.json` dans l'attente d'une adaptation plus nettement originale de ses noms humoristiques.
 
+Le lot `styles` publie les six fichiers audités : citadelle elfique, crypte d'ossements, forge d'obsidienne, gothique prospère, hameau forestier et oasis désertique. Les copies serveur et client sont identiques octet pour octet et ne contiennent que des identifiants logiques de pièces et accessoires. Aucun asset, droit d'utilisation d'asset, rendu ou assemblage runtime n'est inclus ou certifié.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

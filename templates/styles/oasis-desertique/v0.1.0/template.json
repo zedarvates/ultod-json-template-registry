@@ -1,0 +1,12 @@
+{
+  "style_id": "oasis_desertique",
+  "name": "Oasis désertique",
+  "applies_to": "house",
+  "palette": {
+    "mur":     [ {"part_id": "mur_torchis", "weight": 2}, {"part_id": "mur_stuc", "weight": 3} ],
+    "sol":     [ {"part_id": "sol_terre_battue", "weight": 1}, {"part_id": "sol_carrelage", "weight": 1} ],
+    "toit":    [ {"part_id": "toit_plat", "weight": 1} ],
+    "porte":   [ {"part_id": "porte_bois", "weight": 1} ],
+    "fenetre": [ {"part_id": "fenetre_ronde", "weight": 1} ]
+  }
+}

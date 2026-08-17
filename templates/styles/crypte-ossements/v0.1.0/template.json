@@ -1,0 +1,10 @@
+{
+  "style_id": "crypte_ossements",
+  "name": "Crypte d'ossements",
+  "applies_to": "dungeon",
+  "palette": {
+    "mur":   [ {"part_id": "mur_pierre_brute", "weight": 3}, {"part_id": "mur_racines", "weight": 1} ],
+    "sol":   [ {"part_id": "sol_os", "weight": 2}, {"part_id": "sol_dalle", "weight": 1} ],
+    "porte": [ {"part_id": "porte_secrete", "weight": 2}, {"part_id": "porte_bois", "weight": 1} ]
+  }
+}

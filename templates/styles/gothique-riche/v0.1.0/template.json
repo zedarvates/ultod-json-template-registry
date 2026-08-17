@@ -1,0 +1,47 @@
+{
+  "style_id": "gothique_riche",
+  "name": "Gothique prospère",
+  "applies_to": "house",
+  "palette": {
+    "mur":     [ {"part_id": "mur_pierre_sombre", "weight": 3}, {"part_id": "mur_pierre", "weight": 1} ],
+    "sol":     [ {"part_id": "sol_marbre_sombre", "weight": 2}, {"part_id": "sol_ardoise", "weight": 1} ],
+    "toit":    [ {"part_id": "toit_ardoise_sombre", "weight": 1} ],
+    "porte":   [ {"part_id": "porte_ornee", "weight": 1} ],
+    "fenetre": [ {"part_id": "fenetre_gothique", "weight": 3}, {"part_id": "fenetre_arche", "weight": 1} ]
+  },
+  "ornamentation": {
+    "density_pct": 35,
+    "items": [
+      {"part_id": "torche_murale", "weight": 3},
+      {"part_id": "tapisserie", "weight": 2},
+      {"part_id": "blason", "weight": 1},
+      {"part_id": "gargouille", "weight": 1}
+    ]
+  },
+  "room_content": {
+    "salle_commune": {
+      "props": [
+        {"prop_id": "table_longue", "count": 1},
+        {"prop_id": "chaise", "count": 4},
+        {"prop_id": "cheminee", "count": 1, "against_wall": true},
+        {"prop_id": "coffre", "count": 1, "chance_pct": 70, "against_wall": true},
+        {"prop_id": "tapis", "count": 1, "chance_pct": 60}
+      ],
+      "clutter": [ {"part_id": "bougie_table", "weight": 1} ],
+      "clutter_density_pct": 10
+    },
+    "chambre": {
+      "props": [
+        {"prop_id": "lit", "count": 1, "against_wall": true},
+        {"prop_id": "coffre", "count": 1, "chance_pct": 80},
+        {"prop_id": "etagere", "count": 1, "chance_pct": 50, "against_wall": true}
+      ]
+    },
+    "cuisine": {
+      "props": [
+        {"prop_id": "four", "count": 1, "against_wall": true},
+        {"prop_id": "tonneau", "count": 2, "chance_pct": 70}
+      ]
+    }
+  }
+}

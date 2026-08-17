@@ -1,0 +1,10 @@
+{
+  "style_id": "forge_obsidienne",
+  "name": "Forge d'obsidienne",
+  "applies_to": "dungeon",
+  "palette": {
+    "mur":   [ {"part_id": "mur_obsidienne", "weight": 3}, {"part_id": "mur_grille", "weight": 1} ],
+    "sol":   [ {"part_id": "sol_lave", "weight": 1}, {"part_id": "sol_dalle", "weight": 2} ],
+    "porte": [ {"part_id": "porte_runique", "weight": 1}, {"part_id": "porte_herse", "weight": 1} ]
+  }
+}
