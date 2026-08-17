@@ -65,6 +65,8 @@ Le lot `creatures` publie 29 des 30 fichiers depuis la source serveur : animaux 
 
 Le lot `content_pipeline` publie son manifeste et 1 000 quêtes générées, identiques octet pour octet entre les sources serveur et client auditées. Les marqueurs tels que `balance_validated` ou `ready_for_import` décrivent uniquement l'état déclaré par la source et ne constituent pas une certification. Les 168 sorts générés restent exclus car ils exposent des contrôles administratifs et appartiennent à une collection de sorts nécessitant un audit de droits et de contrat plus approfondi.
 
+Le lot narratif publie les cinq fichiers `prologues`, identiques octet pour octet entre les sources serveur et client auditées, ainsi que quatre quêtes génériques : maîtrise d'artisanat, exemple, chasse aux gobelins et entraînement d'invocateur. Les copies client de la quête exemple et de la chasse aux gobelins divergent ; aucune compatibilité client n'est revendiquée pour elles. Les deux chaînes de quêtes temporelles restent exclues parce qu'elles exposent des contrôles administratifs et des points d'intégration internes. Les choix narratifs, objectifs et récompenses publiés restent déclaratifs.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

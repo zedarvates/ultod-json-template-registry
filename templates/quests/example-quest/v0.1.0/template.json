@@ -1,0 +1,52 @@
+{
+  "template_type": "quest",
+  "version": "1.0.0",
+  "name": "Example Quest",
+  "description": "A sample quest template demonstrating JSON parsing",
+  "id": 1001,
+  "difficulty": "normal",
+  "level_required": 5,
+  "is_repeatable": false,
+  "is_daily": false,
+  "is_weekly": false,
+  "time_limit_minutes": null,
+  "start_npc_id": 100,
+  "completion_npc_id": 100,
+  "is_group_quest": false,
+  "max_party_size": 1,
+  "objectives": [
+    {
+      "id": 1,
+      "objective_type": "kill_monster",
+      "target_id": "goblin",
+      "quantity_required": 5,
+      "description": "Defeat 5 goblins"
+    },
+    {
+      "id": 2,
+      "objective_type": "collect_item",
+      "target_id": "goblin_ear",
+      "quantity_required": 3,
+      "description": "Collect 3 goblin ears"
+    }
+  ],
+  "rewards": {
+    "experience": 500,
+    "gold": 250,
+    "items": [],
+    "skills": [
+      {
+        "skill_type": "mining",
+        "amount": 10
+      }
+    ],
+    "titles": ["Goblin Slayer"],
+    "reputation": [
+      {
+        "faction": "village_defenders",
+        "amount": 25
+      }
+    ]
+  },
+  "prerequisites": []
+}

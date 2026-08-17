@@ -1,0 +1,39 @@
+{
+  "template_type": "prologue",
+  "id": "prisonnier_politique",
+  "tone": "mystery",
+  "weight": 1,
+  "title": "Le Prisonnier Politique",
+  "location": {
+    "biome": "urban",
+    "setting": "cachot d'une citadelle, couloirs aux torchères, évasion nocturne",
+    "time_of_day": "nuit"
+  },
+  "npcs": [
+    { "ref": "codetenu_guide", "role": "allié temporaire", "brief": "codétenu qui a organisé l'évasion et connaît les couloirs" },
+    { "ref": "geolier_chef", "role": "boss hors de portée", "brief": "maître des lieux ; corrompu, sa culpabilité est lisible par le don" },
+    { "ref": "gardes_citadelle", "role": "adversaires", "brief": "patrouilles dans les couloirs" },
+    { "ref": "otage", "role": "enjeu", "brief": "le codétenu capturé pendant l'évasion, lame à la gorge" }
+  ],
+  "blessing_hint": "regard_des_dettes",
+  "beats": [
+    { "id": "awakening", "text": "Réveil sur la paille du cachot, un grattement régulier dans le mur. Embodiment : mains marquées par les fers, obscurité trouée par la torchère." },
+    { "id": "realization", "text": "Il ne se souvient pas du crime qu'on lui reproche. Le froid de la pierre, l'odeur : trop précis pour un rêve." },
+    { "id": "status_window", "text": "Fenêtre de Statut : attributs anormaux pour un prisonnier, talents cachés grisés." },
+    { "id": "army_charges", "text": "Le mur s'ouvre : le codétenu a percé le passage. L'évasion commence — mais l'alarme sonne plus tôt que prévu." },
+    { "id": "survival_quest", "text": "Quête de survie : sortir de la citadelle. Échec = éjection anticipée (§0.0)." },
+    { "id": "chaos", "text": "Course dans les couloirs, patrouilles alertées. Le codétenu est capturé — pris en otage par le geôlier-chef en personne." },
+    { "id": "hidden_gift", "text": "Acculé, son regard change : le Regard des Dettes s'éveille — perception des dettes, corruptions et secrets qui pèsent sur les gens. ARME LA GRAINE DE BÉNÉDICTION." },
+    { "id": "improvised_combat", "text": "Il désarme un garde isolé d'un geste guidé par l'affinité de Voie — sans le tuer." },
+    { "id": "overwhelming_odds", "text": "Le couloir de sortie est bloqué : gardes en nombre, et l'otage entre lui et la porte." },
+    { "id": "boss_descends", "text": "Le geôlier-chef s'avance, lame à la gorge du codétenu : « rends-toi, ou il meurt »." },
+    { "id": "the_bargain", "text": "Le Regard lui montre la dette exacte du geôlier : il nomme à voix haute le registre falsifié et la somme détournée — détail que seul le coupable peut reconnaître. Devant ses gardes, le geôlier ne peut pas le faire taire sans s'accuser." },
+    { "id": "resolution", "text": "Le geôlier relâche l'otage et les laisse passer « par erreur administrative ». Quête validée." },
+    { "id": "transition", "text": "La Remontée : la porte de la citadelle s'ouvre sur un blanc aveuglant, silence, Monde Réel." }
+  ],
+  "outcomes": {
+    "escaped": "franchit la porte avec le codétenu (issue canonique)",
+    "captured": "repris mais transféré avec égards — le geôlier le craint désormais (variante si le joueur tarde)",
+    "ejected_failure": "survie échouée : Remontée anticipée"
+  }
+}

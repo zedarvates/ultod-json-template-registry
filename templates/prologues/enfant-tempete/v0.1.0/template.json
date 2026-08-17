@@ -1,0 +1,37 @@
+{
+  "template_type": "prologue",
+  "id": "enfant_tempete",
+  "tone": "adventure",
+  "weight": 1,
+  "title": "L'Enfant de la Tempête",
+  "location": {
+    "biome": "tundra",
+    "setting": "blizzard en montagne, repères effacés, lumières étranges par intermittence",
+    "time_of_day": "nuit blanche de blizzard"
+  },
+  "npcs": [
+    { "ref": "animal_blesse", "role": "enjeu de compassion", "brief": "grande créature des neiges blessée, prise dans un éboulis ; ni hostile ni suppliante" },
+    { "ref": "lumieres_etranges", "role": "guide mystérieux", "brief": "lueurs intermittentes dans le blizzard, ni PNJ ni créature — un phénomène" }
+  ],
+  "blessing_hint": "sente_des_lueurs",
+  "beats": [
+    { "id": "awakening", "text": "Réveil dans la neige, engourdi, le blizzard hurle. Embodiment : mains nues qu'on frictionne, souffle visible. AUCUNE VIOLENCE dans tout ce template." },
+    { "id": "realization", "text": "Aucun repère, aucune trace de son propre passage. Le froid mord : trop réel pour un rêve." },
+    { "id": "status_window", "text": "Fenêtre de Statut : attributs anormaux, talents cachés grisés." },
+    { "id": "army_charges", "text": "Le blizzard redouble — le vrai adversaire est le froid lui-même. Des lueurs apparaissent par intermittence entre les rafales." },
+    { "id": "survival_quest", "text": "Quête de survie : trouver un abri avant l'engourdissement. Échec = éjection anticipée (§0.0)." },
+    { "id": "chaos", "text": "Une corniche cède sous ses pas ; il se rattrape de justesse. Le choc éclaircit l'esprit — et les lueurs semblent soudain plus nettes." },
+    { "id": "hidden_gift", "text": "La Sente des Lueurs s'éveille : perception des chemins invisibles et des présences du monde. Les lueurs deviennent une piste lisible. ARME LA GRAINE DE BÉNÉDICTION." },
+    { "id": "improvised_combat", "text": "Pas de combat : franchissement guidé (prises, passage sous une arche de glace) — le tutoriel de mouvement en douceur." },
+    { "id": "overwhelming_odds", "text": "La piste des lueurs s'interrompt devant un éboulis : une grande créature des neiges y est prise, blessée. La contourner = perdre la piste." },
+    { "id": "boss_descends", "text": "La créature le fixe. Elle est immense ; l'aider = s'approcher à portée de ses crocs." },
+    { "id": "the_bargain", "text": "Le twist par compassion : il dégage la patte prise sous la roche, mains nues, sans arme. La créature se relève — et se couche pour lui offrir son flanc contre le froid." },
+    { "id": "resolution", "text": "La créature le porte à travers le blizzard jusqu'à l'abri où convergent les lueurs. Quête validée, résultat optimal." },
+    { "id": "transition", "text": "La Remontée : les lueurs l'enveloppent, blanc total, silence, Monde Réel." }
+  ],
+  "outcomes": {
+    "escaped": "atteint l'abri porté par la créature (issue canonique)",
+    "captured": "s'endort contre le flanc de la créature dans une grotte (variante douce)",
+    "ejected_failure": "l'engourdissement gagne : Remontée anticipée"
+  }
+}

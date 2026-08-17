@@ -1,0 +1,38 @@
+{
+  "template_type": "prologue",
+  "id": "soldat_tombe",
+  "tone": "tragic_soft",
+  "weight": 1,
+  "title": "Le Soldat Tombé",
+  "location": {
+    "biome": "plains",
+    "setting": "champ de bataille au crépuscule, bannières déchirées, brume basse",
+    "time_of_day": "crépuscule"
+  },
+  "npcs": [
+    { "ref": "camarade_mourant", "role": "ancrage émotionnel", "brief": "dernier compagnon d'armes, tombe aux côtés du joueur au beat du chaos" },
+    { "ref": "champion_ennemi", "role": "boss hors de portée", "brief": "officier vainqueur qui parcourt le champ ; code d'honneur strict, lisible par le don" },
+    { "ref": "soldats_vainqueurs", "role": "adversaires", "brief": "détachement qui achève les survivants" }
+  ],
+  "blessing_hint": "coeur_du_serment",
+  "beats": [
+    { "id": "awakening", "text": "Réveil sous un bouclier fendu, oreilles qui sifflent. Embodiment : mains gantées, une arme brisée à côté." },
+    { "id": "realization", "text": "Le champ de bataille s'étend, la bataille est perdue. Les bannières de son camp brûlent au loin." },
+    { "id": "status_window", "text": "Fenêtre de Statut : attributs de vétéran, talents cachés grisés. Pourquoi a-t-il survécu, lui ?" },
+    { "id": "army_charges", "text": "Un détachement ennemi avance ligne par ligne pour achever les blessés." },
+    { "id": "survival_quest", "text": "Quête de survie générée : tenir jusqu'à la nuit. Échec = éjection anticipée (§0.0)." },
+    { "id": "chaos", "text": "Son dernier camarade tombe à ses côtés en le protégeant. Pas de gore : une main qui glisse, un silence." },
+    { "id": "hidden_gift", "text": "Le chagrin éveille le Cœur du Serment : perception des serments et loyautés qui lient les vivants. ARME LA GRAINE DE BÉNÉDICTION." },
+    { "id": "improvised_combat", "text": "Il ramasse l'épée du camarade. Une parade instinctive, un désarmement — l'affinité de Voie s'éveille." },
+    { "id": "overwhelming_odds", "text": "Le détachement l'encercle. Trop nombreux, et il refuse de lâcher l'épée du camarade." },
+    { "id": "boss_descends", "text": "Le champion ennemi écarte ses hommes pour l'affronter seul — l'honneur du duel final." },
+    { "id": "the_bargain", "text": "Le don lui montre le serment qui lie le champion : il reconnaît et nomme le rite de reddition honorable exact de son ordre. Le coup s'arrête : tuer un homme qui l'invoque briserait le serment du champion." },
+    { "id": "resolution", "text": "Le champion abaisse sa lame et lui accorde la vie sauve, l'épée du camarade en main. Quête validée." },
+    { "id": "transition", "text": "La Remontée : la brume avale le champ, flash blanc, silence, Monde Réel." }
+  ],
+  "outcomes": {
+    "escaped": "profite de la nuit tombée pour quitter le champ (si le rite n'est pas invoqué)",
+    "captured": "prisonnier d'honneur du champion (issue canonique)",
+    "ejected_failure": "survie échouée : Remontée anticipée"
+  }
+}

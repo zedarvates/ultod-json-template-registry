@@ -1,0 +1,38 @@
+{
+  "template_type": "prologue",
+  "id": "naufrage",
+  "tone": "adventure",
+  "weight": 1,
+  "title": "Le Naufragé",
+  "location": {
+    "biome": "ocean",
+    "setting": "épave disloquée sur un récif, tempête finissante, débris et survivants accrochés aux espars",
+    "time_of_day": "aube d'après-tempête"
+  },
+  "npcs": [
+    { "ref": "second_du_navire", "role": "allié temporaire", "brief": "survivant gradé qui organise les rescapés sur le récif" },
+    { "ref": "leviathan_recif", "role": "boss hors de portée", "brief": "créature marine territoriale ; son comportement suit un rituel de territoire lisible par le don" },
+    { "ref": "rescapes", "role": "figuration", "brief": "poignée de survivants, réactions scriptées aux attaques" }
+  ],
+  "blessing_hint": "chant_des_profondeurs",
+  "beats": [
+    { "id": "awakening", "text": "Réveil recraché par une vague sur le récif, toux d'eau salée. Embodiment : mains agrippées au corail, tangage rémanent." },
+    { "id": "realization", "text": "L'épave se disloque au loin. Le sel, le froid, le cri des oiseaux : trop réel pour un rêve." },
+    { "id": "status_window", "text": "Fenêtre de Statut : attributs anormaux, talents cachés grisés." },
+    { "id": "army_charges", "text": "Une masse sombre tourne sous la surface — le léviathan du récif remonte vers les survivants." },
+    { "id": "survival_quest", "text": "Quête de survie : tenir jusqu'à ce qu'un passage s'ouvre. Échec = éjection anticipée (§0.0)." },
+    { "id": "chaos", "text": "La créature frappe le récif, des survivants tombent à l'eau. Une gerbe d'écume le jette contre le corail — l'esprit s'éclaircit." },
+    { "id": "hidden_gift", "text": "L'eau salée dans ses oreilles devient un chant : le Chant des Profondeurs, perception des rythmes et rituels des créatures. ARME LA GRAINE DE BÉNÉDICTION." },
+    { "id": "improvised_combat", "text": "Il saisit une gaffe d'abordage flottante ; l'affinité de Voie guide un coup qui détourne une attaque du second." },
+    { "id": "overwhelming_odds", "text": "La créature est immense — la force ne mènera nulle part." },
+    { "id": "boss_descends", "text": "Le léviathan se dresse au-dessus du récif, gueule ouverte, face à lui." },
+    { "id": "the_bargain", "text": "Le Chant lui révèle le rituel territorial exact : trois coups frappés sur le corail, la gaffe déposée à plat — le geste de soumission que la créature attend. Elle s'immobilise." },
+    { "id": "resolution", "text": "Le léviathan se retire dans les profondeurs. Les survivants passent. Quête validée, résultat optimal." },
+    { "id": "transition", "text": "La Remontée : la lumière de l'aube blanchit tout, silence, Monde Réel." }
+  ],
+  "outcomes": {
+    "escaped": "rejoint la chaloupe des rescapés (issue canonique)",
+    "captured": "recueilli inconscient par un navire inconnu (variante si blessé au chaos)",
+    "ejected_failure": "survie échouée : Remontée anticipée"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "template_type": "quest",
+  "version": "1.0.0",
+  "name": "Chasse aux Gobelins de la Forêt",
+  "description": "Les gobelins attaquent les voyageurs dans la forêt. Aidez-nous à les éliminer!",
+  "id": 1002,
+  "difficulty": "easy",
+  "level_required": 1,
+  "is_repeatable": false,
+  "is_daily": false,
+  "is_weekly": false,
+  "time_limit_minutes": 60,
+  "start_npc_id": 101,
+  "completion_npc_id": 101,
+  "is_group_quest": false,
+  "max_party_size": 1,
+  "objectives": [
+    {
+      "id": 1,
+      "objective_type": "kill_monster",
+      "target_id": "goblin",
+      "quantity_required": 8,
+      "description": "Tuez 8 gobelins de la forêt"
+    },
+    {
+      "id": 2,
+      "objective_type": "collect_item",
+      "target_id": "goblin_ear",
+      "quantity_required": 5,
+      "description": "Récupérez 5 oreilles de gobelin"
+    }
+  ],
+  "rewards": {
+    "experience": 150,
+    "gold": 75,
+    "items": [
+      {
+        "item_id": "minor_health_potion",
+        "quantity": 2
+      }
+    ],
+    "skills": [],
+    "titles": [],
+    "reputation": [
+      {
+        "faction": "village_defenders",
+        "amount": 10
+      }
+    ]
+  },
+  "prerequisites": []
+}

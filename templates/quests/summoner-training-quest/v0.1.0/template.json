@@ -1,0 +1,73 @@
+{
+  "template_type": "quest",
+  "version": "1.0.0",
+  "name": "Formation de l'Invocateur",
+  "description": "Apprenez à maîtriser l'art de l'invocation en invoquant vos premiers familiers",
+  "id": 1004,
+  "difficulty": "easy",
+  "level_required": 5,
+  "is_repeatable": false,
+  "is_daily": false,
+  "is_weekly": false,
+  "time_limit_minutes": 90,
+  "start_npc_id": 103,
+  "completion_npc_id": 103,
+  "is_group_quest": false,
+  "max_party_size": 1,
+  "objectives": [
+    {
+      "id": 1,
+      "objective_type": "cast_ability",
+      "target_id": "summoner_summon_imp",
+      "quantity_required": 5,
+      "description": "Invoquez un imp 5 fois"
+    },
+    {
+      "id": 2,
+      "objective_type": "kill_with_pet",
+      "target_id": "any",
+      "quantity_required": 10,
+      "description": "Tuez 10 ennemis avec vos familiers"
+    },
+    {
+      "id": 3,
+      "objective_type": "pet_duration",
+      "target_id": "any",
+      "quantity_required": 300,
+      "description": "Gardez un familier actif pendant 5 minutes"
+    }
+  ],
+  "rewards": {
+    "experience": 400,
+    "gold": 200,
+    "items": [
+      {
+        "item_id": "summoners_grimoire",
+        "quantity": 1
+      },
+      {
+        "item_id": "minor_mana_potion",
+        "quantity": 10
+      }
+    ],
+    "skills": [
+      {
+        "skill_type": "summoning",
+        "amount": 50
+      }
+    ],
+    "titles": ["Apprenti Invocateur"],
+    "reputation": [
+      {
+        "faction": "arcane_academy",
+        "amount": 75
+      }
+    ]
+  },
+  "prerequisites": [
+    {
+      "type": "class",
+      "value": "summoner"
+    }
+  ]
+}

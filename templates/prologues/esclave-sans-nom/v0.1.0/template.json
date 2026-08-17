@@ -1,0 +1,39 @@
+{
+  "template_type": "prologue",
+  "id": "esclave_sans_nom",
+  "tone": "grim",
+  "weight": 1,
+  "title": "L'Esclave Sans Nom",
+  "location": {
+    "biome": "desert",
+    "setting": "caravane d'esclaves en marche forcée, lézard-caravanier cuirassé en tête de colonne",
+    "time_of_day": "midi écrasant"
+  },
+  "npcs": [
+    { "ref": "surveillant_fouet", "role": "antagoniste mineur", "brief": "surveillant de caravane, voix hors-champ au réveil, jamais de gros plan" },
+    { "ref": "marechale_du_sable", "role": "boss hors de portée", "brief": "commandante redoutée, porte un sceau de malédiction perceptible par l'Œil du Serment Rompu" },
+    { "ref": "esclaves_colonne", "role": "figuration", "brief": "colonne d'esclaves enchaînés, réactions scriptées au chaos" },
+    { "ref": "soldats_couronne", "role": "adversaires", "brief": "quelques dizaines visibles, montés sur bêtes de guerre" }
+  ],
+  "blessing_hint": "oeil_du_serment_rompu",
+  "beats": [
+    { "id": "awakening", "text": "Réveil dans le sable, poignets entravés, crack sec d'un fouet hors-champ. Embodiment VR : regarder ses mains liées avant de se relever. Aucune plaie visible (règle de ton §0.4)." },
+    { "id": "realization", "text": "La colonne d'esclaves marche derrière le lézard-caravanier. La douleur, le sable, le poids des chaînes : trop précis pour un rêve." },
+    { "id": "status_window", "text": "La Fenêtre de Statut s'ouvre (geste paume). Attributs nettement au-dessus de la moyenne esclave ; talents cachés grisés. Il n'est pas ordinaire." },
+    { "id": "army_charges", "text": "Le sol tremble. La Maréchale du Sable charge à l'horizon avec sa colonne : effacer toute trace du manquement de la cité-oasis envers la couronne." },
+    { "id": "survival_quest", "text": "Quête de survie générée. Échouer = éjection anticipée vers le Monde Réel (jamais une mort réelle, §0.0)." },
+    { "id": "chaos", "text": "Pluie de flèches, les esclaves tombent. Paralysie de peur — jusqu'à une blessure superficielle (impact suggéré) qui éclaircit l'esprit." },
+    { "id": "hidden_gift", "text": "Éveil de l'Œil du Serment Rompu : perception des liens et malédictions. Des marques invisibles apparaissent sur les gens. ARME LA GRAINE DE BÉNÉDICTION." },
+    { "id": "improvised_combat", "text": "Chaînes brisées, arme ramassée sur un soldat tombé. Affinité de Voie en cascade : les ouvertures dans la garde adverse pulsent en lumière. Un coup précis." },
+    { "id": "overwhelming_odds", "text": "Trop d'adversaires. Mais ses compétences progressent anormalement vite pour un premier combat." },
+    { "id": "boss_descends", "text": "La Maréchale descend elle-même. Rapport de force sans espoir par la force brute." },
+    { "id": "the_bargain", "text": "Au moment du coup fatal, il nomme à voix haute un détail exact de son sceau — que seule elle peut savoir vrai. La lame s'arrête. « Je peux voir ce que ce sceau te fait. Laisse-moi t'aider à le comprendre. »" },
+    { "id": "resolution", "text": "Elle diffère l'exécution et ordonne qu'on l'escorte en hôte. Quête validée, résultat optimal. Récompense : éclat de sceau doré." },
+    { "id": "transition", "text": "La Remontée : flash blanc, silence, retour forcé au Monde Réel (§0.0bis). Jamais directement l'Entre-Deux." }
+  ],
+  "outcomes": {
+    "escaped": "fuite dans les dunes pendant l'escorte — variante rare si le joueur refuse le marché",
+    "captured": "escorté comme hôte de la Maréchale (issue canonique du marché)",
+    "ejected_failure": "survie échouée : Remontée anticipée, la vision se dissout"
+  }
+}

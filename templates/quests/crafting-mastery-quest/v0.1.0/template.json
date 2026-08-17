@@ -1,0 +1,68 @@
+{
+  "template_type": "quest",
+  "version": "1.0.0",
+  "name": "Maîtrise de l'Artisanat",
+  "description": "Apprenez les bases de l'artisanat en créant vos premiers objets",
+  "id": 1003,
+  "difficulty": "easy",
+  "level_required": 3,
+  "is_repeatable": false,
+  "is_daily": false,
+  "is_weekly": false,
+  "time_limit_minutes": 120,
+  "start_npc_id": 102,
+  "completion_npc_id": 102,
+  "is_group_quest": false,
+  "max_party_size": 1,
+  "objectives": [
+    {
+      "id": 1,
+      "objective_type": "craft_item",
+      "target_id": "healing_potion",
+      "quantity_required": 3,
+      "description": "Créez 3 potions de soin"
+    },
+    {
+      "id": 2,
+      "objective_type": "craft_item",
+      "target_id": "iron_sword",
+      "quantity_required": 1,
+      "description": "Forgez une épée en fer"
+    },
+    {
+      "id": 3,
+      "objective_type": "learn_profession",
+      "target_id": "alchemy",
+      "quantity_required": 1,
+      "description": "Apprenez la profession d'alchimie"
+    }
+  ],
+  "rewards": {
+    "experience": 300,
+    "gold": 150,
+    "items": [
+      {
+        "item_id": "minor_mana_potion",
+        "quantity": 5
+      },
+      {
+        "item_id": "linen_cloth",
+        "quantity": 10
+      }
+    ],
+    "skills": [
+      {
+        "skill_type": "crafting",
+        "amount": 25
+      }
+    ],
+    "titles": ["Apprenti Artisan"],
+    "reputation": [
+      {
+        "faction": "craftsmen_guild",
+        "amount": 50
+      }
+    ]
+  },
+  "prerequisites": []
+}

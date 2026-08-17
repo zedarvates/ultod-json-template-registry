@@ -13202,6 +13202,114 @@
                         "compatibility":  [
 
                                           ]
+                    },
+                    {
+                        "name":  "enfant-tempete",
+                        "kind":  "prologue-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/prologues/enfant-tempete/v0.1.0/template.json",
+                        "source_file":  "enfant_tempete.json",
+                        "sha256":  "a2dc9b73629a78b788acf85a6e5f7a51630ce9ad65fca7eebe0adacda7973b37",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "esclave-sans-nom",
+                        "kind":  "prologue-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/prologues/esclave-sans-nom/v0.1.0/template.json",
+                        "source_file":  "esclave_sans_nom.json",
+                        "sha256":  "40f491c3fd227d460fc692cede81721ac4bf8c1d92558ad70782e05f40a87e53",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "naufrage",
+                        "kind":  "prologue-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/prologues/naufrage/v0.1.0/template.json",
+                        "source_file":  "naufrage.json",
+                        "sha256":  "e838314d1330ead9784121904431cb8d96f083325568e89b8ee641fc26244851",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "prisonnier-politique",
+                        "kind":  "prologue-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/prologues/prisonnier-politique/v0.1.0/template.json",
+                        "source_file":  "prisonnier_politique.json",
+                        "sha256":  "ca9c4620d218c572b26b175865973b9e63614dfbe7170b05c98cb27cd043936c",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "soldat-tombe",
+                        "kind":  "prologue-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/prologues/soldat-tombe/v0.1.0/template.json",
+                        "source_file":  "soldat_tombe.json",
+                        "sha256":  "f699b15b3f089759480de940ec7e5d803e34b5657fdcb8e8582b19530100af81",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "crafting-mastery-quest",
+                        "kind":  "quest-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/quests/crafting-mastery-quest/v0.1.0/template.json",
+                        "source_file":  "crafting_mastery_quest.json",
+                        "sha256":  "9feff7a0088543541f89c935b9b584371705b39cb04748c708117d0b10739573",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "example-quest",
+                        "kind":  "quest-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/quests/example-quest/v0.1.0/template.json",
+                        "source_file":  "example_quest.json",
+                        "sha256":  "13ff49e73e43431dd3438a73966fa72a8994a2aad03b5468a25422486ff738de",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "forest-goblin-hunt",
+                        "kind":  "quest-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/quests/forest-goblin-hunt/v0.1.0/template.json",
+                        "source_file":  "forest_goblin_hunt.json",
+                        "sha256":  "c820419c9be6dfe50a02b26c5556c3a622852bfcfc271a968f5dc331109a5308",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "summoner-training-quest",
+                        "kind":  "quest-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/quests/summoner-training-quest/v0.1.0/template.json",
+                        "source_file":  "summoner_training_quest.json",
+                        "sha256":  "1f6111f06060eab92f4162fcc26ee20e59baf1f43735c9da6752ef3fbc4029f7",
+                        "compatibility":  [
+
+                                          ]
                     }
                 ]
 }
