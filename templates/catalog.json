@@ -1,0 +1,199 @@
+{
+    "registry_version":  "1.0.0",
+    "generated_at":  "2026-08-17",
+    "source_set":  "authoritative-server-schemas",
+    "entries":  [
+                    {
+                        "name":  "bulk-order",
+                        "kind":  "json-schema",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/schemas/bulk-order/v0.1.0/schema.json",
+                        "source_file":  "bulk_order_schema.json",
+                        "sha256":  "04b85782bcf0b9a6e26757d06072d6724d04371082be319cceed05f67f1e575a",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "class",
+                        "kind":  "json-schema",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/schemas/class/v0.1.0/schema.json",
+                        "source_file":  "class_schema.json",
+                        "sha256":  "1fb6976298bd2a98c0d515f162dfb4a77c6f61f28c0f9745e1517bd7dc192cac",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "example-quest",
+                        "kind":  "json-schema",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/schemas/example-quest/v0.1.0/schema.json",
+                        "source_file":  "example_quest_schema.json",
+                        "sha256":  "6d7cd6d80c0542b4907778d7cc5c1178f1099b7d4263381b09fc0cdca9df57ba",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "haptic",
+                        "kind":  "json-schema",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/schemas/haptic/v0.1.0/schema.json",
+                        "source_file":  "haptic_schema.json",
+                        "sha256":  "68aeace3965808bff01caa8168a843001f4e74243ebf712f88eef282c5227705",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "item",
+                        "kind":  "json-schema",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/schemas/item/v0.1.0/schema.json",
+                        "source_file":  "item_schema.json",
+                        "sha256":  "1226fc3ff1da0a0a0845e594fb4a26aca31b2279583313274c028422a5c27995",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "lineage",
+                        "kind":  "json-schema",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/schemas/lineage/v0.1.0/schema.json",
+                        "source_file":  "lineage_schema.json",
+                        "sha256":  "cde330d84f0bc18d9183048c18912a234ee90f6d7ce9071b5add808c90ce789b",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "planet",
+                        "kind":  "json-schema",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/schemas/planet/v0.1.0/schema.json",
+                        "source_file":  "planet_schema.json",
+                        "sha256":  "592a5fd726739b782002721b5e066c05458471957a4572123453f823442efc06",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "professions",
+                        "kind":  "json-schema",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/schemas/professions/v0.1.0/schema.json",
+                        "source_file":  "professions_schema.json",
+                        "sha256":  "6aa508ddeec04186311f999cfbce31b456ed2336f5e9e1468dad35fb09357eb8",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "quest",
+                        "kind":  "json-schema",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/schemas/quest/v0.1.0/schema.json",
+                        "source_file":  "quest_schema.json",
+                        "sha256":  "7373c09327188bc057d19978324b31444d8f947b77e2b03380fb120901a2a144",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "race",
+                        "kind":  "json-schema",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/schemas/race/v0.1.0/schema.json",
+                        "source_file":  "race_schema.json",
+                        "sha256":  "8b8152197a62e6a18ac5ec93caf5e46b27b07485fa04e75aebb96ee96327ac7a",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "racial-trait",
+                        "kind":  "json-schema",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/schemas/racial-trait/v0.1.0/schema.json",
+                        "source_file":  "racial_trait_schema.json",
+                        "sha256":  "a7abaed613bf98d22646918bdd877dda15ed01d04a71f952f227b1350e4fe3c9",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "rift",
+                        "kind":  "json-schema",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/schemas/rift/v0.1.0/schema.json",
+                        "source_file":  "rift_schema.json",
+                        "sha256":  "1ed965a4ee16c5787bccdad7ab0521e326ef754f656435d1a6fc491759a236c7",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "skill",
+                        "kind":  "json-schema",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/schemas/skill/v0.1.0/schema.json",
+                        "source_file":  "skill_schema.json",
+                        "sha256":  "7b8ec62cec174a2290719af43894c91a27780ecc79d0b9a6d69815e1f9c4c60d",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "skill-system",
+                        "kind":  "json-schema",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/schemas/skill-system/v0.1.0/schema.json",
+                        "source_file":  "skill_system_schema.json",
+                        "sha256":  "6d1750afd6545dae7f05d45d4ffde70959cd75603fee5ed0c96beb668279968b",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "solar-system",
+                        "kind":  "json-schema",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/schemas/solar-system/v0.1.0/schema.json",
+                        "source_file":  "solar_system_schema.json",
+                        "sha256":  "73a17e13501ecf48211cfb72a18b4c68f6d0a9c9ff5c0ca6dfea843a99cdaef1",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "spell",
+                        "kind":  "json-schema",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/schemas/spell/v0.1.0/schema.json",
+                        "source_file":  "spell_schema.json",
+                        "sha256":  "e928dcc28b87002c41d755f7cd5274b7e630e3bf45be604bf54250202c98bdc7",
+                        "compatibility":  [
+
+                                          ]
+                    }
+                ]
+}

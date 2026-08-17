@@ -4,9 +4,9 @@ Registre central destiné aux modèles JSON versionnés de l'écosystème Ultima
 
 ## Statut
 
-**Documentation initiale.** Aucun modèle JSON applicatif n'est encore publié ni déclaré compatible avec un client ou un serveur.
+**Registre expérimental.** Une première collection de 16 schémas JSON est publiée en version `0.1.0`.
 
-Les contrats seront ajoutés progressivement après validation de leur rôle, de leur propriétaire et de leur compatibilité.
+Ces schémas sont des instantanés non certifiés. Aucun n'est encore déclaré compatible avec une version précise d'un client ou du serveur.
 
 ## Objectif
 
@@ -33,14 +33,15 @@ La présence d'un modèle dans ce registre ne prouve pas son intégration de bou
 
 ```text
 templates/
-  <famille>/
-    <nom-du-modele>/
+  catalog.json
+  schemas/
+    <nom-du-schema>/
       v<MAJEUR>.<MINEUR>.<CORRECTIF>/
-        template.json
+        schema.json
         README.md
 ```
 
-Les familles et premiers modèles seront créés seulement lorsque leurs contrats seront suffisamment définis.
+Le détail de la sélection initiale et des exclusions se trouve dans [SOURCE_AUDIT.md](SOURCE_AUDIT.md).
 
 ## Versionnage
 

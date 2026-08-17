@@ -1,0 +1,281 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Class Template Schema",
+  "description": "Schema for character class templates",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "color",
+    "primary_resource",
+    "base_stats",
+    "specializations",
+    "starting_skills",
+    "talent_tree",
+    "resource_max",
+    "health_modifier",
+    "damage_modifier",
+    "armor_modifier",
+    "template_type",
+    "version"
+  ],
+  "properties": {
+    "template_type": {
+      "type": "string",
+      "enum": [
+        "class"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 500
+    },
+    "color": {
+      "type": "string",
+      "pattern": "^[0-9A-Fa-f]{6}$"
+    },
+    "primary_resource": {
+      "type": "string",
+      "enum": [
+        "mana",
+        "rage",
+        "energy",
+        "focus",
+        "holy_power",
+        "nature_power",
+        "astral_power"
+      ]
+    },
+    "base_stats": {
+      "type": "object",
+      "required": [
+        "strength",
+        "agility",
+        "intelligence",
+        "vitality",
+        "wisdom",
+        "charisma"
+      ],
+      "properties": {
+        "strength": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50
+        },
+        "agility": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50
+        },
+        "intelligence": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50
+        },
+        "vitality": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50
+        },
+        "wisdom": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50
+        },
+        "charisma": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50
+        }
+      }
+    },
+    "specializations": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 5,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "starting_skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "description",
+          "cooldown",
+          "mana_cost",
+          "range",
+          "cast_time",
+          "learned_at_level",
+          "is_passive"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "cooldown": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "mana_cost": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "range": {
+            "type": "number",
+            "minimum": 0
+          },
+          "cast_time": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "learned_at_level": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100
+          },
+          "is_passive": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "talent_tree": {
+      "type": "object",
+      "required": [
+        "tiers"
+      ],
+      "properties": {
+        "tiers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "tier",
+              "talents"
+            ],
+            "properties": {
+              "tier": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 10
+              },
+              "talents": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "id",
+                    "name",
+                    "description",
+                    "max_rank",
+                    "icon_path"
+                  ],
+                  "properties": {
+                    "id": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "description": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "max_rank": {
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 10
+                    },
+                    "icon_path": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "resource_max": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1000000
+    },
+    "health_modifier": {
+      "type": "number",
+      "minimum": 0.1,
+      "maximum": 5.0
+    },
+    "damage_modifier": {
+      "type": "number",
+      "minimum": 0.1,
+      "maximum": 5.0
+    },
+    "armor_modifier": {
+      "type": "number",
+      "minimum": 0.1,
+      "maximum": 5.0
+    },
+    "spell_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "References to spell templates this class can learn"
+    },
+    "skill_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "References to skill templates this class can use"
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": true
+    },
+    "admin_only": {
+      "type": "boolean",
+      "default": false
+    },
+    "debug_mode": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "id": "class_schema"
+}

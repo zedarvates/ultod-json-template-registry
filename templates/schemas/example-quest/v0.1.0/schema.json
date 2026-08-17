@@ -1,0 +1,204 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "template_type",
+    "version",
+    "name",
+    "description",
+    "id",
+    "objectives",
+    "rewards"
+  ],
+  "properties": {
+    "template_type": {
+      "type": "string",
+      "enum": [
+        "quest"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500
+    },
+    "id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": [
+        "trivial",
+        "easy",
+        "normal",
+        "hard",
+        "epic",
+        "legendary"
+      ]
+    },
+    "level_required": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100
+    },
+    "is_repeatable": {
+      "type": "boolean"
+    },
+    "is_daily": {
+      "type": "boolean"
+    },
+    "is_weekly": {
+      "type": "boolean"
+    },
+    "time_limit_minutes": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    },
+    "start_npc_id": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "completion_npc_id": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "is_group_quest": {
+      "type": "boolean"
+    },
+    "max_party_size": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "objectives": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "objective_type",
+          "target_id",
+          "quantity_required",
+          "description"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "objective_type": {
+            "type": "string",
+            "enum": [
+              "kill_monster",
+              "collect_item",
+              "gather_resource",
+              "craft_item",
+              "talk_to_npc",
+              "explore_area",
+              "deliver_item",
+              "survive_time",
+              "complete_combat",
+              "solve_puzzle"
+            ]
+          },
+          "target_id": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "quantity_required": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          }
+        }
+      }
+    },
+    "rewards": {
+      "type": "object",
+      "properties": {
+        "experience": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "gold": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "skills": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "skill_type",
+              "amount"
+            ],
+            "properties": {
+              "skill_type": {
+                "type": "string"
+              },
+              "amount": {
+                "type": "integer",
+                "minimum": 1
+              }
+            }
+          }
+        },
+        "titles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reputation": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "faction",
+              "amount"
+            ],
+            "properties": {
+              "faction": {
+                "type": "string"
+              },
+              "amount": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      }
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      }
+    }
+  },
+  "id": "example_quest_schema"
+}

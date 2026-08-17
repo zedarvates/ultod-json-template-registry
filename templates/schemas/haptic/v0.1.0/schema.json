@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Haptic Pattern Schema",
+  "type": "object",
+  "properties": {
+    "patterns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "amplitude", "frequency", "duration_ms"],
+        "properties": {
+          "id": { 
+            "type": "string",
+            "description": "Unique identifier for the pattern (e.g., 'soft_tap', 'explosion')"
+          },
+          "amplitude": { 
+            "type": "number", 
+            "minimum": 0, 
+            "maximum": 1,
+            "description": "Intensity of the vibration (0.0 to 1.0)"
+          },
+          "frequency": { 
+            "type": "number", 
+            "minimum": 0, 
+            "maximum": 1,
+            "description": "Normalized frequency of the vibration (0.0 to 1.0)"
+          },
+          "duration_ms": { 
+            "type": "integer", 
+            "minimum": 0,
+            "description": "Duration of the effect in milliseconds"
+          }
+        }
+      }
+    }
+  }
+}

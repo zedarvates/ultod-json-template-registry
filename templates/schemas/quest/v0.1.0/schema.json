@@ -1,0 +1,2170 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Quest Configuration Schema",
+  "description": "Schema for validating quest configuration templates",
+  "type": "object",
+  "required": [
+    "template_type",
+    "version",
+    "name",
+    "description",
+    "global_settings"
+  ],
+  "properties": {
+    "template_type": {
+      "type": "string",
+      "enum": [
+        "quest"
+      ],
+      "description": "Type of template"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Version number in semantic versioning format"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "Name of the quest configuration"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500,
+      "description": "Description of the quest configuration"
+    },
+    "global_settings": {
+      "type": "object",
+      "required": [
+        "enabled",
+        "debug_mode",
+        "log_level"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Whether the system is enabled"
+        },
+        "debug_mode": {
+          "type": "boolean",
+          "description": "Whether debug mode is enabled"
+        },
+        "log_level": {
+          "type": "string",
+          "enum": [
+            "debug",
+            "info",
+            "warn",
+            "error"
+          ],
+          "description": "Logging level"
+        },
+        "max_active_quests": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100,
+          "description": "Maximum number of active quests per player"
+        },
+        "quest_generation_interval_minutes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1440,
+          "description": "Interval for quest generation in minutes"
+        },
+        "auto_cleanup_interval_hours": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 168,
+          "description": "Auto cleanup interval in hours"
+        },
+        "performance_optimization": {
+          "type": "object",
+          "properties": {
+            "enable_caching": {
+              "type": "boolean"
+            },
+            "cache_ttl_seconds": {
+              "type": "integer",
+              "minimum": 60,
+              "maximum": 86400
+            },
+            "batch_processing": {
+              "type": "boolean"
+            },
+            "batch_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            },
+            "async_processing": {
+              "type": "boolean"
+            },
+            "thread_pool_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 16
+            }
+          }
+        }
+      }
+    },
+    "quest_types": {
+      "type": "object",
+      "properties": {
+        "main_quest": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "priority": {
+                  "type": "string",
+                  "enum": [
+                    "critical",
+                    "high",
+                    "normal",
+                    "low"
+                  ]
+                },
+                "story_importance": {
+                  "type": "string",
+                  "enum": [
+                    "essential",
+                    "major",
+                    "minor",
+                    "optional"
+                  ]
+                },
+                "linear_progression": {
+                  "type": "boolean"
+                },
+                "branching_paths": {
+                  "type": "boolean"
+                },
+                "multiple_endings": {
+                  "type": "boolean"
+                },
+                "required_level": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "recommended_level": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "time_limit": {
+                  "type": "object",
+                  "properties": {
+                    "enabled": {
+                      "type": "boolean"
+                    },
+                    "duration_minutes": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "penalties": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "difficulty": {
+                  "type": "string",
+                  "enum": [
+                    "tutorial",
+                    "easy",
+                    "medium",
+                    "hard",
+                    "extreme"
+                  ]
+                },
+                "party_required": {
+                  "type": "boolean"
+                },
+                "party_size_range": {
+                  "type": "object",
+                  "properties": {
+                    "min": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "max": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "side_quest": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "priority": {
+                  "type": "string",
+                  "enum": [
+                    "critical",
+                    "high",
+                    "normal",
+                    "low"
+                  ]
+                },
+                "story_importance": {
+                  "type": "string",
+                  "enum": [
+                    "essential",
+                    "major",
+                    "minor",
+                    "optional"
+                  ]
+                },
+                "linear_progression": {
+                  "type": "boolean"
+                },
+                "branching_paths": {
+                  "type": "boolean"
+                },
+                "multiple_endings": {
+                  "type": "boolean"
+                },
+                "required_level": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "recommended_level": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "time_limit": {
+                  "type": "object",
+                  "properties": {
+                    "enabled": {
+                      "type": "boolean"
+                    },
+                    "duration_minutes": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "penalties": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "difficulty": {
+                  "type": "string",
+                  "enum": [
+                    "tutorial",
+                    "easy",
+                    "medium",
+                    "hard",
+                    "extreme"
+                  ]
+                },
+                "party_required": {
+                  "type": "boolean"
+                },
+                "party_size_range": {
+                  "type": "object",
+                  "properties": {
+                    "min": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "max": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "daily_quest": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "priority": {
+                  "type": "string",
+                  "enum": [
+                    "critical",
+                    "high",
+                    "normal",
+                    "low"
+                  ]
+                },
+                "story_importance": {
+                  "type": "string",
+                  "enum": [
+                    "essential",
+                    "major",
+                    "minor",
+                    "optional"
+                  ]
+                },
+                "linear_progression": {
+                  "type": "boolean"
+                },
+                "branching_paths": {
+                  "type": "boolean"
+                },
+                "multiple_endings": {
+                  "type": "boolean"
+                },
+                "required_level": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "recommended_level": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "time_limit": {
+                  "type": "object",
+                  "properties": {
+                    "enabled": {
+                      "type": "boolean"
+                    },
+                    "duration_minutes": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "penalties": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "difficulty": {
+                  "type": "string",
+                  "enum": [
+                    "tutorial",
+                    "easy",
+                    "medium",
+                    "hard",
+                    "extreme"
+                  ]
+                },
+                "party_required": {
+                  "type": "boolean"
+                },
+                "party_size_range": {
+                  "type": "object",
+                  "properties": {
+                    "min": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "max": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                },
+                "daily_reset": {
+                  "type": "object",
+                  "properties": {
+                    "enabled": {
+                      "type": "boolean"
+                    },
+                    "reset_time": {
+                      "type": "string"
+                    },
+                    "max_completions": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "weekly_quest": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "priority": {
+                  "type": "string",
+                  "enum": [
+                    "critical",
+                    "high",
+                    "normal",
+                    "low"
+                  ]
+                },
+                "story_importance": {
+                  "type": "string",
+                  "enum": [
+                    "essential",
+                    "major",
+                    "minor",
+                    "optional"
+                  ]
+                },
+                "linear_progression": {
+                  "type": "boolean"
+                },
+                "branching_paths": {
+                  "type": "boolean"
+                },
+                "multiple_endings": {
+                  "type": "boolean"
+                },
+                "required_level": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "recommended_level": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "time_limit": {
+                  "type": "object",
+                  "properties": {
+                    "enabled": {
+                      "type": "boolean"
+                    },
+                    "duration_minutes": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "penalties": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "difficulty": {
+                  "type": "string",
+                  "enum": [
+                    "tutorial",
+                    "easy",
+                    "medium",
+                    "hard",
+                    "extreme"
+                  ]
+                },
+                "party_required": {
+                  "type": "boolean"
+                },
+                "party_size_range": {
+                  "type": "object",
+                  "properties": {
+                    "min": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "max": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                },
+                "weekly_reset": {
+                  "type": "object",
+                  "properties": {
+                    "enabled": {
+                      "type": "boolean"
+                    },
+                    "reset_day": {
+                      "type": "string",
+                      "enum": [
+                        "monday",
+                        "tuesday",
+                        "wednesday",
+                        "thursday",
+                        "friday",
+                        "saturday",
+                        "sunday"
+                      ]
+                    },
+                    "reset_time": {
+                      "type": "string"
+                    },
+                    "max_completions": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "event_quest": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "priority": {
+                  "type": "string",
+                  "enum": [
+                    "critical",
+                    "high",
+                    "normal",
+                    "low"
+                  ]
+                },
+                "story_importance": {
+                  "type": "string",
+                  "enum": [
+                    "essential",
+                    "major",
+                    "minor",
+                    "optional"
+                  ]
+                },
+                "linear_progression": {
+                  "type": "boolean"
+                },
+                "branching_paths": {
+                  "type": "boolean"
+                },
+                "multiple_endings": {
+                  "type": "boolean"
+                },
+                "required_level": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "recommended_level": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "time_limit": {
+                  "type": "object",
+                  "properties": {
+                    "enabled": {
+                      "type": "boolean"
+                    },
+                    "duration_minutes": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "penalties": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "difficulty": {
+                  "type": "string",
+                  "enum": [
+                    "tutorial",
+                    "easy",
+                    "medium",
+                    "hard",
+                    "extreme"
+                  ]
+                },
+                "party_required": {
+                  "type": "boolean"
+                },
+                "party_size_range": {
+                  "type": "object",
+                  "properties": {
+                    "min": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "max": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                },
+                "event_requirements": {
+                  "type": "object",
+                  "properties": {
+                    "event_name": {
+                      "type": "string"
+                    },
+                    "event_duration": {
+                      "type": "object",
+                      "properties": {
+                        "start_time": {
+                          "type": "string"
+                        },
+                        "end_time": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "event_conditions": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "hidden_quest": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "priority": {
+                  "type": "string",
+                  "enum": [
+                    "critical",
+                    "high",
+                    "normal",
+                    "low"
+                  ]
+                },
+                "story_importance": {
+                  "type": "string",
+                  "enum": [
+                    "essential",
+                    "major",
+                    "minor",
+                    "optional"
+                  ]
+                },
+                "linear_progression": {
+                  "type": "boolean"
+                },
+                "branching_paths": {
+                  "type": "boolean"
+                },
+                "multiple_endings": {
+                  "type": "boolean"
+                },
+                "required_level": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "recommended_level": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "time_limit": {
+                  "type": "object",
+                  "properties": {
+                    "enabled": {
+                      "type": "boolean"
+                    },
+                    "duration_minutes": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "penalties": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "difficulty": {
+                  "type": "string",
+                  "enum": [
+                    "tutorial",
+                    "easy",
+                    "medium",
+                    "hard",
+                    "extreme"
+                  ]
+                },
+                "party_required": {
+                  "type": "boolean"
+                },
+                "party_size_range": {
+                  "type": "object",
+                  "properties": {
+                    "min": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "max": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                },
+                "discovery_conditions": {
+                  "type": "object",
+                  "properties": {
+                    "hidden_requirements": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "discovery_methods": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "clues_required": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "quest_objectives": {
+      "type": "object",
+      "properties": {
+        "kill_objectives": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "parameters": {
+              "type": "object",
+              "properties": {
+                "target_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "kill_count_range": {
+                  "type": "object",
+                  "properties": {
+                    "min": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "max": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                },
+                "location_restrictions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "level_requirements": {
+                  "type": "object",
+                  "properties": {
+                    "min_level": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "max_level": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "collect_objectives": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "parameters": {
+              "type": "object",
+              "properties": {
+                "item_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "quantity_range": {
+                  "type": "object",
+                  "properties": {
+                    "min": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "max": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                },
+                "quality_requirements": {
+                  "type": "object",
+                  "properties": {
+                    "min_quality": {
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 100
+                    },
+                    "max_quality": {
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 100
+                    }
+                  }
+                },
+                "source_locations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "delivery_objectives": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "parameters": {
+              "type": "object",
+              "properties": {
+                "item_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "quantity_range": {
+                  "type": "object",
+                  "properties": {
+                    "min": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "max": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                },
+                "delivery_locations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "delivery_conditions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "exploration_objectives": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "parameters": {
+              "type": "object",
+              "properties": {
+                "exploration_zones": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "discovery_requirements": {
+                  "type": "object",
+                  "properties": {
+                    "hidden_locations": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "clues_required": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                },
+                "exploration_methods": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "crafting_objectives": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "parameters": {
+              "type": "object",
+              "properties": {
+                "crafting_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "item_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "quantity_range": {
+                  "type": "object",
+                  "properties": {
+                    "min": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "max": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                },
+                "quality_requirements": {
+                  "type": "object",
+                  "properties": {
+                    "min_quality": {
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 100
+                    },
+                    "max_quality": {
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 100
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "social_objectives": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "parameters": {
+              "type": "object",
+              "properties": {
+                "interaction_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "target_characters": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "interaction_count": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "relationship_requirements": {
+                  "type": "object",
+                  "properties": {
+                    "min_relationship": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100
+                    },
+                    "max_relationship": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 100
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "puzzle_objectives": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "parameters": {
+              "type": "object",
+              "properties": {
+                "puzzle_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "difficulty_levels": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "time_limits": {
+                  "type": "object",
+                  "properties": {
+                    "enabled": {
+                      "type": "boolean"
+                    },
+                    "duration_minutes": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                },
+                "hint_system": {
+                  "type": "object",
+                  "properties": {
+                    "enabled": {
+                      "type": "boolean"
+                    },
+                    "max_hints": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "hint_penalty": {
+                      "type": "number",
+                      "minimum": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "survival_objectives": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "parameters": {
+              "type": "object",
+              "properties": {
+                "survival_duration": {
+                  "type": "object",
+                  "properties": {
+                    "min_minutes": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "max_minutes": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                },
+                "survival_conditions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "survival_locations": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "health_requirements": {
+                  "type": "object",
+                  "properties": {
+                    "min_health_percentage": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 100
+                    },
+                    "max_damage_taken": {
+                      "type": "number",
+                      "minimum": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "escort_objectives": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "parameters": {
+              "type": "object",
+              "properties": {
+                "escort_targets": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "escort_routes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "escort_conditions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "escort_rewards": {
+                  "type": "object",
+                  "properties": {
+                    "success_rewards": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "failure_penalties": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "investigation_objectives": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "parameters": {
+              "type": "object",
+              "properties": {
+                "investigation_targets": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "investigation_methods": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "investigation_requirements": {
+                  "type": "object",
+                  "properties": {
+                    "clues_required": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "evidence_types": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "investigation_rewards": {
+                  "type": "object",
+                  "properties": {
+                    "success_rewards": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "failure_penalties": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "quest_rewards": {
+      "type": "object",
+      "properties": {
+        "experience_rewards": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "calculation_method": {
+              "type": "string",
+              "enum": [
+                "base_level_multiplier",
+                "difficulty_based",
+                "time_based",
+                "objective_based"
+              ]
+            },
+            "multiplier_range": {
+              "type": "object",
+              "properties": {
+                "min_multiplier": {
+                  "type": "number",
+                  "minimum": 0.1
+                },
+                "max_multiplier": {
+                  "type": "number",
+                  "minimum": 0.1
+                }
+              }
+            },
+            "bonus_multiplier": {
+              "type": "number",
+              "minimum": 0
+            }
+          }
+        },
+        "currency_rewards": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "currencies": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "object",
+                "properties": {
+                  "amount_range": {
+                    "type": "object",
+                    "properties": {
+                      "min": {
+                        "type": "integer",
+                        "minimum": 0
+                      },
+                      "max": {
+                        "type": "integer",
+                        "minimum": 0
+                      }
+                    }
+                  },
+                  "bonus_amount": {
+                    "type": "integer",
+                    "minimum": 0
+                  }
+                }
+              }
+            }
+          }
+        },
+        "item_rewards": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "item_types": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "object",
+                "properties": {
+                  "rarity_weights": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    }
+                  },
+                  "quantity_range": {
+                    "type": "object",
+                    "properties": {
+                      "min": {
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "max": {
+                        "type": "integer",
+                        "minimum": 1
+                      }
+                    }
+                  },
+                  "quality_range": {
+                    "type": "object",
+                    "properties": {
+                      "min": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 100
+                      },
+                      "max": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 100
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "skill_rewards": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "skill_types": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "skill_points_range": {
+              "type": "object",
+              "properties": {
+                "min": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "max": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              }
+            },
+            "skill_bonus": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "title_rewards": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "title_types": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "title_duration": {
+              "type": "object",
+              "properties": {
+                "permanent": {
+                  "type": "boolean"
+                },
+                "duration_days": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              }
+            }
+          }
+        },
+        "reputation_rewards": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "faction_types": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "object",
+                "properties": {
+                  "amount_range": {
+                    "type": "object",
+                    "properties": {
+                      "min": {
+                        "type": "integer",
+                        "minimum": -1000,
+                        "maximum": 1000
+                      },
+                      "max": {
+                        "type": "integer",
+                        "minimum": -1000,
+                        "maximum": 1000
+                      }
+                    }
+                  },
+                  "bonus_amount": {
+                    "type": "integer",
+                    "minimum": -1000,
+                    "maximum": 1000
+                  }
+                }
+              }
+            }
+          }
+        },
+        "special_rewards": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "reward_types": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "reward_conditions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "reward_duration": {
+              "type": "object",
+              "properties": {
+                "permanent": {
+                  "type": "boolean"
+                },
+                "duration_days": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "quest_progression": {
+      "type": "object",
+      "properties": {
+        "quest_chains": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "chain_types": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "chain_requirements": {
+              "type": "object",
+              "properties": {
+                "previous_quest_required": {
+                  "type": "boolean"
+                },
+                "quest_completion_percentage": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 100
+                },
+                "level_requirements": {
+                  "type": "object",
+                  "properties": {
+                    "min_level": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "max_level": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            },
+            "chain_rewards": {
+              "type": "object",
+              "properties": {
+                "bonus_multiplier": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "special_rewards": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "quest_branching": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "branch_types": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "branch_conditions": {
+              "type": "object",
+              "properties": {
+                "choice_based": {
+                  "type": "boolean"
+                },
+                "skill_based": {
+                  "type": "boolean"
+                },
+                "alignment_based": {
+                  "type": "boolean"
+                },
+                "reputation_based": {
+                  "type": "boolean"
+                }
+              }
+            },
+            "branch_rewards": {
+              "type": "object",
+              "properties": {
+                "choice_rewards": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "branch_specific_rewards": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "quest_scaling": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "scaling_method": {
+              "type": "string",
+              "enum": [
+                "player_level",
+                "party_level",
+                "difficulty_based",
+                "adaptive"
+              ]
+            },
+            "scaling_factors": {
+              "type": "object",
+              "properties": {
+                "enemy_health_multiplier": {
+                  "type": "number",
+                  "minimum": 0.5,
+                  "maximum": 3.0
+                },
+                "enemy_damage_multiplier": {
+                  "type": "number",
+                  "minimum": 0.5,
+                  "maximum": 3.0
+                },
+                "reward_multiplier": {
+                  "type": "number",
+                  "minimum": 0.5,
+                  "maximum": 3.0
+                },
+                "difficulty_adjustment": {
+                  "type": "number",
+                  "minimum": -1,
+                  "maximum": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "quest_conditions": {
+      "type": "object",
+      "properties": {
+        "start_conditions": {
+          "type": "object",
+          "properties": {
+            "level_requirements": {
+              "type": "object",
+              "properties": {
+                "min_level": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "max_level": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              }
+            },
+            "skill_requirements": {
+              "type": "object",
+              "properties": {
+                "required_skills": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "skill_levels": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "integer",
+                    "minimum": 1
+                  }
+                }
+              }
+            },
+            "item_requirements": {
+              "type": "object",
+              "properties": {
+                "required_items": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "item_quantities": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "integer",
+                    "minimum": 1
+                  }
+                }
+              }
+            },
+            "reputation_requirements": {
+              "type": "object",
+              "properties": {
+                "required_factions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "reputation_levels": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "integer",
+                    "minimum": -1000,
+                    "maximum": 1000
+                  }
+                }
+              }
+            },
+            "quest_prerequisites": {
+              "type": "object",
+              "properties": {
+                "required_quests": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "quest_completion_percentage": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 100
+                }
+              }
+            }
+          }
+        },
+        "completion_conditions": {
+          "type": "object",
+          "properties": {
+            "objective_completion": {
+              "type": "object",
+              "properties": {
+                "all_objectives_required": {
+                  "type": "boolean"
+                },
+                "minimum_objectives": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "objective_weights": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                }
+              }
+            },
+            "time_constraints": {
+              "type": "object",
+              "properties": {
+                "time_limit_enabled": {
+                  "type": "boolean"
+                },
+                "time_limit_minutes": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "time_penalty": {
+                  "type": "number",
+                  "minimum": 0
+                }
+              }
+            },
+            "quality_requirements": {
+              "type": "object",
+              "properties": {
+                "min_quality": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 100
+                },
+                "quality_weight": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                }
+              }
+            }
+          }
+        },
+        "failure_conditions": {
+          "type": "object",
+          "properties": {
+            "death_penalty": {
+              "type": "object",
+              "properties": {
+                "enabled": {
+                  "type": "boolean"
+                },
+                "death_count_limit": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "death_penalty_type": {
+                  "type": "string",
+                  "enum": [
+                    "quest_reset",
+                    "progress_loss",
+                    "reputation_loss",
+                    "item_loss"
+                  ]
+                }
+              }
+            },
+            "time_penalty": {
+              "type": "object",
+              "properties": {
+                "enabled": {
+                  "type": "boolean"
+                },
+                "time_penalty_minutes": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "penalty_type": {
+                  "type": "string",
+                  "enum": [
+                    "quest_reset",
+                    "progress_loss",
+                    "reputation_loss",
+                    "item_loss"
+                  ]
+                }
+              }
+            },
+            "choice_penalty": {
+              "type": "object",
+              "properties": {
+                "enabled": {
+                  "type": "boolean"
+                },
+                "wrong_choice_penalty": {
+                  "type": "string",
+                  "enum": [
+                    "quest_reset",
+                    "progress_loss",
+                    "reputation_loss",
+                    "item_loss"
+                  ]
+                },
+                "choice_limit": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "ui_configuration": {
+      "type": "object",
+      "properties": {
+        "quest_interface": {
+          "type": "object",
+          "properties": {
+            "display_elements": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "quest_log": {
+              "type": "object",
+              "properties": {
+                "enabled": {
+                  "type": "boolean"
+                },
+                "max_quests_displayed": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "quest_sorting": {
+                  "type": "string",
+                  "enum": [
+                    "name",
+                    "difficulty",
+                    "progress",
+                    "reward",
+                    "deadline"
+                  ]
+                }
+              }
+            },
+            "quest_tracker": {
+              "type": "object",
+              "properties": {
+                "enabled": {
+                  "type": "boolean"
+                },
+                "max_trackers": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "tracker_position": {
+                  "type": "string",
+                  "enum": [
+                    "top_left",
+                    "top_right",
+                    "bottom_left",
+                    "bottom_right"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "integration_points": {
+      "type": "object",
+      "properties": {
+        "combat_system": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "quest_combat_modifiers": {
+              "type": "boolean"
+            },
+            "combat_tracking": {
+              "type": "boolean"
+            }
+          }
+        },
+        "crafting_system": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "quest_crafting_requirements": {
+              "type": "boolean"
+            },
+            "crafting_tracking": {
+              "type": "boolean"
+            }
+          }
+        },
+        "exploration_system": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "quest_exploration_requirements": {
+              "type": "boolean"
+            },
+            "exploration_tracking": {
+              "type": "boolean"
+            }
+          }
+        },
+        "social_system": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "quest_social_requirements": {
+              "type": "boolean"
+            },
+            "social_tracking": {
+              "type": "boolean"
+            }
+          }
+        },
+        "economy_system": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "quest_rewards": {
+              "type": "boolean"
+            },
+            "quest_currency": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "security_settings": {
+      "type": "object",
+      "properties": {
+        "data_protection": {
+          "type": "object",
+          "properties": {
+            "encryption": {
+              "type": "boolean"
+            },
+            "anonymization": {
+              "type": "boolean"
+            },
+            "audit_logging": {
+              "type": "boolean"
+            }
+          }
+        },
+        "exploitation_prevention": {
+          "type": "object",
+          "properties": {
+            "quest_farming_prevention": {
+              "type": "boolean"
+            },
+            "exploit_detection": {
+              "type": "boolean"
+            },
+            "progress_validation": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "localization": {
+      "type": "object",
+      "properties": {
+        "supported_languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "quest_names": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "quest_descriptions": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "customization": {
+      "type": "object",
+      "properties": {
+        "hooks": {
+          "type": "object",
+          "properties": {
+            "before_quest_start": {
+              "type": "string"
+            },
+            "after_quest_start": {
+              "type": "string"
+            },
+            "before_quest_completion": {
+              "type": "string"
+            },
+            "after_quest_completion": {
+              "type": "string"
+            },
+            "before_quest_failure": {
+              "type": "string"
+            },
+            "after_quest_failure": {
+              "type": "string"
+            }
+          }
+        },
+        "extensions": {
+          "type": "object",
+          "properties": {
+            "quest_generators": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "quest_modifiers": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "quest_validators": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "quest_rewards_calculators": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "id": "quest_schema"
+}

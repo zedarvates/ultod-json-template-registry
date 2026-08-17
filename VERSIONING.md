@@ -13,13 +13,13 @@ Une version publiée est immuable. Toute modification de son contenu crée une n
 ## Chemin canonique
 
 ```text
-templates/<famille>/<nom-du-modele>/v<MAJEUR>.<MINEUR>.<CORRECTIF>/template.json
+templates/<famille>/<nom-du-modele>/v<MAJEUR>.<MINEUR>.<CORRECTIF>/<template.json|schema.json>
 ```
 
 Exemple indicatif de chemin, sans publier de contrat réel :
 
 ```text
-templates/client/profile/v1.0.0/template.json
+templates/schemas/item/v0.1.0/schema.json
 ```
 
 ## Cycle de maturité
@@ -35,7 +35,7 @@ Un statut `stable` exige une validation séparée pour chaque client ou serveur 
 
 ## Métadonnées attendues
 
-Le fichier `README.md` placé à côté de chaque `template.json` devra préciser au minimum :
+Le fichier `README.md` placé à côté de chaque `template.json` ou `schema.json` devra préciser au minimum :
 
 - le propriétaire du contrat ;
 - son statut ;

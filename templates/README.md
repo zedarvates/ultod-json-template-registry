@@ -1,10 +1,12 @@
 # Modèles JSON
 
-Ce dossier accueillera les modèles JSON versionnés lorsqu'ils auront été définis et validés.
+Ce dossier accueille les modèles et schémas JSON versionnés du registre.
 
 ## État actuel
 
-Aucun modèle applicatif n'est publié. Ce dossier documente uniquement la structure prévue.
+La première collection contient 16 schémas issus de la source serveur la plus récente. Ils sont publiés en `v0.1.0` avec le statut `experimental` et sans certification de compatibilité.
+
+Le fichier `catalog.json` fournit leur chemin, leur version et leur empreinte SHA-256.
 
 ## Ajout futur d'un modèle
 
@@ -12,7 +14,7 @@ Chaque ajout devra disposer d'un répertoire de famille, d'un nom stable et d'un
 
 ```text
 <famille>/<nom-du-modele>/v<MAJEUR>.<MINEUR>.<CORRECTIF>/
-  template.json
+  template.json ou schema.json
   README.md
 ```
 

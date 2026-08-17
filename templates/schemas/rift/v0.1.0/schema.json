@@ -1,0 +1,641 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Rift Configuration Schema",
+  "description": "Schema for validating rift configuration templates",
+  "type": "object",
+  "required": [
+    "template_type",
+    "version",
+    "name",
+    "description",
+    "global_settings"
+  ],
+  "properties": {
+    "template_type": {
+      "type": "string",
+      "enum": [
+        "rift"
+      ],
+      "description": "Type of template"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Version number in semantic versioning format"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "Name of the rift configuration"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500,
+      "description": "Description of the rift configuration"
+    },
+    "global_settings": {
+      "type": "object",
+      "required": [
+        "enabled",
+        "debug_mode",
+        "log_level"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Whether the system is enabled"
+        },
+        "debug_mode": {
+          "type": "boolean",
+          "description": "Whether debug mode is enabled"
+        },
+        "log_level": {
+          "type": "string",
+          "enum": [
+            "debug",
+            "info",
+            "warn",
+            "error"
+          ],
+          "description": "Logging level"
+        },
+        "max_active_rifts": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100,
+          "description": "Maximum number of active rifts"
+        },
+        "rift_generation_interval_hours": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 168,
+          "description": "Interval for rift generation in hours"
+        },
+        "auto_cleanup_interval_hours": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 168,
+          "description": "Auto cleanup interval in hours"
+        },
+        "performance_optimization": {
+          "type": "object",
+          "properties": {
+            "enable_caching": {
+              "type": "boolean"
+            },
+            "cache_ttl_seconds": {
+              "type": "integer",
+              "minimum": 60,
+              "maximum": 86400
+            },
+            "batch_processing": {
+              "type": "boolean"
+            },
+            "batch_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            },
+            "async_processing": {
+              "type": "boolean"
+            },
+            "thread_pool_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 16
+            }
+          }
+        }
+      }
+    },
+    "rift_types": {
+      "type": "object",
+      "properties": {
+        "dimensional_rift": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "stability": {
+                  "type": "string",
+                  "enum": [
+                    "unstable",
+                    "stable",
+                    "stable_with_fluctuations"
+                  ]
+                },
+                "size": {
+                  "type": "string",
+                  "enum": [
+                    "tiny",
+                    "small",
+                    "medium",
+                    "large",
+                    "huge"
+                  ]
+                },
+                "duration": {
+                  "type": "string",
+                  "enum": [
+                    "temporary",
+                    "persistent",
+                    "permanent"
+                  ]
+                },
+                "danger_level": {
+                  "type": "string",
+                  "enum": [
+                    "low",
+                    "medium",
+                    "high",
+                    "extreme",
+                    "apocalyptic"
+                  ]
+                },
+                "dimensional_properties": {
+                  "type": "object",
+                  "properties": {
+                    "dimensional_energy": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 100
+                    },
+                    "spatial_distortion": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 100
+                    },
+                    "temporal_anomalies": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "temporal_rift": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "time_flow": {
+                  "type": "string",
+                  "enum": [
+                    "accelerated",
+                    "decelerated",
+                    "erratic",
+                    "reversed"
+                  ]
+                },
+                "temporal_range": {
+                  "type": "object",
+                  "properties": {
+                    "past_years": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "future_years": {
+                      "type": "integer",
+                      "minimum": 0
+                    }
+                  }
+                },
+                "paradox_risk": {
+                  "type": "string",
+                  "enum": [
+                    "low",
+                    "medium",
+                    "high",
+                    "critical"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "elemental_rift": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "element_type": {
+                  "type": "string",
+                  "enum": [
+                    "fire",
+                    "water",
+                    "earth",
+                    "air",
+                    "lightning",
+                    "ice",
+                    "shadow",
+                    "light"
+                  ]
+                },
+                "elemental_intensity": {
+                  "type": "string",
+                  "enum": [
+                    "low",
+                    "medium",
+                    "high",
+                    "extreme"
+                  ]
+                },
+                "environmental_effects": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rift_mechanics": {
+      "type": "object",
+      "properties": {
+        "spawn_mechanics": {
+          "type": "object",
+          "properties": {
+            "spawn_locations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "spawn_conditions": {
+              "type": "object",
+              "properties": {
+                "time_conditions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "environmental_conditions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "celestial_events": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "spawn_weights": {
+              "type": "object",
+              "properties": {
+                "rift_type_weights": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                }
+              }
+            }
+          }
+        },
+        "stability_mechanics": {
+          "type": "object",
+          "properties": {
+            "stability_factors": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "destabilization_events": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "stabilization_methods": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "interaction_mechanics": {
+          "type": "object",
+          "properties": {
+            "player_interaction": {
+              "type": "string",
+              "enum": [
+                "allowed",
+                "restricted",
+                "dangerous"
+              ]
+            },
+            "npc_interaction": {
+              "type": "string",
+              "enum": [
+                "allowed",
+                "restricted",
+                "dangerous"
+              ]
+            },
+            "environmental_interaction": {
+              "type": "string",
+              "enum": [
+                "allowed",
+                "restricted",
+                "dangerous"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "rift_effects": {
+      "type": "object",
+      "properties": {
+        "environmental_effects": {
+          "type": "object",
+          "properties": {
+            "terrain_modification": {
+              "type": "boolean"
+            },
+            "atmospheric_changes": {
+              "type": "boolean"
+            },
+            "weather_anomalies": {
+              "type": "boolean"
+            },
+            "ecosystem_impact": {
+              "type": "boolean"
+            }
+          }
+        },
+        "creature_effects": {
+          "type": "object",
+          "properties": {
+            "creature_spawns": {
+              "type": "boolean"
+            },
+            "creature_mutations": {
+              "type": "boolean"
+            },
+            "creature_behavior_changes": {
+              "type": "boolean"
+            }
+          }
+        },
+        "player_effects": {
+          "type": "object",
+          "properties": {
+            "stat_modifications": {
+              "type": "boolean"
+            },
+            "ability_modifications": {
+              "type": "boolean"
+            },
+            "status_effects": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "reward_system": {
+      "type": "object",
+      "properties": {
+        "rift_rewards": {
+          "type": "object",
+          "properties": {
+            "experience_rewards": {
+              "type": "object",
+              "properties": {
+                "enabled": {
+                  "type": "boolean"
+                },
+                "multiplier": {
+                  "type": "number",
+                  "minimum": 0.1,
+                  "maximum": 10.0
+                }
+              }
+            },
+            "item_rewards": {
+              "type": "object",
+              "properties": {
+                "enabled": {
+                  "type": "boolean"
+                },
+                "rarity_weights": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                }
+              }
+            },
+            "currency_rewards": {
+              "type": "object",
+              "properties": {
+                "enabled": {
+                  "type": "boolean"
+                },
+                "amount_range": {
+                  "type": "object",
+                  "properties": {
+                    "min": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "max": {
+                      "type": "integer",
+                      "minimum": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "ui_configuration": {
+      "type": "object",
+      "properties": {
+        "rift_interface": {
+          "type": "object",
+          "properties": {
+            "display_elements": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "map_integration": {
+              "type": "object",
+              "properties": {
+                "rift_markers": {
+                  "type": "boolean"
+                },
+                "danger_indicators": {
+                  "type": "boolean"
+                },
+                "stability_indicators": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "integration_points": {
+      "type": "object",
+      "properties": {
+        "combat_system": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "rift_combat_modifiers": {
+              "type": "boolean"
+            }
+          }
+        },
+        "exploration_system": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "rift_exploration": {
+              "type": "boolean"
+            }
+          }
+        },
+        "economy_system": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "rift_rewards": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "security_settings": {
+      "type": "object",
+      "properties": {
+        "data_protection": {
+          "type": "object",
+          "properties": {
+            "encryption": {
+              "type": "boolean"
+            },
+            "anonymization": {
+              "type": "boolean"
+            }
+          }
+        },
+        "exploitation_prevention": {
+          "type": "object",
+          "properties": {
+            "rift_farming_prevention": {
+              "type": "boolean"
+            },
+            "exploit_detection": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "localization": {
+      "type": "object",
+      "properties": {
+        "supported_languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "rift_names": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "customization": {
+      "type": "object",
+      "properties": {
+        "hooks": {
+          "type": "object",
+          "properties": {
+            "before_rift_spawn": {
+              "type": "string"
+            },
+            "after_rift_spawn": {
+              "type": "string"
+            },
+            "before_rift_close": {
+              "type": "string"
+            },
+            "after_rift_close": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "id": "rift_schema"
+}

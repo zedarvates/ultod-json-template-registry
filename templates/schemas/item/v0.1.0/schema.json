@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Item Template Schema",
+  "description": "Schema for item templates",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "category",
+    "rarity",
+    "item_type",
+    "base_stats",
+    "properties",
+    "version"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "description": { "type": "string" },
+    "icon": { "type": "string" },
+    "category": { "type": "string" },
+    "rarity": { "type": "string" },
+    "item_type": { "type": "string" },
+    "sub_type": { "type": "string" },
+    "base_stats": {
+      "type": "object",
+      "properties": {
+        "durability": { "type": "integer" },
+        "max_durability": { "type": "integer" },
+        "weight": { "type": "number" },
+        "value": { "type": "integer" }
+      }
+    },
+    "weapon_properties": {
+      "type": "object",
+      "properties": {
+        "damage": { "type": "integer" },
+        "damage_type": { "type": "string" },
+        "attack_speed": { "type": "number" },
+        "range": { "type": "number" },
+        "two_handed": { "type": "boolean" }
+      }
+    },
+    "vr_properties": {
+      "type": "object",
+      "properties": {
+        "grabbable": { "type": "boolean", "default": true },
+        "holster_type": { 
+          "type": "string",
+          "enum": ["none", "side_weapon", "back_weapon", "back_shield", "chest_utility", "potion_slot"]
+        },
+        "grab_points": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "pos": {
+                "type": "object",
+                "properties": {
+                  "x": { "type": "number" },
+                  "y": { "type": "number" },
+                  "z": { "type": "number" }
+                }
+              },
+              "rot": {
+                "type": "object",
+                "properties": {
+                  "x": { "type": "number" },
+                  "y": { "type": "number" },
+                  "z": { "type": "number" },
+                  "w": { "type": "number" }
+                }
+              },
+              "hand": { "type": "string", "enum": ["left", "right", "both", "either"] }
+            }
+          }
+        },
+        "haptic_feedback": {
+          "type": "object",
+          "properties": {
+            "on_hit": { "type": "string" },
+            "on_grab": { "type": "string" }
+          }
+        }
+      }
+    },
+    "version": { "type": "string" }
+  }
+}

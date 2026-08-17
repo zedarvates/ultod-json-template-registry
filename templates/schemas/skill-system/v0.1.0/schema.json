@@ -1,0 +1,512 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Skill System Schema",
+  "description": "Comprehensive schema for combat skills/abilities with effects and specializations",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the skill",
+      "pattern": "^[a-z_][a-z0-9_]*$"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name of the skill"
+    },
+    "class": {
+      "type": "string",
+      "description": "Class that can use this skill (e.g., 'Ranger', 'Warrior')"
+    },
+    "type_principal": {
+      "type": "string",
+      "enum": [
+        "physical_attack",
+        "magical_attack",
+        "buff",
+        "debuff",
+        "utility"
+      ],
+      "description": "Primary type of the skill"
+    },
+    "sous_types": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "aoe",
+          "single_target",
+          "stun",
+          "silence",
+          "slow",
+          "dot",
+          "party_buff",
+          "stealth",
+          "knockback",
+          "root",
+          "heal",
+          "shield",
+          "summon"
+        ]
+      },
+      "description": "Secondary types/effects of the skill"
+    },
+    "description": {
+      "type": "string",
+      "description": "Human-readable description of the skill"
+    },
+    "icon": {
+      "type": "string",
+      "description": "Icon identifier for UI display"
+    },
+    "base_damage": {
+      "type": "number",
+      "description": "Base damage value",
+      "minimum": 0
+    },
+    "damage_multiplier": {
+      "type": "number",
+      "description": "Damage multiplier",
+      "minimum": 0,
+      "default": 1.0
+    },
+    "critical_chance": {
+      "type": "number",
+      "description": "Base critical hit chance",
+      "minimum": 0,
+      "maximum": 1,
+      "default": 0.05
+    },
+    "critical_multiplier": {
+      "type": "number",
+      "description": "Critical damage multiplier",
+      "minimum": 1.0,
+      "default": 2.0
+    },
+    "super_armor_break": {
+      "type": "number",
+      "description": "Super armor break value",
+      "minimum": 0,
+      "default": 0
+    },
+    "resource_cost": {
+      "type": "object",
+      "properties": {
+        "health": {
+          "type": "number",
+          "minimum": 0
+        },
+        "mana": {
+          "type": "number",
+          "minimum": 0
+        },
+        "stamina": {
+          "type": "number",
+          "minimum": 0
+        },
+        "rage": {
+          "type": "number",
+          "minimum": 0
+        },
+        "energy": {
+          "type": "number",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false
+    },
+    "cast_time": {
+      "type": "number",
+      "description": "Cast time in milliseconds (0 = instant)",
+      "minimum": 0,
+      "default": 0
+    },
+    "cooldown": {
+      "type": "number",
+      "description": "Cooldown in seconds",
+      "minimum": 0
+    },
+    "range": {
+      "type": "number",
+      "description": "Skill range in meters",
+      "minimum": 0
+    },
+    "targeting": {
+      "type": "object",
+      "properties": {
+        "type_cible": {
+          "type": "string",
+          "enum": [
+            "self",
+            "ally",
+            "party",
+            "enemy",
+            "area"
+          ],
+          "description": "Target type"
+        },
+        "max_cibles": {
+          "type": "integer",
+          "description": "Maximum number of targets",
+          "minimum": 1,
+          "default": 1
+        },
+        "zone": {
+          "type": "object",
+          "properties": {
+            "shape": {
+              "type": "string",
+              "enum": [
+                "single",
+                "circle",
+                "cone",
+                "line",
+                "rectangle"
+              ],
+              "default": "single"
+            },
+            "radius": {
+              "type": "number",
+              "minimum": 0
+            },
+            "length": {
+              "type": "number",
+              "minimum": 0
+            },
+            "width": {
+              "type": "number",
+              "minimum": 0
+            },
+            "angle": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 360
+            }
+          }
+        },
+        "conditions_ciblage": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "combat",
+              "non_combat",
+              "line_of_sight",
+              "same_faction",
+              "different_faction",
+              "alive",
+              "dead"
+            ]
+          }
+        }
+      },
+      "required": [
+        "type_cible"
+      ]
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "direct_damage",
+              "aoe_damage",
+              "heal",
+              "stun",
+              "silence",
+              "slow",
+              "knockback",
+              "root",
+              "dot",
+              "hot",
+              "buff",
+              "debuff",
+              "shield",
+              "stealth",
+              "summon",
+              "teleport",
+              "pull",
+              "push"
+            ]
+          },
+          "damage_type": {
+            "type": "string",
+            "enum": [
+              "physical",
+              "magical",
+              "pure",
+              "fire",
+              "ice",
+              "lightning",
+              "poison",
+              "holy",
+              "dark"
+            ]
+          },
+          "value": {
+            "type": "number",
+            "description": "Base value for the effect"
+          },
+          "scaling": {
+            "type": "object",
+            "description": "Stat scaling coefficients",
+            "additionalProperties": {
+              "type": "number"
+            }
+          },
+          "duration": {
+            "type": "number",
+            "description": "Effect duration in seconds",
+            "minimum": 0
+          },
+          "tick_interval": {
+            "type": "number",
+            "description": "Tick interval for DOT/HOT effects",
+            "minimum": 0.1
+          },
+          "max_stacks": {
+            "type": "integer",
+            "description": "Maximum stacks for stackable effects",
+            "minimum": 1,
+            "default": 1
+          },
+          "can_crit": {
+            "type": "boolean",
+            "description": "Whether this effect can critically hit",
+            "default": true
+          },
+          "conditions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "type"
+        ]
+      }
+    },
+    "specializations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "conditions": {
+            "type": "object",
+            "properties": {
+              "level": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "talent_points": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "skills": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "modifications": {
+            "type": "object",
+            "properties": {
+              "base_damage": {
+                "type": "number"
+              },
+              "damage_multiplier": {
+                "type": "number"
+              },
+              "cooldown": {
+                "type": "number"
+              },
+              "range": {
+                "type": "number"
+              },
+              "super_armor_break": {
+                "type": "number"
+              },
+              "resource_cost": {
+                "$ref": "#/properties/resource_cost"
+              },
+              "effects": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "operation": {
+                      "type": "string",
+                      "enum": [
+                        "add",
+                        "modify",
+                        "remove"
+                      ]
+                    },
+                    "effect": {
+                      "$ref": "#/properties/effects/items"
+                    }
+                  },
+                  "required": [
+                    "operation"
+                  ]
+                }
+              },
+              "targeting": {
+                "$ref": "#/properties/targeting"
+              },
+              "constraints": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "required": [
+          "id",
+          "conditions",
+          "modifications"
+        ]
+      }
+    },
+    "visual_effects": {
+      "type": "object",
+      "properties": {
+        "cast_effect": {
+          "type": "string"
+        },
+        "projectile_effect": {
+          "type": "string"
+        },
+        "impact_effect": {
+          "type": "string"
+        },
+        "trail_effect": {
+          "type": "string"
+        },
+        "area_effect": {
+          "type": "string"
+        },
+        "buff_effect": {
+          "type": "string"
+        }
+      }
+    },
+    "sound_effects": {
+      "type": "object",
+      "properties": {
+        "cast_sound": {
+          "type": "string"
+        },
+        "impact_sound": {
+          "type": "string"
+        },
+        "buff_sound": {
+          "type": "string"
+        }
+      }
+    },
+    "balancing": {
+      "type": "object",
+      "properties": {
+        "pvp_multipliers": {
+          "type": "object",
+          "properties": {
+            "damage": {
+              "type": "number",
+              "default": 1.0
+            },
+            "cooldown": {
+              "type": "number",
+              "default": 1.0
+            },
+            "resource_cost": {
+              "type": "number",
+              "default": 1.0
+            }
+          }
+        },
+        "pve_multipliers": {
+          "type": "object",
+          "properties": {
+            "damage": {
+              "type": "number",
+              "default": 1.0
+            },
+            "cooldown": {
+              "type": "number",
+              "default": 1.0
+            },
+            "resource_cost": {
+              "type": "number",
+              "default": 1.0
+            }
+          }
+        }
+      }
+    },
+    "admin_controls": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "default": true
+        },
+        "admin_only": {
+          "type": "boolean",
+          "default": false
+        },
+        "debug_mode": {
+          "type": "boolean",
+          "default": false
+        },
+        "balancing_multipliers": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "version": {
+      "type": "string"
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "class",
+    "type_principal",
+    "description",
+    "cooldown",
+    "range",
+    "targeting",
+    "effects"
+  ],
+  "id": "skill_system_schema"
+}
