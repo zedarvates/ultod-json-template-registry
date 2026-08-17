@@ -1,0 +1,98 @@
+{
+  "id": "temporal_energy",
+  "name": "Énergie Temporelle",
+  "description": "Énergie puissante manipulant le temps et les flux chronologiques",
+  "color": "#00FFFF",
+  "max_capacity": 950.0,
+  "regeneration_rate": 1.3,
+  "conversion_rules": {
+    "time_energy": {
+      "target_energy": "time_energy",
+      "efficiency": 0.85,
+      "required_level": 18,
+      "catalyst": "chrono_crystal",
+      "ritual_required": true,
+      "environmental_factors": [
+        {
+          "type": "moon_phase",
+          "value": "full_moon",
+          "efficiency_modifier": 1.2
+        }
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "type": "harvesting",
+      "name": "Flux Temporel",
+      "description": "Point de convergence des lignes temporelles",
+      "capacity_multiplier": 1.4,
+      "regeneration_multiplier": 1.1,
+      "purity_level": 0.9,
+      "stability": 0.75,
+      "requirements": {
+        "level": 16,
+        "skills": [
+          {
+            "skill": "temporal_magic",
+            "level": 12
+          }
+        ],
+        "location_type": ["ancient_ruins", "time_vortex"]
+      }
+    },
+    {
+      "type": "purity",
+      "name": "Chrono-Prisme",
+      "description": "Cristal alignant les flux temporels pour une pureté parfaite",
+      "capacity_multiplier": 0.95,
+      "regeneration_multiplier": 1.4,
+      "purity_level": 0.97,
+      "stability": 0.85,
+      "requirements": {
+        "level": 22,
+        "skills": [
+          {
+            "skill": "time_weaving",
+            "level": 18
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "time_dilation",
+      "name": "Dilatation Temporelle",
+      "description": "L'énergie temporelle ralentit le temps dans la zone affectée",
+      "type": "surge",
+      "rarity": "epic",
+      "duration_seconds": 480,
+      "effects": [
+        {
+          "target": "players",
+          "effect_type": "boost",
+          "value": 2.5,
+          "duration": 480,
+          "range": 45.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "time",
+          "condition": "hourglass_alignment",
+          "probability": 1.0
+        }
+      ]
+    }
+  ],
+  "properties": {
+    "elemental_affinity": ["time", "temporal"],
+    "divine_alignment": ["neutral"],
+    "corruption_resistance": 1.4,
+    "stability": 0.8,
+    "volatility": 0.5,
+    "transfer_efficiency": 1.0,
+    "ambient_generation": 0.7
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "primal_energy",
+  "name": "Énergie Primale",
+  "description": "Énergie brute et indomptée issue des forces élémentaires pures",
+  "color": "#FF4500",
+  "max_capacity": 1200.0,
+  "regeneration_rate": 2.0,
+  "conversion_rules": {
+    "fire_energy": {
+      "target_energy": "fire_energy",
+      "efficiency": 0.9,
+      "required_level": 5,
+      "catalyst": "flame_essence",
+      "ritual_required": false
+    },
+    "earth_energy": {
+      "target_energy": "earth_energy",
+      "efficiency": 0.8,
+      "required_level": 5,
+      "catalyst": "stone_heart",
+      "ritual_required": false
+    },
+    "water_energy": {
+      "target_energy": "water_energy",
+      "efficiency": 0.8,
+      "required_level": 5,
+      "catalyst": "water_orb",
+      "ritual_required": false
+    },
+    "air_energy": {
+      "target_energy": "air_energy",
+      "efficiency": 0.8,
+      "required_level": 5,
+      "catalyst": "wind_crystal",
+      "ritual_required": false
+    }
+  },
+  "nodes": [
+    {
+      "type": "harvesting",
+      "name": "Source Primale",
+      "description": "Fontaine d'énergie élémentaire brute",
+      "capacity_multiplier": 2.0,
+      "regeneration_multiplier": 1.2,
+      "purity_level": 0.9,
+      "stability": 0.7,
+      "requirements": {
+        "level": 8,
+        "skills": [
+          {
+            "skill": "elemental_magic",
+            "level": 3
+          }
+        ],
+        "location_type": ["volcano", "storm", "ocean", "mountain"]
+      }
+    },
+    {
+      "type": "purity",
+      "name": "Cristal Élémentaire",
+      "description": "Cristal purifiant l'énergie de ses impuretés",
+      "capacity_multiplier": 0.8,
+      "regeneration_multiplier": 1.0,
+      "purity_level": 0.98,
+      "stability": 0.9,
+      "requirements": {
+        "level": 15,
+        "skills": [
+          {
+            "skill": "elemental_purification",
+            "level": 10
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "elemental_rage",
+      "name": "Rage Élémentaire",
+      "description": "Déchaînement des forces primales causant des dégâts aléatoires",
+      "type": "surge",
+      "rarity": "uncommon",
+      "duration_seconds": 180,
+      "effects": [
+        {
+          "target": "environment",
+          "effect_type": "boost",
+          "value": 1.5,
+          "duration": 180,
+          "range": 40.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "energy_level",
+          "condition": "overload",
+          "probability": 0.2
+        }
+      ]
+    }
+  ],
+  "properties": {
+    "elemental_affinity": ["fire", "earth", "water", "air"],
+    "divine_alignment": ["neutral"],
+    "corruption_resistance": 1.2,
+    "stability": 0.8,
+    "volatility": 0.6,
+    "transfer_efficiency": 0.9,
+    "ambient_generation": 1.0
+  }
+}

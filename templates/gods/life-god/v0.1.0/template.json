@@ -1,0 +1,30 @@
+{
+  "id": "life_god",
+  "name": "Demeter",
+  "domain": "life",
+  "alignment": "neutral_good",
+  "divine_power": 104,
+  "temples": [
+    {
+      "id": "temple_of_life_god",
+      "location": "divine_city",
+      "level_requirement": 10,
+      "benefits": [
+        "blessing_of_life"
+      ]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "blessing_of_life",
+      "name": "Bénédiction de Vie",
+      "effects": [
+        {
+          "type": "health_regen",
+          "value": 0.3
+        }
+      ]
+    }
+  ],
+  "curses": []
+}

@@ -1,0 +1,87 @@
+{
+  "id": "arcane_energy",
+  "name": "Énergie Arcanique",
+  "description": "Énergie mystique et complexe issue de la magie pure et des arcanes",
+  "color": "#9370DB",
+  "max_capacity": 1200.0,
+  "regeneration_rate": 1.0,
+  "conversion_rules": {
+    "mana": {
+      "target_energy": "mana",
+      "efficiency": 0.95,
+      "required_level": 15,
+      "catalyst": "arcane_focus",
+      "ritual_required": false
+    },
+    "temporal_energy": {
+      "target_energy": "temporal_energy",
+      "efficiency": 0.75,
+      "required_level": 20,
+      "catalyst": "chrono_lens",
+      "ritual_required": true
+    }
+  },
+  "nodes": [
+    {
+      "type": "conversion",
+      "name": "Nexus Arcanique",
+      "description": "Point focal permettant des conversions énergétiques complexes",
+      "capacity_multiplier": 1.3,
+      "regeneration_multiplier": 1.0,
+      "purity_level": 0.89,
+      "stability": 0.75,
+      "requirements": {
+        "level": 18,
+        "skills": [
+          {
+            "skill": "arcane_mastery",
+            "level": 12
+          }
+        ],
+        "location_type": ["magic_tower", "arcane_library", "rune_circle"]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "arcane_storm",
+      "name": "Tempête Arcanique",
+      "description": "Déchaînement de magie pure créant des effets imprévisibles",
+      "type": "storm",
+      "rarity": "epic",
+      "duration_seconds": 450,
+      "effects": [
+        {
+          "target": "players",
+          "effect_type": "boost",
+          "value": 2.5,
+          "duration": 450,
+          "range": 60.0
+        },
+        {
+          "target": "energy_nodes",
+          "effect_type": "corrupt",
+          "value": 0.3,
+          "duration": 450,
+          "range": 60.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "player_action",
+          "condition": "arcane_experiment",
+          "probability": 0.05
+        }
+      ]
+    }
+  ],
+  "properties": {
+    "elemental_affinity": ["arcane", "magic", "mystery"],
+    "divine_alignment": ["neutral"],
+    "corruption_resistance": 1.1,
+    "stability": 0.8,
+    "volatility": 0.7,
+    "transfer_efficiency": 1.2,
+    "ambient_generation": 0.7
+  }
+}

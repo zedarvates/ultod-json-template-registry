@@ -1,0 +1,80 @@
+{
+  "id": "air_energy",
+  "name": "Énergie Aérienne",
+  "description": "Énergie légère et changeante issue des vents et des cieux",
+  "color": "#87CEEB",
+  "max_capacity": 950.0,
+  "regeneration_rate": 1.6,
+  "conversion_rules": {
+    "primal_energy": {
+      "target_energy": "primal_energy",
+      "efficiency": 0.86,
+      "required_level": 5,
+      "catalyst": "wind_crystal",
+      "ritual_required": false
+    },
+    "celestial_energy": {
+      "target_energy": "celestial_energy",
+      "efficiency": 0.78,
+      "required_level": 13,
+      "catalyst": "sky_shard",
+      "ritual_required": false
+    }
+  },
+  "nodes": [
+    {
+      "type": "harvesting",
+      "name": "Courant Ascendant",
+      "description": "Flux aérien permettant la récolte d'énergie volatile",
+      "capacity_multiplier": 1.3,
+      "regeneration_multiplier": 1.8,
+      "purity_level": 0.82,
+      "stability": 0.6,
+      "requirements": {
+        "level": 7,
+        "skills": [
+          {
+            "skill": "aeromancy",
+            "level": 4
+          }
+        ],
+        "location_type": ["mountain_peak", "storm", "sky_temple"]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "wind_burst",
+      "name": "Rafale Énergétique",
+      "description": "Explosion de vent dispersant l'énergie dans toutes les directions",
+      "type": "surge",
+      "rarity": "common",
+      "duration_seconds": 120,
+      "effects": [
+        {
+          "target": "players",
+          "effect_type": "boost",
+          "value": 1.8,
+          "duration": 120,
+          "range": 55.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "random",
+          "condition": "windy_weather",
+          "probability": 0.25
+        }
+      ]
+    }
+  ],
+  "properties": {
+    "elemental_affinity": ["air", "wind", "lightning"],
+    "divine_alignment": ["chaotic", "neutral"],
+    "corruption_resistance": 1.0,
+    "stability": 0.7,
+    "volatility": 0.6,
+    "transfer_efficiency": 0.95,
+    "ambient_generation": 1.1
+  }
+}

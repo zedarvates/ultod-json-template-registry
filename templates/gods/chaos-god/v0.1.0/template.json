@@ -1,0 +1,30 @@
+{
+  "id": "chaos_god",
+  "name": "Eris",
+  "domain": "chaos",
+  "alignment": "chaotic_neutral",
+  "divine_power": 96,
+  "temples": [
+    {
+      "id": "temple_of_chaos_god",
+      "location": "divine_city",
+      "level_requirement": 10,
+      "benefits": [
+        "blessing_of_chaos"
+      ]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "blessing_of_chaos",
+      "name": "Bénédiction du Chaos",
+      "effects": [
+        {
+          "type": "random_effects",
+          "value": true
+        }
+      ]
+    }
+  ],
+  "curses": []
+}

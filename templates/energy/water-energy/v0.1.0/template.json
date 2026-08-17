@@ -1,0 +1,105 @@
+{
+  "id": "water_energy",
+  "name": "Énergie Aquatique",
+  "description": "Énergie fluide et adaptative issue des eaux et des courants",
+  "color": "#1E90FF",
+  "max_capacity": 1050.0,
+  "regeneration_rate": 1.3,
+  "conversion_rules": {
+    "primal_energy": {
+      "target_energy": "primal_energy",
+      "efficiency": 0.88,
+      "required_level": 6,
+      "catalyst": "water_orb",
+      "ritual_required": false
+    },
+    "spirit_energy": {
+      "target_energy": "spirit_energy",
+      "efficiency": 0.8,
+      "required_level": 10,
+      "catalyst": "tide_stone",
+      "ritual_required": false
+    }
+  },
+  "nodes": [
+    {
+      "type": "harvesting",
+      "name": "Source Aquatique",
+      "description": "Source pure d'eau permettant la récolte d'énergie fluide",
+      "capacity_multiplier": 1.4,
+      "regeneration_multiplier": 1.6,
+      "purity_level": 0.9,
+      "stability": 0.85,
+      "requirements": {
+        "level": 8,
+        "skills": [
+          {
+            "skill": "hydromancy",
+            "level": 5
+          }
+        ],
+        "location_type": ["ocean", "river", "lake"]
+      }
+    },
+    {
+      "type": "purity",
+      "name": "Cascade Purificatrice",
+      "description": "Chute d'eau nettoyant et purifiant l'énergie",
+      "capacity_multiplier": 0.95,
+      "regeneration_multiplier": 1.3,
+      "purity_level": 0.97,
+      "stability": 0.95,
+      "requirements": {
+        "level": 12,
+        "skills": [
+          {
+            "skill": "water_purification",
+            "level": 8
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "tidal_wave",
+      "name": "Vague de Marée",
+      "description": "Puissante vague énergétique inondant la région",
+      "type": "surge",
+      "rarity": "uncommon",
+      "duration_seconds": 240,
+      "effects": [
+        {
+          "target": "players",
+          "effect_type": "boost",
+          "value": 2.2,
+          "duration": 240,
+          "range": 45.0
+        },
+        {
+          "target": "energy_nodes",
+          "effect_type": "purify",
+          "value": 1.3,
+          "duration": 240,
+          "range": 45.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "time",
+          "condition": "full_moon",
+          "probability": 0.18
+        }
+      ]
+    }
+  ],
+  "properties": {
+    "elemental_affinity": ["water", "ice"],
+    "divine_alignment": ["neutral"],
+    "corruption_resistance": 1.4,
+    "stability": 0.9,
+    "volatility": 0.3,
+    "transfer_efficiency": 0.95,
+    "ambient_generation": 0.9
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "balance_god",
+  "name": "Themis",
+  "domain": "balance",
+  "alignment": "lawful_neutral",
+  "divine_power": 99,
+  "temples": [
+    {
+      "id": "temple_of_balance_god",
+      "location": "divine_city",
+      "level_requirement": 10,
+      "benefits": [
+        "blessing_of_balance"
+      ]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "blessing_of_balance",
+      "name": "Bénédiction d'Équilibre",
+      "effects": [
+        {
+          "type": "resistance_all",
+          "value": 0.1
+        }
+      ]
+    }
+  ],
+  "curses": []
+}

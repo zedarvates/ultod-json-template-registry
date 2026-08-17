@@ -1,0 +1,282 @@
+{
+  "advanced_synergies": {
+    "elemental_circle": {
+      "name": "Cercle Élémentaire",
+      "description": "Synergie complète des quatre éléments primaires",
+      "energies": ["fire_energy", "water_energy", "earth_energy", "air_energy"],
+      "effects": {
+        "regeneration_multiplier": 2.5,
+        "damage_amplification": 1.8,
+        "stability_bonus": 0.9,
+        "corruption_resistance": 1.5
+      },
+      "unlock_requirements": {
+        "min_level": 25,
+        "all_energies_mastered": true,
+        "special_achievement": "elemental_balance"
+      }
+    },
+    "divine_convergence": {
+      "name": "Convergence Divine",
+      "description": "Fusion des énergies célestes et spirituelles",
+      "energies": ["celestial_energy", "spirit_energy", "light_energy"],
+      "effects": {
+        "healing_power": 3.0,
+        "divine_intervention_chance": 0.15,
+        "blessing_duration": 2.5,
+        "corruption_immunity": true
+      },
+      "unlock_requirements": {
+        "min_level": 30,
+        "divine_favor": 1000,
+        "sacred_ritual_completed": true
+      }
+    },
+    "void_harmony": {
+      "name": "Harmonie du Vide",
+      "description": "Contrôle équilibré des énergies du vide et des ombres",
+      "energies": ["void_energy", "shadow_energy", "dark_energy"],
+      "effects": {
+        "stealth_bonus": 2.0,
+        "chaos_damage": 2.2,
+        "reality_manipulation": 0.3,
+        "corruption_control": 0.7
+      },
+      "unlock_requirements": {
+        "min_level": 35,
+        "corruption_resistance": 0.8,
+        "void_exposure_survived": true
+      }
+    },
+    "nature_awakening": {
+      "name": "Éveil de la Nature",
+      "description": "Renaissance complète de l'énergie naturelle",
+      "energies": ["nature_energy", "earth_energy", "water_energy"],
+      "effects": {
+        "regeneration_aura": 50.0,
+        "plant_growth_acceleration": 5.0,
+        "animal_summon_power": 2.5,
+        "environmental_control": 0.8
+      },
+      "unlock_requirements": {
+        "min_level": 20,
+        "nature_bond": 500,
+        "sacred_grove_discovered": true
+      }
+    },
+    "arcane_mastery": {
+      "name": "Maîtrise Arcanique",
+      "description": "Contrôle absolu des énergies magiques mystiques",
+      "energies": ["arcane_energy", "temporal_energy", "spirit_energy"],
+      "effects": {
+        "spell_power_multiplier": 2.8,
+        "mana_regeneration": 3.0,
+        "time_manipulation": 0.4,
+        "reality_warping": 0.2
+      },
+      "unlock_requirements": {
+        "min_level": 40,
+        "arcane_knowledge": 1000,
+        "forbidden_tome_read": true
+      }
+    }
+  },
+  "energy_combinations": {
+    "meteor_strike": {
+      "name": "Frappe de Météore",
+      "description": "Combinaison de feu céleste et d'énergie terrestre",
+      "energy_requirements": {
+        "fire_energy": 100.0,
+        "celestial_energy": 150.0,
+        "earth_energy": 80.0
+      },
+      "effects": [
+        {
+          "type": "damage",
+          "target": "area",
+          "value": 500.0,
+          "element": "fire",
+          "range": 20.0
+        },
+        {
+          "type": "stun",
+          "target": "enemies",
+          "value": 3.0,
+          "duration": 5,
+          "range": 15.0
+        }
+      ],
+      "cooldown": 120,
+      "stability_risk": 0.2
+    },
+    "divine_judgment": {
+      "name": "Jugement Divin",
+      "description": "Purification ultime mêlant lumière et énergie spirituelle",
+      "energy_requirements": {
+        "light_energy": 200.0,
+        "spirit_energy": 150.0,
+        "celestial_energy": 100.0
+      },
+      "effects": [
+        {
+          "type": "purify",
+          "target": "allies",
+          "value": 100.0,
+          "range": 30.0,
+          "remove_corruption": true
+        },
+        {
+          "type": "damage",
+          "target": "undead",
+          "value": 300.0,
+          "element": "holy",
+          "range": 25.0
+        },
+        {
+          "type": "heal",
+          "target": "allies",
+          "value": 200.0,
+          "range": 30.0
+        }
+      ],
+      "cooldown": 300,
+      "stability_risk": 0.1
+    },
+    "void_eruption": {
+      "name": "Éruption du Vide",
+      "description": "Explosion chaotique drainant toute énergie alentour",
+      "energy_requirements": {
+        "void_energy": 300.0,
+        "demonic_energy": 200.0,
+        "shadow_energy": 150.0
+      },
+      "effects": [
+        {
+          "type": "drain",
+          "target": "all",
+          "value": 50.0,
+          "range": 25.0,
+          "duration": 10
+        },
+        {
+          "type": "corrupt",
+          "target": "enemies",
+          "value": 30.0,
+          "range": 20.0,
+          "duration": 15
+        },
+        {
+          "type": "damage",
+          "target": "area",
+          "value": 400.0,
+          "element": "void",
+          "range": 30.0
+        }
+      ],
+      "cooldown": 600,
+      "stability_risk": 0.8
+    },
+    "primal_fusion": {
+      "name": "Fusion Primale",
+      "description": "Union des énergies élémentaires pour une puissance brute",
+      "energy_requirements": {
+        "fire_energy": 120.0,
+        "water_energy": 120.0,
+        "earth_energy": 120.0,
+        "air_energy": 120.0
+      },
+      "effects": [
+        {
+          "type": "damage",
+          "target": "single",
+          "value": 800.0,
+          "element": "primal",
+          "range": 10.0
+        },
+        {
+          "type": "knockback",
+          "target": "enemies",
+          "value": 15.0,
+          "range": 20.0
+        },
+        {
+          "type": "elemental_immunity",
+          "target": "caster",
+          "value": 1.0,
+          "duration": 30
+        }
+      ],
+      "cooldown": 180,
+      "stability_risk": 0.4
+    },
+    "time_reversal": {
+      "name": "Renversement Temporel",
+      "description": "Manipulation du temps utilisant l'énergie temporelle",
+      "energy_requirements": {
+        "temporal_energy": 250.0,
+        "arcane_energy": 180.0,
+        "spirit_energy": 120.0
+      },
+      "effects": [
+        {
+          "type": "time_reversal",
+          "target": "allies",
+          "value": 10.0,
+          "range": 15.0,
+          "duration": 1
+        },
+        {
+          "type": "slow",
+          "target": "enemies",
+          "value": 0.5,
+          "range": 20.0,
+          "duration": 20
+        }
+      ],
+      "cooldown": 900,
+      "stability_risk": 0.9
+    }
+  },
+  "synergy_templates": {
+    "opposing_forces": {
+      "name": "Forces Opposées",
+      "description": "Template pour les synergies entre énergies opposées",
+      "examples": ["fire_water", "light_dark", "order_chaos"],
+      "effects": {
+        "balanced_power": 1.3,
+        "control_difficulty": 2.0,
+        "unstable_effects": 0.4
+      }
+    },
+    "elemental_chain": {
+      "name": "Chaîne Élémentaire",
+      "description": "Template pour les synergies élémentaires interconnectées",
+      "examples": ["fire_air", "water_earth", "earth_air", "air_water"],
+      "effects": {
+        "chain_reaction": 1.8,
+        "elemental_mastery": 1.5,
+        "overwhelm_risk": 0.6
+      }
+    },
+    "divine_harmony": {
+      "name": "Harmonie Divine",
+      "description": "Template pour les synergies entre énergies sacrées",
+      "examples": ["celestial_spirit", "light_nature", "divine_holy"],
+      "effects": {
+        "blessing_amplification": 2.2,
+        "corruption_purification": 3.0,
+        "faith_requirement": 1.0
+      }
+    },
+    "arcane_amplification": {
+      "name": "Amplification Arcanique",
+      "description": "Template pour les synergies magiques complexes",
+      "examples": ["arcane_temporal", "magic_spirit", "mystical_void"],
+      "effects": {
+        "spell_power_boost": 2.5,
+        "mana_efficiency": 1.7,
+        "reality_stress": 0.7
+      }
+    }
+  }
+}

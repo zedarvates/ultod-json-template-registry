@@ -1,0 +1,80 @@
+{
+  "id": "earth_energy",
+  "name": "Énergie Terrestre",
+  "description": "Énergie stable et inébranlable issue de la terre et des minéraux",
+  "color": "#8B4513",
+  "max_capacity": 1300.0,
+  "regeneration_rate": 0.9,
+  "conversion_rules": {
+    "primal_energy": {
+      "target_energy": "primal_energy",
+      "efficiency": 0.9,
+      "required_level": 7,
+      "catalyst": "stone_heart",
+      "ritual_required": false
+    },
+    "nature_energy": {
+      "target_energy": "nature_energy",
+      "efficiency": 0.82,
+      "required_level": 11,
+      "catalyst": "root_crystal",
+      "ritual_required": false
+    }
+  },
+  "nodes": [
+    {
+      "type": "storage",
+      "name": "Chambre Souterraine",
+      "description": "Cavité rocheuse offrant un stockage énergétique exceptionnel",
+      "capacity_multiplier": 2.5,
+      "regeneration_multiplier": 0.7,
+      "purity_level": 0.88,
+      "stability": 0.98,
+      "requirements": {
+        "level": 14,
+        "skills": [
+          {
+            "skill": "geomancy",
+            "level": 9
+          }
+        ],
+        "location_type": ["mountain", "cave", "canyon"]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "earthquake",
+      "name": "Séisme Énergétique",
+      "description": "Tremblement de terre libérant l'énergie contenue dans le sol",
+      "type": "surge",
+      "rarity": "rare",
+      "duration_seconds": 180,
+      "effects": [
+        {
+          "target": "environment",
+          "effect_type": "boost",
+          "value": 3.0,
+          "duration": 180,
+          "range": 50.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "energy_level",
+          "condition": "overload",
+          "probability": 0.15
+        }
+      ]
+    }
+  ],
+  "properties": {
+    "elemental_affinity": ["earth", "stone", "metal"],
+    "divine_alignment": ["lawful", "neutral"],
+    "corruption_resistance": 1.8,
+    "stability": 0.98,
+    "volatility": 0.1,
+    "transfer_efficiency": 0.8,
+    "ambient_generation": 0.8
+  }
+}

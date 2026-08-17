@@ -1,0 +1,30 @@
+{
+  "id": "justice_god",
+  "name": "Justicia",
+  "domain": "justice",
+  "alignment": "lawful_good",
+  "divine_power": 107,
+  "temples": [
+    {
+      "id": "temple_of_justice_god",
+      "location": "divine_city",
+      "level_requirement": 10,
+      "benefits": [
+        "blessing_of_justice"
+      ]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "blessing_of_justice",
+      "name": "Bénédiction de Justice",
+      "effects": [
+        {
+          "type": "justice_strikes",
+          "value": true
+        }
+      ]
+    }
+  ],
+  "curses": []
+}

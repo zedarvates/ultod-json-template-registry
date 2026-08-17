@@ -1,0 +1,20 @@
+{
+  "id": "mana",
+  "name": "Mana",
+  "description": "Énergie magique universelle",
+  "color": "#0000FF",
+  "max_capacity": 1000,
+  "regeneration_rate": 5.0,
+  "conversion_rules": {
+    "to_life_force": {
+      "efficiency": 0.8,
+      "required_level": 10,
+      "catalyst": "ether_crystal"
+    },
+    "to_divine_energy": {
+      "efficiency": 0.6,
+      "required_level": 20,
+      "ritual_required": true
+    }
+  }
+}

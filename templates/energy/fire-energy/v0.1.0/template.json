@@ -1,0 +1,105 @@
+{
+  "id": "fire_energy",
+  "name": "Énergie de Feu",
+  "description": "Énergie destructrice et passionnée issue des flammes et de la chaleur",
+  "color": "#FF4500",
+  "max_capacity": 1100.0,
+  "regeneration_rate": 1.8,
+  "conversion_rules": {
+    "primal_energy": {
+      "target_energy": "primal_energy",
+      "efficiency": 0.85,
+      "required_level": 8,
+      "catalyst": "flame_crystal",
+      "ritual_required": false
+    },
+    "light_energy": {
+      "target_energy": "light_energy",
+      "efficiency": 0.75,
+      "required_level": 12,
+      "catalyst": "sun_stone",
+      "ritual_required": false
+    }
+  },
+  "nodes": [
+    {
+      "type": "harvesting",
+      "name": "Foyer Infernal",
+      "description": "Source de feu éternel permettant la récolte d'énergie ignée",
+      "capacity_multiplier": 1.6,
+      "regeneration_multiplier": 1.4,
+      "purity_level": 0.85,
+      "stability": 0.75,
+      "requirements": {
+        "level": 10,
+        "skills": [
+          {
+            "skill": "pyromancy",
+            "level": 6
+          }
+        ],
+        "location_type": ["volcano", "desert", "forge"]
+      }
+    },
+    {
+      "type": "regeneration",
+      "name": "Brasier Vivant",
+      "description": "Feu éternel accélérant la régénération énergétique",
+      "capacity_multiplier": 1.2,
+      "regeneration_multiplier": 2.2,
+      "purity_level": 0.8,
+      "stability": 0.8,
+      "requirements": {
+        "level": 15,
+        "skills": [
+          {
+            "skill": "fire_manipulation",
+            "level": 10
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "infernal_blaze",
+      "name": "Embrasement Infernal",
+      "description": "Déchaînement de flammes consumant l'énergie environnante",
+      "type": "storm",
+      "rarity": "rare",
+      "duration_seconds": 300,
+      "effects": [
+        {
+          "target": "players",
+          "effect_type": "boost",
+          "value": 2.8,
+          "duration": 300,
+          "range": 40.0
+        },
+        {
+          "target": "environment",
+          "effect_type": "boost",
+          "value": 1.5,
+          "duration": 300,
+          "range": 40.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "time",
+          "condition": "noon",
+          "probability": 0.12
+        }
+      ]
+    }
+  ],
+  "properties": {
+    "elemental_affinity": ["fire", "heat"],
+    "divine_alignment": ["chaotic", "neutral"],
+    "corruption_resistance": 1.1,
+    "stability": 0.75,
+    "volatility": 0.8,
+    "transfer_efficiency": 0.9,
+    "ambient_generation": 1.2
+  }
+}

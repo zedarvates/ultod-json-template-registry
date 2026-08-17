@@ -1,0 +1,30 @@
+{
+  "id": "love_god",
+  "name": "Aphrodite",
+  "domain": "love",
+  "alignment": "chaotic_good",
+  "divine_power": 92,
+  "temples": [
+    {
+      "id": "temple_of_love_god",
+      "location": "divine_city",
+      "level_requirement": 10,
+      "benefits": [
+        "blessing_of_love"
+      ]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "blessing_of_love",
+      "name": "Bénédiction d'Amour",
+      "effects": [
+        {
+          "type": "charisma_bonus",
+          "value": 4
+        }
+      ]
+    }
+  ],
+  "curses": []
+}

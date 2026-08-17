@@ -1,0 +1,94 @@
+{
+  "id": "demonic_energy",
+  "name": "Énergie Démoniaque",
+  "description": "Énergie corruptrice et puissante issue des plans infernaux et des démons",
+  "color": "#8B0000",
+  "max_capacity": 1400.0,
+  "regeneration_rate": 0.6,
+  "conversion_rules": {
+    "dark_energy": {
+      "target_energy": "dark_energy",
+      "efficiency": 0.9,
+      "required_level": 20,
+      "catalyst": "demon_blood",
+      "ritual_required": true
+    },
+    "void_energy": {
+      "target_energy": "void_energy",
+      "efficiency": 0.8,
+      "required_level": 25,
+      "catalyst": "infernal_contract",
+      "ritual_required": true
+    }
+  },
+  "nodes": [
+    {
+      "type": "harvesting",
+      "name": "Portail Infernal",
+      "description": "Portail vers les plans infernaux permettant l'extraction d'énergie démoniaque",
+      "capacity_multiplier": 2.0,
+      "regeneration_multiplier": 0.7,
+      "purity_level": 0.6,
+      "stability": 0.3,
+      "requirements": {
+        "level": 22,
+        "skills": [
+          {
+            "skill": "demonology",
+            "level": 15
+          }
+        ],
+        "location_type": ["abyss", "hell_gate", "cursed_temple"]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "infernal_incursion",
+      "name": "Incursion Infernale",
+      "description": "Invasion énergétique démoniaque corrompant tout sur son passage",
+      "type": "corruption",
+      "rarity": "legendary",
+      "duration_seconds": 600,
+      "effects": [
+        {
+          "target": "players",
+          "effect_type": "corrupt",
+          "value": 1.0,
+          "duration": 600,
+          "range": 45.0
+        },
+        {
+          "target": "energy_nodes",
+          "effect_type": "corrupt",
+          "value": 0.8,
+          "duration": 600,
+          "range": 45.0
+        },
+        {
+          "target": "npcs",
+          "effect_type": "corrupt",
+          "value": 0.6,
+          "duration": 600,
+          "range": 45.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "player_action",
+          "condition": "summon_demon",
+          "probability": 0.02
+        }
+      ]
+    }
+  ],
+  "properties": {
+    "elemental_affinity": ["fire", "dark", "chaos"],
+    "divine_alignment": ["evil", "chaotic"],
+    "corruption_resistance": 0.5,
+    "stability": 0.4,
+    "volatility": 0.95,
+    "transfer_efficiency": 0.6,
+    "ambient_generation": 0.1
+  }
+}

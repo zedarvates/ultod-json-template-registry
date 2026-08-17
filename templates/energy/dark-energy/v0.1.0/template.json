@@ -1,0 +1,80 @@
+{
+  "id": "dark_energy",
+  "name": "Énergie Sombre",
+  "description": "Énergie mystérieuse et puissante issue des ténèbres et du mystère",
+  "color": "#000000",
+  "max_capacity": 1100.0,
+  "regeneration_rate": 0.8,
+  "conversion_rules": {
+    "shadow_energy": {
+      "target_energy": "shadow_energy",
+      "efficiency": 0.92,
+      "required_level": 12,
+      "catalyst": "dark_crystal",
+      "ritual_required": false
+    },
+    "void_energy": {
+      "target_energy": "void_energy",
+      "efficiency": 0.85,
+      "required_level": 18,
+      "catalyst": "abyss_essence",
+      "ritual_required": true
+    }
+  },
+  "nodes": [
+    {
+      "type": "harvesting",
+      "name": "Fosse des Ténèbres",
+      "description": "Abîme sombre permettant l'extraction d'énergie mystérieuse",
+      "capacity_multiplier": 1.5,
+      "regeneration_multiplier": 0.9,
+      "purity_level": 0.7,
+      "stability": 0.5,
+      "requirements": {
+        "level": 16,
+        "skills": [
+          {
+            "skill": "dark_magic",
+            "level": 11
+          }
+        ],
+        "location_type": ["abyss", "ruins", "cursed_forest"]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "darkness_surge",
+      "name": "Déferlement des Ténèbres",
+      "description": "Vague d'énergie sombre drainant la lumière environnante",
+      "type": "depletion",
+      "rarity": "rare",
+      "duration_seconds": 250,
+      "effects": [
+        {
+          "target": "players",
+          "effect_type": "drain",
+          "value": 0.5,
+          "duration": 250,
+          "range": 35.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "time",
+          "condition": "midnight",
+          "probability": 0.12
+        }
+      ]
+    }
+  ],
+  "properties": {
+    "elemental_affinity": ["dark", "shadow", "void"],
+    "divine_alignment": ["evil", "neutral"],
+    "corruption_resistance": 0.7,
+    "stability": 0.6,
+    "volatility": 0.8,
+    "transfer_efficiency": 0.75,
+    "ambient_generation": 0.3
+  }
+}

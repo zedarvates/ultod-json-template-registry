@@ -1,0 +1,200 @@
+{
+  "energy_events": {
+    "storm_template": {
+      "id": "energy_storm_template",
+      "name": "Tempête Énergétique Générique",
+      "description": "Template pour créer des tempêtes énergétiques",
+      "type": "storm",
+      "rarity": "common",
+      "duration_seconds": 300,
+      "effects": [
+        {
+          "target": "players",
+          "effect_type": "boost",
+          "value": 1.5,
+          "duration": 300,
+          "range": 50.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "random",
+          "condition": "energy_surge",
+          "probability": 0.1
+        }
+      ]
+    },
+    "rift_template": {
+      "id": "dimensional_rift_template",
+      "name": "Brèche Dimensionnelle Générique",
+      "description": "Template pour créer des brèches dimensionnelles",
+      "type": "rift",
+      "rarity": "rare",
+      "duration_seconds": 600,
+      "effects": [
+        {
+          "target": "energy_nodes",
+          "effect_type": "create_rift",
+          "value": 1.0,
+          "duration": 600,
+          "range": 30.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "player_action",
+          "condition": "ritual_cast",
+          "probability": 1.0
+        }
+      ]
+    },
+    "surge_template": {
+      "id": "energy_surge_template",
+      "name": "Décharge Énergétique Générique",
+      "description": "Template pour créer des décharges d'énergie",
+      "type": "surge",
+      "rarity": "uncommon",
+      "duration_seconds": 180,
+      "effects": [
+        {
+          "target": "environment",
+          "effect_type": "boost",
+          "value": 2.0,
+          "duration": 180,
+          "range": 40.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "energy_level",
+          "condition": "overload",
+          "probability": 0.2
+        }
+      ]
+    },
+    "depletion_template": {
+      "id": "energy_depletion_template",
+      "name": "Épuisement Énergétique Générique",
+      "description": "Template pour créer des événements d'épuisement énergétique",
+      "type": "depletion",
+      "rarity": "uncommon",
+      "duration_seconds": 240,
+      "effects": [
+        {
+          "target": "players",
+          "effect_type": "drain",
+          "value": 0.3,
+          "duration": 240,
+          "range": 35.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "time",
+          "condition": "energy_low",
+          "probability": 0.15
+        }
+      ]
+    },
+    "corruption_template": {
+      "id": "energy_corruption_template",
+      "name": "Corruption Énergétique Générique",
+      "description": "Template pour créer des événements de corruption énergétique",
+      "type": "corruption",
+      "rarity": "rare",
+      "duration_seconds": 360,
+      "effects": [
+        {
+          "target": "players",
+          "effect_type": "corrupt",
+          "value": 0.4,
+          "duration": 360,
+          "range": 25.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "random",
+          "condition": "dark_influence",
+          "probability": 0.08
+        }
+      ]
+    },
+    "celestial_convergence_advanced": {
+      "id": "celestial_convergence_advanced",
+      "name": "Convergence Céleste Majeure",
+      "description": "Événement céleste rare avec effets multiples",
+      "type": "surge",
+      "rarity": "legendary",
+      "duration_seconds": 900,
+      "effects": [
+        {
+          "target": "players",
+          "effect_type": "boost",
+          "value": 5.0,
+          "duration": 900,
+          "range": 100.0
+        },
+        {
+          "target": "energy_nodes",
+          "effect_type": "purify",
+          "value": 2.0,
+          "duration": 900,
+          "range": 100.0
+        },
+        {
+          "target": "environment",
+          "effect_type": "boost",
+          "value": 3.0,
+          "duration": 900,
+          "range": 100.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "time",
+          "condition": "rare_celestial_alignment",
+          "probability": 1.0
+        }
+      ]
+    },
+    "void_cataclysm": {
+      "id": "void_cataclysm",
+      "name": "Cataclysme du Vide",
+      "description": "Événement apocalyptique drainant toute énergie alentour",
+      "type": "storm",
+      "rarity": "legendary",
+      "duration_seconds": 1200,
+      "effects": [
+        {
+          "target": "players",
+          "effect_type": "drain",
+          "value": 0.8,
+          "duration": 1200,
+          "range": 75.0
+        },
+        {
+          "target": "npcs",
+          "effect_type": "corrupt",
+          "value": 1.0,
+          "duration": 1200,
+          "range": 75.0
+        },
+        {
+          "target": "energy_nodes",
+          "effect_type": "corrupt",
+          "value": 0.9,
+          "duration": 1200,
+          "range": 75.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "player_action",
+          "condition": "forbidden_ritual",
+          "probability": 1.0
+        }
+      ]
+    }
+  }
+}

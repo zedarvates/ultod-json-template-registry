@@ -13,10 +13,10 @@
   "invalid_json_files": 0,
   "server_history_or_archive_count": 62,
   "server_current_count": 4009,
-  "catalog_entry_count": 1119,
-  "server_current_covered_by_published_hash": 1119,
-  "server_current_not_covered_by_published_hash": 2890,
-  "server_current_pending_audit": 2630,
+  "catalog_entry_count": 1170,
+  "server_current_covered_by_published_hash": 1170,
+  "server_current_not_covered_by_published_hash": 2839,
+  "server_current_pending_audit": 2577,
   "gitleaks": {
     "root_templates": "clean",
     "server_templates": "clean",
@@ -290,14 +290,14 @@
     },
     {
       "family": "energy",
-      "audit_state": "pending",
+      "audit_state": "audited",
       "source_current_count": 32,
-      "published_or_deduplicated_count": 0,
-      "not_published_count": 32,
+      "published_or_deduplicated_count": 30,
+      "not_published_count": 2,
       "client_identical_count": 32,
       "client_divergent_count": 0,
       "client_missing_count": 0,
-      "disposition": "pending-review",
+      "disposition": "mixed",
       "review_basis": "internal runtime, production, admin, or asset references"
     },
     {
@@ -326,14 +326,14 @@
     },
     {
       "family": "god",
-      "audit_state": "pending",
+      "audit_state": "audited",
       "source_current_count": 21,
-      "published_or_deduplicated_count": 0,
-      "not_published_count": 21,
+      "published_or_deduplicated_count": 21,
+      "not_published_count": 0,
       "client_identical_count": 21,
       "client_divergent_count": 0,
       "client_missing_count": 0,
-      "disposition": "pending-review",
+      "disposition": "published-all",
       "review_basis": "internal runtime, production, admin, or asset references"
     },
     {

@@ -1,0 +1,98 @@
+{
+  "id": "spirit_energy",
+  "name": "Énergie Spirituelle",
+  "description": "Énergie éthérée issue des âmes et des entités spirituelles",
+  "color": "#9370DB",
+  "max_capacity": 850.0,
+  "regeneration_rate": 1.2,
+  "conversion_rules": {
+    "soul_energy": {
+      "target_energy": "soul_energy",
+      "efficiency": 0.92,
+      "required_level": 6,
+      "catalyst": "spirit_orb",
+      "ritual_required": false
+    },
+    "divine_energy": {
+      "target_energy": "divine_energy",
+      "efficiency": 0.8,
+      "required_level": 10,
+      "catalyst": "soul_crystal",
+      "ritual_required": true
+    }
+  },
+  "nodes": [
+    {
+      "type": "harvesting",
+      "name": "Autel Spirituel",
+      "description": "Lieu sacré où les âmes offrent leur énergie",
+      "capacity_multiplier": 1.1,
+      "regeneration_multiplier": 1.4,
+      "purity_level": 0.85,
+      "stability": 0.8,
+      "requirements": {
+        "level": 7,
+        "skills": [
+          {
+            "skill": "spirit_communication",
+            "level": 4
+          }
+        ],
+        "location_type": ["graveyard", "temple", "spirit_realm"]
+      }
+    },
+    {
+      "type": "purity",
+      "name": "Flammes de l'Âme",
+      "description": "Feu purificateur consumant les impuretés spirituelles",
+      "capacity_multiplier": 0.9,
+      "regeneration_multiplier": 1.3,
+      "purity_level": 0.96,
+      "stability": 0.92,
+      "requirements": {
+        "level": 14,
+        "skills": [
+          {
+            "skill": "soul_purification",
+            "level": 9
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "spirit_whispers",
+      "name": "Murmures Spirituels",
+      "description": "Voix des ancêtres offrant guidance et puissance",
+      "type": "surge",
+      "rarity": "rare",
+      "duration_seconds": 270,
+      "effects": [
+        {
+          "target": "players",
+          "effect_type": "boost",
+          "value": 1.8,
+          "duration": 270,
+          "range": 50.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "random",
+          "condition": "spirit_activity",
+          "probability": 0.12
+        }
+      ]
+    }
+  ],
+  "properties": {
+    "elemental_affinity": ["spirit", "soul"],
+    "divine_alignment": ["neutral", "chaotic"],
+    "corruption_resistance": 1.3,
+    "stability": 0.85,
+    "volatility": 0.4,
+    "transfer_efficiency": 0.95,
+    "ambient_generation": 0.6
+  }
+}

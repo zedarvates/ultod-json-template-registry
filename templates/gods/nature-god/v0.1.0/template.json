@@ -1,0 +1,30 @@
+{
+  "id": "nature_god",
+  "name": "Gaia",
+  "domain": "nature",
+  "alignment": "neutral_good",
+  "divine_power": 105,
+  "temples": [
+    {
+      "id": "temple_of_nature_god",
+      "location": "divine_city",
+      "level_requirement": 10,
+      "benefits": [
+        "blessing_of_nature"
+      ]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "blessing_of_nature",
+      "name": "Bénédiction de la Nature",
+      "effects": [
+        {
+          "type": "healing_power",
+          "value": 0.2
+        }
+      ]
+    }
+  ],
+  "curses": []
+}

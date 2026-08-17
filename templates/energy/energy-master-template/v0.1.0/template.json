@@ -1,0 +1,139 @@
+{
+  "id": "energy_master_template",
+  "name": "Modèle Maître d'Énergie",
+  "description": "Template de base pour créer de nouveaux types d'énergie avec toutes les fonctionnalités",
+  "color": "#FFFFFF",
+  "max_capacity": 1000.0,
+  "regeneration_rate": 1.0,
+  "conversion_rules": {
+    "mana": {
+      "target_energy": "mana",
+      "efficiency": 0.8,
+      "required_level": 1,
+      "catalyst": "ether_crystal",
+      "ritual_required": false
+    },
+    "life_force": {
+      "target_energy": "life_force",
+      "efficiency": 0.6,
+      "required_level": 5,
+      "catalyst": "life_crystal",
+      "ritual_required": false
+    }
+  },
+  "nodes": [
+    {
+      "type": "harvesting",
+      "name": "Nœud de Récolte",
+      "description": "Permet la récolte passive d'énergie ambiante",
+      "capacity_multiplier": 1.2,
+      "regeneration_multiplier": 1.5,
+      "purity_level": 0.8,
+      "stability": 0.9,
+      "requirements": {
+        "level": 1,
+        "skills": [
+          {
+            "skill": "energy_harvesting",
+            "level": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "regeneration",
+      "name": "Nœud de Régénération",
+      "description": "Accélère la régénération naturelle de l'énergie",
+      "capacity_multiplier": 1.0,
+      "regeneration_multiplier": 2.0,
+      "purity_level": 0.9,
+      "stability": 0.95,
+      "requirements": {
+        "level": 3,
+        "skills": [
+          {
+            "skill": "energy_manipulation",
+            "level": 2
+          }
+        ]
+      }
+    },
+    {
+      "type": "purity",
+      "name": "Nœud de Pureté",
+      "description": "Augmente la pureté et la stabilité de l'énergie",
+      "capacity_multiplier": 0.9,
+      "regeneration_multiplier": 1.1,
+      "purity_level": 0.95,
+      "stability": 0.98,
+      "requirements": {
+        "level": 5,
+        "skills": [
+          {
+            "skill": "energy_purification",
+            "level": 3
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "energy_storm",
+      "name": "Tempête Énergétique",
+      "description": "Une tempête d'énergie déchaînée qui booste temporairement la régénération",
+      "type": "storm",
+      "rarity": "rare",
+      "duration_seconds": 300,
+      "effects": [
+        {
+          "target": "players",
+          "effect_type": "boost",
+          "value": 2.0,
+          "duration": 300,
+          "range": 50.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "random",
+          "condition": "energy_level_high",
+          "probability": 0.1
+        }
+      ]
+    },
+    {
+      "id": "dimensional_rift",
+      "name": "Brèche Dimensionnelle",
+      "description": "Une déchirure dans le tissu de la réalité permettant l'accès à d'autres plans",
+      "type": "rift",
+      "rarity": "epic",
+      "duration_seconds": 600,
+      "effects": [
+        {
+          "target": "energy_nodes",
+          "effect_type": "create_rift",
+          "value": 1.0,
+          "duration": 600,
+          "range": 25.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "player_action",
+          "condition": "ritual_performed",
+          "probability": 1.0
+        }
+      ]
+    }
+  ],
+  "properties": {
+    "elemental_affinity": ["neutral"],
+    "divine_alignment": ["balanced"],
+    "corruption_resistance": 1.0,
+    "stability": 1.0,
+    "volatility": 0.1,
+    "transfer_efficiency": 1.0,
+    "ambient_generation": 0.5
+  }
+}

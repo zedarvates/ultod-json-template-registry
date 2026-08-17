@@ -1,0 +1,30 @@
+{
+  "id": "death_god",
+  "name": "Hades",
+  "domain": "death",
+  "alignment": "neutral_evil",
+  "divine_power": 110,
+  "temples": [
+    {
+      "id": "temple_of_death_god",
+      "location": "divine_city",
+      "level_requirement": 10,
+      "benefits": [
+        "blessing_of_death"
+      ]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "blessing_of_death",
+      "name": "Bénédiction de la Mort",
+      "effects": [
+        {
+          "type": "necrotic_damage",
+          "value": 0.15
+        }
+      ]
+    }
+  ],
+  "curses": []
+}

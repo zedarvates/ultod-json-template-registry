@@ -1,0 +1,30 @@
+{
+  "id": "honor_god",
+  "name": "Honor",
+  "domain": "honor",
+  "alignment": "lawful_good",
+  "divine_power": 100,
+  "temples": [
+    {
+      "id": "temple_of_honor_god",
+      "location": "divine_city",
+      "level_requirement": 10,
+      "benefits": [
+        "blessing_of_honor"
+      ]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "blessing_of_honor",
+      "name": "Bénédiction d'Honneur",
+      "effects": [
+        {
+          "type": "honor_bonus",
+          "value": 0.25
+        }
+      ]
+    }
+  ],
+  "curses": []
+}

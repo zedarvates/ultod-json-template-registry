@@ -1,0 +1,69 @@
+{
+  "relic_template": {
+    "id": "relic_warhammer",
+    "name": "Marteau de Vérité",
+    "description": "Marteau forcé dans les flammes divines",
+    "category": "divine_weapons",
+    "rarity": "rare",
+    "power_level": 3,
+    "visual_description": "golden_hammer_with_flame_patterns",
+    "powers": {
+      "primary_power": {
+        "name": "truth_strike",
+        "description": "reveals_hidden_enemies",
+        "effect_type": "damage_with_revelation",
+        "magnitude": 0.8
+      },
+      "secondary_powers": [
+        {
+          "name": "enemy_revelation",
+          "description": "makes_invisible_enemies_visible",
+          "effect_type": "visibility_grant",
+          "duration": "10_minutes"
+        },
+        {
+          "name": "justice_delivery",
+          "description": "delivers_justified_damage",
+          "effect_type": "alignment_based_damage",
+          "bonus_vs_evil": 0.5
+        }
+      ]
+    },
+    "requirements": {
+      "alignment_requirement": "lawful_good",
+      "strength_requirement": 15,
+      "devotion_requirement": 20,
+      "worship_requirement": "god_of_justice_or_war"
+    },
+    "maintenance": {
+      "power_source": "battle_honor",
+      "sacrifice_cost": "victory_celebration",
+      "corruption_risk": "defeat_sullies_power"
+    },
+    "creation": {
+      "forging_method": "divine_forging",
+      "creator_requirements": "master_craftsman_with_blessing",
+      "time_required": "7_days",
+      "materials": [
+        {
+          "item": "divine_steel",
+          "quantity": 5
+        },
+        {
+          "item": "flame_essence",
+          "quantity": 3
+        },
+        {
+          "item": "truth_crystal",
+          "quantity": 1
+        }
+      ]
+    },
+    "special_properties": {
+      "sentience": false,
+      "evolution": true,
+      "portability": true,
+      "multi_user": false
+    }
+  }
+}

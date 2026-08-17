@@ -1,0 +1,30 @@
+{
+  "id": "trade_god",
+  "name": "Hermes",
+  "domain": "trade",
+  "alignment": "chaotic_good",
+  "divine_power": 94,
+  "temples": [
+    {
+      "id": "temple_of_trade_god",
+      "location": "divine_city",
+      "level_requirement": 10,
+      "benefits": [
+        "blessing_of_trade"
+      ]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "blessing_of_trade",
+      "name": "Bénédiction du Commerce",
+      "effects": [
+        {
+          "type": "gold_multiplier",
+          "value": 0.2
+        }
+      ]
+    }
+  ],
+  "curses": []
+}

@@ -71,6 +71,10 @@ Le lot `professions` publie dix fichiers identiques octet pour octet entre les s
 
 ## Éléments exclus
 
+Le lot `god` publie ses 21 fichiers, identiques octet pour octet entre les sources serveur et client auditées. Cette cosmologie est traitée comme un univers fictif et non comme une référence religieuse ou culturelle. Domaines, puissance divine, temples, bénédictions, malédictions et reliques sont déclaratifs ; leur activation et leur attribution restent exclusivement serveur-autoritaires. Aucun asset, rendu, équilibrage ou branchement runtime n'est certifié.
+
+Le lot `energy` publie 30 de ses 32 fichiers, identiques octet pour octet entre les sources serveur et client auditées. Capacités, régénération, conversions, synergies, événements, nœuds et récoltes sont déclaratifs et doivent être validés côté serveur. `divine_shrine_001.json` et `mana_well_001.json` restent exclus car ils décrivent des instantanés d'instance avec position, niveau courant et horodatage de récolte plutôt que des modèles portables.
+
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :
 
 - du contenu narratif et de jeu dont les droits ou les inspirations doivent être vérifiés ;

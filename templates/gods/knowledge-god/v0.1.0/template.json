@@ -1,0 +1,30 @@
+{
+  "id": "knowledge_god",
+  "name": "Thoth",
+  "domain": "knowledge",
+  "alignment": "neutral",
+  "divine_power": 93,
+  "temples": [
+    {
+      "id": "temple_of_knowledge_god",
+      "location": "divine_city",
+      "level_requirement": 10,
+      "benefits": [
+        "blessing_of_knowledge"
+      ]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "blessing_of_knowledge",
+      "name": "Bénédiction de Connaissance",
+      "effects": [
+        {
+          "type": "experience_multiplier",
+          "value": 0.15
+        }
+      ]
+    }
+  ],
+  "curses": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "protection_god",
+  "name": "Athena",
+  "domain": "protection",
+  "alignment": "lawful_good",
+  "divine_power": 106,
+  "temples": [
+    {
+      "id": "temple_of_protection_god",
+      "location": "divine_city",
+      "level_requirement": 10,
+      "benefits": [
+        "blessing_of_protection"
+      ]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "blessing_of_protection",
+      "name": "Bénédiction de Protection",
+      "effects": [
+        {
+          "type": "damage_reduction",
+          "value": 0.15
+        }
+      ]
+    }
+  ],
+  "curses": []
+}

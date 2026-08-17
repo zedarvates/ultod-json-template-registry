@@ -1,0 +1,30 @@
+{
+  "id": "order_god",
+  "name": "Zeus",
+  "domain": "order",
+  "alignment": "lawful_neutral",
+  "divine_power": 108,
+  "temples": [
+    {
+      "id": "temple_of_order_god",
+      "location": "divine_city",
+      "level_requirement": 10,
+      "benefits": [
+        "blessing_of_order"
+      ]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "blessing_of_order",
+      "name": "Bénédiction d'Ordre",
+      "effects": [
+        {
+          "type": "discipline_bonus",
+          "value": 0.2
+        }
+      ]
+    }
+  ],
+  "curses": []
+}

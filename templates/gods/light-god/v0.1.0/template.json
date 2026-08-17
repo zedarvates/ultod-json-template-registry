@@ -1,0 +1,30 @@
+{
+  "id": "light_god",
+  "name": "Apollo",
+  "domain": "light",
+  "alignment": "lawful_good",
+  "divine_power": 102,
+  "temples": [
+    {
+      "id": "temple_of_light_god",
+      "location": "divine_city",
+      "level_requirement": 10,
+      "benefits": [
+        "blessing_of_light"
+      ]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "blessing_of_light",
+      "name": "Bénédiction de Lumière",
+      "effects": [
+        {
+          "type": "holy_damage",
+          "value": 0.18
+        }
+      ]
+    }
+  ],
+  "curses": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "wisdom_god",
+  "name": "Athena",
+  "domain": "wisdom",
+  "alignment": "lawful_good",
+  "divine_power": 95,
+  "temples": [
+    {
+      "id": "temple_of_wisdom_god",
+      "location": "divine_city",
+      "level_requirement": 10,
+      "benefits": [
+        "blessing_of_wisdom"
+      ]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "blessing_of_wisdom",
+      "name": "Bénédiction de Sagesse",
+      "effects": [
+        {
+          "type": "wisdom_bonus",
+          "value": 3
+        }
+      ]
+    }
+  ],
+  "curses": []
+}

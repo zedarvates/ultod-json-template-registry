@@ -1,0 +1,48 @@
+{
+  "id": "war_god",
+  "name": "Ares",
+  "domain": "war",
+  "alignment": "chaotic_neutral",
+  "divine_power": 85.0,
+  "temples": [
+    {
+      "id": "temple_of_war",
+      "location": "warrior_city",
+      "level_requirement": 10,
+      "benefits": ["blessing_of_war", "combat_boost"]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "blessing_of_war",
+      "name": "Bénédiction de Guerre",
+      "description": "+15% dégâts en combat",
+      "duration_hours": 24,
+      "cooldown_hours": 168,
+      "effects": [
+        {"type": "damage_multiplier", "value": 0.15}
+      ]
+    },
+    {
+      "id": "battle_fury",
+      "name": "Fureur de Bataille",
+      "description": "+10% dégâts et +20% vitesse d'attaque",
+      "duration_hours": 12,
+      "cooldown_hours": 72,
+      "effects": [
+        {"type": "damage_multiplier", "value": 0.1},
+        {"type": "attack_speed_boost", "value": 0.2}
+      ]
+    }
+  ],
+  "curses": [
+    {
+      "id": "wrath_of_war",
+      "name": "Colère de la Guerre",
+      "description": "Malédiction pour trahison",
+      "effects": [
+        {"type": "damage_reduction", "value": 0.2, "duration": 3600}
+      ]
+    }
+  ]
+}

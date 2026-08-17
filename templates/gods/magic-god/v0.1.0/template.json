@@ -1,0 +1,47 @@
+{
+  "id": "magic_god",
+  "name": "Mystra",
+  "domain": "magic",
+  "alignment": "neutral_good",
+  "divine_power": 95.0,
+  "temples": [
+    {
+      "id": "temple_of_magic",
+      "location": "mage_tower",
+      "level_requirement": 5,
+      "benefits": ["arcane_blessing", "spell_power_boost"]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "arcane_blessing",
+      "name": "Bénédiction Arcanique",
+      "description": "+20% puissance des sorts",
+      "duration_hours": 24,
+      "cooldown_hours": 168,
+      "effects": [
+        {"type": "spell_power_boost", "value": 0.2}
+      ]
+    },
+    {
+      "id": "mana_shield",
+      "name": "Bouclier de Mana",
+      "description": "Convertit les dégâts en coût de mana",
+      "duration_hours": 6,
+      "cooldown_hours": 48,
+      "effects": [
+        {"type": "damage_to_mana", "value": 0.5}
+      ]
+    }
+  ],
+  "curses": [
+    {
+      "id": "arcane_curse",
+      "name": "Malédiction Arcanique",
+      "description": "Échec des sorts aléatoire",
+      "effects": [
+        {"type": "spell_failure_chance", "value": 0.15, "duration": 1800}
+      ]
+    }
+  ]
+}

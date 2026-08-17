@@ -1,0 +1,105 @@
+{
+  "id": "void_energy",
+  "name": "Énergie du Vide",
+  "description": "Énergie chaotique issue du vide interstellaire, puissante mais instable",
+  "color": "#000000",
+  "max_capacity": 800.0,
+  "regeneration_rate": 0.5,
+  "conversion_rules": {
+    "dark_energy": {
+      "target_energy": "dark_energy",
+      "efficiency": 0.9,
+      "required_level": 10,
+      "catalyst": "void_crystal",
+      "ritual_required": true
+    },
+    "nether_energy": {
+      "target_energy": "nether_energy",
+      "efficiency": 0.7,
+      "required_level": 15,
+      "catalyst": "nether_shard",
+      "ritual_required": false
+    }
+  },
+  "nodes": [
+    {
+      "type": "harvesting",
+      "name": "Faille du Vide",
+      "description": "Faille permettant d'extraire l'énergie du vide",
+      "capacity_multiplier": 1.5,
+      "regeneration_multiplier": 0.8,
+      "purity_level": 0.6,
+      "stability": 0.4,
+      "requirements": {
+        "level": 10,
+        "skills": [
+          {
+            "skill": "void_manipulation",
+            "level": 5
+          }
+        ],
+        "location_type": ["void", "abyss"]
+      }
+    },
+    {
+      "type": "regeneration",
+      "name": "Nexus du Chaos",
+      "description": "Point de convergence chaotique accélérant la régénération",
+      "capacity_multiplier": 1.3,
+      "regeneration_multiplier": 1.8,
+      "purity_level": 0.7,
+      "stability": 0.5,
+      "requirements": {
+        "level": 12,
+        "skills": [
+          {
+            "skill": "chaos_magic",
+            "level": 8
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "void_storm",
+      "name": "Tempête du Vide",
+      "description": "Tempête chaotique drainant l'énergie des alentours",
+      "type": "storm",
+      "rarity": "rare",
+      "duration_seconds": 240,
+      "effects": [
+        {
+          "target": "players",
+          "effect_type": "drain",
+          "value": 0.3,
+          "duration": 240,
+          "range": 30.0
+        },
+        {
+          "target": "npcs",
+          "effect_type": "corrupt",
+          "value": 0.5,
+          "duration": 240,
+          "range": 30.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "random",
+          "condition": "void_presence",
+          "probability": 0.15
+        }
+      ]
+    }
+  ],
+  "properties": {
+    "elemental_affinity": ["void", "chaos"],
+    "divine_alignment": ["chaotic"],
+    "corruption_resistance": 0.8,
+    "stability": 0.3,
+    "volatility": 0.9,
+    "transfer_efficiency": 0.7,
+    "ambient_generation": 0.2
+  }
+}

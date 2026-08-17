@@ -1,0 +1,129 @@
+{
+  "id": "shadow_energy",
+  "name": "Énergie des Ombres",
+  "description": "Énergie mystérieuse et cachée issue des ombres et des recoins obscurs",
+  "color": "#2F2F2F",
+  "max_capacity": 750.0,
+  "regeneration_rate": 0.8,
+  "conversion_rules": {
+    "dark_energy": {
+      "target_energy": "dark_energy",
+      "efficiency": 0.88,
+      "required_level": 7,
+      "catalyst": "shadow_essence",
+      "ritual_required": false
+    },
+    "void_energy": {
+      "target_energy": "void_energy",
+      "efficiency": 0.75,
+      "required_level": 15,
+      "catalyst": "abyss_crystal",
+      "ritual_required": true
+    }
+  },
+  "nodes": [
+    {
+      "type": "harvesting",
+      "name": "Crevasse Ténébreuse",
+      "description": "Fissure dans les ombres permettant l'extraction d'énergie cachée",
+      "capacity_multiplier": 1.3,
+      "regeneration_multiplier": 1.0,
+      "purity_level": 0.75,
+      "stability": 0.6,
+      "requirements": {
+        "level": 9,
+        "skills": [
+          {
+            "skill": "shadow_manipulation",
+            "level": 5
+          }
+        ],
+        "location_type": ["cave", "ruins", "forest_dark"]
+      }
+    },
+    {
+      "type": "regeneration",
+      "name": "Puits des Ténèbres",
+      "description": "Source profonde régénérant l'énergie des ombres",
+      "capacity_multiplier": 1.0,
+      "regeneration_multiplier": 1.6,
+      "purity_level": 0.8,
+      "stability": 0.7,
+      "requirements": {
+        "level": 13,
+        "skills": [
+          {
+            "skill": "dark_regeneration",
+            "level": 8
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "shadow_nexus",
+      "name": "Nexus des Ombres",
+      "description": "Convergence d'ombres créant un vortex énergétique",
+      "type": "rift",
+      "rarity": "epic",
+      "duration_seconds": 360,
+      "effects": [
+        {
+          "target": "players",
+          "effect_type": "boost",
+          "value": 2.5,
+          "duration": 360,
+          "range": 35.0
+        },
+        {
+          "target": "energy_nodes",
+          "effect_type": "create_rift",
+          "value": 1.0,
+          "duration": 360,
+          "range": 35.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "time",
+          "condition": "midnight",
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "shadow_corruption",
+      "name": "Corruption des Ombres",
+      "description": "L'énergie des ombres se corrompt et draine les environs",
+      "type": "corruption",
+      "rarity": "uncommon",
+      "duration_seconds": 200,
+      "effects": [
+        {
+          "target": "players",
+          "effect_type": "drain",
+          "value": 0.4,
+          "duration": 200,
+          "range": 25.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "energy_level",
+          "condition": "unstable",
+          "probability": 0.25
+        }
+      ]
+    }
+  ],
+  "properties": {
+    "elemental_affinity": ["dark", "shadow"],
+    "divine_alignment": ["evil", "neutral"],
+    "corruption_resistance": 0.9,
+    "stability": 0.65,
+    "volatility": 0.7,
+    "transfer_efficiency": 0.8,
+    "ambient_generation": 0.4
+  }
+}

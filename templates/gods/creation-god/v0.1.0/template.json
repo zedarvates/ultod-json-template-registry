@@ -1,0 +1,30 @@
+{
+  "id": "creation_god",
+  "name": "Hephaestus",
+  "domain": "creation",
+  "alignment": "neutral_good",
+  "divine_power": 103,
+  "temples": [
+    {
+      "id": "temple_of_creation_god",
+      "location": "divine_city",
+      "level_requirement": 10,
+      "benefits": [
+        "blessing_of_creation"
+      ]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "blessing_of_creation",
+      "name": "Bénédiction de Création",
+      "effects": [
+        {
+          "type": "crafting_speed",
+          "value": 0.4
+        }
+      ]
+    }
+  ],
+  "curses": []
+}

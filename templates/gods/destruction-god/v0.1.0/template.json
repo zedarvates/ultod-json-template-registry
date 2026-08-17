@@ -1,0 +1,30 @@
+{
+  "id": "destruction_god",
+  "name": "Ares",
+  "domain": "destruction",
+  "alignment": "chaotic_evil",
+  "divine_power": 101,
+  "temples": [
+    {
+      "id": "temple_of_destruction_god",
+      "location": "divine_city",
+      "level_requirement": 10,
+      "benefits": [
+        "blessing_of_destruction"
+      ]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "blessing_of_destruction",
+      "name": "Bénédiction de Destruction",
+      "effects": [
+        {
+          "type": "critical_damage",
+          "value": 0.25
+        }
+      ]
+    }
+  ],
+  "curses": []
+}

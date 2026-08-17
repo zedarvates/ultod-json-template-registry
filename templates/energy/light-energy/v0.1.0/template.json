@@ -1,0 +1,86 @@
+{
+  "id": "light_energy",
+  "name": "Énergie de Lumière",
+  "description": "Énergie pure et révélatrice issue de la lumière et de la vérité",
+  "color": "#FFFF00",
+  "max_capacity": 1000.0,
+  "regeneration_rate": 1.4,
+  "conversion_rules": {
+    "celestial_energy": {
+      "target_energy": "celestial_energy",
+      "efficiency": 0.9,
+      "required_level": 9,
+      "catalyst": "light_prism",
+      "ritual_required": false
+    },
+    "divine_energy": {
+      "target_energy": "divine_energy",
+      "efficiency": 0.85,
+      "required_level": 14,
+      "catalyst": "holy_light",
+      "ritual_required": true
+    }
+  },
+  "nodes": [
+    {
+      "type": "regeneration",
+      "name": "Rayon de Lumière",
+      "description": "Faisceau lumineux régénérant l'énergie environnante",
+      "capacity_multiplier": 1.0,
+      "regeneration_multiplier": 2.1,
+      "purity_level": 0.94,
+      "stability": 0.92,
+      "requirements": {
+        "level": 11,
+        "skills": [
+          {
+            "skill": "photomanipulation",
+            "level": 7
+          }
+        ]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "divine_light",
+      "name": "Lumière Divine",
+      "description": "Éclat de lumière révélateur purifiant toute corruption",
+      "type": "surge",
+      "rarity": "epic",
+      "duration_seconds": 300,
+      "effects": [
+        {
+          "target": "players",
+          "effect_type": "purify",
+          "value": 2.0,
+          "duration": 300,
+          "range": 40.0
+        },
+        {
+          "target": "energy_nodes",
+          "effect_type": "purify",
+          "value": 1.5,
+          "duration": 300,
+          "range": 40.0
+        }
+      ],
+      "triggers": [
+        {
+          "type": "time",
+          "condition": "dawn",
+          "probability": 0.1
+        }
+      ]
+    }
+  ],
+  "properties": {
+    "elemental_affinity": ["light", "holy"],
+    "divine_alignment": ["good", "lawful"],
+    "corruption_resistance": 2.0,
+    "stability": 0.95,
+    "volatility": 0.2,
+    "transfer_efficiency": 1.0,
+    "ambient_generation": 0.9
+  }
+}

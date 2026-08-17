@@ -1,0 +1,30 @@
+{
+  "id": "freedom_god",
+  "name": "Liberty",
+  "domain": "freedom",
+  "alignment": "chaotic_good",
+  "divine_power": 95,
+  "temples": [
+    {
+      "id": "temple_of_freedom_god",
+      "location": "divine_city",
+      "level_requirement": 10,
+      "benefits": [
+        "blessing_of_freedom"
+      ]
+    }
+  ],
+  "blessings": [
+    {
+      "id": "blessing_of_freedom",
+      "name": "Bénédiction de Liberté",
+      "effects": [
+        {
+          "type": "movement_speed",
+          "value": 0.2
+        }
+      ]
+    }
+  ],
+  "curses": []
+}
