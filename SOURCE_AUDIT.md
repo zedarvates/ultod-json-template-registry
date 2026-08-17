@@ -37,6 +37,8 @@ Le lot `locations` publie uniquement `city_template.json`, identique côté serv
 
 Le lot `houses` publie uniquement `exemple_maisonnette_meublee.json`, identique octet pour octet entre les sources serveur et client auditées. `uo_villa_marbre.json` reste exclu car sa référence explicite au style Ultima Online exige une clarification des droits ou une adaptation visuelle originale. Les pièces et accessoires publiés sont des identifiants logiques ; les ressources visuelles, le rendu et l'assemblage runtime ne sont pas certifiés.
 
+Le lot `names` publie uniquement `viking.json`, identique octet pour octet entre les sources serveur et client auditées. Ce modèle emploie des noms historiques et des termes issus de la mythologie nordique pour générer des noms de fiction ; il ne constitue pas une référence linguistique, historique ou culturelle. `elfe.json` et `nain.json` sont exclus en raison de noms directement associés à Tolkien, `lovecraftien.json` en raison de références directes au mythe de Cthulhu, `fantasy.json` en raison de marqueurs associés notamment à Warcraft et D&D, et `gaulois.json` dans l'attente d'une adaptation plus nettement originale de ses noms humoristiques.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

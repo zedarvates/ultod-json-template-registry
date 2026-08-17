@@ -1,0 +1,178 @@
+{
+  "culture": "viking",
+  "display_name": "Vikings/Nordiques",
+  "models": {
+    "first_name_male": {
+      "names": [
+        "Bjorn",
+        "Erik",
+        "Harald",
+        "Leif",
+        "Ragnar",
+        "Sigurd",
+        "Thorvald",
+        "Ulf",
+        "Bjarki",
+        "Einar",
+        "Gunnar",
+        "Halfdan",
+        "Ivar",
+        "Knut",
+        "Magnus",
+        "Olaf",
+        "Rolf",
+        "Sven",
+        "Torsten",
+        "Vidar"
+      ],
+      "order": 3,
+      "min_length": 4,
+      "max_length": 12
+    },
+    "first_name_female": {
+      "names": [
+        "Astrid",
+        "Bjorg",
+        "Freya",
+        "Gunnhild",
+        "Helga",
+        "Ingrid",
+        "Kara",
+        "Ragnhild",
+        "Sigrid",
+        "Thora",
+        "Ylva",
+        "Asa",
+        "Birgit",
+        "Dagmar",
+        "Elsa",
+        "Frida",
+        "Greta",
+        "Hilda",
+        "Jorunn",
+        "Kirsten"
+      ],
+      "order": 3,
+      "min_length": 4,
+      "max_length": 12
+    },
+    "first_name_neutral": {
+      "names": [
+        "Alex",
+        "Robin",
+        "Morgan",
+        "Pat",
+        "Taylor"
+      ],
+      "order": 2,
+      "min_length": 4,
+      "max_length": 10
+    },
+    "family_name": {
+      "names": [
+        "Bjornsson",
+        "Eriksson",
+        "Haraldsson",
+        "Leifsson",
+        "Ragnarsson",
+        "Sigurdsson",
+        "Thorvaldsson",
+        "Ulfsson",
+        "Bjarkisson",
+        "Einarsson",
+        "Gunnarsson",
+        "Bloodaxe",
+        "Ironskin",
+        "Stormbringer",
+        "Wolfheart",
+        "Bearclaw",
+        "Dragonbane",
+        "Frostbeard",
+        "Ironfist",
+        "Stormcaller"
+      ],
+      "order": 2,
+      "min_length": 4,
+      "max_length": 15
+    },
+    "nickname_human": {
+      "names": [
+        "le Berserker",
+        "le Navigateur",
+        "le Guerrier",
+        "le Sage",
+        "le Terrible",
+        "Sang-de-Dragon",
+        "Brise-Tempête",
+        "Cœur-de-Loup",
+        "Griffe-d'Ours",
+        "Barbe-de-Givre",
+        "Poing-de-Fer",
+        "le Vaillant",
+        "l'Intrépide",
+        "le Féroce",
+        "le Légendaire"
+      ],
+      "order": 2,
+      "min_length": 5,
+      "max_length": 18
+    },
+    "pet_name": {
+      "names": [
+        "Fenrir",
+        "Skadi",
+        "Jormungandr",
+        "Huginn",
+        "Muninn",
+        "Garm",
+        "Ratatoskr",
+        "Sleipnir",
+        "Mjolnir",
+        "Yggdrasil",
+        "Berserker",
+        "Valkyrie",
+        "Ragnarok",
+        "Odin",
+        "Thor",
+        "Loki",
+        "Freya",
+        "Tyr",
+        "Heimdall",
+        "Baldur"
+      ],
+      "order": 2,
+      "min_length": 3,
+      "max_length": 12
+    }
+  },
+  "templates": {
+    "full_name": [
+      "{first_name} {family_name}",
+      "{first_name} {nickname}",
+      "{first_name} fils de {family_name}"
+    ],
+    "pet_full": [
+      "{pet_name}",
+      "{pet_name} le {epithet}",
+      "{pet_name} de {first_name}"
+    ]
+  },
+  "epithets": [
+    "Sauvage",
+    "Féroce",
+    "Loyal",
+    "Puissant",
+    "Rapide",
+    "Intrépide",
+    "Légendaire",
+    "Terrifiant",
+    "Majestueux",
+    "Indomptable",
+    "Tempétueux",
+    "Guerrier",
+    "Sage",
+    "Vaillant",
+    "Éternel"
+  ],
+  "id": "viking"
+}
