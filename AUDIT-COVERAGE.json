@@ -16,7 +16,7 @@
   "catalog_entry_count": 1196,
   "server_current_covered_by_published_hash": 1196,
   "server_current_not_covered_by_published_hash": 2813,
-  "server_current_pending_audit": 2198,
+  "server_current_pending_audit": 2043,
   "gitleaks": {
     "root_templates": "clean",
     "server_templates": "clean",
@@ -374,14 +374,14 @@
     },
     {
       "family": "item",
-      "audit_state": "pending",
+      "audit_state": "audited",
       "source_current_count": 155,
       "published_or_deduplicated_count": 0,
       "not_published_count": 155,
       "client_identical_count": 128,
       "client_divergent_count": 13,
       "client_missing_count": 14,
-      "disposition": "pending-review",
+      "disposition": "excluded",
       "review_basis": "third-party references or mixed-rights content family"
     },
     {

@@ -85,6 +85,8 @@ Les cinq petites familles à droits mixtes sont entièrement exclues après audi
 
 Le lot `abilities` publie dix capacités de boss originales et génériques, identiques octet pour octet entre serveur et client. Leurs coûts, portées, délais, effets, durées et conditions sont déclaratifs et restent serveur-autoritaires. Les 17 capacités racine sont exclues pour leurs noms directement associés à Warcraft ; les 49 autres exposent des contrôles admin/debug, des secrets logiques, du commerce ou des liaisons internes. Les 66 fichiers `class` sont entièrement exclus : le lot mélange imports Sphere, classes Aion, noms Warcraft, rôles administratifs et nombreux chemins d'assets, sans sous-ensemble dont la provenance soit suffisamment isolée.
 
+La famille `item` est entièrement exclue après audit de ses 155 fichiers. 151 entrées contiennent économie, contrôles internes, état runtime, assets ou référence tierce. `sets.json` et `wings.json` sont des sérialisations de tableaux .NET sans contrat de modèle exploitable. Les deux exemples de conscience d'objet restants mélangent une valeur économique aux propriétés physiques et contiennent du texte mojibake ; ils exigent une correction d'encodage et une séparation du contrat économique avant publication.
+
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :
 
 - du contenu narratif et de jeu dont les droits ou les inspirations doivent être vérifiés ;
