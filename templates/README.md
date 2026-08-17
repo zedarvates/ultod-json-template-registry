@@ -4,7 +4,7 @@ Ce dossier accueille les modèles et schémas JSON versionnés du registre.
 
 ## État actuel
 
-La première collection contient 16 schémas issus de la source serveur la plus récente et un modèle de motifs haptiques identique côté serveur et build client VR. Ils sont publiés en `v0.1.0` avec le statut `experimental` et sans certification de compatibilité.
+La collection contient actuellement 16 schémas, un modèle de motifs haptiques et trois presets d'avatar. Ils sont publiés en `v0.1.0` avec le statut `experimental` et sans certification de compatibilité, d'assets ou de rendu.
 
 Le fichier `catalog.json` fournit leur chemin, leur version et leur empreinte SHA-256.
 

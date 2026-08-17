@@ -1,0 +1,35 @@
+{
+  "id": "human_balanced_m",
+  "kind": "avatar_preset",
+  "schema_version": 1,
+  "name": "Humain equilibre H",
+  "style_profile": {
+    "catalog_version": 1,
+    "id": "human_balanced_m",
+    "species": "human",
+    "variant": "balanced",
+    "body_frame": "masculine",
+    "status": "mvp_ready",
+    "missing_assets": []
+  },
+  "base_body": "humanoid_m",
+  "morphs": {
+    "registry_version": 1,
+    "values": {
+      "weight": 0.5,
+      "muscle": 0.5,
+      "height": 0.5,
+      "shoulder_width": 0.55,
+      "waist_size": 0.5,
+      "hip_width": 0.46,
+      "chest_size": 0.54,
+      "jaw_width": 0.55
+    }
+  },
+  "skin": { "tone": "#c68863", "age_layer": 0.0, "makeup": [], "decals": [] },
+  "eyes": { "iris": "ring_01", "color_l": "#3f6a4a", "color_r": "#3f6a4a", "pupil": 0.5 },
+  "hair": { "style": "hair_short_crop", "color_root": "#2a1c12", "color_tip": "#2a1c12" },
+  "facial_hair": { "style": null, "color_root": "#2a1c12", "color_tip": "#2a1c12" },
+  "extras": { "horns": null, "tail": null, "wings": null },
+  "equipment_preview": []
+}

@@ -206,6 +206,42 @@
                         "compatibility":  [
 
                                           ]
+                    },
+                    {
+                        "name":  "human-athletic-f",
+                        "kind":  "avatar-preset",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/avatars/human-athletic-f/v0.1.0/template.json",
+                        "source_file":  "human_athletic_f.json",
+                        "sha256":  "6a6de79215e3b45634ee7482addbe8655158d83fa0767e843c4207d51454f701",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "human-balanced-m",
+                        "kind":  "avatar-preset",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/avatars/human-balanced-m/v0.1.0/template.json",
+                        "source_file":  "human_balanced_m.json",
+                        "sha256":  "f6d6734019dbb136bf22545e10758f0fe1e15b047795fa9921f27cd537d91826",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "preset-defaut",
+                        "kind":  "avatar-preset",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/avatars/preset-defaut/v0.1.0/template.json",
+                        "source_file":  "preset_defaut.json",
+                        "sha256":  "3be8ef1e31fc725617b8f6ccee03874cadb733eb7d7876ee56dbc6668bff1b83",
+                        "compatibility":  [
+
+                                          ]
                     }
                 ]
 }

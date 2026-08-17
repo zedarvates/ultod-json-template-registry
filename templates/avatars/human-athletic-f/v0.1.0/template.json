@@ -1,0 +1,37 @@
+{
+  "id": "human_athletic_f",
+  "kind": "avatar_preset",
+  "schema_version": 1,
+  "name": "Humaine athletique",
+  "style_profile": {
+    "catalog_version": 1,
+    "id": "human_athletic_f",
+    "species": "human",
+    "variant": "athletic",
+    "body_frame": "feminine",
+    "status": "mvp_ready",
+    "missing_assets": []
+  },
+  "base_body": "humanoid_f",
+  "morphs": {
+    "registry_version": 1,
+    "values": {
+      "weight": 0.34,
+      "muscle": 0.7,
+      "height": 0.58,
+      "shoulder_width": 0.56,
+      "waist_size": 0.4,
+      "hip_width": 0.55,
+      "arm_thickness": 0.6,
+      "leg_thickness": 0.62,
+      "breast_size": 0.46,
+      "glute_size": 0.58
+    }
+  },
+  "skin": { "tone": "#b97854", "age_layer": 0.0, "makeup": [], "decals": [] },
+  "eyes": { "iris": "ring_02", "color_l": "#315d78", "color_r": "#315d78", "pupil": 0.46 },
+  "hair": { "style": "hair_ponytail_high", "color_root": "#1b1511", "color_tip": "#1b1511" },
+  "facial_hair": { "style": null, "color_root": "#1b1511", "color_tip": "#1b1511" },
+  "extras": { "horns": null, "tail": null, "wings": null },
+  "equipment_preview": []
+}

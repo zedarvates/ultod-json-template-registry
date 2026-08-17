@@ -23,6 +23,8 @@ La version initiale publie uniquement les 16 fichiers du sous-ensemble `schemas/
 
 Le lot suivant ajoute `haptics/default_patterns.json`. Les copies serveur et build client VR étaient identiques lors de l'audit ; la date plus récente du fichier client correspond uniquement à une copie plus tardive. Ce modèle est publié en `v0.1.0` avec le statut `experimental` et sans preuve d'intégration runtime.
 
+Le lot `avatars` ajoute trois presets. `preset_defaut.json` était identique côté serveur et build client VR ; `human_athletic_f.json` et `human_balanced_m.json` étaient uniquement présents côté serveur. Les valeurs sont conservées sans modification, mais les marqueurs source tels que `mvp_ready` ne constituent pas une validation des assets, du rendu ou de l'intégration runtime.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

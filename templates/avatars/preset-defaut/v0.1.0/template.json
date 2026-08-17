@@ -1,0 +1,28 @@
+{
+  "id": "preset_defaut",
+  "kind": "avatar_preset",
+  "schema_version": 1,
+  "name": "Défaut",
+  "base_body": "humanoid_f",
+  "morphs": {
+    "registry_version": 1,
+    "values": {
+      "weight": 0.5,
+      "muscle": 0.5,
+      "height": 0.5,
+      "nose_size": 0.5,
+      "eye_width": 0.5,
+      "jaw_width": 0.5,
+      "chin_length": 0.5,
+      "shoulder_width": 0.5,
+      "waist_size": 0.5,
+      "leg_length": 0.5
+    }
+  },
+  "skin": { "tone": "#c68863", "age_layer": 0.0, "makeup": [], "decals": [] },
+  "eyes": { "iris": "ring_01", "color_l": "#3f6a4a", "color_r": "#3f6a4a", "pupil": 0.5 },
+  "hair": { "style": "hair_short_crop", "color_root": "#2a1c12", "color_tip": "#2a1c12" },
+  "facial_hair": { "style": null, "color_root": "#2a1c12", "color_tip": "#2a1c12" },
+  "extras": { "horns": null, "tail": null, "wings": null },
+  "equipment_preview": []
+}
