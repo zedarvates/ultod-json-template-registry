@@ -31,6 +31,8 @@ Le lot `achievements` ajoute trois collections identiques côté serveur et buil
 
 Le lot `events` publie uniquement `festival_template.json`, identique côté serveur et build client VR. `temporal_crisis.json` reste exclu car il contient des multiplicateurs de charge CPU, mémoire et trafic réseau ainsi que des contrôles administratifs. Les activités et récompenses du festival restent des identifiants et valeurs non certifiés.
 
+Le lot `guilds` ajoute trois configurations identiques côté serveur et build client VR : onglets de banque, rangs et factions. Les permissions restent des valeurs déclaratives non fiables côté client ; toute invitation, promotion, diplomatie, opération bancaire ou utilisation de ressources doit être autorisée et validée côté serveur.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

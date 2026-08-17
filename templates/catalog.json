@@ -386,6 +386,42 @@
                         "compatibility":  [
 
                                           ]
+                    },
+                    {
+                        "name":  "default-bank-tabs",
+                        "kind":  "guild-bank-layout",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/guilds/default-bank-tabs/v0.1.0/template.json",
+                        "source_file":  "default_bank_tabs.json",
+                        "sha256":  "0721f8b665e0854d52b2d0dd5d8ac2b36997e4f928e7257c0f277e30f03169ee",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "default-ranks",
+                        "kind":  "guild-rank-policy",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/guilds/default-ranks/v0.1.0/template.json",
+                        "source_file":  "default_ranks.json",
+                        "sha256":  "403c9ba7fd06ea2e60cf72885dcaced7744137a23b772150b6234dbfb06aa129",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "factions",
+                        "kind":  "faction-collection",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/guilds/factions/v0.1.0/template.json",
+                        "source_file":  "factions.json",
+                        "sha256":  "914000daa9deb283d9ab76a1d7d9d6d4961f125da4460208e8df847f903585ae",
+                        "compatibility":  [
+
+                                          ]
                     }
                 ]
 }

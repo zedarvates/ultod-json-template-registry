@@ -1,0 +1,45 @@
+{
+  "default_tabs": [
+    {
+      "name": "General",
+      "required_rank": "member",
+      "max_slots": 100,
+      "description": "General storage for all guild members"
+    },
+    {
+      "name": "Equipment",
+      "required_rank": "member",
+      "max_slots": 50,
+      "description": "Store weapons, armor, and equipment"
+    },
+    {
+      "name": "Materials",
+      "required_rank": "member",
+      "max_slots": 200,
+      "description": "Crafting materials and resources"
+    },
+    {
+      "name": "Consumables",
+      "required_rank": "veteran",
+      "max_slots": 150,
+      "description": "Potions, scrolls, and other consumable items"
+    },
+    {
+      "name": "Rare Items",
+      "required_rank": "officer",
+      "max_slots": 25,
+      "description": "Rare and valuable items for officers only"
+    },
+    {
+      "name": "Guild Vault",
+      "required_rank": "leader",
+      "max_slots": 10,
+      "description": "Ultra-rare items accessible only to the guild leader"
+    }
+  ],
+  "gold_tab": {
+    "enabled": true,
+    "max_gold": 1000000,
+    "required_rank": "officer"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "faction_dawn_guard",
+    "name": "Garde de l'Aube",
+    "description": "Protecteurs des cités sacrées, loyaux au Roi Soleil.",
+    "initial_standing": 0,
+    "enemies": ["faction_void_cult", "faction_outlaw"],
+    "allies": ["faction_royal_knights"]
+  },
+  {
+    "id": "faction_void_cult",
+    "name": "Culte du Néant",
+    "description": "Fanatiques cherchant à fusionner le monde matériel avec l'Abysse.",
+    "initial_standing": -5000,
+    "enemies": ["faction_dawn_guard", "faction_royal_knights"],
+    "allies": []
+  },
+  {
+    "id": "faction_outlaw",
+    "name": "Hors-la-loi",
+    "description": "Bandits et renégats n'obéissant à aucune loi.",
+    "initial_standing": -1500,
+    "enemies": ["faction_dawn_guard"],
+    "allies": []
+  }
+]
