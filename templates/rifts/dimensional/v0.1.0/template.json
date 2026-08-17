@@ -1,0 +1,73 @@
+{
+  "rift_id": "dimensional_rift_template",
+  "rift_name": "Rift Dimensionnel",
+  "rift_description": "Un rift dimensionnel reliant à des dimensions alternatives",
+  "rift_type": "dimensional_rift",
+  "rift_rarity": "rare",
+  "rift_difficulty": "medium",
+  "rift_duration_minutes": 45,
+  "max_players": 4,
+  "min_level": 15,
+  "max_level": 100,
+  "spawn_coordinates": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "rift_properties": {
+    "stability": 0.8,
+    "intensity": 6.0,
+    "energy_regeneration": 100
+  },
+  "enemy_waves": [
+    {
+      "wave_number": 1,
+      "enemy_count": 8,
+      "enemy_types": [
+        "dimensional_beast",
+        "void_walker"
+      ],
+      "spawn_delay": 30
+    },
+    {
+      "wave_number": 2,
+      "enemy_count": 12,
+      "enemy_types": [
+        "dimensional_beast",
+        "void_walker",
+        "rift_stalker"
+      ],
+      "spawn_delay": 45
+    },
+    {
+      "wave_number": 3,
+      "enemy_count": 1,
+      "enemy_types": [
+        "rift_lord"
+      ],
+      "spawn_delay": 60
+    }
+  ],
+  "objectives": [
+    {
+      "type": "survival",
+      "description": "Survivez aux vagues d'ennemis",
+      "requirement": "complete_all_waves"
+    },
+    {
+      "type": "collection",
+      "description": "Collectez 10 cristaux dimensionnels",
+      "requirement": "collect_10_dimensional_crystals"
+    }
+  ],
+  "rewards": {
+    "experience": 15000,
+    "gold": 5000,
+    "rift_shards": 25,
+    "items": [
+      "dimensional_essence",
+      "rift_crystal"
+    ]
+  },
+  "id": "dimensional_rift_template"
+}

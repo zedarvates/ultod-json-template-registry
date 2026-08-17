@@ -1,0 +1,73 @@
+{
+  "rift_id": "chaos_rift_template",
+  "rift_name": "Rift du Chaos",
+  "rift_description": "Un rift instable générant des créatures chaotiques et des événements imprévisibles",
+  "rift_type": "chaos_rift",
+  "rift_rarity": "epic",
+  "rift_difficulty": "hard",
+  "rift_duration_minutes": 30,
+  "max_players": 6,
+  "min_level": 30,
+  "max_level": 100,
+  "spawn_coordinates": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "rift_properties": {
+    "stability": 0.4,
+    "intensity": 9.0,
+    "energy_regeneration": 200
+  },
+  "enemy_waves": [
+    {
+      "wave_number": 1,
+      "enemy_count": 15,
+      "enemy_types": [
+        "chaos_imp",
+        "unstable_elemental"
+      ],
+      "spawn_delay": 20
+    },
+    {
+      "wave_number": 2,
+      "enemy_count": 20,
+      "enemy_types": [
+        "chaos_imp",
+        "unstable_elemental",
+        "chaos_warrior"
+      ],
+      "spawn_delay": 30
+    },
+    {
+      "wave_number": 3,
+      "enemy_count": 1,
+      "enemy_types": [
+        "chaos_lord"
+      ],
+      "spawn_delay": 45
+    }
+  ],
+  "objectives": [
+    {
+      "type": "survival",
+      "description": "Survivez aux vagues chaotiques",
+      "requirement": "complete_all_waves"
+    },
+    {
+      "type": "destabilization",
+      "description": "Réduisez la stabilité du rift à 20%",
+      "requirement": "reduce_stability_to_20_percent"
+    }
+  ],
+  "rewards": {
+    "experience": 30000,
+    "gold": 15000,
+    "rift_shards": 50,
+    "items": [
+      "chaos_essence",
+      "unstable_core"
+    ]
+  },
+  "id": "chaos_rift_template"
+}

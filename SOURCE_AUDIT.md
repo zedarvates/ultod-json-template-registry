@@ -41,6 +41,8 @@ Le lot `names` publie uniquement `viking.json`, identique octet pour octet entre
 
 Le lot `styles` publie les six fichiers audités : citadelle elfique, crypte d'ossements, forge d'obsidienne, gothique prospère, hameau forestier et oasis désertique. Les copies serveur et client sont identiques octet pour octet et ne contiennent que des identifiants logiques de pièces et accessoires. Aucun asset, droit d'utilisation d'asset, rendu ou assemblage runtime n'est inclus ou certifié.
 
+Le lot `rifts` publie les quatre fichiers audités : chaos, dimensionnel, élémentaire et temporel. Les copies serveur et client sont identiques octet pour octet. Les niveaux, coordonnées, vagues, délais, propriétés, objectifs et récompenses sont des valeurs déclaratives non certifiées ; toute activation et attribution doit être autorisée et validée côté serveur. Aucun code serveur, protocole interne ou état de production n'est inclus.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

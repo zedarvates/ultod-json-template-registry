@@ -530,6 +530,54 @@
                         "compatibility":  [
 
                                           ]
+                    },
+                    {
+                        "name":  "chaos",
+                        "kind":  "rift-event-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/rifts/chaos/v0.1.0/template.json",
+                        "source_file":  "chaos_rift_template.json",
+                        "sha256":  "2b8fbd76dec4e1e5d1503f20a40fb1c3a75a621e70af3e7b8ccc96797ede34c9",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "dimensional",
+                        "kind":  "rift-event-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/rifts/dimensional/v0.1.0/template.json",
+                        "source_file":  "dimensional_rift_template.json",
+                        "sha256":  "1f4bd380249deb69b77a588c1665e3dfeb8cb30068c3890c032b521a757572d2",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "elemental",
+                        "kind":  "rift-event-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/rifts/elemental/v0.1.0/template.json",
+                        "source_file":  "elemental_rift_template.json",
+                        "sha256":  "44df9c6c2d1c9c1bb1523156cc1f5519e75c1c596aa346b6b26325c5a7e00f6c",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "temporal",
+                        "kind":  "rift-event-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/rifts/temporal/v0.1.0/template.json",
+                        "source_file":  "temporal_rift_template.json",
+                        "sha256":  "ceb7811c32733ff78c95650830e0cffc2f0f0f8cb7578e39573f4a21a4bd6e38",
+                        "compatibility":  [
+
+                                          ]
                     }
                 ]
 }

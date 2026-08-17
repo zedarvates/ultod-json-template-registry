@@ -1,0 +1,73 @@
+{
+  "rift_id": "temporal_rift_template",
+  "rift_name": "Rift Temporel",
+  "rift_description": "Un rift qui manipule le temps et l'espace, créant des anomalies temporelles",
+  "rift_type": "temporal_rift",
+  "rift_rarity": "legendary",
+  "rift_difficulty": "extreme",
+  "rift_duration_minutes": 25,
+  "max_players": 8,
+  "min_level": 60,
+  "max_level": 100,
+  "spawn_coordinates": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "rift_properties": {
+    "stability": 0.2,
+    "intensity": 10.0,
+    "energy_regeneration": 300
+  },
+  "enemy_waves": [
+    {
+      "wave_number": 1,
+      "enemy_count": 20,
+      "enemy_types": [
+        "time_wraith",
+        "chrono_beast"
+      ],
+      "spawn_delay": 15
+    },
+    {
+      "wave_number": 2,
+      "enemy_count": 25,
+      "enemy_types": [
+        "time_wraith",
+        "chrono_beast",
+        "temporal_horror"
+      ],
+      "spawn_delay": 20
+    },
+    {
+      "wave_number": 3,
+      "enemy_count": 1,
+      "enemy_types": [
+        "chronomancer_lord"
+      ],
+      "spawn_delay": 30
+    }
+  ],
+  "objectives": [
+    {
+      "type": "survival",
+      "description": "Survivez aux distorsions temporelles",
+      "requirement": "complete_all_waves"
+    },
+    {
+      "type": "stabilization",
+      "description": "Stabilisez le flux temporel",
+      "requirement": "stabilize_temporal_flow"
+    }
+  ],
+  "rewards": {
+    "experience": 50000,
+    "gold": 25000,
+    "rift_shards": 75,
+    "items": [
+      "temporal_essence",
+      "chronomancer_artifact"
+    ]
+  },
+  "id": "temporal_rift_template"
+}

@@ -1,0 +1,74 @@
+{
+  "rift_id": "elemental_rift_template",
+  "rift_name": "Rift Élémentaire",
+  "rift_description": "Un rift connecté aux plans élémentaires avec des énergies naturelles pures",
+  "rift_type": "elemental_rift",
+  "rift_rarity": "uncommon",
+  "rift_difficulty": "medium",
+  "rift_duration_minutes": 50,
+  "max_players": 5,
+  "min_level": 20,
+  "max_level": 100,
+  "spawn_coordinates": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "rift_properties": {
+    "stability": 0.9,
+    "intensity": 7.0,
+    "energy_regeneration": 150
+  },
+  "enemy_waves": [
+    {
+      "wave_number": 1,
+      "enemy_count": 10,
+      "enemy_types": [
+        "fire_elemental",
+        "water_spirit"
+      ],
+      "spawn_delay": 25
+    },
+    {
+      "wave_number": 2,
+      "enemy_count": 15,
+      "enemy_types": [
+        "fire_elemental",
+        "water_spirit",
+        "earth_golem",
+        "air_wisp"
+      ],
+      "spawn_delay": 35
+    },
+    {
+      "wave_number": 3,
+      "enemy_count": 1,
+      "enemy_types": [
+        "elemental_lord"
+      ],
+      "spawn_delay": 50
+    }
+  ],
+  "objectives": [
+    {
+      "type": "survival",
+      "description": "Survivez aux éléments déchaînés",
+      "requirement": "complete_all_waves"
+    },
+    {
+      "type": "harmony",
+      "description": "Équilibrez les quatre éléments",
+      "requirement": "balance_all_elements"
+    }
+  ],
+  "rewards": {
+    "experience": 20000,
+    "gold": 8000,
+    "rift_shards": 35,
+    "items": [
+      "elemental_essence",
+      "planar_crystal"
+    ]
+  },
+  "id": "elemental_rift_template"
+}
