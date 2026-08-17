@@ -422,6 +422,18 @@
                         "compatibility":  [
 
                                           ]
+                    },
+                    {
+                        "name":  "city",
+                        "kind":  "location-template",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/locations/city/v0.1.0/template.json",
+                        "source_file":  "city_template.json",
+                        "sha256":  "ff404268d703cc18e7bdc19a3103ceda715dfebaba90a9aafc6cfe8ca28bfdd0",
+                        "compatibility":  [
+
+                                          ]
                     }
                 ]
 }

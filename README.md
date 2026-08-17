@@ -4,7 +4,7 @@ Registre central destiné aux modèles JSON versionnés de l'écosystème Ultima
 
 ## Statut
 
-**Registre expérimental.** La collection contient 16 schémas JSON, un modèle de motifs haptiques, trois presets d'avatar, huit biomes, trois collections d'achievements, un modèle d'événement et trois configurations de guilde en version `0.1.0`.
+**Registre expérimental.** La collection contient 16 schémas JSON, un modèle de motifs haptiques, trois presets d'avatar, huit biomes, trois collections d'achievements, un modèle d'événement, trois configurations de guilde et un modèle de lieu en version `0.1.0`.
 
 Ces schémas sont des instantanés non certifiés. Aucun n'est encore déclaré compatible avec une version précise d'un client ou du serveur.
 
@@ -69,6 +69,11 @@ templates/
       v<MAJEUR>.<MINEUR>.<CORRECTIF>/
         template.json
         README.md
+  locations/
+    <nom-lieu>/
+      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+        template.json
+        README.md
 ```
 
 Le détail de la sélection initiale et des exclusions se trouve dans [SOURCE_AUDIT.md](SOURCE_AUDIT.md).
@@ -76,6 +81,8 @@ Le détail de la sélection initiale et des exclusions se trouve dans [SOURCE_AU
 ## Versionnage
 
 Le registre suit un versionnage sémantique par modèle. Les règles détaillées se trouvent dans [VERSIONING.md](VERSIONING.md).
+
+Les conventions permettant de créer un modèle compatible sont définies dans [TEMPLATE-SPEC.md](TEMPLATE-SPEC.md).
 
 ## Licence
 

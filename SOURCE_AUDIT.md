@@ -33,6 +33,8 @@ Le lot `events` publie uniquement `festival_template.json`, identique côté ser
 
 Le lot `guilds` ajoute trois configurations identiques côté serveur et build client VR : onglets de banque, rangs et factions. Les permissions restent des valeurs déclaratives non fiables côté client ; toute invitation, promotion, diplomatie, opération bancaire ou utilisation de ressources doit être autorisée et validée côté serveur.
 
+Le lot `locations` publie uniquement `city_template.json`, identique côté serveur et build client VR. `temporal_nexus_complex.json` reste exclu car il contient des contrôles administratifs et des mécanismes internes complexes. Les coordonnées et références du modèle de ville restent des valeurs logiques non certifiées.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

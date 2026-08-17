@@ -1,0 +1,51 @@
+{
+  "location_id": "city_template",
+  "name": "Template de Ville",
+  "description": "Un modèle de ville générique pour les établissements urbains",
+  "location_type": "city",
+  "size": "medium",
+  "population": 5000,
+  "coordinates": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "biome": "temperate",
+  "governance": "monarchy",
+  "economy_level": "thriving",
+  "security_level": "high",
+  "cultural_influence": "human_dominant",
+  "key_features": [
+    "castle",
+    "marketplace",
+    "tavern",
+    "blacksmith",
+    "temple",
+    "guard_towers"
+  ],
+  "npcs": [
+    "town_guard",
+    "merchant",
+    "innkeeper",
+    "blacksmith",
+    "priest"
+  ],
+  "resources": [
+    "food",
+    "water",
+    "lumber",
+    "stone"
+  ],
+  "threats": [
+    "bandits",
+    "monsters",
+    "natural_disasters"
+  ],
+  "connected_locations": [],
+  "events": [
+    "market_day",
+    "festival",
+    "tournament"
+  ],
+  "id": "city_template"
+}
