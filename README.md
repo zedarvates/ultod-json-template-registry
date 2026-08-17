@@ -4,7 +4,7 @@ Registre central destiné aux modèles JSON versionnés de l'écosystème Ultima
 
 ## Statut
 
-**Registre expérimental.** La collection contient 16 schémas JSON, un modèle de motifs haptiques, trois presets d'avatar et huit biomes en version `0.1.0`.
+**Registre expérimental.** La collection contient 16 schémas JSON, un modèle de motifs haptiques, trois presets d'avatar, huit biomes et trois collections d'achievements en version `0.1.0`.
 
 Ces schémas sont des instantanés non certifiés. Aucun n'est encore déclaré compatible avec une version précise d'un client ou du serveur.
 
@@ -51,6 +51,11 @@ templates/
         README.md
   biomes/
     <nom-du-biome>/
+      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+        template.json
+        README.md
+  achievements/
+    <nom-de-collection>/
       v<MAJEUR>.<MINEUR>.<CORRECTIF>/
         template.json
         README.md

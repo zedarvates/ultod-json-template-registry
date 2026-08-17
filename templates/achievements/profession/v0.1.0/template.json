@@ -1,0 +1,137 @@
+{
+  "achievements": [
+    {
+      "id": 200,
+      "name": "Apprentice Blacksmith",
+      "description": "Craft 100 items as a blacksmith",
+      "category": "professions",
+      "trigger": "craft_item",
+      "required_progress": 100,
+      "points": 25,
+      "rewards": [
+        {
+          "type": "item",
+          "value": "craftsmans_apron",
+          "quantity": 1
+        },
+        {
+          "type": "currency",
+          "value": "achievement_points",
+          "quantity": 25
+        }
+      ],
+      "hidden": false,
+      "repeatable": false
+    },
+    {
+      "id": 201,
+      "name": "Master Blacksmith",
+      "description": "Reach blacksmith skill level 100",
+      "category": "professions",
+      "trigger": "custom_event",
+      "required_progress": 100,
+      "points": 100,
+      "rewards": [
+        {
+          "type": "title",
+          "value": "legendary_blacksmith",
+          "quantity": 1
+        },
+        {
+          "type": "item",
+          "value": "master_forge_hammer",
+          "quantity": 1
+        },
+        {
+          "type": "currency",
+          "value": "achievement_points",
+          "quantity": 100
+        }
+      ],
+      "parent_achievement": 200,
+      "hidden": false,
+      "repeatable": false
+    },
+    {
+      "id": 202,
+      "name": "First Loaf",
+      "description": "Bake your first bread",
+      "category": "professions",
+      "trigger": "craft_item",
+      "required_progress": 1,
+      "points": 5,
+      "rewards": [
+        {
+          "type": "item",
+          "value": "basic_bread_recipe",
+          "quantity": 1
+        },
+        {
+          "type": "currency",
+          "value": "achievement_points",
+          "quantity": 5
+        }
+      ],
+      "hidden": false,
+      "repeatable": false
+    },
+    {
+      "id": 203,
+      "name": "Perfect Bake",
+      "description": "Create 50 perfect bakes",
+      "category": "professions",
+      "trigger": "custom_event",
+      "required_progress": 50,
+      "points": 75,
+      "rewards": [
+        {
+          "type": "title",
+          "value": "master_baker",
+          "quantity": 1
+        },
+        {
+          "type": "item",
+          "value": "bread_quality_bonus",
+          "quantity": 1
+        },
+        {
+          "type": "currency",
+          "value": "achievement_points",
+          "quantity": 75
+        }
+      ],
+      "parent_achievement": 202,
+      "hidden": false,
+      "repeatable": false
+    },
+    {
+      "id": 204,
+      "name": "Legendary Feast",
+      "description": "Create 15 legendary dishes",
+      "category": "rare",
+      "trigger": "custom_event",
+      "required_progress": 15,
+      "points": 500,
+      "rewards": [
+        {
+          "type": "title",
+          "value": "gourmet_master",
+          "quantity": 1
+        },
+        {
+          "type": "unlock",
+          "value": "divine_cuisine",
+          "quantity": 1
+        },
+        {
+          "type": "currency",
+          "value": "achievement_points",
+          "quantity": 500
+        }
+      ],
+      "parent_achievement": 203,
+      "hidden": true,
+      "repeatable": false
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "achievements": [
+    {
+      "id": 100,
+      "name": "Adventurer",
+      "description": "Explore your first zone",
+      "category": "exploration",
+      "trigger": "explore_zone",
+      "required_progress": 1,
+      "points": 15,
+      "rewards": [
+        {
+          "type": "currency",
+          "value": "achievement_points",
+          "quantity": 15
+        }
+      ],
+      "hidden": false,
+      "repeatable": false
+    },
+    {
+      "id": 101,
+      "name": "Explorer",
+      "description": "Explore 10 different zones",
+      "category": "exploration",
+      "trigger": "explore_zone",
+      "required_progress": 10,
+      "points": 75,
+      "rewards": [
+        {
+          "type": "title",
+          "value": "explorer",
+          "quantity": 1
+        },
+        {
+          "type": "item",
+          "value": "explorers_map",
+          "quantity": 1
+        },
+        {
+          "type": "currency",
+          "value": "achievement_points",
+          "quantity": 75
+        }
+      ],
+      "parent_achievement": 100,
+      "hidden": false,
+      "repeatable": false
+    },
+    {
+      "id": 102,
+      "name": "Pathfinder",
+      "description": "Explore 50 different zones",
+      "category": "exploration",
+      "trigger": "explore_zone",
+      "required_progress": 50,
+      "points": 300,
+      "rewards": [
+        {
+          "type": "title",
+          "value": "pathfinder",
+          "quantity": 1
+        },
+        {
+          "type": "unlock",
+          "value": "fast_travel",
+          "quantity": 1
+        },
+        {
+          "type": "currency",
+          "value": "achievement_points",
+          "quantity": 300
+        }
+      ],
+      "parent_achievement": 101,
+      "hidden": false,
+      "repeatable": false
+    },
+    {
+      "id": 103,
+      "name": "World Wanderer",
+      "description": "Explore all zones in the game",
+      "category": "rare",
+      "trigger": "explore_zone",
+      "required_progress": 200,
+      "points": 2000,
+      "rewards": [
+        {
+          "type": "title",
+          "value": "world_wanderer",
+          "quantity": 1
+        },
+        {
+          "type": "item",
+          "value": "world_atlas",
+          "quantity": 1
+        },
+        {
+          "type": "currency",
+          "value": "achievement_points",
+          "quantity": 2000
+        }
+      ],
+      "parent_achievement": 102,
+      "hidden": true,
+      "repeatable": false
+    }
+  ]
+}

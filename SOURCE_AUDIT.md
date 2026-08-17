@@ -27,6 +27,8 @@ Le lot `avatars` ajoute trois presets. `preset_defaut.json` était identique cô
 
 Le lot `biomes` ajoute huit modèles identiques côté serveur et build client VR. Les noms de textures, sons, créatures, NPC, donjons et événements sont conservés comme identifiants logiques. Les fichiers correspondants, leurs droits et leur disponibilité runtime ne sont ni inclus ni certifiés.
 
+Le lot `achievements` ajoute trois collections identiques côté serveur et build client VR. Les déclencheurs, récompenses, points et identifiants d'objets sont conservés sans modification, mais leur disponibilité runtime et leur équilibrage ne sont pas certifiés.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

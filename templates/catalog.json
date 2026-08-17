@@ -338,6 +338,42 @@
                         "compatibility":  [
 
                                           ]
+                    },
+                    {
+                        "name":  "combat",
+                        "kind":  "achievement-collection",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/achievements/combat/v0.1.0/template.json",
+                        "source_file":  "combat_achievements.json",
+                        "sha256":  "c7d7f42cab320081cb8442562de77a6dcd58c38113fe2a7d4a2f428ec30c505e",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "exploration",
+                        "kind":  "achievement-collection",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/achievements/exploration/v0.1.0/template.json",
+                        "source_file":  "exploration_achievements.json",
+                        "sha256":  "0f15738445ae3c5825f49f4bb3ac57e372f8393fddbf1dc71d2082f63be4f89b",
+                        "compatibility":  [
+
+                                          ]
+                    },
+                    {
+                        "name":  "profession",
+                        "kind":  "achievement-collection",
+                        "version":  "0.1.0",
+                        "status":  "experimental",
+                        "file":  "templates/achievements/profession/v0.1.0/template.json",
+                        "source_file":  "profession_achievements.json",
+                        "sha256":  "23adbf2748f773c4d49d06cb7b70544c7dca33a81795fcaaffa1fe28aa306618",
+                        "compatibility":  [
+
+                                          ]
                     }
                 ]
 }

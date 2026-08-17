@@ -1,0 +1,104 @@
+{
+  "achievements": [
+    {
+      "id": 1,
+      "name": "First Blood",
+      "description": "Kill your first enemy",
+      "category": "combat",
+      "trigger": "kill_enemy",
+      "required_progress": 1,
+      "points": 10,
+      "rewards": [
+        {
+          "type": "currency",
+          "value": "achievement_points",
+          "quantity": 10
+        }
+      ],
+      "hidden": false,
+      "repeatable": false
+    },
+    {
+      "id": 2,
+      "name": "Slayer",
+      "description": "Kill 100 enemies",
+      "category": "combat",
+      "trigger": "kill_enemy",
+      "required_progress": 100,
+      "points": 50,
+      "rewards": [
+        {
+          "type": "title",
+          "value": "slayer",
+          "quantity": 1
+        },
+        {
+          "type": "currency",
+          "value": "achievement_points",
+          "quantity": 50
+        }
+      ],
+      "parent_achievement": 1,
+      "hidden": false,
+      "repeatable": false
+    },
+    {
+      "id": 3,
+      "name": "Champion",
+      "description": "Kill 1000 enemies",
+      "category": "combat",
+      "trigger": "kill_enemy",
+      "required_progress": 1000,
+      "points": 200,
+      "rewards": [
+        {
+          "type": "title",
+          "value": "champion",
+          "quantity": 1
+        },
+        {
+          "type": "item",
+          "value": "champions_sword",
+          "quantity": 1
+        },
+        {
+          "type": "currency",
+          "value": "achievement_points",
+          "quantity": 200
+        }
+      ],
+      "parent_achievement": 2,
+      "hidden": false,
+      "repeatable": false
+    },
+    {
+      "id": 4,
+      "name": "Legendary Warrior",
+      "description": "Kill 10000 enemies",
+      "category": "legendary",
+      "trigger": "kill_enemy",
+      "required_progress": 10000,
+      "points": 1000,
+      "rewards": [
+        {
+          "type": "title",
+          "value": "legendary_warrior",
+          "quantity": 1
+        },
+        {
+          "type": "unlock",
+          "value": "legendary_combat_abilities",
+          "quantity": 1
+        },
+        {
+          "type": "currency",
+          "value": "achievement_points",
+          "quantity": 1000
+        }
+      ],
+      "parent_achievement": 3,
+      "hidden": true,
+      "repeatable": false
+    }
+  ]
+}
