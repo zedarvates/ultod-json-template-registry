@@ -1,0 +1,600 @@
+{
+  "divine_alignment_system": {
+    "moral_axes": {
+      "good_vs_evil": {
+        "description": "Fundamental moral orientation of divine beings",
+        "good_deities": {
+          "description": "Divine beings who prioritize benevolence, protection, and moral virtue",
+          "characteristics": [
+            "selfless_service",
+            "protector_of_innocent",
+            "moral_guidance",
+            "healing_compassion"
+          ],
+          "alignment_traits": [
+            "compassionate",
+            "helpful",
+            "sacrificing",
+            "righteous"
+          ],
+          "worship_style": "devotional_service",
+          "typical_actions": "healing, protection, blessing, guidance, justice for the weak"
+        },
+        "neutral_deities": {
+          "description": "Divine beings who maintain balance and impartiality",
+          "characteristics": [
+            "balance_keeper",
+            "natural_order",
+            "impartial_judgment",
+            "cosmic_harmony"
+          ],
+          "alignment_traits": [
+            "balanced",
+            "objective",
+            "harmonious",
+            "stable"
+          ],
+          "worship_style": "ritual_balance",
+          "typical_actions": "maintaining balance, seasonal cycles, natural processes, neutral judgment"
+        },
+        "evil_deities": {
+          "description": "Divine beings who embrace malevolence and destructive forces",
+          "characteristics": [
+            "malevolent_power",
+            "destruction_emebrace",
+            "chaos_promotion",
+            "domination_seeking"
+          ],
+          "alignment_traits": [
+            "malicious",
+            "destructive",
+            "ambitious",
+            "tyrannical"
+          ],
+          "worship_style": "fear_tribute",
+          "typical_actions": "destruction, corruption, domination, chaos spreading, malevolent curses"
+        }
+      },
+      "order_vs_chaos": {
+        "description": "Orientation toward structure, law, versus change and freedom",
+        "lawful_deities": {
+          "description": "Divine beings who uphold laws, structure, and order",
+          "characteristics": [
+            "law_upholding",
+            "structure_maintaining",
+            "tradition_honoring",
+            "duty_bound"
+          ],
+          "alignment_traits": [
+            "disciplined",
+            "reliable",
+            "systematic",
+            "duty_fulfilling"
+          ],
+          "worship_style": "structured_ceremony",
+          "typical_actions": "law enforcement, structure building, tradition preservation, duty fulfillment"
+        },
+        "neutral_chaos_deities": {
+          "description": "Divine beings who embody natural chaos and change without moral judgment",
+          "characteristics": [
+            "natural_change",
+            "freedom_embrace",
+            "creativity_promotion",
+            "adaptation_teaching"
+          ],
+          "alignment_traits": [
+            "flexible",
+            "creative",
+            "adaptable",
+            "free_spirited"
+          ],
+          "worship_style": "spontaneous_ritual",
+          "typical_actions": "change encouragement, creativity promotion, freedom protection, adaptation teaching"
+        },
+        "chaotic_deities": {
+          "description": "Divine beings who actively promote destruction of order and embrace pure chaos",
+          "characteristics": [
+            "order_destruction",
+            "anarchy_promotion",
+            "unpredictability",
+            "rebellion_inspiring"
+          ],
+          "alignment_traits": [
+            "unpredictable",
+            "rebellious",
+            "destructive",
+            "liberating"
+          ],
+          "worship_style": "chaotic_ceremony",
+          "typical_actions": "order destruction, rebellion inspiring, anarchy promotion, reality warping"
+        }
+      }
+    },
+    "divine_alignment_categories": {
+      "lawful_good": {
+        "description": "Righteous deities who uphold divine law and protect the innocent",
+        "examples": [
+          "divine_justice_gods",
+          "holy_protector_gods",
+          "sacred_law_gods"
+        ],
+        "domains": [
+          "justice",
+          "protection",
+          "law",
+          "holy_war",
+          "redemption"
+        ],
+        "personality_traits": [
+          "righteous",
+          "protective",
+          "just",
+          "authoritative",
+          "compassionate"
+        ],
+        "worship_requirements": "strict_adherence_to_divine_law",
+        "divine_favors": [
+          "justice_restoration",
+          "holy_protection",
+          "law_enforcement"
+        ],
+        "temple_atmosphere": [
+          "majestic_sacred",
+          "orderly_procedures",
+          "hymns_and_liturgy"
+        ]
+      },
+      "neutral_good": {
+        "description": "Compassionate deities who help others without rigid adherence to law",
+        "examples": [
+          "healing_goddess",
+          "compassionate_deity",
+          "merciful_god"
+        ],
+        "domains": [
+          "healing",
+          "compassion",
+          "mercy",
+          "charity",
+          "guidance"
+        ],
+        "personality_traits": [
+          "compassionate",
+          "helpful",
+          "merciful",
+          "flexible",
+          "caring"
+        ],
+        "worship_requirements": "genuine_care_for_others",
+        "divine_favors": [
+          "healing_grace",
+          "compassion_blessing",
+          "guidance_vision"
+        ],
+        "temple_atmosphere": [
+          "welcoming_sanctuary",
+          "community_gathering",
+          "supportive_environment"
+        ]
+      },
+      "chaotic_good": {
+        "description": "Free-spirited deities who fight for freedom and individual rights",
+        "examples": [
+          "freedom_gods",
+          "rebellion_deities",
+          "individual_liberty_gods"
+        ],
+        "domains": [
+          "freedom",
+          "rebellion",
+          "individual_rights",
+          "spontaneity",
+          "liberation"
+        ],
+        "personality_traits": [
+          "free_spirited",
+          "rebellious",
+          "idealistic",
+          "unpredictable",
+          "heroic"
+        ],
+        "worship_requirements": "genuine_commitment_to_freedom",
+        "divine_favors": [
+          "freedom_blessing",
+          "rebellion_courage",
+          "liberation_miracle"
+        ],
+        "temple_atmosphere": [
+          "casual_spontaneous",
+          "individual_expression",
+          "freedom_celebration"
+        ]
+      },
+      "lawful_neutral": {
+        "description": "Deities who believe in law and order without moral judgment",
+        "examples": [
+          "cosmic_order_gods",
+          "natural_law_deities",
+          "balance_keeper_gods"
+        ],
+        "domains": [
+          "cosmic_order",
+          "natural_law",
+          "balance",
+          "cycles",
+          "stability"
+        ],
+        "personality_traits": [
+          "impartial",
+          "systematic",
+          "stable",
+          "traditional",
+          "predictable"
+        ],
+        "worship_requirements": "respect_for_traditional_structure",
+        "divine_favors": [
+          "order_restoration",
+          "balance_alignment",
+          "stability_grant"
+        ],
+        "temple_atmosphere": [
+          "formal_structured",
+          "traditional_ceremonies",
+          "predictable_rituals"
+        ]
+      },
+      "true_neutral": {
+        "description": "Deities who maintain complete balance between all forces",
+        "examples": [
+          "balance_gods",
+          "nature_gods",
+          "cosmic_neutrality_deities"
+        ],
+        "domains": [
+          "natural_balance",
+          "cosmic_neutrality",
+          "cycles",
+          "harmony",
+          "stability"
+        ],
+        "personality_traits": [
+          "balanced",
+          "impartial",
+          "harmonious",
+          "stable",
+          "adaptable"
+        ],
+        "worship_requirements": "maintenance_of_natural_balance",
+        "divine_favors": [
+          "balance_alignment",
+          "harmony_restoration",
+          "natural_cycle_guidance"
+        ],
+        "temple_atmosphere": [
+          "natural_environment",
+          "seasonal_cycles",
+          "balanced_approach"
+        ]
+      },
+      "chaotic_neutral": {
+        "description": "Deities who embody pure change and freedom without moral constraints",
+        "examples": [
+          "change_gods",
+          "transformation_deities",
+          "freedom_chaos_gods"
+        ],
+        "domains": [
+          "change",
+          "transformation",
+          "freedom",
+          "adaptation",
+          "creativity"
+        ],
+        "personality_traits": [
+          "unpredictable",
+          "adaptive",
+          "creative",
+          "free_spirited",
+          "change_embracing"
+        ],
+        "worship_requirements": "acceptance_of_constant_change",
+        "divine_favors": [
+          "transformation_blessing",
+          "change_adaptation",
+          "creativity_spark"
+        ],
+        "temple_atmosphere": [
+          "constantly_changing",
+          "creative_expression",
+          "spontaneous_ritual"
+        ]
+      },
+      "lawful_evil": {
+        "description": "Tyrannical deities who use law and structure for malevolent purposes",
+        "examples": [
+          "tyrant_gods",
+          "domination_deities",
+          "oppressive_law_gods"
+        ],
+        "domains": [
+          "domination",
+          "tyranny",
+          "oppression",
+          "control",
+          "cruel_law"
+        ],
+        "personality_traits": [
+          "authoritarian",
+          "cruel",
+          "controlling",
+          "manipulative",
+          "ambitious"
+        ],
+        "worship_requirements": "absolute_obedience_to_divine_will",
+        "divine_favors": [
+          "domination_power",
+          "tyrannical_authority",
+          "control_granting"
+        ],
+        "temple_atmosphere": [
+          "intimidating_hierarchy",
+          "strict_obedience",
+          "fear_tribute"
+        ]
+      },
+      "neutral_evil": {
+        "description": "Selfish deities who pursue personal power without regard for others",
+        "examples": [
+          "greed_gods",
+          "ambition_deities",
+          "selfish_power_gods"
+        ],
+        "domains": [
+          "greed",
+          "ambition",
+          "selfishness",
+          "power",
+          "cruelty"
+        ],
+        "personality_traits": [
+          "selfish",
+          "cruel",
+          "ambitious",
+          "manipulative",
+          "opportunistic"
+        ],
+        "worship_requirements": "demonstration_of_selfish_power_seeking",
+        "divine_favors": [
+          "power_acquisition",
+          "cruel_victory",
+          "selfish_success"
+        ],
+        "temple_atmosphere": [
+          "competitive_environment",
+          "power_demonstration",
+          "self_serving_ritual"
+        ]
+      },
+      "chaotic_evil": {
+        "description": "Malevolent deities who embrace destruction and anarchy",
+        "examples": [
+          "destruction_gods",
+          "anarchy_deities",
+          "pure_chaos_malevolence_gods"
+        ],
+        "domains": [
+          "destruction",
+          "anarchy",
+          "chaos",
+          "malevolence",
+          "random_cruelty"
+        ],
+        "personality_traits": [
+          "destructive",
+          "unpredictable",
+          "cruel",
+          "anarchic",
+          "malicious"
+        ],
+        "worship_requirements": "demonstration_of_destructive_chaos",
+        "divine_favors": [
+          "destruction_power",
+          "chaotic_malevolence",
+          "anarchy_spreading"
+        ],
+        "temple_atmosphere": [
+          "chaotic_destructive",
+          "random_ritual",
+          "malevolent_expression"
+        ]
+      }
+    },
+    "alignment_interactions": {
+      "complementary_alignments": {
+        "description": "Divine alignments that naturally work well together",
+        "pairs": [
+          [
+            "lawful_good",
+            "neutral_good"
+          ],
+          [
+            "neutral_good",
+            "chaotic_good"
+          ],
+          [
+            "lawful_neutral",
+            "true_neutral"
+          ],
+          [
+            "neutral_chaos",
+            "true_neutral"
+          ],
+          [
+            "lawful_evil",
+            "neutral_evil"
+          ],
+          [
+            "neutral_evil",
+            "chaotic_evil"
+          ]
+        ]
+      },
+      "conflicting_alignments": {
+        "description": "Divine alignments that are natural enemies",
+        "opposition_pairs": [
+          [
+            "lawful_good",
+            "chaotic_evil"
+          ],
+          [
+            "chaotic_good",
+            "lawful_evil"
+          ],
+          [
+            "lawful_neutral",
+            "chaotic_evil"
+          ],
+          [
+            "chaotic_neutral",
+            "lawful_good"
+          ],
+          [
+            "true_neutral",
+            "lawful_evil"
+          ],
+          [
+            "true_neutral",
+            "chaotic_evil"
+          ]
+        ]
+      },
+      "alignment_tensions": {
+        "description": "Subtle tensions between similar but different alignments",
+        "tension_examples": [
+          [
+            "lawful_good",
+            "neutral_good",
+            "rigidity_vs_flexibility"
+          ],
+          [
+            "chaotic_good",
+            "neutral_good",
+            "individual_vs_communal"
+          ],
+          [
+            "lawful_neutral",
+            "true_neutral",
+            "order_vs_balance"
+          ],
+          [
+            "chaotic_neutral",
+            "true_neutral",
+            "change_vs_harmony"
+          ],
+          [
+            "lawful_evil",
+            "neutral_evil",
+            "system_vs_opportunism"
+          ],
+          [
+            "chaotic_evil",
+            "neutral_evil",
+            "destruction_vs_selfishness"
+          ]
+        ]
+      }
+    },
+    "alignment_mechanics": {
+      "worship_efficiency": {
+        "description": "How alignment affects divine favor gain",
+        "aligned_worship": {
+          "multiplier": "2x",
+          "bonus_effects": [
+            "enhanced_favor_gain",
+            "stronger_divine_connection",
+            "alignment_bonus_spells"
+          ]
+        },
+        "neutral_worship": {
+          "multiplier": "1x",
+          "bonus_effects": [
+            "standard_favor_gain",
+            "basic_divine_connection"
+          ]
+        },
+        "conflicted_worship": {
+          "multiplier": "0.5x",
+          "penalty_effects": [
+            "reduced_favor_gain",
+            "weakened_connection",
+            "alignment_tension"
+          ]
+        },
+        "opposed_worship": {
+          "multiplier": "0.1x",
+          "penalty_effects": [
+            "minimal_favor_gain",
+            "divine_displeasure",
+            "potential_curse"
+          ]
+        }
+      },
+      "alignment_consequences": {
+        "description": "Long-term effects of alignment-based choices",
+        "divine_progression": {
+          "description": "Alignment affects divine advancement opportunities",
+          "aligned_choices": "unlock_advanced_blessings",
+          "conflicted_choices": "create_divine_tensions",
+          "opposed_choices": "close_divine_paths"
+        },
+        "divine_relationships": {
+          "description": "Alignment influences relationships with other deities",
+          "ally_creation": "compatible_alignments become natural allies",
+          "enemy_creation": "opposed_alignments become natural enemies",
+          "complex_relations": "tension alignments create complex diplomatic relationships"
+        }
+      }
+    },
+    "alignment_change_mechanics": {
+      "gradual_shift": {
+        "description": "Slow alignment changes through consistent choices",
+        "triggers": [
+          "repeated_actions",
+          "divine_guidance",
+          "major_life_events"
+        ],
+        "rate": "gradual_over_time",
+        "detection": "gradual_personality_changes"
+      },
+      "epic_transformation": {
+        "description": "Dramatic alignment changes through major events",
+        "triggers": [
+          "divine_intervention",
+          "cosmic_events",
+          "soul_transformation"
+        ],
+        "rate": "instant_or_rapid",
+        "detection": "sudden_personality_shift"
+      },
+      "alignment_crisis": {
+        "description": "Internal conflict between multiple alignments",
+        "causes": [
+          "conflicting_divine_calls",
+          "moral_paradoxes",
+          "multiple_deity_worship"
+        ],
+        "effects": [
+          "personality_instability",
+          "reduced_divine_power",
+          "divine_confusion"
+        ],
+        "resolution": [
+          "major_choice_point",
+          "divine_guidance",
+          "alignment_clarification"
+        ]
+      }
+    }
+  },
+  "id": "divine_alignment_system"
+}

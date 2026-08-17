@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-11-14",
+    "description": "RTS Abilities System - Special powers, spells, and strategic enhancements for RTS gameplay",
+    "author": "UOVR Development Team",
+    "category": "RTS Systems",
+    "dependencies": [
+      "units",
+      "technologies",
+      "commands"
+    ]
+  },
+  "ability_categories": {
+    "combat": {
+      "color_code": "#F44336",
+      "mana_cost_range": {
+        "min": 10,
+        "max": 100
+      }
+    },
+    "strategic": {
+      "color_code": "#2196F3",
+      "mana_cost_range": {
+        "min": 25,
+        "max": 200
+      }
+    },
+    "summoning": {
+      "color_code": "#9C27B0",
+      "mana_cost_range": {
+        "min": 50,
+        "max": 300
+      }
+    },
+    "utility": {
+      "color_code": "#4CAF50",
+      "mana_cost_range": {
+        "min": 5,
+        "max": 75
+      }
+    }
+  },
+  "abilities": {
+    "volley_fire": {
+      "id": "ability_volley_fire",
+      "name": "Volley Fire",
+      "category": "combat",
+      "description": "Coordinated arrow barrage damaging multiple targets",
+      "cooldown_seconds": 45,
+      "mana_cost": 25,
+      "range": 10,
+      "effects": {
+        "damage": {
+          "base": 20,
+          "damage_type": "piercing"
+        },
+        "area_radius": 4.0,
+        "accuracy_bonus": 0.3
+      },
+      "requirements": {
+        "unit_type": "archer",
+        "technology": "basic_ranged_weapons"
+      }
+    },
+    "battle_cry": {
+      "id": "ability_battle_cry",
+      "name": "Battle Cry",
+      "category": "strategic",
+      "description": "Inspire nearby allies, boosting their morale and combat effectiveness",
+      "cooldown_seconds": 60,
+      "mana_cost": 40,
+      "range": 8.0,
+      "effects": {
+        "morale_boost": 20,
+        "attack_damage_bonus": 5,
+        "duration_seconds": 15
+      },
+      "requirements": {
+        "unit_type": "hero_warrior_champion",
+        "leadership_level": 3
+      }
+    },
+    "mass_teleport": {
+      "id": "ability_mass_teleport",
+      "name": "Mass Teleport",
+      "category": "strategic",
+      "description": "Instantly teleport multiple controlled units to a safe location",
+      "cooldown_seconds": 120,
+      "mana_cost": 150,
+      "range": 100,
+      "effects": {
+        "teleport_units": {
+          "max_units": 10
+        },
+        "safety_check": true,
+        "cooldown_reduction": 30
+      },
+      "requirements": {
+        "building": "portal_gate",
+        "technology": "magical_transportation"
+      }
+    },
+    "elemental_flame_burst": {
+      "id": "ability_elemental_flame_burst",
+      "name": "Flame Burst",
+      "category": "combat",
+      "description": "Powerful fire attack that damages and can ignite targets",
+      "cooldown_seconds": 20,
+      "mana_cost": 30,
+      "range": 8.0,
+      "effects": {
+        "damage": {
+          "base": 45,
+          "damage_type": "fire"
+        },
+        "dot_damage": {
+          "damage_per_second": 8,
+          "duration": 5
+        },
+        "area_ignite": {
+          "radius": 2.0
+        }
+      },
+      "requirements": {
+        "unit_type": "elemental_fire_sprite"
+      }
+    },
+    "guild_rally": {
+      "id": "ability_guild_rally",
+      "name": "Guild Rally",
+      "category": "strategic",
+      "description": "Call all guild members to your position with teleportation aid",
+      "cooldown_seconds": 300,
+      "mana_cost": 300,
+      "range": 500,
+      "effects": {
+        "teleport_guild_members": true,
+        "emergency_cooldown_reset": {
+          "abilities": [
+            "mass_teleport"
+          ]
+        },
+        "guild_morale_boost": 50
+      },
+      "requirements": {
+        "building": "guild_hall",
+        "guild_members_online": 3
+      }
+    }
+  },
+  "id": "rts_abilities"
+}

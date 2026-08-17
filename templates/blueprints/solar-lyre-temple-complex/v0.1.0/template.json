@@ -1,0 +1,6878 @@
+{
+  "blueprint_id": "solar_lyre_temple_complex",
+  "name": "Temple solaire de l'Arc-Lyre — complexe apollinien original",
+  "lot": {
+    "width": 30,
+    "depth": 34,
+    "cell_size": 1.0,
+    "floor_height": 2.5
+  },
+  "floors": [
+    {
+      "level": 0,
+      "tiles": [
+        {
+          "x": 1,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 12,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 13,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 14,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 15,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 16,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 17,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 12,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 13,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 14,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 15,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 16,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 17,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 12,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 13,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 14,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 15,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 16,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 17,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 9,
+          "z": 30,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 12,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 13,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 14,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 15,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 16,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 17,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 10,
+          "z": 30,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 12,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 13,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 14,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 15,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 16,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 17,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 11,
+          "z": 30,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 12,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 13,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 14,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 15,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 16,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 17,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 30,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 31,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 32,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 12,
+          "z": 33,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 12,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 13,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 14,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 15,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 16,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 17,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 30,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 31,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 32,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 13,
+          "z": 33,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 12,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 13,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 14,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 15,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 16,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 17,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 30,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 31,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 32,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 14,
+          "z": 33,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 12,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 13,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 14,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 15,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 16,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 17,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 30,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 31,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 32,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 15,
+          "z": 33,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 12,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 13,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 14,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 15,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 16,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 17,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 30,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 31,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 32,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 16,
+          "z": 33,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 12,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 13,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 14,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 15,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 16,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 17,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 30,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 31,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 32,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 17,
+          "z": 33,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 12,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 13,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 14,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 15,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 16,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 17,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 18,
+          "z": 30,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 12,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 13,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 14,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 15,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 16,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 17,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 19,
+          "z": 30,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 12,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 13,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 14,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 15,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 16,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 17,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 20,
+          "z": 30,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 12,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 13,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 14,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 15,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 16,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 17,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 21,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 12,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 13,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 14,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 15,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 16,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 17,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 22,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        }
+      ],
+      "walls": [
+        {
+          "x": 11,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 17,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 12,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 12,
+          "z": 17,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 13,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 13,
+          "z": 17,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 14,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 15,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 16,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 16,
+          "z": 17,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 17,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 17,
+          "z": 17,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 18,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 18,
+          "z": 17,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 19,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 9,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 19,
+          "z": 9,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 10,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 19,
+          "z": 10,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 11,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 19,
+          "z": 11,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 12,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 19,
+          "z": 12,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 13,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 19,
+          "z": 13,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 14,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 19,
+          "z": 14,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 15,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 19,
+          "z": 15,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 16,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 19,
+          "z": 16,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 1,
+          "z": 18,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 29,
+          "z": 18,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 1,
+          "z": 19,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 29,
+          "z": 19,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 1,
+          "z": 20,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 29,
+          "z": 20,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 1,
+          "z": 21,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 29,
+          "z": 21,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 1,
+          "z": 22,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 29,
+          "z": 22,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 1,
+          "z": 23,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 29,
+          "z": 23,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 1,
+          "z": 24,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 29,
+          "z": 24,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 1,
+          "z": 25,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 29,
+          "z": 25,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 1,
+          "z": 26,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 29,
+          "z": 26,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 1,
+          "z": 27,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 29,
+          "z": 27,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 1,
+          "z": 28,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 29,
+          "z": 28,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 1,
+          "z": 29,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 29,
+          "z": 29,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 1,
+          "z": 18,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 1,
+          "z": 30,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 2,
+          "z": 18,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 2,
+          "z": 30,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 18,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 30,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 18,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 30,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 5,
+          "z": 18,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 5,
+          "z": 30,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 18,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 30,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 23,
+          "z": 18,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 23,
+          "z": 30,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 24,
+          "z": 18,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 24,
+          "z": 30,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 25,
+          "z": 18,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 25,
+          "z": 30,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 26,
+          "z": 18,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 26,
+          "z": 30,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 27,
+          "z": 18,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 27,
+          "z": 30,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 28,
+          "z": 18,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 28,
+          "z": 30,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 2,
+          "z": 5,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 2,
+          "z": 12,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 5,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 12,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 5,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 5,
+          "z": 5,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 5,
+          "z": 12,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 5,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 12,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 2,
+          "z": 5,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 5,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 2,
+          "z": 6,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 6,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 2,
+          "z": 7,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 7,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 2,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 2,
+          "z": 9,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 9,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 2,
+          "z": 10,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 10,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 2,
+          "z": 11,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 11,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 23,
+          "z": 5,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 23,
+          "z": 12,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 24,
+          "z": 5,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 24,
+          "z": 12,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 25,
+          "z": 5,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 26,
+          "z": 5,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 26,
+          "z": 12,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 27,
+          "z": 5,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 27,
+          "z": 12,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 23,
+          "z": 5,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 28,
+          "z": 5,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 23,
+          "z": 6,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 28,
+          "z": 6,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 23,
+          "z": 7,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 28,
+          "z": 7,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 23,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 28,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 23,
+          "z": 9,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 28,
+          "z": 9,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 23,
+          "z": 10,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 28,
+          "z": 10,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 23,
+          "z": 11,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 28,
+          "z": 11,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "tiles": [
+        {
+          "x": 1,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 23,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 24,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 25,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 26,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 9,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 10,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 11,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 27,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 18,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 19,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 20,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 21,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 22,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 23,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 24,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 25,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 26,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 27,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 28,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 28,
+          "z": 29,
+          "part_id": "dalle_marbre"
+        }
+      ],
+      "walls": [
+        {
+          "x": 11,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 17,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 12,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 12,
+          "z": 17,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 13,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 13,
+          "z": 17,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 14,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 15,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 16,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 16,
+          "z": 17,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 17,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 17,
+          "z": 17,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 18,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 18,
+          "z": 17,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 19,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 9,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 19,
+          "z": 9,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 10,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 19,
+          "z": 10,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 11,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 19,
+          "z": 11,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 12,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 19,
+          "z": 12,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 13,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 19,
+          "z": 13,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 14,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 19,
+          "z": 14,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 15,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 19,
+          "z": 15,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 11,
+          "z": 16,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 19,
+          "z": 16,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        }
+      ]
+    }
+  ],
+  "roof": [
+    {
+      "x": 11,
+      "z": 8,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 11,
+      "z": 9,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 11,
+      "z": 10,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 11,
+      "z": 11,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 11,
+      "z": 12,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 11,
+      "z": 13,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 11,
+      "z": 14,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 11,
+      "z": 15,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 11,
+      "z": 16,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 12,
+      "z": 8,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 12,
+      "z": 9,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 12,
+      "z": 10,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 12,
+      "z": 11,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 12,
+      "z": 12,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 12,
+      "z": 13,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 12,
+      "z": 14,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 12,
+      "z": 15,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 12,
+      "z": 16,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 13,
+      "z": 8,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 13,
+      "z": 9,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 13,
+      "z": 10,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 13,
+      "z": 11,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 13,
+      "z": 12,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 13,
+      "z": 13,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 13,
+      "z": 14,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 13,
+      "z": 15,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 13,
+      "z": 16,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 14,
+      "z": 8,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 14,
+      "z": 9,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 14,
+      "z": 10,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 14,
+      "z": 11,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 14,
+      "z": 12,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 14,
+      "z": 13,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 14,
+      "z": 14,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 14,
+      "z": 15,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 14,
+      "z": 16,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 15,
+      "z": 8,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 15,
+      "z": 9,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 15,
+      "z": 10,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 15,
+      "z": 11,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 15,
+      "z": 12,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 15,
+      "z": 13,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 15,
+      "z": 14,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 15,
+      "z": 15,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 15,
+      "z": 16,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 16,
+      "z": 8,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 16,
+      "z": 9,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 16,
+      "z": 10,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 16,
+      "z": 11,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 16,
+      "z": 12,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 16,
+      "z": 13,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 16,
+      "z": 14,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 16,
+      "z": 15,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 16,
+      "z": 16,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 17,
+      "z": 8,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 17,
+      "z": 9,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 17,
+      "z": 10,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 17,
+      "z": 11,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 17,
+      "z": 12,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 17,
+      "z": 13,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 17,
+      "z": 14,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 17,
+      "z": 15,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 17,
+      "z": 16,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 18,
+      "z": 8,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 18,
+      "z": 9,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 18,
+      "z": 10,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 18,
+      "z": 11,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 18,
+      "z": 12,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 18,
+      "z": 13,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 18,
+      "z": 14,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 18,
+      "z": 15,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    },
+    {
+      "x": 18,
+      "z": 16,
+      "part_id": "toit_ardoise_claire",
+      "rotation": 0.0
+    }
+  ],
+  "garden": [
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        8.5,
+        0.0,
+        6.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        8.5,
+        0.0,
+        18.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        11.0,
+        0.0,
+        6.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        11.0,
+        0.0,
+        18.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        13.5,
+        0.0,
+        6.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        13.5,
+        0.0,
+        18.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        16.0,
+        0.0,
+        6.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        16.0,
+        0.0,
+        18.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        18.5,
+        0.0,
+        6.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        18.5,
+        0.0,
+        18.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        21.0,
+        0.0,
+        6.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        21.0,
+        0.0,
+        18.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        8.5,
+        0.0,
+        8.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        21.0,
+        0.0,
+        8.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        8.5,
+        0.0,
+        10.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        21.0,
+        0.0,
+        10.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        8.5,
+        0.0,
+        12.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        21.0,
+        0.0,
+        12.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        8.5,
+        0.0,
+        14.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        21.0,
+        0.0,
+        14.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        8.5,
+        0.0,
+        16.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        21.0,
+        0.0,
+        16.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        9.75,
+        4.75,
+        6.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        9.75,
+        4.75,
+        18.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        12.25,
+        4.75,
+        6.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        12.25,
+        4.75,
+        18.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        14.75,
+        4.75,
+        6.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        14.75,
+        4.75,
+        18.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        17.25,
+        4.75,
+        6.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        17.25,
+        4.75,
+        18.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        19.75,
+        4.75,
+        6.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        19.75,
+        4.75,
+        18.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        8.5,
+        4.75,
+        7.75
+      ],
+      "rotation_y": 90.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        21.0,
+        4.75,
+        7.75
+      ],
+      "rotation_y": 90.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        8.5,
+        4.75,
+        10.25
+      ],
+      "rotation_y": 90.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        21.0,
+        4.75,
+        10.25
+      ],
+      "rotation_y": 90.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        8.5,
+        4.75,
+        12.75
+      ],
+      "rotation_y": 90.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        21.0,
+        4.75,
+        12.75
+      ],
+      "rotation_y": 90.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        8.5,
+        4.75,
+        15.25
+      ],
+      "rotation_y": 90.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        21.0,
+        4.75,
+        15.25
+      ],
+      "rotation_y": 90.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        8.5,
+        4.75,
+        17.25
+      ],
+      "rotation_y": 90.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        21.0,
+        4.75,
+        17.25
+      ],
+      "rotation_y": 90.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "fronton_marbre",
+      "position": [
+        14.75,
+        5.15,
+        18.9
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "fronton_marbre",
+      "position": [
+        14.75,
+        5.15,
+        6.1
+      ],
+      "rotation_y": 180.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "escalier_marbre",
+      "position": [
+        14.75,
+        0.0,
+        21.7
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "socle_marbre",
+      "position": [
+        14.75,
+        0.0,
+        25.0
+      ],
+      "rotation_y": 0.0,
+      "scale": 2.8
+    },
+    {
+      "part_id": "statue_gardienne",
+      "position": [
+        14.75,
+        0.0,
+        23.0
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.15
+    },
+    {
+      "part_id": "bassin_reflechissant",
+      "position": [
+        14.75,
+        0.0,
+        28.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.8
+    },
+    {
+      "part_id": "brasero_bronze",
+      "position": [
+        12.6,
+        0.0,
+        25.0
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.3
+    },
+    {
+      "part_id": "brasero_bronze",
+      "position": [
+        16.9,
+        0.0,
+        25.0
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.3
+    },
+    {
+      "part_id": "statue_muse_1",
+      "position": [
+        10.0,
+        0.0,
+        20.7
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "statue_muse_2",
+      "position": [
+        19.5,
+        0.0,
+        20.7
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "statue_muse_3",
+      "position": [
+        14.75,
+        0.0,
+        27.0
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        9.5,
+        0.0,
+        31.0
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        12.25,
+        0.0,
+        31.0
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        17.25,
+        0.0,
+        31.0
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        20.0,
+        0.0,
+        31.0
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        10.75,
+        4.75,
+        31.0
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.2
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        14.75,
+        4.75,
+        31.0
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.2
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        18.75,
+        4.75,
+        31.0
+      ],
+      "rotation_y": 0.0,
+      "scale": 1.2
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        6.4,
+        0.0,
+        19.0
+      ],
+      "rotation_y": 0.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        6.4,
+        0.0,
+        21.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        6.4,
+        0.0,
+        24.0
+      ],
+      "rotation_y": 0.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        6.4,
+        0.0,
+        26.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        6.4,
+        0.0,
+        29.0
+      ],
+      "rotation_y": 0.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        6.4,
+        2.95,
+        20.25
+      ],
+      "rotation_y": 90.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        6.4,
+        2.95,
+        22.75
+      ],
+      "rotation_y": 90.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        6.4,
+        2.95,
+        25.25
+      ],
+      "rotation_y": 90.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        6.4,
+        2.95,
+        27.75
+      ],
+      "rotation_y": 90.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        22.6,
+        0.0,
+        19.0
+      ],
+      "rotation_y": 0.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        22.6,
+        0.0,
+        21.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        22.6,
+        0.0,
+        24.0
+      ],
+      "rotation_y": 0.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        22.6,
+        0.0,
+        26.5
+      ],
+      "rotation_y": 0.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        22.6,
+        0.0,
+        29.0
+      ],
+      "rotation_y": 0.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        22.6,
+        2.95,
+        20.25
+      ],
+      "rotation_y": 90.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        22.6,
+        2.95,
+        22.75
+      ],
+      "rotation_y": 90.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        22.6,
+        2.95,
+        25.25
+      ],
+      "rotation_y": 90.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "architrave_marbre",
+      "position": [
+        22.6,
+        2.95,
+        27.75
+      ],
+      "rotation_y": 90.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        3.0,
+        0.0,
+        11.6
+      ],
+      "rotation_y": 0.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        5.5,
+        0.0,
+        11.6
+      ],
+      "rotation_y": 0.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        24.0,
+        0.0,
+        11.6
+      ],
+      "rotation_y": 0.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "colonne_ionique",
+      "position": [
+        26.5,
+        0.0,
+        11.6
+      ],
+      "rotation_y": 0.0,
+      "scale": 0.62
+    },
+    {
+      "part_id": "fronton_marbre",
+      "position": [
+        4.25,
+        3.05,
+        11.8
+      ],
+      "rotation_y": 0.0,
+      "scale": 0.55
+    },
+    {
+      "part_id": "fronton_marbre",
+      "position": [
+        25.25,
+        3.05,
+        11.8
+      ],
+      "rotation_y": 0.0,
+      "scale": 0.55
+    }
+  ]
+}

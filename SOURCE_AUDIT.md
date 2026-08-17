@@ -75,6 +75,12 @@ Le lot `god` publie ses 21 fichiers, identiques octet pour octet entre les sourc
 
 Le lot `energy` publie 30 de ses 32 fichiers, identiques octet pour octet entre les sources serveur et client auditées. Capacités, régénération, conversions, synergies, événements, nœuds et récoltes sont déclaratifs et doivent être validés côté serveur. `divine_shrine_001.json` et `mana_well_001.json` restent exclus car ils décrivent des instantanés d'instance avec position, niveau courant et horodatage de récolte plutôt que des modèles portables.
 
+Le lot interne suivant tranche huit familles et publie 16 fichiers. `ai` publie uniquement le boss générique `storm_wyvern_boss.json`; les deux gardes sont exclus pour leurs contrôles et liaisons internes. `rts` publie diplomatie, formations, quêtes et capacités ; les neuf autres fichiers sont exclus pour état runtime, commerce, assets, réseau ou intégration interne. `blueprints` publie cinq constructions géométriques sans chemin d'asset et sans copie client ; les 19 maisons générées de Havre du Roi restent exclues comme sorties de layout divergentes et liées à la ville runtime.
+
+Les six fichiers publiés de `divine_system` couvrent des alignements, exemples de sorts, conscience fictive, quêtes, contrat de sorts et création/évolution abstraite. Les 25 autres restent exclus pour références bouddhistes ou à One Piece, exemples de classes trop proches de systèmes tiers, pratiques culturelles réelles, contrôles internes, commerce, état joueur, rapport de complétion ou couplage runtime. Aucun contenu publié n'est présenté comme référence religieuse, culturelle ou historique.
+
+Les familles `cities`, `sects`, `lineage` et `npcs` sont entièrement exclues après audit. La ville unique est divergente et expose des assets/runtime ; les 12 techniques de secte et les 16 lignées embarquent des contrôles admin/debug, des assets ou des références culturelles ; les 23 PNJ sont divergents et combinent contrôles administratifs, assets, économie ou services internes.
+
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :
 
 - du contenu narratif et de jeu dont les droits ou les inspirations doivent être vérifiés ;

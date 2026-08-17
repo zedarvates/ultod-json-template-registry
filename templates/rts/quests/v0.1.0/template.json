@@ -1,0 +1,217 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-11-14",
+    "description": "RTS Quest System - Dynamic quests and objectives for RTS gameplay progression",
+    "author": "UOVR Development Team",
+    "category": "RTS Systems",
+    "dependencies": [
+      "buildings",
+      "units",
+      "resources",
+      "faction"
+    ]
+  },
+  "quest_categories": {
+    "economy": {
+      "description": "Quests focused on resource management and economic development",
+      "color_code": "#4CAF50",
+      "reward_focus": "resources"
+    },
+    "military": {
+      "description": "Quests involving combat, unit training, and strategic victories",
+      "color_code": "#F44336",
+      "reward_focus": "experience"
+    },
+    "exploration": {
+      "description": "Quests about discovering new areas and gathering intelligence",
+      "color_code": "#2196F3",
+      "reward_focus": "maps"
+    },
+    "guild": {
+      "description": "Guild-wide objectives and cooperative challenges",
+      "color_code": "#9C27B0",
+      "reward_focus": "guild_bonuses"
+    }
+  },
+  "quests": {
+    "build_first_base": {
+      "id": "quest_build_first_base",
+      "name": "Establish Command",
+      "description": "Construct your first Town Center and train your initial villagers",
+      "category": "economy",
+      "difficulty": "tutorial",
+      "objectives": [
+        {
+          "type": "build_structure",
+          "target": "town_center",
+          "count": 1,
+          "description": "Build a Town Center"
+        },
+        {
+          "type": "train_unit",
+          "target": "villager",
+          "count": 5,
+          "description": "Train 5 Villagers"
+        }
+      ],
+      "rewards": {
+        "gold": 200,
+        "experience": 100,
+        "technology_unlock": "basic_economy"
+      },
+      "time_limit_seconds": 600
+    },
+    "first_battle": {
+      "id": "quest_first_battle",
+      "name": "Test of Combat",
+      "description": "Train military units and defeat enemy forces",
+      "category": "military",
+      "difficulty": "easy",
+      "objectives": [
+        {
+          "type": "train_unit",
+          "target": "militia",
+          "count": 8,
+          "description": "Train 8 Militia units"
+        },
+        {
+          "type": "kill_enemies",
+          "target": "any",
+          "count": 10,
+          "description": "Defeat 10 enemy units"
+        }
+      ],
+      "rewards": {
+        "gold": 300,
+        "experience": 200,
+        "technology_unlock": "formation_tactics"
+      },
+      "prerequisites": [
+        "build_first_base"
+      ]
+    },
+    "resource_empire": {
+      "id": "quest_resource_empire",
+      "name": "Resource Empire",
+      "description": "Build an economic empire by controlling multiple resource nodes",
+      "category": "economy",
+      "difficulty": "medium",
+      "objectives": [
+        {
+          "type": "control_nodes",
+          "target": "gold_mine",
+          "count": 3,
+          "description": "Control 3 gold mines"
+        },
+        {
+          "type": "build_structure",
+          "target": "storage_depot",
+          "count": 2,
+          "description": "Build 2 storage depots"
+        },
+        {
+          "type": "accumulate_resource",
+          "target": "gold",
+          "count": 2000,
+          "description": "Accumulate 2000 gold"
+        }
+      ],
+      "rewards": {
+        "gold": 500,
+        "experience": 500,
+        "building_unlock": "market"
+      },
+      "scaling_difficulty": true
+    },
+    "guild_war": {
+      "id": "quest_guild_war",
+      "name": "Guild Warfare",
+      "description": "Lead your guild to victory in a coordinated large-scale battle",
+      "category": "guild",
+      "difficulty": "hard",
+      "objectives": [
+        {
+          "type": "guild_members",
+          "target": "participants",
+          "count": 5,
+          "description": "Have 5 guild members participate"
+        },
+        {
+          "type": "kill_enemies",
+          "target": "hero_units",
+          "count": 3,
+          "description": "Defeat 3 enemy heroes"
+        },
+        {
+          "type": "destroy_structures",
+          "target": "town_center",
+          "count": 2,
+          "description": "Destroy 2 enemy town centers"
+        }
+      ],
+      "rewards": {
+        "experience": 2000,
+        "guild_experience": 1000,
+        "guild_title": "Warlords",
+        "special_ability": "guild_rally"
+      },
+      "cooperative": true,
+      "time_limit_seconds": 3600
+    }
+  },
+  "dynamic_quests": {
+    "resource_contest": {
+      "name": "Resource Competition",
+      "description": "Control resource nodes within the time limit",
+      "trigger_conditions": {
+        "uncontrolled_nodes": 3,
+        "active_players": 2
+      },
+      "objectives": {
+        "control_time": 300,
+        "node_variety": [
+          "gold_mine",
+          "forest",
+          "quarry"
+        ]
+      },
+      "rewards": {
+        "winner": {
+          "gold": 500,
+          "bonus_multiplier": 1.5
+        },
+        "participants": {
+          "gold": 100
+        }
+      },
+      "duration_seconds": 900
+    },
+    "siege_defense": {
+      "name": "Fortress Defense",
+      "description": "Defend strategic buildings from enemy siege",
+      "trigger_conditions": {
+        "enemy_siege_units": 5,
+        "defended_structures": [
+          "town_center",
+          "barracks"
+        ]
+      },
+      "objectives": {
+        "survival_time": 600,
+        "no_structures_lost": true,
+        "enemy_units_killed": 20
+      },
+      "rewards": {
+        "defender": {
+          "gold": 800,
+          "defensive_bonuses": [
+            "wall_damage_resistance",
+            "repair_speed"
+          ]
+        }
+      }
+    }
+  },
+  "id": "quests"
+}

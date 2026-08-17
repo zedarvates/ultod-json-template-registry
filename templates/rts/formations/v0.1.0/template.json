@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-11-14",
+    "description": "RTS Unit Formations - Tactical formations for coordinated unit movement and combat",
+    "author": "UOVR Development Team",
+    "category": "RTS Systems",
+    "dependencies": [
+      "units",
+      "commands"
+    ]
+  },
+  "formations": {
+    "line": {
+      "id": "formation_line",
+      "name": "Battle Line",
+      "description": "Units form a straight line, good for defense and initial engagements",
+      "category": "defensive",
+      "spacing": {
+        "width": 2.5,
+        "height": 1.0
+      },
+      "bonuses": {
+        "defense": 15,
+        "flank_penalty": 50,
+        "rear_penalty": 75
+      },
+      "suitable_units": [
+        "infantry",
+        "archers"
+      ]
+    },
+    "square": {
+      "id": "formation_square",
+      "name": "Square Formation",
+      "description": "Circular formation providing all-around defense",
+      "category": "defensive",
+      "spacing": {
+        "radius": 3.0
+      },
+      "bonuses": {
+        "all_sides_defense": 25,
+        "morale": 10,
+        "movement_penalty": 0.2
+      },
+      "suitable_units": [
+        "swordsman",
+        "spearmen"
+      ]
+    },
+    "wedge": {
+      "id": "formation_wedge",
+      "name": "Wedge Formation",
+      "description": "Triangular formation for breaking through enemy lines",
+      "category": "offensive",
+      "spacing": {
+        "base": 1.0,
+        "point": 5.0
+      },
+      "bonuses": {
+        "charge_bonus": 30,
+        "breakthrough_chance": 0.2,
+        "flank_vulnerability": 25
+      },
+      "suitable_units": [
+        "cavalry",
+        "siege_units"
+      ]
+    },
+    "circle": {
+      "id": "formation_circle",
+      "name": "Circle Formation",
+      "description": "Circular defense providing protection against encirclement",
+      "category": "defensive",
+      "spacing": {
+        "radius": 4.0
+      },
+      "bonuses": {
+        "siege_defense": 25,
+        "retreat_penalty": -10,
+        "surrounded_penalty": -15
+      },
+      "suitable_units": [
+        "hermetic",
+        "summoned"
+      ]
+    }
+  },
+  "id": "formations"
+}

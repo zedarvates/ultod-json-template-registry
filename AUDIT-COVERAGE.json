@@ -13,10 +13,10 @@
   "invalid_json_files": 0,
   "server_history_or_archive_count": 62,
   "server_current_count": 4009,
-  "catalog_entry_count": 1170,
-  "server_current_covered_by_published_hash": 1170,
-  "server_current_not_covered_by_published_hash": 2839,
-  "server_current_pending_audit": 2577,
+  "catalog_entry_count": 1186,
+  "server_current_covered_by_published_hash": 1186,
+  "server_current_not_covered_by_published_hash": 2823,
+  "server_current_pending_audit": 2454,
   "gitleaks": {
     "root_templates": "clean",
     "server_templates": "clean",
@@ -62,14 +62,14 @@
     },
     {
       "family": "ai",
-      "audit_state": "pending",
+      "audit_state": "audited",
       "source_current_count": 3,
-      "published_or_deduplicated_count": 0,
-      "not_published_count": 3,
+      "published_or_deduplicated_count": 1,
+      "not_published_count": 2,
       "client_identical_count": 3,
       "client_divergent_count": 0,
       "client_missing_count": 0,
-      "disposition": "pending-review",
+      "disposition": "mixed",
       "review_basis": "internal runtime, production, admin, or asset references"
     },
     {
@@ -98,14 +98,14 @@
     },
     {
       "family": "blueprints",
-      "audit_state": "pending",
+      "audit_state": "audited",
       "source_current_count": 24,
-      "published_or_deduplicated_count": 0,
-      "not_published_count": 24,
+      "published_or_deduplicated_count": 5,
+      "not_published_count": 19,
       "client_identical_count": 0,
       "client_divergent_count": 19,
       "client_missing_count": 5,
-      "disposition": "pending-review",
+      "disposition": "mixed",
       "review_basis": "internal runtime, production, admin, or asset references"
     },
     {
@@ -158,14 +158,14 @@
     },
     {
       "family": "cities",
-      "audit_state": "pending",
+      "audit_state": "audited",
       "source_current_count": 1,
       "published_or_deduplicated_count": 0,
       "not_published_count": 1,
       "client_identical_count": 0,
       "client_divergent_count": 1,
       "client_missing_count": 0,
-      "disposition": "pending-review",
+      "disposition": "excluded",
       "review_basis": "internal runtime, production, admin, or asset references"
     },
     {
@@ -254,14 +254,14 @@
     },
     {
       "family": "divine_system",
-      "audit_state": "pending",
+      "audit_state": "audited",
       "source_current_count": 31,
-      "published_or_deduplicated_count": 0,
-      "not_published_count": 31,
+      "published_or_deduplicated_count": 6,
+      "not_published_count": 25,
       "client_identical_count": 31,
       "client_divergent_count": 0,
       "client_missing_count": 0,
-      "disposition": "pending-review",
+      "disposition": "mixed",
       "review_basis": "internal runtime, production, admin, or asset references"
     },
     {
@@ -386,14 +386,14 @@
     },
     {
       "family": "lineage",
-      "audit_state": "pending",
+      "audit_state": "audited",
       "source_current_count": 16,
       "published_or_deduplicated_count": 0,
       "not_published_count": 16,
       "client_identical_count": 16,
       "client_divergent_count": 0,
       "client_missing_count": 0,
-      "disposition": "pending-review",
+      "disposition": "excluded",
       "review_basis": "internal runtime, production, admin, or asset references"
     },
     {
@@ -494,14 +494,14 @@
     },
     {
       "family": "npcs",
-      "audit_state": "pending",
+      "audit_state": "audited",
       "source_current_count": 23,
       "published_or_deduplicated_count": 0,
       "not_published_count": 23,
       "client_identical_count": 0,
       "client_divergent_count": 23,
       "client_missing_count": 0,
-      "disposition": "pending-review",
+      "disposition": "excluded",
       "review_basis": "internal runtime, production, admin, or asset references"
     },
     {
@@ -638,14 +638,14 @@
     },
     {
       "family": "rts",
-      "audit_state": "pending",
+      "audit_state": "audited",
       "source_current_count": 13,
-      "published_or_deduplicated_count": 0,
-      "not_published_count": 13,
+      "published_or_deduplicated_count": 4,
+      "not_published_count": 9,
       "client_identical_count": 13,
       "client_divergent_count": 0,
       "client_missing_count": 0,
-      "disposition": "pending-review",
+      "disposition": "mixed",
       "review_basis": "internal runtime, production, admin, or asset references"
     },
     {
@@ -662,14 +662,14 @@
     },
     {
       "family": "sects",
-      "audit_state": "pending",
+      "audit_state": "audited",
       "source_current_count": 12,
       "published_or_deduplicated_count": 0,
       "not_published_count": 12,
       "client_identical_count": 12,
       "client_divergent_count": 0,
       "client_missing_count": 0,
-      "disposition": "pending-review",
+      "disposition": "excluded",
       "review_basis": "internal runtime, production, admin, or asset references"
     },
     {

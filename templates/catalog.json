@@ -11702,6 +11702,166 @@
       "source_file": "god/wisdom_god.json",
       "sha256": "ff7b9aa5b85be03f54069b736b946a35109f3100f05090dd8a0cab3ba4129a1a",
       "compatibility": []
+    },
+    {
+      "name": "storm-wyvern-boss",
+      "kind": "ai-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/ai/storm-wyvern-boss/v0.1.0/template.json",
+      "source_file": "ai/storm_wyvern_boss.json",
+      "sha256": "8ef1eab66a3557fefbf1631d7e252888108c0f6ce16a2be6e5e9703af72e2c62",
+      "compatibility": []
+    },
+    {
+      "name": "example-hut",
+      "kind": "building-blueprint",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/blueprints/example-hut/v0.1.0/template.json",
+      "source_file": "blueprints/example_hut.json",
+      "sha256": "277312d6c291f7fddd9e09d4a0fb3298dbfbfcd3bb97b029d9fc18f446655d94",
+      "compatibility": []
+    },
+    {
+      "name": "moon-palace",
+      "kind": "building-blueprint",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/blueprints/moon-palace/v0.1.0/template.json",
+      "source_file": "blueprints/moon_palace.json",
+      "sha256": "62ae63f18ee1e028c19b88a19bc213d2472aa6661235fab62323d42078dcf9f9",
+      "compatibility": []
+    },
+    {
+      "name": "moon-sanctuary",
+      "kind": "building-blueprint",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/blueprints/moon-sanctuary/v0.1.0/template.json",
+      "source_file": "blueprints/moon_sanctuary.json",
+      "sha256": "b4aa521d04e7a8e90609d649a6fdf8eecf48a028cc8aacd03a9cd03c01926d1f",
+      "compatibility": []
+    },
+    {
+      "name": "solar-lyre-temple-complex",
+      "kind": "building-blueprint",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/blueprints/solar-lyre-temple-complex/v0.1.0/template.json",
+      "source_file": "blueprints/solar_lyre_temple_complex.json",
+      "sha256": "7e29cf365bfef860b0a4ad35e4ce734d85d938358c586880620f388cce608776",
+      "compatibility": []
+    },
+    {
+      "name": "worlds-cabinet",
+      "kind": "building-blueprint",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/blueprints/worlds-cabinet/v0.1.0/template.json",
+      "source_file": "blueprints/worlds_cabinet.json",
+      "sha256": "c8f5cb778b735c22a2370986da6f140278feef00e0b93c481b7abd4d7281a80d",
+      "compatibility": []
+    },
+    {
+      "name": "detailed-spell-examples",
+      "kind": "divine-system-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/divine-system/detailed-spell-examples/v0.1.0/template.json",
+      "source_file": "divine_system/detailed_spell_examples.json",
+      "sha256": "8e56347a08b30e1f7db34c48cb9417ae6ac03028c970453042daf50f9aa759a2",
+      "compatibility": []
+    },
+    {
+      "name": "divine-alignment-system",
+      "kind": "divine-system-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/divine-system/divine-alignment-system/v0.1.0/template.json",
+      "source_file": "divine_system/divine_alignment_system.json",
+      "sha256": "cbd86f113971cd226744926cd9da8526c6333bbd736f2985f1f0ea3041fa56b9",
+      "compatibility": []
+    },
+    {
+      "name": "divine-consciousness-mental-expansion",
+      "kind": "divine-system-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/divine-system/divine-consciousness-mental-expansion/v0.1.0/template.json",
+      "source_file": "divine_system/divine_consciousness_mental_expansion.json",
+      "sha256": "ae7eb7590422ca62c6f5fdeb82707b310cb15bce638263c3fe28854a41d68a2e",
+      "compatibility": []
+    },
+    {
+      "name": "divine-quest-storylines",
+      "kind": "divine-system-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/divine-system/divine-quest-storylines/v0.1.0/template.json",
+      "source_file": "divine_system/divine_quest_storylines.json",
+      "sha256": "93a60c4a9924cdbc5995840c5e45feea4d44ec3383722d93f4404fd50650b23d",
+      "compatibility": []
+    },
+    {
+      "name": "divine-spell-system",
+      "kind": "divine-system-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/divine-system/divine-spell-system/v0.1.0/template.json",
+      "source_file": "divine_system/divine_spell_system.json",
+      "sha256": "15ddc1e091d7e93b59d178791c28beae088c765d8d28f0db7427a137ea4ec5af",
+      "compatibility": []
+    },
+    {
+      "name": "divine-universal-creation-evolution",
+      "kind": "divine-system-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/divine-system/divine-universal-creation-evolution/v0.1.0/template.json",
+      "source_file": "divine_system/divine_universal_creation_evolution.json",
+      "sha256": "04b733608ef77cda5b2836eef19b3ccd92f29dc8d14dff13b0dda05d757f2644",
+      "compatibility": []
+    },
+    {
+      "name": "diplomacy",
+      "kind": "rts-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/rts/diplomacy/v0.1.0/template.json",
+      "source_file": "rts/diplomacy.json",
+      "sha256": "0783a54b72de48236c44bcd0d8a79a4d77ef04610366952a6869e994627b4b7d",
+      "compatibility": []
+    },
+    {
+      "name": "formations",
+      "kind": "rts-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/rts/formations/v0.1.0/template.json",
+      "source_file": "rts/formations.json",
+      "sha256": "f83d7c0e168effcde28cbf44ee800ca3d455328748a8c82126d7876157b73ff1",
+      "compatibility": []
+    },
+    {
+      "name": "quests",
+      "kind": "rts-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/rts/quests/v0.1.0/template.json",
+      "source_file": "rts/quests.json",
+      "sha256": "36bd3437e3add4687a54e1ad0879153100df8bc0cba86c77923d512ace5d1947",
+      "compatibility": []
+    },
+    {
+      "name": "rts-abilities",
+      "kind": "rts-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/rts/rts-abilities/v0.1.0/template.json",
+      "source_file": "rts/rts_abilities.json",
+      "sha256": "285b1615f2dfa378c9adddf9308fe0d3f2d52767237656f0731b4d223f7ba8d0",
+      "compatibility": []
     }
   ]
 }

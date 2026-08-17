@@ -1,0 +1,731 @@
+{
+  "divine_quest_lines_and_storylines": {
+    "quest_categories": {
+      "divine_call_quests": {
+        "description": "Quests where divine beings directly call upon mortals for service",
+        "characteristics": [
+          "Divine initiation",
+          "Cosmic importance",
+          "Faith testing",
+          "Relationship building"
+        ]
+      },
+      "worship_progression_quests": {
+        "description": "Quests that advance faith tier and divine relationships",
+        "characteristics": [
+          "Gradual progression",
+          "Skill demonstration",
+          "Moral choices",
+          "Community service"
+        ]
+      },
+      "divine_conflict_quests": {
+        "description": "Quests involving conflicts between divine beings or factions",
+        "characteristics": [
+          "Political complexity",
+          "Alliance building",
+          "Cosmic stakes",
+          "Moral ambiguity"
+        ]
+      },
+      "sacrifice_and_transformation_quests": {
+        "description": "Quests requiring personal sacrifice leading to divine transformation",
+        "characteristics": [
+          "High personal cost",
+          "Life-changing consequences",
+          "Divine transformation",
+          "Ultimate commitment"
+        ]
+      }
+    },
+    "quest_templates": {
+      "divine_call_main_quest": {
+        "quest_structure": {
+          "title": "L'Appel Divin",
+          "duration": "multi_session_campaign",
+          "player_levels": "1-20",
+          "faith_requirement": "any",
+          "divine_involvment": "direct_communication"
+        },
+        "quest_phases": {
+          "phase_1_discovery": {
+            "title": "Le Premier Contact",
+            "description": "Player receives initial divine communication or sign",
+            "objectives": [
+              "Recognize divine call",
+              "Respond appropriately",
+              "Begin faith journey",
+              "Establish initial relationship"
+            ],
+            "possible_triggers": [
+              "Divine dream or vision",
+              "Miraculous survival event",
+              "Sacred location visitation",
+              "Meeting divine emissary"
+            ],
+            "choices_and_consequences": {
+              "accept_call": {
+                "consequence": "Begin worship progression",
+                "relationship_effect": "neutral_to_positive",
+                "faith_advancement": "toward_devoted_believer"
+              },
+              "reject_call": {
+                "consequence": "Divine displeasure, closed paths",
+                "relationship_effect": "negative",
+                "faith_advancement": "toward_unfaithful"
+              },
+              "seek_guidance": {
+                "consequence": "Quest for understanding",
+                "relationship_effect": "patient_discovery",
+                "faith_advancement": "toward_curious_seeker"
+              }
+            },
+            "rewards": {
+              "immediate": [
+                "Divine sign or minor blessing",
+                "Basic divine guidance",
+                "Initial faith tier advancement"
+              ],
+              "long_term": [
+                "Open communication channel",
+                "Access to basic divine spells",
+                "Potential for major divine relationship"
+              ]
+            }
+          },
+          "phase_2_trials": {
+            "title": "Les Épreuves de la Foi",
+            "description": "Series of tests to prove faith and worthiness",
+            "objectives": [
+              "Demonstrate faith through actions",
+              "Overcome moral challenges",
+              "Build divine relationship",
+              "Unlock higher-tier abilities"
+            ],
+            "trial_types": {
+              "trial_of_morality": {
+                "description": "Moral choices that test alignment",
+                "scenarios": [
+                  "Choosing between personal gain and helping others",
+                  "Deciding between revenge and forgiveness",
+                  "Sacrificing comfort for principle",
+                  "Protecting innocent over self-interest"
+                ],
+                "divine_evaluation": "based on alignment consistency"
+              },
+              "trial_of_courage": {
+                "description": "Facing danger for divine cause",
+                "scenarios": [
+                  "Defending temple from attackers",
+                  "Confronting powerful enemy for justice",
+                  "Going alone into dangerous quest",
+                  "Standing against corruption despite threat"
+                ],
+                "divine_evaluation": "based on risk acceptance"
+              },
+              "trial_of_wisdom": {
+                "description": "Demonstrating divine wisdom and understanding",
+                "scenarios": [
+                  "Solving complex moral dilemmas",
+                  "Interpreting divine signs correctly",
+                  "Making choices for greater good",
+                  "Understanding cosmic significance"
+                ],
+                "divine_evaluation": "based on decision quality"
+              },
+              "trial_of_devotion": {
+                "description": "Proving dedication through sacrifice",
+                "scenarios": [
+                  "Giving up valuable possessions",
+                  "Enduring hardship for divine service",
+                  "Spending time in worship over personal activities",
+                  "Helping others at personal cost"
+                ],
+                "divine_evaluation": "based on sacrifice willingness"
+              }
+            },
+            "progression_mechanics": {
+              "success_accumulation": "3 successes advance to next faith tier",
+              "failure_consequences": "Failures require additional trials",
+              "divine_feedback": "Direct communication about performance"
+            }
+          },
+          "phase_3_mission": {
+            "title": "La Mission Divine",
+            "description": "Major quest serving divine will",
+            "objectives": [
+              "Complete cosmic-scale task",
+              "Demonstrate complete faith",
+              "Achieve divine partnership",
+              "Unlock legendary abilities"
+            ],
+            "mission_types": {
+              "save_world_mission": {
+                "description": "Preventing cosmic disaster",
+                "stakes": "world_destruction_or_transformation",
+                "required_faith_tier": "fervent_devotee",
+                "cosmic_involvement": "multiple_divine_factions"
+              },
+              "spread_divine_message": {
+                "description": "Establishing new faith or denomination",
+                "stakes": "spiritual_revolution",
+                "required_faith_tier": "devoted_believer",
+                "cosmic_involvement": "single_patron_deity"
+              },
+              "divine_war": {
+                "description": "Fighting on behalf of divine forces",
+                "stakes": "cosmic_balance_shift",
+                "required_faith_tier": "zealous_saint",
+                "cosmic_involvement": "divine_armies"
+              }
+            },
+            "climax_mechanics": {
+              "ultimate_choice": "Player must choose between divine rewards and personal desires",
+              "divine_test": "Final test of faith under extreme pressure",
+              "transformation_trigger": "Success leads to divine transformation"
+            }
+          }
+        }
+      },
+      "progressive_worship_quest_chain": {
+        "quest_structure": {
+          "title": "Le Chemin de la Foi",
+          "duration": "extended_campaign",
+          "player_levels": "1-15",
+          "faith_requirement": "gradual_development",
+          "divine_involvement": "indirect_guidance"
+        },
+        "quest_chain": {
+          "quest_1_awakening": {
+            "title": "Le Réveil Spirituel",
+            "description": "Player's first encounter with divine possibility",
+            "faith_tier_start": "curious_seeker",
+            "faith_tier_end": "devoted_believer",
+            "requirements": [
+              "Visit sacred location",
+              "Perform first prayer",
+              "Make initial offering",
+              "Demonstrate basic faith"
+            ],
+            "rewards": [
+              "Basic divine spells",
+              "Prayer ability",
+              "Divine sense capability",
+              "Faith progression tracking"
+            ]
+          },
+          "quest_2_devotion": {
+            "title": "Le Développement de la Dévotion",
+            "description": "Building consistent worship practice",
+            "faith_tier_start": "devoted_believer",
+            "faith_tier_end": "fervent_devotee",
+            "requirements": [
+              "Establish daily worship routine",
+              "Participate in community ceremonies",
+              "Help other worshippers",
+              "Overcome faith temptation"
+            ],
+            "rewards": [
+              "Enhanced divine spells",
+              "Temple access privileges",
+              "Divine guidance abilities",
+              "Community recognition"
+            ]
+          },
+          "quest_3_deepening": {
+            "title": "L'Approfondissement Spirituel",
+            "description": "Developing deeper divine relationship",
+            "faith_tier_start": "fervent_devotee",
+            "faith_tier_end": "zealous_saint",
+            "requirements": [
+              "Lead worship ceremonies",
+              "Make significant sacrifice",
+              "Receive divine revelation",
+              "Defend faith against opposition"
+            ],
+            "rewards": [
+              "Advanced divine spells",
+              "Divine communication ability",
+              "Sacrificial powers",
+              "Spiritual authority"
+            ]
+          },
+          "quest_4_transcendence": {
+            "title": "La Transcendance Divine",
+            "description": "Achieving near-divine status",
+            "faith_tier_start": "zealous_saint",
+            "faith_tier_end": "canonized_being",
+            "requirements": [
+              "Perform miracle",
+              "Achieve perfect alignment",
+              "Receive divine election",
+              "Accept cosmic responsibility"
+            ],
+            "rewards": [
+              "Divine transformation",
+              "Canonized status",
+              "Cosmic powers",
+              "Universal recognition"
+            ]
+          }
+        }
+      },
+      "divine_conflict_quest": {
+        "quest_structure": {
+          "title": "La Guerre des Dieux",
+          "duration": "epic_campaign",
+          "player_levels": "10-20",
+          "faith_requirement": "strong_devotion",
+          "divine_involvement": "multiple_factions"
+        },
+        "conflict_overview": {
+          "background": "Ancient pantheon conflict resurfaces, threatening cosmic balance",
+          "stakes": "Reality itself may be altered or destroyed",
+          "factions": [
+            "Order Faction (Lawful deities)",
+            "Balance Faction (Neutral deities)",
+            "Change Faction (Chaotic deities)",
+            "Corruption Faction (Evil deities)"
+          ],
+          "player_role": "Must choose sides or find resolution"
+        },
+        "quest_phases": {
+          "phase_1_discovery": {
+            "title": "Révélation du Conflit",
+            "description": "Player learns of divine war",
+            "objectives": [
+              "Understand conflict origins",
+              "Meet faction representatives",
+              "Assess cosmic implications",
+              "Make initial allegiance choice"
+            ],
+            "faction_meetings": {
+              "order_meeting": {
+                "location": "City of Eternal Law",
+                "representative": "Archangel of Justice",
+                "offer": "Power through righteous order",
+                "requirement": "Lawful alignment demonstration"
+              },
+              "balance_meeting": {
+                "location": "Neutral Ground Sanctuary",
+                "representative": "Ancient Nature Spirit",
+                "offer": "Wisdom through cosmic balance",
+                "requirement": "Neutral actions demonstration"
+              },
+              "change_meeting": {
+                "location": "Chaos Realm Border",
+                "representative": "Chaos Avatar",
+                "offer": "Freedom through transformation",
+                "requirement": "Chaotic action demonstration"
+              }
+            }
+          },
+          "phase_2_choosing_sides": {
+            "title": "L'Alliance Divine",
+            "description": "Player commits to faction and begins service",
+            "objectives": [
+              "Complete faction trials",
+              "Prove loyalty and worthiness",
+              "Prepare for divine warfare",
+              "Build faction alliances"
+            ],
+            "faction_trials": {
+              "order_trials": [
+                "Uphold law in chaotic situation",
+                "Make sacrifice for greater order",
+                "Lead reformation of corrupt institution",
+                "Protect innocent through lawful means"
+              ],
+              "balance_trials": [
+                "Mediate between opposing forces",
+                "Maintain neutrality in moral conflict",
+                "Restore natural balance to corrupted area",
+                "Accept temporary hardship for long-term harmony"
+              ],
+              "change_trials": [
+                "Embrace necessary transformation",
+                "Break outdated traditions for progress",
+                "Adapt quickly to changing circumstances",
+                "Inspire others to positive change"
+              ]
+            }
+          },
+          "phase_3_divine_warfare": {
+            "title": "La Guerre Cosmique",
+            "description": "Actual conflict between divine factions",
+            "objectives": [
+              "Lead faction forces in battle",
+              "Defeat opposing divine champions",
+              "Protect cosmic stability",
+              "Find conflict resolution"
+            ],
+            "battle_scenarios": {
+              "temple_siege": {
+                "objective": "Defend faction sacred site",
+                "enemy_forces": "Opposing faction armies",
+                "divine_support": "Faction divine beings",
+                "cosmic_stakes": "Sacred site destruction"
+              },
+              "cosmic_duel": {
+                "objective": "Challenge opposing champion",
+                "enemy_forces": "Faction champion",
+                "divine_support": "Faction blessing",
+                "cosmic_stakes": "Duel outcome affects faction power"
+              },
+              "reality_anchoring": {
+                "objective": "Stabilize reality anchors",
+                "enemy_forces": "Reality destroyers",
+                "divine_support": "Cosmic energy",
+                "cosmic_stakes": "Reality fabric integrity"
+              }
+            }
+          },
+          "phase_4_resolution": {
+            "title": "La Résolution Cosmique",
+            "description": "Finding end to divine conflict",
+            "objectives": [
+              "Negotiate peace between factions",
+              "Restore cosmic balance",
+              "Prevent future conflicts",
+              "Achieve new divine status"
+            ],
+            "resolution_paths": {
+              "victory_path": {
+                "description": "Player's faction achieves victory",
+                "consequences": [
+                  "New cosmic order established",
+                  "Player elevated to divine status",
+                  "Reality reshaped by faction principles",
+                  "Other factions subjugated or destroyed"
+                ],
+                "divine_status": "New minor deity in victorious faction"
+              },
+              "balance_path": {
+                "description": "All factions achieve equilibrium",
+                "consequences": [
+                  "Cosmic balance restored",
+                  "All factions retain power within limits",
+                  "Reality stabilized through compromise",
+                  "Player becomes cosmic mediator"
+                ],
+                "divine_status": "Neutral cosmic authority figure"
+              },
+              "unity_path": {
+                "description": "Factions find common ground",
+                "consequences": [
+                  "New unified pantheon formed",
+                  "Cosmic harmony achieved",
+                  "Reality transcends previous limitations",
+                  "Player becomes unifying force"
+                ],
+                "divine_status": "Unity deity with cosmic authority"
+              }
+            }
+          }
+        }
+      },
+      "sacrifice_transformation_quest": {
+        "quest_structure": {
+          "title": "L'Ultime Sacrifice",
+          "duration": "character_defining",
+          "player_levels": "15-20",
+          "faith_requirement": "zealous_saint_minimum",
+          "divine_involvement": "ultimate_communication"
+        },
+        "quest_overview": {
+          "purpose": "Complete transformation from mortal to divine being",
+          "stakes": "Everything - life, identity, mortality",
+          "requirements": [
+            "Perfect faith demonstration",
+            "Willingness to sacrifice all",
+            "Alignment with cosmic purpose",
+            "Divine election confirmation"
+          ]
+        },
+        "quest_phases": {
+          "phase_1_divine_invitation": {
+            "title": "L'Invitation Divine",
+            "description": "Player receives ultimate divine call",
+            "divine_communication": "Direct communication from highest divine authority",
+            "offer_details": {
+              "transformation_offer": "Full divine status and cosmic power",
+              "cost": "Complete surrender of mortal identity",
+              "responsibility": "Infinite cosmic duties",
+              "benefit": "Unlimited divine capabilities"
+            },
+            "decision_point": "Player must choose between mortality and divinity"
+          },
+          "phase_2_sacrifice_preparation": {
+            "title": "Préparation au Sacrifice",
+            "description": "Player prepares for ultimate sacrifice",
+            "requirements": [
+              "Complete all mortal business",
+              "Say goodbye to mortal life",
+              "Make final offerings and prayers",
+              "Achieve perfect spiritual readiness"
+            ],
+            "preparation_activities": {
+              "mortal_closure": [
+                "Settle personal relationships",
+                "Distribute mortal possessions",
+                "Complete unfinished business",
+                "Write final letters or messages"
+              ],
+              "spiritual_preparation": [
+                "Achieve perfect meditation",
+                "Eliminate all mortal attachments",
+                "Perfect alignment demonstration",
+                "Complete divine communion"
+              ],
+              "sacrifice_ritual": [
+                "Conduct transformation ceremony",
+                "Perform ultimate offering",
+                "Surrender mortal essence",
+                "Accept divine transformation"
+              ]
+            }
+          },
+          "phase_3_transformation": {
+            "title": "La Transcendance",
+            "description": "Player undergoes divine transformation",
+            "transformation_process": {
+              "mortality_release": {
+                "description": "Letting go of all mortal connections",
+                "mechanics": "Permanent loss of mortal relationships and possessions",
+                "spiritual_cost": "Complete identity transformation"
+              },
+              "divine_awakening": {
+                "description": "Divine consciousness integration",
+                "mechanics": "Gaining divine awareness and cosmic perspective",
+                "power_gain": "Unlimited divine abilities"
+              },
+              "cosmic_integration": {
+                "description": "Becoming part of cosmic order",
+                "mechanics": "Accepting cosmic responsibilities and duties",
+                "responsibility": "Universal-scale influence and obligations"
+              }
+            },
+            "transformation_options": {
+              "full_transformation": {
+                "description": "Complete conversion to divine being",
+                "consequences": [
+                  "Permanent divine status",
+                  "Loss of mortality and mortal connections",
+                  "Infinite cosmic responsibilities",
+                  "Unlimited divine powers"
+                ],
+                "benefits": [
+                  "Immortality",
+                  "Cosmic influence",
+                  "Divine worship",
+                  "Reality manipulation"
+                ]
+              },
+              "partial_transformation": {
+                "description": "Semi-divine status with some mortal connections",
+                "consequences": [
+                  "Enhanced mortal abilities",
+                  "Partial divine status",
+                  "Limited cosmic responsibilities",
+                  "Some mortal relationships maintained"
+                ],
+                "benefits": [
+                  "Extended lifespan",
+                  "Divine spells and abilities",
+                  "Cosmic knowledge",
+                  "Enhanced spiritual connection"
+                ]
+              }
+            }
+          }
+        },
+        "consequences_and_legacy": {
+          "divine_consequences": {
+            "cosmic_responsibilities": [
+              "Maintaining cosmic balance",
+              "Guiding mortal affairs",
+              "Responding to worship",
+              "Protecting reality"
+            ],
+            "divine_duties": [
+              "Interceding for mortals",
+              "Granting blessings and curses",
+              "Maintaining divine order",
+              "Cosmic problem solving"
+            ]
+          },
+          "mortal_legacy": {
+            "community_impact": "Player's mortal life becomes legend and inspiration",
+            "historical_significance": "Actions influence future generations",
+            "spiritual_influence": "Mortals continue to be inspired by player's journey",
+            "divine_intercession": "Player can still help former mortal connections"
+          }
+        }
+      }
+    },
+    "quest_integration_mechanics": {
+      "faith_progression_automation": {
+        "quest_completion_rewards": {
+          "minor_completion": {
+            "faith_gain": "+5 to +10 favor",
+            "relationship_advancement": "minor relationship growth",
+            "ability_unlock": "basic spell or ability"
+          },
+          "major_completion": {
+            "faith_gain": "+15 to +25 favor",
+            "relationship_advancement": "significant relationship growth",
+            "ability_unlock": "advanced spell or ability"
+          },
+          "exceptional_completion": {
+            "faith_gain": "+30 to +50 favor",
+            "relationship_advancement": "major relationship advancement",
+            "ability_unlock": "legendary spell or ability"
+          }
+        },
+        "alignment_consequence_automation": {
+          "alignment_maintenance": "Quest choices affect alignment tracking",
+          "divine_relationship_impact": "Alignment changes affect divine relationships",
+          "faith_tier_modification": "Alignment shifts can advance or retard faith progression"
+        }
+      },
+      "divine_communication_integration": {
+        "quest_giving_mechanics": {
+          "divine_visitation": "Deity appears to give quest directly",
+          "prophetic_dream": "Quest objectives revealed through prophetic vision",
+          "sacred_sign": "Quest marked by divine signs and portents",
+          "divine_angel": "Divine subordinate delivers quest on deity's behalf"
+        },
+        "progress_tracking": {
+          "divine_feedback": "Regular updates on quest progress from divine sources",
+          "cosmic_guidance": "Hints and assistance provided when player is stuck",
+          "divine_testing": "Additional trials or challenges added to test faith"
+        }
+      },
+      "quest_consequence_integration": {
+        "divine_reaction_system": {
+          "positive_outcomes": {
+            "divine_pleasure": "Increased favor and relationship advancement",
+            "blessing_granting": "Divine blessings and enhanced abilities",
+            "future_advantage": "Better divine cooperation in future quests"
+          },
+          "negative_outcomes": {
+            "divine_displeasure": "Favor loss and relationship deterioration",
+            "divine_silence": "Loss of divine communication and support",
+            "quest_failure": "Quest becomes impossible or vastly more difficult"
+          }
+        }
+      },
+      "multiplayer_quest_integration": {
+        "group_divine_quests": {
+          "collective_worship": "Multiple players working toward shared divine goals",
+          "divine_faction_alliances": "Groups aligning with divine factions",
+          "community_sacrifice": "Group efforts leading to divine transformation"
+        },
+        "divine_relationship_sharing": {
+          "group_faith": "Shared faith levels affecting all group members",
+          "divine_communication": "Group leaders receiving divine messages",
+          "collective_sacrifice": "Group members sharing divine consequences"
+        }
+      }
+    },
+    "example_complete_quest_script": {
+      "quest_title": "La Quête du Martyr Perdu",
+      "quest_type": "progressive_worship",
+      "player_requirements": {
+        "minimum_level": 5,
+        "faith_tier": "devoted_believer",
+        "alignment": "any_good",
+        "prerequisite_quests": "basic_worship_established"
+      },
+      "quest_giver": {
+        "divine_being": "Saint Marcus Martyr",
+        "relationship_status": "close_relationship",
+        "communication_method": "divine_vision"
+      },
+      "quest_setup": {
+        "story_hook": "Ancient martyr's relics have been scattered by demonic forces, threatening to corrupt his divine spirit",
+        "stakes": "Martyr's soul trapped in limbo, cannot provide intercession for modern believers",
+        "urgency": "Without intervention, his protective blessings will fade"
+      },
+      "quest_objectives": {
+        "primary_objectives": [
+          "Locate all scattered relics across dangerous locations",
+          "Purify each relic through appropriate ritual",
+          "Return relics to sacred shrine for reassembly",
+          "Complete martyr communion ceremony"
+        ],
+        "secondary_objectives": [
+          "Help other believers seeking martyr's intercession",
+          "Defend sacred locations from demonic attack",
+          "Document martyr's teachings for future generations"
+        ]
+      },
+      "quest_locations": {
+        "relic_1": {
+          "name": "Crypt of Forgotten Heroes",
+          "location_type": "undead_infestated_catacombs",
+          "relic": "Martyr's Sacred Mace",
+          "guardian": "Corrupted death knight",
+          "purification_requirement": "holy_water_ritual + sincere_prayer"
+        },
+        "relic_2": {
+          "name": "Temple of Betrayal",
+          "location_type": "demonically_corrupted_shrine",
+          "relic": "Martyr's Holy Crown",
+          "guardian": "Demon lord lieutenant",
+          "purification_requirement": "exorcism_ceremony + sacrifice_offering"
+        },
+        "relic_3": {
+          "name": "Field of Last Stand",
+          "location_type": "haunted_battlefield",
+          "relic": "Martyr's Banner",
+          "guardian": "Spectral army of fallen enemies",
+          "purification_requirement": "forgiveness_ceremony + redemption_ritual"
+        }
+      },
+      "quest_mechanics": {
+        "relic_purification": {
+          "required_ritual_components": "holy_water, sacred_incense, prayer_beads, martyr_blood_simulacrum",
+          "energy_cost": "20 divine energy per relic",
+          "skill_checks": "Religion check, Performance check (for prayers), Medicine check (for purification)"
+        },
+        "martyr_communion": {
+          "final_ceremony": "Mass gathering of believers for relic reassembly",
+          "duration": "4 hours",
+          "requirements": "50+ worshippers, full moon, sacred shrine, martyr_s relics_complete",
+          "energy_cost": "200 divine energy",
+          "success_requirements": "majority of participants succeed in faith check"
+        }
+      },
+      "quest_rewards": {
+        "immediate_rewards": [
+          "Martyr's Blessing permanent ability",
+          "Access to martyr_powers spell list",
+          "Sainthood progression advancement",
+          "Divine favor +100"
+        ],
+        "long_term_benefits": [
+          "Patron saint intercession ability",
+          "Martyr's protection for believers",
+          "Access to martyr's wisdom through prayer",
+          "Enhanced faith progression"
+        ]
+      },
+      "quest_consequences": {
+        "success_consequences": [
+          "Martyr's spirit freed and canonized",
+          "Divine realm gains powerful intercessor",
+          "Modern believers gain powerful protector",
+          "Player's faith significantly strengthened"
+        ],
+        "failure_consequences": [
+          "Martyr's soul remains trapped",
+          "Demonic corruption spreads to shrine",
+          "Divine displeasure from martyr's faction",
+          "Faith regression for player"
+        ]
+      }
+    }
+  },
+  "id": "divine_quest_storylines"
+}

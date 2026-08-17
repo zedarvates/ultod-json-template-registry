@@ -1,0 +1,392 @@
+{
+  "divine_spells_detailed_examples": {
+    "healing_light": {
+      "spell_info": {
+        "name": "Lumière Guérisseuse",
+        "energy_type": "holy_energy",
+        "spell_level": "moderate_divine",
+        "casting_time": "1 action",
+        "range": "touch",
+        "duration": "instantaneous",
+        "verbal_component": "Bénédiction divine de guérison",
+        "somatic_component": "Mains étendant lumière dorée",
+        "material_component": "Goutte d'eau bénite (consumée)"
+      },
+      "game_mechanics": {
+        "faith_requirement": 30,
+        "energy_cost": 15,
+        "casting_check": "Divine Focus Check (Wisdom + Divine Proficiency)",
+        "targeting": "Must touch willing creature",
+        "area_of_effect": "Single target only"
+      },
+      "spell_effects": {
+        "base_healing": "2d4 + Wisdom modifier holy energy",
+        "critical_success": "Maximum healing amount",
+        "divine_amplification": "+1d4 per divine relationship level above base",
+        "alignment_bonus": "Perfect alignment +2d4, Compatible +1d4",
+        "energy_source_bonus": "Holy Sanctity location +1d4"
+      },
+      "failure_mechanics": {
+        "spell_failure": "No healing, energy wasted",
+        "alignment_conflict": "Half healing, divine displeasure",
+        "unworthy_target": "Spell fails, faith penalty",
+        "insufficient_energy": "Casting attempt fails"
+      },
+      "progression_tiers": {
+        "novice": {
+          "faith_requirement": 30,
+          "healing": "2d4 + Wis mod",
+          "energy_cost": 15
+        },
+        "adept": {
+          "faith_requirement": 50,
+          "healing": "3d4 + Wis mod",
+          "energy_cost": 20,
+          "additional_effect": "Removes one disease condition"
+        },
+        "master": {
+          "faith_requirement": 70,
+          "healing": "4d4 + Wis mod",
+          "energy_cost": 25,
+          "additional_effect": "Removes one curse or poison"
+        },
+        "legendary": {
+          "faith_requirement": 90,
+          "healing": "5d4 + Wis mod",
+          "energy_cost": 30,
+          "additional_effect": "Restores one missing limb or organ"
+        }
+      },
+      "divine_interaction": {
+        "divine_communication": "Target feels warmth and divine presence",
+        "visual_effect": "Golden light emanates from caster's hands",
+        "audio_effect": "Soft heavenly chorus accompanies healing",
+        "spiritual_sensation": "Target feels cleansed and renewed"
+      },
+      "special_interactions": {
+        "with_prophecy_spells": "Healing quality improves if recipient will have important future role",
+        "with_martyr_acts": "Healing is enhanced if caster accepts temporary suffering",
+        "with_sacrifice_mechanics": "Major sacrifice can convert to mass healing",
+        "with_temple_worship": "Healing is more effective in consecrated spaces"
+      }
+    },
+    "divine_prophecy": {
+      "spell_info": {
+        "name": "Propétie Divine",
+        "energy_type": "wisdom_energy",
+        "spell_level": "major_divine",
+        "casting_time": "10 minutes",
+        "range": "self",
+        "duration": "1 hour or until used",
+        "verbal_component": "Incantation de vision cosmique",
+        "somatic_component": "Gestes d'ouverture des yeux mystiques",
+        "material_component": "Cristal de vision (consumé)"
+      },
+      "game_mechanics": {
+        "faith_requirement": 60,
+        "energy_cost": 50,
+        "casting_check": "Divine Insight Check (Intelligence + Divine Proficiency)",
+        "targeting": "Self only",
+        "area_of_effect": "Prophetic vision only"
+      },
+      "spell_effects": {
+        "base_vision": "Caster sees probable future events (1-3 scenes)",
+        "vision_clarity": "Based on divine relationship quality",
+        "temporal_scope": "1 day to 1 year in future",
+        "fate_influence": "Prophetic visions can alter future probability",
+        "knowledge_retention": "Caster remembers vision until spell ends"
+      },
+      "prophetic_content": {
+        "clear_vision": "Specific, detailed future events with high accuracy",
+        "symbolic_vision": "Metaphorical images requiring interpretation",
+        "composite_vision": "Multiple possible futures based on current choices",
+        "warning_vision": "Danger or disaster scenarios with prevention opportunities",
+        "guidance_vision": "Moral or spiritual direction for future decisions"
+      },
+      "progression_tiers": {
+        "novice": {
+          "faith_requirement": 60,
+          "vision_quality": "Symbolic imagery",
+          "temporal_scope": "1-7 days",
+          "accuracy": "60%"
+        },
+        "adept": {
+          "faith_requirement": 75,
+          "vision_quality": "Mixed symbolic and clear",
+          "temporal_scope": "1-4 weeks",
+          "accuracy": "75%"
+        },
+        "master": {
+          "faith_requirement": 85,
+          "vision_quality": "Mostly clear imagery",
+          "temporal_scope": "1-6 months",
+          "accuracy": "85%"
+        },
+        "legendary": {
+          "faith_requirement": 95,
+          "vision_quality": "Crystal clear visions",
+          "temporal_scope": "1 year+",
+          "accuracy": "95%"
+        }
+      },
+      "divine_interaction": {
+        "divine_communication": "Direct message from patron deity",
+        "visual_effect": "Eyes glow with cosmic knowledge",
+        "audio_effect": "Whispered divine truths",
+        "spiritual_sensation": "Overwhelming cosmic awareness"
+      },
+      "knowledge_burden": {
+        "psychological_impact": "Knowledge of future creates stress",
+        "responsibility_weight": "Caster feels responsible for prophetic outcomes",
+        "guidance_requests": "Others seek caster's prophetic advice",
+        "fate_temptation": "Tendency to try forcing prophetic outcomes"
+      }
+    },
+    "martyr_courage": {
+      "spell_info": {
+        "name": "Courage du Martyr",
+        "energy_type": "war_energy",
+        "spell_level": "major_divine",
+        "casting_time": "1 bonus action",
+        "range": "30 feet",
+        "duration": "10 minutes or until triggered",
+        "verbal_component": "Serment de sacrifice",
+        "somatic_component": "Touching heart while making oath",
+        "material_component": "Drop of martyr's blood on blade"
+      },
+      "game_mechanics": {
+        "faith_requirement": 55,
+        "energy_cost": 35,
+        "casting_check": "Divine Will Check (Charisma + Divine Proficiency)",
+        "targeting": "Willing ally within range",
+        "area_of_effect": "Single target (triggered AoE when activated)"
+      },
+      "spell_effects": {
+        "courage_grant": "+2d6 temporary hit points",
+        "immunity_to_fear": "Complete immunity to fear effects",
+        "strength_bonus": "+2 to Strength-based checks",
+        "trigger_activation": "Activates when target would take lethal damage"
+      },
+      "triggered_effects": {
+        "upon_activation": {
+          "damage_soak": "Takes lethal damage instead of target",
+          "area_effect": "15-foot radius divine explosion",
+          "damage": "3d6 radiant + 2d6 force to all enemies",
+          "protection": "Allies in area gain +2 AC for 1 minute"
+        },
+        "sacrifice_mechanics": {
+          "martyr_effect": "Caster takes full damage instead of target",
+          "energy_conversion": "Damage converts to divine energy for allies",
+          "final_blessing": "Caster's sacrifice empowers all allies",
+          "posthumous_effect": "Spirit continues to protect allies briefly"
+        }
+      },
+      "progression_tiers": {
+        "novice": {
+          "faith_requirement": 55,
+          "courage_bonus": "+2d6 temp HP",
+          "activation_damage": "2d6 radiant + 1d6 force",
+          "radius": "10 feet"
+        },
+        "adept": {
+          "faith_requirement": 70,
+          "courage_bonus": "+3d6 temp HP",
+          "activation_damage": "3d6 radiant + 2d6 force",
+          "radius": "15 feet"
+        },
+        "master": {
+          "faith_requirement": 85,
+          "courage_bonus": "+4d6 temp HP",
+          "activation_damage": "4d6 radiant + 3d6 force",
+          "radius": "20 feet"
+        },
+        "legendary": {
+          "faith_requirement": 95,
+          "courage_bonus": "+5d6 temp HP",
+          "activation_damage": "5d6 radiant + 4d6 force",
+          "radius": "25 feet",
+          "additional_effect": "Caster resurrection after 1d4 days"
+        }
+      },
+      "alignment_interactions": {
+        "lawful_good": "Sacrifice must be for justice and protection",
+        "neutral_good": "Sacrifice can be for any good cause",
+        "chaotic_good": "Sacrifice for personal freedom or individual rights",
+        "lawful_neutral": "Sacrifice for order and cosmic balance",
+        "chaotic_neutral": "Sacrifice for change and transformation"
+      }
+    },
+    "chaos_transformation": {
+      "spell_info": {
+        "name": "Transformation Chaotique",
+        "energy_type": "chaos_energy",
+        "spell_level": "moderate_divine",
+        "casting_time": "1 action",
+        "range": "self",
+        "duration": "1 minute",
+        "verbal_component": "Chaosтельное слово transformation",
+        "somatic_component": "Fluid gestures changing constantly",
+        "material_component": "Chaos crystal (fracturing during casting)"
+      },
+      "game_mechanics": {
+        "faith_requirement": 45,
+        "energy_cost": 30,
+        "casting_check": "Chaos Flow Check (Dexterity + Divine Proficiency)",
+        "targeting": "Self only",
+        "area_of_effect": "Personal transformation aura"
+      },
+      "spell_effects": {
+        "form_fluidity": "Appearance shifts randomly each round",
+        "ability_shift": "Random ability score adjustments",
+        "immunity_adaptation": "Random damage resistances change",
+        "unpredictable_effects": "Additional random beneficial effects"
+      },
+      "randomization_table": {
+        "appearance_changes": [
+          "Eyes become different colors",
+          "Hair changes style and color",
+          "Skin pattern shifts (stripes, spots, etc.)",
+          "Height fluctuates by 1d6 inches",
+          "Extra features appear (wings, tails, etc.)",
+          "Overall form becomes more ethereal or solid"
+        ],
+        "ability_modifications": [
+          "+2 to Strength, -1 to Intelligence",
+          "+2 to Dexterity, -1 to Wisdom",
+          "+2 to Constitution, -1 to Charisma",
+          "+2 to Intelligence, -1 to Strength",
+          "+2 to Wisdom, -1 to Dexterity",
+          "+2 to Charisma, -1 to Constitution"
+        ],
+        "resistance_changes": [
+          "Immune to cold, vulnerable to fire",
+          "Immune to lightning, vulnerable to thunder",
+          "Immune to acid, vulnerable to poison",
+          "Immune to psychic, vulnerable to force",
+          "Immune to necrotic, vulnerable to radiant",
+          "Immune to all, but -2 to all saving throws"
+        ],
+        "bonus_effects": [
+          "Flight capability (10 rounds)",
+          "Water breathing (duration)",
+          "Darkvision 120 feet",
+          "Detect magic at will",
+          "Comprehend all languages",
+          "Teleport 30 feet as bonus action"
+        ]
+      },
+      "progression_tiers": {
+        "novice": {
+          "faith_requirement": 45,
+          "changes_per_round": "1 change",
+          "duration": "1 minute",
+          "control_level": "minimal"
+        },
+        "adept": {
+          "faith_requirement": 60,
+          "changes_per_round": "1-2 changes",
+          "duration": "2 minutes",
+          "control_level": "some influence"
+        },
+        "master": {
+          "faith_requirement": 75,
+          "changes_per_round": "2-3 changes",
+          "duration": "3 minutes",
+          "control_level": "significant influence"
+        },
+        "legendary": {
+          "faith_requirement": 90,
+          "changes_per_round": "3-4 changes",
+          "duration": "5 minutes",
+          "control_level": "major influence"
+        }
+      },
+      "chaos_interaction": {
+        "chaos_energy_response": "Spell grows more unpredictable with chaos energy",
+        "reality_stability": "High chaos areas make spell more dramatic",
+        "cosmic_influence": "Alignment with chaos deities enhances effects",
+        "balance_disturbance": "Spell disrupts magical defenses temporarily"
+      }
+    },
+    "reality_warp": {
+      "spell_info": {
+        "name": "Distorsion de Réalité",
+        "energy_type": "primordial_essence",
+        "spell_level": "legendary_divine",
+        "casting_time": "10 minutes",
+        "range": "100 feet",
+        "duration": "1 hour or until dispelled",
+        "verbal_component": "Mots primitifs de création",
+        "somatic_component": "Mouvements sculptant la réalité",
+        "material_component": "Fragment de réalité (créé lors du lancement)"
+      },
+      "game_mechanics": {
+        "faith_requirement": 95,
+        "energy_cost": 500,
+        "casting_check": "Reality Mastery Check (all abilities + Divine Proficiency)",
+        "targeting": "Point within range",
+        "area_of_effect": "20-foot radius sphere"
+      },
+      "spell_effects": {
+        "reality_modification": "Alter local laws of physics/magic",
+        "effect_selection": "Choose 3 effects from reality manipulation list",
+        "maintenance": "Requires concentration to maintain",
+        "cosmic_approval": "May require justification to cosmic forces"
+      },
+      "reality_manipulation_options": {
+        "physics_alterations": [
+          "Gravity reversed or eliminated",
+          "Time flows faster/slower in area",
+          "Matter becomes intangible",
+          "Distance compressed or expanded",
+          "Temperature extremes negated",
+          "Sound carries no vibrations"
+        ],
+        "magical_alterations": [
+          "Magic items function as different items",
+          "Spell effects inverted (healing to harm)",
+          "Mana flows in reverse direction",
+          "Magic fails in area except divine magic",
+          "Spell components work without consumption",
+          "Casting time reduced to instant"
+        ],
+        "natural_law_changes": [
+          "Conservation of energy suspended",
+          "Cause and effect disconnected",
+          "Probability becomes deterministic",
+          "Natural instincts reversed",
+          "Chemical reactions inverted",
+          "Biological processes altered"
+        ]
+      },
+      "cosmic_consequences": {
+        "reality_strain": "Persistent use creates cosmic instability",
+        "divine_attention": "Major reality changes attract cosmic scrutiny",
+        "butterfly_effect": "Small changes may have large consequences",
+        "reality_repair": "Cosmic forces may automatically undo changes",
+        "dimensional_rifts": "Excessive use may tear reality fabric"
+      },
+      "progression_mastery": {
+        "first_use": {
+          "faith_requirement": 95,
+          "effects": "1 reality modification",
+          "duration": "10 minutes",
+          "cosmic_risk": "minimal"
+        },
+        "adept_mastery": {
+          "faith_requirement": 98,
+          "effects": "2 reality modifications",
+          "duration": "30 minutes",
+          "cosmic_risk": "moderate"
+        },
+        "legendary_mastery": {
+          "faith_requirement": 100,
+          "effects": "3 reality modifications",
+          "duration": "1 hour",
+          "cosmic_risk": "significant"
+        }
+      }
+    }
+  },
+  "id": "detailed_spell_examples"
+}

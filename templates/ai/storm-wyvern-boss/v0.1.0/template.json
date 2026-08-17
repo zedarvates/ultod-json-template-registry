@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "id": "storm_wyvern_boss",
+  "name": "Wyverne de Tempête (Souverain des Cieux)",
+  "description": "Un prédateur apex qui domine les courants aethériques. Capable de provoquer des tempêtes localisées et de désarçonner ses proies en plein vol.",
+  "behavior_tree": {
+    "nodes": [
+      {
+        "id": "root",
+        "type": "selector",
+        "children": ["aerial_combat_check", "patrol_skies"]
+      },
+      {
+        "id": "aerial_combat_check",
+        "type": "sequence",
+        "children": ["has_target", "is_target_aerial", "aerial_assault_logic"]
+      },
+      {
+        "id": "aerial_assault_logic",
+        "type": "selector",
+        "children": ["thunder_dive_action", "lightning_barrage_action", "pursue_3d"]
+      },
+      {
+        "id": "pursue_3d",
+        "type": "action",
+        "name": "move_to_target",
+        "parameters": "{\"speed_mult\": 2.5, \"altitude_match\": true}"
+      }
+    ]
+  },
+  "adaptive_difficulty": {
+    "min_difficulty": 0.8,
+    "max_difficulty": 1.2,
+    "adjustment_rate": 0.05,
+    "metrics": [
+      {
+        "name": "player_altitude",
+        "weight": 0.4,
+        "target_value": 50.0,
+        "tolerance": 10.0
+      }
+    ]
+  },
+  "base_stats": {
+    "health": 500000,
+    "mana": 10000,
+    "attack": 1200,
+    "defense": 800,
+    "speed": 25.0,
+    "can_fly": true
+  }
+}

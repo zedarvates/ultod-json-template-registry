@@ -1,0 +1,269 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-11-14",
+    "description": "RTS Diplomacy System - Alliance management, trade agreements, and international relations",
+    "author": "UOVR Development Team",
+    "category": "RTS Systems",
+    "dependencies": [
+      "factions",
+      "resources",
+      "buildings"
+    ]
+  },
+  "diplomacy_status": {
+    "neutral": {
+      "description": "No relations established",
+      "can_trade": false,
+      "visibility": "limited",
+      "trade_penalty": 0.2,
+      "color_code": "#9E9E9E"
+    },
+    "truce": {
+      "description": "Temporary peace agreement",
+      "can_trade": true,
+      "visibility": "partial",
+      "trade_penalty": 0.1,
+      "duration_hours": 24,
+      "color_code": "#FFEB3B"
+    },
+    "alliance": {
+      "description": "Military and economic cooperation",
+      "can_trade": true,
+      "visibility": "shared_vison",
+      "trade_bonus": 0.1,
+      "military_aid": true,
+      "color_code": "#4CAF50"
+    },
+    "hostile": {
+      "description": "Open hostility and warfare",
+      "can_trade": false,
+      "open_aggression": true,
+      "war_pacts_enabled": true,
+      "color_code": "#F44336"
+    },
+    "vassal": {
+      "description": "Subject state with tribute obligations",
+      "trade_modifier": 0.3,
+      "military_support": true,
+      "tribute_required": true,
+      "color_code": "#795548"
+    }
+  },
+  "treaties": {
+    "trade_agreement": {
+      "name": "Trade Alliance",
+      "description": "Open trade routes and economic cooperation",
+      "requirements": {
+        "min_relationship_level": "neutral",
+        "no_active_war": true
+      },
+      "benefits": {
+        "trade_routes_cost": 0.7,
+        "resource_movement_speed": 1.5,
+        "market_access": true
+      },
+      "obligations": {
+        "tariff_rate": 0.02,
+        "minimum_trade_volume": 100
+      },
+      "duration_days": 30,
+      "breakable": true,
+      "break_penalty_days": 7
+    },
+    "military_pact": {
+      "name": "Defense Agreement",
+      "description": "Mutual military assistance in case of attack",
+      "requirements": {
+        "min_relationship_level": "truce",
+        "military_strength_ratio": {
+          "min": 0.8,
+          "max": 1.25
+        }
+      },
+      "benefits": {
+        "mutual_defense": true,
+        "intelligence_sharing": 0.5,
+        "unit_lending": true
+      },
+      "obligations": {
+        "response_time_hours": 12,
+        "minimum_military_commitment": 5
+      },
+      "trigger_conditions": {
+        "enemy_size_threshold": 20,
+        "territory_threat_distance": 50
+      },
+      "duration_days": 60
+    },
+    "vassalage": {
+      "name": "Vassal Agreement",
+      "description": "Become a subject state with protection",
+      "requirements": {
+        "military_superiority": true,
+        "no_other_allies": true
+      },
+      "benefits": {
+        "military_protection": true,
+        "trade_privileges": 0.4,
+        "technology_sharing": 0.3
+      },
+      "obligations": {
+        "tribute_amount": {
+          "gold": 200,
+          "food": 100
+        },
+        "military_service_units": 10
+      },
+      "upgrade_path": [
+        "tributary",
+        "full_vassal",
+        "integrated_territory"
+      ]
+    }
+  },
+  "events": {
+    "border_incident": {
+      "name": "Border Incident",
+      "description": "Military units from both sides clash near the border",
+      "trigger_probability": 0.1,
+      "conditions": {
+        "border_distance": 20,
+        "military_units_nearby": 5
+      },
+      "consequences": {
+        "relationship_change": -20,
+        "possible_war_declare": true,
+        "damaged_units": {
+          "min": 1,
+          "max": 3
+        }
+      },
+      "resolution_options": [
+        {
+          "name": "Negotiate",
+          "description": "Attempt diplomatic resolution",
+          "success_chance": 0.7,
+          "relationship_change": 10
+        },
+        {
+          "name": "Demand Reparations",
+          "description": "Require compensation for damages",
+          "success_chance": 0.4,
+          "gold_compensation": 100
+        },
+        {
+          "name": "Declare War",
+          "description": "Immediate military response",
+          "relationship_change": -100,
+          "war_status": true
+        }
+      ]
+    },
+    "trade_caravan_interception": {
+      "name": "Caravan Ambush",
+      "description": "Your trade caravan was attacked by border forces",
+      "trigger_probability": 0.05,
+      "conditions": {
+        "active_trade_routes": 2,
+        "hostile_relations": true
+      },
+      "consequences": {
+        "resource_loss": {
+          "gold": 150,
+          "wood": 50
+        },
+        "relationship_change": -25
+      },
+      "resolution_options": [
+        {
+          "name": "Request Investigation",
+          "description": "Demand official inquiry",
+          "success_chance": 0.6,
+          "gold_compensation_chance": 0.4
+        },
+        {
+          "name": "Retaliatory Attack",
+          "description": "Strike back at the attackers",
+          "success_chance": 0.8,
+          "damage_dealt": 2,
+          "relationship_change": -30
+        }
+      ]
+    },
+    "alliance_opportunity": {
+      "name": "Alliance Proposal",
+      "description": "Another faction proposes a military alliance",
+      "trigger_probability": 0.03,
+      "conditions": {
+        "neutral_or_better": true,
+        "no_active_war": true,
+        "strategic_advantage": "possible"
+      },
+      "benefits_offered": {
+        "military_support": true,
+        "resource_subsidies": 100,
+        "technology_sharing": true
+      },
+      "resolution_options": [
+        {
+          "name": "Accept Alliance",
+          "description": "Form the military alliance",
+          "relationship_change": 50,
+          "alliance_status": true
+        },
+        {
+          "name": "Accept Trade Only",
+          "description": "Establish trade relations instead",
+          "trade_agreement": true,
+          "relationship_change": 10
+        },
+        {
+          "name": "Decline",
+          "description": "Politely refuse the offer",
+          "relationship_change": -10
+        }
+      ]
+    }
+  },
+  "faction_relations": {
+    "human_empire": {
+      "elven_alliance": {
+        "initial_status": "neutral",
+        "historic_tension": 10,
+        "trade_opportunities": 15,
+        "conflict_probability": 0.2
+      },
+      "dwarven_clans": {
+        "initial_status": "allied",
+        "trade_opportunities": 25,
+        "military_coordination": 20,
+        "shared_interests": [
+          "defense",
+          "mining"
+        ]
+      }
+    },
+    "diplomacy_mechanics": {
+      "relationship_decay": {
+        "per_day": -0.5,
+        "trade_active_bonus": 1.0,
+        "alliance_bonus": 3.0
+      },
+      "influence_mechanics": {
+        "gift_gold_value": 0.01,
+        "military_victory": 15,
+        "successful_negotiation": 5,
+        "broken_treaty": -50
+      },
+      "espionage_risk": {
+        "detection_chance": 0.1,
+        "consequences": [
+          "relationship_penalty",
+          "trade_sanctions"
+        ]
+      }
+    }
+  },
+  "id": "diplomacy"
+}

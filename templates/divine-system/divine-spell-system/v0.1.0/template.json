@@ -1,0 +1,188 @@
+{
+  "divine_spells": {
+    "divine_energy_types": {
+      "holy_energy": {
+        "description": "Pure, sacred energy of light and protection",
+        "color": "golden_white",
+        "properties": ["healing", "protection", "purification", "blessing", "resurrection"],
+        "sources": ["major_gods", "archangels", "holy_relics", "sacred_places"],
+        "spells": [
+          "healing_light",
+          "divine_protection", 
+          "holy_blessing",
+          "purification_ritual",
+          "resurrection_grace",
+          "sanctuary_summon",
+          "divine_smite",
+          "blessed_aura"
+        ]
+      },
+      "war_energy": {
+        "description": "Divine energy of battle, courage and victory",
+        "color": "crimson_red",
+        "properties": ["combat_enhancement", "battle_fury", "courage", "victory", "righteous_anger"],
+        "sources": ["war_gods", "battle_saints", "war_temples", "battlefields"],
+        "spells": [
+          "divine_fury",
+          "battle_courage",
+          "righteous_victory",
+          "warrior_blessing",
+          "combat_immunity",
+          "bloodthirst_curse",
+          "battlefield_dominance",
+          "martyr_courage"
+        ]
+      },
+      "nature_energy": {
+        "description": "Divine energy of growth, seasons and natural balance",
+        "color": "forest_green",
+        "properties": ["growth", "healing", "balance", "seasonal_control", "animal_communion"],
+        "sources": ["nature_gods", "sacred_forests", "natural_spirits", "seasonal_rites"],
+        "spells": [
+          "nature_healing",
+          "growth_acceleration",
+          "animal_companion",
+          "seasonal_shift",
+          "plant_communion",
+          "natural_balance",
+          "earthquake_command",
+          "weather_control"
+        ]
+      },
+      "wisdom_energy": {
+        "description": "Divine energy of knowledge, insight and prophecy",
+        "color": "deep_blue",
+        "properties": ["knowledge", "prophecy", "wisdom", "insight", "divine_understanding"],
+        "sources": ["wisdom_gods", "prophets", "temples_of_wisdom", "ancient_scrolls"],
+        "spells": [
+          "divine_prophecy",
+          "wisdom_insight",
+          "knowledge_revelation",
+          "prophetic_dreams",
+          "ancient_wisdom",
+          "truth_vision",
+          "divine_guidance",
+          "knowledge_transfer"
+        ]
+      },
+      "death_energy": {
+        "description": "Divine energy of death, transition and underworld",
+        "color": "shadow_black",
+        "properties": ["death_transition", "underworld_guidance", "soul_protection", "death_power", "eternal_sleep"],
+        "sources": ["death_gods", "underworld_temples", "cemeteries", "psychic_mediums"],
+        "spells": [
+          "soul_guiding",
+          "death_transition",
+          "underworld_passage",
+          "soul_protection",
+          "death_blessing",
+          "eternal_rest",
+          "undead_control",
+          "psychic_communion"
+        ]
+      },
+      "chaos_energy": {
+        "description": "Divine energy of change, chaos and transformation",
+        "color": "purple_mixed",
+        "properties": ["chaos_magic", "transformation", "unpredictability", "change_agent", "creative_destruction"],
+        "sources": ["chaos_gods", "transformation_sites", "chaos_rituals", "dimensional_rifts"],
+        "spells": [
+          "chaos_transformation",
+          "reality_warp",
+          "lucky_transformation",
+          "chaos_blessing",
+          "unpredictable_magic",
+          "dimensional_shift",
+          "creative_destruction",
+          "chaos_grace"
+        ]
+      },
+      "creation_energy": {
+        "description": "Divine energy of creation, art and craftsmanship",
+        "color": "rainbow_spectrum",
+        "properties": ["creation", "artistic_inspiration", "craftsmanship", "innovation", "masterwork"],
+        "sources": ["creation_gods", "artisan_temples", "creative_sites", "inspiration_spirits"],
+        "spells": [
+          "divine_creation",
+          "artistic_inspiration",
+          "masterwork_craft",
+          "innovation_spark",
+          "creative_blessing",
+          "perfection_grant",
+          "divine_artistry",
+          "inspiration_burst"
+        ]
+      },
+      "elemental_divine": {
+        "description": "Divine energy of elemental forces",
+        "colors": ["fiery_orange", "deep_blue", "earth_brown", "air_white"],
+        "properties": ["elemental_mastery", "natural_forces", "elemental_fusion", "primal_energy"],
+        "sources": ["elemental_gods", "elemental_planes", "primal_fountains", "elemental_temples"],
+        "spells": [
+          "divine_fire",
+          "divine_water",
+          "divine_earth",
+          "divine_air",
+          "elemental_fusion",
+          "primal_command",
+          "elemental_mastery",
+          "divine_storm"
+        ]
+      }
+    },
+    "spell_categories": {
+      "blessing_spells": {
+        "description": "Spells that bestow divine favor and positive effects",
+        "energy_types": ["holy_energy", "wisdom_energy", "creation_energy"],
+        "effects": ["stat_boost", "special_abilities", "protection", "guidance"],
+        "duration": "temporary_to_permanent"
+      },
+      "miracle_spells": {
+        "description": "Spells that perform supernatural acts beyond normal magic",
+        "energy_types": ["all_divine_energies"],
+        "effects": ["reality_bending", "impossible_acts", "divine_intervention"],
+        "requirements": "high_faith_rating"
+      },
+      "cursing_spells": {
+        "description": "Spells that inflict divine punishment or negative effects",
+        "energy_types": ["death_energy", "war_energy", "chaos_energy"],
+        "effects": ["attribute_reduction", "status_effects", "divine_malice"],
+        "moral_impact": "alignment_shift"
+      },
+      "ritual_spells": {
+        "description": "Complex spells requiring ceremonies, offerings and time",
+        "energy_types": ["all_divine_energies"],
+        "effects": ["permanent_changes", "powerful_summoning", "divine_awakening"],
+        "requirements": ["ritual_components", "ceremonial_leadership"]
+      },
+      "prophetic_spells": {
+        "description": "Spells that reveal future events or hidden knowledge",
+        "energy_types": ["wisdom_energy", "death_energy"],
+        "effects": ["future_sight", "knowledge_revelation", "prophetic_guidance"],
+        "consequences": "knowledge_burden"
+      }
+    },
+    "spell_levels": {
+      "minor_divine": {
+        "power_cost": "low",
+        "faith_requirement": "basic",
+        "examples": ["healing_light", "divine_guidance", "small_blessing"]
+      },
+      "moderate_divine": {
+        "power_cost": "medium",
+        "faith_requirement": "devoted",
+        "examples": ["divine_protection", "prophetic_vision", "moderate_healing"]
+      },
+      "major_divine": {
+        "power_cost": "high",
+        "faith_requirement": "zealous",
+        "examples": ["resurrection", "divine_intervention", "reality_warp"]
+      },
+      "legendary_divine": {
+        "power_cost": "extreme",
+        "faith_requirement": "canonized",
+        "examples": ["world_creation", "divine_awakening", "pantheon_summoning"]
+      }
+    }
+  }
+}

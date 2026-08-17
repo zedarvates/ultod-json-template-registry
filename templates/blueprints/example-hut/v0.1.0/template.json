@@ -1,0 +1,43 @@
+{
+  "blueprint_id": "example_hut",
+  "name": "Cabane d'exemple (test importeur)",
+  "lot": { "width": 7, "depth": 4, "cell_size": 1.0, "floor_height": 3.0 },
+  "floors": [
+    {
+      "level": 0,
+      "tiles": [
+        { "x": 0, "z": 0, "part_id": "sol_planches" },
+        { "x": 1, "z": 0, "part_id": "sol_planches" },
+        { "x": 2, "z": 0, "part_id": "sol_planches" },
+        { "x": 0, "z": 1, "part_id": "sol_planches" },
+        { "x": 1, "z": 1, "part_id": "sol_planches" },
+        { "x": 2, "z": 1, "part_id": "sol_planches" }
+      ],
+      "walls": [
+        { "x": 0, "z": 0, "edge": "N", "part_id": "mur_bois" },
+        { "x": 1, "z": 0, "edge": "N", "part_id": "mur_bois" },
+        { "x": 2, "z": 0, "edge": "N", "part_id": "fenetre_simple" },
+        { "x": 0, "z": 2, "edge": "N", "part_id": "mur_bois" },
+        { "x": 1, "z": 2, "edge": "N", "part_id": "porte_bois" },
+        { "x": 2, "z": 2, "edge": "N", "part_id": "mur_bois" },
+        { "x": 0, "z": 0, "edge": "W", "part_id": "mur_bois" },
+        { "x": 0, "z": 1, "edge": "W", "part_id": "mur_bois" },
+        { "x": 3, "z": 0, "edge": "W", "part_id": "mur_bois" },
+        { "x": 3, "z": 1, "edge": "W", "part_id": "mur_bois" }
+      ]
+    }
+  ],
+  "roof": [
+    { "x": 0, "z": 0, "part_id": "toit_pan_chaume", "rotation": 0 },
+    { "x": 1, "z": 0, "part_id": "toit_pan_chaume", "rotation": 0 },
+    { "x": 2, "z": 0, "part_id": "toit_pan_chaume", "rotation": 0 },
+    { "x": 0, "z": 1, "part_id": "toit_pan_chaume", "rotation": 0 },
+    { "x": 1, "z": 1, "part_id": "toit_pan_chaume", "rotation": 0 },
+    { "x": 2, "z": 1, "part_id": "toit_pan_chaume", "rotation": 0 }
+  ],
+  "garden": [
+    { "part_id": "arbre_chene", "position": [5.0, 0.0, 1.0], "rotation_y": 0, "scale": 1.0 },
+    { "part_id": "buisson", "position": [5.0, 0.0, 2.5], "rotation_y": 30, "scale": 1.0 },
+    { "part_id": "chemin_gravier", "position": [1.5, 0.0, 3.2], "rotation_y": 0, "scale": 1.0 }
+  ]
+}

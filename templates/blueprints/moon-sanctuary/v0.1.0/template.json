@@ -1,0 +1,546 @@
+{
+  "blueprint_id": "moon_sanctuary",
+  "name": "Sanctuaire lunaire (L'Entre-Deux) — placeholder colonnade",
+  "lot": {
+    "width": 10,
+    "depth": 10,
+    "cell_size": 1.0,
+    "floor_height": 3.0
+  },
+  "floors": [
+    {
+      "level": 0,
+      "tiles": [
+        {
+          "x": 0,
+          "z": 0,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 0,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 0,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 0,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 0,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 0,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 0,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 0,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 0,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 0,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 1,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 0,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 2,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 0,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 3,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 0,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 4,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 0,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 5,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 0,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 6,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 0,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 7,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 0,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 1,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 2,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 3,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 4,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 5,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 6,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 7,
+          "part_id": "dalle_marbre"
+        },
+        {
+          "x": 8,
+          "z": 8,
+          "part_id": "dalle_marbre"
+        }
+      ],
+      "walls": []
+    }
+  ],
+  "roof": [],
+  "garden": [
+    {
+      "part_id": "colonne_dorique",
+      "position": [
+        8.5,
+        0.0,
+        4.5
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_dorique",
+      "position": [
+        7.33,
+        0.0,
+        7.33
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_dorique",
+      "position": [
+        4.5,
+        0.0,
+        8.5
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_dorique",
+      "position": [
+        1.67,
+        0.0,
+        7.33
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_dorique",
+      "position": [
+        0.5,
+        0.0,
+        4.5
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_dorique",
+      "position": [
+        1.67,
+        0.0,
+        1.67
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_dorique",
+      "position": [
+        4.5,
+        0.0,
+        0.5
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "colonne_dorique",
+      "position": [
+        7.33,
+        0.0,
+        1.67
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "statue_gardienne",
+      "position": [
+        4.5,
+        0.0,
+        4.5
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "bassin_reflechissant",
+      "position": [
+        4.5,
+        0.0,
+        6.3
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "brasero_bronze",
+      "position": [
+        2.5,
+        0.0,
+        2.5
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "brasero_bronze",
+      "position": [
+        6.5,
+        0.0,
+        6.5
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    }
+  ]
+}
