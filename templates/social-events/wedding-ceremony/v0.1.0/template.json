@@ -1,0 +1,31 @@
+{
+  "id": "wedding_ceremony",
+  "name": "Cérémonie de Mariage",
+  "description": "Une cérémonie magnifique célébrant l'union de deux âmes",
+  "event_type": "wedding",
+  "base_duration_hours": 2,
+  "max_participants": 100,
+  "entry_fee_gold": 0,
+  "rewards": [
+    {
+      "type": "experience",
+      "value": 500.0,
+      "chance": 1.0,
+      "description": "Expérience sociale"
+    },
+    {
+      "type": "item",
+      "value": 1.0,
+      "chance": 0.5,
+      "description": "Confetti ou pétales de rose"
+    }
+  ],
+  "requirements": {
+    "min_level": 1,
+    "max_level": 100
+  },
+  "schedule": {
+    "frequency": "special",
+    "preferred_times": ["evening", "weekend"]
+  }
+}

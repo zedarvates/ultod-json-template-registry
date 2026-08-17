@@ -49,6 +49,8 @@ Le lot `mentorship` publie `combat_training.json`, identique octet pour octet en
 
 Le lot `marriage` publie `romantic_marriage.json`, identique octet pour octet entre les sources serveur et client auditées. Il ne contient aucune identité réelle, SKU ou monnaie premium. Le consentement mutuel, les prérequis, le coût de cérémonie, les bonus, le logement et le stockage partagé doivent être vérifiés transactionnellement côté serveur ; `ceremony_cost` reste une unité abstraite non certifiée.
 
+Le lot `social_event` publie `wedding_ceremony.json`, identique octet pour octet entre les sources serveur et client auditées. Les participants, horaires, frais, expérience et objets distribués sont déclaratifs et doivent être autorisés et validés côté serveur. `mount/frost_dragon_mythic.json` reste exclu car il contient un chemin d'asset interne non audité et des paramètres de combat. `treasure_maps/treasure_map_tier_5.json` reste exclu en raison de références fortement évocatrices d'Ultima Online et de valeurs économiques non adaptées.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :
