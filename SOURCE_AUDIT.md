@@ -87,7 +87,11 @@ Le lot `abilities` publie dix capacités de boss originales et génériques, ide
 
 La famille `item` est entièrement exclue après audit de ses 155 fichiers. 151 entrées contiennent économie, contrôles internes, état runtime, assets ou référence tierce. `sets.json` et `wings.json` sont des sérialisations de tableaux .NET sans contrat de modèle exploitable. Les deux exemples de conscience d'objet restants mélangent une valeur économique aux propriétés physiques et contiennent du texte mojibake ; ils exigent une correction d'encodage et une séparation du contrat économique avant publication.
 
-Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :
+La famille `monsters` est entièrement exclue après audit de ses 428 fichiers. Tous relèvent du contrat interne/admin ; 426 exposent directement `admin_controls` et `debug_mode`. Le lot contient aussi un dragon UO, un chemin d'asset et quatre instantanés runtime de plantes. Aucun fichier n'offre donc une frontière publique sûre sans adaptation.
+
+La famille `spells` est entièrement exclue après audit de ses 1 615 fichiers. Tous exposent `admin_controls` et `debug_mode`, 14 ajoutent `admin_command`, et la collection mélange notamment des groupes One Piece, Aion, Warcraft et des panthéons réels. Trois sorts ajoutent des signaux commerciaux et un autre un mot-clé sensible. Les 168 sorts générés déjà comptabilisés sous `content_pipeline` restent également exclus selon la décision documentée plus haut.
+
+Les 65 familles courantes sont maintenant toutes auditées : aucune ne reste en état `pending`. Les fichiers non publiés sont des exclusions explicites ou des doublons couverts par empreinte. Les fichiers exclus comprennent notamment :
 
 - du contenu narratif et de jeu dont les droits ou les inspirations doivent être vérifiés ;
 - des paramètres de boutique, prix, devises premium et références SKU ;
