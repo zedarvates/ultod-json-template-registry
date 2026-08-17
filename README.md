@@ -173,6 +173,8 @@ templates/
 
 Le détail de la sélection initiale et des exclusions se trouve dans [SOURCE_AUDIT.md](SOURCE_AUDIT.md).
 
+La couverture exhaustive et l'état d'audit de chaque famille sont suivis dans [AUDIT-COVERAGE.md](AUDIT-COVERAGE.md) et [AUDIT-COVERAGE.json](AUDIT-COVERAGE.json).
+
 ## Versionnage
 
 Le registre suit un versionnage sémantique par modèle. Les règles détaillées se trouvent dans [VERSIONING.md](VERSIONING.md).

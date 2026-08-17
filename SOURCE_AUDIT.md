@@ -80,3 +80,9 @@ Les autres JSON restent hors du dépôt public en attendant un audit dédié. Il
 - des historiques techniques `_versions` non convertis en versions sémantiques.
 
 Aucun code du serveur Zig, secret ou paramètre d'infrastructure n'est inclus.
+
+## Couverture exhaustive
+
+L'inventaire agrégé couvre les trois sources et distingue les fichiers publiés, exclus et encore en attente. Les chemins sensibles des fichiers non publiés restent dans une liste de travail privée ; les comptes par famille, divergences et motifs de revue sont publics dans [AUDIT-COVERAGE.json](AUDIT-COVERAGE.json).
+
+Un état `pending-review` n'est pas une validation. La couverture ne sera déclarée complète que lorsque ce compte sera nul et que les validations globales auront été rejouées.
