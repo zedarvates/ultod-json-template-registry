@@ -1,0 +1,68 @@
+{
+  "id": "elixir_of_eternal_life",
+  "name": "Elixir of Eternal Life",
+  "description": "The ultimate alchemical masterpiece, said to grant immortality to those worthy enough to create it. This legendary elixir combines the essence of life itself with divine blessings and forbidden knowledge.",
+  "profession": "alchemy",
+  "difficulty": 0.95,
+  "experience_gained": 75000,
+  "special_materials": [
+    {
+      "material_id": "phoenix_tear",
+      "quantity": 3,
+      "rarity": "mythical",
+      "description": "Tears shed by a phoenix at the moment of rebirth"
+    },
+    {
+      "material_id": "world_tree_sap",
+      "quantity": 7,
+      "rarity": "legendary",
+      "description": "Sap from the ancient World Tree that connects all realms"
+    },
+    {
+      "material_id": "divine_ichor",
+      "quantity": 5,
+      "rarity": "legendary",
+      "description": "Blood of the gods, collected during celestial wars"
+    },
+    {
+      "material_id": "soul_crystal",
+      "quantity": 10,
+      "rarity": "epic",
+      "description": "Crystals containing captured souls of ancient heroes"
+    },
+    {
+      "material_id": "time_sand",
+      "quantity": 15,
+      "rarity": "rare",
+      "description": "Sand from the hourglass of time itself"
+    }
+  ],
+  "result_item_id": "elixir_of_eternal_life",
+  "unique_properties": [
+    {
+      "property_type": "immortality",
+      "value": 1.0,
+      "description": "Grants immunity to death once per day"
+    },
+    {
+      "property_type": "regeneration",
+      "value": 100.0,
+      "description": "Regenerates 100 health per second"
+    },
+    {
+      "property_type": "stat_boost",
+      "value": 0.5,
+      "description": "Permanently increases all stats by 50%"
+    },
+    {
+      "property_type": "divine_blessing",
+      "value": 1.0,
+      "description": "All divine spells have 100% success rate"
+    },
+    {
+      "property_type": "legendary_aura",
+      "value": 2.0,
+      "description": "Doubles the effectiveness of all auras and blessings"
+    }
+  ]
+}

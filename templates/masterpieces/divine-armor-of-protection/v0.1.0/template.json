@@ -1,0 +1,62 @@
+{
+  "id": "divine_armor_of_protection",
+  "name": "Divine Armor of Protection",
+  "description": "Armor blessed by the gods themselves, woven from divine threads and reinforced with the bones of fallen titans. This masterpiece provides unparalleled protection while enhancing the wearer's divine connection.",
+  "profession": "tailoring",
+  "difficulty": 0.85,
+  "experience_gained": 45000,
+  "special_materials": [
+    {
+      "material_id": "divine_silk",
+      "quantity": 10,
+      "rarity": "legendary",
+      "description": "Silk spun by celestial spiders in the heavens"
+    },
+    {
+      "material_id": "titan_bone",
+      "quantity": 8,
+      "rarity": "epic",
+      "description": "Bones from ancient titans that once ruled the world"
+    },
+    {
+      "material_id": "blessed_crystal",
+      "quantity": 5,
+      "rarity": "rare",
+      "description": "Crystals blessed by multiple divine entities"
+    },
+    {
+      "material_id": "angel_feather",
+      "quantity": 12,
+      "rarity": "epic",
+      "description": "Feathers from the wings of archangels"
+    }
+  ],
+  "result_item_id": "divine_armor_of_protection",
+  "unique_properties": [
+    {
+      "property_type": "divine_protection",
+      "value": 0.4,
+      "description": "40% damage reduction from divine sources"
+    },
+    {
+      "property_type": "holy_aura",
+      "value": 1.0,
+      "description": "Creates a holy aura that damages undead enemies"
+    },
+    {
+      "property_type": "prayer_amplification",
+      "value": 0.5,
+      "description": "Amplifies divine spells and prayers by 50%"
+    },
+    {
+      "property_type": "corruption_resistance",
+      "value": 1.0,
+      "description": "Complete immunity to corruption effects"
+    },
+    {
+      "property_type": "regeneration_aura",
+      "value": 15.0,
+      "description": "Regenerates 15 health per second for nearby allies"
+    }
+  ]
+}

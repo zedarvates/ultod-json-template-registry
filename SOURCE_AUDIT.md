@@ -55,6 +55,8 @@ Le lot suivant publie `dungeon/crypt_of_shadows.json` depuis la source serveur e
 
 Le lot `bosses` publie `custom_beast_01.json` et `gardien_crypte_01.json`, identiques octet pour octet entre les sources serveur et client auditées. Leurs statistiques, phases, capacités, invocations et références de butin sont déclaratives et doivent être résolues et validées côté serveur. Les deux fichiers `loot` restent exclus car leurs commentaires révèlent des chemins et statistiques d'implémentation Zig et les copies client divergent. Les deux tournois restent exclus pour leurs mécanismes économiques, pari ou contrôles administratifs. Les deux fichiers `virtues_factions` restent exclus pour leurs marqueurs associés à Ultima Online, notamment Britain.
 
+Le lot `masterpiece` publie ses trois créations, identiques octet pour octet entre les sources serveur et client auditées : armure divine, élixir de vie éternelle et lame d'éternité. Les matériaux, expériences, propriétés, immunités et bonus permanents sont déclaratifs et doivent être validés puis attribués côté serveur. Les trois fichiers `ability` restent exclus dans l'attente d'une adaptation originale, car le lot contient des noms de capacités directement associés à Warcraft, notamment `Blizzard` et `Frostbolt`.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

@@ -1,0 +1,57 @@
+{
+  "id": "legendary_blade_of_eternity",
+  "name": "Blade of Eternity",
+  "description": "A legendary sword forged from celestial steel and infused with the essence of time itself. This masterpiece weapon grows stronger with each battle, learning from the wielder's combat style.",
+  "profession": "blacksmithing",
+  "difficulty": 0.9,
+  "experience_gained": 50000,
+  "special_materials": [
+    {
+      "material_id": "celestial_steel_ingot",
+      "quantity": 5,
+      "rarity": "legendary",
+      "description": "Steel forged in the heart of a dying star"
+    },
+    {
+      "material_id": "temporal_crystal",
+      "quantity": 3,
+      "rarity": "epic",
+      "description": "Crystal that bends time itself"
+    },
+    {
+      "material_id": "dragon_heart",
+      "quantity": 1,
+      "rarity": "legendary",
+      "description": "The still-beating heart of an ancient dragon"
+    },
+    {
+      "material_id": "philosopher_stone",
+      "quantity": 1,
+      "rarity": "mythical",
+      "description": "Stone of ultimate transmutation"
+    }
+  ],
+  "result_item_id": "legendary_blade_of_eternity",
+  "unique_properties": [
+    {
+      "property_type": "adaptive_damage",
+      "value": 1.5,
+      "description": "Damage adapts to enemy weaknesses (+50% vs vulnerabilities)"
+    },
+    {
+      "property_type": "experience_boost",
+      "value": 0.25,
+      "description": "Grants 25% bonus experience from combat"
+    },
+    {
+      "property_type": "time_manipulation",
+      "value": 10.0,
+      "description": "10% chance to slow time during critical moments"
+    },
+    {
+      "property_type": "legendary_aura",
+      "value": 1.0,
+      "description": "Intimidates nearby enemies, reducing their attack speed"
+    }
+  ]
+}

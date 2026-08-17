@@ -4,7 +4,7 @@ Registre central destiné aux modèles JSON versionnés de l'écosystème Ultima
 
 ## Statut
 
-**Registre expérimental.** La collection contient 16 schémas JSON, un modèle de motifs haptiques, trois presets d'avatar, huit biomes, trois collections d'achievements, un modèle d'événement, trois configurations de guilde, un modèle de lieu, un blueprint de maison, un modèle de noms, six styles architecturaux, quatre modèles de rift, une configuration de groupe, un parcours de mentorat, un modèle de mariage, un événement social, un donjon, une configuration de parangons et deux modèles de boss en version `0.1.0`.
+**Registre expérimental.** La collection contient 16 schémas JSON, un modèle de motifs haptiques, trois presets d'avatar, huit biomes, trois collections d'achievements, un modèle d'événement, trois configurations de guilde, un modèle de lieu, un blueprint de maison, un modèle de noms, six styles architecturaux, quatre modèles de rift, une configuration de groupe, un parcours de mentorat, un modèle de mariage, un événement social, un donjon, une configuration de parangons, deux modèles de boss et trois chefs-d'œuvre d'artisanat en version `0.1.0`.
 
 Ces schémas sont des instantanés non certifiés. Aucun n'est encore déclaré compatible avec une version précise d'un client ou du serveur.
 
@@ -126,6 +126,11 @@ templates/
         README.md
   bosses/
     <nom-boss>/
+      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+        template.json
+        README.md
+  masterpieces/
+    <nom-creation>/
       v<MAJEUR>.<MINEUR>.<CORRECTIF>/
         template.json
         README.md
