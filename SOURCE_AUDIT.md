@@ -45,6 +45,8 @@ Le lot `rifts` publie les quatre fichiers audités : chaos, dimensionnel, élém
 
 Le lot `party` publie `adventure_party.json`, identique octet pour octet entre les sources serveur et client auditées. Les méthodes de butin, bonus, appartenances, factions et limites de composition sont déclaratifs et doivent être recalculés, autorisés et validés côté serveur. `city_layouts/havre_du_roi.json` reste exclu car les copies divergent et la source contient un layout résolu par le serveur ainsi que des chemins d'assets internes. `gathering_node/mithril_vein.json` reste exclu en raison de sa référence explicite au Mithril associé à Tolkien.
 
+Le lot `mentorship` publie `combat_training.json`, identique octet pour octet entre les sources serveur et client auditées. Les niveaux, réputation, objectifs, durées, expérience, points de compétence et titres sont des valeurs déclaratives non certifiées. Le serveur doit vérifier l'éligibilité et la progression puis rester seul responsable de toute attribution.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

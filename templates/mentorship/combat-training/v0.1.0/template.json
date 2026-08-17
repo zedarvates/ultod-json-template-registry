@@ -1,0 +1,55 @@
+{
+  "id": "combat_training",
+  "name": "Entraînement au Combat",
+  "description": "Apprendre les arts du combat auprès d'un mentor expérimenté",
+  "mentorship_type": "combat_training",
+  "lessons": [
+    {
+      "id": "basic_strikes",
+      "title": "Coups Basiques",
+      "description": "Maîtriser les attaques de base",
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "training_dummy",
+          "count": 10,
+          "description": "Vaincre 10 mannequins d'entraînement"
+        }
+      ],
+      "experience_reward": 100,
+      "duration_minutes": 30
+    },
+    {
+      "id": "positioning",
+      "title": "Positionnement Tactique",
+      "description": "Comprendre l'importance du positionnement",
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "enemy",
+          "count": 5,
+          "description": "Vaincre 5 ennemis en utilisant le bon positionnement"
+        }
+      ],
+      "experience_reward": 150,
+      "duration_minutes": 45
+    }
+  ],
+  "requirements": {
+    "mentor_min_level": 20,
+    "student_max_level": 15,
+    "reputation_requirement": 100
+  },
+  "rewards": [
+    {
+      "type": "skill_points",
+      "value": 5.0,
+      "description": "Points de compétence bonus"
+    },
+    {
+      "type": "title",
+      "value": 1.0,
+      "description": "Titre de 'Apprenti Combattant'"
+    }
+  ]
+}
