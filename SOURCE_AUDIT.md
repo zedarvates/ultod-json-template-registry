@@ -35,6 +35,8 @@ Le lot `guilds` ajoute trois configurations identiques côté serveur et build c
 
 Le lot `locations` publie uniquement `city_template.json`, identique côté serveur et build client VR. `temporal_nexus_complex.json` reste exclu car il contient des contrôles administratifs et des mécanismes internes complexes. Les coordonnées et références du modèle de ville restent des valeurs logiques non certifiées.
 
+Le lot `houses` publie uniquement `exemple_maisonnette_meublee.json`, identique octet pour octet entre les sources serveur et client auditées. `uo_villa_marbre.json` reste exclu car sa référence explicite au style Ultima Online exige une clarification des droits ou une adaptation visuelle originale. Les pièces et accessoires publiés sont des identifiants logiques ; les ressources visuelles, le rendu et l'assemblage runtime ne sont pas certifiés.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :
