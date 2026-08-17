@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0090",
+  "name": "Paladin Ascension #90",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 4,
+  "class": "paladin",
+  "level_range": [
+    17,
+    43
+  ],
+  "rewards": {
+    "xp": 3474,
+    "gold": 306,
+    "items": [
+      "paladin_quest_reward_90"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 48
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 46
+    }
+  ],
+  "generated": true
+}

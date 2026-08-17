@@ -1,0 +1,31 @@
+{
+  "id": "quest_mage_0062",
+  "name": "Mage Initiation #62",
+  "description": "Class-specific quest chain for mage",
+  "chain_length": 8,
+  "class": "mage",
+  "level_range": [
+    14,
+    52
+  ],
+  "rewards": {
+    "xp": 5824,
+    "gold": 208,
+    "items": [
+      "mage_quest_reward_62"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 30
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 85
+    }
+  ],
+  "generated": true
+}

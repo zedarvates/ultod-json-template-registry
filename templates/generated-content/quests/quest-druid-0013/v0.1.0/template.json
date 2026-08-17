@@ -1,0 +1,31 @@
+{
+  "id": "quest_druid_0013",
+  "name": "Druid Initiation #13",
+  "description": "Class-specific quest chain for druid",
+  "chain_length": 3,
+  "class": "druid",
+  "level_range": [
+    10,
+    60
+  ],
+  "rewards": {
+    "xp": 9530,
+    "gold": 404,
+    "items": [
+      "druid_quest_reward_13"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 16
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 33
+    }
+  ],
+  "generated": true
+}

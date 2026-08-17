@@ -1,0 +1,31 @@
+{
+  "id": "quest_ranger_0119",
+  "name": "Ranger Mastery #119",
+  "description": "Class-specific quest chain for ranger",
+  "chain_length": 7,
+  "class": "ranger",
+  "level_range": [
+    7,
+    36
+  ],
+  "rewards": {
+    "xp": 7817,
+    "gold": 54,
+    "items": [
+      "ranger_quest_reward_119"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 50
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 91
+    }
+  ],
+  "generated": true
+}

@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0006",
+  "name": "Paladin Ascension #6",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 7,
+  "class": "paladin",
+  "level_range": [
+    4,
+    38
+  ],
+  "rewards": {
+    "xp": 2891,
+    "gold": 237,
+    "items": [
+      "paladin_quest_reward_6"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 23
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 81
+    }
+  ],
+  "generated": true
+}

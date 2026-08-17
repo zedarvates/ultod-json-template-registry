@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0095",
+  "name": "Summoner Initiation #95",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 6,
+  "class": "summoner",
+  "level_range": [
+    22,
+    49
+  ],
+  "rewards": {
+    "xp": 4251,
+    "gold": 295,
+    "items": [
+      "summoner_quest_reward_95"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 50
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 28
+    }
+  ],
+  "generated": true
+}

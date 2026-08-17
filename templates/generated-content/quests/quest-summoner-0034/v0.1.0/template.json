@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0034",
+  "name": "Summoner Ascension #34",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 8,
+  "class": "summoner",
+  "level_range": [
+    26,
+    33
+  ],
+  "rewards": {
+    "xp": 9298,
+    "gold": 461,
+    "items": [
+      "summoner_quest_reward_34"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 35
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 87
+    }
+  ],
+  "generated": true
+}

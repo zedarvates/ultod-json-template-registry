@@ -1,0 +1,31 @@
+{
+  "id": "quest_druid_0073",
+  "name": "Druid Trial #73",
+  "description": "Class-specific quest chain for druid",
+  "chain_length": 6,
+  "class": "druid",
+  "level_range": [
+    18,
+    37
+  ],
+  "rewards": {
+    "xp": 1270,
+    "gold": 470,
+    "items": [
+      "druid_quest_reward_73"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 15
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 41
+    }
+  ],
+  "generated": true
+}

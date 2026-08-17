@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0061",
+  "name": "Summoner Initiation #61",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 7,
+  "class": "summoner",
+  "level_range": [
+    6,
+    57
+  ],
+  "rewards": {
+    "xp": 5929,
+    "gold": 473,
+    "items": [
+      "summoner_quest_reward_61"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 28
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 26
+    }
+  ],
+  "generated": true
+}

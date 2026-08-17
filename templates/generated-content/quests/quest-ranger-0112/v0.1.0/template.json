@@ -1,0 +1,31 @@
+{
+  "id": "quest_ranger_0112",
+  "name": "Ranger Initiation #112",
+  "description": "Class-specific quest chain for ranger",
+  "chain_length": 7,
+  "class": "ranger",
+  "level_range": [
+    13,
+    55
+  ],
+  "rewards": {
+    "xp": 5630,
+    "gold": 263,
+    "items": [
+      "ranger_quest_reward_112"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 36
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 43
+    }
+  ],
+  "generated": true
+}

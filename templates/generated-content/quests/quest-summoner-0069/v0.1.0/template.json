@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0069",
+  "name": "Summoner Ascension #69",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 4,
+  "class": "summoner",
+  "level_range": [
+    11,
+    44
+  ],
+  "rewards": {
+    "xp": 4324,
+    "gold": 500,
+    "items": [
+      "summoner_quest_reward_69"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 49
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 37
+    }
+  ],
+  "generated": true
+}

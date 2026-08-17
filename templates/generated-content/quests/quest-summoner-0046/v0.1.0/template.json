@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0046",
+  "name": "Summoner Trial #46",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 8,
+  "class": "summoner",
+  "level_range": [
+    8,
+    31
+  ],
+  "rewards": {
+    "xp": 4473,
+    "gold": 332,
+    "items": [
+      "summoner_quest_reward_46"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 38
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 83
+    }
+  ],
+  "generated": true
+}

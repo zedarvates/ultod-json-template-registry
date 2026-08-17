@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0062",
+  "name": "Summoner Trial #62",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 8,
+  "class": "summoner",
+  "level_range": [
+    20,
+    49
+  ],
+  "rewards": {
+    "xp": 4361,
+    "gold": 319,
+    "items": [
+      "summoner_quest_reward_62"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 14
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 65
+    }
+  ],
+  "generated": true
+}

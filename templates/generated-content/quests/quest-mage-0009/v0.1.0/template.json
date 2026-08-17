@@ -1,0 +1,31 @@
+{
+  "id": "quest_mage_0009",
+  "name": "Mage Trial #9",
+  "description": "Class-specific quest chain for mage",
+  "chain_length": 7,
+  "class": "mage",
+  "level_range": [
+    19,
+    45
+  ],
+  "rewards": {
+    "xp": 1808,
+    "gold": 143,
+    "items": [
+      "mage_quest_reward_9"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 21
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 86
+    }
+  ],
+  "generated": true
+}

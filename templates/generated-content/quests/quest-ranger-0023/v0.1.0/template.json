@@ -1,0 +1,31 @@
+{
+  "id": "quest_ranger_0023",
+  "name": "Ranger Mastery #23",
+  "description": "Class-specific quest chain for ranger",
+  "chain_length": 3,
+  "class": "ranger",
+  "level_range": [
+    23,
+    37
+  ],
+  "rewards": {
+    "xp": 8518,
+    "gold": 250,
+    "items": [
+      "ranger_quest_reward_23"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 43
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 69
+    }
+  ],
+  "generated": true
+}

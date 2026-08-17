@@ -1,0 +1,31 @@
+{
+  "id": "quest_druid_0108",
+  "name": "Druid Mastery #108",
+  "description": "Class-specific quest chain for druid",
+  "chain_length": 6,
+  "class": "druid",
+  "level_range": [
+    3,
+    56
+  ],
+  "rewards": {
+    "xp": 6660,
+    "gold": 496,
+    "items": [
+      "druid_quest_reward_108"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 46
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 77
+    }
+  ],
+  "generated": true
+}

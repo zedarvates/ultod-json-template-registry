@@ -1,0 +1,31 @@
+{
+  "id": "quest_rogue_0086",
+  "name": "Rogue Initiation #86",
+  "description": "Class-specific quest chain for rogue",
+  "chain_length": 3,
+  "class": "rogue",
+  "level_range": [
+    11,
+    41
+  ],
+  "rewards": {
+    "xp": 3409,
+    "gold": 300,
+    "items": [
+      "rogue_quest_reward_86"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 12
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 82
+    }
+  ],
+  "generated": true
+}

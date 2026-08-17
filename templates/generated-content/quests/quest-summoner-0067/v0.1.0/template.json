@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0067",
+  "name": "Summoner Mastery #67",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 6,
+  "class": "summoner",
+  "level_range": [
+    18,
+    59
+  ],
+  "rewards": {
+    "xp": 2830,
+    "gold": 156,
+    "items": [
+      "summoner_quest_reward_67"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 36
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 31
+    }
+  ],
+  "generated": true
+}

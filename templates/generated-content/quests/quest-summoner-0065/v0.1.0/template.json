@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0065",
+  "name": "Summoner Initiation #65",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 7,
+  "class": "summoner",
+  "level_range": [
+    7,
+    42
+  ],
+  "rewards": {
+    "xp": 2535,
+    "gold": 438,
+    "items": [
+      "summoner_quest_reward_65"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 29
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 24
+    }
+  ],
+  "generated": true
+}

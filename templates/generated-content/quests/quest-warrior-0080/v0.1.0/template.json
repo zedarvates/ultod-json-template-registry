@@ -1,0 +1,31 @@
+{
+  "id": "quest_warrior_0080",
+  "name": "Warrior Trial #80",
+  "description": "Class-specific quest chain for warrior",
+  "chain_length": 8,
+  "class": "warrior",
+  "level_range": [
+    23,
+    38
+  ],
+  "rewards": {
+    "xp": 7176,
+    "gold": 315,
+    "items": [
+      "warrior_quest_reward_80"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 33
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 46
+    }
+  ],
+  "generated": true
+}

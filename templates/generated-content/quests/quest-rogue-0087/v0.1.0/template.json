@@ -1,0 +1,31 @@
+{
+  "id": "quest_rogue_0087",
+  "name": "Rogue Mastery #87",
+  "description": "Class-specific quest chain for rogue",
+  "chain_length": 7,
+  "class": "rogue",
+  "level_range": [
+    14,
+    40
+  ],
+  "rewards": {
+    "xp": 5951,
+    "gold": 295,
+    "items": [
+      "rogue_quest_reward_87"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 44
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 83
+    }
+  ],
+  "generated": true
+}

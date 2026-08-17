@@ -1,0 +1,31 @@
+{
+  "id": "quest_mage_0064",
+  "name": "Mage Ascension #64",
+  "description": "Class-specific quest chain for mage",
+  "chain_length": 8,
+  "class": "mage",
+  "level_range": [
+    14,
+    52
+  ],
+  "rewards": {
+    "xp": 2441,
+    "gold": 189,
+    "items": [
+      "mage_quest_reward_64"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 46
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 29
+    }
+  ],
+  "generated": true
+}

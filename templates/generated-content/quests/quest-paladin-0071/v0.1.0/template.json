@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0071",
+  "name": "Paladin Ascension #71",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 6,
+  "class": "paladin",
+  "level_range": [
+    24,
+    41
+  ],
+  "rewards": {
+    "xp": 5248,
+    "gold": 461,
+    "items": [
+      "paladin_quest_reward_71"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 17
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 71
+    }
+  ],
+  "generated": true
+}

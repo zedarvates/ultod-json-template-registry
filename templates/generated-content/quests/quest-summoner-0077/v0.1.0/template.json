@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0077",
+  "name": "Summoner Mastery #77",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 7,
+  "class": "summoner",
+  "level_range": [
+    5,
+    34
+  ],
+  "rewards": {
+    "xp": 8307,
+    "gold": 73,
+    "items": [
+      "summoner_quest_reward_77"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 33
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 92
+    }
+  ],
+  "generated": true
+}

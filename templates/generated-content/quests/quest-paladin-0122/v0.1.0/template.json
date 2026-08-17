@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0122",
+  "name": "Paladin Initiation #122",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 3,
+  "class": "paladin",
+  "level_range": [
+    14,
+    36
+  ],
+  "rewards": {
+    "xp": 4887,
+    "gold": 304,
+    "items": [
+      "paladin_quest_reward_122"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 25
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 38
+    }
+  ],
+  "generated": true
+}

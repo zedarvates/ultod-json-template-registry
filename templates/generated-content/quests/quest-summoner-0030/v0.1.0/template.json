@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0030",
+  "name": "Summoner Initiation #30",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 7,
+  "class": "summoner",
+  "level_range": [
+    25,
+    55
+  ],
+  "rewards": {
+    "xp": 6825,
+    "gold": 398,
+    "items": [
+      "summoner_quest_reward_30"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 34
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 66
+    }
+  ],
+  "generated": true
+}

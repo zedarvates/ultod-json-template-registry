@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0120",
+  "name": "Summoner Trial #120",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 7,
+  "class": "summoner",
+  "level_range": [
+    14,
+    56
+  ],
+  "rewards": {
+    "xp": 6470,
+    "gold": 177,
+    "items": [
+      "summoner_quest_reward_120"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 18
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 37
+    }
+  ],
+  "generated": true
+}

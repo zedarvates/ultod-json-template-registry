@@ -1,0 +1,31 @@
+{
+  "id": "quest_healer_0002",
+  "name": "Healer Initiation #2",
+  "description": "Class-specific quest chain for healer",
+  "chain_length": 4,
+  "class": "healer",
+  "level_range": [
+    14,
+    49
+  ],
+  "rewards": {
+    "xp": 6138,
+    "gold": 177,
+    "items": [
+      "healer_quest_reward_2"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 40
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 39
+    }
+  ],
+  "generated": true
+}

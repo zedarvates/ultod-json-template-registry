@@ -1,0 +1,31 @@
+{
+  "id": "quest_druid_0053",
+  "name": "Druid Ascension #53",
+  "description": "Class-specific quest chain for druid",
+  "chain_length": 7,
+  "class": "druid",
+  "level_range": [
+    15,
+    31
+  ],
+  "rewards": {
+    "xp": 3751,
+    "gold": 371,
+    "items": [
+      "druid_quest_reward_53"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 23
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 43
+    }
+  ],
+  "generated": true
+}

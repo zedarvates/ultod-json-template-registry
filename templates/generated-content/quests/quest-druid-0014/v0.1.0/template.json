@@ -1,0 +1,31 @@
+{
+  "id": "quest_druid_0014",
+  "name": "Druid Ascension #14",
+  "description": "Class-specific quest chain for druid",
+  "chain_length": 4,
+  "class": "druid",
+  "level_range": [
+    23,
+    38
+  ],
+  "rewards": {
+    "xp": 5893,
+    "gold": 240,
+    "items": [
+      "druid_quest_reward_14"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 18
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 23
+    }
+  ],
+  "generated": true
+}

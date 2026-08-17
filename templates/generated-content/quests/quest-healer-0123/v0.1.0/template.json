@@ -1,0 +1,31 @@
+{
+  "id": "quest_healer_0123",
+  "name": "Healer Ascension #123",
+  "description": "Class-specific quest chain for healer",
+  "chain_length": 8,
+  "class": "healer",
+  "level_range": [
+    17,
+    31
+  ],
+  "rewards": {
+    "xp": 1551,
+    "gold": 181,
+    "items": [
+      "healer_quest_reward_123"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 34
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 75
+    }
+  ],
+  "generated": true
+}

@@ -1,0 +1,31 @@
+{
+  "id": "quest_rogue_0122",
+  "name": "Rogue Ascension #122",
+  "description": "Class-specific quest chain for rogue",
+  "chain_length": 3,
+  "class": "rogue",
+  "level_range": [
+    8,
+    42
+  ],
+  "rewards": {
+    "xp": 1362,
+    "gold": 299,
+    "items": [
+      "rogue_quest_reward_122"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 25
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 42
+    }
+  ],
+  "generated": true
+}

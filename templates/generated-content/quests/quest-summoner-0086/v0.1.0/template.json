@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0086",
+  "name": "Summoner Mastery #86",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 5,
+  "class": "summoner",
+  "level_range": [
+    4,
+    44
+  ],
+  "rewards": {
+    "xp": 1266,
+    "gold": 130,
+    "items": [
+      "summoner_quest_reward_86"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 18
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 52
+    }
+  ],
+  "generated": true
+}

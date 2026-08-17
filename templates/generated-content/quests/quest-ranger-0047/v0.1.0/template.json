@@ -1,0 +1,31 @@
+{
+  "id": "quest_ranger_0047",
+  "name": "Ranger Trial #47",
+  "description": "Class-specific quest chain for ranger",
+  "chain_length": 7,
+  "class": "ranger",
+  "level_range": [
+    6,
+    59
+  ],
+  "rewards": {
+    "xp": 7868,
+    "gold": 105,
+    "items": [
+      "ranger_quest_reward_47"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 39
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 31
+    }
+  ],
+  "generated": true
+}

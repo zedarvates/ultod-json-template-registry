@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0081",
+  "name": "Paladin Ascension #81",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 4,
+  "class": "paladin",
+  "level_range": [
+    23,
+    49
+  ],
+  "rewards": {
+    "xp": 8975,
+    "gold": 141,
+    "items": [
+      "paladin_quest_reward_81"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 50
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 57
+    }
+  ],
+  "generated": true
+}

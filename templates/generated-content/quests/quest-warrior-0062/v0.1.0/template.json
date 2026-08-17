@@ -1,0 +1,31 @@
+{
+  "id": "quest_warrior_0062",
+  "name": "Warrior Mastery #62",
+  "description": "Class-specific quest chain for warrior",
+  "chain_length": 7,
+  "class": "warrior",
+  "level_range": [
+    21,
+    59
+  ],
+  "rewards": {
+    "xp": 3669,
+    "gold": 146,
+    "items": [
+      "warrior_quest_reward_62"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 24
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 74
+    }
+  ],
+  "generated": true
+}

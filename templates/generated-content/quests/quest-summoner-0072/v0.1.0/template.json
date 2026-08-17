@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0072",
+  "name": "Summoner Initiation #72",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 8,
+  "class": "summoner",
+  "level_range": [
+    28,
+    43
+  ],
+  "rewards": {
+    "xp": 2922,
+    "gold": 424,
+    "items": [
+      "summoner_quest_reward_72"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 17
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 81
+    }
+  ],
+  "generated": true
+}

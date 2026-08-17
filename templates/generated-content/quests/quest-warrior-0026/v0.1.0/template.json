@@ -1,0 +1,31 @@
+{
+  "id": "quest_warrior_0026",
+  "name": "Warrior Ascension #26",
+  "description": "Class-specific quest chain for warrior",
+  "chain_length": 6,
+  "class": "warrior",
+  "level_range": [
+    23,
+    55
+  ],
+  "rewards": {
+    "xp": 8104,
+    "gold": 285,
+    "items": [
+      "warrior_quest_reward_26"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 33
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 71
+    }
+  ],
+  "generated": true
+}

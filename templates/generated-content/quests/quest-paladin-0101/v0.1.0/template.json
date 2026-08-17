@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0101",
+  "name": "Paladin Trial #101",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 3,
+  "class": "paladin",
+  "level_range": [
+    2,
+    56
+  ],
+  "rewards": {
+    "xp": 1070,
+    "gold": 453,
+    "items": [
+      "paladin_quest_reward_101"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 14
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 79
+    }
+  ],
+  "generated": true
+}

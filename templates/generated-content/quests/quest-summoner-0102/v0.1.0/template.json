@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0102",
+  "name": "Summoner Trial #102",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 8,
+  "class": "summoner",
+  "level_range": [
+    29,
+    34
+  ],
+  "rewards": {
+    "xp": 3045,
+    "gold": 355,
+    "items": [
+      "summoner_quest_reward_102"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 29
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 80
+    }
+  ],
+  "generated": true
+}

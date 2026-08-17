@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0044",
+  "name": "Paladin Mastery #44",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 6,
+  "class": "paladin",
+  "level_range": [
+    16,
+    32
+  ],
+  "rewards": {
+    "xp": 4784,
+    "gold": 291,
+    "items": [
+      "paladin_quest_reward_44"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 39
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 37
+    }
+  ],
+  "generated": true
+}

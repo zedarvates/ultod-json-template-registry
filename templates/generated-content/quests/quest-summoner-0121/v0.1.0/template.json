@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0121",
+  "name": "Summoner Initiation #121",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 5,
+  "class": "summoner",
+  "level_range": [
+    3,
+    33
+  ],
+  "rewards": {
+    "xp": 6546,
+    "gold": 218,
+    "items": [
+      "summoner_quest_reward_121"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 37
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 37
+    }
+  ],
+  "generated": true
+}

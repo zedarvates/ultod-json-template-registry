@@ -1,0 +1,31 @@
+{
+  "id": "quest_ranger_0110",
+  "name": "Ranger Ascension #110",
+  "description": "Class-specific quest chain for ranger",
+  "chain_length": 3,
+  "class": "ranger",
+  "level_range": [
+    12,
+    54
+  ],
+  "rewards": {
+    "xp": 3606,
+    "gold": 145,
+    "items": [
+      "ranger_quest_reward_110"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 46
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 82
+    }
+  ],
+  "generated": true
+}

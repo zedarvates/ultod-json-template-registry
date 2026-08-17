@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0015",
+  "name": "Summoner Mastery #15",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 4,
+  "class": "summoner",
+  "level_range": [
+    8,
+    31
+  ],
+  "rewards": {
+    "xp": 9780,
+    "gold": 399,
+    "items": [
+      "summoner_quest_reward_15"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 34
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 58
+    }
+  ],
+  "generated": true
+}

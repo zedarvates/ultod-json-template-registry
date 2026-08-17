@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0057",
+  "name": "Paladin Trial #57",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 3,
+  "class": "paladin",
+  "level_range": [
+    8,
+    36
+  ],
+  "rewards": {
+    "xp": 7638,
+    "gold": 226,
+    "items": [
+      "paladin_quest_reward_57"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 32
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 40
+    }
+  ],
+  "generated": true
+}

@@ -1,0 +1,31 @@
+{
+  "id": "quest_druid_0094",
+  "name": "Druid Mastery #94",
+  "description": "Class-specific quest chain for druid",
+  "chain_length": 5,
+  "class": "druid",
+  "level_range": [
+    19,
+    37
+  ],
+  "rewards": {
+    "xp": 5397,
+    "gold": 464,
+    "items": [
+      "druid_quest_reward_94"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 39
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 98
+    }
+  ],
+  "generated": true
+}

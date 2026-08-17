@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0013",
+  "name": "Summoner Mastery #13",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 4,
+  "class": "summoner",
+  "level_range": [
+    8,
+    44
+  ],
+  "rewards": {
+    "xp": 8780,
+    "gold": 289,
+    "items": [
+      "summoner_quest_reward_13"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 47
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 76
+    }
+  ],
+  "generated": true
+}

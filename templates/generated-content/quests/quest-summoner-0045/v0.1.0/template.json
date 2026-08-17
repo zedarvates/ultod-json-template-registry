@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0045",
+  "name": "Summoner Ascension #45",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 7,
+  "class": "summoner",
+  "level_range": [
+    14,
+    57
+  ],
+  "rewards": {
+    "xp": 5038,
+    "gold": 364,
+    "items": [
+      "summoner_quest_reward_45"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 44
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 94
+    }
+  ],
+  "generated": true
+}

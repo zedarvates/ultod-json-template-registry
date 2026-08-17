@@ -1,0 +1,31 @@
+{
+  "id": "quest_ranger_0122",
+  "name": "Ranger Mastery #122",
+  "description": "Class-specific quest chain for ranger",
+  "chain_length": 7,
+  "class": "ranger",
+  "level_range": [
+    5,
+    49
+  ],
+  "rewards": {
+    "xp": 3426,
+    "gold": 333,
+    "items": [
+      "ranger_quest_reward_122"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 32
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 37
+    }
+  ],
+  "generated": true
+}

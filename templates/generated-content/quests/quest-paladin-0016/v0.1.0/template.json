@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0016",
+  "name": "Paladin Initiation #16",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 8,
+  "class": "paladin",
+  "level_range": [
+    10,
+    48
+  ],
+  "rewards": {
+    "xp": 3790,
+    "gold": 106,
+    "items": [
+      "paladin_quest_reward_16"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 21
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 47
+    }
+  ],
+  "generated": true
+}

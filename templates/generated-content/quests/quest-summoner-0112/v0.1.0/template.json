@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0112",
+  "name": "Summoner Ascension #112",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 3,
+  "class": "summoner",
+  "level_range": [
+    7,
+    52
+  ],
+  "rewards": {
+    "xp": 8349,
+    "gold": 75,
+    "items": [
+      "summoner_quest_reward_112"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 16
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 84
+    }
+  ],
+  "generated": true
+}

@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0004",
+  "name": "Summoner Initiation #4",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 4,
+  "class": "summoner",
+  "level_range": [
+    1,
+    32
+  ],
+  "rewards": {
+    "xp": 7595,
+    "gold": 338,
+    "items": [
+      "summoner_quest_reward_4"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 39
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 94
+    }
+  ],
+  "generated": true
+}

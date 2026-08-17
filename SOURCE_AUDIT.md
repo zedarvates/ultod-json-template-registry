@@ -63,6 +63,8 @@ Le lot `recipe` publie cinq fichiers identiques octet pour octet entre les sourc
 
 Le lot `creatures` publie 29 des 30 fichiers depuis la source serveur : animaux communs, créatures fantasy et figures mythologiques celtiques, chinoises ou nordiques, plus un drone d'entraînement lunaire. Les 29 copies présentes côté client divergent ; le drone lunaire est absent du client. Aucune compatibilité client n'est donc revendiquée. Chimies, traits, anatomies, pièces et butins sont déclaratifs, sans asset inclus ou certifié, et les entrées mythologiques ne constituent pas des références culturelles ou historiques. `xenomorph.json` reste exclu comme référence directe à la franchise Alien.
 
+Le lot `content_pipeline` publie son manifeste et 1 000 quêtes générées, identiques octet pour octet entre les sources serveur et client auditées. Les marqueurs tels que `balance_validated` ou `ready_for_import` décrivent uniquement l'état déclaré par la source et ne constituent pas une certification. Les 168 sorts générés restent exclus car ils exposent des contrôles administratifs et appartiennent à une collection de sorts nécessitant un audit de droits et de contrat plus approfondi.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :

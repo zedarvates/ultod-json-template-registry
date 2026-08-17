@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0039",
+  "name": "Summoner Initiation #39",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 6,
+  "class": "summoner",
+  "level_range": [
+    3,
+    51
+  ],
+  "rewards": {
+    "xp": 3291,
+    "gold": 241,
+    "items": [
+      "summoner_quest_reward_39"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 21
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 62
+    }
+  ],
+  "generated": true
+}

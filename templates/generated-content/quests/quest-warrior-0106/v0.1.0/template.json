@@ -1,0 +1,31 @@
+{
+  "id": "quest_warrior_0106",
+  "name": "Warrior Trial #106",
+  "description": "Class-specific quest chain for warrior",
+  "chain_length": 4,
+  "class": "warrior",
+  "level_range": [
+    7,
+    44
+  ],
+  "rewards": {
+    "xp": 9643,
+    "gold": 412,
+    "items": [
+      "warrior_quest_reward_106"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 31
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 58
+    }
+  ],
+  "generated": true
+}

@@ -1,0 +1,31 @@
+{
+  "id": "quest_ranger_0085",
+  "name": "Ranger Trial #85",
+  "description": "Class-specific quest chain for ranger",
+  "chain_length": 8,
+  "class": "ranger",
+  "level_range": [
+    23,
+    39
+  ],
+  "rewards": {
+    "xp": 5260,
+    "gold": 443,
+    "items": [
+      "ranger_quest_reward_85"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 30
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 52
+    }
+  ],
+  "generated": true
+}

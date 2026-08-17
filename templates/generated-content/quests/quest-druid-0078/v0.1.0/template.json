@@ -1,0 +1,31 @@
+{
+  "id": "quest_druid_0078",
+  "name": "Druid Initiation #78",
+  "description": "Class-specific quest chain for druid",
+  "chain_length": 4,
+  "class": "druid",
+  "level_range": [
+    9,
+    51
+  ],
+  "rewards": {
+    "xp": 2134,
+    "gold": 65,
+    "items": [
+      "druid_quest_reward_78"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 26
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 62
+    }
+  ],
+  "generated": true
+}

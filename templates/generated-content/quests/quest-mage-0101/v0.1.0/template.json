@@ -1,0 +1,31 @@
+{
+  "id": "quest_mage_0101",
+  "name": "Mage Initiation #101",
+  "description": "Class-specific quest chain for mage",
+  "chain_length": 5,
+  "class": "mage",
+  "level_range": [
+    8,
+    41
+  ],
+  "rewards": {
+    "xp": 4495,
+    "gold": 268,
+    "items": [
+      "mage_quest_reward_101"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 26
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 79
+    }
+  ],
+  "generated": true
+}

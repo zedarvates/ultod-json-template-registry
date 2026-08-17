@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0020",
+  "name": "Paladin Mastery #20",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 3,
+  "class": "paladin",
+  "level_range": [
+    24,
+    43
+  ],
+  "rewards": {
+    "xp": 8311,
+    "gold": 393,
+    "items": [
+      "paladin_quest_reward_20"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 48
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 56
+    }
+  ],
+  "generated": true
+}

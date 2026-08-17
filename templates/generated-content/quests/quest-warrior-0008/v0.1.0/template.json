@@ -1,0 +1,31 @@
+{
+  "id": "quest_warrior_0008",
+  "name": "Warrior Initiation #8",
+  "description": "Class-specific quest chain for warrior",
+  "chain_length": 7,
+  "class": "warrior",
+  "level_range": [
+    17,
+    32
+  ],
+  "rewards": {
+    "xp": 2080,
+    "gold": 208,
+    "items": [
+      "warrior_quest_reward_8"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 41
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 88
+    }
+  ],
+  "generated": true
+}

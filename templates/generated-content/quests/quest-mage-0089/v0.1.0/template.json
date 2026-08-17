@@ -1,0 +1,31 @@
+{
+  "id": "quest_mage_0089",
+  "name": "Mage Mastery #89",
+  "description": "Class-specific quest chain for mage",
+  "chain_length": 4,
+  "class": "mage",
+  "level_range": [
+    27,
+    56
+  ],
+  "rewards": {
+    "xp": 7399,
+    "gold": 199,
+    "items": [
+      "mage_quest_reward_89"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 19
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 25
+    }
+  ],
+  "generated": true
+}

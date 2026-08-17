@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0033",
+  "name": "Summoner Trial #33",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 8,
+  "class": "summoner",
+  "level_range": [
+    20,
+    37
+  ],
+  "rewards": {
+    "xp": 9946,
+    "gold": 378,
+    "items": [
+      "summoner_quest_reward_33"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 27
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 87
+    }
+  ],
+  "generated": true
+}

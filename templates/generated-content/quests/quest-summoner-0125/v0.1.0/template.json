@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0125",
+  "name": "Summoner Initiation #125",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 3,
+  "class": "summoner",
+  "level_range": [
+    19,
+    31
+  ],
+  "rewards": {
+    "xp": 9599,
+    "gold": 136,
+    "items": [
+      "summoner_quest_reward_125"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 39
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 86
+    }
+  ],
+  "generated": true
+}

@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0058",
+  "name": "Summoner Mastery #58",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 5,
+  "class": "summoner",
+  "level_range": [
+    2,
+    46
+  ],
+  "rewards": {
+    "xp": 6546,
+    "gold": 384,
+    "items": [
+      "summoner_quest_reward_58"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 29
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 28
+    }
+  ],
+  "generated": true
+}

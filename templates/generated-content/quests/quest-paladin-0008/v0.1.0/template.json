@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0008",
+  "name": "Paladin Mastery #8",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 5,
+  "class": "paladin",
+  "level_range": [
+    12,
+    37
+  ],
+  "rewards": {
+    "xp": 9188,
+    "gold": 413,
+    "items": [
+      "paladin_quest_reward_8"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 41
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 35
+    }
+  ],
+  "generated": true
+}

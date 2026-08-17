@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0051",
+  "name": "Summoner Ascension #51",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 6,
+  "class": "summoner",
+  "level_range": [
+    21,
+    57
+  ],
+  "rewards": {
+    "xp": 3700,
+    "gold": 494,
+    "items": [
+      "summoner_quest_reward_51"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 27
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 50
+    }
+  ],
+  "generated": true
+}

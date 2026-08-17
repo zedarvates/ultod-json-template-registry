@@ -1,0 +1,31 @@
+{
+  "id": "quest_rogue_0034",
+  "name": "Rogue Trial #34",
+  "description": "Class-specific quest chain for rogue",
+  "chain_length": 4,
+  "class": "rogue",
+  "level_range": [
+    29,
+    36
+  ],
+  "rewards": {
+    "xp": 1164,
+    "gold": 301,
+    "items": [
+      "rogue_quest_reward_34"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 33
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 62
+    }
+  ],
+  "generated": true
+}

@@ -1,0 +1,31 @@
+{
+  "id": "quest_healer_0026",
+  "name": "Healer Mastery #26",
+  "description": "Class-specific quest chain for healer",
+  "chain_length": 4,
+  "class": "healer",
+  "level_range": [
+    4,
+    40
+  ],
+  "rewards": {
+    "xp": 7514,
+    "gold": 402,
+    "items": [
+      "healer_quest_reward_26"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 11
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 58
+    }
+  ],
+  "generated": true
+}

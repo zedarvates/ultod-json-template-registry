@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0043",
+  "name": "Summoner Ascension #43",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 7,
+  "class": "summoner",
+  "level_range": [
+    17,
+    45
+  ],
+  "rewards": {
+    "xp": 3532,
+    "gold": 261,
+    "items": [
+      "summoner_quest_reward_43"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 38
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 98
+    }
+  ],
+  "generated": true
+}

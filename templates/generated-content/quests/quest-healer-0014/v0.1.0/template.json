@@ -1,0 +1,31 @@
+{
+  "id": "quest_healer_0014",
+  "name": "Healer Trial #14",
+  "description": "Class-specific quest chain for healer",
+  "chain_length": 8,
+  "class": "healer",
+  "level_range": [
+    15,
+    41
+  ],
+  "rewards": {
+    "xp": 5547,
+    "gold": 410,
+    "items": [
+      "healer_quest_reward_14"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 49
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 60
+    }
+  ],
+  "generated": true
+}

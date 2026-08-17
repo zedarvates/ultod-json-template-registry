@@ -1,0 +1,31 @@
+{
+  "id": "quest_druid_0085",
+  "name": "Druid Mastery #85",
+  "description": "Class-specific quest chain for druid",
+  "chain_length": 3,
+  "class": "druid",
+  "level_range": [
+    4,
+    32
+  ],
+  "rewards": {
+    "xp": 3618,
+    "gold": 174,
+    "items": [
+      "druid_quest_reward_85"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 21
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 53
+    }
+  ],
+  "generated": true
+}

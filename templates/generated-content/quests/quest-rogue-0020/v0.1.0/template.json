@@ -1,0 +1,31 @@
+{
+  "id": "quest_rogue_0020",
+  "name": "Rogue Ascension #20",
+  "description": "Class-specific quest chain for rogue",
+  "chain_length": 8,
+  "class": "rogue",
+  "level_range": [
+    14,
+    56
+  ],
+  "rewards": {
+    "xp": 1661,
+    "gold": 139,
+    "items": [
+      "rogue_quest_reward_20"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 40
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 53
+    }
+  ],
+  "generated": true
+}

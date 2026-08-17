@@ -1,0 +1,31 @@
+{
+  "id": "quest_healer_0064",
+  "name": "Healer Mastery #64",
+  "description": "Class-specific quest chain for healer",
+  "chain_length": 3,
+  "class": "healer",
+  "level_range": [
+    4,
+    39
+  ],
+  "rewards": {
+    "xp": 8470,
+    "gold": 220,
+    "items": [
+      "healer_quest_reward_64"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 49
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 66
+    }
+  ],
+  "generated": true
+}

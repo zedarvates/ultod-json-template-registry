@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0026",
+  "name": "Summoner Ascension #26",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 3,
+  "class": "summoner",
+  "level_range": [
+    6,
+    57
+  ],
+  "rewards": {
+    "xp": 3040,
+    "gold": 124,
+    "items": [
+      "summoner_quest_reward_26"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 38
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 77
+    }
+  ],
+  "generated": true
+}

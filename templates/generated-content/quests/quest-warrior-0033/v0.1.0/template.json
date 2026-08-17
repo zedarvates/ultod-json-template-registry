@@ -1,0 +1,31 @@
+{
+  "id": "quest_warrior_0033",
+  "name": "Warrior Trial #33",
+  "description": "Class-specific quest chain for warrior",
+  "chain_length": 4,
+  "class": "warrior",
+  "level_range": [
+    7,
+    43
+  ],
+  "rewards": {
+    "xp": 2464,
+    "gold": 307,
+    "items": [
+      "warrior_quest_reward_33"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 44
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 70
+    }
+  ],
+  "generated": true
+}

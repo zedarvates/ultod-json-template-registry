@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0003",
+  "name": "Summoner Ascension #3",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 8,
+  "class": "summoner",
+  "level_range": [
+    16,
+    56
+  ],
+  "rewards": {
+    "xp": 3686,
+    "gold": 336,
+    "items": [
+      "summoner_quest_reward_3"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 21
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 69
+    }
+  ],
+  "generated": true
+}

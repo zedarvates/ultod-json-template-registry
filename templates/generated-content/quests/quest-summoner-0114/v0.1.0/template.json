@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0114",
+  "name": "Summoner Mastery #114",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 4,
+  "class": "summoner",
+  "level_range": [
+    13,
+    53
+  ],
+  "rewards": {
+    "xp": 6703,
+    "gold": 494,
+    "items": [
+      "summoner_quest_reward_114"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 38
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 38
+    }
+  ],
+  "generated": true
+}

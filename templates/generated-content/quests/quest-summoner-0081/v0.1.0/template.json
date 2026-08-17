@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0081",
+  "name": "Summoner Ascension #81",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 6,
+  "class": "summoner",
+  "level_range": [
+    22,
+    42
+  ],
+  "rewards": {
+    "xp": 5735,
+    "gold": 143,
+    "items": [
+      "summoner_quest_reward_81"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 49
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 43
+    }
+  ],
+  "generated": true
+}

@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0005",
+  "name": "Summoner Ascension #5",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 7,
+  "class": "summoner",
+  "level_range": [
+    1,
+    59
+  ],
+  "rewards": {
+    "xp": 6351,
+    "gold": 164,
+    "items": [
+      "summoner_quest_reward_5"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 22
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 97
+    }
+  ],
+  "generated": true
+}

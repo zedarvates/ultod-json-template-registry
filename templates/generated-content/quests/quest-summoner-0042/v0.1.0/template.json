@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0042",
+  "name": "Summoner Mastery #42",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 7,
+  "class": "summoner",
+  "level_range": [
+    30,
+    42
+  ],
+  "rewards": {
+    "xp": 3656,
+    "gold": 383,
+    "items": [
+      "summoner_quest_reward_42"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 43
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 46
+    }
+  ],
+  "generated": true
+}

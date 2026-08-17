@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0115",
+  "name": "Paladin Ascension #115",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 4,
+  "class": "paladin",
+  "level_range": [
+    20,
+    42
+  ],
+  "rewards": {
+    "xp": 5728,
+    "gold": 81,
+    "items": [
+      "paladin_quest_reward_115"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 33
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 45
+    }
+  ],
+  "generated": true
+}

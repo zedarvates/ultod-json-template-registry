@@ -1,0 +1,31 @@
+{
+  "id": "quest_rogue_0062",
+  "name": "Rogue Trial #62",
+  "description": "Class-specific quest chain for rogue",
+  "chain_length": 7,
+  "class": "rogue",
+  "level_range": [
+    25,
+    53
+  ],
+  "rewards": {
+    "xp": 8867,
+    "gold": 409,
+    "items": [
+      "rogue_quest_reward_62"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 36
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 51
+    }
+  ],
+  "generated": true
+}

@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0118",
+  "name": "Summoner Ascension #118",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 6,
+  "class": "summoner",
+  "level_range": [
+    16,
+    48
+  ],
+  "rewards": {
+    "xp": 2689,
+    "gold": 169,
+    "items": [
+      "summoner_quest_reward_118"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 47
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 48
+    }
+  ],
+  "generated": true
+}

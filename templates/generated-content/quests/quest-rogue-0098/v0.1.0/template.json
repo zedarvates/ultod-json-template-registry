@@ -1,0 +1,31 @@
+{
+  "id": "quest_rogue_0098",
+  "name": "Rogue Mastery #98",
+  "description": "Class-specific quest chain for rogue",
+  "chain_length": 4,
+  "class": "rogue",
+  "level_range": [
+    25,
+    34
+  ],
+  "rewards": {
+    "xp": 2230,
+    "gold": 340,
+    "items": [
+      "rogue_quest_reward_98"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 12
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 31
+    }
+  ],
+  "generated": true
+}

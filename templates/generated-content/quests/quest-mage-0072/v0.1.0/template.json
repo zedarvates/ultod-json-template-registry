@@ -1,0 +1,31 @@
+{
+  "id": "quest_mage_0072",
+  "name": "Mage Mastery #72",
+  "description": "Class-specific quest chain for mage",
+  "chain_length": 8,
+  "class": "mage",
+  "level_range": [
+    5,
+    52
+  ],
+  "rewards": {
+    "xp": 4440,
+    "gold": 112,
+    "items": [
+      "mage_quest_reward_72"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 47
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 90
+    }
+  ],
+  "generated": true
+}

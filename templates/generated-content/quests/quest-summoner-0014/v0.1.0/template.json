@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0014",
+  "name": "Summoner Trial #14",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 8,
+  "class": "summoner",
+  "level_range": [
+    1,
+    45
+  ],
+  "rewards": {
+    "xp": 7939,
+    "gold": 274,
+    "items": [
+      "summoner_quest_reward_14"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 20
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 44
+    }
+  ],
+  "generated": true
+}

@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0089",
+  "name": "Paladin Initiation #89",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 7,
+  "class": "paladin",
+  "level_range": [
+    14,
+    50
+  ],
+  "rewards": {
+    "xp": 8566,
+    "gold": 404,
+    "items": [
+      "paladin_quest_reward_89"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 24
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 46
+    }
+  ],
+  "generated": true
+}

@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0095",
+  "name": "Paladin Initiation #95",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 6,
+  "class": "paladin",
+  "level_range": [
+    28,
+    46
+  ],
+  "rewards": {
+    "xp": 4214,
+    "gold": 83,
+    "items": [
+      "paladin_quest_reward_95"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 48
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 40
+    }
+  ],
+  "generated": true
+}

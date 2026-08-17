@@ -1,0 +1,31 @@
+{
+  "id": "quest_ranger_0125",
+  "name": "Ranger Ascension #125",
+  "description": "Class-specific quest chain for ranger",
+  "chain_length": 6,
+  "class": "ranger",
+  "level_range": [
+    3,
+    55
+  ],
+  "rewards": {
+    "xp": 7657,
+    "gold": 255,
+    "items": [
+      "ranger_quest_reward_125"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 10
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 26
+    }
+  ],
+  "generated": true
+}

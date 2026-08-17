@@ -1,0 +1,31 @@
+{
+  "id": "quest_warrior_0103",
+  "name": "Warrior Initiation #103",
+  "description": "Class-specific quest chain for warrior",
+  "chain_length": 5,
+  "class": "warrior",
+  "level_range": [
+    2,
+    32
+  ],
+  "rewards": {
+    "xp": 5346,
+    "gold": 452,
+    "items": [
+      "warrior_quest_reward_103"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 15
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 99
+    }
+  ],
+  "generated": true
+}

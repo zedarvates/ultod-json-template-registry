@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0123",
+  "name": "Summoner Trial #123",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 6,
+  "class": "summoner",
+  "level_range": [
+    29,
+    37
+  ],
+  "rewards": {
+    "xp": 6112,
+    "gold": 479,
+    "items": [
+      "summoner_quest_reward_123"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 18
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 99
+    }
+  ],
+  "generated": true
+}

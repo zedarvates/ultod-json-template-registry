@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0082",
+  "name": "Summoner Initiation #82",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 4,
+  "class": "summoner",
+  "level_range": [
+    5,
+    51
+  ],
+  "rewards": {
+    "xp": 1448,
+    "gold": 236,
+    "items": [
+      "summoner_quest_reward_82"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 41
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 86
+    }
+  ],
+  "generated": true
+}

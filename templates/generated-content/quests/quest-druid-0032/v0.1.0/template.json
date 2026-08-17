@@ -1,0 +1,31 @@
+{
+  "id": "quest_druid_0032",
+  "name": "Druid Trial #32",
+  "description": "Class-specific quest chain for druid",
+  "chain_length": 6,
+  "class": "druid",
+  "level_range": [
+    5,
+    52
+  ],
+  "rewards": {
+    "xp": 5293,
+    "gold": 440,
+    "items": [
+      "druid_quest_reward_32"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 47
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 72
+    }
+  ],
+  "generated": true
+}

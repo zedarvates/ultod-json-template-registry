@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0112",
+  "name": "Paladin Ascension #112",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 8,
+  "class": "paladin",
+  "level_range": [
+    9,
+    47
+  ],
+  "rewards": {
+    "xp": 3151,
+    "gold": 202,
+    "items": [
+      "paladin_quest_reward_112"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 26
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 96
+    }
+  ],
+  "generated": true
+}

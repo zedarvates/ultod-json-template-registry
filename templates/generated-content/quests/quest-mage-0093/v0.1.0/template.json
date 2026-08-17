@@ -1,0 +1,31 @@
+{
+  "id": "quest_mage_0093",
+  "name": "Mage Ascension #93",
+  "description": "Class-specific quest chain for mage",
+  "chain_length": 7,
+  "class": "mage",
+  "level_range": [
+    15,
+    48
+  ],
+  "rewards": {
+    "xp": 8832,
+    "gold": 491,
+    "items": [
+      "mage_quest_reward_93"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 19
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 20
+    }
+  ],
+  "generated": true
+}

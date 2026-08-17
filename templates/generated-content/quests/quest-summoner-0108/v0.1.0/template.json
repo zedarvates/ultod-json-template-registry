@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0108",
+  "name": "Summoner Initiation #108",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 7,
+  "class": "summoner",
+  "level_range": [
+    3,
+    50
+  ],
+  "rewards": {
+    "xp": 5044,
+    "gold": 216,
+    "items": [
+      "summoner_quest_reward_108"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 48
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 54
+    }
+  ],
+  "generated": true
+}

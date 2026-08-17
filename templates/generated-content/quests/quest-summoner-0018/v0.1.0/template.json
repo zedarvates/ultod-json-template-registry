@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0018",
+  "name": "Summoner Trial #18",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 8,
+  "class": "summoner",
+  "level_range": [
+    6,
+    51
+  ],
+  "rewards": {
+    "xp": 6105,
+    "gold": 352,
+    "items": [
+      "summoner_quest_reward_18"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 44
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 53
+    }
+  ],
+  "generated": true
+}

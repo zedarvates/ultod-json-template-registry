@@ -1,0 +1,31 @@
+{
+  "id": "quest_healer_0119",
+  "name": "Healer Mastery #119",
+  "description": "Class-specific quest chain for healer",
+  "chain_length": 7,
+  "class": "healer",
+  "level_range": [
+    22,
+    49
+  ],
+  "rewards": {
+    "xp": 5488,
+    "gold": 480,
+    "items": [
+      "healer_quest_reward_119"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 38
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 93
+    }
+  ],
+  "generated": true
+}

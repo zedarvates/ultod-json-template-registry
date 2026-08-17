@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0041",
+  "name": "Paladin Initiation #41",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 3,
+  "class": "paladin",
+  "level_range": [
+    20,
+    43
+  ],
+  "rewards": {
+    "xp": 2693,
+    "gold": 314,
+    "items": [
+      "paladin_quest_reward_41"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 18
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 34
+    }
+  ],
+  "generated": true
+}

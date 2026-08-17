@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0118",
+  "name": "Paladin Trial #118",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 8,
+  "class": "paladin",
+  "level_range": [
+    26,
+    60
+  ],
+  "rewards": {
+    "xp": 1079,
+    "gold": 275,
+    "items": [
+      "paladin_quest_reward_118"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 36
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 41
+    }
+  ],
+  "generated": true
+}

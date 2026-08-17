@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0023",
+  "name": "Summoner Mastery #23",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 7,
+  "class": "summoner",
+  "level_range": [
+    4,
+    56
+  ],
+  "rewards": {
+    "xp": 4829,
+    "gold": 349,
+    "items": [
+      "summoner_quest_reward_23"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 32
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 88
+    }
+  ],
+  "generated": true
+}

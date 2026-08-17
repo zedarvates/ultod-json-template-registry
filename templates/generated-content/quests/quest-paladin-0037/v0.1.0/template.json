@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0037",
+  "name": "Paladin Mastery #37",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 7,
+  "class": "paladin",
+  "level_range": [
+    15,
+    51
+  ],
+  "rewards": {
+    "xp": 4059,
+    "gold": 489,
+    "items": [
+      "paladin_quest_reward_37"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 50
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 62
+    }
+  ],
+  "generated": true
+}

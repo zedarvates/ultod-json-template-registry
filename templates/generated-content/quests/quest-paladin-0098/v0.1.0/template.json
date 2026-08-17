@@ -1,0 +1,31 @@
+{
+  "id": "quest_paladin_0098",
+  "name": "Paladin Ascension #98",
+  "description": "Class-specific quest chain for paladin",
+  "chain_length": 3,
+  "class": "paladin",
+  "level_range": [
+    7,
+    46
+  ],
+  "rewards": {
+    "xp": 6739,
+    "gold": 264,
+    "items": [
+      "paladin_quest_reward_98"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 28
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 68
+    }
+  ],
+  "generated": true
+}

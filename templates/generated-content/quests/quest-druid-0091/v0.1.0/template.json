@@ -1,0 +1,31 @@
+{
+  "id": "quest_druid_0091",
+  "name": "Druid Initiation #91",
+  "description": "Class-specific quest chain for druid",
+  "chain_length": 5,
+  "class": "druid",
+  "level_range": [
+    11,
+    31
+  ],
+  "rewards": {
+    "xp": 8854,
+    "gold": 314,
+    "items": [
+      "druid_quest_reward_91"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 26
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 64
+    }
+  ],
+  "generated": true
+}

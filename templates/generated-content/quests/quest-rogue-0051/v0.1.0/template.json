@@ -1,0 +1,31 @@
+{
+  "id": "quest_rogue_0051",
+  "name": "Rogue Initiation #51",
+  "description": "Class-specific quest chain for rogue",
+  "chain_length": 8,
+  "class": "rogue",
+  "level_range": [
+    22,
+    39
+  ],
+  "rewards": {
+    "xp": 7046,
+    "gold": 324,
+    "items": [
+      "rogue_quest_reward_51"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 35
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 63
+    }
+  ],
+  "generated": true
+}

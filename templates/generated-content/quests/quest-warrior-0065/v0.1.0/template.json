@@ -1,0 +1,31 @@
+{
+  "id": "quest_warrior_0065",
+  "name": "Warrior Initiation #65",
+  "description": "Class-specific quest chain for warrior",
+  "chain_length": 6,
+  "class": "warrior",
+  "level_range": [
+    16,
+    52
+  ],
+  "rewards": {
+    "xp": 2041,
+    "gold": 349,
+    "items": [
+      "warrior_quest_reward_65"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 26
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 58
+    }
+  ],
+  "generated": true
+}

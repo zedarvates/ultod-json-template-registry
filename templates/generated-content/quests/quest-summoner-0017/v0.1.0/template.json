@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0017",
+  "name": "Summoner Ascension #17",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 7,
+  "class": "summoner",
+  "level_range": [
+    20,
+    52
+  ],
+  "rewards": {
+    "xp": 5368,
+    "gold": 292,
+    "items": [
+      "summoner_quest_reward_17"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 14
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 47
+    }
+  ],
+  "generated": true
+}

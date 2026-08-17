@@ -1,0 +1,31 @@
+{
+  "id": "quest_summoner_0057",
+  "name": "Summoner Initiation #57",
+  "description": "Class-specific quest chain for summoner",
+  "chain_length": 7,
+  "class": "summoner",
+  "level_range": [
+    18,
+    44
+  ],
+  "rewards": {
+    "xp": 4881,
+    "gold": 329,
+    "items": [
+      "summoner_quest_reward_57"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 45
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 76
+    }
+  ],
+  "generated": true
+}

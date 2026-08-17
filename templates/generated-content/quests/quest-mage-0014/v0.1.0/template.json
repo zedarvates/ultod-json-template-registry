@@ -1,0 +1,31 @@
+{
+  "id": "quest_mage_0014",
+  "name": "Mage Trial #14",
+  "description": "Class-specific quest chain for mage",
+  "chain_length": 6,
+  "class": "mage",
+  "level_range": [
+    7,
+    54
+  ],
+  "rewards": {
+    "xp": 6828,
+    "gold": 470,
+    "items": [
+      "mage_quest_reward_14"
+    ]
+  },
+  "objectives": [
+    {
+      "type": "kill",
+      "target": "enemy",
+      "count": 34
+    },
+    {
+      "type": "collect",
+      "item": "resource",
+      "count": 81
+    }
+  ],
+  "generated": true
+}
