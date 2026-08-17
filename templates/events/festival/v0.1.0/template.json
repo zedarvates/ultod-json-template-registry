@@ -1,0 +1,82 @@
+{
+  "event_id": "festival_template",
+  "name": "Festival Template",
+  "description": "A template for seasonal festivals and celebrations",
+  "event_type": "festival",
+  "duration_days": 3,
+  "recurrence": "annual",
+  "season": "summer",
+  "participation_requirements": {
+    "min_level": 1,
+    "max_level": 100,
+    "reputation_required": "neutral"
+  },
+  "activities": [
+    {
+      "activity_id": "parade",
+      "name": "Festival Parade",
+      "description": "A grand parade through the city streets",
+      "duration_hours": 2,
+      "participants_max": 50,
+      "rewards": {
+        "experience": 100,
+        "gold": 50,
+        "reputation": 10
+      }
+    },
+    {
+      "activity_id": "feast",
+      "name": "Community Feast",
+      "description": "A large communal meal with special dishes",
+      "duration_hours": 4,
+      "participants_max": 200,
+      "rewards": {
+        "experience": 200,
+        "gold": 25,
+        "food_buff": "well_fed"
+      }
+    },
+    {
+      "activity_id": "games",
+      "name": "Festival Games",
+      "description": "Competitive games and contests",
+      "duration_hours": 6,
+      "participants_max": 100,
+      "rewards": {
+        "experience": 300,
+        "gold": 100,
+        "title": "festival_champion"
+      }
+    }
+  ],
+  "merchants": [
+    {
+      "merchant_type": "food_vendor",
+      "discount_percentage": 20,
+      "special_items": [
+        "festival_cake",
+        "seasonal_ale"
+      ]
+    },
+    {
+      "merchant_type": "trinket_seller",
+      "discount_percentage": 15,
+      "special_items": [
+        "festival_mask",
+        "lucky_charm"
+      ]
+    }
+  ],
+  "environmental_effects": {
+    "weather_override": "clear_skies",
+    "time_of_day": "daytime",
+    "music_override": "festive_music"
+  },
+  "completion_rewards": {
+    "experience": 1000,
+    "gold": 500,
+    "achievement": "festival_participant",
+    "title": "festival_enthusiast"
+  },
+  "id": "festival_template"
+}

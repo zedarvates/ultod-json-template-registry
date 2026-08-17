@@ -29,6 +29,8 @@ Le lot `biomes` ajoute huit modèles identiques côté serveur et build client V
 
 Le lot `achievements` ajoute trois collections identiques côté serveur et build client VR. Les déclencheurs, récompenses, points et identifiants d'objets sont conservés sans modification, mais leur disponibilité runtime et leur équilibrage ne sont pas certifiés.
 
+Le lot `events` publie uniquement `festival_template.json`, identique côté serveur et build client VR. `temporal_crisis.json` reste exclu car il contient des multiplicateurs de charge CPU, mémoire et trafic réseau ainsi que des contrôles administratifs. Les activités et récompenses du festival restent des identifiants et valeurs non certifiés.
+
 ## Éléments exclus
 
 Les autres JSON restent hors du dépôt public en attendant un audit dédié. Ils comprennent notamment :
