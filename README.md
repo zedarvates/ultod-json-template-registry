@@ -13,168 +13,169 @@
 
 # UltOd JSON Template Registry
 
-Registre central destiné aux modèles JSON versionnés de l'écosystème Ultimate Odycer.
+Central versioned registry for JSON templates and schemas used across the Ultimate Odycer ecosystem.
 
-## Statut
+## Status
 
-**Registre expérimental.** La collection contient 16 schémas JSON, un modèle de motifs haptiques, trois presets d'avatar, huit biomes, trois collections d'achievements, un modèle d'événement, trois configurations de guilde, un modèle de lieu, un blueprint de maison, un modèle de noms, six styles architecturaux, quatre modèles de rift, une configuration de groupe, un parcours de mentorat, un modèle de mariage, un événement social, sept donjons, une configuration de parangons, deux modèles de boss, trois chefs-d'œuvre d'artisanat, cinq recettes, 29 modèles de créatures, cinq prologues, quatre quêtes manuelles, dix professions, 21 modèles de divinités fictives, 30 modèles d'énergie, un modèle d'IA, quatre modèles RTS, cinq blueprints, six systèmes divins abstraits, dix capacités de boss, un manifeste de génération et 1 000 quêtes générées en version `0.1.0`.
+**Experimental registry.** The collection contains versioned snapshots covering schemas, haptics, avatars, biomes, achievements, events, guilds, locations, houses, names, styles, rifts, party configurations, mentorship paths, marriage models, social events, dungeons, paragons, bosses, masterpieces, recipes, creatures, generated content (including a large quest set), prologues, quests, professions, gods, energy, AI, RTS, blueprints, divine systems, and abilities, all released as `0.1.0`.
 
-Ces schémas sont des instantanés non certifiés. Aucun n'est encore déclaré compatible avec une version précise d'un client ou du serveur.
+These templates are uncertified snapshots. None is yet declared compatible with a specific client or server version.
 
-## Objectif
+## Purpose
 
-Ce dépôt doit fournir un emplacement public et traçable pour les modèles JSON partagés ou spécialisés, notamment pour :
+This repository provides a public, traceable home for shared and specialized JSON templates, especially for:
 
-- le client Godot VR MMORPG ;
-- le client Godot Classic 3D MMORPG ;
-- de futurs clients 2.5D web, dont la technologie reste à confirmer ;
-- les outils de contenu et de configuration qui consomment ces modèles.
+- the Godot VR MMORPG client;
+- the Godot Classic 3D MMORPG client;
+- the Three.js 2.5D web client;
+- the FoveaCore FPS-RPG Online client;
+- content and configuration tools that consume these templates.
 
-## Limites
+## Boundaries
 
-Ce dépôt ne doit pas contenir :
+This repository must not contain:
 
-- le code du serveur Zig ;
-- du code exécutable des clients ;
-- des secrets, identifiants ou données de production ;
-- des paramètres d'infrastructure ou de facturation ;
-- des exports ou ressources dont les droits n'ont pas été vérifiés.
+- Zig server source code;
+- executable client code;
+- secrets, credentials, or production data;
+- infrastructure, billing, or commercial configuration;
+- exports or assets whose rights have not been verified.
 
-La présence d'un modèle dans ce registre ne prouve pas son intégration de bout en bout. Toute compatibilité doit être documentée et validée séparément.
+A template present in this registry does not prove end-to-end integration. Any compatibility claim must be documented and validated separately.
 
-## Organisation prévue
+## Organization
 
 ```text
 templates/
   catalog.json
   schemas/
-    <nom-du-schema>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <schema-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         schema.json
         README.md
   haptics/
-    <nom-du-modele>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <model-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   avatars/
-    <nom-du-preset>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <preset-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   biomes/
-    <nom-du-biome>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <biome-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   achievements/
-    <nom-de-collection>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <collection-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   events/
-    <nom-evenement>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <event-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   guilds/
-    <nom-configuration>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <configuration-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   locations/
-    <nom-lieu>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <location-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   houses/
-    <nom-blueprint>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <blueprint-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   names/
-    <nom-culture>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <culture-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   styles/
-    <nom-style>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <style-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   rifts/
-    <nom-rift>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <rift-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   party/
-    <nom-configuration>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <configuration-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   mentorship/
-    <nom-parcours>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <path-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   marriage/
-    <nom-union>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <union-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   social-events/
-    <nom-evenement>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <event-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   dungeons/
-    <nom-donjon>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <dungeon-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   paragons/
-    <nom-configuration>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <configuration-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   bosses/
-    <nom-boss>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <boss-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   masterpieces/
-    <nom-creation>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <creation-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   recipes/
-    <nom-recette>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <recipe-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   creatures/
-    <nom-creature>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <creature-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   generated-content/
     manifest/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
     quests/
-      <nom-quete>/
-        v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+      <quest-name>/
+        v<MAJOR>.<MINOR>.<PATCH>/
           template.json
           README.md
   prologues/
-    <nom-prologue>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <prologue-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   quests/
-    <nom-quete>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <quest-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
   professions/
@@ -185,25 +186,22 @@ templates/
   blueprints/
   divine-system/
   abilities/
-    <nom-profession>/
-      v<MAJEUR>.<MINEUR>.<CORRECTIF>/
+    <ability-name>/
+      v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
 ```
 
-Le détail de la sélection initiale et des exclusions se trouve dans [SOURCE_AUDIT.md](SOURCE_AUDIT.md).
+The initial selection details and exclusions are documented in [SOURCE_AUDIT.md](SOURCE_AUDIT.md).
 
-La couverture exhaustive et l'état d'audit de chaque famille sont suivis dans [AUDIT-COVERAGE.md](AUDIT-COVERAGE.md) et [AUDIT-COVERAGE.json](AUDIT-COVERAGE.json).
+Exhaustive coverage and audit status by family are tracked in [AUDIT-COVERAGE.md](AUDIT-COVERAGE.md) and [AUDIT-COVERAGE.json](AUDIT-COVERAGE.json).
 
-## Versionnage
+## Versioning
 
-Le registre suit un versionnage sémantique par modèle. Les règles détaillées se trouvent dans [VERSIONING.md](VERSIONING.md).
+The registry follows semantic versioning per template. Detailed rules are available in [VERSIONING.md](VERSIONING.md).
 
-Les conventions permettant de créer un modèle compatible sont définies dans [TEMPLATE-SPEC.md](TEMPLATE-SPEC.md).
+The conventions for creating a compatible template are defined in [TEMPLATE-SPEC.md](TEMPLATE-SPEC.md).
 
-## Licence
+## License
 
-Les schémas, modèles et documents originaux de ce registre sont distribués sous
-licence Apache-2.0. Cette licence ne couvre pas le serveur Zig propriétaire, les
-services hébergés, les données de production, les ressources tierces ni les
-composants commerciaux d'Ultimate Odycer.
+The original schemas, templates, and documents in this registry are distributed under the Apache-2.0 license. This license does not cover the proprietary Zig server, hosted services, production data, third-party assets, or commercial Ultimate Odycer components.
