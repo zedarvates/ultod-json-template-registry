@@ -2,9 +2,11 @@
 
 <img src="assets/banner-json-registry.jpg" alt="UltOd JSON Template Registry" width="100%" />
 
-### UltOd JSON Template Registry
+## <span style="color:#FF7A00;">UltOd JSON Template Registry</span>
 
 **Ultimate Odycer Open Ecosystem** - Local-first, server-authoritative, production-ready game foundations.
+
+[Visit ultimateodycer.com](https://ultimateodycer.com) · [Star this repository](https://github.com/zedarvates/ultod-json-template-registry/stargazers)
 
 </div>
 
@@ -195,6 +197,12 @@ templates/
 The initial selection details and exclusions are documented in [SOURCE_AUDIT.md](SOURCE_AUDIT.md).
 
 Exhaustive coverage and audit status by family are tracked in [AUDIT-COVERAGE.md](AUDIT-COVERAGE.md) and [AUDIT-COVERAGE.json](AUDIT-COVERAGE.json).
+
+## Links
+
+- [Ultimate Odycer website](https://ultimateodycer.com)
+- [Template specification](TEMPLATE-SPEC.md)
+- [Versioning policy](VERSIONING.md)
 
 ## Versioning
 
