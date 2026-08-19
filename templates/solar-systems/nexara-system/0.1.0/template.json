@@ -1,0 +1,94 @@
+{
+  "template_type": "solar_system",
+  "version": "0.1.0",
+  "name": "Nexara System",
+  "description": "A three-star trinary system with six planets spanning volcanic, oceanic and celestial biome types, hub of the exploration campaign.",
+  "global_settings": {
+    "enabled": true,
+    "server_validates_generation": true,
+    "max_active_players": 500
+  },
+  "star_types": {
+    "primary": {
+      "type": "yellow_dwarf",
+      "luminosity": 1.0
+    },
+    "secondary": {
+      "type": "red_dwarf",
+      "luminosity": 0.4
+    },
+    "tertiary": {
+      "type": "white_dwarf",
+      "luminosity": 0.2
+    }
+  },
+  "orbital_mechanics": {
+    "orbital_period_days": 365,
+    "tidal_locking": false,
+    "gravitational_anomalies": true
+  },
+  "planetary_system": {
+    "planet_count": 6,
+    "habitable_count": 2,
+    "planet_ids": [
+      "velorath",
+      "seladris",
+      "nexara-prime",
+      "glacivorn",
+      "aethon",
+      "void-hollow"
+    ]
+  },
+  "asteroid_belts": {
+    "count": 2,
+    "resource_rich": true,
+    "danger_level": "moderate"
+  },
+  "comet_systems": {
+    "periodic_comets": 3,
+    "comet_event_chance": 0.05
+  },
+  "moon_systems": {
+    "moons_per_planet_avg": 1.5,
+    "habitable_moons": 1
+  },
+  "ring_systems": {
+    "planets_with_rings": 1,
+    "ring_resource": "ice_ore"
+  },
+  "deep_space_objects": {
+    "nebulae": 2,
+    "anomalies": 3
+  },
+  "phenomena_system": {
+    "solar_flares": true,
+    "void_rifts": true,
+    "event_frequency": "seasonal"
+  },
+  "exploration_system": {
+    "discovery_zones": 12,
+    "hidden_waypoints": 5
+  },
+  "resource_system": {
+    "unique_system_resources": [
+      "stardust",
+      "void_crystal",
+      "stellar_ore"
+    ]
+  },
+  "ui_configuration": {
+    "map_style": "orbital_3d",
+    "ambient_sound": "space_ambient"
+  },
+  "integration_points": {
+    "rift_system": true,
+    "planet_system": true,
+    "dungeon_system": true
+  },
+  "security_settings": {
+    "server_side_validation": true
+  },
+  "localization": {
+    "default_language": "en"
+  }
+}

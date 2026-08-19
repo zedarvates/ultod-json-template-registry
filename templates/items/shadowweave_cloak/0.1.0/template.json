@@ -1,0 +1,28 @@
+{
+  "id": "shadowweave_cloak",
+  "name": "Shadowweave Cloak",
+  "description": "Woven from void-silk threads, this cloak bends light slightly around its wearer.",
+  "icon": "item_shadowweave_cloak",
+  "category": "armor",
+  "rarity": "rare",
+  "item_type": "armor",
+  "sub_type": "cloak",
+  "base_stats": {
+    "armor": 18,
+    "durability": 60,
+    "weight": 0.8
+  },
+  "weapon_properties": {
+    "damage_type": "shadow_damage",
+    "attack_speed": 0.0,
+    "reach": 0.0,
+    "two_handed": false,
+    "enchantable": true
+  },
+  "vr_properties": {
+    "grip_pose": "none",
+    "haptic_pattern": "haptic_equip",
+    "weight_feedback": 0.1
+  },
+  "version": "0.1.0"
+}

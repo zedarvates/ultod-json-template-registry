@@ -1,0 +1,39 @@
+{
+  "id": "divine_smite",
+  "name": "Divine Smite",
+  "description": "A holy-charged melee strike that deals additional holy damage scaled on the paladin holy power.",
+  "icon": "skill_divine_smite",
+  "category": "combat",
+  "subcategory": "melee",
+  "max_level": 100,
+  "level_requirements": {
+    "1": 0,
+    "25": 6000,
+    "50": 45000
+  },
+  "xp_sources": {
+    "combat_kills": 8,
+    "spell_criticals": 3
+  },
+  "level_bonuses": {
+    "combat_accuracy": {
+      "base_value": 2,
+      "per_level": 0.3
+    },
+    "spell_damage": {
+      "base_value": 1,
+      "per_level": 0.4
+    }
+  },
+  "specializations": {
+    "radiant_burst": {
+      "unlock_level": 35,
+      "description": "Smite creates an area holy burst on crit.",
+      "bonuses": {
+        "area_bonus": 10
+      }
+    }
+  },
+  "template_type": "skill",
+  "version": "0.1.0"
+}

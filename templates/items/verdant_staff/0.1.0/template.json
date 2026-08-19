@@ -1,0 +1,28 @@
+{
+  "id": "verdant_staff",
+  "name": "Verdant Staff",
+  "description": "A living staff carved from a sacred grove branch, it pulses gently with nature energy.",
+  "icon": "item_verdant_staff",
+  "category": "weapon",
+  "rarity": "rare",
+  "item_type": "weapon",
+  "sub_type": "staff",
+  "base_stats": {
+    "damage": 60,
+    "durability": 90,
+    "weight": 2.1
+  },
+  "weapon_properties": {
+    "damage_type": "nature_damage",
+    "attack_speed": 0.9,
+    "reach": 2.2,
+    "two_handed": true,
+    "enchantable": true
+  },
+  "vr_properties": {
+    "grip_pose": "staff_grip",
+    "haptic_pattern": "haptic_staff_cast",
+    "weight_feedback": 0.4
+  },
+  "version": "0.1.0"
+}

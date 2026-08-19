@@ -12282,6 +12282,186 @@
       "source_file": "tracking.json",
       "sha256": "a36a0003e137ee0374770e7b56d2736ded3eb8cd1bdf6f77a56cb9622e918dd6",
       "compatibility": []
+    },
+    {
+      "name": "crystalline_orb",
+      "kind": "item-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/items/crystalline_orb/0.1.0/template.json",
+      "source_file": "crystalline_orb.json",
+      "sha256": "b0617436c426c5b128d05175129a2a76902f1d7134a51cd5523856e75ffaa80a",
+      "compatibility": []
+    },
+    {
+      "name": "ember_blade",
+      "kind": "item-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/items/ember_blade/0.1.0/template.json",
+      "source_file": "ember_blade.json",
+      "sha256": "451e9427c801fefd98ac91eac9cdd0a12d17388d815a2aacd72b6c68d251a744",
+      "compatibility": []
+    },
+    {
+      "name": "ironwood_buckler",
+      "kind": "item-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/items/ironwood_buckler/0.1.0/template.json",
+      "source_file": "ironwood_buckler.json",
+      "sha256": "e451584a7177b5603a63037df4ad864a5474662394a21b3585180707f51d0012",
+      "compatibility": []
+    },
+    {
+      "name": "menders_pouch",
+      "kind": "item-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/items/menders_pouch/0.1.0/template.json",
+      "source_file": "menders_pouch.json",
+      "sha256": "f3672e7ec320d3275e95d24eaa1276a3725f0e7d1271c24841349ecdf8798e56",
+      "compatibility": []
+    },
+    {
+      "name": "shadowweave_cloak",
+      "kind": "item-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/items/shadowweave_cloak/0.1.0/template.json",
+      "source_file": "shadowweave_cloak.json",
+      "sha256": "a93ddac2f5ce48df1fc2181a9f235b123c305fadc95c141e579dd865519a7bae",
+      "compatibility": []
+    },
+    {
+      "name": "verdant_staff",
+      "kind": "item-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/items/verdant_staff/0.1.0/template.json",
+      "source_file": "verdant_staff.json",
+      "sha256": "aefc198ffe865aba62d9ded89d6d5531031106b43b3385b3c4387738fe267ff6",
+      "compatibility": []
+    },
+    {
+      "name": "dragon_blood",
+      "kind": "lineage-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/lineages/dragon_blood/0.1.0/template.json",
+      "source_file": "dragon_blood.json",
+      "sha256": "85eb552f07d4731ba4fd67c1afafa1ee6961fff4f2384149601dd2751dc09cd3",
+      "compatibility": []
+    },
+    {
+      "name": "star_forged",
+      "kind": "lineage-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/lineages/star_forged/0.1.0/template.json",
+      "source_file": "star_forged.json",
+      "sha256": "b772d1e5f1e50dc92d5fe5f192a0736b2f21d9692f2b258bf7308cbe570860f6",
+      "compatibility": []
+    },
+    {
+      "name": "void_touched",
+      "kind": "lineage-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/lineages/void_touched/0.1.0/template.json",
+      "source_file": "void_touched.json",
+      "sha256": "d1d722ed13f8d63c0f088731897495e2bf6a9f27f5a8788fb89033e231fba386",
+      "compatibility": []
+    },
+    {
+      "name": "death_resist",
+      "kind": "racial-trait-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/racial-traits/death_resist/0.1.0/template.json",
+      "source_file": "death_resist.json",
+      "sha256": "aabb1e221703b1c6432b8cc05d4d3d6c55ccb351134f554e64574a794c4f01e8",
+      "compatibility": []
+    },
+    {
+      "name": "photosynthetic_regen",
+      "kind": "racial-trait-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/racial-traits/photosynthetic_regen/0.1.0/template.json",
+      "source_file": "photosynthetic_regen.json",
+      "sha256": "4954a1dfd45ff51404c88542ef11f7a7d9f0cf42509c0cd1de05ca3f6d25747f",
+      "compatibility": []
+    },
+    {
+      "name": "rune_repair",
+      "kind": "racial-trait-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/racial-traits/rune_repair/0.1.0/template.json",
+      "source_file": "rune_repair.json",
+      "sha256": "24b6e71dd6d02dafd3bb1c8d09b9a0355bd458b8bd54e982c6ebb6948208eb6b",
+      "compatibility": []
+    },
+    {
+      "name": "storm_affinity",
+      "kind": "racial-trait-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/racial-traits/storm_affinity/0.1.0/template.json",
+      "source_file": "storm_affinity.json",
+      "sha256": "7e28254f325fd5d740d2f94a5298683b44a143039c51aaa9a6e463a24b8789b1",
+      "compatibility": []
+    },
+    {
+      "name": "thick_hide",
+      "kind": "racial-trait-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/racial-traits/thick_hide/0.1.0/template.json",
+      "source_file": "thick_hide.json",
+      "sha256": "8fb33f1845d08d4960b144d197ba5b39514174772492cda54a87af06a090ddec",
+      "compatibility": []
+    },
+    {
+      "name": "standard-crafting-bulk-order",
+      "kind": "bulk-order-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/bulk-orders/standard-crafting-bulk-order/0.1.0/template.json",
+      "source_file": "standard-crafting-bulk-order.json",
+      "sha256": "86cd1091dce61bc384bb8a1917813bb79eb23ed5f486e1293606993242eb140e",
+      "compatibility": []
+    },
+    {
+      "name": "seladris",
+      "kind": "planet-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/planets/seladris/0.1.0/template.json",
+      "source_file": "seladris.json",
+      "sha256": "ba5f2abaa5ea67fe1a18c3e32f48bffc7d48bd32d6fc1f340323292b478988ba",
+      "compatibility": []
+    },
+    {
+      "name": "velorath",
+      "kind": "planet-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/planets/velorath/0.1.0/template.json",
+      "source_file": "velorath.json",
+      "sha256": "8f61aec8c4e733416432c4b8378afdc18af522d1779c8e9a50b56c27fb4a93f1",
+      "compatibility": []
+    },
+    {
+      "name": "nexara-system",
+      "kind": "solar-system-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/solar-systems/nexara-system/0.1.0/template.json",
+      "source_file": "nexara-system.json",
+      "sha256": "b22936bf1f145cb9c8394fe716d0c415c590ede05c08ead3413947bd9287f6bd",
+      "compatibility": []
     }
   ]
 }

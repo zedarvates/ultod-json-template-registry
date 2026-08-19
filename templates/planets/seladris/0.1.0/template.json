@@ -1,0 +1,78 @@
+{
+  "template_type": "planet",
+  "version": "0.1.0",
+  "name": "Seladris",
+  "description": "A vast ocean world of floating archipelagos and bioluminescent deep-seas, rich in aquatic life and ancient naval routes.",
+  "global_settings": {
+    "enabled": true,
+    "server_validates_generation": true,
+    "max_simultaneous_instances": 4
+  },
+  "planet_types": {
+    "primary": "ocean",
+    "secondary": "archipelago"
+  },
+  "planetary_generation": {
+    "seed_policy": "server_assigned",
+    "size_class": "large",
+    "gravity_modifier": 0.95
+  },
+  "planetary_features": {
+    "biomes": [
+      "ocean",
+      "celestial",
+      "mystic"
+    ],
+    "max_altitude_m": 2000,
+    "ocean_coverage_percent": 85
+  },
+  "planetary_system": {
+    "star_type": "blue_dwarf",
+    "orbit_position": 3,
+    "day_length_hours": 20
+  },
+  "planetary_environment": {
+    "temperature_range_c": [
+      5,
+      40
+    ],
+    "atmosphere": "oxygen_rich",
+    "weather_events": [
+      "tidal_surge",
+      "sea_storm"
+    ]
+  },
+  "resource_system": {
+    "primary_resources": [
+      "coral",
+      "sea_ore",
+      "pearls"
+    ],
+    "rare_resources": [
+      "abyssal_crystal"
+    ]
+  },
+  "exploration_system": {
+    "discovery_zones": 8,
+    "hidden_ruins": true,
+    "boss_zones": 3
+  },
+  "ui_configuration": {
+    "minimap_style": "oceanic",
+    "ambient_color": "aqua"
+  },
+  "integration_points": {
+    "rift_system": true,
+    "dungeon_system": true
+  },
+  "security_settings": {
+    "server_side_validation": true
+  },
+  "localization": {
+    "default_language": "en"
+  },
+  "customization": {
+    "allow_admin_override": true,
+    "debug_mode": false
+  }
+}

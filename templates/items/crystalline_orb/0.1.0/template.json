@@ -1,0 +1,28 @@
+{
+  "id": "crystalline_orb",
+  "name": "Crystalline Orb",
+  "description": "A perfectly spherical arcane focus cut from deep-mountain crystal that amplifies spell resonance.",
+  "icon": "item_crystalline_orb",
+  "category": "accessory",
+  "rarity": "uncommon",
+  "item_type": "accessory",
+  "sub_type": "focus",
+  "base_stats": {
+    "damage": 0,
+    "durability": 80,
+    "weight": 0.5
+  },
+  "weapon_properties": {
+    "damage_type": "arcane_damage",
+    "attack_speed": 0.0,
+    "reach": 0.0,
+    "two_handed": false,
+    "enchantable": true
+  },
+  "vr_properties": {
+    "grip_pose": "orb_grip",
+    "haptic_pattern": "haptic_channel",
+    "weight_feedback": 0.3
+  },
+  "version": "0.1.0"
+}

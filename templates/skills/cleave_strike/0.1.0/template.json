@@ -1,0 +1,34 @@
+{
+  "id": "cleave_strike",
+  "name": "Cleave Strike",
+  "description": "A wide horizontal sword arc hitting all enemies in a 180-degree melee arc for physical damage.",
+  "icon": "skill_cleave",
+  "category": "combat",
+  "subcategory": "melee",
+  "max_level": 100,
+  "level_requirements": {
+    "1": 0,
+    "25": 5000,
+    "50": 40000
+  },
+  "xp_sources": {
+    "combat_kills": 12
+  },
+  "level_bonuses": {
+    "combat_accuracy": {
+      "base_value": 1,
+      "per_level": 0.2
+    }
+  },
+  "specializations": {
+    "wide_arc": {
+      "unlock_level": 30,
+      "description": "Extends the cleave arc to 270 degrees.",
+      "bonuses": {
+        "arc_bonus": 15
+      }
+    }
+  },
+  "template_type": "skill",
+  "version": "0.1.0"
+}

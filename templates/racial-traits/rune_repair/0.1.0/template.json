@@ -1,0 +1,38 @@
+{
+  "template_type": "racial_trait",
+  "version": "0.1.0",
+  "id": "rune_repair",
+  "name": "Rune Repair",
+  "description": "The construct self-repairs outside combat, recovering hull integrity at a slow rate per minute.",
+  "icon": "trait_rune_repair",
+  "category": "utility",
+  "rarity": "uncommon",
+  "stat_modifiers": {
+    "health_regeneration": 0.2
+  },
+  "passive_effects": [
+    {
+      "id": "self_repair",
+      "name": "Self Repair",
+      "description": "Recover health per minute out of combat.",
+      "modifier_type": "healing_received",
+      "value": 2.0,
+      "percentage": false,
+      "condition": "out_of_combat"
+    }
+  ],
+  "active_abilities": [],
+  "requirements": {
+    "races": [
+      "titanide"
+    ]
+  },
+  "conflicts": [],
+  "synergies": {
+    "warrior": 1.05,
+    "paladin": 1.05
+  },
+  "enabled": true,
+  "admin_only": false,
+  "debug_mode": false
+}

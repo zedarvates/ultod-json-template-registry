@@ -1,0 +1,28 @@
+{
+  "id": "ironwood_buckler",
+  "name": "Ironwood Buckler",
+  "description": "A compact round shield reinforced with ironwood resin, light enough for swift parries.",
+  "icon": "item_ironwood_buckler",
+  "category": "armor",
+  "rarity": "common",
+  "item_type": "armor",
+  "sub_type": "shield",
+  "base_stats": {
+    "armor": 35,
+    "durability": 150,
+    "weight": 2.4
+  },
+  "weapon_properties": {
+    "damage_type": "physical_damage",
+    "attack_speed": 0.0,
+    "reach": 0.0,
+    "two_handed": false,
+    "enchantable": false
+  },
+  "vr_properties": {
+    "grip_pose": "shield_grip",
+    "haptic_pattern": "haptic_block",
+    "weight_feedback": 0.7
+  },
+  "version": "0.1.0"
+}

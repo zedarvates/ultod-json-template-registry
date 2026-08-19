@@ -1,0 +1,28 @@
+{
+  "id": "menders_pouch",
+  "name": "Mender Pouch",
+  "description": "A healer kit containing tinctures, bandages and salves; restores health over a short rest.",
+  "icon": "item_menders_pouch",
+  "category": "consumable",
+  "rarity": "common",
+  "item_type": "consumable",
+  "sub_type": "potion",
+  "base_stats": {
+    "damage": 0,
+    "durability": 1,
+    "weight": 0.3
+  },
+  "weapon_properties": {
+    "damage_type": "holy_damage",
+    "attack_speed": 0.0,
+    "reach": 0.0,
+    "two_handed": false,
+    "enchantable": false
+  },
+  "vr_properties": {
+    "grip_pose": "pouch_grip",
+    "haptic_pattern": "haptic_use_item",
+    "weight_feedback": 0.1
+  },
+  "version": "0.1.0"
+}

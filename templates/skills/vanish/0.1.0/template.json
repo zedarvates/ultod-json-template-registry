@@ -1,0 +1,35 @@
+{
+  "id": "vanish",
+  "name": "Vanish",
+  "description": "The rogue instantly slips into stealth, becoming undetectable for a short burst.",
+  "icon": "skill_vanish",
+  "category": "stealth",
+  "subcategory": "stealth_movement",
+  "max_level": 100,
+  "level_requirements": {
+    "1": 0,
+    "25": 8000,
+    "50": 60000
+  },
+  "xp_sources": {
+    "combat_kills": 5,
+    "social_interactions": 0
+  },
+  "level_bonuses": {
+    "stealth_effectiveness": {
+      "base_value": 10,
+      "per_level": 0.5
+    }
+  },
+  "specializations": {
+    "deep_shadow": {
+      "unlock_level": 40,
+      "description": "Vanish duration increases significantly.",
+      "bonuses": {
+        "duration_bonus": 30
+      }
+    }
+  },
+  "template_type": "skill",
+  "version": "0.1.0"
+}

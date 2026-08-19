@@ -1,0 +1,28 @@
+{
+  "id": "ember_blade",
+  "name": "Ember Blade",
+  "description": "A one-handed sword forged from volcanic iron, its edge glows with residual heat from the forge fire.",
+  "icon": "item_ember_blade",
+  "category": "weapon",
+  "rarity": "uncommon",
+  "item_type": "weapon",
+  "sub_type": "sword",
+  "base_stats": {
+    "damage": 85,
+    "durability": 120,
+    "weight": 3.2
+  },
+  "weapon_properties": {
+    "damage_type": "fire_elemental_damage",
+    "attack_speed": 1.2,
+    "reach": 1.5,
+    "two_handed": false,
+    "enchantable": true
+  },
+  "vr_properties": {
+    "grip_pose": "sword_grip",
+    "haptic_pattern": "haptic_sword_swing",
+    "weight_feedback": 0.6
+  },
+  "version": "0.1.0"
+}
