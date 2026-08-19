@@ -1,0 +1,71 @@
+{
+  "id": "arcane_missile",
+  "name": "Arcane Missile",
+  "description": "A slow homing orb of pure arcane force that strikes for moderate damage.",
+  "icon": "spell_arcane_arcanebolt",
+  "school": "arcane",
+  "rarity": "common",
+  "spell_type": "damage_instant",
+  "target_type": "enemy",
+  "range": 40,
+  "cast_time": 1200,
+  "cooldown": 2000,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 70,
+    "damage_type": "arcane_damage",
+    "scaling": {
+      "attribute": "intelligence",
+      "coefficient": 0.6
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "arcane_missile_barrage",
+      "value": 70,
+      "duration": 0,
+      "tick_rate": 0,
+      "projectile_speed": 18.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fx_arcane_cast",
+    "projectile_effect": "fx_arcane_missile"
+  },
+  "sound_effects": {
+    "cast_effect": "snd_arcane_cast",
+    "impact_effect": "snd_arcane_ping"
+  },
+  "requirements": {
+    "level": 1,
+    "classes": [
+      "mage"
+    ]
+  },
+  "admin_controls": {
+    "enabled": true,
+    "balancing_multipliers": {
+      "damage_output": 1.0,
+      "cast_time": 1.0,
+      "cooldown": 1.0,
+      "mana_cost": 1.0
+    }
+  },
+  "vr_configuration": {
+    "gestures": {
+      "left_pose": "pinch",
+      "right_pose": "pinch",
+      "required_hand": "either"
+    },
+    "haptics": {
+      "charge_pattern": "haptic_arcane_charge",
+      "launch_pattern": "haptic_arcane_launch",
+      "impact_pattern": "haptic_arcane_tink"
+    }
+  },
+  "enabled": true,
+  "admin_only": false,
+  "debug_mode": false,
+  "template_type": "spell",
+  "version": "0.1.0"
+}

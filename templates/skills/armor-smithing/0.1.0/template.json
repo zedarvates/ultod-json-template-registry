@@ -1,0 +1,55 @@
+{
+  "id": "armor-smithing",
+  "name": "Armor Smithing",
+  "description": "A crafting discipline for forging and repairing plate and mail armor from raw ingots.",
+  "icon": "skill_armor_smithing",
+  "category": "crafting",
+  "subcategory": "blacksmithing",
+  "max_level": 100,
+  "level_requirements": {
+    "1": 0,
+    "25": 4000,
+    "50": 30000,
+    "75": 150000,
+    "100": 800000
+  },
+  "xp_sources": {
+    "crafting_success": 10,
+    "gathering_attempts": 0
+  },
+  "level_bonuses": {
+    "crafting_quality": {
+      "base_value": 5,
+      "per_level": 0.8
+    }
+  },
+  "specializations": {
+    "runic_plating": {
+      "unlock_level": 40,
+      "description": "Armor gains minor enchantment slots.",
+      "bonuses": {
+        "enchant_slots": 2
+      }
+    },
+    "heavy_forged": {
+      "unlock_level": 60,
+      "description": "Plate gains extra durability.",
+      "bonuses": {
+        "durability": 25
+      }
+    }
+  },
+  "unlocked_recipes": {
+    "1": [
+      "iron_chest"
+    ],
+    "25": [
+      "steel_gauntlets"
+    ],
+    "50": [
+      "mithril_cuirass"
+    ]
+  },
+  "template_type": "skill",
+  "version": "0.1.0"
+}

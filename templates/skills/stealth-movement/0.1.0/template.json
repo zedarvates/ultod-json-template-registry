@@ -1,0 +1,44 @@
+{
+  "id": "stealth-movement",
+  "name": "Stealth Movement",
+  "description": "A stealth discipline for moving unseen and reducing detection by enemies and traps.",
+  "icon": "skill_stealth_movement",
+  "category": "stealth",
+  "subcategory": "stealth_movement",
+  "max_level": 100,
+  "level_requirements": {
+    "1": 0,
+    "25": 4500,
+    "50": 32000,
+    "75": 160000,
+    "100": 850000
+  },
+  "xp_sources": {
+    "combat_kills": 0,
+    "social_interactions": 0
+  },
+  "level_bonuses": {
+    "stealth_effectiveness": {
+      "base_value": 5,
+      "per_level": 0.4
+    }
+  },
+  "specializations": {
+    "shadow_walk": {
+      "unlock_level": 25,
+      "description": "Move faster while stealthed.",
+      "bonuses": {
+        "move_speed": 15
+      }
+    },
+    "ghost_step": {
+      "unlock_level": 50,
+      "description": "Briefly ignore detection after breaking stealth.",
+      "bonuses": {
+        "evasion": 20
+      }
+    }
+  },
+  "template_type": "skill",
+  "version": "0.1.0"
+}

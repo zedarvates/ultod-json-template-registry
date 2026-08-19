@@ -1,0 +1,53 @@
+{
+  "id": "negotiation",
+  "name": "Negotiation",
+  "description": "A social skill that improves prices, quest rewards and peaceful conflict resolution.",
+  "icon": "skill_negotiation",
+  "category": "social",
+  "subcategory": "diplomacy",
+  "max_level": 100,
+  "level_requirements": {
+    "1": 0,
+    "25": 3500,
+    "50": 28000,
+    "75": 130000,
+    "100": 700000
+  },
+  "xp_sources": {
+    "social_interactions": 10,
+    "successful_trades": 2
+  },
+  "level_bonuses": {
+    "stealth_effectiveness": {
+      "base_value": 0,
+      "per_level": 0
+    },
+    "combat_accuracy": {
+      "base_value": 0,
+      "per_level": 0
+    }
+  },
+  "specializations": {
+    "silver_tongue": {
+      "unlock_level": 25,
+      "description": "Better vendor buy prices.",
+      "bonuses": {
+        "buy_discount": 10
+      }
+    },
+    "broker": {
+      "unlock_level": 50,
+      "description": "Higher sell prices and trade margins.",
+      "bonuses": {
+        "sell_bonus": 15
+      }
+    }
+  },
+  "unlocked_recipes": {
+    "1": [
+      "haggle_basics"
+    ]
+  },
+  "template_type": "skill",
+  "version": "0.1.0"
+}

@@ -1,0 +1,100 @@
+{
+  "id": "ranger",
+  "name": "Ranger",
+  "description": "A swift marksman who strikes from range and binds foes with nature.",
+  "color": "27AE60",
+  "primary_resource": "focus",
+  "base_stats": {
+    "strength": 24,
+    "agility": 46,
+    "intelligence": 20,
+    "vitality": 24,
+    "wisdom": 26,
+    "charisma": 16
+  },
+  "specializations": [
+    "beastmaster",
+    "sniper",
+    "warden"
+  ],
+  "starting_skills": [
+    {
+      "id": 1,
+      "name": "Aimed Shot",
+      "description": "Precise ranged attack.",
+      "cooldown": 3000,
+      "mana_cost": 10,
+      "range": 60,
+      "cast_time": 900,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 2,
+      "name": "Entangling Roots",
+      "description": "Bind an enemy.",
+      "cooldown": 4500,
+      "mana_cost": 45,
+      "range": 30,
+      "cast_time": 1400,
+      "learned_at_level": 5,
+      "is_passive": false
+    },
+    {
+      "id": 3,
+      "name": "Keen Eye",
+      "description": "+5% crit per rank.",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 5,
+      "is_passive": true
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 1,
+            "name": "Eagle Eye",
+            "description": "+7% range per rank.",
+            "max_rank": 5,
+            "icon_path": "icon_eagle"
+          },
+          {
+            "id": 2,
+            "name": "Trapper",
+            "description": "Traps deal more.",
+            "max_rank": 5,
+            "icon_path": "icon_trap"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "talents": [
+          {
+            "id": 3,
+            "name": "Beast Bond",
+            "description": "Summon stronger pets.",
+            "max_rank": 3,
+            "icon_path": "icon_beast"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 1000,
+  "health_modifier": 0.9,
+  "damage_modifier": 1.4,
+  "armor_modifier": 0.9,
+  "spell_ids": [],
+  "enabled": true,
+  "admin_only": false,
+  "debug_mode": false,
+  "template_type": "class",
+  "version": "0.1.0"
+}

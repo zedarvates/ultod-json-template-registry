@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0.0",
-  "generated_at": "2026-08-17",
+  "generated_at": "2026-08-19",
   "source_set": "authoritative-server-schemas",
   "entries": [
     {
@@ -11961,6 +11961,326 @@
       "file": "templates/abilities/rugissement-sonore/v0.1.0/template.json",
       "source_file": "abilities/boss/rugissement_sonore.json",
       "sha256": "88b3b0266ef5b27ab8e151a268907e4b9600f25a020a7a009f079aa6d8e12726",
+      "compatibility": []
+    },
+    {
+      "name": "arcane_missile",
+      "kind": "spell-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/spells/arcane_missile/0.1.0/template.json",
+      "source_file": "arcane_missile.json",
+      "sha256": "c2655e0a7516aaa86ed89b21d38cc42b5de97eb347ced6fab3238a3d37c22e9e",
+      "compatibility": []
+    },
+    {
+      "name": "chain_lightning",
+      "kind": "spell-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/spells/chain_lightning/0.1.0/template.json",
+      "source_file": "chain_lightning.json",
+      "sha256": "ee5f5121b7eaee6f713fd606f0b3893cef63662c443342e00ec8f4999a0caa70",
+      "compatibility": []
+    },
+    {
+      "name": "earth_shield",
+      "kind": "spell-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/spells/earth_shield/0.1.0/template.json",
+      "source_file": "earth_shield.json",
+      "sha256": "cee3f0d70f6ddd0fcfca8594889b94a1a9f8be9cfd7983afe817b4e1cef67a01",
+      "compatibility": []
+    },
+    {
+      "name": "entangling_roots",
+      "kind": "spell-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/spells/entangling_roots/0.1.0/template.json",
+      "source_file": "entangling_roots.json",
+      "sha256": "2e30f03cb461b631f5c3daa708482d62bd47d2a29a8994a947404ca2832d1189",
+      "compatibility": []
+    },
+    {
+      "name": "fireball",
+      "kind": "spell-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/spells/fireball/0.1.0/template.json",
+      "source_file": "fireball.json",
+      "sha256": "e200f69ff2c5222c75414a03fe3e23e7e119d730fecf132ccd2f70bc2d37e450",
+      "compatibility": []
+    },
+    {
+      "name": "frost_nova",
+      "kind": "spell-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/spells/frost_nova/0.1.0/template.json",
+      "source_file": "frost_nova.json",
+      "sha256": "7a5004bb4e21a578de4d1ac0cfd1bcb432551b8899ba832d74e14e485c3697d2",
+      "compatibility": []
+    },
+    {
+      "name": "healing_light",
+      "kind": "spell-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/spells/healing_light/0.1.0/template.json",
+      "source_file": "healing_light.json",
+      "sha256": "b10b2bf7f85500e869bc37ac69221bc9215c9628bda28bdb65e1bf1d59ad387e",
+      "compatibility": []
+    },
+    {
+      "name": "shadow_bolt",
+      "kind": "spell-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/spells/shadow_bolt/0.1.0/template.json",
+      "source_file": "shadow_bolt.json",
+      "sha256": "23e27cad2683d697688d9297fb0032e4e5890d594963e50a46e1a67c9ba62f44",
+      "compatibility": []
+    },
+    {
+      "name": "cleric",
+      "kind": "class-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/classes/cleric/0.1.0/template.json",
+      "source_file": "cleric.json",
+      "sha256": "b87a8db734e15c3790a4759dced262a6f480c2555ab66ffcc5cb367d672fdcfc",
+      "compatibility": []
+    },
+    {
+      "name": "druid",
+      "kind": "class-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/classes/druid/0.1.0/template.json",
+      "source_file": "druid.json",
+      "sha256": "f2763320ee4ec8010637d432e409196eafeb8fec697439eeb5ba07cce2555395",
+      "compatibility": []
+    },
+    {
+      "name": "mage",
+      "kind": "class-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/classes/mage/0.1.0/template.json",
+      "source_file": "mage.json",
+      "sha256": "93bd3e3c7dc55f909e17d30bc4940b65deb821abeba5cd60ba73209f4d13e34c",
+      "compatibility": []
+    },
+    {
+      "name": "necromancer",
+      "kind": "class-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/classes/necromancer/0.1.0/template.json",
+      "source_file": "necromancer.json",
+      "sha256": "d7ad77c857ebe94fee1af18ffb1391bc235b6a1f217382f31565d7722d391d2a",
+      "compatibility": []
+    },
+    {
+      "name": "paladin",
+      "kind": "class-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/classes/paladin/0.1.0/template.json",
+      "source_file": "paladin.json",
+      "sha256": "04b6ee127a8bd53c186d71af8434e6b5c0d1a04ffd46fc36e35ffe145c78009b",
+      "compatibility": []
+    },
+    {
+      "name": "ranger",
+      "kind": "class-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/classes/ranger/0.1.0/template.json",
+      "source_file": "ranger.json",
+      "sha256": "959194301653c067052bd7adb2738eb82e2fb319dfcf4c250f2cb2d41d73bedd",
+      "compatibility": []
+    },
+    {
+      "name": "rogue",
+      "kind": "class-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/classes/rogue/0.1.0/template.json",
+      "source_file": "rogue.json",
+      "sha256": "d4de62fa7403d8315773b4b2e3422893b3d2b2b1210de99571a61b8f31e2c708",
+      "compatibility": []
+    },
+    {
+      "name": "warrior",
+      "kind": "class-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/classes/warrior/0.1.0/template.json",
+      "source_file": "warrior.json",
+      "sha256": "392ba88e2f068c219f99774b4d6bfb6277882a07dcdf23b3ef11f362a45e5905",
+      "compatibility": []
+    },
+    {
+      "name": "aethari",
+      "kind": "race-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/races/aethari/0.1.0/template.json",
+      "source_file": "aethari.json",
+      "sha256": "302a25cc74076dbfa8481bf966a232dda552b2a57af1897f8cde69c7c540c71d",
+      "compatibility": []
+    },
+    {
+      "name": "celestien",
+      "kind": "race-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/races/celestien/0.1.0/template.json",
+      "source_file": "celestien.json",
+      "sha256": "a4d3623053eb94a23f8fec06cc5170d19ab90522e7aaabb52d4ad76a1b00ab54",
+      "compatibility": []
+    },
+    {
+      "name": "drakhari",
+      "kind": "race-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/races/drakhari/0.1.0/template.json",
+      "source_file": "drakhari.json",
+      "sha256": "09fbf8293a73746661bff89c584c75e7650414ac391649d000af617c2ee7bf18",
+      "compatibility": []
+    },
+    {
+      "name": "nympheen",
+      "kind": "race-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/races/nympheen/0.1.0/template.json",
+      "source_file": "nympheen.json",
+      "sha256": "7650bcba858a6bab8b11ad0208a0f64cf95502b31865f325fe723da8916eaf50",
+      "compatibility": []
+    },
+    {
+      "name": "sylphe",
+      "kind": "race-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/races/sylphe/0.1.0/template.json",
+      "source_file": "sylphe.json",
+      "sha256": "c368238c28c9525f61e1b12f7a60791cb5d030617558efc9bf64d92a4a0c2bbd",
+      "compatibility": []
+    },
+    {
+      "name": "titanide",
+      "kind": "race-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/races/titanide/0.1.0/template.json",
+      "source_file": "titanide.json",
+      "sha256": "69bd91e6fed2210ad06bfbce049161860e298f909abd4c75bd6e7e3c2c3796b1",
+      "compatibility": []
+    },
+    {
+      "name": "umbral",
+      "kind": "race-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/races/umbral/0.1.0/template.json",
+      "source_file": "umbral.json",
+      "sha256": "df964e3329598787bed7632db22d5e949d23e48c9ea1836440f0fb270bd77027",
+      "compatibility": []
+    },
+    {
+      "name": "vorok",
+      "kind": "race-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/races/vorok/0.1.0/template.json",
+      "source_file": "vorok.json",
+      "sha256": "7035bce2e27aa06d6bb98e4baa6eca9c40f9f3cbe78bbbec890bbe17401930e6",
+      "compatibility": []
+    },
+    {
+      "name": "arcana-study",
+      "kind": "skill-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/skills/arcana-study/0.1.0/template.json",
+      "source_file": "arcana-study.json",
+      "sha256": "b8550a720054206d9c9bcf739f9481b63b8e5115f497f535f504f21847288982",
+      "compatibility": []
+    },
+    {
+      "name": "arcane-channeling",
+      "kind": "skill-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/skills/arcane-channeling/0.1.0/template.json",
+      "source_file": "arcane-channeling.json",
+      "sha256": "037530026f78e2c488837248ad184a8930540808c1a09a800189cd507618442e",
+      "compatibility": []
+    },
+    {
+      "name": "armor-smithing",
+      "kind": "skill-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/skills/armor-smithing/0.1.0/template.json",
+      "source_file": "armor-smithing.json",
+      "sha256": "759071ae166389a19e4bb2113090cbbe3312d77f5672ba458a858d32f72746ba",
+      "compatibility": []
+    },
+    {
+      "name": "negotiation",
+      "kind": "skill-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/skills/negotiation/0.1.0/template.json",
+      "source_file": "negotiation.json",
+      "sha256": "8965c8916527786b48654ac0e26ce8bffd349f64e86429fcac8b5f3662dba5d8",
+      "compatibility": []
+    },
+    {
+      "name": "prospecting",
+      "kind": "skill-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/skills/prospecting/0.1.0/template.json",
+      "source_file": "prospecting.json",
+      "sha256": "e5b6ff9c6598d41114c404552204518c9afaaf015d0da6db3f1888a68ea9b3af",
+      "compatibility": []
+    },
+    {
+      "name": "stealth-movement",
+      "kind": "skill-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/skills/stealth-movement/0.1.0/template.json",
+      "source_file": "stealth-movement.json",
+      "sha256": "0e4b9c551167fd31e6803eb6537c4d4683f40a0b623d2358d18fbb97eee08bfb",
+      "compatibility": []
+    },
+    {
+      "name": "sword-mastery",
+      "kind": "skill-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/skills/sword-mastery/0.1.0/template.json",
+      "source_file": "sword-mastery.json",
+      "sha256": "767c6683cc8592591ff5b1b5748a9331a77a5a58b4c77f2afc43a092ac050575",
+      "compatibility": []
+    },
+    {
+      "name": "tracking",
+      "kind": "skill-template",
+      "version": "0.1.0",
+      "status": "experimental",
+      "file": "templates/skills/tracking/0.1.0/template.json",
+      "source_file": "tracking.json",
+      "sha256": "a36a0003e137ee0374770e7b56d2736ded3eb8cd1bdf6f77a56cb9622e918dd6",
       "compatibility": []
     }
   ]

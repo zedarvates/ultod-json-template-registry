@@ -1,0 +1,53 @@
+{
+  "id": "arcane-channeling",
+  "name": "Arcane Channeling",
+  "description": "A magic mastery that steadies spellcasting focus, lowering mana cost and raising critical chance.",
+  "icon": "skill_arcane_channeling",
+  "category": "magic_mastery",
+  "subcategory": "spellcasting",
+  "max_level": 100,
+  "level_requirements": {
+    "1": 0,
+    "25": 6000,
+    "50": 45000,
+    "75": 220000,
+    "100": 1200000
+  },
+  "xp_sources": {
+    "spell_casts": 5,
+    "mana_usage": 1,
+    "spell_criticals": 2
+  },
+  "level_bonuses": {
+    "mana_efficiency": {
+      "base_value": 1,
+      "per_level": 0.3
+    },
+    "spell_critical_chance": {
+      "base_value": 1,
+      "per_level": 0.2
+    },
+    "cast_speed": {
+      "base_value": 0,
+      "per_level": 0.1
+    }
+  },
+  "specializations": {
+    "amplified_weave": {
+      "unlock_level": 25,
+      "description": "All spells gain bonus damage.",
+      "bonuses": {
+        "spell_damage": 10
+      }
+    },
+    "deep_reservoir": {
+      "unlock_level": 50,
+      "description": "Greatly improves mana regeneration.",
+      "bonuses": {
+        "mana_regen": 20
+      }
+    }
+  },
+  "template_type": "skill",
+  "version": "0.1.0"
+}

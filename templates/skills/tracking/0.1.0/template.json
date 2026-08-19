@@ -1,0 +1,48 @@
+{
+  "id": "tracking",
+  "name": "Tracking",
+  "description": "A survival skill for following trails, locating resources and predicting wildlife movement.",
+  "icon": "skill_tracking",
+  "category": "survival",
+  "subcategory": "tracking",
+  "max_level": 100,
+  "level_requirements": {
+    "1": 0,
+    "25": 3000,
+    "50": 24000,
+    "75": 120000,
+    "100": 600000
+  },
+  "xp_sources": {
+    "gathering_attempts": 3,
+    "combat_kills": 2
+  },
+  "level_bonuses": {
+    "gathering_yield": {
+      "base_value": 3,
+      "per_level": 0.3
+    },
+    "combat_accuracy": {
+      "base_value": 1,
+      "per_level": 0.1
+    }
+  },
+  "specializations": {
+    "beast_lore": {
+      "unlock_level": 30,
+      "description": "Reveal creature weaknesses on sight.",
+      "bonuses": {
+        "weakness_reveal": 20
+      }
+    },
+    "pathfinder": {
+      "unlock_level": 55,
+      "description": "Reduced stamina cost while exploring.",
+      "bonuses": {
+        "stamina_save": 25
+      }
+    }
+  },
+  "template_type": "skill",
+  "version": "0.1.0"
+}

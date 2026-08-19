@@ -1,0 +1,48 @@
+{
+  "id": "arcana-study",
+  "name": "Arcana Study",
+  "description": "A knowledge pursuit that deepens understanding of magical theory, lore and ritual preparation.",
+  "icon": "skill_arcana_study",
+  "category": "knowledge",
+  "subcategory": "arcana",
+  "max_level": 100,
+  "level_requirements": {
+    "1": 0,
+    "25": 4000,
+    "50": 30000,
+    "75": 150000,
+    "100": 800000
+  },
+  "xp_sources": {
+    "spell_casts": 2,
+    "social_interactions": 1
+  },
+  "level_bonuses": {
+    "spell_damage": {
+      "base_value": 0,
+      "per_level": 0.1
+    },
+    "mana_efficiency": {
+      "base_value": 0,
+      "per_level": 0.1
+    }
+  },
+  "specializations": {
+    "ritualist": {
+      "unlock_level": 40,
+      "description": "Unlocks longer-duration rituals.",
+      "bonuses": {
+        "ritual_power": 20
+      }
+    },
+    "loremaster": {
+      "unlock_level": 60,
+      "description": "Grants bonus identification of artifacts.",
+      "bonuses": {
+        "identify": 30
+      }
+    }
+  },
+  "template_type": "skill",
+  "version": "0.1.0"
+}

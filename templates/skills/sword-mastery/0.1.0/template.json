@@ -1,0 +1,56 @@
+{
+  "id": "sword-mastery",
+  "name": "Sword Mastery",
+  "description": "A disciplined combat training that refines melee sword technique and raises edge damage over time.",
+  "icon": "skill_sword_mastery",
+  "category": "combat",
+  "subcategory": "melee",
+  "max_level": 100,
+  "level_requirements": {
+    "1": 0,
+    "25": 5000,
+    "50": 40000,
+    "75": 200000,
+    "100": 1000000
+  },
+  "xp_sources": {
+    "combat_kills": 10,
+    "spell_criticals": 0
+  },
+  "level_bonuses": {
+    "combat_accuracy": {
+      "base_value": 2,
+      "per_level": 0.3
+    },
+    "spell_damage": {
+      "base_value": 0,
+      "per_level": 0.2
+    }
+  },
+  "specializations": {
+    "blade_dancer": {
+      "unlock_level": 25,
+      "description": "Trade defense for faster sword combinations.",
+      "bonuses": {
+        "attack_speed": 15
+      }
+    },
+    "bulwark_warden": {
+      "unlock_level": 50,
+      "description": "Gain a parry chance that scales with level.",
+      "bonuses": {
+        "parry_chance": 20
+      }
+    }
+  },
+  "unlocked_recipes": {
+    "1": [
+      "basic_sword_repair"
+    ],
+    "50": [
+      "master_blade_honing"
+    ]
+  },
+  "template_type": "skill",
+  "version": "0.1.0"
+}

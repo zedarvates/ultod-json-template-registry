@@ -1,0 +1,43 @@
+{
+  "id": "prospecting",
+  "name": "Prospecting",
+  "description": "A gathering skill for locating and extracting ore veins and precious minerals safely.",
+  "icon": "skill_prospecting",
+  "category": "gathering",
+  "subcategory": "mining",
+  "max_level": 100,
+  "level_requirements": {
+    "1": 0,
+    "25": 3000,
+    "50": 25000,
+    "75": 120000,
+    "100": 600000
+  },
+  "xp_sources": {
+    "gathering_attempts": 5
+  },
+  "level_bonuses": {
+    "gathering_yield": {
+      "base_value": 5,
+      "per_level": 0.6
+    }
+  },
+  "specializations": {
+    "deep_vein": {
+      "unlock_level": 30,
+      "description": "Unlocks rarer ore nodes.",
+      "bonuses": {
+        "rare_ore": 15
+      }
+    },
+    "safe_blast": {
+      "unlock_level": 55,
+      "description": "Reduces cave-in risk while mining.",
+      "bonuses": {
+        "safety": 30
+      }
+    }
+  },
+  "template_type": "skill",
+  "version": "0.1.0"
+}

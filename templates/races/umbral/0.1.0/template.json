@@ -1,0 +1,104 @@
+{
+  "id": "umbral",
+  "name": "Umbral",
+  "description": "A revenant husk bound by residual will, neither alive nor fully gone, drifting between memory and dust.",
+  "icon": "race_umbral",
+  "category": "undead",
+  "rarity": "rare",
+  "faction": "shadow",
+  "base_stats": {
+    "strength": 20,
+    "dexterity": 24,
+    "constitution": 22,
+    "intelligence": 26,
+    "wisdom": 22,
+    "charisma": 18,
+    "luck": 8
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 1.05,
+    "experience_rate": 1.05,
+    "health_regeneration": 0.8,
+    "mana_regeneration": 1.1
+  },
+  "available_classes": [
+    "necromancer",
+    "rogue",
+    "mage"
+  ],
+  "racial_traits": [
+    "life_drain_touch",
+    "fear_aura",
+    "death_resist"
+  ],
+  "passive_bonuses": {
+    "skill_points_per_level": 1,
+    "attribute_points_per_level": 1,
+    "resistance_to_fear": 40,
+    "bonus_to_all_skills": 1
+  },
+  "starting_equipment": {
+    "weapons": [
+      "rusted_scythe"
+    ],
+    "armor": [
+      "tattered_cloak"
+    ],
+    "items": [
+      "soul_shard"
+    ]
+  },
+  "body_proportions": {
+    "height_min": 160,
+    "height_max": 195,
+    "weight_min": 50,
+    "weight_max": 80,
+    "body_type": "average"
+  },
+  "appearance_restrictions": {
+    "skin_colors": [
+      "ashen",
+      "pale_blue",
+      "void_black"
+    ],
+    "hair_colors": [
+      "none",
+      "grey"
+    ],
+    "eye_colors": [
+      "empty_white",
+      "purple"
+    ],
+    "facial_features": "hollow"
+  },
+  "cultural_background": {
+    "languages": [
+      "umbra",
+      "old_root"
+    ],
+    "starting_city": "Ghastmire",
+    "alignment_tendency": "neutral_evil",
+    "cultural_bonuses": {
+      "shadow": 10
+    }
+  },
+  "admin_controls": {
+    "enabled": true,
+    "admin_only": false,
+    "requires_permission": false,
+    "max_characters_per_account": 6,
+    "creation_restrictions": {
+      "min_level_required": 1,
+      "faction_restricted": false,
+      "realm_restricted": false
+    },
+    "balancing_multipliers": {
+      "damage_dealt": 1.0,
+      "damage_taken": 1.0,
+      "healing_received": 0.9,
+      "experience_rate": 1.05
+    }
+  },
+  "template_type": "race",
+  "version": "0.1.0"
+}

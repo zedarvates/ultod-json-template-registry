@@ -1,0 +1,71 @@
+{
+  "id": "shadow_bolt",
+  "name": "Shadow Bolt",
+  "description": "A piercing bolt of void energy that strikes a single target for shadow damage.",
+  "icon": "spell_shadow_shadowbolt",
+  "school": "shadow",
+  "rarity": "common",
+  "spell_type": "damage_instant",
+  "target_type": "enemy",
+  "range": 35,
+  "cast_time": 1700,
+  "cooldown": 3000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 110,
+    "damage_type": "shadow_damage",
+    "scaling": {
+      "attribute": "intelligence",
+      "coefficient": 0.75
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "debuff_weakness",
+      "value": 10,
+      "duration": 4000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fx_shadow_cast",
+    "projectile_effect": "fx_shadowbolt"
+  },
+  "sound_effects": {
+    "cast_effect": "snd_shadow_cast",
+    "impact_effect": "snd_shadow_hit"
+  },
+  "requirements": {
+    "level": 1,
+    "classes": [
+      "necromancer",
+      "warlock"
+    ]
+  },
+  "admin_controls": {
+    "enabled": true,
+    "balancing_multipliers": {
+      "damage_output": 1.0,
+      "cast_time": 1.0,
+      "cooldown": 1.0,
+      "mana_cost": 1.0
+    }
+  },
+  "vr_configuration": {
+    "gestures": {
+      "left_pose": "fist",
+      "right_pose": "point",
+      "required_hand": "right"
+    },
+    "haptics": {
+      "charge_pattern": "haptic_shadow_charge",
+      "launch_pattern": "haptic_shadow_launch",
+      "impact_pattern": "haptic_shadow_sting"
+    }
+  },
+  "enabled": true,
+  "admin_only": false,
+  "debug_mode": false,
+  "template_type": "spell",
+  "version": "0.1.0"
+}

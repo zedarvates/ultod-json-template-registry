@@ -1,0 +1,100 @@
+{
+  "id": "paladin",
+  "name": "Paladin",
+  "description": "A holy knight who blends martial prowess with protective and smiting light.",
+  "color": "E67E22",
+  "primary_resource": "holy_power",
+  "base_stats": {
+    "strength": 40,
+    "agility": 20,
+    "intelligence": 22,
+    "vitality": 38,
+    "wisdom": 34,
+    "charisma": 28
+  },
+  "specializations": [
+    "protector",
+    "avenger",
+    "crusader"
+  ],
+  "starting_skills": [
+    {
+      "id": 1,
+      "name": "Healing Light",
+      "description": "Mend an ally.",
+      "cooldown": 2500,
+      "mana_cost": 50,
+      "range": 40,
+      "cast_time": 1800,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 2,
+      "name": "Holy Strike",
+      "description": "Smite an enemy.",
+      "cooldown": 3500,
+      "mana_cost": 40,
+      "range": 5,
+      "cast_time": 1000,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 3,
+      "name": "Aura of Light",
+      "description": "+3% party resist per rank.",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 5,
+      "is_passive": true
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 1,
+            "name": "Bulwark",
+            "description": "+8% block per rank.",
+            "max_rank": 5,
+            "icon_path": "icon_bulwark"
+          },
+          {
+            "id": 2,
+            "name": "Vengeance",
+            "description": "+5% damage per rank.",
+            "max_rank": 5,
+            "icon_path": "icon_vengeance"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "talents": [
+          {
+            "id": 3,
+            "name": "Divine Stand",
+            "description": "Become immune briefly.",
+            "max_rank": 1,
+            "icon_path": "icon_divine"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 1000,
+  "health_modifier": 1.2,
+  "damage_modifier": 1.3,
+  "armor_modifier": 1.3,
+  "spell_ids": [],
+  "enabled": true,
+  "admin_only": false,
+  "debug_mode": false,
+  "template_type": "class",
+  "version": "0.1.0"
+}
