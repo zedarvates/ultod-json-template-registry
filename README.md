@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner-json-registry.png" alt="UltOd JSON Template Registry" width="100%" />
+<img src="assets/banner-json-registry.jpg" alt="UltOd JSON Template Registry" width="100%" />
 
 ### UltOd JSON Template Registry
 
