@@ -1,0 +1,17 @@
+{
+  "id": "equipment_set_catalog",
+  "template_type": "item_set_catalog",
+  "version": "0.1.0",
+  "name": "Equipment Set Catalog",
+  "description": "A statless catalog of original equipment-set identities.",
+  "sets": [
+    {
+      "id": "iron_guard_set",
+      "name": "Iron Guard Set"
+    },
+    {
+      "id": "aether_weaver_set",
+      "name": "Aether Weaver Set"
+    }
+  ]
+}

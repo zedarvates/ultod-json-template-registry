@@ -1,0 +1,16 @@
+{
+  "id": "treasure_map",
+  "template_type": "item",
+  "version": "0.1.0",
+  "name": "Treasure Map",
+  "description": "A portable quest_item component for public template workflows.",
+  "category": "quest_item",
+  "rarity": "common",
+  "stack_limit": 10,
+  "weight_kg": 0.1,
+  "tags": [
+    "adapted",
+    "quest_item"
+  ],
+  "dependencies": []
+}
