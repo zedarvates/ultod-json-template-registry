@@ -1,0 +1,13 @@
+{
+  "id": "medical_supply_bag",
+  "template_type": "item",
+  "version": "0.1.0",
+  "name": "Medical Supply Bag",
+  "description": "A portable container for generic care supplies without embedded effects.",
+  "category": "tool",
+  "rarity": "common",
+  "stack_limit": 5,
+  "weight_kg": 1.5,
+  "tags": ["crafting", "care", "container"],
+  "dependencies": []
+}
