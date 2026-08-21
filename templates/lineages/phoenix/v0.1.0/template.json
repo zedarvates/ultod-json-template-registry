@@ -1,0 +1,53 @@
+{
+  "id": "phoenix",
+  "name": "Phénix",
+  "description": "Lignée du phénix immortel, maître du feu et de la renaissance",
+  "icon": "phoenix_lineage",
+  "rarity": "legendary",
+  "required_level": 25,
+  "awakening_cost": {
+    "mana": 500,
+    "health": 200,
+    "items": {
+      "phoenix_feather": 3,
+      "fire_essence": 5
+    }
+  },
+  "stat_bonuses": {
+    "health": 30,
+    "strength": 15,
+    "dexterity": 10,
+    "intelligence": 20,
+    "wisdom": 25,
+    "charisma": 30
+  },
+  "resistance_bonuses": {
+    "fire": 50,
+    "physical": 10
+  },
+  "skill_bonuses": {
+    "fire_magic": 0.4,
+    "regeneration": 0.35
+  },
+  "awakening_bonuses": {
+    "duration_minutes": 90,
+    "stat_multipliers": {
+      "fire_damage": 2.0,
+      "health_regeneration": 3.0,
+      "revival_chance": 1.0
+    },
+    "special_effects": [
+      "phoenix_fire_aura",
+      "immortal_flame",
+      "ash_rebirth"
+    ]
+  },
+  "racial_synergies": {
+    "elf": 1.8,
+    "dark_elf": 1.6,
+    "fire_elemental": 2.5
+  },
+  "enabled": true,
+  "template_type": "lineage",
+  "version": "0.1.0"
+}

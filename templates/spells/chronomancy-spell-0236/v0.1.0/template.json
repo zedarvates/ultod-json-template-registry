@@ -1,0 +1,79 @@
+{
+  "id": "chronomancy_spell_0236",
+  "name": "Chronomancy Spell 0236",
+  "description": "Crée un clone du lanceur tiré d'une ligne temporelle alternative pour assister au combat",
+  "icon": "chronomancy_spell_0236_icon",
+  "school": "chronomancy",
+  "rarity": "rare",
+  "spell_type": "chronomancy_spell_0236_summon",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 2000,
+  "cooldown": 35000,
+  "mana_cost": 90,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "alternative_self_summon",
+      "value": 100,
+      "duration": 30000,
+      "tick_rate": 0,
+      "clone_health_percent": 80,
+      "clone_damage_percent": 80,
+      "clone_independence": 0.7,
+      "timeline_convergence": true,
+      "clone_count": 1,
+      "reality_stress_cost": 50
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "chronomancy_spell_0236_rift_tearing",
+    "clone_effect": "alternative_self_emergence",
+    "active_effect": "clone_chronomancy_spell_0236_aura",
+    "expire_effect": "timeline_reconvergence_flash"
+  },
+  "sound_effects": {
+    "cast_sound": "reality_rift_tear",
+    "clone_sound": "alternative_self_emergence",
+    "active_sound": "dual_being_harmony",
+    "expire_sound": "timeline_merge_pop"
+  },
+  "requirements": {
+    "level": 30,
+    "skills": [
+      "chronomancy",
+      "alternate_timelines",
+      "summon_magic"
+    ],
+    "classes": [
+      "chronomancer",
+      "time_mage",
+      "chronomancy_spell_0236ist"
+    ],
+    "specializations": [
+      "timeline_weaver",
+      "multiversal_summoner"
+    ]
+  },
+  "upgrades": {
+    "dual_convergence": {
+      "unlock_level": 40,
+      "description": "Peut invoquer deux clones issus de réalités alternatives",
+      "clone_count_bonus": 1,
+      "timeline_divergence": "greater",
+      "reality_stress_bonus": 25
+    },
+    "perfect_alternatives": {
+      "unlock_level": 50,
+      "description": "Les clones sont aussi puissants que l'original et ont leurs propres compétences",
+      "clone_stats_multiplier": 1.0,
+      "independent_abilities": true,
+      "timeline_mastery": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

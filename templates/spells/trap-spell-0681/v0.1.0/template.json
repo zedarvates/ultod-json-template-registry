@@ -1,0 +1,78 @@
+{
+  "id": "trap_spell_0681",
+  "name": "Trap Spell 0681",
+  "description": "Place un totem terrestre qui lie les ennemis proches au sol, réduisant drastiquement leur vitesse",
+  "icon": "trap_spell_0681_icon",
+  "school": "trap",
+  "rarity": "uncommon",
+  "spell_type": "slowing_terrain_control",
+  "target_type": "place_at_location",
+  "range": 40.0,
+  "cast_time": 2500,
+  "cooldown": 35000,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 50,
+    "damage_type": "earthen_slow_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "ground_tremor_rooting_totem",
+      "value": 220,
+      "duration": 25000,
+      "tick_rate": 5000,
+      "slow_aura_radius": 18.0,
+      "movement_speed_reduction": 80,
+      "jump_limitation_complete": true,
+      "terrain_damage_pulse": 25,
+      "root_grasp_attempts": 3,
+      "nature_affinity_boost": 0.2
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "earth_spike_erupting_totem_formation",
+    "active_effect": "Earthen_totem_root_waves_pulsing_ground",
+    "slow_effect": "enemies_dragging_feet_earth_tether_vines",
+    "damage_effect": "ground_quake_damage_terrain_ripples"
+  },
+  "sound_effects": {
+    "cast_effect": "ground_splitting_earth_rumble_totem",
+    "active_effect": "deep_earth_pulse_beating_ground",
+    "slow_effect": "tethered_moving_objects_slowing_dragged",
+    "damage_effect": "cracking_earth_damage_ground_shaking"
+  },
+  "requirements": {
+    "level": 28,
+    "skills": [
+      "trap_laying",
+      "earth_magic"
+    ],
+    "classes": [
+      "hunter",
+      "trap_spell_0681er"
+    ],
+    "specializations": [
+      "terrain_controller"
+    ]
+  },
+  "upgrades": {
+    "greater_earthbind_totem": {
+      "unlock_level": 38,
+      "description": "Le Trap Spell 0681 devient plus grand avec des racines plus fortes et des contrôles étendus",
+      "slow_radius_expansion": 30.0,
+      "movement_speed_reduction_max": 95,
+      "root_grasp_increase": 8,
+      "terrain_damage_amplification": 50
+    },
+    "legendary_earthbind_totem": {
+      "unlock_level": 48,
+      "description": "Le totem atteint la légende avec la domination terrestre et des effets environnementaux",
+      "terrain_domination_zone": 50.0,
+      "enemy_flight_denial": true,
+      "earthquake_summon_proc": 0.4,
+      "terrain_shape_manipulation": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

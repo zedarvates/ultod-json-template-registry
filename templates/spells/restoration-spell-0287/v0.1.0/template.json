@@ -1,0 +1,76 @@
+{
+  "id": "restoration_spell_0287",
+  "name": "Restoration Spell 0287",
+  "description": "Crée une gardienne spirituelle qui restaure continuellement la santé des alliés proches",
+  "icon": "restoration_spell_0287_icon",
+  "school": "restoration",
+  "rarity": "uncommon",
+  "spell_type": "persistent_restoration_spell_0287",
+  "target_type": "area_effect",
+  "range": 40.0,
+  "cast_time": 2500,
+  "cooldown": 20000,
+  "mana_cost": 90,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "ward_restoration_spell_0287"
+  },
+  "effects": [
+    {
+      "effect_type": "restoration_spell_0287_spirit_summon",
+      "value": 300,
+      "duration": 25000,
+      "tick_rate": 3000,
+      "ward_radius": 18.0,
+      "healing_per_tick": 45,
+      "max_targets_per_tick": 3,
+      "spirit_lifetime": 25000,
+      "ward_visual_pulse": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "restoration_spell_0287_spirit_manifest",
+    "ward_effect": "gentle_pulsing_restoration_spell_0287_aura",
+    "heal_effect": "golden_restoration_spell_0287_beams",
+    "expire_effect": "spirit_dissolve_peaceful"
+  },
+  "sound_effects": {
+    "cast_sound": "spirit_summon_choir",
+    "ward_sound": "restoration_spell_0287_aura_hum",
+    "heal_sound": "restoring_harmonies",
+    "expire_sound": "spirit_depart_tranquil"
+  },
+  "requirements": {
+    "level": 22,
+    "skills": [
+      "divine_magic",
+      "ward_summoning"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "restoration_spell_0287en"
+    ]
+  },
+  "upgrades": {
+    "greater_healing_spirit": {
+      "unlock_level": 32,
+      "description": "L'esprit guérit plus et protège contre les intrusions",
+      "healing_increase": 30,
+      "ward_protection_barrier": true,
+      "undead_deterrence": true
+    },
+    "archangel_healing_ward": {
+      "unlock_level": 42,
+      "description": "L'esprit devient un archange avec des pouvoirs de résurrection limités",
+      "archangel_form": true,
+      "revival_healing": true,
+      "mass_healing_capability": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

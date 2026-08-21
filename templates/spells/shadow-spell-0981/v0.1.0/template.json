@@ -1,0 +1,59 @@
+{
+  "id": "shadow_spell_0981",
+  "name": "Shadow Spell 0981",
+  "description": "Devient invisible pendant 10 secondes, brisant tous les effets de contrôle",
+  "icon": "shadow_spell_0981_icon",
+  "school": "shadow",
+  "rarity": "rare",
+  "spell_type": "utility",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 120000,
+  "mana_cost": 50,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "invisibility",
+      "value": 100,
+      "duration": 10000,
+      "tick_rate": 0
+    },
+    {
+      "effect_type": "break_cc",
+      "value": 0,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "shadow_burst",
+    "projectile_effect": null,
+    "hit_effect": "fade_out"
+  },
+  "sound_effects": {
+    "cast_sound": "shadow_whisper",
+    "projectile_sound": null,
+    "hit_sound": "silence"
+  },
+  "requirements": {
+    "level": 15,
+    "skills": [
+      "stealth_mastery"
+    ],
+    "classes": [
+      "ninja",
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_vanish": {
+      "unlock_level": 25,
+      "description": "Augmente la durée de Shadow Spell 0981",
+      "duration_bonus": 5000,
+      "cooldown_reduction": 30000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

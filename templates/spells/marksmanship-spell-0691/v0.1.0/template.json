@@ -1,0 +1,78 @@
+{
+  "id": "marksmanship_spell_0691",
+  "name": "Marksmanship Spell 0691",
+  "description": "Augmente drastiquement la vitesse d'attaque et réduit les temps d'incantation pendant une courte durée",
+  "icon": "marksmanship_spell_0691_icon",
+  "school": "marksmanship",
+  "rarity": "rare",
+  "spell_type": "attack_speed_burst",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 300000,
+  "mana_cost": 100,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "speed_empowerment_burst"
+  },
+  "effects": [
+    {
+      "effect_type": "furious_attack_acceleration",
+      "value": 300,
+      "duration": 15000,
+      "tick_rate": 0,
+      "attack_speed_multiplier": 3.0,
+      "movement_speed_boost": 100,
+      "casting_speed_tripling": true,
+      "critical_strike_bonus": 0.25,
+      "ammo_regeneration": 10,
+      "overheat_risk_warning": 0.8
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "hunter_glow_marksmanship_spell_0691_energy_building",
+    "active_effect": "motion_blur_extreme_speed_r wykorzystyw",
+    "damage_effect": "marksmanship_spell_0691_strikes_motion_trail_energy",
+    "exhaust_effect": "slow_down_exhaustion_after_burst"
+  },
+  "sound_effects": {
+    "cast_effect": "hunter_breath_gathering_marksmanship_spell_0691_heart_beat",
+    "active_effect": "marksmanship_spell_0691_arrows_flying_swoosh_storm",
+    "damage_effect": "fast_impact_damages_quick_succession",
+    "exhaust_effect": "breathing_heavy_tired_slow_down"
+  },
+  "requirements": {
+    "level": 26,
+    "skills": [
+      "marksmanship",
+      "marksmanship_spell_0691_firing"
+    ],
+    "classes": [
+      "hunter",
+      "storm_archer"
+    ],
+    "specializations": [
+      "marksmanship_spell_0691r"
+    ]
+  },
+  "upgrades": {
+    "greater_rapid_fire": {
+      "unlock_level": 36,
+      "description": "Marksmanship Spell 0691 devient plus grand avec une durée étendue et une vitesse encore augmentée",
+      "duration_extension_double": true,
+      "attack_speed_quadruple": true,
+      "overheat_risk_reduction": 0.3,
+      "popup_damage_burst_proc": true
+    },
+    "legendary_rapid_fire": {
+      "unlock_level": 46,
+      "description": "Marksmanship Spell 0691 atteint la légende avec des projectiles multiples et des temps d'arrêt",
+      "time_dilation_during_burst": 0.5,
+      "multi_shot_every_attack": true,
+      "arrow_rain_proc_chance": 0.4,
+      "rapid_fire_allies_buff": 12.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

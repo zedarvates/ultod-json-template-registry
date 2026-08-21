@@ -1,0 +1,615 @@
+{
+  "id": "animal_taming",
+  "name": "Animal Taming",
+  "description": "Master the art of befriending and controlling wild creatures, from common animals to legendary beasts",
+  "category": "social",
+  "skill_type": "creature_control",
+  "base_gain_chance": 0.25,
+  "gain_rate": 1.0,
+  "skill_cap": 100.0,
+  "real_skill_cap": 700.0,
+  "stat_dependencies": [
+    "charisma",
+    "intelligence"
+  ],
+  "stat_multipliers": {
+    "charisma": 0.7,
+    "intelligence": 0.3
+  },
+  "creature_categories": {
+    "small_animals": {
+      "description": "Small, easily tamed creatures",
+      "difficulty_range": [
+        1,
+        20
+      ],
+      "examples": [
+        "rabbit",
+        "squirrel",
+        "bird",
+        "fox",
+        "cat"
+      ],
+      "base_success_rate": 0.8,
+      "maintenance_cost": "low"
+    },
+    "medium_animals": {
+      "description": "Medium-sized creatures requiring more skill",
+      "difficulty_range": [
+        15,
+        40
+      ],
+      "examples": [
+        "wolf",
+        "bear",
+        "boar",
+        "deer",
+        "eagle"
+      ],
+      "base_success_rate": 0.6,
+      "maintenance_cost": "medium"
+    },
+    "large_animals": {
+      "description": "Large, powerful creatures",
+      "difficulty_range": [
+        35,
+        60
+      ],
+      "examples": [
+        "lion",
+        "tiger",
+        "elephant",
+        "rhino",
+        "dragon_hatchling"
+      ],
+      "base_success_rate": 0.4,
+      "maintenance_cost": "high"
+    },
+    "fantastic_creatures": {
+      "description": "Magical and mythical beasts",
+      "difficulty_range": [
+        55,
+        80
+      ],
+      "examples": [
+        "unicorn",
+        "phoenix",
+        "griffin",
+        "wyvern",
+        "basilisk"
+      ],
+      "base_success_rate": 0.2,
+      "maintenance_cost": "very_high"
+    },
+    "legendary_beasts": {
+      "description": "Extremely rare and powerful creatures",
+      "difficulty_range": [
+        75,
+        100
+      ],
+      "examples": [
+        "ancient_dragon",
+        "titan",
+        "leviathan",
+        "phoenix_elder",
+        "world_serpent"
+      ],
+      "base_success_rate": 0.05,
+      "maintenance_cost": "extreme"
+    }
+  },
+  "training_methods": {
+    "gentle_approach": {
+      "gain_multiplier": 1.0,
+      "requirements": [
+        "calm_attitude",
+        "patience",
+        "treats"
+      ],
+      "description": "Use gentle methods to befriend animals"
+    },
+    "food_bribery": {
+      "gain_multiplier": 0.8,
+      "requirements": [
+        "favorite_food",
+        "timing",
+        "generosity"
+      ],
+      "description": "Use food to gain animal trust"
+    },
+    "dominance_training": {
+      "gain_multiplier": 0.9,
+      "requirements": [
+        "confidence",
+        "assertiveness",
+        "respect"
+      ],
+      "description": "Establish dominance through confident behavior"
+    },
+    "apprenticeship": {
+      "gain_multiplier": 1.2,
+      "requirements": [
+        "master_tamer",
+        "training_grounds",
+        "guidance"
+      ],
+      "description": "Learn from experienced animal tamers"
+    },
+    "rescue_mission": {
+      "gain_multiplier": 1.5,
+      "requirements": [
+        "injured_animal",
+        "medical_knowledge",
+        "compassion"
+      ],
+      "description": "Gain skill by helping injured animals"
+    }
+  },
+  "special_abilities": [
+    {
+      "name": "Animal Empathy",
+      "unlock_level": 30,
+      "description": "Sense and understand animal emotions and needs",
+      "effects": [
+        "emotion_reading",
+        "need_detection",
+        "trust_building"
+      ],
+      "requirements": [
+        "skill_level",
+        "empathy",
+        "patience"
+      ],
+      "cooldown": 45000,
+      "range": 20
+    },
+    {
+      "name": "Beast Whisper",
+      "unlock_level": 45,
+      "description": "Communicate directly with animal minds",
+      "effects": [
+        "mental_communication",
+        "command_understanding",
+        "bond_deepening"
+      ],
+      "requirements": [
+        "skill_level",
+        "intelligence",
+        "connection"
+      ],
+      "cooldown": 90000,
+      "range": 30
+    },
+    {
+      "name": "Pack Leadership",
+      "unlock_level": 60,
+      "description": "Lead groups of tamed animals effectively",
+      "effects": [
+        "group_control",
+        "coordination_bonus",
+        "morale_boost"
+      ],
+      "requirements": [
+        "skill_level",
+        "leadership",
+        "experience"
+      ],
+      "cooldown": 120000,
+      "max_followers": 5
+    },
+    {
+      "name": "Wild Bond",
+      "unlock_level": 35,
+      "description": "Create a deep bond with a wild creature",
+      "effects": [
+        "permanent_bond",
+        "ability_sharing",
+        "soul_connection"
+      ],
+      "requirements": [
+        "skill_level",
+        "sensitivity",
+        "commitment"
+      ],
+      "cooldown": 180000,
+      "duration": "permanent"
+    },
+    {
+      "name": "Creature Healing",
+      "unlock_level": 50,
+      "description": "Heal injured creatures to gain their loyalty",
+      "effects": [
+        "wound_healing",
+        "disease_cure",
+        "trust_building"
+      ],
+      "requirements": [
+        "skill_level",
+        "medical_knowledge",
+        "compassion"
+      ],
+      "cooldown": 60000,
+      "healing_power": "skill_level * 3"
+    },
+    {
+      "name": "Alpha Status",
+      "unlock_level": 70,
+      "description": "Establish yourself as the alpha leader",
+      "effects": [
+        "dominance_bonus",
+        "obedience_boost",
+        "respect_bonus"
+      ],
+      "requirements": [
+        "skill_level",
+        "confidence",
+        "authority"
+      ],
+      "cooldown": 150000,
+      "duration": 600
+    },
+    {
+      "name": "Mythical Connection",
+      "unlock_level": 85,
+      "description": "Connect with mythical and legendary creatures",
+      "effects": [
+        "mythical_access",
+        "ancient_knowledge",
+        "divine_bond"
+      ],
+      "requirements": [
+        "skill_level",
+        "purity",
+        "wisdom"
+      ],
+      "cooldown": 300000,
+      "mythical_chance": 0.1
+    },
+    {
+      "name": "World Harmony",
+      "unlock_level": 100,
+      "description": "Achieve perfect harmony with all creatures",
+      "effects": [
+        "universal_bond",
+        "creature_ally",
+        "nature_blessing"
+      ],
+      "requirements": [
+        "skill_level",
+        "mastery",
+        "divine_blessing"
+      ],
+      "cooldown": 0,
+      "permanent": true,
+      "unique": true
+    }
+  ],
+  "taming_equipment": {
+    "basic_treats": {
+      "effectiveness": 1.0,
+      "durability": 10,
+      "required_level": 1,
+      "craftable": true,
+      "attracts": [
+        "small_animals"
+      ]
+    },
+    "premium_treats": {
+      "effectiveness": 1.3,
+      "durability": 15,
+      "required_level": 25,
+      "craftable": true,
+      "attracts": [
+        "medium_animals"
+      ]
+    },
+    "exotic_treats": {
+      "effectiveness": 1.6,
+      "durability": 20,
+      "required_level": 50,
+      "craftable": true,
+      "attracts": [
+        "large_animals"
+      ]
+    },
+    "magical_treats": {
+      "effectiveness": 2.0,
+      "durability": 25,
+      "required_level": 75,
+      "craftable": false,
+      "rarity": "rare",
+      "attracts": [
+        "fantastic_creatures"
+      ]
+    },
+    "legendary_treats": {
+      "effectiveness": 3.0,
+      "durability": 30,
+      "required_level": 90,
+      "craftable": false,
+      "rarity": "legendary",
+      "attracts": [
+        "legendary_beasts"
+      ]
+    },
+    "taming_whip": {
+      "effectiveness": 1.2,
+      "durability": 50,
+      "required_level": 20,
+      "craftable": true,
+      "control_bonus": 0.1
+    },
+    "taming_staff": {
+      "effectiveness": 1.5,
+      "durability": 100,
+      "required_level": 40,
+      "craftable": true,
+      "control_bonus": 0.2
+    },
+    "divine_taming_rod": {
+      "effectiveness": 2.5,
+      "durability": 200,
+      "required_level": 80,
+      "craftable": false,
+      "rarity": "legendary",
+      "control_bonus": 0.4,
+      "magical": true
+    }
+  },
+  "creature_abilities": {
+    "combat_assist": {
+      "description": "Tamed creatures help in combat",
+      "effects": [
+        "damage_bonus",
+        "tank_support",
+        "flanking"
+      ],
+      "requirements": [
+        "combat_training",
+        "bond_strength"
+      ]
+    },
+    "resource_gathering": {
+      "description": "Creatures help gather resources",
+      "effects": [
+        "efficiency_bonus",
+        "special_access",
+        "rare_finds"
+      ],
+      "requirements": [
+        "training",
+        "bond_strength"
+      ]
+    },
+    "transportation": {
+      "description": "Creatures provide transportation",
+      "effects": [
+        "speed_bonus",
+        "terrain_access",
+        "carrying_capacity"
+      ],
+      "requirements": [
+        "training",
+        "bond_strength"
+      ]
+    },
+    "social_interaction": {
+      "description": "Creatures help in social situations",
+      "effects": [
+        "charisma_bonus",
+        "intimidation",
+        "persuasion"
+      ],
+      "requirements": [
+        "training",
+        "bond_strength"
+      ]
+    },
+    "magical_assistance": {
+      "description": "Magical creatures provide magical aid",
+      "effects": [
+        "spell_power",
+        "mana_regen",
+        "resistance_bonus"
+      ],
+      "requirements": [
+        "magical_training",
+        "bond_strength"
+      ]
+    }
+  },
+  "mastery_levels": {
+    "apprentice": {
+      "level": 50,
+      "requirements": {
+        "skill_level": 50
+      },
+      "bonuses": {
+        "taming_success": 0.1,
+        "bond_strength": 0.05,
+        "creature_control": 5,
+        "max_followers": 2
+      },
+      "abilities": [
+        "basic_taming",
+        "animal_empathy",
+        "creature_healing"
+      ],
+      "title": "Tamer Apprentice",
+      "taming_efficiency": 1.1
+    },
+    "journeyman": {
+      "level": 70,
+      "requirements": {
+        "skill_level": 70
+      },
+      "bonuses": {
+        "taming_success": 0.2,
+        "bond_strength": 0.1,
+        "creature_control": 10,
+        "max_followers": 4,
+        "rare_creature_chance": 0.02
+      },
+      "abilities": [
+        "advanced_taming",
+        "beast_whisper",
+        "pack_leadership",
+        "wild_bond"
+      ],
+      "title": "Journeyman Tamer",
+      "taming_efficiency": 1.2
+    },
+    "master": {
+      "level": 90,
+      "requirements": {
+        "skill_level": 90
+      },
+      "bonuses": {
+        "taming_success": 0.3,
+        "bond_strength": 0.15,
+        "creature_control": 15,
+        "max_followers": 6,
+        "rare_creature_chance": 0.05,
+        "fantastic_creature_chance": 0.01
+      },
+      "abilities": [
+        "master_taming",
+        "alpha_status",
+        "creature_mastery",
+        "mythical_connection"
+      ],
+      "title": "Master Tamer",
+      "taming_efficiency": 1.3
+    },
+    "grandmaster": {
+      "level": 100,
+      "requirements": {
+        "skill_level": 100
+      },
+      "bonuses": {
+        "taming_success": 0.4,
+        "bond_strength": 0.2,
+        "creature_control": 20,
+        "max_followers": 8,
+        "rare_creature_chance": 0.1,
+        "fantastic_creature_chance": 0.03,
+        "legendary_creature_chance": 0.005
+      },
+      "abilities": [
+        "grandmaster_taming",
+        "world_harmony",
+        "divine_connection",
+        "universal_bond"
+      ],
+      "title": "Grandmaster Tamer",
+      "taming_efficiency": 1.5,
+      "unique_ability": "nature_master"
+    }
+  },
+  "progression_bonuses": {
+    "success_rate_scaling": {
+      "formula": "base_success + skill_level * 0.002",
+      "max_bonus": 0.5
+    },
+    "bond_strength_scaling": {
+      "formula": "base_bond + skill_level * 0.001",
+      "max_bonus": 0.3
+    },
+    "control_scaling": {
+      "formula": "base_control + skill_level * 0.15",
+      "max_bonus": 30
+    },
+    "follower_scaling": {
+      "formula": "base_followers + @divTrunc(skill_level, 25)",
+      "max_followers": 10
+    }
+  },
+  "synergies": {
+    "veterinary": {
+      "bonus_type": "healing_effectiveness",
+      "formula": "0.03 * veterinary_skill_level",
+      "max_bonus": 0.4,
+      "description": "Veterinary skill improves creature healing"
+    },
+    "animal_lore": {
+      "bonus_type": "taming_success",
+      "formula": "0.025 * animal_lore_skill_level",
+      "max_bonus": 0.35,
+      "description": "Animal Lore knowledge improves taming success"
+    },
+    "leadership": {
+      "bonus_type": "pack_control",
+      "formula": "0.02 * leadership_skill_level",
+      "max_bonus": 0.3,
+      "description": "Leadership skill improves pack control"
+    },
+    "nature_magic": {
+      "bonus_type": "creature_affinity",
+      "formula": "0.015 * nature_magic_skill_level",
+      "max_bonus": 0.25,
+      "description": "Nature magic enhances creature connection"
+    }
+  },
+  "equipment_requirements": {
+    "treats": "required",
+    "taming_tools": "recommended",
+    "comfortable_clothing": "required",
+    "patience": "required",
+    "calm_attitude": "required"
+  },
+  "environmental_factors": {
+    "location_harmony": {
+      "forest": {
+        "success_bonus": 0.2,
+        "natural_bonus": 0.15
+      },
+      "plains": {
+        "success_bonus": 0.1,
+        "open_bonus": 0.1
+      },
+      "mountains": {
+        "success_bonus": 0.15,
+        "challenge_bonus": 0.05
+      },
+      "desert": {
+        "success_penalty": 0.1,
+        "survival_bonus": 0.1
+      }
+    },
+    "time_of_day": {
+      "dawn": {
+        "renewal_bonus": 0.1,
+        "fresh_start_bonus": 0.1
+      },
+      "dusk": {
+        "calm_bonus": 0.1,
+        "bonding_bonus": 0.1
+      },
+      "midnight": {
+        "mystery_bonus": 0.15,
+        "nocturnal_bonus": 0.2
+      },
+      "noon": {
+        "energy_bonus": 0.1,
+        "clarity_bonus": 0.05
+      }
+    }
+  },
+  "visual_effects": {
+    "taming_start": "gentle_approach",
+    "taming_progress": "connection_forming",
+    "taming_success": "bond_established",
+    "creature_empathy": "emotion_transfer",
+    "wild_bond": "soul_connection"
+  },
+  "sound_effects": {
+    "taming_begin": "gentle_whisper",
+    "taming_progress": "creature_purr",
+    "taming_success": "bond_chime",
+    "creature_empathy": "emotion_hum",
+    "wild_bond": "soul_harmony"
+  },
+  "version": "0.1.0",
+  "last_updated": "2025-11-12",
+  "template_type": "skill"
+}

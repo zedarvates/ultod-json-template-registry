@@ -1,0 +1,51 @@
+{
+  "id": "physical_spell_0901",
+  "name": "Physical Spell 0901",
+  "description": "Une Physical Spell 0901 puissante avec les crocs",
+  "icon": "physical_spell_0901_icon",
+  "school": "physical",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single_enemy",
+  "range": 2.0,
+  "cast_time": 500,
+  "cooldown": 2000,
+  "mana_cost": 5,
+  "damage": {
+    "base_damage": 15,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 1.2
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "bleed",
+      "value": 5,
+      "duration": 3000,
+      "tick_rate": 1000,
+      "scaling": {
+        "strength": 0.5
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "jaw_snap",
+    "hit_effect": "blood_spray",
+    "miss_effect": "jaw_clack"
+  },
+  "sound_effects": {
+    "cast_sound": "growl",
+    "hit_sound": "flesh_tear",
+    "miss_sound": "jaw_snap"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "monster"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "necromancy_spell_0316",
+  "name": "Necromancy Spell 0316",
+  "description": "Introduit un virus cryogénique dans l'ennemi qui ralentit et inflige des dégâts de glace continuels",
+  "icon": "necromancy_spell_0316_icon",
+  "school": "necromancy",
+  "rarity": "uncommon",
+  "spell_type": "cryo_virus",
+  "target_type": "single_enemy",
+  "range": 25.0,
+  "cast_time": 1200,
+  "cooldown": 8000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 100,
+    "damage_type": "cryogenic_necrotic",
+    "scaling": {
+      "frost_magic": 1.6,
+      "necrotic_power": 0.9
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "hypothermia_virus",
+      "value": 100,
+      "duration": 20000,
+      "tick_rate": 2500,
+      "tick_damage": 25,
+      "movement_slow_percent": 30,
+      "cold_weakness": true,
+      "frost_rune_regen": 20,
+      "body_temperature_drains": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "icy_needle_injection",
+    "infection_effect": "blue_veins_crackling",
+    "damage_effect": "necromancy_spell_0316_crystal_deposit",
+    "slow_effect": "body_rigidity_freeze"
+  },
+  "sound_effects": {
+    "cast_sound": "icy_needle_sharp_inject",
+    "infection_sound": "cold_blood_crackling",
+    "damage_sound": "internal_freezing_pain",
+    "slow_sound": "joint_stiffness_creak"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "necromancy_spell_0316_magic",
+      "necrotic_arts"
+    ],
+    "classes": [
+      "death_knight",
+      "necromancy_spell_0316_lord"
+    ],
+    "specializations": [
+      "cryo_virulist"
+    ]
+  },
+  "upgrades": {
+    "deep_hypothermia": {
+      "unlock_level": 18,
+      "description": "La fièvre descend la température corporelle à des niveaux critiques",
+      "critical_temperature_drop": true,
+      "organ_freeze_damage": 40,
+      "slow_increase": 20
+    },
+    "antifreeze_blight": {
+      "unlock_level": 28,
+      "description": "La maladie empêche toute guérison et se propage aux alliés proches",
+      "heal_prevention": true,
+      "ally_infection_spread": 0.3,
+      "regeneration_block": 100
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

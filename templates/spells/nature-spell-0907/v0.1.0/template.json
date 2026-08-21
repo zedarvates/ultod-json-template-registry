@@ -1,0 +1,58 @@
+{
+  "id": "nature_spell_0907",
+  "name": "Nature Spell 0907",
+  "description": "Un Nature Spell 0907 terrifiant qui intimide et étourdit les ennemis proches",
+  "icon": "nature_spell_0907_icon",
+  "school": "nature",
+  "rarity": "rare",
+  "spell_type": "aoe",
+  "target_type": "area_enemies",
+  "range": 10.0,
+  "cast_time": 2000,
+  "cooldown": 15000,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "scaling": {}
+  },
+  "effects": [
+    {
+      "effect_type": "stun",
+      "value": 30,
+      "duration": 3000,
+      "tick_rate": 0,
+      "scaling": {
+        "strength": 0.4
+      }
+    },
+    {
+      "effect_type": "fear",
+      "value": 35,
+      "duration": 6000,
+      "tick_rate": 0,
+      "scaling": {
+        "charisma": 0.5
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "shockwave",
+    "hit_effect": "fear_rings",
+    "miss_effect": "echo_rumble"
+  },
+  "sound_effects": {
+    "cast_sound": "bear_nature_spell_0907",
+    "hit_sound": "rumbling_echo",
+    "miss_effect": "distant_rumble"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [],
+    "classes": [
+      "monster"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

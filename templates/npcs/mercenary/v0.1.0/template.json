@@ -1,0 +1,257 @@
+{
+  "id": "mercenary",
+  "name": "Mercenary",
+  "description": "Professional fighter offering combat services for hire to adventurers and merchants",
+  "icon": "npcs/mercenary_icon.png",
+  "category": "hireling",
+  "awareness": {
+    "enabled": true,
+    "cognitive_level": "full",
+    "initial_lod": "ordinary",
+    "initial_yaw_radians": 0.0,
+    "senses": {
+      "vision_range": 25.0,
+      "hearing_range": 20.0,
+      "tactile_sensitivity": 0.9
+    },
+    "attention": {
+      "capacity": 10,
+      "max_visual_candidates": 28,
+      "max_occlusion_rays": 8
+    },
+    "values": {
+      "nonviolence": 0.3,
+      "fairness": 0.6,
+      "loyalty": 0.8,
+      "honor": 0.7,
+      "compassion": 0.4,
+      "reciprocity": 0.8
+    },
+    "personal_norms": {
+      "property_rights": 0.7,
+      "nonviolence": 0.3,
+      "anti_coercion": 0.7,
+      "dignity": 0.7,
+      "reciprocity": 0.8
+    },
+    "initial_goals": {
+      "self_preservation": 0.9,
+      "possessions": 0.8,
+      "social_standing": 0.7,
+      "protect_others": 0.6,
+      "preserve_order": 0.4,
+      "affiliation": 0.6
+    },
+    "reaction_policy": {
+      "threat_response": "defend",
+      "may_defend": true,
+      "may_retaliate": true
+    }
+  },
+  "rarity": "uncommon",
+  "npc_type": "hireling",
+  "base_stats": {
+    "level": 15,
+    "hp": 280,
+    "max_hp": 280,
+    "mana": 60,
+    "max_mana": 60,
+    "strength": 17,
+    "dexterity": 15,
+    "intelligence": 10,
+    "wisdom": 12,
+    "constitution": 16,
+    "charisma": 11,
+    "speed": 1.2,
+    "size": 1.0,
+    "weight": 85.0
+  },
+  "properties": {
+    "is_aggressive": true,
+    "is_flying": false,
+    "is_aquatic": false,
+    "is_undead": false,
+    "is_elemental": false,
+    "is_mechanical": false,
+    "is_magical": false,
+    "is_divine": false,
+    "is_fiendish": false,
+    "is_wild": false,
+    "is_tameable": false,
+    "is_summonable": true,
+    "is_soulbound": false,
+    "is_cursed": false,
+    "is_blessed": false,
+    "is_poisoned": false,
+    "is_paralyzed": false,
+    "is_silenced": false,
+    "is_blinded": false,
+    "is_deafened": false,
+    "is_charmed": false,
+    "is_frightened": false,
+    "is_confused": false,
+    "is_stunned": false,
+    "is_sleeping": false,
+    "is_invisible": false,
+    "is_invulnerable": false,
+    "is_immortal": false,
+    "is_unique": false,
+    "is_boss": false,
+    "is_mini_boss": false,
+    "is_elite": false,
+    "is_rare": false,
+    "is_common": false,
+    "is_uncommon": true,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "loot_table": {
+    "gold": {
+      "min": 30,
+      "max": 150
+    },
+    "items": [
+      {
+        "item_id": "mercenary_contract",
+        "chance": 0.6,
+        "min_quantity": 1,
+        "max_quantity": 1
+      },
+      {
+        "item_id": "warrior_potion",
+        "chance": 0.4,
+        "min_quantity": 1,
+        "max_quantity": 2
+      },
+      {
+        "item_id": "combat_equipment",
+        "chance": 0.3,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ]
+  },
+  "ai_behavior": {
+    "wander_chance": 0.05,
+    "wander_range": 15.0,
+    "max_targets": 5,
+    "combat_style": "aggressive",
+    "preferred_attack": "weapon_mastery",
+    "patrol_route": [
+      "mercenary_post",
+      "recruitment_area",
+      "training_ground",
+      "mercenary_post"
+    ],
+    "response_to_crime": "engage_hostiles",
+    "ally_detection": "employer_allies"
+  },
+  "abilities": [
+    "combat_mastery",
+    "weapon_specialization",
+    "tactical_awareness",
+    "loyalty_bound",
+    "combat_formation"
+  ],
+  "dialogue": {
+    "greetings": [
+      "You looking for hired steel? I've got skills you can't afford to ignore.",
+      "A mercenary's life is simple: hire me, I fight, you pay.",
+      "Need protection? I'm your man. Need proof? See this scar?"
+    ],
+    "farewells": [
+      "Stay alive out there. I've got bills to pay.",
+      "Remember: cheap mercenaries cost more in the long run.",
+      "If you need me again, you know where to find me."
+    ],
+    "hire_requests": [
+      "What's the job? I'm available, but I'm not cheap.",
+      "How long do you need me? Day rates or weekly?",
+      "Risk level? I don't do suicide missions without premium pay."
+    ],
+    "combat_ready": [
+      "Enemy spotted. Moving to engage.",
+      "Stay behind me, I'll handle the fighting.",
+      "This is what I was born to do."
+    ],
+    "battle_taunts": [
+      "Is that all you've got?",
+      "Come on, make it worth my time!",
+      "You're not even a challenge!"
+    ]
+  },
+  "shop_inventory": {
+    "services": [
+      "escort_protection",
+      "combat_assistance",
+      "mercenary_contract",
+      "daily_protection",
+      "weekly_protection",
+      "monthly_protection"
+    ],
+    "combat_equipment": [
+      "mercenary_sword",
+      "warrior_shield",
+      "combat_armor",
+      "battle_axe",
+      "war_hammer",
+      "tactical_gear"
+    ],
+    "potions": [
+      "warrior_potion",
+      "strength_enhancer",
+      "endurance_booster",
+      "combat_focus",
+      "pain_resistance",
+      "rage_inducer"
+    ],
+    "supplies": [
+      "battle_supplies",
+      "first_aid_kit",
+      "weapon_maintenance",
+      "combat_rations",
+      "energy_supplements"
+    ]
+  },
+  "services": {
+    "buy_items": true,
+    "sell_items": true,
+    "repair_equipment": false,
+    "identify_items": false,
+    "appraisal_service": false,
+    "custom_crafting": false,
+    "hire_services": true,
+    "combat_protection": true,
+    "tactical_advice": true,
+    "weapon_training": true
+  },
+  "schedule": {
+    "day": {
+      "06:00": "morning_training",
+      "08:00": "recruitment_post",
+      "10:00": "available_for_hire",
+      "12:00": "lunch_break",
+      "13:00": "afternoon_contracts",
+      "15:00": "equipment_maintenance",
+      "17:00": "evening_availability",
+      "19:00": "night_shift_ready"
+    },
+    "night": {
+      "19:00": "night_patrol",
+      "22:00": "evening_rest",
+      "05:00": "prepare_morning"
+    }
+  },
+  "resistances": {
+    "physical": 0.15,
+    "fire": 0.0,
+    "ice": 0.0,
+    "lightning": 0.0,
+    "poison": 0.1
+  },
+  "weaknesses": [
+    "fire"
+  ],
+  "version": "0.1.0",
+  "template_type": "npc"
+}

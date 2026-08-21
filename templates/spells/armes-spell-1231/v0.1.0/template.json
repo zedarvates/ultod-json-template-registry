@@ -1,0 +1,77 @@
+{
+  "id": "armes_spell_1231",
+  "name": "Armes Spell 1231",
+  "description": "Le samouraï charge avec grâce, frappant l'ennemi et l'étourdissant",
+  "icon": "armes_spell_1231_icon",
+  "school": "armes",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 20.0,
+  "cast_time": 0,
+  "cooldown": 25000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 90,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.8,
+      "honor": 0.2
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 90,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "stun_debuff",
+      "value": 0,
+      "duration": 2000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "charge_movement",
+      "value": 20.0,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "graceful_leap",
+    "projectile_effect": "none",
+    "impact_effect": "collision_stun",
+    "trail_effect": "armes_spell_1231_dash"
+  },
+  "sound_effects": {
+    "cast_sound": "leaping_cry",
+    "impact_sound": "collision_impact"
+  },
+  "requirements": {
+    "level": 7,
+    "skills": [],
+    "classes": [
+      "armes_spell_1231"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "valorous_charge": {
+      "unlock_level": 15,
+      "description": "Augmente les dégâts de Charge de 45%",
+      "damage_bonus": 45
+    },
+    "unstoppable_charge": {
+      "unlock_level": 28,
+      "description": "Réduit le temps de recharge de 30%",
+      "cooldown_reduction": 7500
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

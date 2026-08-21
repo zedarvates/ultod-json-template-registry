@@ -1,0 +1,460 @@
+{
+  "profession_id": "master_baker",
+  "name": "Master Baker",
+  "display_name": "Maître Boulanger",
+  "description": "Maîtrise ultime de la boulangerie permettant de créer des pains et pâtisseries légendaires",
+  "base_skill": "baking",
+  "tier": "master",
+  "skill_requirement": 68,
+  "experience_requirement": 34000,
+  "icon": "profession_baking_master",
+  "category": "crafting",
+  "subcategory": "food_preparation",
+  "skill_progression": {
+    "formula": "baking_level * (1 + 0.09 * mastery_tier + 0.05 * specialization_level)",
+    "mastery_levels": [
+      "apprentice",
+      "journeyman",
+      "expert",
+      "master"
+    ],
+    "tier_requirements": {
+      "apprentice": {
+        "level": 1,
+        "talent_points": 0
+      },
+      "journeyman": {
+        "level": 19,
+        "talent_points": 3
+      },
+      "expert": {
+        "level": 39,
+        "talent_points": 6
+      },
+      "master": {
+        "level": 59,
+        "talent_points": 10
+      }
+    },
+    "practice_benefits": {
+      "baking_speed": 0.1,
+      "bread_quality": 0.07,
+      "success_rate": 0.09,
+      "discovery_chance": 0.05
+    },
+    "decay_mechanic": {
+      "enabled": true,
+      "rate": 0.003,
+      "minimum_level": 18,
+      "recovery_rate": 0.009
+    }
+  },
+  "talent_tree": {
+    "total_points": 13,
+    "branches": {
+      "bread_mastery": {
+        "name": "Maîtrise du Pain",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Pétrissage Expert",
+            "max_rank": 2,
+            "effects": {
+              "kneading_speed": 0.13,
+              "dough_quality": 0.1,
+              "success_rate": 0.07
+            },
+            "prerequisites": [],
+            "description": "Techniques expertes de pétrissage"
+          },
+          {
+            "name": "Pain Parfait",
+            "max_rank": 2,
+            "effects": {
+              "bread_perfection": 0.18,
+              "shelf_life": 0.15,
+              "flavor_enhancement": 0.12
+            },
+            "prerequisites": [
+              "Pétrissage Expert_1"
+            ],
+            "description": "Création de pains d'une perfection absolue"
+          }
+        ]
+      },
+      "pastry_expertise": {
+        "name": "Expertise Pâtissière",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Maître Pâtissier",
+            "max_rank": 2,
+            "effects": {
+              "pastry_quality": 0.2,
+              "decoration_skill": 0.17,
+              "sweetness_balance": 0.14
+            },
+            "prerequisites": [],
+            "description": "Maîtrise de l'art pâtissier"
+          },
+          {
+            "name": "Desserts Légendaires",
+            "max_rank": 2,
+            "effects": {
+              "legendary_pastries": true,
+              "magical_flavors": 0.25,
+              "preservation_magic": 0.2
+            },
+            "prerequisites": [
+              "Maître Pâtissier_1"
+            ],
+            "description": "Création de desserts aux propriétés magiques"
+          }
+        ]
+      },
+      "culinary_arts": {
+        "name": "Arts Culinaires",
+        "max_points": 3,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Chef d'Exception",
+            "max_rank": 1,
+            "effects": {
+              "legendary_breads": true,
+              "quality_multiplier": 0.35,
+              "reputation_bonus": 0.25
+            },
+            "prerequisites": [
+              "Pain Parfait_2",
+              "Desserts Légendaires_2"
+            ],
+            "description": "Capacité à créer des pains légendaires"
+          },
+          {
+            "name": "Banquet Impérial",
+            "max_rank": 1,
+            "effects": {
+              "mass_baking": true,
+              "group_buffs": true,
+              "feast_duration": 0.4
+            },
+            "prerequisites": [
+              "Chef d'Exception"
+            ],
+            "description": "Préparation de banquets pour groupes"
+          },
+          {
+            "name": "Cuisine Divine",
+            "max_rank": 1,
+            "effects": {
+              "divine_blessing": true,
+              "permanent_buffs": true,
+              "legendary_creation": true
+            },
+            "prerequisites": [
+              "Banquet Impérial"
+            ],
+            "description": "Boulangerie bénie par les dieux"
+          }
+        ]
+      },
+      "ingredient_mastery": {
+        "name": "Maîtrise des Ingrédients",
+        "max_points": 2,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Sélection Parfaite",
+            "max_rank": 1,
+            "effects": {
+              "ingredient_quality": 0.3,
+              "flavor_harmony": 0.25,
+              "waste_reduction": 0.2
+            },
+            "prerequisites": [],
+            "description": "Sélection experte des ingrédients"
+          },
+          {
+            "name": "Alchimie Culinaires",
+            "max_rank": 1,
+            "effects": {
+              "magical_ingredients": true,
+              "buff_amplification": 0.35,
+              "preservation_perfect": true
+            },
+            "prerequisites": [
+              "Sélection Parfaite"
+            ],
+            "description": "Fusion de l'alchimie et de la cuisine"
+          }
+        ]
+      }
+    }
+  },
+  "specialization_paths": {
+    "bread_specialist": {
+      "name": "Spécialiste du Pain",
+      "requirements": {
+        "baking_level": 30,
+        "bread_mastery_points": 4,
+        "completed_quests": 2
+      },
+      "bonuses": {
+        "bread_quality": 18.0,
+        "baking_speed": 12.0,
+        "shelf_life": 15.0,
+        "flavor_enhancement": 0.2,
+        "bulk_production": 0.15
+      },
+      "unlock_recipes": [
+        "pain_traditionnel",
+        "pain_aux_herbes",
+        "pain_magique",
+        "pain_eternel"
+      ],
+      "unlock_abilities": [
+        "petrissage_rapide",
+        "cuisson_parfaite",
+        "conservation_naturelle"
+      ],
+      "synergies": {
+        "farmer": {
+          "multiplier": 1.3,
+          "effects": [
+            "grain_quality",
+            "flour_enhancement"
+          ]
+        },
+        "cook": {
+          "multiplier": 1.4,
+          "effects": [
+            "bread_cooking",
+            "meal_completion"
+          ]
+        }
+      }
+    },
+    "pastry_master": {
+      "name": "Maître Pâtissier",
+      "requirements": {
+        "baking_level": 35,
+        "pastry_expertise_points": 4,
+        "completed_quests": 2
+      },
+      "bonuses": {
+        "pastry_quality": 22.0,
+        "decoration_skill": 20.0,
+        "sweetness_balance": 18.0,
+        "magical_flavors": 0.25,
+        "preservation_magic": 0.2
+      },
+      "unlock_recipes": [
+        "gateau_fantastique",
+        "tarte_legendaire",
+        "dessert_ensorcele",
+        "patisserie_divine"
+      ],
+      "unlock_abilities": [
+        "decoration_artistique",
+        "saveur_magique",
+        "conservation_eternelle"
+      ],
+      "synergies": {
+        "alchemist": {
+          "multiplier": 1.5,
+          "effects": [
+            "potion_pastries",
+            "magical_sweets"
+          ]
+        },
+        "cook": {
+          "multiplier": 1.3,
+          "effects": [
+            "pastry_cooking",
+            "dessert_mastery"
+          ]
+        }
+      }
+    },
+    "legendary_baker": {
+      "name": "Boulanger Légendaire",
+      "requirements": {
+        "baking_level": 55,
+        "completed_specializations": 2,
+        "master_achievements": 2
+      },
+      "bonuses": {
+        "legendary_breads": 45.0,
+        "quality_multiplier": 35.0,
+        "divine_blessing": 30.0,
+        "permanent_buffs": 25.0,
+        "legendary_creation": true
+      },
+      "unlock_recipes": [
+        "pain_divin",
+        "banquet_celeste",
+        "dessert_immortel",
+        "creation_legendaire"
+      ],
+      "unlock_abilities": [
+        "benediction_divine",
+        "creation_eternelle",
+        "artisanat_parfait",
+        "banquet_impérial"
+      ],
+      "synergies": {
+        "priest": {
+          "multiplier": 1.6,
+          "effects": [
+            "divine_breads",
+            "blessed_food"
+          ]
+        },
+        "cook": {
+          "multiplier": 1.7,
+          "effects": [
+            "legendary_cuisine",
+            "feast_mastery"
+          ]
+        }
+      }
+    }
+  },
+  "abilities": [
+    "master_baking",
+    "bread_perfection",
+    "pastry_mastery",
+    "culinary_arts",
+    "ingredient_expertise",
+    "legendary_breads",
+    "divine_baking",
+    "feast_preparation"
+  ],
+  "quests": [
+    {
+      "id": "baker_apprentice",
+      "name": "L'Apprenti Boulanger",
+      "requirements": {
+        "baking_level": 1,
+        "bake_breads": 15,
+        "mix_doughs": 25,
+        "gather_flour": 20
+      },
+      "rewards": [
+        "basic_baking_kit",
+        "apprentice_talent_points",
+        "basic_bread_recipes"
+      ]
+    },
+    {
+      "id": "baker_journeyman",
+      "name": "Le Boulanger Voyageur",
+      "requirements": {
+        "baking_level": 19,
+        "bake_breads": 100,
+        "create_pastries": 30,
+        "perfect_bakes": 15,
+        "discover_recipes": 3
+      },
+      "rewards": [
+        "journeyman_baking_kit",
+        "journeyman_talent_points",
+        "advanced_bread_recipes"
+      ]
+    },
+    {
+      "id": "baker_master",
+      "name": "Le Maître des Fours",
+      "requirements": {
+        "baking_level": 59,
+        "bake_breads": 500,
+        "create_pastries": 200,
+        "legendary_creations": 20,
+        "master_achievements": 2
+      },
+      "rewards": [
+        "master_baking_kit",
+        "master_talent_points",
+        "legendary_bread_recipes",
+        "culinary_arts_abilities"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "first_loaf",
+      "name": "Premier Pain",
+      "requirement": {
+        "bake_breads": 1
+      },
+      "rewards": [
+        "basic_bread_recipe",
+        "2_copper_coins"
+      ]
+    },
+    {
+      "id": "perfect_bake",
+      "name": "Cuisson Parfaite",
+      "requirement": {
+        "perfect_bakes": 50
+      },
+      "rewards": [
+        "baking_specialization",
+        "120_silver_coins",
+        "bread_quality_bonus"
+      ]
+    },
+    {
+      "id": "legendary_feast",
+      "name": "Festin Légendaire",
+      "requirement": {
+        "legendary_creations": 15
+      },
+      "rewards": [
+        "legendary_baker",
+        "7000_gold_coins",
+        "market_reputation",
+        "master_baker_title"
+      ]
+    }
+  ],
+  "market_integration": {
+    "quality_multipliers": {
+      "common": 1.0,
+      "fine": 1.4,
+      "superior": 1.9,
+      "exquisite": 2.8,
+      "masterwork": 4.5,
+      "legendary": 9.0,
+      "mythic": 18.0
+    },
+    "reputation_bonuses": {
+      "local_baker": 1.0,
+      "town_baker": 1.2,
+      "regional_pastry_chef": 1.4,
+      "national_master": 1.7,
+      "world_famous": 2.2
+    },
+    "supply_demand": {
+      "bread": {
+        "volatility": 0.08,
+        "trend": "steady_demand"
+      },
+      "pastries": {
+        "volatility": 0.15,
+        "trend": "high_demand"
+      },
+      "special_baked_goods": {
+        "volatility": 0.2,
+        "trend": "luxury_market"
+      }
+    }
+  },
+  "enabled": true,
+  "id": "master_baker",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

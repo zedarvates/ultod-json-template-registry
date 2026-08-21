@@ -1,0 +1,71 @@
+{
+  "id": "arcane_spell_0780",
+  "name": "Arcane Spell 0780",
+  "description": "Rend le mage invisible aux yeux de ses ennemis et difficile à détecter pour la majorité des créatures",
+  "icon": "arcane_spell_0780_icon",
+  "school": "arcane",
+  "rarity": "uncommon",
+  "spell_type": "arcane_stealth",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1500,
+  "cooldown": 20000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "reality_bending_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "light_bending_arcane_spell_0780",
+      "value": 120,
+      "duration": 120000,
+      "tick_rate": 0,
+      "visual_invisibility_perfect": true,
+      "detection_resistance_85_percent": true,
+      "break_on_attack_active": true,
+      "mana_regeneration_hidden": true,
+      "shadowy_movement_trails": 0.2,
+      "invisibility_particle_trail": false
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "light_bending_energy_arcane_light_warping_subtle_glow",
+    "active_effect": "perfect_arcane_spell_0780_sight_bending_light_around_figure",
+    "movement_effect": "subtle_shadow_trail_brief_movement_indicators_safe",
+    "expire_effect": "arcane_spell_0780_fade_light_normalizing_restoration_clear"
+  },
+  "sound_effects": {
+    "cast_effect": "light_bending_whisper_arcane_energy_subtle_warp",
+    "active_effect": "perfect_silence_arcane_spell_0780_enhanced_silent_state",
+    "movement_effect": "subtle_rustle_muted_sounds_movement_damping",
+    "expire_effect": "arcane_spell_0780_unravel_light_crack_normal_sound_return"
+  },
+  "requirements": {
+    "level": 16,
+    "skills": [
+      "arcane_magic",
+      "light_manipulation"
+    ],
+    "classes": [
+      "mage",
+      "illusionist",
+      "shadow_weaver"
+    ],
+    "specializations": [
+      "arcane_stealth"
+    ]
+  },
+  "upgrades": {
+    "greater_invisibility": {
+      "unlock_level": 26,
+      "description": "L'Arcane Spell 0780 devient plus puissante avec une meilleure résistance à la détection",
+      "detection_resistance_increase_percent": 95,
+      "movement_silence_perfect": true,
+      "attack_while_hidden_duration": 3.0,
+      "invisibility_mana_regeneration_bonus": 200
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

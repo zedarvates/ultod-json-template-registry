@@ -1,7 +1,7 @@
-# Mage Robe v0.1.0
+# Robe de Mage v0.1.0
 
-Status: `experimental`.
+Statut : `experimental`.
 
-Original public-safe adaptation informed by `item/mage_robe_item.json`. Economy, runtime state, effects, internal controls, and asset paths are excluded.
+Source auditée : `item/mage_robe_item.json`. Les contrôles administratifs, données commerciales et chemins internes sont retirés.
 
-No client or server compatibility is certified.
+Aucune compatibilité client ou serveur n'est certifiée.

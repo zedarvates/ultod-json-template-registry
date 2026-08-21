@@ -1,0 +1,70 @@
+{
+  "id": "armes_spell_1227",
+  "name": "Armes Spell 1227",
+  "description": "Un tirage mortel qui tranche profondément les ennemis",
+  "icon": "armes_spell_1227_icon",
+  "school": "armes",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 6.0,
+  "cast_time": 2000,
+  "cooldown": 20000,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 200,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.7,
+      "willpower": 0.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 200,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "bleed_debuff",
+      "value": 40,
+      "duration": 10000,
+      "tick_rate": 2000,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "deep_cut",
+    "projectile_effect": "none",
+    "impact_effect": "blood_gush",
+    "trail_effect": "fatal_sliced"
+  },
+  "sound_effects": {
+    "cast_sound": "deep_whoosh",
+    "impact_sound": "wound_tear"
+  },
+  "requirements": {
+    "level": 11,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "vital_arteries": {
+      "unlock_level": 23,
+      "description": "Augmente les dégâts de saignement de 50%",
+      "bleed_bonus": 20
+    },
+    "surgical_strike": {
+      "unlock_level": 35,
+      "description": "Réduit le temps d'incantation de 25%",
+      "cast_time_reduction": 500
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

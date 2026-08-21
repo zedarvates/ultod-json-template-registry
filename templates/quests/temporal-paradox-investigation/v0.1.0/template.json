@@ -1,0 +1,271 @@
+{
+  "quest_chain_id": "temporal_paradox_investigation",
+  "chain_name": "L'Investigation des Paradoxes",
+  "description": "Une enquête mystérieuse sur des paradoxes temporels qui menacent l'équilibre de la réalité",
+  "total_quests": 4,
+  "quest_chain_type": "adventure",
+  "unlock_requirements": {
+    "player_level_min": 35,
+    "prerequisite_quests": [
+      "temporal_student",
+      "temporal_apprentice"
+    ],
+    "skill_requirements": [
+      "temporal_strike"
+    ],
+    "faction_requirements": []
+  },
+  "reward_multiplier": 1.3,
+  "quests": [
+    {
+      "quest_id": "paradox_signature",
+      "name": "Signature du Paradoxe",
+      "description": "Analyser les signes d'un paradoxe temporel naissant",
+      "type": "investigation",
+      "difficulty": "medium",
+      "objectives": [
+        {
+          "objective_type": "examine_evidence",
+          "location": "temporal_disturbance_site",
+          "evidence_type": "paradox_signature",
+          "description": "Examiner les signes du paradoxe temporel"
+        },
+        {
+          "objective_type": "collect_temporal_residue",
+          "item_id": "paradox_residue",
+          "quantity": 10,
+          "description": "Collecter 10 échantillons de résidu paradoxal"
+        },
+        {
+          "objective_type": "analyze_signature",
+          "tools_required": [
+            "temporal_analyzer"
+          ],
+          "description": "Analyser la signature temporelle"
+        }
+      ],
+      "rewards": {
+        "experience": 2000,
+        "gold": 800,
+        "items": [
+          "paradox_detector",
+          "temporal_analysis_kit"
+        ],
+        "reputation": {
+          "faction": "temporal_investigators",
+          "amount": 15
+        }
+      }
+    },
+    {
+      "quest_id": "loop_hunter",
+      "name": "Chasseur de Boucles",
+      "description": "Pénétrer dans une boucle temporelle pour en trouver la source",
+      "type": "exploration_combat",
+      "difficulty": "hard",
+      "objectives": [
+        {
+          "objective_type": "enter_temporal_loop",
+          "location": "infinite_corridor",
+          "loop_type": "time_loop",
+          "description": "Entrer dans la boucle temporelle"
+        },
+        {
+          "objective_type": "navigate_loop",
+          "loop_rounds": 5,
+          "description": "Naviguer à travers 5 rounds de la boucle"
+        },
+        {
+          "objective_type": "break_loop_origin",
+          "target": "temporal_loop_source",
+          "description": "Trouver et briser l'origine de la boucle"
+        },
+        {
+          "objective_type": "escape_loop",
+          "description": "Échapper à la boucle avant qu'elle ne se referme"
+        }
+      ],
+      "rewards": {
+        "experience": 4000,
+        "gold": 1500,
+        "items": [
+          "loop_breaker_artifact",
+          "temporal_navigation_compass"
+        ],
+        "unlocks": [
+          "temporal_loop_detection"
+        ],
+        "reputation": {
+          "faction": "temporal_investigators",
+          "amount": 30
+        }
+      }
+    },
+    {
+      "quest_id": "echo_manifestation",
+      "name": "Manifestation de l'Écho",
+      "description": "Affronter une manifestation d'un futur alternatif",
+      "type": "boss_combat",
+      "difficulty": "epic",
+      "objectives": [
+        {
+          "objective_type": "locate_echo_manifestation",
+          "location": "echo_nexus",
+          "description": "Localiser la manifestation de l'écho"
+        },
+        {
+          "objective_type": "understand_echo_nature",
+          "examination_required": true,
+          "description": "Comprendre la nature de l'écho"
+        },
+        {
+          "objective_type": "defeat_echo_manifestation",
+          "monster_id": "temporal_echo_guardian",
+          "description": "Vaincre le Gardien de l'Écho Temporel"
+        },
+        {
+          "objective_type": "stabilize_manifestation_site",
+          "description": "Stabiliser le site de manifestation"
+        }
+      ],
+      "rewards": {
+        "experience": 8000,
+        "gold": 3000,
+        "items": [
+          "echo_stabilizer",
+          "future_vision_crystal"
+        ],
+        "unlocks": [
+          "temporal_echo_detection",
+          "future_sight_ability"
+        ],
+        "reputation": {
+          "faction": "temporal_investigators",
+          "amount": 60
+        }
+      }
+    },
+    {
+      "quest_id": "paradox_resolution",
+      "name": "Résolution du Paradoxe",
+      "description": "Résoudre définitivement le paradoxe avant qu'il ne consume la réalité",
+      "type": "epic_resolution",
+      "difficulty": "mythic",
+      "objectives": [
+        {
+          "objective_type": "assemble_temporal_team",
+          "team_size": 3,
+          "roles_required": [
+            "temporal_striker",
+            "temporal_healer",
+            "temporal_controller"
+          ],
+          "description": "Assembler une équipe temporelle spécialisée"
+        },
+        {
+          "objective_type": "access_paradox_core",
+          "location": "paradox_nexus",
+          "security_level": "maximum",
+          "description": "Accéder au noyau du paradoxe"
+        },
+        {
+          "objective_type": "execute_paradox_solution",
+          "solution_type": "temporal_reconstruction",
+          "team_coordination": true,
+          "description": "Exécuter la solution de reconstruction temporelle"
+        },
+        {
+          "objective_type": "verify_resolution",
+          "verification_checks": [
+            "reality_stability",
+            "temporal_balance",
+            "paradox_elimination"
+          ],
+          "description": "Vérifier la résolution du paradoxe"
+        }
+      ],
+      "rewards": {
+        "experience": 15000,
+        "gold": 8000,
+        "items": [
+          "paradox_resolver_medallion",
+          "reality_stabilizer_device"
+        ],
+        "title": "Paradoxe Résolveur",
+        "unlocks": [
+          "master_temporal_investigator",
+          "paradox_prevention_system"
+        ],
+        "reputation": {
+          "faction": "temporal_investigators",
+          "amount": 120
+        },
+        "special_rewards": [
+          "temporal_investigator_guild_access",
+          "paradox_resolution_specialization"
+        ]
+      }
+    }
+  ],
+  "chain_rewards": {
+    "completion_bonus": {
+      "experience": 30000,
+      "gold": 15000,
+      "unique_items": [
+        "paradox_investigator_title",
+        "reality_guardian_achievement"
+      ],
+      "permanent_bonuses": {
+        "paradox_detection": true,
+        "temporal_stability_bonus": 0.2,
+        "reality_manipulation_resistance": 0.3
+      }
+    }
+  },
+  "integration_points": {
+    "profession_system": {
+      "unlocks_temporal_investigator_progression": true,
+      "temporal_research_mastery": true
+    },
+    "monster_system": {
+      "unlocks_temporal_paradox_monsters": true,
+      "echo_manifestation_encounters": true
+    },
+    "item_system": {
+      "paradox_resolving_items": true,
+      "temporal_investigation_tools": true
+    },
+    "achievement_system": {
+      "paradox_resolution_achievements": true,
+      "reality_guardian_title": true
+    }
+  },
+  "storyline_progression": {
+    "act_1": {
+      "theme": "La Découverte",
+      "focus": "Identification et analyse des paradoxes"
+    },
+    "act_2": {
+      "theme": "L'Enquête Approfondie",
+      "focus": "Exploration des boucles temporelles"
+    },
+    "act_3": {
+      "theme": "L'Affrontement",
+      "focus": "Combat contre les manifestations paradoxales"
+    },
+    "act_4": {
+      "theme": "La Résolution",
+      "focus": "Résolution définitive et stabilisation"
+    }
+  },
+  "narrative_themes": [
+    "Responsabilité temporelle",
+    "Consequences des actions dans le temps",
+    "Équilibre entre passé et futur",
+    "Coopération pour la stabilité de la réalité"
+  ],
+  "version": "0.1.0",
+  "id": "temporal_paradox_investigation",
+  "name": "Temporal Paradox Investigation",
+  "template_type": "quest"
+}

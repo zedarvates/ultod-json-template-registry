@@ -1,0 +1,431 @@
+{
+  "blueprint_id": "npc_house_7",
+  "name": "npc_house_7",
+  "lot": {
+    "width": 12,
+    "depth": 12,
+    "cell_size": 1,
+    "floor_height": 3
+  },
+  "floors": [
+    {
+      "level": 0,
+      "tiles": [
+        {
+          "x": 4,
+          "z": 4,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 5,
+          "z": 4,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 6,
+          "z": 4,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 4,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 4,
+          "z": 5,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 5,
+          "z": 5,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 6,
+          "z": 5,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 5,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 4,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 5,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 6,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        }
+      ],
+      "walls": [
+        {
+          "x": 4,
+          "z": 4,
+          "edge": "N",
+          "part_id": "mur_pierre",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 7,
+          "edge": "N",
+          "part_id": "mur_pierre",
+          "stack": 0
+        },
+        {
+          "x": 5,
+          "z": 4,
+          "edge": "N",
+          "part_id": "mur_pierre",
+          "stack": 0
+        },
+        {
+          "x": 5,
+          "z": 7,
+          "edge": "N",
+          "part_id": "mur_devanture",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 4,
+          "edge": "N",
+          "part_id": "fenetre_gothique",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 7,
+          "edge": "N",
+          "part_id": "porte_ornee",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 4,
+          "edge": "N",
+          "part_id": "mur_pierre",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 7,
+          "edge": "N",
+          "part_id": "mur_devanture",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 4,
+          "edge": "W",
+          "part_id": "mur_pierre",
+          "stack": 0
+        },
+        {
+          "x": 8,
+          "z": 4,
+          "edge": "W",
+          "part_id": "mur_pierre",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 5,
+          "edge": "W",
+          "part_id": "fenetre_gothique",
+          "stack": 0
+        },
+        {
+          "x": 8,
+          "z": 5,
+          "edge": "W",
+          "part_id": "fenetre_gothique",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 6,
+          "edge": "W",
+          "part_id": "mur_pierre",
+          "stack": 0
+        },
+        {
+          "x": 8,
+          "z": 6,
+          "edge": "W",
+          "part_id": "mur_pierre",
+          "stack": 0
+        }
+      ]
+    }
+  ],
+  "roof": [
+    {
+      "x": 4,
+      "z": 4,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 5,
+      "z": 4,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 6,
+      "z": 4,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 7,
+      "z": 4,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 4,
+      "z": 5,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 4,
+      "z": 5,
+      "part_id": "toit_pignon",
+      "rotation": 90
+    },
+    {
+      "x": 5,
+      "z": 5,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 5,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 7,
+      "z": 5,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 7,
+      "z": 5,
+      "part_id": "toit_pignon",
+      "rotation": 270
+    },
+    {
+      "x": 4,
+      "z": 6,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 5,
+      "z": 6,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 6,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 7,
+      "z": 6,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    }
+  ],
+  "garden": [
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0.5,
+        0,
+        1.5
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0.5,
+        0,
+        2.5
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0.5,
+        0,
+        3.5
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0.5,
+        0,
+        4.5
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0.5,
+        0,
+        5.5
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "arbre_chene",
+      "position": [
+        4.5,
+        0,
+        -5.5
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "buisson",
+      "position": [
+        -3.5,
+        0,
+        -5.5
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "buisson",
+      "position": [
+        -2.5,
+        0,
+        -4.5
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    }
+  ],
+  "style_id": "gothique_riche",
+  "ornaments": [
+    {
+      "ornament_id": "tapisserie",
+      "x": 4,
+      "z": 7,
+      "edge": "N",
+      "floor": 0
+    },
+    {
+      "ornament_id": "torche_murale",
+      "x": 5,
+      "z": 4,
+      "edge": "N",
+      "floor": 0
+    },
+    {
+      "ornament_id": "tapisserie",
+      "x": 4,
+      "z": 6,
+      "edge": "W",
+      "floor": 0
+    }
+  ],
+  "props": [
+    {
+      "prop_id": "comptoir_bois",
+      "x": 6,
+      "z": 5,
+      "floor": 0,
+      "rotation": 0
+    },
+    {
+      "prop_id": "table_longue",
+      "x": 7,
+      "z": 5,
+      "floor": 0,
+      "rotation": 0
+    },
+    {
+      "prop_id": "chaise",
+      "x": 7,
+      "z": 6,
+      "floor": 0,
+      "rotation": 0
+    },
+    {
+      "prop_id": "cheminee",
+      "x": 4,
+      "z": 4,
+      "floor": 0,
+      "rotation": 0
+    },
+    {
+      "prop_id": "coffre",
+      "x": 4,
+      "z": 6,
+      "floor": 0,
+      "rotation": 0
+    },
+    {
+      "prop_id": "tapis",
+      "x": 5,
+      "z": 6,
+      "floor": 0,
+      "rotation": 0
+    },
+    {
+      "prop_id": "bougie_table",
+      "x": 5,
+      "z": 4,
+      "floor": 0,
+      "rotation": 0
+    },
+    {
+      "prop_id": "bougie_table",
+      "x": 4,
+      "z": 5,
+      "floor": 0,
+      "rotation": 0
+    }
+  ],
+  "kind": "magasin",
+  "id": "npc_house_7",
+  "template_type": "blueprint",
+  "version": "0.1.0"
+}

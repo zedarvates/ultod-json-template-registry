@@ -1,0 +1,80 @@
+{
+  "id": "priest",
+  "name": "Priest",
+  "description": "A divine spellcaster who wields holy magic for healing and shadow for destruction",
+  "color": "FFFFFF",
+  "primary_resource": "mana",
+  "base_stats": {
+    "strength": 8,
+    "agility": 10,
+    "intelligence": 16,
+    "vitality": 12,
+    "wisdom": 20,
+    "charisma": 14
+  },
+  "specializations": [
+    "discipline",
+    "holy_priest",
+    "shadow"
+  ],
+  "starting_skills": [
+    {
+      "id": 6001,
+      "name": "Smite",
+      "description": "Smite an enemy for Holy damage",
+      "cooldown": 0,
+      "mana_cost": 185,
+      "range": 30.0,
+      "cast_time": 2500,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 6002,
+      "name": "Lesser Heal",
+      "description": "Heals a friendly target",
+      "cooldown": 0,
+      "mana_cost": 135,
+      "range": 40.0,
+      "cast_time": 2500,
+      "learned_at_level": 3,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 60001,
+            "name": "Spiritual Guidance",
+            "description": "Increases spell power by 5%",
+            "max_rank": 5,
+            "icon_path": "talents/priest/spiritual_guidance.png"
+          },
+          {
+            "id": 60002,
+            "name": "Improved Healing",
+            "description": "Increases healing by 10%",
+            "max_rank": 3,
+            "icon_path": "talents/priest/improved_healing.png"
+          },
+          {
+            "id": 60003,
+            "name": "Shadow Focus",
+            "description": "Reduces shadow spell mana cost by 5%",
+            "max_rank": 3,
+            "icon_path": "talents/priest/shadow_focus.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100000,
+  "health_modifier": 0.85,
+  "damage_modifier": 1.0,
+  "armor_modifier": 0.6,
+  "template_type": "class",
+  "version": "0.1.0"
+}

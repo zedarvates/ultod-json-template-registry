@@ -1,0 +1,127 @@
+{
+  "profession": "time_crafting",
+  "display_name": "Forge Temporelle",
+  "description": "Maîtrise des flux temporels pour créer des artefacts défiant le cours du temps",
+  "icon_path": "icons/professions/time_crafting.png",
+  "category": "temporal_crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "temporal_hourglass",
+      "name": "Sablier Temporel",
+      "description": "Objet permettant de manipuler légèrement le flux du temps localement",
+      "profession": "time_crafting",
+      "difficulty": 80,
+      "base_success_rate": 0.5,
+      "skill_required": 70,
+      "experience_gain": 95,
+      "exceptional_chance": 0.2,
+      "time_required_seconds": 420,
+      "components": [
+        {
+          "item_type": "temporal_sand",
+          "quantity": 5,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "chronal_crystal",
+          "quantity": 2,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "hourglass_base",
+          "quantity": 1,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "time_rune",
+          "quantity": 3,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "temporal_hourglass",
+          "name": "Sablier Temporel",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.8,
+          "durability_modifier": 1.5
+        }
+      ],
+      "conditions": {
+        "profession_level": 60,
+        "required_tools": [
+          "temporal_forge",
+          "time_adapted_reference",
+          "chronal_lens"
+        ],
+        "environmental_factors": [
+          "temporal_stability"
+        ]
+      }
+    },
+    {
+      "id": "infinity_chronometer",
+      "name": "Chronomètre d'Infinité",
+      "description": "Artefact suprême permettant de voir et potentiellement modifier toutes les lignes temporelles",
+      "profession": "time_crafting",
+      "difficulty": 100,
+      "base_success_rate": 0.2,
+      "skill_required": 95,
+      "experience_gain": 200,
+      "exceptional_chance": 0.3,
+      "time_required_seconds": 1080,
+      "components": [
+        {
+          "item_type": "infinity_crystal",
+          "quantity": 10,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "temporal_anchor",
+          "quantity": 5,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "eternity_essence",
+          "quantity": 3,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "paradox_rune",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "infinity_chronometer",
+          "name": "Chronomètre d'Infinité",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 3.0,
+          "durability_modifier": 1.0
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "time_manipulation",
+    "paradox_prevention",
+    "timeline_weaving",
+    "eternity_binding"
+  ],
+  "id": "time_crafting",
+  "name": "Time Crafting",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

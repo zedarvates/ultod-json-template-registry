@@ -1,0 +1,62 @@
+{
+  "id": "item_catalog_0112",
+  "template_type": "item_catalog",
+  "version": "0.1.0",
+  "name": "Item Catalog 0112",
+  "entries": [
+    {
+      "id": "set_iron_vanguard",
+      "name": "Avant-garde de Fer",
+      "description": "Une armure lourde forgée pour résister aux sièges les plus brutaux.",
+      "bonuses": [
+        {
+          "required_count": 2,
+          "modifiers": [
+            {
+              "stat": "defense",
+              "value": 50.0
+            }
+          ]
+        },
+        {
+          "required_count": 4,
+          "modifiers": [
+            {
+              "stat": "attack",
+              "value": 30.0
+            },
+            {
+              "stat": "defense",
+              "value": 20.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set_arcane_weaver",
+      "name": "Tisseur Arcanique",
+      "description": "Tissu imprégné d'énergie mana pure.",
+      "bonuses": [
+        {
+          "required_count": 2,
+          "modifiers": [
+            {
+              "stat": "mana_regeneration",
+              "value": 5.0
+            }
+          ]
+        },
+        {
+          "required_count": 3,
+          "modifiers": [
+            {
+              "stat": "spell_power",
+              "value": 45.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

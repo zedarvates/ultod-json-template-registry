@@ -1,0 +1,78 @@
+{
+  "id": "chronomancy_spell_0244",
+  "name": "Chronomancy Spell 0244",
+  "description": "Crée un champ où le temps s'écoule différemment selon les zones, donnant l'avantage aux alliés",
+  "icon": "chronomancy_spell_0244_icon",
+  "school": "chronomancy",
+  "rarity": "legendary",
+  "spell_type": "temporal_field_control",
+  "target_type": "area_effect",
+  "range": 60.0,
+  "cast_time": 4000,
+  "cooldown": 60000,
+  "mana_cost": 150,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "temporal_distortion"
+  },
+  "effects": [
+    {
+      "effect_type": "dilation_field_creation",
+      "value": 100,
+      "duration": 20000,
+      "tick_rate": 1000,
+      "field_radius": 20.0,
+      "ally_time_acceleration": 2.0,
+      "enemy_time_slow": 0.5,
+      "zone_gradients": true,
+      "field_mobility": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "temporal_field_crystal_matrix",
+    "field_effect": "layered_chronomancy_spell_0244_distortion_waves",
+    "ally_effect": "golden_chronomancy_spell_0244_acceleration_aura",
+    "enemy_effect": "slowed_blue_chronomancy_spell_0244_miasma"
+  },
+  "sound_effects": {
+    "cast_sound": "reality_matrix_formation_hum",
+    "field_sound": "temporal_gradient_shifting_echoes",
+    "ally_sound": "accelerated_chronomancy_spell_0244_rush",
+    "enemy_sound": "slowed_chronomancy_spell_0244_crawl"
+  },
+  "requirements": {
+    "level": 45,
+    "skills": [
+      "chronomancy",
+      "temporal_dilation",
+      "reality_warping"
+    ],
+    "classes": [
+      "chronomancer",
+      "chronomancy_spell_0244_mage",
+      "temporalist"
+    ],
+    "specializations": [
+      "reality_sculptor",
+      "chronal_warrior"
+    ]
+  },
+  "upgrades": {
+    "enhanced_dilation": {
+      "unlock_level": 55,
+      "description": "Les différences temporelles sont plus extrêmes",
+      "ally_acceleration_bonus": 1.0,
+      "enemy_slow_penalty": 0.2,
+      "zone_control_precision": 2.0
+    },
+    "absolute_chronal_dominion": {
+      "unlock_level": 65,
+      "description": "Le champ peut arrêter complètement le temps pour les ennemis",
+      "time_stop_zones": true,
+      "paradox_damage": 200,
+      "reality_stability_drain": 50
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,107 @@
+{
+  "profession": "woodworking",
+  "display_name": "Travail du Bois",
+  "description": "L'art de travailler le bois pour créer des meubles, des armes et des structures",
+  "icon_path": "icons/professions/woodworking.png",
+  "category": "crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "wooden_staff",
+      "name": "Bâton de Bois",
+      "description": "Un bâton en bois poli, utile pour canaliser la magie",
+      "profession": "woodworking",
+      "difficulty": 15,
+      "base_success_rate": 0.75,
+      "skill_required": 10,
+      "experience_gain": 12,
+      "exceptional_chance": 0.03,
+      "time_required_seconds": 60,
+      "components": [
+        {
+          "item_type": "hardwood_log",
+          "quantity": 2,
+          "quality_required": "standard",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "polishing_oil",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "wooden_staff",
+          "name": "Bâton de Bois",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.0,
+          "durability_modifier": 0.9
+        }
+      ],
+      "conditions": {
+        "profession_level": 5,
+        "required_tools": [
+          "carpentry_tools",
+          "saw",
+          "plane"
+        ],
+        "environmental_factors": []
+      }
+    },
+    {
+      "id": "elven_bow",
+      "name": "Arc Elfique",
+      "description": "Un arc gracieux et précis, façonné dans le plus beau bois elfique",
+      "profession": "woodworking",
+      "difficulty": 40,
+      "base_success_rate": 0.6,
+      "skill_required": 40,
+      "experience_gain": 45,
+      "exceptional_chance": 0.1,
+      "time_required_seconds": 240,
+      "components": [
+        {
+          "item_type": "elven_wood",
+          "quantity": 3,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "silk_string",
+          "quantity": 2,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "feather_fletching",
+          "quantity": 10,
+          "quality_required": "good",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "elven_bow",
+          "name": "Arc Elfique",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.3,
+          "durability_modifier": 1.2
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "furniture_crafting",
+    "weapon_crafting",
+    "architectural_woodworking",
+    "instrument_making"
+  ],
+  "id": "woodworking",
+  "name": "Woodworking",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

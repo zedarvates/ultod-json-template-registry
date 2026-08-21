@@ -1,0 +1,795 @@
+{
+  "divine_relationship_and_worship_mechanics": {
+    "worship_tiers": {
+      "unfaithful": {
+        "description": "Those who reject or are unaware of divine beings",
+        "worship_frequency": 0,
+        "faith_rating": 0,
+        "divine_connection": "none",
+        "available_spells": "none",
+        "favor_gain_rate": 0,
+        "alignment_influence": "no_influence",
+        "relationship_outcomes": {
+          "divine_notice": "none",
+          "divine_intervention": "hostile_if_confronted",
+          "potential_conversion": "possible_through_epic_events"
+        }
+      },
+      "curious_seeker": {
+        "description": "Those beginning to explore spirituality and divine connection",
+        "worship_frequency": "sporadic",
+        "faith_rating": 10,
+        "divine_connection": "weak_awareness",
+        "available_spells": [
+          "divine_guidance",
+          "simple_prayer"
+        ],
+        "favor_gain_rate": "1_per_week",
+        "alignment_influence": "minor_guidance",
+        "relationship_outcomes": {
+          "divine_notice": "subtle_signs",
+          "divine_intervention": "rare_and_minor",
+          "potential_conversion": "likely_with_encouragement"
+        }
+      },
+      "devoted_believer": {
+        "description": "Regular worshippers with established faith",
+        "worship_frequency": "daily",
+        "faith_rating": 50,
+        "divine_connection": "moderate_connection",
+        "available_spells": [
+          "divine_blessing",
+          "prayer_healing",
+          "faith_shield"
+        ],
+        "favor_gain_rate": "1_per_day",
+        "alignment_influence": "moderate_guidance",
+        "relationship_outcomes": {
+          "divine_notice": "occasional_responses",
+          "divine_intervention": "moderate_blessings",
+          "potential_conversion": "stable_faith"
+        }
+      },
+      "fervent_devotee": {
+        "description": "Deeply committed worshippers with strong faith",
+        "worship_frequency": "multiple_daily",
+        "faith_rating": 75,
+        "divine_connection": "strong_connection",
+        "available_spells": [
+          "divine_protection",
+          "miracle_seeking",
+          "prophetic_vision"
+        ],
+        "favor_gain_rate": "3_per_day",
+        "alignment_influence": "strong_guidance",
+        "relationship_outcomes": {
+          "divine_notice": "frequent_communication",
+          "divine_intervention": "regular_blessings",
+          "potential_conversion": "deep_commitment"
+        }
+      },
+      "zealous_saint": {
+        "description": "Ultra-devoted individuals on the path to sainthood",
+        "worship_frequency": "constant",
+        "faith_rating": 90,
+        "divine_connection": "profound_connection",
+        "available_spells": [
+          "divine_miracle",
+          "saintly_intercession",
+          "divine_transcendence"
+        ],
+        "favor_gain_rate": "5_per_day",
+        "alignment_influence": "profound_guidance",
+        "relationship_outcomes": {
+          "divine_notice": "constant_communication",
+          "divine_intervention": "frequent_miracles",
+          "potential_conversion": "divine_election_possible"
+        }
+      },
+      "canonized_being": {
+        "description": "Those who have achieved divine status through faith and virtue",
+        "worship_frequency": "transcendent",
+        "faith_rating": 100,
+        "divine_connection": "divine_unity",
+        "available_spells": [
+          "divine_mastery",
+          "reality_influence",
+          "cosmic_communication"
+        ],
+        "favor_gain_rate": "unlimited",
+        "alignment_influence": "alignment_transcendence",
+        "relationship_outcomes": {
+          "divine_notice": "direct_communion",
+          "divine_intervention": "cosmic_intervention",
+          "potential_conversion": "full_divine_status"
+        }
+      }
+    },
+    "relationship_mechanics": {
+      "relationship_building": {
+        "description": "How mortals build and maintain relationships with divine beings",
+        "initial_contact": {
+          "methods": [
+            "spiritual_seeking",
+            "divine_call",
+            "temple_visitation",
+            "prayer_initiation"
+          ],
+          "success_factors": [
+            "sincere_intent",
+            "spiritual_readiness",
+            "worthy_motivation"
+          ],
+          "failure_consequences": [
+            "divine_disinterest",
+            "negative_initial_impression",
+            "closed_paths"
+          ]
+        },
+        "relationship_development": {
+          "trust_building": {
+            "factors": [
+              "consistent_worship",
+              "moral_alignment",
+              "faith_demonstration",
+              "sacrifice_willingness"
+            ],
+            "time_investment": "months_to_years",
+            "relationship_milestones": [
+              "first_response",
+              "personal_blessing",
+              "divine_guidance",
+              "special_favor"
+            ]
+          },
+          "intimacy_levels": {
+            "distant_veneration": {
+              "description": "Basic worship with minimal personal connection",
+              "faith_requirement": 10,
+              "available_interactions": [
+                "group_ceremonies",
+                "standard_prayers",
+                "general_blessings"
+              ]
+            },
+            "personal_devotion": {
+              "description": "Individual relationship with personal divine connection",
+              "faith_requirement": 30,
+              "available_interactions": [
+                "personal_prayers",
+                "individual_rituals",
+                "personal_guidance"
+              ]
+            },
+            "close_relationship": {
+              "description": "Deep personal bond with frequent divine communication",
+              "faith_requirement": 60,
+              "available_interactions": [
+                "direct_communication",
+                "personal_miracles",
+                "intimate_guidance"
+              ]
+            },
+            "divine_friendship": {
+              "description": "Equal partnership between mortal and divine being",
+              "faith_requirement": 80,
+              "available_interactions": [
+                "mutual_sharing",
+                "collaborative_action",
+                "joint_decisions"
+              ]
+            },
+            "divine_unity": {
+              "description": "Complete spiritual union transcending mortal limitations",
+              "faith_requirement": 95,
+              "available_interactions": [
+                "shared_consciousness",
+                "unlimited_communication",
+                "coequal_partnership"
+              ]
+            }
+          }
+        },
+        "relationship_maintenance": {
+          "ongoing_commitment": {
+            "requirements": [
+              "regular_worship",
+              "moral_consistency",
+              "faith_nurturing",
+              "value_alignment"
+            ],
+            "relationship_health_factors": [
+              "worship_consistency",
+              "moral_alignment",
+              "communication_quality",
+              "mutual_respect"
+            ],
+            "deterioration_signs": [
+              "decreased_worship",
+              "moral_conflicts",
+              "faith_doubt",
+              "value_divergence"
+            ]
+          },
+          "relationship_repair": {
+            "repentance_mechanics": {
+              "requirements": [
+                "genuine_regret",
+                "moral_correction",
+                "restoration_ceremony",
+                "divine_forgiveness"
+              ],
+              "time_requirements": "varies_by_severity",
+              "success_factors": [
+                "sincerity_demonstration",
+                "consistent_improvement",
+                "sacrifice_willingness"
+              ]
+            },
+            "renewal_ceremonies": {
+              "types": [
+                "purification_ritual",
+                "forgiveness_celebration",
+                "renewal_pact",
+                "restoration_offering"
+              ],
+              "requirements": [
+                "worthy_intent",
+                "proper_ceremony",
+                "divine_acceptance",
+                "community_support"
+              ]
+            }
+          }
+        }
+      },
+      "divine_communication": {
+        "description": "Methods and mechanics of communication between mortals and divine beings",
+        "direct_communication": {
+          "prayer_communication": {
+            "types": [
+              "silent_prayer",
+              "spoken_prayer",
+              "group_prayer",
+              "ritual_invocation"
+            ],
+            "effectiveness_factors": [
+              "sincerity",
+              "faith_strength",
+              "worship_history",
+              "moral_worth"
+            ],
+            "divine_response_rate": "varies_by_relationship_level",
+            "response_delays": [
+              "instant",
+              "minutes",
+              "hours",
+              "days",
+              "never"
+            ]
+          },
+          "divine_manifestation": {
+            "visual_manifestations": [
+              "divine_light",
+              "spiritual_presence",
+              "angelic_apparitions",
+              "divine_symbols"
+            ],
+            "audible_communications": [
+              "divine_voice",
+              "celestial_music",
+              "whispered_guidance",
+              "thunderous_messages"
+            ],
+            "physical_manifestations": [
+              "divine_touch",
+              "spiritual_empowerment",
+              "divine_healing",
+              "reality_distortion"
+            ],
+            "requirements": [
+              "high_faith",
+              "worthy_occasion",
+              "divine_permission",
+              "significant_relationship"
+            ]
+          }
+        },
+        "indirect_communication": {
+          "signs_and_wonders": {
+            "types": [
+              "natural_phenomena",
+              "coincidental_events",
+              "animal_behavior",
+              "celestial_events"
+            ],
+            "interpretation_methods": [
+              "spiritual_analysis",
+              "prophecy_decoding",
+              "pattern_recognition",
+              "divine_guidance"
+            ],
+            "common_symbols": [
+              "dove",
+              "light_rays",
+              "sacred_numbers",
+              "divine_colors",
+              "celestial_alignment"
+            ]
+          },
+          "prophetic_dreams": {
+            "trigger_conditions": [
+              "deep_meditation",
+              "sleep_deprivation",
+              "divine_call",
+              "prophetic_readiness"
+            ],
+            "dream_interpretation": [
+              "symbolic_analysis",
+              "prophecy_study",
+              "divine_guidance",
+              "spiritual_counsel"
+            ],
+            "reliability_factors": [
+              "prophetic_ability",
+              "divine_relationship",
+              "faith_alignment",
+              "interpretation_skill"
+            ]
+          },
+          "omens_and_portents": {
+            "creation_methods": [
+              "divine_intervention",
+              "natural_convergence",
+              "spiritual_manifestation",
+              "cosmic_events"
+            ],
+            "meaning_determination": [
+              "divine_interpretation",
+              "prophetic_guidance",
+              "pattern_analysis",
+              "spiritual_discernment"
+            ],
+            "action_requirements": [
+              "appropriate_response",
+              "moral_choice",
+              "faith_demonstration",
+              "courage_display"
+            ]
+          }
+        }
+      },
+      "worship_mechanics": {
+        "individual_worship": {
+          "daily_practices": {
+            "morning_prayer": {
+              "duration": "5-15 minutes",
+              "requirements": [
+                "genuine_intent",
+                "respectful_posture",
+                "focused_attention"
+              ],
+              "benefits": [
+                "daily_favor",
+                "divine_connection",
+                "spiritual_guidance",
+                "moral_clarification"
+              ]
+            },
+            "evening_reflection": {
+              "duration": "10-30 minutes",
+              "requirements": [
+                "honest_self_examination",
+                "gratitude_expression",
+                "commitment_renewal"
+              ],
+              "benefits": [
+                "relationship_deepening",
+                "moral_guidance",
+                "divine_insight",
+                "spiritual_growth"
+              ]
+            },
+            "meal_blessing": {
+              "duration": "2-5 minutes",
+              "requirements": [
+                "genuine_gratitude",
+                "food_offering",
+                "mindful_consumption"
+              ],
+              "benefits": [
+                "nourishment_blessing",
+                "gratitude_development",
+                "community_connection",
+                "divine_favor"
+              ]
+            }
+          },
+          "periodic_practices": {
+            "weekly_celebration": {
+              "frequency": "weekly",
+              "duration": "1-2 hours",
+              "requirements": [
+                "dedicated_time",
+                "special_preparation",
+                "community_involvement"
+              ],
+              "benefits": [
+                "major_favor_gain",
+                "spiritual_renewal",
+                "community_bonding",
+                "divine_blessing"
+              ]
+            },
+            "seasonal_observing": {
+              "frequency": "seasonal",
+              "duration": "varies",
+              "requirements": [
+                "seasonal_awareness",
+                "appropriate_rituals",
+                "community_participation"
+              ],
+              "benefits": [
+                "cosmic_alignment",
+                "seasonal_blessing",
+                "natural_harmony",
+                "divine_guidance"
+              ]
+            },
+            "annual_pilgrimage": {
+              "frequency": "annual",
+              "duration": "several days",
+              "requirements": [
+                "sacred_journey",
+                "significant_sacrifice",
+                "pilgrimage_completion"
+              ],
+              "benefits": [
+                "profound_transformation",
+                "major_divine_encounter",
+                "spiritual_enlightenment",
+                "divine_election_possibility"
+              ]
+            }
+          }
+        },
+        "collective_worship": {
+          "temple_worship": {
+            "community_gathering": {
+              "requirements": [
+                "shared_belief",
+                "community_cohesion",
+                "proper_leadership",
+                "sacred_space"
+              ],
+              "benefits": [
+                "amplified_divine_connection",
+                "community_strength",
+                "collective_blessing",
+                "shared_spiritual_growth"
+              ],
+              "participation_levels": [
+                "active_leader",
+                "devoted_member",
+                "occasional_participant",
+                "curious_observer"
+              ]
+            },
+            "ceremonial_leadership": {
+              "priest_responsibilities": [
+                "ritual_conduction",
+                "divine_communication",
+                "community_guidance",
+                "spiritual_counsel"
+              ],
+              "requirements": [
+                "divine_appointment",
+                "spiritual_training",
+                "moral_excellence",
+                "community_trust"
+              ],
+              "powers": [
+                "divine_communication",
+                "ritual_authority",
+                "spiritual_guidance",
+                "community_blessing"
+              ]
+            }
+          },
+          "pilgrimage_groups": {
+            "group_formation": {
+              "requirements": [
+                "shared_destination",
+                "common_purpose",
+                "mutual_support",
+                "collective_devotion"
+              ],
+              "leadership_structure": [
+                "spiritual_guide",
+                "practical_leader",
+                "collective_decisions",
+                "shared_responsibilities"
+              ],
+              "benefits": [
+                "mutual_support",
+                "shared_experience",
+                "collective_power",
+                "community_bonding"
+              ]
+            },
+            "sacred_site_worship": {
+              "site_requirements": [
+                "divine_significance",
+                "spiritual_power",
+                "historical_importance",
+                "community_access"
+              ],
+              "worship_practices": [
+                "group_ceremonies",
+                "individual_contemplation",
+                "communal_celebration",
+                "silent_meditation"
+              ],
+              "benefits": [
+                "amplified_worship",
+                "spiritual_enlightenment",
+                "divine_encounter",
+                "transformation_potential"
+              ]
+            }
+          }
+        },
+        "sacrifice_mechanics": {
+          "material_sacrifices": {
+            "offering_types": [
+              "food",
+              "treasure",
+              "artisan_work",
+              "precious_materials",
+              "rare_items"
+            ],
+            "sacrifice_values": {
+              "simple_offering": {
+                "value": "1-10 favor",
+                "examples": [
+                  "daily_food",
+                  "small_coins",
+                  "simple_crafts"
+                ],
+                "frequency": "daily_acceptable"
+              },
+              "valuable_offering": {
+                "value": "11-50 favor",
+                "examples": [
+                  "precious_materials",
+                  "artisan_masterworks",
+                  "rare_items"
+                ],
+                "frequency": "weekly_acceptable"
+              },
+              "significant_offering": {
+                "value": "51-200 favor",
+                "examples": [
+                  "legendary_artifacts",
+                  "priceless_treasures",
+                  "irreplaceable_items"
+                ],
+                "frequency": "monthly_acceptable"
+              }
+            },
+            "sacrifice_effectiveness": {
+              "sacrifice_alignment": {
+                "perfect_match": "1.5x value",
+                "compatible": "1.2x value",
+                "neutral": "1.0x value",
+                "opposed": "0.5x value"
+              },
+              "sacrifice_sincerity": {
+                "genuine_offering": "1.0x value",
+                "obligatory_offering": "0.7x value",
+                "reluctant_offering": "0.3x value",
+                "forced_offering": "0.1x value"
+              }
+            }
+          },
+          "spiritual_sacrifices": {
+            "time_sacrifice": {
+              "types": [
+                "meditation",
+                "service",
+                "study",
+                "prayer",
+                "pilgrimage"
+              ],
+              "value_calculation": "hours_sacrificed × faith_intensity × relationship_level",
+              "benefits": [
+                "spiritual_growth",
+                "divine_relationship",
+                "character_development",
+                "divine_favor"
+              ]
+            },
+            "comfort_sacrifice": {
+              "types": [
+                "sleep_deprivation",
+                "food_restriction",
+                "comfort_abandonment",
+                "personal_hardship"
+              ],
+              "value_calculation": "discomfort_level × sacrifice_duration × moral_significance",
+              "benefits": [
+                "spiritual_strength",
+                "divine_impression",
+                "moral_growth",
+                "faith_demonstration"
+              ]
+            },
+            "ego_sacrifice": {
+              "types": [
+                "pride_abandonment",
+                "status_relinquishment",
+                "recognition_refusal",
+                "humility_embrace"
+              ],
+              "value_calculation": "ego_involvement × sacrifice_frequency × social_impact",
+              "benefits": [
+                "humility_development",
+                "spiritual_purity",
+                "divine_favor",
+                "character_refinement"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "divine_consequences": {
+      "positive_consequences": {
+        "divine_blessing": {
+          "types": [
+            "temporary_enhancement",
+            "permanent_improvement",
+            "special_ability",
+            "divine_favor"
+          ],
+          "duration": "temporary_to_permanent",
+          "requirements": "worthy_recipient",
+          "effects": [
+            "stat_enhancement",
+            "ability_grant",
+            "protection",
+            "guidance",
+            "miracle"
+          ]
+        },
+        "divine_intervention": {
+          "types": [
+            "miracle",
+            "providence",
+            "protection",
+            "guidance",
+            "intervention"
+          ],
+          "triggers": "worthy_need",
+          "requirements": "sufficient_relationship",
+          "effects": [
+            "life_saving",
+            "problem_solving",
+            "opportunity_creation",
+            "fate_alteration"
+          ]
+        },
+        "divine_transformation": {
+          "types": [
+            "spiritual_awakening",
+            "moral_improvement",
+            "ability_development",
+            "character_growth"
+          ],
+          "requirements": "major_life_change",
+          "process": "gradual_or_epic",
+          "effects": [
+            "permanent_change",
+            "enhanced_capabilities",
+            "spiritual_evolution",
+            "divine_connection"
+          ]
+        }
+      },
+      "negative_consequences": {
+        "divine_displeasure": {
+          "causes": [
+            "moral_failure",
+            "worship_abandonment",
+            "alignment_violation",
+            "divine_betrayal"
+          ],
+          "effects": [
+            "favor_loss",
+            "blessing_removal",
+            "curse_imposition",
+            "divine_silence"
+          ],
+          "duration": "temporary_to_permanent",
+          "recovery": "repentance_and_reform"
+        },
+        "divine_testing": {
+          "types": [
+            "trial_of_faith",
+            "moral_challenge",
+            "difficult_circumstance",
+            "character_test"
+          ],
+          "purpose": "growth_and_proof",
+          "effects": [
+            "hardship_imposition",
+            "faith_testing",
+            "character_development",
+            "spiritual_growth"
+          ],
+          "outcome": "strengthening_or_breaking"
+        },
+        "divine_abandonment": {
+          "causes": [
+            "irredeemable_failure",
+            "complete_alignment_violation",
+            "divine_rejection",
+            "cosmic_judgment"
+          ],
+          "effects": [
+            "total_favor_loss",
+            "spiritual_isolation",
+            "curse_imposition",
+            "fate_abandonment"
+          ],
+          "recovery": "extremely_difficult"
+        }
+      },
+      "transformation_consequences": {
+        "sainthood_progression": {
+          "stages": [
+            "faithful_believer",
+            "virtuous_devotee",
+            "holy_servant",
+            "divine_servant",
+            "canonized_saint"
+          ],
+          "requirements": [
+            "faith_achievement",
+            "moral_perfection",
+            "divine_approval",
+            "community_recognition"
+          ],
+          "benefits": [
+            "divine_status",
+            "spiritual_power",
+            "intercession_ability",
+            "community_veneration"
+          ],
+          "responsibilities": [
+            "moral_example",
+            "spiritual_guidance",
+            "divine_service",
+            "community_protection"
+          ]
+        },
+        "divine_election": {
+          "description": "Being chosen for divine status by cosmic forces",
+          "triggers": [
+            "exceptional_faith",
+            "cosmic_need",
+            "divine_command",
+            "worthy_sacrifice"
+          ],
+          "requirements": "perfect_alignment_with_divine_plan",
+          "outcome": "full_divine_transformation",
+          "consequences": "infinite_responsibility_and_power"
+        }
+      }
+    }
+  },
+  "id": "divine_relationship_worship_mechanics",
+  "name": "Divine Relationship Worship Mechanics",
+  "template_type": "divine_system",
+  "version": "0.1.0"
+}

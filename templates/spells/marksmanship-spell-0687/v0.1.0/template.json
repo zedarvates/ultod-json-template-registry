@@ -1,0 +1,78 @@
+{
+  "id": "marksmanship_spell_0687",
+  "name": "Marksmanship Spell 0687",
+  "description": "Un tir spécial qui force l'attention d'une cible et la fait attaquer le chasseur en priorité",
+  "icon": "marksmanship_spell_0687_icon",
+  "school": "marksmanship",
+  "rarity": "common",
+  "spell_type": "taunting_range_attack",
+  "target_type": "single_enemy",
+  "range": 35.0,
+  "cast_time": 1500,
+  "cooldown": 15000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 80,
+    "damage_type": "intimidation_piercing_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "psychological_taunt_force",
+      "value": 120,
+      "duration": 15000,
+      "tick_rate": 0,
+      "taunt_success_perfect": 100,
+      "forced_aggression_duration": 15000,
+      "threat_generation_extreme": 1000,
+      "damage_penalty_while_taunted": 0.2,
+      "hunter_marking_automatic": true,
+      "fear_immunity_hunter": 5000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "intimidation_energy_ball_arrow_head",
+    "taunt_effect": "forced_attention_glowing_target_marker",
+    "damage_effect": "psychological_anguish_damage_waves",
+    "expire_effect": "taunt_break_target_free_will_return"
+  },
+  "sound_effects": {
+    "cast_effect": "marksmanship_spell_0687_arrow_loaded_special_call",
+    "taunt_effect": "forced_attention_angry_roaring_lack",
+    "damage_effect": "psychological_anguish_mind_pain_groan",
+    "expire_effect": "taunt_break_relief_breath_free_will"
+  },
+  "requirements": {
+    "level": 14,
+    "skills": [
+      "marksmanship",
+      "psychological_warfighting"
+    ],
+    "classes": [
+      "hunter",
+      "battle_taunt_master"
+    ],
+    "specializations": [
+      "aggro_controller"
+    ]
+  },
+  "upgrades": {
+    "greater_intimidating_shot": {
+      "unlock_level": 24,
+      "description": "Le Marksmanship Spell 0687 devient plus grand avec des effets de foule et une agression renforcée",
+      "area_taunt_burst": 15.0,
+      "taunt_duration_double": true,
+      "mass_enemies_affected": 5,
+      "hunter_threat_multiplier": 2.0
+    },
+    "legendary_intimidating_shot": {
+      "unlock_level": 34,
+      "description": "Le Marksmanship Spell 0687 atteint la légende avec une domination mentale totale",
+      "unbreakable_mind_control": true,
+      "target_damage_constant": 50,
+      "legendary_battle_dance": true,
+      "enemy_moral_shattered": 0.8
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

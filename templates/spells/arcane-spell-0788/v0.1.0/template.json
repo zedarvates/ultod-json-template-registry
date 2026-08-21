@@ -1,0 +1,71 @@
+{
+  "id": "arcane_spell_0788",
+  "name": "Arcane Spell 0788",
+  "description": "Téléporte instantanément le mage (ou un allié) vers un point visible distant dans la carte du monde",
+  "icon": "arcane_spell_0788_icon",
+  "school": "arcane",
+  "rarity": "rare",
+  "spell_type": "dimensional_transportation",
+  "target_type": "location_arcane_spell_0788",
+  "range": 1000.0,
+  "cast_time": 3000,
+  "cooldown": 20000,
+  "mana_cost": 100,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "reality_displacement_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "dimensional_coordinate_shift",
+      "value": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "teleport_range_maximum": 1000.0,
+      "teleportation_accuracy_flawless": true,
+      "line_of_sight_requirement": true,
+      "mass_teleport_capability": 4,
+      "dimensional_echo_trail": 0.1,
+      "teleport_fear_generation": 45
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "reality_tearing_portal_violet_energy_concentric_circles",
+    "teleport_effect": "instant_dimensional_shift_portal_swallow_arcane_spell_0788_subject",
+    "arrival_effect": "reality_reforming_spatial_warp_distortion_circle_appearance",
+    "special_effect": "dimensional_echo_ghost_image_momentary_afterimage_memory"
+  },
+  "sound_effects": {
+    "cast_effect": "reality_tearing_whistle_spatial_rend_energy_whir_rising",
+    "teleport_effect": "instant_dimensional_transport_implosion_spatial_shift_crack",
+    "arrival_effect": "reality_reforming_spatial_pop_energy_realignment_chime",
+    "special_effect": "dimensional_echo_whisper_residual_reality_whistle_fading"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [
+      "arcane_magic",
+      "spatial_mastery"
+    ],
+    "classes": [
+      "mage",
+      "arcane_spell_0788_mage",
+      "dimension_walker"
+    ],
+    "specializations": [
+      "spatial_specialization"
+    ]
+  },
+  "upgrades": {
+    "greater_teleport": {
+      "unlock_level": 35,
+      "description": "La Arcane Spell 0788 devient plus grande avec des portées accrues et des capacités de masse",
+      "teleport_range_multiplier": 2.5,
+      "mass_teleport_limit_increase": 12,
+      "blind_teleport_capability": true,
+      "teleport_magic_enhancement": 50
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

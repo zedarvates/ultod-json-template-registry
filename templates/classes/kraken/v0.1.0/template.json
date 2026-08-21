@@ -1,0 +1,86 @@
+{
+  "id": "kraken",
+  "name": "Kraken",
+  "description": "Ancient sea monster lineage commanding the depths and crushing waves",
+  "color": "000080",
+  "primary_resource": "mana",
+  "base_stats": {
+    "strength": 26,
+    "agility": 16,
+    "intelligence": 18,
+    "vitality": 28,
+    "wisdom": 16,
+    "charisma": 16
+  },
+  "specializations": [
+    "elemental",
+    "restoration_shaman"
+  ],
+  "starting_skills": [
+    {
+      "id": 17001,
+      "name": "Tentacle Lash",
+      "description": "Crush enemies with powerful tentacle strikes",
+      "cooldown": 0,
+      "mana_cost": 300,
+      "range": 8.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 17002,
+      "name": "Abyssal Shield",
+      "description": "Surround yourself with protective water barrier",
+      "cooldown": 60000,
+      "mana_cost": 400,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": true
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 170001,
+            "name": "Deep Pressure",
+            "description": "Increases damage by 12% when health is below 50%",
+            "max_rank": 5,
+            "icon_path": "talents/kraken/deep_pressure.png"
+          },
+          {
+            "id": 170002,
+            "name": "Tidal Force",
+            "description": "Water spells have 15% chance to stun targets",
+            "max_rank": 3,
+            "icon_path": "talents/kraken/tidal_force.png"
+          },
+          {
+            "id": 170003,
+            "name": "Abyssal Resilience",
+            "description": "Reduces damage taken by 8%",
+            "max_rank": 5,
+            "icon_path": "talents/kraken/abyssal_resilience.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100000,
+  "health_modifier": 1.5,
+  "damage_modifier": 1.1,
+  "armor_modifier": 1.6,
+  "is_lineage_class": true,
+  "unlock_requirements": {
+    "required_item": "kraken_tentacle",
+    "required_level": 45,
+    "required_achievement": "deep_diver",
+    "description": "Requires a Kraken Tentacle from the Abyssal Depths and the Deep Diver achievement"
+  },
+  "template_type": "class",
+  "version": "0.1.0"
+}

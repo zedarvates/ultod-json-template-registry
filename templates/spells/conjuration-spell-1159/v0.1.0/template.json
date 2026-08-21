@@ -1,0 +1,63 @@
+{
+  "id": "conjuration_spell_1159",
+  "name": "Conjuration Spell 1159",
+  "description": "Vous générez jusqu'à 10 baies magiques dans votre main, chacune d'elles peut guérir 1 point de vie",
+  "icon": "conjuration_spell_1159_icon",
+  "school": "conjuration",
+  "rarity": "common",
+  "spell_type": "conjuration",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "conjure_item",
+      "value": 10,
+      "duration": 86400000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "item_type": "magic_berry",
+      "heal_per_use": 1,
+      "nutrition_value": 1
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "berry_summon",
+    "item_effect": "glowing_berries"
+  },
+  "sound_effects": {
+    "cast_sound": "nature_growl",
+    "item_sound": "berry_rustle"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "nature_magic",
+      "foraging"
+    ],
+    "classes": [
+      "ranger",
+      "druid"
+    ]
+  },
+  "upgrades": {
+    "greater_goodberry": {
+      "unlock_level": 5,
+      "description": "Crée 5 baies supplémentaires",
+      "additional_berries": 5
+    },
+    "super_berries": {
+      "unlock_level": 9,
+      "description": "Les baies soignent 2 PV chacune",
+      "heal_upgrade": 2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

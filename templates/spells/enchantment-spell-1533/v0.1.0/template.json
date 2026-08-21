@@ -1,0 +1,50 @@
+{
+  "id": "enchantment_spell_1533",
+  "name": "Enchantment Spell 1533",
+  "description": "Paralyse une créature humanoïde dans une portée de 18 mètres",
+  "icon": "enchantment_spell_1533_icon",
+  "school": "enchantment",
+  "rarity": "uncommon",
+  "spell_type": "control",
+  "target_type": "single",
+  "range": 18.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "paralysis",
+      "value": 0,
+      "duration": 60000,
+      "tick_rate": 0,
+      "wisdom_save": true,
+      "save_dc": 13
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "magic_bind"
+  },
+  "sound_effects": {
+    "cast_sound": "bind_sound"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "enchantment"
+    ],
+    "classes": [
+      "warlock",
+      "priest",
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

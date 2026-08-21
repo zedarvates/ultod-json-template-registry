@@ -1,0 +1,79 @@
+{
+  "id": "survival_spell_0694",
+  "name": "Survival Spell 0694",
+  "description": "Permet de suivre et localiser les animaux et monstres dans un rayon étendu",
+  "icon": "survival_spell_0694_icon",
+  "school": "survival",
+  "rarity": "common",
+  "spell_type": "beast_detection_survival_spell_0694ing",
+  "target_type": "area_scan",
+  "range": 100.0,
+  "cast_time": 2000,
+  "cooldown": 10000,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "detection_reveal"
+  },
+  "effects": [
+    {
+      "effect_type": "animal_creature_revelation",
+      "value": 100,
+      "duration": 60000,
+      "tick_rate": 0,
+      "detection_radius_wide": 100.0,
+      "beast_reveal_perfect": true,
+      "creature_health_visibility": true,
+      "tracking_trails_visual": true,
+      "hidden_creature_spotting": 0.95,
+      "beast_behavior_prediction": 0.8
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "hunter_eyes_glowing_golden_survival_spell_0694ing_vision",
+    "active_effect": "beast_glowing_auras_visible_distance",
+    "reveal_effect": "hidden_creatures_spotted_utility_highlight",
+    "trail_effect": "creature_movement_trails_glowing_paths",
+    "expire_effect": "detection_fade_normal_sight_return"
+  },
+  "sound_effects": {
+    "cast_effect": "hunter_whispering_beast_communication",
+    "active_effect": "beast_distant_sounds_amplified_hearing",
+    "reveal_effect": "creature_discovery_ding_location_ping",
+    "trail_effect": "creature_footprint_audible_survival_spell_0694ing",
+    "expire_effect": "detection_end_sight_normalization"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [
+      "survival_spell_0694ing",
+      "animal_knowledge"
+    ],
+    "classes": [
+      "hunter",
+      "pathfinder"
+    ],
+    "specializations": [
+      "beast_survival_spell_0694er"
+    ]
+  },
+  "upgrades": {
+    "master_tracker_senses": {
+      "unlock_level": 16,
+      "description": "Les sens de pistage deviennent maîtrisés, révélant même les intentions des bêtes",
+      "sensory_enhancement_auditory": 3.0,
+      "creature_motivation_detection": true,
+      "beast_emotional_state_reading": true
+    },
+    "legendary_hunter_sight": {
+      "unlock_level": 26,
+      "description": "La vue du chasseur atteint la légende, révélant toute créature vivante dans des kilomètres",
+      "global_creature_visibility": 1000.0,
+      "creature_type_identification": true,
+      "historical_creature_tracking": true,
+      "legendary_hunter_instinct": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

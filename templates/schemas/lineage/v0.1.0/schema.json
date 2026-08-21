@@ -1,0 +1,362 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Lineage Template Schema",
+  "description": "Schema for lineage/awakening templates",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "icon",
+    "rarity",
+    "required_level",
+    "awakening_cost",
+    "stat_bonuses",
+    "template_type",
+    "version"
+  ],
+  "properties": {
+    "template_type": {
+      "type": "string",
+      "enum": [
+        "lineage"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 500
+    },
+    "icon": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rarity": {
+      "type": "string",
+      "enum": [
+        "common",
+        "uncommon",
+        "rare",
+        "epic",
+        "legendary"
+      ]
+    },
+    "required_level": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100
+    },
+    "awakening_cost": {
+      "type": "object",
+      "properties": {
+        "mana": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100000
+        },
+        "health": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10000
+        },
+        "items": {
+          "type": "object",
+          "patternProperties": {
+            ".*": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            }
+          }
+        },
+        "gold": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000000
+        },
+        "experience": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000000
+        }
+      }
+    },
+    "stat_bonuses": {
+      "type": "object",
+      "properties": {
+        "health": {
+          "type": "integer",
+          "minimum": -1000,
+          "maximum": 10000
+        },
+        "strength": {
+          "type": "integer",
+          "minimum": -50,
+          "maximum": 100
+        },
+        "dexterity": {
+          "type": "integer",
+          "minimum": -50,
+          "maximum": 100
+        },
+        "constitution": {
+          "type": "integer",
+          "minimum": -50,
+          "maximum": 100
+        },
+        "intelligence": {
+          "type": "integer",
+          "minimum": -50,
+          "maximum": 100
+        },
+        "wisdom": {
+          "type": "integer",
+          "minimum": -50,
+          "maximum": 100
+        },
+        "charisma": {
+          "type": "integer",
+          "minimum": -50,
+          "maximum": 100
+        },
+        "luck": {
+          "type": "integer",
+          "minimum": -50,
+          "maximum": 100
+        }
+      }
+    },
+    "resistance_bonuses": {
+      "type": "object",
+      "properties": {
+        "physical": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "fire": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "frost": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "arcane": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "nature": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "shadow": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "holy": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "lightning": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "poison": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "disease": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "magic": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        }
+      }
+    },
+    "skill_bonuses": {
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "type": "number",
+          "minimum": 0.1,
+          "maximum": 3.0
+        }
+      }
+    },
+    "awakening_bonuses": {
+      "type": "object",
+      "properties": {
+        "duration_minutes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1440
+        },
+        "stat_multipliers": {
+          "type": "object",
+          "properties": {
+            "health": {
+              "type": "number",
+              "minimum": 1.0,
+              "maximum": 5.0
+            },
+            "strength": {
+              "type": "number",
+              "minimum": 1.0,
+              "maximum": 5.0
+            },
+            "dexterity": {
+              "type": "number",
+              "minimum": 1.0,
+              "maximum": 5.0
+            },
+            "constitution": {
+              "type": "number",
+              "minimum": 1.0,
+              "maximum": 5.0
+            },
+            "intelligence": {
+              "type": "number",
+              "minimum": 1.0,
+              "maximum": 5.0
+            },
+            "wisdom": {
+              "type": "number",
+              "minimum": 1.0,
+              "maximum": 5.0
+            },
+            "charisma": {
+              "type": "number",
+              "minimum": 1.0,
+              "maximum": 5.0
+            },
+            "luck": {
+              "type": "number",
+              "minimum": 1.0,
+              "maximum": 5.0
+            }
+          }
+        },
+        "special_effects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "abilities_unlocked": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "racial_synergies": {
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "type": "number",
+          "minimum": 0.5,
+          "maximum": 2.0
+        }
+      }
+    },
+    "class_synergies": {
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "type": "number",
+          "minimum": 0.5,
+          "maximum": 2.0
+        }
+      }
+    },
+    "visual_effects": {
+      "type": "object",
+      "properties": {
+        "awakening_effect": {
+          "type": "string"
+        },
+        "aura_effect": {
+          "type": "string"
+        },
+        "transformation_effect": {
+          "type": "string"
+        },
+        "passive_glow": {
+          "type": "string"
+        }
+      }
+    },
+    "requirements": {
+      "type": "object",
+      "properties": {
+        "races": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "classes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "skills": {
+          "type": "object",
+          "patternProperties": {
+            ".*": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            }
+          }
+        },
+        "quests_completed": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "achievements": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "id": "lineage_schema"
+}

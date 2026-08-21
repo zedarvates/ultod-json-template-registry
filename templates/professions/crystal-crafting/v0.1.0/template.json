@@ -1,0 +1,121 @@
+{
+  "profession": "crystal_crafting",
+  "display_name": "Cristallomancie",
+  "description": "Art de travailler et d'infuser les cristaux avec des propriétés magiques",
+  "icon_path": "icons/professions/crystal_crafting.png",
+  "category": "specialized_crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "mana_crystal_focus",
+      "name": "Focus de Cristal de Mana",
+      "description": "Cristal concentrant le mana pour améliorer les sorts",
+      "profession": "crystal_crafting",
+      "difficulty": 50,
+      "base_success_rate": 0.65,
+      "skill_required": 40,
+      "experience_gain": 45,
+      "exceptional_chance": 0.1,
+      "time_required_seconds": 150,
+      "components": [
+        {
+          "item_type": "pure_crystal",
+          "quantity": 3,
+          "quality_required": "excellent",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "mana_essence",
+          "quantity": 5,
+          "quality_required": "good",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "silver_wire",
+          "quantity": 2,
+          "quality_required": "standard",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "mana_crystal_focus",
+          "name": "Focus de Cristal de Mana",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.2,
+          "durability_modifier": 1.5
+        }
+      ],
+      "conditions": {
+        "profession_level": 30,
+        "required_tools": [
+          "crystal_cutter",
+          "mana_infuser",
+          "precision_tools"
+        ],
+        "environmental_factors": [
+          "mana_rich_environment"
+        ]
+      }
+    },
+    {
+      "id": "celestial_prism",
+      "name": "Prisme Céleste",
+      "description": "Cristal légendaire canalisant les énergies divines",
+      "profession": "crystal_crafting",
+      "difficulty": 85,
+      "base_success_rate": 0.4,
+      "skill_required": 75,
+      "experience_gain": 80,
+      "exceptional_chance": 0.18,
+      "time_required_seconds": 300,
+      "components": [
+        {
+          "item_type": "divine_crystal",
+          "quantity": 5,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "starlight_essence",
+          "quantity": 3,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "adapted_reference_mount",
+          "quantity": 2,
+          "quality_required": "good",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "primal_rune",
+          "quantity": 1,
+          "quality_required": "excellent",
+          "rarity_required": "epic"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "celestial_prism",
+          "name": "Prisme Céleste",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.8,
+          "durability_modifier": 2.5
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "mana_crystals",
+    "combat_crystals",
+    "divine_crystals",
+    "void_crystals"
+  ],
+  "id": "crystal_crafting",
+  "name": "Crystal Crafting",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

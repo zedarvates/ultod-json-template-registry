@@ -1,0 +1,64 @@
+{
+  "id": "assassin",
+  "name": "Assassin",
+  "description": "Maître des arts mortels, expert en poisons et en exécutions silencieuses",
+  "color": "8B0000",
+  "primary_resource": "energy",
+  "base_stats": {
+    "strength": 1.2,
+    "agility": 1.7,
+    "intelligence": 0.9,
+    "vitality": 0.9,
+    "wisdom": 0.8,
+    "charisma": 0.7
+  },
+  "available_classes": [
+    "assassin"
+  ],
+  "starting_skills": [
+    {
+      "id": 28001,
+      "name": "Dague Empoisonnée",
+      "description": "Inflige des dégâts avec une chance de poison",
+      "cooldown": 0,
+      "mana_cost": 10,
+      "range": 3.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 28002,
+      "name": "Furtivité Passive",
+      "description": "Chance passive d'invisibilité et de coups critiques",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": true
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 0,
+        "talents": [
+          {
+            "id": 28001,
+            "name": "Empoisonnement",
+            "description": "+25% puissance de poison et +20% durée des effets de poison",
+            "max_rank": 5,
+            "icon_path": "poison_power"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100,
+  "health_modifier": 0.75,
+  "damage_modifier": 1.4,
+  "armor_modifier": 0.6,
+  "template_type": "class",
+  "version": "0.1.0"
+}

@@ -1,0 +1,164 @@
+{
+  "profession": "herbalism",
+  "display_name": "Herboristerie",
+  "description": "Maîtrise de l'identification et de la récolte des plantes médicinales et magiques",
+  "icon_path": "icons/professions/herbalism.png",
+  "category": "gathering",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "healing_herb_bundle",
+      "name": "Botte d'Herbes de Soin",
+      "description": "Prépare un lot d'herbes de soin pour l'alchimie",
+      "profession": "herbalism",
+      "difficulty": 20,
+      "base_success_rate": 0.85,
+      "skill_required": 10,
+      "experience_gain": 10,
+      "exceptional_chance": 0.04,
+      "time_required_seconds": 40,
+      "components": [
+        {
+          "item_type": "healing_herb_raw",
+          "quantity": 10,
+          "quality_required": "any",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "drying_rack",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "healing_herb",
+          "name": "Herbes de Soin",
+          "min_quantity": 8,
+          "max_quantity": 12,
+          "quality_modifier": 1.0,
+          "durability_modifier": 1.0
+        }
+      ],
+      "conditions": {
+        "profession_level": 1,
+        "required_tools": [
+          "herbalist_knife",
+          "cloth_sack"
+        ],
+        "environmental_factors": [
+          "shaded_area"
+        ]
+      }
+    },
+    {
+      "id": "mana_herb_extraction",
+      "name": "Extraction d'Herbes de Mana",
+      "description": "Extrait les propriétés magiques des herbes de mana",
+      "profession": "herbalism",
+      "difficulty": 35,
+      "base_success_rate": 0.75,
+      "skill_required": 25,
+      "experience_gain": 25,
+      "exceptional_chance": 0.07,
+      "time_required_seconds": 70,
+      "components": [
+        {
+          "item_type": "mana_herb_raw",
+          "quantity": 8,
+          "quality_required": "good",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "extraction_tool",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "alchemist_water",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "magic_herb",
+          "name": "Herbes Magiques",
+          "min_quantity": 6,
+          "max_quantity": 10,
+          "quality_modifier": 1.1,
+          "durability_modifier": 1.0
+        },
+        {
+          "item_type": "herbal_residue",
+          "name": "Résidu Herbacé",
+          "min_quantity": 1,
+          "max_quantity": 3,
+          "quality_modifier": 1.0,
+          "durability_modifier": 1.0
+        }
+      ]
+    },
+    {
+      "id": "rare_herb_essence",
+      "name": "Essence d'Herbes Rares",
+      "description": "Distille l'essence des herbes les plus précieuses",
+      "profession": "herbalism",
+      "difficulty": 60,
+      "base_success_rate": 0.55,
+      "skill_required": 50,
+      "experience_gain": 50,
+      "exceptional_chance": 0.12,
+      "time_required_seconds": 150,
+      "components": [
+        {
+          "item_type": "rare_herb",
+          "quantity": 5,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "distillation_apparatus",
+          "quantity": 1,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "pure_water",
+          "quantity": 3,
+          "quality_required": "excellent",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "stabilizer_herb",
+          "quantity": 2,
+          "quality_required": "any",
+          "rarity_required": "uncommon"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "rare_herb_essence",
+          "name": "Essence d'Herbes Rares",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.3,
+          "durability_modifier": 1.0
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "medicinal_herbs",
+    "magical_plants",
+    "poisonous_herbs",
+    "rare_plant_hunting"
+  ],
+  "id": "herbalism",
+  "name": "Herbalism",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

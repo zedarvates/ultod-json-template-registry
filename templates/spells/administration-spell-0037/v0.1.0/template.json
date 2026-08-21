@@ -1,0 +1,55 @@
+{
+  "id": "administration_spell_0037",
+  "name": "Administration Spell 0037",
+  "description": "[ADMIN ONLY] Instantly administration_spell_0037 all energy resources (mana, stamina, focus, etc.) to maximum for target player or creature",
+  "icon": "admin_administration_spell_0037_icon",
+  "school": "administration",
+  "rarity": "epic",
+  "spell_type": "resource_management",
+  "target_type": "self_or_player_target",
+  "range": 1000.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "complete_energy_restoration"
+  },
+  "effects": [
+    {
+      "effect_type": "total_energy_resource_restoration",
+      "value": 1000000,
+      "duration": 0,
+      "tick_rate": 0,
+      "mana_restoration": "maximum_capacity",
+      "stamina_restoration": "maximum_capacity",
+      "focus_energy_restoration": "maximum_capacity",
+      "special_resource_restoration": "all_types",
+      "cool_down_reset": "selectively_optional",
+      "buff_duration_preservation": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "energy_recharge_surge_crystal_blue_radiance",
+    "restore_effect": "complete_energy_flow_blue_auras_filling",
+    "success_effect": "maximum_energy_glow_pulsing_power_signifier",
+    "special_effect": "admin_energy_restoration_authority_mark"
+  },
+  "sound_effects": {
+    "cast_effect": "energy_recharge_crystal_humming_power_gather",
+    "restore_effect": "energy_rush_restoration_satisfying_rush",
+    "success_effect": "maximum_energy_chime_powerful_resonance",
+    "special_effect": "admin_authority_energy_control_echo"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "gamemaster",
+      "overseer",
+      "celestial_avatar"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

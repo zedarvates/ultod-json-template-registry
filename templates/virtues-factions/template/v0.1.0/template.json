@@ -1,0 +1,43 @@
+{
+  "faction_system_id": "vice_vs_virtue",
+  "display_name": "Guerre des Factions : Vice vs Vertu",
+  "factions": [
+    {
+      "faction_id": "vice",
+      "display_name": "Ordre du Vice",
+      "color_hex": "#8B0000"
+    },
+    {
+      "faction_id": "virtue",
+      "display_name": "Gardien de la Vertu",
+      "color_hex": "#1E90FF"
+    }
+  ],
+  "battle_zones": [
+    {
+      "zone_id": "britain_city_battleground",
+      "control_point_x": 1420.0,
+      "control_point_y": 10.0,
+      "control_point_z": 1680.0,
+      "capture_radius": 25.0
+    }
+  ],
+  "rewards": {
+    "points_per_kill": 100,
+    "points_per_flag_capture": 500,
+    "faction_shop_items": [
+      {
+        "item_template_id": "faction_war_horse",
+        "cost_points": 2500
+      },
+      {
+        "item_template_id": "faction_banner",
+        "cost_points": 1000
+      }
+    ]
+  },
+  "id": "template",
+  "name": "Template",
+  "template_type": "virtues_faction",
+  "version": "0.1.0"
+}

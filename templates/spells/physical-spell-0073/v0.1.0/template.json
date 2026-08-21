@@ -1,0 +1,73 @@
+{
+  "id": "physical_spell_0073",
+  "name": "Physical Spell 0073",
+  "description": "Attaque finisseur déchirante, dégâts proportionnels aux points de vie manquants",
+  "icon": "physical_spell_0073_icon",
+  "school": "physical",
+  "rarity": "rare",
+  "spell_type": "finisher",
+  "target_type": "single_enemy",
+  "range": 3.0,
+  "cast_time": 0,
+  "cooldown": 8000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 200,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 1.5,
+      "strength": 1.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "finisher_damage",
+      "value": 200,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_type": "physical",
+      "scaling": {
+        "agility": 1.5,
+        "strength": 1.0
+      },
+      "health_missing_multiplier": 2.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sharp_blade",
+    "impact_effect": "gore_spray",
+    "finisher_effect": "organs_out"
+  },
+  "sound_effects": {
+    "cast_sound": "blade_whistle",
+    "impact_sound": "flesh_tear",
+    "finisher_sound": "scream_agony"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "evisceration_mastery",
+      "stealth_mastery"
+    ],
+    "classes": [
+      "assassin",
+      "rogue"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "deep_wounds": {
+      "unlock_level": 28,
+      "description": "Physical Spell 0073 applique une hémorragie prolongée",
+      "bleed_add": true,
+      "bleed_duration": 8000
+    },
+    "executioners_end": {
+      "unlock_level": 38,
+      "description": "Dégâts bonus contre les ennemis sous 25% de vie",
+      "low_health_bonus": 0.5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

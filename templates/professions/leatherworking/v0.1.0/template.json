@@ -1,0 +1,148 @@
+{
+  "profession": "leatherworking",
+  "display_name": "Travail du Cuir",
+  "description": "L'art de transformer les peaux en armures et équipements résistants",
+  "icon_path": "icons/professions/leatherworking.png",
+  "category": "crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "leather_armor",
+      "name": "Armure de Cuir",
+      "description": "Une armure de base faite de cuir renforcé",
+      "profession": "leatherworking",
+      "difficulty": 20,
+      "base_success_rate": 0.7,
+      "skill_required": 15,
+      "experience_gain": 15,
+      "exceptional_chance": 0.04,
+      "time_required_seconds": 60,
+      "components": [
+        {
+          "item_type": "leather_hide",
+          "quantity": 4,
+          "quality_required": "standard",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "thread",
+          "quantity": 2,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "leather_armor",
+          "name": "Armure de Cuir",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.0,
+          "durability_modifier": 1.0
+        }
+      ],
+      "conditions": {
+        "profession_level": 5,
+        "required_tools": [
+          "leatherworking_kit",
+          "needle"
+        ],
+        "environmental_factors": []
+      }
+    },
+    {
+      "id": "leather_boots",
+      "name": "Bottes de Cuir Renforcé",
+      "description": "Bottes robustes offrant une bonne protection pour les pieds",
+      "profession": "leatherworking",
+      "difficulty": 25,
+      "base_success_rate": 0.65,
+      "skill_required": 20,
+      "experience_gain": 18,
+      "exceptional_chance": 0.05,
+      "time_required_seconds": 75,
+      "components": [
+        {
+          "item_type": "thick_leather",
+          "quantity": 3,
+          "quality_required": "good",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "metal_buckles",
+          "quantity": 2,
+          "quality_required": "any",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "thread",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "reinforced_leather_boots",
+          "name": "Bottes de Cuir Renforcé",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.05,
+          "durability_modifier": 1.2
+        }
+      ]
+    },
+    {
+      "id": "dragonhide_armor",
+      "name": "Armure de Peau de Dragon",
+      "description": "Armure légendaire faite à partir de la peau d'un dragon",
+      "profession": "leatherworking",
+      "difficulty": 60,
+      "base_success_rate": 0.4,
+      "skill_required": 80,
+      "experience_gain": 80,
+      "exceptional_chance": 0.15,
+      "time_required_seconds": 480,
+      "components": [
+        {
+          "item_type": "dragon_hide",
+          "quantity": 8,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "adapted_reference_thread",
+          "quantity": 5,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "dragon_scales",
+          "quantity": 10,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "dragonhide_armor",
+          "name": "Armure de Peau de Dragon",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.5,
+          "durability_modifier": 2.0
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "light_armor",
+    "medium_armor",
+    "leather_goods",
+    "exotic_materials"
+  ],
+  "id": "leatherworking",
+  "name": "Leatherworking",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

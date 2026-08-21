@@ -1,0 +1,55 @@
+{
+  "id": "administration_spell_0036",
+  "name": "Administration Spell 0036",
+  "description": "[ADMIN ONLY] Force any administration_spell_0036 to be instantly disconnected from the server",
+  "icon": "admin_kick_icon",
+  "school": "administration",
+  "rarity": "epic",
+  "spell_type": "administration_spell_0036_management",
+  "target_type": "administration_spell_0036_target",
+  "range": 1000.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "administrative_disconnection"
+  },
+  "effects": [
+    {
+      "effect_type": "forced_server_disconnection",
+      "value": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "disconnect_type": "immediate_kick",
+      "kick_reason": "administrative_action",
+      "reconnect_timer": "none_admin_instant",
+      "character_save_before_kick": true,
+      "log_kick_event": true,
+      "anti_reconnect_protection": "temporary_or_permanent"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "admin_force_field_push",
+    "kick_effect": "red_energy_surge_force_disconnect",
+    "target_effect": "administration_spell_0036_portal_compression_expulsion",
+    "server_effect": "connection_lightning_force_removal"
+  },
+  "sound_effects": {
+    "cast_effect": "authoritative_rejection_thunder",
+    "kick_effect": "disconnect_energy_discharge_surge",
+    "target_effect": "disorientation_whoosh_expulsion",
+    "server_effect": "system_enforcement_confirmation_ping"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "gamemaster",
+      "overseer",
+      "celestial_avatar"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

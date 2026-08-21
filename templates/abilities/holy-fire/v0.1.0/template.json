@@ -1,0 +1,44 @@
+{
+  "id": "holy_fire",
+  "name": "Flamme Sacrée",
+  "description": "Consomme la cible par un feu sacré, infligeant des dégâts initiaux et des dégâts sur la durée",
+  "type": "spell",
+  "class_restriction": [
+    "priest"
+  ],
+  "level_requirement": 20,
+  "resource_cost": {
+    "type": "mana",
+    "amount": 120
+  },
+  "cooldown_seconds": 10,
+  "range": 30.0,
+  "effects": [
+    {
+      "type": "damage",
+      "damage_type": "holy",
+      "base_damage": 150,
+      "scaling": {
+        "strength": 0.0,
+        "dexterity": 0.0,
+        "intelligence": 1.5,
+        "level": 0.8
+      },
+      "armor_penetration": 0.0
+    },
+    {
+      "type": "damage_over_time",
+      "damage_type": "holy",
+      "base_damage": 50,
+      "scaling": {
+        "strength": 0.0,
+        "dexterity": 0.0,
+        "intelligence": 0.5,
+        "level": 0.2
+      },
+      "armor_penetration": 0.0
+    }
+  ],
+  "template_type": "ability",
+  "version": "0.1.0"
+}

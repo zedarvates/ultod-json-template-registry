@@ -1,0 +1,80 @@
+{
+  "id": "holy_spell_1041",
+  "name": "Holy Spell 1041",
+  "description": "Enveloppe le lanceur d'un bouclier d'énergie sacrée absorbant les dégâts",
+  "icon": "holy_spell_1041_icon",
+  "school": "holy",
+  "rarity": "rare",
+  "spell_type": "defensive",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 1500,
+  "cooldown": 30000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "holy",
+    "scaling": {
+      "wisdom": 1.0,
+      "spirit": 0.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "shield",
+      "value": 500,
+      "duration": 10000,
+      "tick_rate": 0,
+      "scaling": {
+        "wisdom": 2.0
+      }
+    },
+    {
+      "effect_type": "resistance_bonus",
+      "value": 25,
+      "duration": 10000,
+      "tick_rate": 0,
+      "damage_types": [
+        "physical",
+        "holy"
+      ]
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "holy_spell_1041_glow",
+    "buff_effect": "golden_aura",
+    "break_effect": "shield_shatter"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_spell_1041_chant",
+    "buff_sound": "shield_form",
+    "break_sound": "glass_shatter"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "paladin",
+      "priest",
+      "cleric"
+    ]
+  },
+  "upgrades": {
+    "divine_barrier": {
+      "unlock_level": 20,
+      "description": "Le bouclier protège également les alliés proches",
+      "aoe_range": 10,
+      "ally_shield_percent": 50
+    },
+    "unbreakable_faith": {
+      "unlock_level": 30,
+      "description": "Le bouclier ne peut pas être brisé prématurément",
+      "unbreakable": true,
+      "damage_reduction": 50
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

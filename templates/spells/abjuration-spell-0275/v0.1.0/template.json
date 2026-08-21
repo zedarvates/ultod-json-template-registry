@@ -1,0 +1,76 @@
+{
+  "id": "abjuration_spell_0275",
+  "name": "Abjuration Spell 0275",
+  "description": "Une puissante bénédiction qui protège complètement l'allié contre les attaques physiques et magiques",
+  "icon": "abjuration_spell_0275_icon",
+  "school": "abjuration",
+  "rarity": "rare",
+  "spell_type": "adapted_referencete_protection_abjuration_spell_0275",
+  "target_type": "single_ally",
+  "range": 30.0,
+  "cast_time": 1800,
+  "cooldown": 60000,
+  "mana_cost": 100,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "protective_abjuration_spell_0275"
+  },
+  "effects": [
+    {
+      "effect_type": "adapted_referencete_protection_aura",
+      "value": 500,
+      "duration": 10000,
+      "tick_rate": 0,
+      "damage_immunity_physical": 0.9,
+      "damage_immunity_magical": 0.8,
+      "status_effect_ward": true,
+      "divine_barrier_shell": true,
+      "protection_glow_intensity": 3
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_barrier_construct",
+    "protection_effect": "impenetrable_divine_adapted_reference",
+    "damage_effect": "barrier_energy_absorb",
+    "expire_effect": "protection_shell_crack"
+  },
+  "sound_effects": {
+    "cast_sound": "adapted_referencete_protection_form",
+    "protection_sound": "divine_barrier_hum",
+    "damage_sound": "energy_absorb_thud",
+    "expire_sound": "shell_shatter_echo"
+  },
+  "requirements": {
+    "level": 16,
+    "skills": [
+      "divine_magic",
+      "adapted_referencete_protection"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "divine_guardian"
+    ]
+  },
+  "upgrades": {
+    "aura_of_invincibility": {
+      "unlock_level": 26,
+      "description": "L'aura repousse les attaquants et les étourdit",
+      "knockback_on_attack": 3.0,
+      "attacker_stun_chance": 0.5,
+      "damage_reflection": 0.3
+    },
+    "divine_invulnerability": {
+      "unlock_level": 36,
+      "description": "Pendant la durée, l'allié est véritablement invincible",
+      "total_damage_immunity": true,
+      "status_immunity_all": true,
+      "divine_resurrection_auto": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

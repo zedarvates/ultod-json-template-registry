@@ -1,0 +1,184 @@
+{
+  "profession": "weapon_crafting",
+  "display_name": "Forge d'Armes",
+  "description": "Spécialisation avancée dans la création d'armes magiques et légendaires",
+  "icon_path": "icons/professions/weapon_crafting.png",
+  "category": "advanced_crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "magic_longsword",
+      "name": "Épée Longue Magique",
+      "description": "Une épée longue infusée de magie élémentaire",
+      "profession": "weapon_crafting",
+      "difficulty": 50,
+      "base_success_rate": 0.55,
+      "skill_required": 50,
+      "experience_gain": 60,
+      "exceptional_chance": 0.12,
+      "time_required_seconds": 300,
+      "components": [
+        {
+          "item_type": "weapon_parts",
+          "quantity": 3,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "magic_weapon_core",
+          "quantity": 1,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "ancient_metal",
+          "quantity": 2,
+          "quality_required": "good",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "magic_crystal",
+          "quantity": 1,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "magic_longsword",
+          "name": "Épée Longue Magique",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.3,
+          "durability_modifier": 1.4
+        }
+      ],
+      "conditions": {
+        "profession_level": 25,
+        "required_tools": [
+          "enchanted_forge",
+          "magic_hammer",
+          "anvil"
+        ],
+        "environmental_factors": [
+          "rune_forge"
+        ],
+        "required_facilities": [
+          "weapons_workshop"
+        ]
+      }
+    },
+    {
+      "id": "runeblade",
+      "name": "Lame Runique",
+      "description": "Une arme gravée de runes anciennes conférant des pouvoirs magiques",
+      "profession": "weapon_crafting",
+      "difficulty": 65,
+      "base_success_rate": 0.45,
+      "skill_required": 70,
+      "experience_gain": 85,
+      "exceptional_chance": 0.15,
+      "time_required_seconds": 480,
+      "components": [
+        {
+          "item_type": "masterwork_blade",
+          "quantity": 1,
+          "quality_required": "excellent",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "rune_stone",
+          "quantity": 5,
+          "quality_required": "legendary",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "divine_metal",
+          "quantity": 4,
+          "quality_required": "excellent",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "blood_essence",
+          "quantity": 2,
+          "quality_required": "legendary",
+          "rarity_required": "rare"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "runeblade",
+          "name": "Lame Runique",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.6,
+          "durability_modifier": 1.8
+        }
+      ]
+    },
+    {
+      "id": "ascended_weapon",
+      "name": "Arme Ascendée",
+      "description": "Une arme légendaire ayant transcendé les limites matérielles",
+      "profession": "weapon_crafting",
+      "difficulty": 85,
+      "base_success_rate": 0.3,
+      "skill_required": 95,
+      "experience_gain": 150,
+      "exceptional_chance": 0.25,
+      "time_required_seconds": 900,
+      "components": [
+        {
+          "item_type": "legendary_weapon_base",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "divine_essence",
+          "quantity": 8,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "soul_shard",
+          "quantity": 3,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "reality_anchor",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "timeless_metal",
+          "quantity": 6,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "ascended_weapon",
+          "name": "Arme Ascendée",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 2.0,
+          "durability_modifier": 3.0
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "magical_weapons",
+    "rune_engraving",
+    "elemental_weapons",
+    "divine_weapons"
+  ],
+  "id": "weapon_crafting",
+  "name": "Weapon Crafting",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

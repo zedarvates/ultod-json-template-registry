@@ -1,0 +1,71 @@
+{
+  "id": "arcane_spell_0772",
+  "name": "Arcane Spell 0772",
+  "description": "Téléporte le mage instantanément vers une direction choisie sur une courte distance pour échapper aux dangers",
+  "icon": "arcane_spell_0772_icon",
+  "school": "arcane",
+  "rarity": "uncommon",
+  "spell_type": "short_range_teleport",
+  "target_type": "directional_teleport",
+  "range": 15.0,
+  "cast_time": 0,
+  "cooldown": 3000,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "spatial_magic_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "instant_short_teleport",
+      "value": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "maximum_teleport_distance": 15.0,
+      "teleport_directionality": true,
+      "wall_phase_through": false,
+      "teleport_precision": "pixel_perfect",
+      "blink_evade_mechanic": true,
+      "cooldown_reduction_on_evade": 50
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "brief_spatial_distortion_light_blue_energy_blur",
+    "teleport_effect": "instant_fade_disappear_reappear_same_position_shift",
+    "arrival_effect": "spatial_energy_crackle_blue_sparks_dissipate",
+    "special_effect": "brief_afterimage_remaining_slowly_dissipating"
+  },
+  "sound_effects": {
+    "cast_effect": "spatial_energy_whir_brief_charge_building",
+    "teleport_effect": "instant_teleport_pop_crack_spatial_shift",
+    "arrival_effect": "spatial_arrival_crackle_energy_discharge_soft",
+    "special_effect": "echoing_afterimage_whispers_fading_quickly"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "arcane_magic",
+      "spatial_manipulation"
+    ],
+    "classes": [
+      "mage",
+      "teleport_mage",
+      "dimension_walker"
+    ],
+    "specializations": [
+      "spatial_specialization"
+    ]
+  },
+  "upgrades": {
+    "greater_blink": {
+      "unlock_level": 20,
+      "description": "Le Arcane Spell 0772 devient plus efficace avec des distances accrues et des capacités améliorées",
+      "teleport_distance_increase": 10.0,
+      "cooldown_reduction_percent": 40,
+      "cast_time_reduction_ms": 150,
+      "wall_phase_capability": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

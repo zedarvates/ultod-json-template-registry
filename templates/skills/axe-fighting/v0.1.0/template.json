@@ -1,0 +1,70 @@
+{
+  "id": "axe_fighting",
+  "name": "Combat à la Hache",
+  "description": "Maîtrise des haches et hachettes pour des attaques dévastatrices",
+  "icon": "axe_fighting_icon",
+  "category": "combat",
+  "rarity": "common",
+  "base_skill": 0,
+  "max_skill": 120,
+  "skill_gain_rate": 1.1,
+  "attributes": {
+    "primary": "strength",
+    "secondary": "dexterity"
+  },
+  "weapon_types": [
+    "axe",
+    "battle_axe",
+    "war_axe",
+    "throwing_axe"
+  ],
+  "abilities": [
+    {
+      "name": "fendre",
+      "description": "Coup vertical puissant avec bonus contre les armures",
+      "unlock_level": 25,
+      "damage_bonus": 20,
+      "armor_damage": 15
+    },
+    {
+      "name": "tourbillon_de_hache",
+      "description": "Attaque rotative rapide touchant plusieurs cibles",
+      "unlock_level": 45,
+      "multi_strike": 3,
+      "damage_reduction": 0.7
+    },
+    {
+      "name": "coup_de_grâce",
+      "description": "Attaque finale dévastatrice contre les ennemis affaiblis",
+      "unlock_level": 75,
+      "execute_threshold": 25,
+      "execute_multiplier": 2.0
+    }
+  ],
+  "bonuses": {
+    "cleave_damage": 12,
+    "armor_damage": 8,
+    "bleed_chance": 10
+  },
+  "requirements": {
+    "level": 1,
+    "strength": 25
+  },
+  "training_methods": [
+    "wood_chopping",
+    "axe_throwing",
+    "combat_training"
+  ],
+  "mastery_bonuses": {
+    "level_50": {
+      "damage_multiplier": 1.15,
+      "cleave_range": 1.5
+    },
+    "level_100": {
+      "execute_threshold": 35,
+      "bleed_damage": 1.5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "skill"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0702",
+  "name": "Illusion Spell 0702",
+  "description": "Échange instantanément la position de l'illusionniste avec celle d'une fausse image dans une direction choisie",
+  "icon": "illusion_spell_0702_icon",
+  "school": "illusion",
+  "rarity": "common",
+  "spell_type": "teleportation_with_deception",
+  "target_type": "directional_teleport",
+  "range": 25.0,
+  "cast_time": 1500,
+  "cooldown": 8000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "spatial_deception_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "location_swap_with_fake_image",
+      "value": 150,
+      "duration": 0,
+      "tick_rate": 0,
+      "teleport_distance_max": 25.0,
+      "fake_image_left_behind": true,
+      "enemy_disorientation_angle": 180,
+      "real_location_concealment": 0.8,
+      "decoy_persistence_time": 10000,
+      "attack_redirection_chance": 60
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "spatial_blink_energy_building_momentum",
+    "teleport_effect": "instant_swap_decoy_left_in_original_position",
+    "decoy_effect": "fake_image_standing_confused_briefly",
+    "reveal_effect": "decoy_fading_reveal_true_location"
+  },
+  "sound_effects": {
+    "cast_effect": "spatial_energy_building_momentum_whir",
+    "teleport_effect": "instant_teleport_swap_commentary_switch",
+    "decoy_effect": "decoy_standing_playing_confused_sounds",
+    "reveal_effect": "decoy_dissipation_revealing_true_whisper"
+  },
+  "requirements": {
+    "level": 16,
+    "skills": [
+      "illusion_magic",
+      "spatial_manipulation"
+    ],
+    "classes": [
+      "illusionist",
+      "position_weaver"
+    ],
+    "specializations": [
+      "phase_shifter"
+    ]
+  },
+  "upgrades": {
+    "greater_displacement": {
+      "unlock_level": 26,
+      "description": "Le Illusion Spell 0702 devient plus grand avec des distances accrues et des décoy multiples",
+      "teleport_distance_triple": true,
+      "multiple_decoys_creation": 2,
+      "disorientation_field_expansion": 360,
+      "combat_evasion_bonus": 30
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

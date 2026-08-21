@@ -1,16 +1,29 @@
 {
   "id": "travel_pack",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Travel Pack",
-  "description": "A portable container component for public template workflows.",
+  "name": "Sac de Voyage",
+  "description": "Sac de depart augmentant legerement la capacite d'inventaire.",
+  "icon": "travel_pack",
   "category": "container",
   "rarity": "common",
-  "stack_limit": 10,
-  "weight_kg": 1.0,
-  "tags": [
-    "adapted",
-    "container"
-  ],
-  "dependencies": []
+  "item_type": "bag",
+  "sub_type": "backpack",
+  "base_stats": {
+    "durability": 50,
+    "max_durability": 50,
+    "weight": 1.0,
+    "value": 75
+  },
+  "bag_properties": {
+    "extra_slots": 8
+  },
+  "properties": {
+    "stackable": false,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 1
+  },
+  "template_type": "item",
+  "version": "0.1.0"
 }

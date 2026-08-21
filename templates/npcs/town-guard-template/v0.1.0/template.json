@@ -1,0 +1,227 @@
+{
+  "id": "town_guard_template",
+  "name": "Town Guard Template",
+  "description": "Experienced warrior protecting citizens and maintaining order in the city",
+  "icon": "npcs/town_guard_icon.png",
+  "category": "guard",
+  "awareness": {
+    "enabled": true,
+    "cognitive_level": "full",
+    "initial_lod": "ordinary",
+    "initial_yaw_radians": 0.0,
+    "senses": {
+      "vision_range": 30.0,
+      "hearing_range": 25.0,
+      "tactile_sensitivity": 0.9
+    },
+    "attention": {
+      "capacity": 12,
+      "max_visual_candidates": 32,
+      "max_occlusion_rays": 8
+    },
+    "values": {
+      "nonviolence": 0.7,
+      "fairness": 0.9,
+      "loyalty": 0.8,
+      "honor": 0.8,
+      "compassion": 0.6,
+      "reciprocity": 0.6
+    },
+    "personal_norms": {
+      "property_rights": 0.9,
+      "nonviolence": 0.8,
+      "anti_coercion": 0.9,
+      "dignity": 0.8,
+      "reciprocity": 0.6
+    },
+    "initial_goals": {
+      "self_preservation": 0.7,
+      "possessions": 0.3,
+      "social_standing": 0.7,
+      "protect_others": 0.9,
+      "preserve_order": 1.0,
+      "affiliation": 0.7
+    },
+    "reaction_policy": {
+      "threat_response": "defend",
+      "may_defend": true,
+      "may_retaliate": false
+    }
+  },
+  "rarity": "common",
+  "npc_type": "security",
+  "base_stats": {
+    "level": 15,
+    "hp": 280,
+    "max_hp": 280,
+    "mana": 60,
+    "max_mana": 60,
+    "strength": 18,
+    "dexterity": 14,
+    "intelligence": 11,
+    "wisdom": 13,
+    "constitution": 17,
+    "charisma": 12,
+    "speed": 1.1,
+    "size": 1.0,
+    "weight": 90.0
+  },
+  "properties": {
+    "is_aggressive": true,
+    "is_flying": false,
+    "is_aquatic": false,
+    "is_undead": false,
+    "is_elemental": false,
+    "is_mechanical": false,
+    "is_magical": false,
+    "is_divine": false,
+    "is_fiendish": false,
+    "is_wild": false,
+    "is_tameable": false,
+    "is_summonable": false,
+    "is_soulbound": false,
+    "is_cursed": false,
+    "is_blessed": false,
+    "is_poisoned": false,
+    "is_paralyzed": false,
+    "is_silenced": false,
+    "is_blinded": false,
+    "is_deafened": false,
+    "is_charmed": false,
+    "is_frightened": false,
+    "is_confused": false,
+    "is_stunned": false,
+    "is_sleeping": false,
+    "is_invisible": false,
+    "is_invulnerable": false,
+    "is_immortal": false,
+    "is_unique": false,
+    "is_boss": false,
+    "is_mini_boss": false,
+    "is_elite": false,
+    "is_rare": false,
+    "is_common": true,
+    "is_uncommon": false,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "loot_table": {
+    "gold": {
+      "min": 15,
+      "max": 75
+    },
+    "items": [
+      {
+        "item_id": "guard_sword",
+        "chance": 0.3,
+        "min_quantity": 1,
+        "max_quantity": 1
+      },
+      {
+        "item_id": "steel_shield",
+        "chance": 0.25,
+        "min_quantity": 1,
+        "max_quantity": 1
+      },
+      {
+        "item_id": "guard_insignia",
+        "chance": 0.15,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ]
+  },
+  "ai_behavior": {
+    "wander_chance": 0.02,
+    "wander_range": 8.0,
+    "max_targets": 3,
+    "combat_style": "defensive",
+    "preferred_attack": "sword_strike",
+    "patrol_route": [
+      "city_gate",
+      "market_square",
+      "town_hall",
+      "guard_post"
+    ],
+    "response_to_crime": "apprehend",
+    "ally_detection": "allied_factions"
+  },
+  "abilities": [
+    "sword_mastery",
+    "shield_bash",
+    "arrest_techniques",
+    "call_reinforcements",
+    "threat_assessment"
+  ],
+  "dialogue": {
+    "greetings": [
+      "State your business in our fair city.",
+      "Keep the peace, and the peace will keep you.",
+      "Watch your step, stranger. This is civilized territory."
+    ],
+    "farewells": [
+      "May your stay be trouble-free.",
+      "Remember: crime doesn't pay in our city.",
+      "Good day to you, citizen."
+    ],
+    "combat": [
+      "You're under arrest!",
+      "For the safety of the innocent!",
+      "This city won't tolerate crime!"
+    ],
+    "help_responses": [
+      "Report any suspicious activity immediately.",
+      "The guard captain handles serious matters.",
+      "Stay out of trouble, and we'll have no issues."
+    ],
+    "crime_intervention": [
+      "Stop right there, criminal!",
+      "You're breaking the law!",
+      "Surrender now, and this will go easier!"
+    ]
+  },
+  "shop_inventory": null,
+  "services": {
+    "can_train": false,
+    "can_heal": false,
+    "can_sell": false,
+    "can_buy": false,
+    "can_repair": false,
+    "can_identify": false,
+    "can_teleport": false,
+    "can_bank": false,
+    "provides_quests": true,
+    "provides_training": false,
+    "law_enforcement": true,
+    "crime_prevention": true
+  },
+  "schedule": {
+    "day": {
+      "06:00": "morning_patrol",
+      "08:00": "gate_duty",
+      "12:00": "shift_change",
+      "14:00": "market_patrol",
+      "18:00": "evening_duty",
+      "20:00": "night_shift_prep"
+    },
+    "night": {
+      "20:00": "night_patrol",
+      "00:00": "midnight_watch",
+      "04:00": "late_night_duty",
+      "06:00": "morning_shift_relief"
+    }
+  },
+  "resistances": {
+    "physical": 0.2,
+    "fire": 0.0,
+    "ice": 0.0,
+    "lightning": 0.0,
+    "poison": 0.1
+  },
+  "weaknesses": [
+    "fire",
+    "lightning"
+  ],
+  "version": "0.1.0",
+  "template_type": "npc"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "sect_legendary_void_walk",
+  "name": "Marche du Vide",
+  "description": "Déplacement instantané à travers les dimensions du vide",
+  "icon": "void_walk_icon",
+  "school": "shadow",
+  "type": "utility",
+  "damage_type": null,
+  "mana_cost": 3000,
+  "range": 500,
+  "cast_time": 2000,
+  "cooldown": 120000,
+  "effects": [
+    {
+      "type": "teleport",
+      "name": "Marche du Vide",
+      "description": "Téléportation instantanée vers une destination désignée",
+      "duration": 0,
+      "value": 1.0,
+      "stackable": false,
+      "dispellable": false
+    },
+    {
+      "type": "buff",
+      "name": "Oubli Dimensionnel",
+      "description": "Invisibilité temporaire dans toutes les dimensions",
+      "duration": 10000,
+      "value": 1.0,
+      "stackable": false,
+      "dispellable": true
+    },
+    {
+      "type": "stat_modifier",
+      "name": "Résistance du Vide",
+      "description": "Immunité aux effets dimensionnels et temporels",
+      "duration": 30000,
+      "value": 0.9,
+      "stackable": false,
+      "dispellable": false
+    }
+  ],
+  "requirements": {
+    "level": 10,
+    "class": [
+      "legendary_sect"
+    ],
+    "talent_points": 100
+  },
+  "visual": {
+    "cast_animation": "void_walk_cast",
+    "projectile_model": "void_portal",
+    "impact_effect": "dimension_shift",
+    "sound_cast": "void_whisper",
+    "sound_impact": "reality_tear"
+  },
+  "enabled": true,
+  "template_type": "sect",
+  "version": "0.1.0"
+}

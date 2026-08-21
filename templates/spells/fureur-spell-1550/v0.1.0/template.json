@@ -1,0 +1,80 @@
+{
+  "id": "fureur_spell_1550",
+  "name": "Fureur Spell 1550",
+  "description": "Le guerrier charge vers un ennemi, le frappant et l'étourdissant brièvement",
+  "icon": "fureur_spell_1550_icon",
+  "school": "fureur",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 25.0,
+  "cast_time": 0,
+  "cooldown": 15000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 100,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.8,
+      "rage": 0.4
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "stun_debuff",
+      "value": 0,
+      "duration": 3000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "charge_movement",
+      "value": 25.0,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "charge_forward",
+    "projectile_effect": "none",
+    "impact_effect": "collision_stun",
+    "trail_effect": "charge_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "charge_cry",
+    "impact_sound": "collision_impact"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "fury"
+    ]
+  },
+  "upgrades": {
+    "improved_intercept": {
+      "unlock_level": 20,
+      "description": "Augmente les dégâts d'fureur_spell_1550ion et la durée de l'étourdissement de 50%",
+      "damage_bonus": 50,
+      "stun_duration_bonus": 1500
+    },
+    "intercept_mastery": {
+      "unlock_level": 30,
+      "description": "fureur_spell_1550ion peut être utilisée plus fréquemment",
+      "cooldown_reduction": 3000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,321 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Race Template Schema",
+  "description": "Schema for character race templates",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "icon",
+    "category",
+    "rarity",
+    "faction",
+    "base_stats",
+    "stat_modifiers",
+    "available_classes",
+    "racial_traits",
+    "passive_bonuses",
+    "starting_equipment",
+    "body_proportions",
+    "appearance_restrictions",
+    "cultural_background",
+    "template_type",
+    "version"
+  ],
+  "properties": {
+    "template_type": {
+      "type": "string",
+      "enum": [
+        "race"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 500
+    },
+    "icon": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "humanoid",
+        "beast",
+        "undead",
+        "elemental",
+        "construct",
+        "fey",
+        "fiend",
+        "celestial"
+      ]
+    },
+    "rarity": {
+      "type": "string",
+      "enum": [
+        "common",
+        "uncommon",
+        "rare",
+        "epic",
+        "legendary"
+      ]
+    },
+    "faction": {
+      "type": "string",
+      "enum": [
+        "neutral",
+        "alliance",
+        "horde",
+        "order",
+        "chaos",
+        "nature",
+        "shadow"
+      ]
+    },
+    "base_stats": {
+      "type": "object",
+      "required": [
+        "strength",
+        "dexterity",
+        "constitution",
+        "intelligence",
+        "wisdom",
+        "charisma",
+        "luck"
+      ],
+      "properties": {
+        "strength": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50
+        },
+        "dexterity": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50
+        },
+        "constitution": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50
+        },
+        "intelligence": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50
+        },
+        "wisdom": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50
+        },
+        "charisma": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50
+        },
+        "luck": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50
+        }
+      }
+    },
+    "stat_modifiers": {
+      "type": "object",
+      "properties": {
+        "skill_learning_rate": {
+          "type": "number",
+          "minimum": 0.1,
+          "maximum": 3.0
+        },
+        "experience_rate": {
+          "type": "number",
+          "minimum": 0.1,
+          "maximum": 3.0
+        },
+        "health_regeneration": {
+          "type": "number",
+          "minimum": 0.1,
+          "maximum": 3.0
+        },
+        "mana_regeneration": {
+          "type": "number",
+          "minimum": 0.1,
+          "maximum": 3.0
+        }
+      }
+    },
+    "available_classes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "racial_traits": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "passive_bonuses": {
+      "type": "object",
+      "properties": {
+        "skill_points_per_level": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "attribute_points_per_level": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "resistance_to_fear": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "bonus_to_all_skills": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 50
+        }
+      }
+    },
+    "starting_equipment": {
+      "type": "object",
+      "properties": {
+        "weapons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "armor": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "body_proportions": {
+      "type": "object",
+      "properties": {
+        "height_min": {
+          "type": "integer",
+          "minimum": 50,
+          "maximum": 300
+        },
+        "height_max": {
+          "type": "integer",
+          "minimum": 50,
+          "maximum": 300
+        },
+        "weight_min": {
+          "type": "integer",
+          "minimum": 10,
+          "maximum": 500
+        },
+        "weight_max": {
+          "type": "integer",
+          "minimum": 10,
+          "maximum": 500
+        },
+        "body_type": {
+          "type": "string",
+          "enum": [
+            "slim",
+            "average",
+            "muscular",
+            "large"
+          ]
+        }
+      }
+    },
+    "appearance_restrictions": {
+      "type": "object",
+      "properties": {
+        "skin_colors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "hair_colors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "eye_colors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "facial_features": {
+          "type": "string"
+        }
+      }
+    },
+    "cultural_background": {
+      "type": "object",
+      "properties": {
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "starting_city": {
+          "type": "string"
+        },
+        "alignment_tendency": {
+          "type": "string"
+        },
+        "cultural_bonuses": {
+          "type": "object",
+          "patternProperties": {
+            ".*": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 100
+            }
+          }
+        }
+      }
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "id": "race_schema"
+}

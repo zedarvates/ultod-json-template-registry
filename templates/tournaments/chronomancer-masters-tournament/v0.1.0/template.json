@@ -1,0 +1,283 @@
+{
+  "tournament_id": "chronomancer_masters_tournament",
+  "tournament_name": "Tournoi des Maîtres Chronomanciens",
+  "description": "Un tournoi épique mettant aux prises les meilleurs chronomanciens du monde dans une compétition temporelle",
+  "tournament_type": "temporal_specialization",
+  "rarity": "mythic",
+  "tournament_scale": "worldwide",
+  "participation_requirements": {
+    "player_level_min": 55,
+    "temporal_mastery_min": 50,
+    "required_unlocks": [
+      "temporal_rift",
+      "chronosurge",
+      "time_stop"
+    ],
+    "equipment_requirements": "epic_temporal_gear",
+    "previous_pvp_experience": "chronomancer_arena_rank_3_minimum"
+  },
+  "tournament_structure": {
+    "phases": [
+      {
+        "phase": 1,
+        "phase_name": "Éliminatoires Temporelles",
+        "description": "Tournoi à élimination simple sur 3 rounds",
+        "duration": "3_days",
+        "participants": 64,
+        "format": "1v1_elimination",
+        "arena": "chronal_battlefield"
+      },
+      {
+        "phase": 2,
+        "phase_name": "Quarter-Finales Paradoxales",
+        "description": "Combats avec mécanismes de paradoxe",
+        "duration": "2_days",
+        "participants": 16,
+        "format": "1v1_paradox_combat",
+        "arena": "paradox_nexus"
+      },
+      {
+        "phase": 3,
+        "phase_name": " demi-finales Réalité",
+        "description": "Combats impliquant la construction de réalité",
+        "duration": "1_day",
+        "participants": 4,
+        "format": "1v1_reality_construction",
+        "arena": "reality_construct"
+      },
+      {
+        "phase": 4,
+        "phase_name": "Finale Souveraine",
+        "description": "Combat final pour le titre de Souverain Temporel",
+        "duration": "1_day",
+        "participants": 2,
+        "format": "1v1_sovereign_battle",
+        "arena": "temporal_sovereign_arena",
+        "special_rules": true
+      }
+    ]
+  },
+  "special_rules": {
+    "temporal_energy_amplification": {
+      "description": "Les participants commencent avec 200 d'énergie temporelle au lieu de 100",
+      "duration": "entire_tournament"
+    },
+    "reality_distortion_zones": {
+      "description": "Zones de distortion de réalité apparaissent périodiquement",
+      "spawn_rate": 120000,
+      "effects": [
+        "random_temporal_effects",
+        "reality_glitches"
+      ]
+    },
+    "temporal_mentoring_bonus": {
+      "description": "Les participants peuvent recevoir des conseils des anciens souverains",
+      "mentor_appearances": [
+        "temporal_dragon",
+        "chronomancer_masters"
+      ],
+      "bonus_effects": [
+        "temporary_spell_enhancement",
+        "temporal_insight"
+      ]
+    }
+  },
+  "specialized_challenges": [
+    {
+      "challenge_id": "time_manipulation_mastery",
+      "name": "Maîtrise de la Manipulation Temporelle",
+      "description": "Test complet des capacités temporelles",
+      "challenge_type": "skill_demonstration",
+      "objectives": [
+        {
+          "objective": "execute_perfect_time_manipulation_sequence",
+          "sequence": [
+            "time_acceleration",
+            "temporal_strike",
+            "reality_warp",
+            "time_stop"
+          ],
+          "timing_requirement": "perfect",
+          "combo_bonus": 1.5
+        },
+        {
+          "objective": "maintain_temporal_advantage",
+          "duration": 180000,
+          "advantage_maintenance": 0.8
+        },
+        {
+          "objective": "counter_opponent_temporal_attempts",
+          "counter_success_rate": 0.7,
+          "description": "Contre-attaquer les tentatives temporelles adverses"
+        }
+      ],
+      "rewards": {
+        "temporal_mastery_title": true,
+        "mastery_bonus": 0.2
+      }
+    },
+    {
+      "challenge_id": "reality_construction_mastery",
+      "name": "Maîtrise de la Construction de Réalité",
+      "description": "Construire et maintenir des structures de réalité complexes",
+      "challenge_type": "construction_mastery",
+      "objectives": [
+        {
+          "objective": "construct_temporal_fortress",
+          "structures_required": [
+            "time_barriers",
+            "reality_anchors",
+            "temporal_traps",
+            "time_gates"
+          ],
+          "construction_quality": "masterpiece",
+          "maintenance_duration": 300000
+        },
+        {
+          "objective": "defend_constructed_reality",
+          "defense_duration": 180000,
+          "structures_survived": 3
+        }
+      ],
+      "rewards": {
+        "reality_architect_title": true,
+        "unique_ability": "reality_mastery",
+        "architectural_bonus": 0.25
+      }
+    },
+    {
+      "challenge_id": "paradox_navigation",
+      "name": "Navigation dans les Paradoxes",
+      "description": "Naviguer à travers des paradoxes temporels complexes",
+      "challenge_type": "navigation_mastery",
+      "paradox_difficulty": "extreme",
+      "objectives": [
+        {
+          "objective": "resolve_time_loop_paradox",
+          "loop_complexity": "quadruple_nested",
+          "resolution_requirement": "optimal"
+        },
+        {
+          "objective": "stabilize_causality_break",
+          "break_severity": "critical",
+          "stabilization_quality": "perfect"
+        },
+        {
+          "objective": "manifest_future_echo",
+          "echo_accuracy": 0.9,
+          "duration": 120000
+        }
+      ],
+      "rewards": {
+        "paradox_navigator_title": true,
+        "special_ability": "paradox_mastery",
+        "navigator_bonus": 0.3
+      }
+    }
+  ],
+  "championship_rewards": {
+    "winner_rewards": {
+      "title": "Souverain Temporel du Tournoi",
+      "exclusive_equipment": [
+        "temporal_sovereign_crown_replica",
+        "champion_chronomancer_staff"
+      ],
+      "unique_abilities": [
+        "sovereign_command",
+        "reality_manipulation_master",
+        "temporal_supremacy"
+      ],
+      "permanent_bonuses": {
+        "temporal_spell_power": 0.4,
+        "temporal_resistance": 0.5,
+        "temporal_energy_capacity": 0.5,
+        "reality_influence": 0.3
+      },
+      "special_privileges": {
+        "tournament_organizer_status": true,
+        "temporal_academy_access": true,
+        "reality_stabilization_authority": true
+      }
+    },
+    "runner_up_rewards": {
+      "title": "Champion Temporel",
+      "equipment": [
+        "temporal_champion_robes",
+        "reality_shaper_staff"
+      ],
+      "abilities": [
+        "reality_influence",
+        "temporal_mastery_enhancement"
+      ],
+      "bonuses": {
+        "temporal_spell_power": 0.25,
+        "temporal_energy_efficiency": 0.2
+      }
+    },
+    "semifinalist_rewards": {
+      "title": "Maître Chronomancer",
+      "equipment": [
+        "temporal_mastery_medallion"
+      ],
+      "bonuses": {
+        "temporal_spell_power": 0.15,
+        "temporal_cooldown_reduction": 0.1
+      }
+    }
+  },
+  "tournament_schedule": {
+    "registration_period": "7_days",
+    "qualification_period": "3_days",
+    "main_tournament": "7_days",
+    "total_duration": "17_days",
+    "frequency": "monthly",
+    "special_events": {
+      "championship_week": "extraordinary_rewards",
+      "anniversary_edition": "unique_rewards",
+      "season_finale": "legendary_rewards"
+    }
+  },
+  "spectator_features": {
+    "temporal_vision": {
+      "description": "Voir les actions dans le temps passé et futur",
+      "replay_systems": true,
+      "time_shift_viewing": true
+    },
+    "reality_analysis": {
+      "description": "Analyser les constructions de réalité en temps réel",
+      "construction_statistics": true,
+      "reality_stability_readings": true
+    },
+    "paradox_explanation": {
+      "description": "Explications détaillées des paradoxes",
+      "paradox_timeline": true,
+      "causality_flow_diagrams": true
+    }
+  },
+  "integration_points": {
+    "temporal_arena_system": {
+      "advanced_arena_usage": true,
+      "tournament_specific_arenas": true,
+      "spectator_arenas": true
+    },
+    "temporal_spells": {
+      "tournament_bonus_spells": true,
+      "championship_abilities": true,
+      "mastery_demonstration_spells": true
+    },
+    "temporal_equipment": {
+      "championship_gear": true,
+      "tournament_rewards": true,
+      "exclusive_temporal_items": true
+    },
+    "achievement_system": {
+      "tournament_achievements": true,
+      "championship_titles": true,
+      "mastery_certifications": true
+    }
+  },
+  "version": "0.1.0",
+  "id": "chronomancer_masters_tournament",
+  "name": "Chronomancer Masters Tournament",
+  "template_type": "tournament"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0707",
+  "name": "Illusion Spell 0707",
+  "description": "Deviens invisible aux monstres et PNJ hostiles, parfait pour l'infiltration et l'évasion dans les donjons",
+  "icon": "illusion_spell_0707_icon",
+  "school": "illusion",
+  "rarity": "rare",
+  "spell_type": "monster_stealth_illusion",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1800,
+  "cooldown": 25000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "monster_illusion_spell_0707_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "monster_specific_stealth",
+      "value": 200,
+      "duration": 150000,
+      "tick_rate": 0,
+      "monster_detection_immune": true,
+      "hostile_NPC_hidden": true,
+      "player_detection": "normal",
+      "neutral_creature_detection": "reduced",
+      "movement_penalty": 25,
+      "combat_breaks_stealth": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "monster_repelling_veil_dark_energy_coating",
+    "active_effect": "monsters_glance_past_player_ignore_completely",
+    "dungeon_effect": "safe_navigation_hostile_guards_oblivious",
+    "expire_effect": "monster_illusion_spell_0707_shred_monster_awareness"
+  },
+  "sound_effects": {
+    "cast_effect": "monster_masking_veil_whisper_predator_repellent",
+    "active_effect": "quiet_navigation_monsters_unaware_normal_sounds",
+    "dungeon_effect": "dungeon_traversal_silent_monster_territories",
+    "expire_effect": "veil_tearing_monster_alert_provoking_roars"
+  },
+  "requirements": {
+    "level": 22,
+    "skills": [
+      "illusion_magic",
+      "monster_stealth"
+    ],
+    "classes": [
+      "illusionist",
+      "monster_stalker"
+    ],
+    "specializations": [
+      "dungeon_infiltrator"
+    ]
+  },
+  "upgrades": {
+    "greater_monster_invisibility": {
+      "unlock_level": 32,
+      "description": "L'Illusion Spell 0707 devient plus puissante avec moins de restrictions et une meilleure furtivité",
+      "movement_penalty_reduction": 12,
+      "monster_detection_immunity_max": 0.98,
+      "attack_sustained_stealth": 0.4,
+      "passive_monster_aggro_prevented": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

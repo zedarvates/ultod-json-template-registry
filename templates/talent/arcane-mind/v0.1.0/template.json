@@ -1,0 +1,15 @@
+{
+  "id": "arcane_mind",
+  "name": "Esprit des Arcanes",
+  "description": "Augmente votre intelligence totale",
+  "max_rank": 5,
+  "prerequisites": [],
+  "effects_per_rank": [
+    {
+      "type": "stat_bonus_intelligence",
+      "value": 2
+    }
+  ],
+  "template_type": "talent",
+  "version": "0.1.0"
+}

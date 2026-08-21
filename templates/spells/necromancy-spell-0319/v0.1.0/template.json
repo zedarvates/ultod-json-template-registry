@@ -1,0 +1,75 @@
+{
+  "id": "necromancy_spell_0319",
+  "name": "Necromancy Spell 0319",
+  "description": "Une armure de glace invoquée donnant immunité temporaire aux contrôles et réduisant les dégâts",
+  "icon": "necromancy_spell_0319_icon",
+  "school": "necromancy",
+  "rarity": "rare",
+  "spell_type": "frost_defense",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 2000,
+  "cooldown": 180000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "icy_protection"
+  },
+  "effects": [
+    {
+      "effect_type": "icy_immunity_shield",
+      "value": 200,
+      "duration": 20000,
+      "tick_rate": 0,
+      "damage_reduction_percent": 20,
+      "cc_immunity": true,
+      "health_regeneration": 50,
+      "frost_damage_bonus": 15,
+      "physical_damage_vulnerability_increase": 10
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "icy_crystal_barrier_form",
+    "shield_effect": "frozen_armor_crackling",
+    "active_effect": "cold_mist_protection",
+    "expire_effect": "ice_shatter_break"
+  },
+  "sound_effects": {
+    "cast_sound": "ice_crystal_hardening",
+    "shield_sound": "armor_crackling_frozen",
+    "active_sound": "cold_wind_protection",
+    "expire_sound": "ice_exploding_shatter"
+  },
+  "requirements": {
+    "level": 15,
+    "skills": [
+      "frost_magic",
+      "necrotic_resistance"
+    ],
+    "classes": [
+      "death_knight",
+      "frost_lord"
+    ],
+    "specializations": [
+      "ice_walker"
+    ]
+  },
+  "upgrades": {
+    "absolute_zero_fortitude": {
+      "unlock_level": 25,
+      "description": "La robustesse atteint des températures absolues, gelant le temps autour du chevalier",
+      "time_freeze_radius": 5.0,
+      "enemy_slow_field": 0.5,
+      "damage_reduction_bonus": 10
+    },
+    "eternal_frigidity": {
+      "unlock_level": 35,
+      "description": "La robustesse devient permanente à bas niveau",
+      "permanent_reduction": 5,
+      "persistent_immunity": 0.3,
+      "cooldown_reduction": 80000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

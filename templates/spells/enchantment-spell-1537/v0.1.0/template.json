@@ -1,0 +1,47 @@
+{
+  "id": "enchantment_spell_1537",
+  "name": "Enchantment Spell 1537",
+  "description": "Tue une créature avec 100 PV ou moins",
+  "icon": "enchantment_spell_1537_icon",
+  "school": "enchantment",
+  "rarity": "artifact",
+  "spell_type": "instant_kill",
+  "target_type": "single",
+  "range": 18.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 150,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "word_of_death",
+      "value": 0,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "death_word"
+  },
+  "sound_effects": {
+    "cast_sound": "final_echo"
+  },
+  "requirements": {
+    "level": 9,
+    "skills": [
+      "enchantment"
+    ],
+    "classes": [
+      "warlock",
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,40 @@
+{
+  "school": "spiritualism_spell_1414ualism",
+  "rarity": "common",
+  "target_type": "single",
+  "range": 20.0,
+  "cast_time": 1500,
+  "cooldown": 8000,
+  "mana_cost": 25,
+  "visual_effects": {
+    "cast_effect": "spiritualism_spell_1414_cast",
+    "projectile_effect": "spiritualism_spell_1414_projectile",
+    "impact_effect": "spiritualism_spell_1414_impact",
+    "trail_effect": "spiritualism_spell_1414_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "spiritualism_spell_1414_cast_sound",
+    "impact_sound": "spiritualism_spell_1414_impact_sound"
+  },
+  "requirements": {
+    "level": 5
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "spiritualism_spell_1414",
+  "name": "Spiritualism Spell 1414",
+  "description": "A powerful strike infused with spiritualism_spell_1414ual energy",
+  "icon": "spiritualism_spell_1414ualism_spell_1414_icon",
+  "spell_type": "damage",
+  "damage_type": "spiritualism_spell_1414",
+  "base_damage": 120,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "spiritualism_spell_1414",
+    "scaling": {
+      "spirit": 0.8,
+      "intellect": 0.4
+    }
+  },
+  "template_type": "spell"
+}

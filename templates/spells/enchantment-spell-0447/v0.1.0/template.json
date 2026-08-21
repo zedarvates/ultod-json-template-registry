@@ -1,0 +1,78 @@
+{
+  "id": "enchantment_spell_0447",
+  "name": "Enchantment Spell 0447",
+  "description": "Endort instantanément une ou plusieurs cibles, les rendant inconscientes et vulnérables",
+  "icon": "enchantment_spell_0447_icon",
+  "school": "enchantment",
+  "rarity": "uncommon",
+  "spell_type": "psychic_induction_slumber",
+  "target_type": "single_enemy",
+  "range": 25.0,
+  "cast_time": 1200,
+  "cooldown": 18000,
+  "mana_cost": 55,
+  "damage": {
+    "base_damage": 80,
+    "damage_type": "psychic_knocked_out_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "instant_mental_fatigue",
+      "value": 150,
+      "duration": 20000,
+      "tick_rate": 0,
+      "sleep_resistance_bypass": 0.6,
+      "wake_up_damage_threshold": 50,
+      "sleep_damage_amplification": 0.5,
+      "dream_vision_distraction": true,
+      "sleeping_vulnerability_multiplier": 2.0,
+      "group_sleep_spread_chance": 0.2
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "lulling_energy_swirling_sandman_dust",
+    "sleep_effect": "eyes_closing_bodyslumping_falling_aenchantment_spell_0447",
+    "damage_effect": "enchantment_spell_0447ing_target_flinching_damage_dreams",
+    "wake_effect": "eyes_snapping_open_groggy_disoriented"
+  },
+  "sound_effects": {
+    "cast_sound": "lulling_hum_lullaby_whisper_seductive",
+    "sleep_effect": "body_falling_aenchantment_spell_0447_thud_soft_snores",
+    "damage_effect": "enchantment_spell_0447ing_pain_groan_disturbed_dream",
+    "wake_effect": "groggy_wake_up_shake_off_confusion"
+  },
+  "requirements": {
+    "level": 16,
+    "skills": [
+      "arcane_magic",
+      "mental_induction"
+    ],
+    "classes": [
+      "enchanter",
+      "dream_weaver"
+    ],
+    "specializations": [
+      "enchantment_spell_0447_inducer"
+    ]
+  },
+  "upgrades": {
+    "deep_sleep_induction": {
+      "unlock_level": 26,
+      "description": "Le sommeil devient profond et difficile à briser, amplifiant les dégâts et la durée",
+      "sleep_duration_extension": 15000,
+      "damage_threshold_tripling": true,
+      "deep_sleep_damage_bonus": 100,
+      "nightmare_proc_chance": 0.3
+    },
+    "mass_sleep_induction": {
+      "unlock_level": 36,
+      "description": "Peut endormir plusieurs ennemis simultanément avec un effet de contagion",
+      "max_targets_affected": 6,
+      "sleep_spread_radius": 8.0,
+      "contagious_sleep_effect": true,
+      "dream_manipulation_ability": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

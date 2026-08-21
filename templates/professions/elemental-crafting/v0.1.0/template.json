@@ -1,0 +1,127 @@
+{
+  "profession": "elemental_crafting",
+  "display_name": "Forge Élémentaire",
+  "description": "Maîtrise des éléments pour créer des objets imprégnés de puissances naturelles",
+  "icon_path": "icons/professions/elemental_crafting.png",
+  "category": "advanced_crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "flameblade",
+      "name": "Lame de Feu",
+      "description": "Épée imprégnée du pouvoir destructeur des flammes",
+      "profession": "elemental_crafting",
+      "difficulty": 65,
+      "base_success_rate": 0.55,
+      "skill_required": 55,
+      "experience_gain": 65,
+      "exceptional_chance": 0.12,
+      "time_required_seconds": 240,
+      "components": [
+        {
+          "item_type": "masterwork_blade",
+          "quantity": 1,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "fire_essence",
+          "quantity": 8,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "volcanic_stone",
+          "quantity": 3,
+          "quality_required": "standard",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "binding_rune",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "uncommon"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "flameblade",
+          "name": "Lame de Feu",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.4,
+          "durability_modifier": 1.8
+        }
+      ],
+      "conditions": {
+        "profession_level": 45,
+        "required_tools": [
+          "elemental_forge",
+          "essence_binder",
+          "rune_carver"
+        ],
+        "environmental_factors": [
+          "volcanic_heat"
+        ]
+      }
+    },
+    {
+      "id": "stormbringer_armor",
+      "name": "Armure Porteur de Tempête",
+      "description": "Armure légendaire invoquant la fureur des tempêtes",
+      "profession": "elemental_crafting",
+      "difficulty": 90,
+      "base_success_rate": 0.35,
+      "skill_required": 80,
+      "experience_gain": 90,
+      "exceptional_chance": 0.2,
+      "time_required_seconds": 420,
+      "components": [
+        {
+          "item_type": "legendary_armor_base",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "storm_essence",
+          "quantity": 15,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "lightning_crystal",
+          "quantity": 5,
+          "quality_required": "excellent",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "wind_spirit",
+          "quantity": 3,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "stormbringer_armor",
+          "name": "Armure Porteur de Tempête",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 2.0,
+          "durability_modifier": 2.5
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "fire_crafting",
+    "ice_crafting",
+    "storm_crafting",
+    "earth_crafting"
+  ],
+  "id": "elemental_crafting",
+  "name": "Elemental Crafting",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

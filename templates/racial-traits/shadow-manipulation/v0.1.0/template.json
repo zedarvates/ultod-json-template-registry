@@ -1,0 +1,69 @@
+{
+  "id": "shadow_manipulation",
+  "name": "Manipulation des Ombres",
+  "description": "Maîtrise des ombres pour se cacher, attaquer et contrôler l'obscurité",
+  "icon": "shadow_manipulation_icon",
+  "category": "shadow",
+  "rarity": "epic",
+  "stat_modifiers": {
+    "stealth": 0.5,
+    "shadow_damage": 0.3,
+    "night_bonus": 0.4
+  },
+  "passive_effects": [
+    {
+      "id": "shadow_meld",
+      "name": "Fusion avec l'Ombre",
+      "description": "Devient une avec les ombres, augmentant drastiquement la furtivité",
+      "modifier_type": "shadow_stealth",
+      "value": 90.0
+    },
+    {
+      "id": "darkness_adaptation",
+      "name": "Adaptation à l'Obscurité",
+      "description": "Les compétences sont plus puissantes dans l'obscurité",
+      "modifier_type": "darkness_power_bonus",
+      "value": 50.0
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "shadow_step",
+      "name": "Pas de l'Ombre",
+      "description": "Se téléporte instantanément d'ombre en ombre",
+      "cooldown": 30000,
+      "duration": 0,
+      "effects": {
+        "teleport_range": 30.0,
+        "shadow_only": true
+      }
+    },
+    {
+      "id": "shadow_strike",
+      "name": "Frappe de l'Ombre",
+      "description": "Attaque depuis les ombres avec un bonus de dégâts",
+      "cooldown": 45000,
+      "duration": 0,
+      "effects": {
+        "damage_multiplier": 2.0,
+        "backstab_bonus": 100,
+        "stealth_reset": true
+      }
+    },
+    {
+      "id": "darkness_shroud",
+      "name": "Voile d'Obscurité",
+      "description": "Crée une zone d'obscurité totale autour de soi",
+      "cooldown": 90000,
+      "duration": 30000,
+      "effects": {
+        "darkness_radius": 15.0,
+        "enemy_blind": true,
+        "ally_shadow_bonus": 25
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

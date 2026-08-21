@@ -1,0 +1,63 @@
+{
+  "id": "protection_spell_1221",
+  "name": "Protection Spell 1221",
+  "description": "Protège un allié avec l'honneur du samouraï, absorbant des dégâts",
+  "icon": "protection_spell_1221_icon",
+  "school": "protection",
+  "rarity": "uncommon",
+  "spell_type": "buff",
+  "target_type": "ally",
+  "range": 10.0,
+  "cast_time": 2000,
+  "cooldown": 45000,
+  "mana_cost": 30,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "damage_absorption_buff",
+      "value": 200,
+      "duration": 20000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "reduced_damage_taken",
+      "value": 20,
+      "duration": 20000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "protection_spell_1221_shield",
+    "projectile_effect": "none",
+    "impact_effect": "guardian_aura",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "protection_spell_1221_vow",
+    "impact_sound": "shield_activate"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "sacred_oath": {
+      "unlock_level": 25,
+      "description": "Augmente l'absorption de dégâts de 50%",
+      "absorption_bonus": 100
+    },
+    "unyielding_guard": {
+      "unlock_level": 40,
+      "description": "Réduit les dégâts subis de 10% supplémentaires",
+      "damage_reduction": 10
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

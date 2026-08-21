@@ -1,0 +1,60 @@
+{
+  "id": "rogue_spell_1202",
+  "name": "Rogue Spell 1202",
+  "description": "Lance plusieurs couteaux infligeant des dégâts à tous les ennemis proches",
+  "icon": "rogue_spell_1202_icon",
+  "school": "rogue",
+  "rarity": "uncommon",
+  "spell_type": "aoe_attack",
+  "target_type": "area",
+  "range": 10.0,
+  "cast_time": 0,
+  "cooldown": 20000,
+  "energy_cost": 35,
+  "damage": {
+    "base_damage": 18,
+    "damage_type": "physical"
+  },
+  "effects": [
+    {
+      "effect_type": "aoe_damage",
+      "value": 18,
+      "duration": 0,
+      "tick_rate": 0,
+      "radius": 8.0,
+      "max_targets": 5,
+      "damage_per_target": 22,
+      "bleed_per_target": 8,
+      "bleed_duration": 6000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "blade_spin",
+    "attack_effect": "fan_blades",
+    "impact_effect": "multiple_bleeds"
+  },
+  "sound_effects": {
+    "cast_sound": "blade_spin_sound",
+    "attack_sound": "whirling_attack",
+    "impact_sound": "group_damage"
+  },
+  "requirements": {
+    "level": 13,
+    "skills": [
+      "throwing_weapons"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_fan_of_knives": {
+      "unlock_level": 23,
+      "description": "Augmente le rayon et les dégâts",
+      "radius_bonus": 3.0,
+      "damage_multiplier": 1.3
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

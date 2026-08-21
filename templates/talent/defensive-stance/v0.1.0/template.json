@@ -1,0 +1,15 @@
+{
+  "id": "defensive_stance",
+  "name": "Posture Défensive",
+  "description": "Réduit les dégâts subis en Posture Défensive",
+  "max_rank": 3,
+  "prerequisites": [],
+  "effects_per_rank": [
+    {
+      "type": "damage_taken_reduction",
+      "value": 0.05
+    }
+  ],
+  "template_type": "talent",
+  "version": "0.1.0"
+}

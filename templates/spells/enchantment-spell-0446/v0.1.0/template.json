@@ -1,0 +1,78 @@
+{
+  "id": "enchantment_spell_0446",
+  "name": "Enchantment Spell 0446",
+  "description": "Créé un bouclier d'énergie magique qui absorbe les dégâts physiques et magiques",
+  "icon": "enchantment_spell_0446_icon",
+  "school": "enchantment",
+  "rarity": "common",
+  "spell_type": "magical_defense_shield",
+  "target_type": "single_ally",
+  "range": 25.0,
+  "cast_time": 1200,
+  "cooldown": 4000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "energy_barrier_absorption"
+  },
+  "effects": [
+    {
+      "effect_type": "arcane_energy_barrier",
+      "value": 200,
+      "duration": 25000,
+      "tick_rate": 0,
+      "damage_absorption_capacity": 200,
+      "physical_damage_reduction": 0.25,
+      "magical_damage_reduction": 0.3,
+      "shield_recharge_rate": 20,
+      "barrier_visual_intensity": 3,
+      "overload_explosion_damage": 100
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "energy_barrier_forming_around_target",
+    "absorb_effect": "shield_flashing_on_damage_impact",
+    "recharge_effect": "energy_flowing_back_into_barrier",
+    "overload_effect": "barrier_overloaded_bright_explosion"
+  },
+  "sound_effects": {
+    "cast_sound": "energy_barrier_crystallizing_protection",
+    "absorb_sound": "shield_impact_energy_absorbing_thud",
+    "recharge_sound": "energy_restoration_flowing_hum",
+    "overload_sound": "barrier_failure_explosive_energy_release"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [
+      "arcane_magic",
+      "energy_manipulation"
+    ],
+    "classes": [
+      "enchanter",
+      "protector_mage"
+    ],
+    "specializations": [
+      "shield_specialist"
+    ]
+  },
+  "upgrades": {
+    "fortified_shielding": {
+      "unlock_level": 16,
+      "description": "Le bouclier est considérablement renforcé et dure plus longtemps",
+      "absorption_capacity_bonus": 150,
+      "shield_thickness_multiplier": 1.5,
+      "barrier_lifetime_extension": 10000,
+      "damage_reflection_chance": 0.2
+    },
+    "perfect_shielding": {
+      "unlock_level": 26,
+      "description": "Le bouclier devient presque parfait, protégeant contre tous les dégâts",
+      "total_damage_immunity_chance": 0.3,
+      "infinite_recharge_while_active": true,
+      "barrier_self_repair": true,
+      "overload_prevention": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

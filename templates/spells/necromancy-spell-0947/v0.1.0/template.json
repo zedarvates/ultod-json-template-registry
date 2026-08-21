@@ -1,0 +1,72 @@
+{
+  "id": "necromancy_spell_0947",
+  "name": "Necromancy Spell 0947",
+  "description": "Maudit une cible avec une affliction nécrotique qui cause des douleurs atroces et des dégâts croissants au fil du temps",
+  "icon": "necromancy_spell_0947_icon",
+  "school": "necromancy",
+  "rarity": "epic",
+  "spell_type": " increasing_pain_necromancy_spell_0947",
+  "target_type": "enemy_necromancy_spell_0947",
+  "range": 40.0,
+  "cast_time": 3000,
+  "cooldown": 60000,
+  "mana_cost": 120,
+  "damage": {
+    "base_damage": 50,
+    "damage_type": "necrotic_agony_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "necrotic_pain_amplification",
+      "value": 300,
+      "duration": 60000,
+      "tick_rate": 1000,
+      "damage_per_tick_starting": 30,
+      "damage_increase_per_tick": 5,
+      "maximum_damage_per_tick": 150,
+      "curse_strain_stacking": true,
+      "pain_disruption_chance": 25,
+      "necrotic_wound_persistence": 0.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necrotic_necromancy_spell_0947_energy_writhing_dark_tentacles_soul_bonds_formation",
+    "curse_effect": "target_body_writhing_agony_black_energy_writhing_integral_infusion",
+    "amplification_effect": "pain_escalating_visually_damage_increasing_necromancy_spell_0947_intensity_growing",
+    "ending_effect": "necromancy_spell_0947_dissipating_body_quivering_recovering_agony_echoes_final_cry"
+  },
+  "sound_effects": {
+    "cast_effect": "necrotic_necromancy_spell_0947_invoking_dark_whispers_pain_omen_dreadful_chanting",
+    "curse_effect": "body_writhing_agony_cries_painful_screams_desperate_pleas",
+    "amplification_effect": "pain_escalating_damage_growing_necromancy_spell_0947_hissing_pain_crescendo",
+    "ending_effect": "necromancy_spell_0947_removal_quivering_sobs_recovering_weakened_final_sigh_lasted"
+  },
+  "requirements": {
+    "level": 44,
+    "skills": [
+      "necromancy",
+      "necromancy_spell_0947_weaving",
+      "pain_manipulation"
+    ],
+    "classes": [
+      "necromancer",
+      "necromancy_spell_0947_master",
+      "suffering_lord"
+    ],
+    "specializations": [
+      "agonizing_executioner"
+    ]
+  },
+  "upgrades": {
+    "greater_curse_of_agony": {
+      "unlock_level": 59,
+      "description": "La Necromancy Spell 0947 devient plus douloureuse avec une escalade accrue et des effets secondaires",
+      "damage_escalation_multiplier": 2.5,
+      "maximum_damage_limit_increase": 300,
+      "pain_disruption_probability": 50,
+      "curse_jump_to_nearby_victims": 3
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

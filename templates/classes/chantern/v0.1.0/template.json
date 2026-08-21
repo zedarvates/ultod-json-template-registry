@@ -1,0 +1,64 @@
+{
+  "id": "chantern",
+  "name": "Chanter",
+  "description": "Tisse des hymnes de soutien et de guérison",
+  "color": "FFFFFF",
+  "primary_resource": "harmonic",
+  "base_stats": {
+    "strength": 0.7,
+    "agility": 0.9,
+    "intelligence": 1.2,
+    "vitality": 0.9,
+    "wisdom": 1.4,
+    "charisma": 1.5
+  },
+  "available_classes": [
+    "chantern"
+  ],
+  "starting_skills": [
+    {
+      "id": 14001,
+      "name": "Hymne de Guérison",
+      "description": "Un chant qui restaure la santé des alliés",
+      "cooldown": 0,
+      "mana_cost": 40,
+      "range": 25.0,
+      "cast_time": 2500,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 14002,
+      "name": "Mélodie Apaisante",
+      "description": "Réduit les dégâts subis par les alliés",
+      "cooldown": 15000,
+      "mana_cost": 60,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 0,
+        "talents": [
+          {
+            "id": 14001,
+            "name": "Harmonie Parfaite",
+            "description": "+10% efficacité des hymnes",
+            "max_rank": 5,
+            "icon_path": "harmony"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100,
+  "health_modifier": 0.8,
+  "damage_modifier": 0.7,
+  "armor_modifier": 0.7,
+  "template_type": "class",
+  "version": "0.1.0"
+}

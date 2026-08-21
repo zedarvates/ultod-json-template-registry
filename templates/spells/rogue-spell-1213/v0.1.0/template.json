@@ -1,0 +1,61 @@
+{
+  "id": "rogue_spell_1213",
+  "name": "Rogue Spell 1213",
+  "description": "Vous devenez invisible aux yeux de vos ennemis",
+  "icon": "rogue_spell_1213_icon",
+  "school": "rogue",
+  "rarity": "common",
+  "spell_type": "rogue_spell_1213_buff",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 0,
+  "cooldown": 10000,
+  "energy_cost": 15,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "rogue_spell_1213_buff",
+      "value": 1,
+      "duration": 60000,
+      "tick_rate": 0,
+      "stealth_level": 1,
+      "movement_speed_bonus": 20,
+      "detection_reduction": 50
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fade_out",
+    "buff_effect": "invisible_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "cloak_rustle",
+    "buff_sound": "silent_movement"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "rogue_spell_1213"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_stealth": {
+      "unlock_level": 10,
+      "description": "Augmente la durée et réduit la détection",
+      "duration_bonus": 20000,
+      "detection_reduction": 70
+    },
+    "master_of_shadow": {
+      "unlock_level": 25,
+      "description": "Vous restez en Rogue Spell 1213 après la plupart des attaques",
+      "stealth_retention": 0.8
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

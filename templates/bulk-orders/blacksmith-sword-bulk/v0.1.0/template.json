@@ -1,0 +1,39 @@
+{
+  "id": "blacksmith_sword_bulk",
+  "name": "Commande d'Épées Standard",
+  "profession": "blacksmithing",
+  "description": "Création en gros d'épées de fer pour l'intendance royale",
+  "difficulty": "normal",
+  "time_limit_hours": 48,
+  "material_cost_multiplier": 1.4,
+  "experience_bonus_multiplier": 1.25,
+  "item_requirements": [
+    {
+      "item_type": "iron_sword",
+      "quantity": 20,
+      "quality_requirement": "standard",
+      "special_properties": [
+        "durability_bonus",
+        "sharp_edge"
+      ]
+    },
+    {
+      "item_type": "iron_helmet",
+      "quantity": 10,
+      "quality_requirement": "standard",
+      "special_properties": []
+    }
+  ],
+  "rewards": {
+    "gold_reward": 2500,
+    "experience_reward": 500,
+    "item_rewards": [
+      "enchanted_smithing_hammer",
+      "legendary_ore_vein_map"
+    ],
+    "title_unlock": "Royal Smith",
+    "reputation_gain": 100
+  },
+  "template_type": "bulk_order",
+  "version": "0.1.0"
+}

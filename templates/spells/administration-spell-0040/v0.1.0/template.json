@@ -1,0 +1,55 @@
+{
+  "id": "administration_spell_0040",
+  "name": "Administration Spell 0040",
+  "description": "[ADMIN ONLY] Create any item from the game database and place it in your inventory or at target location",
+  "icon": "admin_administration_spell_0040_icon",
+  "school": "administration",
+  "rarity": "epic",
+  "spell_type": "world_editing",
+  "target_type": "self_or_location",
+  "range": 50.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "creative_administration"
+  },
+  "effects": [
+    {
+      "effect_type": "item_creation_from_database",
+      "value": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "item_creation_limit": "unlimited_quantity",
+      "item_rarity_restriction": "none_all_available",
+      "spawn_quality_control": "perfect_condition",
+      "creation_cost_override": "zero_base_cost",
+      "inventory_space_bypass": true,
+      "trade_restrictions_bypass": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "creation_sparkle_energy_burst",
+    "item_effect": "item_materialization_golden_glow",
+    "success_effect": "confirmation_energy_radiance",
+    "special_effect": "admin_power_signature_marking"
+  },
+  "sound_effects": {
+    "cast_effect": "creative_energy_concentration_whir",
+    "item_effect": "materialization_crystal_chime_creation",
+    "success_effect": "successful_creation_harmonic_chord",
+    "special_effect": "admin_authority_unmistakable_echo"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "gamemaster",
+      "overseer",
+      "celestial_avatar"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

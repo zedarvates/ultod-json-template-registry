@@ -1,0 +1,102 @@
+{
+  "id": "giant_creature_0196",
+  "name": "Giant Creature 0196",
+  "description": "Une créature humanoïde de 9 pieds de haut, avec une peau verdâtre ridée et des verrues partout. Ses longs bras garent每 un claquement et ses doigts longs et griffus sont tachés de sang. Ses yeux luisent d'une faim insatiable et sa bouche enorme révélation des dents acérées. Le plus terrifiant est sa capacité de régénération qui guérit même les blessures les plus graves.",
+  "icon": "giant_creature_0196_icon",
+  "category": "giant",
+  "rarity": "uncommon",
+  "base_stats": {
+    "health": 84,
+    "mana": 26,
+    "strength": 18,
+    "dexterity": 13,
+    "intelligence": 7,
+    "wisdom": 9,
+    "constitution": 20,
+    "charisma": 7
+  },
+  "properties": {
+    "size": "large",
+    "size_modifiers": {
+      "health_multiplier": 2.0,
+      "damage_multiplier": 1.5,
+      "speed_modifier": -1,
+      "space_requirement": 10,
+      "strength_bonus": 4,
+      "constitution_bonus": 2
+    },
+    "speed": 30,
+    "alignment": "chaotic evil",
+    "languages": [
+      "giant"
+    ],
+    "challenge_rating": "5",
+    "experience_value": 1800
+  },
+  "properties_giant": {
+    "giant_type": "giant_creature_0196",
+    "regeneration": {
+      "rate": "10 hp per round",
+      "condition": "cannot be stopped by acid or fire"
+    },
+    "rake_attacks": true,
+    "hungry_pursuer": true,
+    "pack_tactics": false
+  },
+  "abilities": [
+    "regeneration",
+    "multiattack",
+    "rake_attacks",
+    "bite_attack",
+    "claw_slash",
+    "charge",
+    "opportunity_strike"
+  ],
+  "resistances": {
+    "physical": 30,
+    "poison": 50
+  },
+  "weaknesses": [
+    "acid_damage",
+    "fire_damage",
+    "radiant_damage"
+  ],
+  "immunities": [],
+  "senses": {
+    "darkvision": 60,
+    "scent": true
+  },
+  "loot_table": {
+    "common_drops": [
+      "giant_creature_0196_hide",
+      "large_meat",
+      "claw_nail"
+    ],
+    "rare_drops": [
+      "regeneration_potion",
+      "giant_creature_0196_blood"
+    ],
+    "epic_drops": [
+      "giant_creature_0196_regeneration_core"
+    ],
+    "legendary_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "aggressive",
+    "intelligence_level": "smart",
+    "tactical_awareness": "basic",
+    "attack_pattern": "brutal_combat",
+    "defensive_patterns": [
+      "regeneration_advantage",
+      "feral_rage"
+    ],
+    "special_behaviors": [
+      "regenerates_continuous_damage",
+      "pursues_fleeing_targets_viciously",
+      "uses_claws_and_teeth_effectively",
+      "becomes_more_aggressive_when_hungry"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

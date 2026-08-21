@@ -1,0 +1,70 @@
+{
+  "id": "enchantment_spell_0440",
+  "name": "Enchantment Spell 0440",
+  "description": "Créé des doubles illusoires pour confondre les ennemis et fournir une protection supplémentaire",
+  "icon": "enchantment_spell_0440_icon",
+  "school": "enchantment",
+  "rarity": "uncommon",
+  "spell_type": "deceptive_projection",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1000,
+  "cooldown": 8000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "illusive_damage_projection"
+  },
+  "effects": [
+    {
+      "effect_type": "phantom_image_generation",
+      "value": 120,
+      "duration": 30000,
+      "tick_rate": 0,
+      "duplicate_count": 3,
+      "confusion_radius": 15.0,
+      "illusion_detection_penalty": 0.3,
+      "taunt_redirection_chance": 0.6,
+      "phantom_attack_dummies": true,
+      "reality_shifting_daze": 0.2
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "self_duplicating_mirror_images",
+    "illusion_effect": "multiple_copies_moving_confusingly",
+    "confusion_effect": "enemy_attacks_hitting_wrong_target",
+    "expire_effect": "enchantment_spell_0440s_fading_into_smoke"
+  },
+  "sound_effects": {
+    "cast_sound": "mirror_breaking_shattering_enchantment_spell_0440_birth",
+    "illusion_sound": "multiple_footsteps_confusing_paths",
+    "confusion_effect": "enemy_frustration_miss_target_growl",
+    "expire_sound": "enchantment_spell_0440_popping_smoke_dissipating"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "arcane_magic",
+      "enchantment_spell_0440_weaving"
+    ],
+    "classes": [
+      "enchanter",
+      "deceptive_mage"
+    ],
+    "specializations": [
+      "enchantment_spell_0440ist"
+    ]
+  },
+  "upgrades": {
+    "mass_illusion": {
+      "unlock_level": 18,
+      "description": "Créé beaucoup plus d'enchantment_spell_0440s et rend la confusion totale",
+      "duplicate_count_bonus": 4,
+      "attack_redirection_guarantee": true,
+      "army_of_phantoms": true,
+      "confusion_aura_radius": 25.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

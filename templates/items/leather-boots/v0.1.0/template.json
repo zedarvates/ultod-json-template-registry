@@ -1,16 +1,30 @@
 {
   "id": "leather_boots",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Leather Boots",
-  "description": "A portable armor component for public template workflows.",
+  "name": "Bottes de Cuir",
+  "description": "Bottes souples de recrue.",
+  "icon": "leather_boots",
   "category": "armor",
   "rarity": "common",
-  "stack_limit": 10,
-  "weight_kg": 1.2,
-  "tags": [
-    "adapted",
-    "armor"
-  ],
-  "dependencies": []
+  "item_type": "armor",
+  "sub_type": "feet",
+  "base_stats": {
+    "durability": 60,
+    "max_durability": 60,
+    "weight": 1.2,
+    "value": 35
+  },
+  "armor_properties": {
+    "armor_value": 4,
+    "slot": "feet"
+  },
+  "properties": {
+    "stackable": false,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 1
+  },
+  "template_type": "item",
+  "version": "0.1.0"
 }

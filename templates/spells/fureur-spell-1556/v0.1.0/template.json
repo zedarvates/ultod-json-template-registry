@@ -1,0 +1,81 @@
+{
+  "id": "fureur_spell_1556",
+  "name": "Fureur Spell 1556",
+  "description": "Le guerrier entre dans une rage berserker, augmentant ses dégâts et sa vitesse d'attaque",
+  "icon": "fureur_spell_1556_icon",
+  "school": "fureur",
+  "rarity": "rare",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 30000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.0,
+      "rage": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage_buff",
+      "value": 0.5,
+      "duration": 15000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "attack_speed_buff",
+      "value": 0.3,
+      "duration": 15000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "rage_generation_buff",
+      "value": 0.5,
+      "duration": 15000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "berserker_rage",
+    "projectile_effect": "none",
+    "impact_effect": "rage_aura",
+    "trail_effect": "flaming_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "berserker_roar",
+    "impact_sound": "none"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "fury"
+    ]
+  },
+  "upgrades": {
+    "improved_rampage": {
+      "unlock_level": 28,
+      "description": "Augmente les bonus de dégâts et de vitesse d'attaque de Fureur Spell 1556 de 25%",
+      "damage_buff_bonus": 0.25,
+      "attack_speed_bonus": 0.1
+    },
+    "rampage_mastery": {
+      "unlock_level": 38,
+      "description": "Fureur Spell 1556 dure plus longtemps et réduit les dégâts reçus",
+      "duration_extension": 5000,
+      "damage_reduction": 0.1
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "physical_spell_0968",
+  "name": "Physical Spell 0968",
+  "description": "Étrangle silencieusement l'ennemi, infligeant des dégâts au fil du temps et le réduisant au silence",
+  "icon": "physical_spell_0968_icon",
+  "school": "physical",
+  "rarity": "rare",
+  "spell_type": "damage",
+  "target_type": "single_enemy",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 25000,
+  "mana_cost": 40,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "damage_over_time",
+      "value": 30,
+      "duration": 10000,
+      "tick_rate": 2000,
+      "damage_type": "physical"
+    },
+    {
+      "effect_type": "silence",
+      "value": 100,
+      "duration": 10000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "wire_glow",
+    "projectile_effect": null,
+    "hit_effect": "strangle_effect"
+  },
+  "sound_effects": {
+    "cast_sound": "wire_tension",
+    "projectile_sound": null,
+    "hit_sound": "choke_gurgle"
+  },
+  "requirements": {
+    "level": 14,
+    "skills": [
+      "strangulation"
+    ],
+    "classes": [
+      "ninja",
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_garrote": {
+      "unlock_level": 24,
+      "description": "Augmente les dégâts et la durée du Physical Spell 0968",
+      "damage_bonus": 15,
+      "duration_bonus": 3000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

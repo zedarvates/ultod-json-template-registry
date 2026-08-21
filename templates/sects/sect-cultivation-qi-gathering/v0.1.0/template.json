@@ -1,0 +1,62 @@
+{
+  "id": "sect_cultivation_qi_gathering",
+  "name": "Rassemblement de Qi",
+  "description": "Concentre l'énergie spirituelle ambiante dans la zone",
+  "icon": "qi_gathering_icon",
+  "school": "nature",
+  "type": "buff",
+  "damage_type": null,
+  "mana_cost": 300,
+  "range": 0,
+  "cast_time": 12000,
+  "cooldown": 1800000,
+  "aoe": {
+    "enabled": true,
+    "radius": 80,
+    "damage_reduction": 1.0,
+    "max_targets": 50
+  },
+  "effects": [
+    {
+      "type": "buff",
+      "name": "Rassemblement de Qi",
+      "description": "Concentration accrue d'énergie spirituelle naturelle",
+      "duration": 3600000,
+      "value": 0.4,
+      "stackable": false,
+      "dispellable": true
+    },
+    {
+      "type": "stat_modifier",
+      "name": "Flux Énergétique",
+      "description": "Régénération naturelle de mana et énergie",
+      "duration": 3600000,
+      "value": 0.6,
+      "stackable": false,
+      "dispellable": true
+    },
+    {
+      "type": "aura",
+      "name": "Nexus Spirituel",
+      "description": "Point focal d'énergie pour les arts mystiques",
+      "duration": 3600000,
+      "value": 0.3,
+      "stackable": false,
+      "dispellable": false
+    }
+  ],
+  "requirements": {
+    "level": 4,
+    "class": [
+      "guild_member"
+    ],
+    "talent_points": 0
+  },
+  "visual": {
+    "cast_animation": "qi_gathering_cast",
+    "impact_effect": "energy_vortex"
+  },
+  "enabled": true,
+  "template_type": "sect",
+  "version": "0.1.0"
+}

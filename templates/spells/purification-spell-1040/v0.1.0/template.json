@@ -1,0 +1,77 @@
+{
+  "id": "purification_spell_1040",
+  "name": "Purification Spell 1040",
+  "description": "Purified version of Judgment - unleashes purification_spell_1040 energy that purges corruption and heals nearby allies",
+  "icon": "paladin_purification_spell_1040_icon",
+  "school": "purification",
+  "rarity": "rare",
+  "spell_type": "area_spell",
+  "target_type": "enemy",
+  "range": 12.0,
+  "cast_time": 2000,
+  "cooldown": 18000,
+  "mana_cost": 220,
+  "damage": {
+    "base_damage": 65,
+    "damage_type": "holy",
+    "area_properties": {
+      "radius": 6.0,
+      "corruption_damage_multiplier": 2.2,
+      "healing_to_allies": 45,
+      "ally_buff_duration": 10000
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "purification_spell_1040_purification",
+      "value": 65,
+      "duration": 12000,
+      "tick_rate": 0,
+      "area_radius": 6.0,
+      "corruption_purge_amount": 0.5,
+      "ally_healing": 45,
+      "holy_damage_buff": 0.25,
+      "corruption_resistance_buff": 0.3,
+      "positive_karma_boost": true,
+      "aura_expansion": 2.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "purification_spell_1040_energy_burst",
+    "judgment_effect": "golden_light_wave",
+    "impact_effect": "corruption_shattering"
+  },
+  "sound_effects": {
+    "cast_sound": "purification_spell_1040_chorus",
+    "judgment_sound": "holy_judgment",
+    "impact_sound": "corruption_banish_purification_spell_1040"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "purification_magic",
+      "purification_spell_1040_magic"
+    ],
+    "classes": [
+      "paladin"
+    ],
+    "karma_positive_threshold": 500
+  },
+  "upgrades": {
+    "celestial_judgment": {
+      "unlock_level": 12,
+      "description": "Increases healing and grants purification_spell_1040 shield to allies",
+      "healing_increase": 30,
+      "ally_shield_protection": 50,
+      "shield_duration": 8000
+    },
+    "mass_purification": {
+      "unlock_level": 18,
+      "description": "Judgment affects all corrupted beings in a larger area",
+      "area_radius_increase": 4.0,
+      "corruption_healing_reduction": 0.4
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

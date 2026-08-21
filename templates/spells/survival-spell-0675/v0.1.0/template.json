@@ -1,0 +1,78 @@
+{
+  "id": "survival_spell_0675",
+  "name": "Survival Spell 0675",
+  "description": "survival_spell_0675ule les capacités de concentration du chasseur, réduisant le temps de visée et de lancer",
+  "icon": "survival_spell_0675_icon",
+  "school": "survival",
+  "rarity": "uncommon",
+  "spell_type": "focus_acceleration_buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 20000,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "focus_enhancement_buff"
+  },
+  "effects": [
+    {
+      "effect_type": "concentration_acceleration_burst",
+      "value": 180,
+      "duration": 10000,
+      "tick_rate": 0,
+      "cast_time_reduction_percent": 75,
+      "focus_time_acceleration": 2.5,
+      "cooldown_reduction_buff": 0.5,
+      "precision_bonus_percent": 25,
+      "energy_stim_overload": 0.1,
+      "mental_clarity_boost": 30
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "brain_energy_survival_spell_0675ulating_focus_lightning",
+    "stim_effect": "concentration_circles_eye_glow_bright",
+    "active_effect": "rapid_thinking_motion_blur_brain",
+    "expire_effect": "survival_spell_0675ulus_fade_normal_focus_return"
+  },
+  "sound_effects": {
+    "cast_effect": "survival_spell_0675ulus_injection_focus_surge_hum",
+    "stim_effect": "thinking_accelerated_high_pitch_whir",
+    "active_effect": "rapid_pulse_heart_brain_working_fast",
+    "expire_effect": "survival_spell_0675ulus_fade_return_to_normal_tired"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "survival",
+      "concentration_training"
+    ],
+    "classes": [
+      "hunter",
+      "focus_master"
+    ],
+    "specializations": [
+      "survival_spell_0675_expert"
+    ]
+  },
+  "upgrades": {
+    "greater_aim_stim": {
+      "unlock_level": 28,
+      "description": "La Survival Spell 0675 devient plus grande avec des réductions accrues et une précision parfaite",
+      "cast_time_elimination": 90,
+      "cooldown_global_reduction": 0.25,
+      "perfect_accuracy_guarantee": true,
+      "stim_duration_extension": 15000
+    },
+    "legendary_aim_stim": {
+      "unlock_level": 38,
+      "description": "La Survival Spell 0675 atteint la légende avec une omniscience temporaire et des reflexes parfaite",
+      "time_dilation_hunter_only": 0.5,
+      "enemy_prediction_foresight": true,
+      "instant_cast_all_abilities": true,
+      "legendary_hunter_instinct": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

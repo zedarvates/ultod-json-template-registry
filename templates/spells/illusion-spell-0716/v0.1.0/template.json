@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0716",
+  "name": "Illusion Spell 0716",
+  "description": "Créé une illusion durable qui reste en place indéfiniment jusqu'à dissipation ou destruction",
+  "icon": "illusion_spell_0716_icon",
+  "school": "illusion",
+  "rarity": "legendary",
+  "spell_type": "lasting_environmental_illusion",
+  "target_type": "place_at_location_anchor",
+  "range": 30.0,
+  "cast_time": 5000,
+  "cooldown": 120000,
+  "mana_cost": 200,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "anchored_deception_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "indefinite_environmental_deception",
+      "value": 500,
+      "duration": "illusion_spell_0716",
+      "tick_rate": 0,
+      "illusion_anchor_location": true,
+      "environmental_integration_perfect": true,
+      "sensory_persuasion_maximum": 99,
+      "destruction_required_dispel": true,
+      "illusion_morphing_capability": 5,
+      "reality_bending_anchor": 0.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "reality_weaving_anchor_forming_crystalline",
+    "illusion_effect": "perfectly_integrated_environmental_deception",
+    "interaction_effect": "interactive_illusion_responses_believable",
+    "dispel_effect": "anchor_breaking_reality_snapping_reveal"
+  },
+  "sound_effects": {
+    "cast_effect": "reality_weaving_anchor_crystal_formation_deep",
+    "illusion_effect": "perfect_environmental_audio_integration",
+    "interaction_effect": "responsive_reactions_natural_environmental",
+    "dispel_effect": "anchor_shattering_reality_snapping_crack"
+  },
+  "requirements": {
+    "level": 60,
+    "skills": [
+      "illusion_magic",
+      "reality_anchoring"
+    ],
+    "classes": [
+      "illusionist",
+      "reality_sculptor"
+    ],
+    "specializations": [
+      "world_weaver"
+    ]
+  },
+  "upgrades": {
+    "greater_permanent_illusion": {
+      "unlock_level": 70,
+      "description": "L'Illusion Spell 0716 devient plus grande avec des ancrages multiples et des modifications environnementales majeures",
+      "multiple_anchor_points": 10,
+      "environmental_terrain_changing": true,
+      "illusion_population_capable": true,
+      "reality_layer_addition": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

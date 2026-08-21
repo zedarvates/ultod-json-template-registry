@@ -1,0 +1,58 @@
+{
+  "id": "energy_spell_0962",
+  "name": "Energy Spell 0962",
+  "description": "Se téléporte instantanément derrière un ennemi pour une attaque surprise",
+  "icon": "energy_spell_0962_icon",
+  "school": "energy",
+  "rarity": "epic",
+  "spell_type": "utility",
+  "target_type": "single_enemy",
+  "range": 10.0,
+  "cast_time": 0,
+  "cooldown": 18000,
+  "mana_cost": 45,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "teleport_behind",
+      "value": 0,
+      "duration": 0,
+      "tick_rate": 0,
+      "bonus_damage_on_arrival": 50,
+      "damage_type": "physical",
+      "scaling": {
+        "agility": 1.8
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "energy_spell_0962_burst",
+    "projectile_effect": null,
+    "hit_effect": "teleport_flash"
+  },
+  "sound_effects": {
+    "cast_sound": "energy_whirl",
+    "projectile_sound": null,
+    "hit_sound": "whoosh_fast"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "energy_spell_0962_control",
+      "acrobatics"
+    ],
+    "classes": [
+      "ninja"
+    ]
+  },
+  "upgrades": {
+    "ki_blink": {
+      "unlock_level": 35,
+      "description": "Augmente la portée et réduit le cooldown de Energy Spell 0962",
+      "range_bonus": 5,
+      "cooldown_reduction": 3000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

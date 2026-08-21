@@ -1,0 +1,64 @@
+{
+  "id": "samurai",
+  "name": "Samouraï",
+  "description": "Guerrier honorable maîtrisant l'art du katana et du code bushido",
+  "color": "DC143C",
+  "primary_resource": "honor",
+  "base_stats": {
+    "strength": 1.4,
+    "agility": 1.1,
+    "intelligence": 0.8,
+    "vitality": 1.3,
+    "wisdom": 1.0,
+    "charisma": 1.2
+  },
+  "available_classes": [
+    "samurai"
+  ],
+  "starting_skills": [
+    {
+      "id": 28001,
+      "name": "Maîtrise du Katana",
+      "description": "Bonus aux attaques avec le katana et compétences spéciales",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": true
+    },
+    {
+      "id": 28002,
+      "name": "Coupe Rapide",
+      "description": "Attaque rapide avec le katana infligeant des dégâts supplémentaires",
+      "cooldown": 0,
+      "mana_cost": 15,
+      "range": 3.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 0,
+        "talents": [
+          {
+            "id": 28001,
+            "name": "Voie du Bushido",
+            "description": "+25% dégâts avec le katana et +20% résistance physique",
+            "max_rank": 5,
+            "icon_path": "bushido_path"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100,
+  "health_modifier": 1.2,
+  "damage_modifier": 1.2,
+  "armor_modifier": 1.1,
+  "template_type": "class",
+  "version": "0.1.0"
+}

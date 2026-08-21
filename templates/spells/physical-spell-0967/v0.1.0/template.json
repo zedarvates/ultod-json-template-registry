@@ -1,0 +1,67 @@
+{
+  "id": "physical_spell_0967",
+  "name": "Physical Spell 0967",
+  "description": "Lance plusieurs couteaux dans toutes les directions, touchant tous les ennemis dans un rayon de 8 mètres",
+  "icon": "physical_spell_0967_icon",
+  "school": "physical",
+  "rarity": "rare",
+  "spell_type": "damage",
+  "target_type": "area",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 20000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 55,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 1.2,
+      "strength": 0.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage",
+      "value": 55,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_type": "physical",
+      "scaling": {
+        "agility": 1.2,
+        "strength": 0.8
+      },
+      "aoe_radius": 8.0,
+      "max_targets": 5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "physical_spell_0967_spin",
+    "projectile_effect": "multiple_physical_spell_0967",
+    "hit_effect": "blood_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "physical_spell_0967_whirl",
+    "projectile_sound": "metal_whistle",
+    "hit_sound": "multiple_stabs"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "throwing_mastery"
+    ],
+    "classes": [
+      "ninja",
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "deadly_fan": {
+      "unlock_level": 28,
+      "description": "Augmente les dégâts et le nombre de cibles d'Physical Spell 0967",
+      "damage_bonus": 20,
+      "max_targets_bonus": 2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

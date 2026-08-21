@@ -1,0 +1,183 @@
+{
+  "id": "celestial_warden",
+  "name": "Celestial Warden",
+  "description": "A divine protector empowered by positive karma, purging corruption and defending the innocent. Stands as a beacon of light against the forces of darkness",
+  "color": "FFD700",
+  "primary_resource": "divine_power",
+  "base_stats": {
+    "strength": 16,
+    "agility": 14,
+    "intelligence": 16,
+    "vitality": 19,
+    "wisdom": 19,
+    "charisma": 16
+  },
+  "specializations": [
+    "protection",
+    "purification",
+    "judgment"
+  ],
+  "counter_mechanic": {
+    "black_knight_counter": {
+      "corruption_purge": true,
+      "damage_bonus_vs_corrupted": 0.25,
+      "anti_karma_shield": 0.3,
+      "description": "Enhanced effectiveness against Black Knights and their dark powers"
+    }
+  },
+  "special_mechanics": {
+    "positive_karma_system": {
+      "enabled": true,
+      "tiers": [
+        {
+          "karma_threshold": 100,
+          "divine_power_restore_percentage": 0.2,
+          "regeneration_duration": 30000,
+          "description": "Protecting the innocent: 20% divine power restoration over 30 seconds"
+        },
+        {
+          "karma_threshold": 500,
+          "divine_power_restore_percentage": 0.35,
+          "regeneration_duration": 45000,
+          "description": "Guardian of light: 35% divine power restoration over 45 seconds"
+        },
+        {
+          "karma_threshold": 1000,
+          "divine_power_restore_percentage": 0.5,
+          "regeneration_duration": 60000,
+          "description": "Divine champion: 50% divine power restoration over 60 seconds"
+        },
+        {
+          "karma_threshold": 2500,
+          "divine_power_restore_percentage": 0.75,
+          "regeneration_duration": 90000,
+          "description": "Legendary warden: 75% divine power restoration over 90 seconds"
+        }
+      ],
+      "purification_buffs": {
+        "health_buff_per_100_positive_karma": 0.08,
+        "corruption_resistance_per_200_karma": 0.12,
+        "max_stacks": 4,
+        "buff_duration": 35000
+      },
+      "innocent_protection_streaks": {
+        "enabled": true,
+        "streak_thresholds": [
+          {
+            "protections_needed": 2,
+            "aura_strength_bonus": 0.4,
+            "aura_duration": 30000,
+            "description": "2 successful protections: +40% aura strength over 30s"
+          },
+          {
+            "protections_needed": 3,
+            "aura_strength_bonus": 0.6,
+            "divine_power_regen": 3.0,
+            "description": "3 protections: +60% aura +3 divine power/sec"
+          },
+          {
+            "protections_needed": 5,
+            "aura_strength_bonus": 1.0,
+            "divine_power_regen": 5.0,
+            "corruption_purge_radius": 8.0,
+            "description": "5 protections: +100% aura +5 divine power/sec +purge aura"
+          }
+        ],
+        "streak_reset_timer": 25000,
+        "visual_cue": "divine_shield_aura"
+      }
+    },
+    "corruption_detection": {
+      "enabled": true,
+      "detection_range": 30.0,
+      "corruption_analyzer": true,
+      "karma_detection_bonus": 8.0
+    },
+    "divine_purification": {
+      "enabled": true,
+      "corruption_reduction_rate": 0.0015,
+      "purification_benefits": {
+        "healing_bonus": 0.15,
+        "holy_damage_bonus": 0.12,
+        "corruption_damage_bonus": 0.2
+      },
+      "purification_glow": {
+        "strength": 0.08,
+        "holy_damage_vulnerability_reduction": 0.25,
+        "regeneration_increase": 0.1
+      }
+    }
+  },
+  "starting_skills": [
+    {
+      "id": 4001,
+      "name": "Holy Strike",
+      "description": "A righteous attack that deals bonus holy damage to corrupted foes",
+      "cooldown": 0,
+      "divine_power_cost": 50,
+      "range": 5.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 4002,
+      "name": "Divine Shield",
+      "description": "Creates a protective barrier that absorbs damage and weakens nearby corruption",
+      "cooldown": 20000,
+      "divine_power_cost": 40,
+      "range": 0,
+      "cast_time": 1500,
+      "learned_at_level": 3,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 40001,
+            "name": "Corruption Hunter",
+            "description": "Increases damage against corrupted targets by 12%",
+            "max_rank": 5,
+            "icon_path": "talents/celestial_warden/corruption_hunter.png"
+          },
+          {
+            "id": 40002,
+            "name": "Divine Mastery",
+            "description": "Increases divine power regeneration and maximum",
+            "max_rank": 3,
+            "icon_path": "talents/celestial_warden/divine_mastery.png"
+          },
+          {
+            "id": 40003,
+            "name": "Protection Streak",
+            "description": "Bonuses for protecting multiple innocents in succession",
+            "max_rank": 3,
+            "icon_path": "talents/celestial_warden/protection_streak.png"
+          },
+          {
+            "id": 40004,
+            "name": "Radiant Resilience",
+            "description": "Increased defense and holy aura strength",
+            "max_rank": 4,
+            "icon_path": "talents/celestial_warden/radiant_resilience.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 110000,
+  "health_modifier": 1.25,
+  "damage_modifier": 1.05,
+  "armor_modifier": 1.35,
+  "balancing_mechanics": {
+    "black_knight_counter_efficiency": 1.25,
+    "corruption_damage_multiplier": 1.3,
+    "positive_karma_scaling": 1.1
+  },
+  "template_type": "class",
+  "version": "0.1.0"
+}

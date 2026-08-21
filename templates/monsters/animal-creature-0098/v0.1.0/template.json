@@ -1,0 +1,55 @@
+{
+  "id": "animal_creature_0098",
+  "name": "Animal Creature 0098",
+  "description": "Grand herbivore domestique qui fournit du lait et de la viande",
+  "icon": "animal_creature_0098_icon",
+  "category": "animal",
+  "rarity": "common",
+  "base_stats": {
+    "health": 200,
+    "mana": 20,
+    "strength": 30,
+    "dexterity": 8,
+    "intelligence": 4,
+    "wisdom": 8,
+    "constitution": 35,
+    "charisma": 12
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_wild": false,
+    "size": "large",
+    "speed": 4.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "beef",
+      "animal_creature_0098_hide",
+      "milk"
+    ],
+    "rare_drops": [
+      "animal_creature_0098_horn"
+    ],
+    "epic_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "none",
+    "attack_pattern": "defensive_charge",
+    "special_abilities": [
+      "graze",
+      "produce_milk"
+    ]
+  },
+  "abilities": [
+    "headbutt",
+    "graze"
+  ],
+  "resistances": {
+    "physical": 25
+  },
+  "weaknesses": [
+    "predators"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "merchant_market_manipulation",
+  "name": "Manipulation du Marché",
+  "description": "Influence les prix du marché pour maximiser les profits",
+  "ability_type": "active",
+  "category": "social",
+  "cooldown": 120000,
+  "mana_cost": 60,
+  "cast_time": 3000,
+  "range": 0,
+  "target_type": "market",
+  "duration": 0,
+  "effects": [
+    {
+      "effect_type": "price_manipulation",
+      "value": 0.4,
+      "duration": 0,
+      "tick_rate": 0,
+      "manipulation_type": "market_control"
+    },
+    {
+      "effect_type": "demand_increase",
+      "value": 0.5,
+      "duration": 0,
+      "tick_rate": 0,
+      "demand_type": "all_items"
+    },
+    {
+      "effect_type": "supply_control",
+      "value": 0.3,
+      "duration": 0,
+      "tick_rate": 0,
+      "control_type": "market_supply"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "market_influence",
+    "manipulation_effect": "price_wave",
+    "control_effect": "market_domination"
+  },
+  "sound_effects": {
+    "cast_sound": "market_chime",
+    "manipulation_sound": "price_change",
+    "control_sound": "market_power"
+  },
+  "scaling": {
+    "merchant_skill": 1.7,
+    "trade_mastery": 1.6
+  },
+  "requirements": {
+    "level": 35,
+    "abilities": [
+      "trade_master",
+      "market_analysis"
+    ],
+    "class": "merchant"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "demand_increase": 0.2,
+      "supply_control": 0.1
+    },
+    "journeyman": {
+      "demand_increase": 0.3,
+      "supply_control": 0.2,
+      "cooldown_reduction": 0.2
+    },
+    "master": {
+      "demand_increase": 0.4,
+      "supply_control": 0.3,
+      "cooldown_reduction": 0.4,
+      "market_control": true
+    },
+    "grandmaster": {
+      "demand_increase": 0.5,
+      "supply_control": 0.3,
+      "cooldown_reduction": 0.6,
+      "market_control": true,
+      "ability_unlock": "market_domination"
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

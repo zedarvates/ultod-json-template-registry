@@ -1,0 +1,89 @@
+{
+  "id": "physical_spell_0069",
+  "name": "Physical Spell 0069",
+  "description": "Attaque d'ouverture surprise depuis l'ombre, étourdissant la cible",
+  "icon": "physical_spell_0069_icon",
+  "school": "physical",
+  "rarity": "uncommon",
+  "spell_type": "opener",
+  "target_type": "single_enemy",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 6000,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 80,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 1.2,
+      "strength": 0.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage",
+      "value": 80,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_type": "physical",
+      "scaling": {
+        "agility": 1.2,
+        "strength": 0.8
+      }
+    },
+    {
+      "effect_type": "stun",
+      "value": 100,
+      "duration": 3000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "opener_bonus",
+      "value": 50,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "energy_regen": 50
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "shadow_emerge",
+    "impact_effect": "punch_impact",
+    "stun_effect": "stars_around"
+  },
+  "sound_effects": {
+    "cast_sound": "shadow_whisper",
+    "impact_sound": "fist_connect",
+    "stun_sound": "head_ring"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "physical_spell_0069_mastery",
+      "stealth_mastery"
+    ],
+    "classes": [
+      "assassin",
+      "rogue",
+      "ninja"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_cheap_shot": {
+      "unlock_level": 20,
+      "description": "Physical Spell 0069 dure plus longtemps et génère plus d'énergie",
+      "stun_duration_bonus": 1000,
+      "energy_bonus": 25
+    },
+    "selective_cheap_shot": {
+      "unlock_level": 30,
+      "description": "Physical Spell 0069 peut être lancé depuis plus loin",
+      "range_bonus": 5.0,
+      "stealth_break": false
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

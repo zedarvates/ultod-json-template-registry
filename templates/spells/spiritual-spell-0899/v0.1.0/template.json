@@ -1,0 +1,72 @@
+{
+  "id": "spiritual_spell_0899",
+  "name": "Spiritual Spell 0899",
+  "description": "Sépare l'esprit du corps, permettant au moine d'explorer hors de portée physique tout en gardant ses capacités de soin",
+  "icon": "spiritual_spell_0899_icon",
+  "school": "spiritual",
+  "rarity": "legendary",
+  "spell_type": "spirit_separation_form",
+  "target_type": "self_spirit",
+  "range": 100.0,
+  "cast_time": 4000,
+  "cooldown": 120000,
+  "mana_cost": 150,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "spiritual_projection_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "spiritual_projection_separation",
+      "value": 400,
+      "duration": 300000,
+      "tick_rate": 0,
+      "spirit_range_extension": 100.0,
+      "body_vulnerability_increase": 2.0,
+      "spirit_healing_maintained": true,
+      "body_protection_degeneration": 50,
+      "spiritual_immortality": false,
+      "spirit_return_resurrection": 0.8
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "body_glowing_spirit_rising_ethereal_form_separation",
+    "active_effect": "spirit_form_translucent_wispy_aura_alternate_plane",
+    "healing_effect": "spirit_beams_healinggolden_energy_otherworldly_effect",
+    "return_effect": "spirit_rejoining_body_brilliant_reunification_merge"
+  },
+  "sound_effects": {
+    "cast_effect": "spiritual_separation_soul_rising_ethereal_whisper_wind",
+    "active_effect": "spirit_form_whispering_otherworldly_echoes_distant_chorus",
+    "healing_effect": "spiritual_healing_chi_harmonic_bell_tones_powerful",
+    "return_effect": "reunification_soul_merge_powerful_harmonic_climax_return"
+  },
+  "requirements": {
+    "level": 46,
+    "skills": [
+      "spiritual_mastery",
+      "soul_projection",
+      "out_of_body_arts"
+    ],
+    "classes": [
+      "monk",
+      "spiritual_mage",
+      "soul_traveler"
+    ],
+    "specializations": [
+      "transcendental_master"
+    ]
+  },
+  "upgrades": {
+    "greater_transcendence": {
+      "unlock_level": 56,
+      "description": "La Spiritual Spell 0899 devient plus étendue avec des capacités spirituelles accrues",
+      "spirit_range_doubling": 200.0,
+      "body_vulnerability_reduction": 1.5,
+      "multiple_spirit_projections": 2,
+      "spirit_combat_capability": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

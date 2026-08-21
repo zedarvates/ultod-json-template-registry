@@ -1,0 +1,119 @@
+{
+  "id": "plant_creature_0299",
+  "name": "Plant Creature 0299",
+  "description": "Un géant végétal de 60 pieds de haut, avec un tronc rugueux comme l'écorce d'un chêne millénaire. Son visage sculpté dans l'écorce révèle une sagesse ancestrale et ses yeux verts profundos brillent d'une connection profonde à la nature. Des lianes et des branches forment ses membres, et sa simple présence peut faire pousser des fleurs instantanément.",
+  "icon": "plant_creature_0299_icon",
+  "category": "plant",
+  "rarity": "epic",
+  "base_stats": {
+    "health": 243,
+    "mana": 120,
+    "strength": 23,
+    "dexterity": 8,
+    "intelligence": 16,
+    "wisdom": 20,
+    "constitution": 21,
+    "charisma": 12
+  },
+  "properties": {
+    "size": "huge",
+    "size_modifiers": {
+      "health_multiplier": 4.0,
+      "damage_multiplier": 2.0,
+      "speed_modifier": -2,
+      "space_requirement": 15,
+      "strength_bonus": 8,
+      "constitution_bonus": 4
+    },
+    "speed": 30,
+    "alignment": "neutral good",
+    "languages": [
+      "common",
+      "druidic",
+      "sylvan",
+      "telepathy 120 ft"
+    ],
+    "challenge_rating": "9",
+    "experience_value": 5000
+  },
+  "properties_plant": {
+    "photosynthetic_ability": true,
+    "root_mobility": true,
+    "spore_production": "defensive_spores",
+    "vine_mastery": 4,
+    "natural_regeneration": "10 hp per turn",
+    "tree_bond": true,
+    "ancient_wisdom": true
+  },
+  "abilities": [
+    "ancient_wisdom",
+    "animate_trees",
+    "root_control",
+    "fruitful_healing",
+    "vines_entangle",
+    "oak_strength",
+    "nature_communication",
+    "spore_defense",
+    "animate_vegetation"
+  ],
+  "resistances": {
+    "physical": 60,
+    "poison": 90,
+    "nature": 80,
+    "psychic": 40
+  },
+  "weaknesses": [
+    "fire_damage",
+    "ice_damage",
+    "necrotic_damage"
+  ],
+  "immunities": [
+    "charmed",
+    "frightened",
+    "poisoned"
+  ],
+  "senses": {
+    "tremorsense": 60,
+    "scent": true,
+    "darkvision": 60
+  },
+  "loot_table": {
+    "common_drops": [
+      "ancient_wood",
+      "nature_essence",
+      "healing_fruit"
+    ],
+    "rare_drops": [
+      "plant_creature_0299_heartwood",
+      "animate_vegetation_spell",
+      "nature_wisdom_manual"
+    ],
+    "epic_drops": [
+      "living_tree_essence",
+      "ancient_forest_crown"
+    ],
+    "legendary_drops": [
+      "plant_creature_0299_master_artifact",
+      "eternal_nature_staff"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "passive",
+    "intelligence_level": "very_smart",
+    "tactical_awareness": "strategic",
+    "attack_pattern": "defensive_combat",
+    "defensive_patterns": [
+      "root_mobile",
+      "animate_trees",
+      "spore_defense"
+    ],
+    "special_behaviors": [
+      "protects_forest_ecosystem",
+      "animates_surrounding_vegetation",
+      "regenerates_natural_damage",
+      "communicates_with_plants"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

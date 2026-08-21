@@ -1,0 +1,49 @@
+{
+  "id": "rogue_spell_1210",
+  "name": "Rogue Spell 1210",
+  "description": "Se fond dans les ombres pendant 8 secondes, permettant les attaques surprises",
+  "icon": "rogue_spell_1210_icon",
+  "school": "rogue",
+  "rarity": "rare",
+  "spell_type": "stealth_buff",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 0,
+  "cooldown": 60000,
+  "energy_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "rogue_spell_1210_buff",
+      "value": 2,
+      "duration": 8000,
+      "tick_rate": 0,
+      "stealth_level": 4,
+      "damage_bonus": 20,
+      "crit_chance_bonus": 25
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "rogue_spell_1210_burst",
+    "buff_effect": "dancing_rogue_spell_1210s"
+  },
+  "sound_effects": {
+    "cast_sound": "rogue_spell_1210_whisper",
+    "buff_sound": "dance_theme"
+  },
+  "requirements": {
+    "level": 30,
+    "skills": [
+      "stealth",
+      "rogue_spell_1210_magic"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

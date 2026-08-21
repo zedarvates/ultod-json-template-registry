@@ -1,0 +1,67 @@
+{
+  "id": "rogue_shadow_step",
+  "name": "Pas de l'Ombre",
+  "description": "Permet de se déplacer instantanément dans les ombres sur une courte distance",
+  "icon": "shadow_step_icon",
+  "category": "exploration",
+  "rarity": "rare",
+  "ability_type": "utility",
+  "target_type": "point",
+  "range": 15.0,
+  "cast_time": 500,
+  "cooldown": 8000,
+  "resource_cost": {
+    "type": "energy",
+    "amount": 35
+  },
+  "effects": [
+    {
+      "effect_type": "teleport",
+      "value": 15.0,
+      "scaling": {
+        "dexterity": 0.5
+      }
+    },
+    {
+      "effect_type": "stealth_bonus",
+      "value": 50,
+      "duration": 3000,
+      "scaling": {
+        "wisdom": 0.3
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "shadow_merge",
+    "teleport_effect": "shadow_trail",
+    "land_effect": "shadow_dissipate"
+  },
+  "sound_effects": {
+    "cast_sound": "shadow_whisper",
+    "teleport_sound": "shadow_rustle",
+    "land_sound": "soft_landing"
+  },
+  "requirements": {
+    "level": 15,
+    "class": "rogue",
+    "skills": [
+      "shadow_step"
+    ]
+  },
+  "upgrades": {
+    "phantom_stride": {
+      "unlock_level": 30,
+      "description": "Augmente la portée et réduit le coût",
+      "range_bonus": 5.0,
+      "energy_reduction": 10
+    },
+    "shadow_master": {
+      "unlock_level": 50,
+      "description": "Laisse une illusion derrière soi",
+      "decoy_creation": true,
+      "stealth_duration_bonus": 2000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

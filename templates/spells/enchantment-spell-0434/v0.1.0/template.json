@@ -1,0 +1,78 @@
+{
+  "id": "enchantment_spell_0434",
+  "name": "Enchantment Spell 0434",
+  "description": "Confère une vision claire et nette, révélant les illusions et augmentant la perception",
+  "icon": "enchantment_spell_0434_icon",
+  "school": "enchantment",
+  "rarity": "uncommon",
+  "spell_type": "perception_buff",
+  "target_type": "single_ally",
+  "range": 25.0,
+  "cast_time": 1000,
+  "cooldown": 6000,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "perception_enhancement"
+  },
+  "effects": [
+    {
+      "effect_type": "mental_enchantment_spell_0434_amplification",
+      "value": 150,
+      "duration": 25000,
+      "tick_rate": 0,
+      "illusion_reveal_range": 50.0,
+      "stealth_detection_bonus": 100,
+      "enemy_location_reveal": true,
+      "spotted_chance_increase": 0.3,
+      "hidden_detect_bonus": 80,
+      "vision_clarity_aura": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "clear_light_lens_forming_over_eyes",
+    "buff_effect": "light_rays_focusing_vision",
+    "reveal_effect": "hidden_entities_shimmering_into_view",
+    "expire_effect": "blurry_fade_back_to_normal_vision"
+  },
+  "sound_effects": {
+    "cast_sound": "focusing_light_crystal_clear_tone",
+    "buff_sound": "visual_enchantment_spell_0434_whisper_understanding",
+    "reveal_effect": "hidden_reveal_ding_discovery",
+    "expire_effect": "focusing_fade_awareness_loss"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "arcane_magic",
+      "perception_magic"
+    ],
+    "classes": [
+      "enchanter",
+      "vision_weaver"
+    ],
+    "specializations": [
+      "truth_seeker"
+    ]
+  },
+  "upgrades": {
+    "greater_clarity": {
+      "unlock_level": 20,
+      "description": "La Enchantment Spell 0434 révèle même les pièges mentaux et les illusions les plus subtiles",
+      "mind_trap_detection": true,
+      "illusion_immunity_aura": 15.0,
+      "group_perception_buff": true,
+      "truth_vision_field": 20.0
+    },
+    "omniscient_clarity": {
+      "unlock_level": 30,
+      "description": "La Enchantment Spell 0434 devient omniscience par rapport aux illusions et aux tromperies",
+      "total_illusion_immunity": true,
+      "hidden_reveal_guarantee": true,
+      "enemy_intent_prediction": 0.5,
+      "foresight_future_vision": 5000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

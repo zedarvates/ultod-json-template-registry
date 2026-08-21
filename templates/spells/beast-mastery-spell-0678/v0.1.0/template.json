@@ -1,0 +1,84 @@
+{
+  "id": "beast_mastery_spell_0678",
+  "name": "Beast Mastery Spell 0678",
+  "description": "Invoque un animal compagnon qui combat aux côtés du chasseur",
+  "icon": "beast_mastery_spell_0678_mastery_spell_0678_icon",
+  "school": "beast_mastery_spell_0678_mastery",
+  "rarity": "uncommon",
+  "spell_type": "animal_companion_summon",
+  "target_type": "summon_at_location",
+  "range": 20.0,
+  "cast_time": 3000,
+  "cooldown": 60000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "beast_mastery_spell_0678_companion_summon"
+  },
+  "effects": [
+    {
+      "effect_type": "animal_ally_manifestation",
+      "value": 200,
+      "duration": 120000,
+      "tick_rate": 0,
+      "beast_type_random_selection": [
+        "wolf",
+        "bear",
+        "hawk",
+        "panther",
+        "boar"
+      ],
+      "companion_health": 450,
+      "companion_damage": 85,
+      "hunter_damage_boost_companion": 15,
+      "beast_loyalty_integration": true,
+      "shared_experience_growth": 0.3
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "beast_mastery_spell_0678_spirit_orbs_gathering_rune_circle",
+    "summon_effect": "animal_form_emerging_powerful_roar_or_cry",
+    "active_effect": "beast_mastery_spell_0678_following_hunter_coordinated_attacks",
+    "banish_effect": "beast_mastery_spell_0678_dissolving_spirit_energy_return"
+  },
+  "sound_effects": {
+    "cast_effect": "beast_mastery_spell_0678_spirit_calls_whistling_winds",
+    "summon_effect": "animal_arrival_roar_howl_screech",
+    "active_effect": "beast_mastery_spell_0678_coordination_growls_calls",
+    "banish_effect": "spirit_return_beast_mastery_spell_0678_whimper_dissolve"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "beast_mastery_spell_0678_mastery",
+      "animal_empathy"
+    ],
+    "classes": [
+      "hunter",
+      "beast_mastery_spell_0678_lord"
+    ],
+    "specializations": [
+      "animal_companion_expert"
+    ]
+  },
+  "upgrades": {
+    "aspect_of_the_beast": {
+      "unlock_level": 18,
+      "description": "Le compagnon de bête devient un aspect surnaturel avec des capacités spéciales",
+      "spectral_beast_damage_boost": 50,
+      "special_ability_unlock": true,
+      "beast_intelligence_increase": 2.0,
+      "hunter_beast_bond_strength": 200
+    },
+    "pack_leader_summoning": {
+      "unlock_level": 28,
+      "description": "Permet d'appeler plusieurs bêtes simultanément pour former une meute coordonnée",
+      "multiple_beast_pack": 3,
+      "pack_tactics_coordination": true,
+      "beast_pack_damage_total": 250,
+      "alpha_beast_leadership": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

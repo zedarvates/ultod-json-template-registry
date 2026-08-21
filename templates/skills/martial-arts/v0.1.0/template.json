@@ -1,0 +1,142 @@
+{
+  "id": "martial_arts",
+  "name": "Arts Martiaux",
+  "description": "Maîtrise des techniques de combat à mains nues et des arts de l'équilibre intérieur",
+  "icon": "martial_arts_icon",
+  "category": "combat",
+  "subcategory": "unarmed_combat",
+  "max_level": 100,
+  "level_requirements": {
+    "1": 0,
+    "2": 25,
+    "3": 65,
+    "4": 115,
+    "5": 180,
+    "10": 1050,
+    "15": 2100,
+    "20": 3675,
+    "25": 6125,
+    "30": 8925,
+    "35": 12225,
+    "40": 16625,
+    "45": 21875,
+    "50": 29825,
+    "60": 45725,
+    "70": 67075,
+    "80": 93725,
+    "90": 129125,
+    "100": 189125
+  },
+  "xp_sources": {
+    "unarmed_attack": 3,
+    "chi_strike": 15,
+    "meditation": 8,
+    "kata_practice": 12,
+    "master_training": 25,
+    "tournament_win": 50
+  },
+  "level_bonuses": {
+    "unarmed_damage": {
+      "base_value": 10.0,
+      "per_level": 1.5
+    },
+    "chi_regeneration": {
+      "base_value": 5.0,
+      "per_level": 1.0
+    },
+    "critical_chance": {
+      "base_value": 2.0,
+      "per_level": 0.8
+    },
+    "dodge_chance": {
+      "base_value": 3.0,
+      "per_level": 1.2
+    }
+  },
+  "specializations": {
+    "monk_path": {
+      "unlock_level": 30,
+      "description": "Voie spirituelle mettant l'accent sur l'équilibre et la méditation",
+      "bonuses": {
+        "chi_pool": 30.0,
+        "meditation_regen": 25.0,
+        "spiritual_damage": 20.0
+      }
+    },
+    "warrior_path": {
+      "unlock_level": 35,
+      "description": "Voie martiale axée sur la puissance physique et les frappes dévastatrices",
+      "bonuses": {
+        "physical_damage": 35.0,
+        "stamina_efficiency": 25.0,
+        "combat_mastery": 20.0
+      }
+    },
+    "master_path": {
+      "unlock_level": 50,
+      "description": "Fusion ultime des voies spirituelle et martiale",
+      "bonuses": {
+        "dual_path_bonus": 50.0,
+        "legendary_techniques": true,
+        "chi_weapon_creation": true
+      }
+    }
+  },
+  "unlocked_recipes": {
+    "5": [
+      "basic_stance",
+      "chi_breathing",
+      "meditation_basic"
+    ],
+    "10": [
+      "palm_strike",
+      "chi_focus",
+      "balance_training"
+    ],
+    "15": [
+      "dragon_punch",
+      "spiritual_awakening",
+      "kata_forms"
+    ],
+    "20": [
+      "chi_burst",
+      "pressure_points",
+      "flow_movement"
+    ],
+    "25": [
+      "lotus_strike",
+      "inner_peace",
+      "master_forms"
+    ],
+    "30": [
+      "legendary_techniques",
+      "chi_mastery",
+      "enlightenment"
+    ],
+    "40": [
+      "divine_arts",
+      "cosmic_balance",
+      "reality_bending"
+    ],
+    "50": [
+      "godly_combat",
+      "universal_chi",
+      "transcendence"
+    ]
+  },
+  "lineage_synergies": {
+    "monk": {
+      "chi_mastery": 1.5,
+      "meditation": 1.4,
+      "spiritual_damage": 1.3
+    },
+    "samurai": {
+      "combat_techniques": 1.3,
+      "discipline": 1.4,
+      "honor_path": 1.2
+    }
+  },
+  "enabled": true,
+  "template_type": "skill",
+  "version": "0.1.0"
+}

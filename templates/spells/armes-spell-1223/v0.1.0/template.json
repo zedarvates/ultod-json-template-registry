@@ -1,0 +1,70 @@
+{
+  "id": "armes_spell_1223",
+  "name": "Armes Spell 1223",
+  "description": "Le samouraï dégaine rapidement et frappe l'ennemi dans un mouvement fluide",
+  "icon": "armes_spell_1223_icon",
+  "school": "armes",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 10000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.8,
+      "discipline": 0.2
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 120,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "critical_strike",
+      "value": 25,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sword_drawn_quickly",
+    "projectile_effect": "none",
+    "impact_effect": "precise_cut",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "sword_unsheath",
+    "impact_sound": "blade_hit"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "sharpened_blade": {
+      "unlock_level": 8,
+      "description": "Augmente les chances de coup critique de 15%",
+      "critical_bonus": 15
+    },
+    "lightning_speed": {
+      "unlock_level": 16,
+      "description": "Réduit le temps de recharge de 20%",
+      "cooldown_reduction": 2000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

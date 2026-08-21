@@ -1,0 +1,82 @@
+{
+  "id": "balance_spell_0415",
+  "name": "Balance Spell 0415",
+  "description": "Le druide invoque les constellations pour lancer une puissante étoile de feu magique sur l'ennemi",
+  "icon": "balance_spell_0415_icon",
+  "school": "balance",
+  "rarity": "rare",
+  "spell_type": "stellar_damage",
+  "target_type": "single_enemy",
+  "range": 45.0,
+  "cast_time": 2500,
+  "cooldown": 12000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 350,
+    "damage_type": "arcane_stellar",
+    "scaling": {
+      "intelligence": 2.0,
+      "starsight": 1.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "constellation_strike",
+      "value": 350,
+      "duration": 0,
+      "tick_rate": 0,
+      "celestial_damage": 350,
+      "star_shard_burst": 120,
+      "daedalus_missile_bonus": 0.2,
+      "eclipse_damage_increase": 0.4,
+      "stellar_flash_stun": 1500,
+      "starfall_proc_chance": 0.3
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "stars_aligning_cosmic_energies",
+    "strike_effect": "fiery_star_crash_cosmic_explosion",
+    "stun_effect": "stunned_glowing_celestial_marks",
+    "bonus_effect": "bonus_star_fall_around_target"
+  },
+  "sound_effects": {
+    "cast_sound": "stars_whispering_cosmic_hum",
+    "strike_sound": "star_explosion_celestial_boom",
+    "stun_sound": "cosmic_daze_echo_dizzy",
+    "bonus_sound": "starfall_rain_additional_impacts"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "celestial_magic",
+      "stellar_lore"
+    ],
+    "classes": [
+      "druid",
+      "celestial_mage"
+    ],
+    "specializations": [
+      "star_master"
+    ]
+  },
+  "upgrades": {
+    "galactic_fury": {
+      "unlock_level": 30,
+      "description": "Le Balance Spell 0415 invoque la fureur de galaxies entières, multipliants les dégâts et les effets",
+      "galactic_multiplier": 2.0,
+      "starfall_guarantee": true,
+      "celestial_nova_burst": 200,
+      "cosmic_backlash_rune": 75
+    },
+    "nebula_alacrity": {
+      "unlock_level": 40,
+      "description": "Le sort devient instantané sous certaines constellations et confère une vitesse stellaire",
+      "instant_cast_chance": 0.5,
+      "starwalk_speed_boost": 100,
+      "nebula_shield": 150,
+      "cosmic_feedback_damage": 100
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

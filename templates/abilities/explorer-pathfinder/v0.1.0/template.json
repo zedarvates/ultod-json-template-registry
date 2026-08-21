@@ -1,0 +1,88 @@
+{
+  "id": "explorer_pathfinder",
+  "name": "Pisteur",
+  "description": "Trouve des chemins cachés et révèle des points d'intérêt",
+  "ability_type": "active",
+  "category": "exploration",
+  "cooldown": 30000,
+  "energy_cost": 40,
+  "cast_time": 1500,
+  "range": 100.0,
+  "target_type": "area",
+  "duration": 60000,
+  "effects": [
+    {
+      "effect_type": "path_reveal",
+      "value": 1.0,
+      "duration": 60000,
+      "tick_rate": 0,
+      "reveal_type": "hidden_paths"
+    },
+    {
+      "effect_type": "discovery_bonus",
+      "value": 0.5,
+      "duration": 60000,
+      "tick_rate": 0,
+      "discovery_type": "exploration"
+    },
+    {
+      "effect_type": "movement_speed",
+      "value": 0.2,
+      "duration": 60000,
+      "tick_rate": 0,
+      "movement_type": "exploration"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "pathfinder_scan",
+    "reveal_effect": "path_highlight",
+    "discovery_effect": "discovery_sparkle"
+  },
+  "sound_effects": {
+    "cast_sound": "pathfinder_whistle",
+    "reveal_sound": "path_discovery",
+    "discovery_sound": "treasure_chime"
+  },
+  "scaling": {
+    "exploration_skill": 1.5,
+    "discovery_mastery": 1.4
+  },
+  "requirements": {
+    "level": 15,
+    "abilities": [
+      "basic_exploration"
+    ],
+    "class": "explorer"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "reveal_range": 50.0,
+      "discovery_bonus": 0.2,
+      "movement_speed": 0.1
+    },
+    "journeyman": {
+      "reveal_range": 75.0,
+      "discovery_bonus": 0.3,
+      "movement_speed": 0.15,
+      "duration": 90000
+    },
+    "master": {
+      "reveal_range": 100.0,
+      "discovery_bonus": 0.5,
+      "movement_speed": 0.2,
+      "duration": 120000,
+      "rare_discoveries": true
+    },
+    "grandmaster": {
+      "reveal_range": 150.0,
+      "discovery_bonus": 0.7,
+      "movement_speed": 0.3,
+      "duration": 180000,
+      "rare_discoveries": true,
+      "ability_unlock": "master_explorer"
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "evocation_spell_1608",
+  "name": "Evocation Spell 1608",
+  "description": "Des météores dévastateurs s'abattent sur une zone ciblée",
+  "icon": "evocation_spell_1608_icon",
+  "school": "evocation",
+  "rarity": "legendary",
+  "spell_type": "area_damage",
+  "target_type": "area",
+  "range": 90.0,
+  "cast_time": 2000,
+  "cooldown": 0,
+  "mana_cost": 120,
+  "damage": {
+    "base_damage": 150,
+    "damage_type": "fire",
+    "aoe_radius": 12.0
+  },
+  "effects": [
+    {
+      "effect_type": "evocation_spell_1608_strike",
+      "value": 150,
+      "duration": 0,
+      "tick_rate": 0,
+      "meteor_count": 4,
+      "dexterity_save": true,
+      "save_dc": 18,
+      "ground_fire": true,
+      "fire_duration": 10000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "evocation_spell_1608_call",
+    "impact_effect": "cosmic_impact"
+  },
+  "sound_effects": {
+    "cast_sound": "evocation_spell_1608_call",
+    "impact_sound": "earthquake"
+  },
+  "requirements": {
+    "level": 9,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

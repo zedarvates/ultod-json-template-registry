@@ -1,0 +1,57 @@
+{
+  "id": "isis_lineage",
+  "name": "Lignée d'Isis",
+  "description": "Éveil dans la lignée de la déesse de la magie et de la protection",
+  "icon": "isis_lineage",
+  "rarity": "epic",
+  "required_level": 12,
+  "awakening_cost": {
+    "arcane_power": 160,
+    "health": 35,
+    "items": {
+      "magical_crystal": 1,
+      "mother_essence": 1,
+      "protective_rune": 2
+    }
+  },
+  "stat_bonuses": {
+    "health": 40,
+    "strength": 4,
+    "dexterity": 6,
+    "intelligence": 16,
+    "wisdom": 12,
+    "charisma": 14
+  },
+  "resistance_bonuses": {
+    "magic": 20,
+    "holy": 15,
+    "arcane": 25
+  },
+  "skill_bonuses": {
+    "protective_magic": 0.45,
+    "healing_mastery": 0.4,
+    "divine_blessing": 0.35
+  },
+  "awakening_bonuses": {
+    "duration_minutes": 35,
+    "stat_multipliers": {
+      "intelligence": 1.5,
+      "charisma": 1.4,
+      "wisdom": 1.3
+    },
+    "special_effects": [
+      "maternal_protection",
+      "healing_aura",
+      "magical_shield",
+      "divine_love"
+    ]
+  },
+  "racial_synergies": {
+    "egyptian": 1.3,
+    "magic_user": 1.4,
+    "guardian": 1.3
+  },
+  "enabled": true,
+  "template_type": "lineage",
+  "version": "0.1.0"
+}

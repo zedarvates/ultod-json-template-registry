@@ -1,0 +1,82 @@
+{
+  "id": "holy_spell_1046",
+  "name": "Holy Spell 1046",
+  "description": "Lance un éclair d'énergie sacrée infligeant des dégâts aux ennemis impies",
+  "icon": "holy_spell_1046_spell_1046_icon",
+  "school": "holy_spell_1046",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single_enemy",
+  "range": 25.0,
+  "cast_time": 1500,
+  "cooldown": 0,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 35,
+    "damage_type": "holy_spell_1046",
+    "scaling": {
+      "wisdom": 1.0,
+      "strength": 0.4
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage",
+      "value": 35,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_type": "holy_spell_1046",
+      "scaling": {
+        "wisdom": 1.0,
+        "strength": 0.4
+      }
+    },
+    {
+      "effect_type": "holy_spell_1046_damage_bonus",
+      "value": 25,
+      "duration": 0,
+      "tick_rate": 0,
+      "target_types": [
+        "undead",
+        "demon"
+      ]
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_energy_gather",
+    "projectile_effect": "holy_spell_1046_spell_1046_flight",
+    "hit_effect": "divine_impact"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_charge",
+    "projectile_sound": "bolt_whistle",
+    "hit_sound": "holy_spell_1046_impact"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "paladin",
+      "priest",
+      "cleric"
+    ]
+  },
+  "upgrades": {
+    "improved_holy_bolt": {
+      "unlock_level": 10,
+      "description": "Augmente les dégâts d'holy_spell_1046 Spell 1046",
+      "damage_bonus": 20,
+      "mana_cost_reduction": 5
+    },
+    "smite": {
+      "unlock_level": 20,
+      "description": "holy_spell_1046 Spell 1046 ignore une partie de l'armure",
+      "armor_penetration": 30,
+      "critical_chance_bonus": 10
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

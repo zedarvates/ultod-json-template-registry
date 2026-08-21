@@ -1,0 +1,50 @@
+{
+  "version": "0.1.0",
+  "school": "nature",
+  "rarity": "common",
+  "target_type": "self",
+  "range": 38.3,
+  "cast_time": 1594,
+  "cooldown": 28499,
+  "mana_cost": 46,
+  "visual_effects": {
+    "cast_effect": "warrior_cast",
+    "projectile_effect": "elemental_projectile",
+    "impact_effect": "elemental_impact",
+    "trail_effect": "elemental_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "warrior_cast_sound",
+    "impact_sound": "elemental_impact_sound"
+  },
+  "requirements": {
+    "level": 13,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "protection"
+    ]
+  },
+  "balance_validated": true,
+  "generated_by": "content_pipeline_v2",
+  "id": "c10bfc7acf27",
+  "name": "Warrior Protection Shield",
+  "description": "Generated warrior protection spell #208",
+  "icon": "c10bfc7acf27_icon",
+  "spell_type": "buff",
+  "damage_type": null,
+  "effects": [
+    {
+      "effect_type": "armor_boost",
+      "value": 0.23,
+      "duration": 18293,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "balance_adjusted": true,
+  "balance_efficiency": 0.0452,
+  "template_type": "content_pipeline"
+}

@@ -1,16 +1,79 @@
 {
-  "id": "resonance_stone",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Resonance Stone",
-  "description": "A portable material component for public template workflows.",
+  "item_id": "resonance_stone",
+  "name": "Pierre de Résonance",
+  "description": "Pierre qui amplifie ou modifie les fréquences harmoniques des sorts, essentielle pour l'équilibrage magique",
+  "icon": "resonance_stone_icon",
   "category": "material",
   "rarity": "rare",
-  "stack_limit": 50,
-  "weight_kg": 0.1,
-  "tags": [
-    "adapted",
-    "material"
+  "item_type": "magic_crafting_material",
+  "bind_type": "none",
+  "level_required": 25,
+  "durability": {
+    "single_use": false,
+    "max_durability": 150,
+    "current_durability": 150
+  },
+  "properties": {
+    "material_type": "harmonic_modulator",
+    "resonance_range": {
+      "min": 200.0,
+      "max": 800.0
+    },
+    "harmonic_stability": 0.88,
+    "spell_frequency_attunement": 0.75,
+    "balance_correction_power": 0.3
+  },
+  "stack_limit": 30,
+  "weight": 0.5,
+  "value": {
+    "rarity_multiplier": 1.8
+  },
+  "drop_sources": [
+    {
+      "source_type": "mob_loot",
+      "mobs": [
+        "harmonic_beast",
+        "echo_drake",
+        "sonic_elemental"
+      ],
+      "drop_chance": 0.12,
+      "quantity_range": {
+        "min": 1,
+        "max": 2
+      }
+    },
+    {
+      "source_type": "gathering",
+      "nodes": [
+        "singing_crystals",
+        "resonance_caverns",
+        "harmonic_ruins"
+      ],
+      "skill_required": "mining",
+      "skill_level": 30
+    },
+    {
+      "source_type": "quest_reward",
+      "quests": [
+        "harmonic_harmony",
+        "echo_maze"
+      ],
+      "rarity_tier": "uncommon"
+    }
   ],
-  "dependencies": []
+  "usage_instructions": {
+    "usage_type": "crafting_component",
+    "compatible_professions": [
+      "magic_crafter",
+      "jewelry"
+    ],
+    "harmonic_focus_multiplier": 1.15
+  },
+  "visual_effects": {
+    "idle_effect": "harmonic_vibration",
+    "usage_effect": "resonance_wave"
+  },
+  "version": "0.1.0",
+  "id": "resonance_stone",
+  "template_type": "item"
 }

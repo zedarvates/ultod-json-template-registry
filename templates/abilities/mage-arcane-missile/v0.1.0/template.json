@@ -1,0 +1,66 @@
+{
+  "id": "mage_arcane_missile",
+  "name": "Missile Arcanique",
+  "description": "Lance un projectile magique qui suit automatiquement la cible",
+  "icon": "arcane_missile_icon",
+  "category": "combat",
+  "rarity": "common",
+  "ability_type": "damage",
+  "target_type": "single_enemy",
+  "range": 25.0,
+  "cast_time": 1500,
+  "cooldown": 0,
+  "resource_cost": {
+    "type": "mana",
+    "amount": 25
+  },
+  "damage": {
+    "base_damage": 35,
+    "damage_type": "arcane",
+    "scaling": {
+      "intelligence": 1.2
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "homing",
+      "value": 100,
+      "duration": 3000,
+      "tick_rate": 0,
+      "scaling": {}
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "arcane_gathering",
+    "projectile_effect": "homing_missile",
+    "hit_effect": "arcane_explosion"
+  },
+  "sound_effects": {
+    "cast_sound": "arcane_chant",
+    "projectile_sound": "magic_whistle",
+    "hit_sound": "arcane_impact"
+  },
+  "requirements": {
+    "level": 5,
+    "class": "mage",
+    "skills": [
+      "arcane_magic"
+    ]
+  },
+  "upgrades": {
+    "empowered_missile": {
+      "unlock_level": 15,
+      "description": "Augmente les dégâts et la vitesse du projectile",
+      "damage_bonus": 20,
+      "speed_bonus": 50
+    },
+    "multi_missile": {
+      "unlock_level": 30,
+      "description": "Lance plusieurs missiles à la fois",
+      "additional_missiles": 2,
+      "damage_reduction": 0.3
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

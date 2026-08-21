@@ -1,0 +1,71 @@
+{
+  "id": "warrior_berserker_rage",
+  "name": "Rage du Berserker",
+  "description": "Entre dans une rage berserker, augmentant les dégâts mais réduisant la défense",
+  "icon": "berserker_rage_icon",
+  "category": "combat",
+  "rarity": "uncommon",
+  "ability_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1000,
+  "cooldown": 30000,
+  "resource_cost": {
+    "type": "rage",
+    "amount": 50
+  },
+  "duration": 15000,
+  "effects": [
+    {
+      "effect_type": "damage_boost",
+      "value": 25,
+      "scaling": {
+        "strength": 0.5
+      }
+    },
+    {
+      "effect_type": "defense_reduction",
+      "value": -20,
+      "scaling": {}
+    },
+    {
+      "effect_type": "movement_speed",
+      "value": 15,
+      "scaling": {
+        "dexterity": 0.3
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "rage_aura_burst",
+    "active_effect": "berserker_glow",
+    "end_effect": "rage_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "berserker_roar",
+    "active_sound": "heavy_breathing",
+    "end_sound": "exhaustion_gasp"
+  },
+  "requirements": {
+    "level": 10,
+    "class": "warrior",
+    "skills": [
+      "berserker_rage"
+    ]
+  },
+  "upgrades": {
+    "controlled_rage": {
+      "unlock_level": 25,
+      "description": "Réduit la pénalité de défense",
+      "defense_penalty_reduction": 10
+    },
+    "primal_fury": {
+      "unlock_level": 40,
+      "description": "Augmente les dégâts et la durée",
+      "damage_bonus": 15,
+      "duration_bonus": 5000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

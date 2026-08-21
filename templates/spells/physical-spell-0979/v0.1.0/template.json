@@ -1,0 +1,60 @@
+{
+  "id": "physical_spell_0979",
+  "name": "Physical Spell 0979",
+  "description": "Lance une Physical Spell 0979 qui aveugle les ennemis dans un rayon de 8 mètres",
+  "icon": "physical_spell_0979_icon",
+  "school": "physical",
+  "rarity": "uncommon",
+  "spell_type": "control",
+  "target_type": "area",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 30000,
+  "mana_cost": 40,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "blind",
+      "value": 50,
+      "duration": 8000,
+      "tick_rate": 0,
+      "aoe_radius": 8.0
+    },
+    {
+      "effect_type": "slow",
+      "value": 30,
+      "duration": 8000,
+      "tick_rate": 0,
+      "aoe_radius": 8.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "physical_spell_0979_explosion",
+    "projectile_effect": null,
+    "hit_effect": "physical_spell_0979_cloud"
+  },
+  "sound_effects": {
+    "cast_sound": "bomb_throw",
+    "projectile_sound": null,
+    "hit_sound": "physical_spell_0979_hiss"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "explosives"
+    ],
+    "classes": [
+      "ninja"
+    ]
+  },
+  "upgrades": {
+    "thick_smoke": {
+      "unlock_level": 18,
+      "description": "Augmente la durée et le rayon de la fumée",
+      "duration_bonus": 3000,
+      "radius_bonus": 2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

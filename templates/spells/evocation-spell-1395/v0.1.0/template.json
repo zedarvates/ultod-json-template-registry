@@ -1,0 +1,46 @@
+{
+  "id": "evocation_spell_1395",
+  "name": "Evocation Spell 1395",
+  "description": "Crée un mur invisible de pure force",
+  "icon": "evocation_spell_1395_icon",
+  "school": "evocation",
+  "rarity": "epic",
+  "spell_type": "barrier",
+  "target_type": "area",
+  "range": 36.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "force_evocation_spell_1395",
+      "value": 0,
+      "duration": 60000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "force_field"
+  },
+  "sound_effects": {
+    "cast_sound": "force_hum"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

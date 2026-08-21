@@ -1,0 +1,397 @@
+{
+  "profession": "uo_carpenter",
+  "display_name": "Master Carpenter (adapted_reference)",
+  "description": "Craftsman of wood and nature's bounty, shaping timber into magnificent works of art, siege engines, and magical instruments that echo through the forests of Sosaria",
+  "icon_path": "icons/professions/uo_carpenter.png",
+  "category": "uo_crafting",
+  "is_active": true,
+  "uo_skill_system": {
+    "base_skill": "Carpentry",
+    "max_skill": 120.0,
+    "skill_gain_rate": 0.3,
+    "exceptional_threshold": 95.0,
+    "gm_threshold": 110.0
+  },
+  "uo_wood_system": {
+    "common_woods": [
+      "Oak",
+      "Ash",
+      "Yew",
+      "Heartwood",
+      "Bloodwood"
+    ],
+    "rare_woods": [
+      "Frostwood",
+      "Ebony",
+      "Mahogany",
+      "Petrified"
+    ],
+    "magical_woods": [
+      "Driftwood",
+      "Ghostwood",
+      "Revenantwood"
+    ],
+    "wood_harvest_chance": {
+      "common": 85,
+      "rare": 35,
+      "magical": 10
+    }
+  },
+  "recipes": [
+    {
+      "id": "yew_longbow",
+      "name": "Yew Longbow",
+      "description": "A finely crafted bow from the sacred yew trees, favored by master rangers",
+      "profession": "uo_carpenter",
+      "difficulty": 80.0,
+      "skill_required": 70.0,
+      "experience_gain": 85.0,
+      "materials": [
+        {
+          "type": "wood_logs",
+          "wood_type": "yew",
+          "quantity": 12
+        },
+        {
+          "type": "cloth",
+          "material": "hemp",
+          "quantity": 10
+        },
+        {
+          "type": "metal_parts",
+          "material": "steel",
+          "quantity": 2
+        }
+      ],
+      "tools_required": [
+        "planes",
+        "saw",
+        "drawknife",
+        " Bowcraft tools"
+      ],
+      "output": {
+        "item": "yew_longbow",
+        "range": 10,
+        "damage": "18-22",
+        "speed": 4,
+        "durability": 55,
+        "weight": 6
+      },
+      "carpenter_properties": {
+        "wood_quality": "A",
+        "precision_stringing": 9,
+        "balance_rating": "excellent"
+      }
+    },
+    {
+      "id": "phantoms_memory_staff",
+      "name": "Staff of Phantoms Memory",
+      "description": "Legendary staff containing the memories of ancient spectral beings, crafted during the Time of Legends",
+      "profession": "uo_carpenter",
+      "difficulty": 120.0,
+      "skill_required": 118.0,
+      "experience_gain": 650.0,
+      "materials": [
+        {
+          "type": "wood_logs",
+          "wood_type": "revenantwood",
+          "quantity": 40
+        },
+        {
+          "type": "magical_crystal",
+          "crystal_type": "phantom_tear",
+          "quantity": 15
+        },
+        {
+          "type": "rare_metal",
+          "metal_type": "spectral_iron",
+          "quantity": 20
+        },
+        {
+          "type": "ancient_component",
+          "name": "memory_crystal",
+          "rarity": "legendary",
+          "quantity": 5
+        },
+        {
+          "type": "forbidden_component",
+          "name": "spectral_binding_essence",
+          "quantity": 10
+        }
+      ],
+      "tools_required": [
+        "phantom_reality_saw",
+        "spectral_carving_knife",
+        "memory_crystal_drill"
+      ],
+      "output": {
+        "item": "phantoms_memory_staff",
+        "damage": "25-35",
+        "speed": 4.5,
+        "durability": 350,
+        "spell_channeling": 100,
+        "cast_speed_bonus": 15,
+        "mana_regen": 3
+      },
+      "carpenter_properties": {
+        "enchanted_wood_coefficient": 1.8,
+        "spiritual_binding_strength": 100,
+        "legendary_artisan_rating": "S+"
+      },
+      "legendary_requirements": {
+        "skill_gm_carpentry": true,
+        "skill_90_lumberjacking": true,
+        "completed_phantom_quests": 7,
+        "spectral_alliance": "approved",
+        "rare_components": [
+          "Ancient Spirit Wood",
+          "Phantom Essence",
+          "Forgotten Memory Crystal"
+        ]
+      }
+    }
+  ],
+  "uo_furniture_system": {
+    "housing_items": {
+      "basic_furniture": {
+        "chairs": [
+          "wooden_chair",
+          "fancy_chair",
+          "stool"
+        ],
+        "tables": [
+          "wooden_table",
+          "writing_desk",
+          "dresser"
+        ],
+        "storage": [
+          "chest",
+          "armoire",
+          "bookshelf"
+        ]
+      },
+      "decorative_items": {
+        "mirrors": [
+          "wall_mirror",
+          "standing_mirror",
+          "framed_mirror"
+        ],
+        "rugs": [
+          "wool_rug",
+          "silk_rug",
+          "bear_rug"
+        ],
+        "lighting": [
+          "candelabra",
+          "wall_sconce",
+          "standing_candelabra"
+        ]
+      }
+    },
+    "furniture_sets": {
+      "study_set": [
+        "desk",
+        "chair",
+        "bookcase",
+        "rug",
+        "lamp"
+      ],
+      "bedroom_set": [
+        "bed",
+        "wardrobe",
+        "dresser",
+        "mirror",
+        "vanity"
+      ],
+      "dining_set": [
+        "table",
+        "chairs",
+        "china_cabinet",
+        "server",
+        "buffet"
+      ]
+    }
+  },
+  "uo_instrument_system": {
+    "musical_instruments": {
+      "string_instruments": {
+        "lute": {
+          "materials": [
+            "cedar_wood",
+            "silver_strings"
+          ],
+          "properties": [
+            "entertainment_skill_bonus",
+            "peace_bonus"
+          ]
+        },
+        "harp": {
+          "materials": [
+            "mahogany_wood",
+            "gold_strings"
+          ],
+          "properties": [
+            "provocation_reduction",
+            "harmony_aura"
+          ]
+        }
+      },
+      "wind_instruments": {
+        "flute": {
+          "materials": [
+            "bamboo_wood",
+            "silver_keys"
+          ],
+          "properties": [
+            "hide_bonus",
+            "stealth_melody"
+          ]
+        }
+      }
+    },
+    "exceptional_instruments": {
+      "requires_exceptional_carpentry": true,
+      "durability_bonus": 50,
+      "quality_effects": [
+        "longer_performance_duration",
+        "greater_skill_bonus"
+      ]
+    }
+  },
+  "uo_shipwright": {
+    "boats": {
+      "small_boat": {
+        "materials": [
+          "oak_logs",
+          "pitch",
+          "canvas"
+        ],
+        "capacity": 2,
+        "speed": 3,
+        "durability": 45
+      },
+      "rowboat": {
+        "materials": [
+          "yew_logs",
+          "metal_fittings",
+          "oars"
+        ],
+        "capacity": 4,
+        "speed": 4,
+        "durability": 60
+      }
+    },
+    "siege_engines": {
+      "training_dummy": {
+        "damage_reduction": 80,
+        "durability": 100
+      }
+    }
+  },
+  "uo_quivers_boots": {
+    "quiver_variants": {
+      "leather_quiver": {
+        "arrow_capacity": 10,
+        "weight_modifier": 3,
+        "damage_bonus": 0
+      },
+      "quiver_of_fire": {
+        "arrow_capacity": 8,
+        "weight_modifier": 5,
+        "damage_bonus": "5-10 fire damage"
+      },
+      "quiver_of_rage": {
+        "arrow_capacity": 15,
+        "weight_modifier": 8,
+        "damage_bonus": "paralyze_chance"
+      }
+    },
+    "specialized_boots": {
+      "ninja_boots": {
+        "stealth_bonus": 15,
+        "run_speed": 110,
+        "durability": 80
+      },
+      "furry_boots": {
+        "cold_resistance": 10,
+        "run_speed": 105,
+        "special_ability": "snow_walk"
+      }
+    }
+  },
+  "uo_wood_carving": {
+    "statuettes": {
+      "an_ex": {
+        "materials": [
+          "marble",
+          "gold_foil"
+        ],
+        "properties": [
+          "decoration_bonus",
+          "mana_regeneration"
+        ]
+      },
+      "sek": {
+        "materials": [
+          "obsidian",
+          "diamond_dust"
+        ],
+        "properties": [
+          "mystical_aura",
+          "spell_focus"
+        ]
+      }
+    },
+    "carved_items": {
+      "bokuto": {
+        "wood_type": "bamboo",
+        "skill_bonus": 5,
+        "durability": 40
+      }
+    }
+  },
+  "uo_taming_tools": {
+    "crooks": {
+      "basic_shepherds_crook": {
+        "animal_taming_bonus": 10,
+        "durability": 25
+      },
+      "frostwood_shepherds_crook": {
+        "animal_taming_bonus": 25,
+        "cold_damage": "5-10",
+        "durability": 50
+      }
+    },
+    "whips": {
+      "bullwhip": {
+        "monster_taming_bonus": 15,
+        "damage": "2-4",
+        "durability": 30
+      }
+    }
+  },
+  "specializations": [
+    "bowyer_specialist",
+    "furniture_maker",
+    "shipwright",
+    "instrument_crafter",
+    "siege_engineer",
+    "taming_tool_expert"
+  ],
+  "uo_mastery_bonuses": {
+    "skill_100_bonus": {
+      "wood_harvest_chance": 10,
+      "instrument_quality": 25,
+      "furniture_durability": 30
+    },
+    "skill_120_bonus": {
+      "legendary_wood_access": true,
+      "phantom_wood_mastery": 50,
+      "creation_speed": 40
+    }
+  },
+  "id": "uo_carpenter",
+  "name": "Uo Carpenter",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0708",
+  "name": "Illusion Spell 0708",
+  "description": "Rend l'illusionniste invisible tout en laissant un illusion qui feint d'être dans un autre emplacement",
+  "icon": "illusion_spell_0708_icon",
+  "school": "illusion",
+  "rarity": "rare",
+  "spell_type": "deceptive_illusion_spell_0708_diversion",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 2000,
+  "cooldown": 25000,
+  "mana_cost": 65,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "phantom_lure_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "phantom_presence_diversion",
+      "value": 200,
+      "duration": 30000,
+      "tick_rate": 0,
+      "perfect_invisibility_active": true,
+      "phantom_decoy_creation": true,
+      "decoy_aggression_drawing": 80,
+      "stealth_maintenance_cost": 10,
+      "phase_through_objects": true,
+      "enemy_detection_immunity": 90
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "body_fading_transparent_decoy_appears",
+    "active_effect": "phantom_decoy_moving_separately",
+    "diversion_effect": "enemies_attacking_decoy_ignorant",
+    "reveal_effect": "illusion_spell_0708_breaking_decoy_dissolving"
+  },
+  "sound_effects": {
+    "cast_effect": "reality_shifting_fading_whisper_swap",
+    "active_effect": "phantom_footsteps_decoy_different",
+    "diversion_effect": "attacks_landing_false_target_thud",
+    "reveal_effect": "reality_restoring_reveal_pop_end"
+  },
+  "requirements": {
+    "level": 24,
+    "skills": [
+      "illusion_magic",
+      "phantom_projection"
+    ],
+    "classes": [
+      "illusionist",
+      "phantom_stalker"
+    ],
+    "specializations": [
+      "spectral_deceiver"
+    ]
+  },
+  "upgrades": {
+    "greater_invisibility_phantom": {
+      "unlock_level": 34,
+      "description": "L'Illusion Spell 0708 devient plus grande avec plusieurs décoy et une invisibilité parfaite",
+      "multiple_phantom_decoys": 3,
+      "perfect_stealth_detection": false,
+      "decoy_spell_casting": true,
+      "teleportation_while_invisible": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

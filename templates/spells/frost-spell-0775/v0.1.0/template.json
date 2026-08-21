@@ -1,0 +1,85 @@
+{
+  "id": "frost_spell_0775",
+  "name": "Frost Spell 0775",
+  "description": "Libère un Frost Spell 0775 glacial qui gèle et ralentit les ennemis",
+  "icon": "frost_spell_0775_icon",
+  "school": "frost",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "frost_spell_0775",
+  "range": 12.0,
+  "cast_time": 2000,
+  "cooldown": 8000,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 150,
+    "damage_type": "frost",
+    "scaling": {
+      "intelligence": 1.0,
+      "wisdom": 0.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "frost_spell_0775_damage",
+      "value": 150,
+      "duration": 0,
+      "tick_rate": 0,
+      "cone_angle": 60,
+      "cone_length": 12.0
+    },
+    {
+      "effect_type": "slow",
+      "value": 40,
+      "duration": 6000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "freeze",
+      "value": 0,
+      "duration": 2000,
+      "tick_rate": 0,
+      "proc_chance": 0.4
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "frost_buildup",
+    "breath_effect": "ice_frost_spell_0775",
+    "impact_effect": "frost_shatter",
+    "trail_effect": "cold_mist"
+  },
+  "sound_effects": {
+    "cast_sound": "frost_charge",
+    "breath_sound": "ice_burst",
+    "impact_sound": "glass_crack"
+  },
+  "requirements": {
+    "level": 16,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "mage",
+      "shaman",
+      "druid",
+      "wizard"
+    ]
+  },
+  "upgrades": {
+    "improved_cone_of_cold": {
+      "unlock_level": 26,
+      "description": "Augmente les dégâts et la zone d'effet du cône",
+      "damage_bonus": 50,
+      "cone_angle_increase": 20
+    },
+    "arctic_cone": {
+      "unlock_level": 36,
+      "description": "Le cône applique un effet de gel prolongé",
+      "freeze_duration_bonus": 3000,
+      "freeze_chance_bonus": 0.3
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

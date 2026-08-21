@@ -1,0 +1,61 @@
+{
+  "id": "rogue_spell_1215",
+  "name": "Rogue Spell 1215",
+  "description": "Vous disparaissez dans les ombres, brisant tous les effets de contrôle",
+  "icon": "rogue_spell_1215_icon",
+  "school": "rogue",
+  "rarity": "uncommon",
+  "spell_type": "escape_ability",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 0,
+  "cooldown": 120000,
+  "energy_cost": 25,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "rogue_spell_1215_buff",
+      "value": 1,
+      "duration": 3000,
+      "tick_rate": 0,
+      "break_all_cc": true,
+      "stealth_level": 3,
+      "aggro_reset": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "smoke_burst",
+    "buff_effect": "shadow_form"
+  },
+  "sound_effects": {
+    "cast_sound": "shadow_whisper",
+    "buff_sound": "fade_completely"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "stealth",
+      "shadow_magic"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_vanish": {
+      "unlock_level": 18,
+      "description": "Durée augmentée à 5 secondes",
+      "duration_bonus": 2000
+    },
+    "cloak_of_shadows": {
+      "unlock_level": 30,
+      "description": "Dispelle tous les débuffs magiques",
+      "dispel_magic": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "arts_martiaux_spell_0887",
+  "name": "Arts Martiaux Spell 0887",
+  "description": "Un coup de pied rapide qui peut être utilisé en mouvement et génère beaucoup de ki",
+  "icon": "arts_martiaux_spell_0887_icon",
+  "school": "arts_martiaux",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 8.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 100,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 1.3,
+      "strength": 0.4
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "ki_generation",
+      "value": 25,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "movement_buff",
+      "value": 0.2,
+      "duration": 3000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "serpent_kick",
+    "projectile_effect": "none",
+    "impact_effect": "kick_blur"
+  },
+  "sound_effects": {
+    "cast_sound": "fast_kick",
+    "impact_sound": "quick_impact"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [],
+    "classes": [
+      "monk"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_flying_serpent_kick": {
+      "unlock_level": 15,
+      "description": "Arts Martiaux Spell 0887 génère plus de ki et augmente plus la vitesse",
+      "ki_bonus": 15,
+      "movement_bonus": 0.1
+    },
+    "flying_serpent_kick_mastery": {
+      "unlock_level": 25,
+      "description": "Arts Martiaux Spell 0887 peut être utilisé en l'air",
+      "air_usage": true,
+      "damage_bonus": 50
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

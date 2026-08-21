@@ -1,0 +1,57 @@
+{
+  "id": "summoner_summon_imp",
+  "name": "Invocation d'Impie",
+  "description": "Invoque un familier imp qui combat à vos côtés",
+  "icon": "summon_imp_icon",
+  "category": "combat",
+  "rarity": "common",
+  "ability_type": "summon",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 3000,
+  "cooldown": 20000,
+  "resource_cost": {
+    "type": "mana",
+    "amount": 40
+  },
+  "duration": 300000,
+  "effects": [
+    {
+      "effect_type": "summon_pet",
+      "pet_template_id": "summoned_imp",
+      "pet_level": "caster_level",
+      "pet_duration": 300000,
+      "scaling": {
+        "intelligence": 0.5,
+        "level": 0.8
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "demonic_circle_summon",
+    "summon_effect": "imp_portal_appear",
+    "active_effect": "imp_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "demonic_chant",
+    "summon_sound": "portal_tear",
+    "active_sound": "imp_chatter"
+  },
+  "requirements": {
+    "level": 1,
+    "class": "summoner",
+    "skills": [
+      "summoning_magic"
+    ]
+  },
+  "upgrades": {
+    "improved_imp": {
+      "unlock_level": 15,
+      "description": "Augmente les statistiques de l'imp invoqué",
+      "pet_damage_bonus": 25,
+      "pet_health_bonus": 30
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

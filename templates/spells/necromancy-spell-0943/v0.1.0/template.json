@@ -1,0 +1,74 @@
+{
+  "id": "necromancy_spell_0943",
+  "name": "Necromancy Spell 0943",
+  "description": "Construit un puissant Necromancy Spell 0943 assemblé à partir de fragments squelettiques pour servir de défenseur impitoyable",
+  "icon": "necromancy_spell_0943_icon",
+  "school": "necromancy",
+  "rarity": "epic",
+  "spell_type": "osseous_construct_summon",
+  "target_type": "summon_at_location",
+  "range": 25.0,
+  "cast_time": 6000,
+  "cooldown": 120000,
+  "mana_cost": 180,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "necromancy_spell_0943_smash_necrotic_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "necromancy_spell_0943_construct_formation",
+      "value": 400,
+      "duration": 240000,
+      "tick_rate": 0,
+      "golem_combat_level": 1.2,
+      "bone_shell_armor_rating": 500,
+      "bone_crunch_damage_attacks": 180,
+      "self_repair_capability": true,
+      "intimidation_presence_aura": 15.0,
+      "bone_fragments_damage_on_death": 120
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necromancy_spell_0943_fragments_gathering_whirling_necromancy_spell_0943_tempest_construct_assembly_forming",
+    "summon_effect": "massive_necromancy_spell_0943_rising_necromancy_spell_0943_crunching_interlocking_skeletal_giant_formed",
+    "active_effect": "necromancy_spell_0943_moving_necromancy_spell_0943_crunch_footfalls_necromancy_spell_0943_joints_creaking_defending",
+    "attack_effect": "golem_attacking_necromancy_spell_0943_axes_fists_crashing_massive_necromancy_spell_0943_impact_ground_shaking",
+    "expiration_effect": "necromancy_spell_0943_collapsing_necromancy_spell_0943_fragments_scattering_ground_dissolving_powder_returning_necromancy_spell_0943s"
+  },
+  "sound_effects": {
+    "cast_effect": "necromancy_spell_0943_tempest_whirling_clanking_rattling_necromancy_spell_0943_assembly_groaning_formation",
+    "summon_effect": "golem_rising_mighty_crunch_necromancy_spell_0943_interlocking_massive_structural_complaining",
+    "active_effect": "golem_movement_crunch_clank_footfalls_necromancy_spell_0943_joints_groaning_defensive_posture",
+    "attack_effect": "necromancy_spell_0943_attacks_crunch_slam_impact_massive_ground_shaking_necromancy_spell_0943_shattering",
+    "expiration_effect": "golem_collapse_necromancy_spell_0943_cascade_ground_scattering_final_necromancy_spell_0943_crunch_dissolving"
+  },
+  "requirements": {
+    "level": 50,
+    "skills": [
+      "necromancy",
+      "construct_crafting",
+      "necromancy_spell_0943_artistry"
+    ],
+    "classes": [
+      "necromancer",
+      "necromancy_spell_0943_lord",
+      "construct_master"
+    ],
+    "specializations": [
+      "osseous_golemancy"
+    ]
+  },
+  "upgrades": {
+    "greater_bone_golem": {
+      "unlock_level": 65,
+      "description": "Le Necromancy Spell 0943 devient plus massif avec une armure accrue et des attaques améliorées",
+      "golem_size_multiplier": 1.5,
+      "additional_armor_rating": 300,
+      "bone_weapon_upgrades": true,
+      "multiple_golem_control": 2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

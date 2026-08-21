@@ -1,16 +1,106 @@
 {
-  "id": "hybrid_spell_matrix",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Hybrid Spell Matrix",
-  "description": "A portable consumable component for public template workflows.",
+  "item_id": "hybrid_spell_matrix",
+  "name": "Matrice de Sort Hybride",
+  "description": "Dispositif permettant de combiner deux effets de sorts en un seul avec des conditions d'activation",
+  "icon": "hybrid_spell_matrix_icon",
   "category": "consumable",
   "rarity": "epic",
-  "stack_limit": 10,
-  "weight_kg": 0.1,
-  "tags": [
-    "adapted",
-    "consumable"
+  "item_type": "spell_customization_matrix",
+  "bind_type": "none",
+  "level_required": 50,
+  "durability": {
+    "single_use": true,
+    "charges": 1
+  },
+  "effects": [
+    {
+      "effect_type": "spell_hybrid_combination",
+      "value": 2,
+      "duration": 7200000,
+      "description": "Permet de fusionner deux effets de sorts en un hybride coordonné",
+      "hybrid_mechanics": {
+        "primary_effect_trigger": [
+          "time_based",
+          "damage_threshold",
+          "target_count"
+        ],
+        "secondary_effect_activation": [
+          "conditional",
+          "chained",
+          "simultaneous"
+        ],
+        "combination_types": [
+          "additive",
+          "multiplicative",
+          "conditional"
+        ],
+        "effect_hierarchy": [
+          "primary_domination",
+          "balanced_merge",
+          "secondary_focus"
+        ]
+      },
+      "balance_formula": "complexity_penalty = (effect_count * trigger_complexity) / stability_factor"
+    }
   ],
-  "dependencies": []
+  "usage_instructions": {
+    "cast_time": 20000,
+    "cooldown": 21600000,
+    "target_type": "spell_configuration",
+    "consumable_on_use": true,
+    "customization_context": "applied_during_spell_creation"
+  },
+  "crafting_requirements": {
+    "profession": "magic_crafter",
+    "level_required": 40,
+    "specialization": "hybrid_spell_creation",
+    "materials": [
+      {
+        "material_id": "arcanum_crystal",
+        "quantity": 2
+      },
+      {
+        "material_id": "mirror_essence",
+        "quantity": 1
+      },
+      {
+        "material_id": "resonance_stone",
+        "quantity": 2
+      },
+      {
+        "material_id": "void_weave_thread",
+        "quantity": 5
+      }
+    ],
+    "crafting_time": 300000,
+    "success_rate": 0.5,
+    "batch_production": 1
+  },
+  "spell_customization_data": {
+    "customizable_parameters": [
+      "effect_combination",
+      "trigger_conditions",
+      "activation_sequence"
+    ],
+    "effect_mechanic": "complex_spell_fusion",
+    "balance_tradeoffs": [
+      "mana_drain_increase",
+      "cast_time_penalty",
+      "instability_risk"
+    ],
+    "visual_indicators": [
+      "matrix_grid",
+      "effect_flow_arrows",
+      "trigger_warnings"
+    ],
+    "hybrid_examples": [
+      "Damage-over-time + AOE burst",
+      "Healing + instant heal pulse",
+      "Buff + debuff combination",
+      "Elemental DoT + slow effect"
+    ]
+  },
+  "version": "0.1.0",
+  "id": "hybrid_spell_matrix",
+  "template_type": "item"
 }

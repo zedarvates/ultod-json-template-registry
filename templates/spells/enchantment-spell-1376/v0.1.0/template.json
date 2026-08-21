@@ -1,0 +1,56 @@
+{
+  "id": "enchantment_spell_1376",
+  "name": "Enchantment Spell 1376",
+  "description": "Une créature dans la portée doit réussir un jet de Sagesse ou être enchantment_spell_1376ée par vous pendant 1 heure ou jusqu'à ce que vous ou vos compagnons lui fassiez du mal",
+  "icon": "enchantment_spell_1376_icon",
+  "school": "enchantment",
+  "rarity": "uncommon",
+  "spell_type": "control",
+  "target_type": "single",
+  "range": 9.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "enchantment_spell_1376",
+      "value": 0,
+      "duration": 3600000,
+      "tick_rate": 0,
+      "wisdom_save": true,
+      "save_dc": 13
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "magic_glow",
+    "impact_effect": "heart_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "enchantment_spell_1376ing_whisper"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "enchantment"
+    ],
+    "classes": [
+      "sorcerer",
+      "bard",
+      "druid"
+    ]
+  },
+  "upgrades": {
+    "extended_charm": {
+      "unlock_level": 3,
+      "description": "Augmente la durée à 2 heures",
+      "duration_multiplier": 2.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

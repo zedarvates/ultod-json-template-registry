@@ -1,0 +1,21 @@
+{
+  "id": "half_elf",
+  "name": "Mi-Elfe",
+  "description": "Blend of human and elven traits",
+  "racial_traits": [
+    {
+      "id": "versatile",
+      "name": "Versatile",
+      "bonuses": {
+        "charisma": 1,
+        "perception": 1
+      }
+    }
+  ],
+  "available_classes": [
+    "all"
+  ],
+  "starting_zone": "starter_town",
+  "template_type": "race",
+  "version": "0.1.0"
+}

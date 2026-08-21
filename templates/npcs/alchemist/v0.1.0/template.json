@@ -1,0 +1,264 @@
+{
+  "id": "alchemist",
+  "name": "Alchemist",
+  "description": "Master potion maker specializing in healing and magical brews",
+  "icon": "npcs/alchemist_icon.png",
+  "category": "merchant",
+  "awareness": {
+    "enabled": true,
+    "cognitive_level": "summary",
+    "initial_lod": "distant",
+    "initial_yaw_radians": 0.0,
+    "senses": {
+      "vision_range": 18.0,
+      "hearing_range": 15.0,
+      "tactile_sensitivity": 0.8
+    },
+    "attention": {
+      "capacity": 6,
+      "max_visual_candidates": 16,
+      "max_occlusion_rays": 4
+    },
+    "values": {
+      "nonviolence": 0.8,
+      "fairness": 0.7,
+      "loyalty": 0.5,
+      "honor": 0.7,
+      "compassion": 0.7,
+      "reciprocity": 0.8
+    },
+    "personal_norms": {
+      "property_rights": 0.8,
+      "nonviolence": 0.8,
+      "anti_coercion": 0.8,
+      "dignity": 0.8,
+      "reciprocity": 0.8
+    },
+    "initial_goals": {
+      "self_preservation": 0.8,
+      "possessions": 0.8,
+      "social_standing": 0.8,
+      "protect_others": 0.4,
+      "preserve_order": 0.6,
+      "affiliation": 0.7
+    },
+    "reaction_policy": {
+      "threat_response": "seek_guard",
+      "may_defend": false,
+      "may_retaliate": false
+    }
+  },
+  "rarity": "uncommon",
+  "npc_type": "specialized_merchant",
+  "base_stats": {
+    "level": 14,
+    "hp": 160,
+    "max_hp": 160,
+    "mana": 120,
+    "max_mana": 120,
+    "strength": 10,
+    "dexterity": 14,
+    "intelligence": 18,
+    "wisdom": 16,
+    "constitution": 12,
+    "charisma": 13,
+    "speed": 0.8,
+    "size": 0.9,
+    "weight": 70.0
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_flying": false,
+    "is_aquatic": false,
+    "is_undead": false,
+    "is_elemental": false,
+    "is_mechanical": false,
+    "is_magical": true,
+    "is_divine": false,
+    "is_fiendish": false,
+    "is_wild": false,
+    "is_tameable": false,
+    "is_summonable": false,
+    "is_soulbound": false,
+    "is_cursed": false,
+    "is_blessed": false,
+    "is_poisoned": false,
+    "is_paralyzed": false,
+    "is_silenced": false,
+    "is_blinded": false,
+    "is_deafened": false,
+    "is_charmed": false,
+    "is_frightened": false,
+    "is_confused": false,
+    "is_stunned": false,
+    "is_sleeping": false,
+    "is_invisible": false,
+    "is_invulnerable": false,
+    "is_immortal": false,
+    "is_unique": false,
+    "is_boss": false,
+    "is_mini_boss": false,
+    "is_elite": false,
+    "is_rare": false,
+    "is_common": false,
+    "is_uncommon": true,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "loot_table": {
+    "gold": {
+      "min": 35,
+      "max": 200
+    },
+    "items": [
+      {
+        "item_id": "healing_potion",
+        "chance": 0.4,
+        "min_quantity": 1,
+        "max_quantity": 3
+      },
+      {
+        "item_id": "alchemy_herb",
+        "chance": 0.3,
+        "min_quantity": 1,
+        "max_quantity": 5
+      },
+      {
+        "item_id": "poison_vial",
+        "chance": 0.2,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ]
+  },
+  "ai_behavior": {
+    "wander_chance": 0.03,
+    "wander_range": 2.0,
+    "max_targets": 1,
+    "combat_style": "magic",
+    "preferred_attack": "poison_spit",
+    "patrol_route": [
+      "laboratory",
+      "herb_storage",
+      "potion_display",
+      "laboratory"
+    ],
+    "response_to_crime": "flee_and_call_guards",
+    "ally_detection": "town_residents"
+  },
+  "abilities": [
+    "potion_brewing",
+    "poison_crafting",
+    "herb_knowledge",
+    "alchemical_analysis",
+    "antidote_creation"
+  ],
+  "dialogue": {
+    "greetings": [
+      "Welcome to my laboratory! Need a healing draught?",
+      "The art of alchemy awaits those with patience and gold.",
+      "Beware: not all my potions are for healing!"
+    ],
+    "farewells": [
+      "May your blood remain pure and your potions potent.",
+      "Remember: too much of anything can be poison.",
+      "Come back when you need more... assistance."
+    ],
+    "bargain_success": [
+      "A wise investment in your continued existence!",
+      "Quality potions for quality adventurers!"
+    ],
+    "no_gold": [
+      "Gold is the currency of science, friend.",
+      "I accept only payment in precious metals."
+    ],
+    "potion_advice": [
+      "Healing potions are essential for any adventure.",
+      "Don't mix different potions unless you know what you're doing.",
+      "Some potions have... interesting side effects."
+    ]
+  },
+  "shop_inventory": {
+    "healing": [
+      "lesser_healing_potion",
+      "healing_potion",
+      "greater_healing_potion",
+      "regeneration_potion",
+      "restoration_potion",
+      "antidote"
+    ],
+    "magical": [
+      "mana_potion",
+      "greater_mana_potion",
+      "invisibility_potion",
+      "strength_potion",
+      "agility_potion",
+      "wisdom_potion"
+    ],
+    "poisons": [
+      "weak_poison",
+      "poison",
+      "strong_poison",
+      "lethal_poison",
+      "paralysis_poison",
+      "sleep_poison"
+    ],
+    "ingredients": [
+      "healing_herb",
+      "mandrake_root",
+      "nightshade",
+      "ginseng",
+      "aloe_vera",
+      "holy_water",
+      "crystal_shard"
+    ],
+    "tools": [
+      "alembic",
+      "mortar_and_pestle",
+      "distillation_equipment",
+      "potion_vials",
+      "cauldron",
+      "herb_grinder"
+    ]
+  },
+  "services": {
+    "buy_items": true,
+    "sell_items": true,
+    "repair_equipment": false,
+    "identify_items": true,
+    "appraisal_service": true,
+    "custom_crafting": true,
+    "poison_neutralization": true,
+    "potion_identification": true
+  },
+  "schedule": {
+    "day": {
+      "07:00": "herb_preparation",
+      "08:00": "open_laboratory",
+      "10:00": "potion_brewing",
+      "12:00": "lunch_break",
+      "13:00": "customer_service",
+      "15:00": "experimental_potions",
+      "18:00": "close_laboratory",
+      "19:00": "evening_research"
+    },
+    "night": {
+      "19:00": "advanced_experiments",
+      "22:00": "rest",
+      "05:00": "prepare_morning_supplies"
+    }
+  },
+  "resistances": {
+    "physical": 0.0,
+    "fire": 0.1,
+    "ice": 0.0,
+    "lightning": 0.0,
+    "poison": 0.5
+  },
+  "weaknesses": [
+    "lightning",
+    "physical"
+  ],
+  "version": "0.1.0",
+  "template_type": "npc"
+}

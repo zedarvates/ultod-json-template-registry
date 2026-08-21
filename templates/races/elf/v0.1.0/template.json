@@ -1,0 +1,76 @@
+{
+  "id": "elf",
+  "name": "Elfe",
+  "description": "Créatures gracieuses et longévives, connectées à la nature",
+  "racial_traits": [
+    {
+      "id": "grace",
+      "name": "Grâce Naturelle",
+      "description": "+15% vitesse de déplacement, +10% esquive",
+      "bonuses": {
+        "strength": 0,
+        "dexterity": 3,
+        "constitution": 0,
+        "intelligence": 1,
+        "wisdom": 2,
+        "charisma": 2,
+        "experience_multiplier": 1.0
+      }
+    },
+    {
+      "id": "nature_attunement",
+      "name": "Harmonie Naturelle",
+      "description": "+20% efficacité des sorts de nature, régénération passive",
+      "bonuses": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 3,
+        "charisma": 0,
+        "experience_multiplier": 1.0
+      }
+    },
+    {
+      "id": "longevity",
+      "name": "Longévité",
+      "description": "+25% durée de vie, résistance aux maladies",
+      "bonuses": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 2,
+        "intelligence": 2,
+        "wisdom": 1,
+        "charisma": 1,
+        "experience_multiplier": 1.0
+      }
+    }
+  ],
+  "available_classes": [
+    "mage",
+    "rogue",
+    "priest",
+    "hunter"
+  ],
+  "starting_zone": "elven_forest",
+  "appearance_options": {
+    "hair_colors": [
+      "blanc",
+      "argent",
+      "doré",
+      "noir"
+    ],
+    "skin_tones": [
+      "pâle",
+      "albâtre",
+      "doré"
+    ],
+    "body_types": [
+      "svelte",
+      "élancé",
+      "gracile"
+    ]
+  },
+  "template_type": "race",
+  "version": "0.1.0"
+}

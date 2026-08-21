@@ -1,0 +1,249 @@
+{
+  "event_id": "temporal_crisis",
+  "event_name": "Crise Temporelle",
+  "description": "Une disturbance majeure dans le flux du temps qui menace l'existence même de la réalité",
+  "event_type": "world_event",
+  "rarity": "mythic",
+  "event_scale": "worldwide",
+  "trigger_conditions": {
+    "player_level_min": 50,
+    "temporal_crisis_progression": 80,
+    "time_since_last_crisis_hours": 720,
+    "participation_threshold": 10
+  },
+  "event_phases": [
+    {
+      "phase": 1,
+      "name": "La Première Faille",
+      "duration_minutes": 30,
+      "description": "De petites failles temporelles apparaissent à travers le monde",
+      "effects": {
+        "time_distortion_zones": {
+          "spawn_rate": 5,
+          "duration": 1800000,
+          "effects": {
+            "time_acceleration": 1.5,
+            "temporal_rifts": true,
+            "time_echo_monsters": true
+          }
+        },
+        "reality_glitches": {
+          "frequency": "random",
+          "effects": [
+            "invisible_walls",
+            "floating_objects",
+            "gravity_changes"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "seal_temporal_rifts",
+          "target_count": 20,
+          "description": "Sceller 20 failles temporelles"
+        },
+        {
+          "type": "collect_temporal_essence",
+          "target_count": 100,
+          "description": "Collecter 100 essences temporelles"
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "name": "L'Effondrement du Temps",
+      "duration_minutes": 45,
+      "description": "Le temps commence à s'effondrer, causant des paradoxes et des boucles",
+      "effects": {
+        "time_loops": {
+          "affected_areas": [
+            "major_cities",
+            "dungeon_entrances"
+          ],
+          "loop_duration": 600000,
+          "break_conditions": [
+            "temporal_anchor_placement"
+          ]
+        },
+        "paradox_events": {
+          "spawn_rate": 3,
+          "duration": 300000,
+          "effects": [
+            "duplicate_players",
+            "time_reversed_combat",
+            "future_threats"
+          ]
+        },
+        "temporal_monster_surge": {
+          "time_elementals": 15,
+          "chronal_wraiths": 10,
+          "temporal_guardians": 3,
+          "temporal_dragons": 1
+        }
+      },
+      "objectives": [
+        {
+          "type": "stabilize_time_anchors",
+          "target_count": 5,
+          "description": "Stabiliser 5 ancrages temporels"
+        },
+        {
+          "type": "defeat_temporal_manifestations",
+          "monster_counts": {
+            "time_elementals": 10,
+            "chronal_wraiths": 5,
+            "temporal_guardians": 1
+          },
+          "description": "Vaincre les manifestations temporelles"
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "name": "La Renaissance Temporelle",
+      "duration_minutes": 60,
+      "description": "La reconstruction du temps avec l'aide des joueurs",
+      "effects": {
+        "reality_restoration": {
+          "healing_zones": true,
+          "temporal_amplification": 2.0,
+          "reality_stabilization": true
+        },
+        "ancient_temporal_powers": {
+          "temporal_dragon_emergence": true,
+          "chronomancer_master_appearance": true,
+          "time_sovereign_proof": true
+        },
+        "event_culmination": {
+          "reality_save_attempt": true,
+          "temporal_convergence": true,
+          "world_stabilization": true
+        }
+      },
+      "objectives": [
+        {
+          "type": "participate_in_reality_restoration",
+          "description": "Participer à la restauration de la réalité"
+        },
+        {
+          "type": "assist_temporal_dragon",
+          "description": "Assister le Dragon Temporel dans la stabilisation"
+        },
+        {
+          "type": "complete_final_challenge",
+          "challenge_type": "temporal_mastery_test",
+          "description": "Réussir l'Épreuve Finale de Maîtrise Temporelle"
+        }
+      ]
+    }
+  ],
+  "rewards": {
+    "individual_rewards": {
+      "participation_bonus": {
+        "experience": 5000,
+        "temporal_essence": 50,
+        "reality_crystal": 5
+      },
+      "phase_completion": {
+        "phase_1": {
+          "experience": 10000,
+          "temporal_mastery_token": 2
+        },
+        "phase_2": {
+          "experience": 20000,
+          "reality_anchor_device": 1
+        },
+        "phase_3": {
+          "experience": 50000,
+          "temporal_sovereign_crown_fragment": 1
+        }
+      },
+      "event_completion": {
+        "experience": 100000,
+        "gold": 50000,
+        "unique_items": [
+          "temporal_crisis_survivor",
+          "reality_shaper_achievement"
+        ],
+        "permanent_bonuses": {
+          "temporal_resistance": 0.2,
+          "time_manipulation_effectiveness": 0.15
+        },
+        "unlocks": [
+          "advanced_temporal_abilities",
+          "temporal_dragon_alliance"
+        ]
+      }
+    },
+    "world_rewards": {
+      "temporal_stability": {
+        "duration_days": 30,
+        "effects": {
+          "temporal_spell_effectiveness": 1.1,
+          "time_based_crafting_speed": 1.2,
+          "temporal_monster_spawn_rate": 0.8
+        }
+      }
+    }
+  },
+  "special_mechanics": {
+    "time_paradox_prevention": {
+      "enabled": true,
+      "max_simultaneous_players": 100,
+      "paradox_tolerance": 5,
+      "reality_stability_threshold": 0.7
+    },
+    "temporal_dragons_appearance": {
+      "trigger": "phase_3_start",
+      "conditions": [
+        "high_participation",
+        "successful_phase_2"
+      ],
+      "duration": "until_event_end",
+      "assistance_required": true
+    },
+    "reality_anchoring_system": {
+      "anchor_placement": "player_action_required",
+      "anchor_count_needed": 5,
+      "anchor_effect_duration": 1800000
+    }
+  },
+  "technical_settings": {
+    "server_impact": {
+      "cpu_load_multiplier": 1.5,
+      "memory_usage_multiplier": 1.3,
+      "network_traffic_multiplier": 2.0
+    },
+    "optimization": {
+      "client_culling_distance": 2000,
+      "temporal_effect_culling": true,
+      "efficient_paradox_simulation": true
+    }
+  },
+  "integration_points": {
+    "quest_system": {
+      "prerequisite_quests": [
+        "temporal_mysteries_awakening"
+      ],
+      "quest_chain_unlocks": [
+        "reality_crisis_response"
+      ]
+    },
+    "profession_system": {
+      "chronomancer_advancement": true,
+      "temporal_crafting_challenges": true
+    },
+    "monster_system": {
+      "temporal_monster_apocalypse": true,
+      "boss_encounters": true
+    },
+    "item_system": {
+      "reality_crisis_rewards": true,
+      "temporal_artifact_drops": true
+    }
+  },
+  "version": "0.1.0",
+  "id": "temporal_crisis",
+  "name": "Temporal Crisis",
+  "template_type": "event"
+}

@@ -1,0 +1,176 @@
+{
+  "profession": "engineering",
+  "display_name": "Ingénierie",
+  "description": "Création de gadgets mécaniques, d'explosifs et de divers appareillages technologiques avancés",
+  "icon_path": "icons/professions/engineer.png",
+  "category": "production",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "alarm_clock",
+      "name": "Réveil automatique",
+      "description": "Gadget qui sonne automatiquement à l'heure programmée",
+      "profession": "engineering",
+      "difficulty": 35,
+      "base_success_rate": 0.5,
+      "skill_required": 40,
+      "experience_gain": 25,
+      "exceptional_chance": 0.05,
+      "time_required_seconds": 180,
+      "components": [
+        {
+          "item_type": "iron_gears",
+          "quantity": 2,
+          "quality_required": "standard",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "clockspring_coil",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "copper_wiring",
+          "quantity": 5,
+          "quality_required": "standard",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "alarm_clock",
+          "name": "Réveil automatique",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.0,
+          "durability_modifier": 1.0
+        }
+      ],
+      "conditions": {
+        "profession_level": 10,
+        "required_tools": [
+          "workbench",
+          "precision_tools"
+        ],
+        "environmental_factors": [
+          "indoor_workshop"
+        ]
+      }
+    },
+    {
+      "id": "black_powder",
+      "name": "Poudre noire",
+      "description": "Composé explosif basique pour fusées et munitions",
+      "profession": "engineering",
+      "difficulty": 60,
+      "base_success_rate": 0.4,
+      "skill_required": 80,
+      "experience_gain": 40,
+      "exceptional_chance": 0.02,
+      "time_required_seconds": 300,
+      "components": [
+        {
+          "item_type": "sulfur_crystal",
+          "quantity": 2,
+          "quality_required": "pure",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "potassium_nitrate",
+          "quantity": 3,
+          "quality_required": "refined",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "charcoal_powder",
+          "quantity": 4,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "black_powder",
+          "name": "Poudre noire",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.0,
+          "durability_modifier": 0.8
+        }
+      ],
+      "conditions": {
+        "profession_level": 20,
+        "required_tools": [
+          "mortar_pestle",
+          "safety_equipment"
+        ],
+        "environmental_factors": [
+          "explosive_laboratory"
+        ]
+      }
+    },
+    {
+      "id": "dimensional_shift_device",
+      "name": "Dispositif de changement dimensionnel",
+      "description": "Appareillage permettant de translater des objets entre les plans",
+      "profession": "engineering",
+      "difficulty": 95,
+      "base_success_rate": 0.2,
+      "skill_required": 100,
+      "experience_gain": 75,
+      "exceptional_chance": 0.01,
+      "time_required_seconds": 900,
+      "components": [
+        {
+          "item_type": "etherium_crystal",
+          "quantity": 5,
+          "quality_required": "perfect",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "magical_conduits",
+          "quantity": 8,
+          "quality_required": "enchanted",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "arcane_stabilizers",
+          "quantity": 3,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "dimensional_shift_device",
+          "name": "Dispositif de changement dimensionnel",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.5,
+          "durability_modifier": 0.6
+        }
+      ],
+      "conditions": {
+        "profession_level": 50,
+        "required_tools": [
+          "etherium_processor",
+          "magical_shielding"
+        ],
+        "environmental_factors": [
+          "dimensional_workshop"
+        ]
+      }
+    }
+  ],
+  "specializations": [
+    "gadgets_mastery",
+    "explosives_expert",
+    "siege_engines",
+    "dimensional_technology"
+  ],
+  "id": "engineering",
+  "name": "Engineering",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

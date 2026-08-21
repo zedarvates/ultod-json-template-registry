@@ -1,0 +1,51 @@
+{
+  "id": "summoned_fiend_creature_0356",
+  "name": "Summoned Fiend Creature 0356",
+  "description": "Familier démoniaque temporaire lié à son invocateur.",
+  "category": "summoned_fiend_creature_0356_fiend",
+  "rarity": "common",
+  "base_stats": {
+    "health": 140,
+    "mana": 120,
+    "strength": 8,
+    "dexterity": 18,
+    "intelligence": 24,
+    "wisdom": 12,
+    "constitution": 12,
+    "charisma": 8
+  },
+  "properties": {
+    "is_aggressive": true,
+    "is_wild": false,
+    "size": "small",
+    "speed": 7.0
+  },
+  "loot_table": {
+    "common_drops": [],
+    "rare_drops": [],
+    "epic_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "controlled",
+    "attack_pattern": "owner_target_ranged",
+    "special_abilities": [
+      "fire_bolt"
+    ]
+  },
+  "abilities": [
+    "fire_bolt"
+  ],
+  "resistances": {
+    "fire": 35
+  },
+  "weaknesses": [
+    "holy"
+  ],
+  "summon": {
+    "temporary": true,
+    "requires_owner": true,
+    "default_duration_ms": 300000
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

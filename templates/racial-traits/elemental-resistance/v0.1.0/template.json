@@ -1,0 +1,25 @@
+{
+  "id": "elemental_resistance",
+  "name": "Résistance Élémentaire",
+  "description": "Résistance naturelle aux éléments de base",
+  "icon": "elemental_resistance_icon",
+  "category": "defensive",
+  "rarity": "uncommon",
+  "stat_modifiers": {
+    "fire_resistance": 0.25,
+    "cold_resistance": 0.25,
+    "lightning_resistance": 0.25
+  },
+  "passive_effects": [
+    {
+      "id": "elemental_shield",
+      "name": "Bouclier Élémentaire",
+      "description": "Réduit les dégâts élémentaires de 25%",
+      "modifier_type": "elemental_damage_reduction",
+      "value": 25.0
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

@@ -1,16 +1,33 @@
 {
   "id": "training_staff",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Training Staff",
-  "description": "A portable weapon component for public template workflows.",
+  "name": "Baton d'Apprenti",
+  "description": "Baton d'entrainement renforce pour canaliser les premiers sorts.",
+  "icon": "training_staff",
   "category": "weapon",
   "rarity": "common",
-  "stack_limit": 10,
-  "weight_kg": 2.5,
-  "tags": [
-    "adapted",
-    "weapon"
-  ],
-  "dependencies": []
+  "item_type": "staff",
+  "sub_type": "two_hand",
+  "base_stats": {
+    "durability": 60,
+    "max_durability": 60,
+    "weight": 2.5,
+    "value": 60
+  },
+  "weapon_properties": {
+    "damage": 8,
+    "damage_type": "arcane",
+    "attack_speed": 1.1,
+    "range": 2.0,
+    "two_handed": true
+  },
+  "properties": {
+    "stackable": false,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 1
+  },
+  "template_type": "item",
+  "version": "0.1.0"
 }

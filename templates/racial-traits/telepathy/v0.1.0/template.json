@@ -1,0 +1,45 @@
+{
+  "id": "telepathy",
+  "name": "Télépathie",
+  "description": "Capacité à communiquer par l'esprit et lire les pensées superficielles",
+  "icon": "telepathy_icon",
+  "category": "social",
+  "rarity": "epic",
+  "stat_modifiers": {
+    "charisma": 0.2,
+    "intelligence": 0.15,
+    "wisdom": 0.25
+  },
+  "passive_effects": [
+    {
+      "id": "mind_reading",
+      "name": "Lecture d'Esprit",
+      "description": "Peut détecter les intentions hostiles et lire les pensées superficielles",
+      "modifier_type": "mind_reading_range",
+      "value": 10.0
+    },
+    {
+      "id": "mental_communication",
+      "name": "Communication Mentale",
+      "description": "Peut communiquer silencieusement avec les alliés",
+      "modifier_type": "telepathic_range",
+      "value": 50.0
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "mind_probe",
+      "name": "Sonde Mentale",
+      "description": "Sonde l'esprit d'une cible pour révéler ses secrets",
+      "cooldown": 300000,
+      "duration": 10000,
+      "effects": {
+        "reveal_hidden": true,
+        "detect_lies": true
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

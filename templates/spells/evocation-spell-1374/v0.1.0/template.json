@@ -1,0 +1,49 @@
+{
+  "id": "evocation_spell_1374",
+  "name": "Evocation Spell 1374",
+  "description": "Un éventail de flammes jaillit de vos mains tendues, infligeant 3d6 dégâts de feu à toutes les créatures dans un cône de 4,5 mètres",
+  "icon": "evocation_spell_1374_icon",
+  "school": "evocation",
+  "rarity": "common",
+  "spell_type": "area_damage",
+  "target_type": "cone",
+  "range": 4.5,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 18,
+    "damage_type": "fire",
+    "aoe_radius": 4.5
+  },
+  "effects": [
+    {
+      "effect_type": "fire_cone",
+      "value": 18,
+      "duration": 0,
+      "tick_rate": 0,
+      "dexterity_save": true,
+      "save_dc": 13
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fire_burst",
+    "projectile_effect": "flame_wave"
+  },
+  "sound_effects": {
+    "cast_sound": "fire_whoosh"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,570 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-11-14",
+    "description": "RTS Building Templates - Production, defense, and utility structures for the hybrid MMORPG-RTS system",
+    "author": "UOVR Development Team",
+    "category": "RTS Systems",
+    "dependencies": [
+      "resources",
+      "technologies",
+      "terrain"
+    ]
+  },
+  "building_categories": {
+    "production": {
+      "description": "Buildings that generate or process resources",
+      "color_code": "#4CAF50",
+      "priority": 1
+    },
+    "defensive": {
+      "description": "Buildings that provide defense and protection",
+      "color_code": "#F44336",
+      "priority": 2
+    },
+    "utility": {
+      "description": "Buildings that provide utility functions and support",
+      "color_code": "#2196F3",
+      "priority": 3
+    },
+    "special": {
+      "description": "Unique buildings with special abilities or functions",
+      "color_code": "#9C27B0",
+      "priority": 4
+    }
+  },
+  "buildings": {
+    "town_center": {
+      "id": "town_center_basic",
+      "name": "Town Center",
+      "category": "production",
+      "description": "Central command building providing population, basic research, and resource gathering commands",
+      "tier": 1,
+      "cost": {
+        "gold": 500,
+        "wood": 200,
+        "stone": 150
+      },
+      "construction": {
+        "build_time_seconds": 60,
+        "required_terrain": [
+          "grass",
+          "dirt",
+          "sand"
+        ],
+        "collision_radius": 4.0,
+        "footprint": {
+          "width": 8,
+          "height": 8
+        }
+      },
+      "stats": {
+        "health": 1000,
+        "armor": 5,
+        "line_of_sight": 15,
+        "population_cap": 5
+      },
+      "capabilities": {
+        "produces": [
+          "worker_units"
+        ],
+        "researches": [
+          "basic_economy",
+          "basic_military"
+        ],
+        "provides": [
+          "resource_depot"
+        ],
+        "max_level": 3
+      },
+      "upgrades": [
+        "town_center_advanced"
+      ],
+      "required_technology": null,
+      "model_3d": "town_center.obj",
+      "building_effects": {
+        "resource_bonuses": {
+          "gold_gather_rate": 0.1,
+          "wood_gather_rate": 0.1
+        },
+        "aura_effects": {
+          "nearby_units": {
+            "work_speed": 0.05
+          }
+        }
+      }
+    },
+    "mine": {
+      "id": "mine_copper",
+      "name": "Copper Mine",
+      "category": "production",
+      "description": "Extracts copper ore from mineral deposits",
+      "tier": 1,
+      "cost": {
+        "gold": 100,
+        "wood": 50
+      },
+      "construction": {
+        "build_time_seconds": 30,
+        "required_terrain": [
+          "mountain",
+          "cliff"
+        ],
+        "collision_radius": 2.0,
+        "footprint": {
+          "width": 4,
+          "height": 4
+        }
+      },
+      "stats": {
+        "health": 500,
+        "armor": 0,
+        "line_of_sight": 8
+      },
+      "capabilities": {
+        "produces": [
+          "copper_ore"
+        ],
+        "production_rate": 5,
+        "max_workers": 3,
+        "provides": [
+          "resource_dropoff"
+        ]
+      },
+      "upgrades": [
+        "mine_iron",
+        "mine_gold"
+      ],
+      "required_technology": null
+    },
+    "farm": {
+      "id": "farm_basic",
+      "name": "Farm",
+      "category": "production",
+      "description": "Produces food for population sustenance",
+      "tier": 1,
+      "cost": {
+        "gold": 50,
+        "wood": 75
+      },
+      "construction": {
+        "build_time_seconds": 25,
+        "required_terrain": [
+          "grass",
+          "dirt",
+          "plains"
+        ],
+        "collision_radius": 1.5,
+        "footprint": {
+          "width": 6,
+          "height": 4
+        }
+      },
+      "stats": {
+        "health": 300,
+        "armor": 0,
+        "line_of_sight": 6
+      },
+      "capabilities": {
+        "produces": [
+          "food"
+        ],
+        "production_rate": 3,
+        "max_farmers": 5,
+        "harvesting_cycle_seconds": 60
+      },
+      "upgrades": [
+        "farm_advanced",
+        "mill"
+      ],
+      "required_technology": null
+    },
+    "watchtower": {
+      "id": "watchtower_basic",
+      "name": "Watchtower",
+      "category": "defensive",
+      "description": "Provides vision and basic ranged defense",
+      "tier": 1,
+      "cost": {
+        "gold": 100,
+        "wood": 100,
+        "stone": 50
+      },
+      "construction": {
+        "build_time_seconds": 40,
+        "required_terrain": [
+          "grass",
+          "dirt",
+          "mountain"
+        ],
+        "collision_radius": 1.0,
+        "footprint": {
+          "width": 2,
+          "height": 2
+        },
+        "max_height": 10
+      },
+      "stats": {
+        "health": 600,
+        "armor": 2,
+        "line_of_sight": 20
+      },
+      "capabilities": {
+        "attacks": {
+          "damage_type": "piercing",
+          "damage": 10,
+          "attack_speed": 2.0,
+          "range": 12,
+          "projectile_speed": 15
+        },
+        "detection": {
+          "stealth_detection": true,
+          "invisible_detection": true
+        }
+      },
+      "upgrades": [
+        "watchtower_advanced",
+        "guard_tower"
+      ],
+      "required_technology": "basic_ranged_weapons"
+    },
+    "wall": {
+      "id": "wall_wooden",
+      "name": "Wooden Wall",
+      "category": "defensive",
+      "description": "Basic wooden defensive barrier",
+      "tier": 1,
+      "cost": {
+        "gold": 10,
+        "wood": 25
+      },
+      "construction": {
+        "build_time_seconds": 10,
+        "required_terrain": [
+          "grass",
+          "dirt"
+        ],
+        "collision_radius": 0.5,
+        "connectable": true,
+        "footprint": {
+          "width": 1,
+          "height": 1
+        }
+      },
+      "stats": {
+        "health": 200,
+        "armor": 1
+      },
+      "capabilities": {
+        "blocks_movement": true,
+        "blocks_projectiles": false,
+        "provides_cover": true
+      },
+      "upgrades": [
+        "wall_stone",
+        "wall_iron"
+      ],
+      "required_technology": null
+    },
+    "barracks": {
+      "id": "barracks_basic",
+      "name": "Barracks",
+      "category": "production",
+      "description": "Trains basic military units",
+      "tier": 1,
+      "cost": {
+        "gold": 200,
+        "wood": 150
+      },
+      "construction": {
+        "build_time_seconds": 45,
+        "required_terrain": [
+          "grass",
+          "dirt"
+        ],
+        "collision_radius": 2.5,
+        "footprint": {
+          "width": 5,
+          "height": 5
+        }
+      },
+      "stats": {
+        "health": 800,
+        "armor": 3,
+        "line_of_sight": 12
+      },
+      "capabilities": {
+        "produces": [
+          "militia",
+          "swordsman",
+          "spearmen",
+          "archer"
+        ],
+        "queue_size": 5,
+        "researches": [
+          "basic_training",
+          "formation_tactics"
+        ]
+      },
+      "upgrades": [
+        "barracks_advanced"
+      ],
+      "required_technology": null
+    },
+    "storage_depot": {
+      "id": "storage_depot_basic",
+      "name": "Storage Depot",
+      "category": "utility",
+      "description": "Provides additional resource storage capacity",
+      "tier": 1,
+      "cost": {
+        "gold": 150,
+        "wood": 100
+      },
+      "construction": {
+        "build_time_seconds": 35,
+        "required_terrain": [
+          "grass",
+          "dirt"
+        ],
+        "collision_radius": 2.0,
+        "footprint": {
+          "width": 4,
+          "height": 4
+        }
+      },
+      "stats": {
+        "health": 400,
+        "armor": 1,
+        "line_of_sight": 8
+      },
+      "capabilities": {
+        "storage_capacity": {
+          "food": 200,
+          "wood": 200,
+          "gold": 100,
+          "stone": 150
+        },
+        "provides": [
+          "resource_dropoff"
+        ]
+      },
+      "upgrades": [
+        "storage_depot_large",
+        "warehouse"
+      ],
+      "required_technology": null
+    },
+    "portal_gate": {
+      "id": "portal_gate_basic",
+      "name": "Portal Gate",
+      "category": "special",
+      "description": "Magical portal for instant unit teleportation",
+      "tier": 2,
+      "cost": {
+        "gold": 1000,
+        "crystal": 200,
+        "mana_stone": 50
+      },
+      "construction": {
+        "build_time_seconds": 120,
+        "required_terrain": [
+          "grass",
+          "dirt"
+        ],
+        "collision_radius": 3.0,
+        "footprint": {
+          "width": 6,
+          "height": 6
+        }
+      },
+      "stats": {
+        "health": 1500,
+        "armor": 5,
+        "line_of_sight": 18
+      },
+      "capabilities": {
+        "teleport_range": 100,
+        "cooldown_seconds": 30,
+        "max_units_per_cast": 10,
+        "mana_cost": 50,
+        "special_abilities": [
+          "mass_teleport",
+          "strategic_recall"
+        ]
+      },
+      "required_technology": "magical_transportation",
+      "model_3d": "portal_gate.obj",
+      "building_effects": {
+        "aura_effects": {
+          "nearby_units": {
+            "mana_regeneration": 0.5
+          }
+        }
+      }
+    },
+    "siege_workshop": {
+      "id": "siege_workshop_basic",
+      "name": "Siege Workshop",
+      "category": "production",
+      "description": "Builds siege engines and heavy machinery",
+      "tier": 2,
+      "cost": {
+        "gold": 300,
+        "wood": 250,
+        "metal": 100
+      },
+      "construction": {
+        "build_time_seconds": 80,
+        "required_terrain": [
+          "grass",
+          "dirt"
+        ],
+        "collision_radius": 3.0,
+        "footprint": {
+          "width": 6,
+          "height": 6
+        }
+      },
+      "stats": {
+        "health": 1000,
+        "armor": 4,
+        "line_of_sight": 14
+      },
+      "capabilities": {
+        "produces": [
+          "catapult",
+          "battering_ram",
+          "siege_tower"
+        ],
+        "researches": [
+          "siege_engineering",
+          "advanced_battering"
+        ]
+      },
+      "upgrades": [
+        "siege_workshop_advanced"
+      ],
+      "required_technology": "smithing"
+    },
+    "guild_hall": {
+      "id": "guild_hall_basic",
+      "name": "Guild Hall",
+      "category": "special",
+      "description": "Central hub for guild activities and management",
+      "tier": 3,
+      "cost": {
+        "gold": 2000,
+        "wood": 500,
+        "stone": 300,
+        "crystal": 100
+      },
+      "construction": {
+        "build_time_seconds": 180,
+        "required_terrain": [
+          "grass",
+          "dirt"
+        ],
+        "collision_radius": 4.0,
+        "footprint": {
+          "width": 8,
+          "height": 8
+        }
+      },
+      "stats": {
+        "health": 3000,
+        "armor": 8,
+        "line_of_sight": 25
+      },
+      "capabilities": {
+        "guild_features": {
+          "shared_resources": true,
+          "guild_quests": true,
+          "guild_battles": true,
+          "member_management": true
+        },
+        "produces": [
+          "guild_heroes",
+          "guild_summons"
+        ],
+        "special_abilities": [
+          "guild_rally",
+          "emergency_recall"
+        ],
+        "max_guild_members": 50
+      },
+      "required_technology": "guild_systems",
+      "model_3d": "guild_hall.obj",
+      "building_effects": {
+        "aura_effects": {
+          "guild_members": {
+            "experience_rate": 0.1,
+            "resource_bonuses": {
+              "gold": 0.05,
+              "mana": 0.1
+            }
+          }
+        }
+      }
+    }
+  },
+  "building_upgrades": {
+    "town_center_advanced": {
+      "from_building": "town_center_basic",
+      "cost": {
+        "gold": 1000,
+        "stone": 200,
+        "crystal": 50
+      },
+      "upgrade_time_seconds": 90,
+      "new_capabilities": {
+        "population_cap": 10,
+        "researches": [
+          "advanced_economy",
+          "basic_magic"
+        ]
+      },
+      "stat_bonuses": {
+        "health": 500,
+        "armor": 2
+      }
+    },
+    "mine_iron": {
+      "from_building": "mine_copper",
+      "cost": {
+        "gold": 300,
+        "stone": 100,
+        "metal": 50
+      },
+      "upgrade_time_seconds": 60,
+      "new_capabilities": {
+        "produces": [
+          "iron_ore"
+        ],
+        "production_rate": 4,
+        "max_workers": 4
+      }
+    }
+  },
+  "global_building_modifiers": {
+    "construction_speed_multipliers": {
+      "near_town_center": 1.5,
+      "worker_experience": 0.01,
+      "technology_bonuses": 0.1
+    },
+    "building_limits": {
+      "max_per_player": {
+        "town_center": 1,
+        "mine": 10,
+        "farm": 15,
+        "watchtower": 20,
+        "barracks": 3,
+        "portal_gate": 2
+      }
+    }
+  },
+  "id": "buildings",
+  "name": "Buildings",
+  "template_type": "rt",
+  "version": "0.1.0"
+}

@@ -1,0 +1,527 @@
+{
+  "id": "blacksmithy",
+  "name": "Blacksmithy",
+  "description": "Master the ancient art of forging metal into weapons, armor, and intricate metalwork",
+  "category": "trade",
+  "skill_type": "crafting_mastery",
+  "base_gain_chance": 0.3,
+  "gain_rate": 1.0,
+  "skill_cap": 100.0,
+  "real_skill_cap": 700.0,
+  "stat_dependencies": [
+    "strength",
+    "intelligence"
+  ],
+  "stat_multipliers": {
+    "strength": 0.6,
+    "intelligence": 0.4
+  },
+  "craftable_items": {
+    "weapons": {
+      "categories": [
+        "swords",
+        "axes",
+        "hammers",
+        "daggers",
+        "polearms",
+        "spears"
+      ],
+      "quality_levels": [
+        "crude",
+        "normal",
+        "fine",
+        "exceptional",
+        "masterwork",
+        "legendary"
+      ],
+      "rarity_weights": {
+        "common": 0.6,
+        "uncommon": 0.3,
+        "rare": 0.08,
+        "epic": 0.015,
+        "legendary": 0.005
+      }
+    },
+    "armor": {
+      "categories": [
+        "helmets",
+        "chestpieces",
+        "gauntlets",
+        "boots",
+        "shields",
+        "cloaks"
+      ],
+      "quality_levels": [
+        "crude",
+        "normal",
+        "fine",
+        "exceptional",
+        "masterwork",
+        "legendary"
+      ],
+      "rarity_weights": {
+        "common": 0.6,
+        "uncommon": 0.3,
+        "rare": 0.08,
+        "epic": 0.015,
+        "legendary": 0.005
+      }
+    },
+    "tools": {
+      "categories": [
+        "mining_tools",
+        "crafting_tools",
+        "weapon_tools",
+        "armor_tools",
+        "utility_tools"
+      ],
+      "quality_levels": [
+        "basic",
+        "standard",
+        "reinforced",
+        "masterwork"
+      ],
+      "rarity_weights": {
+        "common": 0.7,
+        "uncommon": 0.25,
+        "rare": 0.04,
+        "epic": 0.01
+      }
+    },
+    "decorative_items": {
+      "categories": [
+        "furniture",
+        "ornaments",
+        "statues",
+        "banners",
+        "signs"
+      ],
+      "quality_levels": [
+        "simple",
+        "ornate",
+        "masterpiece"
+      ],
+      "rarity_weights": {
+        "common": 0.8,
+        "uncommon": 0.15,
+        "rare": 0.04,
+        "epic": 0.01
+      }
+    },
+    "jewelry": {
+      "categories": [
+        "rings",
+        "necklaces",
+        "bracelets",
+        "amulets"
+      ],
+      "quality_levels": [
+        "basic",
+        "enchanted",
+        "runed",
+        "divine"
+      ],
+      "rarity_weights": {
+        "common": 0.5,
+        "uncommon": 0.3,
+        "rare": 0.15,
+        "epic": 0.04,
+        "legendary": 0.01
+      }
+    },
+    "mechanical_parts": {
+      "categories": [
+        "gears",
+        "springs",
+        "levers",
+        "bearings",
+        "pistons"
+      ],
+      "quality_levels": [
+        "standard",
+        "precision",
+        "high_precision"
+      ],
+      "rarity_weights": {
+        "common": 0.7,
+        "uncommon": 0.25,
+        "rare": 0.05
+      }
+    }
+  },
+  "training_methods": {
+    "crafting_items": {
+      "gain_multiplier": 1.0,
+      "requirements": [
+        "forge",
+        "anvil",
+        "materials",
+        "tools"
+      ],
+      "description": "Craft actual items to gain skill"
+    },
+    "repairing_items": {
+      "gain_multiplier": 0.8,
+      "requirements": [
+        "damaged_items",
+        "repair_tools",
+        "materials"
+      ],
+      "description": "Repair damaged items to improve skill"
+    },
+    "salvaging_items": {
+      "gain_multiplier": 0.6,
+      "requirements": [
+        "scrap_metal",
+        "salvage_tools",
+        "forge"
+      ],
+      "description": "Break down old items for materials and skill"
+    },
+    "apprenticeship": {
+      "gain_multiplier": 1.2,
+      "requirements": [
+        "master_blacksmith",
+        "workshop",
+        "guidance"
+      ],
+      "description": "Learn under the guidance of a master"
+    }
+  },
+  "special_techniques": [
+    {
+      "name": "Power Crafting",
+      "unlock_level": 40,
+      "description": "Craft items with increased speed and efficiency",
+      "effects": [
+        "crafting_speed",
+        "material_efficiency"
+      ],
+      "requirements": [
+        "skill_level",
+        "stamina"
+      ],
+      "cooldown": 0
+    },
+    {
+      "name": "Quality Improvement",
+      "unlock_level": 50,
+      "description": "Increase the quality of crafted items",
+      "effects": [
+        "quality_bonus",
+        "durability_bonus"
+      ],
+      "requirements": [
+        "skill_level",
+        "attention"
+      ],
+      "cooldown": 0
+    },
+    {
+      "name": "Enchanting",
+      "unlock_level": 65,
+      "description": "Add magical properties to crafted items",
+      "effects": [
+        "magical_enchantment",
+        "special_effects"
+      ],
+      "requirements": [
+        "magery_skill",
+        "reagents",
+        "focus"
+      ],
+      "cooldown": 0
+    },
+    {
+      "name": "Tempering",
+      "unlock_level": 55,
+      "description": "Strengthen items through heat treatment",
+      "effects": [
+        "durability_increase",
+        "hardness_bonus"
+      ],
+      "requirements": [
+        "forge_temperature",
+        "quenching_fluid",
+        "skill_level"
+      ],
+      "cooldown": 0
+    },
+    {
+      "name": "Alloy Creation",
+      "unlock_level": 70,
+      "description": "Create unique metal alloys with special properties",
+      "effects": [
+        "special_materials",
+        "unique_properties"
+      ],
+      "requirements": [
+        "multiple_metals",
+        "knowledge",
+        "skill_level"
+      ],
+      "cooldown": 0
+    },
+    {
+      "name": "Masterwork Creation",
+      "unlock_level": 85,
+      "description": "Create exceptionally high-quality masterwork items",
+      "effects": [
+        "masterwork_quality",
+        "stat_bonuses"
+      ],
+      "requirements": [
+        "perfect_materials",
+        "concentration",
+        "skill_level"
+      ],
+      "cooldown": 0
+    },
+    {
+      "name": "Mass Production",
+      "unlock_level": 60,
+      "description": "Craft multiple items simultaneously",
+      "effects": [
+        "batch_crafting",
+        "efficiency_bonus"
+      ],
+      "requirements": [
+        "assembly_line",
+        "skill_level",
+        "organization"
+      ],
+      "cooldown": 0
+    },
+    {
+      "name": "Custom Design",
+      "unlock_level": 75,
+      "description": "Create unique custom-designed items",
+      "effects": [
+        "custom_appearance",
+        "unique_stats"
+      ],
+      "requirements": [
+        "design_knowledge",
+        "skill_level",
+        "creativity"
+      ],
+      "cooldown": 0
+    }
+  ],
+  "material_requirements": {
+    "basic_metals": {
+      "iron": {
+        "durability": 100,
+        "workability": 0.8,
+        "rarity": "common"
+      },
+      "copper": {
+        "durability": 80,
+        "workability": 0.9,
+        "rarity": "common"
+      },
+      "tin": {
+        "durability": 60,
+        "workability": 0.95,
+        "rarity": "uncommon"
+      },
+      "bronze": {
+        "durability": 120,
+        "workability": 0.85,
+        "rarity": "uncommon"
+      }
+    },
+    "advanced_metals": {
+      "steel": {
+        "durability": 200,
+        "workability": 0.7,
+        "rarity": "uncommon"
+      },
+      "adamantite": {
+        "durability": 400,
+        "workability": 0.5,
+        "rarity": "rare"
+      },
+      "runite": {
+        "durability": 500,
+        "workability": 0.4,
+        "rarity": "epic"
+      },
+      "dragon_ore": {
+        "durability": 600,
+        "workability": 0.3,
+        "rarity": "legendary"
+      }
+    },
+    "alloy_combinations": {
+      "steel_alloy": {
+        "components": [
+          "iron",
+          "coal"
+        ],
+        "properties": {
+          "durability": 1.2,
+          "workability": 0.75
+        }
+      },
+      "adamantite_alloy": {
+        "components": [
+          "adamantite",
+          "adapted_reference"
+        ],
+        "properties": {
+          "durability": 1.8,
+          "workability": 0.55
+        }
+      }
+    }
+  },
+  "mastery_levels": {
+    "apprentice": {
+      "level": 50,
+      "requirements": {
+        "skill_level": 50
+      },
+      "bonuses": {
+        "crafting_speed": 0.1,
+        "quality_bonus": 5,
+        "material_efficiency": 0.05,
+        "durability_bonus": 0.05
+      },
+      "abilities": [
+        "basic_forging",
+        "simple_repair",
+        "material_identification"
+      ],
+      "title": "Blacksmith Apprentice"
+    },
+    "journeyman": {
+      "level": 70,
+      "requirements": {
+        "skill_level": 70
+      },
+      "bonuses": {
+        "crafting_speed": 0.2,
+        "quality_bonus": 10,
+        "material_efficiency": 0.1,
+        "durability_bonus": 0.1,
+        "masterwork_chance": 0.02
+      },
+      "abilities": [
+        "advanced_forging",
+        "complex_repair",
+        "alloy_creation",
+        "tempering"
+      ],
+      "title": "Journeyman Blacksmith"
+    },
+    "master": {
+      "level": 90,
+      "requirements": {
+        "skill_level": 90
+      },
+      "bonuses": {
+        "crafting_speed": 0.3,
+        "quality_bonus": 15,
+        "material_efficiency": 0.15,
+        "durability_bonus": 0.2,
+        "masterwork_chance": 0.05,
+        "enchanting_bonus": 0.1
+      },
+      "abilities": [
+        "master_forging",
+        "complex_repair_mastery",
+        "advanced_alloys",
+        "masterwork_crafting",
+        "enchanted_items"
+      ],
+      "title": "Master Blacksmith"
+    },
+    "grandmaster": {
+      "level": 100,
+      "requirements": {
+        "skill_level": 100
+      },
+      "bonuses": {
+        "crafting_speed": 0.4,
+        "quality_bonus": 20,
+        "material_efficiency": 0.2,
+        "durability_bonus": 0.3,
+        "masterwork_chance": 0.1,
+        "enchanting_bonus": 0.2,
+        "legendary_chance": 0.01
+      },
+      "abilities": [
+        "grandmaster_forging",
+        "legendary_crafting",
+        "divine_metalwork",
+        "perfect_items",
+        "unique_designs"
+      ],
+      "title": "Grandmaster Blacksmith",
+      "unique_ability": "legendary_crafting"
+    }
+  },
+  "progression_bonuses": {
+    "crafting_speed": {
+      "formula": "base_speed * (1 + skill_level * 0.002)",
+      "max_multiplier": 2.0
+    },
+    "quality_scaling": {
+      "formula": "base_quality + skill_level * 0.1",
+      "max_bonus": 20
+    },
+    "durability_scaling": {
+      "formula": "base_durability * (1 + skill_level * 0.003)",
+      "max_multiplier": 2.5
+    },
+    "masterwork_chance": {
+      "formula": "base_chance + skill_level * 0.0005",
+      "max_chance": 0.15
+    }
+  },
+  "synergies": {
+    "mining": {
+      "bonus_type": "material_quality",
+      "formula": "0.02 * mining_skill_level",
+      "max_bonus": 0.3,
+      "description": "Mining skill improves raw material quality"
+    },
+    "alchemy": {
+      "bonus_type": "enchanting_power",
+      "formula": "0.015 * alchemy_skill_level",
+      "max_bonus": 0.25,
+      "description": "Alchemy knowledge enhances enchanting capabilities"
+    },
+    "tinkering": {
+      "bonus_type": "mechanical_bonus",
+      "formula": "0.02 * tinkering_skill_level",
+      "max_bonus": 0.3,
+      "description": "Tinkering skill improves mechanical item crafting"
+    }
+  },
+  "equipment_requirements": {
+    "forge_type": "standard",
+    "anvil_quality": "normal",
+    "hammer_type": "blacksmith_hammer",
+    "minimum_durability": 50,
+    "temperature_control": "required"
+  },
+  "visual_effects": {
+    "crafting_start": "forge_ignition",
+    "crafting_progress": "metal_shaping",
+    "crafting_complete": "item_finish",
+    "quality_glow": "quality_indicator",
+    "masterwork_effect": "masterwork_sparkle"
+  },
+  "sound_effects": {
+    "hammer_strikes": "blacksmith_hammer",
+    "metal_shaping": "metal_bending",
+    "forge_fire": "forge_crackle",
+    "item_complete": "crafting_finish",
+    "quality_improvement": "quality_chime"
+  },
+  "version": "0.1.0",
+  "last_updated": "2025-11-12",
+  "template_type": "skill"
+}

@@ -1,16 +1,21 @@
 {
   "id": "cloth_robe",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Cloth Robe",
-  "description": "A portable armor component for public template workflows.",
+  "name": "cloth_robe",
+  "description": "Generated cloth_robe item template.",
+  "icon": "cloth_robe_icon",
   "category": "armor",
   "rarity": "common",
-  "stack_limit": 10,
-  "weight_kg": 0.1,
-  "tags": [
-    "adapted",
-    "armor"
-  ],
-  "dependencies": []
+  "item_type": "armor",
+  "sub_type": "generic",
+  "base_stats": {
+    "durability": 1,
+    "max_durability": 1,
+    "weight": 0.1,
+    "value": 1
+  },
+  "properties": {},
+  "requirements": {},
+  "effects": [],
+  "template_type": "item",
+  "version": "0.1.0"
 }

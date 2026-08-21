@@ -1,0 +1,26 @@
+{
+  "id": "improved_heroic_strike",
+  "name": "Frappe Héroïque Améliorée",
+  "description": "Augmente les dégâts et réduit le temps de recharge de Frappe Héroïque",
+  "max_rank": 3,
+  "prerequisites": [],
+  "effects_per_rank": [
+    {
+      "type": "ability_damage_bonus",
+      "ability_id": "heroic_strike",
+      "value": 0.05
+    },
+    {
+      "type": "ability_cooldown_reduction",
+      "ability_id": "heroic_strike",
+      "value": 0.1
+    },
+    {
+      "type": "ability_threat_generation",
+      "ability_id": "heroic_strike",
+      "value": 0.15
+    }
+  ],
+  "template_type": "talent",
+  "version": "0.1.0"
+}

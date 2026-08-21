@@ -1,0 +1,81 @@
+{
+  "id": "fureur_spell_1543",
+  "name": "Fureur Spell 1543",
+  "description": "Attaque qui génère beaucoup de rage et soigne le guerrier en fonction des dégâts infligés",
+  "icon": "fureur_spell_1543_icon",
+  "school": "fureur",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 6000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 180,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 1.0,
+      "rage": 0.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 180,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "rage_generation",
+      "value": 20,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "lifesteal",
+      "value": 0.2,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "blood_charge",
+    "projectile_effect": "none",
+    "impact_effect": "blood_splash",
+    "trail_effect": "blood_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "fureur_spell_1543y_roar",
+    "impact_sound": "flesh_tear"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "fury"
+    ]
+  },
+  "upgrades": {
+    "improved_bloodthirst": {
+      "unlock_level": 18,
+      "description": "Augmente les dégâts et la génération de rage de Fureur Spell 1543 de 25%",
+      "damage_bonus": 25,
+      "rage_bonus": 25
+    },
+    "bloodthirst_mastery": {
+      "unlock_level": 28,
+      "description": "Fureur Spell 1543 soigne plus et réduit le temps de recharge",
+      "lifesteal_bonus": 0.1,
+      "cooldown_reduction": 1000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

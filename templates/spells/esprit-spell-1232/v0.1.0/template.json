@@ -1,0 +1,63 @@
+{
+  "id": "esprit_spell_1232",
+  "name": "Esprit Spell 1232",
+  "description": "Montre le mépris du samouraï, affaiblissant la volonté ennemie",
+  "icon": "esprit_spell_1232_icon",
+  "school": "esprit",
+  "rarity": "uncommon",
+  "spell_type": "debuff",
+  "target_type": "single",
+  "range": 10.0,
+  "cast_time": 1500,
+  "cooldown": 25000,
+  "mana_cost": 22,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "morale_debuff",
+      "value": 40,
+      "duration": 12000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "damage_debuff",
+      "value": 20,
+      "duration": 12000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "contempt_glare",
+    "projectile_effect": "none",
+    "impact_effect": "morale_shatter",
+    "trail_effect": "infamy_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "disdain_laughter",
+    "impact_sound": "spirit_crush"
+  },
+  "requirements": {
+    "level": 9,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "utter_contempt": {
+      "unlock_level": 21,
+      "description": "Prolonge la durée de l'effet de 50%",
+      "duration_bonus": 6000
+    },
+    "humiliating_presence": {
+      "unlock_level": 33,
+      "description": "Augmente le débuff de moral de 30%",
+      "morale_penalty": 12
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

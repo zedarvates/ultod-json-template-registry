@@ -1,0 +1,98 @@
+{
+  "id": "ranger_stealth",
+  "name": "Stealth",
+  "class": "Ranger",
+  "type_principal": "utility",
+  "sous_types": [
+    "stealth"
+  ],
+  "description": "Grants invisibility and stealth for 30 seconds. Cannot be used in combat.",
+  "icon": "stealth_icon",
+  "base_damage": 0,
+  "damage_multiplier": 1.0,
+  "critical_chance": 0.0,
+  "critical_multiplier": 1.0,
+  "super_armor_break": 0,
+  "resource_cost": {},
+  "cast_time": 0,
+  "cooldown": 87,
+  "range": 0,
+  "targeting": {
+    "type_cible": "self",
+    "max_cibles": 1,
+    "zone": {
+      "shape": "single"
+    },
+    "conditions_ciblage": [
+      "non_combat"
+    ]
+  },
+  "effects": [
+    {
+      "type": "stealth",
+      "duration": 30,
+      "value": 100
+    }
+  ],
+  "specializations": [
+    {
+      "id": "longer_duration",
+      "name": "Extended Stealth",
+      "description": "Increases stealth duration",
+      "conditions": {
+        "level": 20
+      },
+      "modifications": {
+        "effects": [
+          {
+            "operation": "modify",
+            "effect": {
+              "type": "stealth",
+              "duration": 45
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "combat_stealth",
+      "name": "Combat Stealth",
+      "description": "Allows stealth to be used in combat (reduced duration)",
+      "conditions": {
+        "level": 30
+      },
+      "modifications": {
+        "targeting": {
+          "conditions_ciblage": []
+        },
+        "effects": [
+          {
+            "operation": "modify",
+            "effect": {
+              "type": "stealth",
+              "duration": 15
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "stealth_cast",
+    "buff_effect": "stealth_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "stealth_activate"
+  },
+  "balancing": {
+    "pvp_multipliers": {
+      "cooldown": 1.2
+    },
+    "pve_multipliers": {
+      "cooldown": 1.0
+    }
+  },
+  "version": "0.1.0",
+  "last_updated": "2025-11-21T14:17:30Z",
+  "template_type": "skill"
+}

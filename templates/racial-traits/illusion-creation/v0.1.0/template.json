@@ -1,0 +1,68 @@
+{
+  "id": "illusion_creation",
+  "name": "Création d'Illusions",
+  "description": "Capacité à créer des illusions réalistes qui trompent les sens",
+  "icon": "illusion_creation_icon",
+  "category": "magical",
+  "rarity": "rare",
+  "stat_modifiers": {
+    "deception": 0.4,
+    "charisma": 0.3,
+    "intelligence": 0.2
+  },
+  "passive_effects": [
+    {
+      "id": "illusion_resistance",
+      "name": "Résistance aux Illusions",
+      "description": "Résiste naturellement aux illusions des autres",
+      "modifier_type": "illusion_resistance",
+      "value": 60.0
+    },
+    {
+      "id": "deceptive_presence",
+      "name": "Présence Trompeuse",
+      "description": "Apparaît différent de ce qu'il est réellement",
+      "modifier_type": "disguise_bonus",
+      "value": 40.0
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "minor_illusion",
+      "name": "Illusion Mineure",
+      "description": "Crée une illusion simple pour distraire ou tromper",
+      "cooldown": 15000,
+      "duration": 60000,
+      "effects": {
+        "illusion_strength": 30,
+        "max_targets": 3
+      }
+    },
+    {
+      "id": "major_illusion",
+      "name": "Illusion Majeure",
+      "description": "Crée une illusion complexe et convaincante",
+      "cooldown": 120000,
+      "duration": 180000,
+      "effects": {
+        "illusion_strength": 80,
+        "aoe_range": 20.0,
+        "max_illusions": 5
+      }
+    },
+    {
+      "id": "invisibility",
+      "name": "Invisibilité",
+      "description": "Se rend complètement invisible aux yeux de tous",
+      "cooldown": 60000,
+      "duration": 30000,
+      "effects": {
+        "invisibility": true,
+        "stealth_bonus": 100
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "luck_manipulation",
+  "name": "Manipulation de la Chance",
+  "description": "Capacité à influencer la fortune et les probabilités en sa faveur",
+  "icon": "luck_manipulation_icon",
+  "category": "utility",
+  "rarity": "epic",
+  "stat_modifiers": {
+    "luck": 0.8,
+    "critical_chance": 0.15,
+    "item_drop_rate": 0.2
+  },
+  "passive_effects": [
+    {
+      "id": "fortune_favor",
+      "name": "Faveur de la Fortune",
+      "description": "Augmente significativement les chances de succès dans toutes les actions",
+      "modifier_type": "success_rate_bonus",
+      "value": 25.0
+    },
+    {
+      "id": "probability_bend",
+      "name": "Courbure des Probabilités",
+      "description": "Influence les événements aléatoires en sa faveur",
+      "modifier_type": "random_event_bonus",
+      "value": 30.0
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "luck_burst",
+      "name": "Explosion de Chance",
+      "description": "Augmente drastiquement la chance pour une courte durée",
+      "cooldown": 300000,
+      "duration": 30000,
+      "effects": {
+        "luck_multiplier": 3.0,
+        "critical_multiplier": 2.0
+      }
+    },
+    {
+      "id": "misfortune_curse",
+      "name": "Malédiction de Malchance",
+      "description": "Réduit drastiquement la chance d'un ennemi",
+      "cooldown": 120000,
+      "duration": 45000,
+      "effects": {
+        "luck_reduction": 50,
+        "failure_chance": 25,
+        "range": 20.0
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

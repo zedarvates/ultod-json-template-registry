@@ -1,0 +1,71 @@
+{
+  "id": "lightning_spell_0781",
+  "name": "Lightning Spell 0781",
+  "description": "Lance un puissant lightning_spell_0781 Spell 0781 qui frappe la cible avec des dégâts de foudre et peut ricocher sur d'autres ennemis",
+  "icon": "lightning_spell_0781_spell_0781_icon",
+  "school": "lightning_spell_0781",
+  "rarity": "common",
+  "spell_type": "electric_damage_chain",
+  "target_type": "enemy_target",
+  "range": 40.0,
+  "cast_time": 1200,
+  "cooldown": 6000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 140,
+    "damage_type": "electric_elemental_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "electric_chain_attack",
+      "value": 160,
+      "duration": 0,
+      "tick_rate": 0,
+      "lightning_chain_jumps": 3,
+      "lightning_damage_reduction_per_jump": 30,
+      "stun_probability_primary": 25,
+      "stun_duration_ms": 2000,
+      "electric_conduction_damage": 45,
+      "metal_object_attraction": 0.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "electric_energy_gathering_crackling_arrows",
+    "strike_effect": "brilliant_blue_white_lightning_spell_0781_arc_primary_strike",
+    "chain_effect": "lightning_spell_0781_jumping_targets_crackling_energy_transfers",
+    "residual_effect": "electric_afterglow_crackling_ground_corona"
+  },
+  "sound_effects": {
+    "cast_effect": "electric_energy_hum_rising_crackling_build",
+    "strike_effect": "thunderclap_lightning_spell_0781_strike_ear_splitting_crack",
+    "chain_effect": "rapid_lightning_spell_0781_crackles_jumping_secondary_thuds",
+    "residual_effect": "electric_corona_hum_crackling_static_residual"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "lightning_spell_0781_magic",
+      "storm_calling"
+    ],
+    "classes": [
+      "mage",
+      "storm_weaver",
+      "electromancer"
+    ],
+    "specializations": [
+      "lightning_spell_0781_specialization"
+    ]
+  },
+  "upgrades": {
+    "greater_lightning_bolt": {
+      "unlock_level": 18,
+      "description": "L'lightning_spell_0781 Spell 0781 devient plus puissant avec plus de sauts et des dégâts augmentés",
+      "additional_chain_jumps": 2,
+      "damage_increase_per_jump": 15,
+      "stun_probability_increase": 20,
+      "forking_lightning_branches": 2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

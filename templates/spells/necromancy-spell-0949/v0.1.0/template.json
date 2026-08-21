@@ -1,0 +1,70 @@
+{
+  "id": "necromancy_spell_0949",
+  "name": "Necromancy Spell 0949",
+  "description": "Permet au nécromancien de se fondre dans les ombres pour se téléporter instantanément vers un point proche tout en infligeant des dégâts autour de lui",
+  "icon": "necromancy_spell_0949_icon",
+  "school": "necromancy",
+  "rarity": "rare",
+  "spell_type": "necromancy_spell_0949_teleport_damage_spell",
+  "target_type": "area_teleport_effect",
+  "range": 12.0,
+  "cast_time": 1000,
+  "cooldown": 20000,
+  "mana_cost": 65,
+  "damage": {
+    "base_damage": 55,
+    "damage_type": "necrotic_necromancy_spell_0949_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "necromancy_spell_0949_melt_teleport_explosion",
+      "value": 40,
+      "duration": 0,
+      "tick_rate": 0,
+      "teleport_range": 12.0,
+      "explosion_radius": 5.0,
+      "shadow_blind_duration": 3000,
+      "movement_speed_boost": 25,
+      "stealth_bonus": 50
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "caster_melting_necromancy_spell_0949s_dark_energy_gathering_invisible_becoming",
+    "teleport_effect": "necromancy_spell_0949_burst_explosion_dark_tendrils_necrotic_energy_radial_damage",
+    "arrival_effect": "necromancy_spell_0949s_reforming_caster_appearing_dark_aura_pulsating_ghostly",
+    "expiration_effect": "necromancy_spell_0949_dissipating_normal_appearance_restored_dark_whisper"
+  },
+  "sound_effects": {
+    "cast_effect": "body_melting_whispers_dark_energy_dissolving_whistle",
+    "teleport_effect": "necromancy_spell_0949_rush_wind_explosion_impact_necrotic_energy_pulse",
+    "arrival_effect": "reappearance_sigh_dark_energy_gathering_whisper_sudden_silence",
+    "expiration_effect": "normalcy_returning_soft_whisper_necromancy_spell_0949_effects_fading"
+  },
+  "requirements": {
+    "level": 22,
+    "skills": [
+      "necromancy",
+      "necromancy_spell_0949_manipulation",
+      "teleportation_mastery"
+    ],
+    "classes": [
+      "necromancer",
+      "necromancy_spell_0949_walker",
+      "dark_teleporter"
+    ],
+    "specializations": [
+      "teleport_specialist"
+    ]
+  },
+  "upgrades": {
+    "greater_shadow_step": {
+      "unlock_level": 37,
+      "description": "L'Necromancy Spell 0949 devient plus destructrice et permet de voyager plus loin",
+      "teleport_distance": 20.0,
+      "damage_radius": 8.0,
+      "multi_step_teleport": 2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

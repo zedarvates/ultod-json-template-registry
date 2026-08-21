@@ -1,0 +1,36 @@
+{
+  "school": "spiritualism",
+  "rarity": "rare",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1000,
+  "cooldown": 90000,
+  "mana_cost": 50,
+  "visual_effects": {
+    "cast_effect": "transformation_cast",
+    "projectile_effect": "none",
+    "impact_effect": "spiritualism_spell_1400_transformation",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "transformation_cast_sound",
+    "impact_sound": "spiritualism_spell_1400_sound"
+  },
+  "requirements": {
+    "level": 25
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "spiritualism_spell_1400",
+  "name": "Spiritualism Spell 1400",
+  "description": "Transforms your body into Spiritualism Spell 1400, becoming immune to physical damage",
+  "icon": "spiritualism_spell_1400_icon",
+  "spell_type": "buff",
+  "effects": {
+    "duration": 25000,
+    "immunity": "physical_damage",
+    "speed_bonus": 1.5,
+    "damage_reduction": 0.8
+  },
+  "template_type": "spell"
+}

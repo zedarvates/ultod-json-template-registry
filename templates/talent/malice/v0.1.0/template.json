@@ -1,0 +1,15 @@
+{
+  "id": "malice",
+  "name": "Malice",
+  "description": "Augmente vos chances d'infliger un coup critique",
+  "max_rank": 5,
+  "prerequisites": [],
+  "effects_per_rank": [
+    {
+      "type": "crit_chance_bonus",
+      "value": 0.01
+    }
+  ],
+  "template_type": "talent",
+  "version": "0.1.0"
+}

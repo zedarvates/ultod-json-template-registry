@@ -1,0 +1,140 @@
+{
+  "id": "temporal_dragon_creature_0369",
+  "name": "Temporal Dragon Creature 0369",
+  "description": "Un dragon ancien qui a transcended le temps lui-même, maintenant d'incroyables pouvoirs chronaux",
+  "icon": "temporal_dragon_creature_0369_dragon_creature_0369_icon",
+  "category": "temporal_dragon_creature_0369_dragon_creature_0369",
+  "rarity": "mythic",
+  "base_stats": {
+    "health": 5000,
+    "mana": 2000,
+    "strength": 120,
+    "dexterity": 80,
+    "intelligence": 100,
+    "wisdom": 95,
+    "constitution": 150,
+    "charisma": 85
+  },
+  "properties": {
+    "is_temporal": true,
+    "is_dragon": true,
+    "is_magical": true,
+    "is_ancient": true,
+    "size": "gargantuan",
+    "speed": 20.0,
+    "flight_capable": true,
+    "temporal_mastery": 98
+  },
+  "loot_table": {
+    "common_drops": [
+      "temporal_dragon_creature_0369_scale",
+      "dragon_essence",
+      "ancient_time_crystal"
+    ],
+    "rare_drops": [
+      "temporal_dragon_creature_0369_dragon_creature_0369_heart",
+      "time_mastery_crystal",
+      "chronal_breath_sac"
+    ],
+    "epic_drops": [
+      "temporal_dragon_creature_0369_dragon_creature_0369_scale_armor",
+      "time_mastery_token",
+      "ancient_temporal_dragon_creature_0369_artifact"
+    ],
+    "legendary_drops": [
+      "temporal_dragon_creature_0369_dragon_creature_0369_egg",
+      "mastery_of_time",
+      "temporal_dragon_creature_0369_sovereign_crown"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "variable",
+    "attack_pattern": "temporal_dragon_creature_0369_dragon_creature_0369_combat",
+    "special_abilities": [
+      "time_breath",
+      "temporal_dragon_creature_0369_flight",
+      "reality_command"
+    ],
+    "ancient_intelligence": "strategic_temporal_dragon_creature_0369_planning"
+  },
+  "abilities": [
+    "temporal_dragon_creature_0369_breath",
+    "time_freeze_aura",
+    "reality_warp",
+    "temporal_dragon_creature_0369_lightning",
+    "chronal_regeneration",
+    "time_sight",
+    "temporal_dragon_creature_0369_domain",
+    "reality_command"
+  ],
+  "temporal_abilities": {
+    "dragon_mastery": {
+      "time_breath_effectiveness": 95,
+      "temporal_domain_radius": 50.0,
+      "reality_warp_power": 90,
+      "temporal_regeneration_rate": 0.05
+    },
+    "mythic_abilities": {
+      "time_rewind": {
+        "effect": "rewinds_time_for_entire_battle",
+        "duration": 30000,
+        "cooldown": 1800000
+      },
+      "reality_command": {
+        "effect": "alters_reality_in_area",
+        "radius": 100.0,
+        "duration": 60000
+      }
+    }
+  },
+  "resistances": {
+    "temporal": 100,
+    "arcane": 95,
+    "fire": 85,
+    "cold": 85,
+    "lightning": 90,
+    "psychic": 85,
+    "physical": 80
+  },
+  "weaknesses": [
+    "time_paradox_effects",
+    "temporal_dragon_creature_0369_voids",
+    "reality_destruction"
+  ],
+  "spawn_conditions": {
+    "location": "temporal_dragon_creature_0369_sovereign_realm",
+    "time_of_day": "any",
+    "player_level_min": 80,
+    "prerequisite_quests": [
+      "dragon_temporal_dragon_creature_0369_alliance",
+      "time_sovereign_proof"
+    ],
+    "event_required": "temporal_dragon_creature_0369_crisis_peak",
+    "faction_required": "temporal_dragon_creature_0369_sovereign"
+  },
+  "mythic_mechanics": {
+    "temporal_domain": {
+      "radius": 50.0,
+      "effects": {
+        "allies": [
+          "time_acceleration",
+          "temporal_dragon_creature_0369_shield",
+          "reality_enhancement"
+        ],
+        "enemies": [
+          "time_slow",
+          "temporal_dragon_creature_0369_weakness",
+          "reality_distortion"
+        ]
+      },
+      "duration": 120000
+    },
+    "ancient_wisdom": {
+      "can_bestow_temporal_knowledge": true,
+      "quest_giver_capabilities": true,
+      "temporal_mentoring": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

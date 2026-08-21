@@ -1,0 +1,78 @@
+{
+  "id": "chronomancy_spell_0245",
+  "name": "Chronomancy Spell 0245",
+  "description": "Crée des échos temporels des actions passées qui se répètent automatiquement",
+  "icon": "chronomancy_spell_0245_icon",
+  "school": "chronomancy",
+  "rarity": "rare",
+  "spell_type": "temporal_echo",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1500,
+  "cooldown": 28000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "echo_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "temporal_echo_buff",
+      "value": 100,
+      "duration": 18000,
+      "tick_rate": 0,
+      "echo_record_time": 10,
+      "echo_repeat_count": 2,
+      "echo_damage_multiplier": 0.7,
+      "mana_efficiency": 0.8,
+      "reality_ripple_effects": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "temporal_recording_crystals",
+    "echo_effect": "ghostly_action_replays",
+    "damage_effect": "echo_energy_trails",
+    "expire_effect": "ripples_in_chronomancy_spell_0245_fabric"
+  },
+  "sound_effects": {
+    "cast_sound": "recording_start_tone",
+    "echo_sound": "delayed_action_echoes",
+    "damage_sound": "temporal_energy_release",
+    "expire_sound": "echo_fade_whisper"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [
+      "chronomancy",
+      "temporal_echoes",
+      "record_magic"
+    ],
+    "classes": [
+      "chronomancer",
+      "chronomancy_spell_0245_mage",
+      "temporalist"
+    ],
+    "specializations": [
+      "echo_master",
+      "temporal_illusionist"
+    ]
+  },
+  "upgrades": {
+    "extended_recording": {
+      "unlock_level": 35,
+      "description": "Les échos enregistrent plus d'actions et durent plus longtemps",
+      "echo_record_time_bonus": 5,
+      "repeat_count_bonus": 1,
+      "duration_bonus": 6000
+    },
+    "harmonic_convergence": {
+      "unlock_level": 45,
+      "description": "Plusieurs échos peuvent se combiner pour des effets massifs",
+      "echo_combination_buff": 2.0,
+      "synchronized_damage": 150,
+      "temporal_feedback_damage": 80
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

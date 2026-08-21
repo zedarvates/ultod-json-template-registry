@@ -1,0 +1,57 @@
+{
+  "id": "rogue_spell_1199",
+  "name": "Rogue Spell 1199",
+  "description": "Attaque sournoise qui étourdit et génère des points de combo",
+  "icon": "rogue_spell_1199_icon",
+  "school": "rogue",
+  "rarity": "common",
+  "spell_type": "stealth_attack",
+  "target_type": "enemy",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "energy_cost": 40,
+  "damage": {
+    "base_damage": 35,
+    "damage_type": "physical"
+  },
+  "effects": [
+    {
+      "effect_type": "combo_point_generation",
+      "combo_points": 1,
+      "stun_target": true,
+      "stun_duration": 2500,
+      "stealth_required": true,
+      "damage_multiplier": 1.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "stealth_prepare",
+    "attack_effect": "head_blow",
+    "impact_effect": "stars_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "blade_drawn",
+    "attack_sound": "head_crack",
+    "impact_sound": "stunned_groan"
+  },
+  "requirements": {
+    "level": 4,
+    "skills": [
+      "stealth",
+      "dagger_mastery"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_cheap_shot": {
+      "unlock_level": 12,
+      "description": "Durée d'étourdissement augmentée",
+      "stun_duration_bonus": 1000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

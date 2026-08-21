@@ -1,0 +1,72 @@
+{
+  "id": "nature_spell_0974",
+  "name": "Nature Spell 0974",
+  "description": "Frappe l'ennemi avec une Nature Spell 0974, infligeant des dégâts et appliquant un nature_spell_0974",
+  "icon": "nature_spell_0974_icon",
+  "school": "nature",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single_enemy",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 45,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 1.2,
+      "strength": 0.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage",
+      "value": 45,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_type": "physical",
+      "scaling": {
+        "agility": 1.2,
+        "strength": 0.8
+      }
+    },
+    {
+      "effect_type": "nature_spell_0974",
+      "value": 15,
+      "duration": 12000,
+      "tick_rate": 3000,
+      "damage_type": "nature"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dagger_strike",
+    "projectile_effect": null,
+    "hit_effect": "nature_spell_0974_splash"
+  },
+  "sound_effects": {
+    "cast_sound": "dagger_swipe",
+    "projectile_sound": null,
+    "hit_sound": "flesh_stab"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "dagger_mastery"
+    ],
+    "classes": [
+      "ninja",
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "venomous_dagger": {
+      "unlock_level": 10,
+      "description": "Augmente les dégâts du nature_spell_0974",
+      "poison_damage_bonus": 10,
+      "duration_bonus": 3000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

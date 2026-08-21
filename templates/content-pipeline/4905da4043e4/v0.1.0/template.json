@@ -1,0 +1,50 @@
+{
+  "version": "0.1.0",
+  "school": "nature",
+  "rarity": "uncommon",
+  "target_type": "single",
+  "range": 35.5,
+  "cast_time": 2662,
+  "cooldown": 8135,
+  "mana_cost": 157,
+  "visual_effects": {
+    "cast_effect": "paladin_cast",
+    "projectile_effect": "elemental_projectile",
+    "impact_effect": "elemental_impact",
+    "trail_effect": "elemental_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "paladin_cast_sound",
+    "impact_sound": "elemental_impact_sound"
+  },
+  "requirements": {
+    "level": 44,
+    "skills": [],
+    "classes": [
+      "paladin"
+    ],
+    "specializations": [
+      "protection"
+    ]
+  },
+  "balance_validated": true,
+  "generated_by": "content_pipeline_v2",
+  "id": "4905da4043e4",
+  "name": "Paladin Protection Bolt",
+  "description": "Generated paladin protection spell #203",
+  "icon": "4905da4043e4_icon",
+  "spell_type": "buff",
+  "damage_type": null,
+  "effects": [
+    {
+      "effect_type": "damage_boost",
+      "value": 0.2,
+      "duration": 21162,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "balance_adjusted": true,
+  "balance_efficiency": 0.0546,
+  "template_type": "content_pipeline"
+}

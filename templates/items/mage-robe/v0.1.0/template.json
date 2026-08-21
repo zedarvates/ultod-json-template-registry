@@ -1,16 +1,31 @@
 {
   "id": "mage_robe",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Mage Robe",
-  "description": "A portable armor component for public template workflows.",
+  "name": "Robe de Mage",
+  "description": "Robe legere augmentant legerement la reserve de mana.",
+  "icon": "mage_robe",
   "category": "armor",
   "rarity": "common",
-  "stack_limit": 10,
-  "weight_kg": 2.0,
-  "tags": [
-    "adapted",
-    "armor"
-  ],
-  "dependencies": []
+  "item_type": "armor",
+  "sub_type": "chest",
+  "base_stats": {
+    "durability": 55,
+    "max_durability": 55,
+    "weight": 2.0,
+    "value": 90
+  },
+  "armor_properties": {
+    "armor_value": 6,
+    "mana_bonus": 30,
+    "slot": "chest"
+  },
+  "properties": {
+    "stackable": false,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 1
+  },
+  "template_type": "item",
+  "version": "0.1.0"
 }

@@ -1,0 +1,85 @@
+{
+  "id": "evocation_spell_0098",
+  "name": "Evocation Spell 0098",
+  "description": "Vous lâchez une mélodie assourdissante qui inflige des dégâts soniques et étourdit les ennemis",
+  "icon": "evocation_spell_0098_icon",
+  "school": "evocation",
+  "rarity": "uncommon",
+  "spell_type": "sonic_attack",
+  "target_type": "area_enemy",
+  "range": 20.0,
+  "cast_time": 1200,
+  "cooldown": 12000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "sonic",
+    "scaling": {
+      "charisma": 1.8,
+      "constitution": 0.3
+    },
+    "aoe_range": 15.0
+  },
+  "effects": [
+    {
+      "effect_type": "sonic_damage",
+      "value": 120,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_range": 15.0,
+      "scaling": {
+        "charisma": 1.8,
+        "constitution": 0.3
+      },
+      "max_targets": 6
+    },
+    {
+      "effect_type": "stun",
+      "value": 100,
+      "duration": 4000,
+      "tick_rate": 0,
+      "aoe_range": 15.0,
+      "proc_chance": 0.6,
+      "max_targets": 4
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sound_wave_build",
+    "impact_effect": "thunder_impact",
+    "area_effect": "sonic_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "thunder_build",
+    "impact_sound": "loud_boom",
+    "area_sound": "echoing_thunder"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [
+      "performance",
+      "evocation",
+      "music_magic"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour"
+    ]
+  },
+  "upgrades": {
+    "resounding_cacophony": {
+      "unlock_level": 14,
+      "description": "Augmente le rayon et les dégâts de l'attaque",
+      "aoe_range_bonus": 8.0,
+      "damage_bonus": 60
+    },
+    "deafening_boom": {
+      "unlock_level": 22,
+      "description": "Étourdit plus longtemps et affecte plus d'ennemis",
+      "stun_duration_bonus": 2000,
+      "stun_max_targets": 6
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

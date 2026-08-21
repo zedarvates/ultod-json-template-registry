@@ -1,0 +1,85 @@
+{
+  "id": "tiefling",
+  "name": "Tieffelin",
+  "description": "Descendants des démons, ces êtres portent la marque de leur héritage infernal",
+  "racial_traits": [
+    {
+      "id": "infernal_resistance",
+      "name": "Résistance Infernale",
+      "description": "+25% résistance au feu et aux dégâts infernaux",
+      "bonuses": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 2,
+        "wisdom": 0,
+        "charisma": 0,
+        "fire_resistance": 0.25,
+        "infernal_resistance": 0.25
+      }
+    },
+    {
+      "id": "demonic_affinity",
+      "name": "Affinité Démoniaque",
+      "description": "+15% efficacité des sorts d'invocation démoniaque",
+      "bonuses": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 1,
+        "summoning_power": 0.15,
+        "demonic_spell_power": 0.15
+      }
+    },
+    {
+      "id": "darkvision",
+      "name": "Vision Nocturne",
+      "description": "Peut voir dans l'obscurité totale jusqu'à 18 mètres",
+      "bonuses": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0,
+        "darkvision_range": 18
+      }
+    }
+  ],
+  "available_classes": [
+    "summoner",
+    "warlock",
+    "rogue",
+    "sorcerer"
+  ],
+  "starting_zone": "demon_realm_outskirts",
+  "appearance_options": {
+    "hair_colors": [
+      "noir",
+      "rouge_sang",
+      "blanc_neige",
+      "violet"
+    ],
+    "skin_tones": [
+      "rouge_foncé",
+      "violet_foncé",
+      "gris_foncé",
+      "noir_charbon"
+    ],
+    "body_types": [
+      "svelte",
+      "athlétique",
+      "élancé"
+    ],
+    "special_features": [
+      "cornes",
+      "queue_démoniaque",
+      "yeux_rouges",
+      "ailes_démoniaques"
+    ]
+  },
+  "template_type": "race",
+  "version": "0.1.0"
+}

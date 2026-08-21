@@ -1,0 +1,81 @@
+{
+  "id": "conjuration_spell_0095",
+  "name": "Conjuration Spell 0095",
+  "description": "Un chant mystique qui immobilise et ralentit les ennemis dans la zone",
+  "icon": "conjuration_spell_0095_icon",
+  "school": "conjuration",
+  "rarity": "rare",
+  "spell_type": "crowd_control",
+  "target_type": "area_enemy",
+  "range": 35.0,
+  "cast_time": 2500,
+  "cooldown": 18000,
+  "mana_cost": 55,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "binding"
+  },
+  "effects": [
+    {
+      "effect_type": "slow",
+      "value": 70,
+      "duration": 15000,
+      "tick_rate": 0,
+      "aoe_range": 25.0,
+      "max_targets": 5,
+      "movement_slow": 0.4
+    },
+    {
+      "effect_type": "root",
+      "value": 100,
+      "duration": 8000,
+      "tick_rate": 0,
+      "aoe_range": 15.0,
+      "proc_chance": 0.5,
+      "max_targets": 3,
+      "root_break_chance": 0.2
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "binding_music_runes",
+    "area_effect": "entangling_vines",
+    "impact_effect": "binding_sparks"
+  },
+  "sound_effects": {
+    "cast_sound": "mystical_chant",
+    "impact_sound": "binding_lock",
+    "area_sound": "echoing_chain"
+  },
+  "requirements": {
+    "level": 15,
+    "skills": [
+      "performance",
+      "conjuration",
+      "music_magic"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour"
+    ],
+    "specializations": [
+      "crowd_controller"
+    ]
+  },
+  "upgrades": {
+    "chain_of_command": {
+      "unlock_level": 25,
+      "description": "Augmente la durée et le nombre de cibles affectées",
+      "duration_bonus": 7000,
+      "max_targets": 8
+    },
+    "perfect_harmony": {
+      "unlock_level": 30,
+      "description": "Empêche complètement les mouvements ennemis",
+      "root_duration": 12000,
+      "slow_physical": 1.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

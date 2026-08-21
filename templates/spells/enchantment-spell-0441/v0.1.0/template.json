@@ -1,0 +1,78 @@
+{
+  "id": "enchantment_spell_0441",
+  "name": "Enchantment Spell 0441",
+  "description": "Rend l'enchanteur ou un allié invisible aux yeux des ennemis et difficiles à détecter",
+  "icon": "enchantment_spell_0441_icon",
+  "school": "enchantment",
+  "rarity": "uncommon",
+  "spell_type": "stealth_cloaking_magic",
+  "target_type": "self_or_ally",
+  "range": 20.0,
+  "cast_time": 1500,
+  "cooldown": 12000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "stealth_illusion_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "reality_bending_transparency",
+      "value": 150,
+      "duration": 30000,
+      "tick_rate": 0,
+      "stealth_level_perfect": true,
+      "detection_difficulty_multiplier": 0.05,
+      "movement_speed_while_invisible": 0,
+      "spell_casting_interruption": 1.0,
+      "melee_attack_interrupt_stealth": true,
+      "stealth_maintenance_cost": 15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "body_shimmering_fading_transparent",
+    "active_effect": "air_distortion_light_bending_invisible",
+    "damage_effect": "stealth_broken_visibility_flash",
+    "expire_effect": "gradual_fading_visibility_return"
+  },
+  "sound_effects": {
+    "cast_sound": "reality_distorting_light_bending_hum",
+    "active_effect": "subtle_ambient_stealth_whisper",
+    "damage_effect": "stealth_broken_visibility_reveal",
+    "expire_effect": "reality_stabilizing_visibility_pop"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "arcane_magic",
+      "stealth_magic"
+    ],
+    "classes": [
+      "enchanter",
+      "shadow_weaver"
+    ],
+    "specializations": [
+      "stealth_mage"
+    ]
+  },
+  "upgrades": {
+    "greater_invisibility": {
+      "unlock_level": 28,
+      "description": "Permet de rester invisible même pendant l'attaque et les sorts mineurs",
+      "attack_maintained_invisibility": true,
+      "minor_spell_stealth_preservation": true,
+      "group_invisibility_extension": 5.0,
+      "max_allies_invisible": 3
+    },
+    "perfect_invisibility": {
+      "unlock_level": 38,
+      "description": "L'Enchantment Spell 0441 est parfaite et peut tromper même les sens hors norme",
+      "supernatural_detection_immunity": true,
+      "teleport_while_invisible": true,
+      "invisibility_damage_conversion": 0.25,
+      "reality_veil_mastery": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "sect_protection_spiritual_barrier",
+  "name": "Barrière Spirituelle",
+  "description": "Barrière contre les attaques spirituelles et magiques",
+  "icon": "spiritual_barrier_icon",
+  "school": "holy",
+  "type": "buff",
+  "damage_type": "magical",
+  "mana_cost": 750,
+  "range": 0,
+  "cast_time": 8000,
+  "cooldown": 3600000,
+  "aoe": {
+    "enabled": true,
+    "radius": 75,
+    "damage_reduction": 1.0,
+    "max_targets": 1
+  },
+  "effects": [
+    {
+      "type": "aura",
+      "name": "Barrière Spirituelle",
+      "description": "Protection contre les attaques spirituelles et magiques",
+      "duration": 3600000,
+      "value": 0.7,
+      "stackable": false,
+      "dispellable": false
+    }
+  ],
+  "requirements": {
+    "level": 4,
+    "class": [
+      "guild_member"
+    ],
+    "talent_points": 0
+  },
+  "visual": {
+    "cast_animation": "spiritual_barrier_cast",
+    "impact_effect": "spiritual_barrier_aura"
+  },
+  "enabled": true,
+  "template_type": "sect",
+  "version": "0.1.0"
+}

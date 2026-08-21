@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0697",
+  "name": "Illusion Spell 0697",
+  "description": "Créé un champ qui dissipe toutes les illusions et révèle les créatures camouflées dans la zone",
+  "icon": "illusion_spell_0697_icon",
+  "school": "illusion",
+  "rarity": "uncommon",
+  "spell_type": "illusion_dispelling_aura",
+  "target_type": "area_aura_self",
+  "range": 15.0,
+  "cast_time": 2000,
+  "cooldown": 45000,
+  "mana_cost": 75,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "dispelling_revealing_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "illusion_killing_detection_field",
+      "value": 200,
+      "duration": 60000,
+      "tick_rate": 2000,
+      "anti_illusion_aura_radius": 20.0,
+      "illusion_dispel_guaranteed": true,
+      "stealth_detection_perfect": 100,
+      "invisibility_removal_absolute": true,
+      "counter_illusion_protection": 0.8,
+      "truth_sight_buff_radius": 25.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "pure_light_aura_formation_crystal_clarity",
+    "field_effect": "illusions_popping_reality_revealing_waves",
+    "dispel_effect": "hidden_creatures_shimmering_into_view",
+    "persist_effect": "continuous_clarity_field_rippling_light"
+  },
+  "sound_effects": {
+    "cast_effect": "purity_field_formation_crystal_clarity_tone",
+    "field_effect": "illusions_crackling_dissipating_pop_ping",
+    "dispel_effect": "hidden_entities_revealing_surprise_gasp",
+    "persist_effect": "clarity_field_constant_crystal_hum_resonance"
+  },
+  "requirements": {
+    "level": 30,
+    "skills": [
+      "illusion_magic",
+      "illusion_detecting"
+    ],
+    "classes": [
+      "illusionist",
+      "reality_guardian"
+    ],
+    "specializations": [
+      "illusion_breaker"
+    ]
+  },
+  "upgrades": {
+    "greater_anti_illusion_field": {
+      "unlock_level": 40,
+      "description": "Le Illusion Spell 0697 devient plus grand avec des capacités améliorées de révélation et de protection",
+      "field_radius_double": 40.0,
+      "glamour_illusion_immunity": true,
+      "invisibility_prevention_aura": true,
+      "morale_buff_true_vision": 25
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,7 +1,7 @@
-# Binoculars Basic v0.1.0
+# Basic Binoculars v0.1.0
 
-Status: `experimental`.
+Statut : `experimental`.
 
-Original public-safe adaptation informed by `item/binoculars_basic.json`. Economy, runtime state, effects, internal controls, and asset paths are excluded.
+Source auditée : `item/binoculars_basic.json`. Les contrôles administratifs, données commerciales et chemins internes sont retirés.
 
-No client or server compatibility is certified.
+Aucune compatibilité client ou serveur n'est certifiée.

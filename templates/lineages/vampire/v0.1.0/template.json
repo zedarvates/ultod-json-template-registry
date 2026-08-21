@@ -1,0 +1,55 @@
+{
+  "id": "vampire",
+  "name": "Vampire",
+  "description": "Lignée des enfants de la nuit, maîtres du sang et des ténèbres",
+  "icon": "vampire_lineage",
+  "rarity": "epic",
+  "required_level": 22,
+  "awakening_cost": {
+    "mana": 350,
+    "health": 180,
+    "items": {
+      "vampire_fang": 3,
+      "blood_crystal": 2
+    }
+  },
+  "stat_bonuses": {
+    "health": 20,
+    "strength": 12,
+    "dexterity": 18,
+    "intelligence": 15,
+    "wisdom": 12,
+    "charisma": 25
+  },
+  "resistance_bonuses": {
+    "shadow": 30,
+    "holy": -50,
+    "physical": 10
+  },
+  "skill_bonuses": {
+    "stealth": 0.25,
+    "life_drain": 0.4,
+    "night_vision": 1.0
+  },
+  "awakening_bonuses": {
+    "duration_minutes": 120,
+    "stat_multipliers": {
+      "life_drain": 3.0,
+      "stealth": 2.5,
+      "regeneration": 4.0
+    },
+    "special_effects": [
+      "bat_transformation",
+      "hypnotic_gaze",
+      "immortal_essence"
+    ]
+  },
+  "racial_synergies": {
+    "dark_elf": 1.8,
+    "vampire": 2.5,
+    "blood_seeker": 2.0
+  },
+  "enabled": true,
+  "template_type": "lineage",
+  "version": "0.1.0"
+}

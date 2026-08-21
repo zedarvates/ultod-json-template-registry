@@ -1,0 +1,75 @@
+{
+  "id": "starter_kit_mage",
+  "name": "Kit de Depart Mage",
+  "description": "Pack mage classique: baton, robe, potions de mana, grimoire et pierre de rappel.",
+  "icon": "starter_kit_mage",
+  "category": "container",
+  "rarity": "uncommon",
+  "item_type": "kit",
+  "sub_type": "starter_kit",
+  "base_stats": {
+    "durability": 1,
+    "max_durability": 1,
+    "weight": 3.0,
+    "value": 400
+  },
+  "kit_properties": {
+    "kit_type": "starter",
+    "auto_equip": true,
+    "one_time_use": true,
+    "consumable": true,
+    "target_class": "mage",
+    "min_level": 1,
+    "max_level": 5
+  },
+  "contained_items": [
+    {
+      "item_id": "apprentice_staff",
+      "quantity": 1
+    },
+    {
+      "item_id": "mage_robe",
+      "quantity": 1
+    },
+    {
+      "item_id": "mana_potion",
+      "quantity": 8
+    },
+    {
+      "item_id": "minor_health_potion",
+      "quantity": 4
+    },
+    {
+      "item_id": "spellbook_basic",
+      "quantity": 1
+    },
+    {
+      "item_id": "recall_stone_basic",
+      "quantity": 1
+    },
+    {
+      "item_id": "bread",
+      "quantity": 5
+    },
+    {
+      "item_id": "gold_pieces",
+      "quantity": 150
+    }
+  ],
+  "properties": {
+    "stackable": false,
+    "consumable": true,
+    "reusable": false,
+    "soulbound": true,
+    "tradeable": false,
+    "sellable": false
+  },
+  "requirements": {
+    "level": 1,
+    "class": "mage",
+    "new_player_only": true,
+    "first_login_only": true
+  },
+  "version": "0.1.0",
+  "template_type": "item"
+}

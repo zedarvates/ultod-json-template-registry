@@ -1,0 +1,342 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Bulk Order Configuration Schema",
+  "description": "Schema for validating bulk order configuration templates",
+  "type": "object",
+  "required": [
+    "template_type",
+    "version",
+    "name",
+    "description",
+    "global_settings"
+  ],
+  "properties": {
+    "template_type": {
+      "type": "string",
+      "enum": [
+        "bulk_order"
+      ],
+      "description": "Type of template"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Version number in semantic versioning format"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "Name of the bulk order configuration"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500,
+      "description": "Description of the bulk order configuration"
+    },
+    "global_settings": {
+      "type": "object",
+      "required": [
+        "enabled",
+        "log_level"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Whether the system is enabled"
+        },
+        "log_level": {
+          "type": "string",
+          "enum": [
+            "info",
+            "warn",
+            "error"
+          ],
+          "description": "Logging level"
+        },
+        "max_active_orders": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1000,
+          "description": "Maximum number of active orders"
+        },
+        "order_generation_interval_minutes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1440,
+          "description": "Interval for order generation in minutes"
+        },
+        "performance_optimization": {
+          "type": "object",
+          "properties": {
+            "enable_caching": {
+              "type": "boolean"
+            },
+            "cache_ttl_seconds": {
+              "type": "integer",
+              "minimum": 60,
+              "maximum": 86400
+            },
+            "batch_processing": {
+              "type": "boolean"
+            },
+            "batch_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            },
+            "async_processing": {
+              "type": "boolean"
+            },
+            "thread_pool_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 32
+            }
+          }
+        }
+      }
+    },
+    "order_types": {
+      "type": "object",
+      "properties": {
+        "standard_order": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "priority": {
+                  "type": "string",
+                  "enum": [
+                    "low",
+                    "normal",
+                    "high",
+                    "critical"
+                  ]
+                },
+                "time_sensitivity": {
+                  "type": "boolean"
+                },
+                "difficulty": {
+                  "type": "string",
+                  "enum": [
+                    "easy",
+                    "medium",
+                    "hard",
+                    "extreme"
+                  ]
+                },
+                "group_required": {
+                  "type": "boolean"
+                },
+                "min_level": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "max_level": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "order_objectives": {
+      "type": "object",
+      "properties": {
+        "delivery_objectives": {
+          "type": "object",
+          "properties": {
+            "item_delivery": {
+              "type": "object",
+              "properties": {
+                "enabled": {
+                  "type": "boolean"
+                },
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "item_types": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "quantity_range": {
+                      "type": "object",
+                      "properties": {
+                        "min": {
+                          "type": "integer",
+                          "minimum": 1
+                        },
+                        "max": {
+                          "type": "integer",
+                          "minimum": 1
+                        }
+                      }
+                    },
+                    "delivery_locations": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "reward_system": {
+      "type": "object",
+      "properties": {
+        "experience_rewards": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "calculation_method": {
+              "type": "string",
+              "enum": [
+                "base_level_multiplier",
+                "difficulty_based",
+                "time_based"
+              ]
+            }
+          }
+        },
+        "currency_rewards": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "currencies": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "item_rewards": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "item_types": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "ui_configuration": {
+      "type": "object",
+      "properties": {
+        "order_interface": {
+          "type": "object",
+          "properties": {
+            "display_elements": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "integration_points": {
+      "type": "object",
+      "properties": {
+        "economy_system": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "currency_integration": {
+              "type": "boolean"
+            }
+          }
+        },
+        "crafting_system": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "crafting_orders": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "security_settings": {
+      "type": "object",
+      "properties": {
+        "data_protection": {
+          "type": "object",
+          "properties": {
+            "encryption": {
+              "type": "boolean"
+            },
+            "anonymization": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "localization": {
+      "type": "object",
+      "properties": {
+        "supported_languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "customization": {
+      "type": "object",
+      "properties": {
+        "hooks": {
+          "type": "object",
+          "properties": {
+            "before_order_creation": {
+              "type": "string"
+            },
+            "after_order_completion": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "id": "bulk_order_schema"
+}

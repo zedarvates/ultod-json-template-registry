@@ -1,0 +1,73 @@
+{
+  "id": "nature_spell_0423",
+  "name": "Nature Spell 0423",
+  "description": "Invoque la Nature Spell 0423 de la nature pour frapper un ennemi avec une puissante décharge d'énergie",
+  "icon": "nature_spell_0423_icon",
+  "school": "nature",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 30.0,
+  "cast_time": 2000,
+  "cooldown": 0,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 200,
+    "damage_type": "nature",
+    "scaling": {
+      "intelligence": 1.3,
+      "wisdom": 0.7
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 200,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "nature_dot",
+      "value": 30,
+      "duration": 12000,
+      "tick_rate": 3000,
+      "total_ticks": 4,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "nature_energy_gather",
+    "projectile_effect": "nature_beam",
+    "dot_effect": "nature_corruption"
+  },
+  "sound_effects": {
+    "cast_sound": "nature_rumble",
+    "projectile_sound": "energy_beam",
+    "dot_sound": "corruption_hiss"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "druid"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_wrath": {
+      "unlock_level": 12,
+      "description": "Nature Spell 0423 inflige plus de dégâts et réduit le temps d'incantation",
+      "damage_bonus": 100,
+      "cast_time_reduction": 500
+    },
+    "wrath_mastery": {
+      "unlock_level": 22,
+      "description": "Nature Spell 0423 peut critiquer et inflige plus de dégâts sur la durée",
+      "crit_chance": 0.15,
+      "dot_bonus": 15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

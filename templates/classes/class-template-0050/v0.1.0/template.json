@@ -1,0 +1,28 @@
+{
+  "id": "class_template_0050",
+  "name": "Class Template 0050",
+  "description": "Imported from adapted_reference klassen.scp (i_klasse_lehrling)",
+  "skillclass_id": "magier",
+  "base_stats": {
+    "strength": 15,
+    "dexterity": 15,
+    "constitution": 10,
+    "intelligence": 20,
+    "wisdom": 10,
+    "charisma": 10
+  },
+  "specializations": [
+    {
+      "id": "adapted_reference_default",
+      "name": "adapted_reference Default",
+      "description": "Imported default specialization",
+      "talents": [],
+      "abilities": []
+    }
+  ],
+  "talent_tree": {
+    "tiers": []
+  },
+  "template_type": "class",
+  "version": "0.1.0"
+}

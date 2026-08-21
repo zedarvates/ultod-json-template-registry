@@ -1,0 +1,40 @@
+{
+  "id": "humanoid_creature_0202",
+  "name": "Humanoid Creature 0202",
+  "description": "A forest humanoid_creature_0202 used by the authoritative starting-area spawn group.",
+  "icon": "humanoid_creature_0202_icon",
+  "category": "humanoid",
+  "rarity": "common",
+  "base_stats": {
+    "health": 100,
+    "mana": 0,
+    "strength": 10,
+    "dexterity": 10,
+    "intelligence": 6,
+    "wisdom": 6,
+    "constitution": 10,
+    "charisma": 4
+  },
+  "properties": {
+    "size": "medium",
+    "speed": 6.0
+  },
+  "loot_table": {
+    "guaranteed_drops": [
+      "humanoid_creature_0202_ear"
+    ],
+    "common_drops": [],
+    "rare_drops": [],
+    "epic_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "moderate",
+    "attack_pattern": "basic_attack",
+    "special_abilities": []
+  },
+  "abilities": [],
+  "resistances": {},
+  "weaknesses": [],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

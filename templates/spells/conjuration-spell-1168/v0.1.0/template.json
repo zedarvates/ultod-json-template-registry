@@ -1,0 +1,63 @@
+{
+  "id": "conjuration_spell_1168",
+  "name": "Conjuration Spell 1168",
+  "description": "Vous appelez une bête spirituelle native à votre environnement",
+  "icon": "conjuration_spell_1168_icon",
+  "school": "conjuration",
+  "rarity": "rare",
+  "spell_type": "conjuration_spell_1168",
+  "target_type": "area_ground",
+  "range": 20.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "conjuration_spell_1168_creature",
+      "value": 0,
+      "duration": 3600000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "creature_type": "spirit_beast",
+      "creature_level": 2,
+      "control_type": "temporary_ally"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "nature_portal",
+    "summon_effect": "spirit_appearance"
+  },
+  "sound_effects": {
+    "cast_sound": "wild_call",
+    "summon_sound": "creature_roar"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "nature_magic",
+      "conjuration_spell_1168ing"
+    ],
+    "classes": [
+      "ranger",
+      "druid"
+    ]
+  },
+  "upgrades": {
+    "greater_summon": {
+      "unlock_level": 5,
+      "description": "Invoque une bête de niveau 4",
+      "creature_level": 4
+    },
+    "multiple_beasts": {
+      "unlock_level": 9,
+      "description": "Invoque deux bêtes simultanément",
+      "summon_count": 2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

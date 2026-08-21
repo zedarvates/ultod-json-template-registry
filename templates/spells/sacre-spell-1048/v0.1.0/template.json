@@ -1,0 +1,80 @@
+{
+  "id": "sacre_spell_1048",
+  "name": "Sacre Spell 1048",
+  "description": "Élève un bouclier d'énergie sacrée pour protéger les alliés",
+  "icon": "sacre_spell_1048_icon",
+  "school": "sacré",
+  "rarity": "uncommon",
+  "spell_type": "buff",
+  "target_type": "ally",
+  "range": 30.0,
+  "cast_time": 1500,
+  "cooldown": 120000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "sacre_spell_1048",
+    "scaling": {
+      "wisdom": 0.0,
+      "vitality": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage_reduction",
+      "value": 0.3,
+      "duration": 30000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "sacre_spell_1048_resistance",
+      "value": 0.2,
+      "duration": 30000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "healing_over_time",
+      "value": 50,
+      "duration": 30000,
+      "tick_rate": 3000,
+      "total_ticks": 10,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sacre_spell_1048_circle_formation",
+    "shield_effect": "golden_barrier",
+    "impact_effect": "sacre_spell_1048_sparks"
+  },
+  "sound_effects": {
+    "cast_sound": "sacre_spell_1048_incantation",
+    "shield_sound": "divine_barrier",
+    "impact_sound": "sacre_spell_1048_bell"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [],
+    "classes": [
+      "paladin"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_holy_shield": {
+      "unlock_level": 30,
+      "description": "Augmente la réduction des dégâts et la durée du Sacre Spell 1048 de 25%",
+      "damage_reduction_bonus": 0.25,
+      "duration_extension": 7500
+    },
+    "holy_shield_mastery": {
+      "unlock_level": 40,
+      "description": "Sacre Spell 1048 soigne plus et réduit les dégâts magiques",
+      "healing_bonus": 25,
+      "magic_damage_reduction": 0.15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,152 @@
+{
+  "id": "overseer",
+  "name": "[ADMIN] Overseer",
+  "description": "[ADMIN ONLY] The vigilant system monitor and player management specialist with analytical omniscience",
+  "color": "00FFFF",
+  "primary_resource": "analysis_power",
+  "base_stats": {
+    "strength": 60,
+    "agility": 65,
+    "intelligence": 95,
+    "vitality": 55,
+    "wisdom": 90,
+    "charisma": 70
+  },
+  "specializations": [
+    "system_monitoring",
+    "player_management",
+    "analytical_oversight"
+  ],
+  "starting_skills": [
+    {
+      "id": 92001,
+      "name": "Player Tracker",
+      "description": "[ADMIN] Track and monitor any player in real-time",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": -1,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 92002,
+      "name": "Character Edit",
+      "description": "[ADMIN] Modify any player's character stats/inventory",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 1000.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 92003,
+      "name": "System Monitor",
+      "description": "[ADMIN] View server performance metrics and logs",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 92004,
+      "name": "Player Kick",
+      "description": "[ADMIN] Force disconnect any player from the server",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 1000.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 92005,
+      "name": "Chat Monitor",
+      "description": "[ADMIN] Read all player chat channels silently",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": -1,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 92006,
+      "name": "Bug Report Tool",
+      "description": "[ADMIN] Instantly identify and fix game bugs",
+      "cooldown": 5000,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 920001,
+            "name": "Omni-Perception",
+            "description": "See all server activity simultaneously",
+            "max_rank": 1,
+            "icon_path": "talents/admin/omni_perception.png"
+          },
+          {
+            "id": 920002,
+            "name": "Data Analyst",
+            "description": "Instantly analyze server metrics and player statistics",
+            "max_rank": 1,
+            "icon_path": "talents/admin/data_analyst.png"
+          },
+          {
+            "id": 920003,
+            "name": "Justice Arbitrator",
+            "description": "Review and modify player actions/decisions",
+            "max_rank": 1,
+            "icon_path": "talents/admin/justice_arbitrator.png"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "talents": [
+          {
+            "id": 920004,
+            "name": "Anomaly Detector",
+            "description": "Automatically identify cheats, exploits, and bugs",
+            "max_rank": 1,
+            "icon_path": "talents/admin/anomaly_detector.png"
+          },
+          {
+            "id": 920005,
+            "name": "Player Psychologist",
+            "description": "Analyze player behavior patterns and motivations",
+            "max_rank": 1,
+            "icon_path": "talents/admin/psychologist.png"
+          },
+          {
+            "id": 920006,
+            "name": "Crisis Manager",
+            "description": "Handle server emergencies and rollback corrupted data",
+            "max_rank": 1,
+            "icon_path": "talents/admin/crisis_manager.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100000,
+  "health_modifier": 10.0,
+  "damage_modifier": 5.0,
+  "armor_modifier": 25.0,
+  "speed_modifier": 3.0,
+  "cast_speed_modifier": 5.0,
+  "template_type": "class",
+  "version": "0.1.0"
+}

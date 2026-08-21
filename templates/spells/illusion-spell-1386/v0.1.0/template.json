@@ -1,0 +1,47 @@
+{
+  "id": "illusion_spell_1386",
+  "name": "Illusion Spell 1386",
+  "description": "Rend une créature invisible pendant 1 heure",
+  "icon": "illusion_spell_1386_icon",
+  "school": "illusion",
+  "rarity": "uncommon",
+  "spell_type": "buff",
+  "target_type": "single",
+  "range": 3.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "illusion_spell_1386",
+      "value": 0,
+      "duration": 3600000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fade_out"
+  },
+  "sound_effects": {
+    "cast_sound": "poof"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "illusion"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard",
+      "bard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

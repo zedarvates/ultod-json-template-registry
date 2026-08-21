@@ -1,0 +1,709 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-11-14",
+    "description": "RTS Unit Templates - Combat, worker, and special units for the hybrid MMORPG-RTS system",
+    "author": "UOVR Development Team",
+    "category": "RTS Systems",
+    "dependencies": [
+      "resources",
+      "technologies",
+      "abilities"
+    ]
+  },
+  "unit_categories": {
+    "civilian": {
+      "description": "Non-combat units focused on resource gathering and construction",
+      "color_code": "#FFC107",
+      "command_group": "workers",
+      "default_formation": "line"
+    },
+    "military": {
+      "description": "Combat units for offense and defense",
+      "color_code": "#F44336",
+      "command_group": "soldiers",
+      "default_formation": "square"
+    },
+    "siege": {
+      "description": "Heavy units specialized in destroying buildings",
+      "color_code": "#795548",
+      "command_group": "siege",
+      "default_formation": "wedge"
+    },
+    "hero": {
+      "description": "Powerful unique units with special abilities",
+      "color_code": "#E91E63",
+      "command_group": "heroes",
+      "default_formation": "none"
+    },
+    "summoned": {
+      "description": "Temporary units created through spells or rituals",
+      "color_code": "#9C27B0",
+      "command_group": "summons",
+      "default_formation": "circle"
+    }
+  },
+  "units": {
+    "villager": {
+      "id": "villager_basic",
+      "name": "Villager",
+      "category": "civilian",
+      "description": "Basic worker unit capable of gathering resources and constructing buildings",
+      "tier": 1,
+      "cost": {
+        "gold": 50,
+        "food": 50
+      },
+      "training": {
+        "train_time_seconds": 15,
+        "trained_at": "town_center",
+        "population_cost": 1
+      },
+      "stats": {
+        "health": 25,
+        "armor": 0,
+        "movement_speed": 1.2,
+        "line_of_sight": 4,
+        "carry_capacity": 20
+      },
+      "capabilities": {
+        "gathering": {
+          "wood": {
+            "speed": 1.0,
+            "efficiency": 1.0
+          },
+          "food": {
+            "speed": 1.0,
+            "efficiency": 1.0
+          },
+          "gold": {
+            "speed": 0.8,
+            "efficiency": 0.8
+          },
+          "stone": {
+            "speed": 0.6,
+            "efficiency": 0.6
+          }
+        },
+        "construction": {
+          "build_speed_multiplier": 1.0,
+          "repair_speed_multiplier": 1.0
+        }
+      },
+      "upgrades": [
+        "villager_advanced"
+      ],
+      "required_technology": null,
+      "model_3d": "villager.obj",
+      "animations": [
+        "idle",
+        "walk",
+        "gather",
+        "build"
+      ],
+      "voice_lines": {
+        "select": [
+          "Yes?",
+          "Ready to work!",
+          "What needs doing?"
+        ],
+        "move": [
+          "On my way.",
+          "Moving out.",
+          "Let's go!"
+        ],
+        "attack": [
+          "I can't fight!",
+          "I'm not a soldier!",
+          "Get away!"
+        ]
+      }
+    },
+    "militia": {
+      "id": "militia_basic",
+      "name": "Militia",
+      "category": "military",
+      "description": "Basic armed civilian converted to soldier in times of need",
+      "tier": 1,
+      "cost": {
+        "gold": 30,
+        "food": 30
+      },
+      "training": {
+        "train_time_seconds": 12,
+        "trained_at": "town_center",
+        "population_cost": 1
+      },
+      "stats": {
+        "health": 40,
+        "armor": 1,
+        "movement_speed": 1.0,
+        "line_of_sight": 5
+      },
+      "combat": {
+        "attack_damage": 4,
+        "attack_type": "melee",
+        "attack_speed": 2.0,
+        "attack_range": 1.0,
+        "damage_type": "slashing",
+        "armor_penetration": 1,
+        "accuracy": 0.7
+      },
+      "capabilities": {
+        "can_attack": true,
+        "formation_fighter": true,
+        "morale": 50
+      },
+      "upgrades": [
+        "swordsman",
+        "spearmen"
+      ],
+      "required_technology": null,
+      "model_3d": "militia.obj",
+      "equipment": [
+        "rusty_sword",
+        "leather_armor"
+      ]
+    },
+    "swordsman": {
+      "id": "swordsman_basic",
+      "name": "Swordsman",
+      "category": "military",
+      "description": "Professional melee soldier armed with sword and shield",
+      "tier": 1,
+      "cost": {
+        "gold": 60,
+        "food": 60,
+        "metal": 20
+      },
+      "training": {
+        "train_time_seconds": 20,
+        "trained_at": "barracks",
+        "population_cost": 1
+      },
+      "stats": {
+        "health": 80,
+        "armor": 3,
+        "movement_speed": 0.9,
+        "line_of_sight": 6
+      },
+      "combat": {
+        "attack_damage": 8,
+        "attack_type": "melee",
+        "attack_speed": 1.5,
+        "attack_range": 1.0,
+        "damage_type": "slashing",
+        "armor_penetration": 2,
+        "accuracy": 0.8,
+        "defensive_bonus": 2
+      },
+      "capabilities": {
+        "can_attack": true,
+        "formation_fighter": true,
+        "morale": 70,
+        "formation_bonuses": {
+          "phalanx": {
+            "attack_bonus": 3,
+            "defense_bonus": 5
+          }
+        }
+      },
+      "upgrades": [
+        "champion",
+        "fencer"
+      ],
+      "required_technology": "basic_blacksmithing",
+      "model_3d": "swordsman.obj",
+      "equipment": [
+        "iron_sword",
+        "iron_shield",
+        "chain_mail"
+      ],
+      "sound_effects": {
+        "attack": "sword_swing.wav",
+        "hit": "sword_clash.wav",
+        "death": "body_fall.wav"
+      }
+    },
+    "archer": {
+      "id": "archer_basic",
+      "name": "Archer",
+      "category": "military",
+      "description": "Ranged combat specialist skilled with bow and arrows",
+      "tier": 1,
+      "cost": {
+        "gold": 70,
+        "food": 70,
+        "wood": 25
+      },
+      "training": {
+        "train_time_seconds": 25,
+        "trained_at": "barracks",
+        "population_cost": 1
+      },
+      "stats": {
+        "health": 35,
+        "armor": 1,
+        "movement_speed": 1.1,
+        "line_of_sight": 10
+      },
+      "combat": {
+        "attack_damage": 5,
+        "attack_type": "ranged",
+        "attack_speed": 2.5,
+        "attack_range": 8.0,
+        "damage_type": "piercing",
+        "armor_penetration": 1,
+        "accuracy": 0.75,
+        "projectile_speed": 20.0,
+        "ammunition_type": "arrow",
+        "ammunition_capacity": 20
+      },
+      "capabilities": {
+        "can_attack": true,
+        "formation_fighter": false,
+        "morale": 60,
+        "special_abilities": [
+          "volley_fire",
+          "focused_shot"
+        ]
+      },
+      "upgrades": [
+        "longbowman",
+        "crossbowman"
+      ],
+      "required_technology": "basic_ranged_weapons",
+      "model_3d": "archer.obj",
+      "equipment": [
+        "hunting_bow",
+        "leather_armor",
+        "arrows"
+      ]
+    },
+    "catapult": {
+      "id": "catapult_basic",
+      "name": "Catapult",
+      "category": "siege",
+      "description": "Heavy siege engine that launches projectiles at enemy fortifications",
+      "tier": 2,
+      "cost": {
+        "gold": 200,
+        "wood": 150,
+        "stone": 100
+      },
+      "training": {
+        "train_time_seconds": 60,
+        "trained_at": "siege_workshop",
+        "population_cost": 3
+      },
+      "stats": {
+        "health": 150,
+        "armor": 2,
+        "movement_speed": 0.4,
+        "line_of_sight": 16,
+        "build_cost_multiplier": 1.5
+      },
+      "combat": {
+        "attack_damage": 50,
+        "attack_type": "siege",
+        "attack_speed": 10.0,
+        "attack_range": 12.0,
+        "damage_type": "bludgeoning",
+        "armor_penetration": 10,
+        "accuracy": 0.5,
+        "projectile_speed": 8.0,
+        "area_damage": {
+          "radius": 3.0,
+          "damage": 25
+        }
+      },
+      "capabilities": {
+        "can_attack": true,
+        "formation_fighter": false,
+        "morale": 40,
+        "bonus_damage_vs_buildings": 0.5,
+        "siege_specialist": true,
+        "requires_setup_time": 5
+      },
+      "upgrades": [
+        "trebuchet",
+        "bombard"
+      ],
+      "required_technology": "siege_engineering",
+      "model_3d": "catapult.obj",
+      "equipment": [
+        "stone_balls"
+      ],
+      "weaknesses": {
+        "vulnerable_to": [
+          "cavalry"
+        ],
+        "movement_penalty": {
+          "rough_terrain": 0.3,
+          "forests": 0.5
+        }
+      }
+    },
+    "battering_ram": {
+      "id": "battering_ram_basic",
+      "name": "Battering Ram",
+      "category": "siege",
+      "description": "Heavy wheeled ram designed to break down enemy gates and walls",
+      "tier": 2,
+      "cost": {
+        "gold": 180,
+        "wood": 120,
+        "metal": 80
+      },
+      "training": {
+        "train_time_seconds": 45,
+        "trained_at": "siege_workshop",
+        "population_cost": 4
+      },
+      "stats": {
+        "health": 200,
+        "armor": 5,
+        "movement_speed": 0.3,
+        "line_of_sight": 8
+      },
+      "combat": {
+        "attack_damage": 30,
+        "attack_type": "siege",
+        "attack_speed": 3.0,
+        "attack_range": 1.5,
+        "damage_type": "bludgeoning",
+        "armor_penetration": 15,
+        "bonus_damage_vs_buildings": 100,
+        "accuracy": 0.8
+      },
+      "capabilities": {
+        "can_attack": true,
+        "formation_fighter": false,
+        "morale": 50,
+        "siege_specialist": true,
+        "building_breaker": true,
+        "crew_required": 4
+      },
+      "upgrades": [
+        "siege_ram",
+        "heavily_armored_ram"
+      ],
+      "required_technology": "advanced_battering",
+      "model_3d": "battering_ram.obj",
+      "abilities": [
+        "charge_attack",
+        "ram_charge"
+      ]
+    },
+    "hero_warrior_champion": {
+      "id": "hero_warrior_champion",
+      "name": "Warrior Champion",
+      "category": "hero",
+      "description": "Legendary warrior with exceptional combat prowess and leadership abilities",
+      "tier": 3,
+      "cost": {
+        "gold": 1000,
+        "food": 500,
+        "crystal": 100
+      },
+      "training": {
+        "train_time_seconds": 120,
+        "trained_at": "guild_hall",
+        "population_cost": 1,
+        "unique": true
+      },
+      "stats": {
+        "health": 500,
+        "armor": 8,
+        "movement_speed": 1.2,
+        "line_of_sight": 12,
+        "mana": 100
+      },
+      "combat": {
+        "attack_damage": 25,
+        "attack_type": "melee",
+        "attack_speed": 1.2,
+        "attack_range": 1.5,
+        "damage_type": "slashing",
+        "armor_penetration": 5,
+        "accuracy": 0.95,
+        "critical_chance": 0.15,
+        "critical_multiplier": 2.0
+      },
+      "capabilities": {
+        "can_attack": true,
+        "formation_fighter": true,
+        "morale": 100,
+        "hero_abilities": [
+          "battle_cry",
+          "charge",
+          "inspire",
+          "dual_wield"
+        ],
+        "leadership": {
+          "morale_boost": 20,
+          "combat_bonus": {
+            "nearby_allies": {
+              "attack_damage": 5,
+              "armor": 2
+            }
+          }
+        },
+        "special_passive": {
+          "regeneration": 2,
+          "resistance_bonus": {
+            "magic": 0.3,
+            "poison": 0.5
+          }
+        }
+      },
+      "required_technology": "hero_training",
+      "model_3d": "warrior_champion.obj",
+      "equipment": [
+        "legendary_sword",
+        "dragon_scale_armor",
+        "hero_cape"
+      ],
+      "voice_lines": {
+        "select": [
+          "For glory and honor!",
+          "Who dares challenge me?",
+          "Victory shall be ours!"
+        ],
+        "battle_cry": [
+          "Charge!",
+          "For the realm!",
+          "Victory or death!"
+        ],
+        "victory": [
+          "Another battle won.",
+          "Their defeat was inevitable.",
+          "Glory to the victor!"
+        ]
+      }
+    },
+    "elemental_fire_sprite": {
+      "id": "elemental_fire_sprite",
+      "name": "Fire Sprite",
+      "category": "summoned",
+      "description": "Small fiery elemental creature summoned through magical rituals",
+      "tier": 1,
+      "cost": {
+        "mana": 50,
+        "crystal": 10
+      },
+      "training": {
+        "train_time_seconds": 5,
+        "trained_at": "portal_gate",
+        "summon_duration": 300,
+        "population_cost": 0
+      },
+      "stats": {
+        "health": 60,
+        "armor": 2,
+        "movement_speed": 1.8,
+        "line_of_sight": 8
+      },
+      "combat": {
+        "attack_damage": 15,
+        "attack_type": "magic",
+        "attack_speed": 1.0,
+        "attack_range": 6.0,
+        "damage_type": "fire",
+        "armor_penetration": 3,
+        "accuracy": 0.85,
+        "magic_damage": true
+      },
+      "capabilities": {
+        "can_attack": true,
+        "formation_fighter": false,
+        "morale": 80,
+        "immunities": [
+          "fire_damage"
+        ],
+        "weaknesses": [
+          "water_damage",
+          "ice_damage"
+        ],
+        "aura_effects": {
+          "burn_damage": {
+            "damage_per_second": 2,
+            "radius": 2.0,
+            "duration": 5
+          }
+        }
+      },
+      "required_technology": "elemental_summoning",
+      "model_3d": "fire_sprite.obj",
+      "sound_effects": {
+        "spawn": "fire_crackle.wav",
+        "attack": "fire_burst.wav",
+        "death": "fire_extinguish.wav"
+      }
+    }
+  },
+  "unit_upgrades": {
+    "villager_advanced": {
+      "from_unit": "villager_basic",
+      "cost": {
+        "gold": 100,
+        "food": 50
+      },
+      "upgrade_time_seconds": 30,
+      "stat_bonuses": {
+        "health": 15,
+        "movement_speed": 0.2,
+        "carry_capacity": 10,
+        "gathering_efficiency": 0.25
+      },
+      "new_capabilities": {
+        "special_abilities": [
+          "build_faster"
+        ]
+      }
+    },
+    "swordsman_champion": {
+      "from_unit": "swordsman_basic",
+      "cost": {
+        "gold": 200,
+        "metal": 50,
+        "crystal": 25
+      },
+      "upgrade_time_seconds": 60,
+      "stat_bonuses": {
+        "health": 30,
+        "armor": 2,
+        "attack_damage": 4,
+        "attack_speed": 0.3
+      },
+      "new_capabilities": {
+        "hero_upgrade_eligible": true,
+        "formation_bonuses": {
+          "champion_phalanx": {
+            "attack_bonus": 5,
+            "defense_bonus": 8,
+            "morale_boost": 15
+          }
+        }
+      },
+      "equipment_changes": [
+        "steel_sword",
+        "steel_shield",
+        "plate_armor"
+      ]
+    }
+  },
+  "unit_abilities": {
+    "battle_cry": {
+      "name": "Battle Cry",
+      "description": "Increases morale and combat effectiveness of nearby allies",
+      "cooldown_seconds": 60,
+      "range": 8.0,
+      "mana_cost": 25,
+      "effects": {
+        "morale_boost": 20,
+        "attack_bonus": 5,
+        "duration_seconds": 15
+      },
+      "valid_units": [
+        "hero_warrior_champion",
+        "champion"
+      ]
+    },
+    "volley_fire": {
+      "name": "Volley Fire",
+      "description": "Coordinated arrow barrage targeting a specific area",
+      "cooldown_seconds": 45,
+      "range": 10.0,
+      "required_units": 5,
+      "effects": {
+        "area_damage": {
+          "radius": 4.0,
+          "damage": 20,
+          "damage_type": "piercing"
+        },
+        "accuracy_bonus": 0.3
+      },
+      "valid_units": [
+        "archer",
+        "longbowman"
+      ]
+    },
+    "charge": {
+      "name": "Charge Attack",
+      "description": "Powerful momentum-based attack that deals bonus damage",
+      "cooldown_seconds": 30,
+      "range": 6.0,
+      "mana_cost": 20,
+      "effects": {
+        "damage_multiplier": 2.5,
+        "knockback_distance": 3.0,
+        "self_damage": 10
+      },
+      "valid_units": [
+        "hero_warrior_champion",
+        "cavalry"
+      ]
+    }
+  },
+  "global_unit_modifiers": {
+    "experience_system": {
+      "enabled": true,
+      "levels": [
+        1,
+        5,
+        10,
+        15,
+        25,
+        35
+      ],
+      "stat_multipliers_per_level": {
+        "health": 0.1,
+        "attack_damage": 0.05,
+        "armor": 0.03
+      },
+      "ability_unlocks": {
+        "level_5": [
+          "first_aid"
+        ],
+        "level_10": [
+          "combat_discipline"
+        ],
+        "level_15": [
+          "veteran_aura"
+        ]
+      }
+    },
+    "unit_limits": {
+      "max_per_player": {
+        "heroes": 5,
+        "siege_units": 50,
+        "summoned_units": 100
+      },
+      "population_limits": {
+        "max_population": 200,
+        "household_capacity": 5
+      }
+    },
+    "formation_bonuses": {
+      "square_formation": {
+        "defense_bonus": 15,
+        "morale_bonus": 10,
+        "movement_penalty": 0.2
+      },
+      "wedge_formation": {
+        "attack_bonus": 10,
+        "charge_bonus": 25,
+        "flank_penalty": 50
+      },
+      "circle_formation": {
+        "circle_defense": 20,
+        "retreat_penalty": -25
+      }
+    }
+  },
+  "id": "units",
+  "name": "Units",
+  "template_type": "rt",
+  "version": "0.1.0"
+}

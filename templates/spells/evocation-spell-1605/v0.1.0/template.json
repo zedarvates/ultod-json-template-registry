@@ -1,0 +1,49 @@
+{
+  "id": "evocation_spell_1605",
+  "name": "Evocation Spell 1605",
+  "description": "Une lance d'énergie électrique frappe un ennemi avec précision",
+  "icon": "evocation_spell_1605_icon",
+  "school": "evocation",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 36.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 45,
+    "damage_type": "evocation_spell_1605",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "electric_lance",
+      "value": 45,
+      "duration": 0,
+      "tick_rate": 0,
+      "dexterity_save": true,
+      "save_dc": 14
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "evocation_spell_1605_charge",
+    "projectile_effect": "electric_lance"
+  },
+  "sound_effects": {
+    "cast_sound": "electric_charge",
+    "impact_sound": "electric_shock"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

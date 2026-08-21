@@ -1,0 +1,82 @@
+{
+  "id": "enchantment_spell_0430",
+  "name": "Enchantment Spell 0430",
+  "description": "Lance une rafale de missiles arcaniques qui suivent automatiquement leur cible",
+  "icon": "enchantment_spell_0430_icon",
+  "school": "enchantment",
+  "rarity": "common",
+  "spell_type": "homing_enchantment_spell_0430_projectiles",
+  "target_type": "single_enemy",
+  "range": 50.0,
+  "cast_time": 1000,
+  "cooldown": 2000,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "guided_enchantment_spell_0430_damage",
+    "scaling": {
+      "intelligence": 1.3,
+      "arcane_focus": 1.4
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "smart_enchantment_spell_0430_projectiles",
+      "value": 120,
+      "duration": 0,
+      "tick_rate": 0,
+      "missile_count": 3,
+      "homing_accuracy_perfect": true,
+      "arcane_damage_per_missile": 40,
+      "cast_time_reduction_chance": 0.15,
+      "spell_power_boost_proc": 20,
+      "mana_burst_return": 15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "enchantment_spell_0430_energy_concentrating_adapted_references",
+    "launch_effect": "missiles_formed_guiding_enchantment_spell_0430_jets",
+    "hit_effect": "target_impacted_enchantment_spell_0430_energy_burst",
+    "combo_effect": "missiles_chaining_subsequent_targets"
+  },
+  "sound_effects": {
+    "cast_sound": "enchantment_spell_0430_energy_charging_humming_build",
+    "launch_sound": "missiles_whizzing_magic_whoosh_launch",
+    "hit_sound": "target_enchantment_spell_0430_impact_energy_splash",
+    "combo_sound": "spell_power_boosting_chain_crack"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "enchantment_spell_0430_magic",
+      "projectile_control"
+    ],
+    "classes": [
+      "enchanter",
+      "enchantment_spell_0430_mage"
+    ],
+    "specializations": [
+      "projectile_master"
+    ]
+  },
+  "upgrades": {
+    "volley_of_arcane_missiles": {
+      "unlock_level": 12,
+      "description": "Augmente drastiquement le nombre de missiles pour un barrage destructeur",
+      "missile_count_increase": 7,
+      "damage_bonus_each_missile": 20,
+      "arcane_volley_proc": true,
+      "mana_cost_reduction": 0.3
+    },
+    "mastery_of_arcane_missiles": {
+      "unlock_level": 22,
+      "description": "Les missiles deviennent extrêmement intelligents et peuvent éviter les défenses",
+      "perfect_homing_intelligence": true,
+      "armor_penetration_increase": 0.4,
+      "split_damage_proc": 0.25,
+      "spell_discharge_buff": 150
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

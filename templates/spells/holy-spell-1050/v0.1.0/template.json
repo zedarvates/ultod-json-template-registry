@@ -1,0 +1,74 @@
+{
+  "id": "holy_spell_1050",
+  "name": "Holy Spell 1050",
+  "description": "Transfère les dégâts subis par un allié vers le paladin",
+  "icon": "holy_spell_1050_icon",
+  "school": "holy",
+  "rarity": "rare",
+  "spell_type": "buff",
+  "target_type": "single_ally",
+  "range": 10.0,
+  "cast_time": 1000,
+  "cooldown": 180000,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "holy"
+  },
+  "effects": [
+    {
+      "effect_type": "damage_redirect",
+      "value": 50,
+      "duration": 15000,
+      "tick_rate": 0,
+      "redirect_percentage": 50,
+      "max_redirect": 200,
+      "scaling": {
+        "vitality": 1.0,
+        "wisdom": 0.5
+      }
+    },
+    {
+      "effect_type": "visual_buff",
+      "value": 0,
+      "duration": 15000,
+      "tick_rate": 0,
+      "effect_name": "protection_link"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_link",
+    "buff_effect": "golden_chain",
+    "expire_effect": "link_break"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_oath",
+    "buff_sound": "protection_activated",
+    "expire_sound": "link_broken"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "paladin"
+    ]
+  },
+  "upgrades": {
+    "improved_noble_sacrifice": {
+      "unlock_level": 30,
+      "description": "Augmente l'efficacité de Holy Spell 1050",
+      "redirect_percentage_bonus": 25,
+      "duration_bonus": 5000
+    },
+    "divine_protection": {
+      "unlock_level": 40,
+      "description": "Holy Spell 1050 protège également contre les sorts",
+      "spell_damage_redirect": 30,
+      "ally_healing_bonus": 20
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

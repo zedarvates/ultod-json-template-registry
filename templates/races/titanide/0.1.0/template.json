@@ -1,0 +1,85 @@
+{
+  "id": "titanide",
+  "name": "Titanide",
+  "description": "A slow-walking construct of enchanted stone and rune-forged iron, animated by an ancient artificer core.",
+  "icon": "race_titanide",
+  "category": "construct",
+  "rarity": "rare",
+  "faction": "order",
+  "base_stats": {
+    "strength": 30,
+    "dexterity": 12,
+    "constitution": 38,
+    "intelligence": 22,
+    "wisdom": 20,
+    "charisma": 14,
+    "luck": 12
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 0.9,
+    "experience_rate": 0.95,
+    "health_regeneration": 0.6,
+    "mana_regeneration": 1.0
+  },
+  "available_classes": [
+    "warrior",
+    "cleric",
+    "paladin"
+  ],
+  "racial_traits": [
+    "stone_skin",
+    "rune_repair",
+    "immovable"
+  ],
+  "passive_bonuses": {
+    "skill_points_per_level": 1,
+    "attribute_points_per_level": 1,
+    "resistance_to_fear": 25,
+    "bonus_to_all_skills": 0
+  },
+  "starting_equipment": {
+    "weapons": [
+      "iron_maul"
+    ],
+    "armor": [
+      "plate_cuirass"
+    ],
+    "items": [
+      "repair_kit"
+    ]
+  },
+  "body_proportions": {
+    "height_min": 190,
+    "height_max": 240,
+    "weight_min": 150,
+    "weight_max": 300,
+    "body_type": "muscular"
+  },
+  "appearance_restrictions": {
+    "skin_colors": [
+      "granite",
+      "basalt",
+      "copper"
+    ],
+    "hair_colors": [
+      "none"
+    ],
+    "eye_colors": [
+      "glowing_blue",
+      "glowing_orange"
+    ],
+    "facial_features": "carved"
+  },
+  "cultural_background": {
+    "languages": [
+      "runic"
+    ],
+    "starting_city": "Foundryhold",
+    "alignment_tendency": "lawful_neutral",
+    "cultural_bonuses": {
+      "crafting": 12
+    }
+  },
+  "template_type": "race",
+  "version": "0.1.0"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "mythical_creature_0146",
+  "name": "Mythical Creature 0146",
+  "description": "Un dragon puissant et ancien, crachant du feu et gardant des trésors",
+  "icon": "mythical_creature_0146_icon",
+  "category": "mythical",
+  "rarity": "legendary",
+  "base_stats": {
+    "health": 10000,
+    "mana": 3000,
+    "strength": 120,
+    "dexterity": 60,
+    "intelligence": 80,
+    "wisdom": 100,
+    "constitution": 150,
+    "charisma": 90
+  },
+  "properties": {
+    "is_flying": true,
+    "is_magical": true,
+    "is_unique": true,
+    "is_boss": true,
+    "size": "gargantuan",
+    "speed": 20.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "dragon_scale",
+      "fire_essence"
+    ],
+    "rare_drops": [
+      "dragon_heart",
+      "ancient_dragon_blood"
+    ],
+    "epic_drops": [
+      "dragon_soul_crystal",
+      "legendary_weapon"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "extreme",
+    "attack_pattern": "fire_breath_and_charge",
+    "special_abilities": [
+      "fire_immunity",
+      "flight",
+      "regeneration"
+    ]
+  },
+  "abilities": [
+    "fire_breath",
+    "tail_sweep",
+    "wing_buffet",
+    "dragon_roar",
+    "ancient_magic"
+  ],
+  "resistances": {
+    "fire": 100,
+    "physical": 75,
+    "magic": 50
+  },
+  "weaknesses": [
+    "ice",
+    "lightning"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

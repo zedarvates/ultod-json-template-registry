@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0711",
+  "name": "Illusion Spell 0711",
+  "description": "Créé une illusion visuelle convaincante avec animations, sons et odeurs qui affectent tous les sens",
+  "icon": "illusion_spell_0711_icon",
+  "school": "illusion",
+  "rarity": "uncommon",
+  "spell_type": "multi_sensory_illusion_creation",
+  "target_type": "place_at_location",
+  "range": 60.0,
+  "cast_time": 1500,
+  "cooldown": 5000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "persuasion_illusion_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "convincing_multi_sensory_projection",
+      "value": 120,
+      "duration": 60000,
+      "tick_rate": 0,
+      "visual_realism_perfect": true,
+      "auditory_accompaniment": true,
+      "olfactory_simulation": true,
+      "tactile_illusion_weak": true,
+      "illusion_size_scale": 2.0,
+      "sensory_detection_resistance": 0.9
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "reality_weaving_energy_forming_image",
+    "illusion_effect": "living_breathing_convincing_projections",
+    "interaction_effect": "illusion_react_interactions_believably",
+    "expire_effect": "illusion_fading_dissipating_haze"
+  },
+  "sound_effects": {
+    "cast_effect": "reality_weaving_mystical_formation",
+    "illusion_effect": "living_sounds_convincing_auditory",
+    "interaction_effect": "responsive_reactions_relative_interactions",
+    "expire_effect": "hazy_dissipation_fading_whispers"
+  },
+  "requirements": {
+    "level": 14,
+    "skills": [
+      "illusion_magic",
+      "sensory_projection"
+    ],
+    "classes": [
+      "illusionist",
+      "sensory_weaver"
+    ],
+    "specializations": [
+      "convincing_deceiver"
+    ]
+  },
+  "upgrades": {
+    "greater_major_image": {
+      "unlock_level": 24,
+      "description": "L'Illusion Spell 0711 devient plus grande avec des sensations multi-dimensionnelles et des interactions avancées",
+      "taste_tactile_sensations_strong": true,
+      "emotional_impact_projection": true,
+      "interactive_illusion_behaviors": true,
+      "multidimensional_illusion_projection": 3.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

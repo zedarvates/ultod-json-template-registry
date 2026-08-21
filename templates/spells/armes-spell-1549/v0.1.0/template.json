@@ -1,0 +1,66 @@
+{
+  "id": "armes_spell_1549",
+  "name": "Armes Spell 1549",
+  "description": "Une attaque puissante qui augmente les dégâts en mêlée",
+  "icon": "armes_spell_1549_icon",
+  "school": "armes",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 150,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 1.0,
+      "rage": 0.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 150,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sword_swing",
+    "projectile_effect": "none",
+    "impact_effect": "sword_impact",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "sword_swing",
+    "impact_sound": "sword_impact"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "arms"
+    ]
+  },
+  "upgrades": {
+    "improved_heroic_strike": {
+      "unlock_level": 10,
+      "description": "Augmente les dégâts de Armes Spell 1549 de 25%",
+      "damage_bonus": 25
+    },
+    "heroic_strike_mastery": {
+      "unlock_level": 20,
+      "description": "Armes Spell 1549 a une chance de réduire le temps de recharge des autres attaques",
+      "cooldown_reduction_chance": 0.3,
+      "cooldown_reduction_amount": 1000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

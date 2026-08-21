@@ -1,0 +1,78 @@
+{
+  "id": "enchantment_spell_0442",
+  "name": "Enchantment Spell 0442",
+  "description": "Efface les souvenirs récents d'un ennemi, le faisant oublier sa présence et ses intentions hostiles",
+  "icon": "enchantment_spell_0442_icon",
+  "school": "enchantment",
+  "rarity": "rare",
+  "spell_type": "enchantment_spell_0442_manipulation",
+  "target_type": "single_enemy",
+  "range": 18.0,
+  "cast_time": 3000,
+  "cooldown": 60000,
+  "mana_cost": 120,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "psychic_enchantment_spell_0442_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "cognitive_enchantment_spell_0442_erase",
+      "value": 300,
+      "duration": 30000,
+      "tick_rate": 0,
+      "memory_wipe_success": 0.75,
+      "memory_span_erased_minutes": 30,
+      "hostility_forget_chance": 0.9,
+      "confusion_state_duration": 15000,
+      "recurring_amnesia_risk": 0.2,
+      "memory_fragment_damage": 150
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "psychic_energy_threads_penetrating_mind",
+    "wipe_effect": "memories_erasing_glowing_energy_unraveling",
+    "confusion_effect": "disoriented_gaze_dazed_expression",
+    "damage_effect": "enchantment_spell_0442_fragments_shattering_psychic_shards"
+  },
+  "sound_effects": {
+    "cast_sound": "psychic_whispers_enchantment_spell_0442_access_humming",
+    "wipe_sound": "enchantment_spell_0442_fragments_untangling_breaking",
+    "confusion_sound": "disoriented_mind_confused_whispering",
+    "damage_sound": "enchantment_spell_0442_shards_shattering_psychic_cracks"
+  },
+  "requirements": {
+    "level": 50,
+    "skills": [
+      "arcane_magic",
+      "enchantment_spell_0442_manipulation"
+    ],
+    "classes": [
+      "enchanter",
+      "mind_sculptor"
+    ],
+    "specializations": [
+      "enchantment_spell_0442_sage"
+    ]
+  },
+  "upgrades": {
+    "selective_memory_erase": {
+      "unlock_level": 60,
+      "description": "Permet de choisir exactement quels souvenirs effacer avec une précision chirurgicale",
+      "selective_memory_choosing": true,
+      "perfect_memory_manipulation": true,
+      "false_memory_implantation": true,
+      "permanent_mind_control_establishment": 0.3
+    },
+    "collective_memory_wipe": {
+      "unlock_level": 70,
+      "description": "Efface la mémoire de plusieurs cibles simultanément dans une zone donnée",
+      "area_memory_wipe_radius": 20.0,
+      "max_targets_affected": 8,
+      "shared_memory_construct": true,
+      "reality_anchor_breaking": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

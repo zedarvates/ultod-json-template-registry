@@ -1,0 +1,50 @@
+{
+  "id": "necromancy_spell_1527",
+  "name": "Necromancy Spell 1527",
+  "description": "Inflige des dégâts nécrotiques massifs et peut tuer instantanément",
+  "icon": "necromancy_spell_1527_icon",
+  "school": "necromancy",
+  "rarity": "artifact",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 18.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 120,
+  "damage": {
+    "base_damage": 150,
+    "damage_type": "necrotic",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "death_touch",
+      "value": 150,
+      "duration": 0,
+      "tick_rate": 0,
+      "constitution_save": true,
+      "save_dc": 17
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "death_ray",
+    "projectile_effect": "necrotic_surge"
+  },
+  "sound_effects": {
+    "cast_sound": "death_bell"
+  },
+  "requirements": {
+    "level": 7,
+    "skills": [
+      "necromancy"
+    ],
+    "classes": [
+      "warlock",
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

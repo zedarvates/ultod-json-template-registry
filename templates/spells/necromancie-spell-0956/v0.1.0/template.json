@@ -1,0 +1,67 @@
+{
+  "id": "necromancie_spell_0956",
+  "name": "Necromancie Spell 0956",
+  "description": "Ranime un cadavre pour créer un serviteur mort-vivant",
+  "icon": "necromancie_spell_0956_icon",
+  "school": "necromancie",
+  "rarity": "uncommon",
+  "spell_type": "summon",
+  "target_type": "corpse",
+  "range": 10.0,
+  "cast_time": 2000,
+  "cooldown": 30000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "shadow",
+    "scaling": {
+      "intelligence": 0.0,
+      "wisdom": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "summon_minion",
+      "value": 1,
+      "duration": 300000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "minion_type": "skeleton_warrior"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necromancie_spell_0956_ritual",
+    "summon_effect": "corpse_rising",
+    "minion_effect": "undead_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "necro_chant",
+    "summon_sound": "bones_cracking",
+    "minion_sound": "undead_groan"
+  },
+  "requirements": {
+    "level": 15,
+    "skills": [],
+    "classes": [
+      "necromancer",
+      "death_knight"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_raise_dead": {
+      "unlock_level": 25,
+      "description": "Necromancie Spell 0956 crée des serviteurs plus puissants",
+      "minion_level_bonus": 5,
+      "minion_health_bonus": 50
+    },
+    "raise_dead_mastery": {
+      "unlock_level": 35,
+      "description": "Necromancie Spell 0956 peut ranimer plusieurs cadavres à la fois",
+      "multi_summon": true,
+      "max_summons": 3
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

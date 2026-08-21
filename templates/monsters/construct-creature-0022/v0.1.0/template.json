@@ -1,0 +1,66 @@
+{
+  "id": "construct_creature_0022",
+  "name": "Construct Creature 0022",
+  "description": "Constructe de pierre animé par une magie ancienne, gardien éternel de ruines oubliées",
+  "icon": "construct_creature_0022_icon",
+  "category": "construct",
+  "rarity": "epic",
+  "base_stats": {
+    "health": 3500,
+    "mana": 500,
+    "strength": 90,
+    "dexterity": 25,
+    "intelligence": 40,
+    "wisdom": 60,
+    "constitution": 120,
+    "charisma": 10
+  },
+  "properties": {
+    "is_mechanical": true,
+    "is_magical": true,
+    "size": "large",
+    "speed": 6.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "stone_fragment",
+      "ancient_rune"
+    ],
+    "rare_drops": [
+      "construct_creature_0022_core",
+      "enchanted_stone"
+    ],
+    "epic_drops": [
+      "construct_blueprint",
+      "construct_creature_0022_heart"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "moderate",
+    "attack_pattern": "slow_powerful",
+    "special_abilities": [
+      "stone_skin",
+      "earthquake_stomp",
+      "regeneration"
+    ]
+  },
+  "abilities": [
+    "stone_fist",
+    "ground_slam",
+    "stone_armor",
+    "ancient_curse",
+    "self_repair"
+  ],
+  "resistances": {
+    "physical": 80,
+    "magic": 60,
+    "poison": 100
+  },
+  "weaknesses": [
+    "lightning",
+    "wind",
+    "corruption"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

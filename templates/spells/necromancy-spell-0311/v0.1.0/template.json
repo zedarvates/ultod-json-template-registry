@@ -1,0 +1,76 @@
+{
+  "id": "necromancy_spell_0311",
+  "name": "Necromancy Spell 0311",
+  "description": "Un commandement ténébreux qui force les ennemis à se tourner vers vous et à attaquer, als force à obéir à la volonté du death knight",
+  "icon": "necromancy_spell_0311_icon",
+  "school": "necromancy",
+  "rarity": "uncommon",
+  "spell_type": "necromancy_spell_0311_taunt",
+  "target_type": "single_enemy",
+  "range": 20.0,
+  "cast_time": 500,
+  "cooldown": 8000,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "mental_domination"
+  },
+  "effects": [
+    {
+      "effect_type": "unholy_command_taunt",
+      "value": 150,
+      "duration": 6000,
+      "tick_rate": 0,
+      "forced_attention_duration": 6000,
+      "aggro_override": 150,
+      "attack_speed_reduction_while_taunted": 0.3,
+      "damage_boost_while_taunted": 20,
+      "fear_proc_on_command": 0.1,
+      "multiple_taunt_radius": 5.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necromancy_spell_0311_runes_eye_flash",
+    "command_effect": "red_spiritual_chains_eye_contact",
+    "taunt_effect": "compulsion_aura_around_target",
+    "duration_effect": "mind_control_energy_tendrils"
+  },
+  "sound_effects": {
+    "cast_sound": "necromancy_spell_0311_authority_whisper_command",
+    "command_sound": "mental_chain_snapping_lock",
+    "taunt_effect": "enemy_will_breaking_crack",
+    "duration_sound": "sustained_mental_torment_hum"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "unholy_magic",
+      "mental_domination"
+    ],
+    "classes": [
+      "death_knight",
+      "necromancy_spell_0311er"
+    ],
+    "specializations": [
+      "mind_breaker"
+    ]
+  },
+  "upgrades": {
+    "screaming_dark_command": {
+      "unlock_level": 22,
+      "description": "Le commandement devient un cri qui affecte plusieurs cibles",
+      "max_targets": 4,
+      "command_radius": 15.0,
+      "group_taunt_power": 80
+    },
+    "unbreakable_command": {
+      "unlock_level": 32,
+      "description": "Le commandement devient presque irrésistible empêchant les sorts de guérison",
+      "taunt_resistance_pierce": 0.5,
+      "heal_prevention_while_taunted": true,
+      "command_duration_bonus": 3000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

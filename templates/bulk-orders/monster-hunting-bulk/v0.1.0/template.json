@@ -1,0 +1,50 @@
+{
+  "id": "monster_hunting_bulk",
+  "name": "Commande de Chasse aux Monstres",
+  "profession": "hunting",
+  "description": "Chasse en gros de monstres dangereux pour sécuriser les routes commerciales",
+  "difficulty": "hard",
+  "time_limit_hours": 96,
+  "material_cost_multiplier": 1.3,
+  "experience_bonus_multiplier": 1.4,
+  "item_requirements": [
+    {
+      "item_type": "wolf_pelt",
+      "quantity": 30,
+      "quality_requirement": "fine",
+      "special_properties": [
+        "undamaged"
+      ]
+    },
+    {
+      "item_type": "bear_claw",
+      "quantity": 20,
+      "quality_requirement": "superior",
+      "special_properties": [
+        "sharp"
+      ]
+    },
+    {
+      "item_type": "troll_tusk",
+      "quantity": 10,
+      "quality_requirement": "exceptional",
+      "special_properties": [
+        "intact",
+        "magical"
+      ]
+    }
+  ],
+  "rewards": {
+    "gold_reward": 15000,
+    "experience_reward": 1200,
+    "item_rewards": [
+      "hunter_mastery_manual",
+      "rare_beast_essence",
+      "enchanted_bow"
+    ],
+    "title_unlock": "Monster Slayer",
+    "reputation_gain": 200
+  },
+  "template_type": "bulk_order",
+  "version": "0.1.0"
+}

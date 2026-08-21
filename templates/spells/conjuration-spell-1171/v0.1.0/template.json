@@ -1,0 +1,62 @@
+{
+  "id": "conjuration_spell_1171",
+  "name": "Conjuration Spell 1171",
+  "description": "Vous pénétrez magiquement dans un arbre et en sortez par un autre arbre à portée",
+  "icon": "conjuration_spell_1171_icon",
+  "school": "conjuration",
+  "rarity": "rare",
+  "spell_type": "teleport",
+  "target_type": "conjuration_spell_1171_to_conjuration_spell_1171",
+  "range": 500.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "conjuration_spell_1171_teleport",
+      "value": 0,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "max_jumps": 2,
+      "teleport_range": 500
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "conjuration_spell_1171_merge",
+    "teleport_effect": "conjuration_spell_1171_exit"
+  },
+  "sound_effects": {
+    "cast_sound": "leaf_rustle",
+    "teleport_sound": "wood_growl"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "nature_magic",
+      "teleportation"
+    ],
+    "classes": [
+      "ranger",
+      "druid"
+    ]
+  },
+  "upgrades": {
+    "greater_stride": {
+      "unlock_level": 9,
+      "description": "Peut sauter entre 3 arbres",
+      "max_jumps": 3
+    },
+    "forest_stride": {
+      "unlock_level": 15,
+      "description": "Peut inclure les buissons et plantes",
+      "include_plants": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

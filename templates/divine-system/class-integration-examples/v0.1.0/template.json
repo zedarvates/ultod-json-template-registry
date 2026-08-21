@@ -1,0 +1,699 @@
+{
+  "divine_system_class_integrations": {
+    "priest_class_integration": {
+      "class_overview": {
+        "base_class": "Priest",
+        "divine_focus": "Primary divine spellcaster with full divine energy access",
+        "starting_divine_connection": "Personal relationship with chosen patron deity",
+        "faith_development": "Central character progression path"
+      },
+      "starting_equipment": {
+        "divine_items": [
+          "sacred_symbol_of_patron_deity",
+          "beginner_divine_spellbook",
+          "basic_ritual_components_pouch",
+          "humble_sacrificial_offering"
+        ],
+        "divine_abilities": [
+          "divine_sense (detect divine presences)",
+          "basic_prayer_mastery",
+          "simple_offering_rituals"
+        ]
+      },
+      "divine_relationship_development": {
+        "level_1": {
+          "faith_tier": "curious_seeker_to_devoted_believer",
+          "relationship_status": "distant_veneration_to_personal_devotion",
+          "available_divine_interactions": [
+            "daily_prayer",
+            "simple_blessings",
+            "divine_guidance_vision",
+            "basic_sacrificial_rituals"
+          ],
+          "spell_access": [
+            "prayer_healing",
+            "divine_guidance",
+            "simple_protection_blessing",
+            "basic_offering_rituals"
+          ]
+        },
+        "level_5": {
+          "faith_tier": "devoted_believer_to_fervent_devotee",
+          "relationship_status": "personal_devotion_to_close_relationship",
+          "available_divine_interactions": [
+            "direct_divine_communication",
+            "major_sacrifice_ceremonies",
+            "divine_intervention_requests",
+            "temple_leadership_responsibilities"
+          ],
+          "spell_access": [
+            "divine_protection",
+            "miracle_seeking",
+            "prophetic_vision",
+            "advanced_healing_ceremonies",
+            "divine_speech"
+          ]
+        },
+        "level_10": {
+          "faith_tier": "fervent_devotee_to_zealous_saint",
+          "relationship_status": "close_relationship_to_divine_friendship",
+          "available_divine_interactions": [
+            "constant_divine_communication",
+            "joint_decision_making",
+            "divine_cooperation",
+            "canonization_process_start"
+          ],
+          "spell_access": [
+            "divine_miracle",
+            "saintly_intercession",
+            "reality_manipulation",
+            "mass_divine_blessing",
+            "divine_avatar_summoning"
+          ]
+        },
+        "level_15": {
+          "faith_tier": "zealous_saint_to_canonized_being",
+          "relationship_status": "divine_friendship_to_divine_unity",
+          "available_divine_interactions": [
+            "shared_consciousness_moments",
+            "coequal_partnership",
+            "joint_cosmic_responsibilities",
+            "full_divine_transformation_potential"
+          ],
+          "spell_access": [
+            "divine_mastery",
+            "cosmic_communication",
+            "world_creation_assistance",
+            "universal_intervention",
+            "primordial_energy_manipulation"
+          ]
+        }
+      },
+      "divine_specializations": {
+        "healing_focus": {
+          "patron_deities": [
+            "Healing Goddesses",
+            "Life-giving Divinities"
+          ],
+          "specialized_spells": [
+            "mass_healing",
+            "life_restoration",
+            "disease_eradication",
+            "regeneration_ceremony"
+          ],
+          "divine_abilities": [
+            "healing_aura",
+            "divine_compassion",
+            "life_energy_manipulation"
+          ]
+        },
+        "combat_focus": {
+          "patron_deities": [
+            "War Gods",
+            "Battle Goddesses"
+          ],
+          "specialized_spells": [
+            "divine_war_blessing",
+            "martyr_courage",
+            "battlefield_dominance",
+            "righteous_empowerment"
+          ],
+          "divine_abilities": [
+            "warrior_divine_guidance",
+            "battle_inspiration",
+            "martyr_sacrifice_power"
+          ]
+        },
+        "knowledge_focus": {
+          "patron_deities": [
+            "Wisdom Gods",
+            "Prophetic Divinities"
+          ],
+          "specialized_spells": [
+            "divine_prophecy",
+            "knowledge_revelation",
+            "truth_vision",
+            "ancient_wisdom"
+          ],
+          "divine_abilities": [
+            "prophetic_sight",
+            "divine_knowledge",
+            "wisdom_guidance"
+          ]
+        }
+      },
+      "class_advancement_paths": {
+        "high_priest_path": {
+          "description": "Traditional temple leadership role",
+          "requirements": [
+            "temple_appointment",
+            "advanced_faith",
+            "community_recognition"
+          ],
+          "benefits": [
+            "temple_authority",
+            "community_guidance",
+            "ritual_mastery"
+          ]
+        },
+        "divine_mystic_path": {
+          "description": "Individual spiritual journey and cosmic connection",
+          "requirements": [
+            "deep_meditation",
+            "solitary_worship",
+            "cosmic_understanding"
+          ],
+          "benefits": [
+            "mystical_powers",
+            "cosmic_insight",
+            "transcendent_abilities"
+          ]
+        },
+        "divine_crusader_path": {
+          "description": "Active spreading of divine will and protection of faith",
+          "requirements": [
+            "combat_training",
+            "missionary_work",
+            "faith_defense"
+          ],
+          "benefits": [
+            "crusader_powers",
+            "faith_protection",
+            "missionary_success"
+          ]
+        }
+      }
+    },
+    "paladin_class_integration": {
+      "class_overview": {
+        "base_class": "Paladin",
+        "divine_focus": "Divine warrior with oath-based power",
+        "starting_divine_connection": "Oath-based divine contract",
+        "faith_development": "Oath-centered progression"
+      },
+      "starting_equipment": {
+        "divine_items": [
+          "sacred_weapon_bonded_to_oath",
+          "divine_armor_of_oath",
+          "oath_tablets",
+          "sacrifice_implements"
+        ],
+        "divine_abilities": [
+          "oath_power",
+          "divine_sense",
+          "basic_blessing",
+          "sacrifice_capability"
+        ]
+      },
+      "oath_specific_divine_integrations": {
+        "oath_of_devotion": {
+          "patron_deity": "Lawful Good Deities (Justice, Protection)",
+          "divine_energy": "holy_energy + war_energy",
+          "oath_powers": {
+            "level_1": {
+              "divine_ability": "sacred_weapon_mastery",
+              "description": "Weapon gains +1 divine bonus, critical hits on 19-20",
+              "faith_requirement": "devoted_believer",
+              "energy_cost": "10 per long rest"
+            },
+            "level_5": {
+              "divine_ability": "aura_of_devotion",
+              "description": "Allies within 10 feet gain +2 to Charisma checks",
+              "faith_requirement": "fervent_devotee",
+              "energy_cost": "continuous"
+            },
+            "level_10": {
+              "divine_ability": "divine_smite",
+              "description": "Add divine damage to weapon attacks",
+              "faith_requirement": "zealous_saint",
+              "energy_cost": "variable"
+            },
+            "level_15": {
+              "divine_ability": "holy_avenger",
+              "description": "Weapon becomes holy avenger, deals extra damage to evil",
+              "faith_requirement": "canonized_being",
+              "energy_cost": "none"
+            }
+          }
+        },
+        "oath_of_ancients": {
+          "patron_deity": "Nature and Balance Deities",
+          "divine_energy": "nature_energy + elemental_divine",
+          "oath_powers": {
+            "level_1": {
+              "divine_ability": "warden_of_nature",
+              "description": "Nature responds to protect paladin and allies",
+              "faith_requirement": "devoted_believer",
+              "energy_cost": "15 per long rest"
+            },
+            "level_5": {
+              "divine_ability": "aura_of_warding",
+              "description": "Resist damage as if wearing +1 armor",
+              "faith_requirement": "fervent_devotee",
+              "energy_cost": "continuous"
+            },
+            "level_10": {
+              "divine_ability": "nature_wrath",
+              "description": "Channel nature's fury through weapon",
+              "faith_requirement": "zealous_saint",
+              "energy_cost": "variable"
+            },
+            "level_15": {
+              "divine_ability": "elder_champion",
+              "description": "Become avatar of nature's power",
+              "faith_requirement": "canonized_being",
+              "energy_cost": "none"
+            }
+          }
+        },
+        "oath_of_vengeance": {
+          "patron_deity": "War and Justice Deities (especially against evil)",
+          "divine_energy": "war_energy + holy_energy",
+          "oath_powers": {
+            "level_1": {
+              "divine_ability": "abjure_enemy",
+              "description": "Mark enemy for divine pursuit and destruction",
+              "faith_requirement": "devoted_believer",
+              "energy_cost": "10 per long rest"
+            },
+            "level_5": {
+              "divine_ability": "vow_of_enmity",
+              "description": "Gain advantage against marked enemies",
+              "faith_requirement": "fervent_devotee",
+              "energy_cost": "continuous"
+            },
+            "level_10": {
+              "divine_ability": "soul_of_vengeance",
+              "description": "Bonus damage against marked enemies",
+              "faith_requirement": "zealous_saint",
+              "energy_cost": "variable"
+            },
+            "level_15": {
+              "divine_ability": "avenging_angel",
+              "description": "Transform into divine avenger",
+              "faith_requirement": "canonized_being",
+              "energy_cost": "none"
+            }
+          }
+        }
+      },
+      "paladin_sacrifice_mechanics": {
+        "health_sacrifice": {
+          "description": "Trading HP for divine power",
+          "mechanics": "Spend 1d4 HP to gain divine energy points",
+          "benefits": [
+            "increased_spell_power",
+            "divine_empowerment",
+            "oath_strengthening"
+          ],
+          "limitations": [
+            "temporary_weakness",
+            "healing_required",
+            "risk_of_death"
+          ]
+        },
+        "equipment_sacrifice": {
+          "description": "Destroying equipment for divine blessing",
+          "mechanics": "Destroy magical item to gain permanent divine enhancement",
+          "benefits": [
+            "permanent_ability_boost",
+            "divine_item_creation",
+            "equipment_empowerment"
+          ],
+          "limitations": [
+            "permanent_loss",
+            "item_replacement_difficulty",
+            "divine_judgment"
+          ]
+        },
+        "life_force_sacrifice": {
+          "description": "adapted_referencete sacrifice for divine intervention",
+          "mechanics": "Spend life force to perform impossible divine act",
+          "benefits": [
+            "reality_modification",
+            "divine_miracle",
+            "cosmic_intervention"
+          ],
+          "limitations": [
+            "death_risk",
+            "permanent_damage",
+            "divine_responsibility"
+          ]
+        }
+      }
+    },
+    "oracle_class_integration": {
+      "class_overview": {
+        "base_class": "Oracle",
+        "divine_focus": "Divine mysteries and cosmic revelations",
+        "starting_divine_connection": "Cosmic curse/connection to divine forces",
+        "faith_development": "Mystery revelation and cosmic understanding"
+      },
+      "starting_equipment": {
+        "divine_items": [
+          "oracle_crystals",
+          "divine_mystery_scrolls",
+          "cosmic_symbol_jewelry",
+          "prophecy_tablets"
+        ],
+        "divine_abilities": [
+          "mystery_awakening",
+          "cosmic_curse",
+          "prophetic_vision",
+          "divine_confusion"
+        ]
+      },
+      "mystery_specific_integrations": {
+        "heavens_mystery": {
+          "cosmic_connection": "Stellar and celestial divine forces",
+          "divine_energy": "cosmic_alignment + wisdom_energy",
+          "mystery_powers": {
+            "level_1": {
+              "divine_ability": "star_kissed",
+              "description": "Natural AC bonus, resistance to cold",
+              "faith_requirement": "curious_seeker",
+              "energy_source": "cosmic_alignment"
+            },
+            "level_5": {
+              "divine_ability": "constellation_sight",
+              "description": "See through magical darkness, detect celestial beings",
+              "faith_requirement": "devoted_believer",
+              "energy_source": "stellar_energy"
+            },
+            "level_10": {
+              "divine_ability": "cosmic_insight",
+              "description": "Roll twice on all divination spells, use better result",
+              "faith_requirement": "fervent_devotee",
+              "energy_source": "cosmic_knowledge"
+            },
+            "level_15": {
+              "divine_ability": "astral_projection",
+              "description": "Project consciousness to astral plane",
+              "faith_requirement": "zealous_saint",
+              "energy_source": "astral_connection"
+            }
+          }
+        },
+        "life_mystery": {
+          "cosmic_connection": "Life and death cycle forces",
+          "divine_energy": "death_energy + nature_energy",
+          "mystery_powers": {
+            "level_1": {
+              "divine_ability": "life_link",
+              "description": "Share HP with willing target",
+              "faith_requirement": "curious_seeker",
+              "energy_source": "life_connection"
+            },
+            "level_5": {
+              "divine_ability": "death's_approach",
+              "description": "See life force, detect undead, see through death effects",
+              "faith_requirement": "devoted_believer",
+              "energy_source": "death_sight"
+            },
+            "level_10": {
+              "divine_ability": "life_watcher",
+              "description": "Monitor health of all allies within 60 feet",
+              "faith_requirement": "fervent_devotee",
+              "energy_source": "life_awareness"
+            },
+            "level_15": {
+              "divine_ability": "life_transcendence",
+              "description": "Temporarily become immune to death effects",
+              "faith_requirement": "zealous_saint",
+              "energy_source": "life_mastery"
+            }
+          }
+        },
+        "battle_mystery": {
+          "cosmic_connection": "Divine war and cosmic conflict",
+          "divine_energy": "war_energy + chaos_energy",
+          "mystery_powers": {
+            "level_1": {
+              "divine_ability": "battlefield_presence",
+              "description": "Intimidate enemies, inspire allies in combat",
+              "faith_requirement": "curious_seeker",
+              "energy_source": "battle_aura"
+            },
+            "level_5": {
+              "divine_ability": "combat_prophecy",
+              "description": "Predict enemy attacks, gain temporary bonuses",
+              "faith_requirement": "devoted_believer",
+              "energy_source": "combat_foresight"
+            },
+            "level_10": {
+              "divine_ability": "divine_confusion",
+              "description": "Cause enemies to attack randomly",
+              "faith_requirement": "fervent_devotee",
+              "energy_source": "chaos_command"
+            },
+            "level_15": {
+              "divine_ability": "cosmic_battle_mastery",
+              "description": "Transcend normal combat limitations",
+              "faith_requirement": "zealous_saint",
+              "energy_source": "cosmic_warfare"
+            }
+          }
+        }
+      },
+      "oracle_prophecy_mechanics": {
+        "prophetic_accident": {
+          "description": "Oracle powers activate at inconvenient times",
+          "mechanics": "Roll on prophecy table when surprised or stressed",
+          "benefits": [
+            "unexpected_prophecy",
+            "situational_help",
+            "cosmic_guidance"
+          ],
+          "drawbacks": [
+            "social_awkwardness",
+            "confusing_vision",
+            "temporary_disability"
+          ]
+        },
+        "cosmic_understanding": {
+          "description": "Gradual revelation of universal truths",
+          "mechanics": "Gain cosmic knowledge as faith develops",
+          "benefits": [
+            "enhanced_divination",
+            "reality_insight",
+            "cosmic_awareness"
+          ],
+          "cost": [
+            "psychological_strain",
+            "social_isolation",
+            "responsibility_burden"
+          ]
+        },
+        "divine_curse": {
+          "description": "Oracle must bear cosmic burden",
+          "mechanics": "Permanent condition tied to cosmic forces",
+          "examples": [
+            "blindness_compensation",
+            "mystic_stigmata",
+            "reality_displacement"
+          ],
+          "benefits": [
+            "enhanced_senses",
+            "divine_power",
+            "cosmic_connection"
+          ],
+          "drawbacks": [
+            "physical_weakness",
+            "social_stigma",
+            "cosmic_responsibility"
+          ]
+        }
+      }
+    },
+    "cleric_class_integration": {
+      "class_overview": {
+        "base_class": "Cleric",
+        "divine_focus": "Divine spellcasting and healing focus",
+        "starting_divine_connection": "Divine magic channeling ability",
+        "faith_development": "Spellcasting power and divine channeling"
+      },
+      "starting_equipment": {
+        "divine_items": [
+          "sacred_focus (mace or holy symbol)",
+          "divine_spell_components",
+          "prayer_beads",
+          "blessed_vestments"
+        ],
+        "divine_abilities": [
+          "divine_spellcasting",
+          "channel_divinity",
+          "divine_domain_selection"
+        ]
+      },
+      "domain_specific_divine_integrations": {
+        "life_domain": {
+          "patron_focus": "Healing and preservation deities",
+          "divine_energy": "holy_energy + nature_energy",
+          "domain_powers": {
+            "level_1": {
+              "divine_ability": "disciple_of_life",
+              "description": "Enhanced healing spells, bonus to HP restoration",
+              "faith_requirement": "devoted_believer",
+              "energy_modifier": "+1d4 healing per spell level"
+            },
+            "level_2": {
+              "divine_ability": "channel_divinity_life",
+              "description": "Channel positive energy for mass healing",
+              "faith_requirement": "fervent_devotee",
+              "energy_cost": "1 channel_divinity use",
+              "healing_area": "30-foot radius"
+            },
+            "level_6": {
+              "divine_ability": "blessed_healer",
+              "description": "Healing spells don't provoke opportunity attacks",
+              "faith_requirement": "zealous_saint",
+              "energy_cost": "none"
+            },
+            "level_8": {
+              "divine_ability": "divine_strike",
+              "description": "Weapon attacks deal additional radiant damage",
+              "faith_requirement": "canonized_being",
+              "energy_source": "divine_channeling"
+            },
+            "level_17": {
+              "divine_ability": "supreme_healing",
+              "description": "Healing spells restore maximum HP when cast at highest level",
+              "faith_requirement": "canonized_being",
+              "energy_cost": "double normal energy"
+            }
+          }
+        },
+        "war_domain": {
+          "patron_focus": "War and battle deities",
+          "divine_energy": "war_energy + holy_energy",
+          "domain_powers": {
+            "level_1": {
+              "divine_ability": "warrior_of_god",
+              "description": "Proficiency with heavy armor and martial weapons",
+              "faith_requirement": "devoted_believer",
+              "energy_benefit": "enhanced_combat_capability"
+            },
+            "level_2": {
+              "divine_ability": "channel_divinity_war",
+              "description": "Grant allies bonus to attack rolls",
+              "faith_requirement": "fervent_devotee",
+              "energy_cost": "1 channel_divinity use",
+              "bonus_amount": "+1d4 to attack rolls"
+            },
+            "level_6": {
+              "divine_ability": "divine_Strike",
+              "description": "Weapon attacks deal additional radiant damage",
+              "faith_requirement": "zealous_saint",
+              "damage_bonus": "1d8 radiant damage"
+            },
+            "level_8": {
+              "divine_ability": "divine_Strike_improved",
+              "description": "Increased divine strike damage",
+              "faith_requirement": "canonized_being",
+              "damage_bonus": "2d8 radiant damage"
+            },
+            "level_17": {
+              "divine_ability": "avatar_of_battle",
+              "description": "Transform into divine warrior avatar",
+              "faith_requirement": "canonized_being",
+              "energy_cost": "all_channel_divinity uses"
+            }
+          }
+        },
+        "knowledge_domain": {
+          "patron_focus": "Knowledge and wisdom deities",
+          "divine_energy": "wisdom_energy + holy_energy",
+          "domain_powers": {
+            "level_1": {
+              "divine_ability": "blessed_knowledge",
+              "description": "Learn languages, gain knowledge skills",
+              "faith_requirement": "devoted_believer",
+              "energy_benefit": "cosmic_wisdom_access"
+            },
+            "level_2": {
+              "divine_ability": "channel_divinity_knowledge",
+              "description": "Gain advantage on ability checks using chosen skill",
+              "faith_requirement": "fervent_devotee",
+              "energy_cost": "1 channel_divinity use"
+            },
+            "level_6": {
+              "divine_ability": "read_thoughts",
+              "description": "Read thoughts of creatures within 60 feet",
+              "faith_requirement": "zealous_saint",
+              "energy_cost": "will_save"
+            },
+            "level_17": {
+              "divine_ability": "omniscient_word",
+              "description": "Cast any divination spell without components",
+              "faith_requirement": "canonized_being",
+              "energy_cost": "cosmic_understanding"
+            }
+          }
+        }
+      },
+      "cleric_divine_channeling": {
+        "channel_energy_types": {
+          "positive_energy": {
+            "description": "Healing and life force channeling",
+            "effects": [
+              "healing_aura",
+              "undead_damage",
+              "life_restoration"
+            ],
+            "energy_source": "holy_energy"
+          },
+          "negative_energy": {
+            "description": "Harm and life force disruption",
+            "effects": [
+              "undead_healing",
+              "living_damage",
+              "life_drain"
+            ],
+            "energy_source": "death_energy"
+          },
+          "cosmic_energy": {
+            "description": "Universal force manipulation",
+            "effects": [
+              "reality_manipulation",
+              "cosmic_communication",
+              "universal_understanding"
+            ],
+            "energy_source": "primordial_essence"
+          }
+        },
+        "channeling_risks": {
+          "energy_overload": {
+            "description": "Channeling too much divine energy",
+            "effects": [
+              "temporary_disability",
+              "divine_fatigue",
+              "energy_rebound"
+            ],
+            "mitigation": [
+              "divine_resistance",
+              "gradual_channeling",
+              "energy_management"
+            ]
+          },
+          "energy_misalignment": {
+            "description": "Channeling incompatible divine energy",
+            "effects": [
+              "spiritual_corruption",
+              "alignment_shift",
+              "divine_displeasure"
+            ],
+            "mitigation": [
+              "proper_preparation",
+              "divine_guidance",
+              "alignment_maintenance"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "id": "class_integration_examples",
+  "name": "Class Integration Examples",
+  "template_type": "divine_system",
+  "version": "0.1.0"
+}

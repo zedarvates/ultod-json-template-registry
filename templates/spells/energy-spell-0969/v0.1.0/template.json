@@ -1,0 +1,70 @@
+{
+  "id": "energy_spell_0969",
+  "name": "Energy Spell 0969",
+  "description": "Libère une onde de choc énergétique qui repousse et endommage les ennemis proches",
+  "icon": "energy_spell_0969_icon",
+  "school": "energy",
+  "rarity": "rare",
+  "spell_type": "damage",
+  "target_type": "area_enemies",
+  "range": 0,
+  "cast_time": 0,
+  "cooldown": 10000,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 95,
+    "damage_type": "energy",
+    "scaling": {
+      "agility": 1.0,
+      "intelligence": 1.4
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage",
+      "value": 95,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_type": "energy",
+      "scaling": {
+        "agility": 1.0,
+        "intelligence": 1.4
+      },
+      "area_radius": 4.0,
+      "knockback_force": 2.0,
+      "stun_chance": 0.2,
+      "stun_duration": 2000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "energy_explosion",
+    "projectile_effect": null,
+    "hit_effect": "shockwave_ripple"
+  },
+  "sound_effects": {
+    "cast_sound": "energy_energy_spell_0969",
+    "projectile_sound": null,
+    "hit_sound": "impact_thud"
+  },
+  "requirements": {
+    "level": 14,
+    "skills": [
+      "ki_training",
+      "combative_training"
+    ],
+    "classes": [
+      "ninja",
+      "monk"
+    ]
+  },
+  "upgrades": {
+    "seismic_burst": {
+      "unlock_level": 28,
+      "description": "Augmente la force de repousser et les chances d'étourdissement d'Energy Spell 0969",
+      "knockback_bonus": 1.0,
+      "stun_chance_bonus": 0.15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

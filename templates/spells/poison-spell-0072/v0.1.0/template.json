@@ -1,0 +1,63 @@
+{
+  "id": "poison_spell_0072",
+  "name": "Poison Spell 0072",
+  "description": "Enduit l'arme de poison, infligeant des dégâts supplémentaires pendant 15 minutes",
+  "icon": "poison_spell_0072_icon",
+  "school": "poison",
+  "rarity": "uncommon",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1000,
+  "cooldown": 1000,
+  "mana_cost": 30,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "weapon_poison",
+      "value": 50,
+      "duration": 900000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "poison_damage": 50,
+      "proc_on_hit": 0.25
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "poison_weapon",
+    "projectile_effect": null,
+    "hit_effect": null
+  },
+  "sound_effects": {
+    "cast_sound": "poison_bottle",
+    "projectile_sound": null,
+    "hit_sound": null
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "poison_mastery"
+    ],
+    "classes": [
+      "assassin",
+      "rogue"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_envenom": {
+      "unlock_level": 20,
+      "description": "Poison Spell 0072 inflige plus de dégâts de poison et dure plus longtemps",
+      "poison_damage_bonus": 20,
+      "duration_bonus": 300000
+    },
+    "deadly_envenom": {
+      "unlock_level": 30,
+      "description": "Poison Spell 0072 a une chance plus élevée de se déclencher",
+      "proc_chance_bonus": 0.15,
+      "paralytic_poison": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

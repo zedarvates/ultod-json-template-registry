@@ -1,0 +1,80 @@
+{
+  "id": "arcane_spell_0789",
+  "name": "Arcane Spell 0789",
+  "description": "Accélère le temps pour vous et vos alliés",
+  "icon": "arcane_spell_0789_icon",
+  "school": "arcane",
+  "rarity": "rare",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 3000,
+  "cooldown": 180000,
+  "mana_cost": 100,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "arcane",
+    "scaling": {
+      "intelligence": 0.0,
+      "wisdom": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "haste",
+      "value": 0.3,
+      "duration": 20000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "resource_regen",
+      "value": 0.5,
+      "duration": 20000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "cast_speed",
+      "value": 0.4,
+      "duration": 20000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "arcane_spell_0789_distortion",
+    "haste_effect": "arcane_spell_0789_acceleration",
+    "aura_effect": "temporal_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "arcane_spell_0789_chant",
+    "haste_sound": "arcane_spell_0789_acceleration",
+    "aura_sound": "temporal_hum"
+  },
+  "requirements": {
+    "level": 40,
+    "skills": [],
+    "classes": [
+      "mage",
+      "wizard"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_time_warp": {
+      "unlock_level": 50,
+      "description": "Arcane Spell 0789 dure plus longtemps et affecte plus d'alliés",
+      "duration_extension": 5000,
+      "area_effect": true
+    },
+    "time_warp_mastery": {
+      "unlock_level": 60,
+      "description": "Arcane Spell 0789 peut arrêter le temps brièvement",
+      "time_stop": true,
+      "time_stop_duration": 3000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,16 +1,80 @@
 {
-  "id": "reality_anchor_device",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Reality Anchor Device",
-  "description": "A portable utility_device component for public template workflows.",
+  "item_id": "reality_anchor_device",
+  "name": "Dispositif d'Ancrage de Réalité",
+  "description": "Un dispositif magique qui crée un point d'ancrage stable dans la réalité",
+  "icon": "reality_anchor_device_icon",
   "category": "utility_device",
   "rarity": "epic",
-  "stack_limit": 10,
-  "weight_kg": 0.1,
-  "tags": [
-    "adapted",
-    "utility_device"
+  "item_type": "spatial_utility",
+  "bind_type": "bind_on_equip",
+  "level_required": 60,
+  "durability": {
+    "max_durability": 100,
+    "current_durability": 100,
+    "decay_rate": 0.01
+  },
+  "effects": [
+    {
+      "effect_type": "reality_stabilization",
+      "value": 1.0,
+      "duration": 600000,
+      "description": "Stabilise la réalité dans un rayon de 30 mètres",
+      "radius": 30.0
+    },
+    {
+      "effect_type": "temporal_disruption_immunity",
+      "value": 1.0,
+      "duration": 600000,
+      "description": "Immunise contre les disruptions temporelles"
+    }
   ],
-  "dependencies": []
+  "usage_instructions": {
+    "activation_time": 5000,
+    "cooldown": 900000,
+    "placement_required": true,
+    "max_active_anchors": 3
+  },
+  "temporal_abilities": {
+    "reality_anchor_placement": {
+      "ability_type": "active",
+      "description": "Place un ancrage de réalité qui stabilise la zone",
+      "cooldown": 900000,
+      "duration": 600000,
+      "radius": 30.0,
+      "effects": {
+        "immune_to_time_effects": true,
+        "enhanced_temporal_spells": 1.2,
+        "reality_stability": true
+      }
+    }
+  },
+  "crafting_requirements": {
+    "profession": "master_chronomancer",
+    "level_required": 65,
+    "specialization": "temporal_artificer",
+    "materials": [
+      {
+        "material_id": "reality_crystal",
+        "quantity": 3
+      },
+      {
+        "material_id": "temporal_anchor_core",
+        "quantity": 1
+      },
+      {
+        "material_id": "chronal_mechanism",
+        "quantity": 5
+      },
+      {
+        "material_id": "ancient_temporal_artifact",
+        "quantity": 2
+      }
+    ],
+    "crafting_time": 2400000,
+    "success_rate": 0.7,
+    "failure_result": "unstable_reality_anchor"
+  },
+  "version": "0.1.0",
+  "id": "reality_anchor_device",
+  "template_type": "item"
 }

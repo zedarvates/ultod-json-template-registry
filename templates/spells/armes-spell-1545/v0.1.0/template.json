@@ -1,0 +1,71 @@
+{
+  "id": "armes_spell_1545",
+  "name": "Armes Spell 1545",
+  "description": "Une attaque puissante qui frappe la cible principale et endommage les ennemis proches",
+  "icon": "armes_spell_1545_icon",
+  "school": "armes",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "area",
+  "range": 8.0,
+  "cast_time": 0,
+  "cooldown": 8000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 100,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.8,
+      "rage": 0.4
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "area_damage",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_radius": 8.0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "rage_generation",
+      "value": 12,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "wide_swing",
+    "projectile_effect": "armes_spell_1545_arc",
+    "impact_effect": "multiple_hits",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "armes_spell_1545_swing",
+    "impact_sound": "multiple_impacts"
+  },
+  "requirements": {
+    "level": 11,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_cleave": {
+      "unlock_level": 19,
+      "description": "Augmente les dégâts de Armes Spell 1545 de 35%",
+      "damage_bonus": 35
+    },
+    "cleave_mastery": {
+      "unlock_level": 29,
+      "description": "Armes Spell 1545 peut être utilisée plus fréquemment",
+      "cooldown_reduction": 2000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

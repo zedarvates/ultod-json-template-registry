@@ -1,0 +1,72 @@
+{
+  "id": "protection_spell_1567",
+  "name": "Protection Spell 1567",
+  "description": "Force l'ennemi à vous attaquer et augmente la menace générée",
+  "icon": "protection_spell_1567_icon",
+  "school": "protection",
+  "rarity": "common",
+  "spell_type": "protection_spell_1567",
+  "target_type": "single",
+  "range": 30.0,
+  "cast_time": 0,
+  "cooldown": 10000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.0,
+      "rage": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "force_attack",
+      "value": 0,
+      "duration": 3000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "threat_generation",
+      "value": 200,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "protection_spell_1567_gesture",
+    "projectile_effect": "none",
+    "impact_effect": "protection_spell_1567_aura",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "protection_spell_1567_shout",
+    "impact_sound": "none"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "protection"
+    ]
+  },
+  "upgrades": {
+    "improved_taunt": {
+      "unlock_level": 18,
+      "description": "Augmente la durée de Protection Spell 1567 de 50%",
+      "duration_extension": 1500
+    },
+    "taunt_mastery": {
+      "unlock_level": 28,
+      "description": "Protection Spell 1567 peut être utilisée plus fréquemment",
+      "cooldown_reduction": 2000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

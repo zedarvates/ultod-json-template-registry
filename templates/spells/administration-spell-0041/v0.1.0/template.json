@@ -1,0 +1,54 @@
+{
+  "id": "administration_spell_0041",
+  "name": "Administration Spell 0041",
+  "description": "[ADMIN ONLY] Instantly create and administration_spell_0041 any monster or NPC type in the game world",
+  "icon": "admin_administration_spell_0041_icon",
+  "school": "administration",
+  "rarity": "epic",
+  "spell_type": "entity_creation",
+  "target_type": "location_administration_spell_0041_target",
+  "range": 100.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "monster_creation_administration"
+  },
+  "effects": [
+    {
+      "effect_type": "monster_npc_instant_summoning",
+      "value": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "any_mob_type_available": true,
+      "multiple_spawning_capability": true,
+      "ai_behavior_immediate_activation": true,
+      "spawn_location_precision": "exact_coordinates",
+      "experience_loot_normal": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "creature_summoning_circle_energy_gathering",
+    "spawn_effect": "monster_materialization_portal_formation_emergence",
+    "activation_effect": "ai_initialization_energy_spark_behaviors",
+    "location_effect": "administration_spell_0041_point_marking_admin_visualconfirmation"
+  },
+  "sound_effects": {
+    "cast_effect": "creature_summoning_energy_whir_gathering",
+    "spawn_effect": "monster_emergence_portal_crack_summoning_call",
+    "activation_effect": "ai_activation_energy_ping_intelligence_awakening",
+    "location_effect": "admin_confirmation_ping_administration_spell_0041_location_mark"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "gamemaster",
+      "overseer",
+      "celestial_avatar"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

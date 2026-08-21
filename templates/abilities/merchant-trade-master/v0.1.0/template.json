@@ -1,0 +1,80 @@
+{
+  "id": "merchant_trade_master",
+  "name": "Maître du Commerce",
+  "description": "Augmente les profits et l'efficacité des transactions commerciales",
+  "ability_type": "passive",
+  "category": "social",
+  "cooldown": 0,
+  "mana_cost": 0,
+  "range": 0,
+  "target_type": "self",
+  "duration": 0,
+  "effects": [
+    {
+      "effect_type": "profit_bonus",
+      "value": 0.3,
+      "duration": 0,
+      "tick_rate": 0,
+      "profit_type": "all_trades"
+    },
+    {
+      "effect_type": "trade_speed",
+      "value": 0.4,
+      "duration": 0,
+      "tick_rate": 0,
+      "speed_type": "commercial"
+    },
+    {
+      "effect_type": "customer_satisfaction",
+      "value": 0.35,
+      "duration": 0,
+      "tick_rate": 0,
+      "satisfaction_type": "all"
+    }
+  ],
+  "visual_effects": {
+    "passive_effect": "merchant_aura"
+  },
+  "sound_effects": {
+    "passive_sound": "merchant_hum"
+  },
+  "scaling": {
+    "merchant_skill": 1.5,
+    "trade_mastery": 1.4
+  },
+  "requirements": {
+    "level": 25,
+    "abilities": [
+      "basic_trading"
+    ],
+    "class": "merchant"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "profit_bonus": 0.1,
+      "trade_speed": 0.1,
+      "customer_satisfaction": 0.1
+    },
+    "journeyman": {
+      "profit_bonus": 0.2,
+      "trade_speed": 0.2,
+      "customer_satisfaction": 0.2
+    },
+    "master": {
+      "profit_bonus": 0.25,
+      "trade_speed": 0.3,
+      "customer_satisfaction": 0.3,
+      "unique_markets": true
+    },
+    "grandmaster": {
+      "profit_bonus": 0.3,
+      "trade_speed": 0.4,
+      "customer_satisfaction": 0.35,
+      "unique_markets": true,
+      "ability_unlock": "trade_empire"
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

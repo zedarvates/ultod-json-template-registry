@@ -1,0 +1,483 @@
+{
+  "achievement_system": {
+    "version": "1.0.0",
+    "description": "Profession achievement and reward system",
+    "last_updated": "2025-11-21",
+    "achievement_config": {
+      "enabled": true,
+      "global_achievement_multiplier": 1.0,
+      "achievement_tracking": true,
+      "progress_display": true,
+      "reward_claiming": true,
+      "achievement_categories": {
+        "crafting_milestones": {
+          "name": "Paliers d'Artisanat",
+          "description": "Achievements pour les jalons de crafting",
+          "icon": "crafting_milestone",
+          "color": "#8B4513"
+        },
+        "quality_mastery": {
+          "name": "Maîtrise de la Qualité",
+          "description": "Achievements pour la création d'objets de qualité",
+          "icon": "quality_mastery",
+          "color": "#FFD700"
+        },
+        "specialization_excellence": {
+          "name": "Excellence en Spécialisation",
+          "description": "Achievements pour les spécialisations professionnelles",
+          "icon": "specialization",
+          "color": "#4169E1"
+        },
+        "market_success": {
+          "name": "Succès Commercial",
+          "description": "Achievements pour les succès sur le marché",
+          "icon": "market_success",
+          "color": "#32CD32"
+        },
+        "teaching_legacy": {
+          "name": "Héritage Pédagogique",
+          "description": "Achievements pour l'enseignement et le mentorat",
+          "icon": "teaching_legacy",
+          "color": "#FF69B4"
+        },
+        "legendary_creations": {
+          "name": "Créations Légendaires",
+          "description": "Achievements pour les créations exceptionnelles",
+          "icon": "legendary_creations",
+          "color": "#DC143C"
+        }
+      },
+      "achievements": {
+        "crafting_milestones": [
+          {
+            "id": "first_item",
+            "name": "Premier Objet",
+            "description": "Créez votre premier objet",
+            "icon": "first_craft",
+            "category": "crafting_milestones",
+            "rarity": "common",
+            "requirement": {
+              "items_crafted": 1
+            },
+            "rewards": {
+              "experience": 100,
+              "gold": 50,
+              "title": "apprentice_crafter"
+            },
+            "hidden": false
+          },
+          {
+            "id": "hundred_items",
+            "name": "Centenaire",
+            "description": "Créez 100 objets",
+            "icon": "hundred_craft",
+            "category": "crafting_milestones",
+            "rarity": "uncommon",
+            "requirement": {
+              "items_crafted": 100
+            },
+            "rewards": {
+              "experience": 1000,
+              "gold": 500,
+              "title": "experienced_crafter"
+            },
+            "hidden": false
+          },
+          {
+            "id": "thousand_items",
+            "name": "Mille Créations",
+            "description": "Créez 1000 objets",
+            "icon": "thousand_craft",
+            "category": "crafting_milestones",
+            "rarity": "rare",
+            "requirement": {
+              "items_crafted": 1000
+            },
+            "rewards": {
+              "experience": 5000,
+              "gold": 2500,
+              "title": "master_crafter"
+            },
+            "hidden": false
+          },
+          {
+            "id": "ten_thousand_items",
+            "name": "Légende Vivante",
+            "description": "Créez 10000 objets",
+            "icon": "legend_craft",
+            "category": "crafting_milestones",
+            "rarity": "epic",
+            "requirement": {
+              "items_crafted": 10000
+            },
+            "rewards": {
+              "experience": 25000,
+              "gold": 10000,
+              "title": "legendary_crafter",
+              "mount": "crafting_goat"
+            },
+            "hidden": false
+          }
+        ],
+        "quality_mastery": [
+          {
+            "id": "first_fine_item",
+            "name": "Qualité Fine",
+            "description": "Créez votre premier objet de qualité fine",
+            "icon": "fine_quality",
+            "category": "quality_mastery",
+            "rarity": "uncommon",
+            "requirement": {
+              "fine_items_crafted": 1
+            },
+            "rewards": {
+              "experience": 200,
+              "gold": 100,
+              "recipe_unlock": "quality_enhancement"
+            },
+            "hidden": false
+          },
+          {
+            "id": "first_legendary_item",
+            "name": "Objet Légendaire",
+            "description": "Créez votre premier objet légendaire",
+            "icon": "legendary_item",
+            "category": "quality_mastery",
+            "rarity": "epic",
+            "requirement": {
+              "legendary_items_crafted": 1
+            },
+            "rewards": {
+              "experience": 10000,
+              "gold": 5000,
+              "title": "legendary_craftsman",
+              "announcement": true
+            },
+            "hidden": false
+          },
+          {
+            "id": "mythic_crafter",
+            "name": "Artisan Mythique",
+            "description": "Créez un objet mythique",
+            "icon": "mythic_crafter",
+            "category": "quality_mastery",
+            "rarity": "legendary",
+            "requirement": {
+              "mythic_items_crafted": 1
+            },
+            "rewards": {
+              "experience": 50000,
+              "gold": 25000,
+              "title": "mythic_craftsman",
+              "mount": "phoenix_mount",
+              "global_announcement": true
+            },
+            "hidden": true
+          }
+        ],
+        "specialization_excellence": [
+          {
+            "id": "first_specialization",
+            "name": "Première Spécialisation",
+            "description": "Débloquez votre première spécialisation",
+            "icon": "first_specialization",
+            "category": "specialization_excellence",
+            "rarity": "uncommon",
+            "requirement": {
+              "specializations_unlocked": 1
+            },
+            "rewards": {
+              "experience": 500,
+              "gold": 250,
+              "specialization_point": 1
+            },
+            "hidden": false
+          },
+          {
+            "id": "triple_specialist",
+            "name": "Spécialiste Triple",
+            "description": "Maîtrisez trois spécialisations",
+            "icon": "triple_specialist",
+            "category": "specialization_excellence",
+            "rarity": "rare",
+            "requirement": {
+              "specializations_mastered": 3
+            },
+            "rewards": {
+              "experience": 2500,
+              "gold": 1000,
+              "title": "versatile_master"
+            },
+            "hidden": false
+          },
+          {
+            "id": "grandmaster_specialist",
+            "name": "Spécialiste Grand Maître",
+            "description": "Atteignez le niveau grand maître dans une spécialisation",
+            "icon": "grandmaster_specialist",
+            "category": "specialization_excellence",
+            "rarity": "epic",
+            "requirement": {
+              "grandmaster_specializations": 1
+            },
+            "rewards": {
+              "experience": 10000,
+              "gold": 5000,
+              "title": "grandmaster_specialist",
+              "unique_item": "grandmaster_insignia"
+            },
+            "hidden": false
+          }
+        ],
+        "market_success": [
+          {
+            "id": "first_sale",
+            "name": "Premier Vente",
+            "description": "Vendez votre premier objet sur le marché",
+            "icon": "first_sale",
+            "category": "market_success",
+            "rarity": "common",
+            "requirement": {
+              "items_sold": 1
+            },
+            "rewards": {
+              "experience": 50,
+              "gold": 25
+            },
+            "hidden": false
+          },
+          {
+            "id": "merchant_king",
+            "name": "Roi Marchand",
+            "description": "Gagnez 10000 pièces d'or en vendant des objets",
+            "icon": "merchant_king",
+            "category": "market_success",
+            "rarity": "rare",
+            "requirement": {
+              "gold_earned_from_sales": 10000
+            },
+            "rewards": {
+              "experience": 2000,
+              "gold": 1000,
+              "title": "merchant_king"
+            },
+            "hidden": false
+          },
+          {
+            "id": "auction_house_tycoon",
+            "name": "Tycoon de l'Hôtel des Ventes",
+            "description": "Vendez 100 objets à l'hôtel des ventes",
+            "icon": "auction_tycoon",
+            "category": "market_success",
+            "rarity": "epic",
+            "requirement": {
+              "auction_house_sales": 100
+            },
+            "rewards": {
+              "experience": 5000,
+              "gold": 2500,
+              "title": "auction_tycoon",
+              "auction_fee_discount": 0.5
+            },
+            "hidden": false
+          }
+        ],
+        "teaching_legacy": [
+          {
+            "id": "first_apprentice",
+            "name": "Premier Apprenti",
+            "description": "Prenez votre premier apprenti",
+            "icon": "first_apprentice",
+            "category": "teaching_legacy",
+            "rarity": "uncommon",
+            "requirement": {
+              "apprentices_trained": 1
+            },
+            "rewards": {
+              "experience": 300,
+              "gold": 150,
+              "title": "mentor"
+            },
+            "hidden": false
+          },
+          {
+            "id": "master_mentor",
+            "name": "Mentor Maître",
+            "description": "Formez 10 apprentis",
+            "icon": "master_mentor",
+            "category": "teaching_legacy",
+            "rarity": "rare",
+            "requirement": {
+              "apprentices_trained": 10
+            },
+            "rewards": {
+              "experience": 3000,
+              "gold": 1500,
+              "title": "master_mentor"
+            },
+            "hidden": false
+          },
+          {
+            "id": "legacy_teacher",
+            "name": "Professeur d'Héritage",
+            "description": "Formez 50 apprentis",
+            "icon": "legacy_teacher",
+            "category": "teaching_legacy",
+            "rarity": "legendary",
+            "requirement": {
+              "apprentices_trained": 50
+            },
+            "rewards": {
+              "experience": 15000,
+              "gold": 7500,
+              "title": "legacy_teacher",
+              "school": "personal_crafting_school"
+            },
+            "hidden": true
+          }
+        ],
+        "legendary_creations": [
+          {
+            "id": "artifact_creator",
+            "name": "Créateur d'Artéfacts",
+            "description": "Créez votre premier artéfact",
+            "icon": "artifact_creator",
+            "category": "legendary_creations",
+            "rarity": "epic",
+            "requirement": {
+              "artifacts_created": 1
+            },
+            "rewards": {
+              "experience": 5000,
+              "gold": 2500,
+              "title": "artifact_creator"
+            },
+            "hidden": false
+          },
+          {
+            "id": "divine_crafter",
+            "name": "Artisan Divin",
+            "description": "Créez un objet béni par les dieux",
+            "icon": "divine_crafter",
+            "category": "legendary_creations",
+            "rarity": "legendary",
+            "requirement": {
+              "divine_items_created": 1
+            },
+            "rewards": {
+              "experience": 25000,
+              "gold": 10000,
+              "title": "divine_crafter",
+              "divine_blessing": true
+            },
+            "hidden": true
+          }
+        ]
+      },
+      "achievement_rewards": {
+        "titles": {
+          "apprentice_crafter": {
+            "name": "Apprenti Artisan",
+            "color": "#8B4513"
+          },
+          "experienced_crafter": {
+            "name": "Artisan Expérimenté",
+            "color": "#A0522D"
+          },
+          "master_crafter": {
+            "name": "Maître Artisan",
+            "color": "#CD853F"
+          },
+          "legendary_crafter": {
+            "name": "Artisan Légendaire",
+            "color": "#FFD700"
+          },
+          "legendary_craftsman": {
+            "name": "Artisan Légendaire",
+            "color": "#FFD700"
+          },
+          "mythic_craftsman": {
+            "name": "Artisan Mythique",
+            "color": "#FF4500"
+          },
+          "versatile_master": {
+            "name": "Maître Versatile",
+            "color": "#4169E1"
+          },
+          "grandmaster_specialist": {
+            "name": "Spécialiste Grand Maître",
+            "color": "#8A2BE2"
+          },
+          "merchant_king": {
+            "name": "Roi Marchand",
+            "color": "#32CD32"
+          },
+          "auction_tycoon": {
+            "name": "Tycoon des Enchères",
+            "color": "#FFD700"
+          },
+          "mentor": {
+            "name": "Mentor",
+            "color": "#FF69B4"
+          },
+          "master_mentor": {
+            "name": "Mentor Maître",
+            "color": "#FF1493"
+          },
+          "legacy_teacher": {
+            "name": "Professeur d'Héritage",
+            "color": "#DC143C"
+          },
+          "artifact_creator": {
+            "name": "Créateur d'Artéfacts",
+            "color": "#9932CC"
+          },
+          "divine_crafter": {
+            "name": "Artisan Divin",
+            "color": "#FFD700"
+          }
+        },
+        "mounts": {
+          "crafting_goat": {
+            "name": "Chèvre d'Artisanat",
+            "speed": 1.2,
+            "capacity": 1.5
+          },
+          "phoenix_mount": {
+            "name": "Monture Phénix",
+            "speed": 2.0,
+            "flight": true,
+            "resurrection": true
+          }
+        },
+        "unique_items": {
+          "grandmaster_insignia": {
+            "name": "Insigne de Grand Maître",
+            "effects": {
+              "reputation_bonus": 25,
+              "market_access": "exclusive"
+            }
+          },
+          "personal_crafting_school": {
+            "name": "École d'Artisanat Personnelle",
+            "effects": {
+              "apprentice_limit": 10,
+              "teaching_efficiency": 2.0
+            }
+          }
+        }
+      },
+      "progress_tracking": {
+        "enabled": true,
+        "progress_display": true,
+        "completion_notifications": true,
+        "leaderboards": true,
+        "seasonal_achievements": true
+      }
+    }
+  },
+  "id": "achievement_system",
+  "name": "Achievement System",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "restoration_spell_0401",
+  "name": "Restoration Spell 0401",
+  "description": "Invokes the protection of ancient trees, reducing damage received and increasing physical resistance",
+  "icon": "restoration_spell_0401_icon",
+  "school": "restoration",
+  "rarity": "common",
+  "spell_type": "protection_buff",
+  "target_type": "single_ally",
+  "range": 30.0,
+  "cast_time": 0,
+  "cooldown": 8000,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "nature_protection"
+  },
+  "effects": [
+    {
+      "effect_type": "bark_armor_buff",
+      "value": 200,
+      "duration": 25000,
+      "tick_rate": 0,
+      "damage_reduction_percent": 20,
+      "physical_damage_resistance": 0.25,
+      "spell_damage_reduction": 0.1,
+      "threat_generation_increased": 0.2,
+      "bark_shattering_counters": 6,
+      "nature_resonance_aura": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "wood_armor_forming_bark_crackling",
+    "active_effect": "thick_woods_around_body_tree_armor",
+    "damage_effect": "bark_flaking_off_absorbing_hits",
+    "expire_effect": "wood_crumbling_natural_return"
+  },
+  "sound_effects": {
+    "cast_sound": "wood_hardening_cracking_armor",
+    "active_sound": "rustling_leaves_surrounding_shelter",
+    "damage_sound": "wood_splintering_absorbing_blows",
+    "expire_sound": "wood_softening_natural_fade"
+  },
+  "requirements": {
+    "level": 14,
+    "skills": [
+      "restoration",
+      "bark_magic"
+    ],
+    "classes": [
+      "druid",
+      "forest_guardian"
+    ],
+    "specializations": [
+      "nature_defender"
+    ]
+  },
+  "upgrades": {
+    "thick_bark": {
+      "unlock_level": 24,
+      "description": "L'écorce devient extrêmement épaisse et réduit plus de dégâts",
+      "damage_reduction_bonus": 15,
+      "bark_counter_increase": 4,
+      "physical_resistance_bonus": 0.15,
+      "spell_resistance_bonus": 0.1
+    },
+    "ironbark_guardian": {
+      "unlock_level": 34,
+      "description": "L'écorce devient dure comme le fer et reflète certains dégâts",
+      "ironbark_hardness": 0.3,
+      "damage_reflection": 0.1,
+      "anti_critical_protection": true,
+      "guardian_spirit_summon": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

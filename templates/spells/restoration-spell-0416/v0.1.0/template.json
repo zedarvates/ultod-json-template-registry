@@ -1,0 +1,84 @@
+{
+  "id": "restoration_spell_0416",
+  "name": "Restoration Spell 0416",
+  "description": "Soigne instantanément un allié en consommant un effet de soin au fil du temps actif",
+  "icon": "restoration_spell_0416_icon",
+  "school": "restoration",
+  "rarity": "uncommon",
+  "spell_type": "instant_healing_consumption",
+  "target_type": "single_ally",
+  "range": 40.0,
+  "cast_time": 0,
+  "cooldown": 6000,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "nature_instant_heal",
+    "scaling": {
+      "wisdom": 1.7,
+      "nature_healing_power": 1.4
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "hot_consuming_instant_heal",
+      "value": 250,
+      "duration": 0,
+      "tick_rate": 0,
+      "instant_healing_burst": 250,
+      "critical_heal_chance": 0.25,
+      "hot_required_consumption": 0.4,
+      "burst_healing_multiplier": 2.0,
+      "regrowth_consumption_bonus": true,
+      "swiftmend_efficiency": 1.8,
+      "hot_removal_range": 30.0,
+      "nature_flash_visual": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "nature_energy_sudden_concentration",
+    "heal_effect": "bright_green_burst_instantaneous_healing",
+    "consumption_effect": "hot_energy_pulling_into_burst",
+    "bonus_effect": "swift_nature_vine_wrapping_and_releasing"
+  },
+  "sound_effects": {
+    "cast_sound": "swift_nature_power_concentration_whip",
+    "heal_sound": "instantaneous_health_restoration_arpeggio",
+    "consumption_sound": "dot_energies_swirling_into_burst",
+    "bonus_sound": "bonus_healing_power_surge_chord"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "restoration",
+      "instant_healing"
+    ],
+    "classes": [
+      "druid",
+      "healing_druid"
+    ],
+    "specializations": [
+      "swift_healer"
+    ]
+  },
+  "upgrades": {
+    "natural_swiftness": {
+      "unlock_level": 28,
+      "description": "La Restoration Spell 0416 peut cibler plusieurs alliés et utilise moins de mana",
+      "max_targets": 3,
+      "mana_reduction_percent": 30,
+      "hot_consumption_reduction": 0.2,
+      "area_healing_extension": true
+    },
+    "genesis_healing": {
+      "unlock_level": 38,
+      "description": "La réparation peut créer des graines de vie qui soignent automatiquement",
+      "seed_generation": 3,
+      "auto_healing_seeds": 80,
+      "seed_duration_days": 7,
+      "genesis_empowerment": 150
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

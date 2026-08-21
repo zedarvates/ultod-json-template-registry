@@ -1,0 +1,88 @@
+{
+  "id": "evocation_spell_0082",
+  "name": "Evocation Spell 0082",
+  "description": "Le barde invoque un chant flamboyant qui embrase les ennemis avec du feu musical et laisse des trains de flammes",
+  "icon": "evocation_spell_0082_icon",
+  "school": "evocation",
+  "rarity": "uncommon",
+  "spell_type": "fire_performance",
+  "target_type": "area_enemy",
+  "range": 45.0,
+  "cast_time": 1200,
+  "cooldown": 15000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 150,
+    "damage_type": "fire",
+    "scaling": {
+      "charisma": 1.8,
+      "intelligence": 0.7
+    },
+    "aoe_range": 20.0
+  },
+  "effects": [
+    {
+      "effect_type": "fire_damage_burst",
+      "value": 150,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_range": 20.0,
+      "burn_damage_dot": 30,
+      "dot_duration": 12000,
+      "dot_tick_rate": 3000,
+      "max_targets": 7
+    },
+    {
+      "effect_type": "fire_trails",
+      "value": 80,
+      "duration": 10000,
+      "tick_rate": 0,
+      "trail_damage": 80,
+      "trail_lifetime": 10000,
+      "movement_trail_trigger": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fiery_musical_notes_burst",
+    "impact_effect": "burning_harmonic_waves",
+    "trail_effect": "flaming_music_trails",
+    "do t_effect": "persistent_fire_notes"
+  },
+  "sound_effects": {
+    "cast_sound": "fiery_rhythmic_beats",
+    "impact_sound": "roaring_fire_chords",
+    "burn_sound": "crackling_fire_harmony",
+    "trail_sound": "whispering_flames_tail"
+  },
+  "requirements": {
+    "level": 14,
+    "skills": [
+      "performance",
+      "evocation",
+      "fire_magic",
+      "music_magic"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour"
+    ]
+  },
+  "upgrades": {
+    "inferno_refrain": {
+      "unlock_level": 24,
+      "description": "Augmente les dégâts de feu et la durée des brûlures",
+      "damage_bonus": 80,
+      "dot_duration_bonus": 6000
+    },
+    "blazing_symphony": {
+      "unlock_level": 32,
+      "description": "Crée plus de flammes et affecte une plus grande zone",
+      "aoe_range_bonus": 15.0,
+      "trail_count_bonus": 2,
+      "max_targets": 10
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

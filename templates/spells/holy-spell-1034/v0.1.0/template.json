@@ -1,0 +1,91 @@
+{
+  "id": "holy_spell_1034",
+  "name": "Holy Spell 1034",
+  "description": "Purifie la cible avec du feu sacré, infligeant des dégâts et dissipant les effets",
+  "icon": "holy_spell_1034_icon",
+  "school": "holy",
+  "rarity": "uncommon",
+  "spell_type": "damage_dispel",
+  "target_type": "single_enemy",
+  "range": 15.0,
+  "cast_time": 1500,
+  "cooldown": 12000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 45,
+    "damage_type": "holy",
+    "scaling": {
+      "wisdom": 1.0,
+      "strength": 0.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage",
+      "value": 45,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_type": "holy",
+      "scaling": {
+        "wisdom": 1.0,
+        "strength": 0.3
+      }
+    },
+    {
+      "effect_type": "dispel_debuff",
+      "value": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "dispel_chance": 70,
+      "debuff_types": [
+        "poison",
+        "disease",
+        "magic"
+      ]
+    },
+    {
+      "effect_type": "dot",
+      "value": 15,
+      "duration": 6000,
+      "tick_rate": 2000,
+      "damage_type": "holy",
+      "ticks": 3
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "holy_fire_burst",
+    "hit_effect": "fire_purification",
+    "miss_effect": "spell_fail"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_fire",
+    "hit_sound": "fire_purify",
+    "miss_sound": "spell_fail"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "paladin"
+    ]
+  },
+  "upgrades": {
+    "improved_cleanse_by_fire": {
+      "unlock_level": 22,
+      "description": "Augmente les dégâts et la dissipation de Holy Spell 1034",
+      "damage_bonus": 20,
+      "dispel_chance_bonus": 15
+    },
+    "holy_fire": {
+      "unlock_level": 32,
+      "description": "Holy Spell 1034 laisse une zone de feu sacré",
+      "aoe_damage": 25,
+      "aoe_radius": 5.0,
+      "fire_duration": 8000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "gravity_control",
+  "name": "Contrôle de la Gravité",
+  "description": "Capacité à manipuler les forces gravitationnelles autour de soi",
+  "icon": "gravity_control_icon",
+  "category": "physical",
+  "rarity": "epic",
+  "stat_modifiers": {
+    "strength": 0.25,
+    "jump_height": 0.4,
+    "fall_damage_reduction": 0.8
+  },
+  "passive_effects": [
+    {
+      "id": "gravity_adaptation",
+      "name": "Adaptation Gravitationnelle",
+      "description": "S'adapte instantanément aux changements de gravité",
+      "modifier_type": "gravity_resistance",
+      "value": 100.0
+    },
+    {
+      "id": "weight_manipulation",
+      "name": "Manipulation du Poids",
+      "description": "Peut modifier son propre poids à volonté",
+      "modifier_type": "weight_control",
+      "value": 80.0
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "gravity_well",
+      "name": "Puits Gravitationnel",
+      "description": "Crée une zone de haute gravité qui attire et ralentit les ennemis",
+      "cooldown": 60000,
+      "duration": 25000,
+      "effects": {
+        "pull_force": 50,
+        "slow_percentage": 40,
+        "aoe_range": 12.0
+      }
+    },
+    {
+      "id": "levitation",
+      "name": "Lévitation",
+      "description": "Annule la gravité pour flotter librement",
+      "cooldown": 30000,
+      "duration": 45000,
+      "effects": {
+        "anti_gravity": true,
+        "flight_speed": 15.0
+      }
+    },
+    {
+      "id": "gravity_crush",
+      "name": "Écrasement Gravitationnel",
+      "description": "Augmente massivement la gravité sur une cible",
+      "cooldown": 90000,
+      "duration": 5000,
+      "effects": {
+        "gravity_multiplier": 5.0,
+        "damage_over_time": 100,
+        "range": 25.0
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

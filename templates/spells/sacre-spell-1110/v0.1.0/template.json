@@ -1,0 +1,69 @@
+{
+  "id": "sacre_spell_1110",
+  "name": "Sacre Spell 1110",
+  "description": "Un pilier de feu divin frappe depuis le ciel et fait exploser une zone 5 mètres de rayon autour du point que vous désignez. Chaque créature dans la zone subit 4d6 dégâts de feu et autant de dégâts radiants",
+  "icon": "sacre_spell_1110_icon",
+  "school": "sacré",
+  "rarity": "rare",
+  "spell_type": "damage",
+  "target_type": "enemy",
+  "range": 100.0,
+  "cast_time": 2000,
+  "cooldown": 60000,
+  "mana_cost": 150,
+  "damage": {
+    "base_damage": 56,
+    "damage_type": [
+      "fire",
+      "radiant"
+    ],
+    "scaling": {
+      "wisdom": 1.0,
+      "intelligence": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "area_damage",
+      "value": 28,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_radius": 5.0,
+      "proc_chance": 1.0,
+      "secondary_damage_type": "radiant",
+      "secondary_value": 28
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_flux",
+    "damage_effect": "sacre_spell_1110_pillar",
+    "impact_effect": "holy_explosion"
+  },
+  "sound_effects": {
+    "cast_sound": "heavenly_summon",
+    "damage_sound": "fiery_rumble",
+    "impact_sound": "radiant_boom"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "empowered_flame_strike": {
+      "unlock_level": 11,
+      "description": "Augmente les dégâts de feu et radiants",
+      "damage_bonus": 20
+    },
+    "purifying_flame_strike": {
+      "unlock_level": 17,
+      "description": "Applique des dégâts supplémentaires contre les créatures démoniaques",
+      "fiend_bonus": 30
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

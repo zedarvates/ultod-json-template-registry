@@ -1,0 +1,76 @@
+{
+  "id": "cook_flavor_burst",
+  "name": "Explosion de Saveur",
+  "description": "Améliore temporairement les compétences culinaires et la qualité des plats",
+  "icon": "flavor_burst_icon",
+  "category": "crafting",
+  "rarity": "uncommon",
+  "ability_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1000,
+  "cooldown": 120000,
+  "resource_cost": {
+    "type": "inspiration",
+    "amount": 20
+  },
+  "duration": 30000,
+  "effects": [
+    {
+      "effect_type": "cooking_speed",
+      "value": 35,
+      "scaling": {
+        "dexterity": 0.3
+      }
+    },
+    {
+      "effect_type": "food_quality",
+      "value": 40,
+      "scaling": {
+        "wisdom": 0.4
+      }
+    },
+    {
+      "effect_type": "buff_duration",
+      "value": 50,
+      "scaling": {
+        "charisma": 0.3
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "spice_burst",
+    "active_effect": "flavor_aura",
+    "end_effect": "steam_dissipate"
+  },
+  "sound_effects": {
+    "cast_sound": "spice_grind",
+    "active_sound": "cooking_sizzle",
+    "end_sound": "steam_hiss"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "cooking"
+    ],
+    "professions": [
+      "cook"
+    ]
+  },
+  "upgrades": {
+    "master_chef": {
+      "unlock_level": 15,
+      "description": "Améliore considérablement la qualité des plats",
+      "quality_bonus": 25,
+      "special_recipe_unlock": true
+    },
+    "culinary_legend": {
+      "unlock_level": 30,
+      "description": "Crée des plats avec des effets magiques",
+      "magic_food_chance": 15,
+      "legendary_recipe": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

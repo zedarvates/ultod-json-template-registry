@@ -1,0 +1,358 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Enhanced D&D 5e monster_creature_0151 Template",
+  "description": "Comprehensive monster_creature_0151 template with D&D 5e compliance, size system, and enhanced properties",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "category",
+    "rarity",
+    "base_stats",
+    "properties"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$",
+      "description": "Unique identifier for the monster_creature_0151"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 2,
+      "description": "Display name of the monster_creature_0151"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "description": "Detailed description including lore and physical appearance"
+    },
+    "icon": {
+      "type": "string",
+      "description": "Icon identifier for the monster_creature_0151"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "aberration",
+        "beast",
+        "celestial",
+        "construct",
+        "dragon",
+        "elemental",
+        "fey",
+        "fiend",
+        "giant",
+        "humanoid",
+        "monstrosity",
+        "ooze",
+        "plant",
+        "undead"
+      ],
+      "description": "D&D 5e creature type"
+    },
+    "rarity": {
+      "type": "string",
+      "enum": [
+        "common",
+        "uncommon",
+        "rare",
+        "epic",
+        "legendary",
+        "mythical"
+      ],
+      "description": "Rarity level affecting spawn rates and rewards"
+    },
+    "base_stats": {
+      "type": "object",
+      "required": [
+        "health",
+        "mana",
+        "strength",
+        "dexterity",
+        "intelligence",
+        "wisdom",
+        "constitution",
+        "charisma"
+      ],
+      "properties": {
+        "health": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Base health points"
+        },
+        "mana": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Base mana/spell points"
+        },
+        "strength": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 30,
+          "description": "Strength ability score"
+        },
+        "dexterity": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 30,
+          "description": "Dexterity ability score"
+        },
+        "intelligence": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 30,
+          "description": "Intelligence ability score"
+        },
+        "wisdom": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 30,
+          "description": "Wisdom ability score"
+        },
+        "constitution": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 30,
+          "description": "Constitution ability score"
+        },
+        "charisma": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 30,
+          "description": "Charisma ability score"
+        }
+      }
+    },
+    "properties": {
+      "type": "object",
+      "required": [
+        "size",
+        "speed"
+      ],
+      "properties": {
+        "size": {
+          "type": "string",
+          "enum": [
+            "tiny",
+            "small",
+            "medium",
+            "large",
+            "huge",
+            "gargantuan"
+          ],
+          "description": "Creature size category"
+        },
+        "size_modifiers": {
+          "type": "object",
+          "properties": {
+            "health_multiplier": {
+              "type": "number",
+              "minimum": 0.1,
+              "description": "Health multiplier based on size"
+            },
+            "damage_multiplier": {
+              "type": "number",
+              "minimum": 0.1,
+              "description": "Damage multiplier based on size"
+            },
+            "speed_modifier": {
+              "type": "integer",
+              "description": "Speed modification in feet"
+            },
+            "space_requirement": {
+              "type": "integer",
+              "description": "Space required in feet"
+            },
+            "strength_bonus": {
+              "type": "integer",
+              "description": "Bonus to strength score"
+            },
+            "constitution_bonus": {
+              "type": "integer",
+              "description": "Bonus to constitution score"
+            }
+          }
+        },
+        "speed": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Movement speed in feet per round"
+        },
+        "alignment": {
+          "type": "string",
+          "description": "D&D alignment"
+        },
+        "languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Languages the creature knows"
+        },
+        "challenge_rating": {
+          "type": "string",
+          "description": "D&D 5e challenge rating"
+        },
+        "experience_value": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Experience points awarded for defeat"
+        }
+      }
+    },
+    "abilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Special abilities the monster_creature_0151 possesses"
+    },
+    "resistances": {
+      "type": "object",
+      "description": "Damage resistances by type",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100,
+        "description": "Resistance percentage"
+      }
+    },
+    "weaknesses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Damage vulnerabilities"
+    },
+    "immunities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Damage immunities and condition immunities"
+    },
+    "senses": {
+      "type": "object",
+      "properties": {
+        "darkvision": {
+          "type": "integer",
+          "description": "Darkvision range in feet"
+        },
+        "blindsight": {
+          "type": "integer",
+          "description": "Blindsight range in feet"
+        },
+        "tremorsense": {
+          "type": "integer",
+          "description": "Tremorsense range in feet"
+        },
+        "truesight": {
+          "type": "integer",
+          "description": "Truesight range in feet"
+        },
+        "scent": {
+          "type": "boolean",
+          "description": "Has scent ability"
+        }
+      }
+    },
+    "loot_table": {
+      "type": "object",
+      "properties": {
+        "common_drops": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Common loot items"
+        },
+        "rare_drops": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Rare loot items"
+        },
+        "epic_drops": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Epic loot items"
+        },
+        "legendary_drops": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Legendary loot items"
+        }
+      }
+    },
+    "ai_behavior": {
+      "type": "object",
+      "properties": {
+        "aggression_level": {
+          "type": "string",
+          "enum": [
+            "passive",
+            "cautious",
+            "moderate",
+            "aggressive",
+            "savage"
+          ],
+          "description": "Aggression level"
+        },
+        "intelligence_level": {
+          "type": "string",
+          "enum": [
+            "instinctive",
+            "smart",
+            "very_smart",
+            "genius"
+          ],
+          "description": "Intelligence level for AI decisions"
+        },
+        "tactical_awareness": {
+          "type": "string",
+          "enum": [
+            "basic",
+            "tactical",
+            "strategic",
+            "legendary"
+          ],
+          "description": "Tactical awareness for combat"
+        },
+        "special_behaviors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Special behavior patterns"
+        },
+        "attack_pattern": {
+          "type": "string",
+          "description": "Primary attack pattern"
+        },
+        "defensive_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Defensive behavior patterns"
+        }
+      }
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Template version"
+    }
+  },
+  "id": "monster_creature_0151",
+  "name": "Monster Creature 0151",
+  "template_type": "monster",
+  "version": "0.1.0"
+}

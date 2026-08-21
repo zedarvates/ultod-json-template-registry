@@ -1,0 +1,1076 @@
+{
+  "buddhist_divine_spells": {
+    "cosmic_buddha_spells": {
+      "description": "Spells granted by the Five Cosmic Buddhas",
+      "spells": {
+        "adi_buddha_primordial_enlightenment": {
+          "description": "adapted_referencete enlightenment spell from the Primordial Buddha",
+          "spell_type": "adapted_referencete_transcendence",
+          "power_level": "primordial",
+          "casting_requirements": [
+            "primordial_buddha_connection",
+            "adapted_referencete_wisdom_seeking",
+            "universal_consciousness_aspiration",
+            "primordial_energy_mastery"
+          ],
+          "casting_time": "primordial_time",
+          "energy_cost": "adapted_referencete_dharmic_energy",
+          "spell_effects": [
+            "primordial_wisdom_manifestation",
+            "universal_consciousness_awakening",
+            "enlightenment_transcendence",
+            "reality_foundation_understanding"
+          ],
+          "spell_duration": "primordial_cycles",
+          "spell_range": "universal",
+          "spell_components": [
+            "primordial_visualization",
+            "universal_mudra",
+            "consciousness_alignment",
+            "reality_transcendence"
+          ],
+          "learning_requirements": [
+            "primordial_wisdom_mastery",
+            "universal_consciousness_development",
+            "enlightenment_dedication",
+            "primordial_authority_approval"
+          ],
+          "special_properties": {
+            "transcendence_power": "transcends_all_limitations",
+            "consciousness_expansion": "universal_awareness_enhancement",
+            "reality_mastery": "fundamental_reality_control",
+            "primordial_connection": "direct_primordial_buddha_communion"
+          },
+          "spell_interactions": {
+            "enhances_all_buddhist_spells": "primordial_energy_infusion",
+            "amplifies_meditation_power": "universal_meditation_enhancement",
+            "strengthens_dharmic_protection": "primordial_barrier_creation"
+          }
+        },
+        "vairochana_cosmic_wisdom": {
+          "description": "Universal wisdom spell from Vairochana Buddha",
+          "spell_type": "wisdom_enhancement",
+          "power_level": "cosmic",
+          "casting_requirements": [
+            "wisdom_seeking_dedication",
+            "universal_truth_aspiration",
+            "dharma_study_mastery",
+            "enlightenment_cultivation"
+          ],
+          "casting_time": "cosmic_cycles",
+          "energy_cost": "high_dharmic_energy",
+          "spell_effects": [
+            "cosmic_wisdom_manifestation",
+            "universal_truth_revelation",
+            "enlightened_awareness_enhancement",
+            "dharmic_clarity_enhancement"
+          ],
+          "spell_duration": "extended_cycles",
+          "spell_range": "wide_area",
+          "spell_components": [
+            "wisdom_visualization",
+            "truth_contemplation",
+            "awareness_meditation",
+            "dharma_integration"
+          ],
+          "learning_requirements": [
+            "wisdom_mastery_demonstration",
+            "universal_truth_understanding",
+            "dharma_knowledge_expertise",
+            "enlightenment_aspiration"
+          ],
+          "special_properties": {
+            "wisdom_enhancement": "dramatically_increased_wisdom",
+            "truth_perception": "universal_truth_seeing",
+            "awareness_expansion": "enlightened_consciousness",
+            "clarity_manifestation": "perfect_dharmic_understanding"
+          }
+        },
+        "akshobhya_adamantine_resolve": {
+          "description": "Unshakeable resolve spell from Akshobhya Buddha",
+          "spell_type": "strength_enhancement",
+          "power_level": "cosmic",
+          "casting_requirements": [
+            "determination_demonstration",
+            "resolve_strengthening_practice",
+            "healing_mastery_aspiration",
+            "eastern_wisdom_study"
+          ],
+          "casting_time": "extended_cycles",
+          "energy_cost": "moderate_dharmic_energy",
+          "spell_effects": [
+            "adamantine_resolve_manifestation",
+            "unshakeable_strength_granting",
+            "healing_power_enhancement",
+            "immutable_protection_aura"
+          ],
+          "spell_duration": "long_duration",
+          "spell_range": "targeted_individual",
+          "spell_components": [
+            "resolve_visualization",
+            "strength_meditation",
+            "healing_intention",
+            "protection_alignment"
+          ],
+          "learning_requirements": [
+            "resolve_mastery",
+            "healing_expertise",
+            "determination_demonstration",
+            "adamantine_practice"
+          ],
+          "special_properties": {
+            "resolve_enhancement": "unshakeable_will_power",
+            "strength_granting": "immutable_physical_power",
+            "healing_mastery": "medicine_buddha_power",
+            "protection_power": "adamantine_barrier"
+          }
+        },
+        "ratnasambhava_precious_abundance": {
+          "description": "Abundance blessing from Ratnasambhava Buddha",
+          "spell_type": "prosperity_enhancement",
+          "power_level": "cosmic",
+          "casting_requirements": [
+            "generosity_cultivation",
+            "abundance_appreciation",
+            "prosperity_sharing_practice",
+            "precious_wisdom_honoring"
+          ],
+          "casting_time": "standard_cycles",
+          "energy_cost": "moderate_dharmic_energy",
+          "spell_effects": [
+            "precious_abundance_manifestation",
+            "prosperity_blessing_distribution",
+            "generous_heart_enhancement",
+            "abundant_wealth_attraction"
+          ],
+          "spell_duration": "extended_duration",
+          "spell_range": "wide_area",
+          "spell_components": [
+            "abundance_visualization",
+            "generosity_meditation",
+            "prosperity_intention",
+            "sharing_practice"
+          ],
+          "learning_requirements": [
+            "generosity_mastery",
+            "abundance_understanding",
+            "sharing_demonstration",
+            "prosperity_wisdom"
+          ],
+          "special_properties": {
+            "abundance_attraction": "prosperity_drawing_power",
+            "generosity_enhancement": "increased_giving_ability",
+            "prosperity_blessing": "wealth_generation",
+            "sharing_empowerment": "community_benefit"
+          }
+        },
+        "amitabha_infinite_light": {
+          "description": "Infinite light spell from Amitabha Buddha",
+          "spell_type": "illumination_power",
+          "power_level": "cosmic",
+          "casting_requirements": [
+            "light_seeking_dedication",
+            "paradise_aspiration",
+            "radiance_cultivation",
+            "infinite_life_devotion"
+          ],
+          "casting_time": "extended_cycles",
+          "energy_cost": "high_dharmic_energy",
+          "spell_effects": [
+            "infinite_light_manifestation",
+            "western_paradise_access",
+            "radiant_clarity_granting",
+            "illumination_power_enhancement"
+          ],
+          "spell_duration": "long_duration",
+          "spell_range": "wide_area",
+          "spell_components": [
+            "light_visualization",
+            "radiance_meditation",
+            "paradise_intention",
+            "illumination_practice"
+          ],
+          "learning_requirements": [
+            "light_mastery",
+            "radiance_cultivation",
+            "paradise_aspiration",
+            "illumination_practice"
+          ],
+          "special_properties": {
+            "infinite_illumination": "unlimited_light_power",
+            "paradise_access": "western_paradise_entrance",
+            "radiance_enhancement": "brilliant_clarity",
+            "light_mastery": "illumination_authority"
+          }
+        },
+        "amoghasiddhi_unfailing_success": {
+          "description": "Success mastery from Amoghasiddhi Buddha",
+          "spell_type": "success_enhancement",
+          "power_level": "cosmic",
+          "casting_requirements": [
+            "meaning_seeking",
+            "effective_action_practice",
+            "unfailing_success_aspiration",
+            "northern_wind_mastery"
+          ],
+          "casting_time": "standard_cycles",
+          "energy_cost": "moderate_dharmic_energy",
+          "spell_effects": [
+            "unfailing_success_manifestation",
+            "meaningful_action_guidance",
+            "irrefutable_clarity_granting",
+            "effective_power_enhancement"
+          ],
+          "spell_duration": "extended_duration",
+          "spell_range": "targeted_individual",
+          "spell_components": [
+            "success_visualization",
+            "action_meditation",
+            "meaning_intention",
+            "clarity_practice"
+          ],
+          "learning_requirements": [
+            "success_mastery",
+            "effective_action",
+            "meaning_seeking",
+            "clarity_demonstration"
+          ],
+          "special_properties": {
+            "unfailing_success": "guaranteed_success_outcomes",
+            "meaningful_action": "purpose_driven_power",
+            "clarity_granting": "irrefutable_understanding",
+            "effectiveness_enhancement": "power_optimization"
+          }
+        }
+      }
+    },
+    "bodhisattva_spells": {
+      "description": "Spells granted by the great Bodhisattvas",
+      "spells": {
+        "avalokiteshvara_infinite_compassion": {
+          "description": "Infinite compassion spell from Avalokiteshvara Bodhisattva",
+          "spell_type": "compassion_enhancement",
+          "power_level": "universal",
+          "casting_requirements": [
+            "compassion_demonstration",
+            "mercy_cultivation",
+            "selfless_service_practice",
+            "intervention_seeking"
+          ],
+          "casting_time": "extended_cycles",
+          "energy_cost": "moderate_dharmic_energy",
+          "spell_effects": [
+            "infinite_compassion_manifestation",
+            "merciful_intervention_summoning",
+            "compassionate_healing_power",
+            "swift_rescue_granting"
+          ],
+          "spell_duration": "extended_duration",
+          "spell_range": "wide_area",
+          "spell_components": [
+            "compassion_visualization",
+            "mercy_meditation",
+            "selfless_intention",
+            "intervention_prayer"
+          ],
+          "learning_requirements": [
+            "compassion_mastery",
+            "mercy_demonstration",
+            "selfless_service",
+            "intervention_ability"
+          ],
+          "special_properties": {
+            "compassion_enhancement": "unlimited_merciful_power",
+            "merciful_intervention": "swift_help_manifestation",
+            "healing_compassion": "compassionate_healing",
+            "rescue_power": "emergency_salvation"
+          }
+        },
+        "manjushri_supreme_wisdom": {
+          "description": "Supreme wisdom spell from Manjushri Bodhisattva",
+          "spell_type": "wisdom_mastery",
+          "power_level": "universal",
+          "casting_requirements": [
+            "wisdom_seeking_dedication",
+            "learning_cultivation",
+            "clarity_aspiration",
+            "knowledge_respect"
+          ],
+          "casting_time": "extended_cycles",
+          "energy_cost": "moderate_dharmic_energy",
+          "spell_effects": [
+            "supreme_wisdom_manifestation",
+            "bright_intelligence_enhancement",
+            "clarity_revelation_granting",
+            "wisdom_sword_empowerment"
+          ],
+          "spell_duration": "extended_duration",
+          "spell_range": "targeted_individual",
+          "spell_components": [
+            "wisdom_visualization",
+            "intelligence_meditation",
+            "clarity_intention",
+            "knowledge_practice"
+          ],
+          "learning_requirements": [
+            "wisdom_seeking",
+            "learning_mastery",
+            "clarity_demonstration",
+            "knowledge_respect"
+          ],
+          "special_properties": {
+            "wisdom_enhancement": "supreme_dharmic_knowledge",
+            "intelligence_boost": "bright_mental_clarity",
+            "clarity_granting": "perfect_understanding",
+            "wisdom_sword": "knowledge_as_weapon"
+          }
+        },
+        "vajrapani_thunderbolt_power": {
+          "description": "Thunderbolt power from Vajrapani Bodhisattva",
+          "spell_type": "power_enhancement",
+          "power_level": "universal",
+          "casting_requirements": [
+            "strength_cultivation",
+            "protection_seeking",
+            "power_respect",
+            "intervention_need"
+          ],
+          "casting_time": "standard_cycles",
+          "energy_cost": "moderate_dharmic_energy",
+          "spell_effects": [
+            "thunderbolt_power_manifestation",
+            "indestructible_strength_granting",
+            "divine_protection_aura",
+            "powerful_intervention_ability"
+          ],
+          "spell_duration": "extended_duration",
+          "spell_range": "targeted_individual",
+          "spell_components": [
+            "power_visualization",
+            "strength_meditation",
+            "protection_intention",
+            "intervention_prayer"
+          ],
+          "learning_requirements": [
+            "strength_mastery",
+            "protection_demonstration",
+            "power_respect",
+            "intervention_ability"
+          ],
+          "special_properties": {
+            "thunderbolt_power": "lightning_strength",
+            "indestructible_strength": "adamantine_power",
+            "divine_protection": "guardian_barrier",
+            "intervention_power": "swift_help"
+          }
+        },
+        "kshitigarbha_earth_treasury": {
+          "description": "Earth treasury power from Kshitigarbha Bodhisattva",
+          "spell_type": "earth_mastery",
+          "power_level": "universal",
+          "casting_requirements": [
+            "earth_connection",
+            "afterlife_preparation",
+            "purification_seeking",
+            "supportive_action"
+          ],
+          "casting_time": "extended_cycles",
+          "energy_cost": "moderate_dharmic_energy",
+          "spell_effects": [
+            "earth_treasury_manifestation",
+            "afterlife_guidance_power",
+            "hell_purification_ability",
+            "earth_essence_channeling"
+          ],
+          "spell_duration": "long_duration",
+          "spell_range": "wide_area",
+          "spell_components": [
+            "earth_visualization",
+            "afterlife_meditation",
+            "purification_intention",
+            "support_practice"
+          ],
+          "learning_requirements": [
+            "earth_mastery",
+            "afterlife_knowledge",
+            "purification_ability",
+            "support_demonstration"
+          ],
+          "special_properties": {
+            "earth_treasury": "underworld_resource_access",
+            "afterlife_guidance": "spiritual_passage_help",
+            "hell_purification": "underworld_cleansing",
+            "earth_essence": "terrestrial_power"
+          }
+        },
+        "samantabhadra_universal_virtue": {
+          "description": "Universal virtue from Samantabhadra Bodhisattva",
+          "spell_type": "virtue_enhancement",
+          "power_level": "universal",
+          "casting_requirements": [
+            "virtue_cultivation",
+            "practice_dedication",
+            "action_refinement",
+            "vow_commitment"
+          ],
+          "casting_time": "extended_cycles",
+          "energy_cost": "moderate_dharmic_energy",
+          "spell_effects": [
+            "universal_virtue_manifestation",
+            "practice_mastery_enhancement",
+            "action_perfection_guidance",
+            "vow_fulfillment_power"
+          ],
+          "spell_duration": "extended_duration",
+          "spell_range": "targeted_individual",
+          "spell_components": [
+            "virtue_visualization",
+            "practice_meditation",
+            "action_intention",
+            "vow_practice"
+          ],
+          "learning_requirements": [
+            "virtue_mastery",
+            "practice_dedication",
+            "action_perfection",
+            "vow_commitment"
+          ],
+          "special_properties": {
+            "virtue_enhancement": "universal_moral_power",
+            "practice_mastery": "skill_perfection",
+            "action_perfection": "flawless_execution",
+            "vow_power": "promise_fulfillment"
+          }
+        },
+        "maitreya_future_buddha_love": {
+          "description": "Future Buddha love from Maitreya Bodhisattva",
+          "spell_type": "love_enhancement",
+          "power_level": "universal",
+          "casting_requirements": [
+            "love_cultivation",
+            "kindness_practice",
+            "future_aspiration",
+            "loving_service"
+          ],
+          "casting_time": "standard_cycles",
+          "energy_cost": "moderate_dharmic_energy",
+          "spell_effects": [
+            "future_buddha_blessing",
+            "love_and_kindness_manifestation",
+            "loving_guidance_power",
+            "kindness_rain_ability"
+          ],
+          "spell_duration": "extended_duration",
+          "spell_range": "wide_area",
+          "spell_components": [
+            "love_visualization",
+            "kindness_meditation",
+            "future_intention",
+            "loving_practice"
+          ],
+          "learning_requirements": [
+            "love_mastery",
+            "kindness_demonstration",
+            "future_aspiration",
+            "loving_service"
+          ],
+          "special_properties": {
+            "future_blessing": "tomorrow_buddha_power",
+            "love_enhancement": "unlimited_loving_kindness",
+            "kindness_power": "merciful_force",
+            "loving_guidance": "compassionate_direction"
+          }
+        }
+      }
+    },
+    "dharma_protection_spells": {
+      "description": "Spells for dharma protection and warfare",
+      "spells": {
+        "mahakala_great_black_protection": {
+          "description": "Great Black protection from Mahakala",
+          "spell_type": "protective_ward",
+          "power_level": "cosmic",
+          "casting_requirements": [
+            "protection_seeking",
+            "temple_honoring",
+            "guardian_acknowledgment",
+            "swift_justice_need"
+          ],
+          "casting_time": "standard_cycles",
+          "energy_cost": "moderate_dharmic_energy",
+          "spell_effects": [
+            "great_black_protection_aura",
+            "temple_guardian_barrier",
+            "swift_vengeance_strike",
+            "protective_strength_enhancement"
+          ],
+          "spell_duration": "extended_duration",
+          "spell_range": "location_protection",
+          "spell_components": [
+            "protection_visualization",
+            "guardian_meditation",
+            "justice_intention",
+            "strength_practice"
+          ],
+          "learning_requirements": [
+            "protection_mastery",
+            "temple_duty",
+            "guardian_recognition",
+            "justice_seeking"
+          ],
+          "special_properties": {
+            "black_protection": "impenetrable_dark_barrier",
+            "guardian_power": "temple_protection_authority",
+            "swift_vengeance": "rapid_retribution",
+            "protective_strength": "enhanced_defensive_power"
+          }
+        },
+        "yamantaka_death_conquest": {
+          "description": "Death conquest from Yamantaka",
+          "spell_type": "death_mastery",
+          "power_level": "cosmic",
+          "casting_requirements": [
+            "death_conquest_aspiration",
+            "mara_defeat_commitment",
+            "life_protection_seeking",
+            "enlightenment_defense"
+          ],
+          "casting_time": "extended_cycles",
+          "energy_cost": "high_dharmic_energy",
+          "spell_effects": [
+            "death_termination_power",
+            "mara_conquest_ability",
+            "life_protection_barrier",
+            "fear_defeat_granting"
+          ],
+          "spell_duration": "extended_duration",
+          "spell_range": "targeted_area",
+          "spell_components": [
+            "conquest_visualization",
+            "death_meditation",
+            "life_intention",
+            "mara_defeat_practice"
+          ],
+          "learning_requirements": [
+            "death_mastery",
+            "mara_conquest",
+            "life_protection",
+            "enlightenment_defense"
+          ],
+          "special_properties": {
+            "death_conquest": "mortality_transcendence",
+            "mara_defeat": "temptation_destruction",
+            "life_protection": "survival_enhancement",
+            "fear_defeat": "courage_manifestation"
+          }
+        },
+        "hayagriva_obstacle_destruction": {
+          "description": "Obstacle destruction from Hayagriva",
+          "spell_type": "obstacle_clearing",
+          "power_level": "cosmic",
+          "casting_requirements": [
+            "obstacle_clearing_need",
+            "speed_aspiration",
+            "swift_action_commitment",
+            "clear_path_seeking"
+          ],
+          "casting_time": "standard_cycles",
+          "energy_cost": "moderate_dharmic_energy",
+          "spell_effects": [
+            "obstacle_destruction_power",
+            "speed_enhancement",
+            "clear_path_manifestation",
+            "swift_action_ability"
+          ],
+          "spell_duration": "extended_duration",
+          "spell_range": "targeted_path",
+          "spell_components": [
+            "destruction_visualization",
+            "speed_meditation",
+            "clear_intention",
+            "swift_practice"
+          ],
+          "learning_requirements": [
+            "obstacle_mastery",
+            "speed_demonstration",
+            "clear_path_knowledge",
+            "swift_action"
+          ],
+          "special_properties": {
+            "obstacle_destruction": "barrier_elimination",
+            "speed_enhancement": "rapid_action",
+            "clear_path": "unobstructed_passage",
+            "swift_action": "immediate_response"
+          }
+        },
+        "vajrasattva_purity_manifestation": {
+          "description": "Diamond purity from Vajrasattva",
+          "spell_type": "purification",
+          "power_level": "cosmic",
+          "casting_requirements": [
+            "purification_seeking",
+            "purity_cultivation",
+            "clarity_aspiration",
+            "sin_confession"
+          ],
+          "casting_time": "extended_cycles",
+          "energy_cost": "moderate_dharmic_energy",
+          "spell_effects": [
+            "diamond_purity_manifestation",
+            "sin_purification_rain",
+            "indestructible_clarity",
+            "purity_restoration_power"
+          ],
+          "spell_duration": "long_duration",
+          "spell_range": "targeted_individual",
+          "spell_components": [
+            "purity_visualization",
+            "clarity_meditation",
+            "purification_intention",
+            "confession_practice"
+          ],
+          "learning_requirements": [
+            "purity_mastery",
+            "clarity_cultivation",
+            "purification_ability",
+            "confession_willingness"
+          ],
+          "special_properties": {
+            "diamond_purity": "indestructible_cleanliness",
+            "sin_purification": "guilt_elimination",
+            "clarity_manifestation": "perfect_transparency",
+            "purity_power": "sanctity_enhancement"
+          }
+        }
+      }
+    },
+    "meditation_enhancement_spells": {
+      "description": "Spells to enhance meditation and mindfulness",
+      "spells": {
+        "dhyana_deepening": {
+          "description": "Deepens meditation states",
+          "spell_type": "meditation_enhancement",
+          "power_level": "universal",
+          "casting_requirements": [
+            "meditation_practice",
+            "mindfulness_cultivation",
+            "concentration_development",
+            "peace_cultivation"
+          ],
+          "casting_time": "extended_cycles",
+          "energy_cost": "low_dharmic_energy",
+          "spell_effects": [
+            "meditation_depth_enhancement",
+            "concentration_strengthening",
+            "mindfulness_clarification",
+            "peace_amplification"
+          ],
+          "spell_duration": "extended_duration",
+          "spell_range": "individual_meditation",
+          "spell_components": [
+            "meditation_visualization",
+            "mindfulness_practice",
+            "concentration_intention",
+            "peace_cultivation"
+          ],
+          "learning_requirements": [
+            "meditation_mastery",
+            "mindfulness_demonstration",
+            "concentration_practice",
+            "peace_experience"
+          ],
+          "special_properties": {
+            "depth_enhancement": "deeper_meditation_states",
+            "concentration_power": "stronger_focus",
+            "mindfulness_clarity": "enhanced_awareness",
+            "peace_amplification": "tranquility_increase"
+          }
+        },
+        "mindfulness_clarity": {
+          "description": "Enhances present moment awareness",
+          "spell_type": "awareness_enhancement",
+          "power_level": "universal",
+          "casting_requirements": [
+            "present_moment_focus",
+            "awareness_cultivation",
+            "mindfulness_practice",
+            "clarity_seeking"
+          ],
+          "casting_time": "standard_cycles",
+          "energy_cost": "low_dharmic_energy",
+          "spell_effects": [
+            "mindfulness_clarification",
+            "present_moment_enhancement",
+            "awareness_expansion",
+            "clarity_manifestation"
+          ],
+          "spell_duration": "extended_duration",
+          "spell_range": "individual_awareness",
+          "spell_components": [
+            "awareness_visualization",
+            "mindfulness_meditation",
+            "clarity_intention",
+            "present_practice"
+          ],
+          "learning_requirements": [
+            "awareness_mastery",
+            "mindfulness_demonstration",
+            "present_focus",
+            "clarity_cultivation"
+          ],
+          "special_properties": {
+            "awareness_enhancement": "sharpened_present_focus",
+            "mindfulness_power": "vivid_present_awareness",
+            "clarity_granting": "crystalline_understanding",
+            "present_mastery": "moment_to_moment_clarity"
+          }
+        },
+        "loving_kindness_expansion": {
+          "description": "Expands loving kindness towards all beings",
+          "spell_type": "compassion_enhancement",
+          "power_level": "universal",
+          "casting_requirements": [
+            "loving_kindness_practice",
+            "compassion_cultivation",
+            "universal_love",
+            "all_beings_focus"
+          ],
+          "casting_time": "extended_cycles",
+          "energy_cost": "moderate_dharmic_energy",
+          "spell_effects": [
+            "loving_kindness_expansion",
+            "compassion_amplification",
+            "universal_love_manifestation",
+            "all_beings_benefit"
+          ],
+          "spell_duration": "extended_duration",
+          "spell_range": "universal_scope",
+          "spell_components": [
+            "love_visualization",
+            "kindness_meditation",
+            "compassion_intention",
+            "universal_practice"
+          ],
+          "learning_requirements": [
+            "loving_kindness_mastery",
+            "compassion_demonstration",
+            "universal_love",
+            "all_beings_consideration"
+          ],
+          "special_properties": {
+            "love_expansion": "universal_compassion",
+            "kindness_amplification": "limitless_kindness",
+            "compassion_power": "unlimited_mercy",
+            "all_beings_benefit": "universal_care"
+          }
+        }
+      }
+    },
+    "wisdom_enhancement_spells": {
+      "description": "Spells to develop wisdom and understanding",
+      "spells": {
+        "right_understanding": {
+          "description": "Develops right understanding of dharma",
+          "spell_type": "wisdom_development",
+          "power_level": "universal",
+          "casting_requirements": [
+            "wisdom_seeking",
+            "dharma_study",
+            "understanding_aspiration",
+            "knowledge_respect"
+          ],
+          "casting_time": "extended_cycles",
+          "energy_cost": "moderate_dharmic_energy",
+          "spell_effects": [
+            "right_understanding_manifestation",
+            "dharma_clarity_enhancement",
+            "wisdom_power_development",
+            "knowledge_integration"
+          ],
+          "spell_duration": "extended_duration",
+          "spell_range": "individual_understanding",
+          "spell_components": [
+            "understanding_visualization",
+            "wisdom_meditation",
+            "dharma_intention",
+            "knowledge_practice"
+          ],
+          "learning_requirements": [
+            "wisdom_seeking",
+            "dharma_knowledge",
+            "understanding_development",
+            "knowledge_integration"
+          ],
+          "special_properties": {
+            "understanding_development": "deeper_dharma_grasp",
+            "wisdom_power": "knowledge_as_force",
+            "clarity_enhancement": "dharmic_understanding",
+            "knowledge_mastery": "complete_understanding"
+          }
+        },
+        "middle_way_navigation": {
+          "description": "Helps navigate the middle way between extremes",
+          "spell_type": "balance_enhancement",
+          "power_level": "universal",
+          "casting_requirements": [
+            "middle_way_seeking",
+            "balance_cultivation",
+            "extreme_avoidance",
+            "moderation_practice"
+          ],
+          "casting_time": "standard_cycles",
+          "energy_cost": "low_dharmic_energy",
+          "spell_effects": [
+            "middle_way_clarification",
+            "balance_enhancement",
+            "extreme_avoidance_guidance",
+            "moderation_power"
+          ],
+          "spell_duration": "extended_duration",
+          "spell_range": "individual_guidance",
+          "spell_components": [
+            "balance_visualization",
+            "middle_way_meditation",
+            "moderation_intention",
+            "extreme_avoidance_practice"
+          ],
+          "learning_requirements": [
+            "middle_way_understanding",
+            "balance_demonstration",
+            "moderation_practice",
+            "extreme_avoidance"
+          ],
+          "special_properties": {
+            "balance_enhancement": "perfect_middle_path",
+            "moderation_power": "measured_approach",
+            "extreme_avoidance": "balance_maintenance",
+            "middle_way_guidance": "perfect_path_clarity"
+          }
+        },
+        "emptiness_realization": {
+          "description": "Develops understanding of emptiness and interdependence",
+          "spell_type": "emptiness_comprehension",
+          "power_level": "cosmic",
+          "casting_requirements": [
+            "emptiness_seeking",
+            "interdependence_understanding",
+            "void_comprehension",
+            "non_duality_aspiration"
+          ],
+          "casting_time": "primordial_cycles",
+          "energy_cost": "high_dharmic_energy",
+          "spell_effects": [
+            "emptiness_realization",
+            "interdependence_manifestation",
+            "void_understanding",
+            "non_duality_clarity"
+          ],
+          "spell_duration": "long_duration",
+          "spell_range": "individual_comprehension",
+          "spell_components": [
+            "emptiness_visualization",
+            "void_meditation",
+            "interdependence_intention",
+            "non_duality_practice"
+          ],
+          "learning_requirements": [
+            "emptiness_study",
+            "interdependence_understanding",
+            "void_comprehension",
+            "non_duality_consideration"
+          ],
+          "special_properties": {
+            "emptiness_clarity": "void_understanding",
+            "interdependence_power": "connection_mastery",
+            "void_comprehension": "nothingness_clarity",
+            "non_duality_awareness": "unity_consciousness"
+          }
+        }
+      }
+    },
+    "healing_and_compassion_spells": {
+      "description": "Spells for healing and compassionate action",
+      "spells": {
+        "compassionate_healing": {
+          "description": "Combines compassion with healing power",
+          "spell_type": "compassionate_healing",
+          "power_level": "universal",
+          "casting_requirements": [
+            "compassion_demonstration",
+            "healing_intention",
+            "merciful_action",
+            "loving_kindness"
+          ],
+          "casting_time": "extended_cycles",
+          "energy_cost": "moderate_dharmic_energy",
+          "spell_effects": [
+            "compassionate_healing_power",
+            "merciful_healing_manifestation",
+            "loving_healing_energy",
+            "heart_healing_ability"
+          ],
+          "spell_duration": "extended_duration",
+          "spell_range": "targeted_healing",
+          "spell_components": [
+            "compassion_visualization",
+            "healing_meditation",
+            "merciful_intention",
+            "loving_practice"
+          ],
+          "learning_requirements": [
+            "compassion_mastery",
+            "healing_ability",
+            "merciful_action",
+            "loving_kindness"
+          ],
+          "special_properties": {
+            "compassionate_power": "loving_healing_force",
+            "merciful_healing": "gentle_restoration",
+            "heart_healing": "emotional_repair",
+            "loving_energy": "care_infused_healing"
+          }
+        },
+        "karuna_wisdom_healing": {
+          "description": "Healing through karuna (compassion) wisdom",
+          "spell_type": "compassion_wisdom_healing",
+          "power_level": "universal",
+          "casting_requirements": [
+            "karuna_cultivation",
+            "wisdom_healing",
+            "compassionate_insight",
+            "wise_compassion"
+          ],
+          "casting_time": "extended_cycles",
+          "energy_cost": "moderate_dharmic_energy",
+          "spell_effects": [
+            "karuna_wisdom_manifestation",
+            "compassionate_insight_healing",
+            "wise_compassion_power",
+            "healing_compassion_wisdom"
+          ],
+          "spell_duration": "extended_duration",
+          "spell_range": "wisdom_healing",
+          "spell_components": [
+            "karuna_visualization",
+            "wisdom_meditation",
+            "compassion_intention",
+            "healing_practice"
+          ],
+          "learning_requirements": [
+            "karuna_mastery",
+            "wisdom_healing",
+            "compassionate_insight",
+            "wise_understanding"
+          ],
+          "special_properties": {
+            "karuna_power": "compassion_wisdom",
+            "wise_compassion": "understanding_love",
+            "healing_insight": "compassionate_wisdom",
+            "compassion_wisdom": "unified_healing"
+          }
+        },
+        "universal_healing_blessing": {
+          "description": "Universal healing blessing for all suffering beings",
+          "spell_type": "universal_healing",
+          "power_level": "cosmic",
+          "casting_requirements": [
+            "universal_compassion",
+            "healing_aspiration",
+            "all_beings_benefit",
+            "universal_loving_kindness"
+          ],
+          "casting_time": "primordial_cycles",
+          "energy_cost": "high_dharmic_energy",
+          "spell_effects": [
+            "universal_healing_manifestation",
+            "all_suffering_relief",
+            "collective_healing_power",
+            "universal_mercy_rain"
+          ],
+          "spell_duration": "primordial_cycles",
+          "spell_range": "universal_scope",
+          "spell_components": [
+            "universal_visualization",
+            "healing_meditation",
+            "all_beings_intention",
+            "collective_practice"
+          ],
+          "learning_requirements": [
+            "universal_compassion",
+            "healing_mastery",
+            "all_beings_focus",
+            "collective_understanding"
+          ],
+          "special_properties": {
+            "universal_healing": "worldwide_restoration",
+            "all_beings_relief": "collective_salvation",
+            "collective_power": "group_healing_force",
+            "universal_mercy": "limitless_compassion"
+          }
+        }
+      }
+    },
+    "spell_learning_requirements": {
+      "beginner_requirements": {
+        "meditation_mastery": "basic_meditation_ability",
+        "dharma_understanding": "fundamental_teaching_knowledge",
+        "compassion_cultivation": "basic_merciful_attitude",
+        "mindfulness_practice": "present_moment_awareness"
+      },
+      "intermediate_requirements": {
+        "wisdom_development": "intermediate_dharma_knowledge",
+        "bodhisattva_vows": "commitment_to_all_beings",
+        "advanced_meditation": "deep_meditation_states",
+        "karuna_mastery": "compassionate_action_ability"
+      },
+      "advanced_requirements": {
+        "enlightenment_aspiration": "adapted_referencete_seeking_dedication",
+        "buddha_nature_recognition": "own_buddha_nature_understanding",
+        "transcendent_wisdom": "advanced_dharmic_insight",
+        "universal_compassion": "limitless_merciful_attitude"
+      },
+      "master_requirements": {
+        "primordial_wisdom": "universal_consciousness_connection",
+        "buddha_authority": "dharma_representation_permission",
+        "universal_service": "cosmic_responsibility_acceptance",
+        "transcendent_mastery": "beyond_dualistic_understanding"
+      }
+    },
+    "spell_progression_system": {
+      "novice_spell_user": {
+        "power_level": "basic_dharmic",
+        "available_spells": "meditation_enhancement_spells",
+        "learning_speed": "standard",
+        "energy_efficiency": "basic"
+      },
+      "practicing_practitioner": {
+        "power_level": "intermediate_dharmic",
+        "available_spells": "wisdom_enhancement_spells",
+        "learning_speed": "enhanced",
+        "energy_efficiency": "improved"
+      },
+      "dedicated_monastic": {
+        "power_level": "advanced_dharmic",
+        "available_spells": "healing_and_compassion_spells",
+        "learning_speed": "fast",
+        "energy_efficiency": "high"
+      },
+      "enlightened_being": {
+        "power_level": "universal_dharmic",
+        "available_spells": "bodhisattva_spells",
+        "learning_speed": "very_fast",
+        "energy_efficiency": "optimal"
+      },
+      "buddha_representative": {
+        "power_level": "cosmic_dharmic",
+        "available_spells": "cosmic_buddha_spells",
+        "learning_speed": "instant",
+        "energy_efficiency": "primordial"
+      }
+    }
+  },
+  "id": "buddhist_divine_spells",
+  "name": "Buddhist Divine Spells",
+  "template_type": "divine_system",
+  "version": "0.1.0"
+}

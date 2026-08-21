@@ -1,0 +1,78 @@
+{
+  "id": "lumberjacking",
+  "name": "Abattage",
+  "description": "Art de couper et traiter le bois pour la construction et l'artisanat",
+  "icon": "lumberjacking_icon",
+  "category": "gathering",
+  "rarity": "common",
+  "base_skill": 0,
+  "max_skill": 120,
+  "skill_gain_rate": 0.8,
+  "attributes": {
+    "primary": "strength",
+    "secondary": "constitution"
+  },
+  "gathering_tools": [
+    "axe",
+    "saw",
+    "hatchet",
+    "wood_splitter"
+  ],
+  "abilities": [
+    {
+      "name": "coupe_précise",
+      "description": "Coupe plus efficacement en préservant la qualité du bois",
+      "unlock_level": 25,
+      "quality_bonus": 20,
+      "waste_reduction": 15
+    },
+    {
+      "name": "déboisement_rapide",
+      "description": "Coupe plusieurs arbres à la fois dans une zone",
+      "unlock_level": 50,
+      "aoe_harvest": true,
+      "speed_bonus": 1.5
+    },
+    {
+      "name": "maître_bûcheron",
+      "description": "Peut identifier et récolter des bois rares et magiques",
+      "unlock_level": 80,
+      "rare_wood_chance": 25,
+      "magical_wood_detection": true
+    }
+  ],
+  "bonuses": {
+    "harvest_yield": 12,
+    "tool_durability": 15,
+    "rare_find_chance": 8
+  },
+  "requirements": {
+    "level": 1,
+    "strength": 20
+  },
+  "training_methods": [
+    "tree_felling",
+    "wood_processing",
+    "forest_navigation"
+  ],
+  "mastery_bonuses": {
+    "level_50": {
+      "damage_multiplier": 1.2,
+      "stamina_efficiency": 1.3
+    },
+    "level_100": {
+      "perfect_cuts": 20,
+      "legendary_wood": 10
+    }
+  },
+  "gathered_resources": [
+    "oak_log",
+    "pine_log",
+    "maple_log",
+    "ebony_log",
+    "ironwood_log",
+    "living_wood"
+  ],
+  "version": "0.1.0",
+  "template_type": "skill"
+}

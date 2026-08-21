@@ -1,16 +1,86 @@
 {
-  "id": "elemental_affinity_catalyst",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Elemental Affinity Catalyst",
-  "description": "A portable consumable component for public template workflows.",
+  "item_id": "elemental_affinity_catalyst",
+  "name": "Catalyseur d'Affinité Élémentaire",
+  "description": "Objet qui renforce l'affinité élémentaire d'un sort tout en créant une vulnérabilité équilibrée",
+  "icon": "elemental_affinity_catalyst_icon",
   "category": "consumable",
   "rarity": "rare",
-  "stack_limit": 10,
-  "weight_kg": 0.1,
-  "tags": [
-    "adapted",
-    "consumable"
+  "item_type": "spell_customization_catalyst",
+  "bind_type": "none",
+  "level_required": 30,
+  "durability": {
+    "single_use": true,
+    "charges": 1
+  },
+  "effects": [
+    {
+      "effect_type": "elemental_affinity_booster",
+      "value": 0.25,
+      "duration": 3600000,
+      "description": "Augmente l'affinité élémentaire d'un sort de 25%",
+      "elemental_effects": {
+        "damage_multiplier": 1.25,
+        "resistance_multiplier": 1.15,
+        "vulnerability_risk": 0.2,
+        "elemental_reactions": [
+          "enhanced",
+          "amplified"
+        ]
+      },
+      "balance_formula": "affinity_bonus + vulnerability_risk = element_stability"
+    }
   ],
-  "dependencies": []
+  "usage_instructions": {
+    "cast_time": 10000,
+    "cooldown": 3600000,
+    "target_type": "spell_targeting",
+    "consumable_on_use": true,
+    "customization_context": "applied_during_spell_selection"
+  },
+  "crafting_requirements": {
+    "profession": "magic_crafter",
+    "level_required": 25,
+    "specialization": "elemental_manipulation",
+    "materials": [
+      {
+        "material_id": "elemental_essence_condensate",
+        "quantity": 1
+      },
+      {
+        "material_id": "resonance_stone",
+        "quantity": 1
+      },
+      {
+        "material_id": "void_weave_thread",
+        "quantity": 3
+      }
+    ],
+    "crafting_time": 180000,
+    "success_rate": 0.7,
+    "batch_production": 2
+  },
+  "spell_customization_data": {
+    "customizable_parameters": [
+      "elemental_affinity",
+      "damage_type"
+    ],
+    "effect_mechanic": "permanent_spell_modifier",
+    "balance_tradeoffs": [
+      "vulnerability_increase"
+    ],
+    "visual_indicators": [
+      "elemental_aura",
+      "vulnerability_marker"
+    ],
+    "elemental_types": [
+      "fire",
+      "water",
+      "earth",
+      "air",
+      "lightning"
+    ]
+  },
+  "version": "0.1.0",
+  "id": "elemental_affinity_catalyst",
+  "template_type": "item"
 }

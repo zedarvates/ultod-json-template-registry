@@ -1,0 +1,79 @@
+{
+  "id": "necromancy_spell_0315",
+  "name": "Necromancy Spell 0315",
+  "description": "Une frappe puissante qui absorbe la vie de la cible et guérit le necromancy_spell_0315 knight selon les dégâts infligés",
+  "icon": "necromancy_spell_0315_icon",
+  "school": "necromancy",
+  "rarity": "rare",
+  "spell_type": "life_draining_attack",
+  "target_type": "single_enemy",
+  "range": 8.0,
+  "cast_time": 2000,
+  "cooldown": 10000,
+  "mana_cost": 65,
+  "damage": {
+    "base_damage": 350,
+    "damage_type": "necrotic_necromancy_spell_0315_energy",
+    "scaling": {
+      "rune_power": 1.8,
+      "unholy_strength": 1.2
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "necromancy_spell_0315_life_swap",
+      "value": 350,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_to_heal_self": 0.25,
+      "critical_death_strike": 0.2,
+      "death_knight_heal_cap": 200,
+      "blood_rune_burst": 50,
+      "dark_transformation_chance": 0.1
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necromancy_spell_0315_scythe empowerment",
+    "strike_effect": "reaper_scythe_reap",
+    "drain_effect": "life_energy_grasp_and_pull",
+    "heal_effect": "undead_flesh_reconstruction"
+  },
+  "sound_effects": {
+    "cast_sound": "necromancy_spell_0315_march_drum_beat",
+    "strike_sound": "bone_crushing_fatal_blow",
+    "drain_sound": "soul_vortex_extraction",
+    "heal_sound": "undead_regeneration_crunch"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "unholy_combat",
+      "life_manipulation"
+    ],
+    "classes": [
+      "necromancy_spell_0315_knight",
+      "reaper_lord"
+    ],
+    "specializations": [
+      "necromancy_spell_0315r"
+    ]
+  },
+  "upgrades": {
+    "soul_strike": {
+      "unlock_level": 28,
+      "description": "La frappe absorbe l'âme de la cible et la transforme en puissance",
+      "soul_energy_absorb": true,
+      "temporary_soul_buff": 100,
+      "soul_trap_chance": 0.3
+    },
+    "grim_reaper_scourge": {
+      "unlock_level": 38,
+      "description": "La cible affaiblie est marquée pour la mort et subit des dégâts supplémentaires",
+      "death_mark": true,
+      "marked_damage_bonus": 50,
+      "reaper_summon_if_death": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

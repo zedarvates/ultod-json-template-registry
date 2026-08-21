@@ -1,0 +1,80 @@
+{
+  "id": "restoration_spell_0292",
+  "name": "Restoration Spell 0292",
+  "description": "Une prière puissante qui invoques des soins divins établis pour tout un groupe",
+  "icon": "restoration_spell_0292_icon",
+  "school": "restoration",
+  "rarity": "uncommon",
+  "spell_type": "divine_restoration_spell_0292",
+  "target_type": "multiple_allies",
+  "range": 50.0,
+  "cast_time": 3000,
+  "cooldown": 18000,
+  "mana_cost": 90,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "restoration_spell_0292_healing",
+    "scaling": {
+      "wisdom": 2.5,
+      "charisma": 1.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "mass_restoration_spell_0292_restoration",
+      "value": 150,
+      "duration": 10000,
+      "tick_rate": 2500,
+      "max_targets": 8,
+      "hot_strength": 25,
+      "critical_prayer_chance": 0.25,
+      "prayer_echo_damage": 30,
+      "divine_focus_duration": 5000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "restoration_spell_0292_kneeling_glow",
+    "heal_effect": "descending_restoration_spell_0292_symbols",
+    "hot_effect": "golden_sustenance_rings",
+    "echo_effect": "divine_energy_echo_waves"
+  },
+  "sound_effects": {
+    "cast_sound": "solemn_restoration_spell_0292_incantation",
+    "heal_sound": "heavenly_healing_resonance",
+    "hot_sound": "sustaining_restoration_spell_0292_harmony",
+    "echo_sound": "divine_echo_blessings"
+  },
+  "requirements": {
+    "level": 15,
+    "skills": [
+      "divine_magic",
+      "restoration_spell_0292_craft"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "restoration_spell_0292_specialist"
+    ]
+  },
+  "upgrades": {
+    "prayer_of_redemption": {
+      "unlock_level": 25,
+      "description": "La prière peut sauver du seuil de la mort et guérir les maladies",
+      "save_from_death": true,
+      "disease_cure_integrated": true,
+      "extended_range": 75.0
+    },
+    "cathedral_prayer": {
+      "unlock_level": 35,
+      "description": "Crée un espace sacré qui prolonge les effets de la prière",
+      "sanctuary_zone": 20.0,
+      "duration_multiplier": 2.0,
+      "prayer_amplification": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

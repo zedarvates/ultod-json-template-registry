@@ -1,16 +1,26 @@
 {
   "id": "spellbook_basic",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Spellbook Basic",
-  "description": "A portable misc component for public template workflows.",
+  "name": "Grimoire de Base",
+  "description": "Grimoire d'initiation contenant les runes elementaires.",
+  "icon": "spellbook_basic",
   "category": "misc",
   "rarity": "common",
-  "stack_limit": 10,
-  "weight_kg": 1.0,
-  "tags": [
-    "adapted",
-    "misc"
-  ],
-  "dependencies": []
+  "item_type": "book",
+  "sub_type": "spellbook",
+  "base_stats": {
+    "durability": 20,
+    "max_durability": 20,
+    "weight": 1.0,
+    "value": 80
+  },
+  "properties": {
+    "stackable": false,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 1
+  },
+  "template_type": "item",
+  "version": "0.1.0"
 }

@@ -1,0 +1,73 @@
+{
+  "id": "fureur_spell_1547",
+  "name": "Fureur Spell 1547",
+  "description": "Attaque dévastatrice contre les ennemis ayant moins de 20% de vie, infligeant des dégâts massifs",
+  "icon": "fureur_spell_1547_icon",
+  "school": "fureur",
+  "rarity": "rare",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 300,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 1.5,
+      "rage": 1.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "fureur_spell_1547_damage",
+      "value": 300,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "health_threshold": 0.2
+    },
+    {
+      "effect_type": "rage_consumption",
+      "value": 15,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "execution_stance",
+    "projectile_effect": "none",
+    "impact_effect": "fatal_blow",
+    "trail_effect": "blood_arc"
+  },
+  "sound_effects": {
+    "cast_sound": "execution_cry",
+    "impact_sound": "fatal_strike"
+  },
+  "requirements": {
+    "level": 16,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "fury"
+    ]
+  },
+  "upgrades": {
+    "improved_execute": {
+      "unlock_level": 24,
+      "description": "Augmente les dégâts d'Fureur Spell 1547 de 40%",
+      "damage_bonus": 40
+    },
+    "execute_mastery": {
+      "unlock_level": 34,
+      "description": "Fureur Spell 1547 peut être utilisée sur des cibles ayant jusqu'à 35% de vie",
+      "health_threshold_increase": 0.15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

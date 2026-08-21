@@ -1,0 +1,70 @@
+{
+  "id": "abjuration_spell_0083",
+  "name": "Abjuration Spell 0083",
+  "description": "Vous jouez une mélodie discordante qui empêche les sorts ennemis de fonctioner temporairement",
+  "icon": "abjuration_spell_0083_icon",
+  "school": "abjuration",
+  "rarity": "rare",
+  "spell_type": "silencing_debuff",
+  "target_type": "single_enemy",
+  "range": 40.0,
+  "cast_time": 1500,
+  "cooldown": 15000,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "magical"
+  },
+  "effects": [
+    {
+      "effect_type": "spell_silence",
+      "value": 100,
+      "duration": 8000,
+      "tick_rate": 0,
+      "proc_chance": 0.8,
+      "interrupt_chance": 0.9
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "discordant_notes",
+    "debuff_effect": "silence_wave",
+    "expire_effect": "sound_return"
+  },
+  "sound_effects": {
+    "cast_sound": "discordant_chord",
+    "debuff_sound": "silence_ring",
+    "expire_sound": "sound_rush"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "performance",
+      "counter_magic",
+      "music_magic"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour"
+    ],
+    "specializations": [
+      "abjuration_spell_0083_specialist"
+    ]
+  },
+  "upgrades": {
+    "perfect_dissonance": {
+      "unlock_level": 12,
+      "description": "Augmente les chances de succès de l'interruption",
+      "interrupt_chance_bonus": 0.3,
+      "silence_duration_bonus": 3000
+    },
+    "mass_silence": {
+      "unlock_level": 20,
+      "description": "Peut affecter plusieurs cibles",
+      "max_targets": 3,
+      "range_bonus": 10.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "evocation_spell_1528",
+  "name": "Evocation Spell 1528",
+  "description": "Une colonne de feu divin frappe une zone",
+  "icon": "evocation_spell_1528_icon",
+  "school": "evocation",
+  "rarity": "legendary",
+  "spell_type": "area_damage",
+  "target_type": "area",
+  "range": 18.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 100,
+  "damage": {
+    "base_damage": 100,
+    "damage_type": "fire",
+    "aoe_radius": 3.0
+  },
+  "effects": [
+    {
+      "effect_type": "evocation_spell_1528_column",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "dexterity_save": true,
+      "save_dc": 17
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fire_pillar",
+    "explosion_effect": "holy_fire"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_roar"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "warlock",
+      "cleric",
+      "druid"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

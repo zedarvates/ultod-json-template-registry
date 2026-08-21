@@ -1,0 +1,74 @@
+{
+  "id": "necromancy_spell_0957",
+  "name": "Necromancy Spell 0957",
+  "description": "Invoque un puissant chevalier mort-vivant armé d'une lame runique, lié à la volonté du nécromancien",
+  "icon": "necromancy_spell_0957_icon",
+  "school": "necromancy",
+  "rarity": "legendary",
+  "spell_type": "elite_undead_necromancy_spell_0957ing",
+  "target_type": "necromancy_spell_0957_at_location",
+  "range": 30.0,
+  "cast_time": 6000,
+  "cooldown": 180000,
+  "mana_cost": 200,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "runic_necrotic_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "death_knight_manifestation",
+      "value": 500,
+      "duration": 300000,
+      "tick_rate": 0,
+      "knight_combat_level": 1.8,
+      "death_grip_ability": true,
+      "runic_blade_strike_damage": 250,
+      "anti_magic_presence_aura": 12.0,
+      "runic_empowerment_transfer": 30,
+      "nihilism_death_aura": 10.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "death_energy_converging_dark_portal_swirling_negative_energy_intense",
+    "summon_effect": "armored_knight_rising_reanimated_skeletal_glow_dark_magic_aura",
+    "active_effect": "knight_fighting_sword_glowing_runic_blade_energy_trails_death_aura",
+    "ability_effect": "death_grip_ability_shadowy_tentacles_enemy_dragging_crushing",
+    "expiration_effect": "knight_collapsing_armor_shattering_dark_energy_dissipating_vanish"
+  },
+  "sound_effects": {
+    "cast_effect": "death_energy_converging_ethereal_whispers_ominous_death_chanting",
+    "summon_effect": "reanimation_crunch_armor_clanking_knight_emergent_death_sroan_activated",
+    "active_effect": "blade_strikes_heavy_armored_footsteps_runic_energy_crackles_battle",
+    "ability_effect": "death_grip_impact_enemy_struggle_crushing_dark_energy_discharge",
+    "expiration_effect": "armor_breaking_collapsing_bones_clattering_dark_energy_receding_final_exit"
+  },
+  "requirements": {
+    "level": 55,
+    "skills": [
+      "necromancy",
+      "runic_dark_magic",
+      "elite_undead_necromancy_spell_0957ing"
+    ],
+    "classes": [
+      "necromancer",
+      "death_master",
+      "lich_lord"
+    ],
+    "specializations": [
+      "death_knight_commander"
+    ]
+  },
+  "upgrades": {
+    "greater_summon_death_knight": {
+      "unlock_level": 70,
+      "description": "L'Necromancy Spell 0957 devient plus puissante avec des capacités améliorées",
+      "death_knight_combat_multiplier": 2.2,
+      "runic_blade_critical_damage": 500,
+      "death_aura_damage_increased": 50,
+      "anti_magic_field_expansion": 20.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

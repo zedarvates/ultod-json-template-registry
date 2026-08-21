@@ -1,16 +1,81 @@
 {
-  "id": "balance_rune",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Balance Rune",
-  "description": "A portable material component for public template workflows.",
+  "item_id": "balance_rune",
+  "name": "Rune d'Équilibre",
+  "description": "Rune ancienne gravée dans le marbre éternel, maintient l'équilibre magique dans les personnalisations de sorts",
+  "icon": "balance_rune_icon",
   "category": "material",
   "rarity": "uncommon",
-  "stack_limit": 50,
-  "weight_kg": 0.1,
-  "tags": [
-    "adapted",
-    "material"
+  "item_type": "magic_crafting_material",
+  "bind_type": "none",
+  "level_required": 20,
+  "durability": {
+    "single_use": false,
+    "max_durability": 300,
+    "current_durability": 300
+  },
+  "properties": {
+    "material_type": "equilibrium_anchor",
+    "magic_stabilization_power": 0.4,
+    "chaos_suppression": 0.85,
+    "harmonic_alignment": 0.78,
+    "corruption_resistance": 0.92
+  },
+  "stack_limit": 10,
+  "weight": 0.8,
+  "value": {
+    "rarity_multiplier": 1.4
+  },
+  "drop_sources": [
+    {
+      "source_type": "mob_loot",
+      "mobs": [
+        "ancient_guardian",
+        "law_keeper",
+        "cosmic_arbiter"
+      ],
+      "drop_chance": 0.08,
+      "quantity_range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "source_type": "gathering",
+      "nodes": [
+        "ancient_temples",
+        "balance_altars",
+        "cosmic_ruins"
+      ],
+      "skill_required": "archaeology",
+      "skill_level": 25
+    },
+    {
+      "source_type": "crafting",
+      "profession": "inscription",
+      "recipe_id": "rune_carving"
+    },
+    {
+      "source_type": "quest_reward",
+      "quests": [
+        "harmony_restoration",
+        "chaos_containment"
+      ],
+      "rarity_tier": "uncommon"
+    }
   ],
-  "dependencies": []
+  "usage_instructions": {
+    "usage_type": "crafting_component",
+    "compatible_professions": [
+      "magic_crafter",
+      "inscription"
+    ],
+    "balance_enhancement": 1.25
+  },
+  "visual_effects": {
+    "idle_effect": "rune_glow",
+    "usage_effect": "balance_ripple"
+  },
+  "version": "0.1.0",
+  "id": "balance_rune",
+  "template_type": "item"
 }

@@ -1,0 +1,68 @@
+{
+  "id": "fiend_creature_0123",
+  "name": "Fiend Creature 0123",
+  "description": "Créature infernale des plans inférieurs, mélange de flammes et de ténèbres",
+  "icon": "fiend_creature_0123_icon",
+  "category": "fiend",
+  "rarity": "epic",
+  "base_stats": {
+    "health": 2000,
+    "mana": 800,
+    "strength": 130,
+    "dexterity": 70,
+    "intelligence": 60,
+    "wisdom": 50,
+    "constitution": 140,
+    "charisma": 30
+  },
+  "properties": {
+    "is_fiendish": true,
+    "is_flying": true,
+    "size": "large",
+    "speed": 12.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "brimstone",
+      "fiend_creature_0123_blood"
+    ],
+    "rare_drops": [
+      "hellfire_crystal",
+      "fiend_creature_0123_horn"
+    ],
+    "epic_drops": [
+      "fiend_creature_0123_heart",
+      "infernal_weapon"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "extreme",
+    "attack_pattern": "berserk_charge",
+    "special_abilities": [
+      "hellfire_breath",
+      "teleport",
+      "fear_aura"
+    ]
+  },
+  "abilities": [
+    "hellfire_bolt",
+    "fiend_creature_0123_charge",
+    "fear_stare",
+    "teleport_strike",
+    "flame_aura",
+    "summon_imps"
+  ],
+  "resistances": {
+    "fire": 100,
+    "shadow": 70,
+    "physical": 50,
+    "holy": -100
+  },
+  "weaknesses": [
+    "holy",
+    "silver",
+    "ice"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

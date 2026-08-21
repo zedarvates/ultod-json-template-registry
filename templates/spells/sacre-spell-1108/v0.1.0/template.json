@@ -1,0 +1,62 @@
+{
+  "id": "sacre_spell_1108",
+  "name": "Sacre Spell 1108",
+  "description": "Une créature que vous touchez récupère un nombre de points de vie égal à 3d8 + votre modificateur de caractéristique d'incantation. Ce sort n'a aucun effet sur les morts-vivants ou les artifices",
+  "icon": "sacre_spell_1108_icon",
+  "school": "sacré",
+  "rarity": "common",
+  "spell_type": "healing",
+  "target_type": "ally",
+  "range": 2.0,
+  "cast_time": 1000,
+  "cooldown": 15000,
+  "mana_cost": 40,
+  "healing": {
+    "base_healing": 24,
+    "scaling_factor": 4,
+    "healing_type": "divine"
+  },
+  "effects": [
+    {
+      "effect_type": "direct_healing",
+      "value": 24,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_radius": 0.0,
+      "proc_chance": 1.0,
+      "healing_bonus": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "holy_touch",
+    "heal_effect": "divine_light",
+    "impact_effect": "healing_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_chant",
+    "heal_sound": "restoration_chime",
+    "impact_sound": "healing_bell"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_cure_wounds": {
+      "unlock_level": 3,
+      "description": "Augmente les soins de base",
+      "healing_increase": 10
+    },
+    "maximized_cure_wounds": {
+      "unlock_level": 9,
+      "description": "Sacre Spell 1108 maximale sans lancer de dés",
+      "maximize_dice": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0722",
+  "name": "Illusion Spell 0722",
+  "description": "Masque une zone entière avec une illusion de groupe, faisant apparaître la zone comme un endroit complètement différent",
+  "icon": "illusion_spell_0722_icon",
+  "school": "illusion",
+  "rarity": "uncommon",
+  "spell_type": "area_disguise_field",
+  "target_type": "area_group_masking",
+  "range": 50.0,
+  "cast_time": 4000,
+  "cooldown": 120000,
+  "mana_cost": 120,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "group_illusion_obfuscation"
+  },
+  "effects": [
+    {
+      "effect_type": "collectives_area_deception",
+      "value": 350,
+      "duration": 300000,
+      "tick_rate": 0,
+      "veil_masking_area_radius": 40.0,
+      "environmental_disguise_complete": true,
+      "group_invisible_behaviour_maintained": false,
+      "illusion_interaction_reactive": true,
+      "reality_overlap_intensity": 80,
+      "detection_permeability_threshold": 30
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "reality_curtain_descending_energy_weavings",
+    "veil_effect": "environmental_transformation_gradual_blending",
+    "interaction_effect": "illusion_agent_react_responding_naturally",
+    "reveal_effect": "reality_curtain_parting_exposing_true_scene"
+  },
+  "sound_effects": {
+    "cast_effect": "reality_curtain_descending_world_shifting",
+    "veil_effect": "environmental_sounds_masking_different_ambiance",
+    "interaction_effect": "responsive_interactions_natural_environmental",
+    "reveal_effect": "reality_parting_exposing_authentic_sounds"
+  },
+  "requirements": {
+    "level": 40,
+    "skills": [
+      "illusion_magic",
+      "area_masking"
+    ],
+    "classes": [
+      "illusionist",
+      "environmental_artist"
+    ],
+    "specializations": [
+      "landscape_weaver"
+    ]
+  },
+  "upgrades": {
+    "greater_veil": {
+      "unlock_level": 50,
+      "description": "Le Illusion Spell 0722 devient plus grand avec des transformations plus complexes et des interactions avancées",
+      "area_radius_triple": 120.0,
+      "complete_reality_replacement": true,
+      "illusion_population_dynamic": true,
+      "terrain_functional_alteration": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

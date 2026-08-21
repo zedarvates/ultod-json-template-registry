@@ -1,0 +1,68 @@
+{
+  "id": "beast_creature_0330",
+  "name": "Beast Creature 0330",
+  "description": "Créature marine géante aux écailles luisantes et au venin mortel",
+  "icon": "beast_creature_0330_icon",
+  "category": "beast",
+  "rarity": "epic",
+  "base_stats": {
+    "health": 1500,
+    "mana": 500,
+    "strength": 110,
+    "dexterity": 70,
+    "intelligence": 40,
+    "wisdom": 60,
+    "constitution": 130,
+    "charisma": 20
+  },
+  "properties": {
+    "is_aquatic": true,
+    "is_poisonous": true,
+    "size": "huge",
+    "speed": 15.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "beast_creature_0330_scale",
+      "venom_gland"
+    ],
+    "rare_drops": [
+      "beast_creature_0330_tooth",
+      "coral_heart"
+    ],
+    "epic_drops": [
+      "beast_creature_0330_hide",
+      "abyssal_essence"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "high",
+    "attack_pattern": "aquatic_ambush",
+    "special_abilities": [
+      "venomous_bite",
+      "tail_slam",
+      "water_jet"
+    ]
+  },
+  "abilities": [
+    "venom_strike",
+    "coil_crush",
+    "water_blast",
+    "tail_whip",
+    "regeneration",
+    "intimidating_hiss"
+  ],
+  "resistances": {
+    "water": 100,
+    "poison": 90,
+    "cold": 70,
+    "physical": 40
+  },
+  "weaknesses": [
+    "lightning",
+    "fire",
+    "holy"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

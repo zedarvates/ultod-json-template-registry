@@ -1,0 +1,266 @@
+{
+  "id": "farmer",
+  "name": "Farmer",
+  "description": "Agricultural worker growing crops and raising livestock",
+  "icon": "npcs/farmer_icon.png",
+  "category": "citizen",
+  "awareness": {
+    "enabled": true,
+    "cognitive_level": "summary",
+    "initial_lod": "distant",
+    "initial_yaw_radians": 0.0,
+    "senses": {
+      "vision_range": 14.0,
+      "hearing_range": 12.0,
+      "tactile_sensitivity": 0.7
+    },
+    "attention": {
+      "capacity": 4,
+      "max_visual_candidates": 12,
+      "max_occlusion_rays": 3
+    },
+    "values": {
+      "nonviolence": 0.9,
+      "fairness": 0.7,
+      "loyalty": 0.7,
+      "honor": 0.6,
+      "compassion": 0.8,
+      "reciprocity": 0.8
+    },
+    "personal_norms": {
+      "property_rights": 0.8,
+      "nonviolence": 0.9,
+      "anti_coercion": 0.8,
+      "dignity": 0.8,
+      "reciprocity": 0.8
+    },
+    "initial_goals": {
+      "self_preservation": 0.8,
+      "possessions": 0.7,
+      "social_standing": 0.5,
+      "protect_others": 0.6,
+      "preserve_order": 0.5,
+      "affiliation": 0.9
+    },
+    "reaction_policy": {
+      "threat_response": "withdraw",
+      "may_defend": false,
+      "may_retaliate": false
+    }
+  },
+  "rarity": "common",
+  "npc_type": "citizen",
+  "base_stats": {
+    "level": 9,
+    "hp": 110,
+    "max_hp": 110,
+    "mana": 20,
+    "max_mana": 20,
+    "strength": 14,
+    "dexterity": 12,
+    "intelligence": 10,
+    "wisdom": 13,
+    "constitution": 16,
+    "charisma": 11,
+    "speed": 0.9,
+    "size": 1.0,
+    "weight": 80.0
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_flying": false,
+    "is_aquatic": false,
+    "is_undead": false,
+    "is_elemental": false,
+    "is_mechanical": false,
+    "is_magical": false,
+    "is_divine": false,
+    "is_fiendish": false,
+    "is_wild": false,
+    "is_tameable": false,
+    "is_summonable": false,
+    "is_soulbound": false,
+    "is_cursed": false,
+    "is_blessed": false,
+    "is_poisoned": false,
+    "is_paralyzed": false,
+    "is_silenced": false,
+    "is_blinded": false,
+    "is_deafened": false,
+    "is_charmed": false,
+    "is_frightened": false,
+    "is_confused": false,
+    "is_stunned": false,
+    "is_sleeping": false,
+    "is_invisible": false,
+    "is_invulnerable": false,
+    "is_immortal": false,
+    "is_unique": false,
+    "is_boss": false,
+    "is_mini_boss": false,
+    "is_elite": false,
+    "is_rare": false,
+    "is_common": true,
+    "is_uncommon": false,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "loot_table": {
+    "gold": {
+      "min": 10,
+      "max": 50
+    },
+    "items": [
+      {
+        "item_id": "wheat_bundle",
+        "chance": 0.5,
+        "min_quantity": 1,
+        "max_quantity": 3
+      },
+      {
+        "item_id": "farming_tool",
+        "chance": 0.3,
+        "min_quantity": 1,
+        "max_quantity": 1
+      },
+      {
+        "item_id": "fresh_vegetables",
+        "chance": 0.4,
+        "min_quantity": 1,
+        "max_quantity": 2
+      }
+    ]
+  },
+  "ai_behavior": {
+    "wander_chance": 0.08,
+    "wander_range": 10.0,
+    "max_targets": 1,
+    "combat_style": "passive",
+    "preferred_attack": "pitchfork_jab",
+    "patrol_route": [
+      "field",
+      "barn",
+      "house",
+      "field"
+    ],
+    "response_to_crime": "flee_and_call_neighbors",
+    "ally_detection": "farmers"
+  },
+  "abilities": [
+    "farming",
+    "animal_husbandry",
+    "crop_growth",
+    "harvesting",
+    "weather_prediction"
+  ],
+  "dialogue": {
+    "greetings": [
+      "Good day to you! Fine weather for farming, isn't it?",
+      "Welcome to my farm! Care to see my crops?",
+      "The soil is rich here - perfect for growing."
+    ],
+    "farewells": [
+      "Safe travels! May your harvests be plentiful.",
+      "Come back when the season changes.",
+      "The land takes care of those who care for it."
+    ],
+    "seasonal_talk": [
+      "Spring planting time is approaching fast.",
+      "Summer heat is good for my wheat, bad for me!",
+      "Fall harvest is the busiest time of year.",
+      "Winter is when I plan for next year's crops."
+    ],
+    "farming_advice": [
+      "Always rotate your crops - good for the soil.",
+      "Weather patterns change, but good earth remains.",
+      "Take care of the land, and it'll take care of you."
+    ],
+    "weather_talk": [
+      "Looks like rain by evening - better cover the hay.",
+      "Clear skies mean good growing weather tomorrow.",
+      "Those clouds bring good soil-soaking rain."
+    ]
+  },
+  "shop_inventory": {
+    "crops": [
+      "wheat",
+      "corn",
+      "potatoes",
+      "carrots",
+      "onions",
+      "tomatoes",
+      "cabbage",
+      "beets",
+      "turnips"
+    ],
+    "animal_products": [
+      "milk",
+      "cheese",
+      "eggs",
+      "wool",
+      "hides",
+      "fresh_meat",
+      "chicken",
+      "lamb"
+    ],
+    "seeds": [
+      "wheat_seeds",
+      "corn_seeds",
+      "vegetable_seeds",
+      "flower_seeds",
+      "herb_seeds",
+      "fruit_tree_seeds"
+    ],
+    "tools": [
+      "hoe",
+      "pitchfork",
+      "shovel",
+      "watering_can",
+      "farming_clothes",
+      "work_gloves"
+    ]
+  },
+  "services": {
+    "buy_items": true,
+    "sell_items": true,
+    "repair_equipment": false,
+    "identify_items": false,
+    "appraisal_service": false,
+    "custom_crafting": false,
+    "farming_advice": true,
+    "seasonal_information": true,
+    "weather_updates": true,
+    "crop_trading": true
+  },
+  "schedule": {
+    "day": {
+      "05:00": "morning_milking",
+      "06:00": "breakfast",
+      "07:00": "field_work",
+      "10:00": "crop_maintenance",
+      "12:00": "lunch",
+      "13:00": "afternoon_harvesting",
+      "15:00": "animal_care",
+      "17:00": "market_prep",
+      "18:00": "evening_milking"
+    },
+    "night": {
+      "18:00": "dinner",
+      "19:00": "evening_chores",
+      "20:00": "rest",
+      "04:00": "early_morning_prep"
+    }
+  },
+  "resistances": {
+    "physical": 0.1,
+    "fire": 0.0,
+    "ice": 0.0,
+    "lightning": 0.0,
+    "poison": 0.1
+  },
+  "weaknesses": [
+    "lightning"
+  ],
+  "version": "0.1.0",
+  "template_type": "npc"
+}

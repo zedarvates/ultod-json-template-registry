@@ -1,0 +1,46 @@
+{
+  "id": "alchemist_simple",
+  "name": "Alchemist",
+  "description": "Brewers of powerful potions and masters of volatile concoctions.",
+  "base_stats": {
+    "strength": 10,
+    "dexterity": 15,
+    "constitution": 12,
+    "intelligence": 22,
+    "wisdom": 18,
+    "charisma": 10
+  },
+  "specializations": [
+    {
+      "id": "mutation",
+      "name": "Mutation",
+      "description": "Focuses on self-buffing and biological manipulation.",
+      "talents": [
+        "acidic_blood",
+        "quick_throw"
+      ],
+      "abilities": [
+        "brew_elixir",
+        "throw_flask"
+      ]
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": "chem_lab",
+            "name": "Chemistry Expert",
+            "description": "Potions are 20% more effective per rank.",
+            "max_rank": 5,
+            "prerequisites": []
+          }
+        ]
+      }
+    ]
+  },
+  "template_type": "class",
+  "version": "0.1.0"
+}

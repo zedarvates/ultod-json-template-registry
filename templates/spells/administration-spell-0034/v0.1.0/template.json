@@ -1,0 +1,53 @@
+{
+  "id": "administration_spell_0034",
+  "name": "Administration Spell 0034",
+  "description": "[ADMIN ONLY] Instantly administration_spell_0034/immobilize any player temporarily preventing all actions",
+  "icon": "admin_administration_spell_0034_icon",
+  "school": "administration",
+  "rarity": "epic",
+  "spell_type": "player_management",
+  "target_type": "player_target",
+  "range": 1000.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "administrative_immobilization"
+  },
+  "effects": [
+    {
+      "effect_type": "player_administration_spell_0034_instant_immobilization",
+      "value": 1,
+      "duration": 300000,
+      "tick_rate": 0,
+      "complete_action_prevention": true,
+      "movement_locked": true,
+      "spell_chat_disabled": true,
+      "visual_freeze_effect": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "administration_spell_0034_energy_beam_target_impact",
+    "freeze_effect": "player_frozen_blue_ice_crystal_encasing",
+    "duration_effect": "animated_frozen_state_admin_monitoring",
+    "release_effect": "ice_shattering_freed_player_return"
+  },
+  "sound_effects": {
+    "cast_effect": "administration_spell_0034_energy_beam_charge_cold_power",
+    "freeze_effect": "ice_crystal_encasement_crunching_administration_spell_0034",
+    "duration_effect": "frozen_state_hum_admin_containment",
+    "release_effect": "ice_shattering_crack_unfrozen_normal"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "gamemaster",
+      "overseer",
+      "celestial_avatar"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

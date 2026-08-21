@@ -1,0 +1,50 @@
+{
+  "id": "evocation_spell_1522",
+  "name": "Evocation Spell 1522",
+  "description": "Un Evocation Spell 1522 glacial inflige des dégâts et peut geler les cibles",
+  "icon": "evocation_spell_1522_icon",
+  "school": "evocation",
+  "rarity": "epic",
+  "spell_type": "area_damage",
+  "target_type": "evocation_spell_1522",
+  "range": 18.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 90,
+  "damage": {
+    "base_damage": 72,
+    "damage_type": "cold",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "cold_evocation_spell_1522",
+      "value": 72,
+      "duration": 0,
+      "tick_rate": 0,
+      "dexterity_save": true,
+      "save_dc": 16
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ice_burst",
+    "area_effect": "frozen_wave"
+  },
+  "sound_effects": {
+    "cast_sound": "wind_howl"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "warlock",
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

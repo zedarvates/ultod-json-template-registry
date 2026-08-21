@@ -1,0 +1,97 @@
+{
+  "id": "ranger_basel_power",
+  "name": "Basel Power",
+  "class": "Ranger",
+  "type_principal": "buff",
+  "sous_types": [
+    "party_buff"
+  ],
+  "description": "Increases damage for the caster and nearby party members",
+  "icon": "basel_power_icon",
+  "base_damage": 0,
+  "damage_multiplier": 1.0,
+  "critical_chance": 0.0,
+  "critical_multiplier": 1.0,
+  "super_armor_break": 0,
+  "resource_cost": {},
+  "cast_time": 0,
+  "cooldown": 120,
+  "range": 40,
+  "targeting": {
+    "type_cible": "party",
+    "max_cibles": 4,
+    "zone": {
+      "shape": "circle",
+      "radius": 40
+    },
+    "conditions_ciblage": []
+  },
+  "effects": [
+    {
+      "type": "buff",
+      "value": 200,
+      "duration": 14,
+      "scaling": {},
+      "damage_type": "physical"
+    }
+  ],
+  "specializations": [
+    {
+      "id": "increased_damage",
+      "name": "Power Surge",
+      "description": "Increases the damage bonus",
+      "conditions": {
+        "level": 20
+      },
+      "modifications": {
+        "effects": [
+          {
+            "operation": "modify",
+            "effect": {
+              "type": "buff",
+              "value": 250
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "longer_duration",
+      "name": "Extended Power",
+      "description": "Increases buff duration",
+      "conditions": {
+        "level": 25
+      },
+      "modifications": {
+        "effects": [
+          {
+            "operation": "modify",
+            "effect": {
+              "type": "buff",
+              "duration": 18
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ranger_cast_glow",
+    "buff_effect": "power_buff_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "power_buff_cast",
+    "buff_sound": "power_buff_active"
+  },
+  "balancing": {
+    "pvp_multipliers": {
+      "cooldown": 1.1
+    },
+    "pve_multipliers": {
+      "cooldown": 1.0
+    }
+  },
+  "version": "0.1.0",
+  "last_updated": "2025-11-21T14:17:15Z",
+  "template_type": "skill"
+}

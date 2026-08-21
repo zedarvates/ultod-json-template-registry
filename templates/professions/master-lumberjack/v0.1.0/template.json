@@ -1,0 +1,470 @@
+{
+  "profession_id": "master_lumberjack",
+  "name": "Master Lumberjack",
+  "display_name": "Maître Bûcheron",
+  "description": "Maîtrise ultime de l'abattage et du traitement du bois légendaire",
+  "base_skill": "lumberjacking",
+  "tier": "master",
+  "skill_requirement": 65,
+  "experience_requirement": 30000,
+  "icon": "profession_lumberjacking_master",
+  "category": "gathering",
+  "subcategory": "wood_harvesting",
+  "skill_progression": {
+    "formula": "lumberjacking_level * (1 + 0.09 * mastery_tier + 0.05 * specialization_level)",
+    "mastery_levels": [
+      "apprentice",
+      "journeyman",
+      "expert",
+      "master"
+    ],
+    "tier_requirements": {
+      "apprentice": {
+        "level": 1,
+        "talent_points": 0
+      },
+      "journeyman": {
+        "level": 20,
+        "talent_points": 3
+      },
+      "expert": {
+        "level": 40,
+        "talent_points": 7
+      },
+      "master": {
+        "level": 60,
+        "talent_points": 11
+      }
+    },
+    "practice_benefits": {
+      "harvesting_speed": 0.11,
+      "wood_quality": 0.07,
+      "success_rate": 0.09,
+      "discovery_chance": 0.05
+    },
+    "decay_mechanic": {
+      "enabled": true,
+      "rate": 0.003,
+      "minimum_level": 15,
+      "recovery_rate": 0.008
+    }
+  },
+  "talent_tree": {
+    "total_points": 14,
+    "branches": {
+      "axe_mastery": {
+        "name": "Maîtrise de la Hache",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Coups Précis",
+            "max_rank": 2,
+            "effects": {
+              "harvesting_speed": 0.14,
+              "wood_quality": 0.11,
+              "success_rate": 0.08
+            },
+            "prerequisites": [],
+            "description": "Techniques précises d'abattage"
+          },
+          {
+            "name": "Hache Légendaire",
+            "max_rank": 2,
+            "effects": {
+              "damage_bonus": 0.18,
+              "tree_felling": 0.15,
+              "rare_wood_chance": 0.12
+            },
+            "prerequisites": [
+              "Coups Précis_1"
+            ],
+            "description": "Maîtrise d'une hache légendaire"
+          }
+        ]
+      },
+      "wood_lore": {
+        "name": "Connaissance du Bois",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Identification des Bois",
+            "max_rank": 2,
+            "effects": {
+              "wood_identification": true,
+              "quality_assessment": 0.16,
+              "rare_wood_detection": 0.13
+            },
+            "prerequisites": [],
+            "description": "Capacité à identifier les bois rares"
+          },
+          {
+            "name": "Récolte Sélective",
+            "max_rank": 2,
+            "effects": {
+              "selective_harvesting": true,
+              "preservation_bonus": 0.2,
+              "regrowth_acceleration": 0.15
+            },
+            "prerequisites": [
+              "Identification des Bois_2"
+            ],
+            "description": "Récolte respectueuse de l'environnement"
+          }
+        ]
+      },
+      "forest_mastery": {
+        "name": "Maîtrise Forestière",
+        "max_points": 3,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Communication Sylvestre",
+            "max_rank": 1,
+            "effects": {
+              "tree_communication": true,
+              "forest_navigation": 0.25,
+              "animal_friendship": 0.2
+            },
+            "prerequisites": [],
+            "description": "Communication avec les arbres et la forêt"
+          },
+          {
+            "name": "Gardien des Bois",
+            "max_rank": 1,
+            "effects": {
+              "forest_protection": true,
+              "regeneration_aura": true,
+              "nature_blessing": 0.3
+            },
+            "prerequisites": [
+              "Communication Sylvestre"
+            ],
+            "description": "Protection et régénération des forêts"
+          },
+          {
+            "name": "Druide des Arbres",
+            "max_rank": 1,
+            "effects": {
+              "tree_summoning": true,
+              "wood_elemental": true,
+              "legendary_wood": true
+            },
+            "prerequisites": [
+              "Gardien des Bois"
+            ],
+            "description": "Pouvoirs druidiques sur les arbres"
+          }
+        ]
+      },
+      "wood_processing": {
+        "name": "Traitement du Bois",
+        "max_points": 3,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Sciage Expert",
+            "max_rank": 1,
+            "effects": {
+              "processing_speed": 0.22,
+              "waste_reduction": 0.18,
+              "quality_preservation": 0.15
+            },
+            "prerequisites": [],
+            "description": "Techniques expertes de traitement du bois"
+          },
+          {
+            "name": "Artisan du Bois",
+            "max_rank": 1,
+            "effects": {
+              "wood_crafting": true,
+              "furniture_creation": true,
+              "architectural_design": 0.25
+            },
+            "prerequisites": [
+              "Sciage Expert"
+            ],
+            "description": "Création d'objets en bois de qualité"
+          },
+          {
+            "name": "Maître Ébéniste",
+            "max_rank": 1,
+            "effects": {
+              "legendary_furniture": true,
+              "magical_woodworking": true,
+              "masterwork_creation": true
+            },
+            "prerequisites": [
+              "Artisan du Bois"
+            ],
+            "description": "Maîtrise de l'ébénisterie légendaire"
+          }
+        ]
+      }
+    }
+  },
+  "specialization_paths": {
+    "forest_guardian": {
+      "name": "Gardien des Forêts",
+      "requirements": {
+        "lumberjacking_level": 32,
+        "forest_mastery_points": 3,
+        "completed_quests": 2
+      },
+      "bonuses": {
+        "wood_quality": 18.0,
+        "harvesting_speed": 14.0,
+        "rare_wood_chance": 10.0,
+        "forest_navigation": 0.28,
+        "regeneration_aura": 0.22
+      },
+      "unlock_recipes": [
+        "bois_sacre",
+        "essence_vivante",
+        "bois_regenerant",
+        "bois_protege"
+      ],
+      "unlock_abilities": [
+        "communication_arbre",
+        "protection_forestiere",
+        "regeneration_naturelle"
+      ],
+      "synergies": {
+        "druid": {
+          "multiplier": 1.5,
+          "effects": [
+            "nature_harmony",
+            "forest_blessing"
+          ]
+        },
+        "ranger": {
+          "multiplier": 1.3,
+          "effects": [
+            "woodland_survival",
+            "animal_communication"
+          ]
+        }
+      }
+    },
+    "wood_craftsman": {
+      "name": "Artisan du Bois",
+      "requirements": {
+        "lumberjacking_level": 35,
+        "wood_processing_points": 3,
+        "completed_quests": 2
+      },
+      "bonuses": {
+        "processing_speed": 20.0,
+        "waste_reduction": 18.0,
+        "quality_preservation": 15.0,
+        "wood_crafting": 25.0,
+        "furniture_creation": 0.3
+      },
+      "unlock_recipes": [
+        "meuble_fantastique",
+        "objet_magique",
+        "construction_legere",
+        "artisanat_fine"
+      ],
+      "unlock_abilities": [
+        "traitement_expert",
+        "creation_artisanale",
+        "design_architectural"
+      ],
+      "synergies": {
+        "woodworker": {
+          "multiplier": 1.6,
+          "effects": [
+            "material_quality",
+            "crafting_synergy"
+          ]
+        },
+        "blacksmith": {
+          "multiplier": 1.2,
+          "effects": [
+            "wood_metal_combine",
+            "construction_bonus"
+          ]
+        }
+      }
+    },
+    "legendary_lumberjack": {
+      "name": "Bûcheron Légendaire",
+      "requirements": {
+        "lumberjacking_level": 58,
+        "completed_specializations": 2,
+        "master_achievements": 2
+      },
+      "bonuses": {
+        "legendary_wood": 45.0,
+        "tree_summoning": 40.0,
+        "wood_elemental": 35.0,
+        "masterwork_creation": 30.0,
+        "nature_blessing": 0.5
+      },
+      "unlock_recipes": [
+        "bois_divin",
+        "arbre_elementaire",
+        "meuble_celeste",
+        "creation_legendaire"
+      ],
+      "unlock_abilities": [
+        "invocation_arbre",
+        "elemental_bois",
+        "benediction_nature",
+        "creation_maitre"
+      ],
+      "synergies": {
+        "druid": {
+          "multiplier": 1.8,
+          "effects": [
+            "legendary_nature",
+            "divine_harmony"
+          ]
+        },
+        "woodworker": {
+          "multiplier": 1.7,
+          "effects": [
+            "legendary_crafting",
+            "masterwork_synergy"
+          ]
+        }
+      }
+    }
+  },
+  "abilities": [
+    "master_lumberjacking",
+    "axe_enhancement",
+    "wood_identification",
+    "forest_communication",
+    "tree_summoning",
+    "wood_processing",
+    "furniture_crafting",
+    "nature_blessing"
+  ],
+  "quests": [
+    {
+      "id": "lumberjack_apprentice",
+      "name": "L'Apprenti Bûcheron",
+      "requirements": {
+        "lumberjacking_level": 1,
+        "chop_trees": 25,
+        "gather_wood": 75,
+        "identify_woods": 10
+      },
+      "rewards": [
+        "basic_lumberjacking_kit",
+        "apprentice_talent_points",
+        "basic_wood_recipes"
+      ]
+    },
+    {
+      "id": "lumberjack_journeyman",
+      "name": "Le Bûcheron Voyageur",
+      "requirements": {
+        "lumberjacking_level": 20,
+        "chop_trees": 150,
+        "gather_wood": 500,
+        "find_rare_woods": 8,
+        "discover_recipes": 2
+      },
+      "rewards": [
+        "journeyman_lumberjacking_kit",
+        "journeyman_talent_points",
+        "advanced_wood_recipes"
+      ]
+    },
+    {
+      "id": "lumberjack_master",
+      "name": "Le Maître des Bois",
+      "requirements": {
+        "lumberjacking_level": 60,
+        "chop_trees": 800,
+        "gather_wood": 3000,
+        "legendary_woods": 15,
+        "master_achievements": 2
+      },
+      "rewards": [
+        "master_lumberjacking_kit",
+        "master_talent_points",
+        "legendary_wood_recipes",
+        "forest_mastery_abilities"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "first_tree",
+      "name": "Premier Arbre",
+      "requirement": {
+        "chop_trees": 1
+      },
+      "rewards": [
+        "basic_wood_recipe",
+        "3_copper_coins"
+      ]
+    },
+    {
+      "id": "rare_wood_finder",
+      "name": "Chercheur de Bois Rare",
+      "requirement": {
+        "find_rare_woods": 25
+      },
+      "rewards": [
+        "wood_identification",
+        "150_silver_coins",
+        "rare_wood_bonus"
+      ]
+    },
+    {
+      "id": "forest_legend",
+      "name": "Légende des Forêts",
+      "requirement": {
+        "legendary_woods": 20
+      },
+      "rewards": [
+        "legendary_lumberjack",
+        "6000_gold_coins",
+        "market_reputation",
+        "forest_guardian_title"
+      ]
+    }
+  ],
+  "market_integration": {
+    "quality_multipliers": {
+      "common": 1.0,
+      "fine": 1.5,
+      "superior": 2.0,
+      "exquisite": 3.0,
+      "masterwork": 5.0,
+      "legendary": 10.0,
+      "mythic": 20.0
+    },
+    "reputation_bonuses": {
+      "local_lumberjack": 1.0,
+      "town_woodcutter": 1.2,
+      "regional_harvester": 1.4,
+      "national_master": 1.8,
+      "world_famous": 2.5
+    },
+    "supply_demand": {
+      "common_wood": {
+        "volatility": 0.1,
+        "trend": "steady_supply"
+      },
+      "rare_wood": {
+        "volatility": 0.2,
+        "trend": "high_demand"
+      },
+      "legendary_wood": {
+        "volatility": 0.3,
+        "trend": "rare_supply"
+      }
+    }
+  },
+  "enabled": true,
+  "id": "master_lumberjack",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

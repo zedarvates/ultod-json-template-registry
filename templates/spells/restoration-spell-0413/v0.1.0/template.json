@@ -1,0 +1,83 @@
+{
+  "id": "restoration_spell_0413",
+  "name": "Restoration Spell 0413",
+  "description": "A powerful healing spell that restores health instantly and continues healing over time",
+  "icon": "restoration_spell_0413_icon",
+  "school": "restoration",
+  "rarity": "uncommon",
+  "spell_type": "hybrid_healing",
+  "target_type": "single_ally",
+  "range": 40.0,
+  "cast_time": 2000,
+  "cooldown": 0,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "growth_restoration",
+    "scaling": {
+      "wisdom": 2.0,
+      "restoration_power": 1.4
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "instant_then_hot_healing",
+      "value": 350,
+      "duration": 21000,
+      "tick_rate": 3000,
+      "instant_healing_burst": 200,
+      "regrowth_hot_strength": 50,
+      "hot_tick_count": 7,
+      "critical_heal_chance": 0.3,
+      "total_healing_potential": 550,
+      "swiftmend_convertible": true,
+      "nature_glow_trail": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "green_energy_gathering_burst_of_growth",
+    "instant_effect": "bright_green_immediate_healing_flash",
+    "hot_effect": "leaves_and_vines_growing_over_time",
+    "critical_effect": "golden_nature_energy_critical_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "nature_energy_intense_concentration_build",
+    "instant_effect": "powerful_healing_energy_release_surge",
+    "hot_effect": "gentle_vine_growth_creaking_healing",
+    "critical_effect": "majestic_nature_power_critical_chime"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "restoration",
+      "growth_healing"
+    ],
+    "classes": [
+      "druid",
+      "nature_healer"
+    ],
+    "specializations": [
+      "healing_growth"
+    ]
+  },
+  "upgrades": {
+    "nourish_healing": {
+      "unlock_level": 22,
+      "description": "restoration_spell_0413 nourrit l'allié, intensifiant considérablement la guérison",
+      "nourish_instant_boost": 150,
+      "hot_strength_increase": 30,
+      "cleansing_healing": 0.4,
+      "empower_duration": 5000
+    },
+    "living_seed": {
+      "unlock_level": 32,
+      "description": "restoration_spell_0413 génère une graine de vie qui éclot avec une puissante énergie",
+      "seed_burst_heal": 400,
+      "seed_proc_chance": 0.5,
+      "growth_acceleration": 2.0,
+      "linked_life_force": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

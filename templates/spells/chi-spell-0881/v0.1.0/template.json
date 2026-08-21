@@ -1,0 +1,73 @@
+{
+  "id": "chi_spell_0881",
+  "name": "Chi Spell 0881",
+  "description": "Envoie une onde d'énergie chi qui soigne les alliés et endommage les ennemis sur son chemin",
+  "icon": "chi_spell_0881_icon",
+  "school": "chi",
+  "rarity": "uncommon",
+  "spell_type": "chi_healing_damage_wave",
+  "target_type": "target_or_direction_chi_spell_0881",
+  "range": 45.0,
+  "cast_time": 1000,
+  "cooldown": 12000,
+  "mana_cost": 75,
+  "damage": {
+    "base_damage": 160,
+    "damage_type": "dual_purpose_chi_energy"
+  },
+  "effects": [
+    {
+      "effect_type": "healing_damage_chi_wave",
+      "value": 200,
+      "duration": 0,
+      "tick_rate": 0,
+      "burst_wave_length": 25.0,
+      "burst_wave_width": 8.0,
+      "damage_to_enemies": 140,
+      "healing_to_allies": 120,
+      "wave_travel_speed": 35.0,
+      "maximum_targets_hit": 10,
+      "chi_energy_jump_allies": 40
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "chi_energy_gathering_exploding_chi_spell_0881_ready_launch",
+    "wave_effect": "golden_chi_wave_traveling_damage_targets_red_sparks_heal_allies_green",
+    "impact_effect": "enemies_red_chi_spell_0881_damage_allies_golden_healing_radiance",
+    "residual_effect": "chi_afterwave_lingering_healing_small_aura_glowing"
+  },
+  "sound_effects": {
+    "cast_effect": "chi_spell_0881_gathering_explosion_building_energy_release",
+    "wave_effect": "chi_wave_rushing_whoosh_damage_impact_sizzle_healing_ping",
+    "impact_effect": "chi_spell_0881_impact_explosion_damage_pained_enemy_healing_soothing_ally",
+    "residual_effect": "lingering_chi_healing_tones_fading_harmonic_chord"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "chi_manipulation",
+      "chi_spell_0881_technique",
+      "dual_energy"
+    ],
+    "classes": [
+      "monk",
+      "energy_manipulator",
+      "mist_weaver"
+    ],
+    "specializations": [
+      "chi_spell_0881_master"
+    ]
+  },
+  "upgrades": {
+    "greater_chi_burst": {
+      "unlock_level": 30,
+      "description": "L'Chi Spell 0881 devient plus puissante avec des effets directs améliorés",
+      "burst_damage_increase_percent": 80,
+      "burst_healing_increase_percent": 90,
+      "burst_range_extension": 15.0,
+      "chi_energy_bounce_chain": 3
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

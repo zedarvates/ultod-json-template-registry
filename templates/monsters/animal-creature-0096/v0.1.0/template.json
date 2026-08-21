@@ -1,0 +1,53 @@
+{
+  "id": "animal_creature_0096",
+  "name": "Animal Creature 0096",
+  "description": "Félin domestique indépendant et agile, excellent chasseur de rongeurs",
+  "icon": "animal_creature_0096_icon",
+  "category": "animal",
+  "rarity": "common",
+  "base_stats": {
+    "health": 40,
+    "mana": 18,
+    "strength": 8,
+    "dexterity": 18,
+    "intelligence": 10,
+    "wisdom": 12,
+    "constitution": 12,
+    "charisma": 16
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_wild": false,
+    "size": "small",
+    "speed": 8.0
+  },
+  "loot_table": {
+    "common_drops": [],
+    "rare_drops": [
+      "animal_creature_0096_fur"
+    ],
+    "epic_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "low",
+    "attack_pattern": "ambush",
+    "special_abilities": [
+      "pounce",
+      "climb",
+      "hunt_rats"
+    ]
+  },
+  "abilities": [
+    "scratch",
+    "pounce"
+  ],
+  "resistances": {
+    "physical": 10
+  },
+  "weaknesses": [
+    "dogs",
+    "large_predators"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

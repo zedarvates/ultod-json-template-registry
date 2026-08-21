@@ -1,0 +1,103 @@
+{
+  "id": "illusion_spell_0096",
+  "name": "Illusion Spell 0096",
+  "description": "Le barde porte des écouteurs illusion_spell_0096 qui surchargent l'audio numérique et brouillent les ennemis avec du bruit électronique",
+  "icon": "illusion_spell_0096_icon",
+  "school": "illusion",
+  "rarity": "rare",
+  "spell_type": "electronic_warfare",
+  "target_type": "area_enemy",
+  "range": 55.0,
+  "cast_time": 2500,
+  "cooldown": 25000,
+  "mana_cost": 85,
+  "damage": {
+    "base_damage": 175,
+    "damage_type": "digital_psyche",
+    "scaling": {
+      "charisma": 1.3,
+      "intelligence": 1.4
+    },
+    "aoe_range": 25.0
+  },
+  "effects": [
+    {
+      "effect_type": "digital_feedback_damage",
+      "value": 175,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_range": 25.0,
+      "feedback_pulses": 5,
+      "pulse_damage": 175,
+      "max_targets": 8
+    },
+    {
+      "effect_type": "electronic_confusion",
+      "value": 80,
+      "duration": 12000,
+      "tick_rate": 3000,
+      "aoe_range": 25.0,
+      "random_targeting": true,
+      "ability_disruption": 0.4,
+      "max_targets": 6
+    },
+    {
+      "effect_type": "headphone_emanation",
+      "value": 60,
+      "duration": 8000,
+      "tick_rate": 2000,
+      "sound_wave_pulses": 4,
+      "disorientation_proc": 0.6,
+      "vision_blur": 0.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "headphone_electronic_burst",
+    "overload_effect": "digital_glitch_waves",
+    "feedback_effect": "color_distortion_rings",
+    "sound_effect": "floating_sound_waves"
+  },
+  "sound_effects": {
+    "cast_sound": "headphone_static_pop",
+    "overload_sound": "digital_feedback_screech",
+    "wave_sound": "electronic_distortion_pulses",
+    "field_sound": "illusion_spell_0096_white_noise_loop"
+  },
+  "requirements": {
+    "level": 30,
+    "skills": [
+      "performance",
+      "illusion",
+      "electronic_warfare",
+      "digital_magic"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour",
+      "illusion_spell_0096mancer"
+    ],
+    "specializations": [
+      "dj_specialist",
+      "electronic_warrior"
+    ]
+  },
+  "upgrades": {
+    "overdrive_distortion": {
+      "unlock_level": 40,
+      "description": "Augmente la surcharge et brouille plus efficacement les ennemis",
+      "feedback_pulses_bonus": 3,
+      "ability_disruption_bonus": 0.3,
+      "disorientation_proc_bonus": 0.2
+    },
+    "quantum_echo_feedback": {
+      "unlock_level": 50,
+      "description": "Les pulses rebondissent et augmentent leurs effets",
+      "pulse_echo_count": 2,
+      "echo_damage_bonus": 100,
+      "aoe_range_bonus": 15.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

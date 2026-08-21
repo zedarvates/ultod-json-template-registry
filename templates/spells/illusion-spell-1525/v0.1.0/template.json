@@ -1,0 +1,49 @@
+{
+  "id": "illusion_spell_1525",
+  "name": "Illusion Spell 1525",
+  "description": "Effraie les créatures dans un cône de 9 mètres",
+  "icon": "illusion_spell_1525_icon",
+  "school": "illusion",
+  "rarity": "rare",
+  "spell_type": "control",
+  "target_type": "cone",
+  "range": 9.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 9.0
+  },
+  "effects": [
+    {
+      "effect_type": "illusion_spell_1525",
+      "value": 0,
+      "duration": 60000,
+      "tick_rate": 0,
+      "wisdom_save": true,
+      "save_dc": 15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "terror_wave"
+  },
+  "sound_effects": {
+    "cast_sound": "scream"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "illusion"
+    ],
+    "classes": [
+      "warlock",
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

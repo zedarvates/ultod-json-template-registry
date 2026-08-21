@@ -1,0 +1,346 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Skill Template Schema",
+  "description": "Schema for skill templates",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "icon",
+    "category",
+    "subcategory",
+    "max_level",
+    "level_requirements",
+    "xp_sources",
+    "level_bonuses",
+    "template_type",
+    "version"
+  ],
+  "properties": {
+    "template_type": {
+      "type": "string",
+      "enum": [
+        "skill"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 500
+    },
+    "icon": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "combat",
+        "magic_mastery",
+        "crafting",
+        "gathering",
+        "social",
+        "stealth",
+        "survival",
+        "leadership",
+        "trade",
+        "knowledge"
+      ]
+    },
+    "subcategory": {
+      "type": "string",
+      "enum": [
+        "melee",
+        "ranged",
+        "spellcasting",
+        "elemental",
+        "summoning",
+        "blacksmithing",
+        "alchemy",
+        "tailoring",
+        "mining",
+        "herbalism",
+        "cooking",
+        "diplomacy",
+        "intimidation",
+        "stealth_movement",
+        "tracking",
+        "command",
+        "merchant",
+        "arcana",
+        "history"
+      ]
+    },
+    "max_level": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 100
+    },
+    "level_requirements": {
+      "type": "object",
+      "patternProperties": {
+        "^\\d+$": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10000000
+        }
+      }
+    },
+    "xp_sources": {
+      "type": "object",
+      "properties": {
+        "spell_casts": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "spell_kills": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10000
+        },
+        "spell_criticals": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "mana_usage": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "spell_combinations": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "crafting_success": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "gathering_attempts": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "combat_kills": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000
+        },
+        "social_interactions": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "successful_trades": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 500
+        }
+      }
+    },
+    "level_bonuses": {
+      "type": "object",
+      "properties": {
+        "spell_damage": {
+          "type": "object",
+          "properties": {
+            "base_value": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "per_level": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 10
+            }
+          }
+        },
+        "mana_efficiency": {
+          "type": "object",
+          "properties": {
+            "base_value": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 50
+            },
+            "per_level": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 5
+            }
+          }
+        },
+        "spell_critical_chance": {
+          "type": "object",
+          "properties": {
+            "base_value": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 50
+            },
+            "per_level": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 5
+            }
+          }
+        },
+        "cast_speed": {
+          "type": "object",
+          "properties": {
+            "base_value": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 50
+            },
+            "per_level": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 5
+            }
+          }
+        },
+        "crafting_quality": {
+          "type": "object",
+          "properties": {
+            "base_value": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "per_level": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 10
+            }
+          }
+        },
+        "gathering_yield": {
+          "type": "object",
+          "properties": {
+            "base_value": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "per_level": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 10
+            }
+          }
+        },
+        "combat_accuracy": {
+          "type": "object",
+          "properties": {
+            "base_value": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 50
+            },
+            "per_level": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 5
+            }
+          }
+        },
+        "stealth_effectiveness": {
+          "type": "object",
+          "properties": {
+            "base_value": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 50
+            },
+            "per_level": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 5
+            }
+          }
+        }
+      }
+    },
+    "specializations": {
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "type": "object",
+          "properties": {
+            "unlock_level": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100
+            },
+            "description": {
+              "type": "string",
+              "minLength": 10,
+              "maxLength": 200
+            },
+            "bonuses": {
+              "type": "object",
+              "patternProperties": {
+                ".*": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 100
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "unlocked_recipes": {
+      "type": "object",
+      "patternProperties": {
+        "^\\d+$": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "lineage_synergies": {
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "type": "object",
+          "patternProperties": {
+            ".*": {
+              "type": "number",
+              "minimum": 0.1,
+              "maximum": 3.0
+            }
+          }
+        }
+      }
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "id": "skill_schema"
+}

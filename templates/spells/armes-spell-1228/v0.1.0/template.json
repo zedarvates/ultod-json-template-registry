@@ -1,0 +1,70 @@
+{
+  "id": "armes_spell_1228",
+  "name": "Armes Spell 1228",
+  "description": "Une attaque précise qui ne peut être esquivée",
+  "icon": "armes_spell_1228_icon",
+  "school": "armes",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 500,
+  "cooldown": 12000,
+  "mana_cost": 12,
+  "damage": {
+    "base_damage": 130,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 0.6,
+      "intelligence": 0.4
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 130,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "hit_guaranteed",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "aim_strike",
+    "projectile_effect": "none",
+    "impact_effect": "perfect_cut",
+    "trail_effect": "accuracy_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "focus_wind",
+    "impact_sound": "perfect_strike"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "surgical_precision": {
+      "unlock_level": 13,
+      "description": "Augmente les chances d'effet garanti de 20%",
+      "guarantee_bonus": 20
+    },
+    "death_from_above": {
+      "unlock_level": 25,
+      "description": "Ajoute 25% de dégâts d'exécution",
+      "execution_bonus": 25
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "lightning_spell_1604",
+  "name": "Lightning Spell 1604",
+  "description": "Invoque un puissant lightning_spell_1604 Spell 1604 du ciel pour frapper l'ennemi",
+  "icon": "lightning_spell_1604_spell_1604_icon",
+  "school": "lightning_spell_1604",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "single_target",
+  "range": 30.0,
+  "cast_time": 2000,
+  "cooldown": 8000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "lightning_spell_1604",
+    "scaling": {
+      "intelligence": 0.8,
+      "wisdom": 0.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage",
+      "value": 120,
+      "duration": 0,
+      "tick_rate": 0
+    },
+    {
+      "effect_type": "stun",
+      "value": 0,
+      "duration": 1500,
+      "tick_rate": 0,
+      "proc_chance": 0.25
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "lightning_spell_1604_charge",
+    "impact_effect": "lightning_spell_1604_strike",
+    "trail_effect": "electric_arc"
+  },
+  "sound_effects": {
+    "cast_sound": "lightning_spell_1604_charge",
+    "impact_sound": "thunder_clap"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "wizard",
+      "mage",
+      "shaman",
+      "druid"
+    ],
+    "items": []
+  },
+  "upgrades": {
+    "chain_lightning": {
+      "unlock_level": 15,
+      "description": "L'lightning_spell_1604 Spell 1604 peut rebondir sur plusieurs cibles",
+      "jump_targets": 3,
+      "damage_reduction": 0.6
+    },
+    "storm_caller": {
+      "unlock_level": 25,
+      "description": "Invoque un orage local pour les prochains sorts",
+      "storm_duration": 10000,
+      "lightning_bonus": 25
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

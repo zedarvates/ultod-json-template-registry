@@ -1,0 +1,63 @@
+{
+  "id": "invocation_spell_1222",
+  "name": "Invocation Spell 1222",
+  "description": "Défie un ennemi en duel invocation_spell_1222, forçant ses attaques vers vous",
+  "icon": "invocation_spell_1222_icon",
+  "school": "invocation",
+  "rarity": "uncommon",
+  "spell_type": "debuff",
+  "target_type": "single",
+  "range": 15.0,
+  "cast_time": 2000,
+  "cooldown": 60000,
+  "mana_cost": 25,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "taunt_debuff",
+      "value": 0,
+      "duration": 15000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "combat_discipline",
+      "value": 10,
+      "duration": 15000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "duel_challenge",
+    "projectile_effect": "none",
+    "impact_effect": "honor_bond",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "duel_cry",
+    "impact_sound": "challenge_accepted"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "noble_challenge": {
+      "unlock_level": 18,
+      "description": "Augmente la durée du duel de 50%",
+      "duration_bonus": 7500
+    },
+    "ruthless_honor": {
+      "unlock_level": 32,
+      "description": "Réduit le cooldown de 25%",
+      "cooldown_reduction": 15000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

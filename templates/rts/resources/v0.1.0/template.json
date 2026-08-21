@@ -1,0 +1,661 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-11-14",
+    "description": "RTS Resource Templates - Resource definitions, economics, and management systems for the hybrid MMORPG-RTS",
+    "author": "UOVR Development Team",
+    "category": "RTS Systems",
+    "dependencies": [
+      "buildings",
+      "terrain",
+      "technologies"
+    ]
+  },
+  "resource_categories": {
+    "basic_resources": {
+      "description": "Common resources used for basic construction and sustenance",
+      "color_code": "#8BC34A",
+      "renewable": false,
+      "base_value": 1
+    },
+    "strategic_resources": {
+      "description": "Rare resources required for advanced buildings and technologies",
+      "color_code": "#FFC107",
+      "renewable": false,
+      "base_value": 10
+    },
+    "magical_resources": {
+      "description": "Mystical resources with magical properties and abilities",
+      "color_code": "#9C27B0",
+      "renewable": true,
+      "base_value": 25
+    },
+    "consumables": {
+      "description": "Perishable resources that decay over time",
+      "color_code": "#F44336",
+      "renewable": true,
+      "base_value": 2
+    }
+  },
+  "resources": {
+    "gold": {
+      "id": "resource_gold",
+      "name": "Gold",
+      "category": "strategic_resources",
+      "description": "Primary currency resource - essential for all construction and training costs",
+      "icon": "gold_coin.png",
+      "color_visual": "#FFD700",
+      "base_market_value": 1,
+      "rarity": "common",
+      "weight_per_unit": 0.001,
+      "storage_options": {
+        "can_store_in_depot": true,
+        "can_store_in_bank": true,
+        "max_storage_per_building": 10000,
+        "decay_rate": 0.0
+      },
+      "gathering": {
+        "gatherable_by": [
+          "villager",
+          "miner"
+        ],
+        "gather_rate_base": 5,
+        "gather_time_seconds": 2,
+        "source_nodes": [
+          "gold_mine",
+          "gold_vein"
+        ],
+        "required_tools": [
+          "pickaxe"
+        ],
+        "difficulty_multiplier": 1.2
+      },
+      "market_dynamics": {
+        "supply_elasticity": 0.8,
+        "demand_elasticity": 0.9,
+        "volatility": 0.1,
+        "market_fee": 0.05
+      },
+      "uses": [
+        "construction_costs",
+        "unit_training",
+        "technology_research",
+        "guild_operations"
+      ]
+    },
+    "wood": {
+      "id": "resource_wood",
+      "name": "Wood",
+      "category": "basic_resources",
+      "description": "Essential construction material gathered from forests and lumber operations",
+      "icon": "wood_log.png",
+      "color_visual": "#8B4513",
+      "base_market_value": 2,
+      "rarity": "common",
+      "weight_per_unit": 5.0,
+      "storage_options": {
+        "can_store_in_depot": true,
+        "can_store_in_bank": true,
+        "max_storage_per_building": 2000,
+        "decay_rate": 0.001
+      },
+      "gathering": {
+        "gatherable_by": [
+          "villager",
+          "lumberjack"
+        ],
+        "gather_rate_base": 10,
+        "gather_time_seconds": 3,
+        "source_nodes": [
+          "forest",
+          "lumbermill"
+        ],
+        "required_tools": [
+          "axe"
+        ],
+        "difficulty_multiplier": 0.8,
+        "seasonal_variation": {
+          "winter_penalty": 0.3,
+          "summer_bonus": 0.2
+        }
+      },
+      "properties": {
+        "flammable": true,
+        "build_quality_modifier": 0.8,
+        "repair_efficiency": 0.6
+      },
+      "uses": [
+        "building_construction",
+        "siege_engines",
+        "weapons_and_armor",
+        "fuel_for_production"
+      ]
+    },
+    "food": {
+      "id": "resource_food",
+      "name": "Food",
+      "category": "consumables",
+      "description": "Nutritional resources required for population sustenance and unit health",
+      "icon": "wheat_bundle.png",
+      "color_visual": "#F5DEB3",
+      "base_market_value": 3,
+      "rarity": "common",
+      "weight_per_unit": 2.0,
+      "storage_options": {
+        "can_store_in_depot": true,
+        "can_store_in_bank": false,
+        "max_storage_per_building": 1000,
+        "decay_rate": 0.002,
+        "requires_refrigeration": true
+      },
+      "consumption": {
+        "per_pop_per_day": 1.5,
+        "saturation_value": 10,
+        "health_recovery": 5,
+        "morale_boost": 2
+      },
+      "production": {
+        "produced_by": [
+          "farm",
+          "mill"
+        ],
+        "production_rate": 8,
+        "production_cycle_days": 7,
+        "yield_multiplier": 1.0
+      },
+      "uses": [
+        "population_sustenance",
+        "unit_healing",
+        "festivals_and_events",
+        "morale_management"
+      ]
+    },
+    "stone": {
+      "id": "resource_stone",
+      "name": "Stone",
+      "category": "basic_resources",
+      "description": "Heavy construction material used for walls, towers, and fortifications",
+      "icon": "stone_block.png",
+      "color_visual": "#696969",
+      "base_market_value": 4,
+      "rarity": "common",
+      "weight_per_unit": 25.0,
+      "storage_options": {
+        "can_store_in_depot": true,
+        "can_store_in_bank": false,
+        "max_storage_per_building": 800,
+        "decay_rate": 0.0
+      },
+      "gathering": {
+        "gatherable_by": [
+          "villager",
+          "stonemason"
+        ],
+        "gather_rate_base": 3,
+        "gather_time_seconds": 8,
+        "source_nodes": [
+          "quarry",
+          "mountain"
+        ],
+        "required_tools": [
+          "hammer",
+          "chisel"
+        ],
+        "difficulty_multiplier": 1.8
+      },
+      "properties": {
+        "hardness_rating": 8,
+        "durability_bonus": 15,
+        "fire_resistance": 0.9,
+        "build_time_multiplier": 1.5
+      },
+      "uses": [
+        "fortification_construction",
+        "siege_defense",
+        "advanced_buildings",
+        "monument_creation"
+      ]
+    },
+    "metal": {
+      "id": "resource_metal",
+      "name": "Metal",
+      "category": "strategic_resources",
+      "description": "Refined metallic ore used for weapons, armor, and advanced machinery",
+      "icon": "metal_ingot.png",
+      "color_visual": "#C0C0C0",
+      "base_market_value": 12,
+      "rarity": "uncommon",
+      "weight_per_unit": 8.0,
+      "storage_options": {
+        "can_store_in_depot": true,
+        "can_store_in_bank": true,
+        "max_storage_per_building": 500,
+        "decay_rate": 0.0
+      },
+      "production": {
+        "refined_from": {
+          "copper_ore": {
+            "ratio": 0.8,
+            "refinery_efficiency": 0.9
+          },
+          "iron_ore": {
+            "ratio": 0.7,
+            "refinery_efficiency": 0.85
+          },
+          "gold_ore": {
+            "ratio": 0.5,
+            "refinery_efficiency": 0.75
+          }
+        },
+        "required_building": "foundry",
+        "refining_time_minutes": 30
+      },
+      "uses": [
+        "weapons_and_armor",
+        "siege_engines",
+        "advanced_technology",
+        "guild_equipment"
+      ]
+    },
+    "crystal": {
+      "id": "resource_crystal",
+      "name": "Crystal",
+      "category": "magical_resources",
+      "description": "Magical crystals that store and amplify arcane energies",
+      "icon": "magic_crystal.png",
+      "color_visual": "#E91E63",
+      "base_market_value": 50,
+      "rarity": "rare",
+      "weight_per_unit": 1.0,
+      "storage_options": {
+        "can_store_in_depot": true,
+        "can_store_in_bank": true,
+        "max_storage_per_building": 200,
+        "decay_rate": 0.0,
+        "requires_magic_containment": true
+      },
+      "magical_properties": {
+        "mana_capacity": 1000,
+        "mana_regeneration": 5,
+        "spell_power_amplification": 0.2,
+        "magic_resistance_bonus": 0.15,
+        "light_emission_radius": 5
+      },
+      "gathering": {
+        "gatherable_by": [
+          "villager",
+          "mage"
+        ],
+        "gather_rate_base": 1,
+        "gather_time_seconds": 15,
+        "source_nodes": [
+          "crystal_cave",
+          "magic_shrine"
+        ],
+        "required_tools": [
+          "crystal_staff"
+        ],
+        "difficulty_multiplier": 3.0,
+        "magical_challenge_rating": 5
+      },
+      "uses": [
+        "spell_casting",
+        "artifact_creation",
+        "portal_operations",
+        "hero_equipment"
+      ]
+    },
+    "mana_stone": {
+      "id": "resource_mana_stone",
+      "name": "Mana Stone",
+      "category": "magical_resources",
+      "description": "Compressed magical energy that enables instantaneous mana restoration",
+      "icon": "mana_stone.png",
+      "color_visual": "#2196F3",
+      "base_market_value": 30,
+      "rarity": "uncommon",
+      "weight_per_unit": 0.5,
+      "storage_options": {
+        "can_store_in_depot": true,
+        "can_store_in_bank": true,
+        "max_storage_per_building": 100,
+        "decay_rate": 0.001
+      },
+      "consumption": {
+        "mana_restoration": {
+          "immediate_restore": 50,
+          "over_time_restore": 25,
+          "duration_minutes": 60
+        }
+      },
+      "production": {
+        "crafted_from": [
+          "crystal",
+          "essence"
+        ],
+        "crafting_building": "mana_forge",
+        "crafting_time_hours": 2,
+        "yield_per_craft": 5
+      },
+      "uses": [
+        "emergency_mana_restore",
+        "spell_power_enhancement",
+        "hero_training",
+        "artifact_recharge"
+      ]
+    },
+    "essence": {
+      "id": "resource_essence",
+      "name": "Elemental Essence",
+      "category": "magical_resources",
+      "description": "Raw magical essence harvested from elemental sources",
+      "icon": "elemental_essence.png",
+      "color_visual": "#4CAF50",
+      "base_market_value": 20,
+      "rarity": "uncommon",
+      "weight_per_unit": 0.2,
+      "storage_options": {
+        "can_store_in_depot": true,
+        "can_store_in_bank": true,
+        "max_storage_per_building": 300,
+        "decay_rate": 0.005,
+        "requires_stabilization": true
+      },
+      "elemental_types": {
+        "fire": {
+          "efficiency_multiplier": 1.2,
+          "stability_factor": 0.8
+        },
+        "water": {
+          "efficiency_multiplier": 1.0,
+          "stability_factor": 1.1
+        },
+        "earth": {
+          "efficiency_multiplier": 0.9,
+          "stability_factor": 1.3
+        },
+        "air": {
+          "efficiency_multiplier": 1.1,
+          "stability_factor": 0.9
+        },
+        "light": {
+          "efficiency_multiplier": 0.8,
+          "stability_factor": 1.4
+        },
+        "dark": {
+          "efficiency_multiplier": 1.3,
+          "stability_factor": 0.7
+        }
+      },
+      "gathering": {
+        "gatherable_by": [
+          "villager",
+          "elementalist"
+        ],
+        "gather_rate_base": 2,
+        "gather_time_seconds": 10,
+        "source_nodes": [
+          "elemental_rift",
+          "magic_node"
+        ],
+        "difficulty_multiplier": 2.5
+      },
+      "uses": [
+        "elemental_spells",
+        "artifact_infusions",
+        "hero_upgrades",
+        "summoning_rituals"
+      ]
+    }
+  },
+  "resource_nodes": {
+    "gold_mine": {
+      "type": "extractible",
+      "resources": [
+        "gold",
+        "stone"
+      ],
+      "richness": {
+        "poor": {
+          "yield_multiplier": 0.5,
+          "depletion_rate": 0.8
+        },
+        "normal": {
+          "yield_multiplier": 1.0,
+          "depletion_rate": 1.0
+        },
+        "rich": {
+          "yield_multiplier": 2.0,
+          "depletion_rate": 1.2
+        }
+      },
+      "terrain_restrictions": [
+        "mountain",
+        "cliff"
+      ],
+      "worker_capacity": 5,
+      "regeneration_time": 3600
+    },
+    "forest": {
+      "type": "renewable",
+      "resources": [
+        "wood"
+      ],
+      "growth_cycle": {
+        "initial_yield": 100,
+        "growth_rate_per_day": 10,
+        "max_yield": 500,
+        "replant_cost_multiplier": 0.5
+      },
+      "terrain_restrictions": [
+        "grass",
+        "dirt",
+        "plain"
+      ],
+      "worker_capacity": 8,
+      "seasonal_variations": true
+    },
+    "farm_plot": {
+      "type": "farmable",
+      "resources": [
+        "food",
+        "essence"
+      ],
+      "fertility_levels": {
+        "barren": {
+          "yield_multiplier": 0.3,
+          "growth_time_multiplier": 2.0
+        },
+        "normal": {
+          "yield_multiplier": 1.0,
+          "growth_time_multiplier": 1.0
+        },
+        "fertile": {
+          "yield_multiplier": 1.8,
+          "growth_time_multiplier": 0.7
+        }
+      },
+      "irrigation_bonus": 0.4,
+      "worker_capacity": 6,
+      "crop_rotation_required": true
+    },
+    "crystal_cave": {
+      "type": "magical",
+      "resources": [
+        "crystal",
+        "essence"
+      ],
+      "magical_instability": {
+        "rift_summon_chance": 0.05,
+        "elemental_burst_damage": 20,
+        "mana_flux": 10
+      },
+      "worker_capacity": 2,
+      "access_requirements": [
+        "magical_affinity"
+      ],
+      "dimensional_bleed": true
+    }
+  },
+  "economic_system": {
+    "currency_conversion": {
+      "base_rates": {
+        "gold_to_food": 0.8,
+        "gold_to_wood": 0.5,
+        "gold_to_stone": 0.25,
+        "gold_to_crystal": 0.02
+      },
+      "guild_tax_rates": {
+        "resource_extraction": 0.05,
+        "market_trading": 0.03,
+        "guild_services": 0.1
+      }
+    },
+    "trade_routes": {
+      "enabled": true,
+      "trade_caravan": {
+        "cost_gold": 100,
+        "travel_time_hours": 24,
+        "cargo_capacity": 1000,
+        "protection_cost": 50
+      },
+      "inter_guild_trade": {
+        "tax_rate": 0.02,
+        "escrow_service": true,
+        "arbitration_available": true
+      }
+    },
+    "market_system": {
+      "supply_demand_mechanics": {
+        "elasticity_factor": 0.5,
+        "oversupply_penalty": 0.8,
+        "scarcity_bonus": 1.5
+      },
+      "auction_system": {
+        "minimum_bid_increment": 0.1,
+        "auction_duration_hours": 24,
+        "buyer_premium": 0.05,
+        "lottery_system": false
+      },
+      "black_market": {
+        "risk_penalty_multiplier": 2.0,
+        "quality_variation": 0.3,
+        "traceability_chance": 0.2
+      }
+    },
+    "production_chains": {
+      "weapons": {
+        "basic_sword": {
+          "inputs": {
+            "metal": 5,
+            "wood": 2
+          },
+          "outputs": {
+            "sword": 1
+          },
+          "labor_cost": 50,
+          "production_time_minutes": 30
+        },
+        "iron_armor": {
+          "inputs": {
+            "metal": 10,
+            "leather": 5
+          },
+          "outputs": {
+            "armor": 1
+          },
+          "labor_cost": 100,
+          "production_time_minutes": 60
+        }
+      },
+      "buildings": {
+        "house": {
+          "inputs": {
+            "wood": 50,
+            "stone": 20,
+            "gold": 10
+          },
+          "outputs": {
+            "house": 1
+          },
+          "labor_cost": 200,
+          "production_time_minutes": 120
+        },
+        "towers": {
+          "inputs": {
+            "stone": 100,
+            "metal": 25,
+            "crystal": 5
+          },
+          "outputs": {
+            "watchtower": 1
+          },
+          "labor_cost": 300,
+          "production_time_minutes": 180
+        }
+      }
+    }
+  },
+  "resource_bonuses": {
+    "terrain_bonuses": {
+      "mountain": {
+        "stone_gathering": 1.5,
+        "metal_gathering": 2.0,
+        "movement_penalty": 0.7
+      },
+      "forest": {
+        "wood_gathering": 2.0,
+        "food_gathering": 1.3,
+        "vision_penalty": 0.8
+      },
+      "farmland": {
+        "food_production": 1.8,
+        "essence_harvesting": 1.5,
+        "flood_risk": 0.9
+      }
+    },
+    "technology_bonuses": {
+      "mining_technology": {
+        "gathering_efficiency": 0.25,
+        "resource_discovery_chance": 0.3,
+        "extraction_speed": 0.2
+      },
+      "agricultural_revolution": {
+        "crop_yield": 0.5,
+        "growth_speed": 0.3,
+        "disease_resistance": 0.4
+      },
+      "magical_enhancement": {
+        "mana_regeneration": 0.4,
+        "spell_efficiency": 0.2,
+        "artifact_quality": 0.3
+      }
+    },
+    "seasonal_effects": {
+      "spring": {
+        "food_production": 1.2,
+        "growth_rate": 1.3,
+        "weather_modifier": "rainy"
+      },
+      "summer": {
+        "forest_regrowth": 1.5,
+        "evaporation_rate": 1.2,
+        "weather_modifier": "dry"
+      },
+      "autumn": {
+        "harvest_yield": 1.4,
+        "leaf_cover": 0.7,
+        "weather_modifier": "windy"
+      },
+      "winter": {
+        "resource_freezing": 0.5,
+        "movement_penalty": 0.8,
+        "weather_modifier": "snowy"
+      }
+    }
+  },
+  "id": "resources",
+  "name": "Resources",
+  "template_type": "rt",
+  "version": "0.1.0"
+}

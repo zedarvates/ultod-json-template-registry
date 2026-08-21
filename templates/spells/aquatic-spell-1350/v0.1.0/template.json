@@ -1,0 +1,84 @@
+{
+  "id": "aquatic_spell_1350",
+  "name": "Aquatic Spell 1350",
+  "description": "Libère la puissance des eaux du Nil, blessant et ralentissant les ennemis",
+  "icon": "aquatic_spell_1350_icon",
+  "school": "aquatic",
+  "rarity": "rare",
+  "spell_type": "damage",
+  "target_type": "area_enemy",
+  "range": 20.0,
+  "cast_time": 2500,
+  "cooldown": 0,
+  "aquatic_power_cost": 40,
+  "damage": {
+    "base_damage": 70,
+    "damage_type": "water",
+    "scaling": {
+      "strength": 1.2,
+      "vitality": 0.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "water_damage",
+      "value": 70,
+      "duration": 0,
+      "tick_rate": 0,
+      "scaling": {
+        "strength": 1.2
+      }
+    },
+    {
+      "effect_type": "slow",
+      "value": 40,
+      "duration": 5000,
+      "tick_rate": 0,
+      "scaling": {}
+    },
+    {
+      "effect_type": "drowning",
+      "value": 10,
+      "duration": 8000,
+      "tick_rate": 1000,
+      "scaling": {
+        "vitality": 0.5
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "water_torrent",
+    "hit_effect": "wave_explosion",
+    "miss_effect": "water_splash"
+  },
+  "sound_effects": {
+    "cast_sound": "river_rushing",
+    "hit_sound": "water_impact",
+    "miss_sound": "wave_crash"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "aquatic_mastery"
+    ],
+    "classes": [
+      "sobek"
+    ]
+  },
+  "upgrades": {
+    "torrent_assault": {
+      "unlock_level": 18,
+      "description": "Augmente les dégâts et la zone d'effet",
+      "damage_bonus": 25,
+      "area_bonus": 5
+    },
+    "flood_mastery": {
+      "unlock_level": 28,
+      "description": "Le sort devient plus efficace dans l'eau",
+      "water_bonus": 50,
+      "cooldown_reduction": 3000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

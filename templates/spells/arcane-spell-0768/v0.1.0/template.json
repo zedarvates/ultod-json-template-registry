@@ -1,0 +1,70 @@
+{
+  "id": "arcane_spell_0768",
+  "name": "Arcane Spell 0768",
+  "description": "Crée une explosion d'énergie magique qui inflige des dégâts arcaniques à tous les ennemis dans un rayon autour du mage",
+  "icon": "arcane_spell_0768_spell_0768_icon",
+  "school": "arcane_spell_0768",
+  "rarity": "rare",
+  "spell_type": "arcane_spell_0768_area_damage",
+  "target_type": "self_area_blast",
+  "range": 0.0,
+  "cast_time": 2200,
+  "cooldown": 10000,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 160,
+    "damage_type": "arcane_spell_0768_elemental_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "magical_energy_burst",
+      "value": 180,
+      "duration": 0,
+      "tick_rate": 0,
+      "explosion_area_radius": 6.0,
+      "arcane_damage_scaling": 2.0,
+      "crowd_control_knockback": 2.5,
+      "mana_burn_percentage": 15,
+      "arcane_instability_explosion": 30
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "arcane_spell_0768_energy_swirling_purple_mystic_runes",
+    "explosion_effect": "massive_purple_energy_burst_twisting_vortex_fragments",
+    "damage_effect": "arcane_spell_0768_residual_energy_crackling_violet_energy",
+    "aftermath_effect": "residual_magic_shimmer_ground_crystal_fragments"
+  },
+  "sound_effects": {
+    "cast_effect": "arcane_spell_0768_energy_humming_rising_arcane_spell_0768_whir",
+    "explosion_effect": "explosive_arcane_spell_0768_burst_thunderous_magical_shatter",
+    "damage_effect": "arcane_spell_0768_energy_crackling_resonating_destruction",
+    "aftermath_effect": "residual_magic_whispering_crystal_chime_echo"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "arcane_spell_0768_magic",
+      "energy_manipulation"
+    ],
+    "classes": [
+      "mage",
+      "arcanist",
+      "spellweaver"
+    ],
+    "specializations": [
+      "arcane_spell_0768_destruction"
+    ]
+  },
+  "upgrades": {
+    "greater_arcane_explosion": {
+      "unlock_level": 30,
+      "description": "L'arcane_spell_0768 Spell 0768 devient plus grande avec plus de puissance et des effets secondaires",
+      "explosion_radius_increase": 2.5,
+      "arcane_damage_multiplier": 1.7,
+      "knockback_force_increasePercent": 50,
+      "arcane_echoes_additional_damage": 40
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "high_elf",
+  "name": "High Elf",
+  "description": "Noble and ancient elven aristocracy with superior magical prowess and refined elegance",
+  "icon": "races/high_elf_icon.png",
+  "category": "playable",
+  "rarity": "rare",
+  "faction": "alliance",
+  "base_stats": {
+    "strength": 10,
+    "dexterity": 16,
+    "constitution": 9,
+    "intelligence": 15,
+    "wisdom": 14,
+    "charisma": 14,
+    "luck": 12
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 1.2,
+    "experience_rate": 1.1,
+    "magic_power": 1.25,
+    "spell_critical_chance": 1.2,
+    "mana_regeneration": 1.3,
+    "arcane_resistance": 1.15
+  },
+  "available_classes": [
+    "mage",
+    "guardian",
+    "blood_seeker",
+    "fairy_spirit",
+    "phoenix",
+    "archmage",
+    "enchanter"
+  ],
+  "body_proportions": {
+    "average_height": 1.85,
+    "average_build": 0.9,
+    "max_height": 2.0,
+    "min_height": 1.7,
+    "max_build": 1.1,
+    "min_build": 0.7
+  },
+  "appearance_restrictions": {
+    "allowed_skin_colors": [
+      {
+        "min_r": 0.8,
+        "max_r": 1.0,
+        "min_g": 0.7,
+        "max_g": 1.0,
+        "min_b": 0.6,
+        "max_b": 0.9
+      }
+    ],
+    "allowed_hair_colors": [
+      {
+        "min_r": 0.9,
+        "max_r": 1.0,
+        "min_g": 0.8,
+        "max_g": 1.0,
+        "min_b": 0.7,
+        "max_b": 1.0
+      },
+      {
+        "min_r": 0.1,
+        "max_r": 0.2,
+        "min_g": 0.1,
+        "max_g": 0.2,
+        "min_b": 0.1,
+        "max_b": 0.2
+      }
+    ]
+  },
+  "racial_traits": [
+    "high_elf_nobility",
+    "high_elf_arcane_mastery",
+    "high_elf_perfectionism",
+    "high_elf_ancient_wisdom",
+    "high_elf_graceful_presence"
+  ],
+  "passive_bonuses": {
+    "magic_power": 1.2,
+    "spell_critical_chance": 1.15,
+    "mana_regeneration": 1.25,
+    "intimidation_bonus": 1.1,
+    "arcane_resistance": 1.3
+  },
+  "starting_equipment": {
+    "weapon": "elven_staff",
+    "armor": "noble_elven_robe",
+    "gold": 200
+  },
+  "cultural_background": {
+    "languages": [
+      "common",
+      "elven",
+      "ancient"
+    ],
+    "starting_city": "elven_capital",
+    "alignment_tendency": "lawful_good",
+    "cultural_bonuses": {
+      "arcane_mastery": 25,
+      "nobility": 20,
+      "ancient_wisdom": 18,
+      "perfectionism": 15,
+      "graceful_presence": 12
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "race"
+}

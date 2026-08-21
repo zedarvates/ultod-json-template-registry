@@ -1,0 +1,105 @@
+{
+  "id": "monstrosity_creature_0268",
+  "name": "Monstrosity Creature 0268",
+  "description": "Une créature mi-femme mi-oiseau de 6 pieds de haut, avec des plumes irisées vert et or. Son visage humaine possede une beauté hypnotique, mais ses yeux rougeoyants trahissent une cruauté ancienne. Ses doigts se terminent par des serres acérées et ses chansons peuvent charmer même les plus résistants des guerriers.",
+  "icon": "monstrosity_creature_0268_icon",
+  "category": "monstrosity",
+  "rarity": "uncommon",
+  "base_stats": {
+    "health": 71,
+    "mana": 97,
+    "strength": 16,
+    "dexterity": 18,
+    "intelligence": 14,
+    "wisdom": 13,
+    "constitution": 14,
+    "charisma": 21
+  },
+  "properties": {
+    "size": "medium",
+    "size_modifiers": {
+      "health_multiplier": 1.0,
+      "damage_multiplier": 1.0,
+      "speed_modifier": 0,
+      "space_requirement": 5,
+      "strength_bonus": 0,
+      "constitution_bonus": 0
+    },
+    "speed": 20,
+    "alignment": "chaotic evil",
+    "languages": [
+      "common",
+      "hyrum"
+    ],
+    "challenge_rating": "1",
+    "experience_value": 200
+  },
+  "properties_monstrosity": {
+    "hybrid_heritage": [
+      "fey",
+      "beast"
+    ],
+    "aberrant_anatomy": true,
+    "terrifying_presence": 10,
+    "mutation_resistance": 40,
+    "predatory_instincts": "high",
+    "singing_enchantment": true,
+    "flight_mastery": true
+  },
+  "abilities": [
+    "luring_song",
+    "charm_person",
+    "sirens_call",
+    "flyby_attack",
+    "claw_strike",
+    "mesmerizing_gaze",
+    "air_mastery"
+  ],
+  "resistances": {
+    "psychic": 50,
+    "magic": 30,
+    "physical": 20
+  },
+  "weaknesses": [
+    "dispel_magic",
+    "silence_spell",
+    "deafness_effects"
+  ],
+  "immunities": [
+    "charmed"
+  ],
+  "senses": {
+    "darkvision": 60
+  },
+  "loot_table": {
+    "common_drops": [
+      "monstrosity_creature_0268_feather",
+      "siren_song_scroll",
+      "bird_claw"
+    ],
+    "rare_drops": [
+      "charming_voice",
+      "iridescent_plume"
+    ],
+    "epic_drops": [],
+    "legendary_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "moderate",
+    "intelligence_level": "smart",
+    "tactical_awareness": "tactical",
+    "attack_pattern": "song_based_enchantment",
+    "defensive_patterns": [
+      "flight_escape",
+      "charm_protection"
+    ],
+    "special_behaviors": [
+      "uses_song_to_enchant_targets",
+      "attacks_from_above",
+      "targets_weakest_first",
+      "flees_when_outnumbered"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

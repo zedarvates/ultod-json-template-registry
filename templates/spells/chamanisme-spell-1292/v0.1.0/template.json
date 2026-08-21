@@ -1,0 +1,56 @@
+{
+  "school": "chamanisme",
+  "rarity": "common",
+  "target_type": "single",
+  "range": 30.0,
+  "cast_time": 2000,
+  "cooldown": 10000,
+  "mana_cost": 20,
+  "visual_effects": {
+    "cast_effect": "shaman_cast",
+    "projectile_effect": "none",
+    "impact_effect": "elemental_impact",
+    "trail_effect": "elemental_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "shaman_cast_sound",
+    "impact_sound": "elemental_impact_sound"
+  },
+  "requirements": {
+    "level": 6
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "chamanisme_spell_1292",
+  "name": "Chamanisme Spell 1292",
+  "description": "Un choc glacial qui ralentit l'ennemi",
+  "icon": "chamanisme_spell_1292_icon",
+  "spell_type": "damage",
+  "damage_type": "cold",
+  "base_damage": 110,
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 110,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "slow",
+      "value": 0.3,
+      "duration": 5000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "damage": {
+    "base_damage": 110,
+    "damage_type": "cold",
+    "scaling": {
+      "spirit": 0.7,
+      "intellect": 0.5
+    }
+  },
+  "template_type": "spell"
+}

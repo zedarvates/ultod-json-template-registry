@@ -1,0 +1,81 @@
+{
+  "id": "physical_spell_0071",
+  "name": "Physical Spell 0071",
+  "description": "Se propulse en l'air et tombe sur l'ennemi, causant des dégâts massifs et étourdissant",
+  "icon": "physical_spell_0071_icon",
+  "school": "physical",
+  "rarity": "epic",
+  "spell_type": "damage",
+  "target_type": "single_enemy",
+  "range": 10.0,
+  "cast_time": 1500,
+  "cooldown": 90000,
+  "mana_cost": 120,
+  "damage": {
+    "base_damage": 350,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 1.8,
+      "strength": 1.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage",
+      "value": 350,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_type": "physical",
+      "scaling": {
+        "agility": 1.8,
+        "strength": 1.3
+      }
+    },
+    {
+      "effect_type": "knockback",
+      "value": 5.0,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "knockback_distance": 5.0
+    },
+    {
+      "effect_type": "stun",
+      "value": 100,
+      "duration": 4000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "leap_up",
+    "impact_effect": "ground_crater",
+    "stun_effect": "dust_cloud"
+  },
+  "sound_effects": {
+    "cast_sound": "jump_swoosh",
+    "impact_sound": "thunderous_crash",
+    "stun_sound": "debris_fall"
+  },
+  "requirements": {
+    "level": 35,
+    "skills": [
+      "physical_spell_0071_dealing",
+      "stealth_mastery"
+    ],
+    "classes": [
+      "assassin"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "devastating_death": {
+      "unlock_level": 45,
+      "description": "Physical Spell 0071 touche plusieurs ennemis et inflige plus de dégâts",
+      "multi_target": true,
+      "damage_bonus": 150
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

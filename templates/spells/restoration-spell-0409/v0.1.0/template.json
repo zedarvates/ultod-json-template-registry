@@ -1,0 +1,78 @@
+{
+  "id": "restoration_spell_0409",
+  "name": "Restoration Spell 0409",
+  "description": "Le druide canalise l'énergie naturelle pour restaurer instantanément le mana d'un allié",
+  "icon": "restoration_spell_0409_icon",
+  "school": "restoration",
+  "rarity": "rare",
+  "spell_type": "mana_restoration",
+  "target_type": "single_ally",
+  "range": 25.0,
+  "cast_time": 1500,
+  "cooldown": 180000,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "nature_restoration"
+  },
+  "effects": [
+    {
+      "effect_type": "instant_mana_burst",
+      "value": 300,
+      "duration": 0,
+      "tick_rate": 0,
+      "mana_restoration_percent": 80,
+      "mana_regeneration_boost": 200,
+      "regeneration_duration": 20000,
+      "clear_exhaustion": true,
+      "nature_energy_link": 120,
+      "spell_power_boost": 30
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "nature_energy_gathering_flowers",
+    "restore_effect": "green_mana_energy_pouring_into_target",
+    "boost_effect": "glowing_nature_runed_aura",
+    "link_effect": "nature_energy_tendrils_connecting"
+  },
+  "sound_effects": {
+    "cast_sound": "nature_energy_flowing_river_sound",
+    "restore_sound": "mana_crystals_shattering_refresh",
+    "boost_sound": "natural_harmony_regeneration_hum",
+    "link_sound": "nature_link_established_whisper"
+  },
+  "requirements": {
+    "level": 24,
+    "skills": [
+      "nature_magic",
+      "energy_restoration"
+    ],
+    "classes": [
+      "druid",
+      "life_weaver"
+    ],
+    "specializations": [
+      "mana_specialist"
+    ]
+  },
+  "upgrades": {
+    "greater_innervation": {
+      "unlock_level": 34,
+      "description": "L'Restoration Spell 0409 restaure aussi la santé et prolonge la régénération",
+      "health_restoration_percent": 50,
+      "regeneration_duration_bonus": 30000,
+      "mana_shield_creation": 200,
+      "nature_link_permanent": true
+    },
+    "world_tree_connection": {
+      "unlock_level": 44,
+      "description": "Connecte l'allié à l'énergie inépuisable de l'arbre-monde lui-même",
+      "infinite_mana_while_connected": true,
+      "world_tree_defense": 150,
+      "global_mana_regeneration": 50,
+      "nature_avatar_summon": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

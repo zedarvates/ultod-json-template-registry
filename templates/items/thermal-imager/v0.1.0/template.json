@@ -1,16 +1,25 @@
 {
   "id": "thermal_imager",
-  "template_type": "item",
-  "version": "0.1.0",
   "name": "Thermal Imager",
-  "description": "A portable tool component for public template workflows.",
+  "description": "Thermal optic for heat signature tracking.",
+  "icon": "res://icons/thermal_imager.png",
   "category": "tool",
   "rarity": "rare",
-  "stack_limit": 10,
-  "weight_kg": 1.8,
-  "tags": [
-    "adapted",
-    "tool"
-  ],
-  "dependencies": []
+  "item_type": "tool",
+  "sub_type": "optic",
+  "base_stats": {
+    "durability": 100,
+    "max_durability": 100,
+    "weight": 1.8,
+    "value": 700
+  },
+  "properties": {
+    "range": 280.0
+  },
+  "requirements": {
+    "level": 6
+  },
+  "effects": [],
+  "template_type": "item",
+  "version": "0.1.0"
 }

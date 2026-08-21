@@ -1,0 +1,82 @@
+{
+  "id": "sacre_spell_1113",
+  "name": "Sacre Spell 1113",
+  "description": "Entoure les alliés d'une aura protectrice qui augmente leurs résistances et leurs soins",
+  "icon": "sacre_spell_1113_icon",
+  "school": "sacré",
+  "rarity": "rare",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 3000,
+  "cooldown": 60000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "sacre_spell_1113",
+    "scaling": {
+      "wisdom": 0.0,
+      "intelligence": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "group_resistance_buff",
+      "value": 0.15,
+      "duration": 30000,
+      "tick_rate": 0,
+      "aoe_radius": 20.0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "group_healing_buff",
+      "value": 0.2,
+      "duration": 30000,
+      "tick_rate": 0,
+      "aoe_radius": 20.0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "sacre_spell_1113_damage_buff",
+      "value": 0.1,
+      "duration": 30000,
+      "tick_rate": 0,
+      "aoe_radius": 20.0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sacre_spell_1113_formation",
+    "aura_effect": "golden_protective_aura",
+    "group_effect": "divine_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "sacre_spell_1113_incantation",
+    "aura_sound": "divine_harmony",
+    "group_sound": "blessing_chorus"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_holy_aura": {
+      "unlock_level": 35,
+      "description": "Sacre Spell 1113 augmente plus les résistances et les soins",
+      "resistance_bonus": 0.1,
+      "healing_bonus": 0.1
+    },
+    "holy_aura_mastery": {
+      "unlock_level": 45,
+      "description": "Sacre Spell 1113 couvre une plus grande zone et dure plus longtemps",
+      "radius_bonus": 10,
+      "duration_extension": 10000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

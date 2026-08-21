@@ -1,0 +1,107 @@
+{
+  "id": "evocation_spell_0100",
+  "name": "Evocation Spell 0100",
+  "description": "Le barde lâche un hurlement assourdissant qui crée des vagues sonores destructrices",
+  "icon": "evocation_spell_0100_icon",
+  "school": "evocation",
+  "rarity": "uncommon",
+  "spell_type": "evocation_spell_0100_scream",
+  "target_type": "cone_enemy",
+  "range": 35.0,
+  "cast_time": 1500,
+  "cooldown": 10000,
+  "mana_cost": 55,
+  "damage": {
+    "base_damage": 180,
+    "damage_type": "sonic_evocation_spell_0100",
+    "scaling": {
+      "charisma": 1.5,
+      "constitution": 1.2,
+      "intelligence": 0.3
+    },
+    "cone_angle": 90.0
+  },
+  "effects": [
+    {
+      "effect_type": "acoustic_blast_damage",
+      "value": 180,
+      "duration": 0,
+      "tick_rate": 0,
+      "cone_range": 35.0,
+      "cone_angle": 90.0,
+      "push_force": 12.0,
+      "deafening_proc": 0.5,
+      "max_targets": 6,
+      "vocal_dependency": 1.0
+    },
+    {
+      "effect_type": "sonic_deafening",
+      "value": 50,
+      "duration": 8000,
+      "tick_rate": 0,
+      "ear_damage_proc": 0.5,
+      "accuracy_penalty": 0.2,
+      "damage_over_time": 25,
+      "max_targets": 4
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "mouth_energy_gathering",
+    "blast_effect": "sound_wave_cone_burst",
+    "sonic_effect": "rippling_acoustic_shock",
+    "deafen_effect": "ear_ring_visceral"
+  },
+  "sound_effects": {
+    "cast_sound": "voice_power_charge",
+    "blast_sound": "devastating_sonic_boom",
+    "sonic_sound": "piercing_acoustic_wail",
+    "deafen_sound": "ringing_ear_damage"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "performance",
+      "evocation_spell_0100_control",
+      "sonic_magic",
+      "acoustics"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour",
+      "sonic_shouter"
+    ],
+    "specializations": [
+      "operatic_voice",
+      "battle_screamer"
+    ]
+  },
+  "silence_interactions": {
+    "spell_suppression": true,
+    "silence_resistance": 0.0,
+    "suppressed_effects": [
+      "acoustic_blast_damage",
+      "sonic_deafening"
+    ],
+    "suppression_message": "Votre voix est réduite au silence, la salve acoustique reste muette!",
+    "silence_disruption": "Un cri evocation_spell_0100 puissant est nécessaire pour cette salve"
+  },
+  "upgrades": {
+    "resonant_boom": {
+      "unlock_level": 28,
+      "description": "Le blast résonne avec plus de puissance et affecte une zone plus large",
+      "damage_bonus": 100,
+      "cone_angle_bonus": 30.0,
+      "silence_resistance_bonus": 0.15
+    },
+    "thunderous_symphony": {
+      "unlock_level": 38,
+      "description": "Le cri devient une symphonie complexe avec des harmonies destructrices",
+      "max_targets_bonus": 4,
+      "harmonic_echo_damage": 80,
+      "echo_count": 2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "dark_magic_spell_0153",
+  "name": "Dark Magic Spell 0153",
+  "description": "Drains dark_magic_spell_0153 from nearby enemies and restores it to the Black Knight, with increased efficiency against villainous foes",
+  "icon": "dk_dark_magic_spell_0153_icon",
+  "school": "dark_magic",
+  "rarity": "uncommon",
+  "spell_type": "drain_spell",
+  "target_type": "enemy",
+  "range": 8.0,
+  "cast_time": 0,
+  "cooldown": 15000,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "dark_magic_spell_0153_drain",
+    "drain_amount": {
+      "base": 25,
+      "villain_multiplier": 2.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "dark_magic_spell_0153_drain",
+      "value": 25,
+      "duration": 3000,
+      "tick_rate": 1000,
+      "villain_bonus_multiplier": 2.0,
+      "restore_to_caster": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dark_dark_magic_spell_0153_pull",
+    "attack_effect": "dark_magic_spell_0153_tendrils",
+    "impact_effect": "dark_magic_spell_0153_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "dark_magic_spell_0153_whisper",
+    "attack_sound": "syphon_drain",
+    "impact_sound": "dark_magic_spell_0153_restore"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "dark_magic_spell_0153_manipulation",
+      "villain_hunting"
+    ],
+    "classes": [
+      "black_knight"
+    ]
+  },
+  "upgrades": {
+    "villain_feast": {
+      "unlock_level": 10,
+      "description": "Doubles the dark_magic_spell_0153 drain against villains",
+      "villain_drain_multiplier": 2.0
+    },
+    "area_syphon": {
+      "unlock_level": 15,
+      "description": "Affects all enemies within 5 yards",
+      "area_effect": true,
+      "area_radius": 5.0,
+      "area_damage_multiplier": 0.6
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

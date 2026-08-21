@@ -1,0 +1,64 @@
+{
+  "id": "recall_stone_premium",
+  "name": "Pierre de Rappel Premium",
+  "description": "Une pierre runique avancée permettant de se téléporter instantanément vers plusieurs points marqués",
+  "icon": "recall_stone_premium",
+  "category": "consumable",
+  "rarity": "rare",
+  "item_type": "teleportation",
+  "sub_type": "recall_stone",
+  "base_stats": {
+    "durability": 25,
+    "max_durability": 25,
+    "weight": 0.3,
+    "value": 500
+  },
+  "teleportation_properties": {
+    "teleport_type": "recall",
+    "range_limit": 0,
+    "cooldown_seconds": 60,
+    "mana_cost": 25,
+    "cast_time_seconds": 1.0,
+    "requires_marked_location": true,
+    "max_marks": 3,
+    "mark_duration_hours": 168,
+    "instant_cast": true,
+    "no_interrupt": true
+  },
+  "properties": {
+    "stackable": false,
+    "consumable": false,
+    "reusable": true,
+    "soulbound": false,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [],
+    "professions": []
+  },
+  "effects": [
+    {
+      "effect_type": "teleport",
+      "target": "self",
+      "parameters": {
+        "teleport_type": "recall",
+        "safety_check": true,
+        "interruptible": false,
+        "instant": true
+      }
+    },
+    {
+      "effect_type": "buff",
+      "target": "self",
+      "parameters": {
+        "buff_name": "teleport_cooldown_reduction",
+        "duration": 3600,
+        "value": 0.5
+      }
+    }
+  ],
+  "version": "0.1.0",
+  "template_type": "item"
+}

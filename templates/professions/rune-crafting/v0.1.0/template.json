@@ -1,0 +1,127 @@
+{
+  "profession": "rune_crafting",
+  "display_name": "Gravure de Runes",
+  "description": "Art ancestral de graver des runes de pouvoir sur des objets pour leur conférer des propriétés magiques",
+  "icon_path": "icons/professions/rune_crafting.png",
+  "category": "runic_crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "strength_rune_armor",
+      "name": "Rune de Force sur Armure",
+      "description": "Grave une rune de force sur une armure, augmentant sa résistance",
+      "profession": "rune_crafting",
+      "difficulty": 65,
+      "base_success_rate": 0.65,
+      "skill_required": 55,
+      "experience_gain": 70,
+      "exceptional_chance": 0.14,
+      "time_required_seconds": 240,
+      "components": [
+        {
+          "item_type": "strength_rune_stone",
+          "quantity": 3,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "rune_carving_tool",
+          "quantity": 1,
+          "quality_required": "excellent",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "armor_base",
+          "quantity": 1,
+          "quality_required": "standard",
+          "rarity_required": "any"
+        },
+        {
+          "item_type": "binding_ink",
+          "quantity": 1,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "strength_enchanted_armor",
+          "name": "Armure Gravée de Force",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.4,
+          "durability_modifier": 1.1
+        }
+      ],
+      "conditions": {
+        "profession_level": 40,
+        "required_tools": [
+          "rune_chisel",
+          "precision_drill",
+          "stabilization_runes"
+        ],
+        "environmental_factors": [
+          "magical_circle_stable"
+        ]
+      }
+    },
+    {
+      "id": "master_rune_sword",
+      "name": "Épée à Rune Maîtresse",
+      "description": "Artefact légendaire portant des runes de tous les éléments majeurs",
+      "profession": "rune_crafting",
+      "difficulty": 95,
+      "base_success_rate": 0.35,
+      "skill_required": 85,
+      "experience_gain": 130,
+      "exceptional_chance": 0.22,
+      "time_required_seconds": 780,
+      "components": [
+        {
+          "item_type": "masterwork_sword",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "elemental_rune_set",
+          "quantity": 7,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "ancient_rune_scroll",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "primal_essence",
+          "quantity": 5,
+          "quality_required": "excellent",
+          "rarity_required": "epic"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "master_rune_sword",
+          "name": "Épée à Rune Maîtresse",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 2.8,
+          "durability_modifier": 2.0
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "elemental_runework",
+    "protective_runework",
+    "cursed_runework",
+    "master_runework"
+  ],
+  "id": "rune_crafting",
+  "name": "Rune Crafting",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

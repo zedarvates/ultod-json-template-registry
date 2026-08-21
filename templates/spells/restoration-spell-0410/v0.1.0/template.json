@@ -1,0 +1,82 @@
+{
+  "id": "restoration_spell_0410",
+  "name": "Restoration Spell 0410",
+  "description": "Places a healing blossom on the target that blooms with healing over time and bursts when fully grown",
+  "icon": "restoration_spell_0410_icon",
+  "school": "restoration",
+  "rarity": "uncommon",
+  "spell_type": "timed_blossom_healing",
+  "target_type": "single_ally",
+  "range": 40.0,
+  "cast_time": 1500,
+  "cooldown": 0,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "blossom_healing",
+    "scaling": {
+      "wisdom": 1.8,
+      "restoration_power": 1.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "growing_life_blossom",
+      "value": 200,
+      "duration": 15000,
+      "tick_rate": 2000,
+      "blossom_grow_rate": 300,
+      "final_bloom_burst": 250,
+      "heirloom_garden": true,
+      "garden_max_flowers": 3,
+      "nature_harmony_buff": 0.15,
+      "death_blessing_renew": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "flower_seed_planting_growing_blossom",
+    "growth_effect": "petals_unfurling_life_energy",
+    "bloom_effect": "flower_burst_healing_wave",
+    "heirloom_effect": "permanent_garden_growing_flowers"
+  },
+  "sound_effects": {
+    "cast_sound": "soft_earth_planting_gentle_growth",
+    "growth_effect": "petals_opening_life_energy_whisper",
+    "bloom_effect": "flower_burst_healing_harmonic_chord",
+    "heirloom_effect": "garden_growing_eternal_nature_hum"
+  },
+  "requirements": {
+    "level": 16,
+    "skills": [
+      "restoration",
+      "bloom_magic"
+    ],
+    "classes": [
+      "druid",
+      "life_blossom"
+    ],
+    "specializations": [
+      "garden_tender"
+    ]
+  },
+  "upgrades": {
+    "perpetual_bloom": {
+      "unlock_level": 26,
+      "description": "La fleur fleurit perpétuellement, prolongeant les soins",
+      "bloom_duration_extension": 10000,
+      "burst_coefficient_increase": 1.5,
+      "garden_pulse_frequency": 1500,
+      "heirloom_garden_expansion": true
+    },
+    "thousand_blossoms": {
+      "unlock_level": 36,
+      "description": "Crée une explosion de mille pétales, guérissant massivement",
+      "thousand_petal_burst": 800,
+      "area_healing_radius": 12.0,
+      "petal_lingering_heal": 25,
+      "nature_avatar_resonance": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

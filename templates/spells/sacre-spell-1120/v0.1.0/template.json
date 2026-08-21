@@ -1,0 +1,71 @@
+{
+  "id": "sacre_spell_1120",
+  "name": "Sacre Spell 1120",
+  "description": "Enveloppe un allié d'un bouclier d'énergie sacrée qui absorbe les dégâts",
+  "icon": "sacre_spell_1120_icon",
+  "school": "sacré",
+  "rarity": "common",
+  "spell_type": "buff",
+  "target_type": "ally",
+  "range": 40.0,
+  "cast_time": 0,
+  "cooldown": 15000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "holy",
+    "scaling": {
+      "wisdom": 0.0,
+      "intelligence": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage_shield",
+      "value": 400,
+      "duration": 30000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "weakened_soul_debuff",
+      "value": 0,
+      "duration": 15000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_barrier_cast",
+    "shield_effect": "golden_shield_aura",
+    "impact_effect": "shield_formation"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_word",
+    "shield_sound": "barrier_hum",
+    "impact_sound": "shield_activate"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_power_word_shield": {
+      "unlock_level": 16,
+      "description": "Sacre Spell 1120 absorbe plus de dégâts",
+      "shield_bonus": 200
+    },
+    "power_word_shield_mastery": {
+      "unlock_level": 26,
+      "description": "Sacre Spell 1120 peut être lancé sur plusieurs alliés",
+      "multi_target": true,
+      "target_count": 3
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

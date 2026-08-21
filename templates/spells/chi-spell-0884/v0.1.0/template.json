@@ -1,0 +1,72 @@
+{
+  "id": "chi_spell_0884",
+  "name": "Chi Spell 0884",
+  "description": "Disperse les projectiles magiques et les sorts entrants, les rendant inefficaces contre le moine",
+  "icon": "chi_spell_0884_icon",
+  "school": "chi",
+  "rarity": "uncommon",
+  "spell_type": "spell_dispersion_defense",
+  "target_type": "self_spell_shield",
+  "range": 0.0,
+  "cast_time": 500,
+  "cooldown": 20000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "magic_dispersion_energy"
+  },
+  "effects": [
+    {
+      "effect_type": "magical_projectile_dispersion",
+      "value": 150,
+      "duration": 8000,
+      "tick_rate": 0,
+      "spell_dispersion_success": 80,
+      "dispersion_range_redirection": 10.0,
+      "magic_absorption_efficiency": 60,
+      "counterspell_generation": 0.3,
+      "dispersion_visual_feedback": true,
+      "mana_restoration_on_dispel": 20
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "chi_barriers_forming_golden_mesh_chi_energy_shield",
+    "dispersion_effect": "incoming_spells_distorted_refracted_magic_bending_away",
+    "absorption_effect": "spell_energy_absorbed_golden_bursts_chi_replenishment",
+    "expire_effect": "chi_barriers_fading_golden_energy_mesh_dissolution"
+  },
+  "sound_effects": {
+    "cast_effect": "chi_barriers_forming_golden_energy_mesh_energy_charge",
+    "dispersion_effect": "magic_bending_away_refraction_crystal_sharp_dissonance",
+    "absorption_effect": "spell_absorbed_chi_replenishment_satisfying_energy_rush",
+    "expire_effect": "chi_barriers_dissolution_golden_energy_mesh_decay_whisper"
+  },
+  "requirements": {
+    "level": 26,
+    "skills": [
+      "chi_manipulation",
+      "spell_deflection",
+      "magic_dispersion"
+    ],
+    "classes": [
+      "monk",
+      "spell_bender",
+      "chi_deflector"
+    ],
+    "specializations": [
+      "magic_dissipator"
+    ]
+  },
+  "upgrades": {
+    "greater_diffuse_magic": {
+      "unlock_level": 36,
+      "description": "La Chi Spell 0884 devient plus efficace avec des absorptions plus grandes et des dispersions",
+      "dispersion_success_rate_increase": 95,
+      "absorption_efficiency_boost": 80,
+      "dispersion_range_expansion": 5.0,
+      "spell_reflect_capability": 0.4
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

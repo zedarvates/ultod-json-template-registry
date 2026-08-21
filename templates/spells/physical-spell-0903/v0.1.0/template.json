@@ -1,0 +1,52 @@
+{
+  "id": "physical_spell_0903",
+  "name": "Physical Spell 0903",
+  "description": "Des coups rapides avec des griffes acérées",
+  "icon": "physical_spell_0903_icon",
+  "school": "physical",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single_enemy",
+  "range": 2.5,
+  "cast_time": 300,
+  "cooldown": 1500,
+  "mana_cost": 8,
+  "damage": {
+    "base_damage": 12,
+    "damage_type": "physical",
+    "scaling": {
+      "dexterity": 1.1,
+      "strength": 0.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "bleed",
+      "value": 3,
+      "duration": 4000,
+      "tick_rate": 1500,
+      "scaling": {
+        "dexterity": 0.4
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "physical_spell_0903_swipe",
+    "hit_effect": "flesh_rend",
+    "miss_effect": "air_swipe"
+  },
+  "sound_effects": {
+    "cast_sound": "physical_spell_0903_scrape",
+    "hit_sound": "flesh_tear",
+    "miss_sound": "whoosh"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "monster"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

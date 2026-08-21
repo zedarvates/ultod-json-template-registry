@@ -1,0 +1,57 @@
+{
+  "id": "osiris_lineage",
+  "name": "Lignée d'Osiris",
+  "description": "Éveil dans la lignée du dieu de la mort et de la résurrection, juge des âmes",
+  "icon": "osiris_lineage",
+  "rarity": "legendary",
+  "required_level": 15,
+  "awakening_cost": {
+    "life_energy": 180,
+    "health": 45,
+    "items": {
+      "death_crystal": 1,
+      "underworld_essence": 1,
+      "golden_feather": 2
+    }
+  },
+  "stat_bonuses": {
+    "health": 60,
+    "strength": 6,
+    "dexterity": 4,
+    "intelligence": 14,
+    "wisdom": 18,
+    "charisma": 10
+  },
+  "resistance_bonuses": {
+    "dark": 25,
+    "holy": 20,
+    "necrotic": 30
+  },
+  "skill_bonuses": {
+    "life_death_mastery": 0.5,
+    "divine_judgment": 0.45,
+    "resurrection_magic": 0.4
+  },
+  "awakening_bonuses": {
+    "duration_minutes": 40,
+    "stat_multipliers": {
+      "wisdom": 1.6,
+      "intelligence": 1.4,
+      "vitality": 1.3
+    },
+    "special_effects": [
+      "judge_aura",
+      "death_immunity",
+      "soul_protection",
+      "divine_verdict"
+    ]
+  },
+  "racial_synergies": {
+    "egyptian": 1.4,
+    "death_descendant": 1.5,
+    "afterlife_being": 1.6
+  },
+  "enabled": true,
+  "template_type": "lineage",
+  "version": "0.1.0"
+}

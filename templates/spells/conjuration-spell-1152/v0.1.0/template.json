@@ -1,0 +1,66 @@
+{
+  "id": "conjuration_spell_1152",
+  "name": "Conjuration Spell 1152",
+  "description": "Vous invoquez des êtres féériques de la forêt",
+  "icon": "conjuration_spell_1152_icon",
+  "school": "conjuration",
+  "rarity": "rare",
+  "spell_type": "summon",
+  "target_type": "area_ground",
+  "range": 30.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "summon_fey",
+      "value": 0,
+      "duration": 3600000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "creature_type": "woodland_fey",
+      "creature_level": 4,
+      "creature_count": 4
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fey_portal",
+    "summon_effect": "fey_appearance"
+  },
+  "sound_effects": {
+    "cast_sound": "whispering_forest",
+    "summon_sound": "fey_laughter"
+  },
+  "requirements": {
+    "level": 4,
+    "skills": [
+      "nature_magic",
+      "summoning",
+      "fey_magic"
+    ],
+    "classes": [
+      "ranger",
+      "druid"
+    ]
+  },
+  "upgrades": {
+    "greater_conjure": {
+      "unlock_level": 8,
+      "description": "Invoque des créatures plus puissantes",
+      "creature_level": 6,
+      "creature_count": 6
+    },
+    "noble_fey": {
+      "unlock_level": 14,
+      "description": "Invoque des fey nobles",
+      "noble_fey": true,
+      "special_abilities": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

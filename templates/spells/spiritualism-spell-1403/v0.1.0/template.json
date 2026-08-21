@@ -1,0 +1,37 @@
+{
+  "school": "spiritualism",
+  "rarity": "rare",
+  "target_type": "single",
+  "range": 30.0,
+  "cast_time": 3500,
+  "cooldown": 90000,
+  "mana_cost": 85,
+  "visual_effects": {
+    "cast_effect": "bind_cast",
+    "projectile_effect": "spiritualism_spell_1403_projectile",
+    "impact_effect": "bind_impact",
+    "trail_effect": "spirit_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "spiritualism_spell_1403_cast_sound",
+    "impact_sound": "spiritualism_spell_1403_sound"
+  },
+  "requirements": {
+    "level": 32
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "spiritualism_spell_1403",
+  "name": "Spiritualism Spell 1403",
+  "description": "Binds the spiritualism_spell_1403 of an enemy, preventing them from moving or using abilities",
+  "icon": "spiritualism_spell_1403_icon",
+  "spell_type": "control",
+  "effects": {
+    "duration": 8000,
+    "root": true,
+    "silence": true,
+    "damage_over_time": 50,
+    "dot_type": "spirit"
+  },
+  "template_type": "spell"
+}

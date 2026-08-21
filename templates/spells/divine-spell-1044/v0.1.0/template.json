@@ -1,0 +1,63 @@
+{
+  "id": "divine_spell_1044",
+  "name": "Divine Spell 1044",
+  "description": "Vous invoquez un marteau d'énergie divine qui frappe un ennemi, infligeant des dégâts et pouvant l'étourdir",
+  "icon": "divine_spell_1044_icon",
+  "school": "divine",
+  "rarity": "rare",
+  "spell_type": "offensive",
+  "target_type": "enemy",
+  "range": 15.0,
+  "cast_time": 1500,
+  "cooldown": 20000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 45,
+    "damage_type": "radiant"
+  },
+  "effects": [
+    {
+      "effect_type": "divine_spell_1044_strike",
+      "value": 45,
+      "duration": 0,
+      "tick_rate": 0,
+      "stun_chance": 35,
+      "stun_duration": 3000,
+      "justice_damage_multiplier": 1.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_divine_spell_1044_summon",
+    "attack_effect": "golden_divine_spell_1044_swing",
+    "impact_effect": "justice_explosion"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_spell_1044_summon",
+    "attack_sound": "divine_strike_heavy",
+    "impact_sound": "justice_thunder"
+  },
+  "requirements": {
+    "level": 4,
+    "skills": [
+      "divine_magic"
+    ],
+    "classes": [
+      "paladin"
+    ]
+  },
+  "upgrades": {
+    "blessed_hammer": {
+      "unlock_level": 8,
+      "description": "Augmente les chances d'étourdissement à 50%",
+      "stun_chance_bonus": 15
+    },
+    "wrath_of_the_righteous": {
+      "unlock_level": 14,
+      "description": "Dégâts supplémentaires contre les ennemis impies",
+      "unholy_damage_bonus": 25,
+      "damage_multiplier": 1.3
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

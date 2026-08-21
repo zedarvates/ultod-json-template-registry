@@ -1,0 +1,41 @@
+{
+  "id": "physical_spell_0906",
+  "name": "Physical Spell 0906",
+  "description": "Un coup rapide avec le bec",
+  "icon": "physical_spell_0906_icon",
+  "school": "physical",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single_enemy",
+  "range": 1.5,
+  "cast_time": 200,
+  "cooldown": 1000,
+  "mana_cost": 3,
+  "damage": {
+    "base_damage": 8,
+    "damage_type": "physical",
+    "scaling": {
+      "dexterity": 0.8
+    }
+  },
+  "effects": [],
+  "visual_effects": {
+    "cast_effect": "beak_lunge",
+    "hit_effect": "physical_spell_0906_mark",
+    "miss_effect": "beak_snap"
+  },
+  "sound_effects": {
+    "cast_sound": "chirp",
+    "hit_sound": "physical_spell_0906",
+    "miss_sound": "air_snap"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "monster"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

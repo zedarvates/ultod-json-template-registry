@@ -1,0 +1,78 @@
+{
+  "id": "beast_mastery_spell_0688",
+  "name": "Beast Mastery Spell 0688",
+  "description": "Soigne progressivement les blessures du compagnon animal et restaure sa santé",
+  "icon": "beast_mastery_spell_0688_icon",
+  "school": "beast_mastery",
+  "rarity": "common",
+  "spell_type": "animal_companion_healing",
+  "target_type": "summoned_beast",
+  "range": 40.0,
+  "cast_time": 1500,
+  "cooldown": 0,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "regenerative_nature_healing"
+  },
+  "effects": [
+    {
+      "effect_type": "animal_restoring_regeneration",
+      "value": 130,
+      "duration": 15000,
+      "tick_rate": 3000,
+      "pet_healing_per_tick": 50,
+      "healing_over_time_total": 250,
+      "pet_health_cap_raise": 20,
+      "loyalty_restoration": 15,
+      "disease_cure_pet": 0.6,
+      "instant_minimal_heal": 30
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "green_healing_energy_hand_beast_flow",
+    "healing_effect": "gentle_healing_glow_beast_wrap",
+    "restore_effect": "wounds_healing_beast_eyes_brighten",
+    "bond_effect": "hunter_beast_bond_strength_connection_beam"
+  },
+  "sound_effects": {
+    "cast_effect": "healing_chant_nature_energy_birds_sing",
+    "healing_effect": "beast_sighing_relief_healing_restoration",
+    "restore_effect": "wounds_knitting_healing_crunch_grow",
+    "bond_effect": "loyalty_whimper_bond_strengthen_emotion"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "beast_mastery",
+      "animal_care"
+    ],
+    "classes": [
+      "hunter",
+      "beast_keeper"
+    ],
+    "specializations": [
+      "pet_healer"
+    ]
+  },
+  "upgrades": {
+    "greater_mend_pet": {
+      "unlock_level": 22,
+      "description": "Beast Mastery Spell 0688 devient grand avec des soins étendus et de la revitalisation",
+      "extended_healing_duration": 5000,
+      "damage_absorption_buff": 0.25,
+      "pet_speed_restoration": 50,
+      "master_beast_awakening": true
+    },
+    "resurrection_mend_pet": {
+      "unlock_level": 32,
+      "description": "Beast Mastery Spell 0688 peut ramener un animal décédé à la vie si cast rapidement",
+      "dead_pet_resurrection": 0.4,
+      "revitalized_beast_health": 50,
+      "permanent_bond_strengthening": true,
+      "greater_beast_loyalty": 30
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

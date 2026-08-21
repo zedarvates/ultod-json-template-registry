@@ -1,0 +1,81 @@
+{
+  "id": "chronomancy_spell_0249",
+  "name": "Chronomancy Spell 0249",
+  "description": "Le chronomancien rembobine le temps pour un allié, le ramenant à un état antérieur plus sain",
+  "icon": "chronomancy_spell_0249_icon",
+  "school": "chronomancy",
+  "rarity": "rare",
+  "spell_type": "temporal_healing",
+  "target_type": "single_ally",
+  "range": 20.0,
+  "cast_time": 2000,
+  "cooldown": 22000,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "temporal_reversal"
+  },
+  "effects": [
+    {
+      "effect_type": "temporal_rewind_heal",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "rewind_seconds": 15,
+      "health_restore_percent": 60,
+      "status_cleared": [
+        "poison",
+        "bleed",
+        "burn"
+      ],
+      "temporal_backlash_damage": 20,
+      "cast_target_only": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "hourglass_reversing_sand",
+    "rewind_effect": "reverse_chronomancy_spell_0249_digital_counter",
+    "heal_effect": "golden_temporal_reversal_rings",
+    "aftermath_effect": "chronal_rips_in_space"
+  },
+  "sound_effects": {
+    "cast_sound": "ticking_clock_rewinding",
+    "rewind_sound": "chronomancy_spell_0249_reversing_whir_backwards",
+    "heal_sound": "body_rejuvenating_crackles",
+    "aftermath_sound": "reality_shift_hum"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "chronomancy",
+      "temporal_reversal",
+      "healing_chronomancy_spell_0249"
+    ],
+    "classes": [
+      "chronomancer",
+      "chronomancy_spell_0249_mage",
+      "temporalist"
+    ],
+    "specializations": [
+      "chronal_healer"
+    ]
+  },
+  "upgrades": {
+    "perfect_rewind": {
+      "unlock_level": 22,
+      "description": "Le rembobinage devient plus puissant et élimine plus de dégâts",
+      "rewind_seconds_bonus": 10,
+      "health_restore_percent_bonus": 30,
+      "backlash_reduction": 10
+    },
+    "paradox_restore": {
+      "unlock_level": 32,
+      "description": "Peut ressusciter temporairement une cible récemment tombée",
+      "death_reversal_chance": 0.6,
+      "death_timer_extension": 30000,
+      "unstable_state_warning": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

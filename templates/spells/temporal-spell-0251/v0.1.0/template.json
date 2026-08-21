@@ -1,0 +1,89 @@
+{
+  "id": "temporal_spell_0251",
+  "name": "Temporal Spell 0251",
+  "description": "Arrête complètement le temps dans une zone, figeant tous les ennemis",
+  "icon": "temporal_spell_0251_icon",
+  "school": "temporal",
+  "rarity": "mythic",
+  "spell_type": "control",
+  "target_type": "area",
+  "range": 25.0,
+  "cast_time": 6000,
+  "cooldown": 300000,
+  "mana_cost": 400,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "temporal",
+    "scaling": {
+      "intelligence": 0.0,
+      "wisdom": 0.0,
+      "chronomancy": 2.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "temporal_spell_0251_freeze",
+      "value": 1.0,
+      "duration": 8000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "area_radius": 15.0,
+      "immunity_bypass": true
+    },
+    {
+      "effect_type": "temporal_vulnerability",
+      "value": 0.5,
+      "duration": 15000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "area_radius": 15.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "temporal_spell_0251_suspension_ritual",
+    "active_effect": "frozen_temporal_spell_0251_aura",
+    "area_effect": "chronal_stasis_field"
+  },
+  "sound_effects": {
+    "cast_sound": "temporal_spell_0251_ancient_chant",
+    "active_sound": "absolute_silence",
+    "area_sound": "temporal_stasis_hum"
+  },
+  "requirements": {
+    "level": 75,
+    "skills": [
+      "chronomancy_mastery",
+      "temporal_spell_0251_technique",
+      "temporal_theory"
+    ],
+    "classes": [
+      "chronomancer",
+      "archmage",
+      "temporal_spell_0251_lord"
+    ],
+    "specializations": [
+      "master_chronomancer",
+      "temporal_master"
+    ]
+  },
+  "upgrades": {
+    "extended_time_stop": {
+      "unlock_level": 85,
+      "description": "L'Temporal Spell 0251 dure plus longtemps et affecte une plus grande zone",
+      "duration_increase": 4000,
+      "area_radius_increase": 7.5
+    },
+    "temporal_assault": {
+      "unlock_level": 95,
+      "description": "Pendant l'Temporal Spell 0251, vous pouvez appliquer des effets supplémentaires",
+      "allow_ability_casting": true,
+      "bonus_effects": [
+        "temporal_weakness",
+        "temporal_spell_0251_slow",
+        "drain_life"
+      ]
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "minor_strength_enchant",
+  "name": "Enchantement de Force Mineure",
+  "description": "Augmente légèrement la force d'une arme",
+  "profession": "enchanting",
+  "station_type": "enchanting_table",
+  "skill_requirement": 25,
+  "ingredients": [
+    {
+      "item_template_id": "lesser_essence_of_strength",
+      "quantity": 1
+    },
+    {
+      "item_template_id": "simple_rune",
+      "quantity": 2
+    },
+    {
+      "item_template_id": "arcane_dust",
+      "quantity": 3
+    }
+  ],
+  "result": {
+    "item_template_id": "minor_strength_enchant",
+    "quantity": 1,
+    "quality_range": {
+      "min": "common",
+      "max": "uncommon"
+    }
+  },
+  "crafting_time_seconds": 60,
+  "difficulty": 0.5,
+  "experience_gained": 35,
+  "template_type": "recipe",
+  "version": "0.1.0"
+}

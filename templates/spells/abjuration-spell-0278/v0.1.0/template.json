@@ -1,0 +1,76 @@
+{
+  "id": "abjuration_spell_0278",
+  "name": "Abjuration Spell 0278",
+  "description": "Dissipe les effets magiques impies et restaurent l'ordre divin",
+  "icon": "abjuration_spell_0278_icon",
+  "school": "abjuration",
+  "rarity": "uncommon",
+  "spell_type": "magical_abjuration_spell_0278ling",
+  "target_type": "single_target",
+  "range": 20.0,
+  "cast_time": 2200,
+  "cooldown": 12000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "magic_abjuration_spell_0278"
+  },
+  "effects": [
+    {
+      "effect_type": "divine_dissipation",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "dispel_success_rate": 0.8,
+      "max_dispel_count": 3,
+      "holy_vs_unholy_bonus": 0.2,
+      "magic_cancellation_radius": 5.0,
+      "purification_wave": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_runes_forming",
+    "dispel_effect": "magic_shattering_crystals",
+    "cancel_effect": "holy_purification_waves",
+    "purify_effect": "golden_energy_dispersion"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_abjuration_spell_0278ling_incantation",
+    "dispel_sound": "magic_break_crackle",
+    "cancel_sound": "cancellation_wave_swoosh",
+    "purify_sound": "divine_clarity_chime"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [
+      "divine_magic",
+      "abjuration"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "exorcist"
+    ]
+  },
+  "upgrades": {
+    "mass_dispelling": {
+      "unlock_level": 16,
+      "description": "Peut dissiper la magie de plusieurs cibles à la fois",
+      "max_targets": 4,
+      "area_dispel_radius": 12.0,
+      "dispel_chain_reaction": true
+    },
+    "divine_authority": {
+      "unlock_level": 26,
+      "description": "Dissipe automatiquement certains effets en permanence",
+      "passive_dispel_aura": true,
+      "aura_range": 8.0,
+      "instant_dispel_count": 2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0713",
+  "name": "Illusion Spell 0713",
+  "description": "Transforme complètement l'apparence et les capacités physiques de la cible en une autre forme",
+  "icon": "illusion_spell_0713_icon",
+  "school": "illusion",
+  "rarity": "epic",
+  "spell_type": "complete_physiological_alteration",
+  "target_type": "single_target_self",
+  "range": 30.0,
+  "cast_time": 4000,
+  "cooldown": 120000,
+  "mana_cost": 150,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "morph_transformation_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "complete_body_morphological_change",
+      "value": 450,
+      "duration": 180000,
+      "tick_rate": 0,
+      "radical_physical_transformation": true,
+      "ability_set_change_complete": true,
+      "morph_maintenance_cost": 25,
+      "transformation_pain_endured": 50,
+      "identity_disruption_chance": 15,
+      "morph_reality_stability": 90
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "body_warping_twisting_flesh_bone_restructuring",
+    "transformation_effect": "complete_form_change_emerging_new_entity",
+    "duration_effect": "maintaining_form_with_subtle_energy_emanation",
+    "reversion_effect": "body_unraveling_returning_original_form_pain"
+  },
+  "sound_effects": {
+    "cast_effect": "bones_crunching_muscles_tearing_transformation",
+    "transformation_effect": "new_entity_emergenial_unknown_sounds",
+    "duration_effect": "subtle_maintenance_hums_identity_pressure",
+    "reversion_effect": "body_reversal_cracks_original_identity_return"
+  },
+  "requirements": {
+    "level": 50,
+    "skills": [
+      "illusion_magic",
+      "morphological_mastery"
+    ],
+    "classes": [
+      "illusionist",
+      "shape_shifter"
+    ],
+    "specializations": [
+      "transformation_adept"
+    ]
+  },
+  "upgrades": {
+    "greater_metamorphosis": {
+      "unlock_level": 60,
+      "description": "La Illusion Spell 0713 devient plus grande avec des transformations complexes et des capacités spéciales",
+      "legendary_creature_forms": true,
+      "multiple_form_options": 5,
+      "ability_enhancement_integration": true,
+      "form_stability_permanent": false
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

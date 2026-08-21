@@ -1,0 +1,55 @@
+{
+  "id": "animal_creature_0108",
+  "name": "Animal Creature 0108",
+  "description": "Herbivore laineux domestique qui fournit de la laine et de la viande",
+  "icon": "animal_creature_0108_icon",
+  "category": "animal",
+  "rarity": "common",
+  "base_stats": {
+    "health": 80,
+    "mana": 15,
+    "strength": 12,
+    "dexterity": 10,
+    "intelligence": 3,
+    "wisdom": 6,
+    "constitution": 20,
+    "charisma": 10
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_wild": false,
+    "size": "medium",
+    "speed": 5.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "mutton",
+      "wool",
+      "animal_creature_0108_hide"
+    ],
+    "rare_drops": [
+      "animal_creature_0108_horn"
+    ],
+    "epic_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "none",
+    "attack_pattern": "flee",
+    "special_abilities": [
+      "graze",
+      "produce_wool"
+    ]
+  },
+  "abilities": [
+    "headbutt",
+    "graze"
+  ],
+  "resistances": {
+    "physical": 15
+  },
+  "weaknesses": [
+    "predators"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

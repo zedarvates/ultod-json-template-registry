@@ -1,0 +1,47 @@
+{
+  "$comment": [
+    "Politique de butin par defaut, appliquee a tout monstre dont le template ne",
+    "dit rien de plus. Avant ce fichier, ces nombres etaient codes en dur dans",
+    "src/game/monster_loot_loader.zig et il fallait recompiler le serveur pour",
+    "toucher un taux de drop.",
+    "",
+    "Chaque palier accepte : chance (0..1), min_quantity, max_quantity, enabled.",
+    "Un template de monstre peut surcharger n'importe lequel de ces champs dans",
+    "son bloc loot_table.tiers, et chaque objet peut porter ses propres valeurs :",
+    "  \"common_drops\": [ {\"item\": \"peau\", \"chance\": 0.5, \"max_quantity\": 3} ]",
+    "La forme courte \"common_drops\": [\"peau\"] reste valide et prend le palier."
+  ],
+  "version": "0.1.0",
+  "tiers": {
+    "guaranteed_drops": {
+      "chance": 1.0,
+      "min_quantity": 1,
+      "max_quantity": 1
+    },
+    "common_drops": {
+      "chance": 0.35,
+      "min_quantity": 1,
+      "max_quantity": 1
+    },
+    "rare_drops": {
+      "chance": 0.08,
+      "min_quantity": 1,
+      "max_quantity": 1
+    },
+    "epic_drops": {
+      "chance": 0.02,
+      "min_quantity": 1,
+      "max_quantity": 1
+    }
+  },
+  "currency": {
+    "template_id": "gold",
+    "chance": 0.9,
+    "min_quantity": 1,
+    "max_quantity": 8,
+    "enabled": true
+  },
+  "id": "template",
+  "name": "Template",
+  "template_type": "loot"
+}

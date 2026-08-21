@@ -1,0 +1,55 @@
+{
+  "id": "rogue",
+  "name": "Rogue",
+  "description": "Masters of stealth, precision, and opportunistic combat",
+  "skillclass_id": "dieb",
+  "primary_resource": "energy",
+  "base_stats": {
+    "strength": 12,
+    "dexterity": 20,
+    "intelligence": 14,
+    "vitality": 10,
+    "wisdom": 12,
+    "charisma": 16,
+    "luck": 16
+  },
+  "core_mechanics": {
+    "stealth_mastery": true,
+    "backstab_bonus": true,
+    "trap_setting": true,
+    "dual_wield_proficiency": true
+  },
+  "resource_system": {
+    "type": "energy",
+    "max_base": 120,
+    "regeneration_rate": 8,
+    "stealth_regeneration": 12
+  },
+  "damage_modifiers": {
+    "backstab_damage": 2.0,
+    "ranged_damage": 1.1,
+    "poison_damage": 1.3,
+    "critical_chance": 0.15
+  },
+  "abilities": [
+    {
+      "id": 10003,
+      "name": "Backstab",
+      "description": "Deal massive damage when attacking from behind",
+      "cooldown": 0,
+      "resource_cost": 25,
+      "damage_multiplier": 2.5,
+      "requires_stealth": true
+    },
+    {
+      "id": 10004,
+      "name": "Stealth",
+      "description": "Become invisible to enemies",
+      "cooldown": 45000,
+      "resource_cost": 30,
+      "duration": 20000
+    }
+  ],
+  "template_type": "class",
+  "version": "0.1.0"
+}

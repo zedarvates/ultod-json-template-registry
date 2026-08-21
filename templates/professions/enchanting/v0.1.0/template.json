@@ -1,0 +1,156 @@
+{
+  "profession": "enchanting",
+  "display_name": "Magie des Enchantements",
+  "description": "Maîtrise des arts magiques pour infuser les objets de pouvoirs surnaturels",
+  "icon_path": "icons/professions/enchanting.png",
+  "category": "magic",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "minor_weapon_enchant",
+      "name": "Enchantement d'Arme Mineur",
+      "description": "Renforce légèrement les dégâts d'une arme",
+      "profession": "enchanting",
+      "difficulty": 30,
+      "base_success_rate": 0.65,
+      "skill_required": 20,
+      "experience_gain": 20,
+      "exceptional_chance": 0.06,
+      "time_required_seconds": 90,
+      "components": [
+        {
+          "item_type": "magic_dust",
+          "quantity": 2,
+          "quality_required": "good",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "essence_crystal",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "weapon",
+          "quantity": 1,
+          "quality_required": "standard",
+          "rarity_required": "any"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "enchanted_weapon_minor",
+          "name": "Arme Enchantée (Mineur)",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.1,
+          "durability_modifier": 1.0
+        }
+      ],
+      "conditions": {
+        "profession_level": 10,
+        "required_tools": [
+          "enchanting_table",
+          "rune_quill"
+        ],
+        "environmental_factors": [
+          "magic_circle"
+        ]
+      }
+    },
+    {
+      "id": "armor_enhancement",
+      "name": "Renforcement d'Armure",
+      "description": "Augmente la protection d'une armure",
+      "profession": "enchanting",
+      "difficulty": 35,
+      "base_success_rate": 0.6,
+      "skill_required": 25,
+      "experience_gain": 25,
+      "exceptional_chance": 0.08,
+      "time_required_seconds": 120,
+      "components": [
+        {
+          "item_type": "protection_rune",
+          "quantity": 1,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "magic_dust",
+          "quantity": 3,
+          "quality_required": "any",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "armor",
+          "quantity": 1,
+          "quality_required": "standard",
+          "rarity_required": "any"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "enchanted_armor",
+          "name": "Armure Enchantée",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.15,
+          "durability_modifier": 1.0
+        }
+      ]
+    },
+    {
+      "id": "magic_amplification",
+      "name": "Amplification Magique",
+      "description": "Renforce les propriétés magiques d'un objet",
+      "profession": "enchanting",
+      "difficulty": 45,
+      "base_success_rate": 0.5,
+      "skill_required": 40,
+      "experience_gain": 40,
+      "exceptional_chance": 0.1,
+      "time_required_seconds": 180,
+      "components": [
+        {
+          "item_type": "power_crystal",
+          "quantity": 2,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "arcane_essence",
+          "quantity": 1,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "magic_item",
+          "quantity": 1,
+          "quality_required": "standard",
+          "rarity_required": "any"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "amplified_magic_item",
+          "name": "Objet Magique Amplifié",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.25,
+          "durability_modifier": 0.95
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "weapon_enchantment",
+    "armor_enchantment",
+    "jewelry_enchantment",
+    "rune_magic"
+  ],
+  "id": "enchanting",
+  "name": "Enchanting",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

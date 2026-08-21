@@ -1,0 +1,64 @@
+{
+  "id": "conjuration_spell_1158",
+  "name": "Conjuration Spell 1158",
+  "description": "Vous créez une sphère de brouillard épais de 20 pieds de rayon",
+  "icon": "conjuration_spell_1158_icon",
+  "school": "conjuration",
+  "rarity": "common",
+  "spell_type": "area_control",
+  "target_type": "area_ground",
+  "range": 120.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "obscure_area",
+      "value": 20,
+      "duration": 3600000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "obscure_type": "heavy_fog",
+      "radius": 20.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "mist_summon",
+    "area_effect": "thick_fog"
+  },
+  "sound_effects": {
+    "cast_sound": "wind_whisper",
+    "area_sound": "hissing_mist"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "nature_magic"
+    ],
+    "classes": [
+      "ranger",
+      "druid",
+      "wizard",
+      "sorcerer"
+    ]
+  },
+  "upgrades": {
+    "poisonous_fog": {
+      "unlock_level": 5,
+      "description": "Le brouillard inflige des dégâts de poison",
+      "damage_per_tick": 2,
+      "damage_type": "poison"
+    },
+    "massive_fog": {
+      "unlock_level": 11,
+      "description": "Double le rayon du brouillard",
+      "radius_multiplier": 2.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

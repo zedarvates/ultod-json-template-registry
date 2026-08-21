@@ -1,0 +1,58 @@
+{
+  "id": "animal_creature_0103",
+  "name": "Animal Creature 0103",
+  "description": "Petit carnivore rusé aux sens aiguisés et à la queue flamboyante",
+  "icon": "animal_creature_0103_icon",
+  "category": "animal",
+  "rarity": "uncommon",
+  "base_stats": {
+    "health": 60,
+    "mana": 20,
+    "strength": 10,
+    "dexterity": 18,
+    "intelligence": 12,
+    "wisdom": 16,
+    "constitution": 12,
+    "charisma": 14
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_wild": true,
+    "size": "small",
+    "speed": 9.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "animal_creature_0103_pelt",
+      "animal_creature_0103_meat"
+    ],
+    "rare_drops": [
+      "animal_creature_0103_tail",
+      "animal_creature_0103_fang"
+    ],
+    "epic_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "low",
+    "attack_pattern": "ambush",
+    "special_abilities": [
+      "stealth_approach",
+      "trick_escape"
+    ]
+  },
+  "abilities": [
+    "bite",
+    "tail_swipe",
+    "illusion_dust"
+  ],
+  "resistances": {
+    "physical": 8,
+    "illusion": 15
+  },
+  "weaknesses": [
+    "fire",
+    "large_predators"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

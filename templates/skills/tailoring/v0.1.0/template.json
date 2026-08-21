@@ -1,0 +1,139 @@
+{
+  "id": "tailoring",
+  "name": "Couture",
+  "description": "Art de créer et réparer des vêtements et armures en tissu",
+  "icon": "tailoring_icon",
+  "category": "crafting",
+  "subcategory": "clothworking",
+  "max_level": 100,
+  "level_requirements": {
+    "1": 0,
+    "2": 45,
+    "3": 110,
+    "4": 195,
+    "5": 320,
+    "10": 1800,
+    "15": 3600,
+    "20": 6300,
+    "25": 10500,
+    "30": 15300,
+    "35": 21000,
+    "40": 28500,
+    "45": 37500,
+    "50": 51000,
+    "60": 78000,
+    "70": 114000,
+    "80": 159000,
+    "90": 219000,
+    "100": 320000
+  },
+  "xp_sources": {
+    "sew_cloth": 3,
+    "craft_clothing": 20,
+    "craft_armor": 18,
+    "enchant_cloth": 40,
+    "dye_cloth": 8,
+    "repair_clothing": 12
+  },
+  "level_bonuses": {
+    "crafting_speed": {
+      "base_value": 6.0,
+      "per_level": 1.0
+    },
+    "item_quality": {
+      "base_value": 3.0,
+      "per_level": 0.9
+    },
+    "durability_bonus": {
+      "base_value": 4.0,
+      "per_level": 1.3
+    },
+    "enchantment_power": {
+      "base_value": 2.0,
+      "per_level": 0.7
+    }
+  },
+  "specializations": {
+    "cloth_armor_specialist": {
+      "unlock_level": 30,
+      "description": "Spécialisation dans la création d'armures en tissu avec bonus de mobilité",
+      "bonuses": {
+        "armor_defense": 15.0,
+        "movement_speed": 8.0,
+        "casting_speed": 5.0
+      }
+    },
+    "leatherworking": {
+      "unlock_level": 35,
+      "description": "Spécialisation dans le travail du cuir et des matériaux souples",
+      "bonuses": {
+        "leather_armor_quality": 20.0,
+        "material_efficiency": 15.0
+      }
+    },
+    "master_weaver": {
+      "unlock_level": 50,
+      "description": "Maîtrise ultime du tissage permettant de créer des étoffes magiques",
+      "bonuses": {
+        "magical_cloth_chance": 30.0,
+        "enchantment_slots": 2,
+        "rare_material_chance": 25.0
+      }
+    }
+  },
+  "unlocked_recipes": {
+    "5": [
+      "basic_thread",
+      "simple_cloth",
+      "cloth_gloves"
+    ],
+    "10": [
+      "linen_shirt",
+      "wool_pants",
+      "cloth_hat"
+    ],
+    "15": [
+      "silk_robe",
+      "embroidered_tunic",
+      "dyed_cloth"
+    ],
+    "20": [
+      "enchanted_thread",
+      "magical_cloth",
+      "repair_kits"
+    ],
+    "25": [
+      "runed_robes",
+      "mystical_veils",
+      "colorful_dyes"
+    ],
+    "30": [
+      "legendary_garments",
+      "artifact_cloth",
+      "masterwork_patterns"
+    ],
+    "40": [
+      "divine_raiments",
+      "celestial_silk",
+      "transcendent_fabrics"
+    ],
+    "50": [
+      "godly_attire",
+      "mythical_weavings",
+      "reality_cloth"
+    ]
+  },
+  "lineage_synergies": {
+    "elf": {
+      "cloth_crafting": 1.3,
+      "enchantment": 1.4
+    },
+    "mage": {
+      "magical_cloth": 1.5,
+      "robe_crafting": 1.2
+    }
+  },
+  "enabled": true,
+  "template_type": "skill",
+  "version": "0.1.0"
+}

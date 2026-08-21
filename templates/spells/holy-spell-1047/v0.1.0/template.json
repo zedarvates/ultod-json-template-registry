@@ -1,0 +1,69 @@
+{
+  "id": "holy_spell_1047",
+  "name": "Holy Spell 1047",
+  "description": "Invoque la lumière divine pour soigner les blessures",
+  "icon": "holy_spell_1047_spell_1047_icon",
+  "school": "holy_spell_1047",
+  "rarity": "common",
+  "spell_type": "healing",
+  "target_type": "single_ally",
+  "range": 30.0,
+  "cast_time": 2500,
+  "cooldown": 0,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "holy_spell_1047",
+    "scaling": {
+      "wisdom": 1.2,
+      "spirit": 0.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "heal",
+      "value": 80,
+      "duration": 0,
+      "tick_rate": 0,
+      "scaling": {
+        "wisdom": 1.5,
+        "spirit": 1.0
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_light_burst",
+    "hit_effect": "healing_glow",
+    "miss_effect": "light_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_chant",
+    "hit_sound": "healing_bell",
+    "miss_sound": "spell_fail"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "paladin"
+    ]
+  },
+  "upgrades": {
+    "improved_holy_light": {
+      "unlock_level": 15,
+      "description": "Augmente les soins de holy_spell_1047 Spell 1047",
+      "healing_bonus": 25,
+      "mana_cost_reduction": 5
+    },
+    "flash_of_light": {
+      "unlock_level": 25,
+      "description": "Réduit le temps d'incantation de holy_spell_1047 Spell 1047",
+      "cast_time_reduction": 1000,
+      "cooldown_reduction": 2000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

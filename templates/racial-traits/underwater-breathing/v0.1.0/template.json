@@ -1,0 +1,31 @@
+{
+  "id": "underwater_breathing",
+  "name": "Respiration Aquatique",
+  "description": "Capacité à respirer et à se déplacer normalement sous l'eau",
+  "icon": "underwater_breathing_icon",
+  "category": "utility",
+  "rarity": "rare",
+  "stat_modifiers": {
+    "swim_speed": 0.5,
+    "underwater_vision": 0.3
+  },
+  "passive_effects": [
+    {
+      "id": "aquatic_respiration",
+      "name": "Respiration Aquatique",
+      "description": "Peut respirer indéfiniment sous l'eau",
+      "modifier_type": "underwater_breathing",
+      "value": true
+    },
+    {
+      "id": "water_adaptation",
+      "name": "Adaptation Aquatique",
+      "description": "Se déplace à pleine vitesse sous l'eau et voit normalement",
+      "modifier_type": "underwater_penalty_reduction",
+      "value": 100.0
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

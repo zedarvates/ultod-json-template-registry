@@ -1,0 +1,58 @@
+{
+  "id": "nature_spell_0905",
+  "name": "Nature Spell 0905",
+  "description": "Un Nature Spell 0905 intimidant qui effraie les ennemis et appelle les alliés",
+  "icon": "nature_spell_0905_icon",
+  "school": "nature",
+  "rarity": "uncommon",
+  "spell_type": "aoe",
+  "target_type": "area_enemies",
+  "range": 15.0,
+  "cast_time": 1500,
+  "cooldown": 10000,
+  "mana_cost": 15,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "scaling": {}
+  },
+  "effects": [
+    {
+      "effect_type": "fear",
+      "value": 25,
+      "duration": 5000,
+      "tick_rate": 0,
+      "scaling": {
+        "charisma": 0.3
+      }
+    },
+    {
+      "effect_type": "pack_buff",
+      "value": 10,
+      "duration": 8000,
+      "tick_rate": 0,
+      "scaling": {
+        "wisdom": 0.2
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sound_waves",
+    "hit_effect": "fear_aura",
+    "miss_effect": "echo_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "wolf_nature_spell_0905",
+    "hit_sound": "echo_nature_spell_0905",
+    "miss_effect": "distant_echo"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [],
+    "classes": [
+      "monster"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

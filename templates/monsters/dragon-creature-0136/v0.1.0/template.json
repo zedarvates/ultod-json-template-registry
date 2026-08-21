@@ -1,0 +1,125 @@
+{
+  "id": "dragon_creature_0136",
+  "name": "Dragon Creature 0136",
+  "description": "Un colossal reptile de 75 pieds de long, avec des écailles d'un rouge éclatant qui semblent luire d'un feu interne. Ses ailes membraneuses déployées mesurent plus de 100 pieds d'envergure. Ses yeux dorés constamment enflammés reflectent une intelligence millénaire et une cruauté sans bornes. Il respire un feu si intense qu'il peut réduire une ville en cendres.",
+  "icon": "dragon_creature_0136_creature_0136_icon",
+  "category": "dragon_creature_0136",
+  "rarity": "mythical",
+  "base_stats": {
+    "health": 546,
+    "mana": 200,
+    "strength": 30,
+    "dexterity": 10,
+    "intelligence": 18,
+    "wisdom": 15,
+    "constitution": 29,
+    "charisma": 23
+  },
+  "properties": {
+    "size": "gargantuan",
+    "size_modifiers": {
+      "health_multiplier": 8.0,
+      "damage_multiplier": 3.0,
+      "speed_modifier": -3,
+      "space_requirement": 30,
+      "strength_bonus": 12,
+      "constitution_bonus": 6
+    },
+    "speed": 80,
+    "alignment": "chaotic evil",
+    "languages": [
+      "common",
+      "draconic",
+      "telepathy 120 ft"
+    ],
+    "challenge_rating": "24",
+    "experience_value": 62000
+  },
+  "properties_dragon": {
+    "age_category": "ancient",
+    "draconic_ancestry": "red",
+    "breath_weapon": {
+      "type": "fire_cone",
+      "damage": "26d6",
+      "saving_throw": "DEX 24",
+      "damage_type": "fire"
+    },
+    "wing_attack": true,
+    "legendary_resistance": 3,
+    "dragonshadow_granting": true,
+    "ancient_knowledge": true,
+    "flight_mastery": true,
+    "intimidating_presence": true
+  },
+  "abilities": [
+    "fire_breath",
+    "wing_attack",
+    "frightful_presence",
+    "tailwind",
+    "legendary_actions",
+    "fire_resistance_mastery",
+    "dragon_creature_0136shadow_grant"
+  ],
+  "resistances": {
+    "fire": 100,
+    "poison": 50,
+    "physical": 40
+  },
+  "weaknesses": [
+    "cold_damage",
+    "dispel_magic",
+    "antimagic_field"
+  ],
+  "immunities": [
+    "charmed",
+    "frightened",
+    "sleep",
+    "paralyzed"
+  ],
+  "senses": {
+    "blindsight": 60,
+    "darkvision": 120,
+    "truesight": 120,
+    "scent": true
+  },
+  "loot_table": {
+    "common_drops": [
+      "dragon_creature_0136_scale",
+      "massive_gemstone",
+      "gold_coins"
+    ],
+    "rare_drops": [
+      "fire_breath_tonic",
+      "dragon_creature_0136_heart",
+      "ancient_artifact"
+    ],
+    "epic_drops": [
+      "red_dragon_creature_0136_scale_mail",
+      "fire_mastery_grimoire"
+    ],
+    "legendary_drops": [
+      "red_dragon_creature_0136_artifact",
+      "dragon_creature_0136shadow_crown"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "savage",
+    "intelligence_level": "genius",
+    "tactical_awareness": "strategic",
+    "attack_pattern": "breath_weapon_focus",
+    "defensive_patterns": [
+      "wing_attack",
+      "tailwind_escape",
+      "legendary_resistance"
+    ],
+    "special_behaviors": [
+      "targets_spellcasters_primarily",
+      "uses_breath_weapon_efficiently",
+      "maintains_aerial_superiority",
+      "territorial_defense_priority",
+      "surrenders_only_to_greater_power"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

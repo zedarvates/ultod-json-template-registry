@@ -1,0 +1,53 @@
+{
+  "id": "administration_spell_0032",
+  "name": "Administration Spell 0032",
+  "description": "[ADMIN ONLY] Instantly administration_spell_0032 a designated area of all objects, mobs, items, and corpses",
+  "icon": "admin_administration_spell_0032_icon",
+  "school": "administration",
+  "rarity": "epic",
+  "spell_type": "area_management",
+  "target_type": "area_administration_spell_0032ance_target",
+  "range": 1000.0,
+  "cast_time": 2000,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "area_purging_administration"
+  },
+  "effects": [
+    {
+      "effect_type": "complete_area_administration_spell_0032ance_admin",
+      "value": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "configurable_clearance_radius": true,
+      "objects_items_corpses_removed": true,
+      "hostile_neutral_mobs_cleared": true,
+      "area_terrain_preservation": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "administration_spell_0032ance_energy_dome_expansion_building",
+    "area_effect": "selective_vaporization_objects_mobs_disappearing",
+    "clearance_effect": "systematic_area_cleaning_energy_sweeps",
+    "completion_effect": "administration_spell_0032ed_area_marking_admin_boundaries_glowing"
+  },
+  "sound_effects": {
+    "cast_effect": "administration_spell_0032ance_energy_dome_building_power_charge",
+    "area_effect": "mass_disappearance_vaporization_pops_sweeps",
+    "clearance_effect": "systematic_cleaning_energy_whirs_processes",
+    "completion_effect": "area_administration_spell_0032_complete_admin_confirmation_tone"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "gamemaster",
+      "overseer",
+      "celestial_avatar"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "protection_spell_0205",
+  "name": "Protection Spell 0205",
+  "description": "Creates a protective barrier of protection_spell_0205 energy that absorbs damage and purges corruption from nearby areas",
+  "icon": "cw_protection_spell_0205_icon",
+  "school": "protection",
+  "rarity": "uncommon",
+  "spell_type": "protective_barrier",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 1500,
+  "cooldown": 20000,
+  "divine_power_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "shield_properties": {
+      "absorption_capacity": 150,
+      "corruption_purge_radius": 5.0,
+      "corruption_reduction": 0.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "protection_spell_0205_barrier",
+      "value": 150,
+      "duration": 12000,
+      "tick_rate": 2000,
+      "damage_absorption": true,
+      "corruption_purge_aura": true,
+      "purge_radius": 5.0,
+      "corruption_damage_per_tick": 15,
+      "ally_buff": {
+        "corruption_resistance": 0.2,
+        "holy_damage_bonus": 0.1
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "protection_spell_0205_barrier_summon",
+    "barrier_effect": "golden_shield_aura",
+    "impact_effect": "corruption_banish_waves"
+  },
+  "sound_effects": {
+    "cast_sound": "protection_spell_0205_incantation",
+    "barrier_sound": "shield_hum",
+    "impact_sound": "corruption_shatter"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "protection_spell_0205_protection",
+      "warding_magic"
+    ],
+    "classes": [
+      "celestial_warden"
+    ]
+  },
+  "upgrades": {
+    "fortified_barrier": {
+      "unlock_level": 10,
+      "description": "Increases shield absorption and adds damage reflection",
+      "absorption_increase": 50,
+      "damage_reflection": 0.15
+    },
+    "purification_wave": {
+      "unlock_level": 16,
+      "description": "Periodic waves of purification that damage and cleanse corruption",
+      "wave_frequency": 3000,
+      "wave_damage": 20,
+      "wave_radius": 8.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

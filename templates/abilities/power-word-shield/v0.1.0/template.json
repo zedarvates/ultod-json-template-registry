@@ -1,0 +1,32 @@
+{
+  "id": "power_word_shield",
+  "name": "Mot de Pouvoir : Bouclier",
+  "description": "Protège instantanément un allié avec un bouclier sacré qui absorbe les dégâts",
+  "type": "spell",
+  "class_restriction": [
+    "priest"
+  ],
+  "level_requirement": 6,
+  "resource_cost": {
+    "type": "mana",
+    "amount": 80
+  },
+  "cooldown_seconds": 4,
+  "range": 40.0,
+  "effects": [
+    {
+      "type": "shield",
+      "damage_type": "holy",
+      "base_damage": 200,
+      "scaling": {
+        "strength": 0.0,
+        "dexterity": 0.0,
+        "intelligence": 1.5,
+        "level": 1.0
+      },
+      "armor_penetration": 0.0
+    }
+  ],
+  "template_type": "ability",
+  "version": "0.1.0"
+}

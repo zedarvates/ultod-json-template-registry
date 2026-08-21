@@ -1,16 +1,214 @@
 {
-  "id": "temporal_sovereign_staff",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Temporal Sovereign Staff",
-  "description": "A portable main_hand_weapon component for public template workflows.",
+  "item_id": "temporal_sovereign_staff",
+  "name": "Bâton du Souverain Temporel",
+  "description": "Un bâton ancien gravé de runes temporelles qui canalise le pouvoir absolu du temps et de la réalité",
+  "icon": "temporal_sovereign_staff_icon",
   "category": "main_hand_weapon",
   "rarity": "legendary",
-  "stack_limit": 10,
-  "weight_kg": 0.1,
-  "tags": [
-    "adapted",
-    "main_hand_weapon"
+  "item_type": "artifact_weapon",
+  "bind_type": "bind_on_equip",
+  "level_required": 75,
+  "durability": {
+    "max_durability": 1500,
+    "current_durability": 1500,
+    "decay_rate": 0.001
+  },
+  "stats": {
+    "intelligence": 50,
+    "wisdom": 45,
+    "temporal_mastery": 70,
+    "mana": 1200,
+    "mana_regeneration": 40,
+    "spell_power": 0.5,
+    "spell_crit_chance": 0.25,
+    "temporal_resistance": 0.4,
+    "weapon_damage": 450
+  },
+  "special_effects": [
+    {
+      "effect_type": "chronal_weapon",
+      "description": "Les attaques de sort consultent le passé et le futur",
+      "double_strike": true,
+      "temporal_damage": 0.8,
+      "chance": 0.35
+    },
+    {
+      "effect_type": "reality_enhancement",
+      "description": "Augmente la puissance de tous les sorts temporels",
+      "temporal_spell_power": 0.3,
+      "duration": "permanent"
+    },
+    {
+      "effect_type": "time_echo",
+      "description": "Crée des échos temporels qui répètent les sorts",
+      "echo_chance": 0.2,
+      "echo_effectiveness": 0.6,
+      "max_echoes": 3
+    }
   ],
-  "dependencies": []
+  "temporal_abilities": {
+    "reality_command_strike": {
+      "ability_type": "active",
+      "description": "Frappe qui altère la réalité dans la zone d'impact",
+      "cooldown": 180000,
+      "damage": 1200,
+      "effects": {
+        "reality_distortion": true,
+        "temporal_vulnerability": 0.5,
+        "time_slow": 0.3,
+        "radius": 12.0,
+        "duration": 20000
+      }
+    },
+    "temporal_echo_duplicate": {
+      "ability_type": "active",
+      "description": "Crée une copie temporelle qui répète vos attaques",
+      "cooldown": 240000,
+      "duration": 30000,
+      "duplicate_effectiveness": 0.8,
+      "max_duplicates": 2
+    }
+  },
+  "set_bonuses": {
+    "temporal_sovereign_set": {
+      "set_items": [
+        "temporal_sovereign_crown",
+        "temporal_sovereign_robes",
+        "temporal_sovereign_staff"
+      ],
+      "bonuses": {
+        "2_pieces": {
+          "temporal_spell_power": 0.25,
+          "reality_command_strike_cooldown": 0.5,
+          "weapon_damage": 0.2
+        },
+        "3_pieces": {
+          "temporal_sovereign_command": true,
+          "mastery_of_time": true,
+          "reality_manipulation": true,
+          "set_bonus_effect": "chronal_immortality"
+        }
+      }
+    }
+  },
+  "weapon_properties": {
+    "weapon_type": "staff",
+    "damage_type": "temporal",
+    "attack_speed": 2.5,
+    "range": 25.0,
+    "crit_multiplier": 2.0,
+    "special_attacks": {
+      "temporal_bolt": {
+        "damage": 350,
+        "mana_cost": 80,
+        "cooldown": 3000,
+        "effects": [
+          "temporal_damage",
+          "time_slow",
+          "mana_burn"
+        ]
+      },
+      "reality_warp": {
+        "damage": 800,
+        "mana_cost": 150,
+        "cooldown": 30000,
+        "effects": [
+          "reality_distortion",
+          "displacement",
+          "temporal_weakness"
+        ]
+      }
+    }
+  },
+  "crafting_requirements": {
+    "profession": "master_chronomancer",
+    "level_required": 85,
+    "specialization": "temporal_artificer",
+    "materials": [
+      {
+        "material_id": "ancient_elder_wood",
+        "quantity": 3
+      },
+      {
+        "material_id": "temporal_dragon_horn",
+        "quantity": 2
+      },
+      {
+        "material_id": "reality_crystal",
+        "quantity": 10
+      },
+      {
+        "material_id": "time_mastery_essence",
+        "quantity": 25
+      },
+      {
+        "material_id": "temporal_sovereign_core",
+        "quantity": 1
+      }
+    ],
+    "crafting_time": 12000000,
+    "success_rate": 0.4,
+    "failure_result": "temporal_sovereign_staff_fragment"
+  },
+  "acquisition": {
+    "quest_reward": {
+      "quest_id": "temporal_sovereign",
+      "quest_reward_type": "epic_completion"
+    },
+    "temporal_dragon_boss": {
+      "monster_id": "temporal_dragon",
+      "drop_rate": 0.01,
+      "quality": "legendary"
+    },
+    "temporal_mastery_trial": {
+      "challenge_type": "temporal_combat_mastery",
+      "completion_reward": true
+    }
+  },
+  "lore": {
+    "origin": "Forgé par le premier Souverain Temporel à partir d'un bois Elder ancestral",
+    "history": "Ce bâton a été transmis à travers les âges, chaque possesseur ajoutant sa puissance",
+    "powers": "Confère la capacité de contrôler le temps et la réalité au niveau fondamental"
+  },
+  "vr_properties": {
+    "grabbable": true,
+    "holster_type": "back_weapon",
+    "grab_points": [
+      {
+        "name": "middle_grip",
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "top_grip",
+        "pos": [
+          0,
+          0.5,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "haptics": {
+      "grab": "hard",
+      "impact": "explosion"
+    }
+  },
+  "version": "0.1.0",
+  "id": "temporal_sovereign_staff",
+  "template_type": "item"
 }

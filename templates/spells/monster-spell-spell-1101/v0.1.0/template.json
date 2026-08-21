@@ -1,0 +1,47 @@
+{
+  "id": "monster_spell_spell_1101",
+  "name": "Monster Spell Spell 1101",
+  "description": "Description pour Monster Spell Spell 1101",
+  "icon": "monster_spell_spell_1101_icon",
+  "school": "monster_spell",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 6.0,
+  "cast_time": 300,
+  "cooldown": 1000,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 24,
+    "damage_type": "monster_spell_spell_1101"
+  },
+  "effects": [
+    {
+      "effect_type": "monster_spell_spell_1101_damage",
+      "value": 24,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "vine_entangle",
+    "projectile_effect": "vine_lash",
+    "impact_effect": "monster_spell_spell_1101_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "rustle",
+    "impact_sound": "hiss"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "plant_magic"
+    ],
+    "classes": [
+      "plant"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

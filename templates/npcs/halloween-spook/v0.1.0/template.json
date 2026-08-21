@@ -1,0 +1,260 @@
+{
+  "id": "halloween_spook",
+  "name": "Halloween Spook",
+  "description": "Playful ghostly entity providing spooky seasonal entertainment and tricks",
+  "icon": "npcs/halloween_spook_icon.png",
+  "category": "seasonal",
+  "awareness": {
+    "enabled": true,
+    "cognitive_level": "full",
+    "initial_lod": "ordinary",
+    "initial_yaw_radians": 0.0,
+    "senses": {
+      "vision_range": 24.0,
+      "hearing_range": 20.0,
+      "tactile_sensitivity": 0.4
+    },
+    "attention": {
+      "capacity": 8,
+      "max_visual_candidates": 24,
+      "max_occlusion_rays": 6
+    },
+    "values": {
+      "nonviolence": 0.8,
+      "fairness": 0.6,
+      "loyalty": 0.5,
+      "honor": 0.4,
+      "compassion": 0.7,
+      "reciprocity": 0.8
+    },
+    "personal_norms": {
+      "property_rights": 0.4,
+      "nonviolence": 0.8,
+      "anti_coercion": 0.7,
+      "dignity": 0.6,
+      "reciprocity": 0.8
+    },
+    "initial_goals": {
+      "self_preservation": 0.5,
+      "possessions": 0.2,
+      "social_standing": 0.7,
+      "protect_others": 0.4,
+      "preserve_order": 0.2,
+      "affiliation": 0.9
+    },
+    "reaction_policy": {
+      "threat_response": "observe",
+      "may_defend": false,
+      "may_retaliate": false
+    }
+  },
+  "rarity": "rare",
+  "npc_type": "seasonal_event",
+  "base_stats": {
+    "level": 18,
+    "hp": 150,
+    "max_hp": 150,
+    "mana": 150,
+    "max_mana": 150,
+    "strength": 8,
+    "dexterity": 14,
+    "intelligence": 16,
+    "wisdom": 15,
+    "constitution": 10,
+    "charisma": 18,
+    "speed": 1.0,
+    "size": 1.0,
+    "weight": 50.0
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_flying": true,
+    "is_aquatic": false,
+    "is_undead": true,
+    "is_elemental": false,
+    "is_mechanical": false,
+    "is_magical": true,
+    "is_divine": false,
+    "is_fiendish": false,
+    "is_wild": false,
+    "is_tameable": false,
+    "is_summonable": false,
+    "is_soulbound": false,
+    "is_cursed": false,
+    "is_blessed": false,
+    "is_poisoned": false,
+    "is_paralyzed": false,
+    "is_silenced": false,
+    "is_blinded": false,
+    "is_deafened": false,
+    "is_charmed": false,
+    "is_frightened": false,
+    "is_confused": false,
+    "is_stunned": false,
+    "is_sleeping": false,
+    "is_invisible": true,
+    "is_invulnerable": false,
+    "is_immortal": false,
+    "is_unique": true,
+    "is_boss": false,
+    "is_mini_boss": false,
+    "is_elite": false,
+    "is_rare": true,
+    "is_common": false,
+    "is_uncommon": false,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "loot_table": {
+    "gold": {
+      "min": 100,
+      "max": 500
+    },
+    "items": [
+      {
+        "item_id": "halloween_treat",
+        "chance": 0.8,
+        "min_quantity": 1,
+        "max_quantity": 3
+      },
+      {
+        "item_id": "spooky_costume",
+        "chance": 0.3,
+        "min_quantity": 1,
+        "max_quantity": 1
+      },
+      {
+        "item_id": "halloween_candy",
+        "chance": 0.6,
+        "min_quantity": 1,
+        "max_quantity": 5
+      }
+    ]
+  },
+  "ai_behavior": {
+    "wander_chance": 0.12,
+    "wander_range": 15.0,
+    "max_targets": 5,
+    "combat_style": "playful",
+    "preferred_attack": "spooky_trick",
+    "patrol_route": [
+      "haunted_house",
+      "pumpkin_patch",
+      "graveyard",
+      "haunted_house"
+    ],
+    "response_to_crime": "play_spooky_prank",
+    "ally_detection": "halloween_creatures"
+  },
+  "abilities": [
+    "spooky_magic",
+    "halloween_pranks",
+    "fear_immunity",
+    "costume_creation",
+    "treat_distribution"
+  ],
+  "dialogue": {
+    "greetings": [
+      "Boo! Did I scare you? Just kidding! Happy Halloween!",
+      "Trick or treat! Welcome to my spooky celebration!",
+      "The spirits are dancing tonight! Join the fun!"
+    ],
+    "farewells": [
+      "Sweet dreams... or spooky nightmares!",
+      "Remember: the best treats come to those who share!",
+      "Until next Halloween, when the spirits gather again!"
+    ],
+    "halloween_lore": [
+      "Once a year, the veil between worlds grows thin...",
+      "Pumpkins light the way for lost spirits to find peace.",
+      "Halloween is when magic feels strongest!"
+    ],
+    "spooky_jokes": [
+      "Why don't ghosts like storms? Because they fear the 'gale' force!",
+      "What do you call a bear with no teeth? A gummy bear!",
+      "I used to be afraid of ghosts, but then I got used to them!"
+    ],
+    "trick_or_treat": [
+      "Choose wisely: a trick or a treat awaits!",
+      "For brave souls, I have extra special surprises!",
+      "Every good deed earns a delicious treat!"
+    ]
+  },
+  "shop_inventory": {
+    "halloween_treats": [
+      "halloween_candy",
+      "caramel_apple",
+      "chocolate_ghost",
+      "gummy_spiders",
+      "candy_corn",
+      "lollipop",
+      "halloween_cookies",
+      "pumpkin_pie",
+      "spooky_cupcake"
+    ],
+    "costumes": [
+      "ghost_costume",
+      "vampire_outfit",
+      "witch_hat",
+      "pumpkin_mask",
+      "skeleton_suit",
+      "zombie_clothes"
+    ],
+    "spooky_items": [
+      "pumpkin_lantern",
+      "spooky_decorations",
+      "halloween_mask",
+      "magic_candy",
+      "ghost_scarf",
+      "witch_broom"
+    ],
+    "seasonal_services": [
+      "trick_or_treat",
+      "spooky_stories",
+      "costume_help",
+      "halloween_guidance",
+      "festival_entertainment"
+    ]
+  },
+  "services": {
+    "buy_items": true,
+    "sell_items": true,
+    "repair_equipment": false,
+    "identify_items": false,
+    "appraisal_service": false,
+    "custom_crafting": false,
+    "trick_or_treat": true,
+    "spooky_entertainment": true,
+    "halloween_guidance": true,
+    "costume_advisor": true
+  },
+  "schedule": {
+    "day": {
+      "10:00": "prepare_festival",
+      "12:00": "trick_or_treat_setup",
+      "14:00": "costume_preparation",
+      "16:00": "spooky_entertainment",
+      "18:00": "festival_opening",
+      "20:00": "peak_spooky_time",
+      "23:00": "late_night_fun"
+    },
+    "night": {
+      "18:00": "evening_festival",
+      "22:00": "midnight_spooks",
+      "02:00": "after_hour_fun",
+      "08:00": "prepare_next_day"
+    }
+  },
+  "resistances": {
+    "physical": 0.0,
+    "fire": 0.0,
+    "ice": 0.1,
+    "lightning": 0.2,
+    "poison": 0.5
+  },
+  "weaknesses": [
+    "holy"
+  ],
+  "version": "0.1.0",
+  "template_type": "npc"
+}

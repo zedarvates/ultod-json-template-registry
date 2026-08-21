@@ -1,0 +1,88 @@
+{
+  "id": "drakhari",
+  "name": "Drakhari",
+  "description": "A proud draconic-blooded humanoid whose scaled hide and ember gaze mark a lineage of storm and conquest.",
+  "icon": "race_drakhari",
+  "category": "humanoid",
+  "rarity": "epic",
+  "faction": "chaos",
+  "base_stats": {
+    "strength": 30,
+    "dexterity": 24,
+    "constitution": 28,
+    "intelligence": 24,
+    "wisdom": 18,
+    "charisma": 26,
+    "luck": 16
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 1.0,
+    "experience_rate": 1.0,
+    "health_regeneration": 1.1,
+    "mana_regeneration": 1.0
+  },
+  "available_classes": [
+    "warrior",
+    "paladin",
+    "mage",
+    "rogue"
+  ],
+  "racial_traits": [
+    "ember_breath",
+    "scale_armor",
+    "draconic_will"
+  ],
+  "passive_bonuses": {
+    "skill_points_per_level": 1,
+    "attribute_points_per_level": 1,
+    "resistance_to_fear": 20,
+    "bonus_to_all_skills": 1
+  },
+  "starting_equipment": {
+    "weapons": [
+      "wyrmscale_blade"
+    ],
+    "armor": [
+      "drakhide_vest"
+    ],
+    "items": [
+      "ember_scale"
+    ]
+  },
+  "body_proportions": {
+    "height_min": 175,
+    "height_max": 205,
+    "weight_min": 75,
+    "weight_max": 130,
+    "body_type": "muscular"
+  },
+  "appearance_restrictions": {
+    "skin_colors": [
+      "crimson",
+      "obsidian",
+      "bronze"
+    ],
+    "hair_colors": [
+      "black",
+      "ash"
+    ],
+    "eye_colors": [
+      "amber",
+      "slit_pupil_gold"
+    ],
+    "facial_features": "angular"
+  },
+  "cultural_background": {
+    "languages": [
+      "drak",
+      "old_root"
+    ],
+    "starting_city": "Cinderpeak",
+    "alignment_tendency": "chaotic_neutral",
+    "cultural_bonuses": {
+      "fire": 10
+    }
+  },
+  "template_type": "race",
+  "version": "0.1.0"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "necromancy_spell_0941",
+  "name": "Necromancy Spell 0941",
+  "description": "Forme une armure protectrice d'os assemblés spontanément à partir de fragments osseux environnants",
+  "icon": "necromancy_spell_0941_icon",
+  "school": "necromancy",
+  "rarity": "uncommon",
+  "spell_type": "osseous_protection_buff",
+  "target_type": "self_buff",
+  "range": 0.0,
+  "cast_time": 2500,
+  "cooldown": 30000,
+  "mana_cost": 65,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "necromancy_spell_0941_spike_reflection"
+  },
+  "effects": [
+    {
+      "effect_type": "skeletal_shield_formation",
+      "value": 140,
+      "duration": 60000,
+      "tick_rate": 0,
+      "physical_damage_reduction": 40,
+      "spike_return_damage": 25,
+      "bone_plating_durability": 300,
+      "movement_speed_penalty": 25,
+      "thorned_exterior_damage": 40,
+      "regeneration_from_bones": 15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necromancy_spell_0941_fragments_rising_assembling_spontaneous_armor_formation_whitish_necromancy_spell_0941s",
+    "active_effect": "necromancy_spell_0941_plating_moving_natural_motion_spikes_glinting_danger",
+    "absorb_effect": "damage_impacts_necromancy_spell_0941_cracking_shielding_absorb_sparks_debris",
+    "regeneration_effect": "new_necromancy_spell_0941s_assembling_replacing_broken_armor_self_repair_activation",
+    "expire_effect": "necromancy_spell_0941_disassembling_collapsing_ground_fragments_scattering_dissolution"
+  },
+  "sound_effects": {
+    "cast_effect": "necromancy_spell_0941_fragments_rattling_assembling_clanking_armor_formation_necromancy_spell_0941_scratching",
+    "active_effect": "necromancy_spell_0941_movement_heavy_clanking_armor_noises_necromancy_spell_0941_grinding",
+    "absorb_effect": "damage_impacts_cracks_shielding_debris_clattering_necromancy_spell_0941_shards",
+    "regeneration_effect": "new_necromancy_spell_0941s_assembling_rattling_clinking_repair_mechanisms_activating",
+    "expire_effect": "necromancy_spell_0941_collapsing_necromancy_spell_0941s_scattering_ground_clattering_finality_dissolution"
+  },
+  "requirements": {
+    "level": 24,
+    "skills": [
+      "necromancy",
+      "osteomancy",
+      "necromancy_spell_0941_weaponry"
+    ],
+    "classes": [
+      "necromancer",
+      "necromancy_spell_0941_lord",
+      "skeletal_warrior"
+    ],
+    "specializations": [
+      "osseous_protector"
+    ]
+  },
+  "upgrades": {
+    "greater_bone_armor": {
+      "unlock_level": 39,
+      "description": "L'Necromancy Spell 0941 devient plus résistante avec une réduction des dégâts accrue et des piques plus dangereuses",
+      "damage_reduction_increase": 60,
+      "spike_damage_boost": 50,
+      "durability_enhancement": 200,
+      "movement_penalty_reduction": 12
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

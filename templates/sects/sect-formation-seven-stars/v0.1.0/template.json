@@ -1,0 +1,62 @@
+{
+  "id": "sect_formation_seven_stars",
+  "name": "Formation des Sept Étoiles",
+  "description": "Formation basée sur les sept étoiles de la Grande Ourse - aligne l'énergie cosmique",
+  "icon": "seven_stars_icon",
+  "school": "arcane",
+  "type": "buff",
+  "damage_type": null,
+  "mana_cost": 5000,
+  "range": 0,
+  "cast_time": 30000,
+  "cooldown": 86400000,
+  "aoe": {
+    "enabled": true,
+    "radius": 20,
+    "damage_reduction": 1.0,
+    "max_targets": 1
+  },
+  "effects": [
+    {
+      "type": "aura",
+      "name": "Formation des Sept Étoiles",
+      "description": "Énergie cosmique alignée pour une puissance immense",
+      "duration": 0,
+      "value": 1.0,
+      "stackable": false,
+      "dispellable": false
+    },
+    {
+      "type": "stat_modifier",
+      "name": "Alignement Cosmique",
+      "description": "Améliore les capacités magiques de 60%",
+      "duration": 0,
+      "value": 0.6,
+      "stackable": false,
+      "dispellable": false
+    },
+    {
+      "type": "buff",
+      "name": "Protection Astrale",
+      "description": "Protection contre les attaques magiques externes",
+      "duration": 0,
+      "value": 0.8,
+      "stackable": false,
+      "dispellable": false
+    }
+  ],
+  "requirements": {
+    "level": 8,
+    "class": [
+      "guild_member"
+    ],
+    "talent_points": 50
+  },
+  "visual": {
+    "cast_animation": "seven_stars_formation",
+    "impact_effect": "cosmic_alignment"
+  },
+  "enabled": true,
+  "template_type": "sect",
+  "version": "0.1.0"
+}

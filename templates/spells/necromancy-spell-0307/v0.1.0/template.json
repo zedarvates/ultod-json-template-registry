@@ -1,0 +1,79 @@
+{
+  "id": "necromancy_spell_0307",
+  "name": "Necromancy Spell 0307",
+  "description": "Infecte l'ennemi avec une maladie vampirique qui draine ses réserves sanguines et renforce le death knight",
+  "icon": "necromancy_spell_0307_icon",
+  "school": "necromancy",
+  "rarity": "uncommon",
+  "spell_type": "infectious_disease",
+  "target_type": "single_enemy",
+  "range": 30.0,
+  "cast_time": 1500,
+  "cooldown": 6000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "hemorrhagic_damage",
+    "scaling": {
+      "blood_magic": 1.4,
+      "necrotic_art": 1.1
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "vampiric_plague",
+      "value": 120,
+      "duration": 18000,
+      "tick_rate": 3000,
+      "tick_damage": 30,
+      "life_steal_percent": 25,
+      "spread_to_nearby": 0.2,
+      "blood_rune_regen": 25,
+      "caster_vitality_boost": 15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necromancy_spell_0307y_slash_marks",
+    "infection_effect": "necromancy_spell_0307_spurt_and_veins_dark",
+    "spread_effect": "disease_cloud_propagation",
+    "drain_effect": "life_force_to_caster_red_trails"
+  },
+  "sound_effects": {
+    "cast_sound": "necromancy_spell_0307y_slash_mark_sound",
+    "infection_sound": "necromancy_spell_0307_boil_hiss",
+    "spread_sound": "disease_spread_gurgle",
+    "drain_sound": "life_drain_vaporous"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [
+      "necromancy_spell_0307_magic",
+      "necromancy"
+    ],
+    "classes": [
+      "death_knight",
+      "necromancy_spell_0307_lord"
+    ],
+    "specializations": [
+      "plague_master"
+    ]
+  },
+  "upgrades": {
+    "blood_boil": {
+      "unlock_level": 16,
+      "description": "Augmente les dégâts initiaux et fait bouillir le sang de la cible",
+      "initial_damage_bonus": 50,
+      "explosive_bleed": true,
+      "blood_burst_range": 5.0
+    },
+    "cursed_blood": {
+      "unlock_level": 26,
+      "description": "Le fléau se transforme en malédiction qui affecte la lignée de la cible",
+      "hereditary_curse": true,
+      "affects_offspring": true,
+      "permanent_weakness": 0.15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

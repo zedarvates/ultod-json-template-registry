@@ -1,0 +1,82 @@
+{
+  "id": "restoration_spell_0293",
+  "name": "Restoration Spell 0293",
+  "description": "Purifie les alliés de toutes les afflictions impies et maudites",
+  "icon": "restoration_spell_0293_icon",
+  "school": "restoration",
+  "rarity": "uncommon",
+  "spell_type": "holy_cleansing",
+  "target_type": "single_ally",
+  "range": 15.0,
+  "cast_time": 1800,
+  "cooldown": 8000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "divine_cleanse"
+  },
+  "effects": [
+    {
+      "effect_type": "holy_restoration_spell_0293",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "cleanse_count": 5,
+      "affliction_types": [
+        "curse",
+        "poison",
+        "disease",
+        "unholy",
+        "corruption"
+      ],
+      "damage_cleansing": 50,
+      "status_removal": true,
+      "holy_ward_duration": 10000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "purifying_light_symbols",
+    "cleanse_effect": "corruption_shedding_particles",
+    "ward_effect": "holy_protection_vines",
+    "complete_effect": "divine_clarity_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "cleansing_chant_building",
+    "cleanse_sound": "corruption_dispel_crackle",
+    "ward_sound": "holy_protection_hum",
+    "complete_sound": "purity_restored_chime"
+  },
+  "requirements": {
+    "level": 9,
+    "skills": [
+      "divine_magic",
+      "cleansing"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "purifier"
+    ]
+  },
+  "upgrades": {
+    "divine_sanctification": {
+      "unlock_level": 19,
+      "description": "Purifie plusieurs cibles et laisse une aura de protection prolongée",
+      "max_targets": 4,
+      "ward_duration_bonus": 20000,
+      "area_cleanse_radius": 8.0
+    },
+    "redemption_touch": {
+      "unlock_level": 29,
+      "description": "Peut même purifier le mal absolu, au prix de dégâts pour le clerc",
+      "can_cleanse_demonic": true,
+      "cleric_sacrifice_damage": 25,
+      "redemption_success_rate": 0.6
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

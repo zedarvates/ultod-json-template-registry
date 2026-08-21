@@ -1,0 +1,79 @@
+{
+  "id": "sect_legendary_reality_weaving",
+  "name": "Tissage de Réalité",
+  "description": "Modification de la réalité fondamentale - altération des lois physiques",
+  "icon": "reality_weaving_icon",
+  "school": "arcane",
+  "type": "control",
+  "damage_type": null,
+  "mana_cost": 5000,
+  "range": 100,
+  "cast_time": 5000,
+  "cooldown": 300000,
+  "base_damage": {
+    "min": 1000,
+    "max": 2000,
+    "scaling": 3.0
+  },
+  "aoe": {
+    "enabled": true,
+    "radius": 20,
+    "damage_reduction": 0.8,
+    "max_targets": 10
+  },
+  "effects": [
+    {
+      "type": "control",
+      "name": "Tissage de Réalité",
+      "description": "Distorsion de la réalité causant des effets imprévisibles",
+      "duration": 15000,
+      "value": 1.0,
+      "stackable": false,
+      "dispellable": false
+    },
+    {
+      "type": "debuff",
+      "name": "Fragilité Temporelle",
+      "description": "Réduction de la stabilité temporelle de la cible",
+      "duration": 30000,
+      "value": 0.4,
+      "stackable": true,
+      "dispellable": true
+    },
+    {
+      "type": "stat_modifier",
+      "name": "Maîtrise Métaphysique",
+      "description": "Contrôle accru sur les propriétés matérielles (+100%)",
+      "duration": 60000,
+      "value": 1.0,
+      "stackable": false,
+      "dispellable": false
+    },
+    {
+      "type": "buff",
+      "name": "Harmonie Cosmique",
+      "description": "Alignment temporaire avec les forces primordiales",
+      "duration": 45000,
+      "value": 0.75,
+      "stackable": false,
+      "dispellable": false
+    }
+  ],
+  "requirements": {
+    "level": 10,
+    "class": [
+      "legendary_sect"
+    ],
+    "talent_points": 150
+  },
+  "visual": {
+    "cast_animation": "reality_fracture",
+    "projectile_model": "reality_thread",
+    "impact_effect": "existence_rift",
+    "sound_cast": "fabric_tear",
+    "sound_impact": "reality_echo"
+  },
+  "enabled": true,
+  "template_type": "sect",
+  "version": "0.1.0"
+}

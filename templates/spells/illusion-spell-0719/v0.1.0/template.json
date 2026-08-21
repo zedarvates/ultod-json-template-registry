@@ -1,0 +1,72 @@
+{
+  "id": "illusion_spell_0719",
+  "name": "Illusion Spell 0719",
+  "description": "Crée une copie spectrale intelligente de l'illusionniste qui peut être contrôlée à distance",
+  "icon": "illusion_spell_0719_icon",
+  "school": "illusion",
+  "rarity": "rare",
+  "spell_type": "intelligent_spectral_illusion_spell_0719ion",
+  "target_type": "remote_location_illusion_spell_0719ion",
+  "range": 150.0,
+  "cast_time": 2500,
+  "cooldown": 30000,
+  "mana_cost": 100,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "spectral_illusion_spell_0719ion_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "intelligent_spectral_duplicate_illusion_spell_0719ion",
+      "value": 280,
+      "duration": 180000,
+      "tick_rate": 0,
+      "projection_distance_max": 150.0,
+      "spectral_intelligence_full": true,
+      "spell_casting_capability_limited": 3,
+      "sensory_feedback_return": true,
+      "projection_return_summon": true,
+      "disruption_on_main_damage": 0.8
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "spectral_energy_flowing_connection_established",
+    "projection_effect": "physical_form_appearing_target_location",
+    "activity_effect": "spectral_copy_acting_intelligently_mimicking",
+    "main_damage_effect": "illusion_spell_0719ion_shuddering_fading_temporarily",
+    "summon_effect": "spectral_form_returns_main_body_absorption"
+  },
+  "sound_effects": {
+    "cast_effect": "spectral_whisper_geometric_energy_arrangement",
+    "projection_effect": "physical_manifestation_geometric_echo_arrival",
+    "activity_effect": "spectral_actions_mirror_main_voice_distant",
+    "main_damage_effect": "illusion_spell_0719ion_static_distortion_fading_communication",
+    "summon_effect": "spectral_return_geomtric_energy_reabsorption"
+  },
+  "requirements": {
+    "level": 50,
+    "skills": [
+      "illusion_magic",
+      "spectral_illusion_spell_0719ion"
+    ],
+    "classes": [
+      "illusionist",
+      "spectral_master"
+    ],
+    "specializations": [
+      "illusion_spell_0719ion_adept"
+    ]
+  },
+  "upgrades": {
+    "greater_project_image": {
+      "unlock_level": 60,
+      "description": "L'image projetée devient plus grande avec des capacités avancées et des illusion_spell_0719ions multiples",
+      "dual_projection_capability": 2,
+      "legendary_spell_casting_level": 5,
+      "independent_intelligence_growth": true,
+      "global_sensory_network": 500.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

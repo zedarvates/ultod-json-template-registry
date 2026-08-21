@@ -1,0 +1,32 @@
+{
+  "id": "item_catalog_0152",
+  "template_type": "item_catalog",
+  "version": "0.1.0",
+  "name": "Item Catalog 0152",
+  "entries": [
+    {
+      "id": "wings_seraph_01",
+      "name": "Ailes de Séraphin",
+      "stamina_bonus": 30.0,
+      "speed_multiplier": 1.2,
+      "glide_multiplier": 2.5,
+      "rarity": "epic"
+    },
+    {
+      "id": "wings_demon_01",
+      "name": "Ailes de Seigneur Démon",
+      "stamina_bonus": 45.0,
+      "speed_multiplier": 1.5,
+      "glide_multiplier": 1.8,
+      "rarity": "legendary"
+    },
+    {
+      "id": "wings_dragon_01",
+      "name": "Ailes de Dragon Ancien",
+      "stamina_bonus": 60.0,
+      "speed_multiplier": 1.8,
+      "glide_multiplier": 1.5,
+      "rarity": "artifact"
+    }
+  ]
+}

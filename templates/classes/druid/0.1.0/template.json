@@ -1,0 +1,98 @@
+{
+  "id": "druid",
+  "name": "Druid",
+  "description": "A shifter who wields nature magic, healing, binding and shielding the wild.",
+  "color": "16A085",
+  "primary_resource": "nature_power",
+  "base_stats": {
+    "strength": 20,
+    "agility": 24,
+    "intelligence": 28,
+    "vitality": 30,
+    "wisdom": 42,
+    "charisma": 18
+  },
+  "specializations": [
+    "balanced",
+    "wild",
+    "warden"
+  ],
+  "starting_skills": [
+    {
+      "id": 1,
+      "name": "Entangling Roots",
+      "description": "Bind and bleed.",
+      "cooldown": 4500,
+      "mana_cost": 45,
+      "range": 30,
+      "cast_time": 1400,
+      "learned_at_level": 5,
+      "is_passive": false
+    },
+    {
+      "id": 2,
+      "name": "Earth Shield",
+      "description": "Ward an ally.",
+      "cooldown": 8000,
+      "mana_cost": 55,
+      "range": 40,
+      "cast_time": 1500,
+      "learned_at_level": 8,
+      "is_passive": false
+    },
+    {
+      "id": 3,
+      "name": "Verdant Growth",
+      "description": "+5% heal per rank.",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 5,
+      "is_passive": true
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 1,
+            "name": "Thorns",
+            "description": "Reflect damage.",
+            "max_rank": 5,
+            "icon_path": "icon_thorns"
+          },
+          {
+            "id": 2,
+            "name": "Bloom",
+            "description": "+5% shield per rank.",
+            "max_rank": 5,
+            "icon_path": "icon_bloom"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "talents": [
+          {
+            "id": 3,
+            "name": "Wildshape",
+            "description": "Shift into a beast.",
+            "max_rank": 1,
+            "icon_path": "icon_wild"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 1000,
+  "health_modifier": 0.95,
+  "damage_modifier": 1.1,
+  "armor_modifier": 1.0,
+  "spell_ids": [],
+  "enabled": true,
+  "template_type": "class",
+  "version": "0.1.0"
+}

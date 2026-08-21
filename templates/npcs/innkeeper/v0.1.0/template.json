@@ -1,0 +1,258 @@
+{
+  "id": "innkeeper",
+  "name": "Innkeeper",
+  "description": "Host providing lodging, food, and social gathering space",
+  "icon": "npcs/innkeeper_icon.png",
+  "category": "merchant",
+  "awareness": {
+    "enabled": true,
+    "cognitive_level": "summary",
+    "initial_lod": "distant",
+    "initial_yaw_radians": 0.0,
+    "senses": {
+      "vision_range": 16.0,
+      "hearing_range": 14.0,
+      "tactile_sensitivity": 0.7
+    },
+    "attention": {
+      "capacity": 5,
+      "max_visual_candidates": 16,
+      "max_occlusion_rays": 4
+    },
+    "values": {
+      "nonviolence": 0.8,
+      "fairness": 0.7,
+      "loyalty": 0.6,
+      "honor": 0.6,
+      "compassion": 0.7,
+      "reciprocity": 0.9
+    },
+    "personal_norms": {
+      "property_rights": 0.9,
+      "nonviolence": 0.8,
+      "anti_coercion": 0.8,
+      "dignity": 0.8,
+      "reciprocity": 0.9
+    },
+    "initial_goals": {
+      "self_preservation": 0.7,
+      "possessions": 0.8,
+      "social_standing": 0.8,
+      "protect_others": 0.5,
+      "preserve_order": 0.7,
+      "affiliation": 0.9
+    },
+    "reaction_policy": {
+      "threat_response": "seek_guard",
+      "may_defend": false,
+      "may_retaliate": false
+    }
+  },
+  "rarity": "common",
+  "npc_type": "specialized_merchant",
+  "base_stats": {
+    "level": 9,
+    "hp": 110,
+    "max_hp": 110,
+    "mana": 35,
+    "max_mana": 35,
+    "strength": 11,
+    "dexterity": 13,
+    "intelligence": 14,
+    "wisdom": 15,
+    "constitution": 12,
+    "charisma": 16,
+    "speed": 0.9,
+    "size": 0.95,
+    "weight": 75.0
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_flying": false,
+    "is_aquatic": false,
+    "is_undead": false,
+    "is_elemental": false,
+    "is_mechanical": false,
+    "is_magical": false,
+    "is_divine": false,
+    "is_fiendish": false,
+    "is_wild": false,
+    "is_tameable": false,
+    "is_summonable": false,
+    "is_soulbound": false,
+    "is_cursed": false,
+    "is_blessed": false,
+    "is_poisoned": false,
+    "is_paralyzed": false,
+    "is_silenced": false,
+    "is_blinded": false,
+    "is_deafened": false,
+    "is_charmed": false,
+    "is_frightened": false,
+    "is_confused": false,
+    "is_stunned": false,
+    "is_sleeping": false,
+    "is_invisible": false,
+    "is_invulnerable": false,
+    "is_immortal": false,
+    "is_unique": false,
+    "is_boss": false,
+    "is_mini_boss": false,
+    "is_elite": false,
+    "is_rare": false,
+    "is_common": true,
+    "is_uncommon": false,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "loot_table": {
+    "gold": {
+      "min": 25,
+      "max": 120
+    },
+    "items": [
+      {
+        "item_id": "inn_receipt",
+        "chance": 0.4,
+        "min_quantity": 1,
+        "max_quantity": 2
+      },
+      {
+        "item_id": "clean_bed_sheets",
+        "chance": 0.3,
+        "min_quantity": 1,
+        "max_quantity": 1
+      },
+      {
+        "item_id": "house_special_ale",
+        "chance": 0.5,
+        "min_quantity": 1,
+        "max_quantity": 3
+      }
+    ]
+  },
+  "ai_behavior": {
+    "wander_chance": 0.04,
+    "wander_range": 5.0,
+    "max_targets": 3,
+    "combat_style": "passive",
+    "preferred_attack": "broom_handle",
+    "patrol_route": [
+      "kitchen",
+      "bar",
+      "guest_rooms",
+      "front_desk"
+    ],
+    "response_to_crime": "call_guards",
+    "ally_detection": "inn_staff"
+  },
+  "abilities": [
+    "hospitality",
+    "food_preparation",
+    "room_management",
+    "social_skills",
+    "local_information"
+  ],
+  "dialogue": {
+    "greetings": [
+      "Welcome to my inn! The finest lodging in town!",
+      "Come in, come in! Room and board for travelers!",
+      "A warm bed and good food await you here!"
+    ],
+    "farewells": [
+      "Safe travels! Come back when you're in town.",
+      "May your journey be prosperous and pleasant.",
+      "The inn will always have room for you."
+    ],
+    "bargain_success": [
+      "Excellent! That's fair for quality service.",
+      "You know good value when you see it!"
+    ],
+    "no_gold": [
+      "I'm afraid room and board require payment.",
+      "Perhaps you can work for your keep?"
+    ],
+    "local_gossip": [
+      "Did you hear about the trouble in the market square?",
+      "The merchant guild has raised their prices again.",
+      "Strange things have been happening near the old ruins."
+    ]
+  },
+  "shop_inventory": {
+    "food": [
+      "bread",
+      "roasted_meat",
+      "vegetable_stew",
+      "fish_platter",
+      "meat_pie",
+      "apple_pie",
+      "cheese_and_crackers"
+    ],
+    "drinks": [
+      "house_ale",
+      "wine",
+      "mead",
+      "apple_cider",
+      "spring_water",
+      "herbal_tea",
+      "coffee"
+    ],
+    "accommodation": [
+      "single_room",
+      "double_room",
+      "family_room",
+      "weekly_rate",
+      "monthly_rate"
+    ],
+    "services": [
+      "meal_service",
+      "laundry_service",
+      "message_delivery",
+      "travel_planning",
+      "local_information"
+    ]
+  },
+  "services": {
+    "buy_items": true,
+    "sell_items": true,
+    "repair_equipment": false,
+    "identify_items": false,
+    "appraisal_service": false,
+    "custom_crafting": false,
+    "lodging_services": true,
+    "catering_services": true,
+    "information_services": true,
+    "message_delivery": true
+  },
+  "schedule": {
+    "day": {
+      "06:00": "prepare_breakfast",
+      "07:00": "breakfast_service",
+      "08:00": "room_cleaning",
+      "10:00": "lunch_prep",
+      "12:00": "lunch_service",
+      "14:00": "afternoon_rest",
+      "16:00": "dinner_prep",
+      "18:00": "dinner_service",
+      "20:00": "bar_opens"
+    },
+    "night": {
+      "20:00": "evening_service",
+      "22:00": "quiet_hours",
+      "23:00": "lock_doors",
+      "06:00": "prepare_morning"
+    }
+  },
+  "resistances": {
+    "physical": 0.05,
+    "fire": 0.1,
+    "ice": 0.0,
+    "lightning": 0.0,
+    "poison": 0.1
+  },
+  "weaknesses": [
+    "lightning"
+  ],
+  "version": "0.1.0",
+  "template_type": "npc"
+}

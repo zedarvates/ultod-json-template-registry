@@ -1,0 +1,47 @@
+{
+  "id": "monster_spell_spell_0911",
+  "name": "Monster Spell Spell 0911",
+  "description": "Description pour Monster Spell Spell 0911",
+  "icon": "monster_spell_spell_0911_icon",
+  "school": "monster_spell",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 6.0,
+  "cast_time": 300,
+  "cooldown": 1000,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 24,
+    "damage_type": "monster_spell_spell_0911"
+  },
+  "effects": [
+    {
+      "effect_type": "monster_spell_spell_0911_damage",
+      "value": 24,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "claw_monster_spell_spell_0911",
+    "projectile_effect": "claw_swipe",
+    "impact_effect": "green_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "snarl",
+    "impact_sound": "sizzle"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "monstrosity_magic"
+    ],
+    "classes": [
+      "monstrosity"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

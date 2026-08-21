@@ -1,0 +1,47 @@
+{
+  "id": "rogue_spell_1216",
+  "name": "Rogue Spell 1216",
+  "description": "Augmente les dégâts infligés à la cible",
+  "icon": "rogue_spell_1216_icon",
+  "school": "rogue",
+  "rarity": "rare",
+  "spell_type": "target_debuff",
+  "target_type": "enemy",
+  "range": 10.0,
+  "cast_time": 0,
+  "cooldown": 120000,
+  "energy_cost": 30,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "rogue_spell_1216_debuff",
+      "value": 30,
+      "duration": 20000,
+      "tick_rate": 0,
+      "damage_increase": 30,
+      "cannot_be_evaded": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "death_mark",
+    "buff_effect": "red_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "vengeance_cry",
+    "buff_sound": "threat_hum"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [
+      "vindication"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

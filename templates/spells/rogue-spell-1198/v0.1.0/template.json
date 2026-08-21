@@ -1,0 +1,58 @@
+{
+  "id": "rogue_spell_1198",
+  "name": "Rogue Spell 1198",
+  "description": "Augmente votre vitesse d'attaque de 30% et affecte tous les ennemis proches",
+  "icon": "rogue_spell_1198_icon",
+  "school": "rogue",
+  "rarity": "rare",
+  "spell_type": "attack_buff",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 0,
+  "cooldown": 120000,
+  "energy_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "rogue_spell_1198_buff",
+      "value": 30,
+      "duration": 15000,
+      "tick_rate": 0,
+      "attack_speed_bonus": 30,
+      "aoe_damage": true,
+      "radius": 8.0,
+      "damage_multiplier": 0.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "rogue_spell_1198_sparks",
+    "buff_effect": "whirling_rogue_spell_1198s"
+  },
+  "sound_effects": {
+    "cast_sound": "rogue_spell_1198s_whirling",
+    "buff_sound": "combat_frenzy"
+  },
+  "requirements": {
+    "level": 14,
+    "skills": [
+      "dual_wield",
+      "sword_mastery"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_blade_flurry": {
+      "unlock_level": 26,
+      "description": "Durée augmentée et dégâts AOE plus importants",
+      "duration_bonus": 5000,
+      "damage_multiplier": 0.7
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

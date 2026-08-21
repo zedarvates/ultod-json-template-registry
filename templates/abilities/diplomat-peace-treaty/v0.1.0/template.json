@@ -1,0 +1,89 @@
+{
+  "id": "diplomat_peace_treaty",
+  "name": "Traité de Paix",
+  "description": "Négocie un traité de paix entre factions ennemies",
+  "ability_type": "active",
+  "category": "social",
+  "cooldown": 300000,
+  "mana_cost": 100,
+  "cast_time": 10000,
+  "range": 0,
+  "target_type": "faction",
+  "duration": 0,
+  "effects": [
+    {
+      "effect_type": "peace_treaty",
+      "value": 1.0,
+      "duration": 0,
+      "tick_rate": 0,
+      "treaty_type": "permanent"
+    },
+    {
+      "effect_type": "reputation_boost",
+      "value": 0.5,
+      "duration": 0,
+      "tick_rate": 0,
+      "reputation_type": "all_factions"
+    },
+    {
+      "effect_type": "trade_bonus",
+      "value": 0.4,
+      "duration": 0,
+      "tick_rate": 0,
+      "trade_type": "inter_faction"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "peace_formation",
+    "treaty_effect": "diplomatic_document",
+    "reputation_effect": "faction_harmony"
+  },
+  "sound_effects": {
+    "cast_sound": "peace_declaration",
+    "treaty_sound": "diplomatic_agreement",
+    "reputation_sound": "faction_harmony"
+  },
+  "scaling": {
+    "diplomacy_skill": 2.0,
+    "social_mastery": 1.8
+  },
+  "requirements": {
+    "level": 50,
+    "abilities": [
+      "persuasion_mastery",
+      "faction_negotiation"
+    ],
+    "class": "diplomat"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "success_rate": 0.3,
+      "reputation_boost": 0.2,
+      "trade_bonus": 0.1
+    },
+    "journeyman": {
+      "success_rate": 0.5,
+      "reputation_boost": 0.3,
+      "trade_bonus": 0.2,
+      "cooldown_reduction": 0.2
+    },
+    "master": {
+      "success_rate": 0.7,
+      "reputation_boost": 0.4,
+      "trade_bonus": 0.3,
+      "cooldown_reduction": 0.4,
+      "unique_treaties": true
+    },
+    "grandmaster": {
+      "success_rate": 0.9,
+      "reputation_boost": 0.5,
+      "trade_bonus": 0.4,
+      "cooldown_reduction": 0.6,
+      "unique_treaties": true,
+      "ability_unlock": "world_peace"
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

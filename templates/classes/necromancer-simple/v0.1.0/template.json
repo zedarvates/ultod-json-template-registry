@@ -1,0 +1,46 @@
+{
+  "id": "necromancer_simple",
+  "name": "Necromancer",
+  "description": "Masters of death and undeath, commanding armies of the damned.",
+  "base_stats": {
+    "strength": 8,
+    "dexterity": 10,
+    "constitution": 12,
+    "intelligence": 25,
+    "wisdom": 18,
+    "charisma": 5
+  },
+  "specializations": [
+    {
+      "id": "summoning",
+      "name": "Summoning",
+      "description": "Focuses on raising and strengthening undead minions.",
+      "talents": [
+        "horde_leader",
+        "bone_shield"
+      ],
+      "abilities": [
+        "raise_skeleton",
+        "command_minion"
+      ]
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": "dark_soul",
+            "name": "Dark Soul",
+            "description": "Increases necrotic damage by 10% per rank.",
+            "max_rank": 5,
+            "prerequisites": []
+          }
+        ]
+      }
+    ]
+  },
+  "template_type": "class",
+  "version": "0.1.0"
+}

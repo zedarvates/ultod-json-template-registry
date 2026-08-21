@@ -1,0 +1,166 @@
+{
+  "id": "aberration_creature_0001",
+  "name": "Aberration Creature 0001",
+  "description": "Une créature sphérique flottante d'environ 6 pieds de diamètre, avec un grand œil central rougeoyant et douze yeux pédonculés plus petits. Sa peau cristalline irise de couleurs Psychic et sa présence radiate une aura de malveillance Psychic. Ses capacités de téléportation et de désintégration en font l'un des monstres les plus dangereux.",
+  "icon": "aberration_creature_0001_icon",
+  "category": "aberration",
+  "rarity": "legendary",
+  "base_stats": {
+    "health": 180,
+    "mana": 290,
+    "strength": 18,
+    "dexterity": 14,
+    "intelligence": 17,
+    "wisdom": 15,
+    "constitution": 18,
+    "charisma": 17
+  },
+  "properties": {
+    "size": "large",
+    "size_modifiers": {
+      "health_multiplier": 2.0,
+      "damage_multiplier": 1.5,
+      "speed_modifier": 0.85,
+      "space_requirement": 10,
+      "strength_bonus": 4,
+      "constitution_bonus": 2
+    },
+    "alignment": "chaotic evil",
+    "languages": [
+      "deep speech",
+      "undercommon",
+      "telepathy 120 ft"
+    ],
+    "challenge_rating": "13",
+    "experience_value": 10000
+  },
+  "movement_speed": {
+    "base_speed": 20,
+    "speed_types": {
+      "walk": 20,
+      "burrow": 0,
+      "climb": 0,
+      "fly": 50,
+      "swim": 0,
+      "space": 0
+    },
+    "speed_modifiers": {
+      "size_modifier": 0.85,
+      "biome_modifiers": {
+        "forest": 0.9,
+        "swamp": 0.8,
+        "mountains": 0.9,
+        "desert": 1.0,
+        "tundra": 0.95,
+        "jungle": 0.8,
+        "underground": 0.95,
+        "underwater": 0.0,
+        "aerial": 1.1,
+        "space": 0.0
+      },
+      "environmental_modifiers": {
+        "weather": 0.9,
+        "lighting": 1.0,
+        "terrain": 1.0
+      }
+    },
+    "movement_abilities": [
+      "flight_mastery",
+      "hover",
+      "magical_movement"
+    ],
+    "movement_restrictions": [
+      "cannot_swim",
+      "cannot_burrow",
+      "cannot_climb"
+    ]
+  },
+  "properties_aberration": {
+    "eye_rays": [
+      "charm_ray",
+      "paralyze_ray",
+      "fear_ray",
+      "slow_ray",
+      "death_ray",
+      "petrification_ray",
+      "disintegration_ray",
+      "sleep_ray",
+      "lightning_ray",
+      "cold_ray",
+      "petrification_ray",
+      "fire_ray"
+    ],
+    "psionic_resistance": 80,
+    "teleportation_resistance": 60,
+    "antimagic_cone_immunity": true,
+    "paralysis_immunity": true
+  },
+  "abilities": [
+    "central_eye_death_ray",
+    "antimagic_cone",
+    "teleport",
+    "levitate",
+    "disintegration_beam",
+    "fear_aura",
+    "eye_ray_barrage"
+  ],
+  "resistances": {
+    "psychic": 90,
+    "magic": 70,
+    "poison": 50
+  },
+  "weaknesses": [
+    "dispel_magic",
+    "counterspell",
+    "silence"
+  ],
+  "immunities": [
+    "charmed",
+    "frightened",
+    "paralyzed",
+    "petrified"
+  ],
+  "senses": {
+    "darkvision": 120,
+    "truesight": 120
+  },
+  "loot_table": {
+    "common_drops": [
+      "aberration_creature_0001_eye",
+      "crystalline_fragment",
+      "levitation_crystal"
+    ],
+    "rare_drops": [
+      "antimagic_cone_manual",
+      "eye_ray_staff",
+      "psychic_amplifier"
+    ],
+    "epic_drops": [
+      "aberration_creature_0001_central_eye",
+      "reality_disruptor"
+    ],
+    "legendary_drops": [
+      "aberration_creature_0001_artifact",
+      "masterwork_eye_staff"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "extreme",
+    "intelligence_level": "genius",
+    "tactical_awareness": "strategic",
+    "attack_pattern": "eye_ray_barrage",
+    "defensive_patterns": [
+      "antimagic_cone",
+      "teleport_escape",
+      "levitation_dodge"
+    ],
+    "special_behaviors": [
+      "prefers_flying_combat",
+      "targets_casters_first",
+      "uses_teleportation_tactically",
+      "maintains_optimal_range"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

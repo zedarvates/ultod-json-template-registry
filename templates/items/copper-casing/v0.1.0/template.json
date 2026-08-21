@@ -1,13 +1,21 @@
 {
   "id": "copper_casing",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Copper Casing",
-  "description": "A shaped copper shell for mechanical and tool-assembly recipes.",
+  "name": "copper_casing",
+  "description": "Generated copper_casing item template.",
+  "icon": "copper_casing_icon",
   "category": "material",
   "rarity": "common",
-  "stack_limit": 100,
-  "weight_kg": 0.25,
-  "tags": ["crafting", "metal", "component"],
-  "dependencies": []
+  "item_type": "material",
+  "sub_type": "generic",
+  "base_stats": {
+    "durability": 1,
+    "max_durability": 1,
+    "weight": 0.1,
+    "value": 1
+  },
+  "properties": {},
+  "requirements": {},
+  "effects": [],
+  "template_type": "item",
+  "version": "0.1.0"
 }

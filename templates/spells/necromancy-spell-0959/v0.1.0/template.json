@@ -1,0 +1,74 @@
+{
+  "id": "necromancy_spell_0959",
+  "name": "Necromancy Spell 0959",
+  "description": "Fait vite faner et vieillir la cible, réduisant ses capacités physiques et causant des dégâts d'épuisement",
+  "icon": "necromancy_spell_0959_icon",
+  "school": "necromancy",
+  "rarity": "uncommon",
+  "spell_type": " accelerated_aging_debuff",
+  "target_type": "enemy_target",
+  "range": 35.0,
+  "cast_time": 2500,
+  "cooldown": 20000,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 40,
+    "damage_type": "age_acceleration_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "temporal_deterioration_armor",
+      "value": 180,
+      "duration": 20000,
+      "tick_rate": 3000,
+      "aging_damage_per_tick": 35,
+      "maximum_age_years_added": 50,
+      "physical_attribute_reduction": 30,
+      "healing_reduction_percent": 65,
+      "temporary_max_health_loss": 200,
+      "permanent_age_damage_persistence": 0.4
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dark_energy_tendrils_wrapping_time_energy_converging_dreadful",
+    "application_effect": "target_aging_visibly_wrinkles_hair_necromancy_spell_0959ing_flames_encompassing",
+    "active_effect": "victim_deteriorating_visibly_weakening_every_moment_cracking_disintegrating",
+    "damage_effect": "necromancy_spell_0959ing_damage_explosions_black_energy_burst_target_continuing_decay",
+    "expiration_effect": "necromancy_spell_0959ing_fading_target_returning_normal_but_weakened_ageing_damage_remained"
+  },
+  "sound_effects": {
+    "cast_effect": "dark_time_energy_wrapping_whispering_dread_time_unraveling",
+    "application_effect": "target_aging_crackling_body_shriveling_energy_sucking_vitality",
+    "active_effect": "victim_weakening_crackling_body_breaking_continual_energy_drain",
+    "damage_effect": "necromancy_spell_0959ing_damge_burst_target_crying_crackling_energy_disintegration",
+    "expiration_effect": "necromancy_spell_0959ing_fading_target_breathing_heavy_broken_weakness_remaining"
+  },
+  "requirements": {
+    "level": 26,
+    "skills": [
+      "necromancy",
+      "temporal_corruption",
+      "age_manipulation"
+    ],
+    "classes": [
+      "necromancer",
+      "temporal_corrupter",
+      "decay_lord"
+    ],
+    "specializations": [
+      "time_erosion_specialist"
+    ]
+  },
+  "upgrades": {
+    "greater_wither": {
+      "unlock_level": 41,
+      "description": "Le Necromancy Spell 0959 devient plus corrosif avec des effets de vieillissement améliorés",
+      "aging_damage_multiplier": 2.0,
+      "attribute_reduction_increase": 45,
+      "permanent_zoom_damage_boost": 0.6,
+      "area_withering_wave": 6.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

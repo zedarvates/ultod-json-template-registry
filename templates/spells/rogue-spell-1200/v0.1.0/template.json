@@ -1,0 +1,53 @@
+{
+  "id": "rogue_spell_1200",
+  "name": "Rogue Spell 1200",
+  "description": "Restaure de la vie instantanément",
+  "icon": "rogue_spell_1200_icon",
+  "school": "rogue",
+  "rarity": "common",
+  "spell_type": "healing_spell",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 0,
+  "cooldown": 30000,
+  "energy_cost": 20,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "instant_heal",
+      "value": 1,
+      "heal_amount": 120,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "potion_drink",
+    "buff_effect": "health_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "potion_gulp",
+    "buff_sound": "health_restore"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "first_aid"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_crimson_vial": {
+      "unlock_level": 15,
+      "description": "Soins augmentés",
+      "heal_multiplier": 1.5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "blizzard",
+  "name": "Blizzard",
+  "description": "Ice storm",
+  "type": "active",
+  "level_requirement": 1,
+  "class_restriction": [],
+  "resource_cost": {
+    "type": "mana",
+    "amount": 20
+  },
+  "cooldown_seconds": 10,
+  "range": 15.0,
+  "effects": [],
+  "template_type": "ability",
+  "version": "0.1.0"
+}

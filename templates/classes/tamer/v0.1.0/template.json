@@ -1,0 +1,64 @@
+{
+  "id": "tamer",
+  "name": "Dompteur",
+  "description": "Maître des créatures, capable de dompter et contrôler des animaux et monstres",
+  "color": "8B4513",
+  "primary_resource": "focus",
+  "base_stats": {
+    "strength": 1.1,
+    "agility": 1.2,
+    "intelligence": 0.9,
+    "vitality": 1.0,
+    "wisdom": 1.3,
+    "charisma": 1.4
+  },
+  "available_classes": [
+    "tamer"
+  ],
+  "starting_skills": [
+    {
+      "id": 24001,
+      "name": "Dressage",
+      "description": "Permet de monter et contrôler des créatures",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 3.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": true
+    },
+    {
+      "id": 24002,
+      "name": "Domptage",
+      "description": "Tentative de dompter une créature sauvage",
+      "cooldown": 10000,
+      "mana_cost": 25,
+      "range": 3.0,
+      "cast_time": 3000,
+      "learned_at_level": 1,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 0,
+        "talents": [
+          {
+            "id": 24001,
+            "name": "Lien Animal",
+            "description": "+25% chance de domptage réussi et +20% loyauté des créatures",
+            "max_rank": 5,
+            "icon_path": "animal_bond"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100,
+  "health_modifier": 0.9,
+  "damage_modifier": 0.8,
+  "armor_modifier": 0.9,
+  "template_type": "class",
+  "version": "0.1.0"
+}

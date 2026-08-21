@@ -1,0 +1,55 @@
+{
+  "id": "illusion_spell_0971",
+  "name": "Illusion Spell 0971",
+  "description": "Crée des illusions de soi pour confondre et distraire les ennemis",
+  "icon": "illusion_spell_0971_icon",
+  "school": "illusion",
+  "rarity": "rare",
+  "spell_type": "utility",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 1000,
+  "cooldown": 20000,
+  "mana_cost": 40,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "illusion",
+      "value": 2,
+      "duration": 10000,
+      "tick_rate": 0,
+      "illusions_count": 2,
+      "confusion_chance": 0.3
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "illusion_spell_0971_shatter",
+    "projectile_effect": null,
+    "hit_effect": "illusion_spawn"
+  },
+  "sound_effects": {
+    "cast_sound": "glass_break",
+    "projectile_sound": null,
+    "hit_sound": "echo_laughter"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "illusion",
+      "stealth"
+    ],
+    "classes": [
+      "ninja",
+      "mage"
+    ]
+  },
+  "upgrades": {
+    "triple_illusion": {
+      "unlock_level": 25,
+      "description": "Augmente le nombre d'illusions créées par Illusion Spell 0971",
+      "illusions_bonus": 1
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

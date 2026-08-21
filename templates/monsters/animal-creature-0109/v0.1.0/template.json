@@ -1,0 +1,58 @@
+{
+  "id": "animal_creature_0109",
+  "name": "Animal Creature 0109",
+  "description": "Reptile sinueux et venimeux qui se camoufle et frappe rapidement",
+  "icon": "animal_creature_0109_icon",
+  "category": "animal",
+  "rarity": "uncommon",
+  "base_stats": {
+    "health": 45,
+    "mana": 15,
+    "strength": 8,
+    "dexterity": 16,
+    "intelligence": 6,
+    "wisdom": 12,
+    "constitution": 9,
+    "charisma": 8
+  },
+  "properties": {
+    "is_aggressive": true,
+    "is_wild": true,
+    "size": "small",
+    "speed": 7.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "animal_creature_0109_meat",
+      "animal_creature_0109_skin"
+    ],
+    "rare_drops": [
+      "animal_creature_0109_venom",
+      "animal_creature_0109_fang"
+    ],
+    "epic_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "medium",
+    "attack_pattern": "ambush_strike",
+    "special_abilities": [
+      "camouflage",
+      "venomous_bite"
+    ]
+  },
+  "abilities": [
+    "venom_strike",
+    "constrict",
+    "camouflage"
+  ],
+  "resistances": {
+    "physical": 12,
+    "poison": 25
+  },
+  "weaknesses": [
+    "cold",
+    "crushing_damage"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

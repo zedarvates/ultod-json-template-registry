@@ -1,0 +1,41 @@
+{
+  "template_type": "lineage",
+  "version": "0.1.0",
+  "id": "void_touched",
+  "name": "Void Touched",
+  "description": "A lineage fractured by contact with the void-between-worlds, granting shadow sight and hollow resilience.",
+  "icon": "lineage_void_touched",
+  "rarity": "rare",
+  "required_level": 20,
+  "awakening_cost": {
+    "gold": 3000,
+    "experience": 6000
+  },
+  "stat_bonuses": {
+    "intelligence": 10,
+    "wisdom": 6
+  },
+  "resistance_bonuses": {
+    "shadow": 20
+  },
+  "skill_bonuses": {
+    "shadow_damage": 1.08
+  },
+  "awakening_bonuses": {
+    "void_blink_unlock": true
+  },
+  "racial_synergies": {
+    "umbral": 1.12
+  },
+  "class_synergies": {
+    "necromancer": 1.08,
+    "rogue": 1.05
+  },
+  "visual_effects": {
+    "eye_glow": "void_purple"
+  },
+  "requirements": {
+    "min_level": 20
+  },
+  "enabled": true
+}

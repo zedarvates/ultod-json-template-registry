@@ -1,0 +1,66 @@
+{
+  "id": "time_manipulation",
+  "name": "Manipulation du Temps",
+  "description": "Capacité à altérer le flux du temps autour de soi et des autres",
+  "icon": "time_manipulation_icon",
+  "category": "temporal",
+  "rarity": "legendary",
+  "stat_modifiers": {
+    "haste": 0.2,
+    "slow_resistance": 0.5
+  },
+  "passive_effects": [
+    {
+      "id": "temporal_awareness",
+      "name": "Conscience Temporelle",
+      "description": "Peut percevoir et réagir aux changements temporels",
+      "modifier_type": "temporal_perception",
+      "value": 100.0
+    },
+    {
+      "id": "aging_resistance",
+      "name": "Résistance au Vieillissement",
+      "description": "Vieillit beaucoup plus lentement que la normale",
+      "modifier_type": "aging_rate",
+      "value": 0.1
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "time_slow",
+      "name": "Ralentissement Temporel",
+      "description": "Ralentit le temps pour tous les ennemis dans une zone",
+      "cooldown": 180000,
+      "duration": 20000,
+      "effects": {
+        "slow_percentage": 60,
+        "aoe_range": 15.0
+      }
+    },
+    {
+      "id": "time_accelerate",
+      "name": "Accélération Temporelle",
+      "description": "Accélère ses propres actions pendant un court moment",
+      "cooldown": 120000,
+      "duration": 10000,
+      "effects": {
+        "haste_percentage": 100,
+        "attack_speed_bonus": 50
+      }
+    },
+    {
+      "id": "time_rewind",
+      "name": "Retour en Arrière",
+      "description": "Remet sa santé à l'état d'il y a quelques secondes",
+      "cooldown": 600000,
+      "duration": 0,
+      "effects": {
+        "health_rewind_seconds": 10,
+        "mana_cost": 200
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "monster_creature_0134",
+  "name": "Monster Creature 0134",
+  "description": "Ancient and powerful creature that breathes fire and guards treasures",
+  "icon": "monsters/monster_creature_0134_icon.png",
+  "category": "monster",
+  "rarity": "legendary",
+  "base_stats": {
+    "level": 50,
+    "hp": 5000,
+    "max_hp": 5000,
+    "mana": 2000,
+    "max_mana": 2000,
+    "strength": 100,
+    "dexterity": 80,
+    "intelligence": 120,
+    "wisdom": 90,
+    "constitution": 150,
+    "charisma": 70,
+    "speed": 2.5,
+    "size": 5.0,
+    "weight": 2000.0
+  },
+  "properties": {
+    "is_aggressive": true,
+    "is_flying": true,
+    "is_aquatic": false,
+    "is_undead": false,
+    "is_elemental": false,
+    "is_mechanical": false,
+    "is_magical": true,
+    "is_divine": false,
+    "is_fiendish": false,
+    "is_wild": true,
+    "is_tameable": false,
+    "is_summonable": false,
+    "is_soulbound": false,
+    "is_cursed": false,
+    "is_blessed": false,
+    "is_poisoned": false,
+    "is_paralyzed": false,
+    "is_silenced": false,
+    "is_blinded": false,
+    "is_deafened": false,
+    "is_charmed": false,
+    "is_frightened": false,
+    "is_confused": false,
+    "is_stunned": false,
+    "is_sleeping": false,
+    "is_invisible": false,
+    "is_invulnerable": false,
+    "is_immortal": false,
+    "is_unique": true,
+    "is_boss": true,
+    "is_mini_boss": false,
+    "is_elite": true,
+    "is_rare": false,
+    "is_common": false,
+    "is_uncommon": false,
+    "is_legendary": true,
+    "is_mythical": false
+  },
+  "loot_table": {
+    "gold": {
+      "min": 1000,
+      "max": 5000
+    },
+    "items": [
+      {
+        "item_id": "monster_creature_0134_scale",
+        "chance": 0.8,
+        "min_quantity": 5,
+        "max_quantity": 15
+      },
+      {
+        "item_id": "monster_creature_0134_heart",
+        "chance": 0.3,
+        "min_quantity": 1,
+        "max_quantity": 1
+      },
+      {
+        "item_id": "magic_crystal",
+        "chance": 0.6,
+        "min_quantity": 3,
+        "max_quantity": 8
+      }
+    ]
+  },
+  "ai_behavior": {
+    "vision_range": 50.0,
+    "hearing_range": 40.0,
+    "wander_chance": 0.1,
+    "wander_range": 20.0,
+    "max_targets": 5,
+    "combat_style": "aggressive",
+    "preferred_attack": "fire_breath"
+  },
+  "abilities": [
+    "fire_breath",
+    "wing_buffet",
+    "tail_sweep",
+    "monster_creature_0134_roar"
+  ],
+  "resistances": {
+    "fire": 1.0,
+    "ice": -0.5,
+    "lightning": 0.2,
+    "poison": 0.8,
+    "physical": 0.3
+  },
+  "weaknesses": [
+    "ice",
+    "lightning"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

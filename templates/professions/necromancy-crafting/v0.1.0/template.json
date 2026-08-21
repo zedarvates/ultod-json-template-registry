@@ -1,0 +1,127 @@
+{
+  "profession": "necromancy_crafting",
+  "display_name": "Forge Nécromantique",
+  "description": "Art interdit de lier les âmes et la mort dans des artefacts impies",
+  "icon_path": "icons/professions/necromancy_crafting.png",
+  "category": "necromantic_crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "soulbound_talisman",
+      "name": "Talisman Lié à l'Âme",
+      "description": "Talisman imprégné de fragments d'âme pour renforcer les sorts",
+      "profession": "necromancy_crafting",
+      "difficulty": 75,
+      "base_success_rate": 0.55,
+      "skill_required": 65,
+      "experience_gain": 85,
+      "exceptional_chance": 0.18,
+      "time_required_seconds": 360,
+      "components": [
+        {
+          "item_type": "soul_crystal",
+          "quantity": 3,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "bone_fragments",
+          "quantity": 5,
+          "quality_required": "standard",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "dark_rune",
+          "quantity": 2,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "essence_of_death",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "soulbound_talisman",
+          "name": "Talisman Lié à l'Âme",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.6,
+          "durability_modifier": 1.2
+        }
+      ],
+      "conditions": {
+        "profession_level": 55,
+        "required_tools": [
+          "necromantic_altar",
+          "soul_forge",
+          "soul_binder"
+        ],
+        "environmental_factors": [
+          "graveyard_presence"
+        ]
+      }
+    },
+    {
+      "id": "lich_kings_scepter",
+      "name": "Sceptre du Roi-Liche",
+      "description": "Artefact légendaire transmettant les pouvoirs des morts-vivants",
+      "profession": "necromancy_crafting",
+      "difficulty": 95,
+      "base_success_rate": 0.35,
+      "skill_required": 85,
+      "experience_gain": 120,
+      "exceptional_chance": 0.25,
+      "time_required_seconds": 600,
+      "components": [
+        {
+          "item_type": "lich_crystal",
+          "quantity": 5,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "undead_essence",
+          "quantity": 10,
+          "quality_required": "excellent",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "cursed_metal",
+          "quantity": 8,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "forbidden_rune",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "lich_kings_scepter",
+          "name": "Sceptre du Roi-Liche",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 2.2,
+          "durability_modifier": 2.5
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "soul_binding",
+    "undead_animation",
+    "curse_weaving",
+    "death_magic_enhancement"
+  ],
+  "id": "necromancy_crafting",
+  "name": "Necromancy Crafting",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

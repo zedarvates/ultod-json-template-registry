@@ -1,0 +1,37 @@
+{
+  "school": "spiritualism_spell_1413ualism",
+  "rarity": "common",
+  "target_type": "single",
+  "range": 10.0,
+  "cast_time": 2500,
+  "cooldown": 30000,
+  "mana_cost": 40,
+  "visual_effects": {
+    "cast_effect": "spiritualism_spell_1413ualism_spell_1413_cast",
+    "projectile_effect": "none",
+    "impact_effect": "spiritualism_spell_1413ualism_spell_1413_impact",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "spiritualism_spell_1413ualism_spell_1413_cast_sound",
+    "impact_sound": "spiritualism_spell_1413ualism_spell_1413_impact_sound"
+  },
+  "requirements": {
+    "level": 10
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "spiritualism_spell_1413",
+  "name": "Spiritualism Spell 1413",
+  "description": "Creates a shield of spiritualism_spell_1413ual energy that absorbs damage",
+  "icon": "spiritualism_spell_1413ualism_spell_1413_icon",
+  "spell_type": "buff",
+  "effects": {
+    "shield_value": 300,
+    "duration": 20000,
+    "scaling": {
+      "spirit": 1.0
+    }
+  },
+  "template_type": "spell"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "enchantment_spell_0081",
+  "name": "Enchantment Spell 0081",
+  "description": "Le barde hurle un cri de guerre qui force les ennemis à prendre une décision fatale et vulnérable",
+  "icon": "enchantment_spell_0081_cry_adapted_referencetum_icon",
+  "school": "enchantment",
+  "rarity": "rare",
+  "spell_type": "vocal_command",
+  "target_type": "area_enemy",
+  "range": 25.0,
+  "cast_time": 2000,
+  "cooldown": 22000,
+  "mana_cost": 75,
+  "damage": {
+    "base_damage": 125,
+    "damage_type": "psychic_command",
+    "scaling": {
+      "charisma": 2.0,
+      "strength": 0.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "taunt_adapted_referencetum",
+      "value": 100,
+      "duration": 12000,
+      "tick_rate": 0,
+      "aoe_range": 20.0,
+      "forced_attention": true,
+      "aggro_override": 2.0,
+      "vulnerability_expose": 0.25,
+      "max_targets": 8,
+      "vocal_dependency": 1.0
+    },
+    {
+      "effect_type": "intimidation_weakness",
+      "value": 75,
+      "duration": 15000,
+      "tick_rate": 0,
+      "damage_taken_increase": 0.15,
+      "fear_resistance_decrease": 0.3,
+      "resolve_break_chance": 0.2,
+      "max_targets": 6
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "enchantment_spell_0081_standard_burst",
+    "cry_effect": "shockwave_voice_rings",
+    "taunt_effect": "commanding_aura_pulses",
+    "expire_effect": "authority_shift"
+  },
+  "sound_effects": {
+    "cast_sound": "war_horn_primal_roar",
+    "cry_sound": "thunderous_war_cry",
+    "command_sound": "authoritative_vocal_boom",
+    "echo_sound": "lingering_command_resonance"
+  },
+  "requirements": {
+    "level": 28,
+    "skills": [
+      "performance",
+      "intimidation",
+      "command",
+      "vocal_magic"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour",
+      "war_singer"
+    ],
+    "specializations": [
+      "enchantment_spell_0081_crier",
+      "field_commander"
+    ]
+  },
+  "silence_interactions": {
+    "spell_suppression": true,
+    "silence_resistance": 0.1,
+    "suppressed_effects": [
+      "taunt_adapted_referencetum",
+      "intimidation_weakness"
+    ],
+    "suppression_message": "Votre cri est étouffé, l'adapted_referencetum n'a aucun effet!",
+    "silence_disruption": "Le cri nécessite une voix puissante pour intimider"
+  },
+  "upgrades": {
+    "commanding_presence": {
+      "unlock_level": 38,
+      "description": "Votre voix porte plus loin et inspire une plus grande loyauté",
+      "aoe_range_bonus": 10.0,
+      "silence_resistance_bonus": 0.2,
+      "loyalty_increase": 0.3
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

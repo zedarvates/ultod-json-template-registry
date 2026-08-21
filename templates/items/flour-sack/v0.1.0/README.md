@@ -1,7 +1,7 @@
 # Flour Sack v0.1.0
 
-Status: `experimental`.
+Statut : `experimental`.
 
-Original public-safe adaptation informed by `item/flour_sack_item.json`. Prices, stock, shop data, internal controls, and asset paths are intentionally excluded.
+Source auditée : `item/flour_sack_item.json`. Les contrôles administratifs, données commerciales et chemins internes sont retirés.
 
-No client or server compatibility is certified. Consumers must validate inventory limits, crafting use, and all authoritative state changes server-side.
+Aucune compatibilité client ou serveur n'est certifiée.

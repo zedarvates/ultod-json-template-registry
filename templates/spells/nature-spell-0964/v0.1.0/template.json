@@ -1,0 +1,61 @@
+{
+  "id": "nature_spell_0964",
+  "name": "Nature Spell 0964",
+  "description": "Applique un Nature Spell 0964 qui inflige des dégâts au fil du temps et réduit les soins reçus",
+  "icon": "nature_spell_0964_icon",
+  "school": "nature",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "single_enemy",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 30,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "poison",
+      "value": 25,
+      "duration": 15000,
+      "tick_rate": 3000,
+      "damage_type": "nature"
+    },
+    {
+      "effect_type": "healing_reduction",
+      "value": 30,
+      "duration": 15000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "poison_apply",
+    "projectile_effect": null,
+    "hit_effect": "green_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "poison_bubble",
+    "projectile_sound": null,
+    "hit_sound": "liquid_drip"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "poison_mastery"
+    ],
+    "classes": [
+      "ninja",
+      "rogue",
+      "warlock"
+    ]
+  },
+  "upgrades": {
+    "lethal_poison": {
+      "unlock_level": 22,
+      "description": "Augmente les dégâts du Nature Spell 0964",
+      "damage_bonus": 15,
+      "healing_reduction_bonus": 15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

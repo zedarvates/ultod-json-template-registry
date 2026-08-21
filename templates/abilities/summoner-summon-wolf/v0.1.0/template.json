@@ -1,0 +1,64 @@
+{
+  "id": "summoner_summon_wolf",
+  "name": "Invocation de Loup",
+  "description": "Invoque un loup sauvage pour combattre à vos côtés",
+  "icon": "summon_wolf_icon",
+  "category": "combat",
+  "rarity": "common",
+  "ability_type": "summon",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 2500,
+  "cooldown": 18000,
+  "resource_cost": {
+    "type": "mana",
+    "amount": 35
+  },
+  "duration": 360000,
+  "effects": [
+    {
+      "effect_type": "summon_pet",
+      "pet_template_id": "summoned_wolf",
+      "pet_level": "caster_level",
+      "pet_duration": 360000,
+      "scaling": {
+        "wisdom": 0.4,
+        "level": 0.9
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "nature_circle_summon",
+    "summon_effect": "wolf_portal_howl",
+    "active_effect": "wolf_pack_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "nature_whisper",
+    "summon_sound": "wolf_howl_summon",
+    "active_sound": "wolf_pack_howl"
+  },
+  "requirements": {
+    "level": 3,
+    "class": "summoner",
+    "specialization": "beast_mastery",
+    "skills": [
+      "beast_lore"
+    ]
+  },
+  "upgrades": {
+    "ferocious_wolf": {
+      "unlock_level": 12,
+      "description": "Le loup est plus agressif et rapide",
+      "pet_damage_bonus": 30,
+      "pet_attack_speed_bonus": 20
+    },
+    "pack_leader": {
+      "unlock_level": 25,
+      "description": "Peut invoquer un loup supplémentaire",
+      "additional_pet": "summoned_wolf_pup",
+      "pack_damage_bonus": 15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

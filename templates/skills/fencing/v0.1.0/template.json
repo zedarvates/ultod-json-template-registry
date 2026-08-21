@@ -1,0 +1,458 @@
+{
+  "id": "fencing",
+  "name": "Fencing",
+  "description": "Master the art of wielding piercing weapons with precision and deadly accuracy",
+  "category": "combat",
+  "skill_type": "weapon_mastery",
+  "base_gain_chance": 0.45,
+  "gain_rate": 1.0,
+  "skill_cap": 100.0,
+  "real_skill_cap": 700.0,
+  "stat_dependencies": [
+    "dexterity",
+    "intelligence"
+  ],
+  "stat_multipliers": {
+    "dexterity": 0.8,
+    "intelligence": 0.2
+  },
+  "weapon_types": [
+    "rapier",
+    "foil",
+    "épée",
+    "dagger",
+    "stiletto",
+    "spear",
+    "lance",
+    "pike"
+  ],
+  "training_methods": {
+    "sparring": {
+      "gain_multiplier": 1.2,
+      "requirements": [
+        "training_partner",
+        "fencing_area",
+        "protective_gear"
+      ],
+      "description": "Practice fencing techniques with another player"
+    },
+    "combat": {
+      "gain_multiplier": 1.0,
+      "requirements": [
+        "enemies",
+        "piercing_weapon",
+        "light_armor"
+      ],
+      "description": "Engage in combat with piercing weapons"
+    },
+    "practice_dummies": {
+      "gain_multiplier": 0.8,
+      "requirements": [
+        "fencing_dummy",
+        "practice_area",
+        "blunted_weapon"
+      ],
+      "description": "Strike practice dummies to improve form and technique"
+    },
+    "footwork_drills": {
+      "gain_multiplier": 0.7,
+      "requirements": [
+        "training_area",
+        "balance_beam",
+        "focus"
+      ],
+      "description": "Practice footwork and balance techniques"
+    }
+  },
+  "special_moves": [
+    {
+      "name": "Flicker Strike",
+      "unlock_level": 25,
+      "description": "Rapid thrust that bypasses armor",
+      "effects": [
+        "armor_ignore",
+        "bonus_damage",
+        "speed_bonus"
+      ],
+      "requirements": [
+        "dexterity",
+        "stamina",
+        "rapier"
+      ],
+      "cooldown": 3000,
+      "range": 2.5
+    },
+    {
+      "name": "Riposte",
+      "unlock_level": 35,
+      "description": "Counterattack after successfully parrying",
+      "effects": [
+        "counter_damage",
+        "stun",
+        "balance_disruption"
+      ],
+      "requirements": [
+        "parry_success",
+        "stamina",
+        "reaction_time"
+      ],
+      "cooldown": 4000,
+      "counter_multiplier": 2.0
+    },
+    {
+      "name": "Lunge",
+      "unlock_level": 40,
+      "description": "Extended reach attack that can disarm",
+      "effects": [
+        "extended_range",
+        "disarm_chance",
+        "armor_penetration"
+      ],
+      "requirements": [
+        "stamina",
+        "balance",
+        "long_weapon"
+      ],
+      "cooldown": 6000,
+      "range": 4.0
+    },
+    {
+      "name": "Fencing Flourish",
+      "unlock_level": 50,
+      "description": "Elegant display that intimidates opponents",
+      "effects": [
+        "intimidate",
+        "defense_reduction",
+        "morale_damage"
+      ],
+      "requirements": [
+        "charisma",
+        "style",
+        "performance"
+      ],
+      "cooldown": 8000,
+      "area_effect": true
+    },
+    {
+      "name": "Precision Thrust",
+      "unlock_level": 60,
+      "description": "Aimed strike at vital points",
+      "effects": [
+        "critical_hit",
+        "bleed",
+        "armor_ignore"
+      ],
+      "requirements": [
+        "focus",
+        "anatomy_knowledge",
+        "steady_hand"
+      ],
+      "cooldown": 10000,
+      "critical_multiplier": 3.0
+    },
+    {
+      "name": "Whirling Blade",
+      "unlock_level": 70,
+      "description": "Spinning attack that hits multiple targets",
+      "effects": [
+        "aoe_damage",
+        "knockback",
+        "disorientation"
+      ],
+      "requirements": [
+        "stamina",
+        "agility",
+        "balanced_weapon"
+      ],
+      "cooldown": 12000,
+      "area_range": 3.0
+    },
+    {
+      "name": "Feint Attack",
+      "unlock_level": 45,
+      "description": "Deceptive attack that opens opponent's defense",
+      "effects": [
+        "defense_ignore",
+        "next_attack_bonus",
+        "confusion"
+      ],
+      "requirements": [
+        "intelligence",
+        "deception",
+        "timing"
+      ],
+      "cooldown": 7000,
+      "success_rate": 0.7
+    },
+    {
+      "name": "Pistol Shot",
+      "unlock_level": 55,
+      "description": "Quick ranged attack with a concealed pistol",
+      "effects": [
+        "ranged_damage",
+        "surprise",
+        "initiative_steal"
+      ],
+      "requirements": [
+        "pistol_skill",
+        "concealment",
+        "surprise"
+      ],
+      "cooldown": 9000,
+      "range": 8.0
+    },
+    {
+      "name": "Duelist's Challenge",
+      "unlock_level": 80,
+      "description": "Formal challenge that forces honorable combat",
+      "effects": [
+        "honor_bond",
+        "damage_increase",
+        "combat_restriction"
+      ],
+      "requirements": [
+        "honor",
+        "leadership",
+        "reputation"
+      ],
+      "cooldown": 15000,
+      "duration": 60000
+    },
+    {
+      "name": "Master's Touch",
+      "unlock_level": 90,
+      "description": "Perfect strike that cannot be dodged or parried",
+      "effects": [
+        "unblockable",
+        "undodgeable",
+        "maximum_damage"
+      ],
+      "requirements": [
+        "perfection",
+        "mastery",
+        "concentration"
+      ],
+      "cooldown": 20000,
+      "guaranteed_hit": true
+    }
+  ],
+  "combat_stances": {
+    "defensive_stance": {
+      "description": "Focus on defense and counterattacks",
+      "defense_bonus": 0.2,
+      "damage_penalty": 0.1,
+      "parry_chance": 0.15,
+      "riposte_chance": 0.1,
+      "movement_speed": 0.9
+    },
+    "aggressive_stance": {
+      "description": "Focus on offense and pressure",
+      "damage_bonus": 0.2,
+      "defense_penalty": 0.1,
+      "attack_speed": 0.15,
+      "critical_chance": 0.05,
+      "movement_speed": 1.1
+    },
+    "balanced_stance": {
+      "description": "Balanced approach to offense and defense",
+      "damage_bonus": 0.1,
+      "defense_bonus": 0.1,
+      "attack_speed": 0.05,
+      "parry_chance": 0.05,
+      "movement_speed": 1.0
+    },
+    "duelist_stance": {
+      "description": "Elegant and precise combat style",
+      "damage_bonus": 0.15,
+      "critical_chance": 0.1,
+      "armor_penetration": 0.1,
+      "dodge_chance": 0.1,
+      "movement_speed": 1.05
+    }
+  },
+  "mastery_levels": {
+    "apprentice": {
+      "level": 50,
+      "requirements": {
+        "skill_level": 50
+      },
+      "bonuses": {
+        "damage_bonus": 0.1,
+        "accuracy_bonus": 5,
+        "parry_chance": 0.05,
+        "riposte_chance": 0.02
+      },
+      "abilities": [
+        "basic_stances",
+        "footwork",
+        "simple_thrusts"
+      ],
+      "title": "Fencing Apprentice",
+      "stance_mastery": 1.1
+    },
+    "journeyman": {
+      "level": 70,
+      "requirements": {
+        "skill_level": 70
+      },
+      "bonuses": {
+        "damage_bonus": 0.2,
+        "accuracy_bonus": 10,
+        "parry_chance": 0.1,
+        "riposte_chance": 0.05,
+        "critical_chance": 0.05
+      },
+      "abilities": [
+        "advanced_stances",
+        "complex_combos",
+        "weapon_switching"
+      ],
+      "title": "Journeyman Fencer",
+      "stance_mastery": 1.2
+    },
+    "master": {
+      "level": 90,
+      "requirements": {
+        "skill_level": 90
+      },
+      "bonuses": {
+        "damage_bonus": 0.3,
+        "accuracy_bonus": 15,
+        "parry_chance": 0.15,
+        "riposte_chance": 0.1,
+        "critical_chance": 0.1,
+        "dodge_chance": 0.05
+      },
+      "abilities": [
+        "master_stances",
+        "perfect_timing",
+        "weapon_mastery",
+        "dueling_expertise"
+      ],
+      "title": "Master Fencer",
+      "stance_mastery": 1.3
+    },
+    "grandmaster": {
+      "level": 100,
+      "requirements": {
+        "skill_level": 100
+      },
+      "bonuses": {
+        "damage_bonus": 0.4,
+        "accuracy_bonus": 20,
+        "parry_chance": 0.2,
+        "riposte_chance": 0.15,
+        "critical_chance": 0.15,
+        "dodge_chance": 0.1,
+        "movement_speed": 0.1
+      },
+      "abilities": [
+        "grandmaster_stances",
+        "perfect_precision",
+        "legendary_techniques",
+        "dueling_mastery"
+      ],
+      "title": "Grandmaster Fencer",
+      "stance_mastery": 1.5,
+      "unique_ability": "perfect_touch"
+    }
+  },
+  "progression_bonuses": {
+    "damage_scaling": {
+      "formula": "base_damage * (1 + skill_level * 0.0035)",
+      "max_multiplier": 2.5
+    },
+    "accuracy_scaling": {
+      "formula": "base_accuracy + skill_level * 0.15",
+      "max_bonus": 30
+    },
+    "parry_scaling": {
+      "formula": "base_parry + skill_level * 0.0015",
+      "max_chance": 0.25
+    },
+    "riposte_scaling": {
+      "formula": "base_riposte + skill_level * 0.001",
+      "max_chance": 0.2
+    }
+  },
+  "synergies": {
+    "tactics": {
+      "bonus_type": "damage",
+      "formula": "0.018 * tactics_skill_level",
+      "max_bonus": 0.4,
+      "description": "Tactics skill increases fencing damage"
+    },
+    "anatomy": {
+      "bonus_type": "critical_chance",
+      "formula": "0.015 * anatomy_skill_level",
+      "max_bonus": 0.25,
+      "description": "Anatomy knowledge improves critical hit chance"
+    },
+    "parrying": {
+      "bonus_type": "riposte_damage",
+      "formula": "0.02 * parrying_skill_level",
+      "max_bonus": 0.35,
+      "description": "Parrying skill enhances riposte damage"
+    },
+    "stealth": {
+      "bonus_type": "surprise_bonus",
+      "formula": "0.012 * stealth_skill_level",
+      "max_bonus": 0.2,
+      "description": "Stealth skill improves surprise attack effectiveness"
+    }
+  },
+  "equipment_requirements": {
+    "weapon_type": "piercing",
+    "minimum_quality": "normal",
+    "durability_threshold": 50,
+    "balance_requirement": "high",
+    "weight_class": "light"
+  },
+  "environmental_factors": {
+    "lighting": {
+      "bright": {
+        "accuracy_bonus": 0.05,
+        "visibility_bonus": 0.1
+      },
+      "dim": {
+        "accuracy_penalty": 0.1,
+        "stealth_bonus": 0.15
+      },
+      "dark": {
+        "accuracy_penalty": 0.2,
+        "stealth_bonus": 0.25
+      }
+    },
+    "terrain": {
+      "smooth": {
+        "movement_bonus": 0.1,
+        "balance_bonus": 0.05
+      },
+      "rough": {
+        "movement_penalty": 0.1,
+        "balance_penalty": 0.05
+      },
+      "uneven": {
+        "movement_penalty": 0.2,
+        "balance_penalty": 0.1
+      }
+    }
+  },
+  "visual_effects": {
+    "skill_activation": "fencing_glow",
+    "critical_hit": "precision_flash",
+    "parry": "steel_spark",
+    "riposte": "counter_strike_effect",
+    "special_move": "fencing_flourish"
+  },
+  "sound_effects": {
+    "weapon_draw": "rapier_draw",
+    "weapon_strike": "rapier_hit",
+    "parry": "steel_clash",
+    "riposte": "counter_strike",
+    "special_move": "fencing_special"
+  },
+  "version": "0.1.0",
+  "last_updated": "2025-11-12",
+  "template_type": "skill"
+}

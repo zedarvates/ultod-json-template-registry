@@ -1,0 +1,80 @@
+{
+  "id": "evocation_spell_0289",
+  "name": "Evocation Spell 0289",
+  "description": "Une frappe puissante chargée de lumière divine qui frappe un ennemi",
+  "icon": "evocation_spell_0289_icon",
+  "school": "evocation",
+  "rarity": "uncommon",
+  "spell_type": "evocation_spell_0289_damage",
+  "target_type": "single_enemy",
+  "range": 45.0,
+  "cast_time": 1600,
+  "cooldown": 8000,
+  "mana_cost": 65,
+  "damage": {
+    "base_damage": 300,
+    "damage_type": "smite_damage",
+    "scaling": {
+      "wisdom": 1.6,
+      "charisma": 1.9
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "evocation_spell_0289_strike",
+      "value": 300,
+      "duration": 0,
+      "tick_rate": 0,
+      "critical_vs_unholy": 0.35,
+      "smite_dot": 50,
+      "dot_duration": 6000,
+      "stun_proc_chance": 0.2,
+      "holy_explosion_radius": 3.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "evocation_spell_0289_energy_gathering",
+    "strike_effect": "blinding_light_smite",
+    "damage_effect": "evocation_spell_0289_energy_scorching",
+    "dot_effect": "persistent_evocation_spell_0289_burn"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_power_gathering",
+    "strike_sound": "heavenly_strike_thunder",
+    "damage_sound": "evocation_spell_0289_energy_burn_sizzle",
+    "dot_sound": "evocation_spell_0289_damage_crackle"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "divine_magic",
+      "smite_training"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "evocation_spell_0289_warrior"
+    ]
+  },
+  "upgrades": {
+    "divine_judgement": {
+      "unlock_level": 22,
+      "description": "La frappe juge automatiquement et inflige plus de dégâts aux coupables",
+      "guilt_detection": true,
+      "judgement_damage_bonus": 0.5,
+      "extra_stun_duration": 2000
+    },
+    "radiant_smite": {
+      "unlock_level": 32,
+      "description": "La frappe laisse une marque radiante qui continue à brûler et à révéler",
+      "radiant_dot_multiplier": 2.0,
+      "glow_reveal_hidden": true,
+      "damage_over_time_falloff": 0.8
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

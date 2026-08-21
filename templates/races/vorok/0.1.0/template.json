@@ -1,0 +1,86 @@
+{
+  "id": "vorok",
+  "name": "Vorok",
+  "description": "A hulking beast-kin cloaked in shaggy hide, bred for endurance and the hunt across frozen steppes.",
+  "icon": "race_vorok",
+  "category": "beast",
+  "rarity": "common",
+  "faction": "neutral",
+  "base_stats": {
+    "strength": 34,
+    "dexterity": 22,
+    "constitution": 32,
+    "intelligence": 12,
+    "wisdom": 14,
+    "charisma": 10,
+    "luck": 14
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 1.0,
+    "experience_rate": 1.0,
+    "health_regeneration": 1.2,
+    "mana_regeneration": 0.9
+  },
+  "available_classes": [
+    "warrior",
+    "ranger",
+    "rogue"
+  ],
+  "racial_traits": [
+    "thick_hide",
+    "keen_scent",
+    "pack_bond"
+  ],
+  "passive_bonuses": {
+    "skill_points_per_level": 1,
+    "attribute_points_per_level": 2,
+    "resistance_to_fear": 5,
+    "bonus_to_all_skills": 0
+  },
+  "starting_equipment": {
+    "weapons": [
+      "bone_cleaver"
+    ],
+    "armor": [
+      "hide_chest"
+    ],
+    "items": [
+      "dried_meat"
+    ]
+  },
+  "body_proportions": {
+    "height_min": 170,
+    "height_max": 210,
+    "weight_min": 90,
+    "weight_max": 160,
+    "body_type": "large"
+  },
+  "appearance_restrictions": {
+    "skin_colors": [
+      "brown",
+      "grey",
+      "snow_white"
+    ],
+    "hair_colors": [
+      "black",
+      "russet"
+    ],
+    "eye_colors": [
+      "yellow",
+      "red"
+    ],
+    "facial_features": "bestial"
+  },
+  "cultural_background": {
+    "languages": [
+      "vorri"
+    ],
+    "starting_city": "Tuskreach",
+    "alignment_tendency": "chaotic_neutral",
+    "cultural_bonuses": {
+      "survival": 10
+    }
+  },
+  "template_type": "race",
+  "version": "0.1.0"
+}

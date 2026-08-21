@@ -1,0 +1,11 @@
+{
+  "id": "1",
+  "name": "gold_pieces",
+  "display_name": "Gold Pieces",
+  "description": "The primary currency in the realm, made from pure gold. Used for major transactions and high-value items.",
+  "icon_path": "icons/currency/gold_piece.png",
+  "max_amount": 999999999,
+  "tradeable": true,
+  "template_type": "currencie",
+  "version": "0.1.0"
+}

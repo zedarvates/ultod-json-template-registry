@@ -1,0 +1,74 @@
+{
+  "id": "healing_spell_0889",
+  "name": "Healing Spell 0889",
+  "description": "Crée une sphère énergétique flottante qui soigne automatiquement les alliés à proximité et bloque les projectiles",
+  "icon": "healing_spell_0889_adapted_reference_icon",
+  "school": "healing_spell_0889",
+  "rarity": "rare",
+  "spell_type": "passive_healing_spell_0889_orb",
+  "target_type": "area_healing_spell_0889_orb",
+  "range": 30.0,
+  "cast_time": 2000,
+  "cooldown": 35000,
+  "mana_cost": 85,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "healing_spell_0889_barrier_energy"
+  },
+  "effects": [
+    {
+      "effect_type": "floating_healing_spell_0889_orb_creation",
+      "value": 220,
+      "duration": 45000,
+      "tick_rate": 1500,
+      "healing_aura_radius": 15.0,
+      "heal_per_tick_allies": 40,
+      "projectile_blocking_orb": true,
+      "orb_follow_speed": 1.5,
+      "regeneration_buff_ally": 25,
+      "damage_reduction_shield": 35
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "healing_spell_0889_energy_adapted_reference_formation_green_white_glowing_orb_materializing",
+    "active_effect": "floating_orb_glowing_green_white_following_caster_healing_spell_0889_beams_allies",
+    "healing_effect": "orb_pulsing_green_beams_allies_health_restoration_glow",
+    "projectile_effect": "incoming_attacks_orange_bolts_orb_barrier_blocking_deflection",
+    "expire_effect": "healing_spell_0889_orb_fading_green_white_energy_dissipating_benefit_lingering"
+  },
+  "sound_effects": {
+    "cast_effect": "healing_spell_0889_adapted_reference_materialization_gentle_chime_energy_gathering",
+    "active_effect": "orb_floating_quiet_humming_gentle_energy_pulsing",
+    "healing_effect": "healing_spell_0889_beams_chime_soothing_energy_wells_restoration",
+    "projectile_effect": "attacks_deflected_crystal_ting_energy_barrier_impact",
+    "expire_effect": "adapted_reference_fade_quieter_humming_gentle_energy_dissolution"
+  },
+  "requirements": {
+    "level": 32,
+    "skills": [
+      "healing_spell_0889_arts",
+      "orb_creation",
+      "barrier_technique"
+    ],
+    "classes": [
+      "monk",
+      "healing_spell_0889_oracle",
+      "protective_monk"
+    ],
+    "specializations": [
+      "adapted_reference_medic"
+    ]
+  },
+  "upgrades": {
+    "greater_healing_sphere": {
+      "unlock_level": 42,
+      "description": "La healing_spell_0889 Spell 0889 devient plus efficace avec des effets de soin et de protection accrus",
+      "healing_per_tick_increase_percent": 120,
+      "protective_shield_strength_increase": 50,
+      "multiple_sphere_capability": 2,
+      "healing_pulse_acceleration": 0.8
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

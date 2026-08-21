@@ -1,0 +1,71 @@
+{
+  "id": "physical_spell_0075",
+  "name": "Physical Spell 0075",
+  "description": "Étourdit l'ennemi et réduit ses capacités de défense pendant un temps",
+  "icon": "physical_spell_0075_icon",
+  "school": "physical",
+  "rarity": "uncommon",
+  "spell_type": "debuff",
+  "target_type": "single_enemy",
+  "range": 3.0,
+  "cast_time": 0,
+  "cooldown": 30000,
+  "mana_cost": 35,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "stun",
+      "value": 100,
+      "duration": 6000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "defense_debuff",
+      "value": 0.3,
+      "duration": 12000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "defense_type": "physical"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "precise_grip",
+    "impact_effect": "head_strike",
+    "stun_effect": "dizzy_sparkles"
+  },
+  "sound_effects": {
+    "cast_sound": "grip_sound",
+    "impact_sound": "physical_spell_0075_thud",
+    "stun_sound": "dazed"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "physical_spell_0075_mastery",
+      "stealth_mastery"
+    ],
+    "classes": [
+      "assassin",
+      "rogue",
+      "ninja"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_sap": {
+      "unlock_level": 22,
+      "description": "Physical Spell 0075 dure plus longtemps et réduit plus la défense",
+      "stun_duration_bonus": 2000,
+      "defense_debuff_bonus": 0.1
+    },
+    "silent_sap": {
+      "unlock_level": 32,
+      "description": "Physical Spell 0075 empêche l'ennemi de lancer des sorts pendant l'étourdissement",
+      "silence": true,
+      "silence_duration": 6000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

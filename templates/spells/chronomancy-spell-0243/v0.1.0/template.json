@@ -1,0 +1,77 @@
+{
+  "id": "chronomancy_spell_0243",
+  "name": "Chronomancy Spell 0243",
+  "description": "Le chronomancien crée une bulle où le temps s'arrête, immobilisant tout à l'intérieur",
+  "icon": "chronomancy_spell_0243_icon",
+  "school": "chronomancy",
+  "rarity": "rare",
+  "spell_type": "temporal_containment",
+  "target_type": "area_effect",
+  "range": 40.0,
+  "cast_time": 2500,
+  "cooldown": 35000,
+  "mana_cost": 85,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "temporal_stasis"
+  },
+  "effects": [
+    {
+      "effect_type": "chronomancy_spell_0243_freeze_bubble",
+      "value": 100,
+      "duration": 6000,
+      "tick_rate": 0,
+      "bubble_radius": 8.0,
+      "complete_frozen_state": true,
+      "time_acceleration_escape_rate": 0.02,
+      "bubble_visual_barrier": true,
+      "temporal_rift_risk": 0.1
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "temporal_crystal_formation",
+    "bubble_effect": "transparent_dome_of_frozen_chronomancy_spell_0243",
+    "interior_effect": "particles_suspended_in_air",
+    "expire_effect": "bubble_pop_chronomancy_spell_0243_rush"
+  },
+  "sound_effects": {
+    "cast_sound": "crystal_forming_hum",
+    "bubble_sound": "chronomancy_spell_0243_freezing_silence",
+    "interior_sound": "frozen_reality_pinning",
+    "expire_sound": "chronomancy_spell_0243_release_explosion"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "chronomancy",
+      "temporal_freeze",
+      "containment_magic"
+    ],
+    "classes": [
+      "chronomancer",
+      "chronomancy_spell_0243_mage",
+      "temporalist"
+    ],
+    "specializations": [
+      "stasis_master"
+    ]
+  },
+  "upgrades": {
+    "expanded_containment": {
+      "unlock_level": 30,
+      "description": "La bulle devient plus grande et plus résistante",
+      "bubble_radius_bonus": 4.0,
+      "duration_bonus": 3000,
+      "rift_risk_reduction": 0.03
+    },
+    "selective_freeze": {
+      "unlock_level": 40,
+      "description": "Peut choisir quels ennemis laisser hors de la bulled",
+      "immune_selection": true,
+      "bubble_wall_damage": 100,
+      "time_dilation_gradient": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

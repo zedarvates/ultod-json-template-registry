@@ -1,0 +1,51 @@
+{
+  "version": "0.1.0",
+  "school": "chamanisme",
+  "rarity": "legendary",
+  "target_type": "chain",
+  "range": 23.6,
+  "cast_time": 869,
+  "cooldown": 2804194,
+  "mana_cost": 110268,
+  "visual_effects": {
+    "cast_effect": "ranger_cast",
+    "projectile_effect": "elemental_projectile",
+    "impact_effect": "elemental_impact",
+    "trail_effect": "elemental_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "ranger_cast_sound",
+    "impact_sound": "elemental_impact_sound"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [],
+    "classes": [
+      "ranger"
+    ],
+    "specializations": [
+      "marksman"
+    ]
+  },
+  "balance_validated": true,
+  "generated_by": "content_pipeline_v2",
+  "id": "71affd705dd1",
+  "name": "Ranger Marksman Storm",
+  "description": "Generated ranger marksman spell #208",
+  "icon": "71affd705dd1_icon",
+  "spell_type": "healing",
+  "damage_type": null,
+  "base_heal": 163.4,
+  "effects": [
+    {
+      "effect_type": "direct_heal",
+      "value": 218.2,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "balance_adjusted": true,
+  "balance_efficiency": 18.1961,
+  "template_type": "content_pipeline"
+}

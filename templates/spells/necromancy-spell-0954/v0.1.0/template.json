@@ -1,0 +1,75 @@
+{
+  "id": "necromancy_spell_0954",
+  "name": "Necromancy Spell 0954",
+  "description": "Crée une armée illusoire mais tangible de fantômes et de spectres qui harcèlent et épuisent les ennemis",
+  "icon": "necromancy_spell_0954_icon",
+  "school": "necromancy",
+  "rarity": "epic",
+  "spell_type": "illusory_spirit_horde",
+  "target_type": "area_spirit_summoning",
+  "range": 50.0,
+  "cast_time": 5000,
+  "cooldown": 90000,
+  "mana_cost": 150,
+  "damage": {
+    "base_damage": 20,
+    "damage_type": "dread_necrotic_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "necromancy_spell_0954_horde_manifestation",
+      "value": 300,
+      "duration": 60000,
+      "tick_rate": 2000,
+      "phantom_count_maximum": 20,
+      "damage_per_phantom_per_attack": 25,
+      "fear_aura_radius": 20.0,
+      "movement_speed_depletion": 40,
+      "mana_drain_per_second": 12,
+      "illusion_break_on_dispel_resistance": 80,
+      "reality_haunting_persistence": 0.3
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dark_mists_converging_spirit_whispers_gathering_ominous_energies",
+    "manifestation_effect": "ghostly_army_rising_translucent_warriors_raised_arms_cry_out",
+    "active_effect": "necromancy_spell_0954_horde_swarming_attacking_ghostly_tendrils_draining_lifeforce",
+    "attack_effect": "spectral_attacks_phase_through_armor_lifeforce_drained_energy_streams",
+    "dissolution_effect": "necromancy_spell_0954s_fading_reality_returning_vanishing_whispers_final_dream_return"
+  },
+  "sound_effects": {
+    "cast_effect": "spirit_whispers_collecting_distant_cries_misty_winds_gathering_terrifying",
+    "manifestation_effect": "army_emerging_massive_spectral_voices_unity_hateful_war_raised",
+    "active_effect": "necromancy_spell_0954_attacks_whispering_tendrils_lifeforce_drain_subtle_life_siphon",
+    "attack_effect": "spectral_penetration_armor_phase_magic_life_draining_energy_hums_weaker",
+    "dissolution_effect": "necromancy_spell_0954s_dissipating_whispers_fading_reality_return_goodbye_whispers_final"
+  },
+  "requirements": {
+    "level": 48,
+    "skills": [
+      "necromancy",
+      "spiritual_haunting",
+      "illusionary_summoning"
+    ],
+    "classes": [
+      "necromancer",
+      "ghost_lord",
+      "spectral_master"
+    ],
+    "specializations": [
+      "necromancy_spell_0954_legion_commander"
+    ]
+  },
+  "upgrades": {
+    "greater_phantom_army": {
+      "unlock_level": 63,
+      "description": "L'Necromancy Spell 0954 devient plus imposante avec des effets améliorés",
+      "phantom_count_increase": 30,
+      "fear_aura_expansion": 15.0,
+      "mana_drain_rate_boost": 20,
+      "illusion_permanence_increased": 90
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

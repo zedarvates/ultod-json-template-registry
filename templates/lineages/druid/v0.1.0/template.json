@@ -1,0 +1,54 @@
+{
+  "id": "druid",
+  "name": "Druide",
+  "description": "Gardien de la nature et maître des formes animales et végétales",
+  "icon": "druid_lineage",
+  "rarity": "rare",
+  "required_level": 18,
+  "awakening_cost": {
+    "mana": 300,
+    "health": 150,
+    "items": {
+      "ancient_seed": 2,
+      "animal_totem": 1
+    }
+  },
+  "stat_bonuses": {
+    "health": 15,
+    "strength": 8,
+    "dexterity": 12,
+    "intelligence": 15,
+    "wisdom": 20,
+    "charisma": 10
+  },
+  "resistance_bonuses": {
+    "nature": 25,
+    "poison": 20
+  },
+  "skill_bonuses": {
+    "nature_magic": 0.35,
+    "animal_kinship": 0.3,
+    "regeneration": 0.25
+  },
+  "awakening_bonuses": {
+    "duration_minutes": 75,
+    "stat_multipliers": {
+      "nature_damage": 1.8,
+      "healing_power": 2.0,
+      "animal_control": 2.5
+    },
+    "special_effects": [
+      "nature_aura",
+      "animal_communion",
+      "regrowth"
+    ]
+  },
+  "racial_synergies": {
+    "elf": 1.7,
+    "druid": 2.0,
+    "centaur": 1.5
+  },
+  "enabled": true,
+  "template_type": "lineage",
+  "version": "0.1.0"
+}

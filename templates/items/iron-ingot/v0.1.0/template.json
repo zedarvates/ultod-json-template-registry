@@ -1,16 +1,32 @@
 {
   "id": "iron_ingot",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Iron Ingot",
-  "description": "A portable material component for public template workflows.",
+  "name": "Lingot de Fer",
+  "description": "Un lingot de fer pur, matériau de base pour la forge",
+  "icon": "iron_ingot",
   "category": "material",
   "rarity": "common",
-  "stack_limit": 50,
-  "weight_kg": 2.0,
-  "tags": [
-    "adapted",
-    "material"
-  ],
-  "dependencies": []
+  "item_type": "crafting_material",
+  "sub_type": "metal",
+  "base_stats": {
+    "durability": 1,
+    "max_durability": 1,
+    "weight": 2.0,
+    "value": 5
+  },
+  "properties": {
+    "stackable": true,
+    "consumable": false,
+    "reusable": false,
+    "soulbound": false,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "professions": []
+  },
+  "effects": [],
+  "version": "0.1.0",
+  "template_type": "item"
 }

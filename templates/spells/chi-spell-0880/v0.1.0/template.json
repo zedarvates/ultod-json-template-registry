@@ -1,0 +1,71 @@
+{
+  "id": "chi_spell_0880",
+  "name": "Chi Spell 0880",
+  "description": "Libère une puissante vague d'énergie intérieure qui repousse et endommage tous les ennemis dans un rayon",
+  "icon": "chi_spell_0880_icon",
+  "school": "chi",
+  "rarity": "uncommon",
+  "spell_type": "chi_energy_wave",
+  "target_type": "self_area_chi_spell_0880",
+  "range": 0.0,
+  "cast_time": 1500,
+  "cooldown": 8000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 180,
+    "damage_type": "internal_energy_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "chi_energy_explosion",
+      "value": 220,
+      "duration": 0,
+      "tick_rate": 0,
+      "blast_radius": 10.0,
+      "knockback_force_per_meter": 3.0,
+      "stun_duration_on_hit": 2000,
+      "chi_energy_draining": 40,
+      "armor_piercing_chi_damage": 120,
+      "friendly_fire_protection": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "chi_energy_gathering_glowing_internal_energy_building_orange_glow",
+    "blast_effect": "explosive_chi_wave_golden_energy_bursting_repulsive_force",
+    "impact_effect": "victims_launched_back_chi_energy_arcing_through_air_glow",
+    "residual_effect": "ground_chi_energy_residue_glowing_chi_puddle_effect"
+  },
+  "sound_effects": {
+    "cast_effect": "chi_energy_concentrating_internal_rumble_energy_charging",
+    "blast_effect": "explosive_burst_powerful_wind_turbine_displacement_burst",
+    "impact_effect": "victims_thudding_impact_recovery_groans_chi_discharge_zap",
+    "residual_effect": "ground_energy_sizzling_chi_residue_crackling_residual"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "chi_manipulation",
+      "internal_energy_control"
+    ],
+    "classes": [
+      "monk",
+      "chi_master",
+      "energy_warrior"
+    ],
+    "specializations": [
+      "chi_wave_specialist"
+    ]
+  },
+  "upgrades": {
+    "greater_chi_blast": {
+      "unlock_level": 25,
+      "description": "L'Chi Spell 0880 devient plus puissante avec des effets d'énergie avancés",
+      "blast_damage_multiplier": 1.8,
+      "blast_radius_increase": 4.0,
+      "knockback_distance_increase": 50,
+      "chi_energy_beam_follow_up": 2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

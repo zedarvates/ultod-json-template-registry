@@ -1,0 +1,53 @@
+{
+  "id": "administration_spell_0038",
+  "name": "Administration Spell 0038",
+  "description": "[ADMIN ONLY] Instantly resurrect a monster or NPC from its corpse, restoring it to full health and functionality",
+  "icon": "admin_administration_spell_0038_icon",
+  "school": "administration",
+  "rarity": "epic",
+  "spell_type": "npc_management",
+  "target_type": "monster_corpse_target",
+  "range": 50.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "monster_resurrection_admin"
+  },
+  "effects": [
+    {
+      "effect_type": "complete_monster_resurrection",
+      "value": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "corpse_revive_any_age": "fresh_to_decomposed",
+      "health_restoration_full": true,
+      "original_behavior_restored": true,
+      "loot_drops_unaffected": false,
+      "aggressive_state_reset": "peaceful_initial",
+      "no_experience_granted": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necro_revival_energy_green_surge",
+    "resurrection_effect": "monster_reanimation_soul_return_body",
+    "health_effect": "restoration_complete_limb_regeneration"
+  },
+  "sound_effects": {
+    "cast_effect": "death_reversal_necrotic_energy_gather",
+    "resurrection_effect": "life_return_monster_groan_awaken",
+    "health_effect": "restoration_complete_body_heal_crunch"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "gamemaster",
+      "overseer",
+      "celestial_avatar"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

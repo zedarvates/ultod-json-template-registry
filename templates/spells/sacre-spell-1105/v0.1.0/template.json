@@ -1,0 +1,68 @@
+{
+  "id": "sacre_spell_1105",
+  "name": "Sacre Spell 1105",
+  "description": "Vous choisissez jusqu'à trois créatures dans la portée. Chaque cible doit réussir un jet de sauvegarde de Charisme ou subir un désavantage aux jets d'attaque et de sauvegarde jusqu'à la fin du sort",
+  "icon": "sacre_spell_1105_icon",
+  "school": "sacré",
+  "rarity": "common",
+  "spell_type": "debuff",
+  "target_type": "enemy",
+  "range": 10.0,
+  "cast_time": 1000,
+  "cooldown": 30000,
+  "mana_cost": 40,
+  "effects": [
+    {
+      "effect_type": "attack_debuff",
+      "value": 2,
+      "duration": 60000,
+      "tick_rate": 0,
+      "aoe_radius": 0.0,
+      "proc_chance": 1.0,
+      "max_targets": 3,
+      "save_type": "charisma"
+    },
+    {
+      "effect_type": "saving_throw_debuff",
+      "value": 2,
+      "duration": 60000,
+      "tick_rate": 0,
+      "aoe_radius": 0.0,
+      "proc_chance": 1.0,
+      "max_targets": 3,
+      "save_type": "charisma"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dark_muffe",
+    "debuff_effect": "threatening_shadow",
+    "impact_effect": "malediction_wave"
+  },
+  "sound_effects": {
+    "cast_sound": "ominous_whisper",
+    "debuff_sound": "weakening_echo",
+    "impact_sound": "curse_bell"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "empowered_bane": {
+      "unlock_level": 5,
+      "description": "Affecte jusqu'à 6 créatures",
+      "targets_bonus": 3
+    },
+    "greater_bane": {
+      "unlock_level": 11,
+      "description": "Réduit également les soins reçus",
+      "healing_penalty": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

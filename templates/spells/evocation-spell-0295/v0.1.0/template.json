@@ -1,0 +1,79 @@
+{
+  "id": "evocation_spell_0295",
+  "name": "Evocation Spell 0295",
+  "description": "Invoque une flamme divine qui brûle les ennemis impies avec un feu purifiant",
+  "icon": "evocation_spell_0295_icon",
+  "school": "evocation",
+  "rarity": "uncommon",
+  "spell_type": "divine_damage",
+  "target_type": "single_enemy",
+  "range": 40.0,
+  "cast_time": 1800,
+  "cooldown": 5000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 250,
+    "damage_type": "holy_fire",
+    "scaling": {
+      "wisdom": 1.5,
+      "charisma": 1.2
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "holy_damage_burst",
+      "value": 250,
+      "duration": 0,
+      "tick_rate": 0,
+      "holy_damage_multiplier": 1.3,
+      "unholy_weakness": true,
+      "critical_vs_undead": 0.25,
+      "purification_flames": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_flame_summon",
+    "damage_effect": "holy_fire_column",
+    "impact_effect": "unholy_burning_embers",
+    "purify_effect": "golden_fire_embers"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_fire_roar",
+    "damage_sound": "flame_purification_crack",
+    "impact_sound": "unholy_screams_in_fire",
+    "purify_sound": "holy_flame_crackle"
+  },
+  "requirements": {
+    "level": 4,
+    "skills": [
+      "divine_magic",
+      "holymagic"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "purifier"
+    ]
+  },
+  "upgrades": {
+    "judgment_fire": {
+      "unlock_level": 14,
+      "description": "La flamme juge les péchés et punit plus sévèrement",
+      "damage_bonus_vs_evil": 75,
+      "evil_detection": true,
+      "judgment_timeout": 10000
+    },
+    "heavenly_conflagration": {
+      "unlock_level": 24,
+      "description": "Crée une conflagration céleste qui se propage aux ennemis proches",
+      "chain_damage": 150,
+      "chain_targets": 3,
+      "chain_range": 8.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

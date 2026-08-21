@@ -1,0 +1,170 @@
+{
+  "id": "guard_basic",
+  "name": "Basic Guard AI",
+  "description": "Simple guard AI with basic patrolling and defensive behavior",
+  "category": "guard",
+  "behavior_tree": {
+    "nodes": [
+      {
+        "id": "root",
+        "type": "selector",
+        "name": "root_selector",
+        "children": [
+          "combat_sequence",
+          "patrol_sequence"
+        ],
+        "parameters": {}
+      },
+      {
+        "id": "combat_sequence",
+        "type": "sequence",
+        "name": "combat_behavior",
+        "children": [
+          "has_target",
+          "move_to_target",
+          "attack_target"
+        ],
+        "parameters": {}
+      },
+      {
+        "id": "patrol_sequence",
+        "type": "sequence",
+        "name": "patrol_behavior",
+        "children": [
+          "find_patrol_point",
+          "move_to_target"
+        ],
+        "parameters": {}
+      },
+      {
+        "id": "has_target",
+        "type": "condition",
+        "name": "has_target",
+        "children": [],
+        "parameters": {}
+      },
+      {
+        "id": "move_to_target",
+        "type": "action",
+        "name": "move_to_target",
+        "children": [],
+        "parameters": {
+          "speed": 3.0
+        }
+      },
+      {
+        "id": "attack_target",
+        "type": "action",
+        "name": "attack_target",
+        "children": [],
+        "parameters": {
+          "cooldown": 2.0
+        }
+      },
+      {
+        "id": "find_patrol_point",
+        "type": "action",
+        "name": "find_patrol_point",
+        "children": [],
+        "parameters": {}
+      }
+    ],
+    "root_node_id": "root"
+  },
+  "adaptive_difficulty": {
+    "enabled": true,
+    "min_difficulty": 0.3,
+    "max_difficulty": 0.8,
+    "adjustment_rate": 0.1,
+    "player_performance_window": 10,
+    "difficulty_metrics": [
+      {
+        "name": "combat_efficiency",
+        "weight": 0.6,
+        "target_value": 0.5,
+        "tolerance": 0.1
+      },
+      {
+        "name": "player_health_ratio",
+        "weight": 0.4,
+        "target_value": 0.7,
+        "tolerance": 0.2
+      }
+    ]
+  },
+  "personality": {
+    "aggression": 0.4,
+    "caution": 0.7,
+    "curiosity": 0.2,
+    "social": 0.8,
+    "adaptability": 0.5,
+    "traits": [
+      {
+        "name": "disciplined",
+        "value": 0.8,
+        "influence": [
+          "combat",
+          "patrol"
+        ]
+      },
+      {
+        "name": "loyal",
+        "value": 0.9,
+        "influence": [
+          "social",
+          "cooperation"
+        ]
+      }
+    ]
+  },
+  "combat_style": {
+    "preferred_range": "close",
+    "attack_pattern": "defensive",
+    "target_priority": "closest",
+    "ability_usage": 0.3,
+    "positioning": "static"
+  },
+  "social_behavior": {
+    "group_behavior": "pack",
+    "communication_range": 20.0,
+    "ally_detection": true,
+    "threat_sharing": true,
+    "cooperative_actions": [
+      {
+        "action_type": "call_reinforcements",
+        "conditions": [
+          "under_attack",
+          "multiple_enemies"
+        ],
+        "probability": 0.7
+      }
+    ]
+  },
+  "environmental_adaptation": {
+    "time_of_day_preferences": {
+      "day": "active",
+      "night": "vigilant"
+    },
+    "weather_adaptations": {
+      "rain": "reduced_visibility",
+      "fog": "increased_caution"
+    },
+    "terrain_modifiers": {
+      "urban": "familiar",
+      "forest": "cautious"
+    },
+    "biome_specific_behaviors": {
+      "city": "patrol_mode",
+      "wilderness": "defensive_mode"
+    }
+  },
+  "learning_parameters": {
+    "enabled": false,
+    "memory_duration": 1800,
+    "adaptation_rate": 0.05,
+    "experience_weight": 0.6,
+    "forgetfulness": 0.01
+  },
+  "template_type": "ai",
+  "version": "0.1.0"
+}

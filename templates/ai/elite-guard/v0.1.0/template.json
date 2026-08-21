@@ -1,0 +1,315 @@
+{
+  "id": "elite_guard",
+  "name": "Elite Guard AI",
+  "description": "Advanced guard AI with tactical combat and adaptive strategies",
+  "category": "guard",
+  "behavior_tree": {
+    "nodes": [
+      {
+        "id": "root",
+        "type": "selector",
+        "name": "root_selector",
+        "children": [
+          "tactical_combat",
+          "coordinated_patrol",
+          "investigation"
+        ],
+        "parameters": {}
+      },
+      {
+        "id": "tactical_combat",
+        "type": "sequence",
+        "name": "tactical_combat",
+        "children": [
+          "assess_situation",
+          "choose_tactic",
+          "execute_tactic"
+        ],
+        "parameters": {}
+      },
+      {
+        "id": "coordinated_patrol",
+        "type": "sequence",
+        "name": "coordinated_patrol",
+        "children": [
+          "check_allies",
+          "coordinate_movement",
+          "patrol_route"
+        ],
+        "parameters": {}
+      },
+      {
+        "id": "investigation",
+        "type": "sequence",
+        "name": "investigation",
+        "children": [
+          "detect_anomaly",
+          "investigate_area",
+          "report_findings"
+        ],
+        "parameters": {}
+      },
+      {
+        "id": "assess_situation",
+        "type": "action",
+        "name": "assess_situation",
+        "children": [],
+        "parameters": {
+          "assessment_time": 1.0
+        }
+      },
+      {
+        "id": "choose_tactic",
+        "type": "selector",
+        "name": "tactic_selector",
+        "children": [
+          "flanking_attack",
+          "defensive_formation",
+          "overwhelm_attack"
+        ],
+        "parameters": {}
+      },
+      {
+        "id": "execute_tactic",
+        "type": "action",
+        "name": "execute_tactic",
+        "children": [],
+        "parameters": {}
+      },
+      {
+        "id": "check_allies",
+        "type": "condition",
+        "name": "has_allies_nearby",
+        "children": [],
+        "parameters": {
+          "range": 30.0
+        }
+      },
+      {
+        "id": "coordinate_movement",
+        "type": "action",
+        "name": "coordinate_movement",
+        "children": [],
+        "parameters": {}
+      },
+      {
+        "id": "patrol_route",
+        "type": "action",
+        "name": "patrol_route",
+        "children": [],
+        "parameters": {
+          "route": "optimized"
+        }
+      },
+      {
+        "id": "detect_anomaly",
+        "type": "condition",
+        "name": "detect_anomaly",
+        "children": [],
+        "parameters": {
+          "sensitivity": 0.8
+        }
+      },
+      {
+        "id": "investigate_area",
+        "type": "action",
+        "name": "investigate_area",
+        "children": [],
+        "parameters": {
+          "thoroughness": 0.9
+        }
+      },
+      {
+        "id": "report_findings",
+        "type": "action",
+        "name": "report_findings",
+        "children": [],
+        "parameters": {}
+      },
+      {
+        "id": "flanking_attack",
+        "type": "sequence",
+        "name": "flanking_attack",
+        "children": [
+          "position_for_flank",
+          "attack_from_side"
+        ],
+        "parameters": {}
+      },
+      {
+        "id": "defensive_formation",
+        "type": "action",
+        "name": "defensive_formation",
+        "children": [],
+        "parameters": {
+          "formation": "shield_wall"
+        }
+      },
+      {
+        "id": "overwhelm_attack",
+        "type": "action",
+        "name": "overwhelm_attack",
+        "children": [],
+        "parameters": {
+          "intensity": 0.9
+        }
+      },
+      {
+        "id": "position_for_flank",
+        "type": "action",
+        "name": "position_for_flank",
+        "children": [],
+        "parameters": {
+          "stealth_mode": true
+        }
+      },
+      {
+        "id": "attack_from_side",
+        "type": "action",
+        "name": "attack_from_side",
+        "children": [],
+        "parameters": {
+          "damage_multiplier": 1.5
+        }
+      }
+    ],
+    "root_node_id": "root"
+  },
+  "adaptive_difficulty": {
+    "enabled": true,
+    "min_difficulty": 0.6,
+    "max_difficulty": 1.0,
+    "adjustment_rate": 0.15,
+    "player_performance_window": 15,
+    "difficulty_metrics": [
+      {
+        "name": "tactical_efficiency",
+        "weight": 0.4,
+        "target_value": 0.6,
+        "tolerance": 0.15
+      },
+      {
+        "name": "player_skill_level",
+        "weight": 0.3,
+        "target_value": 0.5,
+        "tolerance": 0.1
+      },
+      {
+        "name": "combat_complexity",
+        "weight": 0.3,
+        "target_value": 0.7,
+        "tolerance": 0.2
+      }
+    ]
+  },
+  "personality": {
+    "aggression": 0.7,
+    "caution": 0.6,
+    "curiosity": 0.8,
+    "social": 0.9,
+    "adaptability": 0.8,
+    "traits": [
+      {
+        "name": "strategic",
+        "value": 0.9,
+        "influence": [
+          "combat",
+          "tactics",
+          "planning"
+        ]
+      },
+      {
+        "name": "cooperative",
+        "value": 0.95,
+        "influence": [
+          "social",
+          "teamwork",
+          "coordination"
+        ]
+      },
+      {
+        "name": "adaptable",
+        "value": 0.85,
+        "influence": [
+          "learning",
+          "environment",
+          "situational_awareness"
+        ]
+      }
+    ]
+  },
+  "combat_style": {
+    "preferred_range": "medium",
+    "attack_pattern": "balanced",
+    "target_priority": "weakest",
+    "ability_usage": 0.8,
+    "positioning": "dynamic"
+  },
+  "social_behavior": {
+    "group_behavior": "pack",
+    "communication_range": 50.0,
+    "ally_detection": true,
+    "threat_sharing": true,
+    "cooperative_actions": [
+      {
+        "action_type": "coordinate_attack",
+        "conditions": [
+          "multiple_allies",
+          "optimal_positioning"
+        ],
+        "probability": 0.9
+      },
+      {
+        "action_type": "call_reinforcements",
+        "conditions": [
+          "under_attack",
+          "reinforcements_available"
+        ],
+        "probability": 0.95
+      },
+      {
+        "action_type": "share_intelligence",
+        "conditions": [
+          "enemy_detected",
+          "allies_nearby"
+        ],
+        "probability": 0.8
+      }
+    ]
+  },
+  "environmental_adaptation": {
+    "time_of_day_preferences": {
+      "day": "aggressive",
+      "dusk": "vigilant",
+      "night": "stealthy",
+      "dawn": "proactive"
+    },
+    "weather_adaptations": {
+      "clear": "optimal_performance",
+      "rain": "reduced_mobility",
+      "fog": "enhanced_senses",
+      "storm": "conservative_approach"
+    },
+    "terrain_modifiers": {
+      "open_field": "charge_tactics",
+      "urban": "positional_advantage",
+      "forest": "ambush_specialist",
+      "mountain": "defensive_master"
+    },
+    "biome_specific_behaviors": {
+      "city": "crowd_control",
+      "wilderness": "survival_mode",
+      "dungeon": "exploration_mode",
+      "battlefield": "combat_optimization"
+    }
+  },
+  "learning_parameters": {
+    "enabled": true,
+    "memory_duration": 7200,
+    "adaptation_rate": 0.1,
+    "experience_weight": 0.8,
+    "forgetfulness": 0.005
+  },
+  "template_type": "ai",
+  "version": "0.1.0"
+}

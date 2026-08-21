@@ -1,0 +1,47 @@
+{
+  "id": "conjuration_spell_1596",
+  "name": "Conjuration Spell 1596",
+  "description": "Invoque un élémentaire de feu pour combattre à vos côtés",
+  "icon": "conjuration_spell_1596_icon",
+  "school": "conjuration",
+  "rarity": "rare",
+  "spell_type": "summon",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "summon_fire_elemental",
+      "value": 0,
+      "duration": 600000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "elemental_portal",
+    "summon_effect": "fire_eruption"
+  },
+  "sound_effects": {
+    "cast_sound": "portal_open",
+    "summon_sound": "fire_rumble"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "conjuration"
+    ],
+    "classes": [
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "monster_spell_spell_0004",
+  "name": "Monster Spell Spell 0004",
+  "description": "Description pour Monster Spell Spell 0004",
+  "icon": "monster_spell_spell_0004_icon",
+  "school": "monster_spell",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 6.0,
+  "cast_time": 300,
+  "cooldown": 1000,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 24,
+    "damage_type": "energy"
+  },
+  "effects": [
+    {
+      "effect_type": "energy_damage",
+      "value": 24,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "eye_stalk",
+    "projectile_effect": "laser_beam",
+    "impact_effect": "burn_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "hum",
+    "impact_sound": "burn"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "aberration_magic"
+    ],
+    "classes": [
+      "aberration"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

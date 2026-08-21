@@ -1,0 +1,89 @@
+{
+  "id": "physical_spell_0070",
+  "name": "Physical Spell 0070",
+  "description": "Frappe précise aux reins causant une hémorragie prolongée et réduit la mobilité",
+  "icon": "physical_spell_0070_icon",
+  "school": "physical",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "single_enemy",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 25000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 100,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 1.5,
+      "strength": 1.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_type": "physical",
+      "scaling": {
+        "agility": 1.5,
+        "strength": 1.0
+      }
+    },
+    {
+      "effect_type": "bleed_dot",
+      "value": 30,
+      "duration": 15000,
+      "tick_rate": 3000,
+      "tick_damage": 30,
+      "total_ticks": 5,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "slow",
+      "value": 50,
+      "duration": 8000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "precision_strike",
+    "impact_effect": "kidney_bleed",
+    "bleed_effect": "blood_drip"
+  },
+  "sound_effects": {
+    "cast_sound": "sharp_stab",
+    "impact_sound": "wound_cry",
+    "bleed_sound": "blood_flow"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "anatomy",
+      "stealth_mastery"
+    ],
+    "classes": [
+      "assassin",
+      "rogue"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_coup_rein": {
+      "unlock_level": 35,
+      "description": "physical_spell_0070 de Rein inflige plus de dégâts d'hémorragie et dure plus longtemps",
+      "bleed_damage_bonus": 15,
+      "bleed_duration_bonus": 5000
+    },
+    "venomous_coup_rein": {
+      "unlock_level": 45,
+      "description": "physical_spell_0070 de Rein applique un dêgât de poison ajouté",
+      "poison_bleed": 20,
+      "slow_bonus": 10
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

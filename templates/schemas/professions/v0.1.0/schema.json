@@ -1,0 +1,1628 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Professions Configuration Schema",
+  "description": "Schema for validating professions configuration templates",
+  "type": "object",
+  "required": [
+    "template_type",
+    "version",
+    "name",
+    "description",
+    "global_settings"
+  ],
+  "properties": {
+    "template_type": {
+      "type": "string",
+      "enum": [
+        "professions"
+      ],
+      "description": "Type of template"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Version number in semantic versioning format"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "Name of the professions configuration"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500,
+      "description": "Description of the professions configuration"
+    },
+    "global_settings": {
+      "type": "object",
+      "required": [
+        "enabled",
+        "log_level"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Whether the system is enabled"
+        },
+        "log_level": {
+          "type": "string",
+          "enum": [
+            "info",
+            "warn",
+            "error"
+          ],
+          "description": "Logging level"
+        },
+        "max_professions_per_player": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10,
+          "description": "Maximum number of professions per player"
+        },
+        "profession_level_cap": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100,
+          "description": "Maximum level for each profession"
+        },
+        "skill_points_per_level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10,
+          "description": "Skill points gained per profession level"
+        },
+        "auto_cleanup_interval_days": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 365,
+          "description": "Auto cleanup interval in days"
+        },
+        "performance_optimization": {
+          "type": "object",
+          "properties": {
+            "enable_caching": {
+              "type": "boolean"
+            },
+            "cache_ttl_seconds": {
+              "type": "integer",
+              "minimum": 60,
+              "maximum": 86400
+            },
+            "batch_processing": {
+              "type": "boolean"
+            },
+            "batch_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            },
+            "async_processing": {
+              "type": "boolean"
+            },
+            "thread_pool_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 8
+            }
+          }
+        }
+      }
+    },
+    "profession_categories": {
+      "type": "object",
+      "properties": {
+        "gathering": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "skill_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "resource_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "tool_requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "location_requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "difficulty_progression": {
+                  "type": "object",
+                  "properties": {
+                    "level_1_10": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_11_25": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_26_50": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_51_75": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_76_100": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "crafting": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "skill_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "crafting_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "workstation_requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "material_requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "difficulty_progression": {
+                  "type": "object",
+                  "properties": {
+                    "level_1_10": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_11_25": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_26_50": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_51_75": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_76_100": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "combat": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "skill_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "combat_styles": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "weapon_requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "armor_requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "difficulty_progression": {
+                  "type": "object",
+                  "properties": {
+                    "level_1_10": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_11_25": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_26_50": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_51_75": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_76_100": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "social": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "skill_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "interaction_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "social_requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "reputation_requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "difficulty_progression": {
+                  "type": "object",
+                  "properties": {
+                    "level_1_10": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_11_25": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_26_50": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_51_75": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_76_100": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "exploration": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "skill_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "exploration_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "equipment_requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "location_requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "difficulty_progression": {
+                  "type": "object",
+                  "properties": {
+                    "level_1_10": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_11_25": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_26_50": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_51_75": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_76_100": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "magic": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "skill_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "magic_schools": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "focus_requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "mana_requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "difficulty_progression": {
+                  "type": "object",
+                  "properties": {
+                    "level_1_10": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_11_25": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_26_50": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_51_75": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    },
+                    "level_76_100": {
+                      "type": "string",
+                      "enum": [
+                        "easy",
+                        "medium",
+                        "hard"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "skill_system": {
+      "type": "object",
+      "properties": {
+        "skill_progression": {
+          "type": "object",
+          "properties": {
+            "experience_formula": {
+              "type": "string",
+              "enum": [
+                "linear",
+                "exponential",
+                "logarithmic",
+                "custom"
+              ]
+            },
+            "experience_multipliers": {
+              "type": "object",
+              "properties": {
+                "difficulty_bonus": {
+                  "type": "number",
+                  "minimum": 1.0,
+                  "maximum": 5.0
+                },
+                "efficiency_bonus": {
+                  "type": "number",
+                  "minimum": 1.0,
+                  "maximum": 3.0
+                },
+                "quality_bonus": {
+                  "type": "number",
+                  "minimum": 1.0,
+                  "maximum": 3.0
+                }
+              }
+            },
+            "skill_cap_system": {
+              "type": "object",
+              "properties": {
+                "soft_cap_enabled": {
+                  "type": "boolean"
+                },
+                "soft_cap_level": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 100
+                },
+                "soft_cap_multiplier": {
+                  "type": "number",
+                  "minimum": 0.1,
+                  "maximum": 1.0
+                },
+                "hard_cap_enabled": {
+                  "type": "boolean"
+                },
+                "hard_cap_level": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 100
+                }
+              }
+            }
+          }
+        },
+        "skill_specialization": {
+          "type": "object",
+          "properties": {
+            "specialization_enabled": {
+              "type": "boolean"
+            },
+            "specialization_levels": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "level": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "required_points": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "specialization_bonuses": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "specialization_limits": {
+              "type": "object",
+              "properties": {
+                "max_specializations": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 10
+                },
+                "specialization_points": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              }
+            }
+          }
+        },
+        "skill_combinations": {
+          "type": "object",
+          "properties": {
+            "combo_system_enabled": {
+              "type": "boolean"
+            },
+            "combo_types": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "combo_requirements": {
+              "type": "object",
+              "properties": {
+                "skill_combinations": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "combo_effects": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "crafting_system": {
+      "type": "object",
+      "properties": {
+        "crafting_recipes": {
+          "type": "object",
+          "properties": {
+            "recipe_types": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "recipe_unlock_conditions": {
+              "type": "object",
+              "properties": {
+                "skill_level_requirements": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "integer",
+                    "minimum": 1
+                  }
+                },
+                "recipe_prerequisites": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "discovery_methods": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "crafting_difficulty": {
+              "type": "object",
+              "properties": {
+                "difficulty_levels": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "success_rates": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "quality_chances": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "object",
+                    "properties": {
+                      "common": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      },
+                      "uncommon": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      },
+                      "rare": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      },
+                      "epic": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      },
+                      "legendary": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 1
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "crafting_materials": {
+          "type": "object",
+          "properties": {
+            "material_types": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "material_properties": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "object",
+                "properties": {
+                  "rarity": {
+                    "type": "string",
+                    "enum": [
+                      "common",
+                      "uncommon",
+                      "rare",
+                      "epic",
+                      "legendary"
+                    ]
+                  },
+                  "durability": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "quality": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "maximum": 100
+                  },
+                  "special_effects": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "material_sources": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "crafting_workstations": {
+          "type": "object",
+          "properties": {
+            "workstation_types": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "workstation_requirements": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "object",
+                "properties": {
+                  "required_level": {
+                    "type": "integer",
+                    "minimum": 1
+                  },
+                  "skill_bonus": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "quality_bonus": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "special_abilities": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "gathering_system": {
+      "type": "object",
+      "properties": {
+        "gathering_nodes": {
+          "type": "object",
+          "properties": {
+            "node_types": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "node_properties": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "object",
+                "properties": {
+                  "resource_type": {
+                    "type": "string"
+                  },
+                  "quantity_range": {
+                    "type": "object",
+                    "properties": {
+                      "min": {
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "max": {
+                        "type": "integer",
+                        "minimum": 1
+                      }
+                    }
+                  },
+                  "quality_range": {
+                    "type": "object",
+                    "properties": {
+                      "min": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 100
+                      },
+                      "max": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 100
+                      }
+                    }
+                  },
+                  "respawn_time": {
+                    "type": "object",
+                    "properties": {
+                      "min_minutes": {
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "max_minutes": {
+                        "type": "integer",
+                        "minimum": 1
+                      }
+                    }
+                  },
+                  "rarity": {
+                    "type": "string",
+                    "enum": [
+                      "common",
+                      "uncommon",
+                      "rare",
+                      "epic",
+                      "legendary"
+                    ]
+                  }
+                }
+              }
+            },
+            "gathering_tools": {
+              "type": "object",
+              "properties": {
+                "tool_types": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "tool_effects": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "object",
+                    "properties": {
+                      "efficiency_bonus": {
+                        "type": "number",
+                        "minimum": 0
+                      },
+                      "quality_bonus": {
+                        "type": "number",
+                        "minimum": 0
+                      },
+                      "quantity_bonus": {
+                        "type": "number",
+                        "minimum": 0
+                      },
+                      "durability_cost": {
+                        "type": "number",
+                        "minimum": 0
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "reward_system": {
+      "type": "object",
+      "properties": {
+        "skill_rewards": {
+          "type": "object",
+          "properties": {
+            "skill_points": {
+              "type": "object",
+              "properties": {
+                "base_amount": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "level_multiplier": {
+                  "type": "number",
+                  "minimum": 1.0
+                },
+                "quality_multiplier": {
+                  "type": "number",
+                  "minimum": 1.0
+                },
+                "efficiency_multiplier": {
+                  "type": "number",
+                  "minimum": 1.0
+                }
+              }
+            },
+            "skill_mastery": {
+              "type": "object",
+              "properties": {
+                "mastery_levels": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "level": {
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "required_points": {
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "mastery_bonuses": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "currency_rewards": {
+          "type": "object",
+          "properties": {
+            "crafting_income": {
+              "type": "object",
+              "properties": {
+                "base_rate": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "quality_multiplier": {
+                  "type": "number",
+                  "minimum": 1.0
+                },
+                "skill_level_multiplier": {
+                  "type": "number",
+                  "minimum": 1.0
+                }
+              }
+            },
+            "gathering_income": {
+              "type": "object",
+              "properties": {
+                "base_rate": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "rarity_multiplier": {
+                  "type": "number",
+                  "minimum": 1.0
+                },
+                "quantity_multiplier": {
+                  "type": "number",
+                  "minimum": 1.0
+                }
+              }
+            }
+          }
+        },
+        "item_rewards": {
+          "type": "object",
+          "properties": {
+            "crafted_items": {
+              "type": "object",
+              "properties": {
+                "quality_range": {
+                  "type": "object",
+                  "properties": {
+                    "min": {
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 100
+                    },
+                    "max": {
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 100
+                    }
+                  }
+                },
+                "special_effects": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "customization_options": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "gathered_items": {
+              "type": "object",
+              "properties": {
+                "rarity_weights": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  }
+                },
+                "quantity_range": {
+                  "type": "object",
+                  "properties": {
+                    "min": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "max": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "title_rewards": {
+          "type": "object",
+          "properties": {
+            "crafting_titles": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "requirement": {
+                    "type": "object",
+                    "properties": {
+                      "skill_level": {
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "craft_count": {
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "quality_threshold": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 100
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "gathering_titles": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "requirement": {
+                    "type": "object",
+                    "properties": {
+                      "skill_level": {
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "gather_count": {
+                        "type": "integer",
+                        "minimum": 1
+                      },
+                      "rarity_threshold": {
+                        "type": "string",
+                        "enum": [
+                          "common",
+                          "uncommon",
+                          "rare",
+                          "epic",
+                          "legendary"
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "ui_configuration": {
+      "type": "object",
+      "properties": {
+        "profession_interface": {
+          "type": "object",
+          "properties": {
+            "display_elements": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "skill_tree": {
+              "type": "object",
+              "properties": {
+                "enabled": {
+                  "type": "boolean"
+                },
+                "max_displayed_skills": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "tree_layout": {
+                  "type": "string",
+                  "enum": [
+                    "circular",
+                    "hierarchical",
+                    "grid",
+                    "freeform"
+                  ]
+                }
+              }
+            },
+            "crafting_interface": {
+              "type": "object",
+              "properties": {
+                "enabled": {
+                  "type": "boolean"
+                },
+                "recipe_categories": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "crafting_queue": {
+                  "type": "object",
+                  "properties": {
+                    "enabled": {
+                      "type": "boolean"
+                    },
+                    "max_queue_size": {
+                      "type": "integer",
+                      "minimum": 1
+                    }
+                  }
+                }
+              }
+            },
+            "gathering_interface": {
+              "type": "object",
+              "properties": {
+                "enabled": {
+                  "type": "boolean"
+                },
+                "node_display": {
+                  "type": "string",
+                  "enum": [
+                    "minimal",
+                    "detailed",
+                    "interactive"
+                  ]
+                },
+                "gathering_map": {
+                  "type": "object",
+                  "properties": {
+                    "enabled": {
+                      "type": "boolean"
+                    },
+                    "map_layers": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "integration_points": {
+      "type": "object",
+      "properties": {
+        "economy_system": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "crafting_economy": {
+              "type": "boolean"
+            },
+            "gathering_economy": {
+              "type": "boolean"
+            },
+            "market_integration": {
+              "type": "boolean"
+            }
+          }
+        },
+        "inventory_system": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "crafting_inventory": {
+              "type": "boolean"
+            },
+            "gathering_inventory": {
+              "type": "boolean"
+            },
+            "material_storage": {
+              "type": "boolean"
+            }
+          }
+        },
+        "combat_system": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "combat_professions": {
+              "type": "boolean"
+            },
+            "weapon_crafting": {
+              "type": "boolean"
+            },
+            "armor_crafting": {
+              "type": "boolean"
+            }
+          }
+        },
+        "social_system": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "social_professions": {
+              "type": "boolean"
+            },
+            "guild_integration": {
+              "type": "boolean"
+            },
+            "reputation_system": {
+              "type": "boolean"
+            }
+          }
+        },
+        "exploration_system": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "exploration_professions": {
+              "type": "boolean"
+            },
+            "resource_discovery": {
+              "type": "boolean"
+            },
+            "location_mapping": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "security_settings": {
+      "type": "object",
+      "properties": {
+        "data_protection": {
+          "type": "object",
+          "properties": {
+            "encryption": {
+              "type": "boolean"
+            },
+            "anonymization": {
+              "type": "boolean"
+            },
+            "audit_logging": {
+              "type": "boolean"
+            }
+          }
+        },
+        "exploitation_prevention": {
+          "type": "object",
+          "properties": {
+            "skill_farming_prevention": {
+              "type": "boolean"
+            },
+            "automation_detection": {
+              "type": "boolean"
+            },
+            "progress_validation": {
+              "type": "boolean"
+            },
+            "resource_protection": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "localization": {
+      "type": "object",
+      "properties": {
+        "supported_languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "profession_names": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "skill_names": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "recipe_names": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "customization": {
+      "type": "object",
+      "properties": {
+        "hooks": {
+          "type": "object",
+          "properties": {
+            "before_skill_gain": {
+              "type": "string"
+            },
+            "after_skill_gain": {
+              "type": "string"
+            },
+            "before_crafting": {
+              "type": "string"
+            },
+            "after_crafting": {
+              "type": "string"
+            },
+            "before_gathering": {
+              "type": "string"
+            },
+            "after_gathering": {
+              "type": "string"
+            }
+          }
+        },
+        "extensions": {
+          "type": "object",
+          "properties": {
+            "skill_calculators": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "crafting_modifiers": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "gathering_modifiers": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "reward_calculators": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "id": "professions_schema"
+}

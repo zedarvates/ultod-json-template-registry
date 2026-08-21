@@ -1,0 +1,81 @@
+{
+  "id": "poison_spell_0079",
+  "name": "Poison Spell 0079",
+  "description": "Inflige des dégâts poison et affaiblit la cible",
+  "icon": "poison_spell_0079_icon",
+  "school": "poison",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 12000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 150,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 1.2,
+      "strength": 0.6
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 150,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "poison_dot",
+      "value": 40,
+      "duration": 12000,
+      "tick_rate": 2000,
+      "total_ticks": 6,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "weakness_debuff",
+      "value": 0.2,
+      "duration": 10000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "venom_injection",
+    "damage_effect": "physical_strike",
+    "dot_effect": "poison_cloud"
+  },
+  "sound_effects": {
+    "cast_sound": "venom_injection",
+    "damage_sound": "strike_sound",
+    "dot_sound": "poison_hiss"
+  },
+  "requirements": {
+    "level": 15,
+    "skills": [],
+    "classes": [
+      "assassin",
+      "rogue"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_venomous_strike": {
+      "unlock_level": 25,
+      "description": "Poison Spell 0079 inflige plus de dégâts de poison",
+      "poison_damage_bonus": 20,
+      "weakness_bonus": 0.1
+    },
+    "venomous_strike_mastery": {
+      "unlock_level": 35,
+      "description": "Poison Spell 0079 peut empoisonner plusieurs cibles",
+      "multi_target_poison": true,
+      "duration_extension": 4000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

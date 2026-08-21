@@ -1,0 +1,45 @@
+{
+  "id": "poison_immunity",
+  "name": "Immunité au Poison",
+  "description": "Résistance totale aux poisons et venins de toutes formes",
+  "icon": "poison_immunity_icon",
+  "category": "defensive",
+  "rarity": "epic",
+  "stat_modifiers": {
+    "poison_resistance": 1.0,
+    "disease_resistance": 0.5
+  },
+  "passive_effects": [
+    {
+      "id": "venom_nullification",
+      "name": "Neutralisation du Venin",
+      "description": "Immunisé à tous les effets de poison et de maladie",
+      "modifier_type": "poison_immunity",
+      "value": true
+    },
+    {
+      "id": "toxic_adaptation",
+      "name": "Adaptation Toxique",
+      "description": "Peut consommer des substances normalement mortelles",
+      "modifier_type": "toxic_substance_immunity",
+      "value": true
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "poison_cure",
+      "name": "Guérison du Poison",
+      "description": "Guérit les alliés des effets de poison",
+      "cooldown": 60000,
+      "duration": 0,
+      "effects": {
+        "cure_poison": true,
+        "cure_disease": true,
+        "aoe_range": 10.0
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

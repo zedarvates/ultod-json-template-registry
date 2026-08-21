@@ -1,0 +1,69 @@
+{
+  "id": "enchanting_infusion",
+  "name": "Infusion Enchantée",
+  "description": "Canalise l'énergie magique pour infuser un objet",
+  "icon": "enchanting_infusion_icon",
+  "category": "crafting",
+  "rarity": "uncommon",
+  "ability_type": "crafting",
+  "target_type": "workstation",
+  "range": 1.5,
+  "cast_time": 5000,
+  "cooldown": 0,
+  "resource_cost": {
+    "type": "mana",
+    "amount": 25
+  },
+  "duration": 0,
+  "effects": [
+    {
+      "effect_type": "crafting_progress",
+      "target": "workstation",
+      "value": 15,
+      "scaling": {
+        "intelligence": 0.5,
+        "skill_enchanting": 0.5
+      },
+      "quality_bonus": 0.2
+    },
+    {
+      "effect_type": "enchant_stability",
+      "target": "workstation",
+      "value": 20,
+      "scaling": {
+        "wisdom": 0.6
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "rune_circle",
+    "active_effect": "magic_flow",
+    "success_effect": "enchant_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "arcane_chant",
+    "active_sound": "magic_hum",
+    "success_sound": "enchant_success"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "enchanting"
+    ],
+    "tools": [
+      "enchanting_rod",
+      "arcane_dust"
+    ]
+  },
+  "upgrades": {
+    "master_enchanter": {
+      "unlock_level": 25,
+      "description": "Augmente considérablement la puissance des enchantements",
+      "quality_bonus": 35,
+      "stability_bonus": 40,
+      "power_multiplier": 1.2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "rogue_spell_1209",
+  "name": "Rogue Spell 1209",
+  "description": "Endort l'ennemi pendant quelques secondes",
+  "icon": "rogue_spell_1209_icon",
+  "school": "rogue",
+  "rarity": "common",
+  "spell_type": "stun_attack",
+  "target_type": "enemy",
+  "range": 1.5,
+  "cast_time": 0,
+  "cooldown": 45000,
+  "energy_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "rogue_spell_1209_stun",
+      "value": 1,
+      "duration": 10000,
+      "tick_rate": 0,
+      "stealth_required": true,
+      "aggro_reset": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "stealth_prepare",
+    "attack_effect": "head_tap",
+    "impact_effect": "sleep_z"
+  },
+  "sound_effects": {
+    "cast_sound": "blade_drawn",
+    "attack_sound": "soft_hit",
+    "impact_sound": "snore"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "stealth"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_sap": {
+      "unlock_level": 10,
+      "description": "Durée augmentée",
+      "duration_bonus": 3000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

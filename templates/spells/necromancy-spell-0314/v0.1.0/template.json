@@ -1,0 +1,80 @@
+{
+  "id": "necromancy_spell_0314",
+  "name": "Necromancy Spell 0314",
+  "description": "Une chaîne spectrale attrape un ennemi éloigné et l'attire directement vers le necromancy_spell_0314 knight",
+  "icon": "necromancy_spell_0314_icon",
+  "school": "necromancy",
+  "rarity": "rare",
+  "spell_type": "necrotic_chain_pull",
+  "target_type": "single_enemy",
+  "range": 30.0,
+  "cast_time": 500,
+  "cooldown": 20000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 150,
+    "damage_type": "grip_damage",
+    "scaling": {
+      "unholy_force": 1.4,
+      "death_energy": 1.1
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "spectral_chain_pull",
+      "value": 150,
+      "duration": 0,
+      "tick_rate": 0,
+      "pull_distance_max": 30.0,
+      "instant_pull_damage": 150,
+      "chain_stun_duration": 1000,
+      "rune_power_generation": 25,
+      "interrupt_casting": true,
+      "forced_meetup": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necromancy_spell_0314_chain_formation",
+    "grip_effect": "spectral_chain_wrapping",
+    "pull_effect": "enemy_rapid_linear_motion",
+    "impact_effect": "necromancy_spell_0314_energy_explosion"
+  },
+  "sound_effects": {
+    "cast_sound": "chain_materializing_clink",
+    "grip_sound": "spectral_wrapping_swish",
+    "pull_sound": "enemy_dragged_scream",
+    "impact_sound": "necromancy_spell_0314_impact_crunch"
+  },
+  "requirements": {
+    "level": 14,
+    "skills": [
+      "unholy_chains",
+      "necromancy_spell_0314_pull"
+    ],
+    "classes": [
+      "necromancy_spell_0314_knight",
+      "chain_lord"
+    ],
+    "specializations": [
+      "necromancy_spell_0314_tugger"
+    ]
+  },
+  "upgrades": {
+    "strangling_grip": {
+      "unlock_level": 24,
+      "description": "La chaîne étrangle l'ennemi et le ralentit pendant la traction",
+      "strangle_damage": 50,
+      "pull_stun_duration": 2000,
+      "movement_slow_during_pull": 0.5
+    },
+    "death_bind": {
+      "unlock_level": 34,
+      "description": "Si l'ennemi est trop fort pour être tiré, la chaîne le lie à sa position",
+      "position_lock_chance": 0.4,
+      "lock_duration_if_resisted": 8000,
+      "binding_damage_per_second": 100
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

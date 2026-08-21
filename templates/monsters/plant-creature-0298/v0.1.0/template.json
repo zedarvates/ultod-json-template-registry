@@ -1,0 +1,234 @@
+{
+  "id": "plant_creature_0298",
+  "name": "Plant Creature 0298",
+  "description": "Une racine imposante de forme humaine de 4 pieds de haut, avec un visage expressif gravé dans son écorce. Ses grandes feuilles vert foncé libèrent des spores soporifiques et son contact direct paralise instantanément les créatures vivantes dans un rayon de 20 pieds.",
+  "icon": "plant_creature_0298_icon",
+  "category": "plant",
+  "rarity": "rare",
+  "base_stats": {
+    "health": 60,
+    "mana": 30,
+    "strength": 15,
+    "dexterity": 1,
+    "intelligence": 3,
+    "wisdom": 8,
+    "constitution": 18,
+    "charisma": 5
+  },
+  "properties": {
+    "size": "medium",
+    "size_modifiers": {
+      "health_multiplier": 1.0,
+      "damage_multiplier": 1.0,
+      "speed_modifier": 1.0,
+      "space_requirement": 5,
+      "strength_bonus": 0,
+      "constitution_bonus": 0
+    },
+    "alignment": "neutral",
+    "languages": [
+      "understands common",
+      "screams when pulled"
+    ],
+    "challenge_rating": "4",
+    "experience_value": 500
+  },
+  "movement_speed": {
+    "base_speed": 0,
+    "speed_types": {
+      "walk": 0,
+      "burrow": 0,
+      "climb": 0,
+      "fly": 0,
+      "swim": 0,
+      "space": 0
+    },
+    "speed_modifiers": {
+      "size_modifier": 1.0,
+      "biome_modifiers": {
+        "forest": 1.3,
+        "swamp": 0.8,
+        "mountains": 0.9,
+        "desert": 0.4,
+        "tundra": 0.6,
+        "jungle": 1.4,
+        "underground": 1.1,
+        "underwater": 0.0,
+        "aerial": 0.0,
+        "space": 0.0
+      },
+      "environmental_modifiers": {
+        "weather": 0.9,
+        "lighting": 1.0,
+        "terrain": 1.0
+      }
+    },
+    "movement_abilities": [],
+    "movement_restrictions": [
+      "immobile",
+      "requires_deep_soil",
+      "magical_sensitivity"
+    ]
+  },
+  "paralytic_properties": {
+    "paralysis_type": "contact_and_inhaled",
+    "trigger_conditions": {
+      "direct_contact": true,
+      "proximity_radius": 20,
+      "airborne_release": true,
+      "weapon_contamination": false
+    },
+    "saving_throw": {
+      "ability": "constitution",
+      "dc": 18,
+      "advantage": false,
+      "disadvantage": true
+    },
+    "paralysis_effects": {
+      "immediate_paralysis": true,
+      "gradual_onset": false,
+      "onset_rounds": 0,
+      "paralysis_duration_minutes": 60,
+      "condition_immunity_override": true
+    },
+    "dual_mechanism": {
+      "contact_radius": 5,
+      "inhalation_radius": 20,
+      "continuous_release": true,
+      "amplified_by_stress": true
+    },
+    "special_mechanics": {
+      "cumulative_effects": true,
+      "resistance_buildup": true,
+      "plant_regeneration": true,
+      "seasonal_variations": true,
+      "emotional_response": true
+    }
+  },
+  "properties_plant": {
+    "photosynthetic_ability": true,
+    "root_mobility": false,
+    "spore_production": true,
+    "vine_mastery": 0,
+    "natural_regeneration": "20 HP per day",
+    "sensory_detection": "creatures within 100 feet",
+    "defensive_mechanism": true,
+    "harvestable": true,
+    "magical_sensitivity": true,
+    "emotional_intelligence": true
+  },
+  "abilities": [
+    "dual_paralysis_aura",
+    "contact_paralysis",
+    "spore_cloud_release",
+    "emotional_detection",
+    "scream_of_warning",
+    "magical_sensitivity",
+    "root_regeneration",
+    "life_drain",
+    "fear_aura"
+  ],
+  "resistances": {
+    "poison": 100,
+    "psychic": 80,
+    "physical": 60,
+    "magic": 50,
+    "necrotic": 70
+  },
+  "weaknesses": [
+    "fire_damage",
+    "radiant_damage",
+    "silence_spells",
+    "antidote_magic",
+    "dispel_magic"
+  ],
+  "immunities": [
+    "charmed",
+    "frightened",
+    "paralyzed",
+    "poisoned",
+    "unconscious",
+    "sleep",
+    "stunned"
+  ],
+  "senses": {
+    "truesight": 100,
+    "scent": true,
+    "empathy": true
+  },
+  "loot_table": {
+    "common_drops": [
+      "plant_creature_0298",
+      "magical_leaves",
+      "root_essence"
+    ],
+    "rare_drops": [
+      "paralysis_heart",
+      "life_force_extract"
+    ],
+    "epic_drops": [
+      "immortality_root",
+      "soul_paralysis_essence"
+    ],
+    "legendary_drops": [
+      "master_plant_creature_0298_crown"
+    ]
+  },
+  "harvest_info": {
+    "harvest_difficulty": "extremely_dangerous",
+    "harvest_tool": "specialized_tools_required",
+    "extraction_time": "2 hours",
+    "poison_yield": "1-3 doses (extremely potent)",
+    "preservation": "requires magic to preserve"
+  },
+  "habitat": {
+    "biomes": [
+      "deep_forests",
+      "magical_groves",
+      "ancient_gardens"
+    ],
+    "seasons": [
+      "year_round"
+    ],
+    "lighting": "dappled_sunlight",
+    "soil_type": "rich_magical",
+    "climate": "temperate_to_warm"
+  },
+  "ai_behavior": {
+    "aggression_level": "cautious",
+    "intelligence_level": "smart",
+    "tactical_awareness": "strategic",
+    "attack_pattern": "defensive_paralysis",
+    "defensive_patterns": [
+      "dual_aura",
+      "scream_warning",
+      "regenerate"
+    ],
+    "special_behaviors": [
+      "senses_emotions_of_approaching_creatures",
+      "releases_more_spores_when_frightened",
+      "can_be_bargained_with_by_sapient_creatures",
+      "regenerates_slowly_from_major_damage"
+    ]
+  },
+  "special_interactions": {
+    "pulling_attempt": {
+      "mechanism": "plant_creature_0298_screams_when_pulled",
+      "effect": "paralyses_all_creatures_within_60ft",
+      "save_dc": 20,
+      "duration": "2 hours"
+    },
+    "magical_harvest": {
+      "requirement": "silence_spells_first",
+      "bonus": "prevents_scream",
+      "risk": "plant_becomes_hostile"
+    },
+    "emotional_bond": {
+      "possibility": "can_form_bond_with_careful_handler",
+      "benefit": "voluntary_information_sharing",
+      "requirement": "high_charisma_check"
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

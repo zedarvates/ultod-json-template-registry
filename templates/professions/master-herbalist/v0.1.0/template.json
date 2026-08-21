@@ -1,0 +1,504 @@
+{
+  "profession_id": "master_herbalist",
+  "name": "Master Herbalist",
+  "display_name": "Maître Herboriste",
+  "description": "Maîtrise ultime de la récolte et transformation des plantes médicinales légendaires",
+  "base_skill": "herbalism",
+  "tier": "master",
+  "skill_requirement": 70,
+  "experience_requirement": 35000,
+  "icon": "profession_herbalism_master",
+  "category": "gathering",
+  "subcategory": "plant_harvesting",
+  "skill_progression": {
+    "formula": "herbalism_level * (1 + 0.10 * mastery_tier + 0.06 * specialization_level)",
+    "mastery_levels": [
+      "apprentice",
+      "journeyman",
+      "expert",
+      "master"
+    ],
+    "tier_requirements": {
+      "apprentice": {
+        "level": 1,
+        "talent_points": 0
+      },
+      "journeyman": {
+        "level": 20,
+        "talent_points": 4
+      },
+      "expert": {
+        "level": 40,
+        "talent_points": 8
+      },
+      "master": {
+        "level": 60,
+        "talent_points": 12
+      }
+    },
+    "practice_benefits": {
+      "gathering_speed": 0.11,
+      "herb_quality": 0.08,
+      "success_rate": 0.09,
+      "discovery_chance": 0.06
+    },
+    "decay_mechanic": {
+      "enabled": true,
+      "rate": 0.004,
+      "minimum_level": 20,
+      "recovery_rate": 0.01
+    }
+  },
+  "talent_tree": {
+    "total_points": 15,
+    "branches": {
+      "plant_identification": {
+        "name": "Identification des Plantes",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Oeil Expert",
+            "max_rank": 2,
+            "effects": {
+              "identification_speed": 0.14,
+              "accuracy_rate": 0.11,
+              "rare_herb_detection": 0.08
+            },
+            "prerequisites": [],
+            "description": "Capacité à identifier rapidement les plantes"
+          },
+          {
+            "name": "Connaissance Botanique",
+            "max_rank": 2,
+            "effects": {
+              "herb_knowledge": true,
+              "quality_assessment": 0.18,
+              "growth_prediction": 0.15
+            },
+            "prerequisites": [
+              "Oeil Expert_1"
+            ],
+            "description": "Connaissance approfondie de la botanique"
+          }
+        ]
+      },
+      "herb_processing": {
+        "name": "Traitement des Herbes",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Préparation Experte",
+            "max_rank": 2,
+            "effects": {
+              "processing_speed": 0.16,
+              "potency_preservation": 0.13,
+              "waste_reduction": 0.1
+            },
+            "prerequisites": [],
+            "description": "Techniques expertes de préparation des herbes"
+          },
+          {
+            "name": "Extraction Parfaite",
+            "max_rank": 2,
+            "effects": {
+              "essence_extraction": true,
+              "purity_maximum": 0.22,
+              "magical_properties": 0.19
+            },
+            "prerequisites": [
+              "Préparation Experte_1"
+            ],
+            "description": "Extraction parfaite des essences magiques"
+          }
+        ]
+      },
+      "nature_harmony": {
+        "name": "Harmonie Naturelle",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Communication Sylvestre",
+            "max_rank": 2,
+            "effects": {
+              "plant_communication": true,
+              "growth_acceleration": 0.2,
+              "natural_regeneration": 0.17
+            },
+            "prerequisites": [],
+            "description": "Communication avec le monde végétal"
+          },
+          {
+            "name": "Gardien des Plantes",
+            "max_rank": 2,
+            "effects": {
+              "forest_protection": true,
+              "regeneration_aura": true,
+              "harmony_blessing": 0.25
+            },
+            "prerequisites": [
+              "Communication Sylvestre_2"
+            ],
+            "description": "Protection et régénération de la nature"
+          }
+        ]
+      },
+      "legendary_herbalism": {
+        "name": "Herboristerie Légendaire",
+        "max_points": 3,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Herbe Légendaire",
+            "max_rank": 1,
+            "effects": {
+              "legendary_herbs": true,
+              "quality_multiplier": 0.4,
+              "reputation_bonus": 0.3
+            },
+            "prerequisites": [
+              "Connaissance Botanique_2",
+              "Extraction Parfaite_2"
+            ],
+            "description": "Découverte d'herbes légendaires"
+          },
+          {
+            "name": "Élixir Divin",
+            "max_rank": 1,
+            "effects": {
+              "divine_elixirs": true,
+              "permanent_effects": true,
+              "godly_power": 0.5
+            },
+            "prerequisites": [
+              "Herbe Légendaire"
+            ],
+            "description": "Création d'élixirs divins"
+          },
+          {
+            "name": "Maître Herboriste",
+            "max_rank": 1,
+            "effects": {
+              "nature_mastery": true,
+              "legendary_creation": true,
+              "harmony_perfection": true
+            },
+            "prerequisites": [
+              "Élixir Divin"
+            ],
+            "description": "Maîtrise ultime de l'herboristerie"
+          }
+        ]
+      }
+    }
+  },
+  "specialization_paths": {
+    "field_herbalist": {
+      "name": "Herboriste des Champs",
+      "requirements": {
+        "herbalism_level": 32,
+        "plant_identification_points": 4,
+        "completed_quests": 2
+      },
+      "bonuses": {
+        "gathering_speed": 18.0,
+        "herb_quality": 15.0,
+        "rare_herb_detection": 12.0,
+        "identification_speed": 0.2,
+        "accuracy_rate": 0.15
+      },
+      "unlock_recipes": [
+        "te_infusion",
+        "onguent_guerisseur",
+        "potion_vitalite",
+        "herbe_renforcée"
+      ],
+      "unlock_abilities": [
+        "identification_rapide",
+        "récolte_soigneuse",
+        "connaissance_botanique"
+      ],
+      "synergies": {
+        "druid": {
+          "multiplier": 1.4,
+          "effects": [
+            "nature_harmony",
+            "plant_communication"
+          ]
+        },
+        "alchemist": {
+          "multiplier": 1.5,
+          "effects": [
+            "potion_ingredients",
+            "essence_extraction"
+          ]
+        }
+      }
+    },
+    "apothecary": {
+      "name": "Apothicaire",
+      "requirements": {
+        "herbalism_level": 38,
+        "herb_processing_points": 4,
+        "completed_quests": 2
+      },
+      "bonuses": {
+        "processing_speed": 20.0,
+        "potency_preservation": 18.0,
+        "waste_reduction": 15.0,
+        "essence_extraction": 25.0,
+        "purity_maximum": 0.22
+      },
+      "unlock_recipes": [
+        "elixir_puissance",
+        "poison_paralysant",
+        "antidote_universel",
+        "potion_eternelle"
+      ],
+      "unlock_abilities": [
+        "extraction_experte",
+        "stabilisation_potion",
+        "amplification_magique"
+      ],
+      "synergies": {
+        "alchemist": {
+          "multiplier": 1.6,
+          "effects": [
+            "potion_mastery",
+            "ingredient_synergy"
+          ]
+        },
+        "healer": {
+          "multiplier": 1.3,
+          "effects": [
+            "healing_potions",
+            "medical_synergy"
+          ]
+        }
+      }
+    },
+    "nature_warden": {
+      "name": "Gardien de la Nature",
+      "requirements": {
+        "herbalism_level": 45,
+        "nature_harmony_points": 4,
+        "completed_quests": 3
+      },
+      "bonuses": {
+        "plant_communication": 25.0,
+        "growth_acceleration": 20.0,
+        "natural_regeneration": 18.0,
+        "forest_protection": 30.0,
+        "harmony_blessing": 0.35
+      },
+      "unlock_recipes": [
+        "plante_sacrée",
+        "essence_vivante",
+        "elixir_harmonie",
+        "benediction_naturelle"
+      ],
+      "unlock_abilities": [
+        "communication_plante",
+        "acceleration_croissance",
+        "protection_forestiere",
+        "regeneration_aura"
+      ],
+      "synergies": {
+        "druid": {
+          "multiplier": 1.7,
+          "effects": [
+            "nature_mastery",
+            "harmony_synergy"
+          ]
+        },
+        "ranger": {
+          "multiplier": 1.4,
+          "effects": [
+            "forest_survival",
+            "animal_friendship"
+          ]
+        }
+      }
+    },
+    "legendary_herbalist": {
+      "name": "Herboriste Légendaire",
+      "requirements": {
+        "herbalism_level": 60,
+        "legendary_herbalism_points": 3,
+        "completed_specializations": 2,
+        "master_achievements": 2
+      },
+      "bonuses": {
+        "legendary_herbs": 50.0,
+        "quality_multiplier": 40.0,
+        "divine_elixirs": 35.0,
+        "nature_mastery": 30.0,
+        "legendary_creation": true
+      },
+      "unlock_recipes": [
+        "herbe_divine",
+        "elixir_immortel",
+        "potion_eternelle",
+        "creation_legendaire"
+      ],
+      "unlock_abilities": [
+        "maitrise_naturelle",
+        "creation_divine",
+        "harmonie_parfaite",
+        "pouvoir_eternel"
+      ],
+      "synergies": {
+        "druid": {
+          "multiplier": 1.8,
+          "effects": [
+            "legendary_nature",
+            "divine_harmony"
+          ]
+        },
+        "alchemist": {
+          "multiplier": 1.7,
+          "effects": [
+            "mythic_potions",
+            "eternal_essence"
+          ]
+        }
+      }
+    }
+  },
+  "abilities": [
+    "master_herbalism",
+    "plant_identification",
+    "herb_processing",
+    "nature_communication",
+    "legendary_herbs",
+    "divine_elixirs",
+    "nature_mastery",
+    "harmony_perfection"
+  ],
+  "quests": [
+    {
+      "id": "herbalist_apprentice",
+      "name": "L'Apprenti Herboriste",
+      "requirements": {
+        "herbalism_level": 1,
+        "gather_herbs": 20,
+        "identify_plants": 15,
+        "create_potions": 5
+      },
+      "rewards": [
+        "basic_herbalism_kit",
+        "apprentice_talent_points",
+        "basic_herb_recipes"
+      ]
+    },
+    {
+      "id": "herbalist_journeyman",
+      "name": "L'Herboriste Voyageur",
+      "requirements": {
+        "herbalism_level": 20,
+        "gather_herbs": 150,
+        "identify_plants": 100,
+        "create_potions": 50,
+        "discover_rare_herbs": 8
+      },
+      "rewards": [
+        "journeyman_herbalism_kit",
+        "journeyman_talent_points",
+        "advanced_herb_recipes"
+      ]
+    },
+    {
+      "id": "herbalist_master",
+      "name": "Le Maître des Plantes",
+      "requirements": {
+        "herbalism_level": 60,
+        "gather_herbs": 800,
+        "identify_plants": 600,
+        "create_potions": 400,
+        "legendary_herbs": 25
+      },
+      "rewards": [
+        "master_herbalism_kit",
+        "master_talent_points",
+        "legendary_herb_recipes",
+        "nature_harmony_abilities"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "first_herb",
+      "name": "Première Herbe",
+      "requirement": {
+        "gather_herbs": 1
+      },
+      "rewards": [
+        "basic_herb_recipe",
+        "3_copper_coins"
+      ]
+    },
+    {
+      "id": "rare_discovery",
+      "name": "Découverte Rare",
+      "requirement": {
+        "discover_rare_herbs": 30
+      },
+      "rewards": [
+        "rare_herb_specialization",
+        "150_silver_coins",
+        "herb_quality_bonus"
+      ]
+    },
+    {
+      "id": "legendary_elixir",
+      "name": "Élixir Légendaire",
+      "requirement": {
+        "legendary_herbs": 20
+      },
+      "rewards": [
+        "legendary_herbalist",
+        "8000_gold_coins",
+        "market_reputation",
+        "master_herbalist_title"
+      ]
+    }
+  ],
+  "market_integration": {
+    "quality_multipliers": {
+      "common": 1.0,
+      "fine": 1.5,
+      "superior": 2.2,
+      "exquisite": 3.5,
+      "masterwork": 6.0,
+      "legendary": 12.0,
+      "mythic": 25.0
+    },
+    "reputation_bonuses": {
+      "local_herbalist": 1.0,
+      "town_herbalist": 1.3,
+      "regional_expert": 1.6,
+      "national_master": 2.0,
+      "world_famous": 3.0
+    },
+    "supply_demand": {
+      "common_herbs": {
+        "volatility": 0.1,
+        "trend": "steady_supply"
+      },
+      "rare_herbs": {
+        "volatility": 0.18,
+        "trend": "high_demand"
+      },
+      "legendary_herbs": {
+        "volatility": 0.25,
+        "trend": "rare_supply"
+      }
+    }
+  },
+  "enabled": true,
+  "id": "master_herbalist",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

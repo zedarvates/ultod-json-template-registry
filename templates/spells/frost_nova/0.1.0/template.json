@@ -1,0 +1,59 @@
+{
+  "id": "frost_nova",
+  "name": "Frost Nova",
+  "description": "A burst of ice radiating from the caster, damaging and slowing nearby enemies.",
+  "icon": "spell_frost_frostnova",
+  "school": "frost",
+  "rarity": "common",
+  "spell_type": "area_damage",
+  "target_type": "area",
+  "range": 0,
+  "cast_time": 800,
+  "cooldown": 6000,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 55,
+    "damage_type": "frost_elemental_damage",
+    "scaling": {
+      "attribute": "intelligence",
+      "coefficient": 0.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "frost_slow",
+      "value": 50,
+      "duration": 4000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fx_frost_cast",
+    "explosion_effect": "fx_frost_nova"
+  },
+  "sound_effects": {
+    "cast_effect": "snd_frost_cast",
+    "explosion_effect": "snd_frost_crack"
+  },
+  "requirements": {
+    "level": 1,
+    "classes": [
+      "mage"
+    ]
+  },
+  "vr_configuration": {
+    "gestures": {
+      "left_pose": "open",
+      "right_pose": "open",
+      "required_hand": "both"
+    },
+    "haptics": {
+      "charge_pattern": "haptic_frost_charge",
+      "launch_pattern": "haptic_frost_burst",
+      "impact_pattern": "haptic_frost_impact"
+    }
+  },
+  "enabled": true,
+  "template_type": "spell",
+  "version": "0.1.0"
+}

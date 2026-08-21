@@ -1,0 +1,26 @@
+{
+  "id": "weapon_mastery",
+  "name": "Maîtrise des Armes",
+  "description": "Augmente les dégâts des armes blanches",
+  "max_rank": 5,
+  "prerequisites": [],
+  "effects_per_rank": [
+    {
+      "type": "damage_multiplier",
+      "weapon_type": "sword",
+      "value": 0.02
+    },
+    {
+      "type": "damage_multiplier",
+      "weapon_type": "axe",
+      "value": 0.02
+    },
+    {
+      "type": "damage_multiplier",
+      "weapon_type": "mace",
+      "value": 0.02
+    }
+  ],
+  "template_type": "talent",
+  "version": "0.1.0"
+}

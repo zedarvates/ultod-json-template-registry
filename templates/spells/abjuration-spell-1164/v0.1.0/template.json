@@ -1,0 +1,65 @@
+{
+  "id": "abjuration_spell_1164",
+  "name": "Abjuration Spell 1164",
+  "description": "Pendant la concentration, une créature consentante gagne la résistance à un type d'énergie",
+  "icon": "abjuration_spell_1164_icon",
+  "school": "abjuration",
+  "rarity": "uncommon",
+  "spell_type": "buff",
+  "target_type": "single_ally",
+  "range": 5.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "energy_resistance",
+      "value": 1,
+      "duration": 3600000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "energy_type": "selected",
+      "damage_reduction": 1.0,
+      "concentration_required": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "energy_shield",
+    "buff_effect": "protective_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "ward_chant",
+    "buff_sound": "energy_absorb"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "abjuration_magic"
+    ],
+    "classes": [
+      "ranger",
+      "druid",
+      "cleric",
+      "wizard"
+    ]
+  },
+  "upgrades": {
+    "greater_protection": {
+      "unlock_level": 6,
+      "description": "Résistance à deux types d'énergie",
+      "energy_count": 2
+    },
+    "mass_protection": {
+      "unlock_level": 11,
+      "description": "Affecte tous les alliés dans une zone",
+      "area_buff": true,
+      "radius": 15.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

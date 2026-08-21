@@ -1,0 +1,72 @@
+{
+  "id": "healing_spell_0891",
+  "name": "Healing Spell 0891",
+  "description": "Enferme une cible dans un cocon régénérant qui guérit les blessures les plus graves et protège contre tous les effets",
+  "icon": "healing_spell_0891_icon",
+  "school": "healing",
+  "rarity": "legendary",
+  "spell_type": "adapted_referencete_healing_protection",
+  "target_type": "ally_protection_cocoon",
+  "range": 20.0,
+  "cast_time": 3000,
+  "cooldown": 180000,
+  "mana_cost": 200,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "regenerative_barrier_energy"
+  },
+  "effects": [
+    {
+      "effect_type": "healing_spell_0891_force_cocoon_protection",
+      "value": 600,
+      "duration": 30000,
+      "tick_rate": 2000,
+      "maximum_health_restoration": 2000,
+      "all_status_effect_immunity": true,
+      "damage_absorption_capacity": 2000,
+      "change_form_prevention": true,
+      "death_prevention_revive": true,
+      "healing_over_time_boost": 400
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "healing_spell_0891_energy_cocoon_formation_green_crystalline_shell_growing",
+    "cocoon_effect": "protective_green_barrier_shimmering_regenerative_energy_pulse",
+    "healing_effect": "wounds_closing_health_restoration_golden_light_burst_regeneration",
+    "expire_effect": "cocoon_cracking_open_green_energy_shell_shattering_dispersion"
+  },
+  "sound_effects": {
+    "cast_effect": "healing_spell_0891_energy_cocoon_crystalline_growth_organic_shell_building",
+    "cocoon_effect": "protective_barrier_regenerative_energy_constant_soft_pulse",
+    "healing_effect": "healing_spell_0891_restoration_cracks_healing_beneficial_energy_rush_soothing",
+    "expire_effect": "cocoon_breaking_green_crystal_shatter_shell_dispersion_release"
+  },
+  "requirements": {
+    "level": 50,
+    "skills": [
+      "healing_mastery",
+      "healing_spell_0891_force_manipulation",
+      "regenerative_arts"
+    ],
+    "classes": [
+      "monk",
+      "healing_spell_0891_weaver",
+      "healing_master"
+    ],
+    "specializations": [
+      "cocoon_restorer"
+    ]
+  },
+  "upgrades": {
+    "greater_life_cocoon": {
+      "unlock_level": 60,
+      "description": "Le Healing Spell 0891 devient plus puissant avec une protection accrue et une régénération supérieure",
+      "healing_restoration_increase_percent": 150,
+      "damage_absorption_capacity_boost": 1000,
+      "multiple_targets_cocoon_coverage": 3,
+      "permanent_regeneration_aura": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

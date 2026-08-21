@@ -1,0 +1,186 @@
+{
+  "culture": "elfe",
+  "display_name": "Elfes",
+  "models": {
+    "first_name_male": {
+      "names": [
+        "Aelrindel",
+        "Caelthas",
+        "Elyndor",
+        "Faelar",
+        "Galion",
+        "Haldir",
+        "Ithilwen",
+        "Legolas",
+        "Mithrandir",
+        "Nimloth",
+        "Oropher",
+        "Peredhil",
+        "Quelestor",
+        "Rúmil",
+        "Salmar",
+        "Thalion",
+        "Uldor",
+        "Voronwë",
+        "Wyllor",
+        "Xandor"
+      ],
+      "order": 3,
+      "min_length": 5,
+      "max_length": 12
+    },
+    "first_name_female": {
+      "names": [
+        "Aelarra",
+        "Celebrían",
+        "Elowen",
+        "Fíriel",
+        "Galadriel",
+        "Haldiriel",
+        "Ithilwen",
+        "Lúthien",
+        "Míriel",
+        "Nimloth",
+        "Oriwen",
+        "Peredhel",
+        "Quelarith",
+        "Rían",
+        "Silmarwen",
+        "Thalindra",
+        "Ulwë",
+        "Varda",
+        "Wynna",
+        "Yavanna"
+      ],
+      "order": 3,
+      "min_length": 5,
+      "max_length": 12
+    },
+    "first_name_neutral": {
+      "names": [
+        "Aether",
+        "Breeze",
+        "Crystal",
+        "Dawn",
+        "Echo",
+        "Frost",
+        "Glimmer",
+        "Harmony",
+        "Iris",
+        "Jade"
+      ],
+      "order": 2,
+      "min_length": 4,
+      "max_length": 10
+    },
+    "family_name": {
+      "names": [
+        "Greenleaf",
+        "Stormwind",
+        "Moonwhisper",
+        "Starweaver",
+        "Dawnbringer",
+        "Shadowsong",
+        "Lightfoot",
+        "Swiftarrow",
+        "Silvermoon",
+        "Goldleaf",
+        "Oakheart",
+        "Riverbend",
+        "Mountainpeak",
+        "Forestwalker",
+        "Skywatcher",
+        "Dewdrop",
+        "Sunbeam",
+        "Nightshade",
+        "Frostbloom",
+        "Windrider"
+      ],
+      "order": 2,
+      "min_length": 6,
+      "max_length": 15
+    },
+    "nickname_human": {
+      "names": [
+        "le Sylvestre",
+        "Chant-des-Vents",
+        "Danseur-de-Lune",
+        "Gardien-des-Étoiles",
+        "Seigneur-des-Forêts",
+        "Chasseur-d'Ombre",
+        "Tisseur-de-Rêves",
+        "Flèche-Rapide",
+        "Cœur-de-Pierre",
+        "Aile-de-Vent",
+        "le Gracieux",
+        "l'Élégant",
+        "le Mystérieux",
+        "le Sage",
+        "l'Ancien"
+      ],
+      "order": 2,
+      "min_length": 8,
+      "max_length": 20
+    },
+    "pet_name": {
+      "names": [
+        "Aetherwing",
+        "Brighteyes",
+        "Crystalpaw",
+        "Dawnwhisker",
+        "Echowisp",
+        "Frostfang",
+        "Glimmerfur",
+        "Harmonytail",
+        "Irisglow",
+        "Jadepounce",
+        "Kestrel",
+        "Lumin",
+        "Mistwalker",
+        "Nocturne",
+        "Oakshadow",
+        "Petal",
+        "Quill",
+        "Ripple",
+        "Sparkle",
+        "Twilight"
+      ],
+      "order": 2,
+      "min_length": 4,
+      "max_length": 12
+    }
+  },
+  "templates": {
+    "full_name": [
+      "{first_name} {family_name}",
+      "{first_name} {nickname}",
+      "{first_name} de la Maison {family_name}"
+    ],
+    "pet_full": [
+      "{pet_name}",
+      "{pet_name} le {epithet}",
+      "{pet_name} des {family_name}"
+    ]
+  },
+  "epithets": [
+    "Gracieux",
+    "Élégant",
+    "Mystérieux",
+    "Sage",
+    "Ancien",
+    "Rapide",
+    "Silencieux",
+    "Loyal",
+    "Magique",
+    "Éthéré",
+    "Noble",
+    "Vaillant",
+    "Harmonieux",
+    "Lumineux",
+    "Éternel"
+  ],
+  "id": "elfe",
+  "name": "Elfe",
+  "template_type": "name",
+  "version": "0.1.0"
+}

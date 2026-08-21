@@ -1,0 +1,70 @@
+{
+  "id": "rage_spell_1233",
+  "name": "Rage Spell 1233",
+  "description": "Libère une fureur inébranlable, augmentant considérablement les dégâts",
+  "icon": "rage_spell_1233_icon",
+  "school": "rage",
+  "rarity": "epic",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 3000,
+  "cooldown": 90000,
+  "mana_cost": 40,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "damage_buff",
+      "value": 75,
+      "duration": 25000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "attack_speed_buff",
+      "value": 50,
+      "duration": 25000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "movement_speed_buff",
+      "value": 25,
+      "duration": 25000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "rage_aura",
+    "projectile_effect": "none",
+    "impact_effect": "fury_awaken",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "battle_cry",
+    "impact_sound": "rage_roar"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "unbridled_rage": {
+      "unlock_level": 40,
+      "description": "Prolonge la durée de la fureur de 50%",
+      "duration_bonus": 12500
+    },
+    "divine_fury": {
+      "unlock_level": 55,
+      "description": "Ajoute 25% d'augmentation de dégâts supplémentaires",
+      "damage_bonus": 18.75
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

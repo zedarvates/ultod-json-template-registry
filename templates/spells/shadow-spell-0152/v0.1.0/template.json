@@ -1,0 +1,69 @@
+{
+  "id": "shadow_spell_0152",
+  "name": "Shadow Spell 0152",
+  "description": "A powerful melee attack infused with shadow energy, dealing bonus damage to villainous foes",
+  "icon": "dk_shadow_spell_0152_icon",
+  "school": "shadow",
+  "rarity": "common",
+  "spell_type": "melee_attack",
+  "target_type": "enemy",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 35,
+    "damage_type": "physical",
+    "bonus_damage": {
+      "villain_multiplier": 1.5,
+      "damage_type": "shadow"
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage_boost",
+      "value": 35,
+      "duration": 0,
+      "tick_rate": 0,
+      "villain_damage_multiplier": 1.5,
+      "karma_damage_scaling": true,
+      "karma_bonus_per_100": 0.1
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "shadow_spell_0152_energy_gather",
+    "attack_effect": "shadow_strike",
+    "impact_effect": "villain_weakness_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "shadow_spell_0152_whisper",
+    "attack_sound": "sword_shadow_swing",
+    "impact_sound": "villain_cry"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "swordsmanship",
+      "shadow_spell_0152_magic"
+    ],
+    "classes": [
+      "black_knight"
+    ]
+  },
+  "upgrades": {
+    "villain_bane": {
+      "unlock_level": 7,
+      "description": "Increases bonus damage against villains by 25%",
+      "villain_damage_increase": 0.25
+    },
+    "shadow_infuse": {
+      "unlock_level": 12,
+      "description": "Applies a shadow debuff that reduces villain healing by 30%",
+      "debuff_effect": "reduced_healing",
+      "healing_reduction": 0.3,
+      "duration": 8000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

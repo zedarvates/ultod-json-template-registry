@@ -1,0 +1,49 @@
+{
+  "id": "warrior",
+  "name": "Guerrier",
+  "description": "Combattant robuste et discipliné",
+  "icon": "warrior_lineage",
+  "rarity": "common",
+  "required_level": 10,
+  "awakening_cost": {
+    "mana": 100,
+    "health": 50,
+    "items": {
+      "warrior_essence": 1,
+      "combat_tome": 1
+    }
+  },
+  "stat_bonuses": {
+    "health": 15,
+    "strength": 18,
+    "dexterity": 0,
+    "intelligence": 0,
+    "wisdom": 0,
+    "charisma": -2
+  },
+  "resistance_bonuses": {
+    "physical": 10
+  },
+  "skill_bonuses": {
+    "combat": 0.25
+  },
+  "awakening_bonuses": {
+    "duration_minutes": 30,
+    "stat_multipliers": {
+      "strength": 1.25,
+      "health": 1.5
+    },
+    "special_effects": [
+      "berserker_rage",
+      "combat_mastery"
+    ]
+  },
+  "racial_synergies": {
+    "orc": 1.3,
+    "dwarf": 1.2,
+    "human": 1.1
+  },
+  "enabled": true,
+  "template_type": "lineage",
+  "version": "0.1.0"
+}

@@ -1,0 +1,98 @@
+{
+  "id": "cleric",
+  "name": "Cleric",
+  "description": "A devoted healer and holy warrior who mends allies and smites the impure.",
+  "color": "F1C40F",
+  "primary_resource": "holy_power",
+  "base_stats": {
+    "strength": 22,
+    "agility": 18,
+    "intelligence": 25,
+    "vitality": 28,
+    "wisdom": 46,
+    "charisma": 30
+  },
+  "specializations": [
+    "healer",
+    "templar",
+    "exorcist"
+  ],
+  "starting_skills": [
+    {
+      "id": 1,
+      "name": "Healing Light",
+      "description": "Mend an ally.",
+      "cooldown": 2500,
+      "mana_cost": 50,
+      "range": 40,
+      "cast_time": 1800,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 2,
+      "name": "Smite",
+      "description": "Holy strike on an enemy.",
+      "cooldown": 4000,
+      "mana_cost": 45,
+      "range": 30,
+      "cast_time": 1200,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 3,
+      "name": "Devotion",
+      "description": "+4% healing per rank.",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 5,
+      "is_passive": true
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 1,
+            "name": "Renewal",
+            "description": "Heals tick stronger.",
+            "max_rank": 5,
+            "icon_path": "icon_renewal"
+          },
+          {
+            "id": 2,
+            "name": "Aegis",
+            "description": "+6% damage reduction per rank.",
+            "max_rank": 5,
+            "icon_path": "icon_aegis"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "talents": [
+          {
+            "id": 3,
+            "name": "Resurrection",
+            "description": "Revive fallen allies.",
+            "max_rank": 1,
+            "icon_path": "icon_rez"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 1000,
+  "health_modifier": 0.9,
+  "damage_modifier": 1.0,
+  "armor_modifier": 1.1,
+  "spell_ids": [],
+  "enabled": true,
+  "template_type": "class",
+  "version": "0.1.0"
+}

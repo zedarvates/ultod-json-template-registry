@@ -1,0 +1,80 @@
+{
+  "id": "holy_spell_1036",
+  "name": "Holy Spell 1036",
+  "description": "Consacre l'arme du paladin, lui conférant des propriétés sacrées",
+  "icon": "holy_spell_1036_icon",
+  "school": "holy",
+  "rarity": "uncommon",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 2000,
+  "cooldown": 60000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "holy"
+  },
+  "effects": [
+    {
+      "effect_type": "weapon_enchant",
+      "value": 25,
+      "duration": 300000,
+      "tick_rate": 0,
+      "enchant_type": "holy_damage",
+      "scaling": {
+        "wisdom": 0.8,
+        "strength": 0.4
+      }
+    },
+    {
+      "effect_type": "weapon_enchant",
+      "value": 10,
+      "duration": 300000,
+      "tick_rate": 0,
+      "enchant_type": "undead_damage_bonus"
+    },
+    {
+      "effect_type": "visual_buff",
+      "value": 0,
+      "duration": 300000,
+      "tick_rate": 0,
+      "effect_name": "weapon_holy_glow"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "weapon_consecration",
+    "buff_effect": "holy_weapon_aura",
+    "expire_effect": "enchant_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_blessing",
+    "buff_sound": "weapon_power_up",
+    "expire_sound": "enchant_end"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "paladin"
+    ]
+  },
+  "upgrades": {
+    "greater_consecration": {
+      "unlock_level": 20,
+      "description": "Augmente les bonus de Holy Spell 1036",
+      "damage_bonus": 15,
+      "duration_bonus": 60000
+    },
+    "sanctified_weapon": {
+      "unlock_level": 30,
+      "description": "Holy Spell 1036 purifie les ennemis non-morts",
+      "undead_purify_chance": 25,
+      "holy_critical_chance": 8
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

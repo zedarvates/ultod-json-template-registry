@@ -1,0 +1,40 @@
+{
+  "school": "chamanisme",
+  "rarity": "common",
+  "target_type": "single",
+  "range": 30.0,
+  "cast_time": 1500,
+  "cooldown": 8000,
+  "mana_cost": 20,
+  "visual_effects": {
+    "cast_effect": "shaman_cast",
+    "projectile_effect": "none",
+    "impact_effect": "elemental_impact",
+    "trail_effect": "elemental_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "shaman_cast_sound",
+    "impact_sound": "elemental_impact_sound"
+  },
+  "requirements": {
+    "level": 18
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "chamanisme_spell_1296",
+  "name": "Chamanisme Spell 1296",
+  "description": "Une explosion de lave destructrice",
+  "icon": "chamanisme_spell_1296_icon",
+  "spell_type": "damage",
+  "damage_type": "fire",
+  "base_damage": 200,
+  "damage": {
+    "base_damage": 200,
+    "damage_type": "fire",
+    "scaling": {
+      "spirit": 0.7,
+      "intellect": 0.5
+    }
+  },
+  "template_type": "spell"
+}

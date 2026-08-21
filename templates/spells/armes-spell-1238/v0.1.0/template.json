@@ -1,0 +1,70 @@
+{
+  "id": "armes_spell_1238",
+  "name": "Armes Spell 1238",
+  "description": "Une danse de lames qui frappe tous les ennemis proches",
+  "icon": "armes_spell_1238_icon",
+  "school": "armes",
+  "rarity": "rare",
+  "spell_type": "damage",
+  "target_type": "area",
+  "range": 8.0,
+  "cast_time": 1000,
+  "cooldown": 30000,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 80,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.5,
+      "agility": 0.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "area_damage",
+      "value": 80,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "multiple_targets",
+      "value": 3,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "spin_attack",
+    "projectile_effect": "none",
+    "impact_effect": "blade_storm",
+    "trail_effect": "circular_arcs"
+  },
+  "sound_effects": {
+    "cast_sound": "blade_whirl",
+    "impact_sound": "multiple_hits"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "dancing_blades": {
+      "unlock_level": 32,
+      "description": "Peut toucher jusqu'à 5 ennemis",
+      "target_bonus": 2
+    },
+    "furious_twist": {
+      "unlock_level": 47,
+      "description": "Augmente les dégâts de 40%",
+      "damage_bonus": 32
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

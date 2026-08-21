@@ -1,0 +1,97 @@
+{
+  "id": "enchantment_spell_0099",
+  "name": "Enchantment Spell 0099",
+  "description": "Le barde invoque un rituel de enchantment_spell_0099 house qui crée des champs d'énergie électrisante et booste massivement l'équipe",
+  "icon": "enchantment_spell_0099_icon",
+  "school": "enchantment",
+  "rarity": "legendary",
+  "spell_type": "enchantment_spell_0099_aura",
+  "target_type": "caster_area",
+  "range": 100.0,
+  "cast_time": 8000,
+  "cooldown": 120000,
+  "mana_cost": 250,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "plasma"
+  },
+  "effects": [
+    {
+      "effect_type": "party_energy_burst",
+      "value": 500,
+      "duration": 60000,
+      "tick_rate": 0,
+      "energy_injection": 200,
+      "max_targets": 15,
+      "durational_boost": true
+    },
+    {
+      "effect_type": "plasma_field_damage",
+      "value": 120,
+      "duration": 45000,
+      "tick_rate": 2000,
+      "aoe_range": 50.0,
+      "lightning_strikes": 8,
+      "strike_damage": 120,
+      "enemy_slow": 0.5
+    },
+    {
+      "effect_type": "house_party_buff",
+      "value": 100,
+      "duration": 45000,
+      "tick_rate": 10000,
+      "damage_reduction": 0.3,
+      "attack_speed_increase": 50,
+      "max_targets": 15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dj_console_energy_buildup",
+    "field_effect": "hypnotic_pulse_orbs",
+    "buff_effect": "energizing_light_streams",
+    "dream_effect": "floating_techno_symbols"
+  },
+  "sound_effects": {
+    "cast_sound": "building_enchantment_spell_0099_intro_loop",
+    "field_sound": "deep_house_base_loop",
+    "strike_sound": "electric_drum_hits",
+    "buff_sound": "uplifting_synth_melodies"
+  },
+  "requirements": {
+    "level": 55,
+    "skills": [
+      "performance",
+      "enchantment",
+      "electronic_music",
+      "party_magic"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour",
+      "dj_mage"
+    ],
+    "specializations": [
+      "enchantment_spell_0099_master",
+      "house_specialist"
+    ]
+  },
+  "upgrades": {
+    "ultra_trance": {
+      "unlock_level": 65,
+      "description": "Augmente l'intensité énergétique et ajoute des effets hypnotiques",
+      "energy_injection_bonus": 150,
+      "hypnotic_charm": 0.4,
+      "max_targets": 20
+    },
+    "dream_house_revolution": {
+      "unlock_level": 70,
+      "description": "Le rituel devient révolutionnaire avec des dégâts massifs continuels",
+      "lightning_strikes_bonus": 12,
+      "strike_damage_bonus": 80,
+      "party_heal_pulse": 50
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

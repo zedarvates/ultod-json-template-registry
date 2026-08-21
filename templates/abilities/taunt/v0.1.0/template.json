@@ -1,0 +1,18 @@
+{
+  "id": "taunt",
+  "name": "Provocation",
+  "description": "Force l'ennemi à vous attaquer.",
+  "type": "instant",
+  "resource_cost": 0,
+  "resource_type": "rage",
+  "cooldown": 8.0,
+  "range": 20.0,
+  "effects": [
+    {
+      "type": "aggro_mod",
+      "value": 1000.0
+    }
+  ],
+  "template_type": "ability",
+  "version": "0.1.0"
+}

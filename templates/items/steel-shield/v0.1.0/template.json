@@ -1,16 +1,32 @@
 {
   "id": "steel_shield",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Steel Shield",
-  "description": "A portable armor component for public template workflows.",
+  "name": "Bouclier d'Acier",
+  "description": "Bouclier solide pour tank debutant et milicien.",
+  "icon": "steel_shield",
   "category": "armor",
   "rarity": "common",
-  "stack_limit": 10,
-  "weight_kg": 5.5,
-  "tags": [
-    "adapted",
-    "armor"
-  ],
-  "dependencies": []
+  "item_type": "shield",
+  "sub_type": "offhand",
+  "base_stats": {
+    "durability": 120,
+    "max_durability": 120,
+    "weight": 5.5,
+    "value": 140
+  },
+  "armor_properties": {
+    "armor_value": 18,
+    "block_chance": 0.15,
+    "slot": "offhand"
+  },
+  "properties": {
+    "stackable": false,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 3,
+    "strength": 10
+  },
+  "template_type": "item",
+  "version": "0.1.0"
 }

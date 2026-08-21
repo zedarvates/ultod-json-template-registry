@@ -1,0 +1,132 @@
+{
+  "id": "ranger",
+  "name": "Ranger",
+  "description": "Elite wilderness warriors who master both ranged combat and survival skills, commanding nature's fury",
+  "icon": "classes/ranger.png",
+  "primary_attribute": "dexterity",
+  "secondary_attribute": "wisdom",
+  "health_per_level": 10,
+  "mana_per_level": 8,
+  "base_stats": {
+    "strength": 14,
+    "dexterity": 18,
+    "constitution": 14,
+    "intelligence": 10,
+    "wisdom": 12,
+    "charisma": 8
+  },
+  "stat_growth": {
+    "strength": 0.8,
+    "dexterity": 1.6,
+    "constitution": 0.9,
+    "intelligence": 0.4,
+    "wisdom": 0.7,
+    "charisma": 0.3
+  },
+  "resistances": {
+    "nature": 15,
+    "poison": 20,
+    "physical": 5,
+    "cold": 10
+  },
+  "starting_equipment": {
+    "weapon": "longbow_masterwork",
+    "armor": "leather_armor_reinforced",
+    "offhand": "tracking_compass"
+  },
+  "abilities": [
+    {
+      "id": "multishot",
+      "name": "Multishot",
+      "description": "Fire multiple arrows simultaneously at nearby enemies",
+      "type": "damage",
+      "cooldown": 12000,
+      "mana_cost": 25,
+      "damage": {
+        "base": 45,
+        "scaling": 1.2,
+        "targets": 3
+      }
+    },
+    {
+      "id": "beast_call",
+      "name": "Beast Call",
+      "description": "Summon a wild beast to fight alongside you",
+      "type": "summon",
+      "cooldown": 60000,
+      "mana_cost": 40,
+      "duration": 30000
+    },
+    {
+      "id": "camouflage",
+      "name": "Camouflage",
+      "description": "Blend into the environment, becoming nearly invisible",
+      "type": "stealth",
+      "cooldown": 30000,
+      "mana_cost": 30,
+      "duration": 20000
+    },
+    {
+      "id": "volley",
+      "name": "Volley",
+      "description": "Fire a devastating barrage of arrows in a wide area",
+      "type": "aoe_damage",
+      "cooldown": 25000,
+      "mana_cost": 50,
+      "damage": {
+        "base": 80,
+        "scaling": 1.0,
+        "radius": 8.0,
+        "max_targets": 6
+      }
+    }
+  ],
+  "talents": [
+    {
+      "id": "master_marksman",
+      "name": "Master Marksman",
+      "description": "Increases ranged damage by 30% and critical hit chance by 15%",
+      "required_level": 15,
+      "effects": {
+        "ranged_damage_bonus": 30,
+        "critical_chance_bonus": 15
+      }
+    },
+    {
+      "id": "wilderness_expert",
+      "name": "Wilderness Expert",
+      "description": "Movement speed increased by 20% in natural environments, can track enemies",
+      "required_level": 20,
+      "effects": {
+        "nature_movement_speed": 20,
+        "tracking_ability": true
+      }
+    },
+    {
+      "id": "beast_master",
+      "name": "Beast Master",
+      "description": "Summoned beasts are stronger and can be controlled more precisely",
+      "required_level": 25,
+      "effects": {
+        "beast_damage_bonus": 40,
+        "beast_health_bonus": 50,
+        "dual_beast_summon": true
+      }
+    }
+  ],
+  "lineage_synergies": {
+    "fenrir": 1.5,
+    "centaur": 1.3,
+    "dryad": 1.4,
+    "werewolf": 1.2
+  },
+  "spell_synergies": {
+    "nature": 1.4,
+    "beast": 1.6,
+    "tracking": 1.5
+  },
+  "racial_restrictions": [],
+  "enabled": true,
+  "template_type": "class",
+  "version": "0.1.0"
+}

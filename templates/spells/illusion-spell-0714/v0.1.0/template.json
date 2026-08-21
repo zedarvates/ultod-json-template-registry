@@ -1,0 +1,78 @@
+{
+  "id": "illusion_spell_0714",
+  "name": "Illusion Spell 0714",
+  "description": "Crée plusieurs copies illusoires de l'illusionniste qui distraient les ennemis et absorbent les attaques",
+  "icon": "illusion_spell_0714_icon",
+  "school": "illusion",
+  "rarity": "common",
+  "spell_type": "protective_illusion_copies",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1500,
+  "cooldown": 18000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "illusion_distraction_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "illusion_spell_0714_copy_projection",
+      "value": 100,
+      "duration": 25000,
+      "tick_rate": 0,
+      "illusion_copy_count": 3,
+      "attack_redirection_chance": 70,
+      "movement_confusion_effect": true,
+      "illusion_damage_absorption": 50,
+      "threat_division_equal": true,
+      "shatter_on_damage": 2
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "illusion_spell_0714_shattering_copies_emerging",
+    "active_effect": "multiple_self_copies_moving_sync",
+    "distraction_effect": "images_shattering_enemies_confused",
+    "expire_effect": "illusion_spell_0714_shards_fading_disappearing"
+  },
+  "sound_effects": {
+    "cast_effect": "illusion_spell_0714_breaking_crystal_shattering_pop",
+    "active_effect": "multiple_footsteps_confusing_echoes",
+    "distraction_effect": "illusion_spell_0714_shatter_confusion_chaos",
+    "expire_effect": "glass_cracking_fading_whisper_end"
+  },
+  "requirements": {
+    "level": 4,
+    "skills": [
+      "illusion_magic",
+      "illusion_spell_0714_projection"
+    ],
+    "classes": [
+      "illusionist",
+      "illusion_spell_0714_walker"
+    ],
+    "specializations": [
+      "image_specialist"
+    ]
+  },
+  "upgrades": {
+    "greater_mirror_image": {
+      "unlock_level": 14,
+      "description": "Les Illusion Spell 0714 deviennent plus grandes avec plus de copies et d'effets visuels",
+      "additional_copy_count": 2,
+      "distraction_radius_expansion": 15.0,
+      "attack_predirection_intelligence": true,
+      "mirror_damage_reflection": 30
+    },
+    "perfect_mirror_image": {
+      "unlock_level": 24,
+      "description": "Les Illusion Spell 0714 deviennent parfaites, indistinguables et capables d'attaquer",
+      "indistinguishable_copies": true,
+      "illusion_attack_capability": 25,
+      "perfect_deception_detection": false,
+      "mirror_army_summon": 5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

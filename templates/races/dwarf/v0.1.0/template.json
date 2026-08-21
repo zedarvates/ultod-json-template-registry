@@ -1,0 +1,115 @@
+{
+  "id": "dwarf",
+  "name": "Nain",
+  "description": "Créatures robustes et résistantes, maîtres forgerons et guerriers endurants",
+  "icon": "dwarf_icon",
+  "category": "humanoid",
+  "rarity": "common",
+  "faction": "alliance",
+  "base_stats": {
+    "strength": 13,
+    "dexterity": 7,
+    "constitution": 14,
+    "intelligence": 8,
+    "wisdom": 10,
+    "charisma": 7,
+    "luck": 9
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 0.9,
+    "experience_rate": 1.1,
+    "health_regeneration": 1.2,
+    "stamina_regeneration": 1.3,
+    "physical_resistance": 1.15
+  },
+  "available_classes": [
+    "warrior",
+    "paladin",
+    "hunter",
+    "priest",
+    "rogue",
+    "shaman",
+    "death_knight",
+    "monk",
+    "guardian",
+    "gunslinger",
+    "vandal",
+    "executor",
+    "brawler"
+  ],
+  "racial_traits": [
+    "stonecunning",
+    "battle_hardened",
+    "craftsman_spirit",
+    "mountain_resilience"
+  ],
+  "passive_bonuses": {
+    "skill_points_per_level": 1,
+    "attribute_points_per_level": 1,
+    "resistance_to_poison": 12,
+    "bonus_to_defensive_skills": 8,
+    "bonus_to_crafting_skills": 15,
+    "reduced_stun_duration": 20
+  },
+  "starting_equipment": {
+    "weapons": [
+      "dwarven_axe",
+      "dwarven_hammer"
+    ],
+    "armor": [
+      "dwarven_helmet",
+      "dwarven_chestplate",
+      "dwarven_boots"
+    ],
+    "items": [
+      "ale",
+      "dwarven_bread",
+      "mining_pick"
+    ]
+  },
+  "body_proportions": {
+    "height_min": 120,
+    "height_max": 150,
+    "weight_min": 70,
+    "weight_max": 120,
+    "body_type": "stocky"
+  },
+  "appearance_restrictions": {
+    "skin_colors": [
+      "fair",
+      "tan",
+      "ruddy"
+    ],
+    "hair_colors": [
+      "red",
+      "brown",
+      "black",
+      "gray",
+      "white"
+    ],
+    "eye_colors": [
+      "blue",
+      "brown",
+      "green",
+      "hazel"
+    ],
+    "facial_features": "beard_required"
+  },
+  "cultural_background": {
+    "languages": [
+      "common",
+      "dwarven"
+    ],
+    "starting_city": "mountain_stronghold",
+    "alignment_tendency": "lawful_neutral",
+    "cultural_bonuses": {
+      "mining": 20,
+      "blacksmithing": 18,
+      "stonemasonry": 15,
+      "brewing": 12,
+      "resistance_to_fear": 10
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "race"
+}

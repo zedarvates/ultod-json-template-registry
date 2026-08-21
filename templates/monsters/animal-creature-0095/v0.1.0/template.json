@@ -1,0 +1,56 @@
+{
+  "id": "animal_creature_0095",
+  "name": "Animal Creature 0095",
+  "description": "Animal Creature 0095 sauvage agressif aux défenses acérées et au tempérament féroce",
+  "icon": "animal_creature_0095_icon",
+  "category": "animal",
+  "rarity": "uncommon",
+  "base_stats": {
+    "health": 150,
+    "mana": 20,
+    "strength": 28,
+    "dexterity": 12,
+    "intelligence": 5,
+    "wisdom": 8,
+    "constitution": 25,
+    "charisma": 6
+  },
+  "properties": {
+    "is_aggressive": true,
+    "is_wild": true,
+    "size": "medium",
+    "speed": 8.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "animal_creature_0095_meat",
+      "animal_creature_0095_hide"
+    ],
+    "rare_drops": [
+      "animal_creature_0095_tusk",
+      "animal_creature_0095_heart"
+    ],
+    "epic_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "medium",
+    "attack_pattern": "charge",
+    "special_abilities": [
+      "tusk_gore",
+      "defensive_spin"
+    ]
+  },
+  "abilities": [
+    "tusk_charge",
+    "bite",
+    "defensive_roll"
+  ],
+  "resistances": {
+    "physical": 20
+  },
+  "weaknesses": [
+    "predators"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

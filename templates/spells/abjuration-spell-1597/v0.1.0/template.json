@@ -1,0 +1,45 @@
+{
+  "id": "abjuration_spell_1597",
+  "name": "Abjuration Spell 1597",
+  "description": "Annule un sort lancé par une autre créature",
+  "icon": "abjuration_spell_1597_icon",
+  "school": "abjuration",
+  "rarity": "rare",
+  "spell_type": "abjuration_spell_1597",
+  "target_type": "single",
+  "range": 18.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "abjuration_spell_1597",
+      "value": 0,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "magic_shield"
+  },
+  "sound_effects": {
+    "cast_sound": "spell_interrupt"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "abjuration"
+    ],
+    "classes": [
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

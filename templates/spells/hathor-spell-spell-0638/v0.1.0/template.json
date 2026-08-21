@@ -1,0 +1,45 @@
+{
+  "id": "hathor_spell_spell_0638",
+  "name": "Hathor Spell Spell 0638",
+  "description": "Description for hathor_spell_spell_0638 Spell Spell 0638",
+  "icon": "hathor_spell_spell_0638_spell_spell_0638_icon",
+  "school": "hathor_spell_spell_0638_spell",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 6.0,
+  "cast_time": 300,
+  "cooldown": 1000,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 24,
+    "damage_type": "physical"
+  },
+  "effects": [
+    {
+      "effect_type": "physical_damage",
+      "value": 24,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "aura",
+    "projectile_effect": "bolt",
+    "impact_effect": "impact"
+  },
+  "sound_effects": {
+    "cast_sound": "cast",
+    "impact_sound": "hit"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "hathor_spell_spell_0638"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

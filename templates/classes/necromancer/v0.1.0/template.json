@@ -1,0 +1,99 @@
+{
+  "id": "necromancer",
+  "name": "Necromancer",
+  "description": "Masters of death and undeath, commanding armies of the damned and wielding forbidden necrotic energies",
+  "icon": "classes/necromancer.png",
+  "primary_attribute": "intelligence",
+  "secondary_attribute": "wisdom",
+  "health_per_level": 8,
+  "mana_per_level": 15,
+  "base_stats": {
+    "strength": 8,
+    "dexterity": 10,
+    "constitution": 12,
+    "intelligence": 18,
+    "wisdom": 16,
+    "charisma": 6
+  },
+  "stat_growth": {
+    "strength": 0.3,
+    "dexterity": 0.4,
+    "constitution": 0.5,
+    "intelligence": 1.8,
+    "wisdom": 1.4,
+    "charisma": 0.2
+  },
+  "resistances": {
+    "shadow": 15,
+    "necrotic": 25,
+    "poison": 10,
+    "holy": -10
+  },
+  "starting_equipment": {
+    "weapon": "necrotic_staff",
+    "armor": "dark_robes",
+    "offhand": "spellbook_of_the_dead"
+  },
+  "abilities": [
+    {
+      "id": "raise_dead",
+      "name": "Raise Dead",
+      "description": "Raise a fallen enemy as a skeletal minion",
+      "type": "summon",
+      "cooldown": 30000,
+      "mana_cost": 45
+    },
+    {
+      "id": "death_coil",
+      "name": "Death Coil",
+      "description": "Deals shadow damage and heals the caster for the damage dealt",
+      "type": "damage",
+      "cooldown": 8000,
+      "mana_cost": 35
+    },
+    {
+      "id": "bone_armor",
+      "name": "Bone Armor",
+      "description": "Surround yourself with protective bones",
+      "type": "defensive",
+      "cooldown": 45000,
+      "mana_cost": 60
+    }
+  ],
+  "talents": [
+    {
+      "id": "master_necromancer",
+      "name": "Master Necromancer",
+      "description": "Increases necrotic damage by 25% and reduces mana cost of death spells by 15%",
+      "required_level": 20,
+      "effects": {
+        "necrotic_damage_bonus": 25,
+        "death_spell_mana_reduction": 15
+      }
+    },
+    {
+      "id": "undead_horde",
+      "name": "Undead Horde",
+      "description": "Can control up to 5 undead minions simultaneously",
+      "required_level": 25,
+      "effects": {
+        "max_minions": 5,
+        "minion_damage_bonus": 20
+      }
+    }
+  ],
+  "lineage_synergies": {
+    "death_knight": 1.4,
+    "lich": 1.6,
+    "vampire": 1.3
+  },
+  "spell_synergies": {
+    "shadow": 1.3,
+    "necrotic": 1.5,
+    "death": 1.4
+  },
+  "racial_restrictions": [],
+  "enabled": true,
+  "template_type": "class",
+  "version": "0.1.0"
+}

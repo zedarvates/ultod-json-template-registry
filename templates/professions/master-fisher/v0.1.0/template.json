@@ -1,0 +1,461 @@
+{
+  "profession_id": "master_fisher",
+  "name": "Master Fisher",
+  "display_name": "Maître Pêcheur",
+  "description": "Maîtrise ultime de la pêche et de la capture de créatures aquatiques légendaires",
+  "base_skill": "fishing",
+  "tier": "master",
+  "skill_requirement": 72,
+  "experience_requirement": 38000,
+  "icon": "profession_fishing_master",
+  "category": "gathering",
+  "subcategory": "aquatic_harvesting",
+  "skill_progression": {
+    "formula": "fishing_level * (1 + 0.10 * mastery_tier + 0.06 * specialization_level)",
+    "mastery_levels": [
+      "apprentice",
+      "journeyman",
+      "expert",
+      "master"
+    ],
+    "tier_requirements": {
+      "apprentice": {
+        "level": 1,
+        "talent_points": 0
+      },
+      "journeyman": {
+        "level": 21,
+        "talent_points": 4
+      },
+      "expert": {
+        "level": 41,
+        "talent_points": 8
+      },
+      "master": {
+        "level": 61,
+        "talent_points": 12
+      }
+    },
+    "practice_benefits": {
+      "casting_speed": 0.12,
+      "catch_quality": 0.08,
+      "success_rate": 0.1,
+      "discovery_chance": 0.06
+    },
+    "decay_mechanic": {
+      "enabled": true,
+      "rate": 0.004,
+      "minimum_level": 20,
+      "recovery_rate": 0.01
+    }
+  },
+  "talent_tree": {
+    "total_points": 15,
+    "branches": {
+      "casting_mastery": {
+        "name": "Maîtrise du Lancer",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Lancer Précis",
+            "max_rank": 2,
+            "effects": {
+              "casting_accuracy": 0.15,
+              "casting_distance": 0.12,
+              "success_rate": 0.08
+            },
+            "prerequisites": [],
+            "description": "Techniques précises de lancer de ligne"
+          },
+          {
+            "name": "Lancer Expert",
+            "max_rank": 2,
+            "effects": {
+              "perfect_casting": true,
+              "bait_efficiency": 0.2,
+              "rare_catch_chance": 0.15
+            },
+            "prerequisites": [
+              "Lancer Précis_1"
+            ],
+            "description": "Maîtrise experte du lancer et des appâts"
+          }
+        ]
+      },
+      "fish_lore": {
+        "name": "Connaissance des Poissons",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Identification Aquatique",
+            "max_rank": 2,
+            "effects": {
+              "fish_identification": true,
+              "quality_assessment": 0.16,
+              "rare_species_detection": 0.13
+            },
+            "prerequisites": [],
+            "description": "Capacité à identifier les espèces de poissons rares"
+          },
+          {
+            "name": "Pêche Sélective",
+            "max_rank": 2,
+            "effects": {
+              "selective_fishing": true,
+              "preservation_bonus": 0.22,
+              "ecosystem_balance": 0.18
+            },
+            "prerequisites": [
+              "Identification Aquatique_2"
+            ],
+            "description": "Pêche respectueuse de l'équilibre aquatique"
+          }
+        ]
+      },
+      "deep_sea_mastery": {
+        "name": "Maîtrise des Profondeurs",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Exploration des Abysses",
+            "max_rank": 2,
+            "effects": {
+              "deep_water_access": true,
+              "abyssal_creatures": 0.25,
+              "treasure_discovery": 0.2
+            },
+            "prerequisites": [],
+            "description": "Accès aux eaux profondes et créatures abyssales"
+          },
+          {
+            "name": "Gardien des Mers",
+            "max_rank": 2,
+            "effects": {
+              "ocean_protection": true,
+              "regeneration_aura": true,
+              "marine_blessing": 0.3
+            },
+            "prerequisites": [
+              "Exploration des Abysses_2"
+            ],
+            "description": "Protection et régénération des écosystèmes marins"
+          }
+        ]
+      },
+      "legendary_fishing": {
+        "name": "Pêche Légendaire",
+        "max_points": 3,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Créature Légendaire",
+            "max_rank": 1,
+            "effects": {
+              "legendary_catches": true,
+              "quality_multiplier": 0.45,
+              "reputation_bonus": 0.35
+            },
+            "prerequisites": [
+              "Lancer Expert_2",
+              "Pêche Sélective_2"
+            ],
+            "description": "Capacité à capturer des créatures légendaires"
+          },
+          {
+            "name": "Trésor Englouti",
+            "max_rank": 1,
+            "effects": {
+              "sunken_treasures": true,
+              "artifact_recovery": true,
+              "wealth_multiplier": 0.6
+            },
+            "prerequisites": [
+              "Créature Légendaire"
+            ],
+            "description": "Récupération de trésors engloutis"
+          },
+          {
+            "name": "Maître Pêcheur",
+            "max_rank": 1,
+            "effects": {
+              "perfect_fishing": true,
+              "ocean_domination": true,
+              "legendary_creation": true
+            },
+            "prerequisites": [
+              "Trésor Englouti"
+            ],
+            "description": "Maîtrise ultime de l'art de la pêche"
+          }
+        ]
+      }
+    }
+  },
+  "specialization_paths": {
+    "angler": {
+      "name": "Pêcheur à la Ligne",
+      "requirements": {
+        "fishing_level": 35,
+        "casting_mastery_points": 4,
+        "completed_quests": 2
+      },
+      "bonuses": {
+        "casting_accuracy": 20.0,
+        "casting_distance": 15.0,
+        "bait_efficiency": 18.0,
+        "perfect_casting": 25.0,
+        "rare_catch_chance": 0.22
+      },
+      "unlock_recipes": [
+        "appat_special",
+        "ligne_renforcee",
+        "hamecon_magique",
+        "canne_legendaire"
+      ],
+      "unlock_abilities": [
+        "lancer_parfait",
+        "appat_efficace",
+        "detection_poisson"
+      ],
+      "synergies": {
+        "cook": {
+          "multiplier": 1.4,
+          "effects": [
+            "fresh_ingredients",
+            "cooking_synergy"
+          ]
+        },
+        "alchemist": {
+          "multiplier": 1.2,
+          "effects": [
+            "potion_ingredients",
+            "rare_components"
+          ]
+        }
+      }
+    },
+    "marine_explorer": {
+      "name": "Explorateur Marin",
+      "requirements": {
+        "fishing_level": 40,
+        "deep_sea_mastery_points": 4,
+        "completed_quests": 2
+      },
+      "bonuses": {
+        "deep_water_access": 30.0,
+        "abyssal_creatures": 25.0,
+        "treasure_discovery": 20.0,
+        "ocean_protection": 35.0,
+        "marine_blessing": 0.4
+      },
+      "unlock_recipes": [
+        "equipement_plongee",
+        "appat_abyssal",
+        "filet_profondeur",
+        "harpon_legendaire"
+      ],
+      "unlock_abilities": [
+        "exploration_abysse",
+        "protection_marine",
+        "decouverte_tresor"
+      ],
+      "synergies": {
+        "navigator": {
+          "multiplier": 1.5,
+          "effects": [
+            "sea_mapping",
+            "treasure_hunting"
+          ]
+        },
+        "diver": {
+          "multiplier": 1.6,
+          "effects": [
+            "deep_exploration",
+            "artifact_recovery"
+          ]
+        }
+      }
+    },
+    "legendary_fisher": {
+      "name": "Pêcheur Légendaire",
+      "requirements": {
+        "fishing_level": 60,
+        "legendary_fishing_points": 3,
+        "completed_specializations": 2,
+        "master_achievements": 2
+      },
+      "bonuses": {
+        "legendary_catches": 50.0,
+        "quality_multiplier": 40.0,
+        "sunken_treasures": 45.0,
+        "perfect_fishing": 35.0,
+        "ocean_domination": true
+      },
+      "unlock_recipes": [
+        "creature_mythique",
+        "tresor_englouti",
+        "artefact_marin",
+        "creation_legendaire"
+      ],
+      "unlock_abilities": [
+        "peche_parfaite",
+        "domination_ocean",
+        "recuperation_tresor",
+        "creation_marine"
+      ],
+      "synergies": {
+        "cook": {
+          "multiplier": 1.7,
+          "effects": [
+            "legendary_ingredients",
+            "divine_cuisine"
+          ]
+        },
+        "navigator": {
+          "multiplier": 1.8,
+          "effects": [
+            "ocean_mastery",
+            "legendary_navigation"
+          ]
+        }
+      }
+    }
+  },
+  "abilities": [
+    "master_fishing",
+    "casting_mastery",
+    "fish_identification",
+    "deep_sea_exploration",
+    "legendary_catches",
+    "sunken_treasures",
+    "ocean_protection",
+    "perfect_fishing"
+  ],
+  "quests": [
+    {
+      "id": "fisher_apprentice",
+      "name": "L'Apprenti Pêcheur",
+      "requirements": {
+        "fishing_level": 1,
+        "catch_fish": 20,
+        "identify_species": 15,
+        "find_fishing_spots": 5
+      },
+      "rewards": [
+        "basic_fishing_kit",
+        "apprentice_talent_points",
+        "basic_fishing_recipes"
+      ]
+    },
+    {
+      "id": "fisher_journeyman",
+      "name": "Le Pêcheur Voyageur",
+      "requirements": {
+        "fishing_level": 21,
+        "catch_fish": 120,
+        "catch_rare": 15,
+        "discover_spots": 8,
+        "discover_recipes": 3
+      },
+      "rewards": [
+        "journeyman_fishing_kit",
+        "journeyman_talent_points",
+        "advanced_fishing_recipes"
+      ]
+    },
+    {
+      "id": "fisher_master",
+      "name": "Le Maître des Mers",
+      "requirements": {
+        "fishing_level": 61,
+        "catch_fish": 700,
+        "catch_legendary": 25,
+        "treasures_found": 10,
+        "master_achievements": 2
+      },
+      "rewards": [
+        "master_fishing_kit",
+        "master_talent_points",
+        "legendary_fishing_recipes",
+        "legendary_fishing_abilities"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "first_catch",
+      "name": "Premier Poisson",
+      "requirement": {
+        "catch_fish": 1
+      },
+      "rewards": [
+        "basic_fishing_recipe",
+        "3_copper_coins"
+      ]
+    },
+    {
+      "id": "rare_species",
+      "name": "Espèce Rare",
+      "requirement": {
+        "catch_rare_species": 30
+      },
+      "rewards": [
+        "rare_fishing_specialization",
+        "180_silver_coins",
+        "fish_value_bonus"
+      ]
+    },
+    {
+      "id": "legendary_catch",
+      "name": "Prise Légendaire",
+      "requirement": {
+        "legendary_catches": 15
+      },
+      "rewards": [
+        "legendary_fisher",
+        "8000_gold_coins",
+        "market_reputation",
+        "legendary_fisher_title"
+      ]
+    }
+  ],
+  "market_integration": {
+    "quality_multipliers": {
+      "common": 1.0,
+      "fine": 1.6,
+      "superior": 2.3,
+      "exquisite": 3.7,
+      "masterwork": 6.5,
+      "legendary": 13.0,
+      "mythic": 28.0
+    },
+    "reputation_bonuses": {
+      "local_fisher": 1.0,
+      "town_fisherman": 1.3,
+      "regional_expert": 1.6,
+      "national_master": 2.1,
+      "world_famous": 3.2
+    },
+    "supply_demand": {
+      "fish": {
+        "volatility": 0.12,
+        "trend": "steady_demand"
+      },
+      "rare_creatures": {
+        "volatility": 0.22,
+        "trend": "high_demand"
+      },
+      "treasures": {
+        "volatility": 0.28,
+        "trend": "rare_supply"
+      }
+    }
+  },
+  "enabled": true,
+  "id": "master_fisher",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

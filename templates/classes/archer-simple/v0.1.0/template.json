@@ -1,0 +1,46 @@
+{
+  "id": "archer_simple",
+  "name": "Archer",
+  "description": "Masters of long-range combat and precision strikes.",
+  "base_stats": {
+    "strength": 12,
+    "dexterity": 25,
+    "constitution": 14,
+    "intelligence": 10,
+    "wisdom": 18,
+    "charisma": 12
+  },
+  "specializations": [
+    {
+      "id": "marksmanship",
+      "name": "Marksmanship",
+      "description": "Focuses on maximizing raw damage and critical hits from distance.",
+      "talents": [
+        "piercing_arrow",
+        "eagle_eye"
+      ],
+      "abilities": [
+        "steady_shot",
+        "aimed_shot"
+      ]
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": "rapid_fire",
+            "name": "Rapid Fire",
+            "description": "Increases attack speed by 5% per rank.",
+            "max_rank": 5,
+            "prerequisites": []
+          }
+        ]
+      }
+    ]
+  },
+  "template_type": "class",
+  "version": "0.1.0"
+}

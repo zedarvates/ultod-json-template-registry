@@ -1,0 +1,146 @@
+{
+  "profession": "mining",
+  "display_name": "Exploitation Minière",
+  "description": "Art d'extraire les minerais précieux de la terre et de raffiner les métaux",
+  "icon_path": "icons/professions/mining.png",
+  "category": "gathering",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "copper_ore_refining",
+      "name": "Raffinage de Minerai de Cuivre",
+      "description": "Extrait le cuivre pur du minerai brut",
+      "profession": "mining",
+      "difficulty": 15,
+      "base_success_rate": 0.8,
+      "skill_required": 5,
+      "experience_gain": 8,
+      "exceptional_chance": 0.03,
+      "time_required_seconds": 30,
+      "components": [
+        {
+          "item_type": "copper_ore",
+          "quantity": 5,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "copper_ingot",
+          "name": "Lingot de Cuivre",
+          "min_quantity": 1,
+          "max_quantity": 2,
+          "quality_modifier": 0.9,
+          "durability_modifier": 1.0
+        },
+        {
+          "item_type": "stone_chunks",
+          "name": "Morceaux de Pierre",
+          "min_quantity": 2,
+          "max_quantity": 4,
+          "quality_modifier": 1.0,
+          "durability_modifier": 1.0
+        }
+      ],
+      "conditions": {
+        "profession_level": 1,
+        "required_tools": [
+          "pickaxe",
+          "furnace"
+        ],
+        "environmental_factors": [
+          "forge_nearby"
+        ]
+      }
+    },
+    {
+      "id": "iron_ore_processing",
+      "name": "Traitement du Minerai de Fer",
+      "description": "Transforme le minerai de fer en lingots utilisables",
+      "profession": "mining",
+      "difficulty": 30,
+      "base_success_rate": 0.7,
+      "skill_required": 20,
+      "experience_gain": 20,
+      "exceptional_chance": 0.06,
+      "time_required_seconds": 60,
+      "components": [
+        {
+          "item_type": "iron_ore",
+          "quantity": 4,
+          "quality_required": "standard",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "coal",
+          "quantity": 2,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "iron_ingot",
+          "name": "Lingot de Fer",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.0,
+          "durability_modifier": 1.0
+        }
+      ]
+    },
+    {
+      "id": "adapted_reference_extraction",
+      "name": "Extraction de adapted_reference",
+      "description": "Extrait le précieux adapted_reference d'un minerai rare",
+      "profession": "mining",
+      "difficulty": 65,
+      "base_success_rate": 0.45,
+      "skill_required": 55,
+      "experience_gain": 55,
+      "exceptional_chance": 0.12,
+      "time_required_seconds": 120,
+      "components": [
+        {
+          "item_type": "adapted_reference_ore",
+          "quantity": 3,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "arcane_coal",
+          "quantity": 1,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "stabilizer_crystal",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "rare"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "adapted_reference_ingot",
+          "name": "Lingot de adapted_reference",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.2,
+          "durability_modifier": 1.0
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "ore_prospecting",
+    "metal_refining",
+    "gem_mining",
+    "deep_earth_mining"
+  ],
+  "id": "mining",
+  "name": "Mining",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

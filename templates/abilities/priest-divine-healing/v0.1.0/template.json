@@ -1,0 +1,78 @@
+{
+  "id": "priest_divine_healing",
+  "name": "Soin Divin",
+  "description": "Invoque une énergie divine pour guérir les blessures",
+  "ability_type": "active",
+  "category": "healing",
+  "cooldown": 3000,
+  "mana_cost": 40,
+  "cast_time": 2000,
+  "range": 40.0,
+  "target_type": "friendly_ally",
+  "duration": 0,
+  "effects": [
+    {
+      "effect_type": "heal",
+      "value": 300,
+      "duration": 0,
+      "tick_rate": 0,
+      "school": "holy"
+    },
+    {
+      "effect_type": "heal_over_time",
+      "value": 30,
+      "duration": 10000,
+      "tick_rate": 2000,
+      "total_ticks": 5,
+      "school": "holy"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_light",
+    "heal_effect": "golden_heal",
+    "hot_effect": "healing_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_chant",
+    "heal_sound": "healing_harmony",
+    "hot_sound": "gentle_bell"
+  },
+  "scaling": {
+    "spell_power": 1.8,
+    "holy_mastery": 1.2
+  },
+  "requirements": {
+    "level": 10,
+    "abilities": [
+      "minor_healing"
+    ],
+    "class": "priest"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "base_heal": 200,
+      "hot_amount": 20
+    },
+    "journeyman": {
+      "base_heal": 250,
+      "hot_amount": 25,
+      "cast_time_reduction": 0.2
+    },
+    "master": {
+      "base_heal": 300,
+      "hot_amount": 30,
+      "cast_time_reduction": 0.4,
+      "crit_chance": 0.2
+    },
+    "grandmaster": {
+      "base_heal": 400,
+      "hot_amount": 40,
+      "cast_time_reduction": 0.6,
+      "crit_chance": 0.3,
+      "ability_unlock": "divine_burst"
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

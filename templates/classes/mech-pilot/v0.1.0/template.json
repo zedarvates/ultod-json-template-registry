@@ -1,0 +1,64 @@
+{
+  "id": "mech_pilot",
+  "name": "Pilote de Mechs Magiques",
+  "description": "Contrôle des machines magiques géantes",
+  "color": "9482C9",
+  "primary_resource": "mechanical",
+  "base_stats": {
+    "strength": 1.2,
+    "agility": 1.1,
+    "intelligence": 1.3,
+    "vitality": 1.3,
+    "wisdom": 1.0,
+    "charisma": 0.9
+  },
+  "available_classes": [
+    "mech_pilot"
+  ],
+  "starting_skills": [
+    {
+      "id": 16001,
+      "name": "Déploiement de Mech",
+      "description": "Invoque un mech magique pour le combat",
+      "cooldown": 30000,
+      "mana_cost": 100,
+      "range": 10.0,
+      "cast_time": 3000,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 16002,
+      "name": "Surcharge Mécanique",
+      "description": "Augmente temporairement la puissance du mech",
+      "cooldown": 60000,
+      "mana_cost": 75,
+      "range": 0,
+      "cast_time": 1000,
+      "learned_at_level": 5,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 0,
+        "talents": [
+          {
+            "id": 16001,
+            "name": "Ingénierie Avancée",
+            "description": "+8% dégâts des mechs et +5% durée",
+            "max_rank": 5,
+            "icon_path": "mech_engineering"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100,
+  "health_modifier": 1.2,
+  "damage_modifier": 1.0,
+  "armor_modifier": 1.4,
+  "template_type": "class",
+  "version": "0.1.0"
+}

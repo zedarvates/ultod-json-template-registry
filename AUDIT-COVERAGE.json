@@ -1,6 +1,6 @@
 {
   "format_version": 2,
-  "generated_at": "2026-08-20",
+  "generated_at": "2026-08-21",
   "scope": "Aggregate public coverage; sensitive per-file audit worklist remains private.",
   "source_copy_counts": {
     "root": 1,
@@ -13,604 +13,540 @@
   "invalid_json_files": 0,
   "server_history_or_archive_count": 62,
   "server_current_count": 4009,
-  "catalog_entry_count": 4027,
-  "server_current_covered_by_published_hash": 1180,
-  "server_current_not_covered_by_published_hash": 2829,
-  "server_current_covered_by_public_adaptation": 2829,
-  "server_current_total_accounted": 4009,
-  "server_current_remaining": 0,
+  "catalog_entry_count": 4063,
+  "server_current_covered_by_published_hash": 1174,
+  "server_current_not_covered_by_published_hash": 2813,
   "server_current_pending_audit": 0,
   "gitleaks": {
     "root_templates": "clean",
     "server_templates": "clean",
     "client_templates": "clean",
-    "public_registry": "pattern-scan-clean-gitleaks-unavailable"
+    "public_registry": "pattern-scan-clean"
   },
   "families": [
     {
       "family": "abilities",
       "audit_state": "complete",
       "source_current_count": 76,
-      "snapshot_covered_count": 10,
-      "adaptation_covered_count": 66,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 10,
+      "semantic_export_count": 66,
+      "remaining_count": 0
     },
     {
       "family": "ability",
       "audit_state": "complete",
       "source_current_count": 3,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 3,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 3,
+      "remaining_count": 0
     },
     {
       "family": "achievements",
       "audit_state": "complete",
       "source_current_count": 3,
-      "snapshot_covered_count": 3,
-      "adaptation_covered_count": 0,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 3,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "ai",
       "audit_state": "complete",
       "source_current_count": 3,
-      "snapshot_covered_count": 1,
-      "adaptation_covered_count": 2,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 1,
+      "semantic_export_count": 2,
+      "remaining_count": 0
     },
     {
       "family": "avatars",
       "audit_state": "complete",
       "source_current_count": 3,
-      "snapshot_covered_count": 3,
-      "adaptation_covered_count": 0,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 3,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "biomes",
       "audit_state": "complete",
       "source_current_count": 8,
-      "snapshot_covered_count": 7,
-      "adaptation_covered_count": 1,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 8,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "blueprints",
       "audit_state": "complete",
       "source_current_count": 24,
-      "snapshot_covered_count": 5,
-      "adaptation_covered_count": 19,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 5,
+      "semantic_export_count": 19,
+      "remaining_count": 0
     },
     {
       "family": "bods",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 1,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 1,
+      "remaining_count": 0
     },
     {
       "family": "bosses",
       "audit_state": "complete",
       "source_current_count": 2,
-      "snapshot_covered_count": 2,
-      "adaptation_covered_count": 0,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 2,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "bulk_orders",
       "audit_state": "complete",
       "source_current_count": 4,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 4,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 4,
+      "remaining_count": 0
     },
     {
       "family": "champions",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 1,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 1,
+      "remaining_count": 0
     },
     {
       "family": "cities",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 1,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 1,
+      "remaining_count": 0
     },
     {
       "family": "city_layouts",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 1,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 1,
+      "remaining_count": 0
     },
     {
       "family": "class",
       "audit_state": "complete",
       "source_current_count": 66,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 66,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 66,
+      "remaining_count": 0
     },
     {
       "family": "content_pipeline",
       "audit_state": "complete",
       "source_current_count": 1169,
-      "snapshot_covered_count": 1001,
-      "adaptation_covered_count": 168,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 1001,
+      "semantic_export_count": 168,
+      "remaining_count": 0
     },
     {
       "family": "cosmetic",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 1,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 1,
+      "remaining_count": 0
     },
     {
       "family": "cosmetic_shop",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 1,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 1,
+      "remaining_count": 0
     },
     {
       "family": "creatures",
       "audit_state": "complete",
       "source_current_count": 30,
-      "snapshot_covered_count": 29,
-      "adaptation_covered_count": 1,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 29,
+      "semantic_export_count": 1,
+      "remaining_count": 0
     },
     {
       "family": "currencies",
       "audit_state": "complete",
       "source_current_count": 6,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 6,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 6,
+      "remaining_count": 0
     },
     {
       "family": "divine_system",
       "audit_state": "complete",
       "source_current_count": 31,
-      "snapshot_covered_count": 5,
-      "adaptation_covered_count": 26,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 6,
+      "semantic_export_count": 25,
+      "remaining_count": 0
     },
     {
       "family": "dungeon",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 1,
-      "adaptation_covered_count": 0,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 1,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "dungeons",
       "audit_state": "complete",
       "source_current_count": 6,
-      "snapshot_covered_count": 6,
-      "adaptation_covered_count": 0,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 6,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "energy",
       "audit_state": "complete",
       "source_current_count": 32,
-      "snapshot_covered_count": 30,
-      "adaptation_covered_count": 2,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 30,
+      "semantic_export_count": 2,
+      "remaining_count": 0
     },
     {
       "family": "events",
       "audit_state": "complete",
       "source_current_count": 2,
-      "snapshot_covered_count": 1,
-      "adaptation_covered_count": 1,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 1,
+      "semantic_export_count": 1,
+      "remaining_count": 0
     },
     {
       "family": "gathering_node",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 1,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 1,
+      "remaining_count": 0
     },
     {
       "family": "god",
       "audit_state": "complete",
       "source_current_count": 21,
-      "snapshot_covered_count": 21,
-      "adaptation_covered_count": 0,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 21,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "guilds",
       "audit_state": "complete",
       "source_current_count": 3,
-      "snapshot_covered_count": 3,
-      "adaptation_covered_count": 0,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 3,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "haptics",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 1,
-      "adaptation_covered_count": 0,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 1,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "houses",
       "audit_state": "complete",
       "source_current_count": 2,
-      "snapshot_covered_count": 1,
-      "adaptation_covered_count": 1,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 1,
+      "semantic_export_count": 1,
+      "remaining_count": 0
     },
     {
       "family": "item",
       "audit_state": "complete",
       "source_current_count": 155,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 155,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 155,
+      "remaining_count": 0
     },
     {
       "family": "lineage",
       "audit_state": "complete",
       "source_current_count": 16,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 16,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 16,
+      "remaining_count": 0
     },
     {
       "family": "locations",
       "audit_state": "complete",
       "source_current_count": 2,
-      "snapshot_covered_count": 1,
-      "adaptation_covered_count": 1,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 1,
+      "semantic_export_count": 1,
+      "remaining_count": 0
     },
     {
       "family": "loot",
       "audit_state": "complete",
       "source_current_count": 2,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 2,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 2,
+      "remaining_count": 0
     },
     {
       "family": "marriage",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 1,
-      "adaptation_covered_count": 0,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 1,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "masterpiece",
       "audit_state": "complete",
       "source_current_count": 3,
-      "snapshot_covered_count": 3,
-      "adaptation_covered_count": 0,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 3,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "mentorship",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 1,
-      "adaptation_covered_count": 0,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 1,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "monsters",
       "audit_state": "complete",
       "source_current_count": 428,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 428,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 428,
+      "remaining_count": 0
     },
     {
       "family": "mount",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 1,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 1,
+      "remaining_count": 0
     },
     {
       "family": "names",
       "audit_state": "complete",
       "source_current_count": 6,
-      "snapshot_covered_count": 1,
-      "adaptation_covered_count": 5,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 1,
+      "semantic_export_count": 5,
+      "remaining_count": 0
     },
     {
       "family": "npcs",
       "audit_state": "complete",
       "source_current_count": 23,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 23,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 23,
+      "remaining_count": 0
     },
     {
       "family": "paragons",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 1,
-      "adaptation_covered_count": 0,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 1,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "party",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 1,
-      "adaptation_covered_count": 0,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 1,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "planets",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 1,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 1,
+      "remaining_count": 0
     },
     {
       "family": "professions",
       "audit_state": "complete",
       "source_current_count": 57,
-      "snapshot_covered_count": 9,
-      "adaptation_covered_count": 48,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 10,
+      "semantic_export_count": 47,
+      "remaining_count": 0
     },
     {
       "family": "prologues",
       "audit_state": "complete",
       "source_current_count": 5,
-      "snapshot_covered_count": 5,
-      "adaptation_covered_count": 0,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 5,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "pvp",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 1,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 1,
+      "remaining_count": 0
     },
     {
       "family": "quests",
       "audit_state": "complete",
       "source_current_count": 6,
-      "snapshot_covered_count": 4,
-      "adaptation_covered_count": 2,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 4,
+      "semantic_export_count": 2,
+      "remaining_count": 0
     },
     {
       "family": "race",
       "audit_state": "complete",
       "source_current_count": 33,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 33,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 33,
+      "remaining_count": 0
     },
     {
       "family": "racial_traits",
       "audit_state": "complete",
       "source_current_count": 25,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 25,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 25,
+      "remaining_count": 0
     },
     {
       "family": "recipe",
       "audit_state": "complete",
       "source_current_count": 7,
-      "snapshot_covered_count": 5,
-      "adaptation_covered_count": 2,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 5,
+      "semantic_export_count": 2,
+      "remaining_count": 0
     },
     {
       "family": "rifts",
       "audit_state": "complete",
       "source_current_count": 4,
-      "snapshot_covered_count": 4,
-      "adaptation_covered_count": 0,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 4,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "rts",
       "audit_state": "complete",
       "source_current_count": 13,
-      "snapshot_covered_count": 4,
-      "adaptation_covered_count": 9,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 4,
+      "semantic_export_count": 9,
+      "remaining_count": 0
     },
     {
       "family": "schemas",
       "audit_state": "complete",
       "source_current_count": 16,
-      "snapshot_covered_count": 3,
-      "adaptation_covered_count": 13,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 16,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "sects",
       "audit_state": "complete",
       "source_current_count": 12,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 12,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 12,
+      "remaining_count": 0
     },
     {
       "family": "shop",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 1,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 1,
+      "remaining_count": 0
     },
     {
       "family": "skillclass",
       "audit_state": "complete",
       "source_current_count": 5,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 5,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 5,
+      "remaining_count": 0
     },
     {
       "family": "skills",
       "audit_state": "complete",
       "source_current_count": 35,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 35,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 35,
+      "remaining_count": 0
     },
     {
       "family": "social_event",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 1,
-      "adaptation_covered_count": 0,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 1,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "spells",
       "audit_state": "complete",
       "source_current_count": 1615,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 1615,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 1615,
+      "remaining_count": 0
     },
     {
       "family": "styles",
       "audit_state": "complete",
       "source_current_count": 6,
-      "snapshot_covered_count": 6,
-      "adaptation_covered_count": 0,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 6,
+      "semantic_export_count": 0,
+      "remaining_count": 0
     },
     {
       "family": "talent",
       "audit_state": "complete",
       "source_current_count": 17,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 17,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 17,
+      "remaining_count": 0
     },
     {
       "family": "tournaments",
       "audit_state": "complete",
       "source_current_count": 2,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 2,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 2,
+      "remaining_count": 0
     },
     {
       "family": "treasure_maps",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 1,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 1,
+      "remaining_count": 0
     },
     {
       "family": "vendor_shops",
       "audit_state": "complete",
       "source_current_count": 1,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 1,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 1,
+      "remaining_count": 0
     },
     {
       "family": "virtues_factions",
       "audit_state": "complete",
       "source_current_count": 2,
-      "snapshot_covered_count": 0,
-      "adaptation_covered_count": 2,
-      "remaining_count": 0,
-      "invalid_count": 0
+      "existing_registry_count": 0,
+      "semantic_export_count": 2,
+      "remaining_count": 0
     }
-  ]
+  ],
+  "server_current_covered_by_source_reference": 710,
+  "server_current_covered_by_semantic_export": 2125,
+  "server_current_total_accounted": 4009,
+  "server_current_remaining": 0
 }

@@ -1,0 +1,80 @@
+{
+  "id": "hunter",
+  "name": "Hunter",
+  "description": "A master of ranged combat and beast mastery, skilled in tracking and survival",
+  "color": "ABD473",
+  "primary_resource": "focus",
+  "base_stats": {
+    "strength": 12,
+    "agility": 20,
+    "intelligence": 10,
+    "vitality": 14,
+    "wisdom": 12,
+    "charisma": 12
+  },
+  "specializations": [
+    "beast_mastery",
+    "marksmanship",
+    "survival"
+  ],
+  "starting_skills": [
+    {
+      "id": 3001,
+      "name": "Auto Shot",
+      "description": "Automatically shoot the target",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 35.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 3002,
+      "name": "Arcane Shot",
+      "description": "An instant shot that causes Arcane damage",
+      "cooldown": 6000,
+      "mana_cost": 230,
+      "range": 35.0,
+      "cast_time": 0,
+      "learned_at_level": 6,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 30001,
+            "name": "Improved Aim",
+            "description": "Increases ranged attack power by 5%",
+            "max_rank": 5,
+            "icon_path": "talents/hunter/improved_aim.png"
+          },
+          {
+            "id": 30002,
+            "name": "Beast Training",
+            "description": "Increases pet damage by 10%",
+            "max_rank": 3,
+            "icon_path": "talents/hunter/beast_training.png"
+          },
+          {
+            "id": 30003,
+            "name": "Survivalist",
+            "description": "Increases health regeneration while out of combat",
+            "max_rank": 3,
+            "icon_path": "talents/hunter/survivalist.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100,
+  "health_modifier": 1.0,
+  "damage_modifier": 1.1,
+  "armor_modifier": 0.8,
+  "template_type": "class",
+  "version": "0.1.0"
+}

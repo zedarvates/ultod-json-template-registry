@@ -1,0 +1,269 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-11-14",
+    "description": "RTS System Configuration - Main configuration file integrating all RTS components",
+    "author": "UOVR Development Team",
+    "category": "RTS Systems",
+    "dependencies": [
+      "config"
+    ]
+  },
+  "rts_system_integration": {
+    "enabled": true,
+    "integration_points": {
+      "ecs_system": {
+        "extended_components": [
+          "unit_controller",
+          "formation",
+          "command_queue"
+        ]
+      },
+      "world_system": {
+        "terrain_integration": true,
+        "resource_nodes": true,
+        "strategic_positions": true
+      },
+      "combat_system": {
+        "formation_combat": true,
+        "group_tactics": true,
+        "morale_system": true
+      },
+      "network_system": {
+        "rts_commands": true,
+        "unit_synchronization": true,
+        "prediction_system": true
+      }
+    },
+    "shared_resources": {
+      "building_database": true,
+      "unit_database": true,
+      "resource_database": true,
+      "technology_database": true
+    },
+    "performance_settings": {
+      "max_simultaneous_units": 1000,
+      "pathfinding_threads": 4,
+      "command_batch_size": 50,
+      "update_frequency_hz": 30
+    }
+  },
+  "game_modes": {
+    "conquest": {
+      "description": "Complete RTS experience with base building and large-scale battles",
+      "victory_conditions": [
+        "eliminate_all_enemies",
+        "control_all_resource_nodes"
+      ],
+      "starting_resources": {
+        "gold": 500,
+        "food": 200,
+        "population": 5
+      },
+      "time_limit": 1800
+    },
+    "siege": {
+      "description": "Defend or attack fortifications in a focused battle",
+      "victory_conditions": [
+        "destroy_target_building",
+        "eliminate_defenders"
+      ],
+      "special_rules": [
+        "limited_building",
+        "prebuilt_defenses"
+      ],
+      "time_limit": 900
+    },
+    "skirmish": {
+      "description": "Quick tactical battles with limited resources",
+      "victory_conditions": [
+        "eliminate_all_enemies"
+      ],
+      "starting_resources": {
+        "gold": 300,
+        "food": 100,
+        "population": 3
+      },
+      "time_limit": 600
+    }
+  },
+  "difficulty_settings": {
+    "easy": {
+      "resource_multipliers": 1.5,
+      "ai_intelligence": 0.6,
+      "unit_stats_bonus": 0.8,
+      "build_time_modifier": 0.8
+    },
+    "normal": {
+      "resource_multipliers": 1.0,
+      "ai_intelligence": 0.8,
+      "unit_stats_bonus": 1.0,
+      "build_time_modifier": 1.0
+    },
+    "hard": {
+      "resource_multipliers": 0.8,
+      "ai_intelligence": 1.0,
+      "unit_stats_bonus": 1.1,
+      "build_time_modifier": 1.2
+    }
+  },
+  "default_game_settings": {
+    "map_size": {
+      "x": 128,
+      "y": 128
+    },
+    "starting_positions": {
+      "spread_distance": 50,
+      "min_distance_from_resources": 20
+    },
+    "fog_of_war": true,
+    "starting_age": "bronze_age",
+    "population_limit": 200,
+    "shared_vision": false,
+    "diplomacy_enabled": true
+  },
+  "balancing_constants": {
+    "resource_gathering": {
+      "base_collection_rate": 5,
+      "experience_efficiency": 0.01,
+      "seasonal_modifiers": true
+    },
+    "unit_training": {
+      "base_train_time": 15,
+      "experience_reduction": 0.05,
+      "mass_production_penalty": 0.1
+    },
+    "building_construction": {
+      "base_build_time": 30,
+      "worker_efficiency": 0.2,
+      "technology_acceleration": 0.15
+    },
+    "combat_mechanics": {
+      "damage_randomization": {
+        "min": 0.8,
+        "max": 1.2
+      },
+      "armor_reduction": {
+        "physical": 1.0,
+        "magical": 0.5
+      },
+      "formation_bonuses": true
+    }
+  },
+  "ui_configuration": {
+    "minimap_settings": {
+      "size": {
+        "width": 200,
+        "height": 200
+      },
+      "fog_reveal_speed": 2.0,
+      "building_colors": {
+        "town_center": "#FFD700",
+        "barracks": "#8B0000"
+      }
+    },
+    "control_groups": {
+      "max_groups": 10,
+      "selection_hotkeys": true
+    },
+    "command_interface": {
+      "quick_commands": [
+        "move",
+        "attack",
+        "stop",
+        "hold_position"
+      ],
+      "context_sensitive": true,
+      "gesture_controls": {
+        "enabled_for_vr": true
+      }
+    }
+  },
+  "ai_ai_settings": {
+    "aggression_levels": {
+      "defensive": {
+        "attack_probability": 0.3,
+        "expansion_rate": 0.2
+      },
+      "balanced": {
+        "attack_probability": 0.6,
+        "expansion_rate": 0.5
+      },
+      "aggressive": {
+        "attack_probability": 0.8,
+        "expansion_rate": 0.8
+      }
+    },
+    "resource_priorities": {
+      "economy_focus": {
+        "military_ratio": 0.3,
+        "expansion_ratio": 0.7
+      },
+      "military_focus": {
+        "military_ratio": 0.7,
+        "expansion_ratio": 0.3
+      }
+    },
+    "technology_paths": {
+      "rusher": [
+        "basic_military",
+        "formation_tactics",
+        "blacksmithing"
+      ],
+      "boomer": [
+        "basic_economy",
+        "agricultural_advancement",
+        "siege_engineering"
+      ]
+    }
+  },
+  "save_load_system": {
+    "auto_save": {
+      "enabled": true,
+      "interval_minutes": 5
+    },
+    "checkpoint_system": true,
+    "replay_system": {
+      "enabled": true,
+      "max_replay_length": 3600
+    },
+    "scenario_editor": {
+      "enabled": false
+    }
+  },
+  "network_configuration": {
+    "max_players": 8,
+    "latency_compensation": {
+      "prediction": true,
+      "reconciliation": true
+    },
+    "bandwidth_limits": {
+      "position_updates": 20,
+      "command_updates": 50
+    },
+    "security_measures": {
+      "cheat_detection": true,
+      "desync_protection": true
+    }
+  },
+  "modding_support": {
+    "template_override": true,
+    "custom_factions": {
+      "enabled": true,
+      "validation_required": true
+    },
+    "scripted_events": true,
+    "custom_scenarios": true,
+    "asset_replacement": {
+      "allowed_formats": [
+        ".obj",
+        ".png",
+        ".wav"
+      ]
+    }
+  },
+  "id": "rts_config",
+  "name": "Rts Config",
+  "template_type": "rt",
+  "version": "0.1.0"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "corruption_spell_1037",
+  "name": "Corruption Spell 1037",
+  "description": "Corrupts targets with shadow energy, draining their life and empowering the fallen paladin. Only available to paladins embracing darkness",
+  "icon": "paladin_corruption_spell_1037_spell_1037_icon",
+  "school": "corruption_spell_1037",
+  "rarity": "epic",
+  "spell_type": "drain_spell",
+  "target_type": "enemy",
+  "range": 8.0,
+  "cast_time": 2000,
+  "cooldown": 25000,
+  "mana_cost": 300,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "corruption_spell_1037",
+    "drain_properties": {
+      "life_drain_percentage": 0.15,
+      "power_drain": 25,
+      "corruption_spread": true,
+      "villain_efficiency_multiplier": 1.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "corruption_spell_1037_transfer",
+      "value": 120,
+      "duration": 10000,
+      "tick_rate": 2000,
+      "life_drain": 0.15,
+      "mana_restore": 45,
+      "corruption_amount": 0.2,
+      "villain_corruption_amplifier": 2.0,
+      "caster_buff": {
+        "damage_increase": 0.25,
+        "corruption_resistance": 0.3
+      },
+      "black_knight_synergy": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "corruption_spell_1037_hand_glow",
+    "drain_effect": "shadow_tentacles_drain",
+    "impact_effect": "corruption_spell_1037_spread",
+    "caster_buff_effect": "dark_power_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "corruption_spell_1037_whisper_dark",
+    "drain_sound": "life_drain_scream",
+    "impact_sound": "power_corruption_spell_1037"
+  },
+  "requirements": {
+    "level": 15,
+    "skills": [
+      "corruption_spell_1037_mastery",
+      "dark_drain"
+    ],
+    "classes": [
+      "paladin"
+    ],
+    "karma_negative_threshold": -1500,
+    "evolved_form": "fallen_paladin"
+  },
+  "upgrades": {
+    "blight_mastery": {
+      "unlock_level": 22,
+      "description": "Increases corruption_spell_1037 spread and adds additional debuffs",
+      "corruption_spread_increase": 0.3,
+      "additional_debuffs": [
+        "healing_reduction",
+        "power_weakness"
+      ],
+      "debuff_duration": 8000
+    },
+    "apocalyptic_touch": {
+      "unlock_level": 28,
+      "description": "Touch creates zones of corruption_spell_1037 that damage over time",
+      "corruption_zones_created": 3,
+      "zone_damage_per_second": 30,
+      "zone_radius": 4.0,
+      "zone_duration": 15000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

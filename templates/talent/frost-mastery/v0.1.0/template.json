@@ -1,0 +1,19 @@
+{
+  "id": "frost_mastery",
+  "name": "Maîtrise du Givre",
+  "description": "Augmente les dégâts de vos sorts de givre et réduit la vitesse de mouvement des ennemis",
+  "max_rank": 5,
+  "prerequisites": [],
+  "effects_per_rank": [
+    {
+      "type": "damage_bonus_frost",
+      "value": 0.02
+    },
+    {
+      "type": "snares_duration_bonus",
+      "value": 0.1
+    }
+  ],
+  "template_type": "talent",
+  "version": "0.1.0"
+}

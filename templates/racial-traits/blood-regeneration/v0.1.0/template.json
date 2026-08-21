@@ -1,0 +1,41 @@
+{
+  "id": "blood_regeneration",
+  "name": "Régénération Sanguine",
+  "description": "Capacité naturelle à régénérer la santé grâce au sang",
+  "icon": "blood_regeneration_icon",
+  "category": "regeneration",
+  "rarity": "uncommon",
+  "stat_modifiers": {
+    "health_regeneration": 0.5,
+    "constitution": 0.2
+  },
+  "lineage_synergies": {
+    "blood_seeker": 1.5,
+    "vampire": 1.3
+  },
+  "passive_effects": [
+    {
+      "id": "blood_regen_passive",
+      "name": "Régénération Sanguine Passive",
+      "description": "Régénère lentement la santé au fil du temps",
+      "modifier_type": "health_regen",
+      "value": 2.0
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "blood_burst",
+      "name": "Explosion Sanguine",
+      "description": "Sacrifie de la santé pour régénérer rapidement",
+      "cooldown": 30000,
+      "duration": 10000,
+      "effects": {
+        "health_cost": 50,
+        "health_regen_boost": 10.0
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

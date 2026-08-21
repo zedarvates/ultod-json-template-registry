@@ -1,0 +1,86 @@
+{
+  "id": "illusion_spell_0091",
+  "name": "Illusion Spell 0091",
+  "description": "Le barde crée des illusions musicales qui dupent les ennemis et créent des doubles illusoires",
+  "icon": "illusion_spell_0091_icon",
+  "school": "illusion",
+  "rarity": "rare",
+  "spell_type": "illusion_performance",
+  "target_type": "caster_area",
+  "range": 0.0,
+  "cast_time": 2000,
+  "cooldown": 30000,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "illusory"
+  },
+  "effects": [
+    {
+      "effect_type": "create_illusions",
+      "value": 3,
+      "duration": 30000,
+      "tick_rate": 0,
+      "illusion_count": 3,
+      "illusion_type": "illusion_spell_0091_minions",
+      "aggro_generation": 0.8,
+      "damage_redirection_chance": 0.6
+    },
+    {
+      "effect_type": "confusion_field",
+      "value": 50,
+      "duration": 20000,
+      "tick_rate": 0,
+      "aoe_range": 20.0,
+      "confusion_proc_chance": 0.4,
+      "max_targets": 6
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ethereal_musical_notes_burst",
+    "illusion_effect": "illusion_spell_0091_copies_appear",
+    "expire_effect": "illusions_pop_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "mystic_whisper_chords",
+    "illusion_sound": "illusion_spell_0091_harmonies_echo",
+    "expire_sound": "poof_illusion_break"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "performance",
+      "illusion",
+      "deception",
+      "music_magic"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour"
+    ],
+    "specializations": [
+      "illusionist",
+      "trickster"
+    ]
+  },
+  "upgrades": {
+    "phantom_legion": {
+      "unlock_level": 28,
+      "description": "Crée plus d'illusions et améliore leur efficacité",
+      "illusion_count_bonus": 2,
+      "aggro_generation_bonus": 0.4
+    },
+    "master_deception": {
+      "unlock_level": 35,
+      "description": "Les illusions peuvent maintenant lancer des sorts mineurs",
+      "illusion_abilities": [
+        "minor_attack",
+        "minor_heal"
+      ],
+      "duration_bonus": 20000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

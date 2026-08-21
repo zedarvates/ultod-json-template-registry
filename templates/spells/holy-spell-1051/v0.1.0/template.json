@@ -1,0 +1,79 @@
+{
+  "id": "holy_spell_1051",
+  "name": "Holy Spell 1051",
+  "description": "Dissipe les malédictions et effets néfastes affectant la cible",
+  "icon": "holy_spell_1051_icon",
+  "school": "holy",
+  "rarity": "uncommon",
+  "spell_type": "dispel",
+  "target_type": "single_ally",
+  "range": 20.0,
+  "cast_time": 2000,
+  "cooldown": 15000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "holy"
+  },
+  "effects": [
+    {
+      "effect_type": "dispel_curse",
+      "value": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "dispel_chance": 85,
+      "max_curses_dispelled": 2,
+      "scaling": {
+        "wisdom": 0.3
+      }
+    },
+    {
+      "effect_type": "dispel_debuff",
+      "value": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "dispel_chance": 60,
+      "debuff_types": [
+        "curse",
+        "poison",
+        "disease"
+      ]
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_purification",
+    "hit_effect": "curse_break",
+    "miss_effect": "spell_fail"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_cleansing",
+    "hit_sound": "curse_lifted",
+    "miss_sound": "dispel_fail"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "paladin",
+      "priest"
+    ]
+  },
+  "upgrades": {
+    "improved_remove_curse": {
+      "unlock_level": 15,
+      "description": "Augmente les chances de dissipation d'Holy Spell 1051",
+      "dispel_chance_bonus": 15,
+      "max_curses_bonus": 1
+    },
+    "divine_purification": {
+      "unlock_level": 25,
+      "description": "Holy Spell 1051 restaure également des points de vie",
+      "healing_amount": 50,
+      "self_cleanse": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

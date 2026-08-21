@@ -1,0 +1,56 @@
+{
+  "id": "rogue_spell_1206",
+  "name": "Rogue Spell 1206",
+  "description": "Marque une cible, rendant plus facile l'exécution",
+  "icon": "rogue_spell_1206_icon",
+  "school": "rogue",
+  "rarity": "uncommon",
+  "spell_type": "target_debuff",
+  "target_type": "enemy",
+  "range": 30.0,
+  "cast_time": 0,
+  "cooldown": 60000,
+  "energy_cost": 30,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "rogue_spell_1206_debuff",
+      "value": 1,
+      "duration": 60000,
+      "tick_rate": 0,
+      "execution_reduction": 0.1,
+      "damage_increase": 30,
+      "interrupt_immunity": false
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "death_mark_glow",
+    "buff_effect": "targeted_skull"
+  },
+  "sound_effects": {
+    "cast_sound": "grim_laugh",
+    "buff_sound": "warning_whisper"
+  },
+  "requirements": {
+    "level": 22,
+    "skills": [
+      "assassination"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_marked_for_death": {
+      "unlock_level": 32,
+      "description": "Augmente la durée et les effets",
+      "duration_bonus": 15000,
+      "execution_reduction_bonus": 0.05
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

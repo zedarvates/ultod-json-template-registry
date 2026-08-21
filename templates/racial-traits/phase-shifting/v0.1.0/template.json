@@ -1,0 +1,56 @@
+{
+  "id": "phase_shifting",
+  "name": "Déphasage",
+  "description": "Capacité à se déphaser partiellement de la réalité, devenant intangible",
+  "icon": "phase_shifting_icon",
+  "category": "utility",
+  "rarity": "legendary",
+  "stat_modifiers": {
+    "evasion": 0.3,
+    "spell_resistance": 0.2
+  },
+  "passive_effects": [
+    {
+      "id": "partial_intangibility",
+      "name": "Intangibilité Partielle",
+      "description": "Réduit les dégâts physiques de 40% en permanence",
+      "modifier_type": "physical_damage_reduction",
+      "value": 40.0
+    },
+    {
+      "id": "reality_stability",
+      "name": "Stabilité Réelle",
+      "description": "Résiste aux effets de téléportation et de manipulation dimensionnelle",
+      "modifier_type": "reality_anchor",
+      "value": 60.0
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "phase_shift",
+      "name": "Déphasage",
+      "description": "Devient intangible et ignore la plupart des attaques physiques",
+      "cooldown": 90000,
+      "duration": 15000,
+      "effects": {
+        "intangible": true,
+        "spell_immunity": 50,
+        "movement_speed": 1.5
+      }
+    },
+    {
+      "id": "reality_blink",
+      "name": "Clignement Réel",
+      "description": "Se téléporte sur une courte distance en traversant les obstacles",
+      "cooldown": 20000,
+      "duration": 0,
+      "effects": {
+        "teleport_range": 20.0,
+        "ignore_obstacles": true
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

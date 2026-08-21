@@ -1,0 +1,78 @@
+{
+  "id": "necromancy_spell_0321",
+  "name": "Necromancy Spell 0321",
+  "description": "Une frappe basique pervertie par l'énergie nécrotique, drainant la vie et appliquant une maladie",
+  "icon": "necromancy_spell_0321_icon",
+  "school": "necromancy",
+  "rarity": "common",
+  "spell_type": "necromancy_spell_0321_melee",
+  "target_type": "single_enemy",
+  "range": 8.0,
+  "cast_time": 0,
+  "cooldown": 2000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 180,
+    "damage_type": "necromancy_spell_0321_weapon",
+    "scaling": {
+      "rune_power": 1.2,
+      "unholy_strength": 1.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "necromancy_spell_0321_weapon_damage",
+      "value": 180,
+      "duration": 0,
+      "tick_rate": 0,
+      "life_leech": 15,
+      "disease_application": 0.6,
+      "rune_power_regen": 15,
+      "target_weakening": 0.1
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "weapon_corruption",
+    "damage_effect": "necromancy_spell_0321_energy_burst",
+    "leech_effect": "life_essence_trail",
+    "weaken_effect": "target_decay_particles"
+  },
+  "sound_effects": {
+    "cast_sound": "weapon_crackling",
+    "damage_sound": "necromancy_spell_0321_hit_squelch",
+    "leech_sound": "life_absorb_hiss",
+    "weaken_sound": "target_weakening_crack"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "necromancy_spell_0321_combat",
+      "weapon_corruption"
+    ],
+    "classes": [
+      "death_knight",
+      "decay_warrior"
+    ],
+    "specializations": [
+      "rot_master"
+    ]
+  },
+  "upgrades": {
+    "virulent_strike": {
+      "unlock_level": 13,
+      "description": "La frappe applique plus de maladies et draine plus de vie",
+      "disease_proc_bonus": 0.3,
+      "life_leech_bonus": 10,
+      "dot_tick_damage": 25
+    },
+    "epidemical_fury": {
+      "unlock_level": 23,
+      "description": "La frappe peut infecter les ennemis proches de la cible",
+      "infection_spread_range": 8.0,
+      "infected_targets": 3,
+      "spreaded_disease_duration": 12000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

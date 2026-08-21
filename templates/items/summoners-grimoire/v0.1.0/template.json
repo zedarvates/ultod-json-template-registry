@@ -1,16 +1,80 @@
 {
   "id": "summoners_grimoire",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Summoners Grimoire",
-  "description": "A portable weapon component for public template workflows.",
+  "name": "Grimoire d'Invocation",
+  "description": "Un livre ancien contenant des rituels d'invocation et de contrôle des créatures",
+  "icon": "summoners_grimoire",
   "category": "weapon",
   "rarity": "rare",
-  "stack_limit": 10,
-  "weight_kg": 1.2,
-  "tags": [
-    "adapted",
-    "weapon"
+  "item_type": "off_hand",
+  "sub_type": "book",
+  "base_stats": {
+    "durability": 80,
+    "max_durability": 80,
+    "weight": 1.2,
+    "value": 450
+  },
+  "weapon_properties": {
+    "damage": 8,
+    "damage_type": "arcane",
+    "attack_speed": 1.0,
+    "range": 1.0,
+    "two_handed": false
+  },
+  "properties": {
+    "stackable": false,
+    "consumable": false,
+    "reusable": true,
+    "soulbound": false,
+    "tradeable": true,
+    "sellable": true,
+    "unique_equipped": true
+  },
+  "requirements": {
+    "level": 10,
+    "intelligence": 18,
+    "class": "summoner",
+    "skills": []
+  },
+  "effects": [
+    {
+      "effect_type": "spell_power_boost",
+      "target": "self",
+      "parameters": {
+        "summoning_power": 25,
+        "pet_damage": 15,
+        "pet_health": 20
+      }
+    },
+    {
+      "effect_type": "cooldown_reduction",
+      "target": "self",
+      "parameters": {
+        "summoning_abilities": 0.1
+      }
+    }
   ],
-  "dependencies": []
+  "vr_properties": {
+    "grabbable": true,
+    "holster_type": "side_weapon",
+    "grab_points": [
+      {
+        "pos": [
+          0.05,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "haptics": {
+      "grab": "soft"
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "item"
 }

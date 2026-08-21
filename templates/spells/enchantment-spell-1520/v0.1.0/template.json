@@ -1,0 +1,51 @@
+{
+  "id": "enchantment_spell_1520",
+  "name": "Enchantment Spell 1520",
+  "description": "enchantment_spell_1520e des créatures autres qu'humanoïdes",
+  "icon": "enchantment_spell_1520_icon",
+  "school": "enchantment",
+  "rarity": "epic",
+  "spell_type": "control",
+  "target_type": "single",
+  "range": 9.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "enchantment_spell_1520",
+      "value": 0,
+      "duration": 3600000,
+      "tick_rate": 0,
+      "wisdom_save": true,
+      "save_dc": 15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "enchantment_spell_1520_wave"
+  },
+  "sound_effects": {
+    "cast_sound": "magic_chime"
+  },
+  "requirements": {
+    "level": 4,
+    "skills": [
+      "enchantment"
+    ],
+    "classes": [
+      "warlock",
+      "sorcerer",
+      "wizard",
+      "bard",
+      "druid"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

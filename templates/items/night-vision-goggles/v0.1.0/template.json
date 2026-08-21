@@ -1,16 +1,49 @@
 {
   "id": "night_vision_goggles",
-  "template_type": "item",
-  "version": "0.1.0",
   "name": "Night Vision Goggles",
-  "description": "A portable tool component for public template workflows.",
+  "description": "Enhanced low-light visibility optic device.",
+  "icon": "res://icons/night_vision.png",
   "category": "tool",
   "rarity": "rare",
-  "stack_limit": 10,
-  "weight_kg": 1.5,
-  "tags": [
-    "adapted",
-    "tool"
-  ],
-  "dependencies": []
+  "item_type": "tool",
+  "sub_type": "optic",
+  "base_stats": {
+    "durability": 100,
+    "max_durability": 100,
+    "weight": 1.5,
+    "value": 600
+  },
+  "properties": {
+    "range": 250.0
+  },
+  "requirements": {
+    "level": 5
+  },
+  "effects": [],
+  "vr_properties": {
+    "grabbable": true,
+    "holster_type": "head_accessory",
+    "use_gesture": "head_touch",
+    "grab_points": [
+      {
+        "pos": [
+          0,
+          0.05,
+          0.05
+        ],
+        "rot": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "haptics": {
+      "grab": "soft",
+      "use": "soft"
+    }
+  },
+  "template_type": "item",
+  "version": "0.1.0"
 }

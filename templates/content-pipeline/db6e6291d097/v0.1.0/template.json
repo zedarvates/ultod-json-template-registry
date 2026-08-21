@@ -1,0 +1,49 @@
+{
+  "version": "0.1.0",
+  "school": "frost",
+  "rarity": "common",
+  "target_type": "single",
+  "range": 6.3,
+  "cast_time": 2833,
+  "cooldown": 2603,
+  "mana_cost": 42,
+  "visual_effects": {
+    "cast_effect": "rogue_cast",
+    "projectile_effect": "elemental_projectile",
+    "impact_effect": "elemental_impact",
+    "trail_effect": "elemental_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "rogue_cast_sound",
+    "impact_sound": "elemental_impact_sound"
+  },
+  "requirements": {
+    "level": 24,
+    "skills": [],
+    "classes": [
+      "rogue"
+    ],
+    "specializations": [
+      "assassination"
+    ]
+  },
+  "balance_validated": true,
+  "generated_by": "content_pipeline_v2",
+  "id": "db6e6291d097",
+  "name": "Rogue Assassination Bolt",
+  "description": "Generated rogue assassination spell #205",
+  "icon": "db6e6291d097_icon",
+  "spell_type": "debuff",
+  "damage_type": null,
+  "effects": [
+    {
+      "effect_type": "vulnerability",
+      "value": 0.34,
+      "duration": 6351,
+      "tick_rate": 0,
+      "proc_chance": 0.8
+    }
+  ],
+  "balance_efficiency": 0.0196,
+  "template_type": "content_pipeline"
+}

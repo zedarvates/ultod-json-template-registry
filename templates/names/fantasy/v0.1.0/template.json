@@ -1,0 +1,186 @@
+{
+  "culture": "fantasy",
+  "display_name": "Fantasy Générique",
+  "models": {
+    "first_name_male": {
+      "names": [
+        "Aldric",
+        "Bram",
+        "Cedric",
+        "Darian",
+        "Eldrin",
+        "Finn",
+        "Gareth",
+        "Hector",
+        "Ian",
+        "Jareth",
+        "Kael",
+        "Lorin",
+        "Marcus",
+        "Nathan",
+        "Owen",
+        "Percival",
+        "Quinn",
+        "Roderick",
+        "Sebastian",
+        "Tristan"
+      ],
+      "order": 2,
+      "min_length": 4,
+      "max_length": 10
+    },
+    "first_name_female": {
+      "names": [
+        "Aria",
+        "Brianna",
+        "Celeste",
+        "Daphne",
+        "Elena",
+        "Fiona",
+        "Gabrielle",
+        "Helena",
+        "Isabella",
+        "Jasmine",
+        "Katherine",
+        "Liora",
+        "Miranda",
+        "Natalia",
+        "Olivia",
+        "Penelope",
+        "Quinn",
+        "Rosalind",
+        "Sophia",
+        "Theodora"
+      ],
+      "order": 2,
+      "min_length": 4,
+      "max_length": 10
+    },
+    "first_name_neutral": {
+      "names": [
+        "Alex",
+        "Blake",
+        "Cameron",
+        "Dana",
+        "Ellis",
+        "Frankie",
+        "Gray",
+        "Harper",
+        "Indigo",
+        "Jordan"
+      ],
+      "order": 2,
+      "min_length": 4,
+      "max_length": 10
+    },
+    "family_name": {
+      "names": [
+        "Stormwind",
+        "Ironheart",
+        "Shadowbane",
+        "Lightbringer",
+        "Dragonborn",
+        "Wolfhunter",
+        "Bearclaw",
+        "Swiftarrow",
+        "Moonshadow",
+        "Sunfire",
+        "Riverbend",
+        "Mountainpeak",
+        "Forestwalker",
+        "Skywatcher",
+        "Deepwater",
+        "Highmountain",
+        "Lowriver",
+        "Darkforest",
+        "Brightsky",
+        "Stormpeak"
+      ],
+      "order": 2,
+      "min_length": 6,
+      "max_length": 15
+    },
+    "nickname_human": {
+      "names": [
+        "le Brave",
+        "le Sage",
+        "le Puissant",
+        "la Vaillante",
+        "le Mystérieux",
+        "la Gracieuse",
+        "le Terrible",
+        "la Magnifique",
+        "le Légendaire",
+        "la Noble",
+        "Chasseur-d'Ombres",
+        "Briseur-de-Mondes",
+        "Gardien-des-Étoiles",
+        "Seigneur-des-Tempêtes",
+        "Maître-des-Sorts"
+      ],
+      "order": 2,
+      "min_length": 6,
+      "max_length": 20
+    },
+    "pet_name": {
+      "names": [
+        "Shadow",
+        "Storm",
+        "Blaze",
+        "Frost",
+        "Spirit",
+        "Thunder",
+        "Lightning",
+        "Flame",
+        "Ice",
+        "Wind",
+        "Fire",
+        "Water",
+        "Earth",
+        "Air",
+        "Light",
+        "Dark",
+        "Moon",
+        "Sun",
+        "Star",
+        "Cloud"
+      ],
+      "order": 2,
+      "min_length": 3,
+      "max_length": 10
+    }
+  },
+  "templates": {
+    "full_name": [
+      "{first_name} {family_name}",
+      "{first_name} {nickname}",
+      "{first_name} de {family_name}"
+    ],
+    "pet_full": [
+      "{pet_name}",
+      "{pet_name} le {epithet}",
+      "{pet_name} des {family_name}"
+    ]
+  },
+  "epithets": [
+    "Brave",
+    "Sage",
+    "Puissant",
+    "Vaillant",
+    "Mystérieux",
+    "Gracieux",
+    "Terrible",
+    "Magnifique",
+    "Légendaire",
+    "Noble",
+    "Féroce",
+    "Loyal",
+    "Rapide",
+    "Fort",
+    "Éternel"
+  ],
+  "id": "fantasy",
+  "name": "Fantasy",
+  "template_type": "name",
+  "version": "0.1.0"
+}

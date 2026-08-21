@@ -1,0 +1,49 @@
+{
+  "id": "physical_spell_0904",
+  "name": "Physical Spell 0904",
+  "description": "Une charge rapide qui augmente considérablement la vitesse de déplacement",
+  "icon": "physical_spell_0904_icon",
+  "school": "physical",
+  "rarity": "common",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 500,
+  "cooldown": 8000,
+  "mana_cost": 12,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "scaling": {}
+  },
+  "effects": [
+    {
+      "effect_type": "speed_boost",
+      "value": 8.0,
+      "duration": 6000,
+      "tick_rate": 0,
+      "scaling": {
+        "constitution": 0.5
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dust_cloud",
+    "hit_effect": "speed_trail",
+    "miss_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "hoof_beats",
+    "hit_sound": "physical_spell_0904_rhythm",
+    "miss_sound": "none"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "monster"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

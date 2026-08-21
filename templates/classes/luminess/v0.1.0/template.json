@@ -1,0 +1,64 @@
+{
+  "id": "luminess",
+  "name": "Luminesse",
+  "description": "Maître de la lumière et de l'énergie radiante",
+  "color": "FFFFFF",
+  "primary_resource": "luminous",
+  "base_stats": {
+    "strength": 0.7,
+    "agility": 0.9,
+    "intelligence": 1.4,
+    "vitality": 0.8,
+    "wisdom": 1.3,
+    "charisma": 1.5
+  },
+  "available_classes": [
+    "luminess"
+  ],
+  "starting_skills": [
+    {
+      "id": 21001,
+      "name": "Rayon de Lumière",
+      "description": "Faisceau de lumière purifiante",
+      "cooldown": 0,
+      "mana_cost": 30,
+      "range": 25.0,
+      "cast_time": 1500,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 21002,
+      "name": "Aura Radieuse",
+      "description": "Émet une aura qui soigne les alliés proches",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": true
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 0,
+        "talents": [
+          {
+            "id": 21001,
+            "name": "Lumière Divine",
+            "description": "+15% puissance des sorts de lumière et soins",
+            "max_rank": 5,
+            "icon_path": "luminess_mastery"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100,
+  "health_modifier": 0.8,
+  "damage_modifier": 0.9,
+  "armor_modifier": 0.7,
+  "template_type": "class",
+  "version": "0.1.0"
+}

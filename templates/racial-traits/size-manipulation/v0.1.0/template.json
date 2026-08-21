@@ -1,0 +1,51 @@
+{
+  "id": "size_manipulation",
+  "name": "Manipulation de Taille",
+  "description": "Capacité à modifier sa taille à volonté entre minuscule et gigantesque",
+  "icon": "size_manipulation_icon",
+  "category": "utility",
+  "rarity": "legendary",
+  "stat_modifiers": {
+    "strength": 0.1,
+    "constitution": 0.1,
+    "dexterity": 0.1
+  },
+  "passive_effects": [
+    {
+      "id": "size_adaptation",
+      "name": "Adaptation de Taille",
+      "description": "Peut s'adapter instantanément aux changements de taille",
+      "modifier_type": "size_change_speed",
+      "value": 100.0
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "grow_giant",
+      "name": "Devenir Géant",
+      "description": "Augmente sa taille pour devenir un géant intimidant",
+      "cooldown": 300000,
+      "duration": 60000,
+      "effects": {
+        "size_multiplier": 3.0,
+        "strength_bonus": 50,
+        "intimidation_aura": true
+      }
+    },
+    {
+      "id": "shrink_tiny",
+      "name": "Rétrécir",
+      "description": "Devient minuscule pour se cacher et éviter les attaques",
+      "cooldown": 180000,
+      "duration": 45000,
+      "effects": {
+        "size_multiplier": 0.2,
+        "stealth_bonus": 80,
+        "dodge_chance": 50
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "blacksmith_hammer_strike",
+  "name": "Coup de Marteau",
+  "description": "Un coup puissant qui façonne le métal avec précision",
+  "icon": "hammer_strike_icon",
+  "category": "crafting",
+  "rarity": "common",
+  "ability_type": "crafting",
+  "target_type": "workstation",
+  "range": 2.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "resource_cost": {
+    "type": "stamina",
+    "amount": 10
+  },
+  "duration": 0,
+  "effects": [
+    {
+      "effect_type": "crafting_progress",
+      "target": "workstation",
+      "value": 25,
+      "scaling": {
+        "strength": 0.3,
+        "skill_blacksmithing": 0.7
+      },
+      "quality_bonus": 0.1
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "hammer_swing",
+    "impact_effect": "metal_sparks",
+    "station_effect": "anvil_ring"
+  },
+  "sound_effects": {
+    "cast_sound": "hammer_swing",
+    "impact_sound": "metal_clang"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "blacksmithing"
+    ],
+    "tools": [
+      "hammer",
+      "anvil"
+    ]
+  },
+  "upgrades": {
+    "master_strike": {
+      "unlock_level": 15,
+      "description": "Augmente la qualité et la vitesse de craft",
+      "quality_bonus": 20,
+      "speed_bonus": 15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "chaos_creature_0083",
+  "name": "Chaos Creature 0083",
+  "description": "Créature monstrueuse née des énergies chaotiques, mélange abominable de chairs et de membres tordus",
+  "icon": "chaos_creature_0083_creature_0083_icon",
+  "category": "chaos_creature_0083",
+  "rarity": "legendary",
+  "base_stats": {
+    "health": 4200,
+    "mana": 800,
+    "strength": 140,
+    "dexterity": 30,
+    "intelligence": 20,
+    "wisdom": 25,
+    "constitution": 160,
+    "charisma": 5
+  },
+  "properties": {
+    "is_chaos": true,
+    "is_regenerating": true,
+    "is_unique": true,
+    "is_boss": true,
+    "size": "gargantuan",
+    "speed": 6.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "chaos_creature_0083_flesh",
+      "mutated_bone"
+    ],
+    "rare_drops": [
+      "chaos_creature_0083_essence",
+      "cursed_mutagen"
+    ],
+    "epic_drops": [
+      "chaos_creature_0083_creature_0083_heart",
+      "reality_tearer"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "extreme",
+    "attack_pattern": "chaotic_frenzy",
+    "special_abilities": [
+      "mutation_burst",
+      "chaos_creature_0083_regeneration",
+      "reality_distortion"
+    ]
+  },
+  "abilities": [
+    "tentacle_slam",
+    "acid_spray",
+    "mutation_wave",
+    "chaos_creature_0083_nova",
+    "reality_tear",
+    "flesh_regeneration"
+  ],
+  "resistances": {
+    "physical": 50,
+    "magic": 30,
+    "chaos": 100
+  },
+  "weaknesses": [
+    "holy",
+    "order",
+    "silver"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "102",
+  "name": "event_coins",
+  "display_name": "Event Coins",
+  "description": "Special coins awarded during seasonal events. Can only be used during the event period or for event-specific items.",
+  "icon_path": "icons/currency/event_coin.png",
+  "max_amount": 999999,
+  "tradeable": false,
+  "template_type": "currencie",
+  "version": "0.1.0"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "celestien",
+  "name": "Celestien",
+  "description": "A radiant being of condensed starlight, descended to walk mortal realms as a herald of order and mercy.",
+  "icon": "race_celestien",
+  "category": "celestial",
+  "rarity": "legendary",
+  "faction": "order",
+  "base_stats": {
+    "strength": 24,
+    "dexterity": 22,
+    "constitution": 26,
+    "intelligence": 30,
+    "wisdom": 34,
+    "charisma": 32,
+    "luck": 20
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 1.1,
+    "experience_rate": 1.05,
+    "health_regeneration": 1.15,
+    "mana_regeneration": 1.3
+  },
+  "available_classes": [
+    "cleric",
+    "paladin",
+    "mage"
+  ],
+  "racial_traits": [
+    "radiant_aura",
+    "winged_ascent",
+    "divine_insight"
+  ],
+  "passive_bonuses": {
+    "skill_points_per_level": 1,
+    "attribute_points_per_level": 1,
+    "resistance_to_fear": 50,
+    "bonus_to_all_skills": 2
+  },
+  "starting_equipment": {
+    "weapons": [
+      "light_lance"
+    ],
+    "armor": [
+      "aegis_robe"
+    ],
+    "items": [
+      "star_shard"
+    ]
+  },
+  "body_proportions": {
+    "height_min": 165,
+    "height_max": 200,
+    "weight_min": 55,
+    "weight_max": 90,
+    "body_type": "average"
+  },
+  "appearance_restrictions": {
+    "skin_colors": [
+      "gold_white",
+      "pale_azure"
+    ],
+    "hair_colors": [
+      "platinum",
+      "white"
+    ],
+    "eye_colors": [
+      "white_flame",
+      "sky_blue"
+    ],
+    "facial_features": "serene"
+  },
+  "cultural_background": {
+    "languages": [
+      "celestial",
+      "old_root"
+    ],
+    "starting_city": "Seraphspire",
+    "alignment_tendency": "lawful_good",
+    "cultural_bonuses": {
+      "holy": 12
+    }
+  },
+  "template_type": "race",
+  "version": "0.1.0"
+}

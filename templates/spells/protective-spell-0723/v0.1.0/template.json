@@ -1,0 +1,78 @@
+{
+  "id": "protective_spell_0723",
+  "name": "Protective Spell 0723",
+  "description": "Crée un bouclier magique qui protège contre tous les types de dégâts",
+  "icon": "protective_spell_0723_spell_0723_icon",
+  "school": "protective_spell_0723",
+  "rarity": "common",
+  "spell_type": "buff",
+  "target_type": "single_ally",
+  "range": 25.0,
+  "cast_time": 1500,
+  "cooldown": 0,
+  "arcane_power_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "magic",
+    "scaling": {
+      "intelligence": 1.0,
+      "wisdom": 0.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "shield",
+      "value": 150,
+      "duration": 15000,
+      "tick_rate": 0,
+      "scaling": {
+        "intelligence": 1.2,
+        "wisdom": 1.0
+      }
+    },
+    {
+      "effect_type": "damage_reduction",
+      "value": 20,
+      "duration": 15000,
+      "tick_rate": 0,
+      "scaling": {
+        "wisdom": 0.5
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "magic_circle",
+    "hit_effect": "shield_formation",
+    "miss_effect": "spell_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "protective_spell_0723_chant",
+    "hit_sound": "shield_activate",
+    "miss_sound": "spell_fail"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "protective_spell_0723_magic"
+    ],
+    "classes": [
+      "isis"
+    ]
+  },
+  "upgrades": {
+    "enhanced_shield": {
+      "unlock_level": 8,
+      "description": "Augmente la force du bouclier et sa durée",
+      "shield_bonus": 50,
+      "duration_bonus": 5000
+    },
+    "reflective_barrier": {
+      "unlock_level": 18,
+      "description": "Le bouclier réfléchit une partie des dégâts",
+      "reflection_chance": 30,
+      "reflection_damage": 50
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

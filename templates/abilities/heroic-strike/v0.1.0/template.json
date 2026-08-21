@@ -1,0 +1,32 @@
+{
+  "id": "heroic_strike",
+  "name": "Frappe Héroïque",
+  "description": "Une attaque puissante qui ignore une partie de l'armure",
+  "type": "ability",
+  "class_restriction": [
+    "warrior"
+  ],
+  "level_requirement": 1,
+  "resource_cost": {
+    "type": "rage",
+    "amount": 15
+  },
+  "cooldown_seconds": 6,
+  "range": 5,
+  "effects": [
+    {
+      "type": "damage",
+      "damage_type": "physical",
+      "base_damage": 150,
+      "scaling": {
+        "strength": 1.5,
+        "dexterity": 0.0,
+        "intelligence": 0.0,
+        "level": 1.0
+      },
+      "armor_penetration": 0.2
+    }
+  ],
+  "template_type": "ability",
+  "version": "0.1.0"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "evocation_spell_1541",
+  "name": "Evocation Spell 1541",
+  "description": "Un rayon d'énergie en chaîne qui continue à infliger des dégâts chaque tour",
+  "icon": "evocation_spell_1541_icon",
+  "school": "evocation",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "chain",
+  "range": 9.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 12,
+    "damage_type": "lightning",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "bolt_chain",
+      "value": 12,
+      "duration": 60000,
+      "tick_rate": 10000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "evocation_spell_1541_lightning",
+    "projectile_effect": "electric_chain"
+  },
+  "sound_effects": {
+    "cast_sound": "evocation_spell_1541_cackle"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "warlock"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

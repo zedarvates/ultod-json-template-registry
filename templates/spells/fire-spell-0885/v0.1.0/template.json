@@ -1,0 +1,72 @@
+{
+  "id": "fire_spell_0885",
+  "name": "Fire Spell 0885",
+  "description": "Encourage les poings avec l'énergie du feu intérieur, infligeant des dégâts supplémentaires et des brûlures aux ennemis touchés",
+  "icon": "fire_spell_0885_icon",
+  "school": "fire",
+  "rarity": "rare",
+  "spell_type": "elemental_fist_enhancement",
+  "target_type": "self_buff",
+  "range": 0.0,
+  "cast_time": 1000,
+  "cooldown": 20000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "burning_chi_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "fiery_chi_fist_empowerment",
+      "value": 250,
+      "duration": 30000,
+      "tick_rate": 0,
+      "fist_damage_bonus_percent": 150,
+      "fire_damage_on_hit": 45,
+      "burn_dot_on_hit": 30,
+      "crit_chance_multiplier": 2.0,
+      "attack_speed_increase_percent": 50,
+      "enemy_knockback_on_hit": 1.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fire_spell_0885_engulfed_fire_chi_orange_flames_rising_energy",
+    "active_effect": "fire_spell_0885_glowing_orange_red_chi_fire_trailing_flames",
+    "strike_effect": "punches_leave_fire_trails_targets_burn_impact_flames",
+    "expire_effect": "fire_fire_spell_0885_fading_chi_energy_dissipating_back_to_normal"
+  },
+  "sound_effects": {
+    "cast_effect": "chi_fire_rumbling_energy_crackling_flames_building",
+    "active_effect": "fist_humming_fire_energy_crackling_prepared_strike",
+    "strike_effect": "fire_impact_whoosh_flames_crackling_flesh_singeing",
+    "expire_effect": "fire_fading_crackling_chi_dissipating_normal_fire_spell_0885"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [
+      "fist_weaving",
+      "fire_chi",
+      "striking_technique"
+    ],
+    "classes": [
+      "monk",
+      "fire_fist_master",
+      "drunken_master"
+    ],
+    "specializations": [
+      "inferno_striker"
+    ]
+  },
+  "upgrades": {
+    "greater_fists_of_fury": {
+      "unlock_level": 35,
+      "description": "Les Fire Spell 0885 deviennent plus destructeurs avec des effets de feu avancés",
+      "damage_bonus_multiplier": 2.0,
+      "burn_duration_extension": 4000,
+      "erupting_fist_projectiles": true,
+      "melting_armor_heat_damage": 25
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

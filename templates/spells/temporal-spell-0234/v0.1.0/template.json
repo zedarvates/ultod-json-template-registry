@@ -1,0 +1,90 @@
+{
+  "id": "temporal_spell_0234",
+  "name": "Temporal Spell 0234",
+  "description": "Consomme de l'énergie temporelle pour restaurer la vie et le mana instantanément",
+  "icon": "temporal_spell_0234_icon",
+  "school": "temporal",
+  "rarity": "legendary",
+  "spell_type": "healing_utility",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 2000,
+  "cooldown": 60000,
+  "mana_cost": 200,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "temporal",
+    "scaling": {
+      "intelligence": 0.0,
+      "wisdom": 0.0,
+      "chronomancy": 1.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "health_restore",
+      "value": 0.8,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "mana_restore",
+      "value": 0.9,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "resource_overflow",
+      "value": 0.5,
+      "duration": 10000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "temporal_energy_surge",
+    "heal_effect": "chronal_healing",
+    "aura_effect": "time_echo"
+  },
+  "sound_effects": {
+    "cast_sound": "temporal_spell_0234_chant",
+    "heal_sound": "temporal_healing_restore",
+    "aura_sound": "time_essence_flow"
+  },
+  "requirements": {
+    "level": 60,
+    "skills": [
+      "chronomancy_mastery",
+      "temporal_flow_control",
+      "essence_manipulation"
+    ],
+    "classes": [
+      "chronomancer",
+      "master_mage"
+    ],
+    "specializations": [
+      "temporal_healer",
+      "essence_master"
+    ]
+  },
+  "upgrades": {
+    "temporal_overcharge": {
+      "unlock_level": 70,
+      "description": "temporal_spell_0234 restore également l'énergie d'endurance et confère un bouclier temporel",
+      "stamina_restore": 0.7,
+      "shield_duration": 8000,
+      "shield_absorb": 200
+    },
+    "time_loop_heal": {
+      "unlock_level": 80,
+      "description": "La prochaine restauration se répète automatiquement après 5 secondes",
+      "repeat_count": 1,
+      "repeat_delay": 5000,
+      "reduced_effectiveness": 0.5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

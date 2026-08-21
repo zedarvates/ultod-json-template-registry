@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0701",
+  "name": "Illusion Spell 0701",
+  "description": "Transformer l'apparence de l'illusionniste ou d'un allié pour prendre l'apparence d'une autre créature",
+  "icon": "illusion_spell_0701_icon",
+  "school": "illusion",
+  "rarity": "common",
+  "spell_type": "physical_appearance_alteration",
+  "target_type": "self_or_ally",
+  "range": 15.0,
+  "cast_time": 3000,
+  "cooldown": 10000,
+  "mana_cost": 55,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "deception_form_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "morphological_illusion_weaving",
+      "value": 150,
+      "duration": 300000,
+      "tick_rate": 0,
+      "form_transformation_perfect": true,
+      "disguise_detection_resistance": 85,
+      "maintained_voice_change": true,
+      "size_alteration_capable": 2.0,
+      "attribute_bonus_adaptation": false,
+      "spell_breaking_dispel_risk": 20
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "body_warping_weaving_energy_transforming",
+    "disguise_effect": "perfect_morph_logical_other_creature",
+    "maintained_effect": "natural_movements_illusion_perfection",
+    "expire_effect": "illusion_spell_0701_fading_reveal_original_form"
+  },
+  "sound_effects": {
+    "cast_effect": "body_crunching_transforming_morphing",
+    "disguise_effect": "creature_voice_sounds_perfect_mimicry",
+    "maintained_effect": "natural_creature_behaviors_sounds",
+    "expire_effect": "transformation_sound_fading_original"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [
+      "illusion_magic",
+      "morphological_weaving"
+    ],
+    "classes": [
+      "illusionist",
+      "shape_changer"
+    ],
+    "specializations": [
+      "deception_artist"
+    ]
+  },
+  "upgrades": {
+    "greater_disguise": {
+      "unlock_level": 16,
+      "description": "Le Illusion Spell 0701 devient plus grand avec des transformations plus complexes et des effets bonus",
+      "legendary_creature_disguise": true,
+      "stat_buff_from_disguise": 25,
+      "ability_mimicry_functional": true,
+      "disguise_permanence_option": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

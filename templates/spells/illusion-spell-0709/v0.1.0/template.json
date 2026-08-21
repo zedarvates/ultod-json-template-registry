@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0709",
+  "name": "Illusion Spell 0709",
+  "description": "Se rend invisible uniquement aux autres joueurs, restant visible aux monstres et PNJ pour les interactions sociales",
+  "icon": "illusion_spell_0709_icon",
+  "school": "illusion",
+  "rarity": "uncommon",
+  "spell_type": "social_stealth_illusion",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1500,
+  "cooldown": 20000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "social_illusion_spell_0709_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "player_specific_stealth",
+      "value": 160,
+      "duration": 120000,
+      "tick_rate": 0,
+      "other_players_invisible": true,
+      "npc_monster_detection": "normal",
+      "guild_group_detection": "selective_maintain",
+      "social_interaction_maintained": "friendlies_only",
+      "movement_penalty": 20,
+      "spell_breaks_partial_stealth": false
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "player_specific_obscuring_light_bending",
+    "active_effect": "other_players_glance_past_you_NPC_normal",
+    "social_effect": "friendly_interactions_visible_NPC_helpful",
+    "expire_effect": "player_illusion_spell_0709_fade_social_return"
+  },
+  "sound_effects": {
+    "cast_effect": "social_filter_whisper_player_exclusion",
+    "active_effect": "normal_social_sounds_friend_group_maintained",
+    "social_effect": "tavern_interactions_quiet_player_oblivious",
+    "expire_effect": "fade_social_reveal_player_awareness_return"
+  },
+  "requirements": {
+    "level": 16,
+    "skills": [
+      "illusion_magic",
+      "social_stealth"
+    ],
+    "classes": [
+      "illusionist",
+      "social_chameleon"
+    ],
+    "specializations": [
+      "crowd_navigator"
+    ]
+  },
+  "upgrades": {
+    "greater_player_invisibility": {
+      "unlock_level": 26,
+      "description": "L'Illusion Spell 0709 devient plus efficace avec des interactions sociales améliorées",
+      "movement_penalty_reduction": 10,
+      "group_friendly_detection_improved": true,
+      "social_spell_cast_hidden": true,
+      "shop_interactions_maintained": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

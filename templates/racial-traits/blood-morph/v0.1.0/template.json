@@ -1,0 +1,221 @@
+{
+  "id": "blood_morph",
+  "name": "Blood Morph",
+  "description": "Ancient bloodline ability allowing transformation into various blood-based forms with unique abilities",
+  "icon": "traits/blood_morph.png",
+  "category": "transformation",
+  "rarity": "epic",
+  "stat_modifiers": {
+    "health": 1.25,
+    "strength": 1.15,
+    "constitution": 1.2,
+    "regeneration": 1.8
+  },
+  "lineage_synergies": {
+    "vampire": 2.5,
+    "werewolf": 1.8,
+    "blood_seeker": 2.2,
+    "lich": 1.6,
+    "dragon": 1.4
+  },
+  "passive_effects": [
+    {
+      "id": "blood_pool",
+      "name": "Blood Pool",
+      "description": "Store excess damage dealt as blood essence for later use",
+      "blood_pool_max": 1000,
+      "damage_conversion_rate": 0.3,
+      "pool_decay_rate": 2
+    },
+    {
+      "id": "adaptive_regeneration",
+      "name": "Adaptive Regeneration",
+      "description": "Regeneration increases based on recent damage taken",
+      "adaptive_multiplier": 2.0,
+      "damage_memory_seconds": 10
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "blood_boil",
+      "name": "Blood Boil",
+      "description": "Cause enemy blood to boil, dealing damage and healing yourself",
+      "cooldown": 15000,
+      "blood_cost": 150,
+      "damage": {
+        "min": 80,
+        "max": 120,
+        "scaling": 1.2
+      },
+      "self_heal_percent": 40,
+      "range": 20.0
+    }
+  ],
+  "morph_forms": [
+    {
+      "id": "blood_mist",
+      "name": "Blood Mist Form",
+      "description": "Transform into a cloud of blood mist, becoming intangible and mobile",
+      "unlock_level": 20,
+      "duration": 15000,
+      "cooldown": 60000,
+      "blood_cost": 300,
+      "effects": {
+        "intangible": true,
+        "movement_speed": 3.0,
+        "damage_reduction": 0.8,
+        "stealth": true,
+        "cannot_attack": true
+      },
+      "abilities": [
+        {
+          "id": "mist_infusion",
+          "name": "Mist Infusion",
+          "description": "Infuse allies with blood mist, granting regeneration",
+          "cooldown": 10000,
+          "range": 10.0,
+          "targets": 3,
+          "regen_bonus": 50,
+          "duration": 20000
+        }
+      ]
+    },
+    {
+      "id": "blood_golem",
+      "name": "Blood Golem Form",
+      "description": "Transform into a massive blood golem with immense strength",
+      "unlock_level": 30,
+      "duration": 20000,
+      "cooldown": 90000,
+      "blood_cost": 500,
+      "effects": {
+        "model_scale": 1.5,
+        "strength_bonus": 100,
+        "health_bonus": 200,
+        "movement_speed": 0.7,
+        "damage_reduction": 0.9
+      },
+      "abilities": [
+        {
+          "id": "golem_slam",
+          "name": "Golem Slam",
+          "description": "Powerful ground slam that knocks back enemies",
+          "cooldown": 8000,
+          "radius": 8.0,
+          "damage": 150,
+          "knockback_force": 15.0,
+          "stun_duration": 2000
+        },
+        {
+          "id": "blood_eruption",
+          "name": "Blood Eruption",
+          "description": "Cause blood eruptions from the ground",
+          "cooldown": 12000,
+          "aoe_damage": 100,
+          "radius": 6.0,
+          "targets": 5
+        }
+      ]
+    },
+    {
+      "id": "vampiric_swarm",
+      "name": "Vampiric Swarm Form",
+      "description": "Transform into a swarm of vampiric bats",
+      "unlock_level": 25,
+      "duration": 18000,
+      "cooldown": 75000,
+      "blood_cost": 400,
+      "effects": {
+        "flight": true,
+        "stealth": true,
+        "damage_reduction": 0.85,
+        "lifesteal": 25
+      },
+      "abilities": [
+        {
+          "id": "swarm_bite",
+          "name": "Swarm Bite",
+          "description": "Swarm attacks multiple targets simultaneously",
+          "cooldown": 6000,
+          "targets": 4,
+          "damage_per_target": 45,
+          "lifesteal_percent": 30
+        },
+        {
+          "id": "bat_cloud",
+          "name": "Bat Cloud",
+          "description": "Create a cloud of bats that damages and confuses enemies",
+          "cooldown": 15000,
+          "radius": 10.0,
+          "damage_over_time": 30,
+          "confusion_duration": 5000
+        }
+      ]
+    }
+  ],
+  "blood_synergy_bonuses": {
+    "with_blood_regeneration": {
+      "morph_cooldown_reduction": 0.3,
+      "blood_pool_capacity": 1.5,
+      "morph_damage_bonus": 25
+    },
+    "with_vampiric_lineage": {
+      "lifesteal_multiplier": 2.0,
+      "blood_cost_reduction": 0.5,
+      "transformation_speed": 1.5
+    },
+    "with_necrotic_magic": {
+      "undead_morph_bonus": 40,
+      "death_damage_amplification": 1.3,
+      "corpse_explosion_chance": 25
+    }
+  },
+  "advanced_synergies": [
+    {
+      "required_traits": [
+        "blood_regeneration",
+        "shadow_affinity"
+      ],
+      "name": "Crimson Shadow",
+      "description": "Combine blood and shadow for devastating effects",
+      "bonuses": {
+        "shadow_damage": 35,
+        "blood_pool_regen": 3,
+        "stealth_bonus": 50
+      },
+      "unlocked_ability": {
+        "id": "crimson_shadow_strike",
+        "name": "Crimson Shadow Strike",
+        "description": "Teleport through shadows, leaving blood trails that damage enemies",
+        "cooldown": 25000,
+        "damage": 200,
+        "teleport_range": 25.0
+      }
+    },
+    {
+      "required_traits": [
+        "blood_morph",
+        "beast_blood"
+      ],
+      "name": "Blood Beast Fusion",
+      "description": "Merge blood morphing with beast transformation",
+      "bonuses": {
+        "morph_duration": 1.5,
+        "beast_damage": 50,
+        "hybrid_forms": true
+      },
+      "unlocked_ability": {
+        "id": "blood_beast_rampage",
+        "name": "Blood Beast Rampage",
+        "description": "Enter a blood-fueled beast rage",
+        "cooldown": 120000,
+        "duration": 15000,
+        "damage_bonus": 100,
+        "movement_speed": 1.8
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

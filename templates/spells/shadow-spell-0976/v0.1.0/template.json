@@ -1,0 +1,56 @@
+{
+  "id": "shadow_spell_0976",
+  "name": "Shadow Spell 0976",
+  "description": "Se fond dans les ombres pour devenir presque invisible et augmenter la furtivité",
+  "icon": "shadow_spell_0976_spell_0976_icon",
+  "school": "shadow_spell_0976",
+  "rarity": "rare",
+  "spell_type": "utility",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 0,
+  "cooldown": 25000,
+  "mana_cost": 30,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "stealth_boost",
+      "value": 0,
+      "duration": 15000,
+      "tick_rate": 0,
+      "invisibility_level": 0.85,
+      "movement_speed_bonus": 0.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "shadow_spell_0976_absorb",
+    "projectile_effect": null,
+    "hit_effect": "fade_out"
+  },
+  "sound_effects": {
+    "cast_sound": "whisper_slide",
+    "projectile_sound": null,
+    "hit_sound": "silence"
+  },
+  "requirements": {
+    "level": 16,
+    "skills": [
+      "shadow_spell_0976_manipulation",
+      "stealth"
+    ],
+    "classes": [
+      "ninja",
+      "assassin"
+    ]
+  },
+  "upgrades": {
+    "perfect_shadow": {
+      "unlock_level": 32,
+      "description": "Augmente le niveau d'invisibilité et la durée de shadow_spell_0976 Spell 0976",
+      "invisibility_bonus": 0.15,
+      "duration_bonus": 5000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

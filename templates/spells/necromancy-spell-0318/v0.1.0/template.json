@@ -1,0 +1,80 @@
+{
+  "id": "necromancy_spell_0318",
+  "name": "Necromancy Spell 0318",
+  "description": "Un vent de glace hurlant qui frappe plusieurs ennemis autour du death knight",
+  "icon": "necromancy_spell_0318_icon",
+  "school": "necromancy",
+  "rarity": "rare",
+  "spell_type": "frost_area_attack",
+  "target_type": "area_effect",
+  "range": 12.0,
+  "cast_time": 1500,
+  "cooldown": 8000,
+  "mana_cost": 55,
+  "damage": {
+    "base_damage": 280,
+    "damage_type": "frost_necromancy_spell_0318_damage",
+    "scaling": {
+      "frost_power": 1.6,
+      "rune_efficiency": 1.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "rime_frost_explosion",
+      "value": 280,
+      "duration": 0,
+      "tick_rate": 0,
+      "blast_radius": 12.0,
+      "targets_hit_max": 8,
+      "frost_damage_per_target": 280,
+      "rime_proc": 0.6,
+      "howling_wind_push": 10.0,
+      "frost_fever_proc": 0.4
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "frost_wind_gathering",
+    "blast_effect": "necromancy_spell_0318_snowstorm_burst",
+    "damage_effect": "frost_ice_crystal_shards",
+    "rime_effect": "frozen_statue_formation"
+  },
+  "sound_effects": {
+    "cast_sound": "wind_gathering_whistle",
+    "blast_sound": "necromancy_spell_0318_blizzard_roar",
+    "damage_sound": "ice_crystal_shattering",
+    "rime_sound": "frozen_stasis_echo"
+  },
+  "requirements": {
+    "level": 22,
+    "skills": [
+      "frost_mastery",
+      "wind_magic"
+    ],
+    "classes": [
+      "death_knight",
+      "blizzard_lord"
+    ],
+    "specializations": [
+      "frost_blaster"
+    ]
+  },
+  "upgrades": {
+    "barbed_ice": {
+      "unlock_level": 32,
+      "description": "La rafale laisse des pics de glace qui blessent les cibles en mouvement",
+      "ice_spike_damage": 80,
+      "movement_trap_effect": true,
+      "spike_duration": 15000
+    },
+    "northrend_winds": {
+      "unlock_level": 42,
+      "description": "Les vents deviennent cataclysmiques et gèlent complètement les ennemis",
+      "frostbite_damage_multiplier": 2.0,
+      "complete_freeze_chance": 0.25,
+      "expanded_blast_radius": 18.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

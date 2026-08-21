@@ -1,0 +1,41 @@
+{
+  "school": "spiritualism",
+  "rarity": "common",
+  "target_type": "ally",
+  "range": 30.0,
+  "cast_time": 2000,
+  "cooldown": 25000,
+  "mana_cost": 35,
+  "visual_effects": {
+    "cast_effect": "spiritualism_spell_1397_cast",
+    "projectile_effect": "none",
+    "impact_effect": "spiritualism_spell_1397_buff",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "spiritualism_spell_1397_cast_sound",
+    "impact_sound": "spiritualism_spell_1397_buff_sound"
+  },
+  "requirements": {
+    "level": 15
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "spiritualism_spell_1397",
+  "name": "Spiritualism Spell 1397",
+  "description": "Calls upon Spiritualism Spell 1397s to heal and buff an ally",
+  "icon": "spiritualism_spell_1397_icon",
+  "spell_type": "healing",
+  "healing": {
+    "base_healing": 150,
+    "heal_type": "spirit",
+    "scaling": {
+      "spirit": 0.9
+    }
+  },
+  "buffs": {
+    "attack_power": 20,
+    "duration": 20000
+  },
+  "template_type": "spell"
+}

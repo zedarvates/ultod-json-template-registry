@@ -1,0 +1,77 @@
+{
+  "id": "survival_spell_0680",
+  "name": "Survival Spell 0680",
+  "description": "Permet au chasseur de se dégager rapidement du combat tout en réduisant la menace",
+  "icon": "survival_spell_0680_icon",
+  "school": "survival",
+  "rarity": "common",
+  "spell_type": "combat_survival_spell_0680ment",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 500,
+  "cooldown": 15000,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "threat_removal_escape"
+  },
+  "effects": [
+    {
+      "effect_type": "combat_escape_manuever",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "immediate_threat_removal": 0.8,
+      "movement_speed_burst": 300,
+      "combat_exit_range": 20.0,
+      "hunter_mark_reset": true,
+      "damage_taken_reduction_initial": 0.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "hunter_shadow_blur_maneuver",
+    "escape_effect": "rapid_distance_putting_blur_trails",
+    "threat_effect": "threat_meter_clean_slate_drop",
+    "reset_effect": "hunter_marks_fading_clean_slate"
+  },
+  "sound_effects": {
+    "cast_effect": "shadow_vanish_whisper_disappear",
+    "escape_effect": "distance_boot_steps_running_flee",
+    "threat_effect": "aggro_clear_ping_threat_removal",
+    "reset_effect": "hunter_whistle_reset_marks_clean"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "survival",
+      "evasion"
+    ],
+    "classes": [
+      "hunter",
+      "skirmisher"
+    ],
+    "specializations": [
+      "escape_artist"
+    ]
+  },
+  "upgrades": {
+    "phantom_dash": {
+      "unlock_level": 20,
+      "description": "Le Survival Spell 0680 devient un dash spectral laissant des illusions derrière",
+      "phantom_illusion_creation": 3,
+      "perfect_invisibility_during_dash": true,
+      "teleportation_element_added": true,
+      "enemy_confusion_duration": 5000
+    },
+    "supreme_disengagement": {
+      "unlock_level": 30,
+      "description": "Le Survival Spell 0680 atteint la suprématie avec un reset total et des capacités de repositionnement",
+      "total_combat_reset": true,
+      "any_location_teleport_within_range": true,
+      "complete_threat_wipe": true,
+      "tactical_repositioning_bonus": 100
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "necromancy_spell_0945",
+  "name": "Necromancy Spell 0945",
+  "description": "Un contact surnaturel qui draine la vie de la victime pour revitaliser le lanceur et lui conférer une régénération temporaire",
+  "icon": "necromancy_spell_0945_icon",
+  "school": "necromancy",
+  "rarity": "rare",
+  "spell_type": "necromancy_spell_0945_drain_spell",
+  "target_type": "single_target",
+  "range": 5.0,
+  "cast_time": 1500,
+  "cooldown": 12000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 45,
+    "damage_type": "necrotic_necromancy_spell_0945_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "life_drain_regeneration",
+      "value": 35,
+      "duration": 10000,
+      "tick_rate": 2000,
+      "life_steal_percentage": 50,
+      "healing_over_time": 25,
+      "strength_boost": 15,
+      "vampiric_empowerment_duration": 15000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dark_energy_tendrils_gathering_red_glow_eerie_whispers",
+    "hit_effect": "life_draining_dark_tendrils_red_energy_transfer_victim_weakening",
+    "ongoing_effect": "caster_regeneration_red_aura_dark_energy_channels_glowing_veins",
+    "expiration_effect": "energy_release_dark_mist_dissipating_red_particles_scattering"
+  },
+  "sound_effects": {
+    "cast_effect": "dark_whispers_gathering_necromancy_spell_0945_energy_sucking_sound",
+    "hit_effect": "life_draining_gurgle_victim_weakening_dark_energy_whistle",
+    "ongoing_effect": "continuous_life_steal_beating_heart_dark_ambient_regeneration",
+    "expiration_effect": "energy_release_sigh_dark_whisper_necromancy_spell_0945_power_fading"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "necromancy",
+      "life_draining",
+      "necromancy_spell_0945_mastery"
+    ],
+    "classes": [
+      "necromancer",
+      "vampire_lord",
+      "life_stealer"
+    ],
+    "specializations": [
+      "necromancy_spell_0945_specialist"
+    ]
+  },
+  "upgrades": {
+    "greater_vampiric_touch": {
+      "unlock_level": 32,
+      "description": "Le Necromancy Spell 0945 devient plus puissant avec une absorption de vie améliorée",
+      "life_steal_boost": 75,
+      "drain_range": 8.0,
+      "healing_amplification": 40
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "frost_spell_0779",
+  "name": "Frost Spell 0779",
+  "description": "frost_spell_0779 un projectile de glace concentré qui inflige des dégâts de givre augmentés contre les cibles gelées",
+  "icon": "frost_spell_0779_icon",
+  "school": "frost",
+  "rarity": "common",
+  "spell_type": "piercing_ice_damage",
+  "target_type": "enemy_target",
+  "range": 35.0,
+  "cast_time": 2000,
+  "cooldown": 6000,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 160,
+    "damage_type": "piercing_frost_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "frost_piercing_projectile",
+      "value": 180,
+      "duration": 0,
+      "tick_rate": 0,
+      "ice_lance_penetration": 0.8,
+      "damage_bonus_vs_frozen_targets": 150,
+      "pierce_shields_chance": 60,
+      "shatter_armor_percent": 25,
+      "frost_nova_generation": 0.2,
+      "glacier_projectile_speed": 30.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ice_crystal_formation_large_frost_spell_0779_gathering_blue_white_energy",
+    "projectile_effect": "sharp_frost_spell_0779_projectile_crystalline_trailing_ice_shards",
+    "impact_effect": "ice_explosion_crystals_shattering_fragments_ice_spike_formation",
+    "special_effect": "frozen_target_brittleness_armor_crackling_ice_damage_bonus"
+  },
+  "sound_effects": {
+    "cast_effect": "ice_crystal_forming_crunching_crystal_structure_building",
+    "projectile_effect": "frost_spell_0779_whistling_projectile_air_displacement_freezing",
+    "impact_effect": "ice_shattering_explosion_crystal_fragments_cracking_armor",
+    "special_effect": "frozen_brittleness_crackling_ice_weakening_target_defenses"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "frost_magic",
+      "ice_manipulation"
+    ],
+    "classes": [
+      "mage",
+      "frost_mage",
+      "cryomancer"
+    ],
+    "specializations": [
+      "ice_specialization"
+    ]
+  },
+  "upgrades": {
+    "greater_ice_lance": {
+      "unlock_level": 28,
+      "description": "La Frost Spell 0779 devient plus puissante avec une pénétration accrue et des effets explosifs",
+      "penetration_damage_increase_percent": 120,
+      "armor_shatter_multiplier": 1.8,
+      "additional_ice_shards_explosive": 3,
+      "double_damage_frozen_critical": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

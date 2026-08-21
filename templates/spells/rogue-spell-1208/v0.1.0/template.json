@@ -1,0 +1,61 @@
+{
+  "id": "rogue_spell_1208",
+  "name": "Rogue Spell 1208",
+  "description": "Inflige des dégâts de saignement périodiques et consomme des points de combo",
+  "icon": "rogue_spell_1208_icon",
+  "school": "rogue",
+  "rarity": "common",
+  "spell_type": "finisher_bleed",
+  "target_type": "enemy",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "energy_cost": 25,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "physical"
+  },
+  "effects": [
+    {
+      "effect_type": "combo_point_consumer",
+      "combo_points_required": 1,
+      "combo_points_max": 5,
+      "duration": 0,
+      "tick_rate": 2000,
+      "damage_per_combo": 8,
+      "ticks_per_combo": 1,
+      "bleed_damage_per_combo": 25,
+      "total_ticks": 8,
+      "crit_multiplier": 1.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "blade_swipe",
+    "attack_effect": "deep_gash",
+    "impact_effect": "gushing_blood"
+  },
+  "sound_effects": {
+    "cast_sound": "blade_cut",
+    "attack_sound": "flesh_tear",
+    "impact_sound": "bleeding_loop"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "dagger_mastery"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_rupture": {
+      "unlock_level": 20,
+      "description": "Augmente la durée et les dégâts",
+      "ticks_bonus": 3,
+      "damage_multiplier": 1.2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

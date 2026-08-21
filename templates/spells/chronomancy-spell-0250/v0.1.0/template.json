@@ -1,0 +1,77 @@
+{
+  "id": "chronomancy_spell_0250",
+  "name": "Chronomancy Spell 0250",
+  "description": "Le chronomancien ralentit le temps autour des ennemis, les faisant bouger plus lentement",
+  "icon": "chronomancy_spell_0250_icon",
+  "school": "chronomancy",
+  "rarity": "common",
+  "spell_type": "temporal_debuff",
+  "target_type": "area_enemy",
+  "range": 25.0,
+  "cast_time": 1000,
+  "cooldown": 12000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "temporal"
+  },
+  "effects": [
+    {
+      "effect_type": "movement_slow",
+      "value": 60,
+      "duration": 12000,
+      "tick_rate": 0,
+      "aoe_range": 20.0,
+      "slow_percentage": 0.4,
+      "attack_speed_slow": 0.3,
+      "max_targets": 6,
+      "temporal_inversion_resistance": 0.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "chronomancer_clock_hands_slowing",
+    "slow_effect": "blue_chronomancy_spell_0250_distortion_waves",
+    "target_effect": "slow_motion_ripples",
+    "expire_effect": "chronomancy_spell_0250_acceleration_reverse"
+  },
+  "sound_effects": {
+    "cast_sound": "clock_mechanism_slowing",
+    "slow_sound": "deep_chronomancy_spell_0250_stretching_echo",
+    "target_sound": "slowed_down_footsteps",
+    "expire_sound": "chronomancy_spell_0250_speed_up_whir"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "chronomancy",
+      "temporal_manipulation",
+      "chronomancy_spell_0250_control"
+    ],
+    "classes": [
+      "chronomancer",
+      "chronomancy_spell_0250_mage",
+      "temporalist"
+    ],
+    "specializations": [
+      "slowmaster"
+    ]
+  },
+  "upgrades": {
+    "temporal_quagmire": {
+      "unlock_level": 15,
+      "description": "Le ralenti devient plus intense et affecte une zone plus large",
+      "slow_percentage_bonus": 0.2,
+      "aoe_range_bonus": 10.0,
+      "spell_casting_slow": 0.5
+    },
+    "chronal_freeze": {
+      "unlock_level": 25,
+      "description": "Peut immobiliser complètement certains ennemis au niveau maximum",
+      "stun_chance": 0.3,
+      "stun_duration": 3000,
+      "critical_slow_enemies": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

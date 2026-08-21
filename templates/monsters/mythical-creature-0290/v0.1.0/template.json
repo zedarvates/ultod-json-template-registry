@@ -1,0 +1,64 @@
+{
+  "id": "mythical_creature_0290",
+  "name": "Mythical Creature 0290",
+  "description": "Oiseau mythique qui renaît de ses cendres, incarne la résurrection et l'immortalité",
+  "icon": "mythical_creature_0290_icon",
+  "category": "mythical",
+  "rarity": "legendary",
+  "base_stats": {
+    "health": 5000,
+    "mana": 2000,
+    "strength": 80,
+    "dexterity": 90,
+    "intelligence": 100,
+    "wisdom": 120,
+    "constitution": 85,
+    "charisma": 150
+  },
+  "properties": {
+    "is_flying": true,
+    "is_magical": true,
+    "is_unique": true,
+    "is_boss": true,
+    "size": "large",
+    "speed": 15.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "mythical_creature_0290_feather",
+      "fire_essence"
+    ],
+    "rare_drops": [
+      "mythical_creature_0290_heart",
+      "immortality_elixir"
+    ],
+    "epic_drops": [
+      "rebirth_talisman"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "high",
+    "attack_pattern": "fire_breath_and_dive",
+    "special_abilities": [
+      "reincarnation",
+      "fire_immunity"
+    ]
+  },
+  "abilities": [
+    "fire_breath",
+    "mythical_creature_0290_dive",
+    "reincarnation",
+    "flame_aura"
+  ],
+  "resistances": {
+    "fire": 100,
+    "physical": 50,
+    "magic": 75
+  },
+  "weaknesses": [
+    "ice",
+    "water"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

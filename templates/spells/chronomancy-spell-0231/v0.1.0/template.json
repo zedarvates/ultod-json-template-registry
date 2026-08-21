@@ -1,0 +1,77 @@
+{
+  "id": "chronomancy_spell_0231",
+  "name": "Chronomancy Spell 0231",
+  "description": "Téléporte instantanément le lanceur dans l'espace et le temps, laissant une traînée temporelle",
+  "icon": "chronomancy_spell_0231_icon",
+  "school": "chronomancy",
+  "rarity": "uncommon",
+  "spell_type": "temporal_teleport",
+  "target_type": "self",
+  "range": 40.0,
+  "cast_time": 100,
+  "cooldown": 8000,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "temporal_blink_teleport",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "blink_distance": 40.0,
+      "time_shift_bonus": 0.5,
+      "trail_damage": 50,
+      "phase_through_obstacles": true,
+      "temporal_disruption_trail": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "temporal_disappearance_flash",
+    "teleport_effect": "instant_reappearance_burst",
+    "trail_effect": "temporal_energy_trail",
+    "landing_effect": "time_ripple_explosion"
+  },
+  "sound_effects": {
+    "cast_sound": "short_temporal_whip",
+    "teleport_sound": "blink_displacement_pop",
+    "trail_sound": "temporal_energy_drag",
+    "landing_sound": "temporal_arrival_echo"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "chronomancy",
+      "temporal_movement",
+      "blink_magic"
+    ],
+    "classes": [
+      "chronomancer",
+      "time_mage",
+      "temporalist"
+    ],
+    "specializations": [
+      "temporal_nomad"
+    ]
+  },
+  "upgrades": {
+    "extended_blink": {
+      "unlock_level": 20,
+      "description": "Augmente considérablement la distance du clignement",
+      "blink_distance_bonus": 25.0,
+      "cooldown_reduction": 2000,
+      "trail_damage_bonus": 30
+    },
+    "dimensional_blink": {
+      "unlock_level": 30,
+      "description": "Peut cligner à travers les dimensions et les barrières physiques",
+      "dimensional_travel": true,
+      "barrier_piercing": true,
+      "temporal_escape_chance": 0.8
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

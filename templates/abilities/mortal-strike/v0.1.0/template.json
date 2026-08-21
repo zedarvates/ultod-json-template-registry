@@ -1,0 +1,26 @@
+{
+  "id": "mortal_strike",
+  "name": "Frappe mortelle",
+  "description": "Une frappe puissante qui inflige des dégâts d'arme et réduit les soins reçus par la cible.",
+  "type": "instant",
+  "resource_cost": 30,
+  "resource_type": "rage",
+  "cooldown": 6.0,
+  "range": 5.0,
+  "effects": [
+    {
+      "type": "damage",
+      "value": 150.0,
+      "scaling": "strength",
+      "damage_type": "physical"
+    },
+    {
+      "type": "debuff",
+      "stat": "healing_received",
+      "value": -0.5,
+      "duration": 10.0
+    }
+  ],
+  "template_type": "ability",
+  "version": "0.1.0"
+}

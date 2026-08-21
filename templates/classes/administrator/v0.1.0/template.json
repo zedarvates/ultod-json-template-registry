@@ -1,0 +1,141 @@
+{
+  "id": "administrator",
+  "name": "[ADMIN] Administrator",
+  "description": "[ADMIN ONLY] The adapted_referencete administrator class with god-like powers over the server reality",
+  "color": "FF0000",
+  "primary_resource": "infinite_power",
+  "base_stats": {
+    "strength": 100,
+    "agility": 100,
+    "intelligence": 100,
+    "vitality": 100,
+    "wisdom": 100,
+    "charisma": 100
+  },
+  "specializations": [
+    "reality_manipulation",
+    "server_control",
+    "universal_overseer"
+  ],
+  "starting_skills": [
+    {
+      "id": 90001,
+      "name": "Reality Warp",
+      "description": "[ADMIN] Bend server reality to your will",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 100.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 90002,
+      "name": "Server Shutdown",
+      "description": "[ADMIN] Force server restart or shutdown",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 90003,
+      "name": "Player Ban",
+      "description": "[ADMIN] Instantly ban any player from the server",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 1000.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 90004,
+      "name": "Item Creation",
+      "description": "[ADMIN] Create any item in the game instantly",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 90005,
+      "name": "Teleport Anywhere",
+      "description": "[ADMIN] Instant teleport to any location in the world",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": -1,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 900001,
+            "name": "Infinite Resources",
+            "description": "All resources are infinite",
+            "max_rank": 1,
+            "icon_path": "talents/admin/infinite_resources.png"
+          },
+          {
+            "id": 900002,
+            "name": "Immortal Avatar",
+            "description": "Cannot die or be harmed",
+            "max_rank": 1,
+            "icon_path": "talents/admin/immortal.png"
+          },
+          {
+            "id": 900003,
+            "name": "Server Sight",
+            "description": "See all players, NPCs, and hidden areas",
+            "max_rank": 1,
+            "icon_path": "talents/admin/server_sight.png"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "talents": [
+          {
+            "id": 900004,
+            "name": "Event Master",
+            "description": "Can trigger any server event instantly",
+            "max_rank": 1,
+            "icon_path": "talents/admin/event_master.png"
+          },
+          {
+            "id": 900005,
+            "name": "Item Duplicator",
+            "description": "Duplicate any item unlimited times",
+            "max_rank": 1,
+            "icon_path": "talents/admin/duplicator.png"
+          },
+          {
+            "id": 900006,
+            "name": "Player Resurrector",
+            "description": "Resurrect any dead player instantly",
+            "max_rank": 1,
+            "icon_path": "talents/admin/resurrector.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 1000000,
+  "health_modifier": 100.0,
+  "damage_modifier": 100.0,
+  "armor_modifier": 100.0,
+  "speed_modifier": 10.0,
+  "cast_speed_modifier": 100.0,
+  "template_type": "class",
+  "version": "0.1.0"
+}

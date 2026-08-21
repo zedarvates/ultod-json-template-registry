@@ -1,0 +1,101 @@
+{
+  "profession": "blacksmithing",
+  "display_name": "Forgemagie",
+  "description": "L'art ancestral du travail des métaux et de la création d'armes et d'armures",
+  "icon_path": "icons/professions/blacksmith.png",
+  "category": "production",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "iron_sword",
+      "name": "Épée de Fer",
+      "description": "Une épée de fer robuste, arme de base des guerriers",
+      "profession": "blacksmithing",
+      "difficulty": 25,
+      "base_success_rate": 0.6,
+      "skill_required": 15,
+      "experience_gain": 15,
+      "exceptional_chance": 0.05,
+      "time_required_seconds": 45,
+      "components": [
+        {
+          "item_type": "iron_ore",
+          "quantity": 3,
+          "quality_required": "standard",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "wood",
+          "quantity": 2,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "iron_sword",
+          "name": "Épée de Fer",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.0,
+          "durability_modifier": 1.0
+        }
+      ],
+      "conditions": {
+        "profession_level": 5,
+        "required_tools": [
+          "anvil",
+          "hammer"
+        ],
+        "environmental_factors": [
+          "forge_access"
+        ]
+      }
+    },
+    {
+      "id": "steel_helmet",
+      "name": "Casque d'Acier",
+      "description": "Protection robuste pour la tête",
+      "profession": "blacksmithing",
+      "difficulty": 35,
+      "base_success_rate": 0.55,
+      "skill_required": 30,
+      "experience_gain": 25,
+      "exceptional_chance": 0.08,
+      "time_required_seconds": 60,
+      "components": [
+        {
+          "item_type": "steel_ore",
+          "quantity": 3,
+          "quality_required": "good",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "leather_straps",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "steel_helmet",
+          "name": "Casque d'Acier",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.0,
+          "durability_modifier": 1.2
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "weapon_smithing",
+    "armor_crafting",
+    "metal_working"
+  ],
+  "id": "blacksmithing",
+  "name": "Blacksmithing",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

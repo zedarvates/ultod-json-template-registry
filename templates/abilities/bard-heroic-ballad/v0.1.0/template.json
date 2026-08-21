@@ -1,0 +1,89 @@
+{
+  "id": "bard_heroic_ballad",
+  "name": "Ballade Héroïque",
+  "description": "Chante une ballade inspirante pour galvaniser les alliés",
+  "ability_type": "active",
+  "category": "support",
+  "cooldown": 90000,
+  "mana_cost": 80,
+  "cast_time": 5000,
+  "range": 40.0,
+  "target_type": "area",
+  "duration": 90000,
+  "effects": [
+    {
+      "effect_type": "damage_increase",
+      "value": 0.4,
+      "duration": 90000,
+      "tick_rate": 0,
+      "damage_type": "all"
+    },
+    {
+      "effect_type": "critical_strike_chance",
+      "value": 0.3,
+      "duration": 90000,
+      "tick_rate": 0,
+      "crit_type": "all"
+    },
+    {
+      "effect_type": "resource_regen",
+      "value": 0.5,
+      "duration": 90000,
+      "tick_rate": 0,
+      "resource_type": "all"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "heroic_formation",
+    "damage_effect": "inspiration_flame",
+    "crit_effect": "critical_sparkle"
+  },
+  "sound_effects": {
+    "cast_sound": "heroic_ballad",
+    "damage_sound": "inspiration_chorus",
+    "crit_sound": "heroic_triumph"
+  },
+  "scaling": {
+    "bard_skill": 1.8,
+    "music_mastery": 1.6
+  },
+  "requirements": {
+    "level": 40,
+    "abilities": [
+      "melodic_whisper",
+      "battle_chant"
+    ],
+    "class": "bard"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "damage_increase": 0.2,
+      "critical_strike_chance": 0.1,
+      "resource_regen": 0.2
+    },
+    "journeyman": {
+      "damage_increase": 0.3,
+      "critical_strike_chance": 0.2,
+      "resource_regen": 0.3,
+      "duration": 120000
+    },
+    "master": {
+      "damage_increase": 0.4,
+      "critical_strike_chance": 0.3,
+      "resource_regen": 0.5,
+      "duration": 150000,
+      "area_range": 50.0
+    },
+    "grandmaster": {
+      "damage_increase": 0.5,
+      "critical_strike_chance": 0.4,
+      "resource_regen": 0.6,
+      "duration": 180000,
+      "area_range": 60.0,
+      "ability_unlock": "legendary_performance"
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "conjuration_spell_1534",
+  "name": "Conjuration Spell 1534",
+  "description": "Crée une sphère de ténèbres affamée qui inflige des dégâts et empêche la vision",
+  "icon": "conjuration_spell_1534_icon",
+  "school": "conjuration",
+  "rarity": "epic",
+  "spell_type": "area_damage",
+  "target_type": "area",
+  "range": 36.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 24,
+    "damage_type": "cold",
+    "aoe_radius": 6.0
+  },
+  "effects": [
+    {
+      "effect_type": "hadar_adapted_references",
+      "value": 24,
+      "duration": 60000,
+      "tick_rate": 1000,
+      "dexterity_save": true,
+      "save_dc": 15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dark_portal",
+    "area_effect": "hungry_darkness"
+  },
+  "sound_effects": {
+    "cast_sound": "hadar_whisper"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "conjuration"
+    ],
+    "classes": [
+      "warlock"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

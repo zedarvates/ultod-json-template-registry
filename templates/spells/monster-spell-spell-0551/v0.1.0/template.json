@@ -1,0 +1,47 @@
+{
+  "id": "monster_spell_spell_0551",
+  "name": "Monster Spell Spell 0551",
+  "description": "Description pour Monster Spell Spell 0551",
+  "icon": "monster_spell_spell_0551_icon",
+  "school": "monster_spell",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 6.0,
+  "cast_time": 300,
+  "cooldown": 1000,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 24,
+    "damage_type": "necrotic"
+  },
+  "effects": [
+    {
+      "effect_type": "necrotic_damage",
+      "value": 24,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "monster_spell_spell_0551_aura",
+    "projectile_effect": "dark_vortex",
+    "impact_effect": "monster_spell_spell_0551_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "wail",
+    "impact_sound": "void"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "fiend_magic"
+    ],
+    "classes": [
+      "fiend"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

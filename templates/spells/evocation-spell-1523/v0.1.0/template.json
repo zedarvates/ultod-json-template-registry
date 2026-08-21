@@ -1,0 +1,46 @@
+{
+  "id": "evocation_spell_1523",
+  "name": "Evocation Spell 1523",
+  "description": "Crée une zone de Evocation Spell 1523 magiques qui bloquent la vision",
+  "icon": "evocation_spell_1523_icon",
+  "school": "evocation",
+  "rarity": "uncommon",
+  "spell_type": "area_control",
+  "target_type": "area",
+  "range": 18.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 4.5
+  },
+  "effects": [
+    {
+      "effect_type": "evocation_spell_1523",
+      "value": 0,
+      "duration": 60000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "shadow_expand",
+    "area_effect": "total_evocation_spell_1523"
+  },
+  "sound_effects": {
+    "cast_sound": "shadow_whisper"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "warlock"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

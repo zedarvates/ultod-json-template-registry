@@ -1,0 +1,65 @@
+{
+  "id": "sacre_spell_1116",
+  "name": "Sacre Spell 1116",
+  "description": "Vous touchez une créature et mettez fin à un effet qui la frappe, choisi au choix : une maladie, un poison, toute réduction de capacité ou un poison/disease mentale",
+  "icon": "sacre_spell_1116_icon",
+  "school": "sacré",
+  "rarity": "uncommon",
+  "spell_type": "utility",
+  "target_type": "ally",
+  "range": 2.0,
+  "cast_time": 1000,
+  "cooldown": 30000,
+  "mana_cost": 60,
+  "healing": {
+    "base_healing": 0,
+    "scaling_factor": 0.0,
+    "healing_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "remove_debuff",
+      "value": 0,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_radius": 0.0,
+      "proc_chance": 1.0,
+      "removes_disease": true,
+      "removes_poison": true,
+      "removes_ability_reduction": true,
+      "removes_mental_effects": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "holy_touch",
+    "cure_effect": "purifying_light",
+    "impact_effect": "divine_cleanse"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_chant",
+    "cure_sound": "sacre_spell_1116_hum",
+    "impact_sound": "cleansing_bell"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_lesser_restoration": {
+      "unlock_level": 7,
+      "description": "Peut également guérir une condition étourdie ou paralysée",
+      "extra_removal": "stun_paralysis"
+    },
+    "greater_restoration": {
+      "unlock_level": 13,
+      "description": "Transforme ce sort en restauration supérieure",
+      "upgrade_to_greater": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

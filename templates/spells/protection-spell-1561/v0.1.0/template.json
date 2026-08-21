@@ -1,0 +1,73 @@
+{
+  "id": "protection_spell_1561",
+  "name": "Protection Spell 1561",
+  "description": "Frappe l'ennemi avec le bouclier, infligeant des dégâts et générant de la rage",
+  "icon": "protection_spell_1561_icon",
+  "school": "protection",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 6000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.9,
+      "rage": 0.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 120,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "rage_generation",
+      "value": 15,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "protection_spell_1561_bash",
+    "projectile_effect": "none",
+    "impact_effect": "protection_spell_1561_impact",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "protection_spell_1561_bash",
+    "impact_sound": "metal_impact"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "protection"
+    ]
+  },
+  "upgrades": {
+    "improved_shield_slam": {
+      "unlock_level": 16,
+      "description": "Augmente les dégâts de Protection Spell 1561 de 30%",
+      "damage_bonus": 30
+    },
+    "shield_slam_mastery": {
+      "unlock_level": 26,
+      "description": "Protection Spell 1561 a une chance d'étourdir la cible",
+      "stun_chance": 0.2,
+      "stun_duration": 2000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "restoration_spell_0286",
+  "name": "Restoration Spell 0286",
+  "description": "Un toucher sacré qui restaure les points de vie d'un allié",
+  "icon": "restoration_spell_0286_icon",
+  "school": "restoration",
+  "rarity": "common",
+  "spell_type": "restoration_spell_0286_spell",
+  "target_type": "single_ally",
+  "range": 5.0,
+  "cast_time": 1500,
+  "cooldown": 0,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "restoration_spell_0286",
+    "scaling": {
+      "wisdom": 1.8,
+      "charisma": 0.7
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "instant_restoration_spell_0286",
+      "value": 150,
+      "duration": 0,
+      "tick_rate": 0,
+      "divine_power_bonus": 0.5,
+      "critical_heal_chance": 0.1,
+      "cast_range_bonus": 2.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_light_burst",
+    "heal_effect": "golden_energy_flow",
+    "critical_effect": "brilliant_divine_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_energy_charge",
+    "heal_sound": "soothing_divine_harmony",
+    "critical_sound": "powerful_restoration_spell_0286_chorus"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "divine_magic",
+      "restoration"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "healer"
+    ]
+  },
+  "upgrades": {
+    "divine_intervention": {
+      "unlock_level": 10,
+      "description": "Le sort peut maintenant guérir les effets de poison et maladie",
+      "cure_poison": true,
+      "cure_disease": true,
+      "healing_bonus": 50
+    },
+    "major_healing": {
+      "unlock_level": 20,
+      "description": "Le sort restaure bien plus de points de vie",
+      "healing_multiplier": 2.5,
+      "cast_time_reduction": 500,
+      "mana_cost_reduction": 10
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

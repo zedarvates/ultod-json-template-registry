@@ -1,0 +1,71 @@
+{
+  "id": "arcane_spell_0786",
+  "name": "Arcane Spell 0786",
+  "description": "Ralentit significativement la vitesse de mouvement et d'attaque de la cible, la rendant plus vulnérable",
+  "icon": "arcane_spell_0786_icon",
+  "school": "arcane",
+  "rarity": "common",
+  "spell_type": "temporal_debuff",
+  "target_type": "enemy_debuff",
+  "range": 25.0,
+  "cast_time": 1000,
+  "cooldown": 12000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "temporal_disruption_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "time_dilation_field",
+      "value": 120,
+      "duration": 15000,
+      "tick_rate": 1000,
+      "movement_speed_reduction_percent": 50,
+      "attack_speed_reduction_percent": 45,
+      "cast_speed_reduction_percent": 40,
+      "temporal_distortion_debuff": true,
+      "slow_resistance_reduction": 25,
+      "critical_strike_penalty": 20
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "temporal_energy_field_gathering_time_crystals_forming",
+    "application_effect": "target_arcane_spell_0786ed_lagging_motion_blue_time_particles",
+    "active_effect": "time_crystal_orbits_arcane_spell_0786ing_all_movements_turning_motions",
+    "expire_effect": "time_crystals_shattering_normal_speed_restoration"
+  },
+  "sound_effects": {
+    "cast_effect": "temporal_energy_whistle_crystal_formation_crystal_chime",
+    "application_effect": "arcane_spell_0786ed_motion_echo_time_warping_distortion_deep",
+    "active_effect": "constant_arcane_spell_0786ed_echo_everything_sounds_labored_dragging",
+    "expire_effect": "time_crystal_shattering_crack_normal_speed_restored"
+  },
+  "requirements": {
+    "level": 14,
+    "skills": [
+      "arcane_magic",
+      "temporal_manipulation"
+    ],
+    "classes": [
+      "mage",
+      "chronomancer",
+      "time_weaver"
+    ],
+    "specializations": [
+      "temporal_specialization"
+    ]
+  },
+  "upgrades": {
+    "greater_slow": {
+      "unlock_level": 24,
+      "description": "La Arcane Spell 0786 devient plus puissante avec des ralentissements plus importants et des effets secondaires",
+      "movement_speed_reduction_increase": 65,
+      "additional_debuff_aging": 0.15,
+      "slow_infection_spread": 4.0,
+      "time_bubble_expansion": 2.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

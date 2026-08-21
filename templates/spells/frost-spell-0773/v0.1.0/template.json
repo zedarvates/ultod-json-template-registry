@@ -1,0 +1,78 @@
+{
+  "id": "frost_spell_0773",
+  "name": "Frost Spell 0773",
+  "description": "Invoque une tempête de neige qui inflige des dégâts périodiques dans une zone",
+  "icon": "frost_spell_0773_icon",
+  "school": "frost",
+  "rarity": "rare",
+  "spell_type": "damage",
+  "target_type": "area",
+  "range": 30.0,
+  "cast_time": 2000,
+  "cooldown": 0,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 25,
+    "damage_type": "frost",
+    "scaling": {
+      "intelligence": 0.8,
+      "wisdom": 0.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "dot_aoe",
+      "value": 25,
+      "duration": 8000,
+      "tick_rate": 2000,
+      "aoe_range": 8.0,
+      "max_ticks": 4
+    },
+    {
+      "effect_type": "slow_aoe",
+      "value": 30,
+      "duration": 8000,
+      "tick_rate": 0,
+      "aoe_range": 8.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "frost_orb",
+    "persistent_effect": "snow_storm",
+    "impact_effect": "frost_burst",
+    "trail_effect": "snow_flakes"
+  },
+  "sound_effects": {
+    "cast_sound": "wind_howl",
+    "persistent_sound": "frost_spell_0773_wind",
+    "impact_sound": "ice_crack"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "mage",
+      "shaman",
+      "druid",
+      "wizard"
+    ]
+  },
+  "upgrades": {
+    "improved_blizzard": {
+      "unlock_level": 30,
+      "description": "Augmente les dégâts et la zone d'effet",
+      "damage_bonus": 40,
+      "aoe_increase": 3.0
+    },
+    "arctic_blizzard": {
+      "unlock_level": 40,
+      "description": "Le frost_spell_0773 applique un effet de gel qui réduit les soins reçus",
+      "heal_reduction": 25,
+      "freeze_effect": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

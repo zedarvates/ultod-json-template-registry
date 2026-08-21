@@ -1,16 +1,75 @@
 {
-  "id": "mirror_essence",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Mirror Essence",
-  "description": "A portable material component for public template workflows.",
+  "item_id": "mirror_essence",
+  "name": "Essence Miroir",
+  "description": "Substance fluide qui crée des duplicatas temporaires de sorts et permet leur combinaison en effets coordonnés",
+  "icon": "mirror_essence_icon",
   "category": "material",
   "rarity": "epic",
-  "stack_limit": 50,
-  "weight_kg": 0.1,
-  "tags": [
-    "adapted",
-    "material"
+  "item_type": "magic_crafting_material",
+  "bind_type": "none",
+  "level_required": 40,
+  "durability": {
+    "single_use": true,
+    "charges": 1
+  },
+  "properties": {
+    "material_type": "spell_duplication_fluid",
+    "reflection_clarity": 0.95,
+    "temporal_stability": 0.78,
+    "spell_duplication_power": 0.88,
+    "echo_duration": 30
+  },
+  "stack_limit": 5,
+  "weight": 0.2,
+  "value": {
+    "rarity_multiplier": 3.0
+  },
+  "drop_sources": [
+    {
+      "source_type": "mob_loot",
+      "mobs": [
+        "mirror_entity",
+        "reflection_demon",
+        "echo_phantasm"
+      ],
+      "drop_chance": 0.05,
+      "quantity_range": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "source_type": "gathering",
+      "nodes": [
+        "mirror_lakes",
+        "reflection_pools",
+        "echo_chambers"
+      ],
+      "skill_required": "alchemy",
+      "skill_level": 40
+    },
+    {
+      "source_type": "quest_reward",
+      "quests": [
+        "mirror_of_truth",
+        "dual_reflection"
+      ],
+      "rarity_tier": "epic"
+    }
   ],
-  "dependencies": []
+  "usage_instructions": {
+    "usage_type": "crafting_component",
+    "compatible_professions": [
+      "magic_crafter",
+      "alchemist"
+    ],
+    "duplication_enhancement": 1.5
+  },
+  "visual_effects": {
+    "idle_effect": "liquid_mirror",
+    "usage_effect": "reflection_burst"
+  },
+  "version": "0.1.0",
+  "id": "mirror_essence",
+  "template_type": "item"
 }

@@ -1,0 +1,46 @@
+{
+  "id": "illusion_spell_1390",
+  "name": "Illusion Spell 1390",
+  "description": "Crée trois copies illusoires de vous-même",
+  "icon": "illusion_spell_1390_icon",
+  "school": "illusion",
+  "rarity": "common",
+  "spell_type": "defensive",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "illusions",
+      "value": 3,
+      "duration": 60000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "illusion_spell_1390_shatter"
+  },
+  "sound_effects": {
+    "cast_sound": "glass_break"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "illusion"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

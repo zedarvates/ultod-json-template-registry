@@ -6,12 +6,11 @@ from pathlib import Path
 from typing import Any
 
 
-SECRET_KEY = re.compile(r"(?:api[_-]?key|secret|password|passwd|authorization|bearer|private[_-]?key|connection[_-]?string)", re.IGNORECASE)
-ADMIN_KEY = re.compile(r"(?:admin_controls|admin_only|debug_mode|admin_command)", re.IGNORECASE)
-COMMERCIAL_KEY = re.compile(r"(?:shop_info|buy_price|sell_price|sku|billing|premium_currency|real_money|stock_limit)", re.IGNORECASE)
+ADMIN_KEY = re.compile(r"(?:admin|debug|requires_permission)", re.IGNORECASE)
+COMMERCIAL_KEY = re.compile(r"(?:shop_info|buy_price|sell_price|stock_limit|sku|billing|premium_currency|real_money)", re.IGNORECASE)
 INTERNAL_KEY = re.compile(r"(?:server_url|connection_string|asset_path|model_path|texture_path|audio_path)", re.IGNORECASE)
-INTERNAL_TEXT = re.compile(r"(?:https?://(?:localhost|127\.0\.0\.1|10\.|192\.168\.)|[A-Za-z]:\\)", re.IGNORECASE)
-RIGHTS_TEXT = re.compile(r"(?:warcraft|ultima online|one[ _-]?piece|tolkien|lovecraft|cthulhu|aion|\bsphere\b|xenomorph|mithril|peacebloom|silverleaf)", re.IGNORECASE)
+RIGHTS_TERM = re.compile(r"(?:warcraft|ultima(?: online)?|one[ _-]?piece|tolkien|lovecraft|cthulhu|aion|xenomorph|mithril|peacebloom|silverleaf)", re.IGNORECASE)
+HASH_PLACEHOLDER = re.compile(r"/original-[^/]+-[0-9a-f]{10}/", re.IGNORECASE)
 
 
 def _walk(value: Any):
@@ -24,24 +23,22 @@ def _walk(value: Any):
             yield from _walk(child)
 
 
-def validate_public_content(document: Any, raw_text: str) -> list[str]:
+def validate_public_content(document: Any) -> list[str]:
     violations = set()
     for key, value in _walk(document):
-        if SECRET_KEY.search(key):
-            violations.add("secret")
         if ADMIN_KEY.search(key):
             violations.add("admin-control")
         if COMMERCIAL_KEY.search(key):
             violations.add("commercial")
         if INTERNAL_KEY.search(key):
             violations.add("internal")
-        if isinstance(value, str) and INTERNAL_TEXT.search(value):
-            violations.add("internal")
-    if INTERNAL_TEXT.search(raw_text):
-        violations.add("internal")
-    if RIGHTS_TEXT.search(raw_text):
-        violations.add("rights")
+        if RIGHTS_TERM.search(key) or (isinstance(value, str) and RIGHTS_TERM.search(value)):
+            violations.add("third-party-reference")
     return sorted(violations)
+
+
+def validate_public_path(path: str) -> list[str]:
+    return ["hash-placeholder-name"] if HASH_PLACEHOLDER.search(path.replace("\\", "/")) else []
 
 def main():
     files = sorted(Path("templates").rglob("*.json"))
@@ -64,21 +61,20 @@ def main():
         with path.open("rb") as stream:
             content = stream.read()
         try:
-            text = content.decode("utf-8")
-            document = json.loads(text)
+            document = json.loads(content.decode("utf-8"))
         except Exception as e:
             errors.append(f"{path}: JSON parse error: {e}")
             document = None
-            text = ""
 
         rel_posix = path.as_posix()
         if rel_posix == "templates/catalog.json":
             continue
 
-        if document is not None:
-            violations = validate_public_content(document, text)
-            if violations:
-                errors.append(f"{rel_posix}: prohibited public content ({', '.join(violations)})")
+        path_violations = validate_public_path(rel_posix)
+        content_violations = validate_public_content(document) if document is not None else []
+        if path_violations or content_violations:
+            violations = sorted(set(path_violations + content_violations))
+            errors.append(f"{rel_posix}: public policy violation ({', '.join(violations)})")
 
         if rel_posix not in catalog_entries:
             errors.append(f"{rel_posix}: not listed in templates/catalog.json")

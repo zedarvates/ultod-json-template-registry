@@ -1,0 +1,453 @@
+{
+  "id": "magery",
+  "name": "Magery",
+  "description": "Master the arcane arts of spellcasting, harnessing mystical energies to shape reality",
+  "category": "knowledge",
+  "skill_type": "arcane_mastery",
+  "base_gain_chance": 0.4,
+  "gain_rate": 1.0,
+  "skill_cap": 100.0,
+  "real_skill_cap": 700.0,
+  "stat_dependencies": [
+    "intelligence",
+    "dexterity"
+  ],
+  "stat_multipliers": {
+    "intelligence": 0.9,
+    "dexterity": 0.1
+  },
+  "spell_schools": {
+    "offensive": {
+      "description": "Spells that deal direct damage to enemies",
+      "spell_types": [
+        "fireball",
+        "lightning",
+        "ice_shard",
+        "acid_splash",
+        "shadow_bolt",
+        "holy_smite"
+      ],
+      "mana_cost_multiplier": 1.0,
+      "damage_multiplier": 1.2
+    },
+    "defensive": {
+      "description": "Spells that protect and shield the caster",
+      "spell_types": [
+        "magic_shield",
+        "ward",
+        "barrier",
+        "reflection",
+        "absorption",
+        "sanctuary"
+      ],
+      "mana_cost_multiplier": 0.9,
+      "effect_duration_multiplier": 1.1
+    },
+    "support": {
+      "description": "Spells that enhance allies and provide buffs",
+      "spell_types": [
+        "haste",
+        "strength",
+        "intellect",
+        "protection",
+        "blessing",
+        "empowerment"
+      ],
+      "mana_cost_multiplier": 0.8,
+      "effect_strength_multiplier": 1.15
+    },
+    "summoning": {
+      "description": "Spells that call forth creatures and entities",
+      "spell_types": [
+        "summon_demon",
+        "summon_elemental",
+        "summon_undead",
+        "summon_nature",
+        "summon_construct",
+        "summon_celestial"
+      ],
+      "mana_cost_multiplier": 1.3,
+      "duration_multiplier": 1.2
+    },
+    "divination": {
+      "description": "Spells that reveal information and scry",
+      "spell_types": [
+        "detect_magic",
+        "identify",
+        "scry",
+        "revelation",
+        "prophecy",
+        "foresight"
+      ],
+      "mana_cost_multiplier": 0.7,
+      "accuracy_multiplier": 1.25
+    },
+    "alteration": {
+      "description": "Spells that change reality and matter",
+      "spell_types": [
+        "teleport",
+        "polymorph",
+        "transmute",
+        "shapechange",
+        "reality_warp",
+        "dimension_door"
+      ],
+      "mana_cost_multiplier": 1.1,
+      "success_rate_multiplier": 1.1
+    },
+    "conjuration": {
+      "description": "Spells that create objects and effects from nothing",
+      "spell_types": [
+        "create_food",
+        "create_water",
+        "create_item",
+        "create_portal",
+        "create_barrier",
+        "create_field"
+      ],
+      "mana_cost_multiplier": 0.9,
+      "quality_multiplier": 1.1
+    },
+    "illusion": {
+      "description": "Spells that create false perceptions and phantasms",
+      "spell_types": [
+        "invisibility",
+        "mirror_image",
+        "phantasm",
+        "hallucination",
+        "disguise",
+        "mind_fog"
+      ],
+      "mana_cost_multiplier": 0.8,
+      "duration_multiplier": 1.3
+    }
+  },
+  "spell_types": {
+    "damage": {
+      "description": "Spells that deal direct damage",
+      "effects": [
+        "direct_damage",
+        "elemental_damage",
+        "magical_damage"
+      ],
+      "scaling_formula": "base_damage * (1 + magery_level * 0.004)"
+    },
+    "healing": {
+      "description": "Spells that restore health",
+      "effects": [
+        "health_restore",
+        "regeneration",
+        "purification"
+      ],
+      "scaling_formula": "base_healing * (1 + magery_level * 0.003)"
+    },
+    "buff": {
+      "description": "Spells that enhance abilities",
+      "effects": [
+        "attribute_boost",
+        "skill_bonus",
+        "resistance_bonus"
+      ],
+      "scaling_formula": "base_bonus * (1 + magery_level * 0.002)"
+    },
+    "debuff": {
+      "description": "Spells that impair enemies",
+      "effects": [
+        "attribute_reduction",
+        "skill_penalty",
+        "resistance_penalty"
+      ],
+      "scaling_formula": "base_penalty * (1 + magery_level * 0.002)"
+    },
+    "control": {
+      "description": "Spells that control enemies",
+      "effects": [
+        "charm",
+        "fear",
+        "sleep",
+        "paralyze",
+        "confuse",
+        "enslave"
+      ],
+      "scaling_formula": "base_duration * (1 + magery_level * 0.001)"
+    },
+    "teleport": {
+      "description": "Spells that move caster or targets",
+      "effects": [
+        "short_range_teleport",
+        "long_range_teleport",
+        "dimensional_travel"
+      ],
+      "scaling_formula": "base_range * (1 + magery_level * 0.005)"
+    },
+    "summon": {
+      "description": "Spells that call creatures",
+      "effects": [
+        "summon_minion",
+        "summon_pet",
+        "summon_guardian"
+      ],
+      "scaling_formula": "base_power * (1 + magery_level * 0.003)"
+    },
+    "ritual": {
+      "description": "Complex magical ceremonies",
+      "effects": [
+        "major_effects",
+        "permanent_changes",
+        "reality_alteration"
+      ],
+      "scaling_formula": "base_power * (1 + magery_level * 0.002)"
+    }
+  },
+  "training_methods": {
+    "casting_spells": {
+      "gain_multiplier": 1.0,
+      "requirements": [
+        "spell_components",
+        "mana",
+        "focus"
+      ],
+      "description": "Cast spells to gain magical proficiency"
+    },
+    "spell_research": {
+      "gain_multiplier": 1.3,
+      "requirements": [
+        "research_materials",
+        "spell_notes",
+        "quiet_environment"
+      ],
+      "description": "Research and study existing spells"
+    },
+    "magical_study": {
+      "gain_multiplier": 0.8,
+      "requirements": [
+        "spell_books",
+        "tome",
+        "library"
+      ],
+      "description": "Study magical theory and practice"
+    },
+    "apprenticeship": {
+      "gain_multiplier": 1.5,
+      "requirements": [
+        "mage_master",
+        "training_grounds",
+        "guidance"
+      ],
+      "description": "Learn under the guidance of an experienced mage"
+    }
+  },
+  "spell_components": {
+    "reagents": {
+      "required": [
+        "mandrake_root",
+        "spider_silk",
+        "bat_wing",
+        "daemon_blood",
+        "phoenix_feather",
+        "unicorn_horn"
+      ],
+      "consumable": true,
+      "quality_effects": true
+    },
+    "focus_items": {
+      "required": [
+        "wand",
+        "staff",
+        "orb",
+        "crystal",
+        "amulet",
+        "tome"
+      ],
+      "durability": true,
+      "enchantments": true
+    },
+    "verbal_components": {
+      "required": true,
+      "language": "arcane",
+      "complexity": "variable"
+    },
+    "somatic_components": {
+      "required": true,
+      "gestures": "complex",
+      "movement": "required"
+    }
+  },
+  "mastery_levels": {
+    "apprentice": {
+      "level": 50,
+      "requirements": {
+        "skill_level": 50
+      },
+      "bonuses": {
+        "mana_efficiency": 0.1,
+        "spell_power": 5,
+        "spell_resistance": 0.02,
+        "casting_speed": 0.05
+      },
+      "abilities": [
+        "basic_spellcasting",
+        "mana_control",
+        "simple_wards"
+      ],
+      "title": "Mage Apprentice",
+      "spell_limit": 3
+    },
+    "journeyman": {
+      "level": 70,
+      "requirements": {
+        "skill_level": 70
+      },
+      "bonuses": {
+        "mana_efficiency": 0.2,
+        "spell_power": 10,
+        "spell_resistance": 0.05,
+        "casting_speed": 0.1,
+        "spell_duration": 0.1
+      },
+      "abilities": [
+        "advanced_spellcasting",
+        "mana_mastery",
+        "complex_wards",
+        "spell_combination"
+      ],
+      "title": "Journeyman Mage",
+      "spell_limit": 6
+    },
+    "master": {
+      "level": 90,
+      "requirements": {
+        "skill_level": 90
+      },
+      "bonuses": {
+        "mana_efficiency": 0.3,
+        "spell_power": 15,
+        "spell_resistance": 0.1,
+        "casting_speed": 0.15,
+        "spell_duration": 0.2,
+        "spell_penetration": 0.1
+      },
+      "abilities": [
+        "master_spellcasting",
+        "arcane_mastery",
+        "powerful_wards",
+        "spell_weaving",
+        "dimensional_sense"
+      ],
+      "title": "Master Mage",
+      "spell_limit": 9
+    },
+    "grandmaster": {
+      "level": 100,
+      "requirements": {
+        "skill_level": 100
+      },
+      "bonuses": {
+        "mana_efficiency": 0.4,
+        "spell_power": 20,
+        "spell_resistance": 0.15,
+        "casting_speed": 0.2,
+        "spell_duration": 0.3,
+        "spell_penetration": 0.2,
+        "spell_mastery": 0.1,
+        "reduced_interrupt": 0.15
+      },
+      "abilities": [
+        "grandmaster_spellcasting",
+        "arcane_perfection",
+        "adapted_referencete_wards",
+        "spell_creation",
+        "reality_warping",
+        "mana_font"
+      ],
+      "title": "Grandmaster Mage",
+      "spell_limit": 12,
+      "unique_ability": "arcane_mastery"
+    }
+  },
+  "progression_bonuses": {
+    "mana_efficiency": {
+      "formula": "base_cost * (1 - skill_level * 0.002)",
+      "max_reduction": 0.4
+    },
+    "spell_power": {
+      "formula": "base_power + skill_level * 0.2",
+      "max_bonus": 40
+    },
+    "spell_resistance": {
+      "formula": "base_resistance + skill_level * 0.001",
+      "max_resistance": 0.25
+    },
+    "casting_speed": {
+      "formula": "base_speed * (1 - skill_level * 0.001)",
+      "max_reduction": 0.3
+    }
+  },
+  "synergies": {
+    "meditation": {
+      "bonus_type": "mana_regen",
+      "formula": "0.03 * meditation_skill_level",
+      "max_bonus": 0.5,
+      "description": "Meditation skill improves mana regeneration"
+    },
+    "focus": {
+      "bonus_type": "casting_speed",
+      "formula": "0.02 * focus_skill_level",
+      "max_bonus": 0.3,
+      "description": "Focus skill reduces casting time"
+    },
+    "evaluating_intelligence": {
+      "bonus_type": "spell_damage",
+      "formula": "0.025 * eval_int_skill_level",
+      "max_bonus": 0.4,
+      "description": "Evaluating Intelligence increases spell damage"
+    },
+    "spirit_speak": {
+      "bonus_type": "spell_resistance",
+      "formula": "0.02 * spirit_speak_skill_level",
+      "max_bonus": 0.3,
+      "description": "Spirit Speak improves magical resistance"
+    }
+  },
+  "equipment_requirements": {
+    "focus_item": "required",
+    "robes": "recommended",
+    "spell_components": "required",
+    "mana_crystals": "recommended",
+    "spellbook": "required"
+  },
+  "environmental_factors": {
+    "magical_aura": {
+      "effect": "spell_power",
+      "formula": "aura_strength * 0.1",
+      "max_bonus": 0.5
+    },
+    "planar_confluence": {
+      "effect": "spell_schools",
+      "formula": "confluence_strength * 0.05",
+      "max_bonus": 0.3
+    },
+    "celestial_alignment": {
+      "effect": "mana_efficiency",
+      "formula": "alignment_bonus * 0.02",
+      "max_bonus": 0.2
+    }
+  },
+  "visual_effects": {
+    "spell_casting": "arcane_energy",
+    "spell_impact": "magical_explosion",
+    "spell_success": "magical_completion",
+    "spell_failure": "magical_backfire",
+    "spell_resistance": "magical_barrier"
+  },
+  "sound_effects": {
+    "spell_incantation": "arcane_chant",
+    "spell_component": "magical_component",
+    "spell_cast": "arcane_release",
+    "spell_impact": "magical_impact",
+    "spell_resist": "magical_resistance"
+  },
+  "version": "0.1.0",
+  "last_updated": "2025-11-12",
+  "template_type": "skill"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "fureur_spell_1542",
+  "name": "Fureur Spell 1542",
+  "description": "Le guerrier entre dans une rage incontrôlable, ignorant les contrôles de foule et générant de la rage",
+  "icon": "fureur_spell_1542_icon",
+  "school": "fureur",
+  "rarity": "uncommon",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 30000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.0,
+      "rage": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "crowd_control_immunity",
+      "value": 1.0,
+      "duration": 10000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "rage_generation_buff",
+      "value": 1.0,
+      "duration": 10000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "damage_taken_increase",
+      "value": 0.2,
+      "duration": 10000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fureur_spell_1542_transformation",
+    "projectile_effect": "none",
+    "impact_effect": "rage_flames",
+    "trail_effect": "fureur_spell_1542_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "fureur_spell_1542_scream",
+    "impact_sound": "none"
+  },
+  "requirements": {
+    "level": 14,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "fury"
+    ]
+  },
+  "upgrades": {
+    "improved_berserker_rage": {
+      "unlock_level": 22,
+      "description": "Fureur Spell 1542 dure plus longtemps et génère plus de rage",
+      "duration_extension": 3000,
+      "rage_generation_bonus": 0.5
+    },
+    "berserker_rage_mastery": {
+      "unlock_level": 32,
+      "description": "Fureur Spell 1542 réduit les dégâts reçus au lieu de les augmenter",
+      "damage_reduction_instead": true,
+      "damage_reduction": 0.1
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

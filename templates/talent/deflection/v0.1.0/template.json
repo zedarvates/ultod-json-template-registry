@@ -1,0 +1,23 @@
+{
+  "id": "deflection",
+  "name": "Déflexion",
+  "description": "Augmente les chances de parer et d'esquiver les attaques",
+  "max_rank": 3,
+  "prerequisites": [],
+  "effects_per_rank": [
+    {
+      "type": "parry_chance_bonus",
+      "value": 0.02
+    },
+    {
+      "type": "dodge_chance_bonus",
+      "value": 0.02
+    },
+    {
+      "type": "damage_reduction",
+      "value": 0.01
+    }
+  ],
+  "template_type": "talent",
+  "version": "0.1.0"
+}

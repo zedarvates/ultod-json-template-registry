@@ -1,0 +1,65 @@
+{
+  "id": "evocation_spell_1381",
+  "name": "Evocation Spell 1381",
+  "description": "Une éclatante sphère de feu explose au point ciblé dans un rayon de 20 pieds, infligeant 8d6 dégâts de feu à toutes les créatures dans la zone",
+  "icon": "evocation_spell_1381_icon",
+  "school": "evocation",
+  "rarity": "uncommon",
+  "spell_type": "area_damage",
+  "target_type": "area",
+  "range": 150.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 48,
+    "damage_type": "fire",
+    "aoe_radius": 6.0
+  },
+  "effects": [
+    {
+      "effect_type": "fire_explosion",
+      "value": 48,
+      "duration": 0,
+      "tick_rate": 0,
+      "dexterity_save": true,
+      "save_dc": 13
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fire_charge",
+    "projectile_effect": "fiery_ball",
+    "explosion_effect": "fire_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "fire_build",
+    "explosion_sound": "fireboom",
+    "damage_sound": "fire_damage"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard",
+      "mage"
+    ]
+  },
+  "upgrades": {
+    "fire_blast": {
+      "unlock_level": 9,
+      "description": "Augmente les dégâts à 10d6 et le rayon à 25 pieds",
+      "damage_multiplier": 1.25,
+      "aoe_multiplier": 1.5
+    },
+    "chaos_fire": {
+      "unlock_level": 17,
+      "description": "Les dégâts ignorent la résistance au feu",
+      "ignore_resistance": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

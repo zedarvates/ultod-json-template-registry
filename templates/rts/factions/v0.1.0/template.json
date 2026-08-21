@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-11-14",
+    "description": "RTS Faction System - Player races, civilizations, and faction-specific bonuses",
+    "author": "UOVR Development Team",
+    "category": "RTS Systems"
+  },
+  "factions": {
+    "human_empire": {
+      "id": "faction_human",
+      "name": "Human Empire",
+      "description": "Well-balanced humans with strong leadership and versatile units",
+      "bonuses": {
+        "leadership": 1.2,
+        "population_limit": 10,
+        "technology_cost": 0.9,
+        "unit_upgrade_speed": 0.15
+      },
+      "starting_technologies": [
+        "basic_economy",
+        "basic_military"
+      ],
+      "unique_units": [
+        "hero_warrior_champion",
+        "imperial_guard"
+      ],
+      "special_abilities": [
+        "inspire_troops",
+        "emergency_reinforcements"
+      ],
+      "weaknesses": [
+        "magical_susceptibility"
+      ]
+    },
+    "elven_alliance": {
+      "id": "faction_elven",
+      "name": "Elven Alliance",
+      "description": "Forest-dwelling elves with magical prowess and ranged superiority",
+      "bonuses": {
+        "ranged_attack": 1.25,
+        "magic_power": 1.3,
+        "resource_gathering": 0.95,
+        "stealth_detection": 1.4
+      },
+      "starting_technologies": [
+        "basic_magic",
+        "agricultural_advancement"
+      ],
+      "unique_units": [
+        "elven_archers",
+        "druid_summoner"
+      ],
+      "special_abilities": [
+        "forest_affinity",
+        "regeneration_aura"
+      ],
+      "weaknesses": [
+        "siege_vulnerability",
+        "iron_weakness"
+      ]
+    },
+    "dwarven_clans": {
+      "id": "faction_dwarven",
+      "name": "Dwarven Clans",
+      "description": "Mountain dwarves with exceptional crafting and defensive capabilities",
+      "bonuses": {
+        "building_defense": 1.35,
+        "mining_efficiency": 1.4,
+        "unit_armor": 1.2,
+        "forge_production": 1.25
+      },
+      "starting_technologies": [
+        "blacksmithing",
+        "mining_basics"
+      ],
+      "unique_units": [
+        "dwarven_axemen",
+        "siege_masters"
+      ],
+      "special_abilities": [
+        "mountain_defense",
+        "underground_network"
+      ],
+      "weaknesses": [
+        "mobility_penalty",
+        "magic_vulnerability"
+      ]
+    },
+    "magical_kingdom": {
+      "id": "faction_magical",
+      "name": "Magical Kingdom",
+      "description": "Arcane-focused civilization with powerful magical units and spells",
+      "bonuses": {
+        "spell_damage": 1.4,
+        "mana_regeneration": 1.3,
+        "summoning_cost": 0.8,
+        "enchantment_duration": 1.25
+      },
+      "starting_technologies": [
+        "basic_magic",
+        "elemental_magic"
+      ],
+      "unique_units": [
+        "arcane_mages",
+        "elemental_guardians"
+      ],
+      "special_abilities": [
+        "mana_burst",
+        "teleportation_network"
+      ],
+      "weaknesses": [
+        "physical_defense"
+      ]
+    }
+  },
+  "faction_relations": {
+    "human_empire": {
+      "elven_alliance": "neutral",
+      "dwarven_clans": "allied",
+      "magical_kingdom": "neutral"
+    },
+    "elven_alliance": {
+      "human_empire": "neutral",
+      "dwarven_clans": "hostile",
+      "magical_kingdom": "allied"
+    },
+    "dwarven_clans": {
+      "human_empire": "allied",
+      "elven_alliance": "hostile",
+      "magical_kingdom": "neutral"
+    },
+    "magical_kingdom": {
+      "human_empire": "neutral",
+      "elven_alliance": "allied",
+      "dwarven_clans": "neutral"
+    }
+  },
+  "id": "factions",
+  "name": "Factions",
+  "template_type": "rt",
+  "version": "0.1.0"
+}

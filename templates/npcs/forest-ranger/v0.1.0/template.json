@@ -1,0 +1,264 @@
+{
+  "id": "forest_ranger",
+  "name": "Forest Ranger",
+  "description": "Guardian of the woods with deep knowledge of forest life and wildlife",
+  "icon": "npcs/forest_ranger_icon.png",
+  "category": "regional",
+  "awareness": {
+    "enabled": true,
+    "cognitive_level": "full",
+    "initial_lod": "ordinary",
+    "initial_yaw_radians": 0.0,
+    "senses": {
+      "vision_range": 32.0,
+      "hearing_range": 28.0,
+      "tactile_sensitivity": 0.8
+    },
+    "attention": {
+      "capacity": 12,
+      "max_visual_candidates": 32,
+      "max_occlusion_rays": 8
+    },
+    "values": {
+      "nonviolence": 0.6,
+      "fairness": 0.7,
+      "loyalty": 0.7,
+      "honor": 0.8,
+      "compassion": 0.7,
+      "reciprocity": 0.6
+    },
+    "personal_norms": {
+      "property_rights": 0.6,
+      "nonviolence": 0.6,
+      "anti_coercion": 0.8,
+      "dignity": 0.7,
+      "reciprocity": 0.6
+    },
+    "initial_goals": {
+      "self_preservation": 0.9,
+      "possessions": 0.4,
+      "social_standing": 0.5,
+      "protect_others": 0.8,
+      "preserve_order": 0.7,
+      "affiliation": 0.6
+    },
+    "reaction_policy": {
+      "threat_response": "defend",
+      "may_defend": true,
+      "may_retaliate": false
+    }
+  },
+  "rarity": "uncommon",
+  "npc_type": "regional_specialist",
+  "base_stats": {
+    "level": 16,
+    "hp": 180,
+    "max_hp": 180,
+    "mana": 90,
+    "max_mana": 90,
+    "strength": 14,
+    "dexterity": 17,
+    "intelligence": 14,
+    "wisdom": 16,
+    "constitution": 15,
+    "charisma": 12,
+    "speed": 1.4,
+    "size": 1.0,
+    "weight": 78.0
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_flying": false,
+    "is_aquatic": false,
+    "is_undead": false,
+    "is_elemental": false,
+    "is_mechanical": false,
+    "is_magical": false,
+    "is_divine": false,
+    "is_fiendish": false,
+    "is_wild": false,
+    "is_tameable": false,
+    "is_summonable": false,
+    "is_soulbound": false,
+    "is_cursed": false,
+    "is_blessed": false,
+    "is_poisoned": false,
+    "is_paralyzed": false,
+    "is_silenced": false,
+    "is_blinded": false,
+    "is_deafened": false,
+    "is_charmed": false,
+    "is_frightened": false,
+    "is_confused": false,
+    "is_stunned": false,
+    "is_sleeping": false,
+    "is_invisible": false,
+    "is_invulnerable": false,
+    "is_immortal": false,
+    "is_unique": false,
+    "is_boss": false,
+    "is_mini_boss": false,
+    "is_elite": false,
+    "is_rare": false,
+    "is_common": false,
+    "is_uncommon": true,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "loot_table": {
+    "gold": {
+      "min": 25,
+      "max": 150
+    },
+    "items": [
+      {
+        "item_id": "forest_map",
+        "chance": 0.4,
+        "min_quantity": 1,
+        "max_quantity": 1
+      },
+      {
+        "item_id": "herbal_medicine",
+        "chance": 0.5,
+        "min_quantity": 1,
+        "max_quantity": 3
+      },
+      {
+        "item_id": "ranger_equipment",
+        "chance": 0.3,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ]
+  },
+  "ai_behavior": {
+    "wander_chance": 0.08,
+    "wander_range": 25.0,
+    "max_targets": 3,
+    "combat_style": "ranged",
+    "preferred_attack": "bow_shoot",
+    "patrol_route": [
+      "forest_path",
+      "ranger_station",
+      "wildlife_area",
+      "forest_path"
+    ],
+    "response_to_crime": "track_and_report",
+    "ally_detection": "forest_creatures"
+  },
+  "abilities": [
+    "forest_navigation",
+    "wildlife_knowledge",
+    "plant_identification",
+    "stealth_movement",
+    "survival_skills"
+  ],
+  "dialogue": {
+    "greetings": [
+      "Halt! State your business in the forest.",
+      "The trees have eyes, and I am their guardian.",
+      "Welcome to my domain, traveler. Show respect to nature."
+    ],
+    "farewells": [
+      "May the forest protect your journey.",
+      "Leave no trace, take only memories.",
+      "The trees remember all who walk among them."
+    ],
+    "forest_lore": [
+      "The forest provides for those who understand its rhythms.",
+      "Each tree, each creature, has a story to tell.",
+      "Nature's wisdom surpasses any book."
+    ],
+    "wildlife_advice": [
+      "Rabbits may seem harmless, but they're clever survivors.",
+      "Wolves travel in packs - never face them alone.",
+      "Bears are peaceful if you respect their space."
+    ],
+    "survival_tips": [
+      "Always follow the moss - it grows on the north side.",
+      "Clean water is life - never drink from stagnant pools.",
+      "Fire keeps the beasts at bay on dark nights."
+    ]
+  },
+  "shop_inventory": {
+    "survival_gear": [
+      "ranger_bow",
+      "forest_cloak",
+      "nature_boots",
+      "survival_knife",
+      "compass",
+      "tent"
+    ],
+    "forest_supplies": [
+      "forest_map",
+      "wildlife_guide",
+      "plant_manual",
+      "tracking_kit",
+      "herbal_supplies"
+    ],
+    "herbs_and_medicine": [
+      "healing_herb",
+      "pain_relief_leaf",
+      "energy_berries",
+      "antidote_plant",
+      "stamina_root",
+      "clarity_moss"
+    ],
+    "wildlife_items": [
+      "hunting_permit",
+      "animal_tracking_guide",
+      "bird_whistle",
+      "deer_attractant",
+      "beekeeping_kit"
+    ],
+    "nature_services": [
+      "forest_guidance",
+      "wildlife_rescue",
+      "tracking_assistance",
+      "survival_training",
+      "herbal_consultation"
+    ]
+  },
+  "services": {
+    "buy_items": true,
+    "sell_items": true,
+    "repair_equipment": true,
+    "identify_items": false,
+    "appraisal_service": false,
+    "custom_crafting": false,
+    "forest_guidance": true,
+    "wildlife_assistance": true,
+    "survival_training": true,
+    "tracking_services": true
+  },
+  "schedule": {
+    "day": {
+      "05:00": "dawn_patrol",
+      "06:00": "morning_rounds",
+      "08:00": "wildlife_check",
+      "10:00": "forest_maintenance",
+      "12:00": "lunch_break",
+      "13:00": "afternoon_patrol",
+      "15:00": "research_time",
+      "17:00": "evening_rounds",
+      "19:00": "camp_preparation"
+    },
+    "night": {
+      "19:00": "night_watch",
+      "22:00": "camp_routine",
+      "04:00": "prepare_dawn_patrol"
+    }
+  },
+  "resistances": {
+    "physical": 0.1,
+    "fire": 0.0,
+    "ice": 0.1,
+    "lightning": 0.0,
+    "poison": 0.2
+  },
+  "weaknesses": [
+    "fire"
+  ],
+  "version": "0.1.0",
+  "template_type": "npc"
+}

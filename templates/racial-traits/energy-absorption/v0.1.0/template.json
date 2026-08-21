@@ -1,0 +1,57 @@
+{
+  "id": "energy_absorption",
+  "name": "Absorption d'Énergie",
+  "description": "Capacité à absorber et à convertir l'énergie magique en puissance personnelle",
+  "icon": "energy_absorption_icon",
+  "category": "magical",
+  "rarity": "epic",
+  "stat_modifiers": {
+    "magic_resistance": 0.3,
+    "spell_power": 0.2,
+    "mana_regeneration": 0.4
+  },
+  "passive_effects": [
+    {
+      "id": "spell_absorption",
+      "name": "Absorption de Sorts",
+      "description": "Absorbe une partie des dégâts magiques pour restaurer sa mana",
+      "modifier_type": "spell_damage_conversion",
+      "value": 30.0
+    },
+    {
+      "id": "energy_conversion",
+      "name": "Conversion d'Énergie",
+      "description": "Convertit l'énergie absorbée en bonus de puissance",
+      "modifier_type": "absorbed_energy_bonus",
+      "value": 25.0
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "energy_drain",
+      "name": "Drain d'Énergie",
+      "description": "Draine l'énergie magique d'une cible pour la convertir en puissance",
+      "cooldown": 45000,
+      "duration": 10000,
+      "effects": {
+        "mana_drain": 50,
+        "power_boost": 30,
+        "range": 15.0
+      }
+    },
+    {
+      "id": "energy_burst",
+      "name": "Explosion d'Énergie",
+      "description": "Libère toute l'énergie absorbée en une explosion dévastatrice",
+      "cooldown": 300000,
+      "duration": 0,
+      "effects": {
+        "damage_multiplier": 3.0,
+        "aoe_range": 8.0
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

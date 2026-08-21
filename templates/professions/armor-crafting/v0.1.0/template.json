@@ -1,0 +1,169 @@
+{
+  "profession": "armor_crafting",
+  "display_name": "Forge d'Armures",
+  "description": "Spécialisation dans la création d'armures de protection légendaires",
+  "icon_path": "icons/professions/armor_crafting.png",
+  "category": "specialized_crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "reinforced_leather_armor",
+      "name": "Armure de Cuir Renforcé",
+      "description": "Armure légère mais résistante avec renforts métalliques",
+      "profession": "armor_crafting",
+      "difficulty": 45,
+      "base_success_rate": 0.65,
+      "skill_required": 35,
+      "experience_gain": 35,
+      "exceptional_chance": 0.08,
+      "time_required_seconds": 120,
+      "components": [
+        {
+          "item_type": "thick_leather",
+          "quantity": 8,
+          "quality_required": "good",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "steel_ingot",
+          "quantity": 3,
+          "quality_required": "standard",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "armor_padding",
+          "quantity": 4,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "reinforced_leather_armor",
+          "name": "Armure de Cuir Renforcé",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.15,
+          "durability_modifier": 1.2
+        }
+      ],
+      "conditions": {
+        "profession_level": 25,
+        "required_tools": [
+          "reinforced_anvil",
+          "leather_stitching_tools",
+          "metal_fasteners"
+        ],
+        "environmental_factors": [
+          "forge_with_ventilation"
+        ]
+      }
+    },
+    {
+      "id": "dragonscale_breastplate",
+      "name": "Cuirasse d'Écailles de Dragon",
+      "description": "Armure forgée à partir d'écailles de dragon légendaires",
+      "profession": "armor_crafting",
+      "difficulty": 85,
+      "base_success_rate": 0.4,
+      "skill_required": 75,
+      "experience_gain": 85,
+      "exceptional_chance": 0.18,
+      "time_required_seconds": 300,
+      "components": [
+        {
+          "item_type": "dragon_scales",
+          "quantity": 12,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "adamant_ingot",
+          "quantity": 6,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "fire_crystal",
+          "quantity": 3,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "dragon_blood",
+          "quantity": 2,
+          "quality_required": "excellent",
+          "rarity_required": "epic"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "dragonscale_breastplate",
+          "name": "Cuirasse d'Écailles de Dragon",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.5,
+          "durability_modifier": 2.0
+        }
+      ]
+    },
+    {
+      "id": "void_armor_set",
+      "name": "Armure du Vide",
+      "description": "Armure composée de matériaux provenant des abysses",
+      "profession": "armor_crafting",
+      "difficulty": 95,
+      "base_success_rate": 0.3,
+      "skill_required": 85,
+      "experience_gain": 95,
+      "exceptional_chance": 0.22,
+      "time_required_seconds": 480,
+      "components": [
+        {
+          "item_type": "void_crystal",
+          "quantity": 8,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "dark_metal",
+          "quantity": 10,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "shadow_essence",
+          "quantity": 5,
+          "quality_required": "good",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "elder_rune",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "void_armor_set",
+          "name": "Armure du Vide",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 2.0,
+          "durability_modifier": 3.0
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "plate_armor",
+    "leather_armor",
+    "magical_armor",
+    "legendary_armor"
+  ],
+  "id": "armor_crafting",
+  "name": "Armor Crafting",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

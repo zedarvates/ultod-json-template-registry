@@ -1,0 +1,72 @@
+{
+  "id": "necromancy_spell_0944",
+  "name": "Necromancy Spell 0944",
+  "description": "Fait jaillir des piques d'os décharnés du sol qui transpercent et immobilisent les ennemis",
+  "icon": "necromancy_spell_0944_icon",
+  "school": "necromancy",
+  "rarity": "uncommon",
+  "spell_type": "osseous_ground_attack",
+  "target_type": "ground_spike_area",
+  "range": 25.0,
+  "cast_time": 1500,
+  "cooldown": 12000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "piercing_necrotic_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "skeletal_earth_eruption",
+      "value": 140,
+      "duration": 8000,
+      "tick_rate": 1000,
+      "spike_eruption_area": 8.0,
+      "maximum_spike_count": 8,
+      "piercing_damage_per_spike": 120,
+      "bleeding_dot_per_spike": 25,
+      "movement_slow_near_spikes": 70,
+      "bone_barrier_persistence": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ground_cracking_necromancy_spell_0944_fragments_erupting_blood_oil_seeping",
+    "eruption_effect": "massive_necromancy_spell_0944s_exploding_ground_blood_spray_shattering_earth",
+    "active_effect": "necromancy_spell_0944s_standing_sanguine_icing_dripping_corpses_impaled",
+    "dissolution_effect": "spikes_receding_ground_necromancy_spell_0944_fracturing_blood_congealing_retreating"
+  },
+  "sound_effects": {
+    "cast_effect": "ground_cracking_necromancy_spell_0944_snap_seeping_blood_gurgling_earth_breaking",
+    "eruption_effect": "explosive_eruption_rocks_shattering_blood_spray_impact_cries_victims",
+    "active_effect": "necromancy_spell_0944_crunching_bleeding_victims_moaning_pain_constitutional_hissing_bleed",
+    "dissolution_effect": "ground_settling_necromancy_spell_0944_shards_breaking_blood_congealing_retreating_sizzle"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "necromancy",
+      "osteomancy",
+      "geonecrotic_arts"
+    ],
+    "classes": [
+      "necromancer",
+      "necromancy_spell_0944_lord",
+      "carrion_walker"
+    ],
+    "specializations": [
+      "osseous_master"
+    ]
+  },
+  "upgrades": {
+    "greater_bone_spike": {
+      "unlock_level": 32,
+      "description": "La Necromancy Spell 0944 devient plus destructrice avec plus de piques et de dégâts",
+      "spike_count_increase": 12,
+      "area_expansion_damage": 4.0,
+      "damage_per_spike_boost": 80,
+      "bleeding_damage_enhanced": 45
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

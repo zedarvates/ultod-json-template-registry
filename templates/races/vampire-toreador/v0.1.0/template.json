@@ -1,0 +1,120 @@
+{
+  "id": "vampire_toreador",
+  "name": "Toreador Vampire",
+  "description": "Elegant artists and hedonists who pursue beauty, passion, and aesthetic perfection in eternal night",
+  "icon": "races/vampire_toreador_icon.png",
+  "category": "playable",
+  "rarity": "legendary",
+  "faction": "neutral",
+  "base_stats": {
+    "strength": 11,
+    "dexterity": 15,
+    "constitution": 10,
+    "intelligence": 13,
+    "wisdom": 12,
+    "charisma": 17,
+    "luck": 15
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 1.2,
+    "experience_rate": 1.0,
+    "mana_regeneration": 1.1,
+    "health_regeneration": 0.9,
+    "artistic_inspiration": 1.5,
+    "beauty_enhancement": 1.3
+  },
+  "available_classes": [
+    "songweaver",
+    "luminess",
+    "mage",
+    "blood_seeker",
+    "guardian",
+    "artist"
+  ],
+  "body_proportions": {
+    "average_height": 1.75,
+    "average_build": 0.85,
+    "max_height": 1.9,
+    "min_height": 1.6,
+    "max_build": 1.05,
+    "min_build": 0.7
+  },
+  "appearance_restrictions": {
+    "allowed_skin_colors": [
+      {
+        "min_r": 0.9,
+        "max_r": 1.0,
+        "min_g": 0.8,
+        "max_g": 1.0,
+        "min_b": 0.9,
+        "max_b": 1.0
+      }
+    ],
+    "allowed_hair_colors": [
+      {
+        "min_r": 0.9,
+        "max_r": 1.0,
+        "min_g": 0.8,
+        "max_g": 1.0,
+        "min_b": 0.9,
+        "max_b": 1.0
+      },
+      {
+        "min_r": 0.1,
+        "max_r": 0.3,
+        "min_g": 0.1,
+        "max_g": 0.3,
+        "min_b": 0.1,
+        "max_b": 0.3
+      },
+      {
+        "min_r": 0.8,
+        "max_r": 1.0,
+        "min_g": 0.4,
+        "max_g": 0.7,
+        "min_b": 0.1,
+        "max_b": 0.4
+      }
+    ]
+  },
+  "racial_traits": [
+    "toreador_beauty",
+    "toreador_artistry",
+    "toreador_hedonism",
+    "toreador_presence",
+    "vampire_immortality",
+    "vampire_blood_drain",
+    "vampire_night_vision"
+  ],
+  "passive_bonuses": {
+    "charisma_bonus": 1.3,
+    "artistic_skill": 1.4,
+    "beauty_aura": 1.25,
+    "night_vision_range": 2.0,
+    "lifesteal": 1.1,
+    "social_influence": 1.35
+  },
+  "starting_equipment": {
+    "weapon": "elegant_rapier",
+    "armor": "noble_attire",
+    "gold": 160
+  },
+  "cultural_background": {
+    "languages": [
+      "common",
+      "ancient",
+      "artistic"
+    ],
+    "starting_city": "cultural_capital",
+    "alignment_tendency": "neutral_good",
+    "cultural_bonuses": {
+      "artistry": 25,
+      "charisma": 20,
+      "beauty": 18,
+      "social_influence": 16,
+      "performance": 15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "race"
+}

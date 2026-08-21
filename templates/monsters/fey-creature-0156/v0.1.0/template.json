@@ -1,0 +1,107 @@
+{
+  "id": "fey_creature_0156",
+  "name": "Fey Creature 0156",
+  "description": "Une élégante créature humanoïde de 6 pieds, avec une peau verd brillant et des cheveux qui ressemblent à des feuilles qui changent avec les saisons. Ses yeux verts intenses révèlent une connexion profonde à la nature. Elle porte une robe de feuilles et de fleurs, et ses mains peuvent faire fleurir instantanement les plantes mortes.",
+  "icon": "fey_creature_0156_icon",
+  "category": "fey",
+  "rarity": "uncommon",
+  "base_stats": {
+    "health": 22,
+    "mana": 85,
+    "strength": 10,
+    "dexterity": 14,
+    "intelligence": 14,
+    "wisdom": 15,
+    "constitution": 11,
+    "charisma": 18
+  },
+  "properties": {
+    "size": "medium",
+    "size_modifiers": {
+      "health_multiplier": 1.0,
+      "damage_multiplier": 1.0,
+      "speed_modifier": 0,
+      "space_requirement": 5,
+      "strength_bonus": 0,
+      "constitution_bonus": 0
+    },
+    "speed": 30,
+    "alignment": "neutral good",
+    "languages": [
+      "sylvan",
+      "elvish",
+      "telepathy 120 ft"
+    ],
+    "challenge_rating": "1",
+    "experience_value": 200
+  },
+  "properties_fey": {
+    "feywild_connection": 80,
+    "charm_resistance": 70,
+    "illusory_abilities": true,
+    "natural_invisibility": true,
+    "dance_madness_effect": true,
+    "tree_bond": true,
+    "plant_communication": true
+  },
+  "abilities": [
+    "charm_person",
+    "druidcraft",
+    "entangle",
+    "goodberry",
+    "speak_with_beasts",
+    "tree_step",
+    "invisibility",
+    "animal_friendship"
+  ],
+  "resistances": {
+    "nature": 60,
+    "psychic": 40,
+    "magic": 30
+  },
+  "weaknesses": [
+    "iron_weapons",
+    "fire_damage",
+    "slashing_damage"
+  ],
+  "immunities": [
+    "charmed"
+  ],
+  "senses": {
+    "darkvision": 60,
+    "scent": true
+  },
+  "loot_table": {
+    "common_drops": [
+      "fey_creature_0156_hair",
+      "forest_flower",
+      "nature_essence"
+    ],
+    "rare_drops": [
+      "spring_blossom",
+      "woodland_sigil",
+      "natural_charm"
+    ],
+    "epic_drops": [],
+    "legendary_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "cautious",
+    "intelligence_level": "smart",
+    "tactical_awareness": "tactical",
+    "attack_pattern": "nature_magic",
+    "defensive_patterns": [
+      "invisibility",
+      "tree_step",
+      "animal_allies"
+    ],
+    "special_behaviors": [
+      "protects_forest_ecosystem",
+      "charm_intruders_instead_of_fighting",
+      "summons_forest_animals",
+      "uses_plants_as_barriers"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

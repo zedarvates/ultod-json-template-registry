@@ -1,0 +1,517 @@
+{
+  "id": "peacemaking",
+  "name": "Peacemaking",
+  "description": "Use music and diplomacy to calm creatures, end conflicts, and foster harmony",
+  "category": "social",
+  "skill_type": "diplomatic_mastery",
+  "base_gain_chance": 0.2,
+  "gain_rate": 1.0,
+  "skill_cap": 100.0,
+  "real_skill_cap": 700.0,
+  "stat_dependencies": [
+    "intelligence",
+    "dexterity"
+  ],
+  "stat_multipliers": {
+    "intelligence": 0.7,
+    "dexterity": 0.3
+  },
+  "effect_types": {
+    "calm_creatures": {
+      "description": "Calm aggressive creatures and animals",
+      "duration_formula": "base_duration * (1 + skill_level * 0.02)",
+      "success_formula": "base_success + skill_level * 0.003",
+      "resist_formula": "base_resist - skill_level * 0.002",
+      "max_duration": 300
+    },
+    "end_combat": {
+      "description": "End combat between creatures or players",
+      "area_range": 15,
+      "success_formula": "base_success + skill_level * 0.002",
+      "cooldown": 60000
+    },
+    "reduce_aggression": {
+      "description": "Reduce aggression levels in creatures",
+      "duration_formula": "base_duration * (1 + skill_level * 0.015)",
+      "intensity_reduction": "base_reduction + skill_level * 0.001",
+      "max_reduction": 0.8
+    },
+    "pacify_area": {
+      "description": "Create a zone of peace and tranquility",
+      "area_range": 25,
+      "duration_formula": "base_duration * (1 + skill_level * 0.01)",
+      "effect_strength": "base_strength + skill_level * 0.0005",
+      "cooldown": 120000
+    },
+    "charm_animals": {
+      "description": "Charm and befriend animals",
+      "duration_formula": "base_duration * (1 + skill_level * 0.025)",
+      "success_formula": "base_success + skill_level * 0.004",
+      "max_duration": 600
+    },
+    "soothe_emotions": {
+      "description": "Calm emotional states in NPCs and players",
+      "duration_formula": "base_duration * (1 + skill_level * 0.02)",
+      "effect_strength": "base_strength + skill_level * 0.0008",
+      "resist_formula": "base_resist - skill_level * 0.0015"
+    }
+  },
+  "instrument_types": {
+    "lute": {
+      "difficulty": 1,
+      "effectiveness": 1.0,
+      "range_bonus": 0,
+      "duration_bonus": 0,
+      "craftable": true,
+      "durability": 100
+    },
+    "drum": {
+      "difficulty": 2,
+      "effectiveness": 1.1,
+      "range_bonus": 2,
+      "duration_bonus": 0.05,
+      "craftable": true,
+      "durability": 120
+    },
+    "flute": {
+      "difficulty": 3,
+      "effectiveness": 1.2,
+      "range_bonus": 5,
+      "duration_bonus": 0.1,
+      "craftable": true,
+      "durability": 80
+    },
+    "harp": {
+      "difficulty": 4,
+      "effectiveness": 1.3,
+      "range_bonus": 8,
+      "duration_bonus": 0.15,
+      "craftable": true,
+      "durability": 150
+    },
+    "lyre": {
+      "difficulty": 5,
+      "effectiveness": 1.4,
+      "range_bonus": 10,
+      "duration_bonus": 0.2,
+      "craftable": true,
+      "durability": 90
+    },
+    "trumpet": {
+      "difficulty": 6,
+      "effectiveness": 1.5,
+      "range_bonus": 15,
+      "duration_bonus": 0.25,
+      "craftable": true,
+      "durability": 110
+    },
+    "bagpipes": {
+      "difficulty": 7,
+      "effectiveness": 1.6,
+      "range_bonus": 20,
+      "duration_bonus": 0.3,
+      "craftable": true,
+      "durability": 130
+    },
+    "mandolin": {
+      "difficulty": 8,
+      "effectiveness": 1.7,
+      "range_bonus": 25,
+      "duration_bonus": 0.35,
+      "craftable": true,
+      "durability": 100
+    },
+    "celestial_harp": {
+      "difficulty": 10,
+      "effectiveness": 2.0,
+      "range_bonus": 50,
+      "duration_bonus": 0.5,
+      "craftable": false,
+      "durability": 1000,
+      "rarity": "legendary",
+      "special_effect": "divine_harmony"
+    },
+    "dragon_flute": {
+      "difficulty": 10,
+      "effectiveness": 2.0,
+      "range_bonus": 40,
+      "duration_bonus": 0.45,
+      "craftable": false,
+      "durability": 800,
+      "rarity": "legendary",
+      "special_effect": "dragon_soothing"
+    }
+  },
+  "training_methods": {
+    "playing_instruments": {
+      "gain_multiplier": 1.0,
+      "requirements": [
+        "instrument",
+        "music_sheet",
+        "quiet_area"
+      ],
+      "description": "Practice playing instruments to improve musical skill"
+    },
+    "calming_creatures": {
+      "gain_multiplier": 1.5,
+      "requirements": [
+        "aggressive_creatures",
+        "instrument",
+        "patience"
+      ],
+      "description": "Successfully calm creatures to gain diplomatic skill"
+    },
+    "performing": {
+      "gain_multiplier": 0.8,
+      "requirements": [
+        "audience",
+        "instrument",
+        "performance_area"
+      ],
+      "description": "Perform for audiences to improve musical proficiency"
+    },
+    "apprenticeship": {
+      "gain_multiplier": 1.3,
+      "requirements": [
+        "master_diplomat",
+        "training_grounds",
+        "guidance"
+      ],
+      "description": "Learn diplomatic techniques from experienced masters"
+    }
+  },
+  "special_abilities": [
+    {
+      "name": "Harmonic Resonance",
+      "unlock_level": 40,
+      "description": "Create resonant waves that affect multiple targets",
+      "effects": [
+        "area_effect",
+        "duration_bonus",
+        "range_bonus"
+      ],
+      "requirements": [
+        "skill_level",
+        "instrument_quality",
+        "focus"
+      ],
+      "cooldown": 45000,
+      "area_range": 20
+    },
+    {
+      "name": "Emotional Harmony",
+      "unlock_level": 55,
+      "description": "Deeply soothe emotional states and reduce hostility",
+      "effects": [
+        "emotion_calm",
+        "aggression_reduction",
+        "duration_increase"
+      ],
+      "requirements": [
+        "skill_level",
+        "intelligence",
+        "empathy"
+      ],
+      "cooldown": 90000,
+      "max_targets": 5
+    },
+    {
+      "name": "Peaceful Aura",
+      "unlock_level": 65,
+      "description": "Create an aura of peace around yourself",
+      "effects": [
+        "passive_peace",
+        "hostility_reduction",
+        "calm_presence"
+      ],
+      "requirements": [
+        "skill_level",
+        "meditation",
+        "concentration"
+      ],
+      "cooldown": 0,
+      "passive": true,
+      "aura_range": 10
+    },
+    {
+      "name": "Diplomatic Negotiation",
+      "unlock_level": 50,
+      "description": "Negotiate peace between warring factions",
+      "effects": [
+        "faction_peace",
+        "reputation_boost",
+        "truce_creation"
+      ],
+      "requirements": [
+        "skill_level",
+        "leadership",
+        "charisma"
+      ],
+      "cooldown": 180000,
+      "faction_range": "entire_region"
+    },
+    {
+      "name": "Soothing Melody",
+      "unlock_level": 35,
+      "description": "Play a melody that heals and calms",
+      "effects": [
+        "healing",
+        "calm",
+        "stress_reduction"
+      ],
+      "requirements": [
+        "skill_level",
+        "instrument",
+        "mana"
+      ],
+      "cooldown": 30000,
+      "healing_amount": "skill_level * 2"
+    },
+    {
+      "name": "Conciliation",
+      "unlock_level": 70,
+      "description": "Mediate disputes and create lasting peace",
+      "effects": [
+        "dispute_resolution",
+        "permanent_peace",
+        "alliance_creation"
+      ],
+      "requirements": [
+        "skill_level",
+        "wisdom",
+        "neutrality"
+      ],
+      "cooldown": 300000,
+      "success_rate": "0.3 + (skill_level * 0.004)"
+    },
+    {
+      "name": "Universal Harmony",
+      "unlock_level": 85,
+      "description": "Achieve perfect harmony with all living things",
+      "effects": [
+        "universal_calm",
+        "creature_ally",
+        "nature_blessing"
+      ],
+      "requirements": [
+        "skill_level",
+        "nature_connection",
+        "purity"
+      ],
+      "cooldown": 600000,
+      "area_range": 100
+    },
+    {
+      "name": "World Peace",
+      "unlock_level": 100,
+      "description": "adapted_referencete ability to bring peace to the world",
+      "effects": [
+        "global_peace",
+        "conflict_ending",
+        "era_of_harmony"
+      ],
+      "requirements": [
+        "skill_level",
+        "world_knowledge",
+        "divine_blessing"
+      ],
+      "cooldown": 0,
+      "unique": true,
+      "permanent": true
+    }
+  ],
+  "mastery_levels": {
+    "apprentice": {
+      "level": 50,
+      "requirements": {
+        "skill_level": 50
+      },
+      "bonuses": {
+        "effect_duration": 0.1,
+        "range_bonus": 5,
+        "success_chance": 0.05,
+        "instrument_mastery": 0.1
+      },
+      "abilities": [
+        "basic_calm",
+        "simple_melody",
+        "creature_soothing"
+      ],
+      "title": "Diplomat Apprentice",
+      "instrument_bonus": 1.1
+    },
+    "journeyman": {
+      "level": 70,
+      "requirements": {
+        "skill_level": 70
+      },
+      "bonuses": {
+        "effect_duration": 0.2,
+        "range_bonus": 10,
+        "success_chance": 0.1,
+        "instrument_mastery": 0.2,
+        "area_effect": true
+      },
+      "abilities": [
+        "advanced_calm",
+        "harmonic_resonance",
+        "emotional_harmony",
+        "diplomatic_negotiation"
+      ],
+      "title": "Journeyman Diplomat",
+      "instrument_bonus": 1.2
+    },
+    "master": {
+      "level": 90,
+      "requirements": {
+        "skill_level": 90
+      },
+      "bonuses": {
+        "effect_duration": 0.3,
+        "range_bonus": 15,
+        "success_chance": 0.15,
+        "instrument_mastery": 0.3,
+        "area_effect": true,
+        "permanent_effects": true
+      },
+      "abilities": [
+        "master_calm",
+        "peaceful_aura",
+        "conciliation",
+        "universal_harmony"
+      ],
+      "title": "Master Diplomat",
+      "instrument_bonus": 1.3
+    },
+    "grandmaster": {
+      "level": 100,
+      "requirements": {
+        "skill_level": 100
+      },
+      "bonuses": {
+        "effect_duration": 0.4,
+        "range_bonus": 20,
+        "success_chance": 0.2,
+        "instrument_mastery": 0.4,
+        "area_effect": true,
+        "permanent_effects": true,
+        "world_peace_chance": 0.01
+      },
+      "abilities": [
+        "grandmaster_calm",
+        "perfect_harmony",
+        "world_peace",
+        "divine_diplomacy"
+      ],
+      "title": "Grandmaster Diplomat",
+      "instrument_bonus": 1.5,
+      "unique_ability": "world_harmony"
+    }
+  },
+  "progression_bonuses": {
+    "duration_scaling": {
+      "formula": "base_duration * (1 + skill_level * 0.002)",
+      "max_multiplier": 3.0
+    },
+    "range_scaling": {
+      "formula": "base_range + skill_level * 0.3",
+      "max_bonus": 50
+    },
+    "success_scaling": {
+      "formula": "base_success + skill_level * 0.002",
+      "max_chance": 0.4
+    },
+    "instrument_bonus": {
+      "formula": "base_instrument_bonus * (1 + skill_level * 0.001)",
+      "max_multiplier": 2.0
+    }
+  },
+  "synergies": {
+    "musicianship": {
+      "bonus_type": "effect_duration",
+      "formula": "0.03 * musicianship_skill_level",
+      "max_bonus": 0.4,
+      "description": "Musicianship skill increases effect duration"
+    },
+    "animal_taming": {
+      "bonus_type": "charm_success",
+      "formula": "0.025 * animal_taming_skill_level",
+      "max_bonus": 0.35,
+      "description": "Animal Taming improves creature charming"
+    },
+    "leadership": {
+      "bonus_type": "diplomatic_success",
+      "formula": "0.02 * leadership_skill_level",
+      "max_bonus": 0.3,
+      "description": "Leadership skill improves diplomatic negotiations"
+    },
+    "spirit_speak": {
+      "bonus_type": "spiritual_harmony",
+      "formula": "0.015 * spirit_speak_skill_level",
+      "max_bonus": 0.25,
+      "description": "Spirit Speak enhances spiritual harmony effects"
+    }
+  },
+  "equipment_requirements": {
+    "instrument_type": "required",
+    "minimum_quality": "normal",
+    "durability_threshold": 50,
+    "music_sheet": "recommended",
+    "performance_clothes": "recommended"
+  },
+  "environmental_factors": {
+    "location_harmony": {
+      "peaceful_grove": {
+        "success_bonus": 0.2,
+        "duration_bonus": 0.1
+      },
+      "battlefield": {
+        "success_penalty": 0.3,
+        "duration_penalty": 0.2
+      },
+      "city_square": {
+        "success_bonus": 0.1,
+        "duration_bonus": 0.05
+      },
+      "wilderness": {
+        "success_bonus": 0.15,
+        "duration_bonus": 0.08
+      }
+    },
+    "time_of_day": {
+      "dawn": {
+        "success_bonus": 0.1,
+        "nature_bonus": 0.2
+      },
+      "dusk": {
+        "success_bonus": 0.1,
+        "spiritual_bonus": 0.2
+      },
+      "midnight": {
+        "success_bonus": 0.05,
+        "mystical_bonus": 0.15
+      },
+      "noon": {
+        "success_bonus": 0.05,
+        "clarity_bonus": 0.1
+      }
+    }
+  },
+  "visual_effects": {
+    "skill_activation": "peaceful_aura",
+    "effect_success": "calm_waves",
+    "area_effect": "harmonic_field",
+    "creature_calm": "soothing_light",
+    "world_peace": "global_harmony"
+  },
+  "sound_effects": {
+    "instrument_play": "peaceful_music",
+    "effect_success": "calm_chime",
+    "area_effect": "harmonic_resonance",
+    "creature_calm": "soothing_tone",
+    "world_peace": "divine_harmony"
+  },
+  "version": "0.1.0",
+  "last_updated": "2025-11-12",
+  "template_type": "skill"
+}

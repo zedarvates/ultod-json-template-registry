@@ -1,0 +1,51 @@
+{
+  "version": "0.1.0",
+  "school": "arcane",
+  "rarity": "rare",
+  "target_type": "single",
+  "range": 39.5,
+  "cast_time": 1422,
+  "cooldown": 9566578,
+  "mana_cost": 103615,
+  "visual_effects": {
+    "cast_effect": "druid_cast",
+    "projectile_effect": "elemental_projectile",
+    "impact_effect": "elemental_impact",
+    "trail_effect": "elemental_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "druid_cast_sound",
+    "impact_sound": "elemental_impact_sound"
+  },
+  "requirements": {
+    "level": 32,
+    "skills": [],
+    "classes": [
+      "druid"
+    ],
+    "specializations": [
+      "feral"
+    ]
+  },
+  "balance_validated": true,
+  "generated_by": "content_pipeline_v2",
+  "id": "d39e7b0c484b",
+  "name": "Druid Feral Shield",
+  "description": "Generated druid feral spell #208",
+  "icon": "d39e7b0c484b_icon",
+  "spell_type": "healing",
+  "damage_type": null,
+  "base_heal": 90.9,
+  "effects": [
+    {
+      "effect_type": "direct_heal",
+      "value": 378.7,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "balance_adjusted": true,
+  "balance_efficiency": 20.0806,
+  "template_type": "content_pipeline"
+}

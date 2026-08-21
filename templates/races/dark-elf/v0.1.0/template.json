@@ -1,0 +1,110 @@
+{
+  "id": "dark_elf",
+  "name": "Dark Elf",
+  "description": "Mysterious and cunning elves from the underworld with dark magic and shadow affinity",
+  "icon": "races/dark_elf_icon.png",
+  "category": "playable",
+  "rarity": "rare",
+  "faction": "horde",
+  "base_stats": {
+    "strength": 11,
+    "dexterity": 17,
+    "constitution": 8,
+    "intelligence": 16,
+    "wisdom": 13,
+    "charisma": 13,
+    "luck": 11
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 1.15,
+    "experience_rate": 1.1,
+    "dark_magic_power": 1.3,
+    "stealth_bonus": 1.25,
+    "night_vision": 1.4,
+    "poison_damage": 1.2
+  },
+  "available_classes": [
+    "rogue",
+    "mage",
+    "blood_seeker",
+    "guardian",
+    "assassin",
+    "necromancer",
+    "shadow_priest"
+  ],
+  "body_proportions": {
+    "average_height": 1.8,
+    "average_build": 0.85,
+    "max_height": 1.95,
+    "min_height": 1.65,
+    "max_build": 1.05,
+    "min_build": 0.65
+  },
+  "appearance_restrictions": {
+    "allowed_skin_colors": [
+      {
+        "min_r": 0.2,
+        "max_r": 0.5,
+        "min_g": 0.1,
+        "max_g": 0.4,
+        "min_b": 0.3,
+        "max_b": 0.6
+      }
+    ],
+    "allowed_hair_colors": [
+      {
+        "min_r": 0.1,
+        "max_r": 0.3,
+        "min_g": 0.1,
+        "max_g": 0.3,
+        "min_b": 0.1,
+        "max_b": 0.3
+      },
+      {
+        "min_r": 0.8,
+        "max_r": 1.0,
+        "min_g": 0.1,
+        "max_g": 0.3,
+        "min_b": 0.8,
+        "max_b": 1.0
+      }
+    ]
+  },
+  "racial_traits": [
+    "dark_elf_shadow_affinity",
+    "dark_elf_dark_magic",
+    "dark_elf_night_vision",
+    "dark_elf_cunning",
+    "dark_elf_underworld_connection"
+  ],
+  "passive_bonuses": {
+    "dark_magic_power": 1.25,
+    "stealth_bonus": 1.2,
+    "night_vision_range": 1.5,
+    "poison_damage": 1.15,
+    "shadow_resistance": 1.3
+  },
+  "starting_equipment": {
+    "weapon": "dark_blade",
+    "armor": "shadow_leather",
+    "gold": 180
+  },
+  "cultural_background": {
+    "languages": [
+      "common",
+      "elven",
+      "underworld"
+    ],
+    "starting_city": "underground_city",
+    "alignment_tendency": "neutral_evil",
+    "cultural_bonuses": {
+      "dark_magic": 22,
+      "stealth": 20,
+      "cunning": 18,
+      "night_vision": 15,
+      "shadow_affinity": 17
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "race"
+}

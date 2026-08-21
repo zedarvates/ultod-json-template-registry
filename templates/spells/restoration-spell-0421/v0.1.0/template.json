@@ -1,0 +1,83 @@
+{
+  "id": "restoration_spell_0421",
+  "name": "Restoration Spell 0421",
+  "description": "Causes vines and growth to rapidly heal multiple wounded allies in the area",
+  "icon": "restoration_spell_0421_icon",
+  "school": "restoration",
+  "rarity": "rare",
+  "spell_type": "multi_target_healing",
+  "target_type": "area_allies",
+  "range": 40.0,
+  "cast_time": 2000,
+  "cooldown": 10000,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "growth_healing",
+    "scaling": {
+      "wisdom": 2.2,
+      "nature_mastery": 1.6
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "rapid_vine_growth_healing",
+      "value": 300,
+      "duration": 7000,
+      "tick_rate": 1000,
+      "growth_healing_radius": 15.0,
+      "max_affected_targets": 5,
+      "growth_tick_healing": 60,
+      "healing_received_bonus_percent": 0.25,
+      "lifebloom_proc_chance": 0.2,
+      "nature_overgrowth_visual": true,
+      "healing_chain_reaction": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ground_erupting_vine_growth_burst",
+    "growth_effect": "rapidly_spreading_green_vines_healing",
+    "heal_effect": "bright_green_pulse_through_targets",
+    "chain_effect": "healing_energy_jumping_chain_between"
+  },
+  "sound_effects": {
+    "cast_sound": "ground_splitting_vine_rapid_growth",
+    "growth_sound": "creaking_vines_growing_healing_aura",
+    "heal_sound": "healing_energy_pulsing_life_force",
+    "chain_sound": "energy_arcs_crackling_healing_links"
+  },
+  "requirements": {
+    "level": 22,
+    "skills": [
+      "restoration",
+      "growth_magic"
+    ],
+    "classes": [
+      "druid",
+      "life_weaver"
+    ],
+    "specializations": [
+      "restoration_spell_0421_regenerator"
+    ]
+  },
+  "upgrades": {
+    "flourish_growth": {
+      "unlock_level": 32,
+      "description": "La Restoration Spell 0421 intensifie tous les effets de soin actifs",
+      "active_hot_amplification": 1.5,
+      "growth_duration_extension": 3000,
+      "max_targets_increase": 3,
+      "rejuvenation_boost": true
+    },
+    "eternal_spring": {
+      "unlock_level": 42,
+      "description": "La croissance crée des fleurs éternelles qui guérissent en continu",
+      "eternal_flower_zones": 3,
+      "flower_zone_healing": 100,
+      "zone_duration_days": 3,
+      "nature_blessing_permanent": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

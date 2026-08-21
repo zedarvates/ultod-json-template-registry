@@ -1,0 +1,53 @@
+{
+  "id": "sect_resource_amplification_mana_crystal",
+  "name": "Amplification Cristaux de Mana",
+  "description": "Augmente considérablement la production de cristaux de mana dans le domaine",
+  "icon": "mana_crystal_boost_icon",
+  "school": "arcane",
+  "type": "buff",
+  "damage_type": null,
+  "mana_cost": 800,
+  "range": 0,
+  "cast_time": 10000,
+  "cooldown": 7200000,
+  "aoe": {
+    "enabled": true,
+    "radius": 150,
+    "damage_reduction": 1.0,
+    "max_targets": 10
+  },
+  "effects": [
+    {
+      "type": "buff",
+      "name": "Amplification Cristaux de Mana",
+      "description": "Multiplication par 3 de la production de cristaux de mana",
+      "duration": 7200000,
+      "value": 3.0,
+      "stackable": false,
+      "dispellable": true
+    },
+    {
+      "type": "aura",
+      "name": "Nexus Arcanique",
+      "description": "Augmente la pureté et la qualité des cristaux de mana",
+      "duration": 7200000,
+      "value": 0.5,
+      "stackable": false,
+      "dispellable": true
+    }
+  ],
+  "requirements": {
+    "level": 5,
+    "class": [
+      "guild_member"
+    ],
+    "talent_points": 15
+  },
+  "visual": {
+    "cast_animation": "mana_crystal_ritual",
+    "impact_effect": "crystal_harmonics"
+  },
+  "enabled": true,
+  "template_type": "sect",
+  "version": "0.1.0"
+}

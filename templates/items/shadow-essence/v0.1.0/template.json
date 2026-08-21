@@ -1,16 +1,21 @@
 {
   "id": "shadow_essence",
-  "template_type": "item",
-  "version": "0.1.0",
   "name": "Shadow Essence",
-  "description": "A portable material component for public template workflows.",
+  "description": "Generated Shadow Essence item template.",
+  "icon": "shadow_essence_icon",
   "category": "material",
   "rarity": "common",
-  "stack_limit": 50,
-  "weight_kg": 0.1,
-  "tags": [
-    "adapted",
-    "material"
-  ],
-  "dependencies": []
+  "item_type": "material",
+  "sub_type": "generic",
+  "base_stats": {
+    "durability": 1,
+    "max_durability": 1,
+    "weight": 0.1,
+    "value": 1
+  },
+  "properties": {},
+  "requirements": {},
+  "effects": [],
+  "template_type": "item",
+  "version": "0.1.0"
 }

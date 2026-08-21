@@ -1,16 +1,71 @@
 {
-  "id": "arcanum_crystal",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Arcanum Crystal",
-  "description": "A portable material component for public template workflows.",
+  "item_id": "arcanum_crystal",
+  "name": "Cristal d'Arcanum",
+  "description": "Cristal magique rare qui stocke les patrons énergétiques des sorts et permet les modifications magiques",
+  "icon": "arcanum_crystal_icon",
   "category": "material",
   "rarity": "uncommon",
+  "item_type": "magic_crafting_material",
+  "bind_type": "none",
+  "level_required": 20,
+  "durability": {
+    "single_use": false,
+    "max_durability": 100,
+    "current_durability": 100
+  },
+  "properties": {
+    "material_type": "spell_energy_container",
+    "energy_capacity": 500,
+    "magic_conductivity": 0.85,
+    "resonance_frequency": 440.0,
+    "enchantment_affinity": "spell_modification"
+  },
   "stack_limit": 50,
-  "weight_kg": 0.1,
-  "tags": [
-    "adapted",
-    "material"
+  "weight": 0.1,
+  "value": {
+    "rarity_multiplier": 1.5
+  },
+  "drop_sources": [
+    {
+      "source_type": "mob_loot",
+      "mobs": [
+        "arcane_elemental",
+        "magic_construct"
+      ],
+      "drop_chance": 0.15,
+      "quantity_range": {
+        "min": 1,
+        "max": 3
+      }
+    },
+    {
+      "source_type": "gathering",
+      "nodes": [
+        "crystalline_caves",
+        "magic_crystal_vein"
+      ],
+      "skill_required": "mining",
+      "skill_level": 25
+    },
+    {
+      "source_type": "crafting",
+      "profession": "alchemist",
+      "recipe_id": "arcanum_synthesis"
+    }
   ],
-  "dependencies": []
+  "usage_instructions": {
+    "usage_type": "crafting_component",
+    "compatible_professions": [
+      "magic_crafter",
+      "enchanting"
+    ],
+    "magic_focus_bonus": 1.1
+  },
+  "visual_effects": {
+    "idle_effect": "arcane_glow",
+    "usage_effect": "crystal_shatter"
+  },
+  "version": "0.1.0",
+  "id": "arcanum_crystal",
+  "template_type": "item"
 }

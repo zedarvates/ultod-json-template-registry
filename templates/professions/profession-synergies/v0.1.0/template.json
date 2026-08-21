@@ -1,0 +1,211 @@
+{
+  "profession_synergies": {
+    "version": "1.0.0",
+    "description": "Configuration for profession synergies and cross-profession bonuses",
+    "last_updated": "2025-11-21",
+    "synergy_system": {
+      "enabled": true,
+      "global_synergy_multiplier": 1.0,
+      "synergy_decay_rate": 0.95,
+      "max_synergy_stacks": 5,
+      "synergy_types": {
+        "complementary": {
+          "multiplier": 1.2,
+          "description": "Professions naturally complement each other",
+          "bonus_type": "efficiency"
+        },
+        "combining": {
+          "multiplier": 1.5,
+          "description": "Professions can combine their outputs",
+          "bonus_type": "power"
+        },
+        "supporting": {
+          "multiplier": 1.1,
+          "description": "Professions provide mutual support",
+          "bonus_type": "utility"
+        }
+      },
+      "synergy_pairs": {
+        "blacksmith+enchanter": {
+          "type": "combining",
+          "effects": {
+            "enchantment_slots": 1,
+            "weapon_damage": 10.0,
+            "armor_protection": 8.0
+          },
+          "combined_recipes": [
+            "armes_enchantées",
+            "armures_magiques"
+          ]
+        },
+        "alchemist+tailor": {
+          "type": "combining",
+          "effects": {
+            "potion_infusion": true,
+            "cloth_enhancement": 15.0,
+            "durability_bonus": 0.2
+          },
+          "combined_recipes": [
+            "vêtements_infusés_potion",
+            "robes_magiques"
+          ]
+        },
+        "mining+blacksmith": {
+          "type": "complementary",
+          "effects": {
+            "ore_quality": 20.0,
+            "smelting_efficiency": 25.0,
+            "alloy_creation": true
+          },
+          "combined_recipes": [
+            "alliages_avancés",
+            "métaux_rares"
+          ]
+        },
+        "herbalism+alchemist": {
+          "type": "complementary",
+          "effects": {
+            "herb_quality": 25.0,
+            "potion_strength": 20.0,
+            "discovery_chance": 15.0
+          },
+          "combined_recipes": [
+            "potions_rares",
+            "elixirs_légendaires"
+          ]
+        },
+        "woodworking+enchanting": {
+          "type": "combining",
+          "effects": {
+            "magical_wood_bonus": 30.0,
+            "staff_power": 25.0,
+            "wand_efficiency": 20.0
+          },
+          "combined_recipes": [
+            "bâtons_magiques",
+            "baguettes_enchantées"
+          ]
+        },
+        "jewelcrafting+enchanting": {
+          "type": "combining",
+          "effects": {
+            "gem_power": 35.0,
+            "jewelry_enchantment": 30.0,
+            "artifact_creation": true
+          },
+          "combined_recipes": [
+            "bijoux_enchantés",
+            "gemmes_magiques"
+          ]
+        },
+        "cooking+herbalism": {
+          "type": "supporting",
+          "effects": {
+            "food_buff_duration": 50.0,
+            "herb_preservation": 40.0,
+            "recipe_discovery": 25.0
+          },
+          "combined_recipes": [
+            "plats_médicinaux",
+            "potions_culinaires"
+          ]
+        },
+        "fishing+cooking": {
+          "type": "complementary",
+          "effects": {
+            "fish_quality": 30.0,
+            "cooking_speed": 25.0,
+            "rare_catch_chance": 20.0
+          },
+          "combined_recipes": [
+            "plats_de_poisson_rares",
+            "mets_délicieux"
+          ]
+        }
+      },
+      "profession_chains": {
+        "metalworking_chain": {
+          "professions": [
+            "mining",
+            "blacksmithing",
+            "jewelcrafting",
+            "enchanting"
+          ],
+          "chain_bonus": {
+            "efficiency_multiplier": 1.8,
+            "quality_multiplier": 1.5,
+            "legendary_chance": 25.0
+          },
+          "description": "Complete metalworking profession chain"
+        },
+        "magic_chain": {
+          "professions": [
+            "enchanting",
+            "tailoring",
+            "jewelcrafting",
+            "woodworking"
+          ],
+          "chain_bonus": {
+            "magic_power": 40.0,
+            "enchantment_strength": 35.0,
+            "artifact_creation_chance": 30.0
+          },
+          "description": "Complete magical crafting profession chain"
+        },
+        "gathering_chain": {
+          "professions": [
+            "mining",
+            "herbalism",
+            "fishing",
+            "woodworking"
+          ],
+          "chain_bonus": {
+            "gathering_speed": 50.0,
+            "rare_find_chance": 40.0,
+            "resource_quality": 35.0
+          },
+          "description": "Complete resource gathering profession chain"
+        }
+      },
+      "synergy_achievements": [
+        {
+          "id": "first_synergy",
+          "name": "Premier Synergie",
+          "requirement": {
+            "synergy_pairs_unlocked": 1
+          },
+          "rewards": {
+            "experience_bonus": 1000,
+            "synergy_multiplier": 1.1
+          }
+        },
+        {
+          "id": "synergy_master",
+          "name": "Maître des Synergies",
+          "requirement": {
+            "synergy_pairs_unlocked": 5
+          },
+          "rewards": {
+            "experience_bonus": 5000,
+            "synergy_multiplier": 1.25
+          }
+        },
+        {
+          "id": "profession_chain_complete",
+          "name": "Chaîne Complète",
+          "requirement": {
+            "profession_chains_completed": 1
+          },
+          "rewards": {
+            "experience_bonus": 10000,
+            "chain_bonus_multiplier": 1.5
+          }
+        }
+      ]
+    }
+  },
+  "id": "profession_synergies",
+  "name": "Profession Synergies",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "vampire_brujah",
+  "name": "Brujah Vampire",
+  "description": "Rebellious and passionate warriors of the night, masters of physical combat and righteous fury",
+  "icon": "races/vampire_brujah_icon.png",
+  "category": "playable",
+  "rarity": "legendary",
+  "faction": "neutral",
+  "base_stats": {
+    "strength": 16,
+    "dexterity": 14,
+    "constitution": 13,
+    "intelligence": 11,
+    "wisdom": 10,
+    "charisma": 12,
+    "luck": 12
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 1.1,
+    "experience_rate": 1.0,
+    "health_regeneration": 1.2,
+    "mana_regeneration": 0.9,
+    "physical_damage": 1.3,
+    "rage_bonus": 1.4
+  },
+  "available_classes": [
+    "warrior",
+    "berserker",
+    "guardian",
+    "blood_seeker",
+    "vandal",
+    "executor"
+  ],
+  "body_proportions": {
+    "average_height": 1.8,
+    "average_build": 1.0,
+    "max_height": 2.1,
+    "min_height": 1.6,
+    "max_build": 1.3,
+    "min_build": 0.8
+  },
+  "appearance_restrictions": {
+    "allowed_skin_colors": [
+      {
+        "min_r": 0.7,
+        "max_r": 1.0,
+        "min_g": 0.6,
+        "max_g": 0.9,
+        "min_b": 0.7,
+        "max_b": 1.0
+      }
+    ],
+    "allowed_hair_colors": [
+      {
+        "min_r": 0.0,
+        "max_r": 0.3,
+        "min_g": 0.0,
+        "max_g": 0.3,
+        "min_b": 0.0,
+        "max_b": 0.3
+      },
+      {
+        "min_r": 0.8,
+        "max_r": 1.0,
+        "min_g": 0.6,
+        "max_g": 0.9,
+        "min_b": 0.4,
+        "max_b": 0.7
+      }
+    ]
+  },
+  "racial_traits": [
+    "brujah_rage",
+    "brujah_physical_prowess",
+    "brujah_rebellious_spirit",
+    "vampire_immortality",
+    "vampire_blood_drain",
+    "vampire_night_vision"
+  ],
+  "passive_bonuses": {
+    "melee_damage": 1.25,
+    "rage_damage": 1.4,
+    "intimidation_bonus": 1.3,
+    "night_vision_range": 2.0,
+    "lifesteal": 1.2,
+    "damage_reduction": 1.1
+  },
+  "starting_equipment": {
+    "weapon": "brujah_fists",
+    "armor": "rebel_clothing",
+    "gold": 120
+  },
+  "cultural_background": {
+    "languages": [
+      "common",
+      "ancient"
+    ],
+    "starting_city": "rebel_stronghold",
+    "alignment_tendency": "chaotic_neutral",
+    "cultural_bonuses": {
+      "combat_mastery": 18,
+      "rage_control": 15,
+      "intimidation": 20,
+      "leadership": 12,
+      "physical_training": 16
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "race"
+}

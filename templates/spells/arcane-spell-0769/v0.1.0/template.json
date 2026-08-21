@@ -1,0 +1,79 @@
+{
+  "id": "arcane_spell_0769",
+  "name": "Arcane Spell 0769",
+  "description": "Augmente l'intelligence et les soins reçus de l'allié ciblé",
+  "icon": "arcane_spell_0769_spell_0769_icon",
+  "school": "arcane_spell_0769",
+  "rarity": "common",
+  "spell_type": "buff",
+  "target_type": "single_ally",
+  "range": 20.0,
+  "cast_time": 2000,
+  "cooldown": 0,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "arcane_spell_0769"
+  },
+  "effects": [
+    {
+      "effect_type": "stat_buff",
+      "value": 30,
+      "duration": 1800000,
+      "tick_rate": 0,
+      "stat_type": "intelligence"
+    },
+    {
+      "effect_type": "healing_received_buff",
+      "value": 20,
+      "duration": 1800000,
+      "tick_rate": 0
+    },
+    {
+      "effect_type": "mana_regen_buff",
+      "value": 15,
+      "duration": 1800000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "arcane_spell_0769_glow",
+    "buff_effect": "intellect_aura",
+    "expire_effect": "buff_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "arcane_spell_0769_whisper",
+    "buff_sound": "intellect_chime",
+    "expire_sound": "buff_end"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "mage",
+      "priest",
+      "warlock",
+      "paladin",
+      "wizard"
+    ]
+  },
+  "upgrades": {
+    "arcane_brilliance": {
+      "unlock_level": 14,
+      "description": "Améliore l'effet et peut être lancé sur plusieurs cibles",
+      "stat_bonus_multiplier": 1.5,
+      "aoe_range": 15.0,
+      "max_targets": 5
+    },
+    "arcane_mind": {
+      "unlock_level": 24,
+      "description": "Ajoute des bonus de résistance magique et de réduction des temps d'incantation",
+      "magic_resistance": 10,
+      "cast_speed_bonus": 10
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

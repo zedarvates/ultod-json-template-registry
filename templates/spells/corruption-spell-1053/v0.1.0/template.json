@@ -1,0 +1,74 @@
+{
+  "id": "corruption_spell_1053",
+  "name": "Corruption Spell 1053",
+  "description": "Corrupted version of corruption_spell_1053 of Righteousness - infused with shadow energy, dealing corruption damage and empowering attacks against villains",
+  "icon": "paladin_corruption_spell_1053_vengeance_icon",
+  "school": "corruption",
+  "rarity": "uncommon",
+  "spell_type": "buff_spell",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 1500,
+  "cooldown": 20000,
+  "mana_cost": 180,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "corruption",
+    "villain_damage_buff": {
+      "damage_increase": 0.4,
+      "corruption_accumulation": 0.1,
+      "villain_weakness_multiplier": 1.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "corruption_corruption_spell_1053",
+      "value": 45,
+      "duration": 15000,
+      "tick_rate": 3000,
+      "villain_damage_amplifier": 1.4,
+      "corruption_build_per_hit": 0.05,
+      "mana_regen_on_villain_hit": 15,
+      "negative_karma_boost": true,
+      "corruption_visual": "shadow_glow"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "corruption_corruption_spell_1053_casting",
+    "buff_effect": "shadow_aura_buff",
+    "impact_effect": "corruption_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "corruption_whisper",
+    "buff_sound": "vengeance_theme",
+    "impact_sound": "villain_weakness_cry"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "corruption_magic",
+      "villain_hunting"
+    ],
+    "classes": [
+      "paladin"
+    ],
+    "karma_negative_threshold": -500
+  },
+  "upgrades": {
+    "seal_of_corruption": {
+      "unlock_level": 12,
+      "description": "Increases corruption damage and spreads corruption to nearby villains",
+      "corruption_damage_increase": 0.6,
+      "area_corruption_spread": true,
+      "area_radius": 6.0
+    },
+    "seal_of_dark_power": {
+      "unlock_level": 18,
+      "description": "Bonus damage scales with accumulated corruption",
+      "corruption_scaling_damage": 0.02,
+      "maximum_damage_bonus": 1.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

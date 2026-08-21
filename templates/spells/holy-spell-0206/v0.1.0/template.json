@@ -1,0 +1,72 @@
+{
+  "id": "holy_spell_0206",
+  "name": "Holy Spell 0206",
+  "description": "A righteous melee attack infused with divine power, dealing bonus holy_spell_0206 damage to corrupted and shadow-afflicted foes",
+  "icon": "cw_holy_spell_0206_spell_0206_icon",
+  "school": "holy_spell_0206",
+  "rarity": "common",
+  "spell_type": "melee_attack",
+  "target_type": "enemy",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "divine_power_cost": 50,
+  "damage": {
+    "base_damage": 38,
+    "damage_type": "holy_spell_0206",
+    "bonus_damage": {
+      "corrupted_multiplier": 1.4,
+      "shadow_multiplier": 1.6,
+      "damage_type": "divine"
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "righteous_damage",
+      "value": 38,
+      "duration": 0,
+      "tick_rate": 0,
+      "corruption_damage_multiplier": 1.4,
+      "shadow_damage_multiplier": 1.6,
+      "karma_damage_scaling": true,
+      "positive_karma_bonus_per_100": 0.08
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_light_charge",
+    "attack_effect": "holy_spell_0206_sword_strike",
+    "impact_effect": "corruption_purge_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_chant",
+    "attack_sound": "holy_spell_0206_sword_swing",
+    "impact_sound": "corruption_banish"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "divine_combat",
+      "holy_spell_0206_magic"
+    ],
+    "classes": [
+      "celestial_warden"
+    ]
+  },
+  "upgrades": {
+    "judgment_strike": {
+      "unlock_level": 7,
+      "description": "Increased damage against corrupted targets and chance to cleanse minor corruption",
+      "corruption_damage_increase": 0.3,
+      "corruption_cleanse_chance": 0.15
+    },
+    "divine_smite": {
+      "unlock_level": 12,
+      "description": "Creates an explosion of divine energy that heals nearby allies",
+      "explosion_damage": 25,
+      "healing_radius": 6.0,
+      "ally_healing": 20
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

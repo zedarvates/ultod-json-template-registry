@@ -1,0 +1,76 @@
+{
+  "id": "necromancy_spell_0327",
+  "name": "Necromancy Spell 0327",
+  "description": "Le death knight se transforme temporairement en vampire, sacrifiant de la vie pour gagner une immense résistance",
+  "icon": "necromancy_spell_0327_icon",
+  "school": "necromancy",
+  "rarity": "epic",
+  "spell_type": "blood_self_buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1000,
+  "cooldown": 60000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "necromancy_spell_0327_transformation"
+  },
+  "effects": [
+    {
+      "effect_type": "necromancy_spell_0327_empowerment",
+      "value": 600,
+      "duration": 20000,
+      "tick_rate": 0,
+      "health_cost": 200,
+      "healing_received_bonus": 100,
+      "physical_damage_reduction": 0.5,
+      "lifesteal_aura": 25,
+      "vampiric_regeneration": true,
+      "blood_magic_amplification": 2.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "blood_transformation_runes",
+    "buff_effect": "necromancy_spell_0327_eyes_glowing_red",
+    "damage_effect": "blood_magic_pulses",
+    "expire_effect": "necromancy_spell_0327_state_ending"
+  },
+  "sound_effects": {
+    "cast_sound": "blood_ritual_chant",
+    "buff_sound": "necromancy_spell_0327_heartbeat_pulse",
+    "damage_sound": "blood_magic_crack",
+    "expire_sound": "transformation_fading_hiss"
+  },
+  "requirements": {
+    "level": 38,
+    "skills": [
+      "blood_magic",
+      "necromancy_spell_0327_arts"
+    ],
+    "classes": [
+      "death_knight",
+      "vampire_lord"
+    ],
+    "specializations": [
+      "blood_master"
+    ]
+  },
+  "upgrades": {
+    "greater_vampirism": {
+      "unlock_level": 48,
+      "description": "Le vampirisme devient plus puissant avec régénération accrue",
+      "healing_Received_bonus": 50,
+      "damage_bonus": 25,
+      "vampiric_aura_radius": 10.0
+    },
+    "eternal_vampire": {
+      "unlock_level": 58,
+      "description": "L'état vampirique devient permanent à bas niveau",
+      "passive_vampiric_state": true,
+      "reduced_damage_reduction": 10,
+      "feast_on_nearby_corpses": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

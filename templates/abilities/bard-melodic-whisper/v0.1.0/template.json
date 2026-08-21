@@ -1,0 +1,88 @@
+{
+  "id": "bard_melodic_whisper",
+  "name": "Chuchotement Mélodique",
+  "description": "Chante un murmure mélodique pour influencer les émotions",
+  "ability_type": "active",
+  "category": "support",
+  "cooldown": 45000,
+  "mana_cost": 50,
+  "cast_time": 3000,
+  "range": 30.0,
+  "target_type": "area",
+  "duration": 60000,
+  "effects": [
+    {
+      "effect_type": "emotion_influence",
+      "value": 0.4,
+      "duration": 60000,
+      "tick_rate": 0,
+      "emotion_type": "calm"
+    },
+    {
+      "effect_type": "morale_boost",
+      "value": 0.3,
+      "duration": 60000,
+      "tick_rate": 0,
+      "morale_type": "party"
+    },
+    {
+      "effect_type": "resistance_fear",
+      "value": 0.5,
+      "duration": 60000,
+      "tick_rate": 0,
+      "resistance_type": "fear"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "melodic_aura",
+    "emotion_effect": "emotion_wave",
+    "morale_effect": "inspiration_sparkle"
+  },
+  "sound_effects": {
+    "cast_sound": "melodic_whisper",
+    "emotion_sound": "calm_harmony",
+    "morale_sound": "inspiration_chime"
+  },
+  "scaling": {
+    "bard_skill": 1.5,
+    "music_mastery": 1.4
+  },
+  "requirements": {
+    "level": 20,
+    "abilities": [
+      "basic_music"
+    ],
+    "class": "bard"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "emotion_influence": 0.2,
+      "morale_boost": 0.1,
+      "resistance_fear": 0.2
+    },
+    "journeyman": {
+      "emotion_influence": 0.3,
+      "morale_boost": 0.2,
+      "resistance_fear": 0.3,
+      "area_range": 40.0
+    },
+    "master": {
+      "emotion_influence": 0.4,
+      "morale_boost": 0.3,
+      "resistance_fear": 0.5,
+      "area_range": 50.0,
+      "emotion_control": true
+    },
+    "grandmaster": {
+      "emotion_influence": 0.5,
+      "morale_boost": 0.4,
+      "resistance_fear": 0.6,
+      "area_range": 60.0,
+      "emotion_control": true,
+      "ability_unlock": "master_musician"
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

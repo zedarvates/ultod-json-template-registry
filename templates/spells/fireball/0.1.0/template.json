@@ -1,0 +1,75 @@
+{
+  "id": "fireball",
+  "name": "Fireball",
+  "description": "A roaring adapted_reference of flame hurled at a single enemy for heavy fire damage.",
+  "icon": "spell_fire_fireball",
+  "school": "fire",
+  "rarity": "common",
+  "spell_type": "damage_instant",
+  "target_type": "enemy",
+  "range": 30,
+  "cast_time": 1500,
+  "cooldown": 3500,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "fire_elemental_damage",
+    "scaling": {
+      "attribute": "intelligence",
+      "coefficient": 0.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "explosive_fire_projectile",
+      "value": 120,
+      "duration": 0,
+      "tick_rate": 0,
+      "explosion_radius": 4.0,
+      "projectile_speed": 22.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fx_fire_cast",
+    "projectile_effect": "fx_fireball_projectile",
+    "explosion_effect": "fx_fireball_explosion"
+  },
+  "sound_effects": {
+    "cast_effect": "snd_fire_cast",
+    "explosion_effect": "snd_fireball_boom"
+  },
+  "requirements": {
+    "level": 1,
+    "classes": [
+      "mage",
+      "necromancer"
+    ]
+  },
+  "upgrades": {
+    "rank2": {
+      "unlock_level": 20,
+      "description": "+15% base damage",
+      "damage_increase_percent": 15
+    },
+    "rank3": {
+      "unlock_level": 40,
+      "description": "+20% explosion radius",
+      "explosion_radius_increase": 2.0
+    }
+  },
+  "vr_configuration": {
+    "gestures": {
+      "left_pose": "open",
+      "right_pose": "fist",
+      "required_hand": "right"
+    },
+    "haptics": {
+      "charge_pattern": "haptic_fire_charge",
+      "launch_pattern": "haptic_fire_launch",
+      "impact_pattern": "haptic_fire_impact"
+    }
+  },
+  "enabled": true,
+  "template_type": "spell",
+  "version": "0.1.0"
+}

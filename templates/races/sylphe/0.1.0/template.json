@@ -1,0 +1,87 @@
+{
+  "id": "sylphe",
+  "name": "Sylphe",
+  "description": "A weightless elemental spirit of wind and storm, forever drifting and seldom still, quick of mind and limb.",
+  "icon": "race_sylphe",
+  "category": "elemental",
+  "rarity": "uncommon",
+  "faction": "nature",
+  "base_stats": {
+    "strength": 14,
+    "dexterity": 34,
+    "constitution": 16,
+    "intelligence": 28,
+    "wisdom": 22,
+    "charisma": 22,
+    "luck": 22
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 1.15,
+    "experience_rate": 1.1,
+    "health_regeneration": 1.0,
+    "mana_regeneration": 1.2
+  },
+  "available_classes": [
+    "mage",
+    "ranger",
+    "rogue",
+    "druid"
+  ],
+  "racial_traits": [
+    "gust_dash",
+    "storm_affinity",
+    "weightless"
+  ],
+  "passive_bonuses": {
+    "skill_points_per_level": 1,
+    "attribute_points_per_level": 1,
+    "resistance_to_fear": 10,
+    "bonus_to_all_skills": 2
+  },
+  "starting_equipment": {
+    "weapons": [
+      "air_dagger"
+    ],
+    "armor": [
+      "gauze_wrap"
+    ],
+    "items": [
+      "feather_charm"
+    ]
+  },
+  "body_proportions": {
+    "height_min": 155,
+    "height_max": 185,
+    "weight_min": 35,
+    "weight_max": 60,
+    "body_type": "slim"
+  },
+  "appearance_restrictions": {
+    "skin_colors": [
+      "pale_cyan",
+      "white"
+    ],
+    "hair_colors": [
+      "sky_blue",
+      "translucent"
+    ],
+    "eye_colors": [
+      "grey",
+      "white"
+    ],
+    "facial_features": "ethereal"
+  },
+  "cultural_background": {
+    "languages": [
+      "aerie",
+      "syllan"
+    ],
+    "starting_city": "Cloudrest",
+    "alignment_tendency": "neutral",
+    "cultural_bonuses": {
+      "wind": 10
+    }
+  },
+  "template_type": "race",
+  "version": "0.1.0"
+}

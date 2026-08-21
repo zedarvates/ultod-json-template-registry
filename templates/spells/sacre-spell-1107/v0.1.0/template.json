@@ -1,0 +1,67 @@
+{
+  "id": "sacre_spell_1107",
+  "name": "Sacre Spell 1107",
+  "description": "Vous prononcez un ordre à une créature visible dans la portée. La cible doit réussir un jet de sauvegarde de Sagesse ou obéir a l'ordre jusqu'à la fin de son prochain tour",
+  "icon": "sacre_spell_1107_icon",
+  "school": "sacré",
+  "rarity": "common",
+  "spell_type": "control",
+  "target_type": "enemy",
+  "range": 20.0,
+  "cast_time": 1000,
+  "cooldown": 18000,
+  "mana_cost": 35,
+  "effects": [
+    {
+      "effect_type": "sacre_spell_1107_control",
+      "value": 0,
+      "duration": 6000,
+      "tick_rate": 0,
+      "aoe_radius": 0.0,
+      "proc_chance": 1.0,
+      "save_type": "wisdom",
+      "command_types": [
+        "approach",
+        "flee",
+        "drop",
+        "halt",
+        "grovel"
+      ]
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "imperious_aura",
+    "control_effect": "silver_chains",
+    "impact_effect": "sacre_spell_1107ing_flash"
+  },
+  "sound_effects": {
+    "cast_sound": "authoritative_decree",
+    "control_sound": "mind_bind",
+    "impact_sound": "obedience_echo"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_command": {
+      "unlock_level": 5,
+      "description": "sacre_spell_1107es plus puissantes disponibles",
+      "new_commands": [
+        "release",
+        "protect"
+      ]
+    },
+    "mass_command": {
+      "unlock_level": 11,
+      "description": "Affecte plusieurs cibles en même temps",
+      "multi_target": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,116 @@
+{
+  "id": "beastman",
+  "name": "Beastman",
+  "description": "Ferocious humanoid creatures with animalistic features, combining human intelligence with bestial strength",
+  "icon": "races/beastman_icon.png",
+  "category": "playable",
+  "rarity": "uncommon",
+  "faction": "chaos",
+  "base_stats": {
+    "strength": 15,
+    "dexterity": 12,
+    "constitution": 13,
+    "intelligence": 8,
+    "wisdom": 8,
+    "charisma": 7,
+    "luck": 10
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 0.8,
+    "experience_rate": 1.1,
+    "health_regeneration": 1.3,
+    "ferocity_bonus": 1.4,
+    "animal_senses": 1.2,
+    "intimidation": 1.3
+  },
+  "available_classes": [
+    "warrior",
+    "rogue",
+    "guardian",
+    "basilisk",
+    "berserker",
+    "shaman"
+  ],
+  "body_proportions": {
+    "average_height": 1.85,
+    "average_build": 1.2,
+    "max_height": 2.0,
+    "min_height": 1.6,
+    "max_build": 1.5,
+    "min_build": 0.9
+  },
+  "appearance_restrictions": {
+    "allowed_skin_colors": [
+      {
+        "min_r": 0.4,
+        "max_r": 0.7,
+        "min_g": 0.3,
+        "max_g": 0.6,
+        "min_b": 0.2,
+        "max_b": 0.5
+      },
+      {
+        "min_r": 0.6,
+        "max_r": 0.9,
+        "min_g": 0.4,
+        "max_g": 0.7,
+        "min_b": 0.2,
+        "max_b": 0.5
+      }
+    ],
+    "allowed_hair_colors": [
+      {
+        "min_r": 0.1,
+        "max_r": 0.4,
+        "min_g": 0.1,
+        "max_g": 0.4,
+        "min_b": 0.1,
+        "max_b": 0.4
+      },
+      {
+        "min_r": 0.7,
+        "max_r": 1.0,
+        "min_g": 0.5,
+        "max_g": 0.8,
+        "min_b": 0.3,
+        "max_b": 0.6
+      }
+    ]
+  },
+  "racial_traits": [
+    "beastman_ferocity",
+    "beastman_animal_senses",
+    "beastman_regeneration",
+    "beastman_intimidation",
+    "beastman_natural_weapons"
+  ],
+  "passive_bonuses": {
+    "melee_damage": 1.15,
+    "perception_bonus": 1.2,
+    "intimidation_bonus": 1.3,
+    "wound_regeneration": 1.25,
+    "stealth_bonus": 1.1
+  },
+  "starting_equipment": {
+    "weapon": "beast_claws",
+    "armor": "beast_hide",
+    "gold": 70
+  },
+  "cultural_background": {
+    "languages": [
+      "common",
+      "beast"
+    ],
+    "starting_city": "wild_tribes",
+    "alignment_tendency": "chaotic_neutral",
+    "cultural_bonuses": {
+      "survival": 15,
+      "intimidation": 18,
+      "animal_kinship": 20,
+      "ferocity": 15,
+      "regeneration": 12
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "race"
+}

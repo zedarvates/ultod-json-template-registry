@@ -1,0 +1,152 @@
+{
+  "id": "celestial_avatar",
+  "name": "[ADMIN] Celestial Avatar",
+  "description": "[ADMIN ONLY] The divine cosmic administrator with universe-bending divine powers and reality mastery",
+  "color": "FFFFFF",
+  "primary_resource": "divine_essence",
+  "base_stats": {
+    "strength": 85,
+    "agility": 80,
+    "intelligence": 90,
+    "vitality": 85,
+    "wisdom": 95,
+    "charisma": 95
+  },
+  "specializations": [
+    "divine_intervention",
+    "cosmic_reality",
+    "universal_harmony"
+  ],
+  "starting_skills": [
+    {
+      "id": 93001,
+      "name": "Divine Intervention",
+      "description": "[ADMIN] Instantly resolve any conflict or problem with divine wisdom",
+      "cooldown": 10000,
+      "mana_cost": 0,
+      "range": 1000.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 93002,
+      "name": "Cosmic Teleport",
+      "description": "[ADMIN] Teleport to any point in the universe instantly",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": -1,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 93003,
+      "name": "World Peace",
+      "description": "[ADMIN] Instantly end all wars and conflicts worldwide",
+      "cooldown": 30000,
+      "mana_cost": 0,
+      "range": -1,
+      "cast_time": 1000,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 93004,
+      "name": "Universal Healing",
+      "description": "[ADMIN] Heal all beings in existence simultaneously",
+      "cooldown": 60000,
+      "mana_cost": 0,
+      "range": -1,
+      "cast_time": 500,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 93005,
+      "name": "Reality Anchor",
+      "description": "[ADMIN] Prevent any changes to server reality without approval",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": -1,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 93006,
+      "name": "Celestial Vision",
+      "description": "[ADMIN] See all timelines and possible futures",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": -1,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 930001,
+            "name": "Divine Presence",
+            "description": "Presence alone inspires devotion and prevents conflict",
+            "max_rank": 1,
+            "icon_path": "talents/admin/divine_presence.png"
+          },
+          {
+            "id": 930002,
+            "name": "Universal Translator",
+            "description": "Understand and speak all languages in existence",
+            "max_rank": 1,
+            "icon_path": "talents/admin/universal_translator.png"
+          },
+          {
+            "id": 930003,
+            "name": "Cosmic Empathy",
+            "description": "Feel and understand emotions of all beings",
+            "max_rank": 1,
+            "icon_path": "talents/admin/cosmic_empathy.png"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "talents": [
+          {
+            "id": 930004,
+            "name": "Reality Weaver",
+            "description": "Shape reality according to will and design",
+            "max_rank": 1,
+            "icon_path": "talents/admin/reality_weaver.png"
+          },
+          {
+            "id": 930005,
+            "name": "Harmony Restorer",
+            "description": "Balance natural forces and restore universal equilibrium",
+            "max_rank": 1,
+            "icon_path": "talents/admin/harmony_restorer.png"
+          },
+          {
+            "id": 930006,
+            "name": "Destiny Guide",
+            "description": "Influence and guide the destiny of any being",
+            "max_rank": 1,
+            "icon_path": "talents/admin/destiny_guide.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 1000000,
+  "health_modifier": 50.0,
+  "damage_modifier": 25.0,
+  "armor_modifier": 75.0,
+  "speed_modifier": 7.0,
+  "cast_speed_modifier": 20.0,
+  "template_type": "class",
+  "version": "0.1.0"
+}

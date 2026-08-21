@@ -1,0 +1,54 @@
+{
+  "champion_spawn_id": "champion_despise_vermin",
+  "display_name": "Autel Vermine de Despise",
+  "altar_location": {
+    "x": 1420.5,
+    "y": 12.0,
+    "z": 850.0,
+    "zone_id": "despise_dungeon"
+  },
+  "max_radius": 45.0,
+  "tiers": [
+    {
+      "tier_level": 1,
+      "kill_count_required": 100,
+      "mob_templates": [
+        "slime",
+        "giant_rat"
+      ]
+    },
+    {
+      "tier_level": 2,
+      "kill_count_required": 80,
+      "mob_templates": [
+        "dire_wolf",
+        "lizardman"
+      ]
+    },
+    {
+      "tier_level": 3,
+      "kill_count_required": 60,
+      "mob_templates": [
+        "ratman_mage",
+        "ratman_archer"
+      ]
+    },
+    {
+      "tier_level": 4,
+      "kill_count_required": 40,
+      "mob_templates": [
+        "silver_serpent",
+        "ogre_lord"
+      ]
+    }
+  ],
+  "boss_spawn": {
+    "boss_template_id": "barracoon_the_piper",
+    "gold_shower_amount": 250000,
+    "scroll_rewards_count": 6
+  },
+  "id": "template",
+  "name": "Template",
+  "template_type": "champion",
+  "version": "0.1.0"
+}

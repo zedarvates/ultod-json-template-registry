@@ -1,0 +1,89 @@
+{
+  "id": "alchemist_transmutation_circle",
+  "name": "Cercle de Transmutation",
+  "description": "Crée un cercle alchimique pour transformer les matériaux",
+  "ability_type": "active",
+  "category": "crafting",
+  "cooldown": 60000,
+  "mana_cost": 80,
+  "cast_time": 5000,
+  "range": 0,
+  "target_type": "materials",
+  "duration": 0,
+  "effects": [
+    {
+      "effect_type": "material_transformation",
+      "value": 1.5,
+      "duration": 0,
+      "tick_rate": 0,
+      "transformation_type": "alchemical"
+    },
+    {
+      "effect_type": "quality_boost",
+      "value": 0.4,
+      "duration": 0,
+      "tick_rate": 0,
+      "quality_type": "transmuted"
+    },
+    {
+      "effect_type": "yield_increase",
+      "value": 0.3,
+      "duration": 0,
+      "tick_rate": 0,
+      "yield_type": "crafting"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "transmutation_circle",
+    "transformation_effect": "alchemical_energy",
+    "quality_effect": "enhancement_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "alchemical_chant",
+    "transformation_sound": "material_conversion",
+    "quality_sound": "enhancement_chime"
+  },
+  "scaling": {
+    "alchemy_skill": 1.8,
+    "crafting_mastery": 1.6
+  },
+  "requirements": {
+    "level": 35,
+    "abilities": [
+      "potion_mastery",
+      "advanced_alchemy"
+    ],
+    "class": "alchemist"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "transformation_rate": 1.2,
+      "quality_boost": 0.2,
+      "yield_increase": 0.1
+    },
+    "journeyman": {
+      "transformation_rate": 1.5,
+      "quality_boost": 0.3,
+      "yield_increase": 0.2,
+      "cooldown_reduction": 0.2
+    },
+    "master": {
+      "transformation_rate": 1.8,
+      "quality_boost": 0.4,
+      "yield_increase": 0.3,
+      "cooldown_reduction": 0.4,
+      "rare_materials": true
+    },
+    "grandmaster": {
+      "transformation_rate": 2.0,
+      "quality_boost": 0.5,
+      "yield_increase": 0.4,
+      "cooldown_reduction": 0.6,
+      "rare_materials": true,
+      "ability_unlock": "philosophers_stone"
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

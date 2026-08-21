@@ -1,0 +1,62 @@
+{
+  "id": "magical_affinity",
+  "name": "Affinité Magique",
+  "description": "Connexion innée avec les forces magiques, permettant une manipulation plus efficace de la mana",
+  "icon": "magical_affinity_icon",
+  "category": "magic",
+  "rarity": "rare",
+  "stat_modifiers": {
+    "mana_regeneration": 0.3,
+    "spell_damage": 0.2,
+    "magic_resistance": 0.15
+  },
+  "lineage_synergies": {
+    "mage": 1.6,
+    "spiritmaster": 1.5,
+    "phoenix": 1.4
+  },
+  "passive_effects": [
+    {
+      "id": "mana_flow",
+      "name": "Flux de Mana",
+      "description": "Régénération de mana améliorée en toutes circonstances",
+      "modifier_type": "mana_regen",
+      "value": 30.0
+    },
+    {
+      "id": "spell_power_boost",
+      "name": "Puissance des Sorts",
+      "description": "Augmente les dégâts et soins magiques",
+      "modifier_type": "spell_power",
+      "value": 20.0
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "mana_burst",
+      "name": "Explosion de Mana",
+      "description": "Libère une vague d'énergie magique qui soigne les alliés et endommage les ennemis",
+      "cooldown": 120000,
+      "duration": 5000,
+      "effects": {
+        "aoe_healing": 200.0,
+        "aoe_damage": 150.0,
+        "mana_cost": 100.0
+      }
+    },
+    {
+      "id": "spell_echo",
+      "name": "Écho des Sorts",
+      "description": "Le prochain sort lancé a 50% de chance de se répéter gratuitement",
+      "cooldown": 60000,
+      "duration": 30000,
+      "effects": {
+        "spell_echo_chance": 50.0,
+        "echo_damage_multiplier": 0.7
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

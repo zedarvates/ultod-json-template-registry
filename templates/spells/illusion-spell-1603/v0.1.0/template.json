@@ -1,0 +1,46 @@
+{
+  "id": "illusion_spell_1603",
+  "name": "Illusion Spell 1603",
+  "description": "Crée une illusion_spell_1603 qui peut tromper les ennemis",
+  "icon": "illusion_spell_1603_spell_1603_icon",
+  "school": "illusion_spell_1603",
+  "rarity": "common",
+  "spell_type": "deception",
+  "target_type": "area",
+  "range": 9.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 6.0
+  },
+  "effects": [
+    {
+      "effect_type": "deceptive_illusion_spell_1603",
+      "value": 0,
+      "duration": 300000,
+      "tick_rate": 0,
+      "intelligence_save_dc": 14
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "illusion_spell_1603_weave"
+  },
+  "sound_effects": {
+    "cast_sound": "whisper"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "illusion_spell_1603"
+    ],
+    "classes": [
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

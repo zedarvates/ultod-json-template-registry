@@ -1,0 +1,65 @@
+{
+  "id": "evocation_spell_1156",
+  "name": "Evocation Spell 1156",
+  "description": "Vous faites jaillir des rochers du sol dans une zone",
+  "icon": "evocation_spell_1156_icon",
+  "school": "evocation",
+  "rarity": "uncommon",
+  "spell_type": "area_damage",
+  "target_type": "area_explosion",
+  "range": 120.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 30,
+    "damage_type": "bludgeoning"
+  },
+  "effects": [
+    {
+      "effect_type": "earth_eruption",
+      "value": 20,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "damage_per_stone": 10,
+      "stone_count": 3,
+      "radius": 10.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ground_shake",
+    "area_effect": "stones_evocation_spell_1156"
+  },
+  "sound_effects": {
+    "cast_sound": "earthquake",
+    "damage_sound": "rock_crash"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "earth_magic"
+    ],
+    "classes": [
+      "ranger",
+      "druid",
+      "wizard"
+    ]
+  },
+  "upgrades": {
+    "greater_eruption": {
+      "unlock_level": 6,
+      "description": "Plus de rochers et plus de dégâts",
+      "stone_count": 5,
+      "damage_per_stone": 15
+    },
+    "volcanic_eruption": {
+      "unlock_level": 10,
+      "description": "Ajoute des dégâts de feu",
+      "fire_damage": 5,
+      "damage_type": "fire"
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

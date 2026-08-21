@@ -1,0 +1,86 @@
+{
+  "id": "basilisk",
+  "name": "Basilisk",
+  "description": "Petrifying serpent lineage with deadly gaze and stone manipulation",
+  "color": "708090",
+  "primary_resource": "mana",
+  "base_stats": {
+    "strength": 20,
+    "agility": 18,
+    "intelligence": 16,
+    "vitality": 18,
+    "wisdom": 20,
+    "charisma": 18
+  },
+  "specializations": [
+    "assassination",
+    "subtlety"
+  ],
+  "starting_skills": [
+    {
+      "id": 18001,
+      "name": "Petrifying Gaze",
+      "description": "Stare at an enemy, chance to turn them to stone",
+      "cooldown": 30000,
+      "mana_cost": 250,
+      "range": 15.0,
+      "cast_time": 2000,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 18002,
+      "name": "Stone Skin",
+      "description": "Temporarily turn skin to stone for protection",
+      "cooldown": 120000,
+      "mana_cost": 300,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": true
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 180001,
+            "name": "Stoneheart",
+            "description": "Reduces damage taken by 10%",
+            "max_rank": 5,
+            "icon_path": "talents/basilisk/stoneheart.png"
+          },
+          {
+            "id": 180002,
+            "name": "Venomous Fang",
+            "description": "Attacks have 20% chance to poison targets",
+            "max_rank": 3,
+            "icon_path": "talents/basilisk/venomous_fang.png"
+          },
+          {
+            "id": 180003,
+            "name": "Ancient Petrification",
+            "description": "Petrifying Gaze lasts 50% longer",
+            "max_rank": 3,
+            "icon_path": "talents/basilisk/ancient_petrification.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100000,
+  "health_modifier": 1.2,
+  "damage_modifier": 1.0,
+  "armor_modifier": 1.4,
+  "is_lineage_class": true,
+  "unlock_requirements": {
+    "required_item": "basilisk_eye",
+    "required_level": 38,
+    "required_quest": "stone_gaze",
+    "description": "Requires a Basilisk Eye from the Petrified Ruins and completion of the Stone Gaze quest"
+  },
+  "template_type": "class",
+  "version": "0.1.0"
+}

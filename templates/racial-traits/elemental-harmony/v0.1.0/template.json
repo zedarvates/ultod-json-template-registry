@@ -1,0 +1,330 @@
+{
+  "id": "elemental_harmony",
+  "name": "Elemental Harmony",
+  "description": "Perfect balance between elemental forces, allowing mastery over fire, water, earth, and air simultaneously",
+  "icon": "traits/elemental_harmony.png",
+  "category": "elemental",
+  "rarity": "legendary",
+  "stat_modifiers": {
+    "intelligence": 1.3,
+    "wisdom": 1.25,
+    "mana_regeneration": 1.4,
+    "spell_power": 1.2
+  },
+  "lineage_synergies": {
+    "phoenix": 2.0,
+    "dragon": 1.8,
+    "elemental_spirit": 2.5,
+    "storm_giant": 1.7,
+    "earth_titan": 1.6
+  },
+  "passive_effects": [
+    {
+      "id": "elemental_balance",
+      "name": "Elemental Balance",
+      "description": "All elemental resistances increased, elemental damage amplified",
+      "elemental_resistance_bonus": 20,
+      "elemental_damage_bonus": 15,
+      "harmony_stacks": 5
+    },
+    {
+      "id": "elemental_attunement",
+      "name": "Elemental Attunement",
+      "description": "Automatically attune to environmental elemental energies",
+      "attunement_speed": 2.0,
+      "environmental_bonus": 25,
+      "elemental_feedback": true
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "elemental_burst",
+      "name": "Elemental Burst",
+      "description": "Release a burst of all four elements simultaneously",
+      "cooldown": 20000,
+      "mana_cost": 120,
+      "damage": {
+        "fire": 80,
+        "water": 80,
+        "earth": 80,
+        "air": 80
+      },
+      "radius": 8.0,
+      "elemental_effects": [
+        "burning",
+        "frozen",
+        "stunned",
+        "knocked_back"
+      ]
+    }
+  ],
+  "elemental_forms": [
+    {
+      "id": "flame_dancer",
+      "name": "Flame Dancer Form",
+      "description": "Embody living fire, immune to heat and dealing massive fire damage",
+      "element": "fire",
+      "unlock_level": 25,
+      "duration": 20000,
+      "cooldown": 60000,
+      "mana_cost": 200,
+      "effects": {
+        "fire_immunity": true,
+        "fire_damage_bonus": 100,
+        "movement_speed": 1.3,
+        "health_regen": -10,
+        "visual_effect": "flames"
+      },
+      "abilities": [
+        {
+          "id": "fire_nova",
+          "name": "Fire Nova",
+          "description": "Explosive nova of flames",
+          "cooldown": 8000,
+          "damage": 150,
+          "radius": 6.0,
+          "burn_damage": 30,
+          "burn_duration": 8000
+        }
+      ]
+    },
+    {
+      "id": "tidal_wave",
+      "name": "Tidal Wave Form",
+      "description": "Become one with water, controlling tides and healing allies",
+      "element": "water",
+      "unlock_level": 25,
+      "duration": 25000,
+      "cooldown": 60000,
+      "mana_cost": 180,
+      "effects": {
+        "water_breathing": true,
+        "healing_power": 50,
+        "movement_speed_water": 2.0,
+        "drown_immunity": true,
+        "visual_effect": "water_flow"
+      },
+      "abilities": [
+        {
+          "id": "healing_tide",
+          "name": "Healing Tide",
+          "description": "Create waves of healing water",
+          "cooldown": 12000,
+          "heal_amount": 200,
+          "radius": 10.0,
+          "targets": 5,
+          "hot_duration": 10000
+        }
+      ]
+    },
+    {
+      "id": "earth_titan",
+      "name": "Earth Titan Form",
+      "description": "Transform into a being of living stone with immense durability",
+      "element": "earth",
+      "unlock_level": 30,
+      "duration": 30000,
+      "cooldown": 90000,
+      "mana_cost": 250,
+      "effects": {
+        "physical_resistance": 50,
+        "health_bonus": 300,
+        "movement_speed": 0.6,
+        "knockback_immunity": true,
+        "visual_effect": "stone_skin"
+      },
+      "abilities": [
+        {
+          "id": "earthquake",
+          "name": "Earthquake",
+          "description": "Cause the earth to tremble and crack",
+          "cooldown": 15000,
+          "damage": 200,
+          "radius": 12.0,
+          "stun_duration": 3000,
+          "terrain_destruction": true
+        }
+      ]
+    },
+    {
+      "id": "storm_lord",
+      "name": "Storm Lord Form",
+      "description": "Command the power of storms and lightning",
+      "element": "air",
+      "unlock_level": 28,
+      "duration": 22000,
+      "cooldown": 75000,
+      "mana_cost": 220,
+      "effects": {
+        "flight": true,
+        "lightning_damage": 75,
+        "attack_speed": 1.4,
+        "wind_control": true,
+        "visual_effect": "storm_clouds"
+      },
+      "abilities": [
+        {
+          "id": "chain_lightning",
+          "name": "Chain Lightning",
+          "description": "Lightning that jumps between multiple targets",
+          "cooldown": 10000,
+          "damage": 120,
+          "targets": 4,
+          "jump_range": 8.0,
+          "stun_chance": 30
+        }
+      ]
+    }
+  ],
+  "harmony_synergies": {
+    "dual_element_casting": {
+      "description": "Cast two different elemental spells simultaneously",
+      "mana_multiplier": 1.5,
+      "damage_multiplier": 1.8,
+      "cooldown_penalty": 0.7
+    },
+    "elemental_fusion": {
+      "description": "Combine elements for unique effects",
+      "fusion_recipes": [
+        {
+          "elements": [
+            "fire",
+            "water"
+          ],
+          "result": "steam_blast",
+          "damage": 250,
+          "effect": "steam_cloud"
+        },
+        {
+          "elements": [
+            "earth",
+            "air"
+          ],
+          "result": "sandstorm",
+          "damage": 180,
+          "effect": "blind_and_damage"
+        }
+      ]
+    },
+    "elemental_mastery": {
+      "description": "Master all elements simultaneously",
+      "unlock_level": 40,
+      "passive_bonuses": {
+        "all_elemental_damage": 25,
+        "all_elemental_resistance": 15,
+        "spell_cast_speed": 30
+      }
+    }
+  },
+  "advanced_elemental_synergies": [
+    {
+      "required_traits": [
+        "elemental_harmony",
+        "dragon_lineage"
+      ],
+      "name": "Draconic Elements",
+      "description": "Combine draconic power with elemental mastery",
+      "bonuses": {
+        "breath_weapon_damage": 100,
+        "elemental_breath_unlocked": true,
+        "flight_speed": 2.0
+      },
+      "unlocked_ability": {
+        "id": "elemental_dragon_breath",
+        "name": "Elemental Dragon Breath",
+        "description": "Breathe different elements based on current harmony",
+        "cooldown": 20000,
+        "damage": 300,
+        "range": 15.0,
+        "elemental_choice": true
+      }
+    },
+    {
+      "required_traits": [
+        "elemental_harmony",
+        "nature_attunement"
+      ],
+      "name": "Elemental Druidism",
+      "description": "Merge elemental and natural forces",
+      "bonuses": {
+        "nature_spell_power": 50,
+        "elemental_regeneration": 40,
+        "environmental_control": true
+      },
+      "unlocked_ability": {
+        "id": "elemental_nature_fusion",
+        "name": "Elemental Nature Fusion",
+        "description": "Create elemental spirits from natural forces",
+        "cooldown": 30000,
+        "spirit_damage": 150,
+        "spirit_duration": 45000,
+        "spirit_count": 3
+      }
+    },
+    {
+      "required_traits": [
+        "elemental_harmony",
+        "storm_caller"
+      ],
+      "name": "Perfect Storm",
+      "description": "Achieve adapted_referencete control over weather and elements",
+      "bonuses": {
+        "weather_control": true,
+        "storm_damage": 75,
+        "lightning_chains": 2,
+        "wind_speed": 3.0
+      },
+      "unlocked_ability": {
+        "id": "perfect_storm",
+        "name": "Perfect Storm",
+        "description": "Summon a catastrophic storm combining all elements",
+        "cooldown": 300000,
+        "duration": 60000,
+        "damage_per_second": 100,
+        "radius": 25.0,
+        "environmental_effects": [
+          "heavy_rain",
+          "thunder",
+          "high_winds",
+          "lightning_strikes"
+        ]
+      }
+    }
+  ],
+  "elemental_balance_mechanics": {
+    "harmony_meter": {
+      "max_harmony": 100,
+      "decay_rate": 1,
+      "elemental_actions": {
+        "fire_spell": 5,
+        "water_spell": 5,
+        "earth_spell": 5,
+        "air_spell": 5,
+        "mixed_spell": 10
+      }
+    },
+    "imbalance_penalties": {
+      "low_harmony": {
+        "spell_failure_chance": 20,
+        "damage_reduction": 15,
+        "mana_cost_increase": 25
+      },
+      "extreme_imbalance": {
+        "elemental_backlash": true,
+        "self_damage": 50,
+        "harmony_lockout": 10000
+      }
+    },
+    "harmony_bonuses": {
+      "full_harmony": {
+        "spell_power": 50,
+        "cast_speed": 40,
+        "cooldown_reduction": 30,
+        "elemental_mastery": true
+      }
+    }
+  },
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

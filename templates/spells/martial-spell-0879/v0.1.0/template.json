@@ -1,0 +1,72 @@
+{
+  "id": "martial_spell_0879",
+  "name": "Martial Spell 0879",
+  "description": "Un coup dévastateur qui étourdit et interrompt tous les sorts en cours, laissant l'ennemi désorienté et incapable d'agir",
+  "icon": "martial_spell_0879_icon",
+  "school": "martial",
+  "rarity": "rare",
+  "spell_type": "stunning_kick_interrupt",
+  "target_type": "enemy_target",
+  "range": 6.0,
+  "cast_time": 0,
+  "cooldown": 25000,
+  "mana_cost": 55,
+  "damage": {
+    "base_damage": 140,
+    "damage_type": "concussive_kick_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "devastating_knockout_strike",
+      "value": 200,
+      "duration": 8000,
+      "tick_rate": 0,
+      "stun_duration_ms": 4000,
+      "all_spell_casting_interrupted": true,
+      "blackout_vision_debuff": true,
+      "next_attack_blocked": true,
+      "concussion_damage_dot": 25,
+      "stun_knockback_distance": 3.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "power_building_ball_lightning_flash_quick_kick_motion",
+    "strike_effect": "powerful_kick_impact_target_flying_back_eyes_rolling",
+    "stun_effect": "victim_dazed_confused_vision_swimming_abi_lightning_aura",
+    "recovery_effect": "victim_shaking_head_clearing_stun_staggering_recovery"
+  },
+  "sound_effects": {
+    "cast_effect": "power_gathering_quick_energy_build_wind_rush",
+    "strike_effect": "powerful_kick_impact_whump_target_impact_groan",
+    "stun_effect": "dazed_confusion_whir_vision_disoriented_tinnitus",
+    "recovery_effect": "head_shaking_clearing_confusion_eye_blink_consciousness"
+  },
+  "requirements": {
+    "level": 28,
+    "skills": [
+      "martial_arts",
+      "concussion_strikes",
+      "stun_techniques"
+    ],
+    "classes": [
+      "monk",
+      "stunning_striker",
+      "disruption_master"
+    ],
+    "specializations": [
+      "knockout_artist"
+    ]
+  },
+  "upgrades": {
+    "greater_blackout_kick": {
+      "unlock_level": 38,
+      "description": "Le Martial Spell 0879 devient plus efficace avec des effets prolongés et des inturruptions accrues",
+      "stun_duration_extension_ms": 3000,
+      "spell_interrupt_window_increase": 5000,
+      "consecutive_kick_combo": 2,
+      "permanent_concussion_chance": 0.1
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

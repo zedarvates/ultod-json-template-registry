@@ -1,0 +1,311 @@
+{
+  "blueprint_id": "npc_house_5",
+  "name": "npc_house_5",
+  "lot": {
+    "width": 15,
+    "depth": 15,
+    "cell_size": 1,
+    "floor_height": 3
+  },
+  "floors": [
+    {
+      "level": 0,
+      "tiles": [
+        {
+          "x": 6,
+          "z": 6,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 7,
+          "z": 6,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 8,
+          "z": 6,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 6,
+          "z": 7,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 7,
+          "z": 7,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 8,
+          "z": 7,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 6,
+          "z": 8,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 7,
+          "z": 8,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 8,
+          "z": 8,
+          "part_id": "sol_carrelage"
+        }
+      ],
+      "walls": [
+        {
+          "x": 6,
+          "z": 6,
+          "edge": "N",
+          "part_id": "mur_torchis",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 9,
+          "edge": "N",
+          "part_id": "mur_devanture",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 6,
+          "edge": "N",
+          "part_id": "fenetre_ronde",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 9,
+          "edge": "N",
+          "part_id": "porte_bois",
+          "stack": 0
+        },
+        {
+          "x": 8,
+          "z": 6,
+          "edge": "N",
+          "part_id": "mur_torchis",
+          "stack": 0
+        },
+        {
+          "x": 8,
+          "z": 9,
+          "edge": "N",
+          "part_id": "mur_devanture",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 6,
+          "edge": "W",
+          "part_id": "mur_torchis",
+          "stack": 0
+        },
+        {
+          "x": 9,
+          "z": 6,
+          "edge": "W",
+          "part_id": "mur_torchis",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 7,
+          "edge": "W",
+          "part_id": "fenetre_ronde",
+          "stack": 0
+        },
+        {
+          "x": 9,
+          "z": 7,
+          "edge": "W",
+          "part_id": "fenetre_ronde",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_torchis",
+          "stack": 0
+        },
+        {
+          "x": 9,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_torchis",
+          "stack": 0
+        }
+      ]
+    }
+  ],
+  "roof": [
+    {
+      "x": 6,
+      "z": 6,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 7,
+      "z": 6,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 8,
+      "z": 6,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 7,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 7,
+      "z": 7,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 8,
+      "z": 7,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 8,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 7,
+      "z": 8,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 8,
+      "z": 8,
+      "part_id": "toit_plat",
+      "rotation": 0
+    }
+  ],
+  "garden": [
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0,
+        0,
+        2
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0,
+        0,
+        3
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0,
+        0,
+        4
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0,
+        0,
+        5
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0,
+        0,
+        6
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0,
+        0,
+        7
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "arbre_chene",
+      "position": [
+        -7,
+        0,
+        -6
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "buisson",
+      "position": [
+        0,
+        0,
+        -6
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "buisson",
+      "position": [
+        -3,
+        0,
+        -7
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    }
+  ],
+  "style_id": "oasis_desertique",
+  "ornaments": [],
+  "props": [
+    {
+      "prop_id": "comptoir_bois",
+      "x": 7,
+      "z": 7,
+      "floor": 0,
+      "rotation": 0
+    }
+  ],
+  "kind": "magasin",
+  "id": "npc_house_5",
+  "template_type": "blueprint",
+  "version": "0.1.0"
+}

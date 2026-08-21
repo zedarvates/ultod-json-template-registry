@@ -1,0 +1,43 @@
+{
+  "school": "spiritualism_spell_1410ualism",
+  "rarity": "epic",
+  "target_type": "item",
+  "range": 5.0,
+  "cast_time": 5000,
+  "cooldown": 120000,
+  "mana_cost": 100,
+  "visual_effects": {
+    "cast_effect": "forge_cast",
+    "projectile_effect": "none",
+    "impact_effect": "forge_transformation",
+    "trail_effect": "spiritualism_spell_1410ual_energy_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "forge_cast_sound",
+    "impact_sound": "forge_transformation_sound"
+  },
+  "requirements": {
+    "level": 45
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "spiritualism_spell_1410",
+  "name": "Spiritualism Spell 1410",
+  "description": "Infuses an item with powerful spiritualism_spell_1410ual energy, granting it magical properties",
+  "icon": "spiritualism_spell_1410ualism_spell_1410_icon",
+  "spell_type": "crafting",
+  "crafting": {
+    "enhancement_type": "spiritualism_spell_1410ual_enhancement",
+    "success_chance": 0.8,
+    "required_materials": [
+      "sacred_crystal",
+      "spiritualism_spell_1410_essence"
+    ],
+    "enchantments": [
+      "spiritualism_spell_1410_damage_bonus",
+      "mana_regeneration",
+      "spiritualism_spell_1410_resistance"
+    ]
+  },
+  "template_type": "spell"
+}

@@ -1,0 +1,90 @@
+{
+  "id": "arcane_spell_0783",
+  "name": "Arcane Spell 0783",
+  "description": "Crée des copies illusoires de soi-même qui distraient les ennemis et absorbent les attaques",
+  "icon": "arcane_spell_0783_icon",
+  "school": "arcane",
+  "rarity": "rare",
+  "spell_type": "defensive",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 1500,
+  "cooldown": 120000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "arcane"
+  },
+  "effects": [
+    {
+      "effect_type": "summon_illusions",
+      "value": 0,
+      "duration": 30000,
+      "tick_rate": 0,
+      "illusion_count": 3,
+      "illusion_health": 100
+    },
+    {
+      "effect_type": "threat_redirection",
+      "value": 50,
+      "duration": 30000,
+      "tick_rate": 0,
+      "redirection_chance": 0.7
+    },
+    {
+      "effect_type": "spell_echo",
+      "value": 30,
+      "duration": 30000,
+      "tick_rate": 0,
+      "echo_chance": 0.4
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "arcane_explosion",
+    "illusion_effect": "arcane_spell_0783_shatter",
+    "persistent_effect": "illusion_glow",
+    "expire_effect": "arcane_spell_0783_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "glass_shatter",
+    "illusion_sound": "arcane_spell_0783_crack",
+    "expire_sound": "illusion_pop"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "mage",
+      "illusionist",
+      "bard",
+      "wizard"
+    ]
+  },
+  "upgrades": {
+    "greater_mirror_image": {
+      "unlock_level": 28,
+      "description": "Crée plus d'images avec plus de santé et de durée",
+      "illusion_count": 5,
+      "duration_bonus": 15000,
+      "illusion_health_bonus": 50
+    },
+    "prismatic_image": {
+      "unlock_level": 38,
+      "description": "Les images ont des résistances élémentaires et peuvent lancer des sorts",
+      "elemental_resistances": true,
+      "spell_casting": true,
+      "spell_power": 50
+    },
+    "mirror_army": {
+      "unlock_level": 48,
+      "description": "Crée une armée d'images qui attaquent activement les ennemis",
+      "illusion_count": 8,
+      "auto_attack": true,
+      "damage_per_illusion": 25
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

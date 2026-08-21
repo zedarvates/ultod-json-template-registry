@@ -1,0 +1,45 @@
+{
+  "id": "flight",
+  "name": "Vol",
+  "description": "Capacité innée à voler et à se déplacer dans les airs",
+  "icon": "flight_icon",
+  "category": "mobility",
+  "rarity": "legendary",
+  "stat_modifiers": {
+    "dexterity": 0.2,
+    "agility": 0.25,
+    "movement_speed": 0.3
+  },
+  "passive_effects": [
+    {
+      "id": "winged_flight",
+      "name": "Vol Ailé",
+      "description": "Peut voler à une vitesse de 20 m/s avec une endurance illimitée",
+      "modifier_type": "flight_speed",
+      "value": 20.0
+    },
+    {
+      "id": "aerial_maneuverability",
+      "name": "Manœuvrabilité Aérienne",
+      "description": "Peut effectuer des virages serrés et des loopings en vol",
+      "modifier_type": "flight_maneuverability",
+      "value": 100.0
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "dive_attack",
+      "name": "Attaque en Piqué",
+      "description": "Plonge du ciel pour un coup dévastateur",
+      "cooldown": 15000,
+      "duration": 0,
+      "effects": {
+        "damage_multiplier": 2.5,
+        "knockback": 10.0
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

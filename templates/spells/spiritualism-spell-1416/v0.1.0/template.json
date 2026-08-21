@@ -1,0 +1,37 @@
+{
+  "school": "spiritualism_spell_1416ualism",
+  "rarity": "common",
+  "target_type": "ground",
+  "range": 20.0,
+  "cast_time": 1500,
+  "cooldown": 30000,
+  "mana_cost": 35,
+  "visual_effects": {
+    "cast_effect": "ward_cast",
+    "projectile_effect": "none",
+    "impact_effect": "ward_placement",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "ward_cast_sound",
+    "impact_sound": "ward_placement_sound"
+  },
+  "requirements": {
+    "level": 11
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "spiritualism_spell_1416",
+  "name": "Spiritualism Spell 1416",
+  "description": "Creates a ward that prevents harmful spiritualism_spell_1416s from entering an area",
+  "icon": "spiritualism_spell_1416ualism_spell_1416_icon",
+  "spell_type": "ward",
+  "ward": {
+    "duration": 60000,
+    "radius": 10.0,
+    "blocks_negative_spells": true,
+    "blocks_summons": true,
+    "effect_type": "protection"
+  },
+  "template_type": "spell"
+}

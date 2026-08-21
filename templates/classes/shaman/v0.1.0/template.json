@@ -1,0 +1,80 @@
+{
+  "id": "shaman",
+  "name": "Shaman",
+  "description": "A spiritual guide who communes with elemental forces and ancestral spirits",
+  "color": "0070DE",
+  "primary_resource": "mana",
+  "base_stats": {
+    "strength": 12,
+    "agility": 14,
+    "intelligence": 16,
+    "vitality": 14,
+    "wisdom": 18,
+    "charisma": 16
+  },
+  "specializations": [
+    "elemental",
+    "enhancement",
+    "restoration_shaman"
+  ],
+  "starting_skills": [
+    {
+      "id": 7001,
+      "name": "Lightning Bolt",
+      "description": "Calls upon the power of lightning to strike an enemy",
+      "cooldown": 0,
+      "mana_cost": 265,
+      "range": 30.0,
+      "cast_time": 2500,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 7002,
+      "name": "Earthbind Totem",
+      "description": "Summons a totem that slows nearby enemies",
+      "cooldown": 0,
+      "mana_cost": 125,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 4,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 70001,
+            "name": "Elemental Precision",
+            "description": "Increases spell hit chance by 2%",
+            "max_rank": 3,
+            "icon_path": "talents/shaman/elemental_precision.png"
+          },
+          {
+            "id": 70002,
+            "name": "Ancestral Knowledge",
+            "description": "Increases mana by 2%",
+            "max_rank": 5,
+            "icon_path": "talents/shaman/ancestral_knowledge.png"
+          },
+          {
+            "id": 70003,
+            "name": "Spirit Weapons",
+            "description": "Increases weapon damage by 10%",
+            "max_rank": 3,
+            "icon_path": "talents/shaman/spirit_weapons.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100000,
+  "health_modifier": 1.0,
+  "damage_modifier": 1.05,
+  "armor_modifier": 0.9,
+  "template_type": "class",
+  "version": "0.1.0"
+}

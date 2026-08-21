@@ -1,0 +1,72 @@
+{
+  "id": "necromancie_spell_0948",
+  "name": "Necromancie Spell 0948",
+  "description": "Lance une ombre mortelle qui draine la vie de la cible et soigne le lanceur",
+  "icon": "necromancie_spell_0948_icon",
+  "school": "necromancie",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 30.0,
+  "cast_time": 0,
+  "cooldown": 3000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 180,
+    "damage_type": "shadow",
+    "scaling": {
+      "intelligence": 1.3,
+      "wisdom": 0.7
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 180,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "lifesteal",
+      "value": 0.25,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necromancie_spell_0948_cast",
+    "projectile_effect": "shadow_tendril",
+    "impact_effect": "necromancie_spell_0948_explosion"
+  },
+  "sound_effects": {
+    "cast_sound": "necromancie_spell_0948_whisper",
+    "impact_sound": "soul_drain"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [],
+    "classes": [
+      "necromancer",
+      "necromancie_spell_0948_knight"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_death_coil": {
+      "unlock_level": 20,
+      "description": "Necromancie Spell 0948 soigne plus et coûte moins de mana",
+      "lifesteal_bonus": 0.1,
+      "mana_cost_reduction": 10
+    },
+    "death_coil_mastery": {
+      "unlock_level": 30,
+      "description": "Necromancie Spell 0948 peut ressusciter les ennemis tués récemment",
+      "resurrection_chance": 0.15,
+      "damage_bonus": 50
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

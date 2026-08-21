@@ -1,0 +1,65 @@
+{
+  "id": "summoner_raise_skeleton",
+  "name": "Invoquer Squelette",
+  "description": "Anime les os d'un cadavre pour créer un guerrier squelettique",
+  "icon": "raise_skeleton_icon",
+  "category": "combat",
+  "rarity": "uncommon",
+  "ability_type": "summon",
+  "target_type": "corpse",
+  "range": 10.0,
+  "cast_time": 4000,
+  "cooldown": 15000,
+  "resource_cost": {
+    "type": "mana",
+    "amount": 60
+  },
+  "duration": 240000,
+  "effects": [
+    {
+      "effect_type": "summon_pet",
+      "pet_template_id": "skeleton_warrior",
+      "pet_level": "caster_level",
+      "pet_duration": 240000,
+      "requires_corpse": true,
+      "corpse_consumption": true,
+      "scaling": {
+        "wisdom": 0.6,
+        "level": 0.7
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necrotic_energy_gather",
+    "summon_effect": "bones_rise_animation",
+    "active_effect": "skeleton_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "necrotic_chant",
+    "summon_sound": "bones_cracking",
+    "active_sound": "skeleton_clatter"
+  },
+  "requirements": {
+    "level": 8,
+    "class": "summoner",
+    "specialization": "necromancy",
+    "skills": [
+      "necromancy"
+    ]
+  },
+  "upgrades": {
+    "reinforced_bones": {
+      "unlock_level": 20,
+      "description": "Les squelettes ont plus de vie et de défense",
+      "pet_health_bonus": 40,
+      "pet_armor_bonus": 25
+    },
+    "bone_armor": {
+      "unlock_level": 30,
+      "description": "Les squelettes ont une armure naturelle",
+      "pet_damage_reduction": 15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

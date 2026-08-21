@@ -1,0 +1,282 @@
+{
+  "location_id": "temporal_nexus_complex",
+  "name": "Complexe du Nexus Temporel",
+  "description": "Un vaste complexe souterrain où convergent plusieurs lignes temporelles, créant des effets spatio-temporels complexes",
+  "location_type": "dungeon",
+  "rarity": "epic",
+  "size": "large",
+  "access_requirements": {
+    "player_level_min": 50,
+    "temporal_mastery_level": 30,
+    "quest_prerequisite": "temporal_adept",
+    "temporal_essence": 20
+  },
+  "entry_mechanics": {
+    "entry_fee": {
+      "temporal_essence": 5
+    },
+    "cooldown_entry": 3600000,
+    "max_participants": 5,
+    "entry_type": "temporal_ritual"
+  },
+  "environmental_effects": [
+    {
+      "effect_type": "time_distortion_field",
+      "description": "Champ de distortion temporelle affectant toutes les actions",
+      "radius": "entire_dungeon",
+      "effects": {
+        "player_movement_speed": 0.8,
+        "enemy_movement_speed": 1.2,
+        "spell_cast_time": 1.3,
+        "cooldown_multiplier": 0.7
+      },
+      "dynamic_intensity": true
+    },
+    {
+      "effect_type": "reality_glitch_zones",
+      "description": "Zones où la réalité est instable",
+      "count": 8,
+      "spawn_rate": "periodic",
+      "effects": {
+        "invisible_walls": true,
+        "gravity_reversal": true,
+        "object_phasing": true
+      }
+    }
+  ],
+  "rooms": [
+    {
+      "room_id": "temporal_entrance_hall",
+      "name": "Hall d'Entrée Temporel",
+      "size": "large",
+      "description": "Un hallвелик avec des portes temporelles multiples",
+      "primary_objectives": [
+        {
+          "objective": "stabilize_entry_portals",
+          "action_type": "temporal_anchoring",
+          "required_anchors": 3
+        }
+      ],
+      "environmental_challenges": [
+        "door_temporal_switching",
+        "gravity_fluctuation",
+        "reality_anchor_required"
+      ],
+      "monster_encounters": [
+        {
+          "monster_type": "temporal_minion",
+          "count": 3,
+          "behavior": "defensive",
+          "spawn_trigger": "portal_stabilization"
+        }
+      ],
+      "rewards": {
+        "experience": 2000,
+        "items": [
+          "temporal_map_fragment"
+        ],
+        "temporal_essence": 3
+      }
+    },
+    {
+      "room_id": "chronal_laboratory",
+      "name": "Laboratoire Chronal",
+      "size": "medium",
+      "description": "Un laboratoire d'expérimentation temporelle avec des machines complexes",
+      "primary_objectives": [
+        {
+          "objective": "reactivate_temporal_machines",
+          "action_type": "machine_repair",
+          "machines_to_repair": 4
+        },
+        {
+          "objective": "collect_temporal_data",
+          "action_type": "data_extraction",
+          "data_cores": 3
+        }
+      ],
+      "puzzles": [
+        {
+          "puzzle_type": "temporal_sequence",
+          "description": "Réorganiser une séquence temporelle brisée",
+          "difficulty": "medium",
+          "time_limit": 300000
+        },
+        {
+          "puzzle_type": "reality_calibration",
+          "description": "Calibrer les paramètres de réalité",
+          "difficulty": "hard",
+          "precision_required": 95
+        }
+      ],
+      "monster_encounters": [
+        {
+          "monster_type": "temporal_scientist",
+          "count": 2,
+          "behavior": "defensive",
+          "special_abilities": [
+            "temporal_experiment",
+            "reality_distortion"
+          ]
+        }
+      ],
+      "rewards": {
+        "experience": 3500,
+        "items": [
+          "temporal_research_data",
+          "chronal_battery"
+        ],
+        "temporal_essence": 5
+      }
+    },
+    {
+      "room_id": "paradox_chamber",
+      "name": "Chambre des Paradoxes",
+      "size": "large",
+      "description": "Une chambre circulaire où les paradoxes temporels se matérialisent",
+      "primary_objectives": [
+        {
+          "objective": "stabilize_paradox_core",
+          "action_type": "paradox_resolution",
+          "duration": 600000,
+          "requires_team": true
+        }
+      ],
+      "special_mechanics": {
+        "paradox_manifestations": {
+          "spawn_rate": 180000,
+          "paradox_types": [
+            "time_loop",
+            "causality_break",
+            "future_echo"
+          ],
+          "intensity_progression": true
+        },
+        "reality_collapse_timer": {
+          "warning_time": 60000,
+          "total_time": 1800000,
+          "collapse_consequences": "team_death"
+        }
+      },
+      "boss_encounter": {
+        "boss_id": "paradox_master",
+        "name": "Maître du Paradoxe",
+        "phase_mechanics": {
+          "phase_1": "temporal_chaos",
+          "phase_2": "reality_distortion",
+          "phase_3": "paradox_combination"
+        },
+        "special_abilities": [
+          "time_reversal",
+          "reality_break",
+          "paradox_explosion",
+          "causality_disruption"
+        ]
+      },
+      "rewards": {
+        "experience": 10000,
+        "items": [
+          "paradox_master_trophy",
+          "reality_fragment",
+          "temporal_mastery_token"
+        ],
+        "temporal_essence": 10,
+        "unique_loot": [
+          "paradox_resolver_title"
+        ]
+      }
+    },
+    {
+      "room_id": "temporal_artifact_vault",
+      "name": "Cave aux Artéfacts Temporels",
+      "size": "medium",
+      "description": "Une salle sécurisée contenant des artéfacts temporels puissants",
+      "primary_objectives": [
+        {
+          "objective": "secure_artifact_access",
+          "action_type": "temporal_lock_picking",
+          "difficulty": "mythic"
+        }
+      ],
+      "security_systems": [
+        "temporal_lock_mechanism",
+        "reality_security_field",
+        "time_freeze_traps"
+      ],
+      "artifact_selection": [
+        {
+          "artifact_id": "time_stop_pendant",
+          "rarity": "legendary",
+          "acquisition_method": "temporal_challenge",
+          "challenge_type": "time_manipulation_test"
+        },
+        {
+          "artifact_id": "reality_anchor_crystal",
+          "rarity": "epic",
+          "acquisition_method": "puzzle_solution",
+          "puzzle_type": "temporal_lock_combination"
+        },
+        {
+          "artifact_id": "chronal_enhancement_core",
+          "rarity": "rare",
+          "acquisition_method": "combat_proof",
+          "combat_challenge": "temporal_guardian_defense"
+        }
+      ],
+      "rewards": {
+        "experience": 8000,
+        "items": [
+          "selected_artifact",
+          "temporal_vault_key"
+        ],
+        "temporal_essence": 8
+      }
+    }
+  ],
+  "progression_mechanics": {
+    "room_unlocking": "sequential_with_bonus_unlocks",
+    "temporal_stability": {
+      "starting_stability": 0.8,
+      "degradation_rate": 0.001,
+      "restoration_actions": [
+        "temporal_anchoring",
+        "reality_stabilization"
+      ],
+      "collapse_threshold": 0.3
+    },
+    "team_coordination": {
+      "required_coordination_level": 0.7,
+      "coordination_bonuses": [
+        "increased_loot",
+        "reduced_temporal_effects",
+        "artifact_access"
+      ],
+      "coordination_penalties": [
+        "increased_difficulty",
+        "reduced_rewards"
+      ]
+    }
+  },
+  "integration_points": {
+    "quest_system": {
+      "unlock_conditions": [
+        "temporal_adept_completion"
+      ],
+      "dungeon_quest_chains": true,
+      "temporal_mastery_validation": true
+    },
+    "item_system": {
+      "artifact_acquisition": true,
+      "temporal_equipment_crafting_materials": true,
+      "unique_temporal_items": true
+    },
+    "profession_system": {
+      "temporal_research_opportunities": true,
+      "artifact_identification_challenges": true,
+      "temporal_crafting_perfection": true
+    }
+  },
+  "version": "0.1.0",
+  "id": "temporal_nexus_complex",
+  "template_type": "location"
+}

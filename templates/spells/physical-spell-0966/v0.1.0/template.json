@@ -1,0 +1,54 @@
+{
+  "id": "physical_spell_0966",
+  "name": "Physical Spell 0966",
+  "description": "Augmente considérablement les chances d'esquiver les attaques pendant 12 secondes",
+  "icon": "physical_spell_0966_icon",
+  "school": "physical",
+  "rarity": "uncommon",
+  "spell_type": "utility",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 35000,
+  "mana_cost": 35,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "dodge_chance",
+      "value": 60,
+      "duration": 12000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "blur_effect",
+    "projectile_effect": null,
+    "hit_effect": "speed_trails"
+  },
+  "sound_effects": {
+    "cast_sound": "wind_whisper",
+    "projectile_sound": null,
+    "hit_sound": "dodge_whoosh"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [
+      "acrobatics"
+    ],
+    "classes": [
+      "ninja",
+      "rogue",
+      "hunter"
+    ]
+  },
+  "upgrades": {
+    "superior_evasion": {
+      "unlock_level": 16,
+      "description": "Augmente les chances d'esquive d'Physical Spell 0966",
+      "dodge_bonus": 20,
+      "duration_bonus": 3000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

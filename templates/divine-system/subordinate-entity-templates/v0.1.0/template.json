@@ -1,0 +1,539 @@
+{
+  "divine_subordinate_templates": {
+    "archangel_templates": {
+      "seraphim_archangel": {
+        "template_reference": "archangel_seraphim",
+        "instance_data": {
+          "instance_name": "Saint Camael",
+          "specific_title": "Seraphim de la Flamme Divine",
+          "lore": "Premier des Seraphim, Camael incarne la pure énergie divine et la justice fervente. Sa présence brûle de lumière divine pure, et sa voix résonne avec l'autorité absolue du Paradis. Il est envoyé pour exécuter les jugements divins les plus importants et protéger les secrets les plus sacrés.",
+          "portrait_description": "Six-winged angel with burning eyes, surrounded by divine fire, wearing golden armor, holding a flaming sword of justice",
+          "voice_type": "thunderous_holy"
+        },
+        "divine_attributes": {
+          "power_level": 90,
+          "divine_energy": "pure_holiness",
+          "alignment": "lawful_good",
+          "domains": [
+            "divine_justice",
+            "holy_war",
+            "divine_protection",
+            "revelation"
+          ],
+          "special_abilities": [
+            "divine_judgment",
+            "holy_fire_immunity",
+            "seraphim_transformation",
+            "divine_authority"
+          ]
+        },
+        "subordinate_units": {
+          "celestial_knights": {
+            "count": 12,
+            "power_level": 40,
+            "description": "Elite divine warriors under seraphim command"
+          },
+          "holy_executors": {
+            "count": 6,
+            "power_level": 35,
+            "description": "Divine agents who carry out divine will"
+          }
+        },
+        "ritual_capabilities": {
+          "divine_judgment_ceremony": {
+            "duration": "3 hours",
+            "requirements": [
+              "sacred_court",
+              "divine_witnesses",
+              "evidence_presentation"
+            ],
+            "outcome": "absolute_divine_verdict"
+          },
+          "holy_consecration": {
+            "duration": "1 hour",
+            "requirements": [
+              "sacred_ground",
+              "divine_elements"
+            ],
+            "outcome": "permanent_holy_empowerment"
+          }
+        }
+      },
+      "cherubim_archangel": {
+        "template_reference": "archangel_cherubim",
+        "instance_data": {
+          "instance_name": "Saint Azrael",
+          "specific_title": "Cherubim des Secrets Divins",
+          "lore": "Gardien des mystères divins et protecteur des connaissances sacrées. Azrael vole autour du Trône Divin, ses nombreuses yeux percevant tous les secrets de l'univers. Il révèle la vérité divine à ceux qui sont jugés dignes et cache la sagesse aux indignes.",
+          "portrait_description": "Four-faced angel with countless eyes, covered in wings, holding cosmic knowledge tablets, surrounded by swirling mystical energy",
+          "voice_type": "mysterious_whispering"
+        },
+        "divine_attributes": {
+          "power_level": 85,
+          "divine_energy": "mystical_knowledge",
+          "alignment": "neutral_good",
+          "domains": [
+            "divine_knowledge",
+            "mystical_revelation",
+            "secret_guarding",
+            "wisdom_sharing"
+          ],
+          "special_abilities": [
+            "omniscient_vision",
+            "truth_revelation",
+            "mystical_barrier",
+            "secret_knowledge"
+          ]
+        },
+        "subordinate_units": {
+          "mystical_scribes": {
+            "count": 8,
+            "power_level": 30,
+            "description": "Divine librarians recording cosmic knowledge"
+          },
+          "truth_seekers": {
+            "count": 4,
+            "power_level": 25,
+            "description": "Agents who discover hidden truths"
+          }
+        },
+        "ritual_capabilities": {
+          "revelation_ceremony": {
+            "duration": "2 hours",
+            "requirements": [
+              "seeking_heart",
+              "worthy_intent",
+              "sacred_silence"
+            ],
+            "outcome": "divine_truth_revelation"
+          },
+          "knowledge_encryption": {
+            "duration": "4 hours",
+            "requirements": [
+              "secret_texts",
+              "mystical_components"
+            ],
+            "outcome": "impenetrable_divine_encryption"
+          }
+        }
+      }
+    },
+    "prophet_templates": {
+      "visionary_prophet": {
+        "template_reference": "prophet_visionary",
+        "instance_data": {
+          "instance_name": "Marcus le Voyant",
+          "specific_title": "Prophète des Visions Futures",
+          "lore": "Mortel choisi par les divinités supérieures pour recevoir des visions du futur. Marcus peut voir au-delà du voile du temps, percevant les destinée futures et avertissant les mortels des dangers à venir. Ses visions sont souvent poétiques et symboliques, nécessitant une interprétation experte.",
+          "portrait_description": "Elderly man with clouded eyes showing future visions, wearing simple robes with mystical symbols, holding ancient scrolls",
+          "voice_type": "ethereal_prophetic"
+        },
+        "divine_attributes": {
+          "power_level": 55,
+          "divine_energy": "prophetic_vision",
+          "alignment": "neutral_good",
+          "domains": [
+            "future_sight",
+            "divine_communication",
+            "destiny_guidance",
+            "prophecy_interpretation"
+          ],
+          "special_abilities": [
+            "future_vision",
+            "prophetic_dreams",
+            "destiny_sight",
+            "divine_message_reception"
+          ]
+        },
+        "subordinate_units": {
+          "prophecy_scribes": {
+            "count": 3,
+            "power_level": 15,
+            "description": "Dedicated recorders of divine visions"
+          },
+          "vision_interpreters": {
+            "count": 2,
+            "power_level": 20,
+            "description": "Experts in deciphering prophetic messages"
+          }
+        },
+        "ritual_capabilities": {
+          "vision_seeking": {
+            "duration": "6 hours",
+            "requirements": [
+              "trance_induction",
+              "sacred_space",
+              "divine_focus"
+            ],
+            "outcome": "specific_future_vision"
+          },
+          "prophecy_delivery": {
+            "duration": "1 hour",
+            "requirements": [
+              "worthy_audience",
+              "sacred_venue"
+            ],
+            "outcome": "divine_message_transmission"
+          }
+        }
+      },
+      "doom_prophet": {
+        "template_reference": "prophet_doom",
+        "instance_data": {
+          "instance_name": "Cassandra des Malheurs",
+          "specific_title": "Prophète des Cendres et de la Ruine",
+          "lore": "Prophète dotée du terrible don de voir les désastres futurs, mais maudite pour que personne ne croie jamais ses avertissements. Ses visions sont toujours négatives, montrant les pires scénarios possibles. Malgré la malédiction de l'incrédulité, elle continue de avertir, poussée par la compassion divine.",
+          "portrait_description": "Pale woman with haunted eyes, wearing dark robes, surrounded by ominous shadows and ash, holding scrolls of warning",
+          "voice_type": "melancholy_warning"
+        },
+        "divine_attributes": {
+          "power_level": 50,
+          "divine_energy": "ominous_foresight",
+          "alignment": "neutral_good",
+          "domains": [
+            "disaster_warning",
+            "doom_sight",
+            "warning_delivery",
+            "fate_prevention"
+          ],
+          "special_abilities": [
+            "doom_vision",
+            "fate_alteration",
+            "warning_compulsion",
+            "tragedy_prevention"
+          ]
+        },
+        "subordinate_units": {
+          "warning_heralds": {
+            "count": 4,
+            "power_level": 18,
+            "description": "Messengers spreading doom warnings"
+          },
+          "fate_weavers": {
+            "count": 2,
+            "power_level": 22,
+            "description": "Attempters of fate modification"
+          }
+        },
+        "ritual_capabilities": {
+          "doom_vision": {
+            "duration": "8 hours",
+            "requirements": [
+              "tragic_focus",
+              "sacrifice_offering",
+              "night_ritual"
+            ],
+            "outcome": "specific_disaster_vision"
+          },
+          "fate_intervention": {
+            "duration": "12 hours",
+            "requirements": [
+              "worthy_target",
+              "preventive_sacrifice",
+              "collective_will"
+            ],
+            "outcome": "fate_modification_possibility"
+          }
+        }
+      }
+    },
+    "saint_templates": {
+      "martyr_saint": {
+        "template_reference": "saint_martyr",
+        "instance_data": {
+          "instance_name": "Sainte Perpetua",
+          "specific_title": "Martyre de la Foi Inébranlable",
+          "lore": "Morte en martyr pour sa foi, Perpetua a été canonisée pour son sacrifice héroïque et sa fidélité absolue aux commandements divins. Son esprit continue de protéger ceux qui font face à la persécution et inspire un courage surnaturel chez les croyants en détresse.",
+          "portrait_description": "Young woman with radiant expression, holding martyr's palm, wearing simple white robes, surrounded by divine light",
+          "voice_type": "inspiring_courageous"
+        },
+        "divine_attributes": {
+          "power_level": 45,
+          "divine_energy": "martyr_compassion",
+          "alignment": "lawful_good",
+          "domains": [
+            "martyr_protection",
+            "faith_courage",
+            "persecution_defense",
+            "sacrifice_blessing"
+          ],
+          "special_abilities": [
+            "martyr_courage",
+            "persecution_shield",
+            "faith_inspiration",
+            "sacrifice_blessing"
+          ]
+        },
+        "subordinate_units": {
+          "faith_defenders": {
+            "count": 6,
+            "power_level": 16,
+            "description": "Spiritual warriors protecting the faithful"
+          },
+          "courage_inspirers": {
+            "count": 4,
+            "power_level": 14,
+            "description": "Beings inspiring supernatural bravery"
+          }
+        },
+        "ritual_capabilities": {
+          "martyr_communion": {
+            "duration": "30 minutes",
+            "requirements": [
+              "prayer_sacrifice",
+              "faith_demonstration"
+            ],
+            "outcome": "temporary_martyr_courage"
+          },
+          "persecution_blessing": {
+            "duration": "2 hours",
+            "requirements": [
+              "worthy_suffering",
+              "collective_prayer"
+            ],
+            "outcome": "protection_against_persecution"
+          }
+        }
+      },
+      "craft_saint": {
+        "template_reference": "saint_craft",
+        "instance_data": {
+          "instance_name": "Saint Hephaestion",
+          "specific_title": "Patron des Artisans Divins",
+          "lore": "Ancien maître artisan devenu saint patron de tous les craftsmen et créateurs. Hephaestion infuse ses créations avec une partie de sa dévotion divine, produisant des œuvres d'une qualité surnaturelle. Il inspire l'excellence dans tous les arts et métiers manuels.",
+          "portrait_description": "Muscular artisan with divine tools, surrounded by floating crafting implements, wearing workshop apron over sacred robes",
+          "voice_type": "wise_instructive"
+        },
+        "divine_attributes": {
+          "power_level": 40,
+          "divine_energy": "masterwork_inspiration",
+          "alignment": "neutral_good",
+          "domains": [
+            "craft_mastery",
+            "artisan_inspiration",
+            "tool_blessing",
+            "creation_enhancement"
+          ],
+          "special_abilities": [
+            "masterwork_creation",
+            "tool_divine_empowerment",
+            "craft_inspiration",
+            "perfection_vision"
+          ]
+        },
+        "subordinate_units": {
+          "artisan_spirits": {
+            "count": 8,
+            "power_level": 12,
+            "description": "Lesser spirits inspiring specific crafts"
+          },
+          "tool_spirits": {
+            "count": 12,
+            "power_level": 8,
+            "description": "Spirits dwelling in blessed implements"
+          }
+        },
+        "ritual_capabilities": {
+          "masterwork_blessing": {
+            "duration": "4 hours",
+            "requirements": [
+              "worthy_project",
+              "quality_materials",
+              "devoted_craft"
+            ],
+            "outcome": "creation_with_divine_quality"
+          },
+          "tool_consecration": {
+            "duration": "1 hour",
+            "requirements": [
+              "worthy_tool",
+              "craft_demonstration"
+            ],
+            "outcome": "permanently_blessed_implement"
+          }
+        }
+      }
+    },
+    "divine_angel_templates": {
+      "guardian_angel": {
+        "template_reference": "angel_guardian",
+        "instance_data": {
+          "instance_name": "Raphael Protecteur",
+          "specific_title": "Gardien des Âmes Périlleuses",
+          "lore": "Ange dédié à la protection des mortels en danger. Raphael suit secrètement ceux confiés à sa garde, intervenant subtilement pour prévenir les désastres et guider les pas vers la sécurité. Sa protection est souvent invisible jusqu'au moment crucial.",
+          "portrait_description": "Winged warrior in gleaming armor, holding protective shield and healing light, eyes constantly scanning for threats",
+          "voice_type": "gentle_reassuring"
+        },
+        "divine_attributes": {
+          "power_level": 60,
+          "divine_energy": "protective_light",
+          "alignment": "lawful_good",
+          "domains": [
+            "personal_protection",
+            "danger_prevention",
+            "guidance",
+            "healing"
+          ],
+          "special_abilities": [
+            "invisible_protection",
+            "danger_sense",
+            "protective_intervention",
+            "healing_light"
+          ]
+        },
+        "subordinate_units": {
+          "lesser_guardians": {
+            "count": 3,
+            "power_level": 20,
+            "description": "Angels assisting in protection duties"
+          },
+          "warning_spirits": {
+            "count": 6,
+            "power_level": 10,
+            "description": "Spirits providing subtle warnings"
+          }
+        },
+        "ritual_capabilities": {
+          "protection_invocation": {
+            "duration": "15 minutes",
+            "requirements": [
+              "genuine_need",
+              "worthy_heart"
+            ],
+            "outcome": "temporary_divine_protection"
+          },
+          "danger_avertance": {
+            "duration": "immediate",
+            "requirements": [
+              "life_threat",
+              "guardian_presence"
+            ],
+            "outcome": "instant_danger_prevention"
+          }
+        }
+      },
+      "healing_angel": {
+        "template_reference": "angel_healer",
+        "instance_data": {
+          "instance_name": "Uriel Guérisseur",
+          "specific_title": "Maître des Guérisons Divines",
+          "lore": "Ange spécialisé dans la guérison divine et le réconfort des affligés. Uriel apporte des healing_bénédictions qui dépassent la médecine ordinaire, capable de guérir les blessures physiques et émotionnelles. Sa présence apporte la paix et la réconfort aux plus grands sufferers.",
+          "portrait_description": "Gentle angel with healing hands emanating warm light, surrounded by floating medical symbols and herbs",
+          "voice_type": "soothing_healing"
+        },
+        "divine_attributes": {
+          "power_level": 55,
+          "divine_energy": "healing_benevolence",
+          "alignment": "neutral_good",
+          "domains": [
+            "divine_healing",
+            "emotional_comfort",
+            "pain_relief",
+            "recovery_acceleration"
+          ],
+          "special_abilities": [
+            "instant_healing",
+            "pain_dissipation",
+            "emotional_comfort",
+            "recovery_boost"
+          ]
+        },
+        "subordinate_units": {
+          "healing_spirits": {
+            "count": 5,
+            "power_level": 15,
+            "description": "Minor spirits assisting in healing"
+          },
+          "comfort_bearers": {
+            "count": 8,
+            "power_level": 8,
+            "description": "Spirits providing emotional support"
+          }
+        },
+        "ritual_capabilities": {
+          "divine_healing": {
+            "duration": "1 hour",
+            "requirements": [
+              "healing_space",
+              "worthy_patient",
+              "faith_presence"
+            ],
+            "outcome": "complete_physical_healing"
+          },
+          "comfort_blessing": {
+            "duration": "30 minutes",
+            "requirements": [
+              "genuine_suffering",
+              "comfort_seeking"
+            ],
+            "outcome": "emotional_pain_relief"
+          }
+        }
+      }
+    },
+    "mystical_adept_templates": {
+      "divine_mystic": {
+        "template_reference": "adept_mystic",
+        "instance_data": {
+          "instance_name": "Zara l'Enveloppée",
+          "specific_title": "Adepte des Mystères Cosmiques",
+          "lore": "Mortel ayant développé une connexion exceptionnelle avec les énergies divines. Zara a consacré sa vie à l'étude des mystères cosmiques et peut canaliser des fragments de pouvoir divin pour révéler des vérités cachées et influencer le cours des événements subtils.",
+          "portrait_description": "Mystical figure wrapped in shifting ethereal robes, surrounded by floating mystical symbols and cosmic energies",
+          "voice_type": "ethereal_knowledgeable"
+        },
+        "divine_attributes": {
+          "power_level": 35,
+          "divine_energy": "mystical_connection",
+          "alignment": "true_neutral",
+          "domains": [
+            "mystical_revelation",
+            "cosmic_understanding",
+            "energy_manipulation",
+            "hidden_truth"
+          ],
+          "special_abilities": [
+            "cosmic_insight",
+            "energy_manipulation",
+            "mystical_revelation",
+            "truth_seeing"
+          ]
+        },
+        "subordinate_units": {
+          "mystical_apprentices": {
+            "count": 2,
+            "power_level": 12,
+            "description": "Students learning mystical arts"
+          },
+          "energy_spirits": {
+            "count": 4,
+            "power_level": 6,
+            "description": "Spirits of pure divine energy"
+          }
+        },
+        "ritual_capabilities": {
+          "cosmic_revelation": {
+            "duration": "3 hours",
+            "requirements": [
+              "mystical_focus",
+              "cosmic_alignment",
+              "sacrifice_offering"
+            ],
+            "outcome": "hidden_truth_revelation"
+          },
+          "energy_manipulation": {
+            "duration": "1 hour",
+            "requirements": [
+              "energy_source",
+              "mystical_knowledge"
+            ],
+            "outcome": "controlled_divine_energy_use"
+          }
+        }
+      }
+    }
+  },
+  "id": "subordinate_entity_templates",
+  "name": "Subordinate Entity Templates",
+  "template_type": "divine_system",
+  "version": "0.1.0"
+}

@@ -1,0 +1,67 @@
+{
+  "template_type": "bulk_order",
+  "version": "0.1.0",
+  "name": "Standard Crafting Bulk Order",
+  "description": "A configurable bulk order deed system for crafting professions, rewarding skilled artisans who fulfill large commissions.",
+  "global_settings": {
+    "enabled": true,
+    "max_active_orders_per_player": 3,
+    "order_refresh_hours": 24,
+    "server_validates_completion": true
+  },
+  "order_types": {
+    "small": {
+      "quantity_range": [
+        10,
+        20
+      ],
+      "reward_multiplier": 1.0
+    },
+    "medium": {
+      "quantity_range": [
+        21,
+        50
+      ],
+      "reward_multiplier": 1.4
+    },
+    "large": {
+      "quantity_range": [
+        51,
+        100
+      ],
+      "reward_multiplier": 2.0
+    }
+  },
+  "order_objectives": {
+    "min_quality": "normal",
+    "allow_exceptional": true,
+    "exceptional_bonus_multiplier": 1.25
+  },
+  "reward_system": {
+    "base_gold": 100,
+    "quality_bonus_percent": 20,
+    "faction_reputation_points": 50,
+    "rare_material_chance": 0.1
+  },
+  "ui_configuration": {
+    "show_progress_bar": true,
+    "notify_on_completion": true
+  },
+  "integration_points": {
+    "crafting_system": true,
+    "auction_house": false,
+    "faction_system": true
+  },
+  "security_settings": {
+    "server_side_validation": true,
+    "anti_exploit_checks": true
+  },
+  "localization": {
+    "default_language": "en",
+    "supported_languages": [
+      "en",
+      "fr"
+    ]
+  },
+  "customization": {}
+}

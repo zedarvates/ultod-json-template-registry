@@ -1,0 +1,84 @@
+{
+  "id": "arcane_spell_0770",
+  "name": "Arcane Spell 0770",
+  "description": "Lance une volée de missiles arcaniques qui frappent automatiquement l'ennemi",
+  "icon": "arcane_spell_0770_spell_0770_icon",
+  "school": "arcane_spell_0770",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single_target",
+  "range": 30.0,
+  "cast_time": 2500,
+  "cooldown": 0,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 20,
+    "damage_type": "arcane_spell_0770",
+    "scaling": {
+      "intelligence": 0.8,
+      "wisdom": 0.2
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "missile_barrage",
+      "value": 20,
+      "duration": 0,
+      "tick_rate": 500,
+      "max_missiles": 5,
+      "auto_hit": true
+    },
+    {
+      "effect_type": "spell_power_bonus",
+      "value": 10,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "arcane_spell_0770_gathering",
+    "projectile_effect": "magic_missiles",
+    "impact_effect": "arcane_spell_0770_burst",
+    "trail_effect": "magic_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "arcane_spell_0770_charge",
+    "projectile_sound": "missile_launch",
+    "impact_sound": "arcane_spell_0770_hit"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "mage",
+      "warlock",
+      "priest",
+      "wizard"
+    ]
+  },
+  "upgrades": {
+    "arcane_barrage": {
+      "unlock_level": 16,
+      "description": "Lance plus de missiles avec des dégâts accrus",
+      "max_missiles": 8,
+      "damage_per_missile": 25
+    },
+    "missile_bombardment": {
+      "unlock_level": 26,
+      "description": "Les missiles peuvent toucher plusieurs cibles proches",
+      "chain_targets": 3,
+      "chain_damage_reduction": 0.6
+    },
+    "arcane_orb": {
+      "unlock_level": 36,
+      "description": "Les missiles convergent en une puissante sphère explosive",
+      "final_explosion_damage": 200,
+      "aoe_range": 6.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

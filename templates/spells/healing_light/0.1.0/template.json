@@ -1,0 +1,60 @@
+{
+  "id": "healing_light",
+  "name": "Healing Light",
+  "description": "A warm beam of holy light mends the wounds of a single ally.",
+  "icon": "spell_holy_heal",
+  "school": "holy",
+  "rarity": "common",
+  "spell_type": "single_target_heal",
+  "target_type": "ally",
+  "range": 40,
+  "cast_time": 1800,
+  "cooldown": 2500,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "holy_damage",
+    "scaling": {
+      "attribute": "wisdom",
+      "coefficient": 1.1
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "healing_wave",
+      "value": 180,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fx_holy_cast",
+    "impact_effect": "fx_heal_sparkle"
+  },
+  "sound_effects": {
+    "cast_effect": "snd_holy_chime",
+    "impact_effect": "snd_heal_soft"
+  },
+  "requirements": {
+    "level": 1,
+    "classes": [
+      "cleric",
+      "paladin"
+    ]
+  },
+  "vr_configuration": {
+    "gestures": {
+      "left_pose": "open",
+      "right_pose": "point",
+      "required_hand": "right"
+    },
+    "haptics": {
+      "charge_pattern": "haptic_holy_charge",
+      "launch_pattern": "haptic_holy_send",
+      "impact_pattern": "haptic_holy_warmth"
+    }
+  },
+  "enabled": true,
+  "template_type": "spell",
+  "version": "0.1.0"
+}

@@ -1,0 +1,90 @@
+{
+  "id": "aethari",
+  "name": "Aethari",
+  "description": "A lithe fey-born people woven from living light and forest resonance, attuned to the wild song of the world.",
+  "icon": "race_aethari",
+  "category": "fey",
+  "rarity": "uncommon",
+  "faction": "nature",
+  "base_stats": {
+    "strength": 16,
+    "dexterity": 30,
+    "constitution": 18,
+    "intelligence": 28,
+    "wisdom": 26,
+    "charisma": 24,
+    "luck": 20
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 1.15,
+    "experience_rate": 1.1,
+    "health_regeneration": 1.1,
+    "mana_regeneration": 1.2
+  },
+  "available_classes": [
+    "ranger",
+    "druid",
+    "rogue",
+    "mage"
+  ],
+  "racial_traits": [
+    "photosynthetic_regen",
+    "fey_step",
+    "verdant_sense"
+  ],
+  "passive_bonuses": {
+    "skill_points_per_level": 1,
+    "attribute_points_per_level": 1,
+    "resistance_to_fear": 15,
+    "bonus_to_all_skills": 2
+  },
+  "starting_equipment": {
+    "weapons": [
+      "reed_bow"
+    ],
+    "armor": [
+      "leaf_vest"
+    ],
+    "items": [
+      "spirit_berry"
+    ]
+  },
+  "body_proportions": {
+    "height_min": 150,
+    "height_max": 185,
+    "weight_min": 45,
+    "weight_max": 70,
+    "body_type": "slim"
+  },
+  "appearance_restrictions": {
+    "skin_colors": [
+      "pale_green",
+      "silver",
+      "amber"
+    ],
+    "hair_colors": [
+      "moss",
+      "white",
+      "violet"
+    ],
+    "eye_colors": [
+      "gold",
+      "teal"
+    ],
+    "facial_features": "delicate"
+  },
+  "cultural_background": {
+    "languages": [
+      "syllan",
+      "old_root"
+    ],
+    "starting_city": "Lumenholt",
+    "alignment_tendency": "neutral_good",
+    "cultural_bonuses": {
+      "nature": 10,
+      "crafting": 5
+    }
+  },
+  "template_type": "race",
+  "version": "0.1.0"
+}

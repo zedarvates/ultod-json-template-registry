@@ -1,0 +1,96 @@
+{
+  "id": "druid_nature_wrath",
+  "name": "Colère de la Nature",
+  "description": "Invoque la fureur de la nature pour frapper tous les ennemis autour",
+  "ability_type": "active",
+  "category": "damage",
+  "cooldown": 90000,
+  "mana_cost": 100,
+  "cast_time": 2500,
+  "range": 15.0,
+  "target_type": "area",
+  "duration": 0,
+  "effects": [
+    {
+      "effect_type": "nature_damage",
+      "value": 300,
+      "duration": 0,
+      "tick_rate": 0,
+      "school": "nature",
+      "area_effect": true,
+      "area_radius": 10.0
+    },
+    {
+      "effect_type": "root",
+      "value": 0.7,
+      "duration": 5000,
+      "tick_rate": 0,
+      "school": "nature",
+      "area_effect": true,
+      "area_radius": 10.0
+    },
+    {
+      "effect_type": "nature_dot",
+      "value": 50,
+      "duration": 15000,
+      "tick_rate": 3000,
+      "total_ticks": 5,
+      "school": "nature",
+      "area_effect": true,
+      "area_radius": 10.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "nature_earthquake",
+    "impact_effect": "nature_explosion",
+    "dot_effect": "poison_vines"
+  },
+  "sound_effects": {
+    "cast_sound": "earthquake_rumble",
+    "impact_sound": "nature_explosion",
+    "dot_sound": "vine_growth"
+  },
+  "scaling": {
+    "spell_power": 1.5,
+    "nature_mastery": 1.2
+  },
+  "requirements": {
+    "level": 35,
+    "abilities": [
+      "wild_morph",
+      "entangling_roots"
+    ],
+    "class": "druid"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "base_damage": 200,
+      "root_chance": 0.5,
+      "dot_damage": 30
+    },
+    "journeyman": {
+      "base_damage": 250,
+      "root_chance": 0.6,
+      "dot_damage": 40,
+      "area_radius": 12.0
+    },
+    "master": {
+      "base_damage": 300,
+      "root_chance": 0.7,
+      "dot_damage": 50,
+      "area_radius": 15.0,
+      "slow_effect": 0.3
+    },
+    "grandmaster": {
+      "base_damage": 400,
+      "root_chance": 0.8,
+      "dot_damage": 60,
+      "area_radius": 20.0,
+      "slow_effect": 0.5,
+      "knockback": true
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

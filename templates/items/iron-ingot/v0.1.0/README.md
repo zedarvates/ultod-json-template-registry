@@ -1,7 +1,7 @@
-# Iron Ingot v0.1.0
+# Lingot de Fer v0.1.0
 
-Status: `experimental`.
+Statut : `experimental`.
 
-Original public-safe adaptation informed by `item/iron_ingot.json`. Economy, runtime state, effects, internal controls, and asset paths are excluded.
+Source auditée : `item/iron_ingot.json`. Les contrôles administratifs, données commerciales et chemins internes sont retirés.
 
-No client or server compatibility is certified.
+Aucune compatibilité client ou serveur n'est certifiée.

@@ -1,0 +1,35 @@
+{
+  "id": "healing_potion",
+  "name": "Potion de Soin",
+  "description": "Une potion qui restaure les points de vie",
+  "profession": "alchemy",
+  "station_type": "alchemy_lab",
+  "skill_requirement": 25,
+  "ingredients": [
+    {
+      "item_template_id": "adapted_reference",
+      "quantity": 2
+    },
+    {
+      "item_template_id": "adapted_reference",
+      "quantity": 1
+    },
+    {
+      "item_template_id": "empty_flask",
+      "quantity": 1
+    }
+  ],
+  "result": {
+    "item_template_id": "healing_potion",
+    "quantity": 1,
+    "quality_range": {
+      "min": "common",
+      "max": "rare"
+    }
+  },
+  "crafting_time_seconds": 20,
+  "difficulty": 0.4,
+  "experience_gained": 20,
+  "template_type": "recipe",
+  "version": "0.1.0"
+}

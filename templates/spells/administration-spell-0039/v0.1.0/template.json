@@ -1,0 +1,54 @@
+{
+  "id": "administration_spell_0039",
+  "name": "Administration Spell 0039",
+  "description": "[ADMIN ONLY] Send a global message to all players administration_spell_0039-wide instantly",
+  "icon": "admin_announce_icon",
+  "school": "administration",
+  "rarity": "epic",
+  "spell_type": "administration_spell_0039_management",
+  "target_type": "global_administration_spell_0039",
+  "range": -1,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "administrative_communication"
+  },
+  "effects": [
+    {
+      "effect_type": "global_broadcast_message",
+      "value": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "message_reach": "all_online_players",
+      "announcement_priority": "highest",
+      "message_persistence": "continuous_until_dismissed",
+      "translation_automatic": true,
+      "repeat_functionality": false
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "golden_light_burst_from_caster",
+    "active_effect": "administration_spell_0039_wide_golden_message_banner",
+    "success_effect": "global_acknowledgment_sounds",
+    "complete_effect": "message_banner_dissolution"
+  },
+  "sound_effects": {
+    "cast_effect": "attention_grabbing_trumpet_fanfare",
+    "active_effect": "serious_tonal_notification_chime",
+    "success_effect": "confirmation_reception_notification",
+    "complete_effect": "subtle_return_to_normal_ambient"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "gamemaster",
+      "overseer",
+      "celestial_avatar"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

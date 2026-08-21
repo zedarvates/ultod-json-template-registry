@@ -1,0 +1,256 @@
+{
+  "id": "healer",
+  "name": "Healer",
+  "description": "Medical expert specializing in wound treatment and disease cure",
+  "icon": "npcs/healer_icon.png",
+  "category": "professional",
+  "awareness": {
+    "enabled": true,
+    "cognitive_level": "summary",
+    "initial_lod": "distant",
+    "initial_yaw_radians": 0.0,
+    "senses": {
+      "vision_range": 18.0,
+      "hearing_range": 15.0,
+      "tactile_sensitivity": 0.8
+    },
+    "attention": {
+      "capacity": 6,
+      "max_visual_candidates": 18,
+      "max_occlusion_rays": 4
+    },
+    "values": {
+      "nonviolence": 1.0,
+      "fairness": 0.8,
+      "loyalty": 0.7,
+      "honor": 0.7,
+      "compassion": 1.0,
+      "reciprocity": 0.7
+    },
+    "personal_norms": {
+      "property_rights": 0.5,
+      "nonviolence": 1.0,
+      "anti_coercion": 0.9,
+      "dignity": 0.9,
+      "reciprocity": 0.7
+    },
+    "initial_goals": {
+      "self_preservation": 0.6,
+      "possessions": 0.3,
+      "social_standing": 0.6,
+      "protect_others": 1.0,
+      "preserve_order": 0.6,
+      "affiliation": 0.9
+    },
+    "reaction_policy": {
+      "threat_response": "seek_guard",
+      "may_defend": false,
+      "may_retaliate": false
+    }
+  },
+  "rarity": "common",
+  "npc_type": "service_provider",
+  "base_stats": {
+    "level": 12,
+    "hp": 140,
+    "max_hp": 140,
+    "mana": 120,
+    "max_mana": 120,
+    "strength": 10,
+    "dexterity": 12,
+    "intelligence": 16,
+    "wisdom": 18,
+    "constitution": 14,
+    "charisma": 14,
+    "speed": 0.8,
+    "size": 0.9,
+    "weight": 65.0
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_flying": false,
+    "is_aquatic": false,
+    "is_undead": false,
+    "is_elemental": false,
+    "is_mechanical": false,
+    "is_magical": true,
+    "is_divine": false,
+    "is_fiendish": false,
+    "is_wild": false,
+    "is_tameable": false,
+    "is_summonable": false,
+    "is_soulbound": false,
+    "is_cursed": false,
+    "is_blessed": false,
+    "is_poisoned": false,
+    "is_paralyzed": false,
+    "is_silenced": false,
+    "is_blinded": false,
+    "is_deafened": false,
+    "is_charmed": false,
+    "is_frightened": false,
+    "is_confused": false,
+    "is_stunned": false,
+    "is_sleeping": false,
+    "is_invisible": false,
+    "is_invulnerable": false,
+    "is_immortal": false,
+    "is_unique": false,
+    "is_boss": false,
+    "is_mini_boss": false,
+    "is_elite": false,
+    "is_rare": false,
+    "is_common": true,
+    "is_uncommon": false,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "loot_table": {
+    "gold": {
+      "min": 20,
+      "max": 150
+    },
+    "items": [
+      {
+        "item_id": "healing_herb",
+        "chance": 0.4,
+        "min_quantity": 1,
+        "max_quantity": 4
+      },
+      {
+        "item_id": "medical_bag",
+        "chance": 0.3,
+        "min_quantity": 1,
+        "max_quantity": 1
+      },
+      {
+        "item_id": "blessed_bandage",
+        "chance": 0.2,
+        "min_quantity": 1,
+        "max_quantity": 2
+      }
+    ]
+  },
+  "ai_behavior": {
+    "wander_chance": 0.02,
+    "wander_range": 3.0,
+    "max_targets": 2,
+    "combat_style": "defensive",
+    "preferred_attack": "healing_aura",
+    "patrol_route": [
+      "clinic",
+      "supply_storage",
+      "patient_area",
+      "clinic"
+    ],
+    "response_to_crime": "seek_safety",
+    "ally_detection": "injured_individuals"
+  },
+  "abilities": [
+    "healing_magic",
+    "medical_knowledge",
+    "disease_treatment",
+    "herbal_remedies",
+    "spiritual_guidance"
+  ],
+  "dialogue": {
+    "greetings": [
+      "Welcome, traveler. Are you in need of healing?",
+      "Come in, come in. I can tend to your wounds.",
+      "The light of healing flows through these halls."
+    ],
+    "farewells": [
+      "May your path be free of pain and sorrow.",
+      "Take care, and remember: health is wealth.",
+      "Return if you need further treatment."
+    ],
+    "service_requests": [
+      "Your wounds are serious, but treatable.",
+      "This will require several days of rest.",
+      "I have just the remedy for your ailment."
+    ],
+    "no_gold": [
+      "I cannot provide treatment without payment.",
+      "Perhaps you have something of value to trade?",
+      "The healing arts require resources, I'm afraid."
+    ],
+    "healing_wisdom": [
+      "Prevention is better than cure, remember that.",
+      "Rest and good nutrition are the best medicines.",
+      "Harmony of body and spirit leads to true health."
+    ]
+  },
+  "shop_inventory": {
+    "healing_items": [
+      "lesser_healing_potion",
+      "healing_potion",
+      "greater_healing_potion",
+      "restoration_potion",
+      "antidote",
+      "curative_salve"
+    ],
+    "herbs": [
+      "healing_herb",
+      "pain_relief_herb",
+      "strength_root",
+      "wisdom_leaf",
+      "clarity_berries",
+      "regeneration_moss"
+    ],
+    "bandages": [
+      "clean_bandage",
+      "blessed_bandage",
+      "regenerative_bandage",
+      "sanitized_bandage",
+      "herbal_bandage"
+    ],
+    "services": [
+      "wound_treatment",
+      "disease_cure",
+      "poison_antidote",
+      "blessing_ceremony",
+      "health_consultation"
+    ]
+  },
+  "services": {
+    "buy_items": true,
+    "sell_items": true,
+    "repair_equipment": false,
+    "identify_items": false,
+    "appraisal_service": false,
+    "custom_crafting": false,
+    "healing_services": true,
+    "medical_consultation": true,
+    "herbal_remedies": true,
+    "spiritual_guidance": true
+  },
+  "schedule": {
+    "day": {
+      "06:00": "morning_preparations",
+      "08:00": "clinic_opens",
+      "10:00": "patient_treatment",
+      "12:00": "lunch_break",
+      "13:00": "afternoon_healing",
+      "15:00": "herb_preparation",
+      "17:00": "evening_treatment",
+      "19:00": "clinic_closes"
+    },
+    "night": {
+      "19:00": "evening_prayers",
+      "21:00": "rest",
+      "05:00": "prepare_morning_herbs"
+    }
+  },
+  "resistances": {
+    "physical": 0.05,
+    "fire": 0.0,
+    "ice": 0.0,
+    "lightning": 0.0,
+    "poison": 0.2
+  },
+  "weaknesses": [
+    "physical"
+  ],
+  "version": "0.1.0",
+  "template_type": "npc"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "rogue_spell_1214",
+  "name": "Rogue Spell 1214",
+  "description": "Marque une cible pour la mort, augmentant les dégâts et générant des points de combo",
+  "icon": "rogue_spell_1214_icon",
+  "school": "rogue",
+  "rarity": "rare",
+  "spell_type": "target_debuff",
+  "target_type": "enemy",
+  "range": 30.0,
+  "cast_time": 0,
+  "cooldown": 10000,
+  "energy_cost": 15,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "rogue_spell_1214_debuff",
+      "value": 1,
+      "duration": 12000,
+      "tick_rate": 0,
+      "combo_points_bonus": 1,
+      "damage_taken_bonus": 10,
+      "execute_threshold": 0.35
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "death_rogue_spell_1214",
+    "buff_effect": "marked_target"
+  },
+  "sound_effects": {
+    "cast_sound": "death_chime",
+    "buff_sound": "marked_warning"
+  },
+  "requirements": {
+    "level": 24,
+    "skills": [
+      "subtlety"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

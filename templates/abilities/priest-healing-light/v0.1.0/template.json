@@ -1,0 +1,69 @@
+{
+  "id": "priest_healing_light",
+  "name": "Lumière Guérisseuse",
+  "description": "Invoque une lumière divine qui soigne les blessures",
+  "icon": "healing_light_icon",
+  "category": "combat",
+  "rarity": "common",
+  "ability_type": "healing",
+  "target_type": "single_ally",
+  "range": 20.0,
+  "cast_time": 2000,
+  "cooldown": 0,
+  "resource_cost": {
+    "type": "mana",
+    "amount": 40
+  },
+  "healing": {
+    "base_healing": 60,
+    "healing_type": "holy",
+    "scaling": {
+      "wisdom": 1.0,
+      "intelligence": 0.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "hot",
+      "value": 10,
+      "duration": 8000,
+      "tick_rate": 2000,
+      "scaling": {
+        "wisdom": 0.3
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_glow",
+    "healing_effect": "golden_light",
+    "miss_effect": "light_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_chant",
+    "healing_sound": "healing_chime",
+    "miss_sound": "light_whisper"
+  },
+  "requirements": {
+    "level": 3,
+    "class": "priest",
+    "skills": [
+      "holy_magic"
+    ]
+  },
+  "upgrades": {
+    "divine_favor": {
+      "unlock_level": 12,
+      "description": "Augmente les soins et ajoute une bénédiction",
+      "healing_bonus": 25,
+      "blessing_effect": true
+    },
+    "renewal": {
+      "unlock_level": 25,
+      "description": "Prolonge l'effet de soin sur la durée",
+      "hot_duration_bonus": 4000,
+      "hot_tick_bonus": 5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

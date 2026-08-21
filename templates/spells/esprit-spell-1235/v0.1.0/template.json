@@ -1,0 +1,63 @@
+{
+  "id": "esprit_spell_1235",
+  "name": "Esprit Spell 1235",
+  "description": "Insuffle du courage, augmentant la résistance aux contrôles",
+  "icon": "esprit_spell_1235_icon",
+  "school": "esprit",
+  "rarity": "uncommon",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 1500,
+  "cooldown": 30000,
+  "mana_cost": 20,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "crowd_control_resistance",
+      "value": 30,
+      "duration": 18000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "fear_immune",
+      "value": 0,
+      "duration": 18000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "valor_aura",
+    "projectile_effect": "none",
+    "impact_effect": "courage_shine",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "valor_cry",
+    "impact_sound": "resolution"
+  },
+  "requirements": {
+    "level": 14,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "unbreakable_spirit": {
+      "unlock_level": 26,
+      "description": "Immunité totale aux contrôles de foule",
+      "resistance_bonus": 30
+    },
+    "heroic_resilience": {
+      "unlock_level": 38,
+      "description": "Augmente la durée de l'effet de 50%",
+      "duration_bonus": 9000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

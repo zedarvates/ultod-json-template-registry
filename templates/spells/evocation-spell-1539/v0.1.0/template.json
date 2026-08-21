@@ -1,0 +1,46 @@
+{
+  "id": "evocation_spell_1539",
+  "name": "Evocation Spell 1539",
+  "description": "Inflige des dégâts de foudre et empêche la cible de lâcher ce qu'elle tient",
+  "icon": "evocation_spell_1539_icon",
+  "school": "evocation",
+  "rarity": "common",
+  "spell_type": "melee_attack",
+  "target_type": "single",
+  "range": 1.5,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 14,
+    "damage_type": "lightning",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "lightning_damage",
+      "value": 14,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "electric_charge",
+    "melee_effect": "spark_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "zap"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "warlock"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

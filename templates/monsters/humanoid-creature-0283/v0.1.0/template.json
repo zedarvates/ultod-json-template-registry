@@ -1,0 +1,61 @@
+{
+  "id": "humanoid_creature_0283",
+  "name": "Humanoid Creature 0283",
+  "description": "Humanoid Creature 0283 brutal et agressif, armé d'une massue primitive mais efficace",
+  "icon": "humanoid_creature_0283_icon",
+  "category": "humanoid",
+  "rarity": "common",
+  "base_stats": {
+    "health": 250,
+    "mana": 50,
+    "strength": 45,
+    "dexterity": 25,
+    "intelligence": 15,
+    "wisdom": 20,
+    "constitution": 40,
+    "charisma": 5
+  },
+  "properties": {
+    "is_aggressive": true,
+    "size": "medium",
+    "speed": 8.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "orc_teeth",
+      "primitive_club",
+      "leather_hide"
+    ],
+    "rare_drops": [
+      "orc_trophy",
+      "crude_iron_sword"
+    ],
+    "epic_drops": [
+      "orc_chieftain_totem"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "high",
+    "attack_pattern": "brutal_charge",
+    "special_abilities": [
+      "intimidating_roar",
+      "savage_strike"
+    ]
+  },
+  "abilities": [
+    "club_slam",
+    "intimidating_shout",
+    "brutal_charge",
+    "savage_bite"
+  ],
+  "resistances": {
+    "physical": 20,
+    "poison": 15
+  },
+  "weaknesses": [
+    "fire",
+    "holy"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

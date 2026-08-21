@@ -19,9 +19,11 @@ Central versioned registry for JSON templates and schemas used across the Ultima
 
 ## Status
 
-**Experimental registry.** The collection contains versioned snapshots and public-safe adaptations covering schemas, haptics, avatars, biomes, achievements, events, guilds, locations, houses, items, names, styles, rifts, party configurations, mentorship paths, marriage models, social events, dungeons, paragons, bosses, masterpieces, recipes, creatures, generated content (including a large quest set), prologues, quests, professions, gods, energy, AI, RTS, blueprints, divine systems, and abilities, all released as `0.1.0`.
+**Experimental registry.** The collection contains versioned snapshots covering schemas, haptics, avatars, biomes, achievements, events, guilds, locations, houses, names, styles, rifts, party configurations, mentorship paths, marriage models, social events, dungeons, paragons, bosses, masterpieces, recipes, creatures, generated content (including a large quest set), prologues, quests, professions, gods, energy, AI, RTS, blueprints, divine systems, and abilities, all released as `0.1.0`.
 
 These templates are uncertified snapshots. None is yet declared compatible with a specific client or server version.
+
+Current local coverage accounts for all 4,009 current server JSON sources: 1,884 through existing snapshots or source references and 2,125 through semantic, sanitized exports. Exported templates retain useful gameplay structure and readable names; hash-only placeholder templates are forbidden.
 
 ## Purpose
 
@@ -46,6 +48,9 @@ This repository must not contain:
 A template present in this registry does not prove end-to-end integration. Any compatibility claim must be documented and validated separately.
 
 ## Organization
+
+<details>
+<summary><b>Repository structure</b></summary>
 
 ```text
 templates/
@@ -92,11 +97,6 @@ templates/
         README.md
   houses/
     <blueprint-name>/
-      v<MAJOR>.<MINOR>.<PATCH>/
-        template.json
-        README.md
-  items/
-    <item-name>/
       v<MAJOR>.<MINOR>.<PATCH>/
         template.json
         README.md
@@ -199,6 +199,8 @@ templates/
         README.md
 ```
 
+</details>
+
 The initial selection details and exclusions are documented in [SOURCE_AUDIT.md](SOURCE_AUDIT.md).
 
 Exhaustive coverage and audit status by family are tracked in [AUDIT-COVERAGE.md](AUDIT-COVERAGE.md) and [AUDIT-COVERAGE.json](AUDIT-COVERAGE.json).
@@ -215,35 +217,6 @@ Exhaustive coverage and audit status by family are tracked in [AUDIT-COVERAGE.md
 The registry follows semantic versioning per template. Detailed rules are available in [VERSIONING.md](VERSIONING.md).
 
 The conventions for creating a compatible template are defined in [TEMPLATE-SPEC.md](TEMPLATE-SPEC.md).
-
-## Audit automation
-
-`scripts/build_registry.py` inventories a private source tree without modifying it or the public registry. It excludes `_versions`, compares normalized SHA-256 hashes, parses every JSON document, and assigns one fail-closed disposition:
-
-- `covered`;
-- `snapshot-candidate`;
-- `adaptation-required`;
-- `excluded`;
-- `invalid`.
-
-The per-file manifest can expose private source paths and must be written outside this public repository:
-
-```powershell
-python scripts/build_registry.py `
-  --source "<private-template-source>" `
-  --catalog templates/catalog.json `
-  --output "<private-audit-directory>/template-registry-inventory.json"
-```
-
-Run its deterministic tests with:
-
-```powershell
-python -m unittest discover -s tests -v
-```
-
-Classification is a triage gate, not publication approval. Rights review and removal of internal, commercial, administrative, runtime, and asset-specific data remain mandatory.
-
-Current local audit coverage: all 4,009 current server sources are accounted for, with 1,180 byte-level snapshots and 2,829 public-safe original adaptations linked by private SHA-256 fingerprints. Per-file source paths remain outside the public repository.
 
 ## License
 

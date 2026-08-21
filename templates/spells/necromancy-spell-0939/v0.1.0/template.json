@@ -1,0 +1,74 @@
+{
+  "id": "necromancy_spell_0939",
+  "name": "Necromancy Spell 0939",
+  "description": "Crée une sphère protectrice qui bloque et renverse toute magie de vie, de soin ou de résurrection",
+  "icon": "necromancy_spell_0939_icon",
+  "school": "necromancy",
+  "rarity": "epic",
+  "spell_type": "life_magic_nullification_adapted_reference",
+  "target_type": "self_protective_adapted_reference",
+  "range": 0.0,
+  "cast_time": 4000,
+  "cooldown": 60000,
+  "mana_cost": 120,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "life_magic_reflection_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "life_magic_nullification_adapted_reference",
+      "value": 300,
+      "duration": 30000,
+      "tick_rate": 0,
+      "sphere_protection_radius": 15.0,
+      "life_magic_block_percentage": 100,
+      "healing_spell_prevention": true,
+      "resurrection_magic_suppression": true,
+      "life_magic_reflection_back": 0.7,
+      "anti_life_aura Damage_to_living": 25
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dark_adapted_reference_forming_life_energy_suction_drawing_negative_adapted_reference_crystallizing",
+    "active_effect": "protective_adapted_reference_glowing_dark_life_energy_blocking_healing_rays_reflected_back",
+    "block_effect": "healing_spells_intercepted_dark_adapted_reference_flashing_green_energy_absorbed_bounced",
+    "damage_effect": "living_entities_adapted_reference_damage_dark_energy_arcing_harming_instead",
+    "expiration_effect": "adapted_reference_cracking_fading_dark_energy_dissipating_protection_withdrawn"
+  },
+  "sound_effects": {
+    "cast_effect": "dark_adapted_reference_forming_energy_suction_whirling_life_energy_drawing_void",
+    "active_effect": "protective_adapted_reference_humming_dark_energy_pulsing_life_magic_blocked",
+    "block_effect": "healing_spells_blocked_energy_return_reverb_dark_adapted_reference_rejection_ding",
+    "damage_effect": "living_damage_dark_energy_arcing_hissing_adapted_reference_damage_dealt",
+    "expiration_effect": "adapted_reference_cracking_fading_energy_dissipation_dark_void_disappearance"
+  },
+  "requirements": {
+    "level": 45,
+    "skills": [
+      "necromancy",
+      "life_force_disruption",
+      "necromancy_spell_0939_magic_wards"
+    ],
+    "classes": [
+      "necromancer",
+      "life_denier",
+      "death_ward_master"
+    ],
+    "specializations": [
+      "necromancy_spell_0939_life_barrier_specialist"
+    ]
+  },
+  "upgrades": {
+    "greater_anti_life_shell": {
+      "unlock_level": 60,
+      "description": "La Necromancy Spell 0939 devient plus puissante avec une protection accrue contre les magies de vie",
+      "protection_radius_expansion": 10.0,
+      "life_magic_reflection_increase": 0.9,
+      "additional_magic_types_blocked": true,
+      "anti_life_damage_boost": 50
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

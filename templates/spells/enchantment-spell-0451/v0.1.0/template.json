@@ -1,0 +1,78 @@
+{
+  "id": "enchantment_spell_0451",
+  "name": "Enchantment Spell 0451",
+  "description": "Le druide se transforme en un arbre de vie, améliorant massivement les soins et donnant des capacités de restauration aux alliés",
+  "icon": "enchantment_spell_0451_icon",
+  "school": "enchantment",
+  "rarity": "uncommon",
+  "spell_type": "weapon_power_enhancement",
+  "target_type": "single_ally_weapon",
+  "range": 20.0,
+  "cast_time": 1800,
+  "cooldown": 10000,
+  "mana_cost": 55,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "empowered_weapon_strikes"
+  },
+  "effects": [
+    {
+      "effect_type": "arcanic_weapon_symbology",
+      "value": 180,
+      "duration": 20000,
+      "tick_rate": 0,
+      "weapon_damage_bonus": 50,
+      "critical_strike_chance": 15,
+      "enemy_defense_reduction": 10,
+      "elemental_damage_proc": 0.2,
+      "weapon_glow_enhanced": true,
+      "rune_inscriptions_permanent": false
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "runic_symbols_carving_onto_weapon",
+    "enchant_effect": "glowing_runes_pulsing_with_power",
+    "damage_effect": "enhanced_strikes_with_energy_trails",
+    "expire_effect": "runic_fade_weapon_normalizes"
+  },
+  "sound_effects": {
+    "cast_sound": "metal_engraving_magical_inscriptions",
+    "enchant_sound": "weapon_humming_with_enhanced_power",
+    "damage_sound": "empowered_strikes_cracking_impact",
+    "expire_sound": "enchantment_fading_weapon_thud"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "arcane_magic",
+      "weapon_enchantment"
+    ],
+    "classes": [
+      "enchanter",
+      "battle_weaver"
+    ],
+    "specializations": [
+      "weapon_master"
+    ]
+  },
+  "upgrades": {
+    "greater_weapon_enchant": {
+      "unlock_level": 22,
+      "description": "L'enchantement d'arme devient beaucoup plus puissant avec plus d'effets supplémentaires",
+      "multi_elemental_procs": true,
+      "weapon_parry_bonus": 0.15,
+      "elemental_damage_conversion": 50,
+      "critical_multiplier_increase": 2.0
+    },
+    "legendary_weapon_blessing": {
+      "unlock_level": 32,
+      "description": "L'arme devient une arme légendaire avec des propriétés magiques permanentes partielles",
+      "weapon_upgrade_tier": 2,
+      "permanent_damage_bonus": 25,
+      "durability_improvement": 0.5,
+      "artifact_potential_unlock": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

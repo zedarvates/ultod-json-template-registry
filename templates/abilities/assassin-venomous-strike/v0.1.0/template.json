@@ -1,0 +1,90 @@
+{
+  "id": "assassin_venomous_strike",
+  "name": "Frappe Venimeuse",
+  "description": "Inflige des dégâts poison et affaiblit la cible",
+  "ability_type": "active",
+  "category": "damage",
+  "cooldown": 12000,
+  "energy_cost": 40,
+  "cast_time": 0,
+  "range": 5.0,
+  "target_type": "enemy",
+  "duration": 0,
+  "effects": [
+    {
+      "effect_type": "physical_damage",
+      "value": 150,
+      "duration": 0,
+      "tick_rate": 0,
+      "school": "physical"
+    },
+    {
+      "effect_type": "poison_dot",
+      "value": 40,
+      "duration": 12000,
+      "tick_rate": 2000,
+      "total_ticks": 6,
+      "school": "poison"
+    },
+    {
+      "effect_type": "weakness",
+      "value": 0.2,
+      "duration": 10000,
+      "tick_rate": 0,
+      "school": "physical"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "venom_injection",
+    "damage_effect": "physical_strike",
+    "dot_effect": "poison_cloud"
+  },
+  "sound_effects": {
+    "cast_sound": "venom_injection",
+    "damage_sound": "strike_sound",
+    "dot_sound": "poison_hiss"
+  },
+  "scaling": {
+    "agility": 1.2,
+    "poison_mastery": 1.3
+  },
+  "requirements": {
+    "level": 15,
+    "abilities": [
+      "stealth",
+      "poison_blade"
+    ],
+    "class": "assassin"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "base_damage": 100,
+      "dot_damage": 25,
+      "weakness": 0.1
+    },
+    "journeyman": {
+      "base_damage": 125,
+      "dot_damage": 30,
+      "weakness": 0.15,
+      "duration": 15000
+    },
+    "master": {
+      "base_damage": 150,
+      "dot_damage": 40,
+      "weakness": 0.2,
+      "duration": 18000,
+      "slow_effect": 0.2
+    },
+    "grandmaster": {
+      "base_damage": 200,
+      "dot_damage": 50,
+      "weakness": 0.25,
+      "duration": 24000,
+      "slow_effect": 0.3,
+      "ability_unlock": "deadly_poison"
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

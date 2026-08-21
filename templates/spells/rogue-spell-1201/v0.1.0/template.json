@@ -1,0 +1,64 @@
+{
+  "id": "rogue_spell_1201",
+  "name": "Rogue Spell 1201",
+  "description": "Inflige des dégâts physiques importants et consomme tous vos points de combo",
+  "icon": "rogue_spell_1201_icon",
+  "school": "rogue",
+  "rarity": "common",
+  "spell_type": "finisher",
+  "target_type": "enemy",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "energy_cost": 35,
+  "damage": {
+    "base_damage": 40,
+    "damage_type": "physical"
+  },
+  "effects": [
+    {
+      "effect_type": "combo_point_consumer",
+      "combo_points_required": 1,
+      "combo_points_max": 5,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_per_combo": 25,
+      "crit_multiplier": 1.5,
+      "bleed_damage": 15,
+      "bleed_duration": 8000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "blade_flurry",
+    "attack_effect": "multiple_strikes",
+    "impact_effect": "deep_wounds"
+  },
+  "sound_effects": {
+    "cast_sound": "blade_whirl",
+    "attack_sound": "deep_cut",
+    "impact_sound": "wound_bleed"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "dagger_mastery"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_eviscerate": {
+      "unlock_level": 12,
+      "description": "Augmente les dégâts de 30%",
+      "damage_multiplier": 1.3
+    },
+    "bloodletting": {
+      "unlock_level": 20,
+      "description": "Augmente les dégâts de saignement",
+      "bleed_multiplier": 1.5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

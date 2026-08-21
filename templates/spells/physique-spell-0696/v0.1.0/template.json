@@ -1,0 +1,76 @@
+{
+  "id": "physique_spell_0696",
+  "name": "Physique Spell 0696",
+  "description": "Tire une volée de flèches qui s'abattent sur une zone, infligeant des dégâts aux ennemis",
+  "icon": "physique_spell_0696_icon",
+  "school": "physique",
+  "rarity": "rare",
+  "spell_type": "damage",
+  "target_type": "area",
+  "range": 30.0,
+  "cast_time": 2000,
+  "cooldown": 60000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 50,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 0.8,
+      "strength": 0.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "area_damage",
+      "value": 50,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "aoe_radius": 8.0
+    },
+    {
+      "effect_type": "area_dot",
+      "value": 20,
+      "duration": 6000,
+      "tick_rate": 2000,
+      "total_ticks": 3,
+      "proc_chance": 1.0,
+      "aoe_radius": 8.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "arrow_physique_spell_0696_charge",
+    "projectile_effect": "arrow_rain",
+    "impact_effect": "multiple_ground_impacts"
+  },
+  "sound_effects": {
+    "cast_sound": "arrow_physique_spell_0696_release",
+    "projectile_sound": "arrows_falling",
+    "impact_sound": "ground_impacts"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [],
+    "classes": [
+      "hunter",
+      "ranger"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_volley": {
+      "unlock_level": 35,
+      "description": "Physique Spell 0696 couvre une plus grande zone et inflige plus de dégâts",
+      "radius_bonus": 4,
+      "damage_bonus": 25
+    },
+    "volley_mastery": {
+      "unlock_level": 45,
+      "description": "Physique Spell 0696 peut être lancée plus fréquemment et applique Marque du Chasseur",
+      "cooldown_reduction": 20000,
+      "apply_hunters_mark": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

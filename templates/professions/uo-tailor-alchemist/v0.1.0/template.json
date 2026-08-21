@@ -1,0 +1,459 @@
+{
+  "profession": "uo_tailor_alchemist",
+  "display_name": "Master Tailor-Alchemist (adapted_reference)",
+  "description": "Artisan of cloth, elixir, and cuisine, blending the mysteries of alchemy with the delicate arts of tailoring and the culinary crafts that sustain and adorn the people of Britannia",
+  "icon_path": "icons/professions/uo_tailor_alchemist.png",
+  "category": "uo_crafting",
+  "is_active": true,
+  "uo_skill_system": {
+    "base_skill": "Tailoring",
+    "max_skill": 120.0,
+    "skill_gain_rate": 0.4,
+    "exceptional_threshold": 95.0,
+    "gm_threshold": 110.0,
+    "combined_with_alchemy": 90.0
+  },
+  "uo_cloth_system": {
+    "cloth_types": [
+      "wool",
+      "linen",
+      "silk",
+      "hemp",
+      "cotton"
+    ],
+    "dyed_cloth_hues": [
+      "red",
+      "blue",
+      "yellow",
+      "green",
+      "purple",
+      "orange",
+      "black",
+      "white"
+    ],
+    "special_hues": [
+      "flames",
+      "shadows",
+      "stars",
+      "runes",
+      "swirls"
+    ],
+    "cloth_quality": {
+      "bolts_yield": 50,
+      "exceptional_multiplier": 1.2
+    }
+  },
+  "recipes": [
+    {
+      "id": "grandmasters_robe",
+      "name": "Grandmaster's Robe of Power",
+      "description": "A robe worn by the greatest mages of Sosaria, infused with the essence of multiple magical schools",
+      "profession": "uo_tailor_alchemist",
+      "difficulty": 105.0,
+      "skill_required": 100.0,
+      "experience_gain": 400.0,
+      "materials": [
+        {
+          "type": "cloth_bolt",
+          "cloth_type": "silk",
+          "hue": "stars",
+          "quantity": 20
+        },
+        {
+          "type": "magical_thread",
+          "thread_type": "spider_silk",
+          "enchantment": "spell_channeling",
+          "quantity": 15
+        },
+        {
+          "type": "rare_gem",
+          "gem_type": "red_sapphire",
+          "quality": "perfect",
+          "quantity": 8
+        },
+        {
+          "type": "alchemical_component",
+          "component": "philosopher_stone_crystal",
+          "quantity": 3
+        }
+      ],
+      "tools_required": [
+        "sewing_kit",
+        "alchemical_beaker",
+        "enchantment_needle"
+      ],
+      "output": {
+        "item": "grandmasters_robe",
+        "durability": 200,
+        "weight": 3,
+        "magical_properties": [
+          "Spell Channeling",
+          "Mana Regeneration 3",
+          "Faster Casting 2",
+          "Lower Mana Cost 8%",
+          "Luck 100"
+        ],
+        "physical_resistances": {
+          "physical": 10,
+          "fire": 15,
+          "cold": 15,
+          "poison": 10,
+          "energy": 15
+        },
+        "artifact_level": 5,
+        "legendary_rarity": true
+      },
+      "tailor_properties": {
+        "stitching_precision": "S",
+        "cloth_enchantment_rating": 100,
+        "wearable_art": "masterpiece"
+      },
+      "legendary_requirements": {
+        "skill_gm_tailoring": true,
+        "skill_gm_alchemy": true,
+        "skill_gm_magery": true,
+        "completed_arcane_quests": 12,
+        "archmage_title": true,
+        "rare_components": [
+          "Phoenix Feather Robe",
+          "Dragon Silk Thread",
+          "Archmage Beard"
+        ]
+      }
+    }
+  ],
+  "uo_garment_system": {
+    "basic_garments": {
+      "tunic": {
+        "materials": [
+          "cloth"
+        ],
+        "durability": 30,
+        "weight": 2
+      },
+      "cloak": {
+        "materials": [
+          "cloth",
+          "thread"
+        ],
+        "durability": 35,
+        "weight": 3
+      },
+      "dress": {
+        "materials": [
+          "cloth",
+          "thread",
+          "buttons"
+        ],
+        "durability": 40,
+        "weight": 2
+      }
+    },
+    "magical_garments": {
+      "robe_of_the_magistrate": {
+        "materials": [
+          "silk",
+          "gold_thread",
+          "sapphire"
+        ],
+        "properties": [
+          "Spell Channeling",
+          "Lower Mana Cost 5%"
+        ],
+        "craft_requirement": "magery_90"
+      },
+      "tricksters_garb": {
+        "materials": [
+          "linen",
+          "illusion_dye",
+          "silver_thread"
+        ],
+        "properties": [
+          "Luck 50",
+          "Stealth +10"
+        ],
+        "craft_requirement": "ninjitsu_80"
+      }
+    }
+  },
+  "uo_potion_alchemy": {
+    "healing_potions": {
+      "lesser_heal": {
+        "reagents": [
+          "ginseng"
+        ],
+        "healing_power": "3-5",
+        "cast_time": 1500
+      },
+      "greater_heal": {
+        "reagents": [
+          "ginseng",
+          "mandrake"
+        ],
+        "healing_power": "9-15",
+        "cast_time": 1800
+      },
+      "greater_cure": {
+        "reagents": [
+          "ginseng",
+          "garlic"
+        ],
+        "cure_level": "greater_poison",
+        "cast_time": 1200
+      }
+    },
+    "enhancement_potions": {
+      "agility": {
+        "reagents": [
+          "bloodmoss",
+          "ginseng"
+        ],
+        "effect": "dexterity +15",
+        "duration": 300
+      },
+      "strength": {
+        "reagents": [
+          "mandrake",
+          "ginseng"
+        ],
+        "effect": "strength +15",
+        "duration": 300
+      },
+      "invisibility": {
+        "reagents": [
+          "bloodmoss",
+          "nightshade"
+        ],
+        "effect": "invisibility",
+        "duration": 60
+      }
+    },
+    "explosive_potions": {
+      "lesser_explosion": {
+        "reagents": [
+          "black_powder",
+          "sulfur"
+        ],
+        "damage": "2-6",
+        "area": "3x3"
+      },
+      "greater_explosion": {
+        "reagents": [
+          "black_powder",
+          "sulfur",
+          "charcoal"
+        ],
+        "damage": "4-12",
+        "area": "5x5"
+      }
+    }
+  },
+  "uo_cooking_system": {
+    "food_types": {
+      "cooked_meats": {
+        "rib_steak": {
+          "materials": [
+            "raw_rib",
+            "spices"
+          ],
+          "nutrition": 20,
+          "durability": 30
+        },
+        "cooked_bird": {
+          "materials": [
+            "raw_bird",
+            "honey"
+          ],
+          "nutrition": 15,
+          "durability": 20
+        }
+      },
+      "baked_goods": {
+        "bread_loaf": {
+          "materials": [
+            "dough",
+            "wheat"
+          ],
+          "nutrition": 10,
+          "durability": 60
+        },
+        "cake": {
+          "materials": [
+            "flour",
+            "eggs",
+            "milk",
+            "honey"
+          ],
+          "nutrition": 25,
+          "durability": 45,
+          "special_effect": "happiness_aura"
+        }
+      },
+      "prepared_foods": {
+        "cheese_pizza": {
+          "materials": [
+            "pizza_dough",
+            "cheese",
+            "tomato_sauce",
+            "sausage"
+          ],
+          "nutrition": 35,
+          "durability": 30,
+          "special_effect": "taste_of_home"
+        }
+      }
+    },
+    "exceptional_cooking": {
+      "skill_requirement": 95.0,
+      "nutrition_multiplier": 1.5,
+      "durability_bonus": 25,
+      "special_flavors": [
+        "divine_taste",
+        "sweet_music",
+        "warm_hearts"
+      ]
+    }
+  },
+  "uo_dyeing_system": {
+    "dye_tub_crafting": {
+      "materials": [
+        "iron_ingots",
+        "dye_vat"
+      ],
+      "charges": 10,
+      "durability": 50,
+      "exceptional_capacity": 25
+    },
+    "special_dyes": {
+      "nebula_dye": {
+        "hues": [
+          "cosmic_purple",
+          "star_blue",
+          "nebula_green"
+        ],
+        "rarity": "rare",
+        "duration": "permanent"
+      },
+      "metallic_dyes": {
+        "hues": [
+          "gold_leaf",
+          "silver_mist",
+          "copper_brown"
+        ],
+        "craft_time_multiplier": 2.0,
+        "durability_cost": 50
+      },
+      "illusion_dyes": {
+        "hues": [
+          "chameleon",
+          "shimmering",
+          "prismatic"
+        ],
+        "magical_requirement": "evaluate_70"
+      }
+    },
+    "dye_combinations": {
+      "primary_colors": [
+        "red",
+        "blue",
+        "yellow"
+      ],
+      "secondary_colors": [
+        "orange",
+        "green",
+        "purple"
+      ],
+      "neutral_colors": [
+        "black",
+        "white",
+        "gray"
+      ]
+    }
+  },
+  "uo_barding_system": {
+    "horse_armor": {
+      "basic_barding": {
+        "materials": [
+          "cloth",
+          "leather"
+        ],
+        "durability": 80,
+        "weight_penalty": 10
+      },
+      "studded_barding": {
+        "materials": [
+          "cloth",
+          "leather",
+          "metal_studs"
+        ],
+        "durability": 120,
+        "weight_penalty": 15,
+        "resistance_bonus": 5
+      }
+    },
+    "beetle_armor": {
+      "materials": [
+        "fire_beetle_scales",
+        "volcanic_ash"
+      ],
+      "special_effect": "fire_immunity",
+      "craft_challenge": "volcanic_forge_required"
+    }
+  },
+  "uo_laboratory_system": {
+    "alchemy_tools": {
+      "mortar_and_pestle": {
+        "materials": [
+          "stone",
+          "iron"
+        ],
+        "grinding_efficiency": 1.0,
+        "exceptional_bonus": 0.2
+      },
+      "bottle_of_acid": {
+        "materials": [
+          "distilled_water",
+          "sulfuric_ash"
+        ],
+        "volume": 500,
+        "damage": "5-15_per_application"
+      }
+    },
+    "research_system": {
+      "skill_requirement": 90.0,
+      "research_time": "1_hour",
+      "unlockable_recipes": [
+        "rare_potions",
+        "legendary_inks",
+        "forbidden_dyes"
+      ],
+      "failure_risk": "lose_research_notes"
+    }
+  },
+  "specializations": [
+    "master_dyer",
+    "alchemical_sage",
+    "court_cook",
+    "robe_weaver",
+    "potion_master",
+    "culinary_artist"
+  ],
+  "uo_mastery_bonuses": {
+    "skill_100_bonus": {
+      "cloth_yield": 15,
+      "potion_power": 20,
+      "cooking_quality": 25,
+      "dye_efficiency": 30
+    },
+    "skill_120_bonus": {
+      "legendary_dyes_access": true,
+      "philosophers_stone_mastery": 50,
+      "robe_archmage_perfection": 40,
+      "universal_alchemy_knowledge": true
+    }
+  },
+  "id": "uo_tailor_alchemist",
+  "name": "Uo Tailor Alchemist",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

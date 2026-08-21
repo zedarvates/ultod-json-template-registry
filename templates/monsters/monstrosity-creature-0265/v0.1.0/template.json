@@ -1,0 +1,65 @@
+{
+  "id": "monstrosity_creature_0265",
+  "name": "Monstrosity Creature 0265",
+  "description": "Créature mi-homme mi-taureau, guerrier féroce des labyrinthes et des arènes",
+  "icon": "monstrosity_creature_0265_icon",
+  "category": "monstrosity",
+  "rarity": "rare",
+  "base_stats": {
+    "health": 1000,
+    "mana": 150,
+    "strength": 95,
+    "dexterity": 45,
+    "intelligence": 20,
+    "wisdom": 30,
+    "constitution": 110,
+    "charisma": 10
+  },
+  "properties": {
+    "size": "large",
+    "speed": 11.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "monstrosity_creature_0265_horn",
+      "bull_hide"
+    ],
+    "rare_drops": [
+      "labyrinth_key",
+      "monstrosity_creature_0265_axe"
+    ],
+    "epic_drops": [
+      "monstrosity_creature_0265_heart",
+      "rage_totem"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "high",
+    "attack_pattern": "charge_attack",
+    "special_abilities": [
+      "horn_gore",
+      "rage_mode",
+      "labyrinth_sense"
+    ]
+  },
+  "abilities": [
+    "axe_swing",
+    "horn_charge",
+    "bull_rush",
+    "rage_activation",
+    "ground_stomp",
+    "intimidating_bellow"
+  ],
+  "resistances": {
+    "physical": 45,
+    "mental": 25,
+    "fear": 60
+  },
+  "weaknesses": [
+    "magic",
+    "holy",
+    "lightning"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

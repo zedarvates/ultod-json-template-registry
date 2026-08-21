@@ -1,0 +1,65 @@
+{
+  "id": "protection_spell_1551",
+  "name": "Protection Spell 1551",
+  "description": "Le guerrier se place devant un allié pour absorber les attaques à sa place",
+  "icon": "protection_spell_1551_icon",
+  "school": "protection",
+  "rarity": "uncommon",
+  "spell_type": "buff",
+  "target_type": "ally",
+  "range": 25.0,
+  "cast_time": 0,
+  "cooldown": 30000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.0,
+      "rage": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "redirect_damage",
+      "value": 1.0,
+      "duration": 10000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "protective_dash",
+    "projectile_effect": "none",
+    "impact_effect": "protective_position",
+    "trail_effect": "guardian_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "protective_charge",
+    "impact_sound": "none"
+  },
+  "requirements": {
+    "level": 16,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "protection"
+    ]
+  },
+  "upgrades": {
+    "improved_intervene": {
+      "unlock_level": 24,
+      "description": "Protection Spell 1551 dure plus longtemps",
+      "duration_extension": 5000
+    },
+    "intervene_mastery": {
+      "unlock_level": 34,
+      "description": "Protection Spell 1551 peut être utilisée sur plusieurs alliés",
+      "multiple_targets": 2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

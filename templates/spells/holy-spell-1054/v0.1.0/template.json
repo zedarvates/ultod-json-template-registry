@@ -1,0 +1,96 @@
+{
+  "id": "holy_spell_1054",
+  "name": "Holy Spell 1054",
+  "description": "Repousse ou détruit les créatures mortes-vivantes avec la puissance divine",
+  "icon": "holy_spell_1054_icon",
+  "school": "holy",
+  "rarity": "uncommon",
+  "spell_type": "control",
+  "target_type": "single_enemy",
+  "range": 20.0,
+  "cast_time": 1000,
+  "cooldown": 30000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 60,
+    "damage_type": "holy",
+    "scaling": {
+      "wisdom": 1.2,
+      "charisma": 0.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "fear",
+      "value": 1,
+      "duration": 8000,
+      "tick_rate": 0,
+      "fear_chance": 75,
+      "target_types": [
+        "undead"
+      ],
+      "scaling": {
+        "wisdom": 0.5,
+        "charisma": 0.3
+      }
+    },
+    {
+      "effect_type": "damage",
+      "value": 60,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_type": "holy",
+      "target_types": [
+        "undead"
+      ]
+    },
+    {
+      "effect_type": "stun",
+      "value": 1,
+      "duration": 2000,
+      "tick_rate": 0,
+      "stun_chance": 50,
+      "target_types": [
+        "undead"
+      ]
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_radiance",
+    "hit_effect": "undead_flee",
+    "miss_effect": "spell_fail"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_command",
+    "hit_sound": "undead_scream",
+    "miss_sound": "spell_fail"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "paladin",
+      "priest",
+      "cleric"
+    ]
+  },
+  "upgrades": {
+    "improved_turn_undead": {
+      "unlock_level": 18,
+      "description": "Augmente l'efficacité de Holy Spell 1054",
+      "fear_chance_bonus": 15,
+      "damage_bonus": 30
+    },
+    "holy_wrath": {
+      "unlock_level": 28,
+      "description": "Holy Spell 1054 affecte une zone",
+      "aoe_range": 10.0,
+      "aoe_damage": 40,
+      "mass_turn": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

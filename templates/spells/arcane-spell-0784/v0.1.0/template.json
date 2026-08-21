@@ -1,0 +1,82 @@
+{
+  "id": "arcane_spell_0784",
+  "name": "Arcane Spell 0784",
+  "description": "Transforme l'ennemi en animal inoffensif pendant un court moment",
+  "icon": "arcane_spell_0784_icon",
+  "school": "arcane",
+  "rarity": "uncommon",
+  "spell_type": "control",
+  "target_type": "single_target",
+  "range": 20.0,
+  "cast_time": 1500,
+  "cooldown": 15000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "arcane"
+  },
+  "effects": [
+    {
+      "effect_type": "arcane_spell_0784",
+      "value": 0,
+      "duration": 10000,
+      "tick_rate": 0,
+      "polymorph_form": "sheep",
+      "break_on_damage": true
+    },
+    {
+      "effect_type": "silence",
+      "value": 0,
+      "duration": 10000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "arcane_sparkle",
+    "polymorph_effect": "transformation_flash",
+    "break_effect": "arcane_spell_0784_shatter"
+  },
+  "sound_effects": {
+    "cast_sound": "arcane_whisper",
+    "polymorph_sound": "transformation_baa",
+    "break_sound": "arcane_spell_0784_crack"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "mage",
+      "druid",
+      "shaman",
+      "wizard"
+    ]
+  },
+  "upgrades": {
+    "greater_polymorph": {
+      "unlock_level": 18,
+      "description": "Transforme en animaux plus exotiques avec plus de durée",
+      "duration_bonus": 5000,
+      "forms": [
+        "pig",
+        "turtle",
+        "rabbit"
+      ]
+    },
+    "mass_polymorph": {
+      "unlock_level": 28,
+      "description": "Peut transformer plusieurs ennemis à la fois",
+      "max_targets": 3,
+      "aoe_range": 10.0
+    },
+    "perma_polymorph": {
+      "unlock_level": 38,
+      "description": "La transformation ne peut pas être brisée par les dégâts",
+      "unbreakable": true,
+      "duration_multiplier": 2.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

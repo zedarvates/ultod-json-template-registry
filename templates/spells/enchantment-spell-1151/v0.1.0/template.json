@@ -1,0 +1,63 @@
+{
+  "id": "enchantment_spell_1151",
+  "name": "Enchantment Spell 1151",
+  "description": "Ce sort vous permet de convaincre une bête que vous ne lui voulez pas de mal",
+  "icon": "enchantment_spell_1151_icon",
+  "school": "enchantment",
+  "rarity": "uncommon",
+  "spell_type": "charm",
+  "target_type": "single_beast",
+  "range": 30.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "charm_beast",
+      "value": 0,
+      "duration": 600000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "charm_type": "friendly"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "peaceful_aura",
+    "charm_effect": "bonding_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "soothing_whisper",
+    "charm_sound": "enchantment_spell_1151_purr"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "enchantment_spell_1151_handling",
+      "nature_magic"
+    ],
+    "classes": [
+      "ranger",
+      "druid",
+      "bard"
+    ]
+  },
+  "upgrades": {
+    "greater_friendship": {
+      "unlock_level": 5,
+      "description": "Peut charmer plusieurs animaux à la fois",
+      "multiple_targets": true,
+      "target_count": 3
+    },
+    "loyal_companion": {
+      "unlock_level": 11,
+      "description": "L'enchantment_spell_1151 devient un compagnon loyal",
+      "permanent_bond": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

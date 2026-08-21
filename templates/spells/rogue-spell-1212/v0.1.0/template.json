@@ -1,0 +1,61 @@
+{
+  "id": "rogue_spell_1212",
+  "name": "Rogue Spell 1212",
+  "description": "Une attaque rapide générant des points de combo et infligeant des dégâts physiques",
+  "icon": "rogue_spell_1212_icon",
+  "school": "rogue",
+  "rarity": "common",
+  "spell_type": "melee_attack",
+  "target_type": "enemy",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "energy_cost": 45,
+  "damage": {
+    "base_damage": 52,
+    "damage_type": "physical"
+  },
+  "effects": [
+    {
+      "effect_type": "combo_point_generation",
+      "combo_points": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "crit_multiplier": 2.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "blade_swipe",
+    "attack_effect": "dual_strike",
+    "impact_effect": "blood_splash"
+  },
+  "sound_effects": {
+    "cast_sound": "blade_swing",
+    "attack_sound": "melee_hit",
+    "impact_sound": "flesh_cut"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "sword_mastery",
+      "dagger_mastery"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_sinister_strike": {
+      "unlock_level": 8,
+      "description": "Augmente les dégâts de 20%",
+      "damage_multiplier": 1.2
+    },
+    "aggression": {
+      "unlock_level": 18,
+      "description": "+2 points de combo par coup",
+      "combo_points_bonus": 1
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

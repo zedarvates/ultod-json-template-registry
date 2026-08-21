@@ -1,0 +1,130 @@
+{
+  "profession": "accessory_crafting",
+  "display_name": "Forge d'Accessoires",
+  "description": "Création d'accessoires magiques et d'artéfacts personnels",
+  "icon_path": "icons/professions/accessory_crafting.png",
+  "category": "advanced_crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "phoenix_ring",
+      "name": "Anneau du Phoenix",
+      "description": "Un anneau contenant les pouvoirs de résurrection du phoenix",
+      "profession": "accessory_crafting",
+      "difficulty": 60,
+      "base_success_rate": 0.5,
+      "skill_required": 60,
+      "experience_gain": 75,
+      "exceptional_chance": 0.14,
+      "time_required_seconds": 360,
+      "components": [
+        {
+          "item_type": "ring_base",
+          "quantity": 1,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "phoenix_feather",
+          "quantity": 3,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "fire_crystal",
+          "quantity": 2,
+          "quality_required": "good",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "ancient_metal",
+          "quantity": 1,
+          "quality_required": "excellent",
+          "rarity_required": "epic"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "phoenix_ring",
+          "name": "Anneau du Phoenix",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.4,
+          "durability_modifier": 1.6
+        }
+      ],
+      "conditions": {
+        "profession_level": 30,
+        "required_tools": [
+          "jewelry_forge",
+          "precision_tools",
+          "magic_gem_cutter"
+        ],
+        "environmental_factors": [
+          "artifact_workshop"
+        ],
+        "required_facilities": [
+          "accessory_workshop"
+        ]
+      }
+    },
+    {
+      "id": "dragon_amulet",
+      "name": "Amulette du Dragon",
+      "description": "Un amulette conférant la protection ancestrale des dragons",
+      "profession": "accessory_crafting",
+      "difficulty": 75,
+      "base_success_rate": 0.4,
+      "skill_required": 75,
+      "experience_gain": 110,
+      "exceptional_chance": 0.2,
+      "time_required_seconds": 600,
+      "components": [
+        {
+          "item_type": "amulet_base",
+          "quantity": 1,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "dragon_scale",
+          "quantity": 5,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "ancient_dragon_essence",
+          "quantity": 2,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "adapted_reference_chain",
+          "quantity": 1,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "dragon_amulet",
+          "name": "Amulette du Dragon",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.8,
+          "durability_modifier": 2.2
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "magical_jewelry",
+    "protection_amulets",
+    "enhancement_rings",
+    "artifact_accessories"
+  ],
+  "id": "accessory_crafting",
+  "name": "Accessory Crafting",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

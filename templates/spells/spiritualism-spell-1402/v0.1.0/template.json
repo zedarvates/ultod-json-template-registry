@@ -1,0 +1,39 @@
+{
+  "school": "spiritualism",
+  "rarity": "uncommon",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1800,
+  "cooldown": 40000,
+  "mana_cost": 45,
+  "visual_effects": {
+    "cast_effect": "armor_cast",
+    "projectile_effect": "none",
+    "impact_effect": "spiritualism_spell_1402_buff",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "armor_cast_sound",
+    "impact_sound": "armor_buff_sound"
+  },
+  "requirements": {
+    "level": 14
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "spiritualism_spell_1402",
+  "name": "Spiritualism Spell 1402",
+  "description": "Surrounds you with Spiritualism Spell 1402 that increases defense and reflects spirit damage",
+  "icon": "spiritualism_spell_1402_icon",
+  "spell_type": "buff",
+  "effects": {
+    "duration": 25000,
+    "armor_bonus": 50,
+    "damage_reflection": 0.15,
+    "damage_reflection_type": "spirit",
+    "scaling": {
+      "spirit": 0.6
+    }
+  },
+  "template_type": "spell"
+}

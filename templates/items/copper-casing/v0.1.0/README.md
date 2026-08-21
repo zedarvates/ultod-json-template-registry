@@ -1,7 +1,7 @@
-# Copper Casing v0.1.0
+# copper_casing v0.1.0
 
-Status: `experimental`.
+Statut : `experimental`.
 
-Original public-safe adaptation informed by `item/copper_casing_item.json`. Prices, stock, shop data, internal controls, and asset paths are intentionally excluded.
+Source auditée : `item/copper_casing_item.json`. Les contrôles administratifs, données commerciales et chemins internes sont retirés.
 
-No client or server compatibility is certified. Consumers must validate inventory limits, crafting use, and all authoritative state changes server-side.
+Aucune compatibilité client ou serveur n'est certifiée.

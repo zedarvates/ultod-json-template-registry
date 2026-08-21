@@ -1,16 +1,21 @@
 {
   "id": "chronomancer_artifact",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Chronomancer Artifact",
-  "description": "A portable material component for public template workflows.",
+  "name": "Chronomancer_Artifact",
+  "description": "Generated Chronomancer_Artifact item template.",
+  "icon": "chronomancer_artifact_icon",
   "category": "material",
   "rarity": "common",
-  "stack_limit": 50,
-  "weight_kg": 0.1,
-  "tags": [
-    "adapted",
-    "material"
-  ],
-  "dependencies": []
+  "item_type": "material",
+  "sub_type": "generic",
+  "base_stats": {
+    "durability": 1,
+    "max_durability": 1,
+    "weight": 0.1,
+    "value": 1
+  },
+  "properties": {},
+  "requirements": {},
+  "effects": [],
+  "template_type": "item",
+  "version": "0.1.0"
 }

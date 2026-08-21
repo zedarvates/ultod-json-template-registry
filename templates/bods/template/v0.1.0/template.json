@@ -1,0 +1,45 @@
+{
+  "bod_id": "bod_blacksmith_platemail_set",
+  "craft_skill": "blacksmithing",
+  "category": "heavy_armor",
+  "display_name": "Commande de Masse : Armure de Plaques en Verite",
+  "is_large_bod": true,
+  "required_items": [
+    {
+      "item_template_id": "platemail_chest",
+      "amount": 20,
+      "require_exceptional": true,
+      "material": "verite_ingot"
+    },
+    {
+      "item_template_id": "platemail_arms",
+      "amount": 20,
+      "require_exceptional": true,
+      "material": "verite_ingot"
+    },
+    {
+      "item_template_id": "platemail_legs",
+      "amount": 20,
+      "require_exceptional": true,
+      "material": "verite_ingot"
+    }
+  ],
+  "rewards": {
+    "gold_amount": 75000,
+    "craft_exp": 1500,
+    "reward_items": [
+      {
+        "item_template_id": "verite_runic_hammer",
+        "chance": 0.8
+      },
+      {
+        "item_template_id": "ancient_blacksmith_apron",
+        "chance": 0.2
+      }
+    ]
+  },
+  "id": "template",
+  "name": "Template",
+  "template_type": "bod",
+  "version": "0.1.0"
+}

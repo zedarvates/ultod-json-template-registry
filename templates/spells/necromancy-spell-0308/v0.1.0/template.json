@@ -1,0 +1,77 @@
+{
+  "id": "necromancy_spell_0308",
+  "name": "Necromancy Spell 0308",
+  "description": "Le death knight sacrifie une partie de sa santé pour activer deux runes runiques, gagnant ainsi de la puissance au prix de sa vie",
+  "icon": "necromancy_spell_0308_icon",
+  "school": "necromancy",
+  "rarity": "rare",
+  "spell_type": "necromancy_spell_0308_self_empowerment",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 60000,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "necromancy_spell_0308_sacrifice_energy"
+  },
+  "effects": [
+    {
+      "effect_type": "rune_activation_sacrifice",
+      "value": 300,
+      "duration": 0,
+      "tick_rate": 0,
+      "health_cost_percent": 10,
+      "runes_activated": 2,
+      "empowerment_duration": 20000,
+      "damage_bonus_from_cost": 25,
+      "healing_reduction_from_cost": 30,
+      "blood_power_burst": 100,
+      "emergency_power_source": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necromancy_spell_0308_self_sacrifice_beads_forming",
+    "damage_effect": "own_health_crystal_fragments",
+    "rune_effect": "dark_rune_symbol_glowing_pulse",
+    "empower_effect": "necromancy_spell_0308_power_dark_energy_swirl"
+  },
+  "sound_effects": {
+    "cast_sound": "necromancy_spell_0308_drain_self_liquid_gurgle",
+    "damage_sound": "health_to_power_conversion_crunch",
+    "rune_effect": "runes_igniting_dark_energy_hiss",
+    "empower_sound": "necromancy_spell_0308_fueled_power_rush_surge"
+  },
+  "requirements": {
+    "level": 28,
+    "skills": [
+      "necromancy_spell_0308_magic",
+      "rune_manipulation"
+    ],
+    "classes": [
+      "death_knight",
+      "necromancy_spell_0308_sacrifice_lord"
+    ],
+    "specializations": [
+      "self_bleeder"
+    ]
+  },
+  "upgrades": {
+    "greater_blood_tap": {
+      "unlock_level": 38,
+      "description": "Le sacrifice active trois runes avec des effets secondaires réduits",
+      "runes_activated_bonus": 1,
+      "damage_from_cost_reduction": 20,
+      "blood_burst_double_proc": true
+    },
+    "life_blood_siphon": {
+      "unlock_level": 48,
+      "description": "Le sacrifice peut drainer la vie d'ennemis proches en plus de la sienne",
+      "additional_drain_radius": 12.0,
+      "enemy_life_drain": 50,
+      "shared_empowerment": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

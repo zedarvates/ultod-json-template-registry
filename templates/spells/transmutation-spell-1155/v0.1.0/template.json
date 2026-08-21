@@ -1,0 +1,63 @@
+{
+  "id": "transmutation_spell_1155",
+  "name": "Transmutation Spell 1155",
+  "description": "Une arme non-magique devient une arme magique avec un type d'énergie pendant 1 heure",
+  "icon": "transmutation_spell_1155_icon",
+  "school": "transmutation",
+  "rarity": "uncommon",
+  "spell_type": "buff",
+  "target_type": "weapon",
+  "range": 5.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "transmutation_spell_1155"
+  },
+  "effects": [
+    {
+      "effect_type": "weapon_enchant",
+      "value": 0,
+      "duration": 3600000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "element_type": "selected",
+      "damage_type": "transmutation_spell_1155",
+      "ignore_resistance": false
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "transmutation_spell_1155_infuse",
+    "buff_effect": "glowing_weapon"
+  },
+  "sound_effects": {
+    "cast_sound": "transmutation_spell_1155_hum",
+    "buff_sound": "weapon_crackle"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "transmutation_spell_1155_magic"
+    ],
+    "classes": [
+      "ranger",
+      "paladin",
+      "wizard"
+    ]
+  },
+  "upgrades": {
+    "greater_elemental": {
+      "unlock_level": 5,
+      "description": "Ignore la résistance à l'élément",
+      "ignore_resistance": true
+    },
+    "dual_elemental": {
+      "unlock_level": 9,
+      "description": "Deux éléments simultanément",
+      "element_count": 2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

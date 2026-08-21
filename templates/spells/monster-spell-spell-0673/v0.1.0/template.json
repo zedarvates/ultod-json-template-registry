@@ -1,0 +1,47 @@
+{
+  "id": "monster_spell_spell_0673",
+  "name": "Monster Spell Spell 0673",
+  "description": "Description pour Monster monster_spell_spell_0673 monster_spell_spell_0673 0673",
+  "icon": "monster_monster_spell_spell_0673_monster_spell_spell_0673_0673_icon",
+  "school": "monster_monster_spell_spell_0673",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 6.0,
+  "cast_time": 300,
+  "cooldown": 1000,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 24,
+    "damage_type": "energy"
+  },
+  "effects": [
+    {
+      "effect_type": "energy_damage",
+      "value": 24,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "hand_glow",
+    "projectile_effect": "magic_missile",
+    "impact_effect": "magic_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "incant",
+    "impact_sound": "zap"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "humanoid_magic"
+    ],
+    "classes": [
+      "humanoid"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

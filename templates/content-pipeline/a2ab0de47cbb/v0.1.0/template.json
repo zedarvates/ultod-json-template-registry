@@ -1,0 +1,51 @@
+{
+  "version": "0.1.0",
+  "school": "holy",
+  "rarity": "epic",
+  "target_type": "chain",
+  "range": 9.2,
+  "cast_time": 512,
+  "cooldown": 2002916,
+  "mana_cost": 5254,
+  "visual_effects": {
+    "cast_effect": "healer_cast",
+    "projectile_effect": "elemental_projectile",
+    "impact_effect": "elemental_impact",
+    "trail_effect": "elemental_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "healer_cast_sound",
+    "impact_sound": "elemental_impact_sound"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [],
+    "classes": [
+      "healer"
+    ],
+    "specializations": [
+      "discipline"
+    ]
+  },
+  "balance_validated": true,
+  "generated_by": "content_pipeline_v2",
+  "id": "a2ab0de47cbb",
+  "name": "Healer Discipline Shield",
+  "description": "Generated healer discipline spell #187",
+  "icon": "a2ab0de47cbb_icon",
+  "spell_type": "healing",
+  "damage_type": null,
+  "base_heal": 196.6,
+  "effects": [
+    {
+      "effect_type": "direct_heal",
+      "value": 142.5,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "balance_adjusted": true,
+  "balance_efficiency": 2.4325,
+  "template_type": "content_pipeline"
+}

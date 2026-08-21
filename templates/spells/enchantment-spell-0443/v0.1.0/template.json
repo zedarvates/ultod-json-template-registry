@@ -1,0 +1,77 @@
+{
+  "id": "enchantment_spell_0443",
+  "name": "Enchantment Spell 0443",
+  "description": "Invoque une armée d'illusions spectrale qui distraie et confond tous les ennemis dans une zone",
+  "icon": "enchantment_spell_0443_icon",
+  "school": "enchantment",
+  "rarity": "legendary",
+  "spell_type": "mass_illusion_summon",
+  "target_type": "area_effect_fear",
+  "range": 50.0,
+  "cast_time": 4000,
+  "cooldown": 90000,
+  "mana_cost": 150,
+  "damage": {
+    "base_damage": 200,
+    "damage_type": "enchantment_spell_0443_damage_fear"
+  },
+  "effects": [
+    {
+      "effect_type": "nightmare_illusion_swarm",
+      "value": 500,
+      "duration": 60000,
+      "tick_rate": 2000,
+      "phantasmal_framework_radius": 40.0,
+      "illusion_count_massive": 20,
+      "fear_induction_chance_high": 0.7,
+      "confusion_damage_over_time": 65,
+      "phantasmal_attack_diversion": true,
+      "reality_anchor_instability": 0.3
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "nightmare_portal_tearing_mind_scapes",
+    "army_effect": "horde_phantoms_emerging_terrifying_visions",
+    "fear_effect": "enemies_disoriented_panicked_illusions",
+    "dissolve_effect": "phantoms_fading_back_nightmare_void"
+  },
+  "sound_effects": {
+    "cast_effect": "reality_rending_mental_cracking_horrors",
+    "army_effect": "massive_phantoms_whispering_terrifying_sounds",
+    "fear_effect": "enemies_screaming_terror_psychological_break",
+    "dissolve_effect": "phantoms_dissolving_mental_haunting_echo"
+  },
+  "requirements": {
+    "level": 60,
+    "skills": [
+      "arcane_magic",
+      "nightmare_weaving"
+    ],
+    "classes": [
+      "enchanter",
+      "terror_lord"
+    ],
+    "specializations": [
+      "illusion_architect"
+    ]
+  },
+  "upgrades": {
+    "eternal_nightmare_horde": {
+      "unlock_level": 70,
+      "description": "L'Enchantment Spell 0443 devient éternelle et s'adapte aux peurs spécifiques des ennemis",
+      "personalized_terror_effects": true,
+      "eternal_phantoms_spawning": true,
+      "reality_tear_expansion": 2.0,
+      "mind_shattering_continuum": true
+    },
+    "cosmic_horror_manifestation": {
+      "unlock_level": 80,
+      "description": "Manifeste des horreurs cosmiques indestructibles qui brisent l'esprit des victimes",
+      "eldritch_terror_immune": true,
+      "sanity_shattering_damage": 250,
+      "dimensional_tear_portal": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

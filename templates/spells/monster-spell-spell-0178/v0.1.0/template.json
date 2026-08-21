@@ -1,0 +1,47 @@
+{
+  "id": "monster_spell_spell_0178",
+  "name": "Monster Spell Spell 0178",
+  "description": "Description pour Monster Spell Spell 0178",
+  "icon": "monster_spell_spell_0178_icon",
+  "school": "monster_spell",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 6.0,
+  "cast_time": 300,
+  "cooldown": 1000,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 24,
+    "damage_type": "radiant"
+  },
+  "effects": [
+    {
+      "effect_type": "radiant_damage",
+      "value": 24,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "aura_form",
+    "projectile_effect": "aura_wave",
+    "impact_effect": "protect_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "hum",
+    "impact_sound": "barrier"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "celestial_magic"
+    ],
+    "classes": [
+      "celestial"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

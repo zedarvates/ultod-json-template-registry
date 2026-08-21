@@ -1,0 +1,77 @@
+{
+  "id": "abjuration_spell_0296",
+  "name": "Abjuration Spell 0296",
+  "description": "Sanctifié la terre autour du clerc, créant une zone de protection divine",
+  "icon": "abjuration_spell_0296_icon",
+  "school": "abjuration",
+  "rarity": "rare",
+  "spell_type": "divine_warding",
+  "target_type": "area_effect",
+  "range": 40.0,
+  "cast_time": 4000,
+  "cooldown": 90000,
+  "mana_cost": 110,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "abjuration_spell_0296_protection"
+  },
+  "effects": [
+    {
+      "effect_type": "holy_ground_creation",
+      "value": 100,
+      "duration": 60000,
+      "tick_rate": 2000,
+      "ground_radius": 20.0,
+      "unholy_prevention": true,
+      "holy_damage_bonus": 0.3,
+      "ally_protection_aura": true,
+      "ground_purification": 50,
+      "enemy_debuff_zone": 0.15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_circle_etching",
+    "active_effect": "golden_ground_sigils",
+    "barrier_effect": "holy_energy_barrier",
+    "purify_effect": "corruption_burning_fog"
+  },
+  "sound_effects": {
+    "cast_sound": "abjuration_spell_0296_eternal_chant",
+    "active_sound": "holy_ground_pulse",
+    "barrier_sound": "divine_barrier_crystal_hum",
+    "purify_sound": "unholy_corruption_dispel"
+  },
+  "requirements": {
+    "level": 21,
+    "skills": [
+      "divine_magic",
+      "sanctification"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "ground_consecrator"
+    ]
+  },
+  "upgrades": {
+    "sanctified_citadel": {
+      "unlock_level": 31,
+      "description": "La Abjuration Spell 0296 devient une forteresse avec des défenses automatiques",
+      "ground_radius_bonus": 15.0,
+      "auto_holy_strikes": 80,
+      "fortified_barriers": true
+    },
+    "divine_temple_ground": {
+      "unlock_level": 41,
+      "description": "Transforme le sol en temple sacré avec des propriétés avancées",
+      "temple_properties": true,
+      "permanent_duration": true,
+      "summon_guardian_potential": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "animal_creature_0105",
+  "name": "Animal Creature 0105",
+  "description": "Noble équidé domestiqué utilisé pour le transport et les travaux",
+  "icon": "animal_creature_0105_icon",
+  "category": "animal",
+  "rarity": "common",
+  "base_stats": {
+    "health": 180,
+    "mana": 30,
+    "strength": 25,
+    "dexterity": 14,
+    "intelligence": 8,
+    "wisdom": 12,
+    "constitution": 28,
+    "charisma": 16
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_wild": false,
+    "size": "large",
+    "speed": 14.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "animal_creature_0105_meat",
+      "animal_creature_0105_hide"
+    ],
+    "rare_drops": [
+      "animal_creature_0105_hair",
+      "animal_creature_0105_hooves"
+    ],
+    "epic_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "none",
+    "attack_pattern": "defensive_kick",
+    "special_abilities": [
+      "gallop",
+      "carry_rider"
+    ]
+  },
+  "abilities": [
+    "rear_kick",
+    "trample",
+    "gallop"
+  ],
+  "resistances": {
+    "physical": 18
+  },
+  "weaknesses": [
+    "predators"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

@@ -1,0 +1,72 @@
+{
+  "profession": "architecture",
+  "display_name": "Architecture",
+  "description": "Conception et construction de bâtiments, propriétés et habitations pour les joueurs",
+  "icon_path": "icons/professions/architect.png",
+  "category": "specialized",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "small_house_blueprint",
+      "name": "Plan de petite maison",
+      "description": "Blueprint pour construction d'une habitation modeste pour 2-3 personnes",
+      "profession": "architecture",
+      "difficulty": 30,
+      "base_success_rate": 0.7,
+      "skill_required": 25,
+      "experience_gain": 30,
+      "exceptional_chance": 0.1,
+      "time_required_seconds": 240,
+      "components": [
+        {
+          "item_type": "parchment_paper",
+          "quantity": 5,
+          "quality_required": "fine",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "architectural_ink",
+          "quantity": 2,
+          "quality_required": "standard",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "measuring_tools",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "small_house_blueprint",
+          "name": "Plan de petite maison",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.0,
+          "durability_modifier": 0.9
+        }
+      ],
+      "conditions": {
+        "profession_level": 5,
+        "required_tools": [
+          "drafting_table",
+          "measuring_tools"
+        ],
+        "environmental_factors": [
+          "architectural_studio"
+        ]
+      }
+    }
+  ],
+  "specializations": [
+    "residential_design",
+    "commercial_buildings",
+    "defensive_structures",
+    "property_management"
+  ],
+  "id": "architecture",
+  "name": "Architecture",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

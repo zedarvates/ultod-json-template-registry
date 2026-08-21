@@ -1,0 +1,44 @@
+{
+  "id": "camouflage",
+  "name": "Camouflage",
+  "description": "Capacité à se fondre parfaitement dans l'environnement",
+  "icon": "camouflage_icon",
+  "category": "stealth",
+  "rarity": "rare",
+  "stat_modifiers": {
+    "stealth": 0.4,
+    "perception": 0.2
+  },
+  "passive_effects": [
+    {
+      "id": "environmental_blend",
+      "name": "Fusion Environnementale",
+      "description": "Se fond dans l'environnement naturel, devenant presque invisible",
+      "modifier_type": "stealth_bonus",
+      "value": 80.0
+    },
+    {
+      "id": "terrain_adaptation",
+      "name": "Adaptation Territoriale",
+      "description": "Le camouflage s'adapte automatiquement au type de terrain",
+      "modifier_type": "terrain_stealth_bonus",
+      "value": 60.0
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "perfect_camouflage",
+      "name": "Camouflage Parfait",
+      "description": "Devient complètement invisible pendant un court moment",
+      "cooldown": 120000,
+      "duration": 30000,
+      "effects": {
+        "invisibility": true,
+        "movement_silent": true
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

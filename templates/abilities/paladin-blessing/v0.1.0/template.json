@@ -1,0 +1,64 @@
+{
+  "id": "paladin_blessing",
+  "name": "Bénédiction du Paladin",
+  "description": "Bénit les alliés proches, augmentant leurs dégâts physiques",
+  "icon": "blessing_icon",
+  "category": "support",
+  "rarity": "uncommon",
+  "ability_type": "buff",
+  "target_type": "allies",
+  "range": 10.0,
+  "cast_time": 2000,
+  "cooldown": 30000,
+  "resource_cost": {
+    "type": "mana",
+    "amount": 45
+  },
+  "duration": 600000,
+  "effects": [
+    {
+      "effect_type": "damage_boost",
+      "target": "allies",
+      "value": 15,
+      "scaling": {
+        "charisma": 0.3,
+        "level": 0.1
+      },
+      "duration": 600000
+    },
+    {
+      "effect_type": "holy_aura",
+      "target": "self",
+      "value": 0,
+      "visual_only": true,
+      "duration": 600000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_circle",
+    "active_effect": "golden_aura",
+    "impact_effect": "blessing_sparkles"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_chant",
+    "active_sound": "aura_hum",
+    "impact_sound": "blessing_bell"
+  },
+  "requirements": {
+    "level": 5,
+    "class": "paladin",
+    "skills": [
+      "divine_magic"
+    ]
+  },
+  "upgrades": {
+    "greater_blessing": {
+      "unlock_level": 18,
+      "description": "Augmente la durée et les effets",
+      "duration_bonus": 120000,
+      "damage_bonus": 5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "ranged_spell_0693",
+  "name": "Ranged Spell 0693",
+  "description": "Un tir précis et fiable qui blesse la cible de manière conséquente malgré les contraintes",
+  "icon": "ranged_spell_0693_icon",
+  "school": "ranged",
+  "rarity": "common",
+  "spell_type": "precision_shot",
+  "target_type": "single_enemy",
+  "range": 35.0,
+  "cast_time": 2000,
+  "cooldown": 0,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 140,
+    "damage_type": "piercing_physical",
+    "scaling": {
+      "ranged_weapon_damage": 1.8,
+      "dexterity": 1.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "accurate_projectile_damage",
+      "value": 140,
+      "duration": 0,
+      "tick_rate": 0,
+      "steady_damage_guaranteed": 140,
+      "aiming_time_penalty_reduction": 50,
+      "shot_stability_bonus": true,
+      "steady_focus_mana_efficiency": 15,
+      "wound_bleeding_dot": 25
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "hunter_aiming_precisely_sight_alignment",
+    "fire_effect": "arrow_flying_ranged_spell_0693_trajectory_straight",
+    "hit_effect": "target_impact_wound_bleeding_particles",
+    "finish_effect": "ranged_spell_0693_aim_focus_glow_fading"
+  },
+  "sound_effects": {
+    "cast_effect": "string_drawing_aim_ranged_spell_0693_breathing",
+    "fire_effect": "arrow_release_clean_shot_swoosh",
+    "hit_effect": "target_impact_thud_bleeding_flow",
+    "finish_effect": "hunter_breath_release_focus_relaxation"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "ranged_weapons",
+      "marksmanship"
+    ],
+    "classes": [
+      "hunter",
+      "marksman"
+    ],
+    "specializations": [
+      "ranged_spell_0693_expert"
+    ]
+  },
+  "upgrades": {
+    "master_steady_shot": {
+      "unlock_level": 12,
+      "description": "Le Ranged Spell 0693 devient maître, ignorant les malus et optimisant les dégâts",
+      "penalty_ignorance_perfect": true,
+      "steady_damage_maximization": 180,
+      "focus_recovery_speed": 2.0,
+      "wound_bleeding_amplification": 40
+    },
+    "paragon_steady_shot": {
+      "unlock_level": 22,
+      "description": "Le Ranged Spell 0693 atteint le parangon, devenant instantané avec des tirs multiples",
+      "instant_cast_under_conditions": true,
+      "triple_shot_conversion": true,
+      "critical_hit_guarantee_ranged": 0.3,
+      "steady_focus_mastery": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

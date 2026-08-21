@@ -1,0 +1,43 @@
+{
+  "id": "monster_spell_spell_0179",
+  "name": "Monster Spell Spell 0179",
+  "description": "Description pour Monster Spell Spell 0179",
+  "icon": "monster_spell_spell_0179_icon",
+  "school": "monster_spell",
+  "rarity": "common",
+  "spell_type": "monster_spell_spell_0179ing",
+  "target_type": "single",
+  "range": 6.0,
+  "cast_time": 300,
+  "cooldown": 1000,
+  "mana_cost": 20,
+  "effects": [
+    {
+      "effect_type": "monster_spell_spell_0179ing_effect",
+      "value": 24,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "monster_spell_spell_0179_aura",
+    "projectile_effect": "monster_spell_spell_0179",
+    "impact_effect": "light_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "hymn",
+    "impact_sound": "monster_spell_spell_0179"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "celestial_magic"
+    ],
+    "classes": [
+      "celestial"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

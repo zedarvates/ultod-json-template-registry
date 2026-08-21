@@ -1,0 +1,39 @@
+{
+  "school": "chamanisme",
+  "rarity": "common",
+  "target_type": "single",
+  "range": 30.0,
+  "cast_time": 2000,
+  "cooldown": 10000,
+  "mana_cost": 20,
+  "visual_effects": {
+    "cast_effect": "shaman_cast",
+    "projectile_effect": "none",
+    "impact_effect": "elemental_impact",
+    "trail_effect": "elemental_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "shaman_cast_sound",
+    "impact_sound": "elemental_impact_sound"
+  },
+  "requirements": {
+    "level": 11
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "chamanisme_spell_1287",
+  "name": "Chamanisme Spell 1287",
+  "description": "Un bouclier de terre pour un allié",
+  "icon": "chamanisme_spell_1287_icon",
+  "spell_type": "buff",
+  "effects": [
+    {
+      "effect_type": "absorb",
+      "value": 400,
+      "duration": 120000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "template_type": "spell"
+}

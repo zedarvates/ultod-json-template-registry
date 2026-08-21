@@ -1,0 +1,66 @@
+{
+  "id": "divination_spell_1160",
+  "name": "Divination Spell 1160",
+  "description": "Vous choisissez une créature dans votre champ de vision et concentrez votre attention sur elle. Vos attaques contre cette cible ont un bonus de +1d6 aux dégâts",
+  "icon": "divination_spell_1160_icon",
+  "school": "divination",
+  "rarity": "uncommon",
+  "spell_type": "mark_target",
+  "target_type": "single_enemy",
+  "range": 90.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 6,
+    "damage_type": "physical"
+  },
+  "effects": [
+    {
+      "effect_type": "hunter_mark",
+      "value": 6,
+      "duration": 3600000,
+      "tick_rate": 0,
+      "damage_bonus": 6,
+      "critical_multiplier": 1.5,
+      "concentration_required": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "hunter_focus",
+    "mark_effect": "glowing_mark",
+    "attack_effect": "hunter_strike"
+  },
+  "sound_effects": {
+    "cast_sound": "hunter_whistle",
+    "mark_sound": "target_lock",
+    "attack_sound": "precision_hit"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "nature_magic",
+      "tracking"
+    ],
+    "classes": [
+      "ranger",
+      "hunter",
+      "druid"
+    ]
+  },
+  "upgrades": {
+    "greater_mark": {
+      "unlock_level": 7,
+      "description": "Augmente le bonus de dégâts à +2d6 et révèle la position de la cible",
+      "damage_multiplier": 2.0,
+      "reveal_location": true
+    },
+    "death_mark": {
+      "unlock_level": 17,
+      "description": "La marque peut causer une exécution instantanée sous certains seuils de vie",
+      "execution_threshold": 0.1
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

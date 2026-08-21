@@ -1,0 +1,71 @@
+{
+  "id": "physical_spell_0963",
+  "name": "Physical Spell 0963",
+  "description": "Attaque surprise qui étourdit l'ennemi et inflige des dégâts modérés",
+  "icon": "physical_spell_0963_icon",
+  "school": "physical",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "single_enemy",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 18000,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 40,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 1.1,
+      "strength": 0.9
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage",
+      "value": 40,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_type": "physical",
+      "scaling": {
+        "agility": 1.1,
+        "strength": 0.9
+      }
+    },
+    {
+      "effect_type": "stun",
+      "value": 100,
+      "duration": 3000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "quick_strike",
+    "projectile_effect": null,
+    "hit_effect": "stun_sparks"
+  },
+  "sound_effects": {
+    "cast_sound": "quick_swing",
+    "projectile_sound": null,
+    "hit_sound": "stun_crack"
+  },
+  "requirements": {
+    "level": 4,
+    "skills": [
+      "dirty_fighting"
+    ],
+    "classes": [
+      "ninja",
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_cheap_shot": {
+      "unlock_level": 14,
+      "description": "Augmente les dégâts et la durée d'étourdissement du Physical Spell 0963",
+      "damage_bonus": 15,
+      "stun_duration_bonus": 1000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

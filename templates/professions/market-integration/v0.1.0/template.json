@@ -1,0 +1,309 @@
+{
+  "market_integration": {
+    "version": "1.0.0",
+    "description": "Market integration system for profession-crafted items",
+    "last_updated": "2025-11-21",
+    "market_system": {
+      "enabled": true,
+      "global_market_multiplier": 1.0,
+      "supply_demand_enabled": true,
+      "reputation_system_enabled": true,
+      "auction_house_integration": true,
+      "quality_pricing": {
+        "commun": {
+          "multiplicateur": 1.0,
+          "demande_marché": 0.8,
+          "rarity_modifier": 0.5
+        },
+        "fin": {
+          "multiplicateur": 1.5,
+          "demande_marché": 1.0,
+          "rarity_modifier": 1.0
+        },
+        "supérieur": {
+          "multiplicateur": 2.0,
+          "demande_marché": 1.2,
+          "rarity_modifier": 1.5
+        },
+        "exquis": {
+          "multiplicateur": 3.0,
+          "demande_marché": 1.5,
+          "rarity_modifier": 2.0
+        },
+        "chef_d'œuvre": {
+          "multiplicateur": 5.0,
+          "demande_marché": 2.0,
+          "rarity_modifier": 3.0
+        },
+        "légendaire": {
+          "multiplicateur": 10.0,
+          "demande_marché": 3.0,
+          "rarity_modifier": 5.0
+        },
+        "mythique": {
+          "multiplicateur": 25.0,
+          "demande_marché": 5.0,
+          "rarity_modifier": 10.0
+        }
+      },
+      "réputation_pricing": {
+        "inconnu": {
+          "multiplicateur": 0.8,
+          "accès_marché": "local",
+          "commission_rate": 0.15
+        },
+        "local": {
+          "multiplicateur": 1.0,
+          "accès_marché": "ville",
+          "commission_rate": 0.12
+        },
+        "ville": {
+          "multiplicateur": 1.2,
+          "accès_marché": "régional",
+          "commission_rate": 0.1
+        },
+        "régional": {
+          "multiplicateur": 1.5,
+          "accès_marché": "national",
+          "commission_rate": 0.08
+        },
+        "national": {
+          "multiplicateur": 2.0,
+          "accès_marché": "mondial",
+          "commission_rate": 0.05
+        },
+        "mondial": {
+          "multiplicateur": 3.0,
+          "accès_marché": "exclusif",
+          "commission_rate": 0.02
+        }
+      },
+      "profession_market_modifiers": {
+        "blacksmithing": {
+          "base_value_multiplier": 1.2,
+          "demand_volatility": 0.3,
+          "supply_trend": "stable",
+          "specialization_bonuses": {
+            "weaponsmith": {
+              "value_bonus": 1.5,
+              "demand_bonus": 1.3
+            },
+            "armorsmith": {
+              "value_bonus": 1.4,
+              "demand_bonus": 1.2
+            },
+            "master_craftsman": {
+              "value_bonus": 2.0,
+              "demand_bonus": 1.8
+            }
+          }
+        },
+        "enchanting": {
+          "base_value_multiplier": 1.8,
+          "demand_volatility": 0.4,
+          "supply_trend": "growing",
+          "specialization_bonuses": {
+            "combat_enchanter": {
+              "value_bonus": 1.6,
+              "demand_bonus": 1.4
+            },
+            "utility_enchanter": {
+              "value_bonus": 1.4,
+              "demand_bonus": 1.2
+            },
+            "master_enchanter": {
+              "value_bonus": 2.2,
+              "demand_bonus": 2.0
+            }
+          }
+        },
+        "tailoring": {
+          "base_value_multiplier": 1.1,
+          "demand_volatility": 0.2,
+          "supply_trend": "stable",
+          "specialization_bonuses": {
+            "cloth_specialist": {
+              "value_bonus": 1.3,
+              "demand_bonus": 1.1
+            },
+            "leather_worker": {
+              "value_bonus": 1.4,
+              "demand_bonus": 1.3
+            },
+            "master_tailor": {
+              "value_bonus": 1.8,
+              "demand_bonus": 1.6
+            }
+          }
+        },
+        "jewelcrafting": {
+          "base_value_multiplier": 2.5,
+          "demand_volatility": 0.5,
+          "supply_trend": "volatile",
+          "specialization_bonuses": {
+            "gem_cutter": {
+              "value_bonus": 2.0,
+              "demand_bonus": 1.8
+            },
+            "jewelry_designer": {
+              "value_bonus": 2.2,
+              "demand_bonus": 2.0
+            },
+            "master_jeweler": {
+              "value_bonus": 3.0,
+              "demand_bonus": 2.5
+            }
+          }
+        },
+        "woodworking": {
+          "base_value_multiplier": 1.0,
+          "demand_volatility": 0.25,
+          "supply_trend": "stable",
+          "specialization_bonuses": {
+            "carpenter": {
+              "value_bonus": 1.2,
+              "demand_bonus": 1.1
+            },
+            "fletcher": {
+              "value_bonus": 1.3,
+              "demand_bonus": 1.2
+            },
+            "master_craftsman": {
+              "value_bonus": 1.6,
+              "demand_bonus": 1.5
+            }
+          }
+        },
+        "mining": {
+          "base_value_multiplier": 0.8,
+          "demand_volatility": 0.3,
+          "supply_trend": "growing",
+          "specialization_bonuses": {
+            "ore_specialist": {
+              "value_bonus": 1.1,
+              "demand_bonus": 1.2
+            },
+            "gem_miner": {
+              "value_bonus": 1.4,
+              "demand_bonus": 1.5
+            },
+            "master_miner": {
+              "value_bonus": 1.3,
+              "demand_bonus": 1.4
+            }
+          }
+        },
+        "herbalism": {
+          "base_value_multiplier": 0.9,
+          "demand_volatility": 0.35,
+          "supply_trend": "seasonal",
+          "specialization_bonuses": {
+            "herb_specialist": {
+              "value_bonus": 1.2,
+              "demand_bonus": 1.3
+            },
+            "potion_herbalist": {
+              "value_bonus": 1.4,
+              "demand_bonus": 1.5
+            },
+            "master_herbalist": {
+              "value_bonus": 1.6,
+              "demand_bonus": 1.7
+            }
+          }
+        },
+        "cooking": {
+          "base_value_multiplier": 0.7,
+          "demand_volatility": 0.2,
+          "supply_trend": "stable",
+          "specialization_bonuses": {
+            "chef": {
+              "value_bonus": 1.3,
+              "demand_bonus": 1.2
+            },
+            "baker": {
+              "value_bonus": 1.2,
+              "demand_bonus": 1.1
+            },
+            "master_cook": {
+              "value_bonus": 1.5,
+              "demand_bonus": 1.4
+            }
+          }
+        },
+        "fishing": {
+          "base_value_multiplier": 0.6,
+          "demand_volatility": 0.4,
+          "supply_trend": "seasonal",
+          "specialization_bonuses": {
+            "angler": {
+              "value_bonus": 1.2,
+              "demand_bonus": 1.3
+            },
+            "net_fisher": {
+              "value_bonus": 1.1,
+              "demand_bonus": 1.2
+            },
+            "master_fisher": {
+              "value_bonus": 1.4,
+              "demand_bonus": 1.5
+            }
+          }
+        }
+      },
+      "market_events": {
+        "crafting_festival": {
+          "duration_days": 7,
+          "value_multiplier": 1.5,
+          "demand_multiplier": 2.0,
+          "affected_professions": [
+            "all"
+          ],
+          "trigger_condition": "monthly"
+        },
+        "material_shortage": {
+          "duration_days": 3,
+          "value_multiplier": 2.5,
+          "demand_multiplier": 0.5,
+          "affected_professions": [
+            "mining",
+            "herbalism"
+          ],
+          "trigger_condition": "random"
+        },
+        "quality_boom": {
+          "duration_days": 5,
+          "quality_bonus": 0.3,
+          "legendary_chance_bonus": 50.0,
+          "affected_professions": [
+            "blacksmithing",
+            "enchanting"
+          ],
+          "trigger_condition": "achievement_based"
+        }
+      },
+      "auction_house_rules": {
+        "listing_fee_percentage": 0.05,
+        "successful_sale_fee": 0.1,
+        "minimum_listing_duration_hours": 24,
+        "maximum_listing_duration_days": 7,
+        "bid_increment_minimum": 1,
+        "bid_increment_percentage": 0.05,
+        "profession_special_rules": {
+          "legendary_items": {
+            "listing_fee_multiplier": 2.0,
+            "duration_bonus_days": 3
+          },
+          "bulk_listings": {
+            "fee_discount": 0.2,
+            "minimum_quantity": 10
+          }
+        }
+      }
+    }
+  },
+  "id": "market_integration",
+  "name": "Market Integration",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

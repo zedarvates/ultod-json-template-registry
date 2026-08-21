@@ -1,0 +1,63 @@
+{
+  "id": "armes_spell_1220",
+  "name": "Armes Spell 1220",
+  "description": "Un coup maîtrisé qui cause des dégâts importants",
+  "icon": "armes_spell_1220_icon",
+  "school": "armes",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 1500,
+  "cooldown": 8000,
+  "mana_cost": 10,
+  "damage": {
+    "base_damage": 150,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 1.0,
+      "discipline": 0.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 150,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sword_charge",
+    "projectile_effect": "none",
+    "impact_effect": "heavy_strike",
+    "trail_effect": "power_surge"
+  },
+  "sound_effects": {
+    "cast_sound": "power_surge",
+    "impact_sound": "heavy_impact"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "masterful_grip": {
+      "unlock_level": 12,
+      "description": "Augmente les dégâts de 25%",
+      "damage_bonus": 25
+    },
+    "swift_execution": {
+      "unlock_level": 25,
+      "description": "Réduit le temps d'incantation de 20%",
+      "cast_time_reduction": 300
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

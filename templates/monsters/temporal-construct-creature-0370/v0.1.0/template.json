@@ -1,0 +1,108 @@
+{
+  "id": "temporal_construct_creature_0370",
+  "name": "Temporal Construct Creature 0370",
+  "description": "Un être ancien qui protège les mysteries du temps avec d'incroyables pouvoirs temporels",
+  "icon": "temporal_construct_creature_0370_construct_creature_0370_icon",
+  "category": "temporal_construct_creature_0370_construct",
+  "rarity": "legendary",
+  "base_stats": {
+    "health": 1500,
+    "mana": 800,
+    "strength": 60,
+    "dexterity": 70,
+    "intelligence": 90,
+    "wisdom": 85,
+    "constitution": 80,
+    "charisma": 50
+  },
+  "properties": {
+    "is_temporal": true,
+    "is_magical": true,
+    "is_construct": true,
+    "size": "large",
+    "speed": 8.0,
+    "temporal_stability": 95
+  },
+  "loot_table": {
+    "common_drops": [
+      "temporal_construct_creature_0370_essence",
+      "time_fragment",
+      "ancient_gear"
+    ],
+    "rare_drops": [
+      "chronometer_part",
+      "temporal_construct_creature_0370_crystal",
+      "reality_anchor"
+    ],
+    "epic_drops": [
+      "temporal_construct_creature_0370_construct_creature_0370_core",
+      "time_manipulation_manual"
+    ],
+    "legendary_drops": [
+      "temporal_construct_creature_0370_mastery_token",
+      "time_stop_scroll"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "medium",
+    "attack_pattern": "temporal_construct_creature_0370_combat",
+    "special_abilities": [
+      "time_stop",
+      "temporal_construct_creature_0370_rift",
+      "chronosurge"
+    ],
+    "defensive_patterns": [
+      "time_echo",
+      "temporal_construct_creature_0370_shield",
+      "reality_distortion"
+    ]
+  },
+  "abilities": [
+    "temporal_construct_creature_0370_strike",
+    "time_slow_field",
+    "chronal_healing",
+    "temporal_construct_creature_0370_clone",
+    "reality_warp",
+    "time_echo_duplicate"
+  ],
+  "temporal_abilities": {
+    "time_manipulation": {
+      "level": 95,
+      "cooldowns": {
+        "time_stop": 300000,
+        "temporal_rift": 60000,
+        "chronosurge": 120000
+      }
+    },
+    "temporal_resistance": 80,
+    "time_field_effects": {
+      "area_time_dilation": 0.5,
+      "duration": 20000,
+      "radius": 15.0
+    }
+  },
+  "resistances": {
+    "temporal": 100,
+    "arcane": 75,
+    "physical": 50,
+    "fire": 25,
+    "cold": 25
+  },
+  "weaknesses": [
+    "chaos",
+    "reality_destruction",
+    "temporal_construct_creature_0370_disruption"
+  ],
+  "spawn_conditions": {
+    "location": "temporal_construct_creature_0370_rifts",
+    "time_of_day": "any",
+    "player_level_min": 60,
+    "prerequisite_quests": [
+      "temporal_construct_creature_0370_pandora",
+      "time_mysteries_revealed"
+    ],
+    "event_required": "temporal_construct_creature_0370_crisis"
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

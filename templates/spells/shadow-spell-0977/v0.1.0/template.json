@@ -1,0 +1,53 @@
+{
+  "id": "shadow_spell_0977",
+  "name": "Shadow Spell 0977",
+  "description": "Se téléporte instantanément derrière un ennemi dans un rayon de 10 mètres",
+  "icon": "shadow_spell_0977_spell_0977_icon",
+  "school": "shadow_spell_0977",
+  "rarity": "uncommon",
+  "spell_type": "utility",
+  "target_type": "single_enemy",
+  "range": 10.0,
+  "cast_time": 0,
+  "cooldown": 15000,
+  "mana_cost": 30,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "teleport_behind",
+      "value": 0,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "shadow_spell_0977_vanish",
+    "projectile_effect": null,
+    "hit_effect": "shadow_spell_0977_appear"
+  },
+  "sound_effects": {
+    "cast_sound": "shadow_spell_0977_whisper",
+    "projectile_sound": null,
+    "hit_sound": "shadow_spell_0977_spell_0977"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "stealth"
+    ],
+    "classes": [
+      "ninja",
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_shadow_step": {
+      "unlock_level": 15,
+      "description": "Augmente la portée de shadow_spell_0977 Spell 0977",
+      "range_bonus": 5,
+      "cooldown_reduction": 3000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

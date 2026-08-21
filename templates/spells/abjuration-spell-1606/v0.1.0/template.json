@@ -1,0 +1,45 @@
+{
+  "id": "abjuration_spell_1606",
+  "name": "Abjuration Spell 1606",
+  "description": "Une armure magique vous protège contre les attaques physiques",
+  "icon": "abjuration_spell_1606_icon",
+  "school": "abjuration",
+  "rarity": "common",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "armor_buff",
+      "value": 13,
+      "duration": 3600000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "armor_form"
+  },
+  "sound_effects": {
+    "cast_sound": "armor_clink"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "abjuration"
+    ],
+    "classes": [
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

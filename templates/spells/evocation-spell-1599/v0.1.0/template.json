@@ -1,0 +1,50 @@
+{
+  "id": "evocation_spell_1599",
+  "name": "Evocation Spell 1599",
+  "description": "Une Evocation Spell 1599 explosive inflige 8d6 dégâts de feu dans une explosion de 6 mètres",
+  "icon": "evocation_spell_1599_icon",
+  "school": "evocation",
+  "rarity": "uncommon",
+  "spell_type": "area_damage",
+  "target_type": "area",
+  "range": 45.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 48,
+    "damage_type": "fire",
+    "aoe_radius": 6.0
+  },
+  "effects": [
+    {
+      "effect_type": "fire_explosion",
+      "value": 48,
+      "duration": 0,
+      "tick_rate": 0,
+      "dexterity_save": true,
+      "save_dc": 14
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fire_orbit",
+    "projectile_effect": "flaming_ball",
+    "impact_effect": "fire_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "flame_burst",
+    "impact_sound": "explosion_large"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "lightning_spell_0774",
+  "name": "Lightning Spell 0774",
+  "description": "Invoque une puissante Lightning Spell 0774 qui saute entre plusieurs ennemis, infligeant des dégâts électriques cumulatifs",
+  "icon": "lightning_spell_0774_icon",
+  "school": "lightning",
+  "rarity": "epic",
+  "spell_type": "multi_target_electric_lightning_spell_0774",
+  "target_type": "aoe_lightning_spell_0774_damage",
+  "range": 25.0,
+  "cast_time": 2500,
+  "cooldown": 15000,
+  "mana_cost": 120,
+  "damage": {
+    "base_damage": 220,
+    "damage_type": "storm_lightning_spell_0774_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "lightning_conduction_network",
+      "value": 280,
+      "duration": 3000,
+      "tick_rate": 500,
+      "chain_targets_maximum": 8,
+      "base_damage_per_target": 220,
+      "damage_reduction_per_jump_percent": 15,
+      "stun_chance_primary_targets": 35,
+      "storm_rain_creation_radius": 6.0,
+      "overload_electrical_buildup": 0.3
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "storm_energy_gathering_lightning_clouds_crackling_energy",
+    "chain_effect": "lightning_arcs_jumping_targets_crackling_electric_transfers",
+    "storm_effect": "lightning_storm_clouds_raining_electric_damage_downpour",
+    "finale_effect": "lightning_spell_0774_completion_electric_burst_final_overload_explosion"
+  },
+  "sound_effects": {
+    "cast_effect": "storm_gathering_rumbling_thunder_crackling_electricity",
+    "chain_effect": "rapid_lightning_crackles_thunder_claps_conduction_sound",
+    "storm_effect": "continuous_lightning_storm_rumble_electric_rain_patter",
+    "finale_effect": "lightning_spell_0774_completion_final_thunderclap_overload_discharge"
+  },
+  "requirements": {
+    "level": 28,
+    "skills": [
+      "lightning_magic",
+      "storm_calling",
+      "lightning_spell_0774_conduction"
+    ],
+    "classes": [
+      "mage",
+      "storm_mage",
+      "lightning_specialist"
+    ],
+    "specializations": [
+      "electric_conduit"
+    ]
+  },
+  "upgrades": {
+    "greater_chain_lightning": {
+      "unlock_level": 38,
+      "description": "La Lightning Spell 0774 devient plus grande avec plus de cibles et des dégâts augmentés",
+      "additional_chain_targets": 4,
+      "damage_per_target_increase_percent": 75,
+      "storm_duration_extension": 5.0,
+      "overload_damage_amplification": 2.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

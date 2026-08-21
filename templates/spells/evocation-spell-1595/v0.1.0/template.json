@@ -1,0 +1,50 @@
+{
+  "id": "evocation_spell_1595",
+  "name": "Evocation Spell 1595",
+  "description": "Une Evocation Spell 1595 frappe jusqu'à 4 cibles",
+  "icon": "evocation_spell_1595_icon",
+  "school": "evocation",
+  "rarity": "rare",
+  "spell_type": "area_damage",
+  "target_type": "evocation_spell_1595",
+  "range": 45.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 45,
+    "damage_type": "lightning",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "evocation_spell_1595_electric",
+      "value": 45,
+      "duration": 0,
+      "tick_rate": 0,
+      "max_targets": 4,
+      "dexterity_save": true,
+      "save_dc": 15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "lightning_evocation_spell_1595_start",
+    "projectile_effect": "electric_arc"
+  },
+  "sound_effects": {
+    "cast_sound": "thunder",
+    "impact_sound": "electric_zap"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

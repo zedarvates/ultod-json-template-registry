@@ -1,0 +1,41 @@
+{
+  "version": "0.1.0",
+  "school": "nature",
+  "rarity": "epic",
+  "target_type": "chain",
+  "range": 9.5,
+  "cast_time": 2906,
+  "cooldown": 14631,
+  "mana_cost": 122,
+  "visual_effects": {
+    "cast_effect": "healer_cast",
+    "projectile_effect": "elemental_projectile",
+    "impact_effect": "elemental_impact",
+    "trail_effect": "elemental_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "healer_cast_sound",
+    "impact_sound": "elemental_impact_sound"
+  },
+  "requirements": {
+    "level": 57,
+    "skills": [],
+    "classes": [
+      "healer"
+    ],
+    "specializations": [
+      "restoration"
+    ]
+  },
+  "balance_validated": true,
+  "generated_by": "content_pipeline_v2",
+  "id": "39645d93dd64",
+  "name": "Healer Restoration Bolt",
+  "description": "Generated healer restoration spell #204",
+  "icon": "39645d93dd64_icon",
+  "spell_type": "utility",
+  "damage_type": null,
+  "effects": [],
+  "balance_efficiency": 0.0,
+  "template_type": "content_pipeline"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "recall_stone_basic",
+  "name": "Pierre de Rappel Basique",
+  "description": "Une pierre runique permettant de se téléporter vers un point de rappel marqué",
+  "icon": "recall_stone_basic",
+  "category": "consumable",
+  "rarity": "common",
+  "item_type": "teleportation",
+  "sub_type": "recall_stone",
+  "base_stats": {
+    "durability": 10,
+    "max_durability": 10,
+    "weight": 0.5,
+    "value": 100
+  },
+  "teleportation_properties": {
+    "teleport_type": "recall",
+    "range_limit": 0,
+    "cooldown_seconds": 300,
+    "mana_cost": 50,
+    "cast_time_seconds": 3.0,
+    "requires_marked_location": true,
+    "max_marks": 1,
+    "mark_duration_hours": 24
+  },
+  "properties": {
+    "stackable": false,
+    "consumable": false,
+    "reusable": true,
+    "soulbound": false,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "professions": []
+  },
+  "effects": [
+    {
+      "effect_type": "teleport",
+      "target": "self",
+      "parameters": {
+        "teleport_type": "recall",
+        "safety_check": true,
+        "interruptible": true
+      }
+    }
+  ],
+  "version": "0.1.0",
+  "template_type": "item"
+}

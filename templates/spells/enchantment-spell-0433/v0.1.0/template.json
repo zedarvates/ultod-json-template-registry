@@ -1,0 +1,78 @@
+{
+  "id": "enchantment_spell_0433",
+  "name": "Enchantment Spell 0433",
+  "description": "Contrôle l'esprit d'un adversaire et le force à combattre pour vous pendant un temps limité",
+  "icon": "enchantment_spell_0433_icon",
+  "school": "enchantment",
+  "rarity": "rare",
+  "spell_type": "mind_control_domination",
+  "target_type": "single_enemy",
+  "range": 20.0,
+  "cast_time": 2000,
+  "cooldown": 30000,
+  "mana_cost": 85,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "mentally_dominated_target"
+  },
+  "effects": [
+    {
+      "effect_type": "psychic_submission_enchantment_spell_0433",
+      "value": 250,
+      "duration": 45000,
+      "tick_rate": 0,
+      "charm_success_rate": 0.7,
+      "controlled_attacks_damage": 120,
+      "self_damage_power_bonus": true,
+      "charm_break_resistance": 0.4,
+      "forced_alliance_duration": 45000,
+      "mental_domination_aura": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "enchantment_spell_0433ing_eyes_eye_contact_love_hearts",
+    "charm_effect": "swirling_loyalty_symbols_encircling",
+    "control_effect": "commands_obeyed_force_field_waves",
+    "expire_effect": "enchantment_spell_0433_breaking_resentful_glare"
+  },
+  "sound_effects": {
+    "cast_sound": "seductive_whisper_mental_whispering",
+    "charm_sound": "loyalty_vow_swearing_submissive_whimpers",
+    "control_effect": "commands_acknowledged_disciplined_responses",
+    "expire_sound": "enchantment_spell_0433_shattered_hatred_hissing_backlash"
+  },
+  "requirements": {
+    "level": 32,
+    "skills": [
+      "arcane_magic",
+      "mind_domination"
+    ],
+    "classes": [
+      "enchanter",
+      "hypnotist_lord"
+    ],
+    "specializations": [
+      "mind_controller"
+    ]
+  },
+  "upgrades": {
+    "dominate": {
+      "unlock_level": 42,
+      "description": "Le enchantment_spell_0433e devient une domination complète avec un contrôle mental absolu",
+      "total_mind_control": true,
+      "spell_casting_ability": true,
+      "victim_memory_alteration": true,
+      "permanent_psychological_damage": 0.3
+    },
+    "charm_of_masses": {
+      "unlock_level": 52,
+      "description": "Le enchantment_spell_0433e affecte maintenant plusieurs cibles simultanément",
+      "max_targets": 5,
+      "charm_chain_reaction": true,
+      "group_mind_link": true,
+      "army_control_potential": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

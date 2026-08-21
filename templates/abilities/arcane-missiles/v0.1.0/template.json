@@ -1,0 +1,32 @@
+{
+  "id": "arcane_missiles",
+  "name": "Projectiles des Arcanes",
+  "description": "Lance une série de projectiles magiques sur la cible",
+  "type": "spell",
+  "class_restriction": [
+    "mage"
+  ],
+  "level_requirement": 8,
+  "resource_cost": {
+    "type": "mana",
+    "amount": 30
+  },
+  "cooldown_seconds": 0,
+  "range": 30,
+  "effects": [
+    {
+      "type": "channeled_damage",
+      "damage_type": "arcane",
+      "base_damage": 40,
+      "scaling": {
+        "strength": 0.0,
+        "dexterity": 0.0,
+        "intelligence": 0.5,
+        "level": 0.3
+      },
+      "armor_penetration": 0.0
+    }
+  ],
+  "template_type": "ability",
+  "version": "0.1.0"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "rogue_spell_1195",
+  "name": "Rogue Spell 1195",
+  "description": "Augmente la vitesse d'attaque et la régénération d'énergie",
+  "icon": "rogue_spell_1195_icon",
+  "school": "rogue",
+  "rarity": "rare",
+  "spell_type": "self_buff",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 0,
+  "cooldown": 180000,
+  "energy_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "rogue_spell_1195_buff",
+      "value": 30,
+      "duration": 20000,
+      "tick_rate": 0,
+      "attack_speed_bonus": 30,
+      "energy_regeneration_bonus": 200
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "rush_burst",
+    "buff_effect": "energy_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "rush_shout",
+    "buff_sound": "energy_burst"
+  },
+  "requirements": {
+    "level": 16,
+    "skills": [
+      "combat"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

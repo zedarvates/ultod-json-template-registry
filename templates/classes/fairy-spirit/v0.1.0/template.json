@@ -1,0 +1,86 @@
+{
+  "id": "fairy_spirit",
+  "name": "Fairy Spirit",
+  "description": "Enchanted fairy lineage with magical dust and celestial powers",
+  "color": "DDA0DD",
+  "primary_resource": "mana",
+  "base_stats": {
+    "strength": 12,
+    "agility": 20,
+    "intelligence": 20,
+    "vitality": 12,
+    "wisdom": 24,
+    "charisma": 22
+  },
+  "specializations": [
+    "balance",
+    "restoration_druid"
+  ],
+  "starting_skills": [
+    {
+      "id": 19001,
+      "name": "Fairy Dust",
+      "description": "Sprinkle magical dust that heals allies over time",
+      "cooldown": 15000,
+      "mana_cost": 200,
+      "range": 20.0,
+      "cast_time": 1500,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 19002,
+      "name": "Pixie Blessing",
+      "description": "Bless allies with increased luck and regeneration",
+      "cooldown": 60000,
+      "mana_cost": 150,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": true
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 190001,
+            "name": "Enchanted Luck",
+            "description": "Increases critical strike chance by 5%",
+            "max_rank": 5,
+            "icon_path": "talents/fairy_spirit/enchanted_luck.png"
+          },
+          {
+            "id": 190002,
+            "name": "Nature's Whisper",
+            "description": "Healing spells restore 15% more health",
+            "max_rank": 3,
+            "icon_path": "talents/fairy_spirit/natures_whisper.png"
+          },
+          {
+            "id": 190003,
+            "name": "Fairy Flight",
+            "description": "Increases movement speed by 20%",
+            "max_rank": 3,
+            "icon_path": "talents/fairy_spirit/fairy_flight.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100000,
+  "health_modifier": 0.9,
+  "damage_modifier": 0.9,
+  "armor_modifier": 0.8,
+  "is_lineage_class": true,
+  "unlock_requirements": {
+    "required_item": "fairy_dust",
+    "required_level": 25,
+    "required_achievement": "nature_friend",
+    "description": "Requires Fairy Dust collected from enchanted forests and the Nature Friend achievement"
+  },
+  "template_type": "class",
+  "version": "0.1.0"
+}

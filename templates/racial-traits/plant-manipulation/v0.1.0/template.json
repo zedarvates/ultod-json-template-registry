@@ -1,0 +1,70 @@
+{
+  "id": "plant_manipulation",
+  "name": "Manipulation Végétale",
+  "description": "Capacité à contrôler et faire pousser les plantes à volonté",
+  "icon": "plant_manipulation_icon",
+  "category": "nature",
+  "rarity": "rare",
+  "stat_modifiers": {
+    "nature_magic": 0.4,
+    "healing_power": 0.3,
+    "regeneration": 0.2
+  },
+  "passive_effects": [
+    {
+      "id": "plant_communion",
+      "name": "Communion Végétale",
+      "description": "Peut communiquer avec les plantes et sentir leur présence",
+      "modifier_type": "plant_sense",
+      "value": 50.0
+    },
+    {
+      "id": "natural_regeneration",
+      "name": "Régénération Naturelle",
+      "description": "Se régénère plus rapidement en présence de plantes",
+      "modifier_type": "nature_regen_bonus",
+      "value": 40.0
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "entangle",
+      "name": "Enchevêtrement",
+      "description": "Fait pousser des vignes qui immobilisent les ennemis",
+      "cooldown": 25000,
+      "duration": 12000,
+      "effects": {
+        "root_count": 6,
+        "slow_percentage": 70,
+        "aoe_range": 15.0
+      }
+    },
+    {
+      "id": "healing_herbs",
+      "name": "Herbes Guérisseuses",
+      "description": "Fait pousser instantanément des plantes médicinales",
+      "cooldown": 45000,
+      "duration": 0,
+      "effects": {
+        "herb_count": 5,
+        "healing_power": 100,
+        "aoe_range": 10.0
+      }
+    },
+    {
+      "id": "thorn_barrier",
+      "name": "Barrière d'Épines",
+      "description": "Crée un mur d'épines qui blesse quiconque le traverse",
+      "cooldown": 60000,
+      "duration": 30000,
+      "effects": {
+        "barrier_length": 20.0,
+        "damage_per_second": 25,
+        "slow_percentage": 30
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

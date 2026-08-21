@@ -1,16 +1,57 @@
 {
   "id": "healing_potion",
-  "template_type": "item",
-  "version": "0.1.0",
-  "name": "Healing Potion",
-  "description": "A portable consumable component for public template workflows.",
+  "name": "Potion de Soin",
+  "description": "Une potion qui restaure les points de vie",
+  "icon": "healing_potion",
   "category": "consumable",
   "rarity": "common",
-  "stack_limit": 10,
-  "weight_kg": 0.2,
-  "tags": [
-    "adapted",
-    "consumable"
+  "item_type": "potion",
+  "sub_type": "health",
+  "base_stats": {
+    "durability": 1,
+    "max_durability": 1,
+    "weight": 0.2,
+    "value": 25
+  },
+  "consumable_properties": {
+    "heal_amount": 150,
+    "cast_time_seconds": 2.0,
+    "cooldown_seconds": 0,
+    "stackable": true,
+    "max_stack": 20
+  },
+  "properties": {
+    "stackable": true,
+    "consumable": true,
+    "reusable": false,
+    "soulbound": false,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "professions": []
+  },
+  "effects": [
+    {
+      "effect_type": "heal",
+      "target": "self",
+      "parameters": {
+        "heal_amount": 150,
+        "instant": true
+      }
+    }
   ],
-  "dependencies": []
+  "vr_properties": {
+    "grabbable": true,
+    "holster_type": "potion_slot",
+    "use_gesture": "mouth_proximity",
+    "haptic_feedback": {
+      "on_grab": "soft",
+      "on_use": "vibration_pulse"
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "item"
 }

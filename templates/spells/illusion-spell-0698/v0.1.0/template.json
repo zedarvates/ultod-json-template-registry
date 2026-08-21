@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0698",
+  "name": "Illusion Spell 0698",
+  "description": "Trouble l'esprit de la cible, la faisant attaquer des alliés et se déplacer de manière imprévisible",
+  "icon": "illusion_spell_0698_icon",
+  "school": "illusion",
+  "rarity": "uncommon",
+  "spell_type": "mental_disorientation_debuff",
+  "target_type": "single_enemy",
+  "range": 30.0,
+  "cast_time": 1000,
+  "cooldown": 15000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "mental_chaos_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "cognitive_mind_scrambling",
+      "value": 100,
+      "duration": 12000,
+      "tick_rate": 0,
+      "confusion_success_rate": 70,
+      "ally_attack_chance": 50,
+      "random_movement_impulse": true,
+      "spell_fumble_chance": 30,
+      "mental_damage_over_time": 30,
+      "reality_perception_warp": 0.4
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "swirling_colors_mind_penetration_energy",
+    "confusion_effect": "target_eyes_rolling_disoriented_staggering",
+    "ally_attack_effect": "friendly_fire_damaged_illusion_sparks",
+    "expire_effect": "illusion_spell_0698_lifting_mental_clarity_return"
+  },
+  "sound_effects": {
+    "cast_effect": "mind_warping_whispers_illusion_spell_0698_whir",
+    "confusion_effect": "disoriented_slurring_mind_chaos_mumble",
+    "ally_attack_effect": "friendly_illusion_spell_0698_attack_sorry_yell",
+    "expire_effect": "mental_clarity_restoring_clear_thought"
+  },
+  "requirements": {
+    "level": 14,
+    "skills": [
+      "illusion_magic",
+      "mind_manipulation"
+    ],
+    "classes": [
+      "illusionist",
+      "mind_bender"
+    ],
+    "specializations": [
+      "cognitive_disruptor"
+    ]
+  },
+  "upgrades": {
+    "greater_confusion": {
+      "unlock_level": 24,
+      "description": "La illusion_spell_0698 devient plus grande affectant plusieurs ennemis et créant une folie temporaire",
+      "mass_confusion_wave": 6,
+      "temporary_insanity_effect": true,
+      "memory_amnesia_component": 0.3,
+      "confusion_damage_amplification": 0.6
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,176 @@
+{
+  "id": "black_knight",
+  "name": "Black Knight",
+  "description": "A dark warrior fueled by mana, gaining power from vanquishing evildoers. Strikes fear into the hearts of villains while maintaining magical prowess",
+  "color": "2F1B14",
+  "primary_resource": "mana",
+  "base_stats": {
+    "strength": 19,
+    "agility": 12,
+    "intelligence": 14,
+    "vitality": 18,
+    "wisdom": 12,
+    "charisma": 13
+  },
+  "specializations": [
+    "vengeance",
+    "shadow_strike",
+    "dark_magic"
+  ],
+  "special_mechanics": {
+    "karma_based_mana_regain": {
+      "enabled": true,
+      "tiers": [
+        {
+          "karma_threshold": -100,
+          "mana_restore_percentage": 0.15,
+          "regeneration_duration": 30000,
+          "description": "Minor villain kill: 15% mana restoration over 30 seconds"
+        },
+        {
+          "karma_threshold": -500,
+          "mana_restore_percentage": 0.25,
+          "regeneration_duration": 45000,
+          "description": "Villain kill: 25% mana restoration over 45 seconds"
+        },
+        {
+          "karma_threshold": -1000,
+          "mana_restore_percentage": 0.4,
+          "regeneration_duration": 60000,
+          "description": "Notorious villain kill: 40% mana restoration over 60 seconds"
+        },
+        {
+          "karma_threshold": -2500,
+          "mana_restore_percentage": 0.6,
+          "regeneration_duration": 90000,
+          "description": "Legendary villain kill: 60% mana restoration over 90 seconds"
+        }
+      ],
+      "buffs_from_karma": {
+        "damage_buff_per_100_karma": 0.05,
+        "armor_buff_per_200_karma": 0.1,
+        "max_stacks": 5,
+        "buff_duration": 30000
+      },
+      "villain_streak_bonuses": {
+        "enabled": true,
+        "streak_thresholds": [
+          {
+            "kills_needed": 2,
+            "health_regeneration_bonus": 0.3,
+            "health_regen_duration": 30000,
+            "description": "2 kills in succession: +30% health regen over 30s"
+          },
+          {
+            "kills_needed": 3,
+            "health_regeneration_bonus": 0.5,
+            "health_regen_duration": 45000,
+            "damage_buff": 0.15,
+            "description": "3 kills: +50% health regen +15% damage bonus"
+          },
+          {
+            "kills_needed": 5,
+            "health_regeneration_bonus": 0.8,
+            "health_regen_duration": 60000,
+            "damage_buff": 0.25,
+            "armor_buff": 0.2,
+            "description": "5 kills: +80% health regen +25% damage +20% armor"
+          }
+        ],
+        "streak_reset_timer": 30000,
+        "visual_cue": "bloodlust_aura"
+      }
+    },
+    "villain_detection": {
+      "enabled": true,
+      "detection_range": 25.0,
+      "aura_strength": 2.0,
+      "karma_radius_bonus": 5.0
+    },
+    "shadow_corruption": {
+      "enabled": true,
+      "corruption_rate_per_karma": 0.001,
+      "corruption_benefits": {
+        "shadow_damage_bonus": 0.1,
+        "mana_regeneration_bonus": 0.05
+      },
+      "corruption_drawbacks": {
+        "healing_reduction": 0.15,
+        "holy_damage_vulnerability": 0.2
+      }
+    }
+  },
+  "starting_skills": [
+    {
+      "id": 3001,
+      "name": "Dark Strike",
+      "description": "A powerful strike that deals additional shadow damage to villains",
+      "cooldown": 0,
+      "mana_cost": 45,
+      "range": 5.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 3002,
+      "name": "Mana Syphon",
+      "description": "Drains mana from nearby foes and restores it to the Black Knight",
+      "cooldown": 15000,
+      "mana_cost": 35,
+      "range": 8.0,
+      "cast_time": 0,
+      "learned_at_level": 3,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 30001,
+            "name": "Villain Hunter",
+            "description": "Increases damage against villains by 10%",
+            "max_rank": 5,
+            "icon_path": "talents/black_knight/villain_hunter.png"
+          },
+          {
+            "id": 30002,
+            "name": "Mana Mastery",
+            "description": "Reduces mana potion effectiveness by 50% but increases maximum mana by 15%",
+            "max_rank": 1,
+            "icon_path": "talents/black_knight/mana_mastery.png",
+            "potion_modifier": 0.5,
+            "mana_bonus": 0.15
+          },
+          {
+            "id": 30003,
+            "name": "Bloodlust Streak",
+            "description": "Increases streak bonus duration and effects",
+            "max_rank": 3,
+            "icon_path": "talents/black_knight/bloodlust_streak.png"
+          },
+          {
+            "id": 30004,
+            "name": "Dark Resilience",
+            "description": "Increases armor while mana is high",
+            "max_rank": 3,
+            "icon_path": "talents/black_knight/dark_resilience.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 120000,
+  "health_modifier": 1.2,
+  "damage_modifier": 1.15,
+  "armor_modifier": 1.3,
+  "villain_balance_mechanics": {
+    "mana_potion_efficiency": 0.5,
+    "villain_kill_reward_multiplier": 1.0
+  },
+  "template_type": "class",
+  "version": "0.1.0"
+}

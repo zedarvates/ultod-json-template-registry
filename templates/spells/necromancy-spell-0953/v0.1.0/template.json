@@ -1,0 +1,68 @@
+{
+  "id": "necromancy_spell_0953",
+  "name": "Necromancy Spell 0953",
+  "description": "Lance une malédiction qui affaiblit la victime, réduisant considérablement sa force physique et ses capacités de combat",
+  "icon": "necromancy_spell_0953_weakness_icon",
+  "school": "necromancy",
+  "rarity": "uncommon",
+  "spell_type": "necromancy_spell_0953_debuff_spell",
+  "target_type": "single_target",
+  "range": 25.0,
+  "cast_time": 2000,
+  "cooldown": 18000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "necrotic_necromancy_spell_0953_drain"
+  },
+  "effects": [
+    {
+      "effect_type": "strength_weakening_necromancy_spell_0953",
+      "value": 40,
+      "duration": 30000,
+      "tick_rate": 1000,
+      "strength_reduction_percentage": 40,
+      "combat_effectiveness_penalty": 35,
+      "movement_speed_debuff": 15,
+      "curse_destabilization_resistance": 20
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dark_necromancy_spell_0953_energy_gathering_black_mist_eerie_whispers",
+    "hit_effect": "victim_weakening_dark_energy_sapping_glowing_weakness_runes",
+    "ongoing_effect": "necromancy_spell_0953d_aura_black_particles_weak_glow_fading_strength",
+    "expiration_effect": "necromancy_spell_0953_breaking_energy_release_dark_particles_dissipating"
+  },
+  "sound_effects": {
+    "cast_effect": "ominous_necromancy_spell_0953_whispers_dark_energy_gathering_eerie_chanting",
+    "hit_effect": "victim_weakening_groan_dark_impact_weakness_necromancy_spell_0953_applied",
+    "ongoing_effect": "continuous_necromancy_spell_0953_whispers_faint_weakening_sounds_dark_ambient",
+    "expiration_effect": "necromancy_spell_0953_shattering_energy_release_whisper_fading_weakness_lifted"
+  },
+  "requirements": {
+    "level": 15,
+    "skills": [
+      "necromancy",
+      "cursing",
+      "debuff_mastery"
+    ],
+    "classes": [
+      "necromancer",
+      "necromancy_spell_0953_weaver",
+      "death_mage"
+    ],
+    "specializations": [
+      "debuff_specialist"
+    ]
+  },
+  "upgrades": {
+    "greater_curse_of_weakness": {
+      "unlock_level": 30,
+      "description": "La Necromancy Spell 0953 devient plus sévère avec des effets secondaires dévastateurs",
+      "additional_damage_over_time": 15,
+      "curse_spread_chance": 25
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

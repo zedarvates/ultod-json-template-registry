@@ -1,0 +1,86 @@
+{
+  "id": "fenrir",
+  "name": "Fenrir",
+  "description": "Legendary wolf lineage granting feral power and pack hunting abilities",
+  "color": "8B4513",
+  "primary_resource": "rage",
+  "base_stats": {
+    "strength": 24,
+    "agility": 22,
+    "intelligence": 8,
+    "vitality": 20,
+    "wisdom": 12,
+    "charisma": 14
+  },
+  "specializations": [
+    "feral",
+    "guardian"
+  ],
+  "starting_skills": [
+    {
+      "id": 16001,
+      "name": "Savage Bite",
+      "description": "Ferocious bite that tears through armor",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 5.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 16002,
+      "name": "Howl of the Pack",
+      "description": "Summon pack allies to aid in battle",
+      "cooldown": 300000,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": true
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 160001,
+            "name": "Primal Rage",
+            "description": "Increases rage generation by 25%",
+            "max_rank": 5,
+            "icon_path": "talents/fenrir/primal_rage.png"
+          },
+          {
+            "id": 160002,
+            "name": "Pack Hunter",
+            "description": "Damage increased by 10% when near allies",
+            "max_rank": 3,
+            "icon_path": "talents/fenrir/pack_hunter.png"
+          },
+          {
+            "id": 160003,
+            "name": "Savage Fury",
+            "description": "Critical strike damage increased by 15%",
+            "max_rank": 5,
+            "icon_path": "talents/fenrir/savage_fury.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100,
+  "health_modifier": 1.3,
+  "damage_modifier": 1.2,
+  "armor_modifier": 1.1,
+  "is_lineage_class": true,
+  "unlock_requirements": {
+    "required_item": "fenrir_fang",
+    "required_level": 40,
+    "required_quest": "wolf_spirit",
+    "description": "Requires a Fenrir Fang from the depths of the Howling Caves and completion of the Wolf Spirit quest"
+  },
+  "template_type": "class",
+  "version": "0.1.0"
+}

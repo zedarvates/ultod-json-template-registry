@@ -1,0 +1,58 @@
+{
+  "id": "sacre_spell_1123",
+  "name": "Sacre Spell 1123",
+  "description": "Vous touchez une créature. Si elle est empoisonnée, vous neutralisez le poison. Si plus d'un poison affecte cette créature, vous neutralisez le plus puissant",
+  "icon": "sacre_spell_1123_icon",
+  "school": "sacré",
+  "rarity": "common",
+  "spell_type": "sacre_spell_1123",
+  "target_type": "ally",
+  "range": 2.0,
+  "cast_time": 1000,
+  "cooldown": 25000,
+  "mana_cost": 50,
+  "effects": [
+    {
+      "effect_type": "remove_poison",
+      "value": 0,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_radius": 0.0,
+      "proc_chance": 1.0,
+      "removes_all_poisons": false,
+      "removes_strongest_poison": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "holy_touch",
+    "protection_effect": "antidote_glow",
+    "impact_effect": "purifying_wave"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_chant",
+    "protection_sound": "antidote_bell",
+    "impact_sound": "cleansing_chime"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_protection_from_poison": {
+      "unlock_level": 7,
+      "description": "Neutralise tous les poisons affectant la cible",
+      "removes_all": true
+    },
+    "aura_of_purity": {
+      "unlock_level": 12,
+      "description": "Crée une aura qui protège contre les poisons pour toutes les créatures alliées proches",
+      "aura_activation": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

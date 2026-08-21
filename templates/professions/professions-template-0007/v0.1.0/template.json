@@ -1,0 +1,157 @@
+{
+  "profession": "adapted_reference_weaponsmith",
+  "display_name": "Maître Forgeron d'Armes (adapted_reference)",
+  "description": "Classe de craft prestigieuse d'adapted_reference, spécialisateur dans la création d'armes divines et magiques utilisées par les héros et gardiens d'Atreia",
+  "icon_path": "icons/professions/adapted_reference_weaponsmith.png",
+  "category": "adapted_reference_crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "aetheric_gladius",
+      "name": "Gladius Aethérique",
+      "description": "Épée empruntant l'énergie aethérique, arme de choix des Chevaliers d'adapted_reference",
+      "profession": "adapted_reference_weaponsmith",
+      "difficulty": 85,
+      "base_success_rate": 0.45,
+      "skill_required": 75,
+      "experience_gain": 120,
+      "exceptional_chance": 0.18,
+      "time_required_seconds": 600,
+      "components": [
+        {
+          "item_type": "aether_crystal_focused",
+          "quantity": 8,
+          "quality_required": "rare",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "adapted_reference_adamant",
+          "quantity": 12,
+          "quality_required": "excellent",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "dragon_hide_grip",
+          "quantity": 3,
+          "quality_required": "good",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "templar_blade_blanks",
+          "quantity": 1,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "aetheric_gladius",
+          "name": "Gladius Aethérique +0",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.6,
+          "durability_modifier": 1.8,
+          "max_enchant_level": 15
+        }
+      ],
+      "conditions": {
+        "profession_level": 65,
+        "required_tools": [
+          "adapted_reference_blacksmith_hammer",
+          "aether_forge",
+          "gods_anvil"
+        ],
+        "environmental_factors": [
+          "divine_presense"
+        ]
+      }
+    },
+    {
+      "id": "archon_commander_staff",
+      "name": "Bâton de Commandant Archon",
+      "description": "Artefact de commandement utilisé par les dirigeants de la Tour des Archons",
+      "profession": "adapted_reference_weaponsmith",
+      "difficulty": 100,
+      "base_success_rate": 0.25,
+      "skill_required": 95,
+      "experience_gain": 250,
+      "exceptional_chance": 0.28,
+      "time_required_seconds": 1440,
+      "components": [
+        {
+          "item_type": "archon_command_orb",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "adapted_reference_perfected",
+          "quantity": 25,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "gods_tear_crystal",
+          "quantity": 10,
+          "quality_required": "excellent",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "archon_sigil_core",
+          "quantity": 5,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "abyss_energy_cell",
+          "quantity": 20,
+          "quality_required": "good",
+          "rarity_required": "rare"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "archon_commander_staff",
+          "name": "Bâton de Commandant Archon",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 3.5,
+          "durability_modifier": 5.0,
+          "max_enchant_level": 25,
+          "legendary_effects": [
+            "Command Undead",
+            "Abyss Corruption",
+            "Divine Authority"
+          ]
+        }
+      ],
+      "conditions": {
+        "profession_level": 90,
+        "required_tools": [
+          "archon_forge",
+          "gods_hammer",
+          "reality_anchor"
+        ],
+        "environmental_factors": [
+          "archon_tower_blessing"
+        ]
+      }
+    }
+  ],
+  "specializations": [
+    "elyos_weapon_crafting",
+    "asmodian_weapon_crafting",
+    "archon_weapon_smithing",
+    "abyss_weapon_enhancement"
+  ],
+  "masterwork_bonuses": {
+    "critical_success_rate": 25,
+    "material_efficiency": 30,
+    "enchanting_success_bonus": 20,
+    "durability_increase": 50
+  },
+  "id": "professions_template_0007",
+  "name": "Professions Template 0007",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

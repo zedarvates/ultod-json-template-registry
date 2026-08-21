@@ -1,0 +1,76 @@
+{
+  "id": "necromancy_spell_0317",
+  "name": "Necromancy Spell 0317",
+  "description": "Le death knight souffle dans un cor spectral qui invoque le pouvoir glacial de l'hiver et renforce les alliés",
+  "icon": "necromancy_spell_0317_icon",
+  "school": "necromancy",
+  "rarity": "common",
+  "spell_type": "group_winter_buff",
+  "target_type": "self_area_allies",
+  "range": 0.0,
+  "cast_time": 1000,
+  "cooldown": 20000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "winter_group_buff"
+  },
+  "effects": [
+    {
+      "effect_type": "winter_necromancy_spell_0317_area_buff",
+      "value": 150,
+      "duration": 30000,
+      "tick_rate": 0,
+      "buff_radius": 15.0,
+      "rune_power_regeneration": 100,
+      "attack_power_bonus": 10,
+      "frost_damage_bonus": 15,
+      "mastery_points_per_allied_death": 2,
+      "horn_echo_duration": 30000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "spectral_necromancy_spell_0317_appearing_and_blowing",
+    "buff_effect": "frosty_winter_aura_around_allies",
+    "damage_effect": "frost_weapon_power_flames",
+    "expire_effect": "winter_aura_gentle_melt"
+  },
+  "sound_effects": {
+    "cast_sound": "deep_necromancy_spell_0317_blow_echoing_across_land",
+    "buff_sound": "winter_wind_whistle_power_increase",
+    "damage_sound": "frost_attack_freezing_crackle",
+    "expire_sound": "winter_winds_fading_whisper"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "frost_magic",
+      "necromancy_spell_0317_blowing"
+    ],
+    "classes": [
+      "death_knight",
+      "winter_lord"
+    ],
+    "specializations": [
+      "winter_hunter"
+    ]
+  },
+  "upgrades": {
+    "call_of_winter_storms": {
+      "unlock_level": 20,
+      "description": "Le cor invoque des vents d'hiver supplémentaires",
+      "additional_rune_regeneration": 50,
+      "frost_damage_bonus_increase": 10,
+      "winter_blizzard_effect": true
+    },
+    "horn_of_eternal_ice": {
+      "unlock_level": 30,
+      "description": "Les effets du cor deviennent permanents à bas niveau",
+      "permanent_frost_bonus": 5,
+      "always_on_rune_regeneration": 20,
+      "eternal_winter_presence": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

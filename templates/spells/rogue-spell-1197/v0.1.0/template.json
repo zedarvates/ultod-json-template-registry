@@ -1,0 +1,60 @@
+{
+  "id": "rogue_spell_1197",
+  "name": "Rogue Spell 1197",
+  "description": "Tire Rogue Spell 1197 de la cible, consomme tous les points de combo et la ralentit",
+  "icon": "rogue_spell_1197_icon",
+  "school": "rogue",
+  "rarity": "common",
+  "spell_type": "ranged_finisher",
+  "target_type": "enemy",
+  "range": 20.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "energy_cost": 35,
+  "damage": {
+    "base_damage": 25,
+    "damage_type": "physical"
+  },
+  "effects": [
+    {
+      "effect_type": "combo_point_consumer",
+      "combo_points_required": 1,
+      "combo_points_max": 5,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_per_combo": 38,
+      "crit_multiplier": 1.8,
+      "slow_target": true,
+      "slow_amount": 25,
+      "slow_duration": 4000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "gunshot_prepare",
+    "attack_effect": "bullet_trajectory",
+    "impact_effect": "wounded_eye"
+  },
+  "sound_effects": {
+    "cast_sound": "gun_click",
+    "attack_sound": "gunshot_crack",
+    "impact_sound": "pain_cry"
+  },
+  "requirements": {
+    "level": 11,
+    "skills": [
+      "guns"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_between_the_eyes": {
+      "unlock_level": 21,
+      "description": "Crit chance augmenté",
+      "crit_chance_bonus": 15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}
