@@ -206,6 +206,7 @@ Exhaustive coverage and audit status by family are tracked in [AUDIT-COVERAGE.md
 ## Links
 
 - [Ultimate Odycer website](https://ultimateodycer.com)
+- [Discord](https://discord.gg/Mdcdjb6bU)
 - [Template specification](TEMPLATE-SPEC.md)
 - [Versioning policy](VERSIONING.md)
 
