@@ -49,6 +49,9 @@ A template present in this registry does not prove end-to-end integration. Any c
 
 ## Organization
 
+<details>
+<summary><b>Repository structure</b></summary>
+
 ```text
 templates/
   catalog.json
@@ -195,6 +198,8 @@ templates/
         template.json
         README.md
 ```
+
+</details>
 
 The initial selection details and exclusions are documented in [SOURCE_AUDIT.md](SOURCE_AUDIT.md).
 
