@@ -1,0 +1,107 @@
+{
+  "id": "nympheen",
+  "name": "Nympheen",
+  "description": "A luminous water-fey born of tidepools and moonlight, graceful and fleet but fragile beyond the shallows.",
+  "icon": "race_nympheen",
+  "category": "fey",
+  "rarity": "uncommon",
+  "faction": "nature",
+  "base_stats": {
+    "strength": 14,
+    "dexterity": 32,
+    "constitution": 16,
+    "intelligence": 26,
+    "wisdom": 28,
+    "charisma": 30,
+    "luck": 18
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 1.2,
+    "experience_rate": 1.1,
+    "health_regeneration": 1.0,
+    "mana_regeneration": 1.25
+  },
+  "available_classes": [
+    "cleric",
+    "mage",
+    "druid",
+    "rogue"
+  ],
+  "racial_traits": [
+    "tidal_grace",
+    "glimmer_veil",
+    "song_of_tide"
+  ],
+  "passive_bonuses": {
+    "skill_points_per_level": 1,
+    "attribute_points_per_level": 1,
+    "resistance_to_fear": 10,
+    "bonus_to_all_skills": 3
+  },
+  "starting_equipment": {
+    "weapons": [
+      "coral_dagger"
+    ],
+    "armor": [
+      "scale_shawl"
+    ],
+    "items": [
+      "pearl"
+    ]
+  },
+  "body_proportions": {
+    "height_min": 145,
+    "height_max": 175,
+    "weight_min": 40,
+    "weight_max": 65,
+    "body_type": "slim"
+  },
+  "appearance_restrictions": {
+    "skin_colors": [
+      "aqua",
+      "pearl",
+      "rose"
+    ],
+    "hair_colors": [
+      "sea_green",
+      "silver",
+      "lavender"
+    ],
+    "eye_colors": [
+      "cyan",
+      "violet"
+    ],
+    "facial_features": "soft"
+  },
+  "cultural_background": {
+    "languages": [
+      "syllan",
+      "tide"
+    ],
+    "starting_city": "Coralume",
+    "alignment_tendency": "neutral_good",
+    "cultural_bonuses": {
+      "healing": 8,
+      "crafting": 5
+    }
+  },
+  "admin_controls": {
+    "enabled": true,
+    "admin_only": false,
+    "requires_permission": false,
+    "max_characters_per_account": 8,
+    "creation_restrictions": {
+      "min_level_required": 1,
+      "faction_restricted": false,
+      "realm_restricted": false
+    },
+    "balancing_multipliers": {
+      "damage_dealt": 1.0,
+      "damage_taken": 1.0,
+      "healing_received": 1.1,
+      "experience_rate": 1.1
+    }
+  },
+  "template_type": "race",
+  "version": "0.1.0"
+}

@@ -1,0 +1,307 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Racial Trait Template Schema",
+  "description": "Schema for racial trait templates",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "icon",
+    "category",
+    "rarity",
+    "stat_modifiers",
+    "passive_effects",
+    "template_type",
+    "version"
+  ],
+  "properties": {
+    "template_type": {
+      "type": "string",
+      "enum": [
+        "racial_trait"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 300
+    },
+    "icon": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "physical",
+        "magical",
+        "utility",
+        "combat",
+        "survival",
+        "social",
+        "crafting",
+        "stealth",
+        "elemental",
+        "spiritual"
+      ]
+    },
+    "rarity": {
+      "type": "string",
+      "enum": [
+        "common",
+        "uncommon",
+        "rare",
+        "epic",
+        "legendary"
+      ]
+    },
+    "stat_modifiers": {
+      "type": "object",
+      "properties": {
+        "strength": {
+          "type": "number",
+          "minimum": -10,
+          "maximum": 20
+        },
+        "agility": {
+          "type": "number",
+          "minimum": -10,
+          "maximum": 20
+        },
+        "intelligence": {
+          "type": "number",
+          "minimum": -10,
+          "maximum": 20
+        },
+        "vitality": {
+          "type": "number",
+          "minimum": -10,
+          "maximum": 20
+        },
+        "wisdom": {
+          "type": "number",
+          "minimum": -10,
+          "maximum": 20
+        },
+        "charisma": {
+          "type": "number",
+          "minimum": -10,
+          "maximum": 20
+        },
+        "luck": {
+          "type": "number",
+          "minimum": -10,
+          "maximum": 20
+        },
+        "perception": {
+          "type": "number",
+          "minimum": -0.5,
+          "maximum": 0.5
+        },
+        "stealth_detection": {
+          "type": "number",
+          "minimum": -0.5,
+          "maximum": 0.5
+        },
+        "movement_speed": {
+          "type": "number",
+          "minimum": -0.5,
+          "maximum": 0.5
+        },
+        "health_regeneration": {
+          "type": "number",
+          "minimum": -0.5,
+          "maximum": 0.5
+        },
+        "mana_regeneration": {
+          "type": "number",
+          "minimum": -0.5,
+          "maximum": 0.5
+        }
+      }
+    },
+    "passive_effects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "description",
+          "modifier_type",
+          "value"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "modifier_type": {
+            "type": "string",
+            "enum": [
+              "vision_range",
+              "damage_resistance",
+              "elemental_resistance",
+              "healing_received",
+              "threat_generation",
+              "cooldown_reduction",
+              "resource_cost_reduction",
+              "critical_chance",
+              "dodge_chance",
+              "parry_chance",
+              "block_chance",
+              "experience_rate"
+            ]
+          },
+          "value": {
+            "type": "number",
+            "minimum": -100,
+            "maximum": 100
+          },
+          "percentage": {
+            "type": "boolean",
+            "default": false
+          },
+          "condition": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "active_abilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "cooldown": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3600000
+          },
+          "duration": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 3600000
+          },
+          "resource_cost": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000
+          },
+          "effects": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "number"
+                },
+                "duration": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "requirements": {
+      "type": "object",
+      "properties": {
+        "races": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        },
+        "classes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "other_traits": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Trait IDs that cannot be combined with this trait"
+    },
+    "synergies": {
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "type": "number",
+          "minimum": 0.1,
+          "maximum": 3.0,
+          "description": "Multiplier for effectiveness when combined with another trait"
+        }
+      }
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": true
+    },
+    "admin_only": {
+      "type": "boolean",
+      "default": false
+    },
+    "debug_mode": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "id": "racial_trait_schema"
+}

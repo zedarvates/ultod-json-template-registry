@@ -1,0 +1,829 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Planet Configuration Schema",
+  "description": "Schema for validating planet configuration templates",
+  "type": "object",
+  "required": [
+    "template_type",
+    "version",
+    "name",
+    "description",
+    "global_settings"
+  ],
+  "properties": {
+    "template_type": {
+      "type": "string",
+      "enum": [
+        "planet"
+      ],
+      "description": "Type of template"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Version number in semantic versioning format"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "Name of the planet configuration"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500,
+      "description": "Description of the planet configuration"
+    },
+    "global_settings": {
+      "type": "object",
+      "required": [
+        "enabled",
+        "debug_mode",
+        "log_level"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Whether the system is enabled"
+        },
+        "debug_mode": {
+          "type": "boolean",
+          "description": "Whether debug mode is enabled"
+        },
+        "log_level": {
+          "type": "string",
+          "enum": [
+            "debug",
+            "info",
+            "warn",
+            "error"
+          ],
+          "description": "Logging level"
+        },
+        "max_planets": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 1000,
+          "description": "Maximum number of planets"
+        },
+        "generation_interval_hours": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 168,
+          "description": "Interval for planet generation in hours"
+        },
+        "auto_cleanup_interval_hours": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 168,
+          "description": "Auto cleanup interval in hours"
+        },
+        "performance_optimization": {
+          "type": "object",
+          "properties": {
+            "enable_caching": {
+              "type": "boolean"
+            },
+            "cache_ttl_seconds": {
+              "type": "integer",
+              "minimum": 60,
+              "maximum": 86400
+            },
+            "batch_processing": {
+              "type": "boolean"
+            },
+            "batch_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 20
+            },
+            "async_processing": {
+              "type": "boolean"
+            },
+            "thread_pool_size": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 8
+            }
+          }
+        }
+      }
+    },
+    "planet_types": {
+      "type": "object",
+      "properties": {
+        "terrestrial": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "size_range": {
+                  "type": "object",
+                  "properties": {
+                    "min_diameter_km": {
+                      "type": "number",
+                      "minimum": 1000,
+                      "maximum": 20000
+                    },
+                    "max_diameter_km": {
+                      "type": "number",
+                      "minimum": 1000,
+                      "maximum": 20000
+                    }
+                  }
+                },
+                "composition": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "atmosphere": {
+                  "type": "object",
+                  "properties": {
+                    "has_atmosphere": {
+                      "type": "boolean"
+                    },
+                    "atmosphere_composition": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "pressure_range": {
+                      "type": "object",
+                      "properties": {
+                        "min_atm": {
+                          "type": "number",
+                          "minimum": 0,
+                          "maximum": 10
+                        },
+                        "max_atm": {
+                          "type": "number",
+                          "minimum": 0,
+                          "maximum": 10
+                        }
+                      }
+                    }
+                  }
+                },
+                "surface_features": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "gas_giant": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "size_range": {
+                  "type": "object",
+                  "properties": {
+                    "min_diameter_km": {
+                      "type": "number",
+                      "minimum": 20000,
+                      "maximum": 300000
+                    },
+                    "max_diameter_km": {
+                      "type": "number",
+                      "minimum": 20000,
+                      "maximum": 300000
+                    }
+                  }
+                },
+                "composition": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "atmosphere": {
+                  "type": "object",
+                  "properties": {
+                    "has_atmosphere": {
+                      "type": "boolean"
+                    },
+                    "atmosphere_composition": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "pressure_range": {
+                      "type": "object",
+                      "properties": {
+                        "min_atm": {
+                          "type": "number",
+                          "minimum": 0,
+                          "maximum": 100
+                        },
+                        "max_atm": {
+                          "type": "number",
+                          "minimum": 0,
+                          "maximum": 100
+                        }
+                      }
+                    }
+                  }
+                },
+                "bands": {
+                  "type": "boolean"
+                },
+                "great_red_spot": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        },
+        "ice_giant": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "size_range": {
+                  "type": "object",
+                  "properties": {
+                    "min_diameter_km": {
+                      "type": "number",
+                      "minimum": 10000,
+                      "maximum": 60000
+                    },
+                    "max_diameter_km": {
+                      "type": "number",
+                      "minimum": 10000,
+                      "maximum": 60000
+                    }
+                  }
+                },
+                "composition": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "atmosphere": {
+                  "type": "object",
+                  "properties": {
+                    "has_atmosphere": {
+                      "type": "boolean"
+                    },
+                    "atmosphere_composition": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "ice_layers": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        },
+        "dwarf_planet": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "characteristics": {
+              "type": "object",
+              "properties": {
+                "size_range": {
+                  "type": "object",
+                  "properties": {
+                    "min_diameter_km": {
+                      "type": "number",
+                      "minimum": 100,
+                      "maximum": 2000
+                    },
+                    "max_diameter_km": {
+                      "type": "number",
+                      "minimum": 100,
+                      "maximum": 2000
+                    }
+                  }
+                },
+                "composition": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "irregular_shape": {
+                  "type": "boolean"
+                },
+                "orbit_characteristics": {
+                  "type": "object",
+                  "properties": {
+                    "eccentric_orbit": {
+                      "type": "boolean"
+                    },
+                    "inclined_orbit": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "planetary_generation": {
+      "type": "object",
+      "properties": {
+        "generation_parameters": {
+          "type": "object",
+          "properties": {
+            "seed_randomization": {
+              "type": "boolean"
+            },
+            "procedural_generation": {
+              "type": "boolean"
+            },
+            "realistic_physics": {
+              "type": "boolean"
+            },
+            "astronomical_accuracy": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          }
+        },
+        "planet_distribution": {
+          "type": "object",
+          "properties": {
+            "habitable_zone_chance": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "planet_type_weights": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "planetary_features": {
+      "type": "object",
+      "properties": {
+        "terrain_features": {
+          "type": "object",
+          "properties": {
+            "mountains": {
+              "type": "boolean"
+            },
+            "valleys": {
+              "type": "boolean"
+            },
+            "plains": {
+              "type": "boolean"
+            },
+            "canyons": {
+              "type": "boolean"
+            },
+            "caves": {
+              "type": "boolean"
+            }
+          }
+        },
+        "water_features": {
+          "type": "object",
+          "properties": {
+            "oceans": {
+              "type": "boolean"
+            },
+            "lakes": {
+              "type": "boolean"
+            },
+            "rivers": {
+              "type": "boolean"
+            },
+            "ice_caps": {
+              "type": "boolean"
+            }
+          }
+        },
+        "atmospheric_features": {
+          "type": "object",
+          "properties": {
+            "clouds": {
+              "type": "boolean"
+            },
+            "storms": {
+              "type": "boolean"
+            },
+            "weather_patterns": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "planetary_system": {
+      "type": "object",
+      "properties": {
+        "orbital_mechanics": {
+          "type": "object",
+          "properties": {
+            "orbital_period": {
+              "type": "object",
+              "properties": {
+                "min_days": {
+                  "type": "number",
+                  "minimum": 1
+                },
+                "max_days": {
+                  "type": "number",
+                  "minimum": 1
+                }
+              }
+            },
+            "orbital_distance": {
+              "type": "object",
+              "properties": {
+                "min_au": {
+                  "type": "number",
+                  "minimum": 0.1
+                },
+                "max_au": {
+                  "type": "number",
+                  "minimum": 0.1
+                }
+              }
+            },
+            "eccentricity": {
+              "type": "object",
+              "properties": {
+                "min": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "max": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                }
+              }
+            }
+          }
+        },
+        "satellite_system": {
+          "type": "object",
+          "properties": {
+            "moon_chance": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "moon_count_range": {
+              "type": "object",
+              "properties": {
+                "min_moons": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "max_moons": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "planetary_environment": {
+      "type": "object",
+      "properties": {
+        "climate_system": {
+          "type": "object",
+          "properties": {
+            "temperature_zones": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "weather_patterns": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "seasonal_changes": {
+              "type": "boolean"
+            }
+          }
+        },
+        "ecosystem": {
+          "type": "object",
+          "properties": {
+            "has_life": {
+              "type": "boolean"
+            },
+            "life_complexity": {
+              "type": "string",
+              "enum": [
+                "none",
+                "simple",
+                "complex",
+                "intelligent"
+              ]
+            },
+            "biome_types": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "atmospheric_conditions": {
+          "type": "object",
+          "properties": {
+            "temperature_range": {
+              "type": "object",
+              "properties": {
+                "min_celsius": {
+                  "type": "number",
+                  "minimum": -273
+                },
+                "max_celsius": {
+                  "type": "number",
+                  "minimum": -273
+                }
+              }
+            },
+            "pressure_range": {
+              "type": "object",
+              "properties": {
+                "min_atm": {
+                  "type": "number",
+                  "minimum": 0
+                },
+                "max_atm": {
+                  "type": "number",
+                  "minimum": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "resource_system": {
+      "type": "object",
+      "properties": {
+        "planetary_resources": {
+          "type": "object",
+          "properties": {
+            "common_resources": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "rare_resources": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "unique_resources": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "resource_distribution": {
+          "type": "object",
+          "properties": {
+            "surface_distribution": {
+              "type": "boolean"
+            },
+            "subsurface_distribution": {
+              "type": "boolean"
+            },
+            "atmospheric_distribution": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "exploration_system": {
+      "type": "object",
+      "properties": {
+        "exploration_zones": {
+          "type": "object",
+          "properties": {
+            "surface_zones": {
+              "type": "boolean"
+            },
+            "underground_zones": {
+              "type": "boolean"
+            },
+            "atmospheric_zones": {
+              "type": "boolean"
+            },
+            "orbital_zones": {
+              "type": "boolean"
+            }
+          }
+        },
+        "discovery_mechanics": {
+          "type": "object",
+          "properties": {
+            "scan_range": {
+              "type": "number",
+              "minimum": 1
+            },
+            "exploration_methods": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "ui_configuration": {
+      "type": "object",
+      "properties": {
+        "planet_interface": {
+          "type": "object",
+          "properties": {
+            "display_elements": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "map_layers": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "integration_points": {
+      "type": "object",
+      "properties": {
+        "exploration_system": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "planetary_exploration": {
+              "type": "boolean"
+            }
+          }
+        },
+        "economy_system": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "resource_trading": {
+              "type": "boolean"
+            }
+          }
+        },
+        "combat_system": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "planetary_combat": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "security_settings": {
+      "type": "object",
+      "properties": {
+        "data_protection": {
+          "type": "object",
+          "properties": {
+            "encryption": {
+              "type": "boolean"
+            },
+            "anonymization": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "localization": {
+      "type": "object",
+      "properties": {
+        "supported_languages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "planet_names": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "customization": {
+      "type": "object",
+      "properties": {
+        "hooks": {
+          "type": "object",
+          "properties": {
+            "before_planet_generation": {
+              "type": "string"
+            },
+            "after_planet_generation": {
+              "type": "string"
+            },
+            "before_feature_spawn": {
+              "type": "string"
+            },
+            "after_feature_spawn": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  },
+  "id": "planet_schema"
+}

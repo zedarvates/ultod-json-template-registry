@@ -1,0 +1,77 @@
+{
+  "id": "entangling_roots",
+  "name": "Entangling Roots",
+  "description": "Vines erupt from the ground to bind an enemy and bleed nature damage over time.",
+  "icon": "spell_nature_entangle",
+  "school": "nature",
+  "rarity": "uncommon",
+  "spell_type": "damage_over_time",
+  "target_type": "enemy",
+  "range": 30,
+  "cast_time": 1400,
+  "cooldown": 4500,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 20,
+    "damage_type": "nature_damage",
+    "scaling": {
+      "attribute": "wisdom",
+      "coefficient": 0.6
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage_over_time",
+      "value": 20,
+      "duration": 6000,
+      "tick_rate": 1000
+    },
+    {
+      "effect_type": "stun_effect",
+      "value": 0,
+      "duration": 2000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fx_nature_cast",
+    "impact_effect": "fx_roots"
+  },
+  "sound_effects": {
+    "cast_effect": "snd_nature_cast",
+    "impact_effect": "snd_vines_rustle"
+  },
+  "requirements": {
+    "level": 5,
+    "classes": [
+      "druid",
+      "ranger"
+    ]
+  },
+  "admin_controls": {
+    "enabled": true,
+    "balancing_multipliers": {
+      "damage_output": 1.0,
+      "cast_time": 1.0,
+      "cooldown": 1.0,
+      "mana_cost": 1.0
+    }
+  },
+  "vr_configuration": {
+    "gestures": {
+      "left_pose": "grab",
+      "right_pose": "open",
+      "required_hand": "either"
+    },
+    "haptics": {
+      "charge_pattern": "haptic_nature_charge",
+      "launch_pattern": "haptic_nature_grow",
+      "impact_pattern": "haptic_nature_bind"
+    }
+  },
+  "enabled": true,
+  "admin_only": false,
+  "debug_mode": false,
+  "template_type": "spell",
+  "version": "0.1.0"
+}

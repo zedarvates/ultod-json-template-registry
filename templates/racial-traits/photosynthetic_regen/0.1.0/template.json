@@ -1,0 +1,40 @@
+{
+  "template_type": "racial_trait",
+  "version": "0.1.0",
+  "id": "photosynthetic_regen",
+  "name": "Photosynthetic Regen",
+  "description": "The character passively regenerates health per second while in sunlit or luminous zones.",
+  "icon": "trait_photosynthetic",
+  "category": "survival",
+  "rarity": "common",
+  "stat_modifiers": {
+    "health_regeneration": 0.15,
+    "mana_regeneration": 0.05
+  },
+  "passive_effects": [
+    {
+      "id": "sunlight_heal",
+      "name": "Sunlight Heal",
+      "description": "Heal per second in sunlight.",
+      "modifier_type": "healing_received",
+      "value": 3.0,
+      "percentage": false,
+      "condition": "in_sunlight"
+    }
+  ],
+  "active_abilities": [],
+  "requirements": {
+    "races": [
+      "aethari",
+      "nympheen"
+    ]
+  },
+  "conflicts": [],
+  "synergies": {
+    "druid": 1.1,
+    "ranger": 1.05
+  },
+  "enabled": true,
+  "admin_only": false,
+  "debug_mode": false
+}

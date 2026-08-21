@@ -1,0 +1,100 @@
+{
+  "id": "warrior",
+  "name": "Warrior",
+  "description": "A stalwart frontline fighter who channels rage into devastating melee strikes.",
+  "color": "C0392B",
+  "primary_resource": "rage",
+  "base_stats": {
+    "strength": 45,
+    "agility": 25,
+    "intelligence": 12,
+    "vitality": 42,
+    "wisdom": 15,
+    "charisma": 18
+  },
+  "specializations": [
+    "berserker",
+    "protector",
+    "gladiator"
+  ],
+  "starting_skills": [
+    {
+      "id": 1,
+      "name": "Cleave",
+      "description": "Strike all nearby enemies.",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 3,
+      "cast_time": 600,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 2,
+      "name": "Taunt",
+      "description": "Force an enemy to target you.",
+      "cooldown": 5000,
+      "mana_cost": 0,
+      "range": 30,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 3,
+      "name": "Battle Hardened",
+      "description": "Increase armor by 5% per rank.",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": true
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 1,
+            "name": "Toughness",
+            "description": "+8% max health per rank.",
+            "max_rank": 5,
+            "icon_path": "icon_toughness"
+          },
+          {
+            "id": 2,
+            "name": "Sundering",
+            "description": "+6% damage per rank.",
+            "max_rank": 5,
+            "icon_path": "icon_sunder"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "talents": [
+          {
+            "id": 3,
+            "name": "Last Stand",
+            "description": "Survive lethal blows once per fight.",
+            "max_rank": 1,
+            "icon_path": "icon_laststand"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 1000,
+  "health_modifier": 1.3,
+  "damage_modifier": 1.2,
+  "armor_modifier": 1.4,
+  "spell_ids": [],
+  "enabled": true,
+  "admin_only": false,
+  "debug_mode": false,
+  "template_type": "class",
+  "version": "0.1.0"
+}
