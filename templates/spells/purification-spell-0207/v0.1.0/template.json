@@ -1,0 +1,89 @@
+{
+  "id": "purification_spell_0207",
+  "name": "Purification Spell 0207",
+  "description": "Sends forth a wave of divine energy that purges corruption, heals allies, and damages corrupted foes. Particularly effective against Black Knights and shadow-afflicted enemies",
+  "icon": "cw_purification_spell_0207_spell_0207_icon",
+  "school": "purification_spell_0207",
+  "rarity": "rare",
+  "spell_type": "area_spell",
+  "target_type": "area",
+  "range": 18.0,
+  "cast_time": 2500,
+  "cooldown": 25000,
+  "divine_power_cost": 70,
+  "damage": {
+    "base_damage": 45,
+    "damage_type": "holy",
+    "area_properties": {
+      "radius": 8.0,
+      "corrupted_damage_multiplier": 2.5,
+      "black_knight_multiplier": 1.8,
+      "healing_to_allies": 35
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "purification_spell_0207_burst",
+      "value": 45,
+      "duration": 8000,
+      "tick_rate": 0,
+      "area_radius": 8.0,
+      "corruption_purge": 0.8,
+      "ally_healing": 35,
+      "corrupted_damage_amplifier": 2.5,
+      "black_knight_damage_amplifier": 1.8,
+      "corruption_resistance_buff": {
+        "duration": 12000,
+        "resistance_increase": 0.4,
+        "holy_damage_buff": 0.2
+      },
+      "karma_restoration": {
+        "positive_karma_gain": 25,
+        "for_each_corrupted_defeated": true
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_energy_gathering",
+    "wave_effect": "golden_energy_wave",
+    "impact_effect": "corruption_shattering",
+    "healing_effect": "divine_healing_rays"
+  },
+  "sound_effects": {
+    "cast_sound": "purification_spell_0207_chant",
+    "wave_sound": "divine_wave_build",
+    "impact_sound": "corruption_shatter_impact"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "purification_spell_0207_magic",
+      "area_divine_magic"
+    ],
+    "classes": [
+      "celestial_warden"
+    ],
+    "minimum_positive_karma": 50
+  },
+  "upgrades": {
+    "holy_nova": {
+      "unlock_level": 15,
+      "description": "Increases area radius and healing effect",
+      "radius_increase": 3.0,
+      "healing_increase": 20,
+      "damage_increase": 15
+    },
+    "exorcism_wave": {
+      "unlock_level": 22,
+      "description": "Chance to break control effects and empower holy spells",
+      "control_break_chance": 0.6,
+      "corruption_damage_increase": 1.5,
+      "holy_spell_power_buff": {
+        "duration": 15000,
+        "power_increase": 0.25
+      }
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

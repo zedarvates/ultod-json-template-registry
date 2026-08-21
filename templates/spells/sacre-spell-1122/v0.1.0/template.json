@@ -1,0 +1,65 @@
+{
+  "id": "sacre_spell_1122",
+  "name": "Sacre Spell 1122",
+  "description": "Pendant la durée du sort, une créature fey, démon, céleste, élémentaire ou mort-vivant correspondant à l'option choisie ne peut pas s'approcher à moins de 3 mètres de vous. Et si la créature essaie de lancer des sorts sur vous, elle doit réussir un jet de sauvegarde",
+  "icon": "sacre_spell_1122_icon",
+  "school": "sacré",
+  "rarity": "uncommon",
+  "spell_type": "sacre_spell_1122",
+  "target_type": "ally",
+  "range": 2.0,
+  "cast_time": 1000,
+  "cooldown": 60000,
+  "mana_cost": 60,
+  "effects": [
+    {
+      "effect_type": "repel_creatures",
+      "value": 0,
+      "duration": 360000,
+      "tick_rate": 0,
+      "aoe_radius": 3.0,
+      "proc_chance": 1.0,
+      "creature_types": [
+        "fey",
+        "devil",
+        "demon",
+        "celestial",
+        "elemental",
+        "undead"
+      ],
+      "spell_save_disadvantage": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "warding_circle",
+    "protection_effect": "repulsive_aura",
+    "impact_effect": "barrier_ring"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_barrier_call",
+    "protection_sound": "repulsion_hum",
+    "impact_sound": "warding_tone"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "extended_protection": {
+      "unlock_level": 5,
+      "description": "Prolonge la durée du sort",
+      "duration_bonus": 120000
+    },
+    "greater_protection": {
+      "unlock_level": 9,
+      "description": "Protège également contre les attaques physiques",
+      "physical_protection": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

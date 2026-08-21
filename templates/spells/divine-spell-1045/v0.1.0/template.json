@@ -1,0 +1,80 @@
+{
+  "id": "divine_spell_1045",
+  "name": "Divine Spell 1045",
+  "description": "Radiates divine energy in a powerful burst, damaging corruption and healing allies. Only available to paladins walking the path of light",
+  "icon": "paladin_divine_spell_1045_icon",
+  "school": "divine",
+  "rarity": "epic",
+  "spell_type": "area_burst",
+  "target_type": "area",
+  "range": 0,
+  "cast_time": 3000,
+  "cooldown": 30000,
+  "mana_cost": 350,
+  "damage": {
+    "base_damage": 80,
+    "damage_type": "divine_spell_1045",
+    "burst_properties": {
+      "radius": 12.0,
+      "corruption_purge_power": 2.0,
+      "ally_healing_power": 60,
+      "duration": 8000,
+      "holy_nova_triggers": 3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "divine_burst",
+      "value": 80,
+      "duration": 8000,
+      "tick_rate": 0,
+      "burst_radius": 12.0,
+      "corruption_damage": 80,
+      "ally_healing": 60,
+      "periodic_healing": 15,
+      "holy_damage_buff_to_allies": 0.4,
+      "corruption_resistance_boost": 0.5,
+      "celestial_warden_synergy": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_energy_concentration",
+    "burst_effect": "golden_light_explosion",
+    "lingering_effect": "divine_spell_1045_rays_continuing",
+    "ally_buff_effect": "divine_protection_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_power_building",
+    "burst_sound": "divine_spell_1045_explosion",
+    "lingering_sound": "celestial_harmony"
+  },
+  "requirements": {
+    "level": 15,
+    "skills": [
+      "aura_mastery",
+      "divine_burst"
+    ],
+    "classes": [
+      "paladin"
+    ],
+    "karma_positive_threshold": 1500,
+    "evolved_form": "radiant_paladin"
+  },
+  "upgrades": {
+    "nova_mastery": {
+      "unlock_level": 22,
+      "description": "Increases number of divine_spell_1045 novas and their power",
+      "nova_count_increase": 2,
+      "nova_damage_increase": 25
+    },
+    "eternal_light": {
+      "unlock_level": 28,
+      "description": "Burst leaves permanent divine_spell_1045 zones that damage corruption",
+      "holy_zones_created": 3,
+      "zone_damage_per_second": 20,
+      "zone_duration": 30000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

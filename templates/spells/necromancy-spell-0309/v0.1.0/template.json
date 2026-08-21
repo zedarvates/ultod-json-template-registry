@@ -1,0 +1,75 @@
+{
+  "id": "necromancy_spell_0309",
+  "name": "Necromancy Spell 0309",
+  "description": "Créé un bouclier de défense osseuse donnant protection et permettant de répliquer les attaques",
+  "icon": "necromancy_spell_0309_icon",
+  "school": "necromancy",
+  "rarity": "common",
+  "spell_type": "necromancy_spell_0309_defense",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "necromancy_spell_0309_barrier"
+  },
+  "effects": [
+    {
+      "effect_type": "necromancy_spell_0309_plating_defense",
+      "value": 150,
+      "duration": 60000,
+      "tick_rate": 0,
+      "bone_shield_charges": 6,
+      "damage_absorption": 100,
+      "thorn_damage": 25,
+      "bone_shards_drop": 15,
+      "death_strike_charging": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necromancy_spell_0309_spike_emergence",
+    "shield_effect": "skeletal_armor_plating",
+    "damage_effect": "necromancy_spell_0309_shard_flying",
+    "expire_effect": "necromancy_spell_0309_crumbling_dust"
+  },
+  "sound_effects": {
+    "cast_sound": "necromancy_spell_0309_cracking_armor",
+    "shield_sound": "skeletal_armor_rattle",
+    "damage_sound": "necromancy_spell_0309_shard_break",
+    "expire_sound": "necromancy_spell_0309s_dust_fall"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "necrotic_armor",
+      "necromancy_spell_0309_manipulation"
+    ],
+    "classes": [
+      "death_knight",
+      "necromancy_spell_0309_lord"
+    ],
+    "specializations": [
+      "skeletal_defense"
+    ]
+  },
+  "upgrades": {
+    "thickened_bones": {
+      "unlock_level": 20,
+      "description": "Le bouclier a plus de charges et absorbe plus de dégâts",
+      "charge_increase": 3,
+      "absorption_per_charge": 150,
+      "thorn_damage_bonus": 15
+    },
+    "dancing_bones": {
+      "unlock_level": 30,
+      "description": "Les ossements peuvent se réarranger pour optimiser la défense",
+      "dynamic_bone_placement": true,
+      "damage_type_adaptation": true,
+      "reduction_bonus_adaptive": 0.1
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

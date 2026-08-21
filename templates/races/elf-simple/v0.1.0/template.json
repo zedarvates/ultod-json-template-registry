@@ -1,0 +1,25 @@
+{
+  "id": "elf_simple",
+  "name": "Elf",
+  "description": "Noble and agile creatures with an affinity for magic and archery.",
+  "racial_traits": [
+    {
+      "id": "agility_focus",
+      "name": "Grace of the Ancients",
+      "description": "Increases Dexterity and movement speed.",
+      "bonuses": {
+        "dexterity": 5,
+        "intelligence": 2,
+        "experience_multiplier": 1.05
+      }
+    }
+  ],
+  "available_classes": [
+    "archer",
+    "mage",
+    "rogue"
+  ],
+  "starting_zone": "whispering_woods",
+  "template_type": "race",
+  "version": "0.1.0"
+}

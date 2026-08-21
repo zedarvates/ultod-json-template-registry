@@ -83,23 +83,6 @@
       "fire": 10
     }
   },
-  "admin_controls": {
-    "enabled": true,
-    "admin_only": false,
-    "requires_permission": false,
-    "max_characters_per_account": 4,
-    "creation_restrictions": {
-      "min_level_required": 1,
-      "faction_restricted": false,
-      "realm_restricted": false
-    },
-    "balancing_multipliers": {
-      "damage_dealt": 1.05,
-      "damage_taken": 1.0,
-      "healing_received": 1.0,
-      "experience_rate": 1.0
-    }
-  },
   "template_type": "race",
   "version": "0.1.0"
 }

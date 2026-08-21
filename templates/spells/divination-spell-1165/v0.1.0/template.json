@@ -1,0 +1,61 @@
+{
+  "id": "divination_spell_1165",
+  "name": "Divination Spell 1165",
+  "description": "Vous obtenez la capacité de comprendre et de parler le langage des animaux pendant la durée du sort",
+  "icon": "divination_spell_1165_icon",
+  "school": "divination",
+  "rarity": "uncommon",
+  "spell_type": "utility",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "language_grant",
+      "value": 0,
+      "duration": 600000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "language_type": "animal"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "nature_whisper",
+    "buff_effect": "animal_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "nature_call",
+    "buff_sound": "animal_chatter"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "nature_magic",
+      "animal_handling"
+    ],
+    "classes": [
+      "ranger",
+      "druid"
+    ]
+  },
+  "upgrades": {
+    "enhanced_communication": {
+      "unlock_level": 7,
+      "description": "Peut aussi comprendre les émotions des animaux",
+      "emotion_sense": true
+    },
+    "beast_mastery": {
+      "unlock_level": 14,
+      "description": "Peut commander aux animaux sauvages",
+      "command_animals": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

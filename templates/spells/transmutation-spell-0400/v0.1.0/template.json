@@ -1,0 +1,78 @@
+{
+  "id": "transmutation_spell_0400",
+  "name": "Transmutation Spell 0400",
+  "description": "Vous assumez la forme d'une bête. Cette forme détermine vos statistiques de jeu, vos capacités naturelles et vos traits",
+  "icon": "transmutation_spell_0400_icon",
+  "school": "transmutation",
+  "rarity": "uncommon",
+  "spell_type": "transformation",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "nature"
+  },
+  "effects": [
+    {
+      "effect_type": "transmutation_spell_0400_transformation",
+      "value": 0,
+      "duration": 240000,
+      "tick_rate": 0,
+      "form_options": [
+        "wolf",
+        "bear",
+        "eagle",
+        "panther"
+      ],
+      "attribute_bonuses": {
+        "strength": "+2",
+        "dexterity": "+2",
+        "constitution": "+1"
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "transformation_start",
+    "transform_effect": "transmutation_spell_0400_morph",
+    "revert_effect": "human_morph"
+  },
+  "sound_effects": {
+    "cast_sound": "nature_shift",
+    "transform_sound": "transmutation_spell_0400_roar",
+    "revert_sound": "human_cry"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "nature_magic",
+      "wilderness_survival"
+    ],
+    "classes": [
+      "druid",
+      "ranger"
+    ]
+  },
+  "upgrades": {
+    "combat_animal": {
+      "unlock_level": 9,
+      "description": "Débloque les formes de combats plus puissantes",
+      "unlock_forms": [
+        "dire_wolf",
+        "grizzly_bear"
+      ]
+    },
+    "elemental_animal": {
+      "unlock_level": 15,
+      "description": "Permet de prendre forme d'animaux élémentaires",
+      "unlock_forms": [
+        "fire_elemental",
+        "water_elemental"
+      ]
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

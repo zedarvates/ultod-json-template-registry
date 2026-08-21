@@ -1,0 +1,33 @@
+{
+  "id": "rusty_sword",
+  "name": "Epee Rouillee",
+  "description": "Vieille lame de recrue. Parfaite pour apprendre les bases du combat.",
+  "icon": "rusty_sword",
+  "category": "weapon",
+  "rarity": "common",
+  "item_type": "sword",
+  "sub_type": "one_hand",
+  "base_stats": {
+    "durability": 40,
+    "max_durability": 40,
+    "weight": 3.0,
+    "value": 25
+  },
+  "weapon_properties": {
+    "damage": 10,
+    "damage_type": "physical",
+    "attack_speed": 1.0,
+    "range": 1.5,
+    "two_handed": false
+  },
+  "properties": {
+    "stackable": false,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 1
+  },
+  "template_type": "item",
+  "version": "0.1.0"
+}

@@ -1,0 +1,108 @@
+{
+  "id": "halfling",
+  "name": "Halfelin",
+  "description": "Petits êtres joyeux et chanceux, connus pour leur agilité et leur amour de la bonne chère",
+  "icon": "halfling_icon",
+  "category": "humanoid",
+  "rarity": "common",
+  "faction": "alliance",
+  "base_stats": {
+    "strength": 7,
+    "dexterity": 14,
+    "constitution": 9,
+    "intelligence": 9,
+    "wisdom": 10,
+    "charisma": 13,
+    "luck": 15
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 1.1,
+    "experience_rate": 1.0,
+    "health_regeneration": 0.9,
+    "movement_speed": 1.1,
+    "luck_bonus": 1.2
+  },
+  "available_classes": [
+    "rogue",
+    "ranger",
+    "druid",
+    "bard",
+    "gunslinger",
+    "executor",
+    "luminess"
+  ],
+  "racial_traits": [
+    "lucky",
+    "nimble",
+    "food_lover",
+    "fortunate"
+  ],
+  "passive_bonuses": {
+    "skill_points_per_level": 1,
+    "attribute_points_per_level": 1,
+    "resistance_to_fear": 15,
+    "bonus_to_agility_skills": 10,
+    "bonus_to_luck": 20,
+    "critical_chance_bonus": 5
+  },
+  "starting_equipment": {
+    "weapons": [
+      "sling",
+      "dagger"
+    ],
+    "armor": [
+      "leather_vest",
+      "wool_pants",
+      "sturdy_boots"
+    ],
+    "items": [
+      "pipe_weed",
+      "cheese_wheel",
+      "small_backpack"
+    ]
+  },
+  "body_proportions": {
+    "height_min": 90,
+    "height_max": 110,
+    "weight_min": 35,
+    "weight_max": 55,
+    "body_type": "small"
+  },
+  "appearance_restrictions": {
+    "skin_colors": [
+      "fair",
+      "tan",
+      "ruddy"
+    ],
+    "hair_colors": [
+      "brown",
+      "blonde",
+      "red",
+      "gray"
+    ],
+    "eye_colors": [
+      "brown",
+      "blue",
+      "green",
+      "hazel"
+    ],
+    "facial_features": "round_face"
+  },
+  "cultural_background": {
+    "languages": [
+      "common",
+      "halfling"
+    ],
+    "starting_city": "peaceful_village",
+    "alignment_tendency": "neutral_good",
+    "cultural_bonuses": {
+      "cooking": 20,
+      "farming": 15,
+      "stealth": 12,
+      "luck_games": 25,
+      "resistance_to_being_grabbed": 30
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "race"
+}

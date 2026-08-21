@@ -1,0 +1,79 @@
+{
+  "id": "shapeshifting_spell_0402",
+  "name": "Shapeshifting Spell 0402",
+  "description": "Le druide prend la forme d'un puissant ours, gagnant une défense et une force immense",
+  "icon": "shapeshifting_spell_0402_icon",
+  "school": "shapeshifting",
+  "rarity": "common",
+  "spell_type": "animal_form",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 2000,
+  "cooldown": 0,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "shapeshift_form"
+  },
+  "effects": [
+    {
+      "effect_type": "ursine_transformation",
+      "value": 200,
+      "duration": "toggle",
+      "tick_rate": 0,
+      "health_bonus": 50,
+      "physical_defense_bonus": 60,
+      "melee_damage_bonus": 40,
+      "movement_speed_penalty": 20,
+      "spell_casting_blocked": true,
+      "threat_generation": 150,
+      "berserker_rage": 0.1
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "body_bulking_ursine_growth",
+    "active_effect": "shapeshifting_spell_0402_claws_fur_teeth_glow",
+    "attack_effect": "paw_slash_earth_impact",
+    "roar_effect": "intimidating_aura_pulse"
+  },
+  "sound_effects": {
+    "cast_sound": "bones_cracking_ursine_growl",
+    "active_sound": "heavy_shapeshifting_spell_0402_footsteps_growl",
+    "attack_sound": "powerful_paw_slam_roar",
+    "roar_sound": "earth_shaking_shapeshifting_spell_0402_roar"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "shapeshifting",
+      "animal_spirit"
+    ],
+    "classes": [
+      "druid",
+      "guardian_warrior"
+    ],
+    "specializations": [
+      "shapeshifting_spell_0402_specialist"
+    ]
+  },
+  "upgrades": {
+    "ferocious_grizzly": {
+      "unlock_level": 20,
+      "description": "La Shapeshifting Spell 0402 devient un grizzly féroce avec des attaques déchirantes et une santé augmentée",
+      "physical_defense_bonus": 40,
+      "mangle_attack": 80,
+      "health_bonus": 75,
+      "berserker_rage": 0.25
+    },
+    "legendary_kodiak": {
+      "unlock_level": 30,
+      "description": "La Shapeshifting Spell 0402 atteint la légende avec une armure naturelle complète et des capacités défensives ultime",
+      "natural_armor": 100,
+      "thorns_damage": 50,
+      "enrage_defense_buff": 0.5,
+      "intimidation_aura": "fear_on_charge"
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

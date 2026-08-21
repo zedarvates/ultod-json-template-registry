@@ -1,0 +1,80 @@
+{
+  "id": "armes_spell_1569",
+  "name": "Armes Spell 1569",
+  "description": "Une attaque puissante disponible après avoir tué un ennemi, soignant le guerrier et augmentant ses dégâts",
+  "icon": "armes_spell_1569_icon",
+  "school": "armes",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 160,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 1.0,
+      "rage": 0.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 160,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "self_heal",
+      "value": 200,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "damage_buff",
+      "value": 0.25,
+      "duration": 20000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "victorious_charge",
+    "projectile_effect": "none",
+    "impact_effect": "armes_spell_1569_strike",
+    "trail_effect": "golden_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "victorious_cry",
+    "impact_sound": "powerful_strike"
+  },
+  "requirements": {
+    "level": 14,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "arms"
+    ]
+  },
+  "upgrades": {
+    "improved_victory_rush": {
+      "unlock_level": 22,
+      "description": "Augmente les soins et l'augmentation des dégâts d'Armes Spell 1569 de 30%",
+      "heal_bonus": 30,
+      "damage_buff_bonus": 0.1
+    },
+    "victory_rush_mastery": {
+      "unlock_level": 32,
+      "description": "Armes Spell 1569 dure plus longtemps",
+      "duration_extension": 10000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

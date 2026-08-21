@@ -1,0 +1,48 @@
+{
+  "id": "evocation_spell_1607",
+  "name": "Evocation Spell 1607",
+  "description": "Trois missiles magiques frappent automatiquement leurs cibles",
+  "icon": "evocation_spell_1607_icon",
+  "school": "evocation",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "multi",
+  "range": 36.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 15,
+    "damage_type": "force",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "force_missile",
+      "value": 15,
+      "duration": 0,
+      "tick_rate": 0,
+      "missile_count": 3
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "missile_form",
+    "projectile_effect": "evocation_spell_1607_dart"
+  },
+  "sound_effects": {
+    "cast_sound": "woosh",
+    "impact_sound": "evocation_spell_1607_punch"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

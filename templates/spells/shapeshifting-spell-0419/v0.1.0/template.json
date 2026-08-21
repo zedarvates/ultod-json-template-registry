@@ -1,0 +1,83 @@
+{
+  "id": "shapeshifting_spell_0419",
+  "name": "Shapeshifting Spell 0419",
+  "description": "Le druide se transforme en un Shapeshifting Spell 0419, améliorant massivement les soins et donnant des capacités de restauration aux alliés",
+  "icon": "shapeshifting_spell_0419_icon",
+  "school": "shapeshifting",
+  "rarity": "legendary",
+  "spell_type": "restoration_form",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 3000,
+  "cooldown": 0,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "living_nature"
+  },
+  "effects": [
+    {
+      "effect_type": "life_shapeshifting_spell_0419_transformation",
+      "value": 500,
+      "duration": "toggle",
+      "tick_rate": 2000,
+      "healing_spell_boost": 0.4,
+      "lifebloom_aura": 20,
+      "tranquility_pulse": 80,
+      "regrowth_boost": 0.6,
+      "healing_rejuvenation_passive": 60,
+      "swifteness_spirit_bonus": true,
+      "restore_speed_increase": 25,
+      "group_life_link": true,
+      "instant_regrowth": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "body_transforming_into_massive_ancient_oak",
+    "active_effect": "majestic_oak_shapeshifting_spell_0419_with_life_roots_branches",
+    "heal_effect": "life_energy_emanating_pulses_from_shapeshifting_spell_0419",
+    "bonus_effect": "ancient_wisdom_spirit_hovering"
+  },
+  "sound_effects": {
+    "cast_sound": "wood_growing_creaking_living_sounds",
+    "active_sound": "wind_through_leaves_calm_restoring",
+    "heal_sound": "nature_healing_chimes_life_flowing",
+    "bonus_sound": "ancient_shapeshifting_spell_0419_whispering_life_secrets"
+  },
+  "requirements": {
+    "level": 40,
+    "skills": [
+      "restoration_mastery",
+      "life_magic"
+    ],
+    "classes": [
+      "druid",
+      "life_warden"
+    ],
+    "specializations": [
+      "healing_ancient"
+    ]
+  },
+  "upgrades": {
+    "world_tree_aspect": {
+      "unlock_level": 50,
+      "description": "L'Shapeshifting Spell 0419 devient un aspect de l'arbre-monde avec des capacités mythiques",
+      "world_tree_healing_range": 50.0,
+      "mass_resurrection_wave": true,
+      "nature_dominion": 0.3,
+      "yggdrasil_roots_shield": 500,
+      "eternal_life_link": true
+    },
+    "nature_avatar_awakening": {
+      "unlock_level": 60,
+      "description": "L'avatar de la nature s'éveille conférant des pouvoirs élémentaires légendaires",
+      "elemental_avatar_forms": true,
+      "nature_force_damage": 300,
+      "elemental_resistance_all": 0.4,
+      "terrain_manipulation": true,
+      "nature_avatar_summons": 3
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

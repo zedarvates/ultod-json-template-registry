@@ -1,0 +1,70 @@
+{
+  "id": "armes_spell_1566",
+  "name": "Armes Spell 1566",
+  "description": "Le guerrier frappe deux cibles à la fois pendant les prochaines attaques",
+  "icon": "armes_spell_1566_icon",
+  "school": "armes",
+  "rarity": "uncommon",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 30000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.0,
+      "rage": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "multi_target_buff",
+      "value": 2,
+      "duration": 10000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "damage_buff",
+      "value": 0.1,
+      "duration": 10000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "armes_spell_1566_activation",
+    "projectile_effect": "none",
+    "impact_effect": "armes_spell_1566_aura",
+    "trail_effect": "armes_spell_1566_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "armes_spell_1566_activation",
+    "impact_sound": "none"
+  },
+  "requirements": {
+    "level": 13,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_sweeping_strikes": {
+      "unlock_level": 21,
+      "description": "Armes Spell 1566 dure plus longtemps",
+      "duration_extension": 5000
+    },
+    "sweeping_strikes_mastery": {
+      "unlock_level": 31,
+      "description": "Armes Spell 1566 peut toucher 3 cibles",
+      "target_increase": 1
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

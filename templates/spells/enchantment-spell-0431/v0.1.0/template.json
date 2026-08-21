@@ -1,0 +1,78 @@
+{
+  "id": "enchantment_spell_0431",
+  "name": "Enchantment Spell 0431",
+  "description": "Renforce l'armure d'un allié avec des runes magiques améliorant sa dureté et ses résistances",
+  "icon": "enchantment_spell_0431_icon",
+  "school": "enchantment",
+  "rarity": "uncommon",
+  "spell_type": "enchantment_spell_0431_enhancement_magic",
+  "target_type": "single_ally_enchantment_spell_0431",
+  "range": 20.0,
+  "cast_time": 2000,
+  "cooldown": 10000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "enchantment_spell_0431ment_strengthening"
+  },
+  "effects": [
+    {
+      "effect_type": "magical_enchantment_spell_0431_reinforcement",
+      "value": 180,
+      "duration": 30000,
+      "tick_rate": 0,
+      "physical_defense_bonus": 40,
+      "magical_resistance_bonus": 25,
+      "armor_durability_increase": 0.3,
+      "elemental_damage_resistance": 0.2,
+      "enchantment_visual_glow": 2,
+      "armor_break_resistance": 0.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "runic_symbols_brandishing_on_enchantment_spell_0431",
+    "enchant_effect": "enchantment_spell_0431_glowing_fortified_energy_runes",
+    "absorb_effect": "enchantment_spell_0431_flash_resisting_damage_impact",
+    "persist_effect": "continuous_enchantment_energy_hum"
+  },
+  "sound_effects": {
+    "cast_sound": "metal_enchantment_rune_branded_sizzle",
+    "enchant_sound": "enchantment_spell_0431_strengthened_crystal_hardening",
+    "absorb_sound": "damage_resisted_enchantment_spell_0431_crystal_chime",
+    "persist_sound": "enchantment_energy_steady_runic_hum"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "arcane_magic",
+      "enchantment_spell_0431ment"
+    ],
+    "classes": [
+      "enchanter",
+      "enchantment_spell_0431smith_mage"
+    ],
+    "specializations": [
+      "defensive_enchanter"
+    ]
+  },
+  "upgrades": {
+    "legendary_armor_blessing": {
+      "unlock_level": 20,
+      "description": "L'armure reçoit une bénédiction légendaire avec des propriétés spéciales comme la régénération",
+      "armor_self_repair": true,
+      "defense_multiplier": 2.0,
+      "curse_absorption": true,
+      "legendary_durability": 999999
+    },
+    "adamantine_armor_shell": {
+      "unlock_level": 30,
+      "description": "L'armure devient un coquille d'adamantine presque indestructible",
+      "adamantine_properties": true,
+      "near_immunity_physical": 0.95,
+      "magical_shield_conversion": 0.5,
+      "movement_penalty_cancelled": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

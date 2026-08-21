@@ -1,0 +1,202 @@
+{
+  "id": "plant_creature_0297",
+  "name": "Plant Creature 0297",
+  "description": "Une plante géante de 12 pieds de haut avec des têtes de graines barbelées qui s'accrochent aux armes et armures. Ses épines transferent un venin paralytique qui se déclenche au moment où l'on tente d'utiliser l'arme contaminée.",
+  "icon": "plant_creature_0297_icon",
+  "category": "plant",
+  "rarity": "rare",
+  "base_stats": {
+    "health": 40,
+    "mana": 0,
+    "strength": 12,
+    "dexterity": 1,
+    "intelligence": 1,
+    "wisdom": 1,
+    "constitution": 15,
+    "charisma": 1
+  },
+  "properties": {
+    "size": "large",
+    "size_modifiers": {
+      "health_multiplier": 2.0,
+      "damage_multiplier": 1.5,
+      "speed_modifier": 0.85,
+      "space_requirement": 10,
+      "strength_bonus": 4,
+      "constitution_bonus": 2
+    },
+    "alignment": "neutral evil",
+    "languages": [
+      "understands but doesn't speak"
+    ],
+    "challenge_rating": "3",
+    "experience_value": 200
+  },
+  "movement_speed": {
+    "base_speed": 0,
+    "speed_types": {
+      "walk": 0,
+      "burrow": 0,
+      "climb": 0,
+      "fly": 0,
+      "swim": 0,
+      "space": 0
+    },
+    "speed_modifiers": {
+      "size_modifier": 1.0,
+      "biome_modifiers": {
+        "forest": 0.9,
+        "swamp": 0.8,
+        "mountains": 1.3,
+        "desert": 1.2,
+        "tundra": 0.6,
+        "jungle": 0.7,
+        "underground": 0.9,
+        "underwater": 0.0,
+        "aerial": 0.0,
+        "space": 0.0
+      },
+      "environmental_modifiers": {
+        "weather": 1.0,
+        "lighting": 1.0,
+        "terrain": 1.0
+      }
+    },
+    "movement_abilities": [],
+    "movement_restrictions": [
+      "immobile",
+      "requires_windy_environment",
+      "defensive_position"
+    ]
+  },
+  "paralytic_properties": {
+    "paralysis_type": "weapon_transfer",
+    "trigger_conditions": {
+      "direct_contact": true,
+      "proximity_radius": 0,
+      "airborne_release": false,
+      "weapon_contamination": true
+    },
+    "saving_throw": {
+      "ability": "constitution",
+      "dc": 16,
+      "advantage": false,
+      "disadvantage": false
+    },
+    "paralysis_effects": {
+      "immediate_paralysis": true,
+      "gradual_onset": false,
+      "onset_rounds": 0,
+      "paralysis_duration_minutes": 2,
+      "condition_immunity_override": false
+    },
+    "contamination_properties": {
+      "attachment_dc": 12,
+      "contamination_radius": "weapon_reach",
+      "removal_difficulty": "dc_15_investigation",
+      "visual_indicator": "green_glow_on_weapon"
+    },
+    "special_mechanics": {
+      "cumulative_effects": false,
+      "resistance_buildup": false,
+      "plant_regeneration": true,
+      "seasonal_variations": true
+    }
+  },
+  "properties_plant": {
+    "photosynthetic_ability": true,
+    "root_mobility": false,
+    "spore_production": false,
+    "vine_mastery": 0,
+    "natural_regeneration": "15 HP per hour",
+    "sensory_detection": "creatures within 50 feet",
+    "defensive_mechanism": true,
+    "harvestable": true,
+    "wind_dispersal": true
+  },
+  "abilities": [
+    "weapon_contamination",
+    "seed_barb_attachment",
+    "wind_dispersal",
+    "paralytic_transfer",
+    "defensive_posture",
+    "regenerate_damage",
+    "seed_propagation"
+  ],
+  "resistances": {
+    "poison": 100,
+    "physical": 50,
+    "wind": 80,
+    "piercing": 70
+  },
+  "weaknesses": [
+    "fire_damage",
+    "herbicide_spells",
+    "calm_weather",
+    "antidote_spells"
+  ],
+  "immunities": [
+    "charmed",
+    "frightened",
+    "paralyzed",
+    "poisoned"
+  ],
+  "senses": {
+    "tremorsense": 50,
+    "scent": true
+  },
+  "loot_table": {
+    "common_drops": [
+      "plant_creature_0297_seeds",
+      "barbed_head",
+      "plant_fiber"
+    ],
+    "rare_drops": [
+      "weapon_curse_extraction",
+      "paralytic_seed_oil"
+    ],
+    "epic_drops": [
+      "plant_creature_0297_master_seed"
+    ],
+    "legendary_drops": []
+  },
+  "harvest_info": {
+    "harvest_difficulty": "extremely_dangerous",
+    "harvest_tool": "magical_protection_required",
+    "extraction_time": "1 hour",
+    "poison_yield": "3-6 doses",
+    "preservation": "3 weeks with magical preservation"
+  },
+  "habitat": {
+    "biomes": [
+      "mountains",
+      "windy_plains",
+      "battlefields"
+    ],
+    "seasons": [
+      "late_summer",
+      "autumn"
+    ],
+    "lighting": "full_sun",
+    "soil_type": "poor_stony",
+    "climate": "dry_windy"
+  },
+  "ai_behavior": {
+    "aggression_level": "moderate",
+    "intelligence_level": "smart",
+    "tactical_awareness": "strategic",
+    "attack_pattern": "weapon_curse",
+    "defensive_patterns": [
+      "barbed_defense",
+      "seed_barrier"
+    ],
+    "special_behaviors": [
+      "targets_armed_opponents",
+      "contaminates_weapons_tactically",
+      "spreads_seeds_through_wind",
+      "creates_areas_denial"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

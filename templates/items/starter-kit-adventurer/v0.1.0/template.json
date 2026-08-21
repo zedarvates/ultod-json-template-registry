@@ -1,0 +1,74 @@
+{
+  "id": "starter_kit_adventurer",
+  "name": "Kit de Depart Aventurier",
+  "description": "Pack classique de debutant: epee, cuir, potions, pain et pierre de rappel.",
+  "icon": "starter_kit_adventurer",
+  "category": "container",
+  "rarity": "common",
+  "item_type": "kit",
+  "sub_type": "starter_kit",
+  "base_stats": {
+    "durability": 1,
+    "max_durability": 1,
+    "weight": 5.0,
+    "value": 250
+  },
+  "kit_properties": {
+    "kit_type": "starter",
+    "auto_equip": true,
+    "one_time_use": true,
+    "consumable": true,
+    "target_class": "any",
+    "min_level": 1,
+    "max_level": 5
+  },
+  "contained_items": [
+    {
+      "item_id": "iron_sword",
+      "quantity": 1
+    },
+    {
+      "item_id": "leather_armor",
+      "quantity": 1
+    },
+    {
+      "item_id": "leather_boots",
+      "quantity": 1
+    },
+    {
+      "item_id": "minor_health_potion",
+      "quantity": 5
+    },
+    {
+      "item_id": "bread",
+      "quantity": 10
+    },
+    {
+      "item_id": "recall_stone_basic",
+      "quantity": 1
+    },
+    {
+      "item_id": "travel_pack",
+      "quantity": 1
+    },
+    {
+      "item_id": "gold_pieces",
+      "quantity": 100
+    }
+  ],
+  "properties": {
+    "stackable": false,
+    "consumable": true,
+    "reusable": false,
+    "soulbound": true,
+    "tradeable": false,
+    "sellable": false
+  },
+  "requirements": {
+    "level": 1,
+    "new_player_only": true,
+    "first_login_only": true
+  },
+  "version": "0.1.0",
+  "template_type": "item"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "armes_spell_1553",
+  "name": "Armes Spell 1553",
+  "description": "Une attaque puissante qui inflige des dégâts massifs et réduit les soins reçus par la cible",
+  "icon": "armes_spell_1553_icon",
+  "school": "armes",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 6000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 200,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 1.2,
+      "rage": 0.6
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 200,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "healing_reduction_debuff",
+      "value": 0.25,
+      "duration": 10000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "powerful_swing",
+    "projectile_effect": "none",
+    "impact_effect": "deep_wound",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "powerful_swing",
+    "impact_sound": "deep_impact"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "arms"
+    ]
+  },
+  "upgrades": {
+    "improved_mortal_strike": {
+      "unlock_level": 18,
+      "description": "Augmente les dégâts de Armes Spell 1553 de 30%",
+      "damage_bonus": 30
+    },
+    "mortal_strike_mastery": {
+      "unlock_level": 28,
+      "description": "Armes Spell 1553 a une chance d'augmenter la réduction des soins",
+      "healing_reduction_bonus": 0.15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

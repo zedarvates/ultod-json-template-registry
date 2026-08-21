@@ -1,0 +1,15 @@
+{
+  "id": "improved_healing",
+  "name": "Soins Améliorés",
+  "description": "Réduit le coût en mana de vos sorts de soins",
+  "max_rank": 3,
+  "prerequisites": [],
+  "effects_per_rank": [
+    {
+      "type": "healing_mana_cost_reduction",
+      "value": 0.05
+    }
+  ],
+  "template_type": "talent",
+  "version": "0.1.0"
+}

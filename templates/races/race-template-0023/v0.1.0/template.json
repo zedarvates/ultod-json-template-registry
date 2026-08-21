@@ -1,0 +1,27 @@
+{
+  "id": "race_template_0023",
+  "name": "Race Template 0023",
+  "description": "Imported from adapted_reference rassen.scp (i_rasse_Race Template 0023)",
+  "racial_traits": [
+    {
+      "id": "adapted_reference_stat_caps",
+      "name": "adapted_reference Stat Caps",
+      "description": "Legacy stat cap hints STR=100, INT=110, DEX=80",
+      "bonuses": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0,
+        "experience_multiplier": 1.0
+      }
+    }
+  ],
+  "available_classes": [
+    "adapted_reference_i_klasse_krieger"
+  ],
+  "starting_zone": "adapted_reference_start",
+  "template_type": "race",
+  "version": "0.1.0"
+}

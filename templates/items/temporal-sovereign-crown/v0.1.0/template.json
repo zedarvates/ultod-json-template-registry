@@ -1,0 +1,139 @@
+{
+  "item_id": "temporal_sovereign_crown",
+  "name": "Couronne du Souverain Temporel",
+  "description": "Une couronne ancienne qui confère à son porteur la maîtrise du temps et de la réalité",
+  "icon": "temporal_sovereign_crown_icon",
+  "category": "headwear",
+  "rarity": "legendary",
+  "item_type": "artifact",
+  "bind_type": "bind_on_equip",
+  "level_required": 75,
+  "durability": {
+    "max_durability": 1000,
+    "current_durability": 1000,
+    "decay_rate": 0.001
+  },
+  "stats": {
+    "intelligence": 45,
+    "wisdom": 40,
+    "temporal_mastery": 60,
+    "mana": 500,
+    "mana_regeneration": 25,
+    "spell_power": 0.35,
+    "temporal_resistance": 0.4
+  },
+  "special_effects": [
+    {
+      "effect_type": "passive_temporal_aura",
+      "description": "Projette une aura temporelle qui accélère les alliés et ralentit les ennemis",
+      "radius": 15.0,
+      "ally_effect": 1.2,
+      "enemy_effect": 0.8
+    },
+    {
+      "effect_type": "reality_command",
+      "description": "Permet de modifier légèrement la réalité dans une zone",
+      "cooldown": 300000,
+      "duration": 10000
+    },
+    {
+      "effect_type": "time_sight",
+      "description": "Reveal des événements futurs et passé dans une zone",
+      "radius": 50.0,
+      "duration": 30000
+    }
+  ],
+  "temporal_abilities": {
+    "temporal_sovereign_command": {
+      "ability_type": "active",
+      "description": "Commande le temps dans une zone étendue",
+      "cooldown": 600000,
+      "duration": 30000,
+      "radius": 40.0,
+      "effects": {
+        "freeze_all_enemies": true,
+        "accelerate_all_allies": 1.5,
+        "stop_time_effects": true
+      }
+    },
+    "reality_shaper": {
+      "ability_type": "passive",
+      "description": "Permet de traversée les effets temporels négatifs",
+      "immunity_effects": [
+        "time_slow",
+        "temporal_weakness",
+        "time_stop_enemy"
+      ],
+      "duration": "permanent"
+    }
+  },
+  "set_bonuses": {
+    "temporal_sovereign_set": {
+      "set_items": [
+        "temporal_sovereign_crown",
+        "temporal_sovereign_robes",
+        "temporal_sovereign_staff"
+      ],
+      "bonuses": {
+        "2_pieces": {
+          "temporal_spell_power": 0.15,
+          "reality_command_cooldown_reduction": 0.3
+        },
+        "3_pieces": {
+          "temporal_sovereign_command": true,
+          "mastery_of_time": true
+        }
+      }
+    }
+  },
+  "crafting_requirements": {
+    "profession": "master_chronomancer",
+    "level_required": 80,
+    "specialization": "temporal_artificer",
+    "materials": [
+      {
+        "material_id": "temporal_dragon_scale",
+        "quantity": 1
+      },
+      {
+        "material_id": "reality_crystal",
+        "quantity": 5
+      },
+      {
+        "material_id": "time_mastery_essence",
+        "quantity": 10
+      },
+      {
+        "material_id": "ancient_temporal_artifact",
+        "quantity": 1
+      }
+    ],
+    "crafting_time": 7200000,
+    "success_rate": 0.6,
+    "failure_result": "temporal_sovereign_crown_fragment"
+  },
+  "acquisition": {
+    "quest_reward": {
+      "quest_id": "temporal_sovereign",
+      "quest_reward_type": "epic_completion"
+    },
+    "temporal_dragon_drop": {
+      "monster_id": "temporal_dragon",
+      "drop_rate": 0.02,
+      "quality": "legendary"
+    },
+    "temporal_event_reward": {
+      "event_type": "temporal_crisis_peak",
+      "participation_required": true,
+      "drop_rate": 0.05
+    }
+  },
+  "lore": {
+    "origin": "Forgée par le premier Souverain Temporel pour régner sur les flux chronaux",
+    "history": "Cette couronne a été perdue à travers les âges et ne réapparaît qu'aux plus dignes",
+    "powers": "Confère la capacité de commander le temps et la réalité elle-même"
+  },
+  "version": "0.1.0",
+  "id": "temporal_sovereign_crown",
+  "template_type": "item"
+}

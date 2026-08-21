@@ -1,0 +1,82 @@
+{
+  "item_id": "elemental_essence_condensate",
+  "name": "Condensat d'Essence Élémentaire",
+  "description": "Essence élémentaire concentrée extraite des environnements magiques, utilisée pour modifier l'affinité élémentaire des sorts",
+  "icon": "elemental_essence_condensate_icon",
+  "category": "material",
+  "rarity": "rare",
+  "item_type": "magic_crafting_material",
+  "bind_type": "none",
+  "level_required": 30,
+  "durability": {
+    "single_use": false,
+    "max_durability": 200,
+    "current_durability": 200
+  },
+  "properties": {
+    "material_type": "elemental_magic_container",
+    "elements": [
+      "fire",
+      "water",
+      "earth",
+      "air",
+      "lightning"
+    ],
+    "elemental_stability": 0.9,
+    "affinity_modification_power": 0.25,
+    "energy_purity": 0.95
+  },
+  "stack_limit": 25,
+  "weight": 0.3,
+  "value": {
+    "rarity_multiplier": 2.0
+  },
+  "drop_sources": [
+    {
+      "source_type": "mob_loot",
+      "mobs": [
+        "elemental_lord",
+        "storm_titan",
+        "flame_phoenix"
+      ],
+      "drop_chance": 0.1,
+      "quantity_range": {
+        "min": 1,
+        "max": 2
+      }
+    },
+    {
+      "source_type": "gathering",
+      "nodes": [
+        "elemental_shrine",
+        "volcanic_forge",
+        "frozen_spire"
+      ],
+      "skill_required": "herbalism",
+      "skill_level": 35
+    },
+    {
+      "source_type": "quest_reward",
+      "quests": [
+        "elemental_conquest",
+        "storm_hunter"
+      ],
+      "rarity_tier": "rare"
+    }
+  ],
+  "usage_instructions": {
+    "usage_type": "crafting_component",
+    "compatible_professions": [
+      "magic_crafter",
+      "alchemist"
+    ],
+    "elemental_focus_multiplier": 1.2
+  },
+  "visual_effects": {
+    "idle_effect": "elemental_swirl",
+    "usage_effect": "essence_burst"
+  },
+  "version": "0.1.0",
+  "id": "elemental_essence_condensate",
+  "template_type": "item"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "sacre_spell_1126",
+  "name": "Sacre Spell 1126",
+  "description": "Vous protégez une créature contre les attaques. Jusqu'à la fin du sort, toutes les créatures sont incapables d'attaquer la cible sauf si elles passent avec succès un jet de sauvegarde de Sagesse. Les créatures qui échouent peuvent choisir une nouvelle cible",
+  "icon": "sacre_spell_1126_icon",
+  "school": "sacré",
+  "rarity": "uncommon",
+  "spell_type": "protection",
+  "target_type": "ally",
+  "range": 10.0,
+  "cast_time": 1000,
+  "cooldown": 120000,
+  "mana_cost": 70,
+  "effects": [
+    {
+      "effect_type": "sacre_spell_1126_buff",
+      "value": 0,
+      "duration": 60000,
+      "tick_rate": 0,
+      "aoe_radius": 1.0,
+      "proc_chance": 1.0,
+      "redirect_attacks": true,
+      "wisdom_save_dc": 15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "holy_ward",
+    "protection_effect": "divine_sanctum",
+    "impact_effect": "holy_barrier"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_chant",
+    "protection_sound": "ward_hum",
+    "impact_sound": "divine_shield"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_sanctuary": {
+      "unlock_level": 5,
+      "description": "Augmente la difficulté du jet de sauvegarde",
+      "save_dc_increase": 2
+    },
+    "extended_sanctuary": {
+      "unlock_level": 11,
+      "description": "Prolonge la durée du sort",
+      "duration_bonus": 30000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

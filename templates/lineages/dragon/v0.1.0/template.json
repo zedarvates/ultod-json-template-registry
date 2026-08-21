@@ -1,0 +1,68 @@
+{
+  "id": "dragon",
+  "name": "Dragon Lineage",
+  "description": "Ancient draconic bloodline granting immense power and resilience",
+  "icon": "lineage/dragon_icon.png",
+  "rarity": "legendary",
+  "required_level": 30,
+  "awakening_cost": {
+    "mana": 1000,
+    "health": 500,
+    "items": {
+      "dragon_heart_crystal": 1,
+      "ancient_dragon_scale": 5
+    }
+  },
+  "stat_bonuses": {
+    "health": 25,
+    "strength": 15,
+    "dexterity": 0,
+    "intelligence": 0,
+    "wisdom": 10,
+    "charisma": 5
+  },
+  "resistance_bonuses": {
+    "fire": 20,
+    "physical": 10
+  },
+  "skill_bonuses": {
+    "combat": 0.2,
+    "fire_magic": 0.25
+  },
+  "passive_abilities": [
+    {
+      "id": "dragon_fire_breath",
+      "name": "Dragon Fire Breath",
+      "description": "Unleash draconic flames that burn enemies over time",
+      "cooldown": 30000,
+      "damage": {
+        "min": 50,
+        "max": 80,
+        "type": "fire"
+      },
+      "dot_damage": {
+        "damage": 25,
+        "duration": 10000,
+        "ticks": 5
+      }
+    }
+  ],
+  "awakening_bonuses": {
+    "duration_minutes": 30,
+    "stat_multipliers": {
+      "strength": 1.5,
+      "health": 1.3
+    },
+    "special_effects": [
+      "fire_immunity",
+      "flight_capability"
+    ]
+  },
+  "racial_synergies": {
+    "dragonkin": 1.25,
+    "fire_elemental": 1.15
+  },
+  "enabled": true,
+  "template_type": "lineage",
+  "version": "0.1.0"
+}

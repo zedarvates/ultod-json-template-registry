@@ -1,0 +1,74 @@
+{
+  "item_id": "range_enhancer_scroll",
+  "name": "Parchemin d'Amplification de Portée",
+  "description": "Permet d'augmenter temporairement la portée d'un sort avec un coût de mana équilibré",
+  "icon": "range_enhancer_scroll_icon",
+  "category": "consumable",
+  "rarity": "uncommon",
+  "item_type": "spell_customization_scroll",
+  "bind_type": "none",
+  "level_required": 25,
+  "durability": {
+    "single_use": true,
+    "charges": 1
+  },
+  "effects": [
+    {
+      "effect_type": "spell_range_modifier",
+      "value": 1.5,
+      "duration": 3600000,
+      "description": "Augmente la portée de sorts de 50% pendant 1 heure",
+      "customization_limitations": {
+        "max_range_multiplier": 2.0,
+        "mana_cost_multiplier": 1.3,
+        "cooldown_penalty": 0.0
+      },
+      "balance_formula": "range_increase * mana_cost_increase = constant"
+    }
+  ],
+  "usage_instructions": {
+    "cast_time": 5000,
+    "cooldown": 3600000,
+    "target_type": "self",
+    "consumable_on_use": true,
+    "customization_context": "applied_before_spell_casting"
+  },
+  "crafting_requirements": {
+    "profession": "magic_crafter",
+    "level_required": 15,
+    "specialization": "spell_enhancement",
+    "materials": [
+      {
+        "material_id": "arcanum_crystal",
+        "quantity": 1
+      },
+      {
+        "material_id": "void_weave_thread",
+        "quantity": 2
+      },
+      {
+        "material_id": "balance_rune",
+        "quantity": 1
+      }
+    ],
+    "crafting_time": 120000,
+    "success_rate": 0.8,
+    "batch_production": 3
+  },
+  "spell_customization_data": {
+    "customizable_parameters": [
+      "range"
+    ],
+    "effect_mechanic": "temporary_spell_modifier",
+    "balance_tradeoffs": [
+      "mana_cost"
+    ],
+    "visual_indicators": [
+      "range_glow",
+      "distance_measure"
+    ]
+  },
+  "version": "0.1.0",
+  "id": "range_enhancer_scroll",
+  "template_type": "item"
+}

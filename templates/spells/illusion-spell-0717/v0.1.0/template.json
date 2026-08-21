@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0717",
+  "name": "Illusion Spell 0717",
+  "description": "Créé une manifestation terrifiante directement dans l'esprit de la cible, qui peut la tuer par peur pure",
+  "icon": "illusion_spell_0717_icon",
+  "school": "illusion",
+  "rarity": "epic",
+  "spell_type": "psychic_death_manifestation",
+  "target_type": "single_enemy",
+  "range": 40.0,
+  "cast_time": 4000,
+  "cooldown": 60000,
+  "mana_cost": 150,
+  "damage": {
+    "base_damage": 300,
+    "damage_type": "fear_death_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "mind_terror_death_manifestation",
+      "value": 400,
+      "duration": 20000,
+      "tick_rate": 2000,
+      "manifestation_fear_success": 90,
+      "death_by_fear_percentage": 50,
+      "terror_damage_over_time": 100,
+      "will_save_after_initial": 6000,
+      "phantasmal_damage_scaling": 2.5,
+      "mental_shielding_bypassing": 0.8
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "terrifying_energy_mind_portal_creation",
+    "manifestation_effect": "personal_terror_horror_manifesting_mind",
+    "damage_effect": "fear_damage_soul_draining_energy",
+    "potentially_dead_effect": "corpse_falling_life_essence_drained"
+  },
+  "sound_effects": {
+    "cast_effect": "reality_tearing_terror_portal_creation",
+    "manifestation_effect": "personalized_horror_manifesting_screams",
+    "damage_effect": "fear_damage_soul_draining_essence",
+    "potentially_dead_effect": "life_drain_heavy_impact_thud"
+  },
+  "requirements": {
+    "level": 40,
+    "skills": [
+      "illusion_magic",
+      "nightmare_summoning"
+    ],
+    "classes": [
+      "illusionist",
+      "death_weaver"
+    ],
+    "specializations": [
+      "adapted_referencete_terror"
+    ]
+  },
+  "upgrades": {
+    "greater_phantasmal_killer": {
+      "unlock_level": 50,
+      "description": "Le Illusion Spell 0717 devient plus grand avec des manifestations multiples et une terreur irrésistible",
+      "triple_phantasmal_manifestations": true,
+      "overwhelming_terror_resistance": 0.9,
+      "mass_psychological_destruction": 8.0,
+      "eternal_mental_trauma": 0.7
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

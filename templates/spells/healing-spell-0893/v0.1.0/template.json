@@ -1,0 +1,72 @@
+{
+  "id": "healing_spell_0893",
+  "name": "Healing Spell 0893",
+  "description": "Crée une brume curative qui restaure la santé de tous les alliés dans la zone au fil du temps",
+  "icon": "healing_spell_0893_icon",
+  "school": "healing",
+  "rarity": "uncommon",
+  "spell_type": "area_healing_mist",
+  "target_type": "location_healing_aura",
+  "range": 35.0,
+  "cast_time": 2000,
+  "cooldown": 15000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "healing_energy_mist"
+  },
+  "effects": [
+    {
+      "effect_type": "healing_energy_aura",
+      "value": 150,
+      "duration": 25000,
+      "tick_rate": 3000,
+      "mist_area_radius": 12.0,
+      "healing_per_tick": 35,
+      "hot_spread_chance": 50,
+      "maximum_targets": 6,
+      "healing_buff_to_caster": 20,
+      "mist_movement_speed": 0.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "chi_energy_forming_cloud_green_healing_mist_gathering",
+    "mist_effect": "green_healing_cloud_expanding_gentle_swirling_motions",
+    "healing_effect": "light_beams_chi_healing_targets_glow_green_recovery",
+    "residual_effect": "fading_mist_chi_energy_dissipating_healing_leftover"
+  },
+  "sound_effects": {
+    "cast_effect": "chi_energy_whispering_mist_formation_soothing_sounds",
+    "mist_effect": "gentle_breeze_mist_movement_soothing_bell_tones",
+    "healing_effect": "light_chi_beams_healing_tones_warm_harmonic_chord",
+    "residual_effect": "fading_mist_whispers_dissipating_peaceful_echo"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "healing_arts",
+      "chi_healing",
+      "mist_technique"
+    ],
+    "classes": [
+      "monk",
+      "healing_monk",
+      "mist_weaver"
+    ],
+    "specializations": [
+      "restoration_expert"
+    ]
+  },
+  "upgrades": {
+    "greater_renewing_mist": {
+      "unlock_level": 28,
+      "description": "La Healing Spell 0893 devient plus efficace avec des effets de soin avancés",
+      "healing_per_tick_increase_percent": 120,
+      "mist_area_expansion_radius": 6.0,
+      "hot_stack_multiplier": 1.5,
+      "soothing_mist_conversion": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

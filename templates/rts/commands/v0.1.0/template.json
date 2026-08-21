@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-11-14",
+    "description": "RTS Command System - Unit orders, strategic commands, and command execution mechanics",
+    "author": "UOVR Development Team",
+    "category": "RTS Systems"
+  },
+  "command_categories": {
+    "movement": {
+      "description": "Commands that control unit positioning and navigation",
+      "max_queue_size": 5,
+      "interruptible": true
+    },
+    "combat": {
+      "description": "Commands for attacking, defending, and tactical combat actions",
+      "max_queue_size": 3,
+      "interruptible": true
+    },
+    "production": {
+      "description": "Commands related to constructing buildings and training units",
+      "max_queue_size": 10,
+      "interruptible": false
+    },
+    "special": {
+      "description": "Advanced strategic commands and special abilities",
+      "max_queue_size": 2,
+      "interruptible": false
+    }
+  },
+  "commands": {
+    "move": {
+      "id": "cmd_move",
+      "name": "Move",
+      "category": "movement",
+      "description": "Order units to move to a specific location",
+      "input_parameters": [
+        "target_position"
+      ],
+      "execution_requirements": {
+        "min_units": 1
+      },
+      "effects": {
+        "movement": true
+      }
+    },
+    "attack": {
+      "id": "cmd_attack",
+      "name": "Attack",
+      "category": "combat",
+      "description": "Order units to attack a target",
+      "input_parameters": [
+        "target_unit",
+        "target_building"
+      ],
+      "execution_requirements": {
+        "capability": "can_attack"
+      },
+      "effects": {
+        "combat": true
+      }
+    },
+    "build": {
+      "id": "cmd_build",
+      "name": "Build",
+      "category": "production",
+      "description": "Construct a building at the specified location",
+      "input_parameters": [
+        "building_type",
+        "build_location"
+      ],
+      "execution_requirements": {
+        "technology": "required_technology"
+      },
+      "effects": {
+        "construction": true
+      }
+    },
+    "gather": {
+      "id": "cmd_gather",
+      "name": "Gather Resources",
+      "category": "production",
+      "description": "Collect resources from a resource node",
+      "input_parameters": [
+        "resource_node"
+      ],
+      "execution_requirements": {
+        "unit_type": "villager"
+      },
+      "effects": {
+        "resource_collection": true
+      }
+    },
+    "patrol": {
+      "id": "cmd_patrol",
+      "name": "Patrol",
+      "category": "movement",
+      "description": "Set up a patrol route for units",
+      "input_parameters": [
+        "waypoint_list"
+      ],
+      "execution_requirements": {
+        "min_units": 1
+      },
+      "effects": {
+        "ongoing_movement": true
+      }
+    },
+    "guard": {
+      "id": "cmd_guard",
+      "name": "Guard Position",
+      "category": "combat",
+      "description": "Hold position and attack approaching enemies",
+      "input_parameters": [
+        "guard_position"
+      ],
+      "execution_requirements": {
+        "capability": "can_attack"
+      },
+      "effects": {
+        "defensive_stance": true
+      }
+    },
+    "formation_change": {
+      "id": "cmd_formation_change",
+      "name": "Change Formation",
+      "category": "special",
+      "description": "Rearrange units into a different formation",
+      "input_parameters": [
+        "formation_type"
+      ],
+      "execution_requirements": {
+        "technology": "formation_tactics"
+      },
+      "effects": {
+        "formation_update": true
+      }
+    },
+    "mass_teleport": {
+      "id": "cmd_mass_teleport",
+      "name": "Mass Teleport",
+      "category": "special",
+      "description": "Teleport multiple units to a portal location",
+      "input_parameters": [
+        "target_location",
+        "unit_selection"
+      ],
+      "execution_requirements": {
+        "building": "portal_gate"
+      },
+      "effects": {
+        "teleportation": true
+      }
+    }
+  },
+  "id": "commands",
+  "name": "Commands",
+  "template_type": "rt",
+  "version": "0.1.0"
+}

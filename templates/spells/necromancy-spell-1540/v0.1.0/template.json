@@ -1,0 +1,47 @@
+{
+  "id": "necromancy_spell_1540",
+  "name": "Necromancy Spell 1540",
+  "description": "Inflige des dégâts nécrotiques supplémentaires aux créatures blessées",
+  "icon": "necromancy_spell_1540_icon",
+  "school": "necromancy",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 18.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 15,
+  "damage": {
+    "base_damage": 8,
+    "damage_type": "necrotic",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "necrotic_damage_conditional",
+      "value": 8,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "death_energy",
+    "projectile_effect": "necrotic_wave"
+  },
+  "sound_effects": {
+    "cast_sound": "death_necromancy_spell_1540"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "necromancy"
+    ],
+    "classes": [
+      "warlock",
+      "necromancer"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

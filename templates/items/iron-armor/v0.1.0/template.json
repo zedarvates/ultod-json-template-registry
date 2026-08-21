@@ -1,0 +1,31 @@
+{
+  "id": "iron_armor",
+  "name": "Armure de Fer",
+  "description": "Protection intermediaire pour guerriers confirmes.",
+  "icon": "iron_armor",
+  "category": "armor",
+  "rarity": "uncommon",
+  "item_type": "armor",
+  "sub_type": "chest",
+  "base_stats": {
+    "durability": 140,
+    "max_durability": 140,
+    "weight": 9.0,
+    "value": 220
+  },
+  "armor_properties": {
+    "armor_value": 28,
+    "slot": "chest"
+  },
+  "properties": {
+    "stackable": false,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 5,
+    "strength": 14
+  },
+  "template_type": "item",
+  "version": "0.1.0"
+}

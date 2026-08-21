@@ -1,0 +1,67 @@
+{
+  "id": "physical_spell_0960",
+  "name": "Physical Spell 0960",
+  "description": "Frappe l'ennemi dans le dos pour des dégâts critiques élevés, nécessite d'être derrière la cible",
+  "icon": "physical_spell_0960_icon",
+  "school": "physical",
+  "rarity": "rare",
+  "spell_type": "damage",
+  "target_type": "single_enemy",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 8000,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 85,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 1.5,
+      "strength": 1.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage",
+      "value": 85,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_type": "physical",
+      "scaling": {
+        "agility": 1.5,
+        "strength": 1.0
+      },
+      "requires_back": true,
+      "crit_multiplier": 2.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dagger_flash",
+    "projectile_effect": null,
+    "hit_effect": "blood_spray"
+  },
+  "sound_effects": {
+    "cast_sound": "dagger_swipe_fast",
+    "projectile_sound": null,
+    "hit_sound": "critical_stab"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "assassination"
+    ],
+    "classes": [
+      "ninja",
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "lethal_backstab": {
+      "unlock_level": 20,
+      "description": "Augmente les dégâts critiques d'Physical Spell 0960",
+      "damage_bonus": 30,
+      "crit_multiplier_bonus": 0.5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "holy_spell_1035",
+  "name": "Holy Spell 1035",
+  "description": "Soigne les blessures au fil du temps, restaurant les points de vie progressivement",
+  "icon": "holy_spell_1035_icon",
+  "school": "holy",
+  "rarity": "common",
+  "spell_type": "healing_over_time",
+  "target_type": "single_ally",
+  "range": 25.0,
+  "cast_time": 2000,
+  "cooldown": 0,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "holy"
+  },
+  "effects": [
+    {
+      "effect_type": "hot",
+      "value": 25,
+      "duration": 12000,
+      "tick_rate": 3000,
+      "ticks": 4,
+      "total_healing": 100,
+      "scaling": {
+        "wisdom": 1.2,
+        "spirit": 0.8
+      }
+    },
+    {
+      "effect_type": "visual_buff",
+      "value": 0,
+      "duration": 12000,
+      "tick_rate": 0,
+      "effect_name": "healing_aura"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_healing_wave",
+    "buff_effect": "gentle_glow",
+    "expire_effect": "healing_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_whisper",
+    "buff_sound": "healing_chime",
+    "expire_sound": "buff_end"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "paladin",
+      "priest",
+      "druid"
+    ]
+  },
+  "upgrades": {
+    "improved_close_wounds": {
+      "unlock_level": 13,
+      "description": "Augmente les soins de Holy Spell 1035",
+      "healing_bonus": 30,
+      "tick_rate_reduction": 500
+    },
+    "renewal": {
+      "unlock_level": 23,
+      "description": "Holy Spell 1035 peut être lancé sur plusieurs cibles",
+      "aoe_range": 8.0,
+      "max_targets": 3,
+      "healing_reduction": 40
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

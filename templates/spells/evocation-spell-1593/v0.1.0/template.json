@@ -1,0 +1,48 @@
+{
+  "id": "evocation_spell_1593",
+  "name": "Evocation Spell 1593",
+  "description": "Plusieurs missiles d'énergie pure frappent automatiquement vos ennemis",
+  "icon": "evocation_spell_1593_icon",
+  "school": "evocation",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "multi",
+  "range": 36.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 10,
+    "damage_type": "force",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "evocation_spell_1593_burst",
+      "value": 10,
+      "duration": 0,
+      "tick_rate": 0,
+      "missile_count": 5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "magic_circle",
+    "projectile_effect": "evocation_spell_1593_orb"
+  },
+  "sound_effects": {
+    "cast_sound": "magic_hum",
+    "impact_sound": "energy_burst"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

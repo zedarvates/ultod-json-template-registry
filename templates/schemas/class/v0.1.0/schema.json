@@ -267,14 +267,6 @@
     "enabled": {
       "type": "boolean",
       "default": true
-    },
-    "admin_only": {
-      "type": "boolean",
-      "default": false
-    },
-    "debug_mode": {
-      "type": "boolean",
-      "default": false
     }
   },
   "id": "class_schema"

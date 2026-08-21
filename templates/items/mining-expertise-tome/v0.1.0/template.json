@@ -1,0 +1,21 @@
+{
+  "id": "mining_expertise_tome",
+  "name": "Mining Expertise Tome",
+  "description": "Generated Mining Expertise Tome item template.",
+  "icon": "mining_expertise_tome_icon",
+  "category": "quest_item",
+  "rarity": "common",
+  "item_type": "quest_item",
+  "sub_type": "generic",
+  "base_stats": {
+    "durability": 1,
+    "max_durability": 1,
+    "weight": 0.1,
+    "value": 1
+  },
+  "properties": {},
+  "requirements": {},
+  "effects": [],
+  "template_type": "item",
+  "version": "0.1.0"
+}

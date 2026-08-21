@@ -1,0 +1,102 @@
+{
+  "id": "evocation_spell_0097",
+  "name": "Evocation Spell 0097",
+  "description": "Le barde lâche un Evocation Spell 0097 qui fait trembler le sol et stunne les ennemis dans un rayon énorme",
+  "icon": "evocation_spell_0097_icon",
+  "school": "evocation",
+  "rarity": "epic",
+  "spell_type": "bass_earthquake",
+  "target_type": "area_enemy",
+  "range": 80.0,
+  "cast_time": 3500,
+  "cooldown": 45000,
+  "mana_cost": 120,
+  "damage": {
+    "base_damage": 300,
+    "damage_type": "sonic_earth",
+    "scaling": {
+      "charisma": 1.5,
+      "constitution": 1.2
+    },
+    "aoe_range": 40.0
+  },
+  "effects": [
+    {
+      "effect_type": "ground_shake_damage",
+      "value": 300,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_range": 40.0,
+      "knockdown_force": 20.0,
+      "terrain_crack": true,
+      "max_targets": 12
+    },
+    {
+      "effect_type": "ravage_stun",
+      "value": 100,
+      "duration": 6000,
+      "tick_rate": 0,
+      "aoe_range": 40.0,
+      "proc_chance": 0.9,
+      "max_targets": 8
+    },
+    {
+      "effect_type": "sonic_wave_push",
+      "value": 150,
+      "duration": 2000,
+      "tick_rate": 500,
+      "wave_pulse_count": 4,
+      "push_distance": 8.0,
+      "directional_force": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "bass_amps_overload",
+    "impact_effect": "earth_shattering_waves",
+    "shake_effect": "ground_crack_cascades",
+    "dust_effect": "evocation_spell_0097_boom_dust"
+  },
+  "sound_effects": {
+    "cast_sound": "building_subsonic_drop",
+    "impact_sound": "earth_quake_rumble_boom",
+    "wave_sound": "bass_wave_pulses",
+    "shake_sound": "deep_evocation_spell_0097_bass"
+  },
+  "requirements": {
+    "level": 45,
+    "skills": [
+      "performance",
+      "evocation",
+      "earth_magic",
+      "subsonic_mastery"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour",
+      "bass_master"
+    ],
+    "specializations": [
+      "earth_shaker",
+      "sonic_bomber"
+    ]
+  },
+  "upgrades": {
+    "plate_tectonics": {
+      "unlock_level": 55,
+      "description": "Crée des failles dans le sol qui persistent et piègent les ennemis",
+      "crack_lifetime": 15000,
+      "fall_damage": 100,
+      "terrain_traps": true
+    },
+    "subsonic_apocalypse": {
+      "unlock_level": 65,
+      "description": "Le drop devient apocalyptique avec un rayon massif",
+      "aoe_range_bonus": 25.0,
+      "damage_bonus": 200,
+      "cooldown_reduction": 15000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

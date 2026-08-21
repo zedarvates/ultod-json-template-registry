@@ -1,0 +1,49 @@
+{
+  "version": "0.1.0",
+  "school": "arcane",
+  "rarity": "legendary",
+  "target_type": "chain",
+  "range": 15.9,
+  "cast_time": 2586,
+  "cooldown": 11701,
+  "mana_cost": 89,
+  "visual_effects": {
+    "cast_effect": "warrior_cast",
+    "projectile_effect": "elemental_projectile",
+    "impact_effect": "elemental_impact",
+    "trail_effect": "elemental_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "warrior_cast_sound",
+    "impact_sound": "elemental_impact_sound"
+  },
+  "requirements": {
+    "level": 15,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "arms"
+    ]
+  },
+  "balance_validated": true,
+  "generated_by": "content_pipeline_v2",
+  "id": "0951c49cc94a",
+  "name": "Warrior Arms Storm",
+  "description": "Generated warrior arms spell #198",
+  "icon": "0951c49cc94a_icon",
+  "spell_type": "debuff",
+  "damage_type": null,
+  "effects": [
+    {
+      "effect_type": "slow",
+      "value": 0.51,
+      "duration": 4590,
+      "tick_rate": 0,
+      "proc_chance": 0.8
+    }
+  ],
+  "balance_efficiency": 0.0078,
+  "template_type": "content_pipeline"
+}

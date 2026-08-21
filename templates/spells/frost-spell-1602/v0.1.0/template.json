@@ -1,0 +1,85 @@
+{
+  "id": "frost_spell_1602",
+  "name": "Frost Spell 1602",
+  "description": "Libère une rafale de vent glacial qui gèle et ralentit les ennemis",
+  "icon": "frost_spell_1602_icon",
+  "school": "frost",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "cone",
+  "range": 15.0,
+  "cast_time": 2000,
+  "cooldown": 10000,
+  "mana_cost": 65,
+  "damage": {
+    "base_damage": 140,
+    "damage_type": "frost",
+    "scaling": {
+      "intelligence": 0.9,
+      "wisdom": 0.4
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "cone_damage",
+      "value": 140,
+      "duration": 0,
+      "tick_rate": 0,
+      "cone_angle": 60,
+      "cone_length": 15.0
+    },
+    {
+      "effect_type": "slow",
+      "value": 50,
+      "duration": 8000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "freeze",
+      "value": 0,
+      "duration": 3000,
+      "tick_rate": 0,
+      "proc_chance": 0.3
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "frost_gathering",
+    "breath_effect": "icy_wind",
+    "impact_effect": "frost_explosion",
+    "trail_effect": "snow_flakes"
+  },
+  "sound_effects": {
+    "cast_sound": "wind_howling",
+    "breath_sound": "ice_cracking",
+    "impact_sound": "frost_shatter"
+  },
+  "requirements": {
+    "level": 14,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "wizard",
+      "mage",
+      "shaman",
+      "druid"
+    ]
+  },
+  "upgrades": {
+    "arctic_blast": {
+      "unlock_level": 24,
+      "description": "Le souffle gèle plus facilement et cause plus de dégâts",
+      "freeze_chance": 0.5,
+      "damage_bonus": 40
+    },
+    "blizzard": {
+      "unlock_level": 34,
+      "description": "Crée une tempête de neige qui affecte une plus grande zone",
+      "aoe_range": 25.0,
+      "storm_duration": 12000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -23,6 +23,8 @@ Central versioned registry for JSON templates and schemas used across the Ultima
 
 These templates are uncertified snapshots. None is yet declared compatible with a specific client or server version.
 
+Current local coverage accounts for all 4,009 current server JSON sources: 1,884 through existing snapshots or source references and 2,125 through semantic, sanitized exports. Exported templates retain useful gameplay structure and readable names; hash-only placeholder templates are forbidden.
+
 ## Purpose
 
 This repository provides a public, traceable home for shared and specialized JSON templates, especially for:
@@ -201,6 +203,7 @@ Exhaustive coverage and audit status by family are tracked in [AUDIT-COVERAGE.md
 ## Links
 
 - [Ultimate Odycer website](https://ultimateodycer.com)
+- [Discord](https://discord.gg/Mdcdjb6bU)
 - [Template specification](TEMPLATE-SPEC.md)
 - [Versioning policy](VERSIONING.md)
 

@@ -1,0 +1,62 @@
+{
+  "id": "human",
+  "name": "Humain",
+  "description": "Polyvalents et adaptables",
+  "racial_traits": [
+    {
+      "id": "diplomacy",
+      "name": "Diplomatie",
+      "description": "+10% négociation commerciale",
+      "bonuses": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 2,
+        "experience_multiplier": 1.0
+      }
+    },
+    {
+      "id": "versatility",
+      "name": "Polyvalence",
+      "description": "+5% XP dans toutes les compétences",
+      "bonuses": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0,
+        "experience_multiplier": 1.05
+      }
+    }
+  ],
+  "available_classes": [
+    "warrior",
+    "mage",
+    "rogue",
+    "priest"
+  ],
+  "starting_zone": "starter_town",
+  "appearance_options": {
+    "hair_colors": [
+      "blonde",
+      "brun",
+      "roux",
+      "noir"
+    ],
+    "skin_tones": [
+      "clair",
+      "moyen",
+      "fonce"
+    ],
+    "body_types": [
+      "athletic",
+      "slim",
+      "muscular"
+    ]
+  },
+  "template_type": "race",
+  "version": "0.1.0"
+}

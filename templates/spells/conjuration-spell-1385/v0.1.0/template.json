@@ -1,0 +1,50 @@
+{
+  "id": "conjuration_spell_1385",
+  "name": "Conjuration Spell 1385",
+  "description": "Un nuage de flammes explosives remplit une sphère de 6 mètres",
+  "icon": "conjuration_spell_1385_icon",
+  "school": "conjuration",
+  "rarity": "legendary",
+  "spell_type": "area_damage",
+  "target_type": "area",
+  "range": 45.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 100,
+  "damage": {
+    "base_damage": 100,
+    "damage_type": "fire",
+    "aoe_radius": 6.0
+  },
+  "effects": [
+    {
+      "effect_type": "fire_cloud",
+      "value": 100,
+      "duration": 60000,
+      "tick_rate": 1000,
+      "dexterity_save": true,
+      "save_dc": 16
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "cloud_swirl",
+    "explosion_effect": "fire_cloud"
+  },
+  "sound_effects": {
+    "cast_sound": "cloud_roar",
+    "impact_sound": "fire_roar"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "conjuration"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

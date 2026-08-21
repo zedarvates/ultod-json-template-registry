@@ -1,0 +1,57 @@
+{
+  "id": "sacre_spell_1109",
+  "name": "Sacre Spell 1109",
+  "description": "Choisissez une créature, un objet ou un effet magique dans la portée. Tout effet magique sur la cible se termine. Si l'effet est émis par un sort de niveau 3 ou moins, il se termine automatiquement",
+  "icon": "sacre_spell_1109_icon",
+  "school": "sacré",
+  "rarity": "common",
+  "spell_type": "utility",
+  "target_type": "neutral",
+  "range": 20.0,
+  "cast_time": 1000,
+  "cooldown": 30000,
+  "mana_cost": 50,
+  "effects": [
+    {
+      "effect_type": "sacre_spell_1109_mage",
+      "value": 3,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_radius": 0.0,
+      "proc_chance": 1.0,
+      "disrupts_concentration": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "holy_dissolution",
+    "dispel_effect": "magic_shatter",
+    "impact_effect": "spell_broken"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_chant",
+    "dispel_sound": "magic_disintegrate",
+    "impact_sound": "spell_shatter"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_dispel": {
+      "unlock_level": 7,
+      "description": "Peut dissiper des sorts de niveau supérieur",
+      "spell_level_bonus": 2
+    },
+    "counter_dispel": {
+      "unlock_level": 13,
+      "description": "Permet de dissiper les sorts ennemis sur une zone",
+      "area_dispel": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

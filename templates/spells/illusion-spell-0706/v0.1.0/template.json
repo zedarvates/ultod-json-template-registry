@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0706",
+  "name": "Illusion Spell 0706",
+  "description": "Rend invisible uniquement aux créatures hostiles et agressives, permettant d'éviter les combats indésirables",
+  "icon": "illusion_spell_0706_icon",
+  "school": "illusion",
+  "rarity": "uncommon",
+  "spell_type": "selective_stealth_illusion",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 2000,
+  "cooldown": 30000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "selective_illusion_spell_0706_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "hostile_entity_stealth",
+      "value": 180,
+      "duration": 180000,
+      "tick_rate": 0,
+      "hostile_detection_immune": true,
+      "aggressive_creature_invisible": true,
+      "peaceful_creature_detection": "normal",
+      "player_detection": "normal",
+      "movement_penalty": 30,
+      "attack_breaks_stealth": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "selective_illusion_spell_0706_shimmer_hostile_avoiding",
+    "active_effect": "hostile_entities_glance_through_semi_visible",
+    "movement_effect": "partial_trail_hostile_evading_natural_movements",
+    "expire_effect": "hostile_illusion_spell_0706_fade_complete_visibility_return"
+  },
+  "sound_effects": {
+    "cast_effect": "selectively_quiet_whisper_hostile_reduction",
+    "active_effect": "peaceful_creatures_normal_hostile_inaudible",
+    "movement_effect": "partial_steps_quiet_hostile_confusion",
+    "expire_effect": "fade_silence_breaking_hostile_alert_return"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "illusion_magic",
+      "selective_stealth"
+    ],
+    "classes": [
+      "illusionist",
+      "stealth_weaver"
+    ],
+    "specializations": [
+      "hostile_evader"
+    ]
+  },
+  "upgrades": {
+    "greater_hostile_invisibility": {
+      "unlock_level": 28,
+      "description": "L'Illusion Spell 0706 devient plus puissante avec moins de pénalités et une meilleure efficacité",
+      "movement_penalty_reduction": 15,
+      "hostile_detection_immunity_improved": 0.95,
+      "attack_maintenance_increased": 0.3,
+      "spell_cast_reduced_interruption": 0.6
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

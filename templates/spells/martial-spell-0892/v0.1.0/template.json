@@ -1,0 +1,72 @@
+{
+  "id": "martial_spell_0892",
+  "name": "Martial Spell 0892",
+  "description": "Un coup précis qui paralyse temporairement le système nerveux de la cible, l'empêchant de bouger ou d'attaquer",
+  "icon": "martial_spell_0892_icon",
+  "school": "martial",
+  "rarity": "uncommon",
+  "spell_type": "nerve_strike_martial_spell_0892",
+  "target_type": "enemy_target",
+  "range": 8.0,
+  "cast_time": 0,
+  "cooldown": 18000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "nerve_system_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "neurological_system_shock",
+      "value": 150,
+      "duration": 12000,
+      "tick_rate": 0,
+      "paralysis_success_chance": 70,
+      "movement_lock_duration": 8000,
+      "attack_disruption_duration": 6000,
+      "nerve_damage_over_time": 35,
+      "resistance_buildup_reduction": 0.8,
+      "critical_strike_bonus": 25
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "chi_energy_focused_quick_finger_tension_building_crackling",
+    "strike_effect": "precision_strike_target_shuddering_electrical_impulse_conducting",
+    "paralysis_effect": "victim_frozen_locking_position_chi_energy_snaking_nerves",
+    "recovery_effect": "jerking_recovery_tingling_sensation_body_normalization"
+  },
+  "sound_effects": {
+    "cast_effect": "chi_crackling_energy_focused_precision_preparation",
+    "strike_effect": "impact_crunch_electrical_discharge_shock_impulse",
+    "paralysis_effect": "systemic_lock_humming_disruption_nerve_freezing_tone",
+    "recovery_effect": "jerking_recovery_electrical_discharge_system_reboot_tingling"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "martial_arts",
+      "nerve_striking",
+      "chi_manipulation"
+    ],
+    "classes": [
+      "monk",
+      "pressure_point_specialist",
+      "nerve_technique_master"
+    ],
+    "specializations": [
+      "crippling_strike_expert"
+    ]
+  },
+  "upgrades": {
+    "greater_paralysis_strike": {
+      "unlock_level": 35,
+      "description": "La Martial Spell 0892 devient plus efficace avec des effets neurologiques avancés",
+      "paralysis_success_rate_increase": 25,
+      "paralysis_duration_extension": 5000,
+      "area_paralysis_induction": 3.0,
+      "permanent_nerve_damage_risk": 10
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

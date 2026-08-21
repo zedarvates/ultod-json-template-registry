@@ -1,0 +1,63 @@
+{
+  "id": "ombres_spell_1224",
+  "name": "Ombres Spell 1224",
+  "description": "Embrasse l'esprit ombres_spell_1224 pour des dégâts dévastateurs au prix de la vie",
+  "icon": "ombres_spell_1224_icon",
+  "school": "ombres",
+  "rarity": "legendary",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 3000,
+  "cooldown": 300000,
+  "mana_cost": 80,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "damage_amplifier",
+      "value": 150,
+      "duration": 30000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "explosive_death",
+      "value": 500,
+      "duration": 30000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_aura",
+    "projectile_effect": "none",
+    "impact_effect": "fiery_wrath",
+    "trail_effect": "burning_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "ombres_spell_1224_chant",
+    "impact_sound": "wrath_released"
+  },
+  "requirements": {
+    "level": 45,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "divine_wind": {
+      "unlock_level": 60,
+      "description": "Ajoute 50% à l'amplification de dégâts",
+      "damage_amp_bonus": 50
+    },
+    "eternal_glory": {
+      "unlock_level": 75,
+      "description": "Diminue les.lista dégâts d'explosion sur soi",
+      "self_damage_reduction": 100
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

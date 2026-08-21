@@ -1,0 +1,27 @@
+{
+  "id": "steel_sword",
+  "name": "Épée en Acier",
+  "description": "Une épée bien équilibrée forgée en acier de qualité",
+  "icon": "sword_steel.png",
+  "category": "weapon",
+  "rarity": "common",
+  "item_type": "sword",
+  "sub_type": "one_hand",
+  "base_stats": {
+    "durability": 100,
+    "max_durability": 100,
+    "weight": 3.5,
+    "value": 150
+  },
+  "properties": {
+    "damage": 25,
+    "attack_speed": 1.2
+  },
+  "requirements": {
+    "level": 3,
+    "strength": 12
+  },
+  "effects": [],
+  "template_type": "item",
+  "version": "0.1.0"
+}

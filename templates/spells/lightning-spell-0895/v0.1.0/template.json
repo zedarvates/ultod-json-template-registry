@@ -1,0 +1,72 @@
+{
+  "id": "lightning_spell_0895",
+  "name": "Lightning Spell 0895",
+  "description": "Charge les jambes d'énergie électrique, améliorant les coups de pied avec des dégâts de foudre et augmentant la mobilité",
+  "icon": "lightning_spell_0895_icon",
+  "school": "lightning",
+  "rarity": "rare",
+  "spell_type": "lightning_leg_enhancement",
+  "target_type": "self_leg_buff",
+  "range": 0.0,
+  "cast_time": 1500,
+  "cooldown": 25000,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "electric_kick_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "lightning_leg_charge_enhancement",
+      "value": 250,
+      "duration": 25000,
+      "tick_rate": 0,
+      "kick_damage_lightning_bonus": 180,
+      "movement_speed_increase_percent": 60,
+      "kick_attack_speed_boost": 80,
+      "ground_lightning_trail": 25,
+      "chain_lightning_from_kicks": 0.5,
+      "jump_height_electric_lift": 3.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "legs_gathering_electric_energy_blue_white_lightning_coiling_around",
+    "active_effect": "legs_crackling_electric_energy_blue_lightning_arcing_between_legs",
+    "kick_effect": "kicks_leaving_lightning_trails_blue_electric_arcs_ground_shocking",
+    "expire_effect": "electric_charge_fading_crackling_energy_dissipating_normal"
+  },
+  "sound_effects": {
+    "cast_effect": "lightning_charging_legs_electric_hum_crackling_building",
+    "active_effect": "constant_lightning_hum_crackling_energy_legs_electric_vibration",
+    "kick_effect": "kick_impact_electric_crack_lightning_strike_ground_shocking_sizzle",
+    "expire_effect": "lightning_fade_crackling_dissipation_normal_leg_sounds"
+  },
+  "requirements": {
+    "level": 30,
+    "skills": [
+      "lightning_spell_0895_calling",
+      "leg_enhancement",
+      "electric_mobility"
+    ],
+    "classes": [
+      "monk",
+      "lightning_spell_0895_kicker",
+      "electro_monk"
+    ],
+    "specializations": [
+      "tempest_kicker"
+    ]
+  },
+  "upgrades": {
+    "greater_storm_legs": {
+      "unlock_level": 40,
+      "description": "Les Lightning Spell 0895 deviennent plus puissantes avec des améliorations électriques et de mobilité",
+      "lightning_damage_increase_percent": 120,
+      "movement_speed_boost_additional": 40,
+      "chain_lightning_probability": 0.8,
+      "storm_walking_terrain_ignore": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

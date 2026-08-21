@@ -1,0 +1,21 @@
+{
+  "id": "whirlwind",
+  "name": "Tourbillon",
+  "description": "Une attaque de zone tourbillonnante qui inflige des dégâts à tous les ennemis proches.",
+  "type": "instant",
+  "resource_cost": 25,
+  "resource_type": "rage",
+  "cooldown": 10.0,
+  "range": 8.0,
+  "effects": [
+    {
+      "type": "damage",
+      "value": 80.0,
+      "scaling": "strength",
+      "damage_type": "physical",
+      "is_aoe": true
+    }
+  ],
+  "template_type": "ability",
+  "version": "0.1.0"
+}

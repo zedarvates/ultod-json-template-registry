@@ -1,0 +1,76 @@
+{
+  "id": "tailor_precision_stitch",
+  "name": "Couture de Précision",
+  "description": "Améliore temporairement les compétences de couture et la qualité des tissus",
+  "icon": "precision_stitch_icon",
+  "category": "crafting",
+  "rarity": "uncommon",
+  "ability_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1500,
+  "cooldown": 150000,
+  "resource_cost": {
+    "type": "focus",
+    "amount": 25
+  },
+  "duration": 45000,
+  "effects": [
+    {
+      "effect_type": "sewing_speed",
+      "value": 40,
+      "scaling": {
+        "dexterity": 0.4
+      }
+    },
+    {
+      "effect_type": "fabric_quality",
+      "value": 30,
+      "scaling": {
+        "wisdom": 0.3
+      }
+    },
+    {
+      "effect_type": "durability_bonus",
+      "value": 25,
+      "scaling": {
+        "intelligence": 0.3
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "needle_glow",
+    "active_effect": "thread_weave",
+    "end_effect": "fabric_settle"
+  },
+  "sound_effects": {
+    "cast_sound": "needle_thread",
+    "active_sound": "sewing_hum",
+    "end_sound": "fabric_rustle"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "tailoring"
+    ],
+    "professions": [
+      "tailor"
+    ]
+  },
+  "upgrades": {
+    "master_seamstress": {
+      "unlock_level": 20,
+      "description": "Améliore la vitesse et la qualité de couture",
+      "speed_bonus": 20,
+      "quality_bonus": 15
+    },
+    "enchanted_garments": {
+      "unlock_level": 35,
+      "description": "Ajoute des propriétés magiques aux vêtements",
+      "magic_bonus": 20,
+      "resistance_bonus": 15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

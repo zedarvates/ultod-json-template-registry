@@ -1,0 +1,70 @@
+{
+  "id": "elementaire_spell_1217",
+  "name": "Elementaire Spell 1217",
+  "description": "Invoque une tempête de lames frappant tous les ennemis alentours",
+  "icon": "elementaire_spell_1217_icon",
+  "school": "elementaire",
+  "rarity": "rare",
+  "spell_type": "damage",
+  "target_type": "area",
+  "range": 10.0,
+  "cast_time": 2500,
+  "cooldown": 35000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 100,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.4,
+      "agility": 0.6
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "area_damage_over_time",
+      "value": 100,
+      "duration": 5000,
+      "tick_rate": 500,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "multi_hit_effect",
+      "value": 8,
+      "duration": 5000,
+      "tick_rate": 500,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "elementaire_spell_1217_proliferation",
+    "projectile_effect": "flying_elementaire_spell_1217s",
+    "impact_effect": "sword_rain",
+    "trail_effect": "cutter_trails"
+  },
+  "sound_effects": {
+    "cast_sound": "elementaire_spell_1217_wind",
+    "impact_sound": "multiple_slashes"
+  },
+  "requirements": {
+    "level": 22,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "hurricane_blades": {
+      "unlock_level": 36,
+      "description": "Augmente le rayon de 50% et les dommages de 30%",
+      "damage_bonus": 30
+    },
+    "thousand_cuts": {
+      "unlock_level": 50,
+      "description": "Double le nombre de frappes dans la tempête",
+      "hits_bonus": 8
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

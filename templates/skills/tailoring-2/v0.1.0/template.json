@@ -1,0 +1,640 @@
+{
+  "id": "tailoring",
+  "name": "Tailoring",
+  "description": "Master the art of crafting cloth and leather items, from simple garments to enchanted robes",
+  "category": "trade",
+  "skill_type": "crafting_mastery",
+  "base_gain_chance": 0.35,
+  "gain_rate": 1.0,
+  "skill_cap": 100.0,
+  "real_skill_cap": 700.0,
+  "stat_dependencies": [
+    "dexterity",
+    "intelligence"
+  ],
+  "stat_multipliers": {
+    "dexterity": 0.6,
+    "intelligence": 0.4
+  },
+  "craftable_items": {
+    "clothing": {
+      "categories": [
+        "shirts",
+        "pants",
+        "dresses",
+        "robes",
+        "cloaks",
+        "gloves",
+        "boots",
+        "hats"
+      ],
+      "quality_levels": [
+        "crude",
+        "normal",
+        "fine",
+        "exceptional",
+        "masterwork",
+        "legendary"
+      ],
+      "rarity_weights": {
+        "common": 0.6,
+        "uncommon": 0.3,
+        "rare": 0.08,
+        "epic": 0.015,
+        "legendary": 0.005
+      }
+    },
+    "leather_armor": {
+      "categories": [
+        "light_armor",
+        "medium_armor",
+        "heavy_armor",
+        "shields",
+        "accessories"
+      ],
+      "quality_levels": [
+        "crude",
+        "normal",
+        "fine",
+        "exceptional",
+        "masterwork",
+        "legendary"
+      ],
+      "rarity_weights": {
+        "common": 0.6,
+        "uncommon": 0.3,
+        "rare": 0.08,
+        "epic": 0.015,
+        "legendary": 0.005
+      }
+    },
+    "enchanted_gear": {
+      "categories": [
+        "magical_robes",
+        "enchanted_cloaks",
+        "blessed_armor",
+        "runed_gear"
+      ],
+      "quality_levels": [
+        "minor",
+        "moderate",
+        "major",
+        "greater",
+        "epic",
+        "divine"
+      ],
+      "rarity_weights": {
+        "common": 0.4,
+        "uncommon": 0.3,
+        "rare": 0.2,
+        "epic": 0.08,
+        "legendary": 0.02
+      }
+    },
+    "specialized_items": {
+      "categories": [
+        "assassin_gear",
+        "mage_robes",
+        "paladin_armor",
+        "druidic_attire",
+        "barbarian_furs"
+      ],
+      "quality_levels": [
+        "standard",
+        "enhanced",
+        "superior",
+        "masterwork",
+        "legendary"
+      ],
+      "rarity_weights": {
+        "common": 0.5,
+        "uncommon": 0.3,
+        "rare": 0.15,
+        "epic": 0.04,
+        "legendary": 0.01
+      }
+    },
+    "decorative_items": {
+      "categories": [
+        "tapestries",
+        "banners",
+        "curtains",
+        "upholstery",
+        "rugs"
+      ],
+      "quality_levels": [
+        "simple",
+        "ornate",
+        "masterpiece"
+      ],
+      "rarity_weights": {
+        "common": 0.7,
+        "uncommon": 0.2,
+        "rare": 0.08,
+        "epic": 0.02
+      }
+    }
+  },
+  "training_methods": {
+    "crafting_items": {
+      "gain_multiplier": 1.0,
+      "requirements": [
+        "loom",
+        "sewing_kit",
+        "materials",
+        "patterns"
+      ],
+      "description": "Craft actual items to gain skill"
+    },
+    "repairing_items": {
+      "gain_multiplier": 0.8,
+      "requirements": [
+        "damaged_items",
+        "repair_tools",
+        "materials"
+      ],
+      "description": "Repair damaged cloth and leather items"
+    },
+    "designing_patterns": {
+      "gain_multiplier": 1.1,
+      "requirements": [
+        "design_knowledge",
+        "creativity",
+        "reference_materials"
+      ],
+      "description": "Create new patterns and designs"
+    },
+    "apprenticeship": {
+      "gain_multiplier": 1.2,
+      "requirements": [
+        "master_tailor",
+        "workshop",
+        "guidance"
+      ],
+      "description": "Learn under the guidance of an experienced tailor"
+    }
+  },
+  "special_techniques": [
+    {
+      "name": "Precision Stitching",
+      "unlock_level": 30,
+      "description": "Create incredibly detailed and durable stitches",
+      "effects": [
+        "durability_bonus",
+        "quality_bonus",
+        "detail_bonus"
+      ],
+      "requirements": [
+        "skill_level",
+        "patience",
+        "fine_tools"
+      ],
+      "cooldown": 0
+    },
+    {
+      "name": "Enchanted Weaving",
+      "unlock_level": 50,
+      "description": "Infuse cloth with magical properties",
+      "effects": [
+        "magical_enchantment",
+        "stat_bonuses",
+        "resistances"
+      ],
+      "requirements": [
+        "magery_skill",
+        "reagents",
+        "focus"
+      ],
+      "cooldown": 0
+    },
+    {
+      "name": "Reinforced Leather",
+      "unlock_level": 40,
+      "description": "Strengthen leather with special treatments",
+      "effects": [
+        "armor_bonus",
+        "durability_increase",
+        "water_resistance"
+      ],
+      "requirements": [
+        "chemical_knowledge",
+        "tanning_skills",
+        "quality_materials"
+      ],
+      "cooldown": 0
+    },
+    {
+      "name": "Masterwork Creation",
+      "unlock_level": 70,
+      "description": "Create exceptionally high-quality masterwork items",
+      "effects": [
+        "masterwork_quality",
+        "stat_bonuses",
+        "unique_appearance"
+      ],
+      "requirements": [
+        "perfect_materials",
+        "concentration",
+        "skill_level"
+      ],
+      "cooldown": 0
+    },
+    {
+      "name": "Mass Production",
+      "unlock_level": 60,
+      "description": "Craft multiple items simultaneously",
+      "effects": [
+        "batch_crafting",
+        "efficiency_bonus",
+        "cost_reduction"
+      ],
+      "requirements": [
+        "assembly_line",
+        "skill_level",
+        "organization"
+      ],
+      "cooldown": 0
+    },
+    {
+      "name": "Custom Design",
+      "unlock_level": 65,
+      "description": "Create unique custom-designed items",
+      "effects": [
+        "custom_appearance",
+        "unique_stats",
+        "personalization"
+      ],
+      "requirements": [
+        "design_knowledge",
+        "skill_level",
+        "creativity"
+      ],
+      "cooldown": 0
+    },
+    {
+      "name": "Magical Embroidery",
+      "unlock_level": 75,
+      "description": "Add magical runes and symbols to fabric",
+      "effects": [
+        "runic_enchantment",
+        "special_abilities",
+        "visual_effects"
+      ],
+      "requirements": [
+        "arcane_knowledge",
+        "embroidery_skills",
+        "runic_materials"
+      ],
+      "cooldown": 0
+    },
+    {
+      "name": "Legendary Tailoring",
+      "unlock_level": 90,
+      "description": "Create legendary items with extraordinary properties",
+      "effects": [
+        "legendary_quality",
+        "unique_abilities",
+        "artifact_level"
+      ],
+      "requirements": [
+        "legendary_materials",
+        "master_crafting",
+        "divine_blessing"
+      ],
+      "cooldown": 0
+    }
+  ],
+  "material_requirements": {
+    "fabrics": {
+      "cotton": {
+        "durability": 50,
+        "workability": 0.9,
+        "rarity": "common",
+        "base_value": 1.0
+      },
+      "silk": {
+        "durability": 80,
+        "workability": 0.8,
+        "rarity": "uncommon",
+        "base_value": 3.0
+      },
+      "wool": {
+        "durability": 70,
+        "workability": 0.85,
+        "rarity": "common",
+        "base_value": 1.5
+      },
+      "linen": {
+        "durability": 60,
+        "workability": 0.88,
+        "rarity": "common",
+        "base_value": 1.2
+      },
+      "velvet": {
+        "durability": 90,
+        "workability": 0.75,
+        "rarity": "rare",
+        "base_value": 5.0
+      },
+      "satin": {
+        "durability": 85,
+        "workability": 0.82,
+        "rarity": "rare",
+        "base_value": 4.0
+      },
+      "damask": {
+        "durability": 95,
+        "workability": 0.7,
+        "rarity": "epic",
+        "base_value": 8.0
+      },
+      "celestial_silk": {
+        "durability": 150,
+        "workability": 0.6,
+        "rarity": "legendary",
+        "base_value": 20.0,
+        "magical": true
+      }
+    },
+    "leathers": {
+      "common_leather": {
+        "durability": 100,
+        "workability": 0.9,
+        "rarity": "common",
+        "base_value": 2.0
+      },
+      "fine_leather": {
+        "durability": 150,
+        "workability": 0.85,
+        "rarity": "uncommon",
+        "base_value": 4.0
+      },
+      "heavy_leather": {
+        "durability": 200,
+        "workability": 0.8,
+        "rarity": "uncommon",
+        "base_value": 5.0
+      },
+      "dragon_leather": {
+        "durability": 300,
+        "workability": 0.7,
+        "rarity": "rare",
+        "base_value": 15.0,
+        "magical": true
+      },
+      "phoenix_leather": {
+        "durability": 350,
+        "workability": 0.65,
+        "rarity": "epic",
+        "base_value": 25.0,
+        "magical": true
+      },
+      "shadow_leather": {
+        "durability": 400,
+        "workability": 0.6,
+        "rarity": "legendary",
+        "base_value": 50.0,
+        "magical": true
+      }
+    },
+    "thread_types": {
+      "common_thread": {
+        "durability_bonus": 1.0,
+        "quality_bonus": 0,
+        "rarity": "common"
+      },
+      "silken_thread": {
+        "durability_bonus": 1.2,
+        "quality_bonus": 5,
+        "rarity": "uncommon"
+      },
+      "enchanted_thread": {
+        "durability_bonus": 1.5,
+        "quality_bonus": 10,
+        "magical_bonus": 0.1,
+        "rarity": "rare"
+      },
+      "celestial_thread": {
+        "durability_bonus": 2.0,
+        "quality_bonus": 20,
+        "magical_bonus": 0.2,
+        "rarity": "legendary"
+      }
+    },
+    "dyes_and_pigments": {
+      "common_dye": {
+        "color_vibrancy": 0.8,
+        "durability": 100,
+        "rarity": "common"
+      },
+      "rare_dye": {
+        "color_vibrancy": 1.2,
+        "durability": 150,
+        "rarity": "rare"
+      },
+      "magical_dye": {
+        "color_vibrancy": 1.5,
+        "durability": 200,
+        "magical_effect": true,
+        "rarity": "epic"
+      },
+      "celestial_dye": {
+        "color_vibrancy": 2.0,
+        "durability": 300,
+        "magical_effect": true,
+        "rarity": "legendary"
+      }
+    }
+  },
+  "mastery_levels": {
+    "apprentice": {
+      "level": 50,
+      "requirements": {
+        "skill_level": 50
+      },
+      "bonuses": {
+        "crafting_speed": 0.1,
+        "quality_bonus": 5,
+        "material_efficiency": 0.05,
+        "durability_bonus": 0.05
+      },
+      "abilities": [
+        "basic_stitching",
+        "simple_patterns",
+        "material_identification"
+      ],
+      "title": "Tailor Apprentice",
+      "crafting_efficiency": 1.1
+    },
+    "journeyman": {
+      "level": 70,
+      "requirements": {
+        "skill_level": 70
+      },
+      "bonuses": {
+        "crafting_speed": 0.2,
+        "quality_bonus": 10,
+        "material_efficiency": 0.1,
+        "durability_bonus": 0.1,
+        "masterwork_chance": 0.02
+      },
+      "abilities": [
+        "advanced_stitching",
+        "complex_patterns",
+        "enchanted_weaving",
+        "reinforced_leather"
+      ],
+      "title": "Journeyman Tailor",
+      "crafting_efficiency": 1.2
+    },
+    "master": {
+      "level": 90,
+      "requirements": {
+        "skill_level": 90
+      },
+      "bonuses": {
+        "crafting_speed": 0.3,
+        "quality_bonus": 15,
+        "material_efficiency": 0.15,
+        "durability_bonus": 0.2,
+        "masterwork_chance": 0.05,
+        "enchanted_bonus": 0.1
+      },
+      "abilities": [
+        "master_stitching",
+        "masterwork_creation",
+        "magical_embroidery",
+        "custom_design"
+      ],
+      "title": "Master Tailor",
+      "crafting_efficiency": 1.3
+    },
+    "grandmaster": {
+      "level": 100,
+      "requirements": {
+        "skill_level": 100
+      },
+      "bonuses": {
+        "crafting_speed": 0.4,
+        "quality_bonus": 20,
+        "material_efficiency": 0.2,
+        "durability_bonus": 0.3,
+        "masterwork_chance": 0.1,
+        "enchanted_bonus": 0.2,
+        "legendary_chance": 0.01
+      },
+      "abilities": [
+        "grandmaster_stitching",
+        "legendary_tailoring",
+        "perfect_crafting",
+        "divine_weaving"
+      ],
+      "title": "Grandmaster Tailor",
+      "crafting_efficiency": 1.5,
+      "unique_ability": "perfect_crafting"
+    }
+  },
+  "progression_bonuses": {
+    "crafting_speed": {
+      "formula": "base_speed * (1 + skill_level * 0.002)",
+      "max_multiplier": 2.0
+    },
+    "quality_scaling": {
+      "formula": "base_quality + skill_level * 0.1",
+      "max_bonus": 20
+    },
+    "durability_scaling": {
+      "formula": "base_durability * (1 + skill_level * 0.0025)",
+      "max_multiplier": 2.2
+    },
+    "masterwork_chance": {
+      "formula": "base_chance + skill_level * 0.0005",
+      "max_chance": 0.15
+    }
+  },
+  "synergies": {
+    "alchemy": {
+      "bonus_type": "dye_quality",
+      "formula": "0.02 * alchemy_skill_level",
+      "max_bonus": 0.3,
+      "description": "Alchemy knowledge improves dye quality"
+    },
+    "enchanting": {
+      "bonus_type": "enchanted_power",
+      "formula": "0.025 * enchanting_skill_level",
+      "max_bonus": 0.35,
+      "description": "Enchanting skill enhances magical embroidery"
+    },
+    "artistry": {
+      "bonus_type": "design_quality",
+      "formula": "0.02 * artistry_skill_level",
+      "max_bonus": 0.3,
+      "description": "Artistry skill improves custom designs"
+    },
+    "weaving": {
+      "bonus_type": "fabric_quality",
+      "formula": "0.015 * weaving_skill_level",
+      "max_bonus": 0.25,
+      "description": "Weaving skill improves fabric quality"
+    }
+  },
+  "equipment_requirements": {
+    "loom_type": "required",
+    "sewing_kit_quality": "standard",
+    "minimum_durability": 50,
+    "thread_quality": "normal",
+    "pattern_book": "recommended"
+  },
+  "environmental_factors": {
+    "workshop_quality": {
+      "basic_workshop": {
+        "crafting_speed": 1.0,
+        "quality_bonus": 0
+      },
+      "professional_workshop": {
+        "crafting_speed": 1.1,
+        "quality_bonus": 5
+      },
+      "master_workshop": {
+        "crafting_speed": 1.2,
+        "quality_bonus": 10
+      },
+      "divine_workshop": {
+        "crafting_speed": 1.3,
+        "quality_bonus": 15,
+        "enchancing_bonus": 0.1
+      }
+    },
+    "lighting_conditions": {
+      "natural_light": {
+        "detail_bonus": 0.05,
+        "color_accuracy": 0.1
+      },
+      "artificial_light": {
+        "detail_bonus": 0.02,
+        "color_accuracy": 0.05
+      },
+      "dim_light": {
+        "detail_penalty": 0.1,
+        "color_accuracy": 0.15
+      }
+    }
+  },
+  "visual_effects": {
+    "crafting_start": "loom_activation",
+    "crafting_progress": "fabric_weaving",
+    "crafting_complete": "garment_finish",
+    "quality_glow": "quality_indicator",
+    "enchanted_effect": "magical_embroidery"
+  },
+  "sound_effects": {
+    "loom_operation": "loom_clatter",
+    "sewing": "needle_thread",
+    "fabric_cut": "scissors_cut",
+    "crafting_complete": "tailoring_finish",
+    "enchanted_effect": "magical_chime"
+  },
+  "version": "0.1.0",
+  "last_updated": "2025-11-12",
+  "template_type": "skill"
+}

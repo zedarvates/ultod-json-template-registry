@@ -1,0 +1,74 @@
+{
+  "id": "necromancy_spell_0946",
+  "name": "Necromancy Spell 0946",
+  "description": "Fait exploser des cadavres sur le champ de bataille, causant des dégâts explosifs et propageant des maladies",
+  "icon": "necromancy_spell_0946_icon",
+  "school": "necromancy",
+  "rarity": "rare",
+  "spell_type": "necrotic_detonation",
+  "target_type": "necromancy_spell_0946_target",
+  "range": 50.0,
+  "cast_time": 0,
+  "cooldown": 15000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 85,
+    "damage_type": "necrotic_disease_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "necromancy_spell_0946_detonation_sequence",
+      "value": 150,
+      "duration": 0,
+      "tick_rate": 0,
+      "explosion_damage_radius": 12.0,
+      "disease_spread_on_explosion": 8.0,
+      "corpse_fragments_projectile_damage": 25,
+      "maximum_corpses_detonaubes": 5,
+      "explosion_chain_reaction": 35,
+      "terrain_contamination": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necrotic_energy_connection_necromancy_spell_0946s_dark_tentacles_rapid_pulsing",
+    "buildup_effect": "necromancy_spell_0946s_bulging_swelling_dark_energy_pressure_building_internal",
+    "explosion_effect": "massive_necromancy_spell_0946_bursts_blood_flesh_bones_flying_shock_wave_impact",
+    "disease_effect": "green_rotting_mist_spreading_area_ground_contamination_ooze",
+    "aftermath_effect": "smoking_craters_residual_rot_necromancy_spell_0946s_reduced_ground_charred"
+  },
+  "sound_effects": {
+    "cast_effect": "necrotic_pulses_dark_energy_throbbing_pressure_building_menacing",
+    "buildup_effect": "flesh_swelling_crunching_bones_stress_groaning_pressure_intense",
+    "explosion_effect": "powerful_blast_deafening_flesh_tearing_bone_shattering_massive_impact",
+    "disease_effect": "plague_mist_dispensing_bubbling_corruption_ground_congealing_sizzle",
+    "aftermath_effect": "smoking_residue_wind_hissing_ground_cracking_distant_necromancy_spell_0946_settling"
+  },
+  "requirements": {
+    "level": 32,
+    "skills": [
+      "necromancy",
+      "explosive_necromancy",
+      "necromancy_spell_0946_artillery"
+    ],
+    "classes": [
+      "necromancer",
+      "necromancy_spell_0946_master",
+      "plague_explosives"
+    ],
+    "specializations": [
+      "cadaveric_artillery"
+    ]
+  },
+  "upgrades": {
+    "greater_corpse_explosion": {
+      "unlock_level": 47,
+      "description": "L'Necromancy Spell 0946 devient plus destructrice avec des rayons accrus et des effets secondaires",
+      "explosion_damage_multiplier": 2.0,
+      "disease_spread_radius": 15.0,
+      "chain_explosion_probability": 65,
+      "mass_corpse_resurrection": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "armes_spell_1563",
+  "name": "Armes Spell 1563",
+  "description": "Frappe la cible avec votre arme, infligeant des dégâts et générant de la rage",
+  "icon": "armes_spell_1563_icon",
+  "school": "armes",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 1500,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.9,
+      "rage": 0.2
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 120,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "rage_generation",
+      "value": 15,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "weapon_charge",
+    "projectile_effect": "none",
+    "impact_effect": "heavy_impact",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "weapon_charge",
+    "impact_sound": "heavy_impact"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "arms"
+    ]
+  },
+  "upgrades": {
+    "improved_slam": {
+      "unlock_level": 16,
+      "description": "Augmente les dégâts et la génération de rage de Armes Spell 1563 de 25%",
+      "damage_bonus": 25,
+      "rage_bonus": 25
+    },
+    "slam_mastery": {
+      "unlock_level": 26,
+      "description": "Armes Spell 1563 a une chance de réduire le temps d'incantation des prochains sorts",
+      "cast_time_reduction_chance": 0.3,
+      "cast_time_reduction_amount": 500
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

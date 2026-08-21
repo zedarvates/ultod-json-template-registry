@@ -1,0 +1,49 @@
+{
+  "version": "0.1.0",
+  "school": "frost",
+  "rarity": "uncommon",
+  "target_type": "area",
+  "range": 47.0,
+  "cast_time": 2737,
+  "cooldown": 13501,
+  "mana_cost": 126,
+  "visual_effects": {
+    "cast_effect": "druid_cast",
+    "projectile_effect": "elemental_projectile",
+    "impact_effect": "elemental_impact",
+    "trail_effect": "elemental_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "druid_cast_sound",
+    "impact_sound": "elemental_impact_sound"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [],
+    "classes": [
+      "druid"
+    ],
+    "specializations": [
+      "balance"
+    ]
+  },
+  "balance_validated": true,
+  "generated_by": "content_pipeline_v2",
+  "id": "c8eff4009f67",
+  "name": "Druid Balance Wave",
+  "description": "Generated druid balance spell #201",
+  "icon": "c8eff4009f67_icon",
+  "spell_type": "buff",
+  "damage_type": null,
+  "effects": [
+    {
+      "effect_type": "armor_boost",
+      "value": 0.37,
+      "duration": 17270,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "balance_efficiency": 0.0102,
+  "template_type": "content_pipeline"
+}

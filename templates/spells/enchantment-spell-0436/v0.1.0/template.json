@@ -1,0 +1,78 @@
+{
+  "id": "enchantment_spell_0436",
+  "name": "Enchantment Spell 0436",
+  "description": "Dissipe la magie bénéfique d'un ennemi ou maléfique d'un allié, brisant les enchantements",
+  "icon": "enchantment_spell_0436_icon",
+  "school": "enchantment",
+  "rarity": "common",
+  "spell_type": "magical_removal",
+  "target_type": "single_target",
+  "range": 25.0,
+  "cast_time": 1000,
+  "cooldown": 6000,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "spell_disruption"
+  },
+  "effects": [
+    {
+      "effect_type": "enchantment_cancellation",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "dispel_success_rate": 0.85,
+      "max_effects_dispelled": 3,
+      "magical_backlash_damage": 50,
+      "silence_duration": 3000,
+      "enchantment_weakness_debuff": true,
+      "mana_leech_from_dispel": 30
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "disruptive_energy_building_around_target",
+    "dispel_effect": "magical_energy_shattered_crystals_flying",
+    "damage_effect": "backlash_energies_reacting_harmfully",
+    "weaken_effect": "target_glow_fading_magically_weak"
+  },
+  "sound_effects": {
+    "cast_sound": "disruptive_energy_whirling_building_power",
+    "dispel_sound": "magical_energy_shattering_crystal_breaking",
+    "damage_sound": "backlash_energies_crackling_reaction",
+    "weaken_sound": "target_spell_systems_fading_weakness"
+  },
+  "requirements": {
+    "level": 4,
+    "skills": [
+      "arcane_magic",
+      "spell_breaking"
+    ],
+    "classes": [
+      "enchanter",
+      "anti_magic_caster"
+    ],
+    "specializations": [
+      "enchantment_spell_0436ler"
+    ]
+  },
+  "upgrades": {
+    "mass_dispel": {
+      "unlock_level": 14,
+      "description": "Peut dissiper les enchantements de plusieurs cibles à la fois",
+      "dispel_radius": 12.0,
+      "max_targets_area": 4,
+      "selective_dispelling": true,
+      "dispel_chain_reaction": true
+    },
+    "absolute_dispelling": {
+      "unlock_level": 24,
+      "description": "Dissipe toute magie sur la cible, qu'elle soit bénéfique ou maléfique",
+      "dispel_all_effects": true,
+      "dispel_immunities_ignore": 0.5,
+      "permanent_spell_weakness": 0.25,
+      "mana_cost_refund_chance": 0.4
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

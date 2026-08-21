@@ -1,0 +1,69 @@
+{
+  "id": "fire_spell_0965",
+  "name": "Fire Spell 0965",
+  "description": "Lâche un souffle de feu ki qui brûle les ennemis en cône",
+  "icon": "fire_spell_0965_icon",
+  "school": "fire",
+  "rarity": "epic",
+  "spell_type": "damage",
+  "target_type": "cone_enemies",
+  "range": 8.0,
+  "cast_time": 500,
+  "cooldown": 12000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 150,
+    "damage_type": "fire",
+    "scaling": {
+      "agility": 1.2,
+      "intelligence": 0.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage",
+      "value": 150,
+      "duration": 3000,
+      "tick_rate": 1000,
+      "damage_type": "fire",
+      "scaling": {
+        "agility": 1.2,
+        "intelligence": 0.8
+      },
+      "dot_damage": 20,
+      "cone_angle": 45.0,
+      "burn_chance": 0.25
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fire_buildup",
+    "projectile_effect": null,
+    "hit_effect": "flame_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "deep_breath",
+    "projectile_sound": null,
+    "hit_sound": "fire_roar"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "ki_training",
+      "fire_magic"
+    ],
+    "classes": [
+      "ninja",
+      "monk"
+    ]
+  },
+  "upgrades": {
+    "inferno": {
+      "unlock_level": 40,
+      "description": "Augmente les dégâts et la chance de brûlure de Fire Spell 0965",
+      "damage_bonus": 40,
+      "burn_chance_bonus": 0.15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

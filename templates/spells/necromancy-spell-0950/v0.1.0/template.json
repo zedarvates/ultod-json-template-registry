@@ -1,0 +1,74 @@
+{
+  "id": "necromancy_spell_0950",
+  "name": "Necromancy Spell 0950",
+  "description": "Assemble un monstrueux Necromancy Spell 0950 reconstituée à partir de fragments corporels pour un combattant brutal et intimidant",
+  "icon": "necromancy_spell_0950_icon",
+  "school": "necromancy",
+  "rarity": "legendary",
+  "spell_type": "organic_construct_summon",
+  "target_type": "summon_at_location",
+  "range": 25.0,
+  "cast_time": 7000,
+  "cooldown": 180000,
+  "mana_cost": 220,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "necromancy_spell_0950_rend_necrotic_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "necromancy_spell_0950_construct_assembly",
+      "value": 500,
+      "duration": 300000,
+      "tick_rate": 0,
+      "golem_combat_level": 1.4,
+      "flesh_regeneration_capability": true,
+      "intimidation_fear_generation": 25.0,
+      "necrotic_blood_damage_on_hit": 200,
+      "corpse_absorption_growth": true,
+      "explosive_death_radius": 10.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "corpse_pieces_gathering_necromancy_spell_0950_melting_fusing_violent_organic_reconstruction",
+    "summon_effect": "massive_necromancy_spell_0950_raising_sinews_stretching_organs_pulsing_veins_grotesque",
+    "active_effect": "necromancy_spell_0950_moving_necromancy_spell_0950_slapping_veins_bulging_organs_squishing_defending",
+    "attack_effect": "golem_attacking_necromancy_spell_0950_rending_limbs_flailing_blood_spray_gore_exploding",
+    "expiration_effect": "necromancy_spell_0950_dissolving_necromancy_spell_0950_sloughing_organs_falling_blood_pool_putrid_rot"
+  },
+  "sound_effects": {
+    "cast_effect": "corpse_mashing_necromancy_spell_0950_squelling_organs_pulsing_violent_reconstruction_squelching",
+    "summon_effect": "golem_rising_sinew_cracking_organs_splurch_veins_dump_defensive_groan",
+    "active_effect": "golem_movement_necromancy_spell_0950_slapping_organs_bubbling_veins_gurgling_defensive",
+    "attack_effect": "necromancy_spell_0950_attack_splattering_limb_flailing_blood_spray_gore_squelch_exploding",
+    "expiration_effect": "golem_decay_necromancy_spell_0950_trace_blood_gurgling_organs_splattering_putrid_decay"
+  },
+  "requirements": {
+    "level": 55,
+    "skills": [
+      "necromancy",
+      "necromancy_spell_0950_shaping",
+      "organic_reconstruction"
+    ],
+    "classes": [
+      "necromancer",
+      "abomination_creator",
+      "carrion_crafter"
+    ],
+    "specializations": [
+      "necromancy_spell_0950ancy"
+    ]
+  },
+  "upgrades": {
+    "greater_flesh_golem": {
+      "unlock_level": 70,
+      "description": "Le Necromancy Spell 0950 devient plus horrible avec une croissance accrue et des capacités améliorées",
+      "golem_mass_multiplier": 2.0,
+      "organ_weapon_proliferation": true,
+      "corpse_consumption_speed": 3.0,
+      "fear_aura_expansion": 40.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

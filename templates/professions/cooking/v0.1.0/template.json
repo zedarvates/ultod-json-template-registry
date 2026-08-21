@@ -1,0 +1,118 @@
+{
+  "profession": "cooking",
+  "display_name": "Cuisine",
+  "description": "L'art de préparer des mets délicieux et nourrissants",
+  "icon_path": "icons/professions/cooking.png",
+  "category": "crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "bread_loaf",
+      "name": "Pain de Mie",
+      "description": "Un pain frais et moelleux, parfait pour accompagner n'importe quel repas",
+      "profession": "cooking",
+      "difficulty": 10,
+      "base_success_rate": 0.8,
+      "skill_required": 5,
+      "experience_gain": 8,
+      "exceptional_chance": 0.02,
+      "time_required_seconds": 30,
+      "components": [
+        {
+          "item_type": "wheat_flour",
+          "quantity": 4,
+          "quality_required": "standard",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "water",
+          "quantity": 2,
+          "quality_required": "any",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "salt",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "bread_loaf",
+          "name": "Pain de Mie",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.0,
+          "durability_modifier": 1.0
+        }
+      ],
+      "conditions": {
+        "profession_level": 1,
+        "required_tools": [
+          "oven",
+          "mixing_bowl"
+        ],
+        "environmental_factors": []
+      }
+    },
+    {
+      "id": "spiced_stew",
+      "name": "Ragoût Épicé",
+      "description": "Un ragoût savoureux aux épices exotiques qui restaure la santé",
+      "profession": "cooking",
+      "difficulty": 35,
+      "base_success_rate": 0.65,
+      "skill_required": 35,
+      "experience_gain": 35,
+      "exceptional_chance": 0.08,
+      "time_required_seconds": 120,
+      "components": [
+        {
+          "item_type": "meat_chunks",
+          "quantity": 3,
+          "quality_required": "good",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "vegetables",
+          "quantity": 4,
+          "quality_required": "standard",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "spices",
+          "quantity": 2,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "broth",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "spiced_stew",
+          "name": "Ragoût Épicé",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.1,
+          "durability_modifier": 0.8
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "baking",
+    "meat_preparation",
+    "vegetarian_cooking",
+    "fine_dining"
+  ],
+  "id": "cooking",
+  "name": "Cooking",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

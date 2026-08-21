@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0704",
+  "name": "Illusion Spell 0704",
+  "description": "Instille une Illusion Spell 0704 paralysante dans l'esprit de la cible, la faisant fuir en panique",
+  "icon": "illusion_spell_0704_icon",
+  "school": "illusion",
+  "rarity": "uncommon",
+  "spell_type": "psychological_horror_induction",
+  "target_type": "single_enemy",
+  "range": 25.0,
+  "cast_time": 1200,
+  "cooldown": 12000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "terror_psychological_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "mind_terror_imposition",
+      "value": 120,
+      "duration": 8000,
+      "tick_rate": 0,
+      "fear_induction_success": 75,
+      "panic_flee_distance": 30.0,
+      "terror_damage_over_time": 40,
+      "reason_return_blockade": 5000,
+      "illusion_weakness_exploitation": 0.8,
+      "mental_instability_duration": 15000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "shadowy_horror_energy_mind_penetration",
+    "fear_effect": "target_eyes_wide_panicked_hallucinations",
+    "flee_effect": "enemies_running_terrified_horrified_screams",
+    "expire_effect": "illusion_spell_0704_lifting_mental_exhaustion_confusion"
+  },
+  "sound_effects": {
+    "cast_effect": "whispering_horrors_mind_intrusion_whisper",
+    "fear_effect": "terrified_screams_mind_breaking_breath",
+    "flee_effect": "panic_footsteps_heart_racing_terror",
+    "expire_effect": "illusion_spell_0704_breaking_mental_fatigue_silence"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "illusion_magic",
+      "illusion_spell_0704_projection"
+    ],
+    "classes": [
+      "illusionist",
+      "terror_lord"
+    ],
+    "specializations": [
+      "psychological_horror"
+    ]
+  },
+  "upgrades": {
+    "greater_fear": {
+      "unlock_level": 22,
+      "description": "La Illusion Spell 0704 devient plus grande affectant plusieurs ennemis et créant des hallucinations permanentes",
+      "group_terror_affect": 4,
+      "hallucinations_damage": 25,
+      "permanent_mental_damage": 0.2,
+      "terror_spread_infection": 0.4
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

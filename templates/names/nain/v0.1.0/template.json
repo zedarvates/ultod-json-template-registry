@@ -1,0 +1,186 @@
+{
+  "culture": "nain",
+  "display_name": "Nains",
+  "models": {
+    "first_name_male": {
+      "names": [
+        "Thrain",
+        "Thorin",
+        "Gimli",
+        "Gloin",
+        "Balin",
+        "Dwalin",
+        "Bifur",
+        "Bofur",
+        "Bombur",
+        "Dori",
+        "Nori",
+        "Ori",
+        "Fili",
+        "Kili",
+        "Oin",
+        "Gloin",
+        "Durin",
+        "Thror",
+        "Thrain",
+        "Fundin"
+      ],
+      "order": 2,
+      "min_length": 4,
+      "max_length": 10
+    },
+    "first_name_female": {
+      "names": [
+        "Dís",
+        "Thraina",
+        "Gimla",
+        "Gloina",
+        "Balina",
+        "Dwalina",
+        "Bifura",
+        "Bofura",
+        "Bombura",
+        "Doria",
+        "Noria",
+        "Oria",
+        "Filia",
+        "Kilia",
+        "Oina",
+        "Gloina",
+        "Durina",
+        "Throra",
+        "Thraina",
+        "Fundina"
+      ],
+      "order": 2,
+      "min_length": 4,
+      "max_length": 10
+    },
+    "first_name_neutral": {
+      "names": [
+        "Stone",
+        "Iron",
+        "Gold",
+        "Silver",
+        "Copper",
+        "Bronze",
+        "Steel",
+        "Rock",
+        "Mountain",
+        "Forge"
+      ],
+      "order": 2,
+      "min_length": 4,
+      "max_length": 10
+    },
+    "family_name": {
+      "names": [
+        "Ironfist",
+        "Stoneheart",
+        "Goldbeard",
+        "Silveraxe",
+        "Copperhammer",
+        "Bronzeshield",
+        "Steelarm",
+        "Rockbreaker",
+        "Mountainforge",
+        "Deepdelver",
+        "Hardstone",
+        "Trueaxe",
+        "Mightyhammer",
+        "Strongarm",
+        "Deepforge",
+        "Stonebreaker",
+        "Ironbeard",
+        "Goldhammer",
+        "Silverfist",
+        "Copperarm"
+      ],
+      "order": 2,
+      "min_length": 6,
+      "max_length": 15
+    },
+    "nickname_human": {
+      "names": [
+        "Poing-de-Fer",
+        "Cœur-de-Pierre",
+        "Barbe-d'Or",
+        "Hache-d'Argent",
+        "Marteau-de-Cuivre",
+        "Bouclier-de-Bronze",
+        "Bras-d'Acier",
+        "Briseur-de-Roche",
+        "Forge-de-Montagne",
+        "Délveur-Profond",
+        "Pierre-Dure",
+        "Hache-Vraie",
+        "Marteau-Puissant",
+        "Bras-Fort",
+        "Forge-Profond"
+      ],
+      "order": 2,
+      "min_length": 8,
+      "max_length": 18
+    },
+    "pet_name": {
+      "names": [
+        "Grimstone",
+        "Ironfang",
+        "Goldwhisker",
+        "Silverclaw",
+        "Copperhide",
+        "Bronzepelt",
+        "Steelspine",
+        "Rockjaw",
+        "Mountainpaw",
+        "Deepfur",
+        "Hardscale",
+        "Truefang",
+        "Mightyroar",
+        "Strongtail",
+        "Deepgrowl",
+        "Stonefang",
+        "Ironwhisker",
+        "Goldclaw",
+        "Silverhide",
+        "Copperpelt"
+      ],
+      "order": 2,
+      "min_length": 4,
+      "max_length": 12
+    }
+  },
+  "templates": {
+    "full_name": [
+      "{first_name} {family_name}",
+      "{first_name} {nickname}",
+      "{first_name} fils de {family_name}"
+    ],
+    "pet_full": [
+      "{pet_name}",
+      "{pet_name} le {epithet}",
+      "{pet_name} des {family_name}"
+    ]
+  },
+  "epithets": [
+    "Robuste",
+    "Puissant",
+    "Endurant",
+    "Fidèle",
+    "Travailleux",
+    "Vaillant",
+    "Déterminé",
+    "Solide",
+    "Résistant",
+    "Infatigable",
+    "Courageux",
+    "Honnête",
+    "Loyal",
+    "Fort",
+    "Intrépide"
+  ],
+  "id": "nain",
+  "name": "Nain",
+  "template_type": "name",
+  "version": "0.1.0"
+}

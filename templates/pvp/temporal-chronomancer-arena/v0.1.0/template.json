@@ -1,0 +1,348 @@
+{
+  "pvp_system_id": "temporal_chronomancer_arena",
+  "system_name": "Arène des Chronomanciens",
+  "description": "Un système PvP spécialisé dans les combats temporels avec règles et mécaniques uniques",
+  "pvp_type": "temporal_combat",
+  "access_requirements": {
+    "player_level_min": 40,
+    "temporal_mastery_min": 25,
+    "unlocked_spells": [
+      "temporal_strike",
+      "temporal_rift"
+    ],
+    "equipment_requirements": "temporal_enhanced_weapons"
+  },
+  "combat_mechanics": {
+    "temporal_advantages": {
+      "time_acceleration": {
+        "effect": "increases_action_speed",
+        "multiplier": 1.3,
+        "duration": 30000,
+        "cooldown": 60000
+      },
+      "temporal_prediction": {
+        "effect": "preview_opponent_actions",
+        "prediction_accuracy": 0.6,
+        "duration": 15000,
+        "cooldown": 90000
+      },
+      "reality_bending": {
+        "effect": "modify_environmental_effects",
+        "modification_types": [
+          "gravity",
+          "terrain",
+          "barriers"
+        ],
+        "duration": 20000,
+        "cooldown": 120000
+      }
+    },
+    "temporal_disadvantages": {
+      "temporal_overload": {
+        "effect": "reduced_spell_effectiveness_after_excessive_time_manipulation",
+        "threshold": 5,
+        "penalty": 0.2,
+        "duration": 30000
+      },
+      "reality_instability": {
+        "effect": "random_negative_effects_from_aggressive_time_manipulation",
+        "chance": 0.3,
+        "effects": [
+          "stun",
+          "spell_failure",
+          "positional_shift"
+        ],
+        "duration": 10000
+      }
+    },
+    "temporal_damage_types": {
+      "temporal_strike_damage": {
+        "base_damage": 180,
+        "scaling": {
+          "intelligence": 0.8,
+          "temporal_mastery": 1.0
+        },
+        "special_effects": [
+          "time_slow",
+          "temporal_vulnerability"
+        ]
+      },
+      "reality_warp_damage": {
+        "base_damage": 250,
+        "scaling": {
+          "wisdom": 0.7,
+          "temporal_mastery": 1.2
+        },
+        "special_effects": [
+          "reality_distortion",
+          "displacement",
+          "status_curse"
+        ]
+      },
+      "time_stop_damage": {
+        "base_damage": 0,
+        "scaling": {
+          "temporal_mastery": 2.0
+        },
+        "special_effects": [
+          "time_freeze",
+          "temporal_vulnerability_amplification"
+        ],
+        "cooldown": 300000
+      }
+    }
+  },
+  "arena_types": [
+    {
+      "arena_id": "chronal_battlefield",
+      "name": "Champ de Bataille Chronal",
+      "size": "large",
+      "terrain_type": "dynamic_temporal",
+      "environmental_effects": [
+        {
+          "effect": "time_acceleration_zone",
+          "description": "Zones qui accélèrent le temps",
+          "count": 3,
+          "duration": "persistent",
+          "effects_on_players": {
+            "movement_speed": 1.2,
+            "cast_speed": 1.15
+          }
+        },
+        {
+          "effect": "time_slow_zone",
+          "description": "Zones qui ralentissent le temps",
+          "count": 2,
+          "duration": "persistent",
+          "effects_on_players": {
+            "movement_speed": 0.7,
+            "cast_speed": 0.8
+          }
+        }
+      ],
+      "victory_conditions": [
+        {
+          "condition": "elimination",
+          "description": "Vaincre tous les adversaires"
+        },
+        {
+          "condition": "temporal_anchor_control",
+          "description": "Contrôler les ancrages temporels"
+        },
+        {
+          "condition": "time_mastery_demonstration",
+          "description": "Démontrer la maîtrise temporelle"
+        }
+      ]
+    },
+    {
+      "arena_id": "paradox_nexus",
+      "name": "Nexus des Paradoxes",
+      "size": "medium",
+      "terrain_type": "chaotic_temporal",
+      "environmental_effects": [
+        {
+          "effect": "paradox_manifestation",
+          "description": "Manifestations de paradoxes aléatoires",
+          "spawn_rate": 60000,
+          "effects": [
+            "reality_glitch",
+            "time_loop",
+            "causality_break"
+          ]
+        }
+      ],
+      "special_mechanics": {
+        "paradox_cards": {
+          "description": "Les joueurs peuvent utiliser des cartes de paradoxe",
+          "card_types": [
+            "time_reversal",
+            "causality_break",
+            "future_echo",
+            "paradox_explosion"
+          ],
+          "card_acquisition": "paradox_point_accumulation",
+          "card_limit": 3
+        }
+      }
+    },
+    {
+      "arena_id": "reality_construct",
+      "name": "Construction de Réalité",
+      "size": "variable",
+      "terrain_type": "constructible_temporal",
+      "special_mechanics": {
+        "reality_construction": {
+          "description": "Les joueurs peuvent construire des structures temporelles",
+          "construction_types": [
+            "time_barriers",
+            "reality_anchors",
+            "temporal_traps",
+            "time_gates"
+          ],
+          "construction_time": 8000,
+          "max_structures": 4,
+          "structure_durability": 120000
+        },
+        "environmental_modification": {
+          "description": "Modifier la structure de la réalité",
+          "modifications": [
+            "gravity_direction",
+            "terrain_elevation",
+            "spatial_gaps",
+            "time_dilation"
+          ],
+          "modification_cooldown": 300000
+        }
+      }
+    }
+  ],
+  "temporal_spells_pvp": [
+    {
+      "spell_id": "temporal_strike_pvp",
+      "name": "Frappe Temporelle PvP",
+      "description": "Version PvP optimisée de Frappe Temporelle",
+      "cooldown": 8000,
+      "mana_cost": 60,
+      "damage": 220,
+      "special_effects": [
+        {
+          "effect": "time_slow",
+          "duration": 4000,
+          "strength": 0.4
+        },
+        {
+          "effect": "temporal_vulnerability",
+          "duration": 8000,
+          "strength": 0.3
+        }
+      ]
+    },
+    {
+      "spell_id": "reality_shift_pvp",
+      "name": "Déplacement de Réalité PvP",
+      "description": "Version PvP de Déplacement de Réalité",
+      "cooldown": 25000,
+      "mana_cost": 100,
+      "effects": [
+        {
+          "effect": "teleport",
+          "range": 20.0,
+          "stealth_duration": 3000
+        },
+        {
+          "effect": "reality_distortion",
+          "duration": 6000,
+          "enemy_vision_block": true
+        }
+      ]
+    },
+    {
+      "spell_id": "chronal_defense_pvp",
+      "name": "Défense Chronale PvP",
+      "description": "Version PvP de Défense Chronale",
+      "cooldown": 20000,
+      "mana_cost": 80,
+      "effects": [
+        {
+          "effect": "temporal_shield",
+          "absorption": 300,
+          "duration": 10000
+        },
+        {
+          "effect": "time_stop_immunity",
+          "duration": 8000
+        }
+      ]
+    }
+  ],
+  "tactical_considerations": {
+    "temporal_energy_management": {
+      "description": "Gérer l'énergie temporelle pendant le combat",
+      "max_temporal_energy": 100,
+      "energy_regen_rate": 5,
+      "energy_costs": {
+        "minor_time_manipulation": 10,
+        "moderate_time_manipulation": 25,
+        "major_time_manipulation": 50,
+        "reality_bending": 75
+      }
+    },
+    "counter_play_mechanics": {
+      "temporal_disruption": {
+        "description": "Interrupt les manipulations temporelles",
+        "effect": "dispels_positive_temporal_effects",
+        "cost": "destroys_temporal_energy",
+        "cooldown": 30000
+      },
+      "reality_anchoring": {
+        "description": "Ancre la réalité contre les manipulations",
+        "effect": "resists_time_effects",
+        "duration": 15000,
+        "cooldown": 60000
+      }
+    }
+  },
+  "ranking_system": {
+    "temporal_rankings": {
+      "rank_1": "Temporal Initiate",
+      "rank_2": "Time Manipulator",
+      "rank_3": "Chronal Warrior",
+      "rank_4": "Reality Shaper",
+      "rank_5": "Temporal Master",
+      "rank_6": "Chronomancer Champion",
+      "rank_7": "Sovereign of Time"
+    },
+    "ranking_criteria": {
+      "victory_points": {
+        "victory": 25,
+        "defeat": 5,
+        "outstanding_performance": 10
+      },
+      "skill_bonuses": {
+        "temporal_mastery_level": 1,
+        "creative_time_manipulation": 3,
+        "strategic_play": 2
+      }
+    }
+  },
+  "rewards_system": {
+    "victory_rewards": {
+      "experience": 3000,
+      "temporal_essence": 15,
+      "chronal_tokens": 10,
+      "pvp_specific_items": [
+        "temporal_combat_badge"
+      ]
+    },
+    "ranking_rewards": {
+      "rank_advancement": {
+        "title_unlocks": true,
+        "exclusive_spells": true,
+        "special_equipment": true,
+        "arena_customization": true
+      }
+    }
+  },
+  "integration_points": {
+    "temporal_spells": {
+      "pvp_optimized_versions": true,
+      "new_temporal_combat_spells": true,
+      "temporal_energy_system": true
+    },
+    "temporal_equipment": {
+      "pvp_specific_temporal_gear": true,
+      "temporal_combat_enhancements": true,
+      "reality_stabilization_items": true
+    },
+    "achievement_system": {
+      "temporal_pvp_achievements": true,
+      "chronomancer_champion_titles": true,
+      "reality_master_badges": true
+    }
+  },
+  "version": "0.1.0",
+  "id": "temporal_chronomancer_arena",
+  "name": "Temporal Chronomancer Arena",
+  "template_type": "pvp"
+}

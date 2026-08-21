@@ -1,0 +1,79 @@
+{
+  "id": "necromantic_spell_0092",
+  "name": "Necromantic Spell 0092",
+  "description": "Une symphonie puissante capable de ramener un allié du royaume des morts",
+  "icon": "necromantic_spell_0092_icon",
+  "school": "necromantic",
+  "rarity": "epic",
+  "spell_type": "necromantic_spell_0092",
+  "target_type": "single_ally",
+  "range": 10.0,
+  "cast_time": 5000,
+  "cooldown": 300000,
+  "mana_cost": 200,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "life_energy"
+  },
+  "effects": [
+    {
+      "effect_type": "necromantic_spell_0092",
+      "value": 70,
+      "duration": 0,
+      "tick_rate": 0,
+      "cast_range_limit": 10.0,
+      "time_limit_minutes": 5,
+      "weakened_state": true
+    },
+    {
+      "effect_type": "revitalization",
+      "value": 50,
+      "duration": 0,
+      "tick_rate": 0,
+      "health_restore_percent": 50,
+      "energy_restore_percent": 75
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "hymn_of_life",
+    "buff_effect": "golden_hand_from_heaven",
+    "expire_effect": "golden_sparkle_dissolve"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_symphony_rise",
+    "impact_sound": "life_infused",
+    "area_sound": "soul_rising_echo"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [
+      "performance",
+      "necromancy",
+      "music_magic"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour"
+    ],
+    "specializations": [
+      "soul_weaver"
+    ]
+  },
+  "upgrades": {
+    "final_ritual": {
+      "unlock_level": 35,
+      "description": "Augmente les chances de succès et réduit l'état affaibli",
+      "success_rate_bonus": 0.3,
+      "weakened_duration": 0
+    },
+    "divine_harmony": {
+      "unlock_level": 45,
+      "description": "Permet la résurrection à partir de plus loin et depuis plus longtemps",
+      "range_bonus": 25.0,
+      "time_limit_minutes": 10
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

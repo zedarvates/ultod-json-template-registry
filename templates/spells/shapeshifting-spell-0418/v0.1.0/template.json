@@ -1,0 +1,79 @@
+{
+  "id": "shapeshifting_spell_0418",
+  "name": "Shapeshifting Spell 0418",
+  "description": "Le druide prend la forme d'un animal rapide pour voyager rapidement sur de longues distances",
+  "icon": "shapeshifting_spell_0418_icon",
+  "school": "shapeshifting",
+  "rarity": "common",
+  "spell_type": "shapeshifting_spell_0418",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "shapeshift_shapeshifting_spell_0418"
+  },
+  "effects": [
+    {
+      "effect_type": "fast_animal_transformation",
+      "value": 150,
+      "duration": "toggle",
+      "tick_rate": 0,
+      "anount_speed_boost": 100,
+      "water_swimming_speed": 200,
+      "flight_capability": true,
+      "mounted_compatibility": true,
+      "fatigue_reduction": 0.5,
+      "outdoor_speed_bonus": true,
+      "travel_distance_tracking": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "body_streamlining_animal_morphing",
+    "active_effect": "aerial_or_terrestrial_fast_animal_appearance",
+    "speed_effect": "motion_blur_trails_running",
+    "travel_effect": "distance_markers_mile_stones"
+  },
+  "sound_effects": {
+    "cast_sound": "transformation_creaking_animal_howl_wing_flap_or_whinny",
+    "active_sound": "wind_through_fur_or_feathers_fast_movement",
+    "speed_sound": "heart_beat_accelerated_running_sounds",
+    "travel_sound": "scenery_whistle_speed_blur_sounds"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "shapeshifting",
+      "shapeshifting_spell_0418_magic"
+    ],
+    "classes": [
+      "druid",
+      "nature_nomad"
+    ],
+    "specializations": [
+      "pathfinder"
+    ]
+  },
+  "upgrades": {
+    "stormcrow_form": {
+      "unlock_level": 22,
+      "description": "La Shapeshifting Spell 0418 accorde la capacité de voler et d'échapper aux contrôles terrestres",
+      "enhanced_flight_speed": 150,
+      "air_evade_bonuses": 0.4,
+      "storm_weather_immunity": true,
+      "crow_teleport_short": true
+    },
+    "cheetah_or_gryphon_aspect": {
+      "unlock_level": 32,
+      "description": "La vitesse terrestre devient légendaire, avec des bonds surnaturels et une endurance infinie",
+      "supernatural_speed_burst": 200,
+      "infinite_stamina_travel": true,
+      "leap_distance_enhanced": 25.0,
+      "terrain_ignore_traversal": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

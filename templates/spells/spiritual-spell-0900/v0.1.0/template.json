@@ -1,0 +1,72 @@
+{
+  "id": "spiritual_spell_0900",
+  "name": "Spiritual Spell 0900",
+  "description": "Entre dans un état de méditation profonde qui restaure l'énergie intérieure et renforce l'esprit contre les effets mentaux",
+  "icon": "spiritual_spell_0900_icon",
+  "school": "spiritual",
+  "rarity": "common",
+  "spell_type": "spiritual_regeneration_buff",
+  "target_type": "self_channeling",
+  "range": 0.0,
+  "cast_time": 2000,
+  "cooldown": 12000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "spiritual_harmony_buff"
+  },
+  "effects": [
+    {
+      "effect_type": "spiritual_energy_regeneration",
+      "value": 120,
+      "duration": 20000,
+      "tick_rate": 2000,
+      "mana_regeneration_per_second": 25,
+      "stamina_regeneration_per_second": 30,
+      "mental_clarity_buff": 40,
+      "mind_shielding_against_fear": 85,
+      "chi_energy_accumulation": 50,
+      "meditation_interrupt_resistance": 0.7
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sitting_crossed_legs_chi_energy_rising_tranquil_glow",
+    "active_effect": "meditative_pose_energy_orbs_floating_chi_flowing_abundantly",
+    "protection_effect": "mind_shield_energy_shell_mental_attacks_repelled_visually",
+    "completion_effect": "standing_up_renewed_energy_aura_compassionate_radiance"
+  },
+  "sound_effects": {
+    "cast_effect": "sitting_position_chi_harmonic_hum_mind_centering_deep_breath",
+    "active_effect": "continuous_spiritual_spell_0900_soft_bell_tones_energy_harmonic_rhythm",
+    "protection_effect": "mental_shield_hum_attacks_deflected_crystal_shield_sounds",
+    "completion_effect": "renewed_energy_rising_chorus_mental_clarity_bell_completion"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "spiritual_spell_0900",
+      "chi_control",
+      "spiritual_discipline"
+    ],
+    "classes": [
+      "monk",
+      "zen_master",
+      "spiritual_warrior"
+    ],
+    "specializations": [
+      "inner_peace_expert"
+    ]
+  },
+  "upgrades": {
+    "greater_zen_meditation": {
+      "unlock_level": 18,
+      "description": "La Spiritual Spell 0900 devient plus efficace avec une harmonie spirituelle accrue",
+      "mana_regeneration_increase_percent": 100,
+      "mind_shielding_strength_increase": 35,
+      "chi_energy_boost_multiplier": 1.8,
+      "meditative_healing_aura": 5.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "spyglass_basic",
+  "name": "Basic Spyglass",
+  "description": "Long-range optical observation tool.",
+  "icon": "res://icons/spyglass.png",
+  "category": "tool",
+  "rarity": "common",
+  "item_type": "tool",
+  "sub_type": "optic",
+  "base_stats": {
+    "durability": 100,
+    "max_durability": 100,
+    "weight": 1.0,
+    "value": 300
+  },
+  "properties": {
+    "range": 450.0
+  },
+  "requirements": {
+    "level": 1
+  },
+  "effects": [],
+  "vr_properties": {
+    "grabbable": true,
+    "holster_type": "side_weapon",
+    "grab_points": [
+      {
+        "pos": [
+          0,
+          0,
+          0
+        ],
+        "rot": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "haptics": {
+      "grab": "soft"
+    }
+  },
+  "template_type": "item",
+  "version": "0.1.0"
+}

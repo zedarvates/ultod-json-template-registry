@@ -1,0 +1,54 @@
+{
+  "id": "animal_creature_0097",
+  "name": "Animal Creature 0097",
+  "description": "Volatile oiseau domestique qui picore et pond des œufs",
+  "icon": "animal_creature_0097_icon",
+  "category": "animal",
+  "rarity": "common",
+  "base_stats": {
+    "health": 20,
+    "mana": 5,
+    "strength": 3,
+    "dexterity": 8,
+    "intelligence": 2,
+    "wisdom": 4,
+    "constitution": 6,
+    "charisma": 6
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_wild": false,
+    "size": "small",
+    "speed": 3.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "animal_creature_0097_meat",
+      "feathers"
+    ],
+    "rare_drops": [
+      "egg"
+    ],
+    "epic_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "none",
+    "attack_pattern": "flee",
+    "special_abilities": [
+      "peck",
+      "lay_egg"
+    ]
+  },
+  "abilities": [
+    "peck",
+    "flap_wings"
+  ],
+  "resistances": {
+    "physical": 5
+  },
+  "weaknesses": [
+    "predators"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

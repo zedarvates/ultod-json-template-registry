@@ -1,0 +1,98 @@
+{
+  "id": "temporal_elemental_creature_0371",
+  "name": "Temporal Elemental Creature 0371",
+  "description": "Un être elemental composé de pure énergie temporelle, vivant dans les flux chronaux",
+  "icon": "temporal_elemental_creature_0371_icon",
+  "category": "temporal_elemental",
+  "rarity": "epic",
+  "base_stats": {
+    "health": 1200,
+    "mana": 600,
+    "strength": 45,
+    "dexterity": 85,
+    "intelligence": 75,
+    "wisdom": 80,
+    "constitution": 65,
+    "charisma": 30
+  },
+  "properties": {
+    "is_temporal": true,
+    "is_elemental": true,
+    "is_magical": true,
+    "size": "medium",
+    "speed": 12.0,
+    "temporal_phase": 1.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "temporal_essence",
+      "chronal_shard",
+      "temporal_elemental_creature_0371_crystal"
+    ],
+    "rare_drops": [
+      "elemental_temporal_elemental_creature_0371_core",
+      "phase_shift_essence"
+    ],
+    "epic_drops": [
+      "temporal_elemental_creature_0371_heart",
+      "temporal_mastery_essence"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "medium",
+    "attack_pattern": "temporal_elemental_combat",
+    "special_abilities": [
+      "phase_shift",
+      "temporal_elemental_creature_0371_surge",
+      "chronal_resonance"
+    ],
+    "environmental_integration": "temporal_fields"
+  },
+  "abilities": [
+    "temporal_elemental_creature_0371_surge",
+    "phase_shift",
+    "temporal_barrier",
+    "chronal_pulse",
+    "temporal_elemental_creature_0371_echo_duplicate",
+    "temporal_vortex"
+  ],
+  "temporal_abilities": {
+    "elemental_mastery": {
+      "time_manipulation_level": 85,
+      "phase_shift_capability": true,
+      "temporal_regeneration": true
+    },
+    "environmental_effects": {
+      "time_acceleration_field": {
+        "ally_effect": 1.5,
+        "enemy_effect": 0.7,
+        "radius": 12.0,
+        "duration": 25000
+      }
+    }
+  },
+  "resistances": {
+    "temporal": 100,
+    "arcane": 80,
+    "psychic": 70,
+    "physical": 40,
+    "fire": 60,
+    "cold": 60
+  },
+  "weaknesses": [
+    "chaos_magic",
+    "entropy_effects",
+    "temporal_disruption"
+  ],
+  "spawn_conditions": {
+    "location": "temporal_nexus_points",
+    "time_of_day": "any",
+    "player_level_min": 45,
+    "event_required": "temporal_convergence",
+    "prerequisite_quests": [
+      "temporal_elemental_study"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

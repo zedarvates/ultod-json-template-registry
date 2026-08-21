@@ -1,0 +1,191 @@
+{
+  "profession": "divine_crafting",
+  "display_name": "Forge Divine",
+  "description": "Maîtrise sacrée de la création d'artefacts divins et d'objets de pure lumière",
+  "icon_path": "icons/professions/divine_crafting.png",
+  "category": "legendary_crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "blessed_weapon",
+      "name": "Arme Bénie",
+      "description": "Une arme sanctifiée par le pouvoir divin",
+      "profession": "divine_crafting",
+      "difficulty": 80,
+      "base_success_rate": 0.35,
+      "skill_required": 80,
+      "experience_gain": 120,
+      "exceptional_chance": 0.2,
+      "time_required_seconds": 720,
+      "components": [
+        {
+          "item_type": "divine_weapon_base",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "holy_blessing",
+          "quantity": 3,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "divine_essence",
+          "quantity": 5,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "prayer_crystal",
+          "quantity": 2,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "blessed_weapon",
+          "name": "Arme Bénie",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.7,
+          "durability_modifier": 2.2
+        }
+      ],
+      "conditions": {
+        "profession_level": 50,
+        "required_tools": [
+          "divine_anvil",
+          "eternal_hammer",
+          "gods_quill"
+        ],
+        "environmental_factors": [
+          "divine_sanctuary",
+          "eternal_forge"
+        ],
+        "required_facilities": [
+          "divine_forge"
+        ]
+      }
+    },
+    {
+      "id": "crown_of_eternity",
+      "name": "Couronne d'Éternité",
+      "description": "Un artefact divin qui confère l'immortalité et une sagesse infinie",
+      "profession": "divine_crafting",
+      "difficulty": 95,
+      "base_success_rate": 0.2,
+      "skill_required": 95,
+      "experience_gain": 250,
+      "exceptional_chance": 0.3,
+      "time_required_seconds": 2160,
+      "components": [
+        {
+          "item_type": "divine_crown_base",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "eternal_essence",
+          "quantity": 5,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "godsblood_crystal",
+          "quantity": 3,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "immortal_soul",
+          "quantity": 10,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "time_essence",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "crown_of_eternity",
+          "name": "Couronne d'Éternité",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 3.0,
+          "durability_modifier": 5.0
+        }
+      ]
+    },
+    {
+      "id": "gods_artifact",
+      "name": "Artefact des Dieux",
+      "description": "Un objet de pure puissance divine, forgé aux origines du monde",
+      "profession": "divine_crafting",
+      "difficulty": 100,
+      "base_success_rate": 0.15,
+      "skill_required": 100,
+      "experience_gain": 500,
+      "exceptional_chance": 0.4,
+      "time_required_seconds": 4320,
+      "components": [
+        {
+          "item_type": "primordial_essence",
+          "quantity": 15,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "divine_spark",
+          "quantity": 8,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "universal_truth",
+          "quantity": 3,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "eternal_forged_metal",
+          "quantity": 12,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "gods_tear",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "gods_artifact",
+          "name": "Artefact des Dieux",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 5.0,
+          "durability_modifier": 10.0
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "blessed_weapons",
+    "holy_artifacts",
+    "divine_crowns",
+    "god_forging"
+  ],
+  "id": "divine_crafting",
+  "name": "Divine Crafting",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

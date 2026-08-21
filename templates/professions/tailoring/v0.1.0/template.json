@@ -1,0 +1,154 @@
+{
+  "profession": "tailoring",
+  "display_name": "Couture",
+  "description": "L'art de créer des vêtements et tissus magiques",
+  "icon_path": "icons/professions/tailoring.png",
+  "category": "crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "linen_robes",
+      "name": "Robe de Lin",
+      "description": "Une robe confortable faite de lin fin",
+      "profession": "tailoring",
+      "difficulty": 15,
+      "base_success_rate": 0.75,
+      "skill_required": 10,
+      "experience_gain": 10,
+      "exceptional_chance": 0.03,
+      "time_required_seconds": 45,
+      "components": [
+        {
+          "item_type": "linen_cloth",
+          "quantity": 6,
+          "quality_required": "standard",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "thread",
+          "quantity": 2,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "linen_robes",
+          "name": "Robe de Lin",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.0,
+          "durability_modifier": 0.8
+        }
+      ],
+      "conditions": {
+        "profession_level": 5,
+        "required_tools": [
+          "sewing_kit",
+          "needle"
+        ],
+        "environmental_factors": []
+      }
+    },
+    {
+      "id": "silk_dress",
+      "name": "Robe de Soie",
+      "description": "Une robe élégante en soie délicate",
+      "profession": "tailoring",
+      "difficulty": 30,
+      "base_success_rate": 0.65,
+      "skill_required": 25,
+      "experience_gain": 20,
+      "exceptional_chance": 0.06,
+      "time_required_seconds": 90,
+      "components": [
+        {
+          "item_type": "silk_cloth",
+          "quantity": 8,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "golden_thread",
+          "quantity": 1,
+          "quality_required": "good",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "silver_buttons",
+          "quantity": 3,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "silk_dress",
+          "name": "Robe de Soie",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.1,
+          "durability_modifier": 0.9
+        }
+      ]
+    },
+    {
+      "id": "prismatic_robe",
+      "name": "Robe Prismatique",
+      "description": "Une robe légendaire qui brille de mille couleurs magiques",
+      "profession": "tailoring",
+      "difficulty": 70,
+      "base_success_rate": 0.35,
+      "skill_required": 90,
+      "experience_gain": 100,
+      "exceptional_chance": 0.18,
+      "time_required_seconds": 600,
+      "components": [
+        {
+          "item_type": "prismatic_silk",
+          "quantity": 12,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "rainbow_thread",
+          "quantity": 5,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "light_crystal",
+          "quantity": 3,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "magic_embroidery",
+          "quantity": 8,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "prismatic_robe",
+          "name": "Robe Prismatique",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.8,
+          "durability_modifier": 1.5
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "cloth_armor",
+    "magical_garments",
+    "noble_attire",
+    "mystical_weaving"
+  ],
+  "id": "tailoring",
+  "name": "Tailoring",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "divination_spell_0087",
+  "name": "Divination Spell 0087",
+  "description": "Vous lancez un chant inspirant qui accorde un bonus de +1d4 aux jets de sauvegarde contre la peur et aux jets d'attaque",
+  "icon": "divination_spell_0087_icon",
+  "school": "divination",
+  "rarity": "common",
+  "spell_type": "inspirational_buff",
+  "target_type": "multiple_allies",
+  "range": 60.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "spiritual"
+  },
+  "effects": [
+    {
+      "effect_type": "courage_inspiration",
+      "value": 4,
+      "duration": 60000,
+      "tick_rate": 0,
+      "max_targets": 6,
+      "attack_bonus": 4,
+      "save_bonus": 4,
+      "fear_resistance": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "bardic_song",
+    "buff_effect": "courage_aura",
+    "expire_effect": "song_end"
+  },
+  "sound_effects": {
+    "cast_sound": "heroic_tune",
+    "buff_sound": "courage_chorus",
+    "expire_sound": "fade_out"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "performance",
+      "music_magic"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour"
+    ]
+  },
+  "upgrades": {
+    "mass_inspiration": {
+      "unlock_level": 5,
+      "description": "Augmente la portée et le nombre de cibles affectées",
+      "range_bonus": 30.0,
+      "max_targets": 10
+    },
+    "heroic_inspiration": {
+      "unlock_level": 13,
+      "description": "Accorde des avantages supplémentaires contre la mort et les contrôles mentaux",
+      "death_save_bonus": 2,
+      "mental_save_bonus": 2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

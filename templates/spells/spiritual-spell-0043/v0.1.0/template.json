@@ -1,0 +1,75 @@
+{
+  "id": "spiritual_spell_0043",
+  "name": "Spiritual Spell 0043",
+  "description": "Pèse l'âme d'un ennemi et révèle ses péchés, infligeant des dégâts proportionnels",
+  "icon": "spiritual_spell_0043_icon",
+  "school": "spiritual",
+  "rarity": "epic",
+  "spell_type": "damage",
+  "target_type": "single_enemy",
+  "range": 25.0,
+  "cast_time": 3000,
+  "cooldown": 0,
+  "soul_essence_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "spiritual",
+    "scaling": {
+      "wisdom": 2.0,
+      "vitality": 1.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "spiritual_spell_0043_damage",
+      "value": 120,
+      "duration": 0,
+      "tick_rate": 0,
+      "scaling": {
+        "wisdom": 1.8
+      }
+    },
+    {
+      "effect_type": "reveal_sins",
+      "value": 0,
+      "duration": 10000,
+      "tick_rate": 0,
+      "scaling": {}
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "spiritual_spell_0043_scales_summon",
+    "hit_effect": "spiritual_judgment",
+    "miss_effect": "spell_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "ancient_weights",
+    "hit_sound": "spiritual_spell_0043_impact",
+    "miss_sound": "spell_fail"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "spiritual_spell_0043_mastery"
+    ],
+    "classes": [
+      "anubis"
+    ]
+  },
+  "upgrades": {
+    "perfect_balance": {
+      "unlock_level": 20,
+      "description": "Les dégâts du sort augmentent selon les statistiques de l'ennemi",
+      "stat_based_damage": true,
+      "damage_bonus": 25
+    },
+    "final_judgment": {
+      "unlock_level": 30,
+      "description": "Peut tuer instantanément les ennemis avec peu de santé",
+      "execute_threshold": 25,
+      "cooldown_reduction": 8000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

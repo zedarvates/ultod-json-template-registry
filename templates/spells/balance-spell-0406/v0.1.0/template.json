@@ -1,0 +1,82 @@
+{
+  "id": "balance_spell_0406",
+  "name": "Balance Spell 0406",
+  "description": "Les racines des arbres jaillissent du sol pour immobiliser les ennemis et les étrangler doucement",
+  "icon": "balance_spell_0406_icon",
+  "school": "balance",
+  "rarity": "uncommon",
+  "spell_type": "nature_control",
+  "target_type": "single_enemy",
+  "range": 35.0,
+  "cast_time": 1800,
+  "cooldown": 8000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 80,
+    "damage_type": "nature_control",
+    "scaling": {
+      "wisdom": 1.3,
+      "nature_bond": 1.4
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "root_entanglement",
+      "value": 150,
+      "duration": 12000,
+      "tick_rate": 2000,
+      "root_damage_over_time": 30,
+      "movement_rooted": true,
+      "attack_speed_root_penalty": 50,
+      "break_free_difficulty": 0.3,
+      "nature_healing_reduction": 20,
+      "root_spread_chance": 0.15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ground_cracking_vines_erupting",
+    "root_effect": "thick_roots_wrapping_target",
+    "damage_effect": "roots_constricting_tightening",
+    "spread_effect": "additional_roots_snaking_out"
+  },
+  "sound_effects": {
+    "cast_sound": "ground_cracking_vine_whip",
+    "root_sound": "roots_slithering_around_crunch",
+    "damage_sound": "constriction_squeezing_creak",
+    "spread_sound": "additional_roots_erupting_slurp"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "nature_magic",
+      "earth_binding"
+    ],
+    "classes": [
+      "druid",
+      "forest_warden"
+    ],
+    "specializations": [
+      "root_master"
+    ]
+  },
+  "upgrades": {
+    "grip_of_nature": {
+      "unlock_level": 22,
+      "description": "Les racines sont plus épaisses et serrent plus fort, causant plus de dégâts et étant plus difficiles à briser",
+      "root_damage_increase": 40,
+      "break_free_penalty": 0.5,
+      "additional_root_count": 3,
+      "silence_while_rooted": true
+    },
+    "ancient_root_guardian": {
+      "unlock_level": 32,
+      "description": "Une antique racine garde prend vie et protège le druide tout en attaquant les ennemis enchevêtrés",
+      "guardian_summon": true,
+      "guardian_attacks_rooted": 60,
+      "root_warden_shield": 100,
+      "root_lifespan": 30000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

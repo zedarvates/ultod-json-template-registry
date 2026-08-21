@@ -1,0 +1,71 @@
+{
+  "id": "arcane_spell_0787",
+  "name": "Arcane Spell 0787",
+  "description": "Invoque un familier magique qui combat aux côtés du mage et peut détecter les ennemis invisibles",
+  "icon": "arcane_spell_0787_icon",
+  "school": "arcane",
+  "rarity": "uncommon",
+  "spell_type": "magical_companion_arcane_spell_0787",
+  "target_type": "arcane_spell_0787_at_location",
+  "range": 8.0,
+  "cast_time": 3500,
+  "cooldown": 30000,
+  "mana_cost": 90,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "arcane_companion_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "magical_entity_arcane_spell_0787ing",
+      "value": 200,
+      "duration": 845000,
+      "tick_rate": 0,
+      "familiar_combat_level": 0.7,
+      "familiar_health_pool": 300,
+      "detect_invisible_entities": true,
+      "elemental_damage_attacks": 35,
+      "familiar_control_precision": "high",
+      "dismiss_command_available": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "arcane_circle_forming_purple_energy_runed_circle",
+    "summon_effect": "familiar_emerging_portal_formed_fantasy_creature_appears",
+    "active_effect": "familiar_acting_independently_mage_aid_flying_orbiting",
+    "dismiss_effect": "familiar_returning_portal_absorption_energy_dissipates"
+  },
+  "sound_effects": {
+    "cast_effect": "arcane_circle_formation_humming_energy_building",
+    "summon_effect": "familiar_arcane_spell_0787ed_portal_open_creature_emerge_cry",
+    "active_effect": "familiar_sounds_natural_creature_behavior_active",
+    "dismiss_effect": "familiar_returning_portal_close_energy_absorption_whir"
+  },
+  "requirements": {
+    "level": 22,
+    "skills": [
+      "arcane_magic",
+      "conjuration"
+    ],
+    "classes": [
+      "mage",
+      "arcane_spell_0787er",
+      "beast_master"
+    ],
+    "specializations": [
+      "familiar_specialization"
+    ]
+  },
+  "upgrades": {
+    "greater_summon_familiar": {
+      "unlock_level": 32,
+      "description": "L'Arcane Spell 0787 devient plus puissante avec des familiers améliorés et des capacités avancées",
+      "familiar_combat_multiplier": 1.5,
+      "advanced_familiar_types": true,
+      "multiple_familiar_capability": 2,
+      "familiar_spell_casting": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

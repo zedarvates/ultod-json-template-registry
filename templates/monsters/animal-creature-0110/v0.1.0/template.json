@@ -1,0 +1,56 @@
+{
+  "id": "animal_creature_0110",
+  "name": "Animal Creature 0110",
+  "description": "Petit rongeur agile qui stocke des noisettes et grimpe aux arbres",
+  "icon": "animal_creature_0110_icon",
+  "category": "animal",
+  "rarity": "common",
+  "base_stats": {
+    "health": 15,
+    "mana": 10,
+    "strength": 4,
+    "dexterity": 20,
+    "intelligence": 8,
+    "wisdom": 10,
+    "constitution": 6,
+    "charisma": 12
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_wild": true,
+    "size": "tiny",
+    "speed": 6.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "animal_creature_0110_meat",
+      "animal_creature_0110_pelt"
+    ],
+    "rare_drops": [
+      "acorns"
+    ],
+    "epic_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "none",
+    "attack_pattern": "flee",
+    "special_abilities": [
+      "climb_trees",
+      "store_food"
+    ]
+  },
+  "abilities": [
+    "quick_escape",
+    "tree_climb",
+    "nut_throw"
+  ],
+  "resistances": {
+    "physical": 5
+  },
+  "weaknesses": [
+    "predators",
+    "fall_damage"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

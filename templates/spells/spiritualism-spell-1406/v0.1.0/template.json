@@ -1,0 +1,41 @@
+{
+  "school": "spiritualism_spell_1406ualism",
+  "rarity": "uncommon",
+  "target_type": "single",
+  "range": 35.0,
+  "cast_time": 1800,
+  "cooldown": 15000,
+  "mana_cost": 40,
+  "visual_effects": {
+    "cast_effect": "blast_cast",
+    "projectile_effect": "spiritualism_spell_1406ualism_spell_1406_projectile",
+    "impact_effect": "blast_impact",
+    "trail_effect": "spiritualism_spell_1406_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "blast_cast_sound",
+    "impact_sound": "blast_impact_sound"
+  },
+  "requirements": {
+    "level": 18
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "spiritualism_spell_1406",
+  "name": "Spiritualism Spell 1406",
+  "description": "A powerful blast of spiritualism_spell_1406ual energy that pierces through defenses",
+  "icon": "spiritualism_spell_1406ualism_spell_1406_icon",
+  "spell_type": "damage",
+  "damage_type": "spiritualism_spell_1406",
+  "base_damage": 180,
+  "damage": {
+    "base_damage": 180,
+    "damage_type": "spiritualism_spell_1406",
+    "pierce": 0.2,
+    "scaling": {
+      "spirit": 0.9,
+      "intellect": 0.5
+    }
+  },
+  "template_type": "spell"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "shield_mastery",
+  "name": "Maîtrise du bouclier",
+  "description": "Réduit les dégâts physiques subis lorsque vous portez un bouclier.",
+  "type": "passive",
+  "effects": [
+    {
+      "type": "damage_reduction",
+      "damage_type": "physical",
+      "value": 0.05
+    }
+  ],
+  "template_type": "talent",
+  "version": "0.1.0"
+}

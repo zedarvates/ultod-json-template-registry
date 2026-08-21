@@ -1,0 +1,37 @@
+{
+  "id": "fiend_creature_0238",
+  "name": "Fiend Creature 0238",
+  "description": "Description for Fiend Creature 0238",
+  "icon": "fiend_creature_0238_icon",
+  "category": "fiend",
+  "rarity": "uncommon",
+  "base_stats": {
+    "health": 500,
+    "mana": 100,
+    "strength": 10,
+    "dexterity": 10,
+    "intelligence": 10,
+    "wisdom": 10,
+    "constitution": 10,
+    "charisma": 10
+  },
+  "properties": {
+    "size": "medium",
+    "speed": 6.0
+  },
+  "loot_table": {
+    "common_drops": [],
+    "rare_drops": [],
+    "epic_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "moderate",
+    "attack_pattern": "basic_attack",
+    "special_abilities": []
+  },
+  "abilities": [],
+  "resistances": {},
+  "weaknesses": [],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

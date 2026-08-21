@@ -1,0 +1,68 @@
+{
+  "id": "solar_spell_1150",
+  "name": "Solar Spell 1150",
+  "description": "Lance un faisceau de lumière solaire ardente qui brûle les ennemis",
+  "icon": "solar_spell_1150_spell_1150_icon",
+  "school": "solar_spell_1150",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single_enemy",
+  "range": 35.0,
+  "cast_time": 2000,
+  "cooldown": 0,
+  "solar_energy_cost": 30,
+  "damage": {
+    "base_damage": 85,
+    "damage_type": "fire",
+    "scaling": {
+      "intelligence": 1.4,
+      "wisdom": 1.2
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "burn",
+      "value": 15,
+      "duration": 5000,
+      "tick_rate": 1000,
+      "scaling": {
+        "wisdom": 0.8
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "solar_spell_1150_energy_gather",
+    "hit_effect": "solar_spell_1150_explosion",
+    "miss_effect": "light_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "solar_spell_1150_chant",
+    "hit_sound": "solar_spell_1150_impact",
+    "miss_sound": "spell_fail"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "solar_spell_1150_mastery"
+    ],
+    "classes": [
+      "ra"
+    ]
+  },
+  "upgrades": {
+    "enhanced_solar_beam": {
+      "unlock_level": 10,
+      "description": "Augmente les dégâts du solar_spell_1150 Spell 1150",
+      "damage_bonus": 20,
+      "solar_energy_cost_reduction": 5
+    },
+    "piercing_light": {
+      "unlock_level": 20,
+      "description": "Le rayon perce les armures et résistances",
+      "armor_piercing": 50,
+      "fire_resistance_ignore": 25
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

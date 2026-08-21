@@ -1,0 +1,94 @@
+{
+  "id": "bastet",
+  "name": "Bastet",
+  "description": "Déesse féline de la protection, de la fertilité et de la danse, maîtresse des chats sacrés",
+  "color": "DAA520",
+  "primary_resource": "felin_energy",
+  "base_stats": {
+    "strength": 1.2,
+    "agility": 1.6,
+    "intelligence": 1.3,
+    "vitality": 1.1,
+    "wisdom": 1.3,
+    "charisma": 1.4
+  },
+  "available_classes": [
+    "bastet"
+  ],
+  "starting_skills": [
+    {
+      "id": 31001,
+      "name": "Agilité Féline",
+      "description": "Mouvement rapide et esquive naturelle améliorée",
+      "cooldown": 0,
+      "felin_energy_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": true
+    },
+    {
+      "id": 31002,
+      "name": "Griffes de Protection",
+      "description": "Attaque rapide avec les griffes qui protègent contre les attaques",
+      "cooldown": 1800,
+      "felin_energy_cost": 20,
+      "range": 10.0,
+      "cast_time": 800,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 31003,
+      "name": "Invocation de Chats",
+      "description": "Invoque des chats sacrés pour aider au combat",
+      "cooldown": 45000,
+      "felin_energy_cost": 60,
+      "range": 0,
+      "cast_time": 3000,
+      "learned_at_level": 1,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 0,
+        "talents": [
+          {
+            "id": 31001,
+            "name": "Déesse des Chats",
+            "description": "+35% vitesse et régénération d'énergie",
+            "max_rank": 5,
+            "icon_path": "goddess_of_cats"
+          }
+        ]
+      },
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 31004,
+            "name": "Reflexes de Chat",
+            "description": "Immunité contre les attaques de dos et esquive améliorée",
+            "max_rank": 3,
+            "icon_path": "cat_reflexes"
+          },
+          {
+            "id": 31005,
+            "name": "Rôdeuse Nocturne",
+            "description": "Augmente les dégâts et la vitesse la nuit",
+            "max_rank": 2,
+            "icon_path": "night_stalker"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 130,
+  "health_modifier": 1.1,
+  "damage_modifier": 1.3,
+  "armor_modifier": 1.2,
+  "template_type": "class",
+  "version": "0.1.0"
+}

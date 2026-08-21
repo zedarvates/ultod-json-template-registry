@@ -1,0 +1,35 @@
+{
+  "virtue_id": "virtue_honor",
+  "display_name": "Vertu d'Honneur",
+  "max_points": 30000,
+  "tiers": [
+    {
+      "level": 1,
+      "name": "Chercheur d'Honneur",
+      "min_points": 4000,
+      "perk_description": "+10% dégâts en duel 1v1 contre un Boss"
+    },
+    {
+      "level": 2,
+      "name": "Suiveur d'Honneur",
+      "min_points": 12000,
+      "perk_description": "+25% dégâts en duel 1v1 contre un Boss"
+    },
+    {
+      "level": 3,
+      "name": "Chevalier d'Honneur",
+      "min_points": 24000,
+      "perk_description": "+50% dégâts en duel 1v1 et immunité au premier coup critique"
+    }
+  ],
+  "honor_embraced_active_buff": {
+    "duration_seconds": 90,
+    "damage_multiplier": 1.5,
+    "luck_bonus": 1000,
+    "cooldown_seconds": 300
+  },
+  "id": "template",
+  "name": "Template",
+  "template_type": "virtues_faction",
+  "version": "0.1.0"
+}

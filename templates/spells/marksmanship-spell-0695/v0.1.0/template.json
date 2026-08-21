@@ -1,0 +1,78 @@
+{
+  "id": "marksmanship_spell_0695",
+  "name": "Marksmanship Spell 0695",
+  "description": "Un tir spécial qui endort la cible, la rendant inconsciente pendant une durée limitée",
+  "icon": "marksmanship_spell_0695_icon",
+  "school": "marksmanship",
+  "rarity": "uncommon",
+  "spell_type": "sleep_inducing_shot",
+  "target_type": "single_enemy",
+  "range": 35.0,
+  "cast_time": 2000,
+  "cooldown": 25000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 30,
+    "damage_type": "sleep_piercing_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "neurological_sleep_induction",
+      "value": 150,
+      "duration": 18000,
+      "tick_rate": 0,
+      "sleep_induction_success": 0.85,
+      "initial_damage": 30,
+      "sleep_duration_max": 18000,
+      "wake_damage_threshold": 80,
+      "sleeping_attack_multiplier": 2.0,
+      "anti_resistance_bonus": 0.25
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "drowsy_energy_building_tranq_arrow",
+    "sleep_effect": "drooping_eyelids_target_slumping_asleep",
+    "damage_effect": "sleep_damage_dream_bubbles_popping",
+    "wake_effect": "target_shaking_off_groggy_eyes_open"
+  },
+  "sound_effects": {
+    "cast_effect": "tranq_arrow_loaded_special_shot_twist",
+    "sleep_effect": "body_slumping_soft_thud_asleep_snores",
+    "damage_effect": "dream_disturbance_bubbles_burst_pain",
+    "wake_effect": "groggy_wake_up_stir_shake_off_confusion"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "marksmanship",
+      "tranquilizer_crafting"
+    ],
+    "classes": [
+      "hunter",
+      "beast_trapper"
+    ],
+    "specializations": [
+      "sleep_inducer"
+    ]
+  },
+  "upgrades": {
+    "greater_tranquilizing_shot": {
+      "unlock_level": 30,
+      "description": "Le Marksmanship Spell 0695 devient plus grand avec un sommeil plus profond et des effets étendus",
+      "success_rate_guarantee": 0.95,
+      "sleep_duration_double": true,
+      "group_sleep_spread": 0.3,
+      "wake_damage_reduction": 150
+    },
+    "legendary_tranquilizing_shot": {
+      "unlock_level": 40,
+      "description": "Le Marksmanship Spell 0695 atteint la légende avec une domination mentale complète",
+      "permanent_sleep_possibility": 0.1,
+      "dream_manipulation_access": true,
+      "sleep_damage_cancelled": true,
+      "mass_tranquilization_burst": 10.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

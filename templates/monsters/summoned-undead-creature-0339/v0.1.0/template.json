@@ -1,0 +1,54 @@
+{
+  "id": "summoned_undead_creature_0339",
+  "name": "Summoned Undead Creature 0339",
+  "description": "Serviteur mort-vivant temporaire relevé par nécromancie.",
+  "category": "summoned_undead",
+  "rarity": "uncommon",
+  "base_stats": {
+    "health": 240,
+    "mana": 0,
+    "strength": 28,
+    "dexterity": 12,
+    "intelligence": 4,
+    "wisdom": 6,
+    "constitution": 24,
+    "charisma": 2
+  },
+  "properties": {
+    "is_aggressive": true,
+    "is_wild": false,
+    "size": "medium",
+    "speed": 5.5
+  },
+  "loot_table": {
+    "common_drops": [],
+    "rare_drops": [],
+    "epic_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "controlled",
+    "attack_pattern": "owner_target",
+    "special_abilities": [
+      "shield_block"
+    ]
+  },
+  "abilities": [
+    "basic_slash",
+    "shield_block"
+  ],
+  "resistances": {
+    "poison": 100,
+    "cold": 25
+  },
+  "weaknesses": [
+    "holy",
+    "blunt"
+  ],
+  "summon": {
+    "temporary": true,
+    "requires_owner": true,
+    "default_duration_ms": 240000
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

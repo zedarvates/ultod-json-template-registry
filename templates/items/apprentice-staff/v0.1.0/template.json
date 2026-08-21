@@ -1,0 +1,33 @@
+{
+  "id": "apprentice_staff",
+  "name": "Baton d'Apprenti Mage",
+  "description": "Focus magique simple pour lancer les sorts de base.",
+  "icon": "apprentice_staff",
+  "category": "weapon",
+  "rarity": "common",
+  "item_type": "staff",
+  "sub_type": "two_hand",
+  "base_stats": {
+    "durability": 70,
+    "max_durability": 70,
+    "weight": 2.0,
+    "value": 95
+  },
+  "weapon_properties": {
+    "damage": 9,
+    "damage_type": "arcane",
+    "attack_speed": 1.15,
+    "range": 2.2,
+    "two_handed": true
+  },
+  "properties": {
+    "stackable": false,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 1
+  },
+  "template_type": "item",
+  "version": "0.1.0"
+}

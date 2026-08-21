@@ -1,0 +1,92 @@
+{
+  "id": "druid_wild_morph",
+  "name": "Métamorphose Sauvage",
+  "description": "Se transforme en une créature sauvage pour combattre avec fureur",
+  "ability_type": "active",
+  "category": "transformation",
+  "cooldown": 180000,
+  "mana_cost": 60,
+  "cast_time": 2000,
+  "range": 0,
+  "target_type": "self",
+  "duration": 45000,
+  "effects": [
+    {
+      "effect_type": "transformation",
+      "value": "wild_beast",
+      "duration": 45000,
+      "tick_rate": 0,
+      "transformation_type": "combat"
+    },
+    {
+      "effect_type": "stat_increase",
+      "value": {
+        "strength": 0.5,
+        "agility": 0.3,
+        "vitality": 0.2
+      },
+      "duration": 45000,
+      "tick_rate": 0
+    },
+    {
+      "effect_type": "natural_armor",
+      "value": 0.4,
+      "duration": 45000,
+      "tick_rate": 0,
+      "school": "nature"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "nature_energy_swirl",
+    "transform_effect": "wild_beast_transformation",
+    "aura_effect": "natural_fury"
+  },
+  "sound_effects": {
+    "cast_sound": "wild_roar",
+    "transform_sound": "beast_transformation",
+    "aura_sound": "nature_wind"
+  },
+  "scaling": {
+    "nature_mastery": 1.3,
+    "ferocity": 0.8
+  },
+  "requirements": {
+    "level": 25,
+    "abilities": [
+      "animal_companion",
+      "nature_spirit"
+    ],
+    "class": "druid"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "duration": 30000,
+      "stat_increase": 0.3,
+      "natural_armor": 0.2
+    },
+    "journeyman": {
+      "duration": 37500,
+      "stat_increase": 0.4,
+      "natural_armor": 0.3,
+      "damage_bonus": 0.2
+    },
+    "master": {
+      "duration": 45000,
+      "stat_increase": 0.5,
+      "natural_armor": 0.4,
+      "damage_bonus": 0.3,
+      "healing_bonus": 0.2
+    },
+    "grandmaster": {
+      "duration": 60000,
+      "stat_increase": 0.7,
+      "natural_armor": 0.5,
+      "damage_bonus": 0.4,
+      "healing_bonus": 0.3,
+      "ability_unlock": "primal_rage"
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

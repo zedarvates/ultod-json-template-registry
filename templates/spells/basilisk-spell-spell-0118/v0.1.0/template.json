@@ -1,0 +1,45 @@
+{
+  "id": "basilisk_spell_spell_0118",
+  "name": "Basilisk Spell Spell 0118",
+  "description": "Description for basilisk_spell_spell_0118 Spell Spell 0118",
+  "icon": "basilisk_spell_spell_0118_spell_spell_0118_icon",
+  "school": "basilisk_spell_spell_0118_spell",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 6.0,
+  "cast_time": 300,
+  "cooldown": 1000,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 24,
+    "damage_type": "physical"
+  },
+  "effects": [
+    {
+      "effect_type": "physical_damage",
+      "value": 24,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "aura",
+    "projectile_effect": "bolt",
+    "impact_effect": "impact"
+  },
+  "sound_effects": {
+    "cast_sound": "cast",
+    "impact_sound": "hit"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "basilisk_spell_spell_0118"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

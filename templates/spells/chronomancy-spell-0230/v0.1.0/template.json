@@ -1,0 +1,83 @@
+{
+  "id": "chronomancy_spell_0230",
+  "name": "Chronomancy Spell 0230",
+  "description": "Le chronomancien accélère le temps autour d'un ennemi, le vieillissant rapidement et le rendant plus faible",
+  "icon": "chronomancy_spell_0230_icon",
+  "school": "chronomancy",
+  "rarity": "uncommon",
+  "spell_type": "temporal_damage",
+  "target_type": "single_enemy",
+  "range": 30.0,
+  "cast_time": 1800,
+  "cooldown": 16000,
+  "mana_cost": 55,
+  "damage": {
+    "base_damage": 200,
+    "damage_type": "temporal_decay",
+    "scaling": {
+      "charisma": 0.6,
+      "constitution": 1.4
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "aging_damage_over_time",
+      "value": 200,
+      "duration": 10000,
+      "tick_rate": 2000,
+      "decay_damage_per_tick": 50,
+      "stat_reduction_percent": 0.2,
+      "movement_penalty": 0.15,
+      "aging_visual_changes": true,
+      "cancel_on_death": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "chronomancy_spell_0230_clock_hands",
+    "aging_effect": "graying_hair_and_wrinkle_growth",
+    "damage_effect": "temporal_decay_particles",
+    "expire_effect": "youth_restoration_reverse"
+  },
+  "sound_effects": {
+    "cast_sound": "rapid_clock_ticking_accelerating",
+    "aging_sound": "bones_creaking_aging_crackles",
+    "damage_sound": "vitality_draining_whisper",
+    "expire_sound": "rejuvenation_swoosh"
+  },
+  "requirements": {
+    "level": 14,
+    "skills": [
+      "chronomancy",
+      "temporal_decay",
+      "life_manipulation"
+    ],
+    "classes": [
+      "chronomancer",
+      "time_mage",
+      "temporalist"
+    ],
+    "specializations": [
+      "age_master"
+    ]
+  },
+  "upgrades": {
+    "premature_decay": {
+      "unlock_level": 24,
+      "description": "Le vieillissement se fait plus rapidement et est plus destructeur",
+      "tick_rate_reduction": 500,
+      "damage_bonus": 75,
+      "additional_effects": [
+        "weakness_curse"
+      ]
+    },
+    "life_drain": {
+      "unlock_level": 34,
+      "description": "Le lanceur récupère la vitalité perdue par la cible",
+      "life_steal_percent": 30,
+      "lanceur_healing": 40,
+      "permanent_aging_chance": 0.1
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

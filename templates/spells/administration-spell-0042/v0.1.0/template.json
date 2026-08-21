@@ -1,0 +1,54 @@
+{
+  "id": "administration_spell_0042",
+  "name": "Administration Spell 0042",
+  "description": "[ADMIN ONLY] Instantly change, set, or lock administration_spell_0042 conditions anywhere in the world",
+  "icon": "admin_administration_spell_0042_icon",
+  "school": "administration",
+  "rarity": "epic",
+  "spell_type": "environmental_management",
+  "target_type": "area_administration_spell_0042_target",
+  "range": -1,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "meteorological_administration"
+  },
+  "effects": [
+    {
+      "effect_type": "complete_administration_spell_0042_manipulation",
+      "value": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "all_weather_types_available": true,
+      "global_or_regional_control": true,
+      "instant_weather_change": true,
+      "weather_lock_prevention": true,
+      "affects_all_zones": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "atmospheric_energy_manipulation_cloud_formation",
+    "weather_effect": "immediate_administration_spell_0042_change_transition_smooth",
+    "control_effect": "administration_spell_0042_lock_golden_bands_atmoadapted_reference",
+    "global_effect": "world_wide_administration_spell_0042_shift_visual_ripple"
+  },
+  "sound_effects": {
+    "cast_effect": "atmospheric_manipulation_energy_rumbling",
+    "weather_effect": "immediate_administration_spell_0042_transition_ambient_shift",
+    "control_effect": "administration_spell_0042_lock_hum_authoritative_stability",
+    "global_effect": "planetary_administration_spell_0042_shift_thunderous_echo"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "gamemaster",
+      "overseer",
+      "celestial_avatar"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

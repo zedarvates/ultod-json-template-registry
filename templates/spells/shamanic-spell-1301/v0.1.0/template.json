@@ -1,0 +1,70 @@
+{
+  "id": "shamanic_spell_1301",
+  "name": "Shamanic Spell 1301",
+  "description": "Vous invoquez un Shamanic Spell 1301 qui accorde des bonus à tous les alliés dans un rayon de 30 pieds pendant 1 minute",
+  "icon": "shamanic_spell_1301_icon",
+  "school": "shamanic",
+  "rarity": "rare",
+  "spell_type": "totem_summon",
+  "target_type": "area",
+  "range": 30.0,
+  "cast_time": 2000,
+  "cooldown": 0,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "nature"
+  },
+  "effects": [
+    {
+      "effect_type": "shamanic_spell_1301",
+      "value": 0,
+      "duration": 60000,
+      "tick_rate": 0,
+      "aoe_radius": 9.0,
+      "buff_strength": 8,
+      "healing_over_time": 5,
+      "resistance_bonus": 5,
+      "totem_health": 50
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "shamanic_spell_1301_ritual",
+    "totem_effect": "shamanic_spell_1301ual_totem",
+    "buff_effect": "shamanic_spell_1301_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "shamanic_spell_1301_chant",
+    "totem_sound": "totem_manifest",
+    "buff_sound": "shamanic_spell_1301ual_echo"
+  },
+  "requirements": {
+    "level": 4,
+    "skills": [
+      "shamanism",
+      "shamanic_spell_1301_communication"
+    ],
+    "classes": [
+      "shaman",
+      "druid",
+      "priest"
+    ]
+  },
+  "upgrades": {
+    "elemental_totem": {
+      "unlock_level": 8,
+      "description": "Le totem accorde des résistances supplémentaires aux éléments",
+      "elemental_resistance": 10,
+      "elemental_damage_immunity": false
+    },
+    "ancients_totem": {
+      "unlock_level": 16,
+      "description": "Invoque un totem ancestral avec des effets plus puissants",
+      "buff_multiplier": 1.5,
+      "totem_minions": 2,
+      "spirit_guardians": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

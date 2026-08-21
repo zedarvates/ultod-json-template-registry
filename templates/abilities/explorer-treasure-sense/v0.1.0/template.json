@@ -1,0 +1,78 @@
+{
+  "id": "explorer_treasure_sense",
+  "name": "Sens du Trésor",
+  "description": "Détecte les trésors cachés, les pièges et les passages secrets dans les environs",
+  "icon": "treasure_sense_icon",
+  "category": "exploration",
+  "rarity": "rare",
+  "ability_type": "utility",
+  "target_type": "area",
+  "range": 30.0,
+  "cast_time": 3000,
+  "cooldown": 60000,
+  "resource_cost": {
+    "type": "focus",
+    "amount": 40
+  },
+  "effects": [
+    {
+      "effect_type": "treasure_detection",
+      "value": 80,
+      "duration": 45000,
+      "scaling": {
+        "wisdom": 0.5
+      }
+    },
+    {
+      "effect_type": "trap_detection",
+      "value": 90,
+      "duration": 45000,
+      "scaling": {
+        "intelligence": 0.4
+      }
+    },
+    {
+      "effect_type": "secret_passage",
+      "value": 70,
+      "duration": 45000,
+      "scaling": {
+        "perception": 0.3
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "aura_pulse",
+    "active_effect": "detection_rings",
+    "reveal_effect": "treasure_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "mystical_chime",
+    "active_sound": "detection_hum",
+    "reveal_sound": "treasure_ping"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "treasure_hunting"
+    ],
+    "professions": [
+      "explorer"
+    ]
+  },
+  "upgrades": {
+    "master_treasure_hunter": {
+      "unlock_level": 35,
+      "description": "Détecte des trésors plus rares et plus lointains",
+      "detection_bonus": 30,
+      "range_bonus": 10.0
+    },
+    "legendary_discoverer": {
+      "unlock_level": 50,
+      "description": "Peut détecter des artefacts légendaires",
+      "legendary_detection": 20,
+      "artifact_sense": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

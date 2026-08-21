@@ -1,0 +1,62 @@
+{
+  "id": "physical_spell_0077",
+  "name": "Physical Spell 0077",
+  "description": "Augmente considérablement la vitesse de déplacement pendant un temps",
+  "icon": "physical_spell_0077_icon",
+  "school": "physical",
+  "rarity": "uncommon",
+  "spell_type": "utility",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 60000,
+  "mana_cost": 60,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "speed_buff",
+      "value": 1.5,
+      "duration": 10000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "move_speed_multiplier": 1.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dash_burst",
+    "impact_effect": null,
+    "speed_effect": "motion_blur"
+  },
+  "sound_effects": {
+    "cast_sound": "wind_rush",
+    "impact_sound": null,
+    "speed_sound": "swift_footsteps"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "physical_spell_0077_mastery"
+    ],
+    "classes": [
+      "assassin",
+      "rogue",
+      "ninja"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_sprint": {
+      "unlock_level": 30,
+      "description": "physical_spell_0077 dure plus longtemps et est plus rapide",
+      "duration_bonus": 3000,
+      "speed_bonus": 0.2
+    },
+    "phantom_sprint": {
+      "unlock_level": 40,
+      "description": "physical_spell_0077 rend partiellement invisible pendant l'effet",
+      "stealth_bonus": 0.5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

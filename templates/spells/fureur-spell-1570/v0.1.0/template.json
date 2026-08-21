@@ -1,0 +1,76 @@
+{
+  "id": "fureur_spell_1570",
+  "name": "Fureur Spell 1570",
+  "description": "Fait tourner le guerrier sur lui-même, frappant tous les ennemis proches",
+  "icon": "fureur_spell_1570_icon",
+  "school": "fureur",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "area",
+  "range": 8.0,
+  "cast_time": 0,
+  "cooldown": 10000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 90,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.7,
+      "rage": 0.6
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "area_damage",
+      "value": 90,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_radius": 8.0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "rage_generation",
+      "value": 10,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "spin_attack",
+    "projectile_effect": "spinning_blades",
+    "impact_effect": "blade_storm",
+    "trail_effect": "whirling_blades"
+  },
+  "sound_effects": {
+    "cast_sound": "whirling_spin",
+    "impact_sound": "multiple_strikes"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "fury"
+    ]
+  },
+  "upgrades": {
+    "improved_whirlwind": {
+      "unlock_level": 20,
+      "description": "Augmente les dégâts et le rayon de Fureur Spell 1570 de 30%",
+      "damage_bonus": 30,
+      "radius_bonus": 30
+    },
+    "whirlwind_mastery": {
+      "unlock_level": 30,
+      "description": "Fureur Spell 1570 génère plus de rage et peut étourdir les cibles",
+      "rage_bonus": 5,
+      "stun_chance": 0.15,
+      "stun_duration": 2000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0715",
+  "name": "Illusion Spell 0715",
+  "description": "Vous rendez invisible tout en laissant derrière vous un leurre solide qui peut lancer des sorts et se déplacer",
+  "icon": "illusion_spell_0715_icon",
+  "school": "illusion",
+  "rarity": "rare",
+  "spell_type": "invisibility_with_functional_decoy",
+  "target_type": "self_with_image_projection",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 80000,
+  "mana_cost": 95,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "decoy_illusion_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "invisibility_with_solid_illusion",
+      "value": 280,
+      "duration": 120000,
+      "tick_rate": 3000,
+      "perfect_invisibility_maintained": true,
+      "solid_illusion_decoy_projection": true,
+      "illusion_can_cast_minor_spells": true,
+      "illusion_damage_output": 40,
+      "decoy_movement_intelligence": true,
+      "aggression_redirection_guarantee": 100
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sudden_fade_with_solid_image_remaining",
+    "decoy_effect": "illusion_moving_fighting_casting_realistically",
+    "aggregation_effect": "attacks_deflected_to_illusory_figure",
+    "reveal_effect": "invisibility_lift_decoy_dissipates_haze"
+  },
+  "sound_effects": {
+    "cast_effect": "disappear_sound_with_echoing_continuation",
+    "decoy_effect": "fighting_casting_sounds_from_illusion_location",
+    "aggregation_effect": "strikes_misses_on_incorporeal_illusion",
+    "reveal_effect": "fading_echoes_reveal_authenticity_shift"
+  },
+  "requirements": {
+    "level": 35,
+    "skills": [
+      "illusion_magic",
+      "deception_projecjtion"
+    ],
+    "classes": [
+      "illusionist",
+      "shadow_master"
+    ],
+    "specializations": [
+      "decoy_specialist"
+    ]
+  },
+  "upgrades": {
+    "greater_mislead": {
+      "unlock_level": 45,
+      "description": "La Illusion Spell 0715 devient plus grande avec des leurres avancés et des capacités meurtrières",
+      "multiple_solid_illusions": 2,
+      "full_spell_casting_capability": true,
+      "illusion_damage_scaling": 75,
+      "perfect_deceiver_detection": false
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

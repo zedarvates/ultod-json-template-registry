@@ -1,0 +1,69 @@
+{
+  "id": "aberration_creature_0051",
+  "name": "Aberration Creature 0051",
+  "description": "Créature sphérique flottante avec un grand œil central et plusieurs yeux pédonculés, maîtresse des magies mentales",
+  "icon": "aberration_creature_0051_icon",
+  "category": "aberration",
+  "rarity": "legendary",
+  "base_stats": {
+    "health": 2800,
+    "mana": 1800,
+    "strength": 50,
+    "dexterity": 40,
+    "intelligence": 120,
+    "wisdom": 100,
+    "constitution": 80,
+    "charisma": 60
+  },
+  "properties": {
+    "is_magical": true,
+    "is_flying": true,
+    "is_unique": true,
+    "is_boss": true,
+    "size": "large",
+    "speed": 8.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "aberration_creature_0051_eye",
+      "levitation_crystal"
+    ],
+    "rare_drops": [
+      "anti_magic_cone",
+      "disintegration_ray"
+    ],
+    "epic_drops": [
+      "aberration_creature_0051_central_eye",
+      "legendary_artifact"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "extreme",
+    "attack_pattern": "eye_ray_barrage",
+    "special_abilities": [
+      "anti_magic_cone",
+      "telekinesis",
+      "fear_aura"
+    ]
+  },
+  "abilities": [
+    "central_eye_ray",
+    "sleep_ray",
+    "disintegration_ray",
+    "fear_ray",
+    "telekinesis",
+    "anti_magic_cone"
+  ],
+  "resistances": {
+    "magic": 90,
+    "physical": 40,
+    "poison": 60
+  },
+  "weaknesses": [
+    "holy",
+    "psychic",
+    "silver"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

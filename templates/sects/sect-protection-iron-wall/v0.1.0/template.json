@@ -1,0 +1,44 @@
+{
+  "id": "sect_protection_iron_wall",
+  "name": "Mur de Fer",
+  "description": "Protection physique contre les intrus - créé une barrière énergétique infranchissable autour du domaine",
+  "icon": "iron_wall_icon",
+  "school": "physical",
+  "type": "buff",
+  "damage_type": "physical",
+  "mana_cost": 500,
+  "range": 0,
+  "cast_time": 5000,
+  "cooldown": 3600000,
+  "aoe": {
+    "enabled": true,
+    "radius": 50,
+    "damage_reduction": 1.0,
+    "max_targets": 1
+  },
+  "effects": [
+    {
+      "type": "aura",
+      "name": "Mur de Fer",
+      "description": "Protection physique renforcée contre les attaques extérieures",
+      "duration": 3600000,
+      "value": 0.5,
+      "stackable": false,
+      "dispellable": false
+    }
+  ],
+  "requirements": {
+    "level": 4,
+    "class": [
+      "guild_member"
+    ],
+    "talent_points": 0
+  },
+  "visual": {
+    "cast_animation": "iron_wall_cast",
+    "impact_effect": "iron_wall_aura"
+  },
+  "enabled": true,
+  "template_type": "sect",
+  "version": "0.1.0"
+}

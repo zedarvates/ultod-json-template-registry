@@ -1,0 +1,78 @@
+{
+  "id": "marksmanship_spell_0684",
+  "name": "Marksmanship Spell 0684",
+  "description": "Tire une Marksmanship Spell 0684 qui révèle tous les ennemis cachés dans une large zone",
+  "icon": "marksmanship_spell_0684_icon",
+  "school": "marksmanship",
+  "rarity": "common",
+  "spell_type": "anti_stealth_reveal_projectile",
+  "target_type": "area_effect",
+  "range": 60.0,
+  "cast_time": 1000,
+  "cooldown": 20000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "revealing_light_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "bright_revealing_illumination",
+      "value": 120,
+      "duration": 12000,
+      "tick_rate": 0,
+      "reveal_radius_bright_light": 25.0,
+      "stealth_detection_perfect": 100,
+      "invisibility_removal_force": true,
+      "light_damage_over_time": 30,
+      "temporary_blind_effect": 3000,
+      "hunter_tracking_extension": 5000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "bright_marksmanship_spell_0684_shot_arc_trajectory",
+    "explosion_effect": "brilliant_light_burst_expansion_wave",
+    "reveal_effect": "hidden_enemies_glowing_shimmer_reveal",
+    "damage_effect": "blinding_light_damage_continuous_pulse"
+  },
+  "sound_effects": {
+    "cast_effect": "marksmanship_spell_0684_launch_whoosh_ascending",
+    "explosion_effect": "bright_bang_light_explosion_pop",
+    "reveal_effect": "hidden_creatures_exposed_surprise_noise",
+    "damage_effect": "light_damage_continuous_humming_zap"
+  },
+  "requirements": {
+    "level": 16,
+    "skills": [
+      "marksmanship",
+      "anti_stealth"
+    ],
+    "classes": [
+      "hunter",
+      "scout_master"
+    ],
+    "specializations": [
+      "area_revealer"
+    ]
+  },
+  "upgrades": {
+    "greater_flare": {
+      "unlock_level": 26,
+      "description": "La Marksmanship Spell 0684 devient plus grande avec plus d'effets révélateurs et de dégâts",
+      "reveal_radius_double": 50.0,
+      "additional_effect_dispel_invisible": true,
+      "flare_duration_extended": 8000,
+      "multi_flare_burst_proc": 0.6
+    },
+    "legendary_flare": {
+      "unlock_level": 36,
+      "description": "La Marksmanship Spell 0684 atteint la légende avec des effets permanents et de révélation mystique",
+      "permanent_reveal_aura": 15.0,
+      "true_sight_reveal_invisible": true,
+      "flare_tracking_aftermath": 30000,
+      "globe_of_revelation_summon": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

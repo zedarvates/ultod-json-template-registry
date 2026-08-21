@@ -1,0 +1,291 @@
+{
+  "quest_chain_id": "temporal_mysteries_awakening",
+  "chain_name": "Les Mystères du Temps",
+  "description": "Une épopée complète qui guide les joueurs à travers l'apprentissage de la manipulation temporelle",
+  "total_quests": 5,
+  "quest_chain_type": "epic",
+  "unlock_requirements": {
+    "player_level_min": 30,
+    "prerequisite_quests": [
+      "temporal_disturbances",
+      "ancient_time_ruins"
+    ],
+    "skill_requirements": [
+      "magic_basics"
+    ],
+    "faction_requirements": []
+  },
+  "reward_multiplier": 1.5,
+  "quests": [
+    {
+      "quest_id": "temporal_student",
+      "name": "Étudiant du Temps",
+      "description": "Apprendre les bases de la manipulation temporelle",
+      "type": "training",
+      "difficulty": "easy",
+      "objectives": [
+        {
+          "objective_type": "talk_to_npc",
+          "target_npc": "chronomancer_mage",
+          "description": "Parler au Mage Chronomancien"
+        },
+        {
+          "objective_type": "learn_spell",
+          "spell_id": "temporal_strike",
+          "description": "Apprendre Frappe Temporelle"
+        },
+        {
+          "objective_type": "collect_item",
+          "item_id": "temporal_essence",
+          "quantity": 10,
+          "description": "Collecter 10 Essences Temporelles"
+        }
+      ],
+      "rewards": {
+        "experience": 1000,
+        "gold": 500,
+        "items": [
+          "temporal_student_manual",
+          "minor_time_crystal"
+        ],
+        "reputation": {
+          "faction": "chronomancers",
+          "amount": 10
+        }
+      }
+    },
+    {
+      "quest_id": "temporal_apprentice",
+      "name": "Apprenti Temporel",
+      "description": "Maîtriser les techniques de base du temps",
+      "type": "training",
+      "difficulty": "medium",
+      "objectives": [
+        {
+          "objective_type": "craft_item",
+          "profession": "master_chronomancer",
+          "recipe_id": "basic_temporal_enhancement",
+          "description": "Créer une Amélioration Temporelle Basique"
+        },
+        {
+          "objective_type": "defeat_monster",
+          "monster_id": "time_elemental",
+          "quantity": 1,
+          "description": "Vaincre un Élémentaire du Temps"
+        },
+        {
+          "objective_type": "use_spell",
+          "spell_id": "temporal_strike",
+          "quantity": 20,
+          "description": "Utiliser Frappe Temporelle 20 fois"
+        }
+      ],
+      "rewards": {
+        "experience": 2500,
+        "gold": 1000,
+        "items": [
+          "temporal_apprentice_robe",
+          "chronometer_basic"
+        ],
+        "unlocks": [
+          "temporal_rift_spell"
+        ],
+        "reputation": {
+          "faction": "chronomancers",
+          "amount": 25
+        }
+      }
+    },
+    {
+      "quest_id": "temporal_adept",
+      "name": "Adepte du Temps",
+      "description": "Apprendre les secrets des failles temporelles",
+      "type": "exploration",
+      "difficulty": "hard",
+      "objectives": [
+        {
+          "objective_type": "explore_location",
+          "location": "temporal_nexus",
+          "description": "Explorer le Nexus Temporel"
+        },
+        {
+          "objective_type": "use_spell",
+          "spell_id": "temporal_rift",
+          "quantity": 5,
+          "description": "Utiliser Faille Temporelle 5 fois"
+        },
+        {
+          "objective_type": "collect_item",
+          "item_id": "chronal_shard",
+          "quantity": 15,
+          "description": "Collecter 15 Éclats Chronaux"
+        }
+      ],
+      "rewards": {
+        "experience": 5000,
+        "gold": 2000,
+        "items": [
+          "temporalAdept_insignia",
+          "phase_shift_talisman"
+        ],
+        "unlocks": [
+          "chronosurge_spell"
+        ],
+        "reputation": {
+          "faction": "chronomancers",
+          "amount": 50
+        }
+      }
+    },
+    {
+      "quest_id": "temporal_master",
+      "name": "Maître du Temps",
+      "description": "Affronter les spectres du passé",
+      "type": "combat",
+      "difficulty": "epic",
+      "objectives": [
+        {
+          "objective_type": "defeat_monster",
+          "monster_id": "chronal_wraith",
+          "quantity": 1,
+          "description": "Vaincre un Spectre Chronal"
+        },
+        {
+          "objective_type": "survive_event",
+          "event_type": "temporal_haunting",
+          "duration": 300000,
+          "description": "Survivre à un Hantise Temporelle"
+        },
+        {
+          "objective_type": "craft_item",
+          "profession": "master_chronomancer",
+          "recipe_id": "temporal_amplifier",
+          "description": "Créer un Amplificateur Temporel"
+        }
+      ],
+      "rewards": {
+        "experience": 10000,
+        "gold": 5000,
+        "items": [
+          "temporal_master_cape",
+          "reality_anchor_device"
+        ],
+        "unlocks": [
+          "time_stop_spell",
+          "chronomancer_specialization"
+        ],
+        "reputation": {
+          "faction": "chronomancers",
+          "amount": 100
+        }
+      }
+    },
+    {
+      "quest_id": "temporal_sovereign",
+      "name": "Souverain Temporel",
+      "description": "Allier avec le Dragon Temporel",
+      "type": "epic",
+      "difficulty": "mythic",
+      "objectives": [
+        {
+          "objective_type": "reach_location",
+          "location": "temporal_sovereign_realm",
+          "description": "Atteindre le Royaume du Souverain Temporel"
+        },
+        {
+          "objective_type": "communicate_with_being",
+          "being_type": "temporal_dragon",
+          "description": "Communiquer avec le Dragon Temporel"
+        },
+        {
+          "objective_type": "prove_worthiness",
+          "test_type": "temporal_challenge",
+          "description": "Prouver sa valeur dans une Épreuve Temporelle"
+        },
+        {
+          "objective_type": "defend_realm",
+          "defend_against": "temporal_chaos_forces",
+          "duration": 600000,
+          "description": "Défendre le Royaume contre les Forces du Chaos Temporel"
+        }
+      ],
+      "rewards": {
+        "experience": 25000,
+        "gold": 10000,
+        "items": [
+          "temporal_sovereign_ring",
+          "time_mastery_crown",
+          "reality_shaper_staff"
+        ],
+        "title": "Maître du Temps",
+        "unlocks": [
+          "temporal_dragon_alliance",
+          "advanced_chronomancy"
+        ],
+        "reputation": {
+          "faction": "chronomancers",
+          "amount": 250
+        },
+        "special_rewards": [
+          "temporal_dragon_mount",
+          "reality_command_ability"
+        ]
+      }
+    }
+  ],
+  "chain_rewards": {
+    "completion_bonus": {
+      "experience": 50000,
+      "gold": 20000,
+      "unique_items": [
+        "temporal_sovereign_title",
+        "master_of_time_achievement"
+      ],
+      "permanent_bonuses": {
+        "temporal_spell_power": 0.2,
+        "time_manipulation_effectiveness": 0.15,
+        "temporal_resistance": 0.25
+      }
+    }
+  },
+  "integration_points": {
+    "profession_system": {
+      "unlocks_chronomancer_advancement": true,
+      "temporal_crafting_mastery": true
+    },
+    "monster_system": {
+      "unlocks_temporal_dragon_encounters": true,
+      "temporal_event_creation": true
+    },
+    "rift_system": {
+      "temporal_rift_events": true,
+      "time_distortion_challenges": true
+    },
+    "world_events": {
+      "temporal_crisis_events": true,
+      "reality_distortion_emergencies": true
+    }
+  },
+  "storyline_progression": {
+    "act_1": {
+      "theme": "L'Éveil du Pouvoir",
+      "focus": "Apprentissage des bases temporelles"
+    },
+    "act_2": {
+      "theme": "L'Exploration du Mystère",
+      "focus": "Maîtrise des techniques intermédiaires"
+    },
+    "act_3": {
+      "theme": "L'Affrontement du Passé",
+      "focus": "Combat contre les entités temporelles"
+    },
+    "act_4": {
+      "theme": "L'Alliance avec le Futur",
+      "focus": "Union avec le pouvoir ultime du temps"
+    }
+  },
+  "version": "0.1.0",
+  "id": "temporal_mysteries_awakening",
+  "name": "Temporal Mysteries Awakening",
+  "template_type": "quest"
+}

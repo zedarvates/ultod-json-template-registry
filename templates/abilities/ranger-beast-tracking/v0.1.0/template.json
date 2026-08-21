@@ -1,0 +1,68 @@
+{
+  "id": "ranger_beast_tracking",
+  "name": "Pistage des Bêtes",
+  "description": "Permet de détecter et suivre les traces des créatures dans un large rayon",
+  "icon": "beast_tracking_icon",
+  "category": "exploration",
+  "rarity": "uncommon",
+  "ability_type": "utility",
+  "target_type": "area",
+  "range": 50.0,
+  "cast_time": 2000,
+  "cooldown": 30000,
+  "resource_cost": {
+    "type": "focus",
+    "amount": 25
+  },
+  "effects": [
+    {
+      "effect_type": "creature_detection",
+      "value": 100,
+      "duration": 60000,
+      "scaling": {
+        "wisdom": 0.4
+      }
+    },
+    {
+      "effect_type": "track_reveal",
+      "value": 30,
+      "duration": 60000,
+      "scaling": {
+        "intelligence": 0.3
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "scent_trail",
+    "active_effect": "tracking_glow",
+    "reveal_effect": "creature_highlight"
+  },
+  "sound_effects": {
+    "cast_sound": "sniffing",
+    "active_sound": "tracking_hum",
+    "reveal_sound": "creature_detected"
+  },
+  "requirements": {
+    "level": 10,
+    "class": "ranger",
+    "skills": [
+      "beast_tracking"
+    ]
+  },
+  "upgrades": {
+    "master_tracker": {
+      "unlock_level": 25,
+      "description": "Détecte plus de créatures et révèle leurs niveaux",
+      "detection_bonus": 50,
+      "level_reveal": true
+    },
+    "beast_whisperer": {
+      "unlock_level": 40,
+      "description": "Peut temporairement calmer les créatures détectées",
+      "pacify_effect": true,
+      "pacify_duration": 10000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

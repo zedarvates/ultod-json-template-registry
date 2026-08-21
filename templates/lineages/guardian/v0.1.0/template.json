@@ -1,0 +1,49 @@
+{
+  "id": "guardian",
+  "name": "Gardien",
+  "description": "Protecteur naturel avec une résistance exceptionnelle",
+  "icon": "guardian_lineage",
+  "rarity": "rare",
+  "required_level": 15,
+  "awakening_cost": {
+    "mana": 180,
+    "health": 80,
+    "items": {
+      "earth_essence": 1,
+      "guardian_totem": 1
+    }
+  },
+  "stat_bonuses": {
+    "health": 20,
+    "strength": 10,
+    "dexterity": 0,
+    "intelligence": 0,
+    "wisdom": 5,
+    "charisma": 0
+  },
+  "resistance_bonuses": {
+    "physical": 15
+  },
+  "skill_bonuses": {
+    "defense": 0.3
+  },
+  "awakening_bonuses": {
+    "duration_minutes": 45,
+    "stat_multipliers": {
+      "health": 1.5,
+      "defense": 1.4
+    },
+    "special_effects": [
+      "barrier_field",
+      "damage_reduction_aura"
+    ]
+  },
+  "racial_synergies": {
+    "dwarf": 1.5,
+    "orc": 1.3,
+    "troll": 1.4
+  },
+  "enabled": true,
+  "template_type": "lineage",
+  "version": "0.1.0"
+}

@@ -1,0 +1,394 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-11-14",
+    "description": "RTS Events System - Dynamic world events, random occurrences, and narrative triggers",
+    "author": "UOVR Development Team",
+    "category": "RTS Systems",
+    "dependencies": [
+      "resources",
+      "units",
+      "terrain",
+      "quests"
+    ]
+  },
+  "event_categories": {
+    "economic": {
+      "description": "Events affecting resource discovery, markets, and economic conditions",
+      "color_code": "#FFD700",
+      "frequency_multiplier": 1.2
+    },
+    "military": {
+      "description": "Combat-related events, invasions, and military developments",
+      "color_code": "#DC143C",
+      "frequency_multiplier": 0.8
+    },
+    "magical": {
+      "description": "Supernatural occurrences, arcane discoveries, and magical phenomena",
+      "color_code": "#9370DB",
+      "frequency_multiplier": 0.6
+    },
+    "environmental": {
+      "description": "Weather, terrain, and ecological events",
+      "color_code": "#228B22",
+      "frequency_multiplier": 1.0
+    },
+    "narrative": {
+      "description": "Story-driven events that advance the campaign or provide context",
+      "color_code": "#8B4513",
+      "frequency_multiplier": 0.4
+    }
+  },
+  "events": {
+    "gold_rush": {
+      "id": "event_gold_rush",
+      "name": "Gold Rush Discovery",
+      "description": "A massive gold vein has been exposed in the mountains!",
+      "category": "economic",
+      "trigger_probability": 0.15,
+      "duration_seconds": 1800,
+      "global_event": true,
+      "effects": {
+        "resource_bonuses": {
+          "gold_mine": {
+            "yield_multiplier": 2.0,
+            "new_deposits": 3
+          }
+        },
+        "market_effects": {
+          "prospector_unit_available": true
+        }
+      },
+      "participation_bonuses": {
+        "mine_control": {
+          "gold_per_minute": 10,
+          "exclusive_claim": true
+        }
+      },
+      "consequences": {
+        "boom_town_grows": true,
+        "bandit_attractions": 0.3
+      }
+    },
+    "meteor_shower": {
+      "id": "event_meteor_shower",
+      "name": "Crystal Meteor Shower",
+      "description": "Rare crystal meteors rain down, scattering magical resources across the map",
+      "category": "magical",
+      "trigger_probability": 0.08,
+      "duration_seconds": 600,
+      "global_event": true,
+      "effects": {
+        "resource_drops": {
+          "crystal": {
+            "total_amount": 500,
+            "drop_locations": 8
+          },
+          "essence": {
+            "total_amount": 300,
+            "drop_locations": 12
+          }
+        },
+        "magical_anomalies": {
+          "mana_geyser": 3,
+          "portal_instability_areas": 2
+        }
+      },
+      "participation_bonuses": {
+        "first_collector": {
+          "bonus_crystal": 100,
+          "magical_artifact": true
+        }
+      },
+      "visual_effects": {
+        "sky_flash": true,
+        "ground_glow": true,
+        "particle_effects": "crystal_rain"
+      }
+    },
+    "siege_mentality": {
+      "id": "event_siege_mentality",
+      "name": "Impending Invasion",
+      "description": "Scouts report a massive enemy army approaching your borders",
+      "category": "military",
+      "trigger_probability": 0.1,
+      "duration_seconds": 3600,
+      "target_players": "random_selection",
+      "threat_level": "high",
+      "effects": {
+        "enemy_spawn": {
+          "types": [
+            "siege_units",
+            "elite_warriors"
+          ],
+          "count": 25,
+          "spawn_location": "border_zone"
+        },
+        "defensive_bonuses": {
+          "wall_damage_resistance": 0.2,
+          "repair_speed": 1.5,
+          "morale_boost": 20
+        },
+        "emergency_measures": {
+          "free_defensive_structures": 1,
+          "reinforcement_call": true
+        }
+      },
+      "survival_bonuses": {
+        "military_experience": 500,
+        "defensive_technology": true,
+        "hero_level_up": true
+      }
+    },
+    "drought_plague": {
+      "id": "event_drought_plague",
+      "name": "Great Drought",
+      "description": "A severe drought affects agricultural production across the region",
+      "category": "environmental",
+      "trigger_probability": 0.12,
+      "duration_seconds": 7200,
+      "area_effect": true,
+      "effects": {
+        "resource_penalties": {
+          "food_yield": 0.4,
+          "water_based_resources": 0.6
+        },
+        "terrain_changes": {
+          "grass_to_desert": "possible",
+          "water_features_reduce": 0.3
+        },
+        "population_effects": {
+          "growth_rate": 0.5,
+          "migration_incentive": true
+        }
+      },
+      "coping_mechanisms": {
+        "irrigation_projects": {
+          "cost_modifier": 0.8,
+          "effectiveness_multiplier": 1.2
+        },
+        "trading_food": {}
+      },
+      "end_conditions": {
+        "rain_event_probability": 0.2,
+        "magical_rain_ritual": true,
+        "time_based_recovery": 0.02
+      }
+    },
+    "ancient_ruins_discovery": {
+      "id": "event_ancient_ruins",
+      "name": "Ancient Technology Cache",
+      "description": "Explorers discover ancient ruins containing advanced technological artifacts",
+      "category": "narrative",
+      "trigger_probability": 0.06,
+      "duration_seconds": 0,
+      "trigger_location": "exploration_point",
+      "effects": {
+        "technology_unlocks": {
+          "random_tier_2_tech": true,
+          "artifact_research": true
+        },
+        "temporary_bonuses": {
+          "research_speed": 2.0,
+          "duration_hours": 48
+        },
+        "structure_creation": {
+          "research_lab": true,
+          "permanent_access": true
+        }
+      },
+      "exploration_requirements": {
+        "scout_patrol": true,
+        "exploration_quest": false
+      },
+      "story_integration": {
+        "lore_reveal": "Ancient Civilization",
+        "campaign_impact": 15
+      }
+    },
+    "rebel_uprising": {
+      "id": "event_rebel_uprising",
+      "name": "Peasant Rebellion",
+      "description": "Dissatisfied population rises up, creating internal conflict",
+      "category": "military",
+      "trigger_probability": 0.09,
+      "duration_seconds": 2400,
+      "internal_event": true,
+      "trigger_conditions": {
+        "happiness_threshold": 30,
+        "food_shortage": true,
+        "military_presence": {
+          "ratio": 0.1
+        }
+      },
+      "effects": {
+        "civilian_militia": {
+          "count": 15,
+          "morale": 80,
+          "combat_effectiveness": 0.7
+        },
+        "building_attacks": {
+          "target_priority": [
+            "town_center",
+            "barracks",
+            "farm"
+          ],
+          "damage_rate": 2
+        },
+        "economic_disruption": {
+          "production_penalty": 0.3,
+          "resource_losses": 0.2
+        }
+      },
+      "resolution_methods": {
+        "military_suppression": {
+          "cost": {
+            "gold": 300
+          },
+          "success_rate": 0.8,
+          "happiness_penalty": -20
+        },
+        "social_reforms": {
+          "cost": {
+            "gold": 500,
+            "food": 200
+          },
+          "success_rate": 0.9,
+          "long_term_happiness": 15
+        },
+        "hero_intervention": {
+          "cost": "mana",
+          "success_rate": 0.95,
+          "story_bonus": true
+        }
+      }
+    }
+  },
+  "event_sequences": {
+    "cataclysm_series": {
+      "name": "The Coming Storm",
+      "description": "A series of escalating environmental and magical disasters",
+      "sequence_events": [
+        {
+          "event": "minor_earthquake",
+          "delay_seconds": 0,
+          "warning_time_minutes": 30
+        },
+        {
+          "event": "mana_surge",
+          "delay_seconds": 3600,
+          "warning_time_minutes": 15
+        },
+        {
+          "event": "elemental_tempest",
+          "delay_seconds": 7200,
+          "warning_time_minutes": 60
+        }
+      ],
+      "progression_bonuses": {
+        "early_preparation": {
+          "defensive_bonuses": 0.25,
+          "resource_evaporation": null
+        },
+        "successful_response": {
+          "artifact_unlock": true,
+          "reputation_gain": 50
+        }
+      }
+    },
+    "golden_age_cycle": {
+      "name": "Era of Prosperity",
+      "description": "A period of peaceful development and technological advancement",
+      "sequence_events": [
+        {
+          "event": "trade_boom",
+          "delay_seconds": 0
+        },
+        {
+          "event": "cultural_blossom",
+          "delay_seconds": 86400
+        },
+        {
+          "event": "technological_leap",
+          "delay_seconds": 172800
+        }
+      ]
+    }
+  },
+  "seasonal_events": {
+    "harvesting_festival": {
+      "name": "Harvest Celebration",
+      "season": "autumn",
+      "effects": {
+        "food_production": 1.3,
+        "population_happiness": 20,
+        "trade_opportunities": 2
+      },
+      "special_features": {
+        "festival_grounds": true,
+        "special_quests": true,
+        "cultural_bonuses": 15
+      }
+    },
+    "winter_solstice": {
+      "name": "Winter Solstice Magic",
+      "season": "winter",
+      "effects": {
+        "mana_regeneration": 1.5,
+        "magical_events": 0.3,
+        "unit_healing": 0.2
+      },
+      "special_features": {
+        "aurora_display": true,
+        "crystal_growth": 1.2,
+        "festival_lights": true
+      }
+    }
+  },
+  "event_mechanics": {
+    "notification_system": {
+      "warning_levels": {
+        "minor": {
+          "advance_notice_seconds": 300,
+          "ui_indicator": "yellow"
+        },
+        "moderate": {
+          "advance_notice_seconds": 900,
+          "ui_indicator": "orange"
+        },
+        "major": {
+          "advance_notice_seconds": 1800,
+          "ui_indicator": "red"
+        },
+        "catastrophic": {
+          "advance_notice_seconds": 3600,
+          "ui_indicator": "purple"
+        }
+      }
+    },
+    "participation_system": {
+      "scoring_methods": {
+        "resource_contribution": 1.0,
+        "military_participation": 1.5,
+        "diplomatic_effort": 2.0,
+        "discovery_priority": 1.8
+      },
+      "reward_tiers": [
+        "participant",
+        "contributor",
+        "hero",
+        "legendary"
+      ]
+    },
+    "impact_measurement": {
+      "economic_impact": "gold_value",
+      "military_impact": "unit_effectiveness",
+      "social_impact": "popularity_change",
+      "strategic_impact": "territory_control"
+    }
+  },
+  "id": "events",
+  "name": "Events",
+  "template_type": "rt",
+  "version": "0.1.0"
+}

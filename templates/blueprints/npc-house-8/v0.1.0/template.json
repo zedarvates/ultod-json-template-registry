@@ -1,0 +1,759 @@
+{
+  "blueprint_id": "npc_house_8",
+  "name": "npc_house_8",
+  "lot": {
+    "width": 11,
+    "depth": 11,
+    "cell_size": 1,
+    "floor_height": 3
+  },
+  "floors": [
+    {
+      "level": 0,
+      "tiles": [
+        {
+          "x": 3,
+          "z": 2,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 4,
+          "z": 2,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 5,
+          "z": 2,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 6,
+          "z": 2,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 3,
+          "z": 3,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 4,
+          "z": 3,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 5,
+          "z": 3,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 6,
+          "z": 3,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 3,
+          "z": 4,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 4,
+          "z": 4,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 5,
+          "z": 4,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 6,
+          "z": 4,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 3,
+          "z": 5,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 4,
+          "z": 5,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 5,
+          "z": 5,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 6,
+          "z": 5,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 3,
+          "z": 6,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 4,
+          "z": 6,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 5,
+          "z": 6,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 6,
+          "z": 6,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 3,
+          "z": 7,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 4,
+          "z": 7,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 5,
+          "z": 7,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 6,
+          "z": 7,
+          "part_id": "sol_carrelage"
+        }
+      ],
+      "walls": [
+        {
+          "x": 3,
+          "z": 2,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 2,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 5,
+          "z": 2,
+          "edge": "N",
+          "part_id": "fenetre_ronde",
+          "stack": 0
+        },
+        {
+          "x": 5,
+          "z": 8,
+          "edge": "N",
+          "part_id": "porte_bois",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 2,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 2,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 2,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 3,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 3,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 4,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 4,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 5,
+          "edge": "W",
+          "part_id": "fenetre_ronde",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 5,
+          "edge": "W",
+          "part_id": "fenetre_ronde",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 6,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 6,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 7,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 7,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "tiles": [
+        {
+          "x": 3,
+          "z": 2,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 4,
+          "z": 2,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 5,
+          "z": 2,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 6,
+          "z": 2,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 3,
+          "z": 3,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 4,
+          "z": 3,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 5,
+          "z": 3,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 6,
+          "z": 3,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 3,
+          "z": 4,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 4,
+          "z": 4,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 5,
+          "z": 4,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 6,
+          "z": 4,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 3,
+          "z": 5,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 4,
+          "z": 5,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 5,
+          "z": 5,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 6,
+          "z": 5,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 3,
+          "z": 6,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 4,
+          "z": 6,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 5,
+          "z": 6,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 6,
+          "z": 6,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 3,
+          "z": 7,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 4,
+          "z": 7,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 5,
+          "z": 7,
+          "part_id": "sol_carrelage"
+        },
+        {
+          "x": 6,
+          "z": 7,
+          "part_id": "sol_carrelage"
+        }
+      ],
+      "walls": [
+        {
+          "x": 3,
+          "z": 2,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 2,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 5,
+          "z": 2,
+          "edge": "N",
+          "part_id": "fenetre_ronde",
+          "stack": 0
+        },
+        {
+          "x": 5,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 2,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 8,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 2,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 2,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 3,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 3,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 4,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 4,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 5,
+          "edge": "W",
+          "part_id": "fenetre_ronde",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 5,
+          "edge": "W",
+          "part_id": "fenetre_ronde",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 6,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 6,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 7,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 7,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        }
+      ]
+    }
+  ],
+  "roof": [
+    {
+      "x": 3,
+      "z": 2,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 4,
+      "z": 2,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 5,
+      "z": 2,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 2,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 3,
+      "z": 3,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 4,
+      "z": 3,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 5,
+      "z": 3,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 3,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 3,
+      "z": 4,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 4,
+      "z": 4,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 5,
+      "z": 4,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 4,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 3,
+      "z": 5,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 4,
+      "z": 5,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 5,
+      "z": 5,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 5,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 3,
+      "z": 6,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 4,
+      "z": 6,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 5,
+      "z": 6,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 6,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 3,
+      "z": 7,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 4,
+      "z": 7,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 5,
+      "z": 7,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 7,
+      "part_id": "toit_plat",
+      "rotation": 0
+    }
+  ],
+  "garden": [
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0,
+        0,
+        3
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0,
+        0,
+        4
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0,
+        0,
+        5
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "arbre_chene",
+      "position": [
+        -4,
+        0,
+        -4
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "arbre_chene",
+      "position": [
+        3,
+        0,
+        -4
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    }
+  ],
+  "style_id": "oasis_desertique",
+  "ornaments": [],
+  "props": [
+    {
+      "prop_id": "escalier_bois",
+      "x": 4,
+      "z": 3,
+      "floor": 0,
+      "rotation": 0
+    }
+  ],
+  "kind": "maison",
+  "id": "npc_house_8",
+  "template_type": "blueprint",
+  "version": "0.1.0"
+}

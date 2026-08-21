@@ -1,0 +1,46 @@
+{
+  "id": "abjuration_spell_1392",
+  "name": "Abjuration Spell 1392",
+  "description": "Une barrière invisible d'énergie magique apparaît et vous protège",
+  "icon": "abjuration_spell_1392_icon",
+  "school": "abjuration",
+  "rarity": "common",
+  "spell_type": "defense",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "defensive_barrier",
+      "value": 5,
+      "duration": 60000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "energy_abjuration_spell_1392"
+  },
+  "sound_effects": {
+    "cast_sound": "energy_hum"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "abjuration"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

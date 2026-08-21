@@ -377,42 +377,6 @@
         }
       }
     },
-    "admin_controls": {
-      "type": "object",
-      "properties": {
-        "enabled": {
-          "type": "boolean"
-        },
-        "admin_only": {
-          "type": "boolean"
-        },
-        "balancing_multipliers": {
-          "type": "object",
-          "properties": {
-            "damage_output": {
-              "type": "number",
-              "minimum": 0.1,
-              "maximum": 3.0
-            },
-            "cast_time": {
-              "type": "number",
-              "minimum": 0.1,
-              "maximum": 3.0
-            },
-            "cooldown": {
-              "type": "number",
-              "minimum": 0.1,
-              "maximum": 3.0
-            },
-            "mana_cost": {
-              "type": "number",
-              "minimum": 0.1,
-              "maximum": 3.0
-            }
-          }
-        }
-      }
-    },
     "vr_configuration": {
       "type": "object",
       "properties": {
@@ -421,15 +385,32 @@
           "properties": {
             "left_pose": {
               "type": "string",
-              "enum": ["open", "fist", "point", "pinch", "grab"]
+              "enum": [
+                "open",
+                "fist",
+                "point",
+                "pinch",
+                "grab"
+              ]
             },
             "right_pose": {
               "type": "string",
-              "enum": ["open", "fist", "point", "pinch", "grab"]
+              "enum": [
+                "open",
+                "fist",
+                "point",
+                "pinch",
+                "grab"
+              ]
             },
             "required_hand": {
               "type": "string",
-              "enum": ["left", "right", "both", "either"]
+              "enum": [
+                "left",
+                "right",
+                "both",
+                "either"
+              ]
             }
           }
         },
@@ -452,14 +433,6 @@
     "enabled": {
       "type": "boolean",
       "default": true
-    },
-    "admin_only": {
-      "type": "boolean",
-      "default": false
-    },
-    "debug_mode": {
-      "type": "boolean",
-      "default": false
     }
   },
   "id": "spell_schema"

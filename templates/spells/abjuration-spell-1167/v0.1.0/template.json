@@ -1,0 +1,67 @@
+{
+  "id": "abjuration_spell_1167",
+  "name": "Abjuration Spell 1167",
+  "description": "La peau de la cible devient aussi dure que la pierre",
+  "icon": "abjuration_spell_1167_icon",
+  "school": "abjuration",
+  "rarity": "rare",
+  "spell_type": "buff",
+  "target_type": "single_ally",
+  "range": 5.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "damage_absorption",
+      "value": 10,
+      "duration": 3600000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "max_absorption": 100,
+      "damage_types": [
+        "piercing",
+        "slashing",
+        "bludgeoning"
+      ]
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "stone_transformation",
+    "buff_effect": "rocky_skin"
+  },
+  "sound_effects": {
+    "cast_sound": "stone_crack",
+    "buff_sound": "armor_hardening"
+  },
+  "requirements": {
+    "level": 4,
+    "skills": [
+      "earth_magic",
+      "abjuration"
+    ],
+    "classes": [
+      "ranger",
+      "druid",
+      "wizard"
+    ]
+  },
+  "upgrades": {
+    "greater_stoneskin": {
+      "unlock_level": 7,
+      "description": "Absorbe jusqu'à 150 dégâts",
+      "max_absorption": 150
+    },
+    "diamondskin": {
+      "unlock_level": 13,
+      "description": "Résistance totale aux dégâts physiques",
+      "full_resistance": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

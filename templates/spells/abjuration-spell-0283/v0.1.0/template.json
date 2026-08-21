@@ -1,0 +1,81 @@
+{
+  "id": "abjuration_spell_0283",
+  "name": "Abjuration Spell 0283",
+  "description": "Expulse les esprits maléfiques et les démons de leur hôte ou de leur sanctuaire",
+  "icon": "abjuration_spell_0283_icon",
+  "school": "abjuration",
+  "rarity": "rare",
+  "spell_type": "spirit_banishing",
+  "target_type": "single_target",
+  "range": 25.0,
+  "cast_time": 5000,
+  "cooldown": 60000,
+  "mana_cost": 150,
+  "damage": {
+    "base_damage": 500,
+    "damage_type": "abjuration_spell_0283_pain",
+    "scaling": {
+      "charisma": 2.5,
+      "wisdom": 2.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "spirit_expulsion",
+      "value": 500,
+      "duration": 0,
+      "tick_rate": 0,
+      "spirit_damage_mult": 2.0,
+      "demonic_resistance_pierce": 0.5,
+      "exorcism_success_rate": 0.8,
+      "spirit_trap_prevention": true,
+      "purification_radius": 10.0,
+      "backlash_damage": 100
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "holy_ceremony_begin",
+    "exorcism_effect": "spirit_being_dragged_out",
+    "damage_effect": "holy_energy_torment",
+    "purify_effect": "golden_cleansing_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "sacred_ritual_incantation",
+    "exorcism_sound": "spirit_screaming_expulsion",
+    "damage_sound": "holy_torment_agonized_wails",
+    "purify_sound": "divine_peace_restoration"
+  },
+  "requirements": {
+    "level": 35,
+    "skills": [
+      "divine_magic",
+      "abjuration_spell_0283_rituals"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "spirit_banisher"
+    ]
+  },
+  "upgrades": {
+    "greater_exorcism": {
+      "unlock_level": 45,
+      "description": "Expulse plusieurs esprits à la fois et bannit dans un autre plan",
+      "multi_spirit_support": 3,
+      "planar_banishment": true,
+      "banishment_duration": "permanent"
+    },
+    "absolute_purification": {
+      "unlock_level": 55,
+      "description": "La purification devient si puissante qu'elle détruit les possédés incurables",
+      "destructive_purification": true,
+      "auto_exorcise_demons": true,
+      "holy_ground_permanent": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0721",
+  "name": "Illusion Spell 0721",
+  "description": "Crée des objets ou matériaux réel à partir du néant, transcendant les limites de l'illusion",
+  "icon": "illusion_spell_0721_icon",
+  "school": "illusion",
+  "rarity": "legendary",
+  "spell_type": "reality_manifestation_from_nothing",
+  "target_type": "creation_at_location",
+  "range": 20.0,
+  "cast_time": 5000,
+  "cooldown": 1800000,
+  "mana_cost": 500,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "reality_manipulation_backlash"
+  },
+  "effects": [
+    {
+      "effect_type": "material_creation_from_void_essence",
+      "value": 1000,
+      "duration": 0,
+      "tick_rate": 0,
+      "creation_mass_limit_kilograms": 100,
+      "creation_complexity_limit": "epic_items",
+      "reality_anchor_weakening": 0.1,
+      "creation_permanence_guarantee": 100,
+      "mana_cost_permanence_bond": true,
+      "dimensional_essence_drain": 200
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "void_energy_swirling_cosmic_matter_gathering",
+    "creation_effect": "object_materializing_star_forming_spectacular",
+    "manifestation_effect": "reality_rippling_creation_energy_waves",
+    "bond_effect": "permanent_creation_glowing_cosmic_anchoring"
+  },
+  "sound_effects": {
+    "cast_effect": "cosmic_energy_whirling_universe_creation_hum",
+    "creation_effect": "matter_densifying_superior_materialization",
+    "manifestation_effect": "reality_crackling_essence_creation_pulse",
+    "bond_effect": "permanent_anchoring_cosmic_stability_vibration"
+  },
+  "requirements": {
+    "level": 80,
+    "skills": [
+      "illusion_magic",
+      "reality_weaving"
+    ],
+    "classes": [
+      "illusionist",
+      "cosmic_creator"
+    ],
+    "specializations": [
+      "reality_artisan"
+    ]
+  },
+  "upgrades": {
+    "greater_true_creation": {
+      "unlock_level": 90,
+      "description": "La Illusion Spell 0721 devient plus grande avec des chefs-d'œuvre vivants et des réalités entières",
+      "living_creature_manifestation": true,
+      "pocket_dimension_creation": true,
+      "reality_layer_modification": true,
+      "cosmic_artifact_forging": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

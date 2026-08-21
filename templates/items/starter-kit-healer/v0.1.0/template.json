@@ -1,0 +1,73 @@
+{
+  "id": "starter_kit_healer",
+  "name": "Kit de Depart Pretre/Healer",
+  "description": "Pack soigneur: baton, robe, potions de soin/mana et grimoire de base.",
+  "icon": "starter_kit_healer",
+  "category": "container",
+  "rarity": "common",
+  "item_type": "kit",
+  "sub_type": "starter_kit",
+  "base_stats": {
+    "durability": 1,
+    "max_durability": 1,
+    "weight": 4.0,
+    "value": 340
+  },
+  "kit_properties": {
+    "kit_type": "starter",
+    "auto_equip": true,
+    "one_time_use": true,
+    "consumable": true,
+    "target_class": "healer",
+    "min_level": 1,
+    "max_level": 5
+  },
+  "contained_items": [
+    {
+      "item_id": "training_staff",
+      "quantity": 1
+    },
+    {
+      "item_id": "mage_robe",
+      "quantity": 1
+    },
+    {
+      "item_id": "minor_health_potion",
+      "quantity": 12
+    },
+    {
+      "item_id": "mana_potion",
+      "quantity": 8
+    },
+    {
+      "item_id": "spellbook_basic",
+      "quantity": 1
+    },
+    {
+      "item_id": "recall_stone_basic",
+      "quantity": 1
+    },
+    {
+      "item_id": "bread",
+      "quantity": 8
+    },
+    {
+      "item_id": "gold_pieces",
+      "quantity": 130
+    }
+  ],
+  "properties": {
+    "stackable": false,
+    "consumable": true,
+    "tradeable": false,
+    "sellable": false,
+    "soulbound": true
+  },
+  "requirements": {
+    "level": 1,
+    "class": "healer",
+    "new_player_only": true
+  },
+  "version": "0.1.0",
+  "template_type": "item"
+}

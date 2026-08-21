@@ -1,0 +1,72 @@
+{
+  "id": "spiritual_spell_0898",
+  "name": "Spiritual Spell 0898",
+  "description": "Invoque une aura karmique qui retourne une portion des dégâts subis à l'attaquant pendant une durée limitée",
+  "icon": "spiritual_spell_0898_icon",
+  "school": "spiritual",
+  "rarity": "uncommon",
+  "spell_type": "damage_reflection_aura",
+  "target_type": "self_buff",
+  "range": 0.0,
+  "cast_time": 1500,
+  "cooldown": 90000,
+  "mana_cost": 65,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "karmic_reflection_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "karmic_damage_reflection_aura",
+      "value": 180,
+      "duration": 12000,
+      "tick_rate": 0,
+      "damage_reflection_percent": 50,
+      "reflection_cap_per_hit": 100,
+      "aura_radius_retaliation": 25.0,
+      "karma_energy_link_strength": 0.8,
+      "retaliation_stacking_limit": 5,
+      "reflection_damage_type_mirror": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "karmic_energy_red_orbs_circular_karma_runes_golden_energy",
+    "active_effect": "aura_red_golden_tendrils_damage_returned_retaliatory_beams",
+    "reflection_effect": "damage_absorbed_reflected_attacker_golden_karma_beam_back",
+    "expire_effect": "karma_energy_fading_returned_harmony_golden_orb_dissolution"
+  },
+  "sound_effects": {
+    "cast_effect": "karmic_energy_gathering_runic_chanting_karma_circle_formation",
+    "active_effect": "aura_humming_retaliation_energy_redistributing_balance",
+    "reflection_effect": "damage_reflected_karma_beam_whoosh_impact_retaliatory_ping",
+    "expire_effect": "karma_circle_dissolution_harmonic_balance_restoration_fading_chime"
+  },
+  "requirements": {
+    "level": 24,
+    "skills": [
+      "karmic_manipulation",
+      "retaliation_arts",
+      "chi_energy_conduit"
+    ],
+    "classes": [
+      "monk",
+      "karma_warrior",
+      "retribution_paladin"
+    ],
+    "specializations": [
+      "karmic_retaliator"
+    ]
+  },
+  "upgrades": {
+    "greater_touch_of_karma": {
+      "unlock_level": 34,
+      "description": "Le Spiritual Spell 0898 devient plus puissant avec des réflexions accrues et des effets karmiques",
+      "reflection_percentage_increase": 75,
+      "reflection_cap_per_hit_increase": 50,
+      "aura_radius_extension": 15.0,
+      "karma_energy_bouncing_damage": 0.5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

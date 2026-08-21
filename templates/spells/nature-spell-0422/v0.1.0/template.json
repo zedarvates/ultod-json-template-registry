@@ -1,0 +1,81 @@
+{
+  "id": "nature_spell_0422",
+  "name": "Nature Spell 0422",
+  "description": "Se transforme en une créature sauvage pour combattre avec fureur",
+  "icon": "nature_spell_0422_icon",
+  "school": "nature",
+  "rarity": "rare",
+  "spell_type": "transformation",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 2000,
+  "cooldown": 180000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "physical",
+    "scaling": {
+      "wisdom": 0.0,
+      "vitality": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "transformation",
+      "value": 1.0,
+      "duration": 45000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "transformation_type": "nature_spell_0422_beast"
+    },
+    {
+      "effect_type": "stat_increase",
+      "value": 0.5,
+      "duration": 45000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "stat_type": "strength"
+    },
+    {
+      "effect_type": "natural_armor",
+      "value": 0.4,
+      "duration": 45000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "nature_energy_swirl",
+    "transform_effect": "nature_spell_0422_beast_transformation",
+    "aura_effect": "natural_fury"
+  },
+  "sound_effects": {
+    "cast_sound": "nature_spell_0422_roar",
+    "transform_sound": "beast_transformation",
+    "aura_sound": "nature_wind"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [],
+    "classes": [
+      "druid"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_wild_morph": {
+      "unlock_level": 35,
+      "description": "Nature Spell 0422 dure plus longtemps et augmente plus les statistiques",
+      "duration_extension": 10000,
+      "stat_bonus": 0.2
+    },
+    "wild_morph_mastery": {
+      "unlock_level": 45,
+      "description": "Nature Spell 0422 peut prendre différentes formes",
+      "multiple_forms": true,
+      "healing_bonus": 0.3
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

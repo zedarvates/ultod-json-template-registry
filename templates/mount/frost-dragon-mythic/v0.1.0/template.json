@@ -1,0 +1,39 @@
+{
+  "id": "frost_dragon_mythic",
+  "name": "Dragon de Givre Mythique",
+  "description": "Une créature légendaire capable de fendre les cieux et de geler ses ennemis d'un simple souffle.",
+  "rarity": "mythic",
+  "base_stats": {
+    "speed_bonus": 25.0,
+    "stamina": 500,
+    "flight_energy": 300,
+    "can_fly": true
+  },
+  "visuals": {
+    "particle_effects": [
+      "ice_trail",
+      "frost_aura"
+    ],
+    "scale": 1.2
+  },
+  "requirements": {
+    "min_level": 60,
+    "renown_rank": 5
+  },
+  "abilities": [
+    {
+      "name": "Souffle de Glace",
+      "type": "combat",
+      "damage": 150,
+      "element": "frost"
+    },
+    {
+      "name": "Accélération Spectrale",
+      "type": "utility",
+      "speed_multiplier": 2.0,
+      "duration": 5.0
+    }
+  ],
+  "template_type": "mount",
+  "version": "0.1.0"
+}

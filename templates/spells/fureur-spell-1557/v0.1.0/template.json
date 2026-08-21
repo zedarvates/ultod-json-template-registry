@@ -1,0 +1,81 @@
+{
+  "id": "fureur_spell_1557",
+  "name": "Fureur Spell 1557",
+  "description": "Le guerrier ignore sa sécurité, augmentant drastiquement ses dégâts mais aussi les dégâts reçus",
+  "icon": "fureur_spell_1557_icon",
+  "school": "fureur",
+  "rarity": "rare",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 300000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.0,
+      "rage": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage_buff",
+      "value": 1.0,
+      "duration": 12000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "critical_strike_chance_buff",
+      "value": 0.5,
+      "duration": 12000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "damage_taken_increase",
+      "value": 0.4,
+      "duration": 12000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "reckless_charge",
+    "projectile_effect": "none",
+    "impact_effect": "reckless_aura",
+    "trail_effect": "dangerous_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "reckless_laugh",
+    "impact_sound": "none"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "fury"
+    ]
+  },
+  "upgrades": {
+    "improved_recklessness": {
+      "unlock_level": 26,
+      "description": "Augmente les bonus de dégâts et de coup critique de Fureur Spell 1557 de 25%",
+      "damage_buff_bonus": 0.25,
+      "crit_chance_bonus": 0.1
+    },
+    "recklessness_mastery": {
+      "unlock_level": 36,
+      "description": "Fureur Spell 1557 dure plus longtemps et réduit légèrement les dégâts reçus",
+      "duration_extension": 3000,
+      "damage_taken_reduction": 0.1
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

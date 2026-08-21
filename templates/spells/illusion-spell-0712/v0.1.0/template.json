@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0712",
+  "name": "Illusion Spell 0712",
+  "description": "Emprisonne la cible dans un Illusion Spell 0712 extra-dimensionnel infini où le temps s'écoule différemment",
+  "icon": "illusion_spell_0712_icon",
+  "school": "illusion",
+  "rarity": "legendary",
+  "spell_type": "extra_dimensional_imprisonment",
+  "target_type": "single_enemy_trapping",
+  "range": 60.0,
+  "cast_time": 3000,
+  "cooldown": 180000,
+  "mana_cost": 200,
+  "damage": {
+    "base_damage": 100,
+    "damage_type": "dimensional_illusion_spell_0712_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "infinite_labyrinth_containment",
+      "value": 600,
+      "duration": 300000,
+      "tick_rate": 5000,
+      "instantaneous_dimension_shift": true,
+      "infinite_maze_path_generation": true,
+      "reality_time_dilation": 0.1,
+      "escape_difficulty_impossible": 99,
+      "mental_fatigue_wear": 20,
+      "illusion_reality_bleed": 15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "reality_tearing_portal_swirling_dimensions",
+    "imprisonment_effect": "victim_sucked_through_portal_motor_skills_lost",
+    "maze_effect": "victim_running_through_illusory_corridors_panicking",
+    "release_effect": "dimension_collapting_victim_reejected_into_reality"
+  },
+  "sound_effects": {
+    "cast_effect": "reality_rending_screeching_portal_opening",
+    "imprisonment_effect": "victim_screams_dimensional_transport_echoes",
+    "maze_effect": "distant_running_footsteps_echoing_illusion_spell_0712_confusion",
+    "release_effect": "dimensional_rending_victim_thud_reality_return"
+  },
+  "requirements": {
+    "level": 55,
+    "skills": [
+      "illusion_magic",
+      "dimensional_manipulation"
+    ],
+    "classes": [
+      "illusionist",
+      "reality_architect"
+    ],
+    "specializations": [
+      "dimensional_trapper"
+    ]
+  },
+  "upgrades": {
+    "greater_maze": {
+      "unlock_level": 65,
+      "description": "Le Illusion Spell 0712 devient plus grand avec des dimensions multiples et des pièges mentaux",
+      "multi_layered_dimensions": 5,
+      "psychological_traps_manifest": true,
+      "time_acceleration_options": 10.0,
+      "maze_intelligence_adaptive": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

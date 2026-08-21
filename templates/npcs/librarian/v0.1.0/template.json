@@ -1,0 +1,101 @@
+{
+  "id": "librarian",
+  "name": "Bibliothécaire",
+  "description": "Gardien des connaissances anciennes, offrant des livres rares et des informations historiques",
+  "icon": "librarian_icon",
+  "category": "scholar",
+  "awareness": {
+    "enabled": true,
+    "cognitive_level": "summary",
+    "initial_lod": "ordinary",
+    "initial_yaw_radians": 0.0,
+    "senses": {
+      "vision_range": 22.0,
+      "hearing_range": 18.0,
+      "tactile_sensitivity": 0.5
+    },
+    "attention": {
+      "capacity": 8,
+      "max_visual_candidates": 20,
+      "max_occlusion_rays": 4
+    },
+    "values": {
+      "nonviolence": 0.9,
+      "fairness": 0.8,
+      "loyalty": 0.6,
+      "honor": 0.8,
+      "compassion": 0.7,
+      "reciprocity": 0.6
+    },
+    "personal_norms": {
+      "property_rights": 0.9,
+      "nonviolence": 0.9,
+      "anti_coercion": 0.8,
+      "dignity": 0.9,
+      "reciprocity": 0.6
+    },
+    "initial_goals": {
+      "self_preservation": 0.7,
+      "possessions": 0.4,
+      "social_standing": 0.6,
+      "protect_others": 0.5,
+      "preserve_order": 0.8,
+      "affiliation": 0.5
+    },
+    "reaction_policy": {
+      "threat_response": "seek_guard",
+      "may_defend": false,
+      "may_retaliate": false
+    }
+  },
+  "rarity": "uncommon",
+  "dialogue": {
+    "greetings": [
+      "Bienvenue dans le sanctuaire du savoir.",
+      "Les pages de l'histoire vous attendent.",
+      "Que cherchez-vous dans ces volumes anciens?"
+    ],
+    "farewells": [
+      "Que la connaissance vous éclaire.",
+      "Revenez quand vous chercherez plus de sagesse.",
+      "Les livres vous attendront."
+    ],
+    "no_info": [
+      "Cette connaissance est encore scellée.",
+      "Il vous faut prouver votre valeur.",
+      "Certains secrets doivent rester cachés."
+    ],
+    "info_revealed": [
+      "Ah, vous êtes prêt pour cette révélation.",
+      "Cette connaissance pourrait changer votre destinée.",
+      "Utilisez cette information avec sagesse."
+    ]
+  },
+  "available_knowledge": [
+    "ancient_history",
+    "magical_lore",
+    "monster_weaknesses",
+    "lost_civilizations",
+    "prophecies"
+  ],
+  "ai_behavior": {
+    "personality": "wise_scholar",
+    "interaction_style": "educational",
+    "helpfulness_level": 0.8,
+    "knowledge_requirement": "quest_completion"
+  },
+  "schedule": {
+    "active_hours": "10:00-18:00",
+    "reading_hours": "6:00-10:00",
+    "meditation_hours": "18:00-22:00"
+  },
+  "services": {
+    "knowledge_sharing": true,
+    "book_loans": true,
+    "research_assistance": true,
+    "translation_services": true,
+    "lore_consultation": true
+  },
+  "version": "0.1.0",
+  "template_type": "npc"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "animal_creature_0100",
+  "name": "Animal Creature 0100",
+  "description": "Canidé domestique loyal et protecteur, excellent compagnon et gardien",
+  "icon": "animal_creature_0100_icon",
+  "category": "animal",
+  "rarity": "common",
+  "base_stats": {
+    "health": 70,
+    "mana": 20,
+    "strength": 14,
+    "dexterity": 14,
+    "intelligence": 12,
+    "wisdom": 14,
+    "constitution": 16,
+    "charisma": 18
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_wild": false,
+    "size": "medium",
+    "speed": 9.0
+  },
+  "loot_table": {
+    "common_drops": [],
+    "rare_drops": [
+      "animal_creature_0100_fur"
+    ],
+    "epic_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "low",
+    "attack_pattern": "defensive_bark",
+    "special_abilities": [
+      "bark",
+      "guard",
+      "fetch"
+    ]
+  },
+  "abilities": [
+    "bite",
+    "bark"
+  ],
+  "resistances": {
+    "physical": 12
+  },
+  "weaknesses": [
+    "cats",
+    "poison"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

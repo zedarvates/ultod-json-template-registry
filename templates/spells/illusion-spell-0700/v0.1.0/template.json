@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0700",
+  "name": "Illusion Spell 0700",
+  "description": "Permet à l'illusionniste de lire les pensées superficielles de la cible et de découvrir ses intentions",
+  "icon": "illusion_spell_0700_icon",
+  "school": "illusion",
+  "rarity": "common",
+  "spell_type": "superficial_telepathy_peek",
+  "target_type": "single_target_intellect_scan",
+  "range": 30.0,
+  "cast_time": 1000,
+  "cooldown": 20000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "mind_reading_intrusion"
+  },
+  "effects": [
+    {
+      "effect_type": "surface_thought_telepathic_reading",
+      "value": 120,
+      "duration": 15000,
+      "tick_rate": 0,
+      "thought_reading_accuracy": 75,
+      "intention_revelation_guarantee": 90,
+      "memory_fragment_disclosure": 50,
+      "mental_fatigue_to_caster": 20,
+      "mind_shield_detection_alert": true,
+      "false_thought_planting": 0.2
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "psionic_energy_whispers_mind_connection",
+    "reading_effect": "thought_symbols_appearing_visual_thought_bubbles",
+    "discovery_effect": "intention_revealing_symbolic_manifestations",
+    "alert_effect": "mind_shield_rippling_mental_barricade_illusion_spell_0700ion"
+  },
+  "sound_effects": {
+    "cast_effect": "psionic_whisp_elemental_connection_established",
+    "reading_effect": "thought_audio_symbols_voices_fragments",
+    "discovery_effect": "intention_audio_symbols_revealed_bell",
+    "alert_effect": "mental_shield_alert_ripple_ping_illusion_spell_0700ion"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "illusion_magic",
+      "telepathic_sensitivity"
+    ],
+    "classes": [
+      "illusionist",
+      "mind_reader"
+    ],
+    "specializations": [
+      "thought_seeker"
+    ]
+  },
+  "upgrades": {
+    "greater_detect_thoughts": {
+      "unlock_level": 30,
+      "description": "La Illusion Spell 0700 devient plus grande avec une lecture profonde et une manipulation",
+      "deep_memory_access": true,
+      "thought_manipulation_capability": true,
+      "mass_thought_reading": 6,
+      "mental_image_projection": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

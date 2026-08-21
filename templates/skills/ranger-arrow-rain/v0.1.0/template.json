@@ -1,0 +1,107 @@
+{
+  "id": "ranger_arrow_rain",
+  "name": "Arrow Rain",
+  "class": "Ranger",
+  "type_principal": "physical_attack",
+  "sous_types": [
+    "aoe",
+    "stun"
+  ],
+  "description": "Rains arrows down in an area, dealing damage and stunning enemies",
+  "icon": "arrow_rain_icon",
+  "base_damage": 2000,
+  "damage_multiplier": 1.0,
+  "critical_chance": 0.05,
+  "critical_multiplier": 2.0,
+  "super_armor_break": 20,
+  "resource_cost": {
+    "mana": 300
+  },
+  "cast_time": 0,
+  "cooldown": 120,
+  "range": 20,
+  "targeting": {
+    "type_cible": "area",
+    "max_cibles": 6,
+    "zone": {
+      "shape": "circle",
+      "radius": 4
+    },
+    "conditions_ciblage": []
+  },
+  "effects": [
+    {
+      "type": "aoe_damage",
+      "damage_type": "physical",
+      "value": 2000,
+      "scaling": {
+        "attack_power": 1.0
+      },
+      "can_crit": true
+    },
+    {
+      "type": "stun",
+      "duration": 2,
+      "value": 100
+    }
+  ],
+  "specializations": [
+    {
+      "id": "increased_aoe",
+      "name": "Wider Rain",
+      "description": "Increases the area of effect",
+      "conditions": {
+        "level": 25
+      },
+      "modifications": {
+        "targeting": {
+          "max_cibles": 8,
+          "zone": {
+            "radius": 5
+          }
+        }
+      }
+    },
+    {
+      "id": "longer_stun",
+      "name": "Extended Stun",
+      "description": "Increases stun duration",
+      "conditions": {
+        "level": 30
+      },
+      "modifications": {
+        "effects": [
+          {
+            "operation": "modify",
+            "effect": {
+              "type": "stun",
+              "duration": 3
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ranger_cast_glow",
+    "area_effect": "arrow_rain_zone",
+    "impact_effect": "arrow_rain_impacts"
+  },
+  "sound_effects": {
+    "cast_sound": "bow_draw_massive",
+    "impact_sound": "arrows_raining"
+  },
+  "balancing": {
+    "pvp_multipliers": {
+      "damage": 0.85,
+      "cooldown": 1.2
+    },
+    "pve_multipliers": {
+      "damage": 1.0,
+      "cooldown": 1.0
+    }
+  },
+  "version": "0.1.0",
+  "last_updated": "2025-11-21T14:16:45Z",
+  "template_type": "skill"
+}

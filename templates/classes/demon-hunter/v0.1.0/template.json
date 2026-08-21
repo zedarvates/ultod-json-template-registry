@@ -1,0 +1,79 @@
+{
+  "id": "demon_hunter",
+  "name": "Demon Hunter",
+  "description": "A vengeful warrior who hunts demons using fel magic and martial prowess",
+  "color": "A330C9",
+  "primary_resource": "fury",
+  "base_stats": {
+    "strength": 18,
+    "agility": 18,
+    "intelligence": 10,
+    "vitality": 14,
+    "wisdom": 8,
+    "charisma": 12
+  },
+  "specializations": [
+    "havoc",
+    "vengeance"
+  ],
+  "starting_skills": [
+    {
+      "id": 12001,
+      "name": "Chaos Strike",
+      "description": "Strike with fel energy, dealing chaos damage",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 5.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 12002,
+      "name": "Fel Rush",
+      "description": "Rush forward with fel energy",
+      "cooldown": 10000,
+      "mana_cost": 0,
+      "range": 15.0,
+      "cast_time": 0,
+      "learned_at_level": 4,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 120001,
+            "name": "Felblade",
+            "description": "Increases critical strike chance by 5%",
+            "max_rank": 3,
+            "icon_path": "talents/demon_hunter/felblade.png"
+          },
+          {
+            "id": 120002,
+            "name": "Soul Rending",
+            "description": "Increases damage by 3%",
+            "max_rank": 5,
+            "icon_path": "talents/demon_hunter/soul_rending.png"
+          },
+          {
+            "id": 120003,
+            "name": "Demonic",
+            "description": "Increases haste by 5%",
+            "max_rank": 3,
+            "icon_path": "talents/demon_hunter/demonic.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100,
+  "health_modifier": 1.0,
+  "damage_modifier": 1.15,
+  "armor_modifier": 0.8,
+  "template_type": "class",
+  "version": "0.1.0"
+}

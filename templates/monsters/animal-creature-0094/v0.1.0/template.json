@@ -1,0 +1,62 @@
+{
+  "id": "animal_creature_0094",
+  "name": "Animal Creature 0094",
+  "description": "Grand prédateur omnivore extrêmement puissant et territorial",
+  "icon": "animal_creature_0094_icon",
+  "category": "animal",
+  "rarity": "rare",
+  "base_stats": {
+    "health": 400,
+    "mana": 50,
+    "strength": 45,
+    "dexterity": 15,
+    "intelligence": 10,
+    "wisdom": 15,
+    "constitution": 50,
+    "charisma": 8
+  },
+  "properties": {
+    "is_aggressive": true,
+    "is_wild": true,
+    "size": "large",
+    "speed": 6.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "animal_creature_0094_pelt",
+      "animal_creature_0094_meat"
+    ],
+    "rare_drops": [
+      "animal_creature_0094_claw",
+      "animal_creature_0094_fang"
+    ],
+    "epic_drops": [
+      "animal_creature_0094_heart"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "high",
+    "attack_pattern": "territorial_charge",
+    "special_abilities": [
+      "maul",
+      "roar",
+      "hibernate"
+    ]
+  },
+  "abilities": [
+    "claw_swipe",
+    "bite",
+    "animal_creature_0094_hug",
+    "roar"
+  ],
+  "resistances": {
+    "physical": 35,
+    "cold": 30
+  },
+  "weaknesses": [
+    "fire",
+    "lightning"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

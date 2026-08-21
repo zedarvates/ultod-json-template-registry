@@ -1,0 +1,54 @@
+{
+  "id": "administration_spell_0033",
+  "name": "Administration Spell 0033",
+  "description": "[ADMIN ONLY] Instantly administration_spell_0033 any object, item, corpse, or entity from the game world",
+  "icon": "admin_administration_spell_0033_icon",
+  "school": "administration",
+  "rarity": "epic",
+  "spell_type": "world_editing",
+  "target_type": "object_target",
+  "range": 50.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "administrative_deletion"
+  },
+  "effects": [
+    {
+      "effect_type": "instant_world_object_deletion",
+      "value": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "any_object_deletable": true,
+      "permanent_removal": true,
+      "no_loot_dropped": true,
+      "server_log_deletion_event": true,
+      "undo_possible": false
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "deletion_energy_beam_target_dissolution",
+    "deletion_effect": "object_vanishing_into_nothing_vaporization",
+    "success_effect": "confirmation_vortex_admin_authority_stamp",
+    "ground_effect": "particles_remaining_quick_dissipation"
+  },
+  "sound_effects": {
+    "cast_effect": "reality_editing_energy_beam_charge_powerful",
+    "deletion_effect": "object_dissolution_unmaking_cracking_energy",
+    "success_effect": "successful_deletion_echo_admin_confirmation",
+    "ground_effect": "particle_dissipation_final_echo_fizzle"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "gamemaster",
+      "overseer",
+      "celestial_avatar"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "premium_starter_bundle",
+  "name": "Premium Starter Bundle",
+  "description": "Pack premium de conversion: cosmetique + utilitaires + bonus gems (achat gems).",
+  "icon": "premium_starter_bundle",
+  "category": "container",
+  "rarity": "rare",
+  "item_type": "kit",
+  "sub_type": "premium_starter",
+  "base_stats": {
+    "durability": 1,
+    "max_durability": 1,
+    "weight": 2.0,
+    "value": 0
+  },
+  "kit_properties": {
+    "kit_type": "premium",
+    "auto_equip": false,
+    "one_time_use": true,
+    "consumable": true,
+    "target_class": "any",
+    "min_level": 1,
+    "max_level": 100
+  },
+  "contained_items": [
+    {
+      "item_id": "travel_pack",
+      "quantity": 1
+    },
+    {
+      "item_id": "recall_stone_basic",
+      "quantity": 2
+    },
+    {
+      "item_id": "healing_potion",
+      "quantity": 10
+    },
+    {
+      "item_id": "mana_potion",
+      "quantity": 10
+    }
+  ],
+  "properties": {
+    "stackable": false,
+    "consumable": true,
+    "tradeable": false,
+    "sellable": false,
+    "soulbound": true
+  },
+  "requirements": {
+    "level": 1
+  },
+  "version": "0.1.0",
+  "template_type": "item"
+}

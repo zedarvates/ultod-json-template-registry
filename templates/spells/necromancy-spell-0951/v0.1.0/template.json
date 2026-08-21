@@ -1,0 +1,74 @@
+{
+  "id": "necromancy_spell_0951",
+  "name": "Necromancy Spell 0951",
+  "description": "Transforme le nécromancien en necromancy_spell_0951 immortel, liant son âme à un phylactère nécromantique pour une éternelle longévité",
+  "icon": "necromancy_spell_0951_icon",
+  "school": "necromancy",
+  "rarity": "legendary",
+  "spell_type": "soul_binding_immortality",
+  "target_type": "self_transformation",
+  "range": 0.0,
+  "cast_time": 10000,
+  "cooldown": 86400000,
+  "mana_cost": 500,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "dark_transformation_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "necromancy_spell_0951_transformation_achievement",
+      "value": 1000,
+      "duration": 0,
+      "tick_rate": 0,
+      "phylactery_immortality_achieved": true,
+      "physical_body_destruction_possible": true,
+      "soul_binding_phylactery_created": true,
+      "necrotic_regeneration_unlimited": true,
+      "lich_power_amplification_tenfold": true,
+      "death_magic_supremacy": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "powerful_dark_transformation_caster_ascending_power_soul_energy_surging",
+    "transformation_effect": "body_writhing_dark_energy_bones_exposed_flesh_deteriorating_soul_chained",
+    "lich_effect": "necromancy_spell_0951_form_emerging_white_bone_skeletal_body_dark_energy_whirling_eyelights_glow",
+    "phylactery_effect": "phylactery_crystal_forming_glowing_dark_orb_bind_soul_essence_forever",
+    "achievement_effect": "necromancy_spell_0951_ascended_eternal_dark_magic_surges_power_radiating_forever"
+  },
+  "sound_effects": {
+    "cast_effect": "dark_transformation_energy_surging_soul_energy_lifting_ascending",
+    "transformation_effect": "body_deteriorating_flesh_sloughing_bone_crunching_soul_painful_raising",
+    "lich_effect": "necromancy_spell_0951_emerged_dark_energy_whirling_bone_clanking_power_rising",
+    "phylactery_effect": "phylactery_crystal_forming_glowing_soul_binding_eternal_click_mm",
+    "achievement_effect": "necromancy_spell_0951_eternal_achievement_dark_chorus_soul_bound_necromantic_chanting"
+  },
+  "requirements": {
+    "level": 60,
+    "skills": [
+      "necromancy",
+      "soul_binding",
+      "immortality_rituals"
+    ],
+    "classes": [
+      "necromancer",
+      "undead_master",
+      "dark_archmage"
+    ],
+    "specializations": [
+      "necromancy_spell_0951_ascension_path"
+    ]
+  },
+  "upgrades": {
+    "greater_lich_phylactery": {
+      "unlock_level": 80,
+      "description": "Le Necromancy Spell 0951 devient plus puissant avec des capacités immortelles améliorées",
+      "phylactery_reinforcement_infinite": true,
+      "lich_power_amplification_twentifold": true,
+      "reality_phylactery_anchor_creation": true,
+      "universal_dark_magic_dominion": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

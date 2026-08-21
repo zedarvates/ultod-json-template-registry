@@ -1,0 +1,80 @@
+{
+  "id": "evoker",
+  "name": "Evoker",
+  "description": "A draconic sorcerer who commands the power of the five flights",
+  "color": "33937F",
+  "primary_resource": "mana",
+  "base_stats": {
+    "strength": 12,
+    "agility": 14,
+    "intelligence": 18,
+    "vitality": 14,
+    "wisdom": 16,
+    "charisma": 16
+  },
+  "specializations": [
+    "devastation",
+    "preservation",
+    "augmentation"
+  ],
+  "starting_skills": [
+    {
+      "id": 13001,
+      "name": "Azure Strike",
+      "description": "Strike with azure energy, dealing nature damage",
+      "cooldown": 0,
+      "mana_cost": 200,
+      "range": 25.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 13002,
+      "name": "Living Flame",
+      "description": "Blast an enemy with living flame",
+      "cooldown": 0,
+      "mana_cost": 300,
+      "range": 25.0,
+      "cast_time": 2000,
+      "learned_at_level": 4,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 130001,
+            "name": "Energy Loop",
+            "description": "Increases mana regeneration by 10%",
+            "max_rank": 3,
+            "icon_path": "talents/evoker/energy_loop.png"
+          },
+          {
+            "id": 130002,
+            "name": "Panacea",
+            "description": "Increases healing by 5%",
+            "max_rank": 5,
+            "icon_path": "talents/evoker/panacea.png"
+          },
+          {
+            "id": 130003,
+            "name": "Tyranny",
+            "description": "Increases damage by 3%",
+            "max_rank": 5,
+            "icon_path": "talents/evoker/tyranny.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100000,
+  "health_modifier": 1.0,
+  "damage_modifier": 1.1,
+  "armor_modifier": 0.85,
+  "template_type": "class",
+  "version": "0.1.0"
+}

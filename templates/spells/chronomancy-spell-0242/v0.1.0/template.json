@@ -1,0 +1,83 @@
+{
+  "id": "chronomancy_spell_0242",
+  "name": "Chronomancy Spell 0242",
+  "description": "Crée des pièges temporels invisibles qui ralentissent et endommagent les ennemis qui marchent dessus",
+  "icon": "chronomancy_spell_0242_icon",
+  "school": "chronomancy",
+  "rarity": "uncommon",
+  "spell_type": "chronomancy_spell_0242s",
+  "target_type": "trap_field",
+  "range": 40.0,
+  "cast_time": 2200,
+  "cooldown": 18000,
+  "mana_cost": 55,
+  "damage": {
+    "base_damage": 150,
+    "damage_type": "chronomancy_spell_0242_assault",
+    "scaling": {
+      "intelligence": 1.3,
+      "wisdom": 1.2
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "invisible_time_traps",
+      "value": 100,
+      "duration": 45000,
+      "tick_rate": 0,
+      "trap_count": 8,
+      "trap_radius": 1.5,
+      "trigger_slow": 0.7,
+      "trap_damage": 150,
+      "temporal_feedback_stun": 0.4,
+      "trap_respawn_rate": 0.2
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "chronomancy_spell_0242_runes_glow",
+    "trap_effect": "invisible_time_distortion",
+    "trigger_effect": "chronomancy_spell_0242_explosion_burst",
+    "damage_effect": "chronal_energy_sparks"
+  },
+  "sound_effects": {
+    "cast_sound": "chronomancy_spell_0242_setting_whisper",
+    "trap_sound": "invisible_time_hum",
+    "trigger_sound": "chronomancy_spell_0242_explosion_crack",
+    "damage_sound": "chronal_feedback_sizzle"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "chronomancy",
+      "chronomancy_spell_0242s",
+      "trap_setting"
+    ],
+    "classes": [
+      "chronomancer",
+      "time_mage",
+      "chronomancy_spell_0242ist"
+    ],
+    "specializations": [
+      "tempor_trickster",
+      "chronal_engineer"
+    ]
+  },
+  "upgrades": {
+    "clockwork_mines": {
+      "unlock_level": 30,
+      "description": "Les pièges deviennent plus nombreux et plus dévastateurs",
+      "trap_count_bonus": 5,
+      "damage_multiplier": 1.5,
+      "slow_strength_bonus": 0.2
+    },
+    "dimensional_traps": {
+      "unlock_level": 40,
+      "description": "Les pièges peuvent téléporter les ennemis dans le temps",
+      "time_jump_traps": true,
+      "temporal_displacement": 10,
+      "trap_reuse_after_jump": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

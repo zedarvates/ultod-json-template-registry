@@ -1,0 +1,78 @@
+{
+  "id": "enchantment_spell_0437",
+  "name": "Enchantment Spell 0437",
+  "description": "Crée un Enchantment Spell 0437 magique qui bloque les projectiles et ralentit les ennemis approchant",
+  "icon": "enchantment_spell_0437_icon",
+  "school": "enchantment",
+  "rarity": "rare",
+  "spell_type": "energy_barrier_field",
+  "target_type": "area_around_self",
+  "range": 15.0,
+  "cast_time": 2500,
+  "cooldown": 25000,
+  "mana_cost": 75,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "enchantment_spell_0437_barrier_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "kinetic_energy_deflection_zone",
+      "value": 250,
+      "duration": 40000,
+      "tick_rate": 1000,
+      "barrier_radius": 15.0,
+      "projectile_deflection_perfect": true,
+      "enemy_movement_slow": 60,
+      "damage_reflection_chance": 0.25,
+      "force_field_thickness": 100,
+      "anti_magic_barrier_strength": 0.3
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "energy_particles_coalescing_enchantment_spell_0437_dome",
+    "active_effect": "shimmering_enchantment_spell_0437_bubble_deflecting_impacts",
+    "damage_effect": "enchantment_spell_0437_shockwave_pushing_back_attacker",
+    "expire_effect": "enchantment_spell_0437_dome_dissipating_energy_disperse"
+  },
+  "sound_effects": {
+    "cast_effect": "kinetic_energy_coalescing_crystal_hum",
+    "active_effect": "deflection_shock_absorption_ping_pong",
+    "damage_effect": "enchantment_spell_0437_impact_attenuation_muffled_thud",
+    "expire_effect": "energy_dispersion_electric_fizz_fade"
+  },
+  "requirements": {
+    "level": 30,
+    "skills": [
+      "arcane_magic",
+      "energy_manipulation"
+    ],
+    "classes": [
+      "enchanter",
+      "barrier_caster"
+    ],
+    "specializations": [
+      "kinetic_defender"
+    ]
+  },
+  "upgrades": {
+    "reinforced_force_field": {
+      "unlock_level": 40,
+      "description": "Le Enchantment Spell 0437 est renforcé et peut repousser les ennemis automatiquement",
+      "auto_repulsion_force": 10.0,
+      "barrier_damage_increase": 200,
+      "sixty_percent_immunity_magical": true,
+      "field_stability_doubled": true
+    },
+    "absolute_force_domination": {
+      "unlock_level": 50,
+      "description": "Le champ devient une domination absolue de l'énergie environnante",
+      "spell_damage_absorption": 0.5,
+      "reality_warping_field": true,
+      "force_based_teleportation": true,
+      "energy_vortex_creation": 0.4
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

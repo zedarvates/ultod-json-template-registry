@@ -1,0 +1,79 @@
+{
+  "id": "necromancy_spell_0313",
+  "name": "Necromancy Spell 0313",
+  "description": "Lance une spirale d'énergie nécrotique qui draine la vie des ennemis ou guérit les alliés morts-vivants",
+  "icon": "necromancy_spell_0313_icon",
+  "school": "necromancy",
+  "rarity": "common",
+  "spell_type": "necrotic_missile",
+  "target_type": "single_enemy",
+  "range": 45.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 180,
+    "damage_type": "necrotic_draining",
+    "scaling": {
+      "unholy_power": 1.5,
+      "frost_resonance": 0.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "necrotic_spiral",
+      "value": 180,
+      "duration": 0,
+      "tick_rate": 0,
+      "drain_damage": 180,
+      "drain_to_self": true,
+      "cooldown_reset_chance": 0.3,
+      "unholy_burst": true,
+      "rune_power_generate": 20
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necrotic_spiral_form",
+    "damage_effect": "green_necromancy_spell_0313_energy_drain",
+    "drain_effect": "life_force_absorb_trails",
+    "empower_effect": "necromancy_spell_0313_knight_energy_boost"
+  },
+  "sound_effects": {
+    "cast_sound": "coiling_necromancy_spell_0313_whisper",
+    "damage_sound": "necrotic_damage_insidious",
+    "drain_sound": "life_force_extraction",
+    "empower_sound": "unholy_power_rush"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "necromancy",
+      "necromancy_spell_0313_magic"
+    ],
+    "classes": [
+      "necromancy_spell_0313_knight",
+      "necromancer_lord"
+    ],
+    "specializations": [
+      "coil_master"
+    ]
+  },
+  "upgrades": {
+    "accelerated_death": {
+      "unlock_level": 10,
+      "description": "Le voile se lance plus rapidement et draine plus de puissance runique",
+      "cast_time_reduction": 300,
+      "rune_power_increase": 15,
+      "drain_efficiency": 1.2
+    },
+    "death_coil_storm": {
+      "unlock_level": 20,
+      "description": "Créé une tempête de voiles qui touchent plusieurs cibles",
+      "chain_lightning_style": true,
+      "max_chain_targets": 3,
+      "chain_damage_multiplier": 0.7
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

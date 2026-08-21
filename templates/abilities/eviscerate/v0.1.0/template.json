@@ -1,0 +1,32 @@
+{
+  "id": "eviscerate",
+  "name": "Éviscération",
+  "description": "L'attaque finale qui consomme les points de combo pour infliger des dégâts massifs",
+  "type": "ability",
+  "class_restriction": [
+    "rogue"
+  ],
+  "level_requirement": 6,
+  "resource_cost": {
+    "type": "energy",
+    "amount": 35
+  },
+  "cooldown_seconds": 0,
+  "range": 5.0,
+  "effects": [
+    {
+      "type": "damage_finisher",
+      "damage_type": "physical",
+      "base_damage": 100,
+      "scaling": {
+        "strength": 0.0,
+        "dexterity": 2.0,
+        "intelligence": 0.0,
+        "level": 1.0
+      },
+      "armor_penetration": 0.1
+    }
+  ],
+  "template_type": "ability",
+  "version": "0.1.0"
+}

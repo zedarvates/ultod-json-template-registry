@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0699",
+  "name": "Illusion Spell 0699",
+  "description": "Endort une zone entière d'ennemis dans un sommeil magique profond et impossible à interrompre",
+  "icon": "illusion_spell_0699_icon",
+  "school": "illusion",
+  "rarity": "rare",
+  "spell_type": "mass_sleep_induction",
+  "target_type": "area_effect_sleep",
+  "range": 40.0,
+  "cast_time": 3000,
+  "cooldown": 60000,
+  "mana_cost": 100,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "unconscious_magic_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "uninterruptable_mass_slumber_induction",
+      "value": 300,
+      "duration": 30000,
+      "tick_rate": 0,
+      "sleep_aura_radius": 15.0,
+      "max_targets_affected": 10,
+      "sleep_duration_fixed": 30000,
+      "wake_resistance_maximum": true,
+      "dream_state_protection": true,
+      "mass_hypnosis_component": 0.3
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "peaceful_energy_spreading_sandman_dust_zone",
+    "sleep_effect": "peaceful_slumber_ripples_spreading_targets_falling",
+    "dream_effect": "peaceful_dream_clouds_hovering_sleepers",
+    "awake_effect": "groggy_awakening_target_confused_orientation"
+  },
+  "sound_effects": {
+    "cast_effect": "peaceful_whispers_spreading_sandman_lullaby",
+    "sleep_effect": "peaceful_snores_body_falls_asleep_plop",
+    "dream_effect": "soft_dream_whispers_hovering_mystical",
+    "awake_effect": "groggy_stirs_confused_mutterings_yes_no"
+  },
+  "requirements": {
+    "level": 32,
+    "skills": [
+      "illusion_magic",
+      "hypnotic_induction"
+    ],
+    "classes": [
+      "illusionist",
+      "dream_weaver"
+    ],
+    "specializations": [
+      "hypnotic_master"
+    ]
+  },
+  "upgrades": {
+    "greater_deep_slumber": {
+      "unlock_level": 42,
+      "description": "Le Illusion Spell 0699 devient plus grand affectant plus de cibles avec des rêves contrôlés",
+      "sleep_radius_double": 30.0,
+      "max_targets_triple": true,
+      "dreams_controlled_by_caster": true,
+      "eternal_sleep_choice": 0.1
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

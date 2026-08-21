@@ -1,0 +1,65 @@
+{
+  "id": "evocation_spell_1157",
+  "name": "Evocation Spell 1157",
+  "description": "Une colonne verticale de feu divin frappe le sol",
+  "icon": "evocation_spell_1157_icon",
+  "school": "evocation",
+  "rarity": "rare",
+  "spell_type": "area_damage",
+  "target_type": "area_explosion",
+  "range": 60.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 40,
+    "damage_type": "fire"
+  },
+  "effects": [
+    {
+      "effect_type": "divine_strike",
+      "value": 30,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "strike_radius": 5.0,
+      "strike_height": 40.0,
+      "burning_duration": 10000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "evocation_spell_1157_column_summon",
+    "area_effect": "blazing_fire"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_bell",
+    "damage_sound": "fire_roar"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "fire_magic",
+      "divine_magic"
+    ],
+    "classes": [
+      "ranger",
+      "druid",
+      "cleric"
+    ]
+  },
+  "upgrades": {
+    "greater_flame": {
+      "unlock_level": 9,
+      "description": "Dégâts doublés et rayon augmenté",
+      "damage_multiplier": 2.0,
+      "strike_radius": 8.0
+    },
+    "heavenly_flame": {
+      "unlock_level": 15,
+      "description": "Ignorent la résistance au feu",
+      "ignore_fire_resistance": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

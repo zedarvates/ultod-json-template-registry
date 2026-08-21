@@ -1,0 +1,80 @@
+{
+  "id": "evocation_spell_0282",
+  "name": "Evocation Spell 0282",
+  "description": "Déchaîne la colère evocation_spell_0282 sous forme d'une colonne de lumière destructrice",
+  "icon": "evocation_spell_0282_icon",
+  "school": "evocation",
+  "rarity": "rare",
+  "spell_type": "evocation_spell_0282_damage",
+  "target_type": "single_enemy",
+  "range": 35.0,
+  "cast_time": 2500,
+  "cooldown": 18000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 450,
+    "damage_type": "smite_damage",
+    "scaling": {
+      "charisma": 2.0,
+      "wisdom": 1.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "evocation_spell_0282_smite_column",
+      "value": 450,
+      "duration": 0,
+      "tick_rate": 0,
+      "smite_area_radius": 6.0,
+      "holy_damage_applies": true,
+      "judgment_proc_chance": 0.3,
+      "knee_weakening": 0.5,
+      "divine_recoil": 50
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "heavenly_beam_gathering",
+    "damage_effect": "blinding_holy_light_column",
+    "area_effect": "evocation_spell_0282_energy_ground_explosion",
+    "judgment_effect": "condemnation_judgment_runes"
+  },
+  "sound_effects": {
+    "cast_sound": "gathering_wrath_thunder",
+    "damage_sound": "heaven_striking_smite",
+    "area_sound": "holy_ground_quake_rumble",
+    "judgment_sound": "condemnation_verdict_boom"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "evocation_spell_0282_magic",
+      "smite"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "wrathbringer"
+    ]
+  },
+  "upgrades": {
+    "heaven_fury": {
+      "unlock_level": 28,
+      "description": "Le courroux frappe plusieurs ennemis à la fois",
+      "chain_smite": true,
+      "chain_targets": 3,
+      "chain_damage_falloff": 0.7
+    },
+    "divine_reckoning": {
+      "unlock_level": 38,
+      "description": "Le dernier ennemi vivant dans la zone est jugé et exécuté",
+      "final_judgment": true,
+      "judgment_damage": 1000,
+      "judgment_delay": 3000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

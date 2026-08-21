@@ -1,0 +1,79 @@
+{
+  "id": "survival_spell_0679",
+  "name": "Survival Spell 0679",
+  "description": "Le chasseur se fond dans l'environnement naturel, devenant très difficile à détecter",
+  "icon": "survival_spell_0679_icon",
+  "school": "survival",
+  "rarity": "uncommon",
+  "spell_type": "environmental_stealth",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 2000,
+  "cooldown": 30000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "nature_blending_stealth"
+  },
+  "effects": [
+    {
+      "effect_type": "natural_environment_merging",
+      "value": 180,
+      "duration": 30000,
+      "tick_rate": 0,
+      "stealth_detection_reduction": 0.85,
+      "outdoor_only_bonus": true,
+      "movement_speed_penalty": 60,
+      "attack_speed_maintenance": 0.4,
+      "spell_cast_interruption_full": true,
+      "nature_element_synergy": 0.3,
+      "regeneration_during_stealth": 10
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "body_blending_leaves_bark_rock_appear",
+    "active_effect": "partial_transparency_nature_matching",
+    "reveal_effect": "survival_spell_0679_breaking_colors_return",
+    "damage_effect": "stealth_broken_surprise_attack_available"
+  },
+  "sound_effects": {
+    "cast_effect": "nature_blending_leaves_rustle_disappear",
+    "active_effect": "soft_nature_sounds_blend_background",
+    "reveal_effect": "survival_spell_0679_shatter_reveal_sound_burst",
+    "damage_effect": "surprise_attack_impact_extra_loud"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "stealth",
+      "nature_adaptation"
+    ],
+    "classes": [
+      "hunter",
+      "wilderness_rogue"
+    ],
+    "specializations": [
+      "survival_spell_0679_expert"
+    ]
+  },
+  "upgrades": {
+    "greater_camouflage": {
+      "unlock_level": 30,
+      "description": "Le survival_spell_0679 devient plus grand avec une meilleure fusion et des effets bonus",
+      "stealth_perfection_guarantee": true,
+      "urban_environment_adaptation": true,
+      "camouflaged_preparation_buff": 50,
+      "group_camouflage_extension": 8.0
+    },
+    "legendary_camouflage": {
+      "unlock_level": 40,
+      "description": "Le survival_spell_0679 atteint la légende avec des capacités mystiques et des attaques surprises",
+      "phase_through_objects": true,
+      "perfect_surprise_attack": 150,
+      "enemy_detection_radius": 25.0,
+      "nature_avatar_transformation": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "necromancy_spell_0938",
+  "name": "Necromancy Spell 0938",
+  "description": "Anime les cadavres à proximité pour créer des serviteurs undead obéissants qui combattent pour vous",
+  "icon": "necromancy_spell_0938_icon",
+  "school": "necromancy",
+  "rarity": "rare",
+  "spell_type": "corpse_animation_summon",
+  "target_type": "area_corpse_target",
+  "range": 20.0,
+  "cast_time": 3000,
+  "cooldown": 25000,
+  "mana_cost": 75,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "necrotic_summon_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "undead_servant_creation",
+      "value": 180,
+      "duration": 120000,
+      "tick_rate": 0,
+      "corpse_animation_radius": 20.0,
+      "maximum_servant_count": 4,
+      "undead_combat_level": 0.6,
+      "necrotic_damage_dealt": 35,
+      "corpse_durability_restored": 85,
+      "command_loyalty_bond": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necrotic_energy_gathering_black_swirling_vortex_ground_crack_runes",
+    "animation_effect": "corpses_rising_dark_energy_black_mist_bone_crunching_reanimation",
+    "servant_effect": "undead_minions_glowing_red_eyes_dark_aura_dark_mist_trail",
+    "expiration_effect": "undead_servants_collapsing_bones_scattering_dark_energy_dissipating"
+  },
+  "sound_effects": {
+    "cast_effect": "necrotic_whispers_gathering_dark_wind_blow_ominous_chanting",
+    "animation_effect": "bones_rattling_crunching_reanimation_groaning_undead_awakening",
+    "servant_effect": "undead_movement_bone_grinding_dark_heavy_footsteps_metal_clanking",
+    "expiration_effect": "bones_cracking_collapsing_dark_energy_whisper_final_sigh_expiring"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "necromancy",
+      "corpse_manipulation",
+      "undead_lore"
+    ],
+    "classes": [
+      "necromancer",
+      "death_priest",
+      "grave_lord"
+    ],
+    "specializations": [
+      "corpse_animator"
+    ]
+  },
+  "upgrades": {
+    "greater_animate_dead": {
+      "unlock_level": 35,
+      "description": "L'Necromancy Spell 0938 devient plus puissante avec des serviteurs améliorés et plus nombreux",
+      "maximum_servant_increase": 8,
+      "undead_combat_modifier": 1.5,
+      "necrotic_damage_boost": 50,
+      "corpse_quality_preservation": 95
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

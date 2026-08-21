@@ -1,0 +1,70 @@
+{
+  "id": "armes_spell_1237",
+  "name": "Armes Spell 1237",
+  "description": "Une coupure rapide qui ignore une partie des défenses",
+  "icon": "armes_spell_1237_icon",
+  "school": "armes",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 10000,
+  "mana_cost": 8,
+  "damage": {
+    "base_damage": 100,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 0.7,
+      "strength": 0.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "armor_penetration",
+      "value": 15,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "quick_strike",
+    "projectile_effect": "none",
+    "impact_effect": "armor_pierce",
+    "trail_effect": "armes_spell_1237_blur"
+  },
+  "sound_effects": {
+    "cast_sound": "slice_sound",
+    "impact_sound": "pierce_hit"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "razor_sharp": {
+      "unlock_level": 10,
+      "description": "Augmente la pénétration d'armure de 10%",
+      "armor_pen_bonus": 1.5
+    },
+    "lightning_reaction": {
+      "unlock_level": 22,
+      "description": "Peut être utilisée plus fréquemment",
+      "cooldown_reduction": 3000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "necromancy_spell_0324",
+  "name": "Necromancy Spell 0324",
+  "description": "Lève les défunts autour du death knight pour en faire des goules serviteurs obéissants",
+  "icon": "necromancy_spell_0324_icon",
+  "school": "necromancy",
+  "rarity": "common",
+  "spell_type": "undead_summon",
+  "target_type": "area_effect",
+  "range": 20.0,
+  "cast_time": 2500,
+  "cooldown": 30000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "unholy_summon"
+  },
+  "effects": [
+    {
+      "effect_type": "ghoul_raising",
+      "value": 200,
+      "duration": 120000,
+      "tick_rate": 0,
+      "ghoul_count": 2,
+      "ghoul_health": 400,
+      "ghoul_damage": 60,
+      "ghoul_duration": 120000,
+      "necromantic_control": true,
+      "corpse_requirement": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "unholy_ritual_circle",
+    "rise_effect": "bodies_rising_skeletal",
+    "summon_effect": "glowing_ghoul_reanimation",
+    "active_effect": "ghouls_patrol_pattern"
+  },
+  "sound_effects": {
+    "cast_sound": "necrotic_chant_ominous",
+    "rise_sound": "bones_crunching_reanimation",
+    "summon_sound": "ghoul_howl_first_summon",
+    "active_sound": "ghoul_patrol_scraping"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "necromancy",
+      "unholy_summoning"
+    ],
+    "classes": [
+      "death_knight",
+      "lich_lord"
+    ],
+    "specializations": [
+      "ghoul_master"
+    ]
+  },
+  "upgrades": {
+    "master_ghouls": {
+      "unlock_level": 18,
+      "description": "Les goules sont plus fortes et peuvent exploiter les faiblesses des vivants",
+      "ghoul_damage_bonus": 30,
+      "vital_strike_chance": 0.2,
+      "undead_mastery": true
+    },
+    "death_pact_ghouls": {
+      "unlock_level": 28,
+      "description": "Les goules explosent à leur mort pour protéger leur maître",
+      "ghoul_death_explosion": 150,
+      "explosion_radius": 8.0,
+      "protective_burst_heal": 100
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

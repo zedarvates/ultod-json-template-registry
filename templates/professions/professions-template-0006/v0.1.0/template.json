@@ -1,0 +1,178 @@
+{
+  "profession": "adapted_reference_tailor",
+  "display_name": "Grand Couturier d'adapted_reference",
+  "description": "Maître tailleur d'Atreia, créant des tenues magiques et des équipements textiles infusés d'énergie aethérique",
+  "icon_path": "icons/professions/adapted_reference_tailor.png",
+  "category": "adapted_reference_crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "chanter_healing_robes",
+      "name": "Robes de Guérison du Chanteur",
+      "description": "Robes sacrées portées par les Chanteurs du Sanctuaire, augmentant les pouvoirs de soins",
+      "profession": "adapted_reference_tailor",
+      "difficulty": 82,
+      "base_success_rate": 0.48,
+      "skill_required": 72,
+      "experience_gain": 110,
+      "exceptional_chance": 0.16,
+      "time_required_seconds": 540,
+      "components": [
+        {
+          "item_type": "silk_divine",
+          "quantity": 25,
+          "quality_required": "rare",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "moonlight_silver_thread",
+          "quantity": 15,
+          "quality_required": "excellent",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "chanter_embroidery",
+          "quantity": 8,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "holy_water_crystals",
+          "quantity": 5,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "healing_rune_stitch",
+          "quantity": 3,
+          "quality_required": "rare",
+          "rarity_required": "rare"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "chanter_healing_robes",
+          "name": "Robes de Guérison du Chanteur +0",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.6,
+          "durability_modifier": 1.8,
+          "max_enchant_level": 18,
+          "magical_effects": [
+            "Healing Power +15%",
+            "Mana Recovery +10"
+          ]
+        }
+      ],
+      "conditions": {
+        "profession_level": 65,
+        "required_tools": [
+          "divine_needle",
+          "chanter_sewing_kit",
+          "silk_weaving_loom"
+        ],
+        "environmental_factors": [
+          "sanctuary_harmony"
+        ]
+      }
+    },
+    {
+      "id": "assassin_shadow_cape",
+      "name": "Cape des Ombres de l'Assassin",
+      "description": "Cape légendaire permettant la furtivité parfaite et l'assassinat dans l'ombre de l'Abîme",
+      "profession": "adapted_reference_tailor",
+      "difficulty": 98,
+      "base_success_rate": 0.28,
+      "skill_required": 92,
+      "experience_gain": 220,
+      "exceptional_chance": 0.26,
+      "time_required_seconds": 1260,
+      "components": [
+        {
+          "item_type": "shadow_silk_elysea",
+          "quantity": 40,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "abyss_dark_thread",
+          "quantity": 20,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "assassin_night_stone",
+          "quantity": 12,
+          "quality_required": "excellent",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "blood_of_ancient_assassin",
+          "quantity": 3,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "stealth_illusion_crystal",
+          "quantity": 8,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "void_stitching_needle",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "assassin_shadow_cape",
+          "name": "Cape des Ombres de l'Assassin",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 3.8,
+          "durability_modifier": 4.5,
+          "max_enchant_level": 28,
+          "legendary_effects": [
+            "Perfect Stealth",
+            "Shadow Step",
+            "Critical Strike +50%"
+          ],
+          "passive_abilities": [
+            "Detection Immunity",
+            "Backstab Mastery"
+          ],
+          "set_bonus": "Assassin Master Set"
+        }
+      ],
+      "conditions": {
+        "profession_level": 90,
+        "required_tools": [
+          "archon_sewing_masterpiece",
+          "void_thread_spindle"
+        ],
+        "environmental_factors": [
+          "abyss_darkness",
+          "assassin_temple_presence"
+        ]
+      }
+    }
+  ],
+  "specializations": [
+    "chanter_robe_crafting",
+    "sorcerer_illusion_cloth",
+    "spiritmaster_elemental_weave",
+    "assassin_shadow_garments"
+  ],
+  "masterwork_bonuses": {
+    "magical_imbuing": 35,
+    "stitching_precision": 40,
+    "material_preservation": 25,
+    "legendary_embroidery_success": 50
+  },
+  "id": "professions_template_0006",
+  "name": "Professions Template 0006",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "spiritual_guidance",
+  "name": "Guidance Spirituelle",
+  "description": "Augmente votre puissance des sorts en fonction de votre esprit (sagesse)",
+  "max_rank": 5,
+  "prerequisites": [],
+  "effects_per_rank": [
+    {
+      "type": "wisdom_to_spell_power",
+      "value": 0.05
+    }
+  ],
+  "template_type": "talent",
+  "version": "0.1.0"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "frostbolt",
+  "name": "Frostbolt",
+  "description": "Launch a bolt of frost",
+  "type": "active",
+  "level_requirement": 1,
+  "class_restriction": [],
+  "resource_cost": {
+    "type": "mana",
+    "amount": 10
+  },
+  "cooldown_seconds": 5,
+  "range": 10.0,
+  "effects": [],
+  "template_type": "ability",
+  "version": "0.1.0"
+}

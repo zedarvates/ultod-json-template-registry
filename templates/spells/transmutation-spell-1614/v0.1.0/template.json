@@ -1,0 +1,47 @@
+{
+  "id": "transmutation_spell_1614",
+  "name": "Transmutation Spell 1614",
+  "description": "Ralentit le temps pour vos ennemis pendant un court instant",
+  "icon": "transmutation_spell_1614_icon",
+  "school": "transmutation",
+  "rarity": "epic",
+  "spell_type": "control",
+  "target_type": "area",
+  "range": 18.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 75,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 9.0
+  },
+  "effects": [
+    {
+      "effect_type": "slow_transmutation_spell_1614",
+      "value": 50,
+      "duration": 8000,
+      "tick_rate": 0,
+      "wisdom_save": true,
+      "save_dc": 16
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "transmutation_spell_1614_distortion"
+  },
+  "sound_effects": {
+    "cast_sound": "transmutation_spell_1614_echo"
+  },
+  "requirements": {
+    "level": 7,
+    "skills": [
+      "transmutation"
+    ],
+    "classes": [
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

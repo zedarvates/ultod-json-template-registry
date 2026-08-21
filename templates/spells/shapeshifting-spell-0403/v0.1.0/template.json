@@ -1,0 +1,79 @@
+{
+  "id": "shapeshifting_spell_0403",
+  "name": "Shapeshifting Spell 0403",
+  "description": "Le druide prend la shapeshifting_spell_0403e d'un chat, gagnant en agilité et en attaque rapide au prix de la dureté physique",
+  "icon": "shapeshifting_spell_0403_icon",
+  "school": "shapeshifting",
+  "rarity": "common",
+  "spell_type": "animal_shapeshifting_spell_0403",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1500,
+  "cooldown": 0,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "shapeshift_shapeshifting_spell_0403"
+  },
+  "effects": [
+    {
+      "effect_type": "feline_transshapeshifting_spell_0403ation",
+      "value": 150,
+      "duration": "toggle",
+      "tick_rate": 0,
+      "attack_speed_bonus": 50,
+      "movement_speed_bonus": 30,
+      "melee_damage_bonus": 15,
+      "ranged_damage_penalty": 25,
+      "physical_defense_penalty": 40,
+      "spell_cast_penalty": 60,
+      "stealth_bonus": 30
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "body_morphing_cat_features",
+    "active_effect": "cat_ear_tail_furred_appearance",
+    "attack_effect": "claw_swipe_energy_trail",
+    "prowl_effect": "stealthy_shadow_blend"
+  },
+  "sound_effects": {
+    "cast_sound": "bones_cracking_feline_roar",
+    "active_sound": "cat_prowling_meow_hiss",
+    "attack_sound": "claw_swipe_fast_swipe",
+    "prowl_sound": "stealthy_cat_footsteps"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "shapeshifting",
+      "animal_cause"
+    ],
+    "classes": [
+      "druid",
+      "feral_warrior"
+    ],
+    "specializations": [
+      "shapeshifting_spell_0403_specialist"
+    ]
+  },
+  "upgrades": {
+    "feral_combat_mastery": {
+      "unlock_level": 18,
+      "description": "La shapeshifting_spell_0403e de chat augmente considérablement les capacités de combat tout en gardant l'utilité efficace",
+      "melee_damage_bonus": 25,
+      "attack_speed_bonus": 30,
+      "feral_rage_energy": 50,
+      "stealth_bonus": 20
+    },
+    "legendary_feline_grace": {
+      "unlock_level": 28,
+      "description": "La shapeshifting_spell_0403e de chat atteint la perfection féline avec des bonds surnaturels et une guérison accélérée",
+      "leap_distance_bonus": 20,
+      "natural_regeneration": 25,
+      "fall_damage_immune": true,
+      "instinctive_dodge": 0.15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

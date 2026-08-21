@@ -1,0 +1,67 @@
+{
+  "id": "ombre_spell_0068",
+  "name": "Ombre Spell 0068",
+  "description": "Devient invisible et immunisé aux attaques pendant un court instant",
+  "icon": "ombre_spell_0068_icon",
+  "school": "ombre",
+  "rarity": "rare",
+  "spell_type": "utility",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 300000,
+  "mana_cost": 75,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "invisibility",
+      "value": 100,
+      "duration": 15000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "immune_damage",
+      "value": 0,
+      "duration": 3000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "shadow_burst",
+    "projectile_effect": null,
+    "hit_effect": "fade_out"
+  },
+  "sound_effects": {
+    "cast_sound": "shadow_whisper",
+    "projectile_sound": null,
+    "hit_sound": "silence"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [
+      "stealth_mastery"
+    ],
+    "classes": [
+      "assassin"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_veil": {
+      "unlock_level": 35,
+      "description": "Allonge la durée du Voile et réduit le temps de recharge",
+      "duration_bonus": 5000,
+      "cooldown_reduction": 50000
+    },
+    "master_veil": {
+      "unlock_level": 45,
+      "description": "Ombre Spell 0068 protège plus longtemps et brise les contrôles",
+      "immune_duration_bonus": 2000,
+      "break_cc": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

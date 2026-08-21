@@ -1,0 +1,58 @@
+{
+  "id": "evocation_spell_1377",
+  "name": "Evocation Spell 1377",
+  "description": "Un Evocation Spell 1377 glacial jaillit de vos mains, infligeant 8d8 dégâts de froid à toutes les créatures dans un cône de 18 mètres",
+  "icon": "evocation_spell_1377_icon",
+  "school": "evocation",
+  "rarity": "rare",
+  "spell_type": "area_damage",
+  "target_type": "evocation_spell_1377",
+  "range": 18.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 64,
+    "damage_type": "cold",
+    "aoe_radius": 18.0
+  },
+  "effects": [
+    {
+      "effect_type": "cold_evocation_spell_1377",
+      "value": 64,
+      "duration": 0,
+      "tick_rate": 0,
+      "constitution_save": true,
+      "save_dc": 14
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "frost_build",
+    "projectile_effect": "ice_wave",
+    "explosion_effect": "frost_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "frost_cast",
+    "impact_sound": "ice_crack"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {
+    "freezing_cone": {
+      "unlock_level": 9,
+      "description": "Augmente les dégâts à 10d8 et applique un effet de gel",
+      "damage_multiplier": 1.25,
+      "add_effect": "freeze"
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "divine_spell_0274",
+  "name": "Divine Spell 0274",
+  "description": "Bénit jusqu'à 3 créatures alliées, accordant un bonus de +1d4 aux jets d'attaque et de sauvegarde",
+  "icon": "divine_spell_0274_icon",
+  "school": "divine",
+  "rarity": "common",
+  "spell_type": "buff",
+  "target_type": "multiple_allies",
+  "range": 25.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "divine"
+  },
+  "effects": [
+    {
+      "effect_type": "attack_bonus",
+      "value": 4,
+      "duration": 60000,
+      "tick_rate": 0
+    },
+    {
+      "effect_type": "save_bonus",
+      "value": 4,
+      "duration": 60000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_glow",
+    "buff_effect": "divine_spell_0274ing_aura",
+    "expire_effect": "buff_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_chime",
+    "buff_sound": "divine_spell_0274ing_whisper",
+    "expire_sound": "buff_end"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "divine_magic"
+    ],
+    "classes": [
+      "cleric",
+      "paladin",
+      "priest"
+    ]
+  },
+  "upgrades": {
+    "greater_blessing": {
+      "unlock_level": 9,
+      "description": "Augmente le bonus à +2d4 et affecte jusqu'à 6 créatures",
+      "stat_bonus_multiplier": 2.0,
+      "max_targets": 6
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

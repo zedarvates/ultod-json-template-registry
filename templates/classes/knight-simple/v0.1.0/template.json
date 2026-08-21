@@ -1,0 +1,46 @@
+{
+  "id": "knight_simple",
+  "name": "Knight",
+  "description": "A stout defender of the realm, specialized in heavy armor and block mastery.",
+  "base_stats": {
+    "strength": 20,
+    "dexterity": 10,
+    "constitution": 25,
+    "intelligence": 8,
+    "wisdom": 12,
+    "charisma": 15
+  },
+  "specializations": [
+    {
+      "id": "protection",
+      "name": "Protection",
+      "description": "Focuses on damage mitigation and shield bash.",
+      "talents": [
+        "shield_wall",
+        "stand_firm"
+      ],
+      "abilities": [
+        "shield_bash",
+        "taunt"
+      ]
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": "shield_mastery",
+            "name": "Shield Mastery",
+            "description": "Increases block chance by 5% per rank.",
+            "max_rank": 5,
+            "prerequisites": []
+          }
+        ]
+      }
+    ]
+  },
+  "template_type": "class",
+  "version": "0.1.0"
+}

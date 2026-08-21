@@ -1,0 +1,46 @@
+{
+  "id": "warrior",
+  "name": "Guerrier",
+  "description": "Maître du combat rapproché et de la protection",
+  "base_stats": {
+    "strength": 16,
+    "dexterity": 12,
+    "constitution": 15,
+    "intelligence": 8,
+    "wisdom": 10,
+    "charisma": 10
+  },
+  "specializations": [
+    {
+      "id": "fighter",
+      "name": "Combattant",
+      "description": "Expert en combat au corps à corps",
+      "talents": [
+        "combat_weapon",
+        "armure_lourde"
+      ],
+      "abilities": [
+        "charge",
+        "taunt"
+      ]
+    },
+    {
+      "id": "guardian",
+      "name": "Gardien",
+      "description": "Protecteur spécialisé dans la défense",
+      "talents": [
+        "protection",
+        "endurance"
+      ],
+      "abilities": [
+        "shield_wall",
+        "last_stand"
+      ]
+    }
+  ],
+  "talent_tree": {
+    "tiers": []
+  },
+  "template_type": "class",
+  "version": "0.1.0"
+}

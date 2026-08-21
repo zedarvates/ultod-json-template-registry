@@ -1,0 +1,88 @@
+{
+  "id": "temporal_spell_0241",
+  "name": "Temporal Spell 0241",
+  "description": "Une attaque qui frappe dans le passé et le présent, causant des dégâts en double",
+  "icon": "temporal_spell_0241_spell_0241_icon",
+  "school": "temporal_spell_0241",
+  "rarity": "rare",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 20.0,
+  "cast_time": 1500,
+  "cooldown": 8000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 250,
+    "damage_type": "temporal_spell_0241",
+    "scaling": {
+      "intelligence": 0.8,
+      "wisdom": 0.4,
+      "chronomancy": 1.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "temporal_spell_0241_damage",
+      "value": 1.0,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "time_echo_damage",
+      "value": 0.7,
+      "duration": 2000,
+      "tick_rate": 500,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "temporal_spell_0241_stun",
+      "value": 0.0,
+      "duration": 3000,
+      "tick_rate": 0,
+      "proc_chance": 0.3
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "temporal_spell_0241_attack_preparation",
+    "damage_effect": "past_future_impact",
+    "aura_effect": "chronal_ripple"
+  },
+  "sound_effects": {
+    "cast_sound": "temporal_spell_0241_spell_0241_chant",
+    "damage_sound": "time_collision_impact",
+    "aura_sound": "chronal_resonance"
+  },
+  "requirements": {
+    "level": 30,
+    "skills": [
+      "chronomancy_basics",
+      "temporal_spell_0241_combat"
+    ],
+    "classes": [
+      "chronomancer",
+      "mage",
+      "fighter"
+    ],
+    "specializations": [
+      "temporal_spell_0241_spell_0241r"
+    ]
+  },
+  "upgrades": {
+    "enhanced_temporal_strike": {
+      "unlock_level": 40,
+      "description": "temporal_spell_0241 Spell 0241 inflige plus de dégâts et a une chance de stun plus élevée",
+      "damage_increase": 0.4,
+      "stun_chance_increase": 0.2
+    },
+    "cascade_temporal_strike": {
+      "unlock_level": 50,
+      "description": "Chaque réussie de temporal_spell_0241 Spell 0241 augmente les dégâts de la suivante",
+      "cascade_stacks": 5,
+      "damage_per_stack": 0.15,
+      "stack_duration": 10000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

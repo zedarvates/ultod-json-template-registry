@@ -1,0 +1,80 @@
+{
+  "id": "enchantment_spell_0291",
+  "name": "Enchantment Spell 0291",
+  "description": "Octroie une bénédiction divine à tous les alliés dans une grande zone",
+  "icon": "enchantment_spell_0291_icon",
+  "school": "enchantment",
+  "rarity": "rare",
+  "spell_type": "group_blessing",
+  "target_type": "multiple_allies",
+  "range": 80.0,
+  "cast_time": 2200,
+  "cooldown": 25000,
+  "mana_cost": 120,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "blessed_buff"
+  },
+  "effects": [
+    {
+      "effect_type": "group_divine_enhancement",
+      "value": 200,
+      "duration": 40000,
+      "tick_rate": 0,
+      "max_targets": 10,
+      "attribute_bonuses": {
+        "all_attributes": 5,
+        "damage": 0.2,
+        "resistance_holy": 0.25
+      },
+      "regeneration_bonus": 0.3,
+      "morale_boost": true,
+      "fear_immunity": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "heavenly_blessing_fountain",
+    "bless_effect": "golden_rain_of_blessings",
+    "enhance_effect": "divine_aura_surrounding_allies",
+    "expire_effect": "blessed_fade_gentle"
+  },
+  "sound_effects": {
+    "cast_sound": "grand_blessing_chorus",
+    "bless_sound": "healing_harmonies_rain",
+    "enhance_sound": "divine_empowerment_enchantment_spell_0291",
+    "expire_sound": "blessing_fade_echo"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "divine_magic",
+      "enchantment_spell_0291s"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "enchantment_spell_0291_blesser"
+    ]
+  },
+  "upgrades": {
+    "cathedral_blessings": {
+      "unlock_level": 30,
+      "description": "Les bénédictions créent une cathédrale spirituelle de protection",
+      "cathedral_zone": 30.0,
+      "extra_protection_ward": true,
+      "morale_aura_expansion": true
+    },
+    "divine_apotheosis": {
+      "unlock_level": 40,
+      "description": "Les alliés bénis gagnent des capacités divines temporaires",
+      "temporary_divine_powers": true,
+      "apotheosis_duration": 10000,
+      "greater_resurrection_chance": 0.5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

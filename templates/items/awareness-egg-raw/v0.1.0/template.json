@@ -1,0 +1,50 @@
+{
+  "id": "awareness_egg_raw",
+  "name": "Oeuf cru",
+  "description": "Un oeuf fragile qui Ã©clate facilement et salit sa cible.",
+  "icon": "egg_raw",
+  "category": "consumable",
+  "rarity": "common",
+  "base_stats": {
+    "max_durability": 1,
+    "weight": 0.06,
+    "value": 1
+  },
+  "awareness": {
+    "physical": {
+      "mass_grams": 60,
+      "hardness": 0.1,
+      "fragility": 1.0,
+      "sharpness": 0.0,
+      "messiness": 0.9
+    },
+    "affordances": [
+      "graspable",
+      "throwable",
+      "edible",
+      "fragile"
+    ],
+    "carry": {
+      "allowed_anchors": [
+        "hand_left",
+        "hand_right",
+        "pouch"
+      ],
+      "base_visibility": 0.7,
+      "concealability": 0.8
+    },
+    "social": {
+      "value_band": "trivial",
+      "humiliation_on_impact": 0.8,
+      "taboo_tags": []
+    },
+    "impact": {
+      "damage_family": "soft",
+      "pain_scale": 0.1,
+      "injury_scale": 0.05,
+      "contamination_scale": 0.7
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "item"
+}

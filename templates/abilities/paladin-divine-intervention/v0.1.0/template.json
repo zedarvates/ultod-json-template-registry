@@ -1,0 +1,85 @@
+{
+  "id": "paladin_divine_intervention",
+  "name": "Intervention Divine",
+  "description": "Invoque une intervention divine pour sauver un allié du désespoir",
+  "ability_type": "active",
+  "category": "healing",
+  "cooldown": 300000,
+  "mana_cost": 150,
+  "cast_time": 3000,
+  "range": 40.0,
+  "target_type": "friendly_ally",
+  "duration": 10000,
+  "effects": [
+    {
+      "effect_type": "full_heal",
+      "value": 1.0,
+      "duration": 0,
+      "tick_rate": 0,
+      "school": "holy"
+    },
+    {
+      "effect_type": "remove_debuffs",
+      "value": 1.0,
+      "duration": 0,
+      "tick_rate": 0,
+      "school": "all"
+    },
+    {
+      "effect_type": "holy_protection",
+      "value": 0.5,
+      "duration": 10000,
+      "tick_rate": 0,
+      "school": "holy"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_light_beam",
+    "heal_effect": "golden_healing_aura",
+    "protection_effect": "holy_ward"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_chorus",
+    "heal_sound": "angelic_harmony",
+    "protection_sound": "divine_shield"
+  },
+  "scaling": {
+    "spell_power": 2.0,
+    "holy_mastery": 1.5
+  },
+  "requirements": {
+    "level": 40,
+    "abilities": [
+      "holy_shield",
+      "healing_touch"
+    ],
+    "class": "paladin"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "heal_amount": 1.0,
+      "protection": 0.3
+    },
+    "journeyman": {
+      "heal_amount": 1.2,
+      "protection": 0.4,
+      "remove_curse": true
+    },
+    "master": {
+      "heal_amount": 1.5,
+      "protection": 0.5,
+      "remove_curse": true,
+      "ressurection_chance": 0.2
+    },
+    "grandmaster": {
+      "heal_amount": 2.0,
+      "protection": 0.6,
+      "remove_curse": true,
+      "ressurection_chance": 0.5,
+      "area_heal": true
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "nature_spell_0408",
+  "name": "Nature Spell 0408",
+  "description": "Invoque un Nature Spell 0408 qui inflige des dégâts périodiques et ralentit les ennemis",
+  "icon": "nature_spell_0408_icon",
+  "school": "nature",
+  "rarity": "rare",
+  "spell_type": "damage",
+  "target_type": "area",
+  "range": 35.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 90,
+  "damage": {
+    "base_damage": 30,
+    "damage_type": "nature",
+    "scaling": {
+      "intelligence": 0.7,
+      "wisdom": 0.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "dot_aoe",
+      "value": 30,
+      "duration": 10000,
+      "tick_rate": 2000,
+      "aoe_range": 10.0,
+      "max_ticks": 5
+    },
+    {
+      "effect_type": "slow_aoe",
+      "value": 25,
+      "duration": 10000,
+      "tick_rate": 0,
+      "aoe_range": 10.0
+    },
+    {
+      "effect_type": "knockback_random",
+      "value": 3,
+      "duration": 10000,
+      "tick_rate": 1000,
+      "aoe_range": 10.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "wind_vortex",
+    "persistent_effect": "tornado_swirl",
+    "impact_effect": "wind_burst",
+    "trail_effect": "leaves_twirl"
+  },
+  "sound_effects": {
+    "cast_sound": "wind_rising",
+    "persistent_sound": "nature_spell_0408_roar",
+    "impact_sound": "wind_gust"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "druid",
+      "shaman",
+      "mage"
+    ]
+  },
+  "upgrades": {
+    "greater_hurricane": {
+      "unlock_level": 35,
+      "description": "Augmente les dégâts et la zone d'effet de l'Nature Spell 0408",
+      "damage_bonus": 50,
+      "aoe_increase": 5.0
+    },
+    "typhoon": {
+      "unlock_level": 45,
+      "description": "L'Nature Spell 0408 projette les ennemis plus loin et plus fréquemment",
+      "knockback_distance": 8,
+      "knockback_frequency": 500
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

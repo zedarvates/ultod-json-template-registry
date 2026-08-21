@@ -1,0 +1,89 @@
+{
+  "id": "enchanter_arcane_infusion",
+  "name": "Infusion Arcane",
+  "description": "Infuse des objets avec de l'énergie arcane puissante",
+  "ability_type": "active",
+  "category": "crafting",
+  "cooldown": 90000,
+  "mana_cost": 100,
+  "cast_time": 7000,
+  "range": 0,
+  "target_type": "items",
+  "duration": 0,
+  "effects": [
+    {
+      "effect_type": "arcane_enhancement",
+      "value": 0.5,
+      "duration": 0,
+      "tick_rate": 0,
+      "enhancement_type": "permanent"
+    },
+    {
+      "effect_type": "stat_boost",
+      "value": 0.4,
+      "duration": 0,
+      "tick_rate": 0,
+      "stat_type": "all"
+    },
+    {
+      "effect_type": "special_property",
+      "value": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "property_type": "arcane"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "arcane_infusion_circle",
+    "enhancement_effect": "arcane_energy_flow",
+    "property_effect": "magical_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "arcane_incantation",
+    "enhancement_sound": "arcane_power",
+    "property_sound": "magical_chime"
+  },
+  "scaling": {
+    "enchanting_skill": 2.0,
+    "arcane_mastery": 1.8
+  },
+  "requirements": {
+    "level": 45,
+    "abilities": [
+      "rune_mastery",
+      "advanced_enchanting"
+    ],
+    "class": "enchanter"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "enhancement_value": 0.2,
+      "stat_boost": 0.1,
+      "special_property": 0.5
+    },
+    "journeyman": {
+      "enhancement_value": 0.3,
+      "stat_boost": 0.2,
+      "special_property": 0.75,
+      "cooldown_reduction": 0.2
+    },
+    "master": {
+      "enhancement_value": 0.4,
+      "stat_boost": 0.3,
+      "special_property": 1.0,
+      "cooldown_reduction": 0.4,
+      "unique_enchants": true
+    },
+    "grandmaster": {
+      "enhancement_value": 0.5,
+      "stat_boost": 0.4,
+      "special_property": 1.5,
+      "cooldown_reduction": 0.6,
+      "unique_enchants": true,
+      "ability_unlock": "arcane_mastery"
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

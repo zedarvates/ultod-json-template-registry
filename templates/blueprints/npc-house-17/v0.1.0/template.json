@@ -1,0 +1,1029 @@
+{
+  "blueprint_id": "npc_house_17",
+  "name": "npc_house_17",
+  "lot": {
+    "width": 14,
+    "depth": 14,
+    "cell_size": 1,
+    "floor_height": 3
+  },
+  "floors": [
+    {
+      "level": 0,
+      "tiles": [
+        {
+          "x": 4,
+          "z": 4,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 5,
+          "z": 4,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 6,
+          "z": 4,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 7,
+          "z": 4,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 8,
+          "z": 4,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 9,
+          "z": 4,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 4,
+          "z": 5,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 5,
+          "z": 5,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 6,
+          "z": 5,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 7,
+          "z": 5,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 8,
+          "z": 5,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 9,
+          "z": 5,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 4,
+          "z": 6,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 5,
+          "z": 6,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 6,
+          "z": 6,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 7,
+          "z": 6,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 8,
+          "z": 6,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 9,
+          "z": 6,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 4,
+          "z": 7,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 5,
+          "z": 7,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 6,
+          "z": 7,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 7,
+          "z": 7,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 8,
+          "z": 7,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 9,
+          "z": 7,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 4,
+          "z": 8,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 5,
+          "z": 8,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 6,
+          "z": 8,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 7,
+          "z": 8,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 8,
+          "z": 8,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 9,
+          "z": 8,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 4,
+          "z": 9,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 5,
+          "z": 9,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 6,
+          "z": 9,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 7,
+          "z": 9,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 8,
+          "z": 9,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 9,
+          "z": 9,
+          "part_id": "sol_terre_battue"
+        }
+      ],
+      "walls": [
+        {
+          "x": 4,
+          "z": 4,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 5,
+          "z": 4,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 5,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 4,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 4,
+          "edge": "N",
+          "part_id": "fenetre_ronde",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 10,
+          "edge": "N",
+          "part_id": "porte_bois",
+          "stack": 0
+        },
+        {
+          "x": 8,
+          "z": 4,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 8,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 9,
+          "z": 4,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 9,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 4,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 4,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 5,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 5,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 6,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 6,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 7,
+          "edge": "W",
+          "part_id": "fenetre_ronde",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 7,
+          "edge": "W",
+          "part_id": "fenetre_ronde",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 9,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 9,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "tiles": [
+        {
+          "x": 4,
+          "z": 4,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 5,
+          "z": 4,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 6,
+          "z": 4,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 7,
+          "z": 4,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 8,
+          "z": 4,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 9,
+          "z": 4,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 4,
+          "z": 5,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 5,
+          "z": 5,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 6,
+          "z": 5,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 7,
+          "z": 5,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 8,
+          "z": 5,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 9,
+          "z": 5,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 4,
+          "z": 6,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 5,
+          "z": 6,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 6,
+          "z": 6,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 7,
+          "z": 6,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 8,
+          "z": 6,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 9,
+          "z": 6,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 4,
+          "z": 7,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 5,
+          "z": 7,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 6,
+          "z": 7,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 7,
+          "z": 7,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 8,
+          "z": 7,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 9,
+          "z": 7,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 4,
+          "z": 8,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 5,
+          "z": 8,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 6,
+          "z": 8,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 7,
+          "z": 8,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 8,
+          "z": 8,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 9,
+          "z": 8,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 4,
+          "z": 9,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 5,
+          "z": 9,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 6,
+          "z": 9,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 7,
+          "z": 9,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 8,
+          "z": 9,
+          "part_id": "sol_terre_battue"
+        },
+        {
+          "x": 9,
+          "z": 9,
+          "part_id": "sol_terre_battue"
+        }
+      ],
+      "walls": [
+        {
+          "x": 4,
+          "z": 4,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 5,
+          "z": 4,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 5,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 4,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 4,
+          "edge": "N",
+          "part_id": "fenetre_ronde",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 8,
+          "z": 4,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 8,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 9,
+          "z": 4,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 9,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 4,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 4,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 5,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 5,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 6,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 6,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 7,
+          "edge": "W",
+          "part_id": "fenetre_ronde",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 7,
+          "edge": "W",
+          "part_id": "fenetre_ronde",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 9,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 9,
+          "edge": "W",
+          "part_id": "mur_stuc",
+          "stack": 0
+        }
+      ]
+    }
+  ],
+  "roof": [
+    {
+      "x": 4,
+      "z": 4,
+      "part_id": "toit_plat",
+      "rotation": 180
+    },
+    {
+      "x": 5,
+      "z": 4,
+      "part_id": "toit_plat",
+      "rotation": 180
+    },
+    {
+      "x": 6,
+      "z": 4,
+      "part_id": "toit_plat",
+      "rotation": 180
+    },
+    {
+      "x": 7,
+      "z": 4,
+      "part_id": "toit_plat",
+      "rotation": 180
+    },
+    {
+      "x": 8,
+      "z": 4,
+      "part_id": "toit_plat",
+      "rotation": 180
+    },
+    {
+      "x": 9,
+      "z": 4,
+      "part_id": "toit_plat",
+      "rotation": 180
+    },
+    {
+      "x": 4,
+      "z": 5,
+      "part_id": "toit_plat",
+      "rotation": 180
+    },
+    {
+      "x": 5,
+      "z": 5,
+      "part_id": "toit_plat",
+      "rotation": 180
+    },
+    {
+      "x": 6,
+      "z": 5,
+      "part_id": "toit_plat",
+      "rotation": 180
+    },
+    {
+      "x": 7,
+      "z": 5,
+      "part_id": "toit_plat",
+      "rotation": 180
+    },
+    {
+      "x": 8,
+      "z": 5,
+      "part_id": "toit_plat",
+      "rotation": 180
+    },
+    {
+      "x": 9,
+      "z": 5,
+      "part_id": "toit_plat",
+      "rotation": 180
+    },
+    {
+      "x": 4,
+      "z": 6,
+      "part_id": "toit_plat",
+      "rotation": 180
+    },
+    {
+      "x": 5,
+      "z": 6,
+      "part_id": "toit_plat",
+      "rotation": 180
+    },
+    {
+      "x": 6,
+      "z": 6,
+      "part_id": "toit_plat",
+      "rotation": 180
+    },
+    {
+      "x": 7,
+      "z": 6,
+      "part_id": "toit_plat",
+      "rotation": 180
+    },
+    {
+      "x": 8,
+      "z": 6,
+      "part_id": "toit_plat",
+      "rotation": 180
+    },
+    {
+      "x": 9,
+      "z": 6,
+      "part_id": "toit_plat",
+      "rotation": 180
+    },
+    {
+      "x": 4,
+      "z": 7,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 4,
+      "z": 7,
+      "part_id": "toit_pignon",
+      "rotation": 90
+    },
+    {
+      "x": 5,
+      "z": 7,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 7,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 7,
+      "z": 7,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 8,
+      "z": 7,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 9,
+      "z": 7,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 9,
+      "z": 7,
+      "part_id": "toit_pignon",
+      "rotation": 270
+    },
+    {
+      "x": 4,
+      "z": 8,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 5,
+      "z": 8,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 8,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 7,
+      "z": 8,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 8,
+      "z": 8,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 9,
+      "z": 8,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 4,
+      "z": 9,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 5,
+      "z": 9,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 9,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 7,
+      "z": 9,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 8,
+      "z": 9,
+      "part_id": "toit_plat",
+      "rotation": 0
+    },
+    {
+      "x": 9,
+      "z": 9,
+      "part_id": "toit_plat",
+      "rotation": 0
+    }
+  ],
+  "garden": [
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0.5,
+        0,
+        3.5
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0.5,
+        0,
+        4.5
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0.5,
+        0,
+        5.5
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0.5,
+        0,
+        6.5
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "buisson",
+      "position": [
+        -1.5,
+        0,
+        -5.5
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "buisson",
+      "position": [
+        0.5,
+        0,
+        -5.5
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    }
+  ],
+  "style_id": "oasis_desertique",
+  "ornaments": [],
+  "props": [
+    {
+      "prop_id": "escalier_bois",
+      "x": 5,
+      "z": 5,
+      "floor": 0,
+      "rotation": 0
+    }
+  ],
+  "kind": "maison",
+  "id": "npc_house_17",
+  "template_type": "blueprint",
+  "version": "0.1.0"
+}

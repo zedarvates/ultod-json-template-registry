@@ -1,0 +1,37 @@
+{
+  "id": "humanoid_creature_0303",
+  "name": "Humanoid Creature 0303",
+  "description": "Description for humanoid_creature_0303",
+  "icon": "humanoid_creature_0303_icon",
+  "category": "humanoid",
+  "rarity": "uncommon",
+  "base_stats": {
+    "health": 500,
+    "mana": 100,
+    "strength": 10,
+    "dexterity": 10,
+    "intelligence": 10,
+    "wisdom": 10,
+    "constitution": 10,
+    "charisma": 10
+  },
+  "properties": {
+    "size": "medium",
+    "speed": 6.0
+  },
+  "loot_table": {
+    "common_drops": [],
+    "rare_drops": [],
+    "epic_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "moderate",
+    "attack_pattern": "basic_attack",
+    "special_abilities": []
+  },
+  "abilities": [],
+  "resistances": {},
+  "weaknesses": [],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

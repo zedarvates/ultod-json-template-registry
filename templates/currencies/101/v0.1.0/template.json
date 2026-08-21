@@ -1,0 +1,11 @@
+{
+  "id": "101",
+  "name": "pvp_tokens",
+  "display_name": "PvP Tokens",
+  "description": "Tokens earned through player versus player combat. Used to purchase PvP-specific items and upgrades.",
+  "icon_path": "icons/currency/pvp_token.png",
+  "max_amount": 99999,
+  "tradeable": false,
+  "template_type": "currencie",
+  "version": "0.1.0"
+}

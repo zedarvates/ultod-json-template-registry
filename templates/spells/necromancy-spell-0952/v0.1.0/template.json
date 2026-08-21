@@ -1,0 +1,72 @@
+{
+  "id": "necromancy_spell_0952",
+  "name": "Necromancy Spell 0952",
+  "description": "Aspire la vie de la cible pour restaurer votre propre santé et affaiblir votre adversaire",
+  "icon": "necromancy_spell_0952_icon",
+  "school": "necromancy",
+  "rarity": "common",
+  "spell_type": "necromancy_spell_0952_siphon_channel",
+  "target_type": "enemy_target",
+  "range": 30.0,
+  "cast_time": 2000,
+  "cooldown": 8000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 80,
+    "damage_type": "necrotic_necromancy_spell_0952_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "vitality_transfer_channel",
+      "value": 100,
+      "duration": 6000,
+      "tick_rate": 1000,
+      "life_drain_per_tick": 30,
+      "health_steal_percentage": 50,
+      "necrotic_damage_per_tick": 25,
+      "maximum_range_connection": 35.0,
+      "interrupt_causes_recoil": 40,
+      "life_force_regeneration": 1.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necrotic_energy_tendrils_darkness_energy_gathering_connection_target",
+    "drain_effect": "red_necromancy_spell_0952_essence_flowing_through_tendrils_to_caster_target_weakening",
+    "regeneration_effect": "caster_glowing_health_restored_red_energy_circulating_powered",
+    "break_effect": "connection_snapping_severed_energy_burst_recoil_damage_applied"
+  },
+  "sound_effects": {
+    "cast_effect": "necrotic_whisper_connection_established_dark_energy_humming",
+    "drain_effect": "necromancy_spell_0952_force_buzzing_vitality_flowing_target_weakening_grunts",
+    "regeneration_effect": "power_restoration_vitality_influx_health_surging_energy_rush",
+    "break_effect": "connection_snap_burst_energy_backlash_pain_cries_damage_recoil"
+  },
+  "requirements": {
+    "level": 14,
+    "skills": [
+      "necromancy",
+      "vitality_manipulation",
+      "necromancy_spell_0952_magic"
+    ],
+    "classes": [
+      "necromancer",
+      "lich",
+      "blood_mage"
+    ],
+    "specializations": [
+      "necromancy_spell_0952_siphoner"
+    ]
+  },
+  "upgrades": {
+    "greater_life_drain": {
+      "unlock_level": 28,
+      "description": "Le Necromancy Spell 0952 devient plus efficace avec plus de vol de vie et de restauration",
+      "life_drain_rate_increase": 50,
+      "health_steal_efficiency": 75,
+      "drain_duration_extension": 4000,
+      "maximum_channel_range": 50.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

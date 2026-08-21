@@ -1,0 +1,21 @@
+{
+  "id": "smith_potion",
+  "name": "Smith Potion",
+  "description": "Generated Smith Potion item template.",
+  "icon": "smith_potion_icon",
+  "category": "consumable",
+  "rarity": "common",
+  "item_type": "consumable",
+  "sub_type": "generic",
+  "base_stats": {
+    "durability": 1,
+    "max_durability": 1,
+    "weight": 0.1,
+    "value": 1
+  },
+  "properties": {},
+  "requirements": {},
+  "effects": [],
+  "template_type": "item",
+  "version": "0.1.0"
+}

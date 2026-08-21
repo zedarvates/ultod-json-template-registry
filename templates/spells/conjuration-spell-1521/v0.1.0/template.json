@@ -1,0 +1,46 @@
+{
+  "id": "conjuration_spell_1521",
+  "name": "Conjuration Spell 1521",
+  "description": "Crée un Conjuration Spell 1521 spectrales qui infligent des dégâts aux créatures qui entrent ou commencent leur tour à l'intérieur",
+  "icon": "conjuration_spell_1521_icon",
+  "school": "conjuration",
+  "rarity": "uncommon",
+  "spell_type": "area_damage",
+  "target_type": "area",
+  "range": 18.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 24,
+    "damage_type": "force",
+    "aoe_radius": 1.5
+  },
+  "effects": [
+    {
+      "effect_type": "dagger_conjuration_spell_1521",
+      "value": 24,
+      "duration": 60000,
+      "tick_rate": 1000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dagger_conjuration_spell_1521_form",
+    "area_effect": "spectral_daggers"
+  },
+  "sound_effects": {
+    "cast_sound": "sharpen"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "conjuration"
+    ],
+    "classes": [
+      "warlock"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "evocation_spell_0089",
+  "name": "Evocation Spell 0089",
+  "description": "Le barde produit un riff effréné qui mitraille littéralement les ennemis à distance avec des projectiles musicaux mortels",
+  "icon": "evocation_spell_0089_icon",
+  "school": "evocation",
+  "rarity": "legendary",
+  "spell_type": "rapid_fire_attack",
+  "target_type": "single_enemy",
+  "range": 75.0,
+  "cast_time": 800,
+  "cooldown": 25000,
+  "mana_cost": 75,
+  "damage": {
+    "base_damage": 15,
+    "damage_type": "piercing",
+    "scaling": {
+      "charisma": 1.2,
+      "dexterity": 1.8
+    },
+    "aoe_range": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "rapid_fire_projectile",
+      "value": 25,
+      "duration": 3000,
+      "tick_rate": 150,
+      "projectile_count": 20,
+      "projectile_speed": 50.0,
+      "damage_per_projectile": 15,
+      "critical_chance": 0.15,
+      "pierce_armor": 0.8,
+      "max_targets": 1
+    },
+    {
+      "effect_type": "ammo_refill",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "guitar_burst_energy",
+    "impact_effect": "bullet_holes_and_blood",
+    "projectile_effect": "musical_bullets_stream"
+  },
+  "sound_effects": {
+    "cast_sound": "rapid_guitar_riff_build",
+    "impact_sound": "machine_gun_fire_and_screams",
+    "projectile_sound": "continuous_bullet_fire"
+  },
+  "requirements": {
+    "level": 40,
+    "skills": [
+      "performance",
+      "evocation",
+      "rapid_fire_mastery",
+      "music_magic"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour"
+    ],
+    "specializations": [
+      "rock_star",
+      "battle_bard"
+    ]
+  },
+  "upgrades": {
+    "overdrive_solo": {
+      "unlock_level": 45,
+      "description": "Augmente considérablement les dégâts et la vitesse de tir",
+      "damage_per_projectile_bonus": 10,
+      "tick_rate_reduction": 50
+    },
+    "autofire_jam": {
+      "unlock_level": 50,
+      "description": "Ajoute des effets de brûlure et peut toucher plusieurs cibles",
+      "burn_damage": 5,
+      "max_targets": 3,
+      "aggression_reduction": 0.5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

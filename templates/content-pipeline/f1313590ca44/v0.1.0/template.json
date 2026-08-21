@@ -1,0 +1,50 @@
+{
+  "version": "0.1.0",
+  "school": "nature",
+  "rarity": "common",
+  "target_type": "chain",
+  "range": 29.2,
+  "cast_time": 1812,
+  "cooldown": 13192,
+  "mana_cost": 77,
+  "visual_effects": {
+    "cast_effect": "druid_cast",
+    "projectile_effect": "elemental_projectile",
+    "impact_effect": "elemental_impact",
+    "trail_effect": "elemental_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "druid_cast_sound",
+    "impact_sound": "elemental_impact_sound"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [],
+    "classes": [
+      "druid"
+    ],
+    "specializations": [
+      "feral"
+    ]
+  },
+  "balance_validated": true,
+  "generated_by": "content_pipeline_v2",
+  "id": "f1313590ca44",
+  "name": "Druid Feral Storm",
+  "description": "Generated druid feral spell #207",
+  "icon": "f1313590ca44_icon",
+  "spell_type": "buff",
+  "damage_type": null,
+  "effects": [
+    {
+      "effect_type": "haste",
+      "value": 0.46,
+      "duration": 11352,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "balance_adjusted": true,
+  "balance_efficiency": 0.0231,
+  "template_type": "content_pipeline"
+}

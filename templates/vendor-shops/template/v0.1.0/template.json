@@ -1,0 +1,43 @@
+{
+  "vendor_type_id": "vendor_blacksmith_standard",
+  "display_name": "Forge de l'Artisan — Armurier & Forgeron",
+  "shop_category": "blacksmithing",
+  "restock_interval_seconds": 3600,
+  "player_vendor_fee_percentage": 0.05,
+  "inventory_sell_list": [
+    {
+      "item_template_id": "iron_ingot",
+      "stock_max": 500,
+      "auto_restock": true
+    },
+    {
+      "item_template_id": "blacksmith_hammer_item",
+      "stock_max": 50,
+      "auto_restock": true
+    },
+    {
+      "item_template_id": "iron_tongs_item",
+      "stock_max": 50,
+      "auto_restock": true
+    },
+    {
+      "item_template_id": "platemail_chest",
+      "stock_max": 5,
+      "auto_restock": false
+    }
+  ],
+  "inventory_buy_list": [
+    {
+      "item_template_id": "iron_ore",
+      "max_purchases_per_day": 2000
+    },
+    {
+      "item_template_id": "copper_ore",
+      "max_purchases_per_day": 1000
+    }
+  ],
+  "id": "template",
+  "name": "Template",
+  "template_type": "vendor_shop",
+  "version": "0.1.0"
+}

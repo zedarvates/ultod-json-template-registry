@@ -1,0 +1,113 @@
+{
+  "id": "temporal_humanoid_creature_0368",
+  "name": "Temporal Humanoid Creature 0368",
+  "description": "Un puissant mage qui a dédié sa vie à l'étude et à la manipulation du temps",
+  "icon": "temporal_humanoid_creature_0368_icon",
+  "category": "temporal_humanoid",
+  "rarity": "epic",
+  "base_stats": {
+    "health": 900,
+    "mana": 1200,
+    "strength": 30,
+    "dexterity": 50,
+    "intelligence": 95,
+    "wisdom": 85,
+    "constitution": 45,
+    "charisma": 60
+  },
+  "properties": {
+    "is_temporal": true,
+    "is_magical": true,
+    "is_humanoid": true,
+    "size": "medium",
+    "speed": 9.0,
+    "spell_mastery": 90
+  },
+  "loot_table": {
+    "common_drops": [
+      "temporal_ink",
+      "time_essence",
+      "temporal_humanoid_creature_0368_robes"
+    ],
+    "rare_drops": [
+      "temporal_staff",
+      "time_manipulation_scroll",
+      "chronal_crystal"
+    ],
+    "epic_drops": [
+      "master_temporal_humanoid_creature_0368_manual",
+      "time_stop_tome"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "low",
+    "attack_pattern": "spell_combat",
+    "special_abilities": [
+      "temporal_spells",
+      "protective_barriers",
+      "time_manipulation"
+    ],
+    "social_behavior": "teaches_players"
+  },
+  "abilities": [
+    "temporal_rift",
+    "time_acceleration",
+    "chronosurge",
+    "temporal_shield",
+    "time_rewind",
+    "reality_anchor"
+  ],
+  "temporal_abilities": {
+    "spell_repertoire": {
+      "basic_spells": [
+        "time_warp",
+        "temporal_strike"
+      ],
+      "advanced_spells": [
+        "temporal_rift",
+        "chronosurge"
+      ],
+      "master_spells": [
+        "time_stop",
+        "temporal_clone"
+      ]
+    },
+    "teaching_abilities": {
+      "can_teach_players": true,
+      "training_level": "epic",
+      "skill_progress_multiplier": 1.5
+    }
+  },
+  "resistances": {
+    "temporal": 90,
+    "arcane": 85,
+    "psychic": 75,
+    "physical": 30,
+    "fire": 40,
+    "cold": 40
+  },
+  "weaknesses": [
+    "chaos_magic",
+    "time_disruption",
+    "reality_corruption"
+  ],
+  "spawn_conditions": {
+    "location": "temporal_academies",
+    "time_of_day": "any",
+    "player_level_min": 40,
+    "faction_required": "temporal_scholars",
+    "quest_prerequisite": "temporal_apprenticeship"
+  },
+  "social_interaction": {
+    "can_trade": true,
+    "can_quest": true,
+    "can_teach": true,
+    "dialogue_system": "temporal_lore",
+    "reputation_requirements": {
+      "temporal_scholars": "neutral",
+      "time_manipulators": "friendly"
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

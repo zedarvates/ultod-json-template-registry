@@ -1,0 +1,67 @@
+{
+  "id": "monastic_spell_0886",
+  "name": "Monastic Spell 0886",
+  "description": "En utilisant l'un de vos ki, vous pouvez effectuer deux attaques supplémentaires dans votre tour",
+  "icon": "monastic_spell_0886_icon",
+  "school": "monastic",
+  "rarity": "uncommon",
+  "spell_type": "extra_attack",
+  "target_type": "enemy",
+  "range": 5.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 15,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "physical"
+  },
+  "effects": [
+    {
+      "effect_type": "extra_attacks",
+      "value": 0,
+      "duration": 0,
+      "tick_rate": 0,
+      "extra_attacks": 2,
+      "bonus_damage": 4,
+      "ki_cost": 1,
+      "flurry_modifier": 1
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ki_blast",
+    "attack_effect": "rapid_strikes",
+    "impact_effect": "precision_hits"
+  },
+  "sound_effects": {
+    "cast_sound": "focus_breath",
+    "attack_sound": "punch_swoosh",
+    "impact_sound": "bone_crack"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "unarmed_combat",
+      "ki_manipulation"
+    ],
+    "classes": [
+      "monk",
+      "martial_artist"
+    ]
+  },
+  "upgrades": {
+    "improved_flurry": {
+      "unlock_level": 6,
+      "description": "Accorde une troisième attaque supplémentaire",
+      "extra_attacks": 3,
+      "precision_bonus": 2
+    },
+    "aspect_of_the_hurricane": {
+      "unlock_level": 14,
+      "description": "Les attaques de rafale ont une chance de repousser les ennemis",
+      "knockback_chance": 0.25,
+      "knockback_distance": 3.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

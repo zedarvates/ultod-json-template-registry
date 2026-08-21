@@ -1,0 +1,109 @@
+{
+  "id": "ooze_creature_0282",
+  "name": "Ooze Creature 0282",
+  "description": "Une masse transparente et luisante de 10 pieds cubes, se déplaçant sans bruit à travers les donjons. À l'intérieur de sa forme gelée flottent les ossements et équipements de ses victimes récentes. Il absorbe tout ce qu'il touche, digestant lentement la matière organique tandis que les objets métalliques restent intactes dans sa masse.",
+  "icon": "ooze_creature_0282_icon",
+  "category": "ooze",
+  "rarity": "uncommon",
+  "base_stats": {
+    "health": 84,
+    "mana": 0,
+    "strength": 14,
+    "dexterity": 3,
+    "intelligence": 1,
+    "wisdom": 6,
+    "constitution": 20,
+    "charisma": 1
+  },
+  "properties": {
+    "size": "large",
+    "size_modifiers": {
+      "health_multiplier": 2.0,
+      "damage_multiplier": 1.5,
+      "speed_modifier": -1,
+      "space_requirement": 10,
+      "strength_bonus": 4,
+      "constitution_bonus": 2
+    },
+    "speed": 15,
+    "alignment": "neutral",
+    "languages": [
+      "understands but doesn't speak"
+    ],
+    "challenge_rating": "2",
+    "experience_value": 450
+  },
+  "properties_ooze": {
+    "acidity_level": "6d6 acid per turn",
+    "shape_mutability": true,
+    "dissolution_immunity": [
+      "metal",
+      "stone"
+    ],
+    "pseudopod_attacks": 1,
+    "intellect_level": "minimal",
+    "transparency_advantage": "surprise attacks",
+    "electric_vulnerability": true
+  },
+  "abilities": [
+    "acid_dissolve",
+    "paralyze_touch",
+    "engulf",
+    "transparent_movement",
+    "corrosive_touch",
+    "life_drain_absorption"
+  ],
+  "resistances": {
+    "acid": 100,
+    "physical": 60,
+    "psychic": 50
+  },
+  "weaknesses": [
+    "lightning_damage",
+    "cold_damage",
+    "slashing_damage"
+  ],
+  "immunities": [
+    "charmed",
+    "frightened",
+    "prone",
+    "paralyzed",
+    "poisoned",
+    "stunned"
+  ],
+  "senses": {
+    "blindsight": 60,
+    "tremorsense": 60
+  },
+  "loot_table": {
+    "common_drops": [
+      "acid_component",
+      "ooze_creature_0282_substance",
+      "preserved_equipment"
+    ],
+    "rare_drops": [
+      "corrosion_potion",
+      "acid_mastery_manual"
+    ],
+    "epic_drops": [],
+    "legendary_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "moderate",
+    "intelligence_level": "instinctive",
+    "tactical_awareness": "basic",
+    "attack_pattern": "engulf_and_dissolve",
+    "defensive_patterns": [
+      "acid_shield",
+      "transparency_advantage"
+    ],
+    "special_behaviors": [
+      "moves_silently_through_halls",
+      "dissolves_organic_matter",
+      "absorbs_non_metal_objects",
+      "surprises_with_transparency"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

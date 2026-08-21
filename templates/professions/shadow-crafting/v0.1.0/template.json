@@ -1,0 +1,130 @@
+{
+  "profession": "shadow_crafting",
+  "display_name": "Forge des Ombres",
+  "description": "Maîtrise interdite de la création d'armes et d'objets des ténèbres",
+  "icon_path": "icons/professions/shadow_crafting.png",
+  "category": "forbidden_crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "shadow_dagger",
+      "name": "Dague des Ombres",
+      "description": "Une lame forgée dans les abysses, qui se nourrit de la lumière et de l'espoir",
+      "profession": "shadow_crafting",
+      "difficulty": 70,
+      "base_success_rate": 0.4,
+      "skill_required": 70,
+      "experience_gain": 95,
+      "exceptional_chance": 0.18,
+      "time_required_seconds": 540,
+      "components": [
+        {
+          "item_type": "shadow_blade_core",
+          "quantity": 1,
+          "quality_required": "excellent",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "void_essence",
+          "quantity": 7,
+          "quality_required": "legendary",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "despair_crystal",
+          "quantity": 4,
+          "quality_required": "legendary",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "soul_fragment",
+          "quantity": 3,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "shadow_dagger",
+          "name": "Dague des Ombres",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.8,
+          "durability_modifier": 2.5
+        }
+      ],
+      "conditions": {
+        "profession_level": 40,
+        "required_tools": [
+          "shadow_forge",
+          "void_hammer",
+          "dark_anvil"
+        ],
+        "environmental_factors": [
+          "abyss_workshop"
+        ],
+        "required_facilities": [
+          "shadow_workshop"
+        ]
+      }
+    },
+    {
+      "id": "soul_consuming_armor",
+      "name": "Armure Dévoreuse d'Âmes",
+      "description": "Une armure qui draine la vie de ses victimes pour renforcer son porteur",
+      "profession": "shadow_crafting",
+      "difficulty": 85,
+      "base_success_rate": 0.3,
+      "skill_required": 85,
+      "experience_gain": 140,
+      "exceptional_chance": 0.22,
+      "time_required_seconds": 900,
+      "components": [
+        {
+          "item_type": "soul_armor_base",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "lifedrain_crystal",
+          "quantity": 6,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "shadow_metal",
+          "quantity": 10,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "forbidden_soul",
+          "quantity": 8,
+          "quality_required": "legendary",
+          "rarity_required": "rare"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "soul_consuming_armor",
+          "name": "Armure Dévoreuse d'Âmes",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 2.2,
+          "durability_modifier": 3.0
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "void_weapons",
+    "soul_drain_armor",
+    "darkness_artifacts",
+    "abyss_forging"
+  ],
+  "id": "shadow_crafting",
+  "name": "Shadow Crafting",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

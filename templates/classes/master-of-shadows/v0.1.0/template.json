@@ -1,0 +1,167 @@
+{
+  "id": "master_of_shadows",
+  "name": "Maitre des Ombres",
+  "description": "Maître du contrôle des ombres, capable d'invoquer une armée de créatures des ténèbres pour dominer le champ de bataille, inspiré du personnage Sung Jinwoo de Solo Leveling",
+  "color": "000000",
+  "primary_resource": "shadow_energy",
+  "base_stats": {
+    "strength": 12,
+    "agility": 20,
+    "intelligence": 18,
+    "vitality": 10,
+    "wisdom": 14,
+    "charisma": 16
+  },
+  "specializations": [
+    "shadow_summoner",
+    "shadow_blade",
+    "shadow_dominator"
+  ],
+  "starting_skills": [
+    {
+      "id": 30001,
+      "name": "Invoquer Soldat d'Ombre",
+      "description": "Invoque un soldat d'ombre basique pour combattre à vos côtés",
+      "cooldown": 15000,
+      "mana_cost": 20,
+      "range": 0,
+      "cast_time": 2000,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 30002,
+      "name": "Marcher dans les Ombres",
+      "description": "Permet de se déplacer instantanément dans l'ombre et de devenir invisible brièvement",
+      "cooldown": 20000,
+      "mana_cost": 25,
+      "range": 15.0,
+      "cast_time": 500,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 30003,
+      "name": "Lame d'Ombre",
+      "description": "Passive: Augmente les dégâts des attaques avec des armes et ajoute un effet de drain de vie",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": true
+    },
+    {
+      "id": 30004,
+      "name": "Extraction d'Ombres",
+      "description": "Extrait un fragment d'ombre d'un ennemi vaincu, permettant de stocker ses compétences",
+      "cooldown": 0,
+      "mana_cost": 30,
+      "range": 10.0,
+      "cast_time": 1000,
+      "learned_at_level": 5,
+      "is_passive": false
+    },
+    {
+      "id": 30005,
+      "name": "Aura du Monarque",
+      "description": "Buff passif : Augmente la force et la vitalité de tous les alliés proches",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 20.0,
+      "cast_time": 0,
+      "learned_at_level": 10,
+      "is_passive": true
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 0,
+        "talents": [
+          {
+            "id": 300001,
+            "name": "Stockage d'Ombres Infini",
+            "description": "+1 emplacement d'ombre supplémentaire par rang",
+            "max_rank": 5,
+            "icon_path": "shadow_storage"
+          }
+        ]
+      },
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 300011,
+            "name": "Domination des Ombres",
+            "description": "+10% de dégâts et de vie pour les invocations d'ombres",
+            "max_rank": 3,
+            "icon_path": "shadow_dominion"
+          },
+          {
+            "id": 300012,
+            "name": "Maîtrise des Ténèbres",
+            "description": "Augmente la régénération d'énergie d'ombre de 5 par seconde",
+            "max_rank": 3,
+            "icon_path": "dark_mastery"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "talents": [
+          {
+            "id": 300021,
+            "name": "Armée d'Ombres Élites",
+            "description": "Permet d'inviter des créatures d'ombre plus puissantes en élite",
+            "max_rank": 1,
+            "icon_path": "elite_army"
+          },
+          {
+            "id": 300022,
+            "name": "Extraction Rapide",
+            "description": "-20% temps d'extraction d'ombres",
+            "max_rank": 3,
+            "icon_path": "quick_extraction"
+          },
+          {
+            "id": 300023,
+            "name": "Résistance aux Ténèbres",
+            "description": "+10% résistance aux dégâts de type ombre ou ténèbres",
+            "max_rank": 3,
+            "icon_path": "shadow_resistance"
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "talents": [
+          {
+            "id": 300031,
+            "name": "Monarque des Ombres",
+            "description": "Capacité ultime : Invoque tous les ombres stockés avec un buff de puissance majeure",
+            "max_rank": 1,
+            "icon_path": "shadow_monarch"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 150,
+  "health_modifier": 0.8,
+  "damage_modifier": 1.3,
+  "armor_modifier": 0.7,
+  "resistances": {
+    "shadow": 50,
+    "darkness": 35,
+    "necrotic": 20,
+    "holy": -20
+  },
+  "synergies": {
+    "undead": 1.4,
+    "demon": 1.2,
+    "spirit": 1.3
+  },
+  "template_type": "class",
+  "version": "0.1.0"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "mage_time_warp",
+  "name": "Distorsion Temporelle",
+  "description": "Accélère le temps pour vous et vos alliés",
+  "ability_type": "active",
+  "category": "utility",
+  "cooldown": 180000,
+  "mana_cost": 100,
+  "cast_time": 3000,
+  "range": 0,
+  "target_type": "self",
+  "duration": 20000,
+  "effects": [
+    {
+      "effect_type": "haste",
+      "value": 0.3,
+      "duration": 20000,
+      "tick_rate": 0,
+      "school": "arcane"
+    },
+    {
+      "effect_type": "resource_regen",
+      "value": 0.5,
+      "duration": 20000,
+      "tick_rate": 0,
+      "school": "arcane"
+    },
+    {
+      "effect_type": "cast_speed",
+      "value": 0.4,
+      "duration": 20000,
+      "tick_rate": 0,
+      "school": "arcane"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "time_distortion",
+    "haste_effect": "time_acceleration",
+    "aura_effect": "temporal_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "time_warp_chant",
+    "haste_sound": "time_acceleration",
+    "aura_sound": "temporal_hum"
+  },
+  "scaling": {
+    "spell_power": 1.2,
+    "arcane_mastery": 1.8
+  },
+  "requirements": {
+    "level": 40,
+    "abilities": [
+      "arcane_barrage",
+      "teleport"
+    ],
+    "class": "mage"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "haste_amount": 0.2,
+      "resource_regen": 0.3,
+      "cast_speed": 0.2
+    },
+    "journeyman": {
+      "haste_amount": 0.25,
+      "resource_regen": 0.4,
+      "cast_speed": 0.3,
+      "duration": 25000
+    },
+    "master": {
+      "haste_amount": 0.3,
+      "resource_regen": 0.5,
+      "cast_speed": 0.4,
+      "duration": 30000,
+      "area_effect": true
+    },
+    "grandmaster": {
+      "haste_amount": 0.4,
+      "resource_regen": 0.6,
+      "cast_speed": 0.5,
+      "duration": 40000,
+      "area_effect": true,
+      "ability_unlock": "time_stop"
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

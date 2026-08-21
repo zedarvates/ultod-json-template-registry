@@ -1,0 +1,54 @@
+{
+  "id": "physical_spell_0980",
+  "name": "Physical Spell 0980",
+  "description": "Augmente considérablement la vitesse de déplacement pendant 8 secondes",
+  "icon": "physical_spell_0980_icon",
+  "school": "physical",
+  "rarity": "common",
+  "spell_type": "utility",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 25000,
+  "mana_cost": 25,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "speed_boost",
+      "value": 50,
+      "duration": 8000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "speed_lines",
+    "projectile_effect": null,
+    "hit_effect": "motion_blur"
+  },
+  "sound_effects": {
+    "cast_sound": "wind_rush",
+    "projectile_sound": null,
+    "hit_sound": "footsteps_fast"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "acrobatics"
+    ],
+    "classes": [
+      "ninja",
+      "rogue",
+      "hunter"
+    ]
+  },
+  "upgrades": {
+    "burst_of_speed": {
+      "unlock_level": 12,
+      "description": "Augmente l'effet de vitesse du physical_spell_0980",
+      "speed_bonus": 25,
+      "duration_bonus": 2000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

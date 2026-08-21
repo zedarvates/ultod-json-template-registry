@@ -1,0 +1,177 @@
+{
+  "profession": "adapted_reference_armorsmith",
+  "display_name": "Maître Armurier d'adapted_reference",
+  "description": "Craft ultime pour les protecteurs d'Atreia, créant des armures infusées de pouvoir aethérique capables de résister aux Balaur",
+  "icon_path": "icons/professions/adapted_reference_armorsmith.png",
+  "category": "adapted_reference_crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "templar_battle_armor",
+      "name": "Armure de Bataille Templière",
+      "description": "Armure complète pour les Templiers du Sanctuaire, forgée dans les forges sacrées",
+      "profession": "adapted_reference_armorsmith",
+      "difficulty": 88,
+      "base_success_rate": 0.42,
+      "skill_required": 78,
+      "experience_gain": 135,
+      "exceptional_chance": 0.2,
+      "time_required_seconds": 720,
+      "components": [
+        {
+          "item_type": "adapted_reference_divine",
+          "quantity": 20,
+          "quality_required": "rare",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "templar_chain_links",
+          "quantity": 35,
+          "quality_required": "excellent",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "guardian_dragon_leather",
+          "quantity": 15,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "holy_crystal_plating",
+          "quantity": 8,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "templar_sigil",
+          "quantity": 3,
+          "quality_required": "rare",
+          "rarity_required": "rare"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "templar_battle_armor",
+          "name": "Armure de Bataille Templière +0",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.7,
+          "durability_modifier": 2.0,
+          "max_enchant_level": 20,
+          "set_effects": [
+            "Holy Protection",
+            "Templar Might"
+          ]
+        }
+      ],
+      "conditions": {
+        "profession_level": 70,
+        "required_tools": [
+          "divine_anvil",
+          "aether_hammer",
+          "templar_forge"
+        ],
+        "environmental_factors": [
+          "sanctuary_blessing"
+        ]
+      }
+    },
+    {
+      "id": "archon_guardian_armor",
+      "name": "Armure de Gardien Archon",
+      "description": "Armure ultime portée par les Gardiens de la Tour des Archons, résistante aux attaques abyssales",
+      "profession": "adapted_reference_armorsmith",
+      "difficulty": 105,
+      "base_success_rate": 0.22,
+      "skill_required": 98,
+      "experience_gain": 300,
+      "exceptional_chance": 0.32,
+      "time_required_seconds": 1800,
+      "components": [
+        {
+          "item_type": "archon_adapted_reference_plate",
+          "quantity": 50,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "guardian_dragon_scale",
+          "quantity": 30,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "abyss_crystal_matrix",
+          "quantity": 15,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "essence_of_archon",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "heart_of_abyss",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "divine_protection_rune",
+          "quantity": 10,
+          "quality_required": "excellent",
+          "rarity_required": "epic"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "archon_guardian_armor",
+          "name": "Armure de Gardien Archon",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 4.0,
+          "durability_modifier": 6.0,
+          "max_enchant_level": 30,
+          "legendary_effects": [
+            "Archon Shield",
+            "Abyss Immunity",
+            "Divine Resilience"
+          ],
+          "passive_abilities": [
+            "Damage Reflection",
+            "Chi Regenerate"
+          ]
+        }
+      ],
+      "conditions": {
+        "profession_level": 95,
+        "required_tools": [
+          "archon_reality_forge",
+          "gods_blacksmith_tools"
+        ],
+        "environmental_factors": [
+          "archon_presence",
+          "abyss_energy"
+        ]
+      }
+    }
+  ],
+  "specializations": [
+    "templar_armor_crafting",
+    "chanter_sanctuary_armor",
+    "guardian_abyss_armor",
+    "archon_command_armor"
+  ],
+  "masterwork_bonuses": {
+    "defense_boost": 25,
+    "enchant_slot_increase": 2,
+    "repair_cost_reduction": 40,
+    "durability_enhancement": 30
+  },
+  "id": "professions_template_0005",
+  "name": "Professions Template 0005",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

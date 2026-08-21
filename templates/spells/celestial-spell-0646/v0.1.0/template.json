@@ -1,0 +1,81 @@
+{
+  "id": "celestial_spell_0646",
+  "name": "Celestial Spell 0646",
+  "description": "S'élève dans les airs et gagne des avantages de vol et d'attaque aérienne",
+  "icon": "celestial_spell_0646_icon",
+  "school": "celestial",
+  "rarity": "rare",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 2000,
+  "cooldown": 0,
+  "warrior_spirit_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "flight_mode",
+      "value": 0,
+      "duration": 30000,
+      "tick_rate": 0,
+      "scaling": {}
+    },
+    {
+      "effect_type": "aerial_advantage",
+      "value": 25,
+      "duration": 30000,
+      "tick_rate": 0,
+      "scaling": {
+        "agility": 0.3
+      }
+    },
+    {
+      "effect_type": "speed_boost",
+      "value": 50,
+      "duration": 30000,
+      "tick_rate": 0,
+      "scaling": {}
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "wing_manifestation",
+    "hit_effect": "air_current_rise",
+    "miss_effect": "spell_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "wind_rush",
+    "hit_sound": "feather_flutter",
+    "miss_sound": "spell_fail"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "sky_mastery"
+    ],
+    "classes": [
+      "horus"
+    ]
+  },
+  "upgrades": {
+    "soaring_eagle": {
+      "unlock_level": 18,
+      "description": "Augmente les avantages de vol et leur durée",
+      "aerial_advantage_bonus": 15,
+      "duration_bonus": 15000
+    },
+    "predator_strike": {
+      "unlock_level": 28,
+      "description": "Permet d'attaquer pendant le vol sans restriction",
+      "mid_air_attacks": true,
+      "damage_bonus": 20
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

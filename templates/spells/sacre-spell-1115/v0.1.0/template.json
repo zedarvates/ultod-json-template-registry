@@ -1,0 +1,74 @@
+{
+  "id": "sacre_spell_1115",
+  "name": "Sacre Spell 1115",
+  "description": "Libère une explosion d'énergie sacrée qui soigne les alliés et blesse les ennemis proches",
+  "icon": "sacre_spell_1115_icon",
+  "school": "sacré",
+  "rarity": "uncommon",
+  "spell_type": "healing",
+  "target_type": "area",
+  "range": 0.0,
+  "cast_time": 1500,
+  "cooldown": 12000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "sacre_spell_1115",
+    "scaling": {
+      "wisdom": 1.2,
+      "intelligence": 0.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "area_healing",
+      "value": 180,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_radius": 12.0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "area_damage",
+      "value": 120,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_radius": 12.0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sacre_spell_1115_explosion_build",
+    "healing_effect": "golden_nova_heal",
+    "damage_effect": "sacre_spell_1115_damage"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_explosion",
+    "healing_sound": "sacre_spell_1115_chorus",
+    "damage_sound": "sacre_spell_1115_wrath"
+  },
+  "requirements": {
+    "level": 14,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_holy_nova": {
+      "unlock_level": 24,
+      "description": "Sacre Spell 1115 soigne et blesse plus",
+      "healing_bonus": 80,
+      "damage_bonus": 50
+    },
+    "holy_nova_mastery": {
+      "unlock_level": 34,
+      "description": "Sacre Spell 1115 couvre une plus grande zone",
+      "radius_bonus": 4,
+      "cast_time_reduction": 500
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

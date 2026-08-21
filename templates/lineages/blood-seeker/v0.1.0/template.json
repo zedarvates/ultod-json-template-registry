@@ -1,0 +1,49 @@
+{
+  "id": "blood_seeker",
+  "name": "Chercheur de Sang",
+  "description": "Chercheur de sang énergétique avec des capacités d'hémomancie",
+  "icon": "blood_seeker_lineage",
+  "rarity": "epic",
+  "required_level": 20,
+  "awakening_cost": {
+    "mana": 250,
+    "health": 100,
+    "items": {
+      "blood_crystal": 1,
+      "vampiric_essence": 1
+    }
+  },
+  "stat_bonuses": {
+    "health": 10,
+    "strength": 5,
+    "dexterity": 5,
+    "intelligence": 10,
+    "wisdom": 0,
+    "charisma": 0
+  },
+  "resistance_bonuses": {
+    "shadow": 15
+  },
+  "skill_bonuses": {
+    "stealth": 0.2
+  },
+  "awakening_bonuses": {
+    "duration_minutes": 60,
+    "stat_multipliers": {
+      "health_regeneration": 2.0,
+      "life_drain": 1.8
+    },
+    "special_effects": [
+      "blood_drain",
+      "life_steal_aura"
+    ]
+  },
+  "racial_synergies": {
+    "vampire": 2.0,
+    "dark_elf": 1.6,
+    "blood_regeneration": 1.8
+  },
+  "enabled": true,
+  "template_type": "lineage",
+  "version": "0.1.0"
+}

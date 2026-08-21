@@ -1,0 +1,70 @@
+{
+  "id": "necromancy_spell_0955",
+  "name": "Necromancy Spell 0955",
+  "description": "Invoque des os qui s'élèvent du sol pour emprisonner la victime dans une cage osseuse impénétrable",
+  "icon": "necromancy_spell_0955_icon",
+  "school": "necromancy",
+  "rarity": "epic",
+  "spell_type": "necromancy_spell_0955_imprisonment_spell",
+  "target_type": "single_target",
+  "range": 15.0,
+  "cast_time": 2500,
+  "cooldown": 35000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "necrotic_imprisonment_confinement"
+  },
+  "effects": [
+    {
+      "effect_type": "necromancy_spell_0955_cage_imprisonment",
+      "value": 50,
+      "duration": 15000,
+      "tick_rate": 0,
+      "cage_strength": 1000,
+      "movement_lock": true,
+      "spell_cast_prevention": true,
+      "bone_spike_damage": 20,
+      "break_out_chance": 15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necromancy_spell_0955s_erupting_ground_earth_cracking_dark_energy_gathering",
+    "imprisonment_effect": "necromancy_spell_0955_cage_forming_ossified_structure_skull_topper_dark_aura",
+    "ongoing_effect": "cage_pulsating_dark_energy_necromancy_spell_0955s_cracking_victim_struggling",
+    "expiration_effect": "cage_crumbling_necromancy_spell_0955s_falling_dark_energy_release_scattering"
+  },
+  "sound_effects": {
+    "cast_effect": "necromancy_spell_0955s_rattling_erupting_ground_cracking_ominous_chanting",
+    "imprisonment_effect": "necromancy_spell_0955_structure_forming_cracking_ossification_dark_whispers",
+    "ongoing_effect": "continuous_necromancy_spell_0955_cracking_struggling_sounds_dark_ambient_confinement",
+    "expiration_effect": "cage_breaking_necromancy_spell_0955s_shattering_crashing_dark_energy_whisper"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [
+      "necromancy",
+      "necromancy_spell_0955_manipulation",
+      "imprisonment_mastery"
+    ],
+    "classes": [
+      "necromancer",
+      "necromancy_spell_0955_lord",
+      "undead_master"
+    ],
+    "specializations": [
+      "imprisonment_specialist"
+    ]
+  },
+  "upgrades": {
+    "greater_bone_prison": {
+      "unlock_level": 40,
+      "description": "La Necromancy Spell 0955 devient plus résistante et peut affecter plusieurs cibles",
+      "cage_durability": 2000,
+      "multi_target_imprisonment": 3,
+      "damage_over_time": 30
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

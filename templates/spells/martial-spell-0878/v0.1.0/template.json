@@ -1,0 +1,74 @@
+{
+  "id": "martial_spell_0878",
+  "name": "Martial Spell 0878",
+  "description": "Le coup de pied ultime forgé dans les arts anciens, qui combine précision mortelle, étourdissement prolongé et dégât cataclysmique",
+  "icon": "martial_spell_0878_icon",
+  "school": "martial",
+  "rarity": "legendary",
+  "spell_type": "adapted_referencete_lotus_kick",
+  "target_type": "enemy_legendary_strike",
+  "range": 8.0,
+  "cast_time": 5000,
+  "cooldown": 300000,
+  "mana_cost": 250,
+  "damage": {
+    "base_damage": 600,
+    "damage_type": "ancient_lot*_impact_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "legendary_lotus_kick_execution",
+      "value": 800,
+      "duration": 10000,
+      "tick_rate": 0,
+      "instant_damage_delivery": 600,
+      "stun_duration_extended": 10000,
+      "internal_bleeding_dot": 200,
+      "pressure_point_paralysis": 15000,
+      "knockback_distance_massive": 15.0,
+      "chi_explosion_outburst": 300
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ancient_chi_gathering_martial_spell_0878_lotus_petal_formation_leg_coiling_power",
+    "execution_effect": "lightning_fast_kick_execution_martial_spell_0878_energy_trail_explosive_impact",
+    "impact_effect": "victim_launching_back_martial_spell_0878_petal_burst_chi_eruption_ground_crack",
+    "lingering_effect": "martial_spell_0878_lotus_petal_fragments_ground_injury_continuing_pressure",
+    "legendary_effect": "default_monk_icon_ephemeral_chi_energy_dissipating_returning_reality"
+  },
+  "sound_effects": {
+    "cast_effect": "ancient_chi_rumbling_power_gathering_deep_reverberation_petal_form",
+    "execution_effect": "lightning_swift_execution_whistle_impact_crushing_bone_turbine",
+    "impact_effect": "victim_launch_crunching_chi_explosion_boom_ground_cracking",
+    "lingering_effect": "pressure_injury_echo_hissing_chi_leakage_contained_suffering",
+    "legendary_effect": "distant_chi_cry_echoing_legend_reverence_monk_tradition_fading"
+  },
+  "requirements": {
+    "level": 60,
+    "skills": [
+      "martial_perfection",
+      "ancient_lotus_knowledge",
+      "legendary_kick_arts"
+    ],
+    "classes": [
+      "monk",
+      "lotus_master",
+      "kung_fu_legend"
+    ],
+    "specializations": [
+      "martial_spell_0878_lotus_disciple"
+    ]
+  },
+  "upgrades": {
+    "greater_black_lotus_kick": {
+      "unlock_level": 70,
+      "description": "Le Martial Spell 0878 devient plus dévastateur avec des effets légendaires accrus",
+      "damage_increase_percent": 150,
+      "knockback_distance_increase": 25.0,
+      "chi_explosion_chain_damage": 400,
+      "lotus_petal_proliferation": 12
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

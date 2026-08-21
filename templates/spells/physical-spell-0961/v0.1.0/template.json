@@ -1,0 +1,67 @@
+{
+  "id": "physical_spell_0961",
+  "name": "Physical Spell 0961",
+  "description": "Une rafale rapide de coups de lames infligeant des dégâts múltiples aux ennemis proches",
+  "icon": "physical_spell_0961_icon",
+  "school": "physical",
+  "rarity": "epic",
+  "spell_type": "damage",
+  "target_type": "area_enemies",
+  "range": 2.0,
+  "cast_time": 0,
+  "cooldown": 15000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 2.0,
+      "strength": 0.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage",
+      "value": 120,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_type": "physical",
+      "scaling": {
+        "agility": 2.0,
+        "strength": 0.8
+      },
+      "hits_multiple": 3,
+      "area_radius": 2.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "physical_spell_0961_spin",
+    "projectile_effect": null,
+    "hit_effect": "physical_spell_0961_slices"
+  },
+  "sound_effects": {
+    "cast_sound": "physical_spell_0961_whirl",
+    "projectile_sound": null,
+    "hit_sound": "multiple_slashes"
+  },
+  "requirements": {
+    "level": 15,
+    "skills": [
+      "swordsmanship",
+      "acrobatics"
+    ],
+    "classes": [
+      "ninja"
+    ]
+  },
+  "upgrades": {
+    "whirling_death": {
+      "unlock_level": 30,
+      "description": "Augmente la vitesse d'attaque de Physical Spell 0961",
+      "speed_bonus": 50,
+      "damage_bonus": 25
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

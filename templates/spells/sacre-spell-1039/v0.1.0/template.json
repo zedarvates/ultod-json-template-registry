@@ -1,0 +1,79 @@
+{
+  "id": "sacre_spell_1039",
+  "name": "Sacre Spell 1039",
+  "description": "Invoque une Sacre Spell 1039 pour sauver un allié du désespoir",
+  "icon": "sacre_spell_1039_icon",
+  "school": "sacré",
+  "rarity": "legendary",
+  "spell_type": "healing",
+  "target_type": "ally",
+  "range": 40.0,
+  "cast_time": 3000,
+  "cooldown": 300000,
+  "mana_cost": 150,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "holy",
+    "scaling": {
+      "wisdom": 0.0,
+      "vitality": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "full_heal",
+      "value": 1.0,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "remove_debuffs",
+      "value": 1.0,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "holy_protection",
+      "value": 0.5,
+      "duration": 10000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sacre_spell_1039_light_beam",
+    "heal_effect": "golden_healing_aura",
+    "protection_effect": "holy_ward"
+  },
+  "sound_effects": {
+    "cast_sound": "sacre_spell_1039_chorus",
+    "heal_sound": "angelic_harmony",
+    "protection_sound": "sacre_spell_1039_shield"
+  },
+  "requirements": {
+    "level": 40,
+    "skills": [],
+    "classes": [
+      "paladin"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_divine_intervention": {
+      "unlock_level": 50,
+      "description": "Sacre Spell 1039 soigne plus et protège plus longtemps",
+      "heal_bonus": 0.5,
+      "protection_duration_bonus": 5000
+    },
+    "divine_intervention_mastery": {
+      "unlock_level": 60,
+      "description": "Sacre Spell 1039 peut ressusciter et affecte plusieurs alliés",
+      "ressurection": true,
+      "area_heal": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

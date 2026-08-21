@@ -1,0 +1,48 @@
+{
+  "id": "enchantment_spell_1380",
+  "name": "Enchantment Spell 1380",
+  "description": "Vous prenez le contrôle de l'esprit d'une créature humanoïde",
+  "icon": "enchantment_spell_1380_icon",
+  "school": "enchantment",
+  "rarity": "legendary",
+  "spell_type": "control",
+  "target_type": "single",
+  "range": 18.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 90,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "mind_control",
+      "value": 0,
+      "duration": 3600000,
+      "tick_rate": 0,
+      "wisdom_save": true,
+      "save_dc": 15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "mind_wave"
+  },
+  "sound_effects": {
+    "cast_sound": "mind_control"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "enchantment"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,38 @@
+{
+  "school": "spiritualism_spell_1412ualism",
+  "rarity": "rare",
+  "target_type": "single",
+  "range": 25.0,
+  "cast_time": 4000,
+  "cooldown": 120000,
+  "mana_cost": 80,
+  "visual_effects": {
+    "cast_effect": "possession_cast",
+    "projectile_effect": "spiritualism_spell_1412_projectile",
+    "impact_effect": "possession_impact",
+    "trail_effect": "spiritualism_spell_1412_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "possession_cast_sound",
+    "impact_sound": "possession_impact_sound"
+  },
+  "requirements": {
+    "level": 30
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "spiritualism_spell_1412",
+  "name": "Spiritualism Spell 1412",
+  "description": "Takes control of an enemy's spiritualism_spell_1412, making them fight for you",
+  "icon": "spiritualism_spell_1412ualism_spell_1412_icon",
+  "spell_type": "control",
+  "effects": {
+    "duration": 15000,
+    "control_type": "possession",
+    "chance": 0.7,
+    "scaling": {
+      "spirit": 0.5
+    }
+  },
+  "template_type": "spell"
+}

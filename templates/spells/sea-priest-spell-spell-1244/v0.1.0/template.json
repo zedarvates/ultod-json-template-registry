@@ -1,0 +1,45 @@
+{
+  "id": "sea_priest_spell_spell_1244",
+  "name": "Sea Priest Spell Spell 1244",
+  "description": "Description for Sea sea_priest_spell_spell_1244 Spell Spell 1244",
+  "icon": "sea_sea_priest_spell_spell_1244_spell_spell_1244_icon",
+  "school": "sea_sea_priest_spell_spell_1244_spell",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 6.0,
+  "cast_time": 300,
+  "cooldown": 1000,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 24,
+    "damage_type": "physical"
+  },
+  "effects": [
+    {
+      "effect_type": "physical_damage",
+      "value": 24,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "aura",
+    "projectile_effect": "bolt",
+    "impact_effect": "impact"
+  },
+  "sound_effects": {
+    "cast_sound": "cast",
+    "impact_sound": "hit"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "sea_sea_priest_spell_spell_1244"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

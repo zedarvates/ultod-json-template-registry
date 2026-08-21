@@ -1,0 +1,76 @@
+{
+  "id": "enchantment_spell_0290",
+  "name": "Enchantment Spell 0290",
+  "description": "Enchante une arme avec de l'énergie divine, améliorant ses dégâts et ses effets",
+  "icon": "enchantment_spell_0290_icon",
+  "school": "enchantment",
+  "rarity": "uncommon",
+  "spell_type": "weapon_enchant",
+  "target_type": "ally_weapon_self",
+  "range": 10.0,
+  "cast_time": 1200,
+  "cooldown": 12000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "enchantment_spell_0290_enchant"
+  },
+  "effects": [
+    {
+      "effect_type": "divine_weapon_blessing",
+      "value": 200,
+      "duration": 18000,
+      "tick_rate": 0,
+      "damage_bonus_holy": 50,
+      "critical_chance_holy": 0.25,
+      "vs_unholy_damage_multiplier": 1.8,
+      "light_burst_on_hit": true,
+      "blessed_weapon_glow": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "enchantment_spell_0290_energy_weapon_infuse",
+    "weapon_effect": "golden_glow_blade_sword",
+    "damage_effect": "light_burst_on_strike",
+    "expire_effect": "enchantment_spell_0290_energy_dissipate"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_weapon_infuse",
+    "weapon_sound": "enchantment_spell_0290_energy_pulse",
+    "damage_sound": "light_burst_crack",
+    "expire_sound": "enchantment_spell_0290_fade_whispers"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "divine_magic",
+      "weapon_enchantment"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "blessed_warrior"
+    ]
+  },
+  "upgrades": {
+    "righteous_fury": {
+      "unlock_level": 20,
+      "description": "L'arme brûle le mal et purifie les cibles touchées",
+      "holy_damage_on_hit": 40,
+      "unholy_purification": true,
+      "righteous_cleansing": 0.2
+    },
+    "divine_crusader_weapon": {
+      "unlock_level": 30,
+      "description": "L'arme invincible écrase les ennemis et guide le porteur",
+      "unstoppable_fury": true,
+      "guided_strikes": 0.3,
+      "crusader_shield": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

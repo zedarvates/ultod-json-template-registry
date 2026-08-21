@@ -1,0 +1,48 @@
+{
+  "id": "transmutation_spell_1609",
+  "name": "Transmutation Spell 1609",
+  "description": "Transforme une créature en animal inoffensif",
+  "icon": "transmutation_spell_1609_icon",
+  "school": "transmutation",
+  "rarity": "rare",
+  "spell_type": "control",
+  "target_type": "single",
+  "range": 18.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "transformation",
+      "value": 0,
+      "duration": 3600000,
+      "tick_rate": 0,
+      "wisdom_save": true,
+      "save_dc": 15,
+      "transform_to": "sheep"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "shape_shift"
+  },
+  "sound_effects": {
+    "cast_sound": "transformation"
+  },
+  "requirements": {
+    "level": 4,
+    "skills": [
+      "transmutation"
+    ],
+    "classes": [
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

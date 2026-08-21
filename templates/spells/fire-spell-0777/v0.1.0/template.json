@@ -1,0 +1,82 @@
+{
+  "id": "fire_spell_0777",
+  "name": "Fire Spell 0777",
+  "description": "Lance une puissante Fire Spell 0777 explosive qui inflige des dégâts de feu importants à l'impact",
+  "icon": "fire_spell_0777_icon",
+  "school": "fire",
+  "rarity": "uncommon",
+  "spell_type": "elemental_damage_projectile",
+  "target_type": "enemy_or_location",
+  "range": 35.0,
+  "cast_time": 1800,
+  "cooldown": 8000,
+  "mana_cost": 65,
+  "damage": {
+    "base_damage": 180,
+    "damage_type": "fire_elemental_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "explosive_fire_projectile",
+      "value": 200,
+      "duration": 0,
+      "tick_rate": 0,
+      "explosion_radius": 4.0,
+      "projectile_speed": 25.0,
+      "fire_damage_over_time": 30,
+      "impact_blast_wave": 50,
+      "debris_scatter_damage": 20,
+      "flammable_terrain_ignition": 0.4
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fire_energy_concentration_orbiting_sparks",
+    "projectile_effect": "fiery_projectile_flying_trailing_flames",
+    "explosion_effect": "massive_fire_burst_debris_flying_orange_red",
+    "impact_effect": "residual_fire_patches_burning_ground_scorched"
+  },
+  "sound_effects": {
+    "cast_effect": "fire_energy_whir_increasing_intensity_charge",
+    "projectile_effect": "fiery_whoosh_projectile_speeding_throw",
+    "explosion_effect": "explosive_blast_thunderous_fire_crackling",
+    "impact_effect": "residual_fire_cracking_ground_scorching_sizzle"
+  },
+  "requirements": {
+    "level": 15,
+    "skills": [
+      "fire_magic",
+      "elemental_control"
+    ],
+    "classes": [
+      "mage",
+      "pyromancer",
+      "elementalist"
+    ],
+    "specializations": [
+      "fire_specialization"
+    ]
+  },
+  "upgrades": {
+    "greater_fireball": {
+      "unlock_level": 25,
+      "description": "La Fire Spell 0777 devient plus grande avec plus de puissance et une plus grande explosion",
+      "damage_increase_percent": 60,
+      "explosion_radius_increase": 2.0,
+      "projectile_speed_increase": 10,
+      "explosion_chained_damage": 25
+    }
+  },
+  "vr_configuration": {
+    "gestures": {
+      "right_pose": "fist",
+      "required_hand": "right"
+    },
+    "haptics": {
+      "charge_pattern": "charging",
+      "launch_pattern": "hard",
+      "impact_pattern": "explosion"
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

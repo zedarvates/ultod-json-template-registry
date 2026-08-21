@@ -1,0 +1,83 @@
+{
+  "id": "nature_spell_0412",
+  "name": "Nature Spell 0412",
+  "description": "Invoque des vignes magiques qui immobilisent les ennemis proches",
+  "icon": "nature_spell_0412_icon",
+  "school": "nature",
+  "rarity": "rare",
+  "spell_type": "damage",
+  "target_type": "area",
+  "range": 0.0,
+  "cast_time": 1500,
+  "cooldown": 60000,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 60,
+    "damage_type": "nature",
+    "scaling": {
+      "intelligence": 0.8,
+      "wisdom": 0.7
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "area_damage",
+      "value": 60,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_radius": 15.0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "area_root",
+      "value": 0,
+      "duration": 10000,
+      "tick_rate": 0,
+      "aoe_radius": 15.0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "area_dot",
+      "value": 25,
+      "duration": 15000,
+      "tick_rate": 3000,
+      "total_ticks": 5,
+      "aoe_radius": 15.0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "nature_vines_summon",
+    "area_effect": "vines_entangle",
+    "dot_effect": "nature_poison_cloud"
+  },
+  "sound_effects": {
+    "cast_sound": "vines_growing",
+    "area_sound": "entanglement_rustle",
+    "dot_sound": "poison_hiss"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [],
+    "classes": [
+      "druid"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_natures_grasp": {
+      "unlock_level": 35,
+      "description": "Nature Spell 0412 couvre une plus grande zone et immobilise plus longtemps",
+      "radius_bonus": 5,
+      "root_duration_bonus": 3000
+    },
+    "natures_grasp_mastery": {
+      "unlock_level": 45,
+      "description": "Nature Spell 0412 peut repousser les ennemis après l'immobilisation",
+      "knockback_after_root": true,
+      "damage_bonus": 30
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

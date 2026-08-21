@@ -1,0 +1,79 @@
+{
+  "id": "chronomancy_spell_0238",
+  "name": "Chronomancy Spell 0238",
+  "description": "Le chronomancien voit brièvement dans le futur pour anticiper les mouvements ennemis",
+  "icon": "chronomancy_spell_0238_icon",
+  "school": "chronomancy",
+  "rarity": "rare",
+  "spell_type": "chronomancy_spell_0238_prediction",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1200,
+  "cooldown": 20000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "future_vision_buff",
+      "value": 100,
+      "duration": 30000,
+      "tick_rate": 0,
+      "foresight_duration": 30000,
+      "prediction_accuracy": 0.85,
+      "enemy_action_preview": true,
+      "dodge_chance_bonus": 0.3,
+      "tactical_advantage": true,
+      "paradox_headache_chance": 0.1
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "chronomancy_spell_0238_vision_portal",
+    "foresight_effect": "ghost_future_images",
+    "advantage_effect": "tactical_opportunity_glow",
+    "expire_effect": "vision_fade_crack"
+  },
+  "sound_effects": {
+    "cast_sound": "future_vision_whistle",
+    "foresight_sound": "parallel_realities_echo",
+    "advantage_sound": "opportune_moment_ding",
+    "expire_sound": "chronomancy_spell_0238_focus_break"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [
+      "chronomancy",
+      "chronomancy_spell_0238_prediction",
+      "future_sight"
+    ],
+    "classes": [
+      "chronomancer",
+      "time_mage",
+      "chronomancy_spell_0238ist"
+    ],
+    "specializations": [
+      "oracle",
+      "prophet"
+    ]
+  },
+  "upgrades": {
+    "crystal_clarity": {
+      "unlock_level": 35,
+      "description": "La prévoyance devient plus précise et dure plus longtemps",
+      "prediction_accuracy_bonus": 0.1,
+      "foresight_duration_bonus": 10000,
+      "headache_reduction": 0.05
+    },
+    "prophetic_mastery": {
+      "unlock_level": 45,
+      "description": "Peut partager la prévoyance avec les alliés",
+      "ally_sharing_range": 25.0,
+      "ally_foresight_multiplier": 0.7,
+      "group_tactical_advantage": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

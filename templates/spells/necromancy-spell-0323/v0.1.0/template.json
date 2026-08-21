@@ -1,0 +1,80 @@
+{
+  "id": "necromancy_spell_0323",
+  "name": "Necromancy Spell 0323",
+  "description": "Une frappe pestilentielle qui empoisonne la cible avec une maladie virulente drénant ses forces vitales",
+  "icon": "necromancy_spell_0323_icon",
+  "school": "necromancy",
+  "rarity": "common",
+  "spell_type": "disease_weapon_attack",
+  "target_type": "single_enemy",
+  "range": 8.0,
+  "cast_time": 0,
+  "cooldown": 3000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 160,
+    "damage_type": "virulent_melee_damage",
+    "scaling": {
+      "unholy_power": 1.3,
+      "necrotic_corruption": 1.1
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "corrosive_necromancy_spell_0323_weapon",
+      "value": 160,
+      "duration": 0,
+      "tick_rate": 0,
+      "immediate_damage": 160,
+      "plague_dot_proc": 0.8,
+      "dot_damage_over_18_seconds": 90,
+      "target_healing_reduction": 20,
+      "disease_spread_chance": 0.15,
+      "rune_burst_generation": 30
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "weapon_corroding_green_flames",
+    "damage_effect": "green_acid_organic_melt",
+    "plague_effect": "spreading_boil_pustules_erupting",
+    "infection_effect": "target_disease_mark_spreading"
+  },
+  "sound_effects": {
+    "cast_sound": "weapon_sizzling_acid_corrosion",
+    "damage_sound": "organic_tissue_dissolving_slurp",
+    "plague_sound": "boiling_skins_hissing_eruption",
+    "infection_sound": "disease_spreading_wet_squelch"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "unholy_magic",
+      "disease_weaponry"
+    ],
+    "classes": [
+      "death_knight",
+      "necromancy_spell_0323_warrior"
+    ],
+    "specializations": [
+      "contagion_master"
+    ]
+  },
+  "upgrades": {
+    "virulent_plague": {
+      "unlock_level": 18,
+      "description": "Le fléau devient plus virulent avec des pustules explosives",
+      "dot_damage_bonus": 50,
+      "explosive_pustules": true,
+      "spread_distance_bonus": 5
+    },
+    "pandemic_strike": {
+      "unlock_level": 28,
+      "description": "La frappe peut déclencher une pandémie sur plusieurs cibles",
+      "pandemic_proc_chance": 0.3,
+      "pandemic_radius": 10.0,
+      "pandemic_initial_damage": 60
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

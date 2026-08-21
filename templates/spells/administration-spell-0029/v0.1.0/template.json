@@ -1,0 +1,55 @@
+{
+  "id": "administration_spell_0029",
+  "name": "Administration Spell 0029",
+  "description": "[administration_spell_0029 ONLY] Instantly heal any target to full health, remove all poisons/curses, and restore all resources",
+  "icon": "administration_spell_0029istration_spell_0029_icon",
+  "school": "administration_spell_0029istration",
+  "rarity": "epic",
+  "spell_type": "player_management",
+  "target_type": "self_or_allies_or_players",
+  "range": 1000.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "comprehensive_restoration"
+  },
+  "effects": [
+    {
+      "effect_type": "complete_administration_spell_0029istration_spell_0029ing_restoration",
+      "value": 1000000,
+      "duration": 0,
+      "tick_rate": 0,
+      "health_restoration": "full_maximum_hitpoints",
+      "all_debuffs_cleared": true,
+      "poison_curse_disease_removed": true,
+      "all_resources_restored": "mana_health_stamina",
+      "limb_damage_healed": true,
+      "death_reversal_resurrection": "if_recently_dead"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_healing_burst_golden_energy",
+    "healing_effect": "comprehensive_restore_golden_warmth",
+    "success_effect": "complete_restoration_ascending_energy",
+    "special_effect": "administration_spell_0029_authority_benevolent_power"
+  },
+  "sound_effects": {
+    "cast_effect": "benevolent_divine_chorus_start",
+    "healing_effect": "comprehensive_healing_harmonic_chords",
+    "success_effect": "victorious_restoration_trumpet_fanfare",
+    "special_effect": "grateful_administration_spell_0029_gratitude_whispers"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "gamemaster",
+      "overseer",
+      "celestial_avatar"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

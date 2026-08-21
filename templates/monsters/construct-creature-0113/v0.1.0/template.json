@@ -1,0 +1,126 @@
+{
+  "id": "construct_creature_0113",
+  "name": "Construct Creature 0113",
+  "description": "Une massive structure humanoïde de 12 pieds de haut, entièrement composée de plaques de fer noir interconnectées. Des runes arcaniques gravées dans sa surface luisent d'une faible lumière bleue. Ses yeux rougeoyants sont les seules traces de vie dans cette masse métallique. Il se déplace avec un bruit métallique assourdissant et ses poings peuvent écraser la pierre.",
+  "icon": "construct_creature_0113_icon",
+  "category": "construct",
+  "rarity": "epic",
+  "base_stats": {
+    "health": 233,
+    "mana": 0,
+    "strength": 24,
+    "dexterity": 9,
+    "intelligence": 3,
+    "wisdom": 11,
+    "constitution": 20,
+    "charisma": 1
+  },
+  "properties": {
+    "size": "large",
+    "size_modifiers": {
+      "health_multiplier": 2.0,
+      "damage_multiplier": 1.5,
+      "speed_modifier": -1,
+      "space_requirement": 10,
+      "strength_bonus": 4,
+      "constitution_bonus": 2
+    },
+    "speed": 30,
+    "alignment": "neutral",
+    "languages": [
+      "understands all but doesn't speak"
+    ],
+    "challenge_rating": "16",
+    "experience_value": 15000
+  },
+  "properties_construct": {
+    "construction_type": "construct_creature_0113_golem",
+    "magic_resistance": 90,
+    "construct_immunity": [
+      "charmed",
+      "exhaustion",
+      "frightened",
+      "paralyzed",
+      "petrified",
+      "poisoned"
+    ],
+    "sentry_mode": true,
+    "command_word_vulnerability": true,
+    "armor_class_mastery": true,
+    "spell_resistance": true
+  },
+  "abilities": [
+    "multiattack",
+    "slam_attack",
+    "sword_attack",
+    "poison_breathe",
+    "magic_resistance",
+    "damage_resistance",
+    "spell_reflection"
+  ],
+  "resistances": {
+    "physical": 80,
+    "magic": 70,
+    "fire": 100,
+    "cold": 100
+  },
+  "weaknesses": [
+    "lightning_damage",
+    "magic_weapons_only",
+    "dispel_magic"
+  ],
+  "immunities": [
+    "poison",
+    "psychic",
+    "necrotic",
+    "charmed",
+    "exhaustion",
+    "frightened",
+    "paralyzed",
+    "petrified",
+    "poisoned"
+  ],
+  "senses": {
+    "darkvision": 60,
+    "scent": false
+  },
+  "loot_table": {
+    "common_drops": [
+      "construct_creature_0113_plate",
+      "rune_component",
+      "golem_core"
+    ],
+    "rare_drops": [
+      "construct_creature_0113_golem_heart",
+      "spell_resistance_manual",
+      "magic_resistance_scroll"
+    ],
+    "epic_drops": [
+      "construct_creature_0113_golem_construct_manual",
+      "adamantine_weapon"
+    ],
+    "legendary_drops": [
+      "construct_creature_0113_golem_master_artifact",
+      "construct_creation_manual"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "moderate",
+    "intelligence_level": "instinctive",
+    "tactical_awareness": "basic",
+    "attack_pattern": "melee_combat",
+    "defensive_patterns": [
+      "magic_resistance",
+      "spell_reflection",
+      "armor_defense"
+    ],
+    "special_behaviors": [
+      "follows_commands_unerringly",
+      "immune_to_most_control_effects",
+      "prioritizes_protecting_master",
+      "uses_armor_class_effectively"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

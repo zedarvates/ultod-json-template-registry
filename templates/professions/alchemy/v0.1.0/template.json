@@ -1,0 +1,166 @@
+{
+  "profession": "alchemy",
+  "display_name": "Alchimie",
+  "description": "Maîtrise des arts secrets pour créer potions, élixirs et substances magiques",
+  "icon_path": "icons/professions/alchemy.png",
+  "category": "magic",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "healing_potion_minor",
+      "name": "Potion de Soin Mineure",
+      "description": "Restaure une petite quantité de points de vie",
+      "profession": "alchemy",
+      "difficulty": 25,
+      "base_success_rate": 0.7,
+      "skill_required": 15,
+      "experience_gain": 15,
+      "exceptional_chance": 0.05,
+      "time_required_seconds": 60,
+      "components": [
+        {
+          "item_type": "healing_herb",
+          "quantity": 3,
+          "quality_required": "standard",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "spring_water",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "glass_vial",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "healing_potion_minor",
+          "name": "Potion de Soin Mineure",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.0,
+          "durability_modifier": 1.0
+        }
+      ],
+      "conditions": {
+        "profession_level": 5,
+        "required_tools": [
+          "alchemist_cauldron",
+          "mortar_and_pestle"
+        ],
+        "environmental_factors": [
+          "clean_environment"
+        ]
+      }
+    },
+    {
+      "id": "mana_potion",
+      "name": "Potion de Mana",
+      "description": "Restaure les points de mana",
+      "profession": "alchemy",
+      "difficulty": 35,
+      "base_success_rate": 0.65,
+      "skill_required": 25,
+      "experience_gain": 25,
+      "exceptional_chance": 0.07,
+      "time_required_seconds": 90,
+      "components": [
+        {
+          "item_type": "mana_crystal",
+          "quantity": 2,
+          "quality_required": "good",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "magic_herb",
+          "quantity": 2,
+          "quality_required": "any",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "glass_vial",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "mana_potion",
+          "name": "Potion de Mana",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.1,
+          "durability_modifier": 1.0
+        }
+      ],
+      "balancing": {
+        "black_knight_modifier": 0.5,
+        "description": "Mana potions restore 50% effectiveness for Black Knights due to their Mana Mastery talent"
+      }
+    },
+    {
+      "id": "strength_elixir",
+      "name": "Élixir de Force",
+      "description": "Augmente temporairement la force",
+      "profession": "alchemy",
+      "difficulty": 50,
+      "base_success_rate": 0.55,
+      "skill_required": 40,
+      "experience_gain": 40,
+      "exceptional_chance": 0.1,
+      "time_required_seconds": 150,
+      "components": [
+        {
+          "item_type": "strength_herb",
+          "quantity": 4,
+          "quality_required": "excellent",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "beast_blood",
+          "quantity": 1,
+          "quality_required": "good",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "power_crystal",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "alchemist_flask",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "strength_elixir",
+          "name": "Élixir de Force",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.2,
+          "durability_modifier": 1.0
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "potion_brewing",
+    "elixir_creation",
+    "transmutation",
+    "poison_mixing"
+  ],
+  "id": "alchemy",
+  "name": "Alchemy",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

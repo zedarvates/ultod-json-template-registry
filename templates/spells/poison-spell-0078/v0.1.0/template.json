@@ -1,0 +1,85 @@
+{
+  "id": "poison_spell_0078",
+  "name": "Poison Spell 0078",
+  "description": "Lance une volée de dagues empoisonnées sur les ennemis proches",
+  "icon": "poison_spell_0078_icon",
+  "school": "poison",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "area",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 15000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 70,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 1.3,
+      "strength": 0.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage",
+      "value": 70,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_type": "physical",
+      "scaling": {
+        "agility": 1.3,
+        "strength": 0.5
+      },
+      "aoe_radius": 6.0,
+      "max_targets": 4
+    },
+    {
+      "effect_type": "poison_dot",
+      "value": 15,
+      "duration": 10000,
+      "tick_rate": 2000,
+      "total_ticks": 5,
+      "proc_chance": 0.3,
+      "aoe_poison": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "daggers_spin",
+    "projectile_effect": "poison_daggers",
+    "hit_effect": "venom_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "daggers_whirl",
+    "projectile_sound": "air_whistle",
+    "hit_sound": "venom_hiss"
+  },
+  "requirements": {
+    "level": 15,
+    "skills": [
+      "poison_spell_0078_mastery",
+      "poison_mastery"
+    ],
+    "classes": [
+      "assassin",
+      "rogue",
+      "ninja"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_throwing_daggers": {
+      "unlock_level": 25,
+      "description": "Poison Spell 0078 touchent plus d'ennemis et infligent plus de poison",
+      "max_targets_bonus": 1,
+      "poison_ticks_bonus": 2
+    },
+    "lethal_throwing_daggers": {
+      "unlock_level": 35,
+      "description": "Poison Spell 0078 ont une chance d'étourdir les cibles",
+      "stun_proc": 0.15,
+      "stun_duration": 2000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

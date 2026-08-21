@@ -1,0 +1,74 @@
+{
+  "id": "holy_spell_1052",
+  "name": "Holy Spell 1052",
+  "description": "Téléporte le paladin vers un lieu sacré ou un allié marqué par la lumière divine",
+  "icon": "holy_spell_1052_icon",
+  "school": "holy",
+  "rarity": "rare",
+  "spell_type": "teleport",
+  "target_type": "self",
+  "range": 50.0,
+  "cast_time": 3000,
+  "cooldown": 300000,
+  "mana_cost": 75,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "holy"
+  },
+  "effects": [
+    {
+      "effect_type": "teleport",
+      "value": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "teleport_range": 50.0,
+      "teleport_type": "holy_spell_1052",
+      "scaling": {
+        "wisdom": 0.5
+      }
+    },
+    {
+      "effect_type": "invulnerability",
+      "value": 1,
+      "duration": 2000,
+      "tick_rate": 0,
+      "invulnerability_type": "teleport"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_portal_open",
+    "teleport_effect": "holy_spell_1052_travel",
+    "arrive_effect": "divine_arrival"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_transport",
+    "teleport_sound": "portal_whirl",
+    "arrive_sound": "divine_arrival"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "paladin"
+    ]
+  },
+  "upgrades": {
+    "improved_sacred_journey": {
+      "unlock_level": 35,
+      "description": "Augmente la portée de Holy Spell 1052",
+      "range_bonus": 25.0,
+      "cooldown_reduction": 60000
+    },
+    "divine_intervention": {
+      "unlock_level": 45,
+      "description": "Holy Spell 1052 peut téléporter des alliés",
+      "ally_teleport": true,
+      "max_allies": 2,
+      "emergency_teleport": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "arts_martiaux_spell_0883",
+  "name": "Arts Martiaux Spell 0883",
+  "description": "Un coup de pied gracieux qui peut toucher plusieurs ennemis et les désorienter",
+  "icon": "arts_martiaux_spell_0883_icon",
+  "school": "arts_martiaux",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "area",
+  "range": 6.0,
+  "cast_time": 0,
+  "cooldown": 10000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 90,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 1.1,
+      "strength": 0.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "area_damage",
+      "value": 90,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_radius": 6.0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "disorient_debuff",
+      "value": 0,
+      "duration": 4000,
+      "tick_rate": 0,
+      "aoe_radius": 6.0,
+      "proc_chance": 0.6
+    },
+    {
+      "effect_type": "ki_generation",
+      "value": 18,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "arts_martiaux_spell_0883_spin",
+    "projectile_effect": "kick_arc",
+    "impact_effect": "multiple_kick_impacts"
+  },
+  "sound_effects": {
+    "cast_sound": "graceful_kick",
+    "impact_sound": "multiple_impacts"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [],
+    "classes": [
+      "monk"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_crane_kick": {
+      "unlock_level": 22,
+      "description": "Arts Martiaux Spell 0883 couvre une plus grande zone et désoriente plus",
+      "radius_bonus": 2,
+      "disorient_chance_bonus": 0.2
+    },
+    "crane_kick_mastery": {
+      "unlock_level": 32,
+      "description": "Arts Martiaux Spell 0883 peut repousser les ennemis",
+      "knockback": true,
+      "damage_bonus": 40
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "survival_spell_0689",
+  "name": "Survival Spell 0689",
+  "description": "Le chasseur utilise ses connaissances de survie pour se soigner lentement au fil du temps",
+  "icon": "survival_spell_0689_icon",
+  "school": "survival",
+  "rarity": "common",
+  "spell_type": "self_healing_regeneration",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 5000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "natural_self_restoration"
+  },
+  "effects": [
+    {
+      "effect_type": "natural_survival_restoration",
+      "value": 80,
+      "duration": 12000,
+      "tick_rate": 3000,
+      "self_healing_per_tick": 35,
+      "healing_over_time_total": 140,
+      "bleed_stop_effect": 0.7,
+      "fatigue_cleanse_buff": 25,
+      "adrenalin_rush_proc": 0.2,
+      "survival_instinct_trigger": 150
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "hunter_bandaging_quick_self_treatment",
+    "healing_effect": "gentle_green_survival_energy_wrap",
+    "bonus_effect": "adrenalin_glow_energy_burst",
+    "complete_effect": "wounds_healing_natural_restoration_glow"
+  },
+  "sound_effects": {
+    "cast_effect": "bandaging_cloth_quick_wrap_tie",
+    "healing_effect": "gentle_breathing_survival_restoration_hum",
+    "bonus_effect": "adrenalin_rush_heart_beat_surge",
+    "complete_effect": "wound_closing_natural_survival_spell_0689ing_crunch"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "survival",
+      "self_medication"
+    ],
+    "classes": [
+      "hunter",
+      "wilderness_survivor"
+    ],
+    "specializations": [
+      "self_healer"
+    ]
+  },
+  "upgrades": {
+    "greater_mend_self": {
+      "unlock_level": 18,
+      "description": "Survival Spell 0689 devient plus grande avec des soins accrus et des effets bonus",
+      "healing_power_double": 70,
+      "duration_extended": 6000,
+      "poison_cure_addition": 0.6,
+      "adrenalin_burst_guarantee": 0.5
+    },
+    "master_mend_self": {
+      "unlock_level": 28,
+      "description": "Survival Spell 0689 atteint le maître avec des compétences de soins supérieures",
+      "instant_healing_component": 80,
+      "all_debuff_removal": true,
+      "survival_legendary_buff": 200,
+      "self_resurrection_ability": 0.3
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

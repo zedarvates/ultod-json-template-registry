@@ -1,0 +1,64 @@
+{
+  "id": "vandal",
+  "name": "Vandale",
+  "description": "Destructeur chaotique semant le désordre",
+  "color": "C41F3B",
+  "primary_resource": "destructive",
+  "base_stats": {
+    "strength": 1.4,
+    "agility": 1.1,
+    "intelligence": 0.9,
+    "vitality": 1.1,
+    "wisdom": 0.8,
+    "charisma": 0.7
+  },
+  "available_classes": [
+    "vandal"
+  ],
+  "starting_skills": [
+    {
+      "id": 18001,
+      "name": "Frappe Chaotique",
+      "description": "Attaque dévastatrice qui ignore une partie de l'armure",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 3.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 18002,
+      "name": "Rage Destructrice",
+      "description": "Génère de la rage à chaque coup porté",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": true
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 0,
+        "talents": [
+          {
+            "id": 18001,
+            "name": "Chaos Pur",
+            "description": "+10% dégâts et +5% chance d'effet critique",
+            "max_rank": 5,
+            "icon_path": "chaos_mastery"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100,
+  "health_modifier": 1.2,
+  "damage_modifier": 1.3,
+  "armor_modifier": 1.0,
+  "template_type": "class",
+  "version": "0.1.0"
+}

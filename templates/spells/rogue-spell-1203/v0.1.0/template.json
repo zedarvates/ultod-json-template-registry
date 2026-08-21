@@ -1,0 +1,54 @@
+{
+  "id": "rogue_spell_1203",
+  "name": "Rogue Spell 1203",
+  "description": "rogue_spell_1203 une attaque pour réduire les dégâts reçus",
+  "icon": "rogue_spell_1203_icon",
+  "school": "rogue",
+  "rarity": "common",
+  "spell_type": "defensive_buff",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 0,
+  "cooldown": 30000,
+  "energy_cost": 20,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "rogue_spell_1203_buff",
+      "value": 50,
+      "duration": 6000,
+      "tick_rate": 0,
+      "damage_reduction": 30,
+      "threat_reduction": 50
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "parry_gesture",
+    "buff_effect": "defensive_stance"
+  },
+  "sound_effects": {
+    "cast_sound": "blade_clang",
+    "buff_sound": "defensive_posture"
+  },
+  "requirements": {
+    "level": 7,
+    "skills": [
+      "combat"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    " patients": {
+      "unlock_level": 17,
+      "description": "Réduction des dégâts augmentée",
+      "damage_reduction_bonus": 20
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

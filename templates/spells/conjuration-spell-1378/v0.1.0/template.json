@@ -1,0 +1,47 @@
+{
+  "id": "conjuration_spell_1378",
+  "name": "Conjuration Spell 1378",
+  "description": "Téléportation vers un endroit visible dans la portée",
+  "icon": "conjuration_spell_1378_icon",
+  "school": "conjuration",
+  "rarity": "rare",
+  "spell_type": "movement",
+  "target_type": "self",
+  "range": 150.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "teleport",
+      "value": 150.0,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "portal_open",
+    "teleport_effect": "portal_close"
+  },
+  "sound_effects": {
+    "cast_sound": "portal_sound"
+  },
+  "requirements": {
+    "level": 4,
+    "skills": [
+      "conjuration"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

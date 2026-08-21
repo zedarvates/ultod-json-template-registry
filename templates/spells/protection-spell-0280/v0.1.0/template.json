@@ -1,0 +1,75 @@
+{
+  "id": "protection_spell_0280",
+  "name": "Protection Spell 0280",
+  "description": "Créé un bouclier sacré qui absorbe les dégâts et protège contre les attaques impies",
+  "icon": "protection_spell_0280_icon",
+  "school": "protection",
+  "rarity": "common",
+  "spell_type": "protection_spell_0280_protection",
+  "target_type": "single_ally",
+  "range": 25.0,
+  "cast_time": 1000,
+  "cooldown": 10000,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "protection_spell_0280ing"
+  },
+  "effects": [
+    {
+      "effect_type": "protection_spell_0280_barrier",
+      "value": 250,
+      "duration": 15000,
+      "tick_rate": 0,
+      "damage_absorption": 250,
+      "holy_damage_boost": 0.2,
+      "unholy_damage_reduction": 0.5,
+      "protection_glow": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "holy_barrier_formation",
+    "shield_effect": "golden_protective_orb",
+    "damage_effect": "barrier_impact_shimmer",
+    "expire_effect": "protection_spell_0280_light_dissolution"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_shield_activation",
+    "shield_sound": "protective_protection_spell_0280_hum",
+    "damage_sound": "barrier_absorb_thud",
+    "expire_sound": "holy_protection_fade"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "protection_spell_0280_magic",
+      "protection"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "protector"
+    ]
+  },
+  "upgrades": {
+    "sanctified_shield": {
+      "unlock_level": 13,
+      "description": "Le bouclier brûle les attaquants impies et protège plus",
+      "damage_to_unholy": 30,
+      "absorption_bonus": 100,
+      "holy_damage_reflection": 0.15
+    },
+    "aegis_of_faith": {
+      "unlock_level": 23,
+      "description": "Le bouclier se reforme automatiquement après avoir été brisé",
+      "auto_reform": true,
+      "reform_delay": 2000,
+      "multiple_reforms": 2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

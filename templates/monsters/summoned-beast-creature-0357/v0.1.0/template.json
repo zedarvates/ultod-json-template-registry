@@ -1,0 +1,51 @@
+{
+  "id": "summoned_beast_creature_0357",
+  "name": "Summoned Beast Creature 0357",
+  "description": "Familier temporaire lié à son invocateur.",
+  "category": "summoned_beast_creature_0357_beast",
+  "rarity": "common",
+  "base_stats": {
+    "health": 180,
+    "mana": 0,
+    "strength": 22,
+    "dexterity": 24,
+    "intelligence": 6,
+    "wisdom": 10,
+    "constitution": 18,
+    "charisma": 8
+  },
+  "properties": {
+    "is_aggressive": true,
+    "is_wild": false,
+    "size": "medium",
+    "speed": 10.0
+  },
+  "loot_table": {
+    "common_drops": [],
+    "rare_drops": [],
+    "epic_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "controlled",
+    "attack_pattern": "owner_target",
+    "special_abilities": [
+      "bite"
+    ]
+  },
+  "abilities": [
+    "bite"
+  ],
+  "resistances": {
+    "cold": 10
+  },
+  "weaknesses": [
+    "fire"
+  ],
+  "summon": {
+    "temporary": true,
+    "requires_owner": true,
+    "default_duration_ms": 360000
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

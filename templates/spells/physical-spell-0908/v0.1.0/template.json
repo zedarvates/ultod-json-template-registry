@@ -1,0 +1,52 @@
+{
+  "id": "physical_spell_0908",
+  "name": "Physical Spell 0908",
+  "description": "Une attaque plongeante aérienne avec des serres acérées",
+  "icon": "physical_spell_0908_icon",
+  "school": "physical",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "single_enemy",
+  "range": 8.0,
+  "cast_time": 1200,
+  "cooldown": 6000,
+  "mana_cost": 14,
+  "damage": {
+    "base_damage": 22,
+    "damage_type": "physical",
+    "scaling": {
+      "dexterity": 1.2,
+      "strength": 0.6
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "bleed",
+      "value": 6,
+      "duration": 5000,
+      "tick_rate": 1500,
+      "scaling": {
+        "dexterity": 0.4
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dive_shadow",
+    "hit_effect": "physical_spell_0908_rend",
+    "miss_effect": "air_whistle"
+  },
+  "sound_effects": {
+    "cast_sound": "wing_flap",
+    "hit_sound": "flesh_tear",
+    "miss_sound": "whoosh"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [],
+    "classes": [
+      "monster"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

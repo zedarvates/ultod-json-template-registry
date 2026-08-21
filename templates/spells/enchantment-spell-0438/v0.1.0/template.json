@@ -1,0 +1,70 @@
+{
+  "id": "enchantment_spell_0438",
+  "name": "Enchantment Spell 0438",
+  "description": "Crée un sanctuaire protecteur qui enveloppe tous les alliés proches, les protégeant des ennemis",
+  "icon": "enchantment_spell_0438_icon",
+  "school": "enchantment",
+  "rarity": "epic",
+  "spell_type": "collective_protection_ward",
+  "target_type": "area_around_allies",
+  "range": 20.0,
+  "cast_time": 3500,
+  "cooldown": 60000,
+  "mana_cost": 125,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "sanctuary_protection_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "unified_protection_adapted_reference",
+      "value": 400,
+      "duration": 45000,
+      "tick_rate": 1000,
+      "sanctuary_sphere_radius": 25.0,
+      "allied_damage_absorption": 0.4,
+      "enemy_approach_prevention": true,
+      "sanctuary_healing_buff": 30,
+      "aggression_redirection_field": true,
+      "sanctuary_purity_cleanse": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sanctuary_adapted_references_forming_around_allies",
+    "protection_effect": "golden_protection_barrier_connecting_allies",
+    "cleanse_effect": "malevolent_energy_purged_golden_light",
+    "expire_effect": "sanctuary_dissolving_allied_peace_restored"
+  },
+  "sound_effects": {
+    "cast_effect": "protective_magic_unifying_allies_harmony",
+    "protection_effect": "barrier_steady_protection_humming_field",
+    "cleanse_effect": "malevolence_purged_holy_chime_resonance",
+    "expire_effect": "sanctuary_fading_peace_restored_whisper"
+  },
+  "requirements": {
+    "level": 45,
+    "skills": [
+      "arcane_magic",
+      "enchantment_spell_0438_warding"
+    ],
+    "classes": [
+      "enchanter",
+      "sanctuary_warden"
+    ],
+    "specializations": [
+      "enchantment_spell_0438_protector"
+    ]
+  },
+  "upgrades": {
+    "divine_sanctuary_emanation": {
+      "unlock_level": 65,
+      "description": "Le sanctuaire émet une aura divine qui améliore les alliés à proximité",
+      "divine_buff_aura_radius": 50.0,
+      "allied_attribute_boost": 25,
+      "divine_summoning_bonus": true,
+      "sanctuary_permanent_upgrade": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

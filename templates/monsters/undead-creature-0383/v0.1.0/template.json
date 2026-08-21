@@ -1,0 +1,124 @@
+{
+  "id": "undead_creature_0383",
+  "name": "Undead Creature 0383",
+  "description": "Un squelette humanoïde flottant de 6 pieds, enveloppé dans une robe noire ornée de runes dorées. Ses orbites vides brûlent d'une lumière violette intense, et ses doigts décharnés manipulent un sceptre de pouvoir necromantique. Sa présence écrase l'âme des mortels et corrompt la magie autour de lui.",
+  "icon": "undead_creature_0383_icon",
+  "category": "undead",
+  "rarity": "legendary",
+  "base_stats": {
+    "health": 135,
+    "mana": 187,
+    "strength": 11,
+    "dexterity": 16,
+    "intelligence": 20,
+    "wisdom": 14,
+    "constitution": 16,
+    "charisma": 18
+  },
+  "properties": {
+    "size": "medium",
+    "size_modifiers": {
+      "health_multiplier": 1.0,
+      "damage_multiplier": 1.0,
+      "speed_modifier": 0,
+      "space_requirement": 5,
+      "strength_bonus": 0,
+      "constitution_bonus": 0
+    },
+    "speed": 30,
+    "alignment": "neutral evil",
+    "languages": [
+      "common",
+      "infernal",
+      "telepathy 120 ft"
+    ],
+    "challenge_rating": "21",
+    "experience_value": 33000
+  },
+  "properties_undead": {
+    "undead_type": "undead_creature_0383",
+    "soul_bound_artifact": true,
+    "phylactery_vulnerability": true,
+    "spellcasting_mastery": true,
+    "life_drain_ability": true,
+    "undead_horror_aura": true,
+    "rejuvenation_timer": "1d10 days"
+  },
+  "abilities": [
+    "life_drain",
+    "fear_aura",
+    "paralyzing_touch",
+    "disrupt_life",
+    "create_undead",
+    "time_stop",
+    "finger_of_death",
+    "plane_shift",
+    "wail_of_the_banshee"
+  ],
+  "resistances": {
+    "necrotic": 90,
+    "psychic": 70,
+    "cold": 50,
+    "physical": 50
+  },
+  "weaknesses": [
+    "holy_water",
+    "radiant_damage",
+    "bludgeoning_damage",
+    "phylactery_destruction"
+  ],
+  "immunities": [
+    "charmed",
+    "exhaustion",
+    "frightened",
+    "paralyzed",
+    "poisoned"
+  ],
+  "senses": {
+    "truesight": 120,
+    "darkvision": 120
+  },
+  "loot_table": {
+    "common_drops": [
+      "phylactery_component",
+      "necromancy_scroll",
+      "soul_gem"
+    ],
+    "rare_drops": [
+      "undead_creature_0383_phylactery",
+      "death_tome",
+      "soul_crystal"
+    ],
+    "epic_drops": [
+      "undead_creature_0383_robes",
+      "immortality_manual",
+      "death_grimoire"
+    ],
+    "legendary_drops": [
+      "undead_creature_0383_master_artifact",
+      "soul_bound_weapon",
+      "immortality_crown"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "savage",
+    "intelligence_level": "genius",
+    "tactical_awareness": "strategic",
+    "attack_pattern": "spell_combat",
+    "defensive_patterns": [
+      "shield",
+      "counterspell",
+      "teleport_escape",
+      "create_minions"
+    ],
+    "special_behaviors": [
+      "prioritizes_spell_targets",
+      "creates_undead_allies",
+      "uses_teleportation_tactically",
+      "maintains_distance_from_combat",
+      "protects_phylactery_location"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

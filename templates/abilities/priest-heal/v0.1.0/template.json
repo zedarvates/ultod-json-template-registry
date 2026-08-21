@@ -1,0 +1,53 @@
+{
+  "id": "priest_heal",
+  "name": "Soin",
+  "description": "Soigne les blessures d'un allié avec une lumière divine",
+  "icon": "heal_icon",
+  "category": "support",
+  "rarity": "common",
+  "ability_type": "heal",
+  "target_type": "ally",
+  "range": 20.0,
+  "cast_time": 2000,
+  "cooldown": 1000,
+  "resource_cost": {
+    "type": "mana",
+    "amount": 30
+  },
+  "duration": 0,
+  "effects": [
+    {
+      "effect_type": "heal",
+      "value": 150,
+      "scaling": {
+        "wisdom": 0.7,
+        "level": 0.3
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_cast",
+    "projectile_effect": "healing_light",
+    "impact_effect": "healing_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_chant",
+    "impact_sound": "healing_bell"
+  },
+  "requirements": {
+    "level": 1,
+    "class": "priest",
+    "skills": [
+      "holy_magic"
+    ]
+  },
+  "upgrades": {
+    "divine_favor": {
+      "unlock_level": 15,
+      "description": "Réduit le coût en mana de 20%",
+      "mana_reduction": 20
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

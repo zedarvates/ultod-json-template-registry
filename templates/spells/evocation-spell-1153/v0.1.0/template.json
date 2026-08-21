@@ -1,0 +1,63 @@
+{
+  "id": "evocation_spell_1153",
+  "name": "Evocation Spell 1153",
+  "description": "Vous touchez une créature et la soignez pour 1d8 + votre modificateur de capacité de lanceur de sorts",
+  "icon": "evocation_spell_1153_icon",
+  "school": "evocation",
+  "rarity": "common",
+  "spell_type": "healing",
+  "target_type": "single_ally",
+  "range": 5.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 15,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "healing"
+  },
+  "effects": [
+    {
+      "effect_type": "heal",
+      "value": 8,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "spellcasting_modifier": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "healing_glow",
+    "heal_effect": "green_sparkles"
+  },
+  "sound_effects": {
+    "cast_sound": "soft_healing_chime",
+    "heal_sound": "restorative_echo"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "nature_magic"
+    ],
+    "classes": [
+      "ranger",
+      "druid",
+      "cleric",
+      "paladin"
+    ]
+  },
+  "upgrades": {
+    "greater_cure": {
+      "unlock_level": 5,
+      "description": "Soigne 2d8 + modificateur",
+      "dice_upgrade": 2
+    },
+    "mass_cure": {
+      "unlock_level": 13,
+      "description": "Soigne tous les alliés dans une zone",
+      "area_heal": true,
+      "radius": 10.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

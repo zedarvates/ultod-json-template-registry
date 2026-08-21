@@ -1,0 +1,34 @@
+{
+  "id": "enchanted_bow",
+  "name": "Arc Enchante",
+  "description": "Arc de ranger impregne d'une legere rune de precision.",
+  "icon": "enchanted_bow",
+  "category": "weapon",
+  "rarity": "uncommon",
+  "item_type": "bow",
+  "sub_type": "ranged",
+  "base_stats": {
+    "durability": 100,
+    "max_durability": 100,
+    "weight": 2.2,
+    "value": 260
+  },
+  "weapon_properties": {
+    "damage": 22,
+    "damage_type": "physical",
+    "attack_speed": 1.4,
+    "range": 18.0,
+    "two_handed": true
+  },
+  "properties": {
+    "stackable": false,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 4,
+    "dexterity": 12
+  },
+  "template_type": "item",
+  "version": "0.1.0"
+}

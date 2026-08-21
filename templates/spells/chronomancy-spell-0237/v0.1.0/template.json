@@ -1,0 +1,84 @@
+{
+  "id": "chronomancy_spell_0237",
+  "name": "Chronomancy Spell 0237",
+  "description": "Projette les ennemis dans le temps et l'espace, les téléportant aléatoirement autour du champ de bataille",
+  "icon": "chronomancy_spell_0237_icon",
+  "school": "chronomancy",
+  "rarity": "epic",
+  "spell_type": "chronomancy_spell_0237_teleportation_chaos",
+  "target_type": "area_enemy",
+  "range": 35.0,
+  "cast_time": 1800,
+  "cooldown": 30000,
+  "mana_cost": 95,
+  "damage": {
+    "base_damage": 100,
+    "damage_type": "displacement_trauma",
+    "scaling": {
+      "wisdom": 1.6,
+      "intelligence": 1.4
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "random_chronomancy_spell_0237",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_range": 30.0,
+      "displacement_distance": "5-25",
+      "displacement_angle": "random",
+      "chaos_damage": 100,
+      "disorientation_debuff": 0.25,
+      "reality_nausea": true,
+      "max_targets": 6
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "chronomancy_spell_0237 Displacement_portal_storm",
+    "displacement_effect": "enemy_rapid_position_shifting",
+    "damage_effect": "reality_tear_ripspace",
+    "aftermath_effect": "displacement_aftershock"
+  },
+  "sound_effects": {
+    "cast_sound": "chronomancy_spell_0237_space_tearing",
+    "displacement_sound": "enemy_position_whiplash",
+    "damage_sound": "reality_nausea_sounds",
+    "aftermath_sound": "space_time_stitch_back"
+  },
+  "requirements": {
+    "level": 38,
+    "skills": [
+      "chronomancy",
+      "chronomancy_spell_0237",
+      "reality_warping"
+    ],
+    "classes": [
+      "chronomancer",
+      "time_mage",
+      "chronomancy_spell_0237ist"
+    ],
+    "specializations": [
+      "displacer",
+      "spatial_chronomancy_spell_0237ist"
+    ]
+  },
+  "upgrades": {
+    "grand_displacement": {
+      "unlock_level": 48,
+      "description": "Les déplacements deviennent plus extrêmes et affectent plus d'ennemis",
+      "max_displacement_distance_bonus": 15,
+      "max_targets_bonus": 3,
+      "disorientation_increase": 0.15
+    },
+    "controlled_chaos": {
+      "unlock_level": 58,
+      "description": "Peut diriger les déplacements vers des positions stratégiques défavorables",
+      "directed_displacement": true,
+      "enemy_grouping_prevention": true,
+      "tactical_misdirection": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

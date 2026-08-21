@@ -1,0 +1,70 @@
+{
+  "id": "fire_spell_0972",
+  "name": "Fire Spell 0972",
+  "description": "S'élance d'une hauteur et plonge vers les ennemis, infligeant des dégâts massifs et brûlants",
+  "icon": "fire_spell_0972_icon",
+  "school": "fire",
+  "rarity": "legendary",
+  "spell_type": "damage",
+  "target_type": "area_enemies",
+  "range": 0,
+  "cast_time": 0,
+  "cooldown": 30000,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 200,
+    "damage_type": "fire",
+    "scaling": {
+      "agility": 2.0,
+      "strength": 1.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage",
+      "value": 200,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_type": "fire",
+      "scaling": {
+        "agility": 2.0,
+        "strength": 1.5
+      },
+      "area_radius": 3.0,
+      "leap_distance": 15.0,
+      "knockdown_chance": 0.4,
+      "burn_dot": 25,
+      "burn_duration": 5000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fire_wings",
+    "projectile_effect": null,
+    "hit_effect": "fire_explosion"
+  },
+  "sound_effects": {
+    "cast_sound": "wing_flap",
+    "projectile_sound": null,
+    "hit_sound": "crashing_fire"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [
+      "acrobatics",
+      "fire_mastery"
+    ],
+    "classes": [
+      "ninja"
+    ]
+  },
+  "upgrades": {
+    "divine_dive": {
+      "unlock_level": 45,
+      "description": "Augmente les dégâts et la portée du Fire Spell 0972",
+      "damage_bonus": 60,
+      "range_bonus": 10
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,38 @@
+{
+  "school": "spiritualism_spell_1415ualism",
+  "rarity": "uncommon",
+  "target_type": "ground",
+  "range": 25.0,
+  "cast_time": 3000,
+  "cooldown": 55000,
+  "mana_cost": 65,
+  "visual_effects": {
+    "cast_effect": "totem_cast",
+    "projectile_effect": "none",
+    "impact_effect": "totem_placement",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "totem_cast_sound",
+    "impact_sound": "totem_placement_sound"
+  },
+  "requirements": {
+    "level": 24
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "spiritualism_spell_1415",
+  "name": "Spiritualism Spell 1415",
+  "description": "Places a spiritualism_spell_1415ualism Spell 1415 that periodically heals allies and damages enemies",
+  "icon": "spiritualism_spell_1415ualism_spell_1415_icon",
+  "spell_type": "summon",
+  "summon": {
+    "creature_type": "spiritualism_spell_1415ualism_spell_1415",
+    "duration": 180000,
+    "radius": 15.0,
+    "pulse_interval": 3000,
+    "healing_per_pulse": 30,
+    "damage_per_pulse": 40
+  },
+  "template_type": "spell"
+}

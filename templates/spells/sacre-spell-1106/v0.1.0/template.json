@@ -1,0 +1,74 @@
+{
+  "id": "sacre_spell_1106",
+  "name": "Sacre Spell 1106",
+  "description": "Vous bénissez jusqu'à trois créatures de votre choix dans la portée. A partir du moment où vous prononcez le sort, chaque cible gagne un bonus de 1d4 à toutes les attaques réussies et jets de sauvegarde pendant 1 minute",
+  "icon": "sacre_spell_1106_icon",
+  "school": "sacré",
+  "rarity": "common",
+  "spell_type": "buff",
+  "target_type": "ally",
+  "range": 10.0,
+  "cast_time": 1000,
+  "cooldown": 60000,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "scaling": {
+      "wisdom": 0.0,
+      "intelligence": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "attack_bonus_buff",
+      "value": 4,
+      "duration": 60000,
+      "tick_rate": 0,
+      "aoe_radius": 0.0,
+      "proc_chance": 1.0,
+      "max_targets": 3
+    },
+    {
+      "effect_type": "saving_throw_bonus_buff",
+      "value": 4,
+      "duration": 60000,
+      "tick_rate": 0,
+      "aoe_radius": 0.0,
+      "proc_chance": 1.0,
+      "max_targets": 3
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "holy_cast",
+    "aura_effect": "golden_shine",
+    "group_effect": "divine_light"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_chant",
+    "buff_sound": "sacre_spell_1106_bell",
+    "group_sound": "divine_harmony"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_blessing": {
+      "unlock_level": 5,
+      "description": "Le bonus d'attaque et de sauvegarde passe à 1d8",
+      "bonus_increase": 4
+    },
+    "greater_blessing": {
+      "unlock_level": 11,
+      "description": "Le sort peut cibler jusqu'à 6 créatures",
+      "targets_increase": 3
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

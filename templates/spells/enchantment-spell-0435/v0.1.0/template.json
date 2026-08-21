@@ -1,0 +1,78 @@
+{
+  "id": "enchantment_spell_0435",
+  "name": "Enchantment Spell 0435",
+  "description": "Interrompt instantanément un sort ennemi en cours d'incantation et applique une pénalité de silence",
+  "icon": "enchantment_spell_0435_icon",
+  "school": "enchantment",
+  "rarity": "uncommon",
+  "spell_type": "spell_suppression",
+  "target_type": "single_enemy",
+  "range": 30.0,
+  "cast_time": 300,
+  "cooldown": 8000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 80,
+    "damage_type": "spell_disruption_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "instant_spell_interruption",
+      "value": 80,
+      "duration": 0,
+      "tick_rate": 0,
+      "spell_interrupt_priority": "very_high",
+      "interrupt_damage": 80,
+      "silence_duration": 8000,
+      "mana_cost_increase": 0.25,
+      "spell_failure_chance": 0.3,
+      "arcane_weakness_debuff": 15000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "disruptive_energy_burst_from_hands",
+    "interrupt_effect": "spell_energy_disrupting_target's_cast",
+    "silence_effect": "target_silenced_glowing_rune_blockage",
+    "weakness_effect": "weakened_magic_trail_fading"
+  },
+  "sound_effects": {
+    "cast_sound": "disruptive_magic_energy_burst",
+    "interrupt_sound": "spell_cast_shattered_interruption_crack",
+    "silence_sound": "magical_mute_force_field_hum",
+    "weakness_sound": "arcane_power_weakening_drone_down"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "arcane_magic",
+      "spell_disruption"
+    ],
+    "classes": [
+      "enchanter",
+      "spellbreaker"
+    ],
+    "specializations": [
+      "counter_mage"
+    ]
+  },
+  "upgrades": {
+    "massive_counterspell": {
+      "unlock_level": 18,
+      "description": "Le Enchantment Spell 0435 peut cibler plusieurs lanceurs simultanément",
+      "area_interrupt_radius": 12.0,
+      "max_targets_affected": 3,
+      "spell_lock_duration": 12000,
+      "magicka_drain_effect": true
+    },
+    "perfect_counterspell": {
+      "unlock_level": 28,
+      "description": "Le Enchantment Spell 0435 est toujours efficace et peut changer la cible du sort interrompu",
+      "guaranteed_interrupt": true,
+      "spell_reflection_ability": true,
+      "permanent_debuff_applied": true,
+      "counterspell_cooldown_reduction": 0.5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

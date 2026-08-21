@@ -1,0 +1,262 @@
+{
+  "id": "provisioner",
+  "name": "Provisioner",
+  "description": "Supplier of food, water, and expedition supplies for adventurers and travelers",
+  "icon": "npcs/provisioner_icon.png",
+  "category": "merchant",
+  "awareness": {
+    "enabled": true,
+    "cognitive_level": "summary",
+    "initial_lod": "distant",
+    "initial_yaw_radians": 0.0,
+    "senses": {
+      "vision_range": 18.0,
+      "hearing_range": 12.0,
+      "tactile_sensitivity": 0.7
+    },
+    "attention": {
+      "capacity": 5,
+      "max_visual_candidates": 16,
+      "max_occlusion_rays": 4
+    },
+    "values": {
+      "nonviolence": 0.8,
+      "fairness": 0.7,
+      "loyalty": 0.5,
+      "honor": 0.6,
+      "compassion": 0.6,
+      "reciprocity": 0.9
+    },
+    "personal_norms": {
+      "property_rights": 0.9,
+      "nonviolence": 0.7,
+      "anti_coercion": 0.8,
+      "dignity": 0.7,
+      "reciprocity": 0.9
+    },
+    "initial_goals": {
+      "self_preservation": 0.7,
+      "possessions": 0.9,
+      "social_standing": 0.8,
+      "protect_others": 0.3,
+      "preserve_order": 0.6,
+      "affiliation": 0.8
+    },
+    "reaction_policy": {
+      "threat_response": "seek_guard",
+      "may_defend": false,
+      "may_retaliate": false
+    }
+  },
+  "rarity": "common",
+  "npc_type": "specialized_merchant",
+  "base_stats": {
+    "level": 10,
+    "hp": 120,
+    "max_hp": 120,
+    "mana": 40,
+    "max_mana": 40,
+    "strength": 13,
+    "dexterity": 14,
+    "intelligence": 15,
+    "wisdom": 16,
+    "constitution": 13,
+    "charisma": 12,
+    "speed": 1.0,
+    "size": 1.0,
+    "weight": 80.0
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_flying": false,
+    "is_aquatic": false,
+    "is_undead": false,
+    "is_elemental": false,
+    "is_mechanical": false,
+    "is_magical": false,
+    "is_divine": false,
+    "is_fiendish": false,
+    "is_wild": false,
+    "is_tameable": false,
+    "is_summonable": false,
+    "is_soulbound": false,
+    "is_cursed": false,
+    "is_blessed": false,
+    "is_poisoned": false,
+    "is_paralyzed": false,
+    "is_silenced": false,
+    "is_blinded": false,
+    "is_deafened": false,
+    "is_charmed": false,
+    "is_frightened": false,
+    "is_confused": false,
+    "is_stunned": false,
+    "is_sleeping": false,
+    "is_invisible": false,
+    "is_invulnerable": false,
+    "is_immortal": false,
+    "is_unique": false,
+    "is_boss": false,
+    "is_mini_boss": false,
+    "is_elite": false,
+    "is_rare": false,
+    "is_common": true,
+    "is_uncommon": false,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "loot_table": {
+    "gold": {
+      "min": 20,
+      "max": 100
+    },
+    "items": [
+      {
+        "item_id": "travel_pack",
+        "chance": 0.3,
+        "min_quantity": 1,
+        "max_quantity": 1
+      },
+      {
+        "item_id": "water_barrel",
+        "chance": 0.4,
+        "min_quantity": 1,
+        "max_quantity": 2
+      },
+      {
+        "item_id": "ration_supplies",
+        "chance": 0.5,
+        "min_quantity": 1,
+        "max_quantity": 3
+      }
+    ]
+  },
+  "ai_behavior": {
+    "wander_chance": 0.03,
+    "wander_range": 4.0,
+    "max_targets": 2,
+    "combat_style": "passive",
+    "preferred_attack": "business_ledger",
+    "patrol_route": [
+      "storage",
+      "counter",
+      "delivery_area",
+      "storage"
+    ],
+    "response_to_crime": "hide",
+    "ally_detection": "town_residents"
+  },
+  "abilities": [
+    "supply_management",
+    "bulk_trading",
+    "expedition_planning",
+    "resource_coordination"
+  ],
+  "dialogue": {
+    "greetings": [
+      "Need supplies for your journey? I've got everything you need!",
+      "Welcome, traveler! Stock up before you venture forth.",
+      "Provisions for the road? I've got the finest supplies in town!"
+    ],
+    "farewells": [
+      "Safe travels! Don't forget to restock.",
+      "May your journey be well-supplied!",
+      "Come back when you need more provisions."
+    ],
+    "bargain_success": [
+      "Excellent business! Adventure awaits you.",
+      "You know how to plan ahead!"
+    ],
+    "no_gold": [
+      "Supplies cost gold, friend. No exceptions.",
+      "I accept only payment in coin, I'm afraid."
+    ],
+    "expedition_advice": [
+      "Bring plenty of water - desert travel is deadly.",
+      "Don't forget rope for climbing and spelunking.",
+      "A full pack means a safe journey."
+    ]
+  },
+  "shop_inventory": {
+    "food": [
+      "travel_rations",
+      "jerky",
+      "hardtack",
+      "dried_fruit",
+      "nuts",
+      "trail_mix",
+      "energy_bar",
+      "preserved_meat"
+    ],
+    "water": [
+      "water_skin",
+      "water_barrel",
+      "purified_water",
+      "magical_water",
+      "spring_water",
+      "desert_water"
+    ],
+    "supplies": [
+      "rope",
+      "torch",
+      "camp_kit",
+      "sleeping_bag",
+      "cooking_pot",
+      "travel_pack",
+      "water_proof_bag"
+    ],
+    "tools": [
+      "compass",
+      "map",
+      "spyglass",
+      "lockpicks",
+      "climbing_gear",
+      "fishing_rod",
+      "hunting_trap"
+    ],
+    "medical": [
+      "bandages",
+      "antidote",
+      "healing_salve",
+      "strength_potion",
+      "energy_drink"
+    ]
+  },
+  "services": {
+    "buy_items": true,
+    "sell_items": true,
+    "repair_equipment": false,
+    "identify_items": false,
+    "appraisal_service": true,
+    "custom_crafting": false,
+    "bulk_discounts": true,
+    "expedition_planning": true
+  },
+  "schedule": {
+    "day": {
+      "06:00": "open_shop",
+      "08:00": "peak_business",
+      "12:00": "lunch_hour",
+      "14:00": "afternoon_business",
+      "17:00": "evening_rush",
+      "20:00": "close_shop"
+    },
+    "night": {
+      "20:00": "inventory_count",
+      "22:00": "rest",
+      "05:00": "prepare_morning_stock"
+    }
+  },
+  "resistances": {
+    "physical": 0.05,
+    "fire": 0.0,
+    "ice": 0.0,
+    "lightning": 0.0,
+    "poison": 0.1
+  },
+  "weaknesses": [
+    "fire"
+  ],
+  "version": "0.1.0",
+  "template_type": "npc"
+}

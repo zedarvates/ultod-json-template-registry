@@ -1,0 +1,78 @@
+{
+  "id": "conjuration_spell_1613",
+  "name": "Conjuration Spell 1613",
+  "description": "Se téléporte instantanément vers un lieu ciblé",
+  "icon": "conjuration_spell_1613_icon",
+  "school": "conjuration",
+  "rarity": "epic",
+  "spell_type": "utility",
+  "target_type": "location",
+  "range": 50.0,
+  "cast_time": 4000,
+  "cooldown": 60000,
+  "mana_cost": 120,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "conjuration_spell_1613",
+      "value": 0,
+      "duration": 0,
+      "tick_rate": 0,
+      "max_range": 50.0
+    },
+    {
+      "effect_type": "phase",
+      "value": 0,
+      "duration": 2000,
+      "tick_rate": 0,
+      "description": "Intangible pendant le trajet"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "portal_opening",
+    "teleport_effect": "spatial_distortion",
+    "arrival_effect": "portal_closing"
+  },
+  "sound_effects": {
+    "cast_sound": "reality_tear",
+    "teleport_sound": "whoosh",
+    "arrival_sound": "reality_snap"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "wizard",
+      "mage",
+      "spiritmaster"
+    ]
+  },
+  "upgrades": {
+    "blink": {
+      "unlock_level": 25,
+      "description": "Conjuration Spell 1613 courte distance avec temps d'incantation réduit",
+      "range": 15.0,
+      "cast_time": 1000,
+      "cooldown": 10000
+    },
+    "mass_teleport": {
+      "unlock_level": 35,
+      "description": "Téléporte tous les alliés proches vers la destination",
+      "aoe_range": 10.0,
+      "ally_limit": 5
+    },
+    "dimensional_shift": {
+      "unlock_level": 45,
+      "description": "Peut téléporter à travers les dimensions et les obstacles",
+      "ignore_obstacles": true,
+      "interdimensional": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

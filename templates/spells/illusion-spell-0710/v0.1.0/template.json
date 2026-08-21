@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0710",
+  "name": "Illusion Spell 0710",
+  "description": "Forcé la cible à danser de manière compulsive, l'empêchant d'agir normalement",
+  "icon": "illusion_spell_0710_icon",
+  "school": "illusion",
+  "rarity": "uncommon",
+  "spell_type": "neuro_kinetic_compulsion",
+  "target_type": "single_enemy_control",
+  "range": 35.0,
+  "cast_time": 1000,
+  "cooldown": 45000,
+  "mana_cost": 55,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "kinetic_exhaustion_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "involuntary_kinesthetic_compulsion",
+      "value": 180,
+      "duration": 60000,
+      "tick_rate": 2000,
+      "dance_compulsion_resistance_immunity": 95,
+      "dancing_action_prevention": 100,
+      "exhaustion_damage_over_time": 15,
+      "movement_speed_dancing_reduction": 50,
+      "ally_affection_chance": 0.3,
+      "dance_energy_expenditure": 200
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "musical_energy_compelling_neural_control",
+    "forced_dance_effect": "target_dancing_uncontrollably_comedic_tragic",
+    "exhaustion_effect": "sweat_flying_uncontrolled_movement_joyful",
+    "expire_effect": "dance_stopping_collapse_exhaustion_recovery"
+  },
+  "sound_effects": {
+    "cast_effect": "compelling_music_rhythm_neural_implantation",
+    "forced_dance_effect": "forced_steps_stumbling_happy_sad_music",
+    "exhaustion_effect": "heavy_breathing_exhaustion_physical_tired",
+    "expire_effect": "music_stops_body_collapsing_exhaustion_sigh"
+  },
+  "requirements": {
+    "level": 38,
+    "skills": [
+      "illusion_magic",
+      "neuro_kinetic_control"
+    ],
+    "classes": [
+      "illusionist",
+      "puppet_master"
+    ],
+    "specializations": [
+      "kinetic_forcer"
+    ]
+  },
+  "upgrades": {
+    "greater_irresistible_dance": {
+      "unlock_level": 48,
+      "description": "La Illusion Spell 0710 devient plus grande avec des effets de foule et des fatigues extrêmes",
+      "mass_dance_compulsion_area": 12.0,
+      "extreme_exhaustion_damage": 30,
+      "weapon_drop_chance": 0.7,
+      "spell_fumble_frequency": 80
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

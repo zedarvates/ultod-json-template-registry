@@ -1,0 +1,89 @@
+{
+  "id": "explorer_ancient_discovery",
+  "name": "Découverte Ancienne",
+  "description": "Révèle les secrets des civilisations perdues",
+  "ability_type": "active",
+  "category": "exploration",
+  "cooldown": 180000,
+  "energy_cost": 80,
+  "cast_time": 5000,
+  "range": 0,
+  "target_type": "self",
+  "duration": 30000,
+  "effects": [
+    {
+      "effect_type": "ancient_knowledge",
+      "value": 1.0,
+      "duration": 30000,
+      "tick_rate": 0,
+      "knowledge_type": "ancient_civilizations"
+    },
+    {
+      "effect_type": "artifact_detection",
+      "value": 0.8,
+      "duration": 30000,
+      "tick_rate": 0,
+      "detection_type": "ancient_artifacts"
+    },
+    {
+      "effect_type": "translation_bonus",
+      "value": 0.6,
+      "duration": 30000,
+      "tick_rate": 0,
+      "translation_type": "ancient_languages"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ancient_knowledge_vision",
+    "detection_effect": "artifact_glow",
+    "translation_effect": "ancient_text_reveal"
+  },
+  "sound_effects": {
+    "cast_sound": "ancient_incantation",
+    "detection_sound": "artifact_resonance",
+    "translation_sound": "ancient_language"
+  },
+  "scaling": {
+    "exploration_skill": 1.8,
+    "discovery_mastery": 1.6
+  },
+  "requirements": {
+    "level": 40,
+    "abilities": [
+      "pathfinder",
+      "ancient_studies"
+    ],
+    "class": "explorer"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "detection_chance": 0.3,
+      "translation_bonus": 0.2,
+      "knowledge_range": 50.0
+    },
+    "journeyman": {
+      "detection_chance": 0.5,
+      "translation_bonus": 0.4,
+      "knowledge_range": 75.0,
+      "duration": 45000
+    },
+    "master": {
+      "detection_chance": 0.7,
+      "translation_bonus": 0.6,
+      "knowledge_range": 100.0,
+      "duration": 60000,
+      "ancient_rewards": true
+    },
+    "grandmaster": {
+      "detection_chance": 0.9,
+      "translation_bonus": 0.8,
+      "knowledge_range": 150.0,
+      "duration": 90000,
+      "ancient_rewards": true,
+      "ability_unlock": "time_master"
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

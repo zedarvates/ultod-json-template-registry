@@ -1,0 +1,61 @@
+{
+  "id": "warrior_heroic_strike",
+  "name": "Frappe Héroïque",
+  "description": "Une attaque puissante qui ignore une partie de l'armure",
+  "icon": "heroic_strike_icon",
+  "category": "combat",
+  "rarity": "common",
+  "ability_type": "damage",
+  "target_type": "enemy",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 6000,
+  "resource_cost": {
+    "type": "rage",
+    "amount": 15
+  },
+  "duration": 0,
+  "effects": [
+    {
+      "effect_type": "damage",
+      "damage_type": "physical",
+      "value": 150,
+      "scaling": {
+        "strength": 1.5,
+        "level": 0.5
+      },
+      "armor_penetration": 0.2
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "warrior_strike_charge",
+    "projectile_effect": "sword_sweep",
+    "impact_effect": "armor_crack"
+  },
+  "sound_effects": {
+    "cast_sound": "warrior_grunt",
+    "impact_sound": "heavy_impact"
+  },
+  "requirements": {
+    "level": 1,
+    "class": "warrior",
+    "skills": [
+      "weapon_mastery"
+    ]
+  },
+  "upgrades": {
+    "empowered_strike": {
+      "unlock_level": 10,
+      "description": "Augmente les dégâts de 25%",
+      "damage_bonus": 25
+    },
+    "devastating_blow": {
+      "unlock_level": 20,
+      "description": "Chance de stun l'ennemi",
+      "stun_chance": 0.15,
+      "stun_duration": 2000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

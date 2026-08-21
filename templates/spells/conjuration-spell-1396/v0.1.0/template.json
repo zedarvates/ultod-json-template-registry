@@ -1,0 +1,46 @@
+{
+  "id": "conjuration_spell_1396",
+  "name": "Conjuration Spell 1396",
+  "description": "Vous grantez un vœu qui modifie la réalité",
+  "icon": "conjuration_spell_1396_icon",
+  "school": "conjuration",
+  "rarity": "artifact",
+  "spell_type": "special",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 150,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "conjuration_spell_1396",
+      "value": 0,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "reality_shimmer"
+  },
+  "sound_effects": {
+    "cast_sound": "conjuration_spell_1396_grant"
+  },
+  "requirements": {
+    "level": 9,
+    "skills": [
+      "conjuration"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

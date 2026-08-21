@@ -1,0 +1,68 @@
+{
+  "id": "physique_spell_0690",
+  "name": "Physique Spell 0690",
+  "description": "Tire plusieurs flèches simultanément vers différents ennemis proches",
+  "icon": "physique_spell_0690_icon",
+  "school": "physique",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "area",
+  "range": 8.0,
+  "cast_time": 0,
+  "cooldown": 10000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 70,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 0.9,
+      "strength": 0.4
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "physique_spell_0690_target_damage",
+      "value": 70,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "max_targets": 3,
+      "aoe_radius": 8.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "physique_spell_0690_arrow_draw",
+    "projectile_effect": "physique_spell_0690ple_arrows",
+    "impact_effect": "physique_spell_0690ple_impacts"
+  },
+  "sound_effects": {
+    "cast_sound": "physique_spell_0690ple_bow_strings",
+    "projectile_sound": "arrows_whistle",
+    "impact_sound": "physique_spell_0690ple_hits"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [],
+    "classes": [
+      "hunter",
+      "ranger"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_multi_shot": {
+      "unlock_level": 28,
+      "description": "Physique Spell 0690 touche plus d'ennemis et inflige plus de dégâts",
+      "max_targets_bonus": 2,
+      "damage_bonus": 35
+    },
+    "multi_shot_mastery": {
+      "unlock_level": 38,
+      "description": "Physique Spell 0690 peut appliquer Marque du Chasseur aux cibles touchées",
+      "apply_hunters_mark": true,
+      "focus_cost_reduction": 10
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

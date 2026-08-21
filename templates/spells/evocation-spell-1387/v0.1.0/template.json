@@ -1,0 +1,49 @@
+{
+  "id": "evocation_spell_1387",
+  "name": "Evocation Spell 1387",
+  "description": "Un Evocation Spell 1387 frappe toutes les créatures en ligne droite sur 30 mètres",
+  "icon": "evocation_spell_1387_icon",
+  "school": "evocation",
+  "rarity": "rare",
+  "spell_type": "area_damage",
+  "target_type": "line",
+  "range": 30.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 56,
+    "damage_type": "evocation_spell_1387",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "evocation_spell_1387_line",
+      "value": 56,
+      "duration": 0,
+      "tick_rate": 0,
+      "dexterity_save": true,
+      "save_dc": 14
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "bolt_build",
+    "projectile_effect": "evocation_spell_1387"
+  },
+  "sound_effects": {
+    "cast_sound": "thunder_clap"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

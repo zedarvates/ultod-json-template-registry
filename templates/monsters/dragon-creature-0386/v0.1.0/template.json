@@ -1,0 +1,68 @@
+{
+  "id": "dragon_creature_0386",
+  "name": "Dragon Creature 0386",
+  "description": "Ancien dragon_creature_0386 reptilien, gardien des trésors et maître des cieux",
+  "icon": "dragon_creature_0386_creature_0386_icon",
+  "category": "dragon_creature_0386",
+  "rarity": "legendary",
+  "base_stats": {
+    "health": 3000,
+    "mana": 1000,
+    "strength": 150,
+    "dexterity": 80,
+    "intelligence": 80,
+    "wisdom": 100,
+    "constitution": 180,
+    "charisma": 60
+  },
+  "properties": {
+    "is_dragon": true,
+    "is_flying": true,
+    "is_boss": true,
+    "size": "gargantuan",
+    "speed": 14.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "dragon_creature_0386_scale",
+      "dragon_creature_0386_blood"
+    ],
+    "rare_drops": [
+      "dragon_creature_0386_heart",
+      "dragon_creature_0386_tooth"
+    ],
+    "epic_drops": [
+      "dragon_creature_0386_egg",
+      "ancient_dragon_creature_0386_hoard"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "high",
+    "attack_pattern": "aerial_dominance",
+    "special_abilities": [
+      "fire_breath",
+      "tail_sweep",
+      "wing_buffet"
+    ]
+  },
+  "abilities": [
+    "fire_breath",
+    "claw_swipe",
+    "tail_whip",
+    "wing_attack",
+    "dragon_creature_0386_roar",
+    "regeneration"
+  ],
+  "resistances": {
+    "fire": 100,
+    "physical": 60,
+    "magic": 40
+  },
+  "weaknesses": [
+    "cold",
+    "lightning",
+    "holy"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

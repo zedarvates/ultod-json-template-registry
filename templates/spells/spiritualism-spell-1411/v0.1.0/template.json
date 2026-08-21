@@ -1,0 +1,36 @@
+{
+  "school": "spiritualism_spell_1411ualism",
+  "rarity": "uncommon",
+  "target_type": "ally",
+  "range": 40.0,
+  "cast_time": 2000,
+  "cooldown": 60000,
+  "mana_cost": 50,
+  "visual_effects": {
+    "cast_effect": "link_cast",
+    "projectile_effect": "spiritualism_spell_1411ualism_spell_1411_projectile",
+    "impact_effect": "link_impact",
+    "trail_effect": "spiritualism_spell_1411_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "link_cast_sound",
+    "impact_sound": "link_sound"
+  },
+  "requirements": {
+    "level": 28
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "spiritualism_spell_1411",
+  "name": "Spiritualism Spell 1411",
+  "description": "Creates a spiritualism_spell_1411ual link with an ally, sharing damage and healing",
+  "icon": "spiritualism_spell_1411ualism_spell_1411_icon",
+  "spell_type": "buff",
+  "effects": {
+    "duration": 30000,
+    "damage_share": 0.3,
+    "healing_share": 0.5,
+    "range": 20.0
+  },
+  "template_type": "spell"
+}

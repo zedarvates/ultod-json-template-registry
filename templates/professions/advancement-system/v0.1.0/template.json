@@ -1,0 +1,313 @@
+{
+  "advancement_system": {
+    "version": "1.0.0",
+    "description": "Profession advancement and progression system",
+    "last_updated": "2025-11-21",
+    "advancement_config": {
+      "enabled": true,
+      "global_experience_multiplier": 1.0,
+      "level_cap": 100,
+      "specialization_unlock_level": 20,
+      "mastery_unlock_level": 50,
+      "grandmaster_unlock_level": 80,
+      "experience_sources": {
+        "crafting_items": {
+          "base_experience": 10,
+          "quality_multiplier": {
+            "common": 1.0,
+            "fine": 1.2,
+            "superior": 1.5,
+            "exquisite": 2.0,
+            "masterwork": 3.0,
+            "legendary": 5.0,
+            "mythic": 10.0
+          },
+          "first_time_bonus": 2.0,
+          "bulk_crafting_bonus": 0.8
+        },
+        "gathering_resources": {
+          "base_experience": 5,
+          "rarity_multiplier": {
+            "common": 1.0,
+            "uncommon": 1.5,
+            "rare": 2.5,
+            "epic": 4.0,
+            "legendary": 7.0
+          },
+          "node_quality_bonus": 1.2,
+          "speed_bonus": 0.1
+        },
+        "completing_quests": {
+          "base_experience": 50,
+          "difficulty_multiplier": {
+            "easy": 1.0,
+            "medium": 1.5,
+            "hard": 2.0,
+            "expert": 3.0,
+            "master": 5.0
+          },
+          "first_completion_bonus": 1.5,
+          "speed_completion_bonus": 1.2
+        },
+        "teaching_apprentices": {
+          "base_experience": 25,
+          "student_level_multiplier": 0.1,
+          "success_rate_bonus": 2.0
+        },
+        "market_sales": {
+          "experience_per_gold": 0.01,
+          "bulk_sale_bonus": 1.2
+        }
+      },
+      "level_progression": {
+        "experience_formula": "level * 100 + (level - 1) * 50",
+        "level_ranges": {
+          "novice": {
+            "min_level": 1,
+            "max_level": 10,
+            "experience_multiplier": 1.0
+          },
+          "apprentice": {
+            "min_level": 11,
+            "max_level": 25,
+            "experience_multiplier": 1.1
+          },
+          "journeyman": {
+            "min_level": 26,
+            "max_level": 40,
+            "experience_multiplier": 1.2
+          },
+          "expert": {
+            "min_level": 41,
+            "max_level": 60,
+            "experience_multiplier": 1.3
+          },
+          "master": {
+            "min_level": 61,
+            "max_level": 80,
+            "experience_multiplier": 1.4
+          },
+          "grandmaster": {
+            "min_level": 81,
+            "max_level": 100,
+            "experience_multiplier": 1.5
+          }
+        },
+        "prestige_levels": {
+          "enabled": true,
+          "prestige_requirement": 100,
+          "prestige_bonuses": {
+            "experience_multiplier": 0.1,
+            "skill_cap_increase": 10,
+            "specialization_slots": 1
+          }
+        }
+      },
+      "skill_decay_system": {
+        "enabled": true,
+        "decay_rate": 0.005,
+        "decay_interval_hours": 24,
+        "minimum_level": 25,
+        "decay_prevention": {
+          "daily_use": {
+            "prevents_decay": true,
+            "minimum_actions": 5
+          },
+          "weekly_use": {
+            "prevents_decay": true,
+            "minimum_actions": 25
+          },
+          "teaching": {
+            "prevents_decay": true,
+            "decay_reduction": 0.5
+          }
+        },
+        "recovery_mechanic": {
+          "enabled": true,
+          "recovery_rate": 0.01,
+          "recovery_cost_gold": 100,
+          "recovery_cost_items": [
+            "skill_crystal"
+          ]
+        }
+      },
+      "specialization_system": {
+        "max_specializations": 3,
+        "specialization_points_per_level": 1,
+        "respecification_allowed": true,
+        "respecification_cost": {
+          "gold": 10000,
+          "items": [
+            "respecification_scroll"
+          ]
+        },
+        "specialization_tiers": {
+          "primary": {
+            "unlock_level": 20,
+            "point_requirement": 10,
+            "bonus_multiplier": 1.2
+          },
+          "secondary": {
+            "unlock_level": 40,
+            "point_requirement": 20,
+            "bonus_multiplier": 1.4
+          },
+          "tertiary": {
+            "unlock_level": 60,
+            "point_requirement": 30,
+            "bonus_multiplier": 1.6
+          }
+        }
+      },
+      "mastery_system": {
+        "enabled": true,
+        "mastery_unlock_level": 50,
+        "mastery_points_max": 50,
+        "mastery_bonuses": {
+          "crafting_speed": 0.25,
+          "quality_chance": 0.15,
+          "material_efficiency": 0.2,
+          "legendary_chance": 0.1,
+          "experience_gain": 0.3
+        },
+        "mastery_abilities": [
+          {
+            "id": "master_crafting",
+            "name": "Artisanat Maîtrisé",
+            "description": "Augmente considérablement l'efficacité de l'artisanat",
+            "mastery_cost": 10,
+            "effects": {
+              "crafting_speed": 0.3,
+              "quality_bonus": 0.2
+            }
+          },
+          {
+            "id": "legendary_mastery",
+            "name": "Maîtrise Légendaire",
+            "description": "Chance d'obtenir des objets légendaires",
+            "mastery_cost": 25,
+            "effects": {
+              "legendary_chance": 0.25,
+              "mythic_chance": 0.05
+            }
+          },
+          {
+            "id": "efficiency_master",
+            "name": "Maître de l'Efficacité",
+            "description": "Utilisation optimale des matériaux",
+            "mastery_cost": 15,
+            "effects": {
+              "material_efficiency": 0.4,
+              "waste_reduction": 0.5
+            }
+          }
+        ]
+      },
+      "mentorship_system": {
+        "enabled": true,
+        "mentor_requirements": {
+          "min_level": 40,
+          "min_specializations": 2
+        },
+        "apprentice_limit": 3,
+        "mentorship_benefits": {
+          "mentor": {
+            "experience_bonus": 0.2,
+            "reputation_bonus": 10,
+            "teaching_ability_unlock": true
+          },
+          "apprentice": {
+            "experience_multiplier": 1.3,
+            "skill_gain_speed": 1.2,
+            "mentor_guidance": true
+          }
+        },
+        "mentorship_quests": [
+          {
+            "id": "first_apprentice",
+            "name": "Premier Apprenti",
+            "requirement": {
+              "apprentices_trained": 1
+            },
+            "rewards": {
+              "experience": 1000,
+              "title": "mentor"
+            }
+          },
+          {
+            "id": "master_mentor",
+            "name": "Mentor Maître",
+            "requirement": {
+              "apprentices_trained": 10
+            },
+            "rewards": {
+              "experience": 5000,
+              "title": "master_mentor"
+            }
+          }
+        ]
+      },
+      "reputation_system": {
+        "enabled": true,
+        "reputation_levels": {
+          "unknown": {
+            "min_rep": 0,
+            "max_rep": 100,
+            "market_access": "local"
+          },
+          "known": {
+            "min_rep": 101,
+            "max_rep": 500,
+            "market_access": "town"
+          },
+          "respected": {
+            "min_rep": 501,
+            "max_rep": 1500,
+            "market_access": "regional"
+          },
+          "renowned": {
+            "min_rep": 1501,
+            "max_rep": 5000,
+            "market_access": "national"
+          },
+          "legendary": {
+            "min_rep": 5001,
+            "max_rep": 15000,
+            "market_access": "world"
+          },
+          "mythical": {
+            "min_rep": 15001,
+            "max_rep": -1,
+            "market_access": "exclusive"
+          }
+        },
+        "reputation_sources": {
+          "quality_crafting": {
+            "rep_per_item": 1,
+            "quality_multiplier": 2.0
+          },
+          "bulk_orders_completed": {
+            "rep_per_order": 5,
+            "difficulty_multiplier": 1.5
+          },
+          "teaching_apprentices": {
+            "rep_per_apprentice": 10,
+            "level_multiplier": 0.1
+          },
+          "market_sales": {
+            "rep_per_gold": 0.001,
+            "bulk_sale_bonus": 1.2
+          },
+          "community_contribution": {
+            "rep_per_event": 25,
+            "leadership_bonus": 2.0
+          }
+        }
+      }
+    }
+  },
+  "id": "advancement_system",
+  "name": "Advancement System",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

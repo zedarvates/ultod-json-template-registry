@@ -1,0 +1,159 @@
+{
+  "id": "humanoid_creature_0234",
+  "name": "Humanoid Creature 0234",
+  "description": "Un marchand experimenté qui voyage entre les villes, spécialisé dans les échanges commerciaux et les relations diplomatiques. Il porte des vêtements confortables pour le voyage et transporte toujours des marchandises précieuses.",
+  "icon": "humanoid_creature_0234_icon",
+  "category": "humanoid",
+  "rarity": "uncommon",
+  "base_stats": {
+    "health": 80,
+    "mana": 30,
+    "strength": 12,
+    "dexterity": 15,
+    "intelligence": 16,
+    "wisdom": 14,
+    "constitution": 13,
+    "charisma": 18
+  },
+  "properties": {
+    "size": "medium",
+    "size_modifiers": {
+      "health_multiplier": 1.0,
+      "damage_multiplier": 1.0,
+      "speed_modifier": 1.0,
+      "space_requirement": 5,
+      "strength_bonus": 0,
+      "constitution_bonus": 0
+    },
+    "alignment": "neutral good",
+    "languages": [
+      "common",
+      "elvish",
+      "dwarvish",
+      "undercommon"
+    ],
+    "challenge_rating": "2",
+    "experience_value": 450
+  },
+  "movement_speed": {
+    "base_speed": 30,
+    "speed_types": {
+      "walk": 30,
+      "burrow": 0,
+      "climb": 0,
+      "fly": 0,
+      "swim": 15,
+      "space": 0
+    },
+    "speed_modifiers": {
+      "size_modifier": 1.0,
+      "biome_modifiers": {
+        "forest": 0.9,
+        "swamp": 0.8,
+        "mountains": 0.8,
+        "desert": 1.1,
+        "tundra": 0.9,
+        "jungle": 0.8,
+        "underground": 0.9,
+        "underwater": 0.6,
+        "aerial": 0.0,
+        "space": 0.0
+      },
+      "environmental_modifiers": {
+        "weather": 0.95,
+        "lighting": 1.0,
+        "terrain": 1.0
+      }
+    },
+    "movement_abilities": [
+      "normal_movement",
+      "difficult_terrain",
+      "trade_route_mastery",
+      "survival_travel"
+    ],
+    "movement_restrictions": [
+      "cannot_fly",
+      "cannot_burrow",
+      "cannot_climb",
+      "requires_breathing_air",
+      "requires_cart_for_cargo"
+    ]
+  },
+  "properties_humanoid": {
+    "class_levels": [
+      "merchant 3"
+    ],
+    "equipment_mastery": [
+      "light_weapons",
+      "trading_goods",
+      "negotiation_tools"
+    ],
+    "civilization_type": "trade_network",
+    "tactical_knowledge": false,
+    "leadership_abilities": false,
+    "combat_training": false,
+    "negotiation_mastery": true,
+    "cultural_knowledge": true
+  },
+  "abilities": [
+    "merchant_negotiation",
+    "trade_mastery",
+    "item_identification",
+    "cultural_knowledge",
+    "diplomatic_immunity",
+    "goods_evaluation",
+    "language_mastery",
+    "survival_travel"
+  ],
+  "resistances": {
+    "psychic": 30,
+    "social_manipulation": 50
+  },
+  "weaknesses": [
+    "physical_combat",
+    "sudden_violence",
+    "robbery_attempts"
+  ],
+  "immunities": [],
+  "senses": {
+    "darkvision": 20,
+    "tremorsense": 15
+  },
+  "inventory": {
+    "equipment": [
+      "traveling_clothes",
+      "merchant_ledger",
+      "scale_and_weights",
+      "small_weapon",
+      "travel_packs",
+      "navigation_tools"
+    ],
+    "trade_goods": [
+      "spices",
+      "silk_fabric",
+      "metal_ingots",
+      "precious_stones",
+      "magical_components",
+      "exotic_foods"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "passive",
+    "intelligence_level": "smart",
+    "tactical_awareness": "basic",
+    "attack_pattern": "negotiation_avoidance",
+    "defensive_patterns": [
+      "diplomatic_immunity",
+      "flee_to_safety",
+      "call_guards"
+    ],
+    "special_behaviors": [
+      "prioritizes_trading_over_combat",
+      "seeks_peaceful_resolutions",
+      "maintains_trade_relationships",
+      "avoids_dangerous_areas"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

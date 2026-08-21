@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0703",
+  "name": "Illusion Spell 0703",
+  "description": "Plonge la cible dans un sommeil lucide où vous pouvez créer des cauchemars ou des visions apaisantes",
+  "icon": "illusion_spell_0703_icon",
+  "school": "illusion",
+  "rarity": "rare",
+  "spell_type": "lucid_sleep_manipulation",
+  "target_type": "single_enemy_sleep_state",
+  "range": 35.0,
+  "cast_time": 2500,
+  "cooldown": 75000,
+  "mana_cost": 85,
+  "damage": {
+    "base_damage": 50,
+    "damage_type": "nightmare_illusion_spell_0703_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "subconscious_mind_immersion",
+      "value": 300,
+      "duration": 90000,
+      "tick_rate": 2000,
+      "dream_state_induction_guarantee": 95,
+      "nightmare_damage_per_tick": 30,
+      "applying_dream_type_choice": true,
+      "subconscious_manipulation_level": 80,
+      "dream_reality_bleeding": 0.2,
+      "permanent_psychological_damage": 0.1
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sleep_energy_weaving_mind_portal_formation",
+    "induction_effect": "target_lidded_slumping_illusion_spell_0703_aura_emitting",
+    "dream_effect": "visual_hallucinations_fear_pleasure_manifesting",
+    "wake_effect": "illusion_spell_0703_shattering_awakening_disorientation_return"
+  },
+  "sound_effects": {
+    "cast_effect": "sleep_weaving_whispers_mind_portal_whir",
+    "induction_effect": "gentle_slumber_fall_breathing_deepening",
+    "dream_effect": "hallucinatory_sounds_depending_illusion_spell_0703_nature",
+    "wake_effect": "illusion_spell_0703_shattering_awakening_gasp_disorientation"
+  },
+  "requirements": {
+    "level": 45,
+    "skills": [
+      "illusion_magic",
+      "subconscious_weaving"
+    ],
+    "classes": [
+      "illusionist",
+      "illusion_spell_0703_weaver"
+    ],
+    "specializations": [
+      "nightmare_craftsman"
+    ]
+  },
+  "upgrades": {
+    "greater_dream": {
+      "unlock_level": 55,
+      "description": "Le Illusion Spell 0703 devient plus grand avec des mondes oniriques plus complexes et des manipulations avancées",
+      "multiple_dream_layers": 5,
+      "dream_world_population": true,
+      "emotional_representation_physics": true,
+      "subconscious_reality_merging": 0.5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

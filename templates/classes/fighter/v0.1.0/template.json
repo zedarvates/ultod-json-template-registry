@@ -1,0 +1,64 @@
+{
+  "id": "fighter",
+  "name": "Guerrier",
+  "description": "Maître des armes et du combat, spécialisé dans diverses techniques de guerre",
+  "color": "8B4513",
+  "primary_resource": "stamina",
+  "base_stats": {
+    "strength": 1.5,
+    "agility": 1.0,
+    "intelligence": 0.7,
+    "vitality": 1.4,
+    "wisdom": 0.8,
+    "charisma": 0.9
+  },
+  "available_classes": [
+    "fighter"
+  ],
+  "starting_skills": [
+    {
+      "id": 25001,
+      "name": "Maîtrise des Armes",
+      "description": "Bonus à toutes les compétences d'armes",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": true
+    },
+    {
+      "id": 25002,
+      "name": "Frappe Puissante",
+      "description": "Attaque chargée infligeant des dégâts supplémentaires",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 3.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 0,
+        "talents": [
+          {
+            "id": 25001,
+            "name": "Maître d'Armes",
+            "description": "+20% dégâts avec les armes et +15% chance de coup critique",
+            "max_rank": 5,
+            "icon_path": "weapon_mastery"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100,
+  "health_modifier": 1.3,
+  "damage_modifier": 1.1,
+  "armor_modifier": 1.2,
+  "template_type": "class",
+  "version": "0.1.0"
+}

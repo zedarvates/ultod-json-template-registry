@@ -1,0 +1,41 @@
+{
+  "school": "spiritualism_spell_1405ualism",
+  "rarity": "common",
+  "target_type": "single",
+  "range": 40.0,
+  "cast_time": 1000,
+  "cooldown": 6000,
+  "mana_cost": 20,
+  "visual_effects": {
+    "cast_effect": "arrow_cast",
+    "projectile_effect": "spiritualism_spell_1405ualism_spell_1405_projectile",
+    "impact_effect": "arrow_impact",
+    "trail_effect": "spiritualism_spell_1405_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "arrow_cast_sound",
+    "impact_sound": "arrow_impact_sound"
+  },
+  "requirements": {
+    "level": 6
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "spiritualism_spell_1405",
+  "name": "Spiritualism Spell 1405",
+  "description": "Fires an arrow infused with spiritualism_spell_1405ual energy at the enemy",
+  "icon": "spiritualism_spell_1405ualism_spell_1405_icon",
+  "spell_type": "damage",
+  "damage_type": "spiritualism_spell_1405",
+  "base_damage": 85,
+  "damage": {
+    "base_damage": 85,
+    "damage_type": "spiritualism_spell_1405",
+    "projectile_speed": 25.0,
+    "scaling": {
+      "spirit": 1.2,
+      "intellect": 0.8
+    }
+  },
+  "template_type": "spell"
+}

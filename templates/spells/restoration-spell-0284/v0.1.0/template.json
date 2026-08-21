@@ -1,0 +1,79 @@
+{
+  "id": "restoration_spell_0284",
+  "name": "Restoration Spell 0284",
+  "description": "Une vague de lumière sacrée qui guérit tous les alliés dans un rayon autour du clerc",
+  "icon": "restoration_spell_0284_icon",
+  "school": "restoration",
+  "rarity": "uncommon",
+  "spell_type": "area_healing",
+  "target_type": "self_area_allies",
+  "range": 0.0,
+  "cast_time": 2000,
+  "cooldown": 8000,
+  "mana_cost": 55,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "area_healing",
+    "scaling": {
+      "wisdom": 2.2,
+      "charisma": 1.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "area_healing_wave",
+      "value": 200,
+      "duration": 0,
+      "tick_rate": 0,
+      "hemisphere_range": 15.0,
+      "max_targets": 6,
+      "healing_per_target": 200,
+      "divine_residue": true,
+      "holy_light_aura": 5000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_circle_formation",
+    "heal_effect": "radiance_burst_healing",
+    "area_effect": "holy_light_waves",
+    "residue_effect": "persistent_golden_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_chorus_gathering",
+    "heal_sound": "massive_healing_harmony",
+    "area_sound": "wave_of_healing_resonance"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "divine_magic",
+      "mass_restoration"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "restoration_spell_0284er"
+    ]
+  },
+  "upgrades": {
+    "sanctuary_healing": {
+      "unlock_level": 18,
+      "description": "Crée une zone sanctifiée qui continue à guérir",
+      "sanctuary_zone": 8.0,
+      "continuous_healing": 25,
+      "holy_damage_to_enemies": 50
+    },
+    "redemption_wave": {
+      "unlock_level": 28,
+      "description": "Peut ressusciter temporairement les alliés mourants",
+      "temporary_revive": true,
+      "revive_duration": 10000,
+      "revive_health_percent": 20
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

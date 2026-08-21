@@ -1,0 +1,89 @@
+{
+  "id": "chronomancy_spell_0240",
+  "name": "Chronomancy Spell 0240",
+  "description": "Invoque une tempête chaotique qui altère aléatoirement le temps dans la zone affectée",
+  "icon": "chronomancy_spell_0240_icon",
+  "school": "chronomancy",
+  "rarity": "epic",
+  "spell_type": "chronomancy_spell_0240_chaos",
+  "target_type": "area_effect",
+  "range": 50.0,
+  "cast_time": 3000,
+  "cooldown": 50000,
+  "mana_cost": 120,
+  "damage": {
+    "base_damage": 250,
+    "damage_type": "chronomancy_spell_0240_chaos",
+    "scaling": {
+      "wisdom": 2.0,
+      "intelligence": 1.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "chaos_storm_creation",
+      "value": 100,
+      "duration": 15000,
+      "tick_rate": 1500,
+      "storm_radius": 15.0,
+      "random_time_effects": true,
+      "effect_pool": [
+        "slow",
+        "haste",
+        "aging",
+        "healing",
+        "confusion"
+      ],
+      "storm_damage": 250,
+      "reality_instability": 0.3,
+      "storm_movement": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "chronomancy_spell_0240_energy_convergence",
+    "storm_effect": "chaotic_time_distortions",
+    "damage_effect": "reality_fraying_lightning",
+    "expire_effect": "chronomancy_spell_0240_vortex_dissipation"
+  },
+  "sound_effects": {
+    "cast_sound": "chronomancy_spell_0240_energy_build_hum",
+    "storm_sound": "chaotic_time_effects_mix",
+    "damage_sound": "reality_tear_screams",
+    "expire_sound": "chronomancy_spell_0240_fade"
+  },
+  "requirements": {
+    "level": 40,
+    "skills": [
+      "chronomancy",
+      "chronomancy_spell_0240_chaos",
+      "storm_magic"
+    ],
+    "classes": [
+      "chronomancer",
+      "time_mage",
+      "chronomancy_spell_0240ist"
+    ],
+    "specializations": [
+      "chaos_weaver",
+      "chronomancy_spell_0240_master"
+    ]
+  },
+  "upgrades": {
+    "unleashed_chaos": {
+      "unlock_level": 50,
+      "description": "La tempête devient plus violente avec plus d'effets possibles",
+      "effect_pool_size_bonus": 3,
+      "storm_duration_bonus": 5000,
+      "reality_instability_penalty": 0.4
+    },
+    "controlled_temporal_fury": {
+      "unlock_level": 60,
+      "description": "Peut légèrement diriger les effets de la tempête vers les ennemis",
+      "controlled_effects": true,
+      "enemy_focus_multiplier": 2.0,
+      "ally_protection_field": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

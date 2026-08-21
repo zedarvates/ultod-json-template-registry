@@ -1,0 +1,183 @@
+{
+  "profession": "adapted_reference_alchemist",
+  "display_name": "Grand Alchimiste d'adapted_reference",
+  "description": "Maître des arts chimiques et magiques d'Atreia, créant potions, élixirs et substances capables d'altérer la réalité elle-même",
+  "icon_path": "icons/professions/adapted_reference_alchemist.png",
+  "category": "adapted_reference_crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "greater_healing_potion_stigma",
+      "name": "Potion de Soin Supérieur Stigma",
+      "description": "Potion sacrée infusée de pouvoir stigma, utilisée par les héros du Sanctuaire",
+      "profession": "adapted_reference_alchemist",
+      "difficulty": 78,
+      "base_success_rate": 0.52,
+      "skill_required": 68,
+      "experience_gain": 125,
+      "exceptional_chance": 0.19,
+      "time_required_seconds": 480,
+      "components": [
+        {
+          "item_type": "elysea_vitality_extract",
+          "quantity": 8,
+          "quality_required": "rare",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "herb_divine_purity",
+          "quantity": 12,
+          "quality_required": "excellent",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "stigma_crystal_focus",
+          "quantity": 3,
+          "quality_required": "good",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "holy_water_sanctuary",
+          "quantity": 6,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "templar_life_essence",
+          "quantity": 1,
+          "quality_required": "rare",
+          "rarity_required": "rare"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "greater_healing_potion_stigma",
+          "name": "Potion de Soin Supérieur Stigma",
+          "min_quantity": 1,
+          "max_quantity": 3,
+          "quality_modifier": 1.5,
+          "durability_modifier": 1.0,
+          "effect_power": 1200,
+          "cooldown_reduction": 20,
+          "stack_size": 10
+        }
+      ],
+      "conditions": {
+        "profession_level": 60,
+        "required_tools": [
+          "stigma_brewing_cauldron",
+          "elysea_distiller",
+          "divine_philtre"
+        ],
+        "environmental_factors": [
+          "sanctuary_purity"
+        ]
+      }
+    },
+    {
+      "id": "abyss_power_elixir",
+      "name": "Élixir de Puissance Abyssale",
+      "description": "Élixir légendaire tiré de l'essence même de l'Abîme, offrant un pouvoir inimaginable aux héros dignes",
+      "profession": "adapted_reference_alchemist",
+      "difficulty": 108,
+      "base_success_rate": 0.18,
+      "skill_required": 98,
+      "experience_gain": 350,
+      "exceptional_chance": 0.35,
+      "time_required_seconds": 2100,
+      "components": [
+        {
+          "item_type": "abyss_heart_crystal",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "dragon_lord_essence",
+          "quantity": 25,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "archon_will_powder",
+          "quantity": 15,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "balaur_king_soul",
+          "quantity": 3,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "infinite_energy_node",
+          "quantity": 10,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "reality_anchor_shard",
+          "quantity": 5,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "adapted_referencete_alchemist_flask",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "abyss_power_elixir",
+          "name": "Élixir de Puissance Abyssale",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 5.0,
+          "durability_modifier": 1.0,
+          "legendary_effects": [
+            "Infinite Power",
+            "Immortal Chi",
+            "Divine Awakening"
+          ],
+          "passive_bonuses": [
+            "Attack Power +100%",
+            "Critical Hit +50%",
+            "All Resistance +25%"
+          ],
+          "duration_hours": 24,
+          "rarity": "adapted_referencete Rare"
+        }
+      ],
+      "conditions": {
+        "profession_level": 95,
+        "required_tools": [
+          "abyss_reality_cauldron",
+          "infinite_distillation_apparatus"
+        ],
+        "environmental_factors": [
+          "abyss_epicenter",
+          "dragon_lord_presence"
+        ]
+      }
+    }
+  ],
+  "specializations": [
+    "stigma_elixir_brewing",
+    "abyss_power_extraction",
+    "dragon_essence_distillation",
+    "reality_elixir_creation"
+  ],
+  "masterwork_bonuses": {
+    "potion_potency_increase": 40,
+    "transmutation_success_rate": 30,
+    "legendary_recipe_success": 45,
+    "cooldown_reduction_mastery": 25
+  },
+  "id": "professions_template_0004",
+  "name": "Professions Template 0004",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

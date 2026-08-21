@@ -1,0 +1,127 @@
+{
+  "profession": "potion_making",
+  "display_name": "Préparation de Potions",
+  "description": "Spécialisation dans la création de potions et élixirs magiques",
+  "icon_path": "icons/professions/potion_making.png",
+  "category": "specialized_alchemy",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "greater_healing_potion",
+      "name": "Potion de Soin Supérieur",
+      "description": "Potion puissante qui restaure une grande quantité de points de vie",
+      "profession": "potion_making",
+      "difficulty": 45,
+      "base_success_rate": 0.6,
+      "skill_required": 35,
+      "experience_gain": 40,
+      "exceptional_chance": 0.09,
+      "time_required_seconds": 120,
+      "components": [
+        {
+          "item_type": "healing_herb",
+          "quantity": 5,
+          "quality_required": "excellent",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "mana_crystal",
+          "quantity": 2,
+          "quality_required": "good",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "spring_water",
+          "quantity": 2,
+          "quality_required": "excellent",
+          "rarity_required": "uncommon"
+        },
+        {
+          "item_type": "alchemist_flask",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "greater_healing_potion",
+          "name": "Potion de Soin Supérieur",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.25,
+          "durability_modifier": 1.0
+        }
+      ],
+      "conditions": {
+        "profession_level": 25,
+        "required_tools": [
+          "master_cauldron",
+          "precision_scales",
+          "filtration_tools"
+        ],
+        "environmental_factors": [
+          "sterile_environment"
+        ]
+      }
+    },
+    {
+      "id": "phoenix_elixir",
+      "name": "Élixir du Phénix",
+      "description": "Élixir légendaire qui ressuscite et restaure complètement",
+      "profession": "potion_making",
+      "difficulty": 90,
+      "base_success_rate": 0.35,
+      "skill_required": 80,
+      "experience_gain": 90,
+      "exceptional_chance": 0.2,
+      "time_required_seconds": 360,
+      "components": [
+        {
+          "item_type": "phoenix_feather",
+          "quantity": 3,
+          "quality_required": "legendary",
+          "rarity_required": "epic"
+        },
+        {
+          "item_type": "divine_water",
+          "quantity": 5,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "immortal_essence",
+          "quantity": 1,
+          "quality_required": "legendary",
+          "rarity_required": "legendary"
+        },
+        {
+          "item_type": "golden_flask",
+          "quantity": 1,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "phoenix_elixir",
+          "name": "Élixir du Phénix",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 2.0,
+          "durability_modifier": 1.0
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "healing_potions",
+    "combat_potions",
+    "buff_elixirs",
+    "legendary_brews"
+  ],
+  "id": "potion_making",
+  "name": "Potion Making",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

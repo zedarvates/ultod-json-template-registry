@@ -1,0 +1,48 @@
+{
+  "id": "necromancy_spell_1538",
+  "name": "Necromancy Spell 1538",
+  "description": "Un rayon vert morbide inflige des dégâts de poison et peut empoisonner la cible",
+  "icon": "necromancy_spell_1538_icon",
+  "school": "necromancy",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 18.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 16,
+    "damage_type": "poison",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "poison_damage",
+      "value": 16,
+      "duration": 0,
+      "tick_rate": 0,
+      "constitution_save": true,
+      "save_dc": 13
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "green_ray",
+    "projectile_effect": "sickly_beam"
+  },
+  "sound_effects": {
+    "cast_sound": "cough"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "necromancy"
+    ],
+    "classes": [
+      "warlock"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

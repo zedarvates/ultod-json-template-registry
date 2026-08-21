@@ -1,0 +1,72 @@
+{
+  "id": "arcane_spell_0771",
+  "name": "Arcane Spell 0771",
+  "description": "Libère un torrent d'énergie arcane_spell_0771 qui amplifie drastiquement les capacités intellectuelles et la puissance des sorts",
+  "icon": "arcane_spell_0771_spell_0771_icon",
+  "school": "arcane_spell_0771",
+  "rarity": "legendary",
+  "spell_type": "intellect_amplification_buff",
+  "target_type": "self_buff",
+  "range": 0.0,
+  "cast_time": 3000,
+  "cooldown": 120000,
+  "mana_cost": 150,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "arcane_spell_0771_energy_overload"
+  },
+  "effects": [
+    {
+      "effect_type": "magical_ability_maximization",
+      "value": 800,
+      "duration": 60000,
+      "tick_rate": 2000,
+      "intellect_amplification_percent": 200,
+      "spell_damage_multiplication": 2.5,
+      "mana_regeneration_boost": 300,
+      "cast_speed_increase_percent": 100,
+      "arcane_critical_chance_boost": 35,
+      "magic_resistance_temporary": 500
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "arcane_spell_0771_energy_torrent_violet_energy_whirling_torrent_intense",
+    "active_effect": "intellect_aura_brilliant_crystal_mind_energy_radiating",
+    "power_effect": "arcane_spell_0771_surge_spell_cast_eye_flash_brilliant_energy_burst",
+    "expire_effect": "power_drain_emptying_aura_fading_intellect_normalization"
+  },
+  "sound_effects": {
+    "cast_effect": "arcane_spell_0771_energy_whirling_torrent_rushing_energy_wind_building",
+    "active_effect": "power_humming_intense_mental_clarity_echo_brilliant_rush",
+    "power_effect": "spell_cast_enhanced_deep_resonance_arcane_spell_0771_chorus_boosted",
+    "expire_effect": "power_fade_draining_whisper_mental_clarity_returning_normal"
+  },
+  "requirements": {
+    "level": 40,
+    "skills": [
+      "arcane_spell_0771_magic",
+      "intellect_mastery",
+      "energy_amplification"
+    ],
+    "classes": [
+      "mage",
+      "arcane_spell_0771_mage",
+      "spell_power_master"
+    ],
+    "specializations": [
+      "arcane_spell_0771_domination"
+    ]
+  },
+  "upgrades": {
+    "greater_arcane_power": {
+      "unlock_level": 50,
+      "description": "La arcane_spell_0771 Spell 0771 devient plus grande avec des amplifications dépassant les limites",
+      "intellect_amplification_percent_increase": 150,
+      "spell_damage_multiplier_additional": 1.0,
+      "duration_extension_percent": 50,
+      "permanent_magic_imprint_chance": 10
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-11-14",
+    "description": "RTS Terrain System - Map tiles, environmental effects, and strategic gameplay elements",
+    "author": "UOVR Development Team",
+    "category": "RTS Systems"
+  },
+  "terrain_types": {
+    "grass": {
+      "id": "terrain_grass",
+      "name": "Grassland",
+      "description": "Open plains perfect for most unit movements and building construction",
+      "movement_cost": 1.0,
+      "buildable": true,
+      "resource_yield": {
+        "food": 1.2,
+        "gold": 0.8
+      },
+      "visual_properties": {
+        "color": "#4CAF50",
+        "texture": "grass_texture.png",
+        "height_modifier": 0.0
+      },
+      "strategic_values": {
+        "defense_bonus": 0,
+        "vision_modifier": 1.0,
+        "cover_type": "none"
+      },
+      "environmental_effects": {
+        "weather_influence": "moderate",
+        "healing_rate": 0.5,
+        "poison_damage": 0
+      }
+    },
+    "forest": {
+      "id": "terrain_forest",
+      "name": "Dense Forest",
+      "description": "Thick woodland providing cover but hindering movement",
+      "movement_cost": 2.0,
+      "buildable": false,
+      "resource_yield": {
+        "wood": 2.5,
+        "food": 0.3
+      },
+      "visual_properties": {
+        "color": "#2E8B57",
+        "texture": "forest_texture.png",
+        "height_modifier": 0.1
+      },
+      "strategic_values": {
+        "defense_bonus": 15,
+        "vision_modifier": 0.6,
+        "cover_type": "heavy"
+      },
+      "environmental_effects": {
+        "ambush_bonus": 0.2,
+        "unit_concealment": 0.3,
+        "fire_risk": 0.4
+      }
+    },
+    "mountain": {
+      "id": "terrain_mountain",
+      "name": "Mountain Peak",
+      "description": "Rugged terrain rich in minerals but difficult to navigate",
+      "movement_cost": 3.0,
+      "buildable": false,
+      "resource_yield": {
+        "stone": 3.0,
+        "metal": 2.0,
+        "crystal": 0.5
+      },
+      "visual_properties": {
+        "color": "#696969",
+        "texture": "mountain_texture.png",
+        "height_modifier": 0.8
+      },
+      "strategic_values": {
+        "defense_bonus": 30,
+        "vision_modifier": 1.8,
+        "elevation_advantage": 10
+      },
+      "environmental_effects": {
+        "weather_modifier": "harsh",
+        "altitude_effects": {
+          "breathing_penalty": 0.1,
+          "mana_boost": 0.15
+        }
+      }
+    },
+    "water": {
+      "id": "terrain_water",
+      "name": "Deep Water",
+      "description": "Impassable water bodies that block land units but may enable special abilities",
+      "movement_cost": 999,
+      "buildable": false,
+      "resource_yield": {
+        "fish": 1.0
+      },
+      "visual_properties": {
+        "color": "#2196F3",
+        "texture": "water_texture.png",
+        "height_modifier": -0.2
+      },
+      "strategic_values": {
+        "blocks_movement": true,
+        "blocks_projectiles": false,
+        "transport_modifier": 0.0
+      },
+      "environmental_effects": {
+        "moisture_effect": "high",
+        "navigation_risk": "ships_only",
+        "magical_resonance": 0.2
+      }
+    },
+    "desert": {
+      "id": "terrain_desert",
+      "name": "Barren Desert",
+      "description": "Harsh sandy terrain that drains resources but provides clear vision",
+      "movement_cost": 1.5,
+      "buildable": true,
+      "resource_yield": {
+        "gold": 1.5,
+        "stone": 0.5
+      },
+      "visual_properties": {
+        "color": "#F4A460",
+        "texture": "desert_texture.png",
+        "height_modifier": 0.05
+      },
+      "strategic_values": {
+        "defense_bonus": -5,
+        "vision_modifier": 1.3,
+        "sandstorm_chance": 0.1
+      },
+      "environmental_effects": {
+        "thirst_damage": 1,
+        "heat_damage": 2,
+        "mirage_illusions": true
+      }
+    }
+  },
+  "terrain_modifiers": {
+    "pathways": {
+      "dirt_road": {
+        "movement_cost_multiplier": 0.8,
+        "construction_cost": {
+          "gold": 5,
+          "stone": 2
+        },
+        "maintenance_cost": {
+          "gold": 1
+        }
+      },
+      "stone_road": {
+        "movement_cost_multiplier": 0.6,
+        "construction_cost": {
+          "gold": 10,
+          "stone": 8
+        },
+        "all_weather": true
+      }
+    },
+    "improvements": {
+      "irrigation": {
+        "affects_terrain": [
+          "grass",
+          "desert"
+        ],
+        "food_yield_bonus": 0.5,
+        "construction_cost": {
+          "gold": 25,
+          "wood": 15
+        }
+      },
+      "deforestation": {
+        "converts_terrain": {
+          "from": "forest",
+          "to": "grass"
+        },
+        "wood_yield": 50,
+        "replant_time": 300,
+        "fire_risk_increase": 0.2
+      }
+    }
+  },
+  "environmental_events": {
+    "seasonal_changes": {
+      "spring": {
+        "growth_acceleration": 1.5,
+        "rainfall": "increased"
+      },
+      "summer": {
+        "evaporation": 1.2,
+        "heat_damage": 2
+      },
+      "autumn": {
+        "harvest_bonus": 1.3,
+        "wind_strength": 1.2
+      },
+      "winter": {
+        "freezing_damage": 1,
+        "movement_penalty": 1.3,
+        "visibility": 0.8
+      }
+    },
+    "random_events": {
+      "dust_storm": {
+        "frequency": 0.01,
+        "duration": 300,
+        "effects": {
+          "visibility": 0.3,
+          "movement_penalty": 2.0,
+          "ranged_accuracy": 0.5
+        }
+      },
+      "earthquake": {
+        "frequency": 0.005,
+        "effects": {
+          "building_damage": 20,
+          "terrain_alteration": true
+        },
+        "aftermath": {
+          "resource_deposits": "possible"
+        }
+      }
+    }
+  },
+  "id": "terrain",
+  "name": "Terrain",
+  "template_type": "rt",
+  "version": "0.1.0"
+}

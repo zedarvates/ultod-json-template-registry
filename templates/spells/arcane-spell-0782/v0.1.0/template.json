@@ -1,0 +1,71 @@
+{
+  "id": "arcane_spell_0782",
+  "name": "Arcane Spell 0782",
+  "description": "Transforme une partie du arcane_spell_0782 en énergie protectrice qui absorbe les dégâts physiques et magiques",
+  "icon": "arcane_spell_0782_icon",
+  "school": "arcane",
+  "rarity": "uncommon",
+  "spell_type": "damage_absorption_shield",
+  "target_type": "self_buff",
+  "range": 0.0,
+  "cast_time": 1200,
+  "cooldown": 18000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "arcane_spell_0782_conversion_defense"
+  },
+  "effects": [
+    {
+      "effect_type": "magical_damage_absorption",
+      "value": 250,
+      "duration": 20000,
+      "tick_rate": 1000,
+      "shield_max_absorption": 800,
+      "absorbs_physical_damage_percent": 70,
+      "absorbs_magical_damage_percent": 100,
+      "mana_drain_per_damage_absorbed": 2,
+      "shield_visual_feedback": true,
+      "explosion_on_shield_break": 50
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "arcane_spell_0782_energy_consuming_forming_blue_crystal_shield",
+    "shield_effect": "swirling_blue_arcane_spell_0782_barrier_orbits_absorbing_attacks",
+    "absorption_effect": "attacks_hit_shield_blue_energy_pulse_damage_restored",
+    "break_effect": "shield_crackling_fragments_exploding_arcane_spell_0782_burst"
+  },
+  "sound_effects": {
+    "cast_effect": "arcane_spell_0782_consuming_whir_crystal_shield_forming_chime",
+    "shield_effect": "gentle_arcane_spell_0782_humming_barrier_power_constant_whir",
+    "absorption_effect": "damage_absorbed_blue_chime_soft_energy_dissipation",
+    "break_effect": "shield_breaking_crystal_shatter_loud_arcane_spell_0782_explosion"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "arcane_magic",
+      "arcane_spell_0782_manipulation"
+    ],
+    "classes": [
+      "mage",
+      "arcane_spell_0782_weaver",
+      "arcane_defender"
+    ],
+    "specializations": [
+      "arcane_spell_0782_specialization"
+    ]
+  },
+  "upgrades": {
+    "greater_mana_shield": {
+      "unlock_level": 28,
+      "description": "Le Arcane Spell 0782 devient plus résistant avec plus d'absorption et des propriétés améliorées",
+      "absorption_capacity_increase_percent": 100,
+      "physical_damage_absorption_increase": 30,
+      "mana_efficiency_improvement": 1.5,
+      "other_spell_cost_reduction": 25
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

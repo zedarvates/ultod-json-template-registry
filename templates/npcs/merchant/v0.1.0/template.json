@@ -1,0 +1,114 @@
+{
+  "id": "merchant",
+  "name": "Marchand",
+  "description": "Commerçant itinérant vendant divers biens et équipements",
+  "icon": "merchant_icon",
+  "category": "merchant",
+  "awareness": {
+    "enabled": true,
+    "cognitive_level": "summary",
+    "initial_lod": "ordinary",
+    "initial_yaw_radians": 0.0,
+    "senses": {
+      "vision_range": 24.0,
+      "hearing_range": 20.0,
+      "tactile_sensitivity": 0.6
+    },
+    "attention": {
+      "capacity": 10,
+      "max_visual_candidates": 24,
+      "max_occlusion_rays": 6
+    },
+    "values": {
+      "nonviolence": 0.7,
+      "fairness": 0.7,
+      "loyalty": 0.6,
+      "honor": 0.6,
+      "compassion": 0.5,
+      "reciprocity": 0.9
+    },
+    "personal_norms": {
+      "property_rights": 0.9,
+      "nonviolence": 0.7,
+      "anti_coercion": 0.8,
+      "dignity": 0.7,
+      "reciprocity": 0.9
+    },
+    "initial_goals": {
+      "self_preservation": 0.8,
+      "possessions": 0.9,
+      "social_standing": 0.8,
+      "protect_others": 0.4,
+      "preserve_order": 0.7,
+      "affiliation": 0.7
+    },
+    "reaction_policy": {
+      "threat_response": "seek_guard",
+      "may_defend": false,
+      "may_retaliate": false
+    }
+  },
+  "rarity": "common",
+  "dialogue": {
+    "greetings": [
+      "Bienvenue, voyageur! Que puis-je vous offrir?",
+      "Des marchandises de qualité à des prix raisonnables!",
+      "J'ai exactement ce qu'il vous faut."
+    ],
+    "farewells": [
+      "Revenez quand vous voulez!",
+      "À bientôt, cher client.",
+      "Que vos aventures soient prospères."
+    ],
+    "bargain_success": [
+      "Marché conclu!",
+      "Vous avez l'œil pour les bonnes affaires."
+    ],
+    "no_gold": [
+      "Vous n'avez pas assez d'or.",
+      "Revenez avec plus de pièces."
+    ]
+  },
+  "shop_inventory": {
+    "weapons": [
+      "iron_sword",
+      "wooden_staff",
+      "hunting_bow"
+    ],
+    "armor": [
+      "leather_helmet",
+      "cloth_robe",
+      "leather_boots"
+    ],
+    "consumables": [
+      "health_potion",
+      "mana_potion",
+      "bread"
+    ],
+    "tools": [
+      "rope",
+      "torch",
+      "backpack"
+    ]
+  },
+  "ai_behavior": {
+    "personality": "friendly_merchant",
+    "interaction_style": "helpful",
+    "bargaining_willingness": 0.4,
+    "movement_pattern": "stationary_with_patrol"
+  },
+  "schedule": {
+    "active_hours": "6:00-22:00",
+    "restock_time": "06:00",
+    "travel_pattern": "town_circuit"
+  },
+  "services": {
+    "buy_items": true,
+    "sell_items": true,
+    "repair_equipment": false,
+    "identify_items": true,
+    "appraisal_service": true
+  },
+  "version": "0.1.0",
+  "template_type": "npc"
+}

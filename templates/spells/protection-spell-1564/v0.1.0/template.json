@@ -1,0 +1,65 @@
+{
+  "id": "protection_spell_1564",
+  "name": "Protection Spell 1564",
+  "description": "Renvoie le prochain sort lancé contre le guerrier vers son lanceur",
+  "icon": "protection_protection_spell_1564_1564_icon",
+  "school": "protection",
+  "rarity": "rare",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 10000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.0,
+      "rage": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "protection_protection_spell_1564_1564",
+      "value": 1.0,
+      "duration": 5000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "reflective_barrier",
+    "projectile_effect": "none",
+    "impact_effect": "protection_spell_1564_bounce",
+    "trail_effect": "reflective_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "reflection_cast",
+    "impact_sound": "protection_spell_1564_reflect"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "protection"
+    ]
+  },
+  "upgrades": {
+    "improved_spell_reflection": {
+      "unlock_level": 26,
+      "description": "Protection protection_spell_1564 1564 dure plus longtemps",
+      "duration_extension": 2000
+    },
+    "spell_reflection_mastery": {
+      "unlock_level": 36,
+      "description": "Protection protection_spell_1564 1564 peut refléter plusieurs sorts",
+      "multiple_reflections": 2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,134 @@
+{
+  "id": "blacksmithing",
+  "name": "Forge",
+  "description": "Art de forger des armes et armures à partir de métaux",
+  "icon": "blacksmithing_icon",
+  "category": "crafting",
+  "subcategory": "metalworking",
+  "max_level": 100,
+  "level_requirements": {
+    "1": 0,
+    "2": 50,
+    "3": 125,
+    "4": 225,
+    "5": 350,
+    "10": 2000,
+    "15": 4000,
+    "20": 7000,
+    "25": 11000,
+    "30": 16000,
+    "35": 22000,
+    "40": 30000,
+    "45": 40000,
+    "50": 55000,
+    "60": 85000,
+    "70": 125000,
+    "80": 175000,
+    "90": 240000,
+    "100": 350000
+  },
+  "xp_sources": {
+    "repair_items": 5,
+    "craft_weapons": 25,
+    "craft_armor": 20,
+    "enhance_items": 50,
+    "smelt_ore": 2,
+    "success_rate_bonus": 10
+  },
+  "level_bonuses": {
+    "crafting_speed": {
+      "base_value": 5.0,
+      "per_level": 1.0
+    },
+    "item_quality": {
+      "base_value": 2.0,
+      "per_level": 0.8
+    },
+    "durability_bonus": {
+      "base_value": 3.0,
+      "per_level": 1.2
+    },
+    "repair_efficiency": {
+      "base_value": 4.0,
+      "per_level": 1.5
+    }
+  },
+  "specializations": {
+    "weaponsmith": {
+      "unlock_level": 30,
+      "description": "Spécialisation dans la création d'armes avec bonus de dégâts et de précision",
+      "bonuses": {
+        "weapon_damage": 15.0,
+        "weapon_accuracy": 10.0,
+        "critical_chance": 5.0
+      }
+    },
+    "armorsmith": {
+      "unlock_level": 35,
+      "description": "Spécialisation dans la création d'armures avec bonus de défense et de résistance",
+      "bonuses": {
+        "armor_rating": 20.0,
+        "damage_reduction": 12.0,
+        "resistance_all": 8.0
+      }
+    },
+    "master_craftsman": {
+      "unlock_level": 50,
+      "description": "Maîtrise ultime de la forge permettant de créer des objets légendaires",
+      "bonuses": {
+        "legendary_chance": 25.0,
+        "material_efficiency": 30.0,
+        "crafting_speed": 50.0
+      }
+    }
+  },
+  "unlocked_recipes": {
+    "5": [
+      "basic_dagger",
+      "basic_sword",
+      "basic_shield"
+    ],
+    "10": [
+      "iron_helm",
+      "iron_chest",
+      "iron_legs"
+    ],
+    "15": [
+      "steel_blade",
+      "adapted_reference_ingots"
+    ],
+    "20": [
+      "enchanted_hammer",
+      "repair_kits"
+    ],
+    "25": [
+      "runed_weapons",
+      "magical_armor"
+    ],
+    "30": [
+      "legendary_blades",
+      "artifact_armor"
+    ],
+    "40": [
+      "divine_weapons",
+      "celestial_armor"
+    ],
+    "50": [
+      "godly_artifacts",
+      "transcendent_equipment"
+    ]
+  },
+  "lineage_synergies": {
+    "warrior": {
+      "weapon_crafting": 1.3,
+      "armor_crafting": 1.2
+    },
+    "guardian": {
+      "armor_crafting": 1.4,
+      "durability": 1.3
+    }
+  },
+  "enabled": true,
+  "template_type": "skill",
+  "version": "0.1.0"
+}

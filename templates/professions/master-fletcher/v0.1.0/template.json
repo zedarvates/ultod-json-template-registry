@@ -1,0 +1,474 @@
+{
+  "profession_id": "master_fletcher",
+  "name": "Master Fletcher",
+  "display_name": "Maître Archer",
+  "description": "Maîtrise ultime de la fabrication d'armes de jet et d'arcs légendaires",
+  "base_skill": "fletching",
+  "tier": "master",
+  "skill_requirement": 75,
+  "experience_requirement": 40000,
+  "icon": "profession_fletching_master",
+  "category": "crafting",
+  "subcategory": "ranged_weapons",
+  "skill_progression": {
+    "formula": "fletching_level * (1 + 0.11 * mastery_tier + 0.07 * specialization_level)",
+    "mastery_levels": [
+      "apprentice",
+      "journeyman",
+      "expert",
+      "master"
+    ],
+    "tier_requirements": {
+      "apprentice": {
+        "level": 1,
+        "talent_points": 0
+      },
+      "journeyman": {
+        "level": 22,
+        "talent_points": 4
+      },
+      "expert": {
+        "level": 42,
+        "talent_points": 9
+      },
+      "master": {
+        "level": 62,
+        "talent_points": 13
+      }
+    },
+    "practice_benefits": {
+      "crafting_speed": 0.13,
+      "weapon_quality": 0.09,
+      "success_rate": 0.11,
+      "discovery_chance": 0.07
+    },
+    "decay_mechanic": {
+      "enabled": true,
+      "rate": 0.005,
+      "minimum_level": 25,
+      "recovery_rate": 0.012
+    }
+  },
+  "talent_tree": {
+    "total_points": 17,
+    "branches": {
+      "bow_mastery": {
+        "name": "Maîtrise des Arcs",
+        "max_points": 5,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Fabrication Précise",
+            "max_rank": 3,
+            "effects": {
+              "crafting_speed": 0.16,
+              "weapon_quality": 0.13,
+              "success_rate": 0.09
+            },
+            "prerequisites": [],
+            "description": "Techniques précises pour la fabrication d'arcs"
+          },
+          {
+            "name": "Arc Puissant",
+            "max_rank": 2,
+            "effects": {
+              "damage_bonus": 0.22,
+              "range_increase": 0.18,
+              "accuracy_bonus": 0.15
+            },
+            "prerequisites": [
+              "Fabrication Précise_2"
+            ],
+            "description": "Création d'arcs aux performances améliorées"
+          }
+        ]
+      },
+      "arrow_expertise": {
+        "name": "Expertise des Flèches",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Maître des Flèches",
+            "max_rank": 2,
+            "effects": {
+              "arrow_quality": 0.26,
+              "penetration_power": 0.21,
+              "special_effects": true
+            },
+            "prerequisites": [],
+            "description": "Fabrication de flèches de qualité supérieure"
+          },
+          {
+            "name": "Flèche Magique",
+            "max_rank": 2,
+            "effects": {
+              "magical_damage": 0.32,
+              "elemental_effects": true,
+              "homing_ability": 0.28
+            },
+            "prerequisites": [
+              "Maître des Flèches_1"
+            ],
+            "description": "Flèches infusées de magie élémentaire"
+          }
+        ]
+      },
+      "crossbow_specialization": {
+        "name": "Spécialisation Arbalètes",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Arbalète de Précision",
+            "max_rank": 2,
+            "effects": {
+              "accuracy_bonus": 0.25,
+              "reload_speed": 0.2,
+              "critical_chance": 0.18
+            },
+            "prerequisites": [],
+            "description": "Arbalètes conçues pour la précision"
+          },
+          {
+            "name": "Arbalète Lourde",
+            "max_rank": 2,
+            "effects": {
+              "damage_multiplier": 0.35,
+              "armor_penetration": 0.3,
+              "knockback_effect": true
+            },
+            "prerequisites": [
+              "Arbalète de Précision_2"
+            ],
+            "description": "Arbalètes puissantes pour le combat lourd"
+          }
+        ]
+      },
+      "legendary_craftsmanship": {
+        "name": "Artisanat Légendaire",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Arme Légendaire",
+            "max_rank": 1,
+            "effects": {
+              "legendary_weapons": true,
+              "quality_multiplier": 0.45,
+              "reputation_bonus": 0.35
+            },
+            "prerequisites": [
+              "Arc Puissant_2",
+              "Flèche Magique_2"
+            ],
+            "description": "Capacité à créer des armes légendaires"
+          },
+          {
+            "name": "Arc Divin",
+            "max_rank": 1,
+            "effects": {
+              "divine_blessing": true,
+              "infinite_ammo": true,
+              "godly_damage": 0.6
+            },
+            "prerequisites": [
+              "Arme Légendaire"
+            ],
+            "description": "Arcs bénis par les dieux"
+          },
+          {
+            "name": "Flèche de Foudre",
+            "max_rank": 1,
+            "effects": {
+              "lightning_arrows": true,
+              "chain_lightning": true,
+              "storm_caller": true
+            },
+            "prerequisites": [
+              "Arme Légendaire"
+            ],
+            "description": "Flèches invoquant la foudre"
+          },
+          {
+            "name": "Maître Archer",
+            "max_rank": 1,
+            "effects": {
+              "perfect_accuracy": true,
+              "instant_reload": true,
+              "legendary_creation": true
+            },
+            "prerequisites": [
+              "Arc Divin",
+              "Flèche de Foudre"
+            ],
+            "description": "Maîtrise ultime de l'art de l'arc"
+          }
+        ]
+      }
+    }
+  },
+  "specialization_paths": {
+    "bow_master": {
+      "name": "Maître des Arcs",
+      "requirements": {
+        "fletching_level": 38,
+        "bow_mastery_points": 5,
+        "completed_quests": 2
+      },
+      "bonuses": {
+        "weapon_quality": 22.0,
+        "crafting_speed": 16.0,
+        "rare_material_chance": 14.0,
+        "damage_bonus": 0.28,
+        "range_increase": 0.22
+      },
+      "unlock_recipes": [
+        "arc_longue_portee",
+        "arc_composite",
+        "arc_magique",
+        "arc_elementaire"
+      ],
+      "unlock_abilities": [
+        "fabrication_rapide",
+        "precision_extreme",
+        "enchantement_arc"
+      ],
+      "synergies": {
+        "woodworker": {
+          "multiplier": 1.4,
+          "effects": [
+            "material_quality",
+            "bow_enhancement"
+          ]
+        },
+        "ranger": {
+          "multiplier": 1.5,
+          "effects": [
+            "ranged_damage",
+            "accuracy_boost"
+          ]
+        }
+      }
+    },
+    "arrow_specialist": {
+      "name": "Spécialiste des Flèches",
+      "requirements": {
+        "fletching_level": 42,
+        "arrow_expertise_points": 4,
+        "completed_quests": 2
+      },
+      "bonuses": {
+        "arrow_quality": 28.0,
+        "penetration_power": 25.0,
+        "special_effects": 22.0,
+        "magical_damage": 0.38,
+        "homing_ability": 0.3
+      },
+      "unlock_recipes": [
+        "fleche_perforante",
+        "fleche_venimeuse",
+        "fleche_explosive",
+        "fleche_hantee"
+      ],
+      "unlock_abilities": [
+        "tir_rafale",
+        "fleche_guidee",
+        "effets_elementaires"
+      ],
+      "synergies": {
+        "alchemist": {
+          "multiplier": 1.4,
+          "effects": [
+            "poison_arrows",
+            "elemental_coating"
+          ]
+        },
+        "enchanter": {
+          "multiplier": 1.5,
+          "effects": [
+            "magical_arrows",
+            "enchantment_amplification"
+          ]
+        }
+      }
+    },
+    "legendary_fletcher": {
+      "name": "Archer Légendaire",
+      "requirements": {
+        "fletching_level": 65,
+        "legendary_craftsmanship_points": 4,
+        "completed_specializations": 2,
+        "master_achievements": 3
+      },
+      "bonuses": {
+        "legendary_weapons": 50.0,
+        "quality_multiplier": 45.0,
+        "godly_damage": 40.0,
+        "perfect_accuracy": 35.0,
+        "instant_reload": true
+      },
+      "unlock_recipes": [
+        "arc_divin",
+        "fleche_foudre",
+        "arme_celeste",
+        "arsenal_legendaire"
+      ],
+      "unlock_abilities": [
+        "tir_divin",
+        "precision_parfaite",
+        "creation_legendaire"
+      ],
+      "synergies": {
+        "ranger": {
+          "multiplier": 1.7,
+          "effects": [
+            "legendary_ranged",
+            "godly_accuracy"
+          ]
+        },
+        "hunter": {
+          "multiplier": 1.6,
+          "effects": [
+            "perfect_hunting",
+            "beast_mastery"
+          ]
+        }
+      }
+    }
+  },
+  "abilities": [
+    "master_fletching",
+    "bow_enhancement",
+    "arrow_mastery",
+    "crossbow_expertise",
+    "legendary_weapons",
+    "divine_arrows",
+    "lightning_strike",
+    "perfect_shot"
+  ],
+  "quests": [
+    {
+      "id": "fletcher_apprentice",
+      "name": "L'Apprenti Archer",
+      "requirements": {
+        "fletching_level": 1,
+        "craft_bows": 12,
+        "craft_arrows": 50,
+        "gather_materials": 30
+      },
+      "rewards": [
+        "basic_fletching_kit",
+        "apprentice_talent_points",
+        "basic_weapon_recipes"
+      ]
+    },
+    {
+      "id": "fletcher_journeyman",
+      "name": "L'Archer Voyageur",
+      "requirements": {
+        "fletching_level": 22,
+        "craft_bows": 60,
+        "craft_arrows": 250,
+        "create_special": 15,
+        "discover_recipes": 4
+      },
+      "rewards": [
+        "journeyman_fletching_kit",
+        "journeyman_talent_points",
+        "advanced_weapon_recipes"
+      ]
+    },
+    {
+      "id": "fletcher_master",
+      "name": "Le Maître des Arcs",
+      "requirements": {
+        "fletching_level": 62,
+        "craft_bows": 350,
+        "craft_arrows": 1500,
+        "create_legendary": 12,
+        "master_achievements": 3
+      },
+      "rewards": [
+        "master_fletching_kit",
+        "master_talent_points",
+        "legendary_weapon_recipes",
+        "legendary_craftsmanship_abilities"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "first_bow",
+      "name": "Premier Arc",
+      "requirement": {
+        "craft_bows": 1
+      },
+      "rewards": [
+        "basic_bow_recipe",
+        "5_copper_coins"
+      ]
+    },
+    {
+      "id": "arrow_master",
+      "name": "Maître des Flèches",
+      "requirement": {
+        "craft_arrows": 100
+      },
+      "rewards": [
+        "arrow_specialization",
+        "200_silver_coins",
+        "arrow_damage_bonus"
+      ]
+    },
+    {
+      "id": "legendary_weapon",
+      "name": "Arme Légendaire",
+      "requirement": {
+        "legendary_weapons": 10
+      },
+      "rewards": [
+        "legendary_fletcher",
+        "7500_gold_coins",
+        "market_reputation",
+        "legendary_archer_title"
+      ]
+    }
+  ],
+  "market_integration": {
+    "quality_multipliers": {
+      "common": 1.0,
+      "fine": 1.7,
+      "superior": 2.4,
+      "exquisite": 3.8,
+      "masterwork": 7.0,
+      "legendary": 14.0,
+      "mythic": 30.0
+    },
+    "reputation_bonuses": {
+      "local_fletcher": 1.0,
+      "town_craftsman": 1.3,
+      "regional_expert": 1.6,
+      "national_master": 2.2,
+      "world_famous": 3.5
+    },
+    "supply_demand": {
+      "bows": {
+        "volatility": 0.16,
+        "trend": "high_demand"
+      },
+      "arrows": {
+        "volatility": 0.12,
+        "trend": "steady"
+      },
+      "legendary_weapons": {
+        "volatility": 0.28,
+        "trend": "rare_supply"
+      }
+    }
+  },
+  "enabled": true,
+  "id": "master_fletcher",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

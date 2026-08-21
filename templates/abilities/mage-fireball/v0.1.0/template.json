@@ -1,0 +1,54 @@
+{
+  "id": "mage_fireball",
+  "name": "Boule de Feu",
+  "description": "Lance une boule de feu magique qui inflige des dégâts",
+  "icon": "fireball_icon",
+  "category": "combat",
+  "rarity": "common",
+  "ability_type": "damage",
+  "target_type": "enemy",
+  "range": 25.0,
+  "cast_time": 1500,
+  "cooldown": 3000,
+  "resource_cost": {
+    "type": "mana",
+    "amount": 25
+  },
+  "duration": 0,
+  "effects": [
+    {
+      "effect_type": "damage",
+      "damage_type": "fire",
+      "value": 45,
+      "scaling": {
+        "intelligence": 0.8,
+        "level": 0.2
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fire_cast",
+    "projectile_effect": "fireball_projectile",
+    "impact_effect": "fire_explosion"
+  },
+  "sound_effects": {
+    "cast_sound": "fire_cast_whoosh",
+    "impact_sound": "fire_explosion"
+  },
+  "requirements": {
+    "level": 1,
+    "class": "mage",
+    "skills": [
+      "fire_magic"
+    ]
+  },
+  "upgrades": {
+    "empowered_fireball": {
+      "unlock_level": 10,
+      "description": "Augmente les dégâts de 25%",
+      "damage_bonus": 25
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

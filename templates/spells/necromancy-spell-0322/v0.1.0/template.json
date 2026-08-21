@@ -1,0 +1,79 @@
+{
+  "id": "necromancy_spell_0322",
+  "name": "Necromancy Spell 0322",
+  "description": "Frappe puissante qui brise la chair et l'âme, infligeant des dégâts massifs aux cibles de givre",
+  "icon": "necromancy_spell_0322_icon",
+  "school": "necromancy",
+  "rarity": "rare",
+  "spell_type": "frost_cleaving_attack",
+  "target_type": "single_enemy",
+  "range": 8.0,
+  "cast_time": 1800,
+  "cooldown": 6000,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 400,
+    "damage_type": "frost_cleaving",
+    "scaling": {
+      "rune_power": 1.5,
+      "frost_mastery": 1.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "frost_killing_machine",
+      "value": 400,
+      "duration": 0,
+      "tick_rate": 0,
+      "cleaving_damage": 400,
+      "runic_burst_damage": 200,
+      "frost_fever_proc": 0.8,
+      "bone_shield_charge": 10,
+      "obliterate_mastery_boost": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "frost_scythe_empower",
+    "strike_effect": "icy_scythe_cleaving",
+    "damage_effect": "frozen_blood_shattering",
+    "mastery_effect": "killing_machine_runes"
+  },
+  "sound_effects": {
+    "cast_sound": "frost_weapon_honing_sharp",
+    "strike_sound": "icy_cleaving_blow_crunch",
+    "damage_sound": "frozen_blood_crystal_shatter",
+    "mastery_sound": "killing_machine_rune_activated"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "frost_combat",
+      "cleaving_strikes"
+    ],
+    "classes": [
+      "death_knight",
+      "frost_reaper"
+    ],
+    "specializations": [
+      "obliterator"
+    ]
+  },
+  "upgrades": {
+    "runic_strikes": {
+      "unlock_level": 30,
+      "description": "L'Necromancy Spell 0322 génère de la puissance runique supplémentaire et améliore les procs",
+      "runic_burst_increase": 100,
+      "killing_machine_duration": 8000,
+      "bone_shield_charge_bonus": 5
+    },
+    "frozen_heart": {
+      "unlock_level": 40,
+      "description": "L'Necromancy Spell 0322 peut glacer le cœur de la victime, l'immobilisant",
+      "heart_freeze_chance": 0.3,
+      "frozen_heart_stun": 5000,
+      "damage_bonus_vs_frozen": 100
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

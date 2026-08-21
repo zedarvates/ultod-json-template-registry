@@ -1,0 +1,78 @@
+{
+  "id": "marksmanship_spell_0686",
+  "name": "Marksmanship Spell 0686",
+  "description": "Marque la cible pour faciliter sa poursuite et augmenter les dégâts du chasseur",
+  "icon": "marksmanship_spell_0686_icon",
+  "school": "marksmanship",
+  "rarity": "common",
+  "spell_type": "target_marking_tracking",
+  "target_type": "single_enemy",
+  "range": 45.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "marking_debuff_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "marksmanship_spell_0686_target_mark",
+      "value": 100,
+      "duration": 60000,
+      "tick_rate": 0,
+      "mark_damage_amplification": 0.15,
+      "perfect_tracking_guarantee": true,
+      "attack_speed_reduction": 0.1,
+      "marked_target_highlight": true,
+      "beast_lover_factional_bonus": 20,
+      "disappearing_prevention": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "crosshair_aim_marking_target_rune",
+    "mark_effect": "glowing_marksmanship_spell_0686_target_highlight",
+    "damage_effect": "marked_damage_energy_burst_increase",
+    "persist_effect": "constant_tracking_glow_mark_remain"
+  },
+  "sound_effects": {
+    "cast_effect": "bow_twang_mark_arrow_sighted_target",
+    "mark_effect": "marksmanship_spell_0686_whistle_mark_locked_engaged",
+    "damage_effect": "marked_damage_impact_heightened_hits",
+    "persist_effect": "constant_tracking_mark_tick_following"
+  },
+  "requirements": {
+    "level": 4,
+    "skills": [
+      "marksmanship",
+      "targeting"
+    ],
+    "classes": [
+      "marksmanship_spell_0686",
+      "predator"
+    ],
+    "specializations": [
+      "mark_target_expert"
+    ]
+  },
+  "upgrades": {
+    "improved_hunter_mark": {
+      "unlock_level": 14,
+      "description": "La Marksmanship Spell 0686 devient améliorée avec des effets secondaires bénéfiques",
+      "mark_damage_bonus_increase": 0.25,
+      "enemy_defense_decrease": 0.15,
+      "haste_aura_for_allies": 10,
+      "marked_target_focus_bonus": 0.2
+    },
+    "legendary_hunter_mark": {
+      "unlock_level": 24,
+      "description": "La Marksmanship Spell 0686 atteint la légende, permettant une connexion mystique avec la cible",
+      "real_world_distance_tracking": true,
+      "soul_link_created": true,
+      "death_prediction_ability": true,
+      "teleportation_to_marked_target": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

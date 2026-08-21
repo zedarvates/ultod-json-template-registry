@@ -1,0 +1,66 @@
+{
+  "id": "conjuration_spell_0405",
+  "name": "Conjuration Spell 0405",
+  "description": "Des vignes et des branches magiques retiennent les créatures dans une zone de 20 pieds de rayon centrée sur un point dans la portée",
+  "icon": "conjuration_spell_0405_icon",
+  "school": "conjuration",
+  "rarity": "common",
+  "spell_type": "area_control",
+  "target_type": "area",
+  "range": 90.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 15,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "nature"
+  },
+  "effects": [
+    {
+      "effect_type": "root_conjuration_spell_0405",
+      "value": 0,
+      "duration": 60000,
+      "tick_rate": 0,
+      "aoe_radius": 6.0,
+      "strength_save": true,
+      "save_dc": 13,
+      "movement_reduction": 100
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "nature_summon",
+    "ground_effect": "vine_growth",
+    "target_effect": "root_bind"
+  },
+  "sound_effects": {
+    "cast_sound": "nature_whisper",
+    "entangle_sound": "vine_crack",
+    "release_sound": "branch_snap"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "nature_magic"
+    ],
+    "classes": [
+      "druid",
+      "ranger",
+      "shaman"
+    ]
+  },
+  "upgrades": {
+    "mass_entangle": {
+      "unlock_level": 7,
+      "description": "Double le rayon d'effet et prolonge la durée",
+      "aoe_multiplier": 2.0,
+      "duration_multiplier": 1.5
+    },
+    "thorny_entangle": {
+      "unlock_level": 13,
+      "description": "Inflige 2d6 dégâts perforants par round aux créatures entravées",
+      "thorn_damage": 12
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

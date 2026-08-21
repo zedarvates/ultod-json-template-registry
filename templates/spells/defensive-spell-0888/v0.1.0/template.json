@@ -1,0 +1,72 @@
+{
+  "id": "defensive_spell_0888",
+  "name": "Defensive Spell 0888",
+  "description": "Consomme l'énergie interne pour créer une protection temporaire qui réduit drastiquement tous les dégâts subis",
+  "icon": "defensive_spell_0888_icon",
+  "school": "defensive",
+  "rarity": "rare",
+  "spell_type": "damage_reduction_brew",
+  "target_type": "self_buff",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 300000,
+  "mana_cost": 120,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "defensive_energy_shield"
+  },
+  "effects": [
+    {
+      "effect_type": "fortified_chi_protection",
+      "value": 200,
+      "duration": 20000,
+      "tick_rate": 1000,
+      "physical_damage_reduction_percent": 85,
+      "magical_damage_reduction_percent": 90,
+      "stamina_cost_per_second": 50,
+      "brew_strength_decay_over_time": 2,
+      "interrupt_immunity_during_channel": true,
+      "movement_speed_maintained": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "chi_energy_absorbed_golden_aura_building_around_body",
+    "active_effect": "golden_chi_shield_glowing_aura_damage_absorption_sparks",
+    "damage_effect": "damage_impacts_shield_chi_absorbed_conversion_glow",
+    "decay_effect": "shield_weakening_golden_aura_fading_stamina_exhaustion"
+  },
+  "sound_effects": {
+    "cast_effect": "chi_energy_absorbbing_low_hum_power_accumulating",
+    "active_effect": "golden_shield_humming_damage_impact_absorption_soft_pew",
+    "damage_effect": "damage_absorbed_conversion_ping_energy_conversion_sound",
+    "decay_effect": "shield_decay_fading_hum_exhaustion_breathing_heavy"
+  },
+  "requirements": {
+    "level": 35,
+    "skills": [
+      "chi_control",
+      "defensive_techniques",
+      "energy_absorption"
+    ],
+    "classes": [
+      "monk",
+      "brewmaster",
+      "defensive_warrior"
+    ],
+    "specializations": [
+      "brewing_specialist"
+    ]
+  },
+  "upgrades": {
+    "greater_fortifying_brew": {
+      "unlock_level": 45,
+      "description": "Le Defensive Spell 0888 devient plus durable avec une réduction des dégâts accrue",
+      "damage_reduction_increase_percent": 95,
+      "duration_extension_percent": 50,
+      "stamina_cost_reduction_percent": 30,
+      "interrupt_immunity_permanent": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

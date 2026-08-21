@@ -1,0 +1,63 @@
+{
+  "id": "esprit_spell_1218",
+  "name": "Esprit Spell 1218",
+  "description": "Invoque l'esprit du esprit_spell_1218, augmentant les statistiques de combat",
+  "icon": "esprit_spell_1218_icon",
+  "school": "esprit",
+  "rarity": "uncommon",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 2000,
+  "cooldown": 60000,
+  "mana_cost": 20,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "attack_power_buff",
+      "value": 50,
+      "duration": 30000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "armor_buff",
+      "value": 30,
+      "duration": 30000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "spirit_aura",
+    "projectile_effect": "none",
+    "impact_effect": "spirit_boost",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "esprit_spell_1218_chant",
+    "impact_sound": "spirit_awake"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "enhanced_spirit": {
+      "unlock_level": 20,
+      "description": "Prolonge la durée de l'effet de 50%",
+      "duration_bonus": 15000
+    },
+    "raging_bushido": {
+      "unlock_level": 35,
+      "description": "Augmente l'effet sur la puissance d'attaque de 20%",
+      "attack_power_bonus": 10
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "monster_spell_spell_1008",
+  "name": "Monster Spell Spell 1008",
+  "description": "Description pour Monster Spell Spell 1008",
+  "icon": "monster_spell_spell_1008_icon",
+  "school": "monster_spell",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 6.0,
+  "cast_time": 300,
+  "cooldown": 1000,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 24,
+    "damage_type": "poison"
+  },
+  "effects": [
+    {
+      "effect_type": "poison_damage",
+      "value": 24,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "taint_aura",
+    "projectile_effect": "paralysis_wave",
+    "impact_effect": "stun_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "gurgle",
+    "impact_sound": "freeze"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "ooze_magic"
+    ],
+    "classes": [
+      "ooze"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

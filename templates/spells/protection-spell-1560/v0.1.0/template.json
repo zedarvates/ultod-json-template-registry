@@ -1,0 +1,72 @@
+{
+  "id": "protection_spell_1560",
+  "name": "Protection Spell 1560",
+  "description": "Augmente les chances de bloquer les attaques et réduit les dégâts bloqués",
+  "icon": "protection_spell_1560_icon",
+  "school": "protection",
+  "rarity": "common",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 60000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.0,
+      "rage": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "block_chance_buff",
+      "value": 1.0,
+      "duration": 10000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "damage_reduction_buff",
+      "value": 0.3,
+      "duration": 10000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "protection_spell_1560_raise",
+    "projectile_effect": "none",
+    "impact_effect": "protection_spell_1560_barrier",
+    "trail_effect": "protective_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "protection_spell_1560_raise",
+    "impact_sound": "none"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "protection"
+    ]
+  },
+  "upgrades": {
+    "improved_shield_block": {
+      "unlock_level": 20,
+      "description": "Augmente la réduction des dégâts de Protection Spell 1560 de 20%",
+      "damage_reduction_bonus": 0.2
+    },
+    "shield_block_mastery": {
+      "unlock_level": 30,
+      "description": "Protection Spell 1560 dure plus longtemps",
+      "duration_extension": 5000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

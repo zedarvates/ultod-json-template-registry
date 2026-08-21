@@ -1,0 +1,72 @@
+{
+  "id": "armes_spell_1548",
+  "name": "Armes Spell 1548",
+  "description": "Inflige des dégâts et réduit considérablement la vitesse de mouvement de la cible",
+  "icon": "armes_spell_1548_icon",
+  "school": "armes",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 60,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.5,
+      "rage": 0.2
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 60,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "movement_speed_debuff",
+      "value": 0.5,
+      "duration": 15000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "leg_sweep",
+    "projectile_effect": "none",
+    "impact_effect": "leg_wound",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "leg_sweep",
+    "impact_sound": "flesh_cut"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "arms"
+    ]
+  },
+  "upgrades": {
+    "improved_hamstring": {
+      "unlock_level": 16,
+      "description": "Augmente la réduction de vitesse de mouvement de Armes Spell 1548 de 20%",
+      "speed_reduction_bonus": 0.2
+    },
+    "hamstring_mastery": {
+      "unlock_level": 26,
+      "description": "Armes Spell 1548 dure plus longtemps",
+      "duration_extension": 5000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

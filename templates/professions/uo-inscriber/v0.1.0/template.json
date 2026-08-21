@@ -1,0 +1,339 @@
+{
+  "profession": "uo_inscriber",
+  "display_name": "Master Scribe (adapted_reference)",
+  "description": "Keeper of forbidden knowledge and arcane secrets, skilled in the ancient art of inscribing magical runes and scrolls that shape the very fabric of Sosaria",
+  "icon_path": "icons/professions/uo_inscriber.png",
+  "category": "uo_crafting",
+  "is_active": true,
+  "uo_skill_system": {
+    "base_skill": "Inscription",
+    "max_skill": 120.0,
+    "skill_gain_rate": 0.3,
+    "exceptional_threshold": 95.0,
+    "gm_threshold": 110.0,
+    "requires_magery": 80.0
+  },
+  "uo_magic_circle": {
+    "circle_1": [
+      "Reactive Armor",
+      "Clumsy",
+      "Create Food",
+      "Feeblemind",
+      "Heal",
+      "Magic Arrow",
+      "Night Sight",
+      "Weaken"
+    ],
+    "circle_2": [
+      "Agility",
+      "Cunning",
+      "Cure",
+      "Harm",
+      "Magic Trap",
+      "Magic Untrap",
+      "Protection",
+      "Strength"
+    ],
+    "circle_8": [
+      "Air Elemental",
+      "Earth Elemental",
+      "Fire Elemental",
+      "Water Elemental",
+      "Energy Vortex",
+      "Summon Daemon",
+      "Invisibility",
+      "Mark",
+      "Paralyze"
+    ],
+    "legendary": [
+      "Exodus",
+      "Glimmer",
+      "Jinx",
+      "Mystic",
+      "Raptor",
+      "Siege",
+      "Slaughter",
+      "Talon"
+    ]
+  },
+  "recipes": [
+    {
+      "id": "greater_heal_scroll",
+      "name": "Greater Heal Scroll",
+      "description": "A scroll of healing magic that mends grievous wounds of allies",
+      "profession": "uo_inscriber",
+      "difficulty": 75.0,
+      "skill_required": 65.0,
+      "experience_gain": 80.0,
+      "mana_cost": 11,
+      "casting_time": 1500,
+      "materials": [
+        {
+          "type": "blank_scroll",
+          "quantity": 1
+        },
+        {
+          "type": "black_pearl",
+          "quantity": 3
+        },
+        {
+          "type": "ginseng",
+          "quantity": 3
+        },
+        {
+          "type": "sulfurous_ash",
+          "quantity": 2
+        }
+      ],
+      "output": {
+        "item": "greater_heal_scroll",
+        "charges": 1,
+        "circle": 4,
+        "power_words": "Vas Mani",
+        "cast_delay": 2300,
+        "recovery_delay": 100
+      },
+      "magical_properties": {
+        "damage_type": "healing",
+        "base_healing": "11-17",
+        "mana_consumption": 11,
+        "required_magery": 46
+      }
+    },
+    {
+      "id": "nyx_scroll",
+      "name": "Scroll of Nyx's Embrace",
+      "description": "Forbidden scroll of shadow magic, said to be scribed by Nyx herself during the Time of Legends",
+      "profession": "uo_inscriber",
+      "difficulty": 120.0,
+      "skill_required": 115.0,
+      "experience_gain": 500.0,
+      "mana_cost": 50,
+      "casting_time": 3000,
+      "materials": [
+        {
+          "type": "ancient_scroll",
+          "rarity": "legendary",
+          "quantity": 1
+        },
+        {
+          "type": "nyx_crystal",
+          "quantity": 10
+        },
+        {
+          "type": "blood_of_ancient",
+          "quantity": 5
+        },
+        {
+          "type": "forbidden_ink",
+          "quantity": 3
+        },
+        {
+          "type": "time_essence",
+          "quantity": 2
+        }
+      ],
+      "output": {
+        "item": "nyx_embrace_scroll",
+        "charges": 3,
+        "circle": 8,
+        "power_words": "Kal Ort Por",
+        "legendary_rarity": true
+      },
+      "magical_properties": {
+        "damage_type": [
+          "necrotic",
+          "shadow"
+        ],
+        "base_damage": "23-35",
+        "area_effect": true,
+        "duration_seconds": 120,
+        "curse_effect": "life_drain",
+        "required_magery": 110
+      },
+      "legendary_requirements": {
+        "skill_gm_inscriber": true,
+        "skill_gm_magery": true,
+        "skill_90_alchemy": true,
+        "moon_phase": "new_moon",
+        "location": "abyss_entrance"
+      }
+    }
+  ],
+  "uo_spell_system": {
+    "scroll_charges": {
+      "novice_scroll": 5,
+      "apprentice_scroll": 8,
+      "journeyman_scroll": 10,
+      "expert_scroll": 12,
+      "adept_scroll": 15,
+      "master_scroll": 20
+    },
+    "scribing_modifiers": {
+      "intelligence": 0.5,
+      "dexterity": 0.3,
+      "focus_skill": 0.7,
+      "mana_crystal_bonuses": [
+        "increase_charges",
+        "reduce_casting_time",
+        "increase_damage"
+      ]
+    },
+    "failed_scribing_results": {
+      "complete_failure": {
+        "chance": 15,
+        "result": "destroy_scroll_and_materials"
+      },
+      "partial_failure": {
+        "chance": 35,
+        "result": "scroll_with_reduced_charges"
+      },
+      "quality_loss": {
+        "chance": 30,
+        "result": "scroll_with_decreased_effectiveness"
+      }
+    }
+  },
+  "uo_rune_magic": {
+    "gate_travel_runes": {
+      "recall_rune_cost": {
+        "blank_rune": 1,
+        "black_pearl": 2,
+        "blood_moss": 2,
+        "mandrake_root": 1
+      },
+      "gate_travel_rune_cost": {
+        "blank_rune": 1,
+        "black_pearl": 10,
+        "mandrake_root": 5,
+        "sulfurous_ash": 5
+      }
+    },
+    "rune_marking_requirements": {
+      "skill_minimum": 50.0,
+      "mana_minimum": 25,
+      "cooldown_minutes": 30
+    }
+  },
+  "uo_scroll_writing": {
+    "ink_types": {
+      "regular_ink": {
+        "charges_multiplier": 1.0,
+        "stability": 0.8,
+        "magical_power": 0.9
+      },
+      "exceptional_ink": {
+        "charges_multiplier": 1.5,
+        "stability": 1.2,
+        "magical_power": 1.1
+      },
+      "legendary_ink": {
+        "charges_multiplier": 2.5,
+        "stability": 1.8,
+        "magical_power": 1.4
+      }
+    },
+    "paper_quality": {
+      "regular_paper": 1.0,
+      "parchment": 1.2,
+      "vellum": 1.4,
+      "ancient_parchment": 1.8
+    }
+  },
+  "uo_spell_libraries": {
+    "magery_library": {
+      "max_spell_circle": 8,
+      "scroll_types": [
+        "single_charge",
+        "multi_charge",
+        "exceptional"
+      ],
+      "special_abilities": [
+        "scribe_scroll",
+        "enchant_item",
+        "identify_item"
+      ]
+    },
+    "necromancy_library": {
+      "requires_necromancy_scroll": true,
+      "special_spells": [
+        "animate_dead",
+        "summon_familiar",
+        "curse_weapon"
+      ],
+      "forbidden_knowledge": {
+        "skill_required": 90.0,
+        "alignment_penalty": "good_alignment"
+      }
+    },
+    "mysticism_library": {
+      "focus_stones_required": true,
+      "special_spells": [
+        "nether_bolt",
+        "eagle_strike",
+        "spell_warding"
+      ],
+      "enhanced_casting": {
+        "accuracy_bonus": 15,
+        "damage_bonus": 10
+      }
+    }
+  },
+  "uo_magical_enchantments": {
+    "runic_tools": {
+      "rune_of_power": {
+        "damage_modifier": "15-25%",
+        "durability_cost": 2
+      },
+      "rune_of_protection": {
+        "resistance_modifier": "5-15%",
+        "durability_cost": 1
+      },
+      "rune_of_accuracy": {
+        "hit_chance_modifier": "5-15%",
+        "durability_cost": 2
+      }
+    },
+    "tome_enchantments": {
+      "tome_of_lost_knowledge": [
+        "Skill Increase",
+        "Faster Casting",
+        "Lower Reagent Cost"
+      ],
+      "tome_of_enchantment": [
+        "Spell Damage Increase",
+        "Mana Regeneration",
+        "Resist Spells"
+      ],
+      "tome_of_understanding": [
+        "Intelligence Bonus",
+        "Faster Cast Recovery",
+        "Spell Channeling"
+      ]
+    }
+  },
+  "specializations": [
+    "magery_specialist",
+    "necromancy_specialist",
+    "mysticism_specialist",
+    "rune_magic_specialist",
+    "scroll_mass_production",
+    "legendary_spell_scriber"
+  ],
+  "uo_mastery_bonuses": {
+    "skill_100_bonus": {
+      "charges_per_scroll": 5,
+      "scroll_power": 15,
+      "scribing_speed": 20
+    },
+    "skill_120_bonus": {
+      "legendary_scroll_success": 30,
+      "multi_charge_mastery": 50,
+      "forbidden_magic_access": true
+    }
+  },
+  "id": "uo_inscriber",
+  "name": "Uo Inscriber",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

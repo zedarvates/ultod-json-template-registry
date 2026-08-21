@@ -1,0 +1,115 @@
+{
+  "id": "ranger_silence_arrow",
+  "name": "Silence Arrow",
+  "class": "Ranger",
+  "type_principal": "physical_attack",
+  "sous_types": [
+    "debuff",
+    "silence"
+  ],
+  "description": "Fires an arrow that silences the target, preventing spell casting",
+  "icon": "silence_arrow_icon",
+  "base_damage": 1845,
+  "damage_multiplier": 1.0,
+  "critical_chance": 0.05,
+  "critical_multiplier": 2.0,
+  "super_armor_break": 10,
+  "resource_cost": {
+    "mana": 200
+  },
+  "cast_time": 0,
+  "cooldown": 84,
+  "range": 20,
+  "targeting": {
+    "type_cible": "enemy",
+    "max_cibles": 1,
+    "zone": {
+      "shape": "single"
+    },
+    "conditions_ciblage": [
+      "line_of_sight"
+    ]
+  },
+  "effects": [
+    {
+      "type": "direct_damage",
+      "damage_type": "physical",
+      "value": 1845,
+      "scaling": {
+        "attack_power": 1.0
+      },
+      "can_crit": true
+    },
+    {
+      "type": "silence",
+      "duration": 5,
+      "value": 100
+    }
+  ],
+  "specializations": [
+    {
+      "id": "extended_silence",
+      "name": "Extended Silence",
+      "description": "Increases silence duration",
+      "conditions": {
+        "level": 15
+      },
+      "modifications": {
+        "effects": [
+          {
+            "operation": "modify",
+            "effect": {
+              "type": "silence",
+              "duration": 7
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "mana_drain",
+      "name": "Mana Drain",
+      "description": "Drains mana from silenced targets",
+      "conditions": {
+        "level": 30
+      },
+      "modifications": {
+        "effects": [
+          {
+            "operation": "add",
+            "effect": {
+              "type": "debuff",
+              "value": 150,
+              "duration": 5,
+              "tick_interval": 1,
+              "damage_type": "pure"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ranger_cast_glow",
+    "projectile_effect": "silence_arrow_projectile",
+    "impact_effect": "silence_burst",
+    "buff_effect": "silence_debuff_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "bow_draw_silence",
+    "impact_sound": "silence_impact"
+  },
+  "balancing": {
+    "pvp_multipliers": {
+      "damage": 0.95,
+      "cooldown": 1.0
+    },
+    "pve_multipliers": {
+      "damage": 1.0,
+      "cooldown": 1.0
+    }
+  },
+  "version": "0.1.0",
+  "last_updated": "2025-11-21T14:16:00Z",
+  "template_type": "skill"
+}

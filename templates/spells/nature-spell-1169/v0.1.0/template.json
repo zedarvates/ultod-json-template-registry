@@ -1,0 +1,81 @@
+{
+  "id": "nature_spell_1169",
+  "name": "Nature Spell 1169",
+  "description": "Active des Nature Spell 1169 pour augmenter la résistance",
+  "icon": "nature_spell_1169_icon",
+  "school": "nature",
+  "rarity": "rare",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 120000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "physical",
+    "scaling": {
+      "vitality": 0.0,
+      "wisdom": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage_reduction",
+      "value": 0.25,
+      "duration": 45000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "health_regen",
+      "value": 20,
+      "duration": 45000,
+      "tick_rate": 2000,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "stealth",
+      "value": 0.5,
+      "duration": 45000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "stealth_type": "natural"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "nature_spell_1169_aura",
+    "damage_reduction_effect": "natural_armor",
+    "stealth_effect": "camouflage"
+  },
+  "sound_effects": {
+    "cast_sound": "wild_nature_spell_1169_call",
+    "damage_reduction_sound": "natural_protection",
+    "stealth_sound": "rustling_bushes"
+  },
+  "requirements": {
+    "level": 30,
+    "skills": [],
+    "classes": [
+      "ranger",
+      "hunter"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_survival_instincts": {
+      "unlock_level": 40,
+      "description": "Nature Spell 1169 réduit plus les dégâts et soigne plus",
+      "damage_reduction_bonus": 0.1,
+      "health_regen_bonus": 10
+    },
+    "survival_instincts_mastery": {
+      "unlock_level": 50,
+      "description": "Nature Spell 1169 peut protéger les alliés proches",
+      "area_protection": true,
+      "resistance_bonus": 0.1
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "restoration_spell_0294",
+  "name": "Restoration Spell 0294",
+  "description": "Ramène un allié défunt à la vie grâce au pouvoir divin",
+  "icon": "restoration_spell_0294_icon",
+  "school": "restoration",
+  "rarity": "epic",
+  "spell_type": "restoration_spell_0294_spell",
+  "target_type": "single_ally_corpse",
+  "range": 10.0,
+  "cast_time": 8000,
+  "cooldown": 300000,
+  "mana_cost": 200,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "life_restoration"
+  },
+  "effects": [
+    {
+      "effect_type": "divine_revive",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "resurrection_success_rate": 0.85,
+      "revive_health_percent": 25,
+      "revive_energy_percent": 10,
+      "death_time_limit_minutes": 10,
+      "fragile_state_duration": 30000,
+      "divine_blessing": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "healed_celestial_beam",
+    "revive_effect": "soul_rising_golden_spirals",
+    "restore_effect": "body_reconstruction_light",
+    "bless_effect": "divine_protection_seal"
+  },
+  "sound_effects": {
+    "cast_sound": "grand_restoration_spell_0294_chorus",
+    "revive_sound": "life_force_rising_harmonies",
+    "restore_sound": "body_knitting_sounds",
+    "bless_sound": "divine_protection_chime"
+  },
+  "requirements": {
+    "level": 30,
+    "skills": [
+      "divine_magic",
+      "restoration_spell_0294"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "lifebringer"
+    ]
+  },
+  "upgrades": {
+    "true_resurrection": {
+      "unlock_level": 40,
+      "description": "Restaure complètement l'allié sans états fragiles",
+      "no_fragile_state": true,
+      "full_health_restore": true,
+      "full_energy_restore": true,
+      "success_rate_bonus": 0.1
+    },
+    "mass_resurrection": {
+      "unlock_level": 50,
+      "description": "Peut ressusciter plusieurs alliés à la fois",
+      "max_targets": 5,
+      "mass_resurrection_range": 25.0,
+      "collective_divine_blessing": true
+    },
+    "divine_judgment": {
+      "unlock_level": 60,
+      "description": "Peut ramener à la vie même les ennemis pour le jugement divin",
+      "reverse_logicable": true,
+      "judgment_period": 10000,
+      "divine_audience": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

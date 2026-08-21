@@ -1,0 +1,81 @@
+{
+  "id": "holy_spell_1043",
+  "name": "Holy Spell 1043",
+  "description": "Marque un ennemi comme cible sacrée, augmentant les dégâts contre lui",
+  "icon": "holy_spell_1043_icon",
+  "school": "holy",
+  "rarity": "rare",
+  "spell_type": "debuff",
+  "target_type": "single_holy_spell_1043",
+  "range": 20.0,
+  "cast_time": 1500,
+  "cooldown": 300000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "holy"
+  },
+  "effects": [
+    {
+      "effect_type": "damage_taken_modifier",
+      "value": 25,
+      "duration": 10000,
+      "tick_rate": 0,
+      "damage_types": [
+        "all"
+      ],
+      "scaling": {
+        "wisdom": 0.6,
+        "strength": 0.4
+      }
+    },
+    {
+      "effect_type": "holy_vulnerability",
+      "value": 50,
+      "duration": 10000,
+      "tick_rate": 0
+    },
+    {
+      "effect_type": "visual_debuff",
+      "value": 0,
+      "duration": 10000,
+      "tick_rate": 0,
+      "effect_name": "marked_target"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_marking",
+    "debuff_effect": "target_glow_red",
+    "expire_effect": "mark_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_judgment",
+    "debuff_sound": "target_locked",
+    "expire_sound": "mark_lifted"
+  },
+  "requirements": {
+    "level": 15,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "paladin"
+    ]
+  },
+  "upgrades": {
+    "improved_enemy_of_one": {
+      "unlock_level": 25,
+      "description": "Augmente les malus d'Holy Spell 1043",
+      "damage_modifier_bonus": 15,
+      "duration_bonus": 5000
+    },
+    "divine_judgment": {
+      "unlock_level": 35,
+      "description": "Holy Spell 1043 réduit la résistance aux sorts sacrés",
+      "holy_resistance_reduction": 30,
+      "aoe_mark": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

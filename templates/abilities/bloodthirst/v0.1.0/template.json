@@ -1,0 +1,25 @@
+{
+  "id": "bloodthirst",
+  "name": "Sanguinaire",
+  "description": "Une attaque instantanée qui inflige des dégâts basés sur votre puissance d'attaque et vous rend un peu de vie.",
+  "type": "instant",
+  "resource_cost": 30,
+  "resource_type": "rage",
+  "cooldown": 6.0,
+  "range": 5.0,
+  "effects": [
+    {
+      "type": "damage",
+      "value": 100.0,
+      "scaling": "attack_power",
+      "damage_type": "physical"
+    },
+    {
+      "type": "heal",
+      "value": 0.01,
+      "scaling": "max_health"
+    }
+  ],
+  "template_type": "ability",
+  "version": "0.1.0"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "paladin",
+  "name": "Paladin",
+  "description": "A holy warrior blessed with divine power, combining martial skill with sacred magic",
+  "color": "F58CBA",
+  "primary_resource": "mana",
+  "base_stats": {
+    "strength": 18,
+    "agility": 10,
+    "intelligence": 12,
+    "vitality": 16,
+    "wisdom": 16,
+    "charisma": 18
+  },
+  "specializations": [
+    "holy_paladin",
+    "protection_paladin",
+    "retribution"
+  ],
+  "starting_skills": [
+    {
+      "id": 2001,
+      "name": "Seal of Righteousness",
+      "description": "Fills the Paladin with holy power",
+      "cooldown": 0,
+      "mana_cost": 210,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 2002,
+      "name": "Judgement",
+      "description": "Unleashes the energy of a Seal upon an enemy",
+      "cooldown": 10000,
+      "mana_cost": 177,
+      "range": 10.0,
+      "cast_time": 0,
+      "learned_at_level": 3,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 20001,
+            "name": "Divine Strength",
+            "description": "Increases strength by 5%",
+            "max_rank": 5,
+            "icon_path": "talents/paladin/divine_strength.png"
+          },
+          {
+            "id": 20002,
+            "name": "Holy Power",
+            "description": "Increases holy spell damage by 10%",
+            "max_rank": 3,
+            "icon_path": "talents/paladin/holy_power.png"
+          },
+          {
+            "id": 20003,
+            "name": "Spiritual Focus",
+            "description": "Reduces mana cost of seals by 5%",
+            "max_rank": 3,
+            "icon_path": "talents/paladin/spiritual_focus.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100000,
+  "health_modifier": 1.15,
+  "damage_modifier": 1.0,
+  "armor_modifier": 1.2,
+  "template_type": "class",
+  "version": "0.1.0"
+}

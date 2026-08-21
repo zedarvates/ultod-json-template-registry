@@ -1,0 +1,41 @@
+{
+  "school": "spiritualism",
+  "rarity": "legendary",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 10000,
+  "cooldown": 300000,
+  "mana_cost": 300,
+  "visual_effects": {
+    "cast_effect": "spiritualism_spell_1399_cast",
+    "projectile_effect": "none",
+    "impact_effect": "spiritualism_spell_1399_effect",
+    "trail_effect": "spiritualism_spell_1399_light_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "spiritualism_spell_1399_cast_sound",
+    "impact_sound": "spiritualism_spell_1399_sound"
+  },
+  "requirements": {
+    "level": 50
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "spiritualism_spell_1399",
+  "name": "Spiritualism Spell 1399",
+  "description": "Calls upon spiritualism_spell_1399 spirits to resurrect you at full health and grant spiritualism_spell_1399 blessings",
+  "icon": "spiritualism_spell_1399_icon",
+  "spell_type": "adapted_referencete",
+  "effects": {
+    "resurrection": true,
+    "full_heal": true,
+    "divine_blessings": {
+      "damage_multiplier": 2.0,
+      "resistance_all": 0.5,
+      "mana_regeneration": 10
+    },
+    "duration": 30000,
+    "global_cooldown_reduction": 0.5
+  },
+  "template_type": "spell"
+}

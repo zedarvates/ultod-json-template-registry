@@ -1,0 +1,64 @@
+{
+  "id": "transmutation_spell_1161",
+  "name": "Transmutation Spell 1161",
+  "description": "Vous triplez la distance de Transmutation Spell 1161 d'une créature",
+  "icon": "transmutation_spell_1161_icon",
+  "school": "transmutation",
+  "rarity": "common",
+  "spell_type": "buff",
+  "target_type": "single_ally",
+  "range": 5.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 15,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "transmutation_spell_1161_boost",
+      "value": 3,
+      "duration": 60000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "jump_multiplier": 3.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "energy_burst",
+    "buff_effect": "leaping_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "muscle_twitch",
+    "buff_sound": "power_up"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "athletics",
+      "nature_magic"
+    ],
+    "classes": [
+      "ranger",
+      "druid",
+      "bard",
+      "wizard"
+    ]
+  },
+  "upgrades": {
+    "greater_jump": {
+      "unlock_level": 3,
+      "description": "Multiplie la distance de Transmutation Spell 1161 par 5",
+      "jump_multiplier": 5.0
+    },
+    "group_jump": {
+      "unlock_level": 7,
+      "description": "Affecte tous les alliés dans une zone",
+      "area_buff": true,
+      "radius": 10.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

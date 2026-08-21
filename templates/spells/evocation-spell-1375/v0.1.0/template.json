@@ -1,0 +1,50 @@
+{
+  "id": "evocation_spell_1375",
+  "name": "Evocation Spell 1375",
+  "description": "Une Evocation Spell 1375 frappe plusieurs créatures",
+  "icon": "evocation_spell_1375_icon",
+  "school": "evocation",
+  "rarity": "epic",
+  "spell_type": "area_damage",
+  "target_type": "evocation_spell_1375",
+  "range": 45.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 80,
+    "damage_type": "lightning",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "evocation_spell_1375_damage",
+      "value": 80,
+      "duration": 0,
+      "tick_rate": 0,
+      "dexterity_save": true,
+      "save_dc": 15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "lightning_evocation_spell_1375",
+    "projectile_effect": "electric_arc"
+  },
+  "sound_effects": {
+    "cast_sound": "thunder",
+    "impact_sound": "zap_evocation_spell_1375"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "energy_immunity",
+  "name": "Immunité Énergétique",
+  "description": "Résistance totale à tous les types d'énergie magique et physique",
+  "icon": "energy_immunity_icon",
+  "category": "defensive",
+  "rarity": "legendary",
+  "stat_modifiers": {
+    "energy_resistance": 1.0,
+    "magic_resistance": 0.8,
+    "physical_resistance": 0.5
+  },
+  "passive_effects": [
+    {
+      "id": "energy_nullification",
+      "name": "Neutralisation Énergétique",
+      "description": "Absorbe et dissipe toute forme d'énergie dirigée contre soi",
+      "modifier_type": "energy_immunity",
+      "value": 100.0
+    },
+    {
+      "id": "feedback_shield",
+      "name": "Bouclier de Rétroaction",
+      "description": "Renvoie une partie des attaques énergétiques à l'attaquant",
+      "modifier_type": "energy_reflection",
+      "value": 50.0
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "energy_discharge",
+      "name": "Décharge Énergétique",
+      "description": "Libère toute l'énergie absorbée en une explosion massive",
+      "cooldown": 300000,
+      "duration": 0,
+      "effects": {
+        "damage_multiplier": 4.0,
+        "aoe_range": 20.0,
+        "energy_cost": "all_stored"
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

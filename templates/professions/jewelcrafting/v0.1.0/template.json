@@ -1,0 +1,138 @@
+{
+  "profession": "jewelcrafting",
+  "display_name": "Joaillerie",
+  "description": "Art de travailler les gemmes précieuses et de créer des bijoux magiques",
+  "icon_path": "icons/professions/jewelcrafting.png",
+  "category": "crafting",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "copper_ring",
+      "name": "Anneau de Cuivre",
+      "description": "Un anneau simple en cuivre",
+      "profession": "jewelcrafting",
+      "difficulty": 20,
+      "base_success_rate": 0.75,
+      "skill_required": 10,
+      "experience_gain": 12,
+      "exceptional_chance": 0.04,
+      "time_required_seconds": 45,
+      "components": [
+        {
+          "item_type": "copper_ingot",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "copper_ring",
+          "name": "Anneau de Cuivre",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.0,
+          "durability_modifier": 1.0
+        }
+      ],
+      "conditions": {
+        "profession_level": 1,
+        "required_tools": [
+          "jewelry_tools",
+          "polishing_cloth"
+        ],
+        "environmental_factors": [
+          "well_lit_workbench"
+        ]
+      }
+    },
+    {
+      "id": "silver_necklace",
+      "name": "Collier d'Argent",
+      "description": "Un collier élégant en argent",
+      "profession": "jewelcrafting",
+      "difficulty": 40,
+      "base_success_rate": 0.65,
+      "skill_required": 30,
+      "experience_gain": 30,
+      "exceptional_chance": 0.08,
+      "time_required_seconds": 90,
+      "components": [
+        {
+          "item_type": "silver_ingot",
+          "quantity": 2,
+          "quality_required": "good",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "chain_links",
+          "quantity": 10,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "silver_necklace",
+          "name": "Collier d'Argent",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.1,
+          "durability_modifier": 1.0
+        }
+      ]
+    },
+    {
+      "id": "diamond_ring",
+      "name": "Anneau de Diamant",
+      "description": "Un anneau orné d'un diamant étincelant",
+      "profession": "jewelcrafting",
+      "difficulty": 70,
+      "base_success_rate": 0.5,
+      "skill_required": 60,
+      "experience_gain": 60,
+      "exceptional_chance": 0.15,
+      "time_required_seconds": 180,
+      "components": [
+        {
+          "item_type": "gold_ingot",
+          "quantity": 1,
+          "quality_required": "excellent",
+          "rarity_required": "common"
+        },
+        {
+          "item_type": "diamond_gem",
+          "quantity": 1,
+          "quality_required": "excellent",
+          "rarity_required": "rare"
+        },
+        {
+          "item_type": "setting_tools",
+          "quantity": 1,
+          "quality_required": "any",
+          "rarity_required": "common"
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "diamond_ring",
+          "name": "Anneau de Diamant",
+          "min_quantity": 1,
+          "max_quantity": 1,
+          "quality_modifier": 1.3,
+          "durability_modifier": 1.0
+        }
+      ]
+    }
+  ],
+  "specializations": [
+    "ring_crafting",
+    "necklace_crafting",
+    "gem_cutting",
+    "enchanted_jewelry"
+  ],
+  "id": "jewelcrafting",
+  "name": "Jewelcrafting",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

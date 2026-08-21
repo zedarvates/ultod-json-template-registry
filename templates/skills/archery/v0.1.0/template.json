@@ -1,0 +1,425 @@
+{
+  "id": "archery",
+  "name": "Archery",
+  "description": "Master the art of bows and ranged combat, striking foes from a distance with precision",
+  "category": "combat",
+  "skill_type": "ranged_mastery",
+  "base_gain_chance": 0.4,
+  "gain_rate": 1.0,
+  "skill_cap": 100.0,
+  "real_skill_cap": 700.0,
+  "stat_dependencies": [
+    "dexterity",
+    "intelligence"
+  ],
+  "stat_multipliers": {
+    "dexterity": 0.8,
+    "intelligence": 0.2
+  },
+  "weapon_types": [
+    "bow",
+    "crossbow",
+    "longbow",
+    "shortbow",
+    "composite_bow",
+    "repeating_crossbow"
+  ],
+  "training_methods": {
+    "target_practice": {
+      "gain_multiplier": 1.1,
+      "requirements": [
+        "target",
+        "archery_range",
+        "ammunition"
+      ],
+      "description": "Practice shooting at stationary targets"
+    },
+    "hunting": {
+      "gain_multiplier": 1.3,
+      "requirements": [
+        "wildlife",
+        "bow",
+        "ammunition"
+      ],
+      "description": "Hunt animals for skill advancement"
+    },
+    "combat": {
+      "gain_multiplier": 1.0,
+      "requirements": [
+        "enemies",
+        "bow",
+        "ammunition"
+      ],
+      "description": "Engage in ranged combat with enemies"
+    },
+    "archery_ranges": {
+      "gain_multiplier": 0.9,
+      "requirements": [
+        "archery_range",
+        "targets",
+        "instructor"
+      ],
+      "description": "Train in dedicated archery facilities"
+    }
+  },
+  "special_moves": [
+    {
+      "name": "Rapid Fire",
+      "unlock_level": 40,
+      "description": "Fire multiple arrows in quick succession",
+      "effects": [
+        "multiple_shots",
+        "reduced_damage"
+      ],
+      "requirements": [
+        "stamina",
+        "ammunition"
+      ],
+      "cooldown": 6000
+    },
+    {
+      "name": "Aimed Shot",
+      "unlock_level": 55,
+      "description": "Carefully aimed shot for increased damage",
+      "effects": [
+        "increased_damage",
+        "armor_penetration"
+      ],
+      "requirements": [
+        "focus",
+        "time_to_aim"
+      ],
+      "cooldown": 8000
+    },
+    {
+      "name": "Poison Arrow",
+      "unlock_level": 50,
+      "description": "Arrow coated with poison that damages over time",
+      "effects": [
+        "damage_over_time",
+        "poison"
+      ],
+      "requirements": [
+        "poison",
+        "ammunition"
+      ],
+      "cooldown": 10000
+    },
+    {
+      "name": "Explosive Arrow",
+      "unlock_level": 75,
+      "description": "Arrow that explodes on impact",
+      "effects": [
+        "aoe_damage",
+        "knockback"
+      ],
+      "requirements": [
+        "explosive_powder",
+        "ammunition"
+      ],
+      "cooldown": 15000
+    },
+    {
+      "name": "Multishot",
+      "unlock_level": 65,
+      "description": "Fire multiple arrows at different targets",
+      "effects": [
+        "multiple_targets",
+        "reduced_damage_per_shot"
+      ],
+      "requirements": [
+        "skill_level",
+        "stamina",
+        "ammunition"
+      ],
+      "cooldown": 12000
+    },
+    {
+      "name": "Pin Down",
+      "unlock_level": 45,
+      "description": "Arrow that pins the target to the ground",
+      "effects": [
+        "root",
+        "damage"
+      ],
+      "requirements": [
+        "dexterity",
+        "skill_level"
+      ],
+      "cooldown": 9000
+    },
+    {
+      "name": "Sniper Shot",
+      "unlock_level": 80,
+      "description": "Extremely precise long-range shot",
+      "effects": [
+        "massive_damage",
+        "armor_ignore",
+        "long_range"
+      ],
+      "requirements": [
+        "focus",
+        "skill_level",
+        "time_to_aim"
+      ],
+      "cooldown": 20000
+    },
+    {
+      "name": "Rain of Arrows",
+      "unlock_level": 70,
+      "description": "Barrage of arrows falling from above",
+      "effects": [
+        "area_damage",
+        "slow"
+      ],
+      "requirements": [
+        "skill_level",
+        "stamina",
+        "ammunition"
+      ],
+      "cooldown": 18000
+    },
+    {
+      "name": "Disarming Shot",
+      "unlock_level": 60,
+      "description": "Shot aimed to disarm the target",
+      "effects": [
+        "disarm",
+        "damage"
+      ],
+      "requirements": [
+        "dexterity",
+        "skill_level"
+      ],
+      "cooldown": 11000
+    },
+    {
+      "name": "Piercing Shot",
+      "unlock_level": 85,
+      "description": "Arrow that pierces through multiple targets",
+      "effects": [
+        "pierce",
+        "damage_reduction_per_target"
+      ],
+      "requirements": [
+        "skill_level",
+        "stamina",
+        "ammunition"
+      ],
+      "cooldown": 16000
+    }
+  ],
+  "ammunition_types": {
+    "arrow": {
+      "damage_multiplier": 1.0,
+      "speed_multiplier": 1.0,
+      "special_effects": [],
+      "craftable": true,
+      "durability": 1
+    },
+    "poison_arrow": {
+      "damage_multiplier": 1.1,
+      "speed_multiplier": 0.9,
+      "special_effects": [
+        "poison"
+      ],
+      "craftable": true,
+      "durability": 1,
+      "requirements": [
+        "poison_skill",
+        "herbalism"
+      ]
+    },
+    "explosive_arrow": {
+      "damage_multiplier": 1.5,
+      "speed_multiplier": 0.8,
+      "special_effects": [
+        "explosion"
+      ],
+      "craftable": true,
+      "durability": 1,
+      "requirements": [
+        "alchemy",
+        "tinkering"
+      ]
+    },
+    "armor_piercing": {
+      "damage_multiplier": 1.2,
+      "speed_multiplier": 1.1,
+      "special_effects": [
+        "armor_ignore"
+      ],
+      "craftable": true,
+      "durability": 1,
+      "requirements": [
+        "blacksmithy",
+        "mining"
+      ]
+    }
+  },
+  "mastery_levels": {
+    "apprentice": {
+      "level": 50,
+      "requirements": {
+        "skill_level": 50
+      },
+      "bonuses": {
+        "damage_bonus": 0.1,
+        "range_bonus": 5,
+        "accuracy_bonus": 5,
+        "ammunition_efficiency": 0.05
+      },
+      "abilities": [
+        "basic_aim",
+        "quick_draw"
+      ],
+      "title": "Archer Apprentice"
+    },
+    "journeyman": {
+      "level": 70,
+      "requirements": {
+        "skill_level": 70
+      },
+      "bonuses": {
+        "damage_bonus": 0.2,
+        "range_bonus": 10,
+        "accuracy_bonus": 10,
+        "ammunition_efficiency": 0.1,
+        "critical_chance": 0.05
+      },
+      "abilities": [
+        "advanced_aim",
+        "rapid_reloading",
+        "wind_reading"
+      ],
+      "title": "Journeyman Archer"
+    },
+    "master": {
+      "level": 90,
+      "requirements": {
+        "skill_level": 90
+      },
+      "bonuses": {
+        "damage_bonus": 0.3,
+        "range_bonus": 15,
+        "accuracy_bonus": 15,
+        "ammunition_efficiency": 0.15,
+        "critical_chance": 0.1,
+        "multishot_targets": 2
+      },
+      "abilities": [
+        "master_aim",
+        "perfect_timing",
+        "environmental_awareness"
+      ],
+      "title": "Master Archer"
+    },
+    "grandmaster": {
+      "level": 100,
+      "requirements": {
+        "skill_level": 100
+      },
+      "bonuses": {
+        "damage_bonus": 0.4,
+        "range_bonus": 20,
+        "accuracy_bonus": 20,
+        "ammunition_efficiency": 0.2,
+        "critical_chance": 0.15,
+        "multishot_targets": 3,
+        "dodge_chance": 0.05,
+        "movement_speed": 0.1
+      },
+      "abilities": [
+        "grandmaster_aim",
+        "perfect_precision",
+        "unerring_shot",
+        "eagle_eye"
+      ],
+      "title": "Grandmaster Archer",
+      "unique_ability": "precision_strike"
+    }
+  },
+  "progression_bonuses": {
+    "damage_scaling": {
+      "formula": "base_damage * (1 + skill_level * 0.003)",
+      "max_multiplier": 2.5
+    },
+    "range_scaling": {
+      "formula": "base_range + skill_level * 0.5",
+      "max_bonus": 50
+    },
+    "accuracy_scaling": {
+      "formula": "base_accuracy + skill_level * 0.15",
+      "max_bonus": 30
+    },
+    "critical_scaling": {
+      "formula": "base_critical + skill_level * 0.001",
+      "max_chance": 0.2
+    }
+  },
+  "synergies": {
+    "tactics": {
+      "bonus_type": "damage",
+      "formula": "0.015 * tactics_skill_level",
+      "max_bonus": 0.4,
+      "description": "Tactics skill increases ranged damage"
+    },
+    "tracking": {
+      "bonus_type": "accuracy",
+      "formula": "0.02 * tracking_skill_level",
+      "max_bonus": 0.3,
+      "description": "Tracking skill improves accuracy against moving targets"
+    },
+    "fletching": {
+      "bonus_type": "ammunition_damage",
+      "formula": "0.025 * fletching_skill_level",
+      "max_bonus": 0.5,
+      "description": "Fletching skill improves ammunition damage"
+    }
+  },
+  "equipment_requirements": {
+    "weapon_type": "bow",
+    "minimum_quality": "normal",
+    "durability_threshold": 50,
+    "string_durability": 50,
+    "draw_strength": "variable"
+  },
+  "environmental_factors": {
+    "wind": {
+      "effect": "accuracy",
+      "formula": "wind_strength * 0.1",
+      "max_penalty": 0.3
+    },
+    "elevation": {
+      "effect": "range",
+      "formula": "elevation_bonus * 0.05",
+      "max_bonus": 0.2
+    },
+    "weather": {
+      "rain": {
+        "effect": "accuracy",
+        "penalty": 0.15
+      },
+      "fog": {
+        "effect": "range",
+        "penalty": 0.2
+      }
+    }
+  },
+  "visual_effects": {
+    "skill_activation": "bow_glow",
+    "critical_hit": "arrow_critical_flash",
+    "multishot": "multiple_arrows_trail",
+    "special_move": "archery_special_effect"
+  },
+  "sound_effects": {
+    "weapon_draw": "bow_draw",
+    "weapon_release": "bow_release",
+    "weapon_hit": "arrow_hit",
+    "critical_hit": "arrow_critical",
+    "special_move": "archery_special"
+  },
+  "version": "0.1.0",
+  "last_updated": "2025-11-12",
+  "template_type": "skill"
+}

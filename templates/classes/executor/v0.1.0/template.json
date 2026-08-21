@@ -1,0 +1,64 @@
+{
+  "id": "executor",
+  "name": "Exécuteur",
+  "description": "Exécuteur précis éliminant les cibles avec efficacité",
+  "color": "A330C9",
+  "primary_resource": "focus",
+  "base_stats": {
+    "strength": 1.1,
+    "agility": 1.4,
+    "intelligence": 1.2,
+    "vitality": 1.0,
+    "wisdom": 1.3,
+    "charisma": 0.9
+  },
+  "available_classes": [
+    "executor"
+  ],
+  "starting_skills": [
+    {
+      "id": 19001,
+      "name": "Tir de Précision",
+      "description": "Tir longue portée avec chance de coup critique élevée",
+      "cooldown": 0,
+      "mana_cost": 20,
+      "range": 40.0,
+      "cast_time": 1500,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 19002,
+      "name": "Visée Parfaite",
+      "description": "Augmente les chances de coup critique",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": true
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 0,
+        "talents": [
+          {
+            "id": 19001,
+            "name": "Maître Tireur",
+            "description": "+20% chance de coup critique à distance",
+            "max_rank": 5,
+            "icon_path": "executor_mastery"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100,
+  "health_modifier": 0.9,
+  "damage_modifier": 1.2,
+  "armor_modifier": 0.8,
+  "template_type": "class",
+  "version": "0.1.0"
+}

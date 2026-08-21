@@ -1,0 +1,80 @@
+{
+  "id": "necromancy_spell_0320",
+  "name": "Necromancy Spell 0320",
+  "description": "Un rugissement mental glacial qui interrompt instantanément les sorts ennemis et inflige des dégâts psychiques",
+  "icon": "necromancy_spell_0320_icon",
+  "school": "necromancy",
+  "rarity": "common",
+  "spell_type": "frost_interrupt",
+  "target_type": "single_enemy",
+  "range": 15.0,
+  "cast_time": 0,
+  "cooldown": 15000,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "psychic_frost_damage",
+    "scaling": {
+      "frost_power": 1.2,
+      "mental_resonance": 1.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "mental_frost_interrupt",
+      "value": 120,
+      "duration": 0,
+      "tick_rate": 0,
+      "spell_interrupt_priority": "high",
+      "interrupt_damage": 120,
+      "freezing_mental_stun": 2000,
+      "mana_drain_on_interrupt": 40,
+      "frost_weakness_applied": 10000,
+      "thought_freezing_proc": 0.2
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "frosty_mental_burst_from_mouth",
+    "interrupt_effect": "target_brain_freeze_particles",
+    "damage_effect": "necromancy_spell_0320_crystal_shattering_sounds",
+    "stun_effect": "frosty_thought_freezing_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "mental_roar_frozen_crackle",
+    "interrupt_sound": "spell_shattering_ice_break",
+    "damage_sound": "brain_freezing_pain_scream",
+    "stun_effect_sound": "thoughts_solidifying_crunch"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "frost_magic",
+      "mental_disruption"
+    ],
+    "classes": [
+      "death_knight",
+      "necromancy_spell_0320r"
+    ],
+    "specializations": [
+      "interrupt_specialist"
+    ]
+  },
+  "upgrades": {
+    "deep_freeze_mind": {
+      "unlock_level": 15,
+      "description": "L'interruption dure plus longtemps et glace définitivement les pensées",
+      "stun_duration_bonus": 1000,
+      "permanent_thought_slow": true,
+      "mana_drain_bonus": 20
+    },
+    "mind_shatter": {
+      "unlock_level": 25,
+      "description": "Les interuptions peuvent briser la concentration et annuler les buffs",
+      "concentration_shatter_chance": 0.4,
+      "random_buff_dispel": true,
+      "interrupt_damage_bonus": 60
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

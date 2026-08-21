@@ -1,0 +1,89 @@
+{
+  "id": "ranger_hunter_mark",
+  "name": "Marque du Chasseur",
+  "description": "Marque une cible pour augmenter les dégâts infligés",
+  "ability_type": "active",
+  "category": "damage",
+  "cooldown": 15000,
+  "energy_cost": 30,
+  "cast_time": 1000,
+  "range": 50.0,
+  "target_type": "enemy",
+  "duration": 20000,
+  "effects": [
+    {
+      "effect_type": "damage_increase",
+      "value": 0.3,
+      "duration": 20000,
+      "tick_rate": 0,
+      "school": "physical"
+    },
+    {
+      "effect_type": "vulnerability",
+      "value": 0.2,
+      "duration": 20000,
+      "tick_rate": 0,
+      "school": "all"
+    },
+    {
+      "effect_type": "tracking",
+      "value": 1.0,
+      "duration": 20000,
+      "tick_rate": 0,
+      "tracking_type": "enhanced"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "hunter_mark",
+    "mark_effect": "targeting_reticle",
+    "tracking_effect": "tracking_line"
+  },
+  "sound_effects": {
+    "cast_sound": "hunter_whistle",
+    "mark_sound": "targeting_beep",
+    "tracking_sound": "radar_ping"
+  },
+  "scaling": {
+    "ranger_skill": 1.4,
+    "tracking_mastery": 1.3
+  },
+  "requirements": {
+    "level": 20,
+    "abilities": [
+      "basic_archery",
+      "tracking"
+    ],
+    "class": "ranger"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "damage_increase": 0.15,
+      "vulnerability": 0.1,
+      "duration": 15000
+    },
+    "journeyman": {
+      "damage_increase": 0.2,
+      "vulnerability": 0.15,
+      "duration": 20000,
+      "range_increase": 10.0
+    },
+    "master": {
+      "damage_increase": 0.3,
+      "vulnerability": 0.2,
+      "duration": 25000,
+      "range_increase": 20.0,
+      "area_effect": true
+    },
+    "grandmaster": {
+      "damage_increase": 0.4,
+      "vulnerability": 0.25,
+      "duration": 30000,
+      "range_increase": 30.0,
+      "area_effect": true,
+      "ability_unlock": "master_hunter"
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

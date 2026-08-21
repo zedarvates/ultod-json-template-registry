@@ -1,7 +1,7 @@
 {
   "id": "fireball",
   "name": "Fireball",
-  "description": "A roaring sphere of flame hurled at a single enemy for heavy fire damage.",
+  "description": "A roaring adapted_reference of flame hurled at a single enemy for heavy fire damage.",
   "icon": "spell_fire_fireball",
   "school": "fire",
   "rarity": "common",
@@ -57,15 +57,6 @@
       "explosion_radius_increase": 2.0
     }
   },
-  "admin_controls": {
-    "enabled": true,
-    "balancing_multipliers": {
-      "damage_output": 1.0,
-      "cast_time": 1.0,
-      "cooldown": 1.0,
-      "mana_cost": 1.0
-    }
-  },
   "vr_configuration": {
     "gestures": {
       "left_pose": "open",
@@ -79,8 +70,6 @@
     }
   },
   "enabled": true,
-  "admin_only": false,
-  "debug_mode": false,
   "template_type": "spell",
   "version": "0.1.0"
 }

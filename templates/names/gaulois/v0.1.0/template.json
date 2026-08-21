@@ -1,0 +1,129 @@
+{
+  "culture": "gaulois",
+  "display_name": "Gaulois",
+  "models": {
+    "first_name_male": {
+      "names": [
+        "Vercingetorix",
+        "Brennus",
+        "Diviciacos",
+        "Ambiorix",
+        "Dumnorix",
+        "Cingetorix",
+        "Eporedorix",
+        "Vergobret",
+        "Tasgetios",
+        "Liscos"
+      ],
+      "order": 3,
+      "min_length": 5,
+      "max_length": 12
+    },
+    "first_name_female": {
+      "names": [
+        "Boudica",
+        "Cartimandua",
+        "Epona",
+        "Brigantia",
+        "Andraste",
+        "Morrigan",
+        "Rhiannon",
+        "Ceridwen",
+        "Arianwen",
+        "Gwenhwyfar"
+      ],
+      "order": 3,
+      "min_length": 4,
+      "max_length": 12
+    },
+    "first_name_neutral": {
+      "names": [
+        "Alexios",
+        "Dorian",
+        "Morgan",
+        "Robin",
+        "Taylor"
+      ],
+      "order": 2,
+      "min_length": 4,
+      "max_length": 10
+    },
+    "family_name": {
+      "names": [
+        "Biturix",
+        "Carnutios",
+        "Lutetios",
+        "Senonios",
+        "Aeduos",
+        "Arvernos",
+        "Lemovicos",
+        "Pictavos",
+        "Venetos",
+        "Redonos"
+      ],
+      "order": 2,
+      "min_length": 4,
+      "max_length": 10
+    },
+    "nickname_human": {
+      "names": [
+        "le Barbu",
+        "le Fou",
+        "le Brave",
+        "le Boiteux",
+        "Sans-Peur",
+        "le Rouge",
+        "le Sage",
+        "le Terrible",
+        "le Loyal",
+        "le Fier"
+      ],
+      "order": 2,
+      "min_length": 5,
+      "max_length": 15
+    },
+    "pet_name": {
+      "names": [
+        "Toutatis",
+        "Menhir",
+        "Choucas",
+        "Bélix",
+        "Cervos",
+        "Druidor",
+        "Galopix",
+        "Hurleur",
+        "Javelix",
+        "Korrigan"
+      ],
+      "order": 2,
+      "min_length": 3,
+      "max_length": 10
+    }
+  },
+  "templates": {
+    "full_name": [
+      "{first_name} {family_name}",
+      "{first_name} dit {nickname}"
+    ],
+    "pet_full": [
+      "{pet_name}",
+      "{pet_name} le {epithet}"
+    ]
+  },
+  "epithets": [
+    "Rapide",
+    "Loyal",
+    "Furieux",
+    "Silencieux",
+    "Sauvage",
+    "Majestueux",
+    "Féroce",
+    "Agile",
+    "Puissant",
+    "Mystérieux"
+  ],
+  "id": "gaulois",
+  "name": "Gaulois",
+  "template_type": "name",
+  "version": "0.1.0"
+}

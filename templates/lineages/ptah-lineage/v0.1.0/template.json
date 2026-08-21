@@ -1,0 +1,57 @@
+{
+  "id": "ptah_lineage",
+  "name": "Lignée de Ptah",
+  "description": "Éveil dans la lignée du dieu des artisans et des créateurs",
+  "icon": "ptah_lineage",
+  "rarity": "epic",
+  "required_level": 14,
+  "awakening_cost": {
+    "craftsmanship_energy": 170,
+    "health": 40,
+    "items": {
+      "craftsman_crystal": 1,
+      "masterwork_essence": 1,
+      "architect_relic": 2
+    }
+  },
+  "stat_bonuses": {
+    "health": 45,
+    "strength": 6,
+    "dexterity": 8,
+    "intelligence": 15,
+    "wisdom": 12,
+    "charisma": 9
+  },
+  "resistance_bonuses": {
+    "physical": 15,
+    "earth": 20,
+    "construct": 25
+  },
+  "skill_bonuses": {
+    "craftsmanship_mastery": 0.45,
+    "construction_speed": 0.4,
+    "blueprint_efficiency": 0.35
+  },
+  "awakening_bonuses": {
+    "duration_minutes": 38,
+    "stat_multipliers": {
+      "intelligence": 1.4,
+      "dexterity": 1.3,
+      "wisdom": 1.2
+    },
+    "special_effects": [
+      "master_craftsman",
+      "construction_aura",
+      "blueprint_mastery",
+      "divine_architecture"
+    ]
+  },
+  "racial_synergies": {
+    "egyptian": 1.3,
+    "craftsman": 1.4,
+    "builder": 1.3
+  },
+  "enabled": true,
+  "template_type": "lineage",
+  "version": "0.1.0"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "halfelf",
+  "name": "Half-Elf",
+  "description": "Graceful hybrids combining elven elegance with human adaptability and versatility",
+  "icon": "races/halfelf_icon.png",
+  "category": "playable",
+  "rarity": "uncommon",
+  "faction": "alliance",
+  "base_stats": {
+    "strength": 9,
+    "dexterity": 13,
+    "constitution": 9,
+    "intelligence": 12,
+    "wisdom": 11,
+    "charisma": 13,
+    "luck": 12
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 1.1,
+    "experience_rate": 1.05,
+    "social_interaction": 1.2,
+    "perception": 1.15,
+    "magic_resistance": 1.1,
+    "sleep_immunity": true
+  },
+  "available_classes": [
+    "mage",
+    "rogue",
+    "guardian",
+    "blood_seeker",
+    "warrior",
+    "paladin",
+    "ranger"
+  ],
+  "body_proportions": {
+    "average_height": 1.75,
+    "average_build": 0.95,
+    "max_height": 1.95,
+    "min_height": 1.6,
+    "max_build": 1.15,
+    "min_build": 0.75
+  },
+  "appearance_restrictions": {
+    "allowed_skin_colors": [
+      {
+        "min_r": 0.6,
+        "max_r": 0.9,
+        "min_g": 0.5,
+        "max_g": 0.8,
+        "min_b": 0.4,
+        "max_b": 0.7
+      }
+    ],
+    "allowed_hair_colors": [
+      {
+        "min_r": 0.1,
+        "max_r": 0.9,
+        "min_g": 0.1,
+        "max_g": 0.9,
+        "min_b": 0.1,
+        "max_b": 0.9
+      }
+    ]
+  },
+  "racial_traits": [
+    "halfelf_diplomacy",
+    "halfelf_multitalented",
+    "halfelf_resistance",
+    "halfelf_perception",
+    "halfelf_adaptability"
+  ],
+  "passive_bonuses": {
+    "skill_learning_rate": 1.1,
+    "social_interaction_bonus": 1.2,
+    "perception_bonus": 1.15,
+    "magic_resistance": 1.1,
+    "sleep_immunity": true
+  },
+  "starting_equipment": {
+    "weapon": "elven_bow",
+    "armor": "leather_armor",
+    "gold": 105
+  },
+  "cultural_background": {
+    "languages": [
+      "common",
+      "elven"
+    ],
+    "starting_city": "mixed_city",
+    "alignment_tendency": "neutral_good",
+    "cultural_bonuses": {
+      "diplomacy": 18,
+      "perception": 15,
+      "multitalented": 20,
+      "adaptability": 12,
+      "resistance": 10
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "race"
+}

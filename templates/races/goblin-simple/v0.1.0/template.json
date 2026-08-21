@@ -1,0 +1,25 @@
+{
+  "id": "goblin_simple",
+  "name": "Goblin",
+  "description": "Short, cunning, and exceptionally greedy tinkerers.",
+  "racial_traits": [
+    {
+      "id": "greed_instinct",
+      "name": "Greed Instinct",
+      "description": "Increases Gold Find and Critical Strike chance.",
+      "bonuses": {
+        "dexterity": 3,
+        "charisma": -2,
+        "experience_multiplier": 1.02
+      }
+    }
+  ],
+  "available_classes": [
+    "rogue",
+    "shaman",
+    "warrior"
+  ],
+  "starting_zone": "iron_mines",
+  "template_type": "race",
+  "version": "0.1.0"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "skinning",
+  "name": "Dépeçage",
+  "description": "Art de dépouiller et traiter les peaux et cuirs des créatures",
+  "icon": "skinning_icon",
+  "category": "gathering",
+  "rarity": "common",
+  "base_skill": 0,
+  "max_skill": 120,
+  "skill_gain_rate": 0.9,
+  "attributes": {
+    "primary": "dexterity",
+    "secondary": "wisdom"
+  },
+  "gathering_tools": [
+    "skinning_knife",
+    "cleaver",
+    "tanning_rack",
+    "preservation_chemicals"
+  ],
+  "abilities": [
+    {
+      "name": "dépeçage_parfait",
+      "description": "Récupère plus de matière et de meilleure qualité",
+      "unlock_level": 20,
+      "yield_bonus": 25,
+      "quality_bonus": 15
+    },
+    {
+      "name": "traitement_rapide",
+      "description": "Dépece plus rapidement et préserve mieux les matériaux",
+      "unlock_level": 45,
+      "speed_bonus": 1.4,
+      "decay_reduction": 30
+    },
+    {
+      "name": "maître_tanneur",
+      "description": "Peut traiter des créatures magiques et obtenir des cuirs spéciaux",
+      "unlock_level": 75,
+      "magical_hide_chance": 20,
+      "rare_material_preservation": 100
+    }
+  ],
+  "bonuses": {
+    "yield_bonus": 10,
+    "quality_bonus": 8,
+    "rare_hide_chance": 6
+  },
+  "requirements": {
+    "level": 1,
+    "dexterity": 15
+  },
+  "training_methods": [
+    "butchery_assistance",
+    "leatherworking_study",
+    "hunting_practice"
+  ],
+  "mastery_bonuses": {
+    "level_50": {
+      "processing_speed": 1.3,
+      "material_quality": 1.2
+    },
+    "level_100": {
+      "perfect_skins": 15,
+      "legendary_hides": 5
+    }
+  },
+  "gathered_resources": [
+    "leather_hide",
+    "fur_pelt",
+    "scale_hide",
+    "dragon_scale",
+    "unicorn_hide",
+    "demon_leather"
+  ],
+  "version": "0.1.0",
+  "template_type": "skill"
+}

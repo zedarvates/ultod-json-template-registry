@@ -1,0 +1,72 @@
+{
+  "id": "necromancy_spell_0958",
+  "name": "Necromancy Spell 0958",
+  "description": "Invoque un spectre éthéré qui traverse les défenses physiques et absorbe la force vitale des ennemis",
+  "icon": "necromancy_spell_0958_icon",
+  "school": "necromancy",
+  "rarity": "epic",
+  "spell_type": "spiritual_necromancy_spell_0958ing",
+  "target_type": "necromancy_spell_0958_at_location",
+  "range": 25.0,
+  "cast_time": 3500,
+  "cooldown": 45000,
+  "mana_cost": 110,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "spectral_necrotic_damage"
+  },
+  "effects": [
+    {
+      "effect_type": " phantom_entity_manifestation",
+      "value": 250,
+      "duration": 180000,
+      "tick_rate": 0,
+      "wraith_spectral_form": true,
+      "physical_immunity": true,
+      "life_drain_ability": 60,
+      "fear_aura_radius": 8.0,
+      "ethereal_movement": true,
+      "spectral_weakness_fear": 0.6
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "spectral_energy_rift_opening_black_white_energy_vortex_spirit_portal",
+    "summon_effect": "wraith_emerging_semi_transparent_ghostly_form_eerie_blue_glow_eyes",
+    "active_effect": "wraith_gliding_ethereal_movement_around_combat_floaty_spectral_trail",
+    "expiration_effect": "wraith_dissipating_spectral_energy_scattering_souls_ascending_demonstration_completed"
+  },
+  "sound_effects": {
+    "cast_effect": "spectral_whisper_energy_gathering_death_rift_opening_creaking_spirit_world",
+    "summon_effect": "otherworldly_spectral_emergence_distant_screams_eythreal_whisper_arrival",
+    "active_effect": "spectral_gliding_wind_whispers_ghostly_movement_occupied_territory_distances",
+    "expiration_effect": "spectral_return_energy_dissipating_soul_peace_final_whisper_completion"
+  },
+  "requirements": {
+    "level": 32,
+    "skills": [
+      "necromancy",
+      "spectral_manipulation",
+      "soul_craft"
+    ],
+    "classes": [
+      "necromancer",
+      "spectral_lord",
+      "ghost_master"
+    ],
+    "specializations": [
+      "phantom_necromancy_spell_0958er"
+    ]
+  },
+  "upgrades": {
+    "greater_summon_wraith": {
+      "unlock_level": 47,
+      "description": "L'Necromancy Spell 0958 devient plus puissante avec des capacités améliorées et plus durables",
+      "wraith_durability_increase": 50,
+      "life_drain_power_boost": 40,
+      "fear_aura_expansion": 6.0,
+      "spectral_regeneration": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

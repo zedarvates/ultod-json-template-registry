@@ -1,0 +1,83 @@
+{
+  "id": "balance_spell_0404",
+  "name": "Balance Spell 0404",
+  "description": "Invokes an earthen totem that roots nearby enemies and slows their movement dramatically",
+  "icon": "balance_spell_0404_icon",
+  "school": "balance",
+  "rarity": "uncommon",
+  "spell_type": "earth_control_totem",
+  "target_type": "area_effect",
+  "range": 30.0,
+  "cast_time": 2000,
+  "cooldown": 12000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 50,
+    "damage_type": "earth_anchoring",
+    "scaling": {
+      "wisdom": 1.2,
+      "earth_affinity": 1.6
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "earth_root_totem",
+      "value": 200,
+      "duration": 20000,
+      "tick_rate": 0,
+      "totem_root_range": 15.0,
+      "max_rooted_targets": 6,
+      "root_strength": 0.8,
+      "movement_speed_slow": 75,
+      "root_damage_over_time": 20,
+      "totem_health": 300,
+      "earth_resonance_pulse": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "earth_erupting_totem_spire_forming",
+    "active_effect": "earthen_totem_pulsing_earth_waves",
+    "root_effect": "tendrils_dragging_into_ground",
+    "damage_effect": "earth_quaking_shaking_rooted"
+  },
+  "sound_effects": {
+    "cast_sound": "ground_erupting_stone_crushing_totem",
+    "active_sound": "earth_pulsing_deep_ominous_rumble",
+    "root_sound": "dirt_sucking_tendrils_dragging",
+    "damage_sound": "ground_quaking_earth_damage_tremor"
+  },
+  "requirements": {
+    "level": 16,
+    "skills": [
+      "balance_magic",
+      "earth_manipulation"
+    ],
+    "classes": [
+      "druid",
+      "earth_warden"
+    ],
+    "specializations": [
+      "terrestrial_control"
+    ]
+  },
+  "upgrades": {
+    "stone_grasp_totem": {
+      "unlock_level": 26,
+      "description": "Le totem devient de pierre et ses racines sont plus fortes",
+      "stone_totem_upgrade": true,
+      "root_strength_increase": 0.3,
+      "totem_health_increase": 200,
+      "stone_spike_damage": 60
+    },
+    "earthen_prison": {
+      "unlock_level": 36,
+      "description": "Le totem crée une prison de terre emprisonnant les ennemis",
+      "prison_zones": 3,
+      "total_immobilization": true,
+      "earth_wall_barriers": true,
+      "prison_duration_extension": 10000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

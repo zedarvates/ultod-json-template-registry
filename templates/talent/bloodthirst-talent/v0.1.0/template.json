@@ -1,0 +1,15 @@
+{
+  "id": "bloodthirst_talent",
+  "name": "Sanguinaire (Talent)",
+  "description": "Augmente votre puissance d'attaque de base.",
+  "type": "stat_bonus",
+  "effects": [
+    {
+      "type": "stat_mod",
+      "stat": "attack_power",
+      "value": 20.0
+    }
+  ],
+  "template_type": "talent",
+  "version": "0.1.0"
+}

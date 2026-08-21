@@ -1,0 +1,78 @@
+{
+  "id": "mage_arcane_barrage",
+  "name": "Barrage Arcane",
+  "description": "Lance un projectile d'énergie arcane puissante",
+  "ability_type": "active",
+  "category": "damage",
+  "cooldown": 8000,
+  "mana_cost": 50,
+  "cast_time": 1500,
+  "range": 35.0,
+  "target_type": "enemy",
+  "duration": 0,
+  "effects": [
+    {
+      "effect_type": "arcane_damage",
+      "value": 250,
+      "duration": 0,
+      "tick_rate": 0,
+      "school": "arcane"
+    },
+    {
+      "effect_type": "arcane_vulnerability",
+      "value": 0.1,
+      "duration": 15000,
+      "tick_rate": 0,
+      "school": "arcane"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "arcane_charge",
+    "projectile_effect": "arcane_missile",
+    "impact_effect": "arcane_explosion"
+  },
+  "sound_effects": {
+    "cast_sound": "arcane_incantation",
+    "projectile_sound": "arcane_whistle",
+    "impact_sound": "arcane_explosion"
+  },
+  "scaling": {
+    "spell_power": 1.6,
+    "arcane_mastery": 1.3
+  },
+  "requirements": {
+    "level": 15,
+    "abilities": [
+      "fireball",
+      "frostbolt"
+    ],
+    "class": "mage"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "base_damage": 150,
+      "vulnerability": 0.05
+    },
+    "journeyman": {
+      "base_damage": 200,
+      "vulnerability": 0.08,
+      "cooldown_reduction": 0.1
+    },
+    "master": {
+      "base_damage": 250,
+      "vulnerability": 0.1,
+      "cooldown_reduction": 0.2,
+      "crit_chance": 0.15
+    },
+    "grandmaster": {
+      "base_damage": 300,
+      "vulnerability": 0.15,
+      "cooldown_reduction": 0.3,
+      "crit_chance": 0.25,
+      "ability_unlock": "arcane_nova"
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

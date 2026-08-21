@@ -1,0 +1,63 @@
+{
+  "id": "divine_spell_1042",
+  "name": "Divine Spell 1042",
+  "description": "Votre arme attaque infuse une énergie divine_spell_1042, ajoutant 2d8 dégâts radiants à l'attaque normale",
+  "icon": "divine_spell_1042_spell_1042_icon",
+  "school": "divine_spell_1042",
+  "rarity": "common",
+  "spell_type": "weapon_enhancement",
+  "target_type": "enemy",
+  "range": 5.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 10,
+  "damage": {
+    "base_damage": 16,
+    "damage_type": "radiant"
+  },
+  "effects": [
+    {
+      "effect_type": "weapon_divine_spell_1042_spell_1042",
+      "value": 16,
+      "duration": 0,
+      "tick_rate": 0,
+      "requires_weapon_attack": true,
+      "holy_damage_multiplier": 1.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "holy_glow",
+    "attack_effect": "divine_spell_1042_strike",
+    "impact_effect": "radiant_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_whisper",
+    "attack_sound": "divine_spell_1042_swing",
+    "impact_sound": "radiant_boom"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "divine_spell_1042_magic"
+    ],
+    "classes": [
+      "paladin",
+      "cleric"
+    ]
+  },
+  "upgrades": {
+    "improved_smite": {
+      "unlock_level": 5,
+      "description": "Augmente les dégâts radiants à 3d8",
+      "damage_multiplier": 2.25
+    },
+    "holy_wrath": {
+      "unlock_level": 13,
+      "description": "Ajoute des effets supplémentaires contre les morts-vivants et les démons",
+      "undead_damage_bonus": 8,
+      "demon_damage_bonus": 8
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

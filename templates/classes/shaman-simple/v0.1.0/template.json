@@ -1,0 +1,46 @@
+{
+  "id": "shaman_simple",
+  "name": "Shaman",
+  "description": "Spiritual guides who command the elements and heal through ancestral wisdom.",
+  "base_stats": {
+    "strength": 14,
+    "dexterity": 12,
+    "constitution": 18,
+    "intelligence": 18,
+    "wisdom": 25,
+    "charisma": 12
+  },
+  "specializations": [
+    {
+      "id": "elemental",
+      "name": "Elemental",
+      "description": "Calls upon lightning and fire to strike down enemies.",
+      "talents": [
+        "lava_burst",
+        "chain_lightning"
+      ],
+      "abilities": [
+        "lightning_bolt",
+        "flame_shock"
+      ]
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": "ancestral_guidance",
+            "name": "Ancestral Guidance",
+            "description": "Increases Wisdom by 5% per rank.",
+            "max_rank": 5,
+            "prerequisites": []
+          }
+        ]
+      }
+    ]
+  },
+  "template_type": "class",
+  "version": "0.1.0"
+}

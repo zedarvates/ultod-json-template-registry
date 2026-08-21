@@ -1,0 +1,74 @@
+{
+  "id": "necromancy_spell_0940",
+  "name": "Necromancy Spell 0940",
+  "description": "Infecte les ennemis dans une zone avec une maladie nécrotique qui se propage et cause des dégâts continus",
+  "icon": "necromancy_spell_0940_icon",
+  "school": "necromancy",
+  "rarity": "rare",
+  "spell_type": "plague_spread_debuff",
+  "target_type": "area_plague_infection",
+  "range": 35.0,
+  "cast_time": 3500,
+  "cooldown": 40000,
+  "mana_cost": 95,
+  "damage": {
+    "base_damage": 90,
+    "damage_type": "necrotic_plague_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "plague_pathogen_spread",
+      "value": 200,
+      "duration": 45000,
+      "tick_rate": 2000,
+      "infection_radius_expansion": 15.0,
+      "plague_damage_per_tick": 40,
+      "infection_spread_chance": 35,
+      "movement_speed_debuff": 45,
+      "healing_reduction_percent": 60,
+      "decay_acceleration": 0.3
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "green_black_poisonous_energy_gathering_ground_seeping_plague_origins",
+    "infection_effect": "green_ooze_spreading_ground_infecting_victims_body_putrefaction_damage",
+    "spread_effect": "plague_aura_spreading_attached_victims_green_mist_dark_energy_connections",
+    "decay_effect": "victims_body_decay_accelerating_putrid_ooze_exuding_corrosion_damage",
+    "clearing_effect": "plague_dissipating_ground_healing_putrid_mist_evaporating_dissolution"
+  },
+  "sound_effects": {
+    "cast_effect": "plague_energy_gathering_bubbling_seeping_ground_organs_liquefying",
+    "infection_effect": "victims_infested_putrid_gurgles_flesh_softening_damage_cries",
+    "spread_effect": "plague_spreading_attached_mist_whispers_decomposition_spreading",
+    "decay_effect": "body_conversion_putrid_bubbling_flesh_melting_corruptive_cries",
+    "clearing_effect": "plague_dissolution_ground_healing_bubbling_evaporating_final_sigh"
+  },
+  "requirements": {
+    "level": 36,
+    "skills": [
+      "necromancy",
+      "plaguecraft",
+      "disease_propagation"
+    ],
+    "classes": [
+      "necromancer",
+      "plague_lord",
+      "corruption_master"
+    ],
+    "specializations": [
+      "plague_weaver"
+    ]
+  },
+  "upgrades": {
+    "greater_blight": {
+      "unlock_level": 51,
+      "description": "La Necromancy Spell 0940 devient plus virulente avec des dégâts accrus et une propagation améliorée",
+      "plague_damage_multiplier": 1.8,
+      "infection_spread_rate": 60,
+      "infection_duration_extension": 20000,
+      "secondary_plague_effects": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "chronomancy_spell_0247",
+  "name": "Chronomancy Spell 0247",
+  "description": "Le chronomancien accélère le temps pour ses alliés, leur permettant d'agir plus rapidement",
+  "icon": "chronomancy_spell_0247_icon",
+  "school": "chronomancy",
+  "rarity": "common",
+  "spell_type": "temporal_buff",
+  "target_type": "multiple_allies",
+  "range": 35.0,
+  "cast_time": 1500,
+  "cooldown": 15000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "temporal"
+  },
+  "effects": [
+    {
+      "effect_type": "haste_buff",
+      "value": 70,
+      "duration": 15000,
+      "tick_rate": 0,
+      "max_targets": 4,
+      "attack_speed_bonus": 0.6,
+      "movement_speed_bonus": 0.4,
+      "cooldown_reduction": 0.25,
+      "temporal_instability_risk": 0.1
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "golden_clock_hands_accelerating",
+    "buff_effect": "yellow_chronomancy_spell_0247_acceleration_rings",
+    "target_effect": "speed_trail_effects",
+    "expire_effect": "chronomancy_spell_0247_deceleration_slowdown"
+  },
+  "sound_effects": {
+    "cast_sound": "clock_mechanism_accelerating",
+    "buff_sound": "chronomancy_spell_0247_rushing_forward_echo",
+    "target_sound": "quickened_heartbeat",
+    "expire_sound": "chronomancy_spell_0247_slowdown_whir"
+  },
+  "requirements": {
+    "level": 7,
+    "skills": [
+      "chronomancy",
+      "temporal_enhancement",
+      "chronomancy_spell_0247_acceleration"
+    ],
+    "classes": [
+      "chronomancer",
+      "chronomancy_spell_0247_mage",
+      "temporalist"
+    ],
+    "specializations": [
+      "speedster"
+    ]
+  },
+  "upgrades": {
+    "temporal_overdrive": {
+      "unlock_level": 17,
+      "description": "La célérité brouille légèrement la zone temporelle de l'allié",
+      "attack_speed_bonus": 0.3,
+      "temporal_aura_field": 8.0,
+      "instability_risk_reduction": 0.05
+    },
+    "chronal_superspeed": {
+      "unlock_level": 27,
+      "description": "Les alliés peuvent effectuer des actions surnaturelles supplémentaires",
+      "extra_action_chance": 0.4,
+      "double_cast_cooldown": 0.5,
+      "duration_bonus": 8000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

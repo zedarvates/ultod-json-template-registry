@@ -1,0 +1,11 @@
+{
+  "id": "3",
+  "name": "copper_pieces",
+  "display_name": "Copper Pieces",
+  "description": "Basic currency made from copper. Used for small transactions and low-value items.",
+  "icon_path": "icons/currency/copper_piece.png",
+  "max_amount": 999999999,
+  "tradeable": true,
+  "template_type": "currencie",
+  "version": "0.1.0"
+}

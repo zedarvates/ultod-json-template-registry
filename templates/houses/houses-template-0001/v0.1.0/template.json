@@ -1,0 +1,438 @@
+{
+  "blueprint_id": "uo_villa_marbre",
+  "name": "Houses Template 0001",
+  "lot": {
+    "width": 14,
+    "depth": 14,
+    "cell_size": 1.0,
+    "floor_height": 3.0
+  },
+  "floors": [
+    {
+      "level": 0,
+      "tiles": [
+        {
+          "x": 5,
+          "z": 5,
+          "part_id": "sol_marbre_clair"
+        },
+        {
+          "x": 6,
+          "z": 5,
+          "part_id": "sol_marbre_clair"
+        },
+        {
+          "x": 7,
+          "z": 5,
+          "part_id": "sol_marbre_clair"
+        },
+        {
+          "x": 8,
+          "z": 5,
+          "part_id": "sol_marbre_clair"
+        },
+        {
+          "x": 5,
+          "z": 6,
+          "part_id": "sol_marbre_clair"
+        },
+        {
+          "x": 6,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 8,
+          "z": 6,
+          "part_id": "sol_marbre_clair"
+        },
+        {
+          "x": 5,
+          "z": 7,
+          "part_id": "sol_marbre_clair"
+        },
+        {
+          "x": 6,
+          "z": 7,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 7,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 8,
+          "z": 7,
+          "part_id": "sol_marbre_clair"
+        },
+        {
+          "x": 5,
+          "z": 8,
+          "part_id": "sol_marbre_clair"
+        },
+        {
+          "x": 6,
+          "z": 8,
+          "part_id": "sol_marbre_clair"
+        },
+        {
+          "x": 7,
+          "z": 8,
+          "part_id": "sol_marbre_clair"
+        },
+        {
+          "x": 8,
+          "z": 8,
+          "part_id": "sol_marbre_clair"
+        }
+      ],
+      "walls": [
+        {
+          "x": 5,
+          "z": 5,
+          "edge": "N",
+          "part_id": "mur_crenele"
+        },
+        {
+          "x": 6,
+          "z": 5,
+          "edge": "N",
+          "part_id": "fenetre_gothique"
+        },
+        {
+          "x": 7,
+          "z": 5,
+          "edge": "N",
+          "part_id": "fenetre_gothique"
+        },
+        {
+          "x": 8,
+          "z": 5,
+          "edge": "N",
+          "part_id": "mur_crenele"
+        },
+        {
+          "x": 5,
+          "z": 9,
+          "edge": "N",
+          "part_id": "mur_crenele"
+        },
+        {
+          "x": 6,
+          "z": 9,
+          "edge": "N",
+          "part_id": "mur_crenele"
+        },
+        {
+          "x": 7,
+          "z": 9,
+          "edge": "N",
+          "part_id": "porte_ornee"
+        },
+        {
+          "x": 8,
+          "z": 9,
+          "edge": "N",
+          "part_id": "mur_crenele"
+        },
+        {
+          "x": 5,
+          "z": 5,
+          "edge": "W",
+          "part_id": "mur_crenele"
+        },
+        {
+          "x": 5,
+          "z": 6,
+          "edge": "W",
+          "part_id": "fenetre_gothique"
+        },
+        {
+          "x": 5,
+          "z": 7,
+          "edge": "W",
+          "part_id": "fenetre_gothique"
+        },
+        {
+          "x": 5,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_crenele"
+        },
+        {
+          "x": 9,
+          "z": 5,
+          "edge": "W",
+          "part_id": "mur_crenele"
+        },
+        {
+          "x": 9,
+          "z": 6,
+          "edge": "W",
+          "part_id": "mur_crenele"
+        },
+        {
+          "x": 9,
+          "z": 7,
+          "edge": "W",
+          "part_id": "mur_crenele"
+        },
+        {
+          "x": 9,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_crenele"
+        }
+      ]
+    }
+  ],
+  "roof": [
+    {
+      "x": 5,
+      "z": 5,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 6,
+      "z": 5,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 7,
+      "z": 5,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 8,
+      "z": 5,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 5,
+      "z": 6,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 6,
+      "z": 6,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 7,
+      "z": 6,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 8,
+      "z": 6,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 5,
+      "z": 7,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 7,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 7,
+      "z": 7,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 8,
+      "z": 7,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 5,
+      "z": 8,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 8,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 7,
+      "z": 8,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 8,
+      "z": 8,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    }
+  ],
+  "garden": [
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0.5,
+        0,
+        2.5
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0.5,
+        0,
+        3.5
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0.5,
+        0,
+        4.5
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0.5,
+        0,
+        5.5
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "portail",
+      "position": [
+        0.5,
+        0,
+        6.5
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "statue",
+      "position": [
+        -1.5,
+        0,
+        3.0
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "statue",
+      "position": [
+        2.5,
+        0,
+        3.0
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "fontaine",
+      "position": [
+        0.5,
+        0,
+        1.0
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "haie",
+      "position": [
+        -3.0,
+        0,
+        2.0
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "haie",
+      "position": [
+        -3.0,
+        0,
+        3.0
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "haie",
+      "position": [
+        -3.0,
+        0,
+        4.0
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "haie",
+      "position": [
+        4.0,
+        0,
+        2.0
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "haie",
+      "position": [
+        4.0,
+        0,
+        3.0
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    },
+    {
+      "part_id": "haie",
+      "position": [
+        4.0,
+        0,
+        4.0
+      ],
+      "rotation_y": 0,
+      "scale": 1.0
+    }
+  ],
+  "id": "houses_template_0001",
+  "template_type": "house",
+  "version": "0.1.0"
+}

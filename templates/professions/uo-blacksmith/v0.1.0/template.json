@@ -1,0 +1,251 @@
+{
+  "profession": "uo_blacksmith",
+  "display_name": "Forgemaster (adapted_reference)",
+  "description": "Master of the ancient art of metalworking in Sosaria, skilled in smelting ores and crafting weapons of legendary power with the forge and anvil",
+  "icon_path": "icons/professions/uo_blacksmith.png",
+  "category": "uo_crafting",
+  "is_active": true,
+  "uo_skill_system": {
+    "base_skill": "Blacksmithing",
+    "max_skill": 120.0,
+    "skill_gain_rate": 0.5,
+    "exceptional_threshold": 95.0,
+    "gm_threshold": 110.0
+  },
+  "uo_resource_system": {
+    "common_ores": [
+      "Iron",
+      "Dull Copper",
+      "Shadow Iron"
+    ],
+    "rare_ores": [
+      "Copper",
+      "Bronze",
+      "Golden",
+      "Agapite",
+      "Verite",
+      "Valorite"
+    ],
+    "smelting_yield": {
+      "iron": 1,
+      "dull_copper": 2,
+      "valorite": 4
+    }
+  },
+  "recipes": [
+    {
+      "id": "cresent_blade",
+      "name": "Crescent Blade",
+      "description": "A curved blade favored by guardsmen, requires exceptional strength",
+      "profession": "uo_blacksmith",
+      "difficulty": 60.0,
+      "skill_required": 52.0,
+      "experience_gain": 50.0,
+      "success_chance_multiplier": 1.0,
+      "materials": [
+        {
+          "type": "ingot",
+          "material": "iron",
+          "quantity": 14
+        },
+        {
+          "type": "smelted",
+          "material": "iron_ore",
+          "quantity": 1
+        }
+      ],
+      "tools_required": [
+        "tongs",
+        "hammer",
+        "anvil"
+      ],
+      "output": {
+        "item": "crescent_blade",
+        "weight": 8,
+        "durability": 45,
+        "damage": "12-14",
+        "speed": 30,
+        "str_requirement": 30,
+        "repairable": true,
+        "shield_penalty": 0
+      },
+      "uo_properties": {
+        "two_handed": true,
+        "slayer_property": false,
+        "self_repair": false,
+        "damage_type": "slashing"
+      }
+    },
+    {
+      "id": "excalibur_valorite",
+      "name": "Excalibur of Valorite",
+      "description": "Legendary sword said to be forged from the purest valorite by ancient masters",
+      "profession": "uo_blacksmith",
+      "difficulty": 120.0,
+      "skill_required": 115.0,
+      "experience_gain": 300.0,
+      "success_chance_multiplier": 0.3,
+      "materials": [
+        {
+          "type": "ingot",
+          "material": "valorite",
+          "quantity": 75
+        },
+        {
+          "type": "rare_component",
+          "name": "excalibur_blade_mold",
+          "rarity": "legendary"
+        },
+        {
+          "type": "magical_component",
+          "name": "kings_mandate",
+          "magical_power": 100
+        }
+      ],
+      "tools_required": [
+        "grandmaster_hammer",
+        "volcanic_anvil",
+        "basalt_forge"
+      ],
+      "output": {
+        "item": "excalibur",
+        "weight": 6,
+        "durability": 255,
+        "damage": "28-35",
+        "speed": 25,
+        "str_requirement": 45,
+        "repairable": false,
+        "indestructible": true
+      },
+      "uo_properties": {
+        "artifact_level": 5,
+        "magical_properties": [
+          "Night Sight",
+          "Spell Channeling",
+          "Faster Casting 2",
+          "Lower Mana Cost 8%",
+          "Mana Regen 2"
+        ],
+        "cursed": false,
+        "legendary_weapon": true,
+        "two_handed": false,
+        "damage_type": [
+          "slashing",
+          "magical"
+        ]
+      },
+      "legendary_requirements": {
+        "skill_gm_blacksmith": true,
+        "skill_90_mining": true,
+        "completed_shrine_quests": 3,
+        "archmage_level": true
+      }
+    }
+  ],
+  "uo_bulk_orders": {
+    "small_bod": {
+      "items_count": 10,
+      "reward_type": "blacksmith_power_scroll",
+      "reward_chance": 0.02,
+      "exceptional_reward_bonus": 0.05
+    },
+    "large_bod": {
+      "items_count": 20,
+      "reward_type": "tinkerers_gem_of_utility",
+      "reward_chance": 0.08,
+      "exceptional_reward_bonus": 0.1
+    }
+  },
+  "uo_enchantment_system": {
+    "allows_enchantment": true,
+    "runic_enchantments": [
+      {
+        "rune_type": "Valorite Hammer",
+        "max_properties": 4,
+        "possible_properties": [
+          "Damage Increase 10-25%",
+          "Hit Life Leech 5-15%",
+          "Hit Mana Leech 5-15%",
+          "Swing Speed Increase 10-20%",
+          "Lower Mana Cost 3-8%"
+        ],
+        "intensity_range": "1-5"
+      }
+    ],
+    "exceptional_properties": [
+      "Self Repair 1-3",
+      "Spell Channeling",
+      "Use Best Skill",
+      "Mage Weapon -15"
+    ]
+  },
+  "uo_smelting_chances": {
+    "common_ores": {
+      "success_rate": 95,
+      "loss_chance": 5,
+      "double_yield_chance": 10
+    },
+    "rare_ores": {
+      "success_rate": 85,
+      "loss_chance": 20,
+      "double_yield_chance": 5
+    },
+    "valorite": {
+      "success_rate": 75,
+      "loss_chance": 30,
+      "triple_yield_chance": 1
+    }
+  },
+  "uo_quality_system": {
+    "exceptional_chance": "skill_based",
+    "exceptional_threshold": 95,
+    "legendary_threshold": 110,
+    "exceptional_benefits": {
+      "durability_bonus": 50,
+      "damage_bonus": 35,
+      "repair_efficiency": 20
+    }
+  },
+  "specializations": [
+    "heavy_weapons",
+    "light_weapons",
+    "plate_armor",
+    "chain_armor",
+    "valorite_specialist",
+    "artifact_forging"
+  ],
+  "uo_mastery_bonuses": {
+    "skill_100_bonus": {
+      "smelting_success": 10,
+      "exceptional_chance": 25,
+      "repair_skill": 50
+    },
+    "skill_120_bonus": {
+      "valorite_mastery": 15,
+      "legendary_crafting": 30,
+      "artifact_enchantment": 50
+    }
+  },
+  "uo_faction_bonuses": {
+    "minax": [
+      "damage_increase_light",
+      "lower_mana_cost"
+    ],
+    "shadowlords": [
+      "hit_mana_drain",
+      "spell_damage_increase"
+    ],
+    "true_britannians": [
+      "durability_increase",
+      "self_repair"
+    ],
+    "council_of_mages": [
+      "spell_channeling_bonus",
+      "mana_regeneration"
+    ]
+  },
+  "id": "uo_blacksmith",
+  "name": "Uo Blacksmith",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

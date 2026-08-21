@@ -1,0 +1,71 @@
+{
+  "id": "arts_martiaux_spell_0897",
+  "name": "Arts Martiaux Spell 0897",
+  "description": "Une technique ultime qui peut instantanément tuer un ennemi affaibli",
+  "icon": "arts_martiaux_spell_0897_icon",
+  "school": "arts_martiaux",
+  "rarity": "legendary",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 180000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 1000,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 2.0,
+      "strength": 1.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "execute_damage",
+      "value": 1000,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "health_threshold": 0.1
+    },
+    {
+      "effect_type": "ki_consumption",
+      "value": 50,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "death_arts_martiaux_spell_0897_charge",
+    "projectile_effect": "none",
+    "impact_effect": "fatal_strike"
+  },
+  "sound_effects": {
+    "cast_sound": "death_whisper",
+    "impact_sound": "fatal_blow"
+  },
+  "requirements": {
+    "level": 40,
+    "skills": [],
+    "classes": [
+      "monk"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_touch_of_death": {
+      "unlock_level": 50,
+      "description": "Arts Martiaux Spell 0897 peut être utilisé sur des cibles ayant jusqu'à 15% de vie",
+      "health_threshold_increase": 0.05
+    },
+    "touch_of_death_mastery": {
+      "unlock_level": 60,
+      "description": "Arts Martiaux Spell 0897 soigne le moine en fonction des dégâts infligés",
+      "lifesteal": 0.5,
+      "damage_bonus": 500
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

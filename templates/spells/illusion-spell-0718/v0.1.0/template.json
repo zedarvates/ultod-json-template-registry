@@ -1,0 +1,78 @@
+{
+  "id": "illusion_spell_0718",
+  "name": "Illusion Spell 0718",
+  "description": "Créé un mur d'énergie prismatique qui disperse et inflige différents dégâts aux ennemis qui le traversent",
+  "icon": "illusion_spell_0718_icon",
+  "school": "illusion",
+  "rarity": "rare",
+  "spell_type": "dispersive_barrier_field",
+  "target_type": "place_at_location",
+  "range": 50.0,
+  "cast_time": 2000,
+  "cooldown": 30000,
+  "mana_cost": 85,
+  "damage": {
+    "base_damage": 180,
+    "damage_type": "spectrum_energy_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "chromatic_energy_barrier",
+      "value": 250,
+      "duration": 60000,
+      "tick_rate": 0,
+      "barrier_width_length": 1.0,
+      "rainbow_damage_types_random": [
+        "fire",
+        "acid",
+        "lightning",
+        "poison",
+        "cold",
+        "force",
+        "necrotic"
+      ],
+      "damage_on_contact": 150,
+      "wall_reflection_component": 0.4,
+      "dispersion_on_breaking": 8.0,
+      "prismatic_vulnerability_debuff": 12000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "rainbow_energy_barrier_crystal_formation",
+    "wall_effect": "shimmering_colorful_energy_wall_field",
+    "damage_effect": "illusion_spell_0718_damage_rainbow_energy_burst",
+    "dispersion_effect": "wall_breaking_rainbow_explosion_brilliant"
+  },
+  "sound_effects": {
+    "cast_effect": "energy_crystallizing_illusion_spell_0718_forming",
+    "wall_effect": "gentle_energy_humming_illusion_spell_0718_field",
+    "damage_effect": "damage_strike_illusion_spell_0718_shatter_crack",
+    "dispersion_effect": "barrier_breaking_rainbow_shattering_explosion"
+  },
+  "requirements": {
+    "level": 28,
+    "skills": [
+      "illusion_magic",
+      "energy_manipulation"
+    ],
+    "classes": [
+      "illusionist",
+      "prism_master"
+    ],
+    "specializations": [
+      "energy_disperser"
+    ]
+  },
+  "upgrades": {
+    "greater_prismatic_wall": {
+      "unlock_level": 38,
+      "description": "Le Illusion Spell 0718 devient plus grand avec plus de couleurs et des effets augmentés",
+      "seven_color_enhancement": true,
+      "wall_thickness_double": true,
+      "damage_per_color_increase": 75,
+      "intelligent_color_adaptation": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

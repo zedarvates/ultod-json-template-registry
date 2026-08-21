@@ -1,0 +1,15 @@
+{
+  "id": "fire_mastery",
+  "name": "Maîtrise du Feu",
+  "description": "Augmente les dégâts de vos sorts de feu",
+  "max_rank": 5,
+  "prerequisites": [],
+  "effects_per_rank": [
+    {
+      "type": "damage_bonus_fire",
+      "value": 0.02
+    }
+  ],
+  "template_type": "talent",
+  "version": "0.1.0"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "sacre_spell_1114",
+  "name": "Sacre Spell 1114",
+  "description": "Lance une boule de Sacre Spell 1114 qui blesse la cible et la consume avec des flammes divines",
+  "icon": "sacre_spell_1114_icon",
+  "school": "sacré",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 30.0,
+  "cast_time": 2000,
+  "cooldown": 10000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 180,
+    "damage_type": "sacre_spell_1114",
+    "scaling": {
+      "intelligence": 1.3,
+      "wisdom": 0.7
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 180,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "sacre_spell_1114_dot",
+      "value": 35,
+      "duration": 8000,
+      "tick_rate": 2000,
+      "total_ticks": 4,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sacre_spell_1114ball_cast",
+    "projectile_effect": "golden_fireball",
+    "dot_effect": "divine_flames"
+  },
+  "sound_effects": {
+    "cast_sound": "sacre_spell_1114_incantation",
+    "projectile_sound": "fireball_whoosh",
+    "dot_sound": "sacre_spell_1114_crackle"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_holy_fire": {
+      "unlock_level": 20,
+      "description": "Sacre Spell 1114 inflige plus de dégâts initiaux et de dégâts sur la durée",
+      "damage_bonus": 80,
+      "dot_bonus": 15
+    },
+    "holy_fire_mastery": {
+      "unlock_level": 30,
+      "description": "Sacre Spell 1114 peut embraser plusieurs cibles",
+      "multi_target": true,
+      "target_count": 2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

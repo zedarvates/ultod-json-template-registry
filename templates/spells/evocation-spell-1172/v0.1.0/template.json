@@ -1,0 +1,67 @@
+{
+  "id": "evocation_spell_1172",
+  "name": "Evocation Spell 1172",
+  "description": "Vous créez un Evocation Spell 1172 tourbillonnant sur le sol",
+  "icon": "evocation_spell_1172_icon",
+  "school": "evocation",
+  "rarity": "uncommon",
+  "spell_type": "area_control",
+  "target_type": "area_evocation_spell_1172",
+  "range": 60.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "create_barrier",
+      "value": 0,
+      "duration": 600000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "barrier_type": "sand_evocation_spell_1172",
+      "length": 30,
+      "height": 10,
+      "thickness": 2
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sand_eruption",
+    "area_effect": "whirling_sand"
+  },
+  "sound_effects": {
+    "cast_sound": "wind_howl",
+    "area_sound": "sand_storm"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "earth_magic",
+      "wind_magic"
+    ],
+    "classes": [
+      "ranger",
+      "druid",
+      "wizard"
+    ]
+  },
+  "upgrades": {
+    "greater_wall": {
+      "unlock_level": 6,
+      "description": "Mur plus haut et plus long",
+      "height": 15,
+      "length": 45
+    },
+    "thorns_in_sand": {
+      "unlock_level": 10,
+      "description": "Le sable contient des épines",
+      "damage_per_step": 1,
+      "damage_type": "piercing"
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

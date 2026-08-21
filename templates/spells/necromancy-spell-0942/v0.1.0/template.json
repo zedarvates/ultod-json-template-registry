@@ -1,0 +1,75 @@
+{
+  "id": "necromancy_spell_0942",
+  "name": "Necromancy Spell 0942",
+  "description": "Fait surgir du sol des murs d'os solides formant des défenses imprenables et poignantes",
+  "icon": "necromancy_spell_0942_icon",
+  "school": "necromancy",
+  "rarity": "rare",
+  "spell_type": "osseous_defensive_structure",
+  "target_type": "area_defensive_walls",
+  "range": 40.0,
+  "cast_time": 3000,
+  "cooldown": 30000,
+  "mana_cost": 90,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "piercing_necromancy_spell_0942_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "skeletal_wall_formation",
+      "value": 250,
+      "duration": 120000,
+      "tick_rate": 0,
+      "barrier_wall_length": 25.0,
+      "barrier_wall_height": 8.0,
+      "damage_to_impacting_enemies": 80,
+      "spike_damage_on_contact": 45,
+      "maximum_barrier_segments": 6,
+      "internal_movement_allied": true,
+      "external_bone_spike_growth": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ground_cracking_necromancy_spell_0942_fragments_erupting_dark_mist_necromancy_spell_0942_gathering",
+    "formation_effect": "massive_necromancy_spell_0942_walls_rising_interlocking_skulls_spines_vertebrae",
+    "active_effect": "imposing_necromancy_spell_0942_walls_glowing_red_eyes_skulls_observing_defending",
+    "damage_effect": "enemies_impacting_crushed_spiked_pierced_blood_spray_necromancy_spell_0942_splinters",
+    "expiration_effect": "necromancy_spell_0942_walls_cracking_collapsing_skulls_falling_ground_dissolving_powder"
+  },
+  "sound_effects": {
+    "cast_effect": "ground_cracking_necromancy_spell_0942_assembling_rattling_clanking_massive_structure",
+    "formation_effect": "walls_rising_crunching_vertebrae_locking_skulls_groaning_structure",
+    "active_effect": "barriers_standing_ominous_wind_necromancy_spell_0942_crStack_cracking_intimidating",
+    "damage_effect": "impact_crush_enemy_screams_necromancy_spell_0942_fractures_spike_impalement_crunch",
+    "expiration_effect": "walls_cracking_necromancy_spell_0942_breakdown_collapsing_skulls_rolling_final_crush"
+  },
+  "requirements": {
+    "level": 38,
+    "skills": [
+      "necromancy",
+      "osseous_construction",
+      "necromancy_spell_0942_weaponry"
+    ],
+    "classes": [
+      "necromancer",
+      "necromancy_spell_0942_lord",
+      "skeletal_architect"
+    ],
+    "specializations": [
+      "necromancy_spell_0942_fortification_expert"
+    ]
+  },
+  "upgrades": {
+    "greater_bone_barrier": {
+      "unlock_level": 53,
+      "description": "La Necromancy Spell 0942 devient plus résistante avec des améliorations défensives",
+      "barrier_length_extension": 15.0,
+      "wall_height_increase": 4.0,
+      "damage_reflection_capability": 0.5,
+      "animated_bone_traps": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

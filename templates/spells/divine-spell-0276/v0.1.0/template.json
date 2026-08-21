@@ -1,0 +1,64 @@
+{
+  "id": "divine_spell_0276",
+  "name": "Divine Spell 0276",
+  "description": "Un flux d'énergie positive guérit une créature d'un montant de 1d8 + modificateur de Constitution de points de vie",
+  "icon": "divine_spell_0276_icon",
+  "school": "divine",
+  "rarity": "common",
+  "spell_type": "healing",
+  "target_type": "single_ally",
+  "range": 5.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "divine"
+  },
+  "effects": [
+    {
+      "effect_type": "direct_healing",
+      "value": 8,
+      "duration": 0,
+      "tick_rate": 0,
+      "constitution_modifier": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "healing_glow",
+    "healing_effect": "golden_light",
+    "expire_effect": "healing_complete"
+  },
+  "sound_effects": {
+    "cast_sound": "healing_chime",
+    "healing_sound": "life_essence",
+    "expire_sound": "healing_done"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "divine_magic"
+    ],
+    "classes": [
+      "cleric",
+      "paladin",
+      "priest",
+      "druid"
+    ]
+  },
+  "upgrades": {
+    "mass_cure": {
+      "unlock_level": 5,
+      "description": "Soigne plusieurs cibles simultanément",
+      "aoe_range": 20.0,
+      "max_targets": 6
+    },
+    "great_cure": {
+      "unlock_level": 17,
+      "description": "Soigne un montant de 3d8 + modificateur de Constitution",
+      "healing_multiplier": 3.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

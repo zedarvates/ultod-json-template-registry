@@ -1,0 +1,69 @@
+{
+  "id": "poison_spell_0973",
+  "name": "Poison Spell 0973",
+  "description": "Crée un nuage toxique qui empoison_spell_0973ne et ralentit les ennemis dans la zone",
+  "icon": "poison_spell_0973_spell_0973_icon",
+  "school": "poison_spell_0973",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "area_enemies",
+  "range": 5.0,
+  "cast_time": 1500,
+  "cooldown": 22000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 10,
+    "damage_type": "poison_spell_0973",
+    "scaling": {
+      "intelligence": 1.5,
+      "agility": 0.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "dot_damage",
+      "value": 10,
+      "duration": 8000,
+      "tick_rate": 2000,
+      "damage_type": "poison_spell_0973",
+      "scaling": {
+        "intelligence": 1.5,
+        "agility": 0.5
+      },
+      "area_radius": 3.0,
+      "slow_percentage": 0.3,
+      "poison_resistance_debuff": 0.2
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "mist_form",
+    "projectile_effect": null,
+    "hit_effect": "green_haze"
+  },
+  "sound_effects": {
+    "cast_sound": "bubble_hiss",
+    "projectile_sound": null,
+    "hit_sound": "poison_spell_0973_gurgle"
+  },
+  "requirements": {
+    "level": 13,
+    "skills": [
+      "poison_spell_0973_mastery",
+      "herbalism"
+    ],
+    "classes": [
+      "ninja",
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "death_vapor": {
+      "unlock_level": 26,
+      "description": "Augmente les dégâts de poison_spell_0973 et la durée de poison_spell_0973 Spell 0973",
+      "damage_bonus": 15,
+      "duration_bonus": 3000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

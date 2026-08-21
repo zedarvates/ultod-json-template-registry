@@ -1,0 +1,7 @@
+# Divine Time Complete v0.1.0
+
+Statut : `experimental`.
+
+Source auditée : `divine_system/divine_time_complete.json`. Les contrôles administratifs, données commerciales et chemins internes sont retirés.
+
+Aucune compatibilité client ou serveur n'est certifiée.

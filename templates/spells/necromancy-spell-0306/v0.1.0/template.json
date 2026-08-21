@@ -1,0 +1,75 @@
+{
+  "id": "necromancy_spell_0306",
+  "name": "Necromancy Spell 0306",
+  "description": "Créé une coquille necromancy_spell_0306gétique qui absorbe les sorts et empêche la magie au touché",
+  "icon": "necromancy_spell_0306_icon",
+  "school": "necromancy",
+  "rarity": "epic",
+  "spell_type": "spell_immunity",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1500,
+  "cooldown": 90000,
+  "mana_cost": 90,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "magic_nullification"
+  },
+  "effects": [
+    {
+      "effect_type": "spell_absorption_barrier",
+      "value": 300,
+      "duration": 15000,
+      "tick_rate": 0,
+      "spell_immunity": true,
+      "magic_damage_absorption": 500,
+      "mana_regeneration": 30,
+      "spell_reflection_chance": 0.15,
+      "unholy_energy_burst": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dark_crystal_shell_formation",
+    "shell_effect": "spell_energy_deflecting_spikes",
+    "absorption_effect": "magic_energy_dissolving",
+    "expire_effect": "shell_energy_release_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "necromancy_spell_0306_pulse",
+    "shell_sound": "spell_deflection_zap",
+    "absorption_sound": "magic_energy_hiss",
+    "expire_sound": "shell_release_energy"
+  },
+  "requirements": {
+    "level": 28,
+    "skills": [
+      "necrotic_shielding",
+      "magic_nullification"
+    ],
+    "classes": [
+      "death_knight",
+      "lich_defender"
+    ],
+    "specializations": [
+      "magic_disruptor"
+    ]
+  },
+  "upgrades": {
+    "perfect_nullification": {
+      "unlock_level": 48,
+      "description": "La coquille bloque complètement tous les sorts et absorbe l'énergie magique",
+      "complete_spell_block": true,
+      "mana_drain_from_cast": true,
+      "absorption_capacity_bonus": 300
+    },
+    "anti_magic_vortex": {
+      "unlock_level": 58,
+      "description": "La coquille crée un vortex qui empêche toute magie dans la zone",
+      "anti_magic_field": 15.0,
+      "spell_suppression_aura": true,
+      "enemy_caster_debuff": 0.5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

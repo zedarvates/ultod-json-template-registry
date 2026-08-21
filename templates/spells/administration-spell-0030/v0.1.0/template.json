@@ -1,0 +1,55 @@
+{
+  "id": "administration_spell_0030",
+  "name": "Administration Spell 0030",
+  "description": "[administration_spell_0030 ONLY] Instantly teleport to any location in the server world",
+  "icon": "administration_spell_0030istration_spell_0030_icon",
+  "school": "administration_spell_0030istration",
+  "rarity": "epic",
+  "spell_type": "player_management",
+  "target_type": "location_target",
+  "range": -1,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "spatial_administration_spell_0030istration"
+  },
+  "effects": [
+    {
+      "effect_type": "instant_universal_teleportation",
+      "value": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "teleport_range": "unlimited_serverwide",
+      "teleport_accuracy": "perfect_pixel_precision",
+      "teleport_speed": "instantaneous_no_animation",
+      "destination_restrictions": "none_complete_freedom",
+      "mass_teleport_capability": "single_or_group",
+      "dimension_crossing": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "administration_spell_0030_golden_teleport_swirl",
+    "teleport_effect": "instant_fade_out_fade_in",
+    "arrival_effect": "golden_sparkle_on_arrival",
+    "special_effect": "administration_spell_0030_wings_bearing_guidance"
+  },
+  "sound_effects": {
+    "cast_effect": "authoritative_teleport_wind_whistle",
+    "teleport_effect": "spatial_rearrangement_energy_crack",
+    "arrival_effect": "confident_arrival_administration_spell_0030_chime",
+    "special_effect": "divine_positioning_echoes"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "gamemaster",
+      "overseer",
+      "celestial_avatar"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

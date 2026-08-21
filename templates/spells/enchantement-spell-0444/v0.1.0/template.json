@@ -1,0 +1,78 @@
+{
+  "id": "enchantement_spell_0444",
+  "name": "Enchantement Spell 0444",
+  "description": "Permet de créer et d'appliquer des enchantements puissants",
+  "icon": "enchantement_spell_0444_icon",
+  "school": "enchantement",
+  "rarity": "uncommon",
+  "spell_type": "passive",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "arcane",
+    "scaling": {
+      "intelligence": 0.0,
+      "wisdom": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "crafting_bonus",
+      "value": 0.25,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "crafting_type": "enchanting"
+    },
+    {
+      "effect_type": "quality_chance",
+      "value": 0.2,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "quality_type": "enchanted"
+    },
+    {
+      "effect_type": "durability_bonus",
+      "value": 0.15,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "durability_type": "enchanted_items"
+    }
+  ],
+  "visual_effects": {
+    "passive_effect": "enchantement_spell_0444_aura"
+  },
+  "sound_effects": {
+    "passive_sound": "enchantement_spell_0444_hum"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [],
+    "classes": [
+      "enchanter"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_rune_mastery": {
+      "unlock_level": 35,
+      "description": "Enchantement Spell 0444 améliore plus la qualité et la durabilité",
+      "quality_bonus": 0.1,
+      "durability_bonus": 0.1
+    },
+    "rune_mastery_mastery": {
+      "unlock_level": 45,
+      "description": "Enchantement Spell 0444 permet de créer des enchantement_spell_0444s uniques",
+      "unique_runes": true,
+      "crafting_speed_bonus": 0.2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

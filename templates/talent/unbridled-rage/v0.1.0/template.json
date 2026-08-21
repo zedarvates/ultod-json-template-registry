@@ -1,0 +1,16 @@
+{
+  "id": "unbridled_rage",
+  "name": "Rage déchaînée",
+  "description": "Donne une chance de générer de la rage supplémentaire lors d'une attaque de mêlée réussie.",
+  "type": "proc",
+  "effects": [
+    {
+      "type": "resource_gain",
+      "resource": "rage",
+      "value": 1.0,
+      "chance": 0.2
+    }
+  ],
+  "template_type": "talent",
+  "version": "0.1.0"
+}

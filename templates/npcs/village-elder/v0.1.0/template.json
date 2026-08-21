@@ -1,0 +1,255 @@
+{
+  "id": "village_elder",
+  "name": "Village Elder",
+  "description": "Respected elder providing wisdom, historical knowledge, and community guidance",
+  "icon": "npcs/village_elder_icon.png",
+  "category": "citizen",
+  "awareness": {
+    "enabled": true,
+    "cognitive_level": "full",
+    "initial_lod": "distant",
+    "initial_yaw_radians": 0.0,
+    "senses": {
+      "vision_range": 16.0,
+      "hearing_range": 14.0,
+      "tactile_sensitivity": 0.7
+    },
+    "attention": {
+      "capacity": 6,
+      "max_visual_candidates": 18,
+      "max_occlusion_rays": 4
+    },
+    "values": {
+      "nonviolence": 0.9,
+      "fairness": 0.9,
+      "loyalty": 0.8,
+      "honor": 0.8,
+      "compassion": 0.9,
+      "reciprocity": 0.8
+    },
+    "personal_norms": {
+      "property_rights": 0.7,
+      "nonviolence": 0.9,
+      "anti_coercion": 0.9,
+      "dignity": 0.9,
+      "reciprocity": 0.8
+    },
+    "initial_goals": {
+      "self_preservation": 0.7,
+      "possessions": 0.3,
+      "social_standing": 0.8,
+      "protect_others": 0.9,
+      "preserve_order": 0.8,
+      "affiliation": 1.0
+    },
+    "reaction_policy": {
+      "threat_response": "seek_guard",
+      "may_defend": false,
+      "may_retaliate": false
+    }
+  },
+  "rarity": "uncommon",
+  "npc_type": "citizen",
+  "base_stats": {
+    "level": 16,
+    "hp": 160,
+    "max_hp": 160,
+    "mana": 120,
+    "max_mana": 120,
+    "strength": 8,
+    "dexterity": 9,
+    "intelligence": 18,
+    "wisdom": 20,
+    "constitution": 12,
+    "charisma": 16,
+    "speed": 0.7,
+    "size": 0.9,
+    "weight": 60.0
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_flying": false,
+    "is_aquatic": false,
+    "is_undead": false,
+    "is_elemental": false,
+    "is_mechanical": false,
+    "is_magical": false,
+    "is_divine": false,
+    "is_fiendish": false,
+    "is_wild": false,
+    "is_tameable": false,
+    "is_summonable": false,
+    "is_soulbound": false,
+    "is_cursed": false,
+    "is_blessed": false,
+    "is_poisoned": false,
+    "is_paralyzed": false,
+    "is_silenced": false,
+    "is_blinded": false,
+    "is_deafened": false,
+    "is_charmed": false,
+    "is_frightened": false,
+    "is_confused": false,
+    "is_stunned": false,
+    "is_sleeping": false,
+    "is_invisible": false,
+    "is_invulnerable": false,
+    "is_immortal": false,
+    "is_unique": false,
+    "is_boss": false,
+    "is_mini_boss": false,
+    "is_elite": false,
+    "is_rare": false,
+    "is_common": false,
+    "is_uncommon": true,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "loot_table": {
+    "gold": {
+      "min": 25,
+      "max": 150
+    },
+    "items": [
+      {
+        "item_id": "ancient_tome",
+        "chance": 0.4,
+        "min_quantity": 1,
+        "max_quantity": 1
+      },
+      {
+        "item_id": "wisdom_scroll",
+        "chance": 0.3,
+        "min_quantity": 1,
+        "max_quantity": 2
+      },
+      {
+        "item_id": "elder_staff",
+        "chance": 0.2,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ]
+  },
+  "ai_behavior": {
+    "wander_chance": 0.03,
+    "wander_range": 5.0,
+    "max_targets": 2,
+    "combat_style": "passive",
+    "preferred_attack": "wisdom_aura",
+    "patrol_route": [
+      "village_center",
+      "elder_house",
+      "temple",
+      "village_center"
+    ],
+    "response_to_crime": "seek_safety",
+    "ally_detection": "village_residents"
+  },
+  "abilities": [
+    "wisdom_sharing",
+    "historical_knowledge",
+    "community_guidance",
+    "spiritual_counseling",
+    "ancient_lore"
+  ],
+  "dialogue": {
+    "greetings": [
+      "Welcome, young one. Come, seek wisdom in these troubling times.",
+      "The village has seen many changes, but some truths remain eternal.",
+      "Ah, another seeker of knowledge. Sit, let me tell you a story..."
+    ],
+    "farewells": [
+      "May the wisdom you seek guide your steps.",
+      "Remember: knowledge without wisdom is but empty words.",
+      "Return when you have more questions, or perhaps more answers."
+    ],
+    "historical_stories": [
+      "In my youth, I remember when dragons soared the skies...",
+      "The Great War taught us that unity is our greatest strength.",
+      "These stones have witnessed the rise and fall of kingdoms."
+    ],
+    "wisdom_quotes": [
+      "A wise man learns from the mistakes of others.",
+      "The greatest treasures are not made of gold, but of experience.",
+      "Patience, young one. Good things come to those who wait."
+    ],
+    "community_advice": [
+      "The village thrives when we work together as one.",
+      "Each generation must learn from those who came before.",
+      "Our ancestors' spirit lives on in the choices we make today."
+    ]
+  },
+  "shop_inventory": {
+    "wisdom_items": [
+      "wisdom_tome",
+      "ancient_scroll",
+      "history_book",
+      "philosophy_text",
+      "spiritual_guide",
+      "elders_diary"
+    ],
+    "counsel_services": [
+      "life_guidance",
+      "spiritual_counseling",
+      "community_advice",
+      "historical_information",
+      "ancient_lore",
+      "wisdom_sharing"
+    ],
+    "blessings": [
+      "elder_blessing",
+      "village_protection",
+      "wisdom_grant",
+      "community_harmony",
+      "ancestral_guidance"
+    ],
+    "historical_artefacts": [
+      "ancient_coin",
+      "historical_relic",
+      "village_charter",
+      "family_crest",
+      "tribal_totem"
+    ]
+  },
+  "services": {
+    "buy_items": false,
+    "sell_items": false,
+    "repair_equipment": false,
+    "identify_items": true,
+    "appraisal_service": true,
+    "custom_crafting": false,
+    "wisdom_counseling": true,
+    "historical_lore": true,
+    "community_guidance": true,
+    "spiritual_blessings": true
+  },
+  "schedule": {
+    "day": {
+      "08:00": "morning_meditation",
+      "09:00": "village_consultations",
+      "11:00": "elder_meetings",
+      "13:00": "lunch_and_stories",
+      "14:00": "afternoon_guidance",
+      "16:00": "wisdom_sharing",
+      "18:00": "evening_reflection"
+    },
+    "night": {
+      "18:00": "evening_prayers",
+      "20:00": "rest",
+      "07:00": "dawn_meditation"
+    }
+  },
+  "resistances": {
+    "physical": 0.0,
+    "fire": 0.0,
+    "ice": 0.0,
+    "lightning": 0.0,
+    "poison": 0.1
+  },
+  "weaknesses": [
+    "physical"
+  ],
+  "version": "0.1.0",
+  "template_type": "npc"
+}

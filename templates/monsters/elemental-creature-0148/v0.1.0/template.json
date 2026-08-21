@@ -1,0 +1,111 @@
+{
+  "id": "elemental_creature_0148",
+  "name": "Elemental Creature 0148",
+  "description": "Une créature animée de flammes pures de 8 pieds de haut, dont le corps tourbillonnant de feu orange et rouge pulse avec une chaleur intense. Des étincelles jaillissent de sa forme changeante et ses yeux luisent comme des braises. Chaque pas laisse derrière lui une traînée de cendres embrasées.",
+  "icon": "elemental_creature_0148_icon",
+  "category": "elemental",
+  "rarity": "rare",
+  "base_stats": {
+    "health": 102,
+    "mana": 50,
+    "strength": 19,
+    "dexterity": 17,
+    "intelligence": 6,
+    "wisdom": 10,
+    "constitution": 16,
+    "charisma": 7
+  },
+  "properties": {
+    "size": "large",
+    "size_modifiers": {
+      "health_multiplier": 2.0,
+      "damage_multiplier": 1.5,
+      "speed_modifier": -1,
+      "space_requirement": 10,
+      "strength_bonus": 4,
+      "constitution_bonus": 2
+    },
+    "speed": 50,
+    "alignment": "neutral",
+    "languages": [
+      "ignan"
+    ],
+    "challenge_rating": "5",
+    "experience_value": 1800
+  },
+  "properties_elemental": {
+    "elemental_type": "elemental_creature_0148",
+    "elemental_resistance": 100,
+    "planar_origin": true,
+    "elemental_form": "mutable",
+    "immunity_to_own_element": true,
+    "fire_immunity": true,
+    "burning_aura": true
+  },
+  "abilities": [
+    "burning_touch",
+    "elemental_creature_0148_immunity",
+    "ignite_flammable_objects",
+    "elemental_creature_0148_burst",
+    "heat_aura",
+    "flame_dash",
+    "ember_spray"
+  ],
+  "resistances": {
+    "fire": 100,
+    "physical": 50,
+    "lightning": 50
+  },
+  "weaknesses": [
+    "cold_damage",
+    "water_damage",
+    "ice_damage"
+  ],
+  "immunities": [
+    "poison",
+    "charmed",
+    "frightened",
+    "paralyzed",
+    "prone",
+    "restrained"
+  ],
+  "senses": {
+    "darkvision": 60
+  },
+  "loot_table": {
+    "common_drops": [
+      "elemental_creature_0148_essence",
+      "burning_crystal",
+      "ember_fragment"
+    ],
+    "rare_drops": [
+      "elemental_creature_0148_heart",
+      "flame_jewel",
+      "combustion_manual"
+    ],
+    "epic_drops": [
+      "elemental_creature_0148_elemental_core",
+      "eternal_flame"
+    ],
+    "legendary_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "moderate",
+    "intelligence_level": "smart",
+    "tactical_awareness": "tactical",
+    "attack_pattern": "elemental_creature_0148_based_combat",
+    "defensive_patterns": [
+      "elemental_creature_0148_immunity",
+      "flame_form",
+      "heat_aura"
+    ],
+    "special_behaviors": [
+      "ignites_flammable_objects",
+      "moves_through_small_spaces_as_flame",
+      "causes_continuous_elemental_creature_0148_damage",
+      "seeks_fuel_sources"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "sect_formation_celestial_dragon",
+  "name": "Formation du Dragon Céleste",
+  "description": "Formation du dragon gardien des cieux - puissance divine absolue",
+  "icon": "celestial_dragon_icon",
+  "school": "holy",
+  "type": "buff",
+  "damage_type": "divine",
+  "mana_cost": 10000,
+  "range": 0,
+  "cast_time": 45000,
+  "cooldown": 172800000,
+  "aoe": {
+    "enabled": true,
+    "radius": 50,
+    "damage_reduction": 1.0,
+    "max_targets": 1
+  },
+  "effects": [
+    {
+      "type": "aura",
+      "name": "Formation du Dragon Céleste",
+      "description": "Présence divine du dragon céleste protégeant le domaine",
+      "duration": 0,
+      "value": 1.0,
+      "stackable": false,
+      "dispellable": false
+    },
+    {
+      "type": "stat_modifier",
+      "name": "Bénédiction Céleste",
+      "description": "Amélioration divine de toutes les capacités (+80%)",
+      "duration": 0,
+      "value": 0.8,
+      "stackable": false,
+      "dispellable": false
+    },
+    {
+      "type": "buff",
+      "name": "Dragon Guardian",
+      "description": "Invocation d'un dragon protecteur combattant les ennemis",
+      "duration": 0,
+      "value": 1.0,
+      "stackable": false,
+      "dispellable": false
+    },
+    {
+      "type": "debuff",
+      "name": "Terreur Divine",
+      "description": "Effroi sacré affectant tous les ennemis dans la zone",
+      "duration": 0,
+      "value": 0.5,
+      "stackable": false,
+      "dispellable": true
+    }
+  ],
+  "requirements": {
+    "level": 9,
+    "class": [
+      "guild_member"
+    ],
+    "talent_points": 75
+  },
+  "visual": {
+    "cast_animation": "celestial_dragon_summon",
+    "impact_effect": "divine_dragon_manifestation"
+  },
+  "enabled": true,
+  "template_type": "sect",
+  "version": "0.1.0"
+}

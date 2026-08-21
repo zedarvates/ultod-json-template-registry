@@ -1,0 +1,46 @@
+{
+  "id": "abjuration_spell_1610",
+  "name": "Abjuration Spell 1610",
+  "description": "Un mur de lumière colorée bloque les attaques et les créatures",
+  "icon": "abjuration_spell_1610_icon",
+  "school": "abjuration",
+  "rarity": "epic",
+  "spell_type": "barrier",
+  "target_type": "area",
+  "range": 18.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 85,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "abjuration_spell_1610_barrier",
+      "value": 0,
+      "duration": 60000,
+      "tick_rate": 0,
+      "damage_reflection": 50
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "light_barrier"
+  },
+  "sound_effects": {
+    "cast_sound": "light_hum"
+  },
+  "requirements": {
+    "level": 7,
+    "skills": [
+      "abjuration"
+    ],
+    "classes": [
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

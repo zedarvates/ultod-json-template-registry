@@ -1,0 +1,383 @@
+{
+  "profession_id": "master_blacksmith",
+  "name": "Master Blacksmith",
+  "description": "A master of forging weapons and armor from metal, combining traditional craftsmanship with magical enhancement techniques.",
+  "base_skill": "blacksmithing",
+  "max_skill": 100,
+  "skill_progression": {
+    "novice": {
+      "min_skill": 1,
+      "max_skill": 20,
+      "name": "Novice Blacksmith"
+    },
+    "apprentice": {
+      "min_skill": 21,
+      "max_skill": 40,
+      "name": "Apprentice Blacksmith"
+    },
+    "journeyman": {
+      "min_skill": 41,
+      "max_skill": 60,
+      "name": "Journeyman Blacksmith"
+    },
+    "expert": {
+      "min_skill": 61,
+      "max_skill": 80,
+      "name": "Expert Blacksmith"
+    },
+    "master": {
+      "min_skill": 81,
+      "max_skill": 100,
+      "name": "Master Blacksmith"
+    }
+  },
+  "talent_tree": {
+    "branches": [
+      {
+        "id": "weapon_crafting",
+        "name": "Weapon Crafting",
+        "description": "Specialize in creating powerful weapons of war",
+        "max_points": 10,
+        "talents": [
+          {
+            "id": "sword_mastery",
+            "name": "Sword Mastery",
+            "description": "Increase sword crafting quality by 10% per rank",
+            "max_rank": 5,
+            "effects": {
+              "sword_quality": 0.1,
+              "sword_durability": 0.05
+            },
+            "requirements": [
+              {
+                "type": "skill_level",
+                "value": 30
+              }
+            ]
+          },
+          {
+            "id": "axe_mastery",
+            "name": "Axe Mastery",
+            "description": "Increase axe crafting quality by 10% per rank",
+            "max_rank": 5,
+            "effects": {
+              "axe_quality": 0.1,
+              "axe_damage": 0.05
+            },
+            "requirements": [
+              {
+                "type": "skill_level",
+                "value": 35
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "armor_crafting",
+        "name": "Armor Crafting",
+        "description": "Specialize in creating protective armor and shields",
+        "max_points": 10,
+        "talents": [
+          {
+            "id": "plate_armor",
+            "name": "Plate Armor Specialist",
+            "description": "Increase plate armor crafting quality by 15% per rank",
+            "max_rank": 5,
+            "effects": {
+              "plate_quality": 0.15,
+              "plate_defense": 0.08
+            },
+            "requirements": [
+              {
+                "type": "skill_level",
+                "value": 40
+              }
+            ]
+          },
+          {
+            "id": "shield_mastery",
+            "name": "Shield Mastery",
+            "description": "Increase shield crafting quality by 12% per rank",
+            "max_rank": 5,
+            "effects": {
+              "shield_quality": 0.12,
+              "shield_block": 0.06
+            },
+            "requirements": [
+              {
+                "type": "skill_level",
+                "value": 45
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "id": "basic_forge",
+      "name": "Basic Forge",
+      "description": "Use the basic forge to create simple weapons and armor",
+      "required_skill": 1,
+      "required_talent_points": 0
+    },
+    {
+      "id": "weapon_enhancement",
+      "name": "Weapon Enhancement",
+      "description": "Enhance weapons with magical properties",
+      "required_skill": 30,
+      "required_talent_points": 5
+    },
+    {
+      "id": "masterwork_crafting",
+      "name": "Masterwork Crafting",
+      "description": "Create masterwork quality items with exceptional stats",
+      "required_skill": 60,
+      "required_talent_points": 10
+    },
+    {
+      "id": "legendary_forge",
+      "name": "Legendary Forge",
+      "description": "Access the legendary forge to create epic and legendary items",
+      "required_skill": 90,
+      "required_talent_points": 15
+    }
+  ],
+  "market_integration": {
+    "base_value_multiplier": 1.0,
+    "quality_multipliers": {
+      "common": 1.0,
+      "uncommon": 1.5,
+      "rare": 2.0,
+      "epic": 3.0,
+      "legendary": 5.0
+    },
+    "reputation_bonuses": {
+      "local": 1.1,
+      "town": 1.2,
+      "regional": 1.3,
+      "national": 1.5,
+      "world": 2.0
+    }
+  },
+  "practice_benefits": {
+    "inspiration": {
+      "max_stacks": 5,
+      "bonus_per_stack": 0.05,
+      "chance_to_gain": 0.2
+    },
+    "decay_mechanic": {
+      "enabled": true,
+      "rate": 0.001,
+      "decay_threshold": 80
+    }
+  },
+  "synergies": [
+    "mining+blacksmith",
+    "woodworker+blacksmith",
+    "alchemist+blacksmith"
+  ],
+  "recipes": [
+    {
+      "id": "iron_sword",
+      "name": "Iron Sword",
+      "difficulty": "easy",
+      "required_skill": 10,
+      "materials": [
+        {
+          "item": "iron_ingot",
+          "quantity": 2
+        },
+        {
+          "item": "wooden_handle",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item": "iron_sword",
+        "quantity": 1
+      },
+      "craft_time": 5000
+    },
+    {
+      "id": "steel_armor",
+      "name": "Steel Armor",
+      "difficulty": "medium",
+      "required_skill": 40,
+      "materials": [
+        {
+          "item": "steel_ingot",
+          "quantity": 8
+        },
+        {
+          "item": "leather_straps",
+          "quantity": 4
+        }
+      ],
+      "result": {
+        "item": "steel_armor",
+        "quantity": 1
+      },
+      "craft_time": 15000
+    },
+    {
+      "id": "masterwork_sword",
+      "name": "Masterwork Sword",
+      "difficulty": "hard",
+      "required_skill": 70,
+      "materials": [
+        {
+          "item": "adapted_reference_ingot",
+          "quantity": 3
+        },
+        {
+          "item": "enchanted_gem",
+          "quantity": 1
+        },
+        {
+          "item": "dragon_essence",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item": "masterwork_sword",
+        "quantity": 1
+      },
+      "craft_time": 30000
+    }
+  ],
+  "quests": [
+    {
+      "id": "first_forge",
+      "name": "First Forge",
+      "description": "Craft your first iron sword",
+      "requirements": [
+        {
+          "type": "skill",
+          "value": 10
+        },
+        {
+          "type": "item",
+          "item": "iron_sword",
+          "quantity": 1
+        }
+      ],
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 100
+        },
+        {
+          "type": "item",
+          "item": "blacksmith_hammer",
+          "quantity": 1
+        },
+        {
+          "type": "reputation",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "id": "master_armorer",
+      "name": "Master Armorer",
+      "description": "Craft a full set of masterwork armor",
+      "requirements": [
+        {
+          "type": "skill",
+          "value": 80
+        },
+        {
+          "type": "item",
+          "item": "masterwork_helmet",
+          "quantity": 1
+        },
+        {
+          "type": "item",
+          "item": "masterwork_chest",
+          "quantity": 1
+        },
+        {
+          "type": "item",
+          "item": "masterwork_legs",
+          "quantity": 1
+        },
+        {
+          "type": "item",
+          "item": "masterwork_boots",
+          "quantity": 1
+        }
+      ],
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 500
+        },
+        {
+          "type": "item",
+          "item": "master_forge",
+          "quantity": 1
+        },
+        {
+          "type": "reputation",
+          "value": 200
+        },
+        {
+          "type": "title",
+          "value": "Master Blacksmith"
+        }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "craftsman",
+      "name": "The Craftsman",
+      "description": "Craft 100 items",
+      "requirements": {
+        "type": "craft_count",
+        "value": 100
+      },
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 200
+        },
+        {
+          "type": "item",
+          "item": "craftsmans_apron",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "master_forger",
+      "name": "Master Forger",
+      "description": "Reach skill level 100",
+      "requirements": {
+        "type": "skill_level",
+        "value": 100
+      },
+      "rewards": [
+        {
+          "type": "skill",
+          "value": 1000
+        },
+        {
+          "type": "item",
+          "item": "master_forge_hammer",
+          "quantity": 1
+        },
+        {
+          "type": "title",
+          "value": "Legendary Blacksmith"
+        }
+      ]
+    }
+  ],
+  "id": "master_blacksmith",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

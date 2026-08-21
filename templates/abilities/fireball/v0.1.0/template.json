@@ -1,0 +1,32 @@
+{
+  "id": "fireball",
+  "name": "Boule de Feu",
+  "description": "Lance une boule de feu dévastatrice",
+  "type": "spell",
+  "class_restriction": [
+    "mage"
+  ],
+  "level_requirement": 5,
+  "resource_cost": {
+    "type": "mana",
+    "amount": 25
+  },
+  "cooldown_seconds": 8,
+  "range": 30,
+  "effects": [
+    {
+      "type": "damage",
+      "damage_type": "fire",
+      "base_damage": 200,
+      "scaling": {
+        "strength": 0.0,
+        "dexterity": 0.0,
+        "intelligence": 2.0,
+        "level": 1.5
+      },
+      "armor_penetration": 0.0
+    }
+  ],
+  "template_type": "ability",
+  "version": "0.1.0"
+}

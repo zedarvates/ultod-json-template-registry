@@ -1,0 +1,79 @@
+{
+  "id": "enchantment_spell_0080",
+  "name": "Enchantment Spell 0080",
+  "description": "Vous inspirez vos alliés avec une musique motivante augmentant leurs compétences générales",
+  "icon": "enchantment_spell_0080_icon",
+  "school": "enchantment",
+  "rarity": "uncommon",
+  "spell_type": "group_buff",
+  "target_type": "multiple_allies",
+  "range": 50.0,
+  "cast_time": 2500,
+  "cooldown": 45000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "skill_bonus",
+      "value": 6,
+      "duration": 90000,
+      "tick_rate": 0,
+      "max_targets": 8,
+      "skill_categories": [
+        "combat",
+        "craft",
+        "magic"
+      ],
+      "attributes": [
+        "strength",
+        "dexterity",
+        "constitution",
+        "intelligence",
+        "wisdom",
+        "charisma"
+      ]
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "inspiring_music_burst",
+    "buff_effect": "capability_aura",
+    "expire_effect": "music_finish"
+  },
+  "sound_effects": {
+    "cast_sound": "heroic_song_build",
+    "buff_sound": "inspiration_chorus",
+    "expire_sound": "echo_fade"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "performance",
+      "leadership",
+      "music_magic"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour"
+    ]
+  },
+  "upgrades": {
+    "legendary_inspiration": {
+      "unlock_level": 18,
+      "description": "Donne des avantages permanents mineurs aux alliés",
+      "temp_attribute_bonus": 2,
+      "temp_skill_bonus": 2
+    },
+    "epic_symphony": {
+      "unlock_level": 25,
+      "description": "Augmente considérablement la portée et la durée",
+      "range_bonus": 25.0,
+      "duration_bonus": 30000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

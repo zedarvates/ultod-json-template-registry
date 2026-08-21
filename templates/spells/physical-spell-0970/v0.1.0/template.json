@@ -1,0 +1,78 @@
+{
+  "id": "physical_spell_0970",
+  "name": "Physical Spell 0970",
+  "description": "Frappe critique aux reins qui étourdit l'ennemi et réduit sa vitesse de déplacement",
+  "icon": "physical_spell_0970_icon",
+  "school": "physical",
+  "rarity": "rare",
+  "spell_type": "damage",
+  "target_type": "single_enemy",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 22000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 65,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 1.4,
+      "strength": 1.1
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "damage",
+      "value": 65,
+      "duration": 0,
+      "tick_rate": 0,
+      "damage_type": "physical",
+      "scaling": {
+        "agility": 1.4,
+        "strength": 1.1
+      }
+    },
+    {
+      "effect_type": "stun",
+      "value": 100,
+      "duration": 5000,
+      "tick_rate": 0
+    },
+    {
+      "effect_type": "slow",
+      "value": 40,
+      "duration": 10000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "precision_strike",
+    "projectile_effect": null,
+    "hit_effect": "physical_spell_0970_impact"
+  },
+  "sound_effects": {
+    "cast_sound": "heavy_swing",
+    "projectile_sound": null,
+    "hit_sound": "physical_spell_0970_crack"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [
+      "anatomy"
+    ],
+    "classes": [
+      "ninja",
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "masterful_kidney_shot": {
+      "unlock_level": 30,
+      "description": "Augmente les dégâts et la durée des effets du Physical Spell 0970",
+      "damage_bonus": 25,
+      "stun_duration_bonus": 2000,
+      "slow_duration_bonus": 3000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

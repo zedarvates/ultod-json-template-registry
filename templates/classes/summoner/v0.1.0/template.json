@@ -1,0 +1,94 @@
+{
+  "id": "summoner",
+  "name": "Invocateur",
+  "description": "Maître des arts sombres, capable d'invoquer et de contrôler des créatures des plans inférieurs",
+  "base_stats": {
+    "strength": 10,
+    "dexterity": 12,
+    "constitution": 14,
+    "intelligence": 20,
+    "wisdom": 16,
+    "charisma": 8
+  },
+  "specializations": [
+    {
+      "id": "demonology",
+      "name": "Démonologie",
+      "description": "Spécialiste des démons et créatures infernales",
+      "talents": [
+        "demonic_knowledge",
+        "fel_armor"
+      ],
+      "abilities": [
+        "summon_imp",
+        "demonic_circle"
+      ]
+    },
+    {
+      "id": "necromancy",
+      "name": "Nécromancie",
+      "description": "Maître des morts et des créatures non-vivantes",
+      "talents": [
+        "death_magic",
+        "bone_shield"
+      ],
+      "abilities": [
+        "raise_skeleton",
+        "death_coil"
+      ]
+    },
+    {
+      "id": "beast_mastery",
+      "name": "Maîtrise des Bêtes",
+      "description": "Contrôleur de créatures sauvages et animales",
+      "talents": [
+        "beast_training",
+        "pack_hunter"
+      ],
+      "abilities": [
+        "summon_wolf",
+        "beast_call"
+      ]
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": "improved_summoning",
+            "max_rank": 3,
+            "prerequisites": []
+          },
+          {
+            "id": "summoner_training",
+            "max_rank": 3,
+            "prerequisites": []
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "talents": [
+          {
+            "id": "master_summoner",
+            "max_rank": 3,
+            "prerequisites": [
+              "improved_summoning"
+            ]
+          },
+          {
+            "id": "pet_resilience",
+            "max_rank": 3,
+            "prerequisites": [
+              "summoner_training"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "template_type": "class",
+  "version": "0.1.0"
+}

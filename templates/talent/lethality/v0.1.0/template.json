@@ -1,0 +1,17 @@
+{
+  "id": "lethality",
+  "name": "Létalité",
+  "description": "Augmente les dégâts critiques de vos capacités",
+  "max_rank": 5,
+  "prerequisites": [
+    "malice"
+  ],
+  "effects_per_rank": [
+    {
+      "type": "crit_damage_bonus",
+      "value": 0.06
+    }
+  ],
+  "template_type": "talent",
+  "version": "0.1.0"
+}

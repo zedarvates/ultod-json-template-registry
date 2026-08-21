@@ -1,0 +1,144 @@
+{
+  "id": "alchemy",
+  "name": "Alchimie",
+  "description": "Science de créer potions, poisons et transmutations à partir d'ingrédients naturels",
+  "icon": "alchemy_icon",
+  "category": "crafting",
+  "subcategory": "potion_making",
+  "max_level": 100,
+  "level_requirements": {
+    "1": 0,
+    "2": 40,
+    "3": 100,
+    "4": 180,
+    "5": 290,
+    "10": 1650,
+    "15": 3300,
+    "20": 5750,
+    "25": 9550,
+    "30": 13900,
+    "35": 19000,
+    "40": 25800,
+    "45": 33900,
+    "50": 46200,
+    "60": 70800,
+    "70": 103800,
+    "80": 144800,
+    "90": 199200,
+    "100": 291200
+  },
+  "xp_sources": {
+    "identify_herb": 2,
+    "mix_potion": 15,
+    "create_poison": 12,
+    "transmute_materials": 35,
+    "brew_elixir": 25,
+    "experiment": 8
+  },
+  "level_bonuses": {
+    "brewing_speed": {
+      "base_value": 5.0,
+      "per_level": 1.2
+    },
+    "potion_power": {
+      "base_value": 4.0,
+      "per_level": 1.0
+    },
+    "success_rate": {
+      "base_value": 2.0,
+      "per_level": 0.8
+    },
+    "discovery_chance": {
+      "base_value": 1.0,
+      "per_level": 0.5
+    }
+  },
+  "specializations": {
+    "potion_master": {
+      "unlock_level": 30,
+      "description": "Spécialisation dans la création de potions bénéfiques et curatives",
+      "bonuses": {
+        "healing_potion_power": 25.0,
+        "buff_duration": 20.0,
+        "rare_ingredient_chance": 15.0
+      }
+    },
+    "poison_specialist": {
+      "unlock_level": 35,
+      "description": "Spécialisation dans la création de poisons et substances nocives",
+      "bonuses": {
+        "poison_damage": 30.0,
+        "stealth_application": 25.0,
+        "antidote_resistance": 20.0
+      }
+    },
+    "grand_alchemist": {
+      "unlock_level": 50,
+      "description": "Maîtrise ultime de l'alchimie permettant les transmutations philosophales",
+      "bonuses": {
+        "transmutation_efficiency": 40.0,
+        "philosophers_stone": true,
+        "universal_solvent": true
+      }
+    }
+  },
+  "unlocked_recipes": {
+    "5": [
+      "basic_potion",
+      "simple_poison",
+      "herb_extract"
+    ],
+    "10": [
+      "healing_potion",
+      "mana_potion",
+      "antidote"
+    ],
+    "15": [
+      "strength_elixir",
+      "agility_potion",
+      "invisibility_potion"
+    ],
+    "20": [
+      "greater_healing",
+      "mana_elixir",
+      "truth_serum"
+    ],
+    "25": [
+      "phoenix_potion",
+      "dragon_elixir",
+      "love_potion"
+    ],
+    "30": [
+      "legendary_potions",
+      "mythical_elixirs",
+      "cursed_poisons"
+    ],
+    "40": [
+      "divine_essences",
+      "celestial_brews",
+      "reality_potions"
+    ],
+    "50": [
+      "godly_ambrosia",
+      "universal_pantheons",
+      "essence_of_creation"
+    ]
+  },
+  "lineage_synergies": {
+    "mage": {
+      "potion_crafting": 1.4,
+      "magical_ingredients": 1.3
+    },
+    "rogue": {
+      "poison_crafting": 1.5,
+      "stealth_potions": 1.4
+    },
+    "druid": {
+      "natural_alchemy": 1.6,
+      "herb_lore": 1.5
+    }
+  },
+  "enabled": true,
+  "template_type": "skill",
+  "version": "0.1.0"
+}

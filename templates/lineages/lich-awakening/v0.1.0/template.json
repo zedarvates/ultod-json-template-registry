@@ -1,0 +1,127 @@
+{
+  "id": "lich_awakening",
+  "name": "Lich Awakening",
+  "description": "Ancient lich bloodline awakening, transforming the caster into an immortal being of pure necrotic energy",
+  "icon": "lineage/lich/lich_awakening.png",
+  "rarity": "legendary",
+  "required_level": 40,
+  "awakening_cost": {
+    "mana": 1500,
+    "health": 800,
+    "items": {
+      "phylactery_crystal": 1,
+      "soul_gem_legendary": 3,
+      "lich_phylactery": 1
+    }
+  },
+  "stat_bonuses": {
+    "health": 35,
+    "strength": 5,
+    "dexterity": 5,
+    "intelligence": 40,
+    "wisdom": 35,
+    "charisma": 0
+  },
+  "resistance_bonuses": {
+    "shadow": 30,
+    "necrotic": 50,
+    "poison": 25,
+    "holy": -20,
+    "physical": 15
+  },
+  "skill_bonuses": {
+    "necrotic_magic": 0.4,
+    "shadow_magic": 0.35,
+    "summoning": 0.45
+  },
+  "passive_abilities": [
+    {
+      "id": "lich_immortality",
+      "name": "Lich Immortality",
+      "description": "Cannot die while phylactery exists, resurrect at 50% health",
+      "cooldown": 300000,
+      "effects": {
+        "immortal": true,
+        "resurrection_health_percent": 50,
+        "phylactery_required": true
+      }
+    },
+    {
+      "id": "necrotic_aura",
+      "name": "Necrotic Aura",
+      "description": "Enemies within 8 meters take shadow damage and have reduced healing",
+      "damage_per_second": 25,
+      "healing_reduction": 30,
+      "radius": 8.0
+    }
+  ],
+  "awakening_bonuses": {
+    "duration_minutes": 45,
+    "stat_multipliers": {
+      "intelligence": 2.0,
+      "wisdom": 1.8,
+      "health": 1.5
+    },
+    "special_effects": [
+      "lich_transformation",
+      "phylactery_shield",
+      "necrotic_immunity",
+      "fear_aura"
+    ]
+  },
+  "transformation_effects": {
+    "visual": {
+      "model": "lich_form",
+      "skin": "lich_skin",
+      "eyes": "lich_glow",
+      "particles": "lich_aura"
+    },
+    "abilities": [
+      {
+        "id": "finger_of_death",
+        "name": "Finger of Death",
+        "description": "Instantly kills an enemy under 20% health",
+        "cooldown": 60000,
+        "mana_cost": 200,
+        "range": 20.0
+      },
+      {
+        "id": "lich_drain",
+        "name": "Lich Drain",
+        "description": "Drains life from all enemies in area, healing the lich",
+        "cooldown": 25000,
+        "mana_cost": 150,
+        "radius": 12.0,
+        "damage": 100,
+        "heal_percent": 50
+      }
+    ],
+    "spell_modifiers": {
+      "necrotic_damage": 1.5,
+      "mana_cost_reduction": 0.7,
+      "cast_speed": 1.3
+    }
+  },
+  "phylactery_system": {
+    "phylactery_health": 1000,
+    "phylactery_regeneration": 5,
+    "phylactery_destruction_penalty": {
+      "experience_loss": 20,
+      "item_drop_chance": 50,
+      "temporary_debuffs": [
+        "lich_weakness",
+        "mortal_coil"
+      ]
+    },
+    "phylactery_respawn_time": 300000
+  },
+  "racial_synergies": {
+    "undead": 1.8,
+    "lich": 2.0,
+    "death_knight": 1.6,
+    "vampire": 1.4
+  },
+  "enabled": true,
+  "template_type": "lineage",
+  "version": "0.1.0"
+}

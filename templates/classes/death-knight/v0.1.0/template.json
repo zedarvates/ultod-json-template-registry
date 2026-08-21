@@ -1,0 +1,80 @@
+{
+  "id": "death_knight",
+  "name": "Death Knight",
+  "description": "An undead warrior raised from death to serve as a harbinger of doom",
+  "color": "C41F3B",
+  "primary_resource": "runic_power",
+  "base_stats": {
+    "strength": 20,
+    "agility": 10,
+    "intelligence": 8,
+    "vitality": 20,
+    "wisdom": 8,
+    "charisma": 14
+  },
+  "specializations": [
+    "blood",
+    "frost_dk",
+    "unholy"
+  ],
+  "starting_skills": [
+    {
+      "id": 10001,
+      "name": "Death Strike",
+      "description": "A deadly attack that heals based on damage dealt",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 5.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 10002,
+      "name": "Death Coil",
+      "description": "Deals shadow damage and heals the Death Knight",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 30.0,
+      "cast_time": 0,
+      "learned_at_level": 4,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 100001,
+            "name": "Butchery",
+            "description": "Increases critical strike damage by 5%",
+            "max_rank": 5,
+            "icon_path": "talents/death_knight/butchery.png"
+          },
+          {
+            "id": 100002,
+            "name": "Blade Barrier",
+            "description": "Reduces damage taken by 2%",
+            "max_rank": 3,
+            "icon_path": "talents/death_knight/blade_barrier.png"
+          },
+          {
+            "id": 100003,
+            "name": "Runic Power Mastery",
+            "description": "Increases maximum runic power by 10",
+            "max_rank": 2,
+            "icon_path": "talents/death_knight/runic_power_mastery.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100,
+  "health_modifier": 1.25,
+  "damage_modifier": 1.1,
+  "armor_modifier": 1.4,
+  "template_type": "class",
+  "version": "0.1.0"
+}

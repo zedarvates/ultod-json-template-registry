@@ -1,0 +1,75 @@
+{
+  "id": "herbalism",
+  "name": "Herboristerie",
+  "description": "Art de récolter et identifier les plantes médicinales et magiques",
+  "icon": "herbalism_icon",
+  "category": "gathering",
+  "rarity": "common",
+  "base_skill": 0,
+  "max_skill": 120,
+  "skill_gain_rate": 1.0,
+  "attributes": {
+    "primary": "wisdom",
+    "secondary": "intelligence"
+  },
+  "gathering_tools": [
+    "herbalists_knife",
+    "mortar_pestle",
+    "collection_basket"
+  ],
+  "abilities": [
+    {
+      "name": "récolte_double",
+      "description": "Chance de récolter deux fois plus de plantes",
+      "unlock_level": 20,
+      "double_chance": 25
+    },
+    {
+      "name": "identification",
+      "description": "Identifie automatiquement les propriétés des plantes",
+      "unlock_level": 40,
+      "identify_chance": 100
+    },
+    {
+      "name": "récolte_sélective",
+      "description": "Peut choisir quelles parties de la plante récolter",
+      "unlock_level": 70,
+      "selective_harvest": true,
+      "quality_bonus": 20
+    }
+  ],
+  "bonuses": {
+    "find_chance": 15,
+    "quality_bonus": 10,
+    "rare_herb_chance": 5
+  },
+  "requirements": {
+    "level": 1,
+    "wisdom": 15
+  },
+  "training_methods": [
+    "field_study",
+    "apothecary_assistance",
+    "wildcrafting"
+  ],
+  "mastery_bonuses": {
+    "level_50": {
+      "gathering_speed": 1.3,
+      "rare_find_chance": 15
+    },
+    "level_100": {
+      "master_alchemist": true,
+      "perfect_identification": true
+    }
+  },
+  "gathered_resources": [
+    "healing_herb",
+    "mana_crystal",
+    "poison_ivy",
+    "dreamfoil",
+    "sungrass",
+    "adapted_reference"
+  ],
+  "version": "0.1.0",
+  "template_type": "skill"
+}

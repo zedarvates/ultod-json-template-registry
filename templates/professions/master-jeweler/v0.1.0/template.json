@@ -1,0 +1,516 @@
+{
+  "profession_id": "master_jeweler",
+  "name": "Master Jeweler",
+  "display_name": "Maître Joaillier",
+  "description": "Maîtrise ultime de la création de bijoux et de gemmes enchantées",
+  "base_skill": "jewelry",
+  "tier": "master",
+  "skill_requirement": 85,
+  "experience_requirement": 55000,
+  "icon": "profession_jewelry_master",
+  "category": "crafting",
+  "subcategory": "gem_crafting",
+  "skill_progression": {
+    "formula": "jewelry_level * (1 + 0.12 * mastery_tier + 0.08 * specialization_level)",
+    "mastery_levels": [
+      "apprentice",
+      "journeyman",
+      "expert",
+      "master"
+    ],
+    "tier_requirements": {
+      "apprentice": {
+        "level": 1,
+        "talent_points": 0
+      },
+      "journeyman": {
+        "level": 23,
+        "talent_points": 5
+      },
+      "expert": {
+        "level": 43,
+        "talent_points": 10
+      },
+      "master": {
+        "level": 63,
+        "talent_points": 15
+      }
+    },
+    "practice_benefits": {
+      "crafting_speed": 0.14,
+      "gem_quality": 0.1,
+      "success_rate": 0.12,
+      "discovery_chance": 0.08
+    },
+    "decay_mechanic": {
+      "enabled": true,
+      "rate": 0.006,
+      "minimum_level": 30,
+      "recovery_rate": 0.014
+    }
+  },
+  "talent_tree": {
+    "total_points": 18,
+    "branches": {
+      "gem_cutting": {
+        "name": "Taille des Gemmes",
+        "max_points": 5,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Coupe Précise",
+            "max_rank": 3,
+            "effects": {
+              "cutting_speed": 0.17,
+              "gem_quality": 0.14,
+              "success_rate": 0.1
+            },
+            "prerequisites": [],
+            "description": "Techniques précises de taille des gemmes"
+          },
+          {
+            "name": "Gemmes Parfaites",
+            "max_rank": 2,
+            "effects": {
+              "perfection_bonus": 0.23,
+              "value_multiplier": 0.2,
+              "rare_gem_chance": 0.17
+            },
+            "prerequisites": [
+              "Coupe Précise_2"
+            ],
+            "description": "Création de gemmes d'une perfection absolue"
+          }
+        ]
+      },
+      "metal_working": {
+        "name": "Travail des Métaux Précieux",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Forge des Métaux",
+            "max_rank": 2,
+            "effects": {
+              "metal_quality": 0.26,
+              "durability_bonus": 0.22,
+              "precious_metal_efficiency": 0.19
+            },
+            "prerequisites": [],
+            "description": "Maîtrise du travail des métaux précieux"
+          },
+          {
+            "name": "Alliages Légendaires",
+            "max_rank": 2,
+            "effects": {
+              "legendary_alloys": true,
+              "magical_conduction": 0.32,
+              "resistance_enhancement": 0.28
+            },
+            "prerequisites": [
+              "Forge des Métaux_1"
+            ],
+            "description": "Création d'alliages aux propriétés légendaires"
+          }
+        ]
+      },
+      "enchantment_integration": {
+        "name": "Intégration d'Enchantements",
+        "max_points": 5,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Gemmes Enchantées",
+            "max_rank": 3,
+            "effects": {
+              "enchantment_power": 0.25,
+              "magical_stability": 0.21,
+              "spell_amplification": 0.18
+            },
+            "prerequisites": [],
+            "description": "Intégration d'enchantements dans les gemmes"
+          },
+          {
+            "name": "Bijoux Magiques",
+            "max_rank": 2,
+            "effects": {
+              "permanent_enchantments": true,
+              "buff_amplification": 0.35,
+              "curse_warding": 0.3
+            },
+            "prerequisites": [
+              "Gemmes Enchantées_2"
+            ],
+            "description": "Création de bijoux aux enchantements permanents"
+          }
+        ]
+      },
+      "legendary_craftsmanship": {
+        "name": "Artisanat Légendaire",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Trésor Royal",
+            "max_rank": 1,
+            "effects": {
+              "royal_jewelry": true,
+              "quality_multiplier": 0.5,
+              "reputation_bonus": 0.4
+            },
+            "prerequisites": [
+              "Gemmes Parfaites_2",
+              "Alliages Légendaires_2"
+            ],
+            "description": "Capacité à créer des trésors royaux"
+          },
+          {
+            "name": "Joyau Divin",
+            "max_rank": 1,
+            "effects": {
+              "divine_gem": true,
+              "godly_power": 0.7,
+              "blessing_aura": true
+            },
+            "prerequisites": [
+              "Trésor Royal"
+            ],
+            "description": "Création de joyaux bénis par les dieux"
+          },
+          {
+            "name": "Couronne des Rois",
+            "max_rank": 1,
+            "effects": {
+              "crown_creation": true,
+              "leadership_aura": true,
+              "legendary_creation": true
+            },
+            "prerequisites": [
+              "Joyau Divin"
+            ],
+            "description": "Forge de couronnes pour les souverains légendaires"
+          },
+          {
+            "name": "Maître Joaillier",
+            "max_rank": 1,
+            "effects": {
+              "perfect_craftsmanship": true,
+              "mythic_jewelry": true,
+              "artifact_creation": true
+            },
+            "prerequisites": [
+              "Couronne des Rois"
+            ],
+            "description": "Maîtrise ultime de l'art de la joaillerie"
+          }
+        ]
+      }
+    }
+  },
+  "specialization_paths": {
+    "gem_cutter": {
+      "name": "Tailleur de Gemmes",
+      "requirements": {
+        "jewelry_level": 40,
+        "gem_cutting_points": 5,
+        "completed_quests": 2
+      },
+      "bonuses": {
+        "gem_quality": 25.0,
+        "cutting_speed": 18.0,
+        "rare_gem_chance": 15.0,
+        "perfection_bonus": 0.3,
+        "value_multiplier": 0.25
+      },
+      "unlock_recipes": [
+        "gemme_parfaite",
+        "diamant_rose",
+        "rubis_sanglant",
+        "saphir_etoile"
+      ],
+      "unlock_abilities": [
+        "coupe_perfection",
+        "evaluation_gemme",
+        "taille_specialisee"
+      ],
+      "synergies": {
+        "mining": {
+          "multiplier": 1.4,
+          "effects": [
+            "gem_discovery",
+            "quality_enhancement"
+          ]
+        },
+        "enchanter": {
+          "multiplier": 1.5,
+          "effects": [
+            "magical_gems",
+            "enchantment_amplification"
+          ]
+        }
+      }
+    },
+    "metal_smith": {
+      "name": "Forgeron des Métaux",
+      "requirements": {
+        "jewelry_level": 45,
+        "metal_working_points": 4,
+        "completed_quests": 2
+      },
+      "bonuses": {
+        "metal_quality": 28.0,
+        "durability_bonus": 25.0,
+        "precious_metal_efficiency": 20.0,
+        "legendary_alloys": 30.0,
+        "resistance_enhancement": 0.35
+      },
+      "unlock_recipes": [
+        "alliance_legendaire",
+        "couronne_royale",
+        "armure_jewellee",
+        "artefact_metal"
+      ],
+      "unlock_abilities": [
+        "forge_precieuse",
+        "alliage_magique",
+        "renforcement_metal"
+      ],
+      "synergies": {
+        "blacksmith": {
+          "multiplier": 1.6,
+          "effects": [
+            "metal_synergy",
+            "alloy_creation"
+          ]
+        },
+        "enchanter": {
+          "multiplier": 1.4,
+          "effects": [
+            "magical_metals",
+            "conductivity_boost"
+          ]
+        }
+      }
+    },
+    "enchanted_jeweler": {
+      "name": "Joaillier Enchanté",
+      "requirements": {
+        "jewelry_level": 50,
+        "enchantment_integration_points": 5,
+        "completed_quests": 3
+      },
+      "bonuses": {
+        "enchantment_power": 35.0,
+        "magical_stability": 30.0,
+        "spell_amplification": 25.0,
+        "permanent_enchantments": 40.0,
+        "curse_warding": 0.45
+      },
+      "unlock_recipes": [
+        "bijou_ensorcele",
+        "amulette_protection",
+        "bague_pouvoir",
+        "collier_magique"
+      ],
+      "unlock_abilities": [
+        "enchantement_permanent",
+        "stabilisation_magique",
+        "amplification_sort"
+      ],
+      "synergies": {
+        "enchanter": {
+          "multiplier": 1.8,
+          "effects": [
+            "jewelry_enchantment",
+            "magical_synergy"
+          ]
+        },
+        "alchemist": {
+          "multiplier": 1.3,
+          "effects": [
+            "gem_potions",
+            "magical_infusions"
+          ]
+        }
+      }
+    },
+    "legendary_artificer": {
+      "name": "Artificier Légendaire",
+      "requirements": {
+        "jewelry_level": 70,
+        "legendary_craftsmanship_points": 4,
+        "completed_specializations": 3,
+        "master_achievements": 4
+      },
+      "bonuses": {
+        "legendary_jewelry": 60.0,
+        "quality_multiplier": 50.0,
+        "godly_power": 45.0,
+        "perfect_craftsmanship": 40.0,
+        "artifact_creation": true
+      },
+      "unlock_recipes": [
+        "joyau_divin",
+        "couronne_legendaire",
+        "artefact_mythique",
+        "bijou_eternel"
+      ],
+      "unlock_abilities": [
+        "creation_divine",
+        "pouvoir_godly",
+        "artisanat_parfait",
+        "artefact_eternel"
+      ],
+      "synergies": {
+        "enchanter": {
+          "multiplier": 2.0,
+          "effects": [
+            "legendary_enchantments",
+            "divine_synergy"
+          ]
+        },
+        "blacksmith": {
+          "multiplier": 1.7,
+          "effects": [
+            "artifact_forging",
+            "legendary_synergy"
+          ]
+        }
+      }
+    }
+  },
+  "abilities": [
+    "master_jewelry",
+    "gem_cutting",
+    "metal_working",
+    "enchantment_integration",
+    "legendary_jewelry",
+    "divine_gems",
+    "royal_treasures",
+    "perfect_craftsmanship"
+  ],
+  "quests": [
+    {
+      "id": "jeweler_apprentice",
+      "name": "L'Apprenti Joaillier",
+      "requirements": {
+        "jewelry_level": 1,
+        "cut_gems": 15,
+        "craft_jewelry": 10,
+        "gather_materials": 25
+      },
+      "rewards": [
+        "basic_jewelry_kit",
+        "apprentice_talent_points",
+        "basic_gem_recipes"
+      ]
+    },
+    {
+      "id": "jeweler_journeyman",
+      "name": "Le Joaillier Voyageur",
+      "requirements": {
+        "jewelry_level": 23,
+        "cut_gems": 100,
+        "craft_jewelry": 75,
+        "create_enchanted": 10,
+        "discover_recipes": 5
+      },
+      "rewards": [
+        "journeyman_jewelry_kit",
+        "journeyman_talent_points",
+        "advanced_gem_recipes"
+      ]
+    },
+    {
+      "id": "jeweler_master",
+      "name": "Le Maître des Gemmes",
+      "requirements": {
+        "jewelry_level": 63,
+        "cut_gems": 600,
+        "craft_jewelry": 450,
+        "create_legendary": 20,
+        "master_achievements": 3
+      },
+      "rewards": [
+        "master_jewelry_kit",
+        "master_talent_points",
+        "legendary_gem_recipes",
+        "legendary_craftsmanship_abilities"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "first_gem",
+      "name": "Première Gemme",
+      "requirement": {
+        "cut_gems": 1
+      },
+      "rewards": [
+        "basic_gem_recipe",
+        "5_copper_coins"
+      ]
+    },
+    {
+      "id": "perfect_cut",
+      "name": "Coupe Parfaite",
+      "requirement": {
+        "perfect_gems": 25
+      },
+      "rewards": [
+        "gem_cutting_specialization",
+        "250_silver_coins",
+        "gem_value_bonus"
+      ]
+    },
+    {
+      "id": "legendary_jewel",
+      "name": "Joyau Légendaire",
+      "requirement": {
+        "legendary_jewelry": 15
+      },
+      "rewards": [
+        "legendary_jeweler",
+        "10000_gold_coins",
+        "market_reputation",
+        "legendary_jeweler_title"
+      ]
+    }
+  ],
+  "market_integration": {
+    "quality_multipliers": {
+      "common": 1.0,
+      "fine": 1.8,
+      "superior": 2.6,
+      "exquisite": 4.2,
+      "masterwork": 8.5,
+      "legendary": 17.0,
+      "mythic": 40.0
+    },
+    "reputation_bonuses": {
+      "local_jeweler": 1.0,
+      "town_craftsman": 1.4,
+      "regional_expert": 1.8,
+      "national_master": 2.5,
+      "world_famous": 4.0
+    },
+    "supply_demand": {
+      "gems": {
+        "volatility": 0.2,
+        "trend": "high_demand"
+      },
+      "jewelry": {
+        "volatility": 0.18,
+        "trend": "luxury_market"
+      },
+      "legendary_items": {
+        "volatility": 0.35,
+        "trend": "rare_supply"
+      }
+    }
+  },
+  "enabled": true,
+  "id": "master_jeweler",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

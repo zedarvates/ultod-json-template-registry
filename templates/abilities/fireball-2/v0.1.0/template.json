@@ -1,0 +1,33 @@
+{
+  "id": "fireball",
+  "name": "Boule de Feu",
+  "description": "Lance une boule de feu puissante",
+  "type": "spell",
+  "class_restriction": [
+    "mage",
+    "sorcerer"
+  ],
+  "level_requirement": 5,
+  "resource_cost": {
+    "type": "mana",
+    "amount": 25
+  },
+  "cooldown_seconds": 3,
+  "range": 30.0,
+  "effects": [
+    {
+      "type": "damage",
+      "damage_type": "fire",
+      "base_damage": 45,
+      "scaling": {
+        "intelligence": 0.8,
+        "level": 0.2
+      },
+      "armor_penetration": 0.15,
+      "position_modifiers": null,
+      "required_position": null
+    }
+  ],
+  "template_type": "ability",
+  "version": "0.1.0"
+}

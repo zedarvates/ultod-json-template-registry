@@ -1,0 +1,79 @@
+{
+  "id": "conjuration_spell_0285",
+  "name": "Conjuration Spell 0285",
+  "description": "Invoque un Conjuration Spell 0285 céleste pour protéger et assister un allié",
+  "icon": "conjuration_spell_0285_icon",
+  "school": "conjuration",
+  "rarity": "rare",
+  "spell_type": "angelic_summon",
+  "target_type": "single_ally",
+  "range": 25.0,
+  "cast_time": 3500,
+  "cooldown": 120000,
+  "mana_cost": 120,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "angelic_guard"
+  },
+  "effects": [
+    {
+      "effect_type": "celestial_conjuration_spell_0285",
+      "value": 100,
+      "duration": 45000,
+      "tick_rate": 0,
+      "guardian_health": 500,
+      "auto_defend_range": 10.0,
+      "guardian_damage": 80,
+      "heal_pulse": 30,
+      "maximum_distance": 25.0,
+      "divine_presense": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "heaven_portal_opening",
+    "summon_effect": "angel_descending_with_wings",
+    "active_effect": "conjuration_spell_0285_halo_and_wings",
+    "heal_effect": "holy_healing_rays",
+    "vanish_effect": "angelic_ascension_light"
+  },
+  "sound_effects": {
+    "cast_sound": "heavenly_portal_hum",
+    "summon_sound": "angelic_fanfare_descend",
+    "active_sound": "heavenly_protection_chorus",
+    "heal_sound": "divine_comfort_harmony",
+    "vanish_sound": "angelic_ascension_chime"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [
+      "divine_magic",
+      "celestial_summoning"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "celestial_calling"
+    ]
+  },
+  "upgrades": {
+    "archangel_protection": {
+      "unlock_level": 35,
+      "description": "Invoque un archange plus puissant avec des capacités étendues",
+      "guardian_health_bonus": 300,
+      "divine_shield_projection": true,
+      "mass_healing_bolts": 60
+    },
+    "celestial_legion": {
+      "unlock_level": 45,
+      "description": "Peut invoquer plusieurs anges gardiens pour protéger le groupe",
+      "multiple_guardians": 3,
+      "shared_senses": true,
+      "formation_defense": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

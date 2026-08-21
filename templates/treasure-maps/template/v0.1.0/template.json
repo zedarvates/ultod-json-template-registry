@@ -1,0 +1,29 @@
+{
+  "map_id": "treasure_map_tier_5",
+  "tier_level": 5,
+  "title": "Carte au Trésor Ingénieuse",
+  "decipher_min_skill": 80.0,
+  "dig_radius": 3.0,
+  "guardians_to_spawn": [
+    {
+      "mob_template_id": "ancient_wyrm",
+      "count": 2
+    },
+    {
+      "mob_template_id": "poison_elemental",
+      "count": 3
+    }
+  ],
+  "chest_loot": {
+    "gold_range": [
+      40000,
+      60000
+    ],
+    "items_count": 12,
+    "artifact_chance": 0.35
+  },
+  "id": "template",
+  "name": "Template",
+  "template_type": "treasure_map",
+  "version": "0.1.0"
+}

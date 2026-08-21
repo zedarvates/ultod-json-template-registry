@@ -1,0 +1,64 @@
+{
+  "id": "iron_sword",
+  "name": "Épée en Fer",
+  "description": "Une épée bien équilibrée forgée en acier de qualité",
+  "icon": "iron_sword",
+  "category": "weapon",
+  "rarity": "common",
+  "item_type": "sword",
+  "sub_type": "one_hand",
+  "base_stats": {
+    "durability": 100,
+    "max_durability": 100,
+    "weight": 3.5,
+    "value": 150
+  },
+  "weapon_properties": {
+    "damage": 25,
+    "damage_type": "physical",
+    "attack_speed": 1.2,
+    "range": 1.5,
+    "two_handed": false
+  },
+  "properties": {
+    "stackable": false,
+    "consumable": false,
+    "reusable": true,
+    "soulbound": false,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 3,
+    "strength": 12,
+    "skills": [],
+    "professions": []
+  },
+  "effects": [],
+  "vr_properties": {
+    "grabbable": true,
+    "holster_type": "side_weapon",
+    "grab_points": [
+      {
+        "pos": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "hand": "either"
+      }
+    ],
+    "haptic_feedback": {
+      "on_hit": "hard",
+      "on_grab": "soft"
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "item"
+}

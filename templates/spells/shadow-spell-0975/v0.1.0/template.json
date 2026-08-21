@@ -1,0 +1,54 @@
+{
+  "id": "shadow_spell_0975",
+  "name": "Shadow Spell 0975",
+  "description": "Crée un shadow_spell_0975 Spell 0975 qui attire l'attention des ennemis pendant 15 secondes",
+  "icon": "shadow_spell_0975_spell_0975_icon",
+  "school": "shadow_spell_0975",
+  "rarity": "epic",
+  "spell_type": "utility",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 60000,
+  "mana_cost": 60,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "summon_clone",
+      "value": 1,
+      "duration": 15000,
+      "tick_rate": 0,
+      "clone_health": 100,
+      "clone_damage": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "shadow_spell_0975_burst",
+    "projectile_effect": null,
+    "hit_effect": "clone_appear"
+  },
+  "sound_effects": {
+    "cast_sound": "shadow_spell_0975_echo",
+    "projectile_sound": null,
+    "hit_sound": "duplicate"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [
+      "illusion"
+    ],
+    "classes": [
+      "ninja"
+    ]
+  },
+  "upgrades": {
+    "multiple_clones": {
+      "unlock_level": 35,
+      "description": "Permet de créer plusieurs clones d'ombre",
+      "clone_count_bonus": 1,
+      "duration_bonus": 5000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

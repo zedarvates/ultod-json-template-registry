@@ -1,0 +1,79 @@
+{
+  "id": "restoration_spell_0414",
+  "name": "Restoration Spell 0414",
+  "description": "Un sort de soins naturels qui restaure la santé au fil du temps avec une connexion à la nature",
+  "icon": "restoration_spell_0414_icon",
+  "school": "restoration",
+  "rarity": "common",
+  "spell_type": "nature_healing_over_time",
+  "target_type": "single_ally",
+  "range": 40.0,
+  "cast_time": 1500,
+  "cooldown": 0,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "healing_nature",
+    "scaling": {
+      "wisdom": 1.8,
+      "nature_attunement": 1.2
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "nature_healing_regeneration",
+      "value": 120,
+      "duration": 20000,
+      "tick_rate": 3000,
+      "healing_per_tick": 40,
+      "nature_crit_chance": 0.25,
+      "nature_burst_healing": 80,
+      "max_targets_per_cast": 1,
+      "mana_regen_while_active": 5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "green_nature_energy_flow",
+    "healing_effect": "leaves_vine_growth_around_target",
+    "critical_effect": "bright_nature_explosion_burst",
+    "persistent_effect": "gentle_nature_aura_pulse"
+  },
+  "sound_effects": {
+    "cast_sound": "nature_energy_channeling_hum",
+    "healing_sound": "leaves_growing_crisp_sound",
+    "critical_sound": "nature_power_surge_rush",
+    "persistent_sound": "nature_regeneration_whisper"
+  },
+  "requirements": {
+    "level": 4,
+    "skills": [
+      "nature_magic",
+      "restoration"
+    ],
+    "classes": [
+      "druid",
+      "nature_healer"
+    ],
+    "specializations": [
+      "healing_farmer"
+    ]
+  },
+  "upgrades": {
+    "swiftmend_restoration": {
+      "unlock_level": 12,
+      "description": "Le sort instantanément restaure une partie des dégâts du Restoration Spell 0414 actif",
+      "instant_heal_percent": 60,
+      "cooldown_reduction": 5000,
+      "mana_efficiency_bonus": 15
+    },
+    "lifebloom_nature": {
+      "unlock_level": 22,
+      "description": "Le Restoration Spell 0414 laisse une fleur de vie qui continue à soigner après la fin du sort",
+      "lifebloom_duration": 15000,
+      "bloom_explosive_heal": 200,
+      "group_nature_aura": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

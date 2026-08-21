@@ -1,0 +1,89 @@
+{
+  "id": "assassin_shadow_assault",
+  "name": "Assassin des Ombres",
+  "description": "Se téléporte dans l'ombre pour attaquer par surprise",
+  "ability_type": "active",
+  "category": "stealth",
+  "cooldown": 60000,
+  "energy_cost": 80,
+  "cast_time": 0,
+  "range": 20.0,
+  "target_type": "enemy",
+  "duration": 0,
+  "effects": [
+    {
+      "effect_type": "teleport",
+      "value": 20.0,
+      "duration": 0,
+      "tick_rate": 0,
+      "teleport_type": "shadow_step"
+    },
+    {
+      "effect_type": "stealth",
+      "value": 1.0,
+      "duration": 5000,
+      "tick_rate": 0,
+      "stealth_type": "enhanced"
+    },
+    {
+      "effect_type": "critical_strike",
+      "value": 0.5,
+      "duration": 10000,
+      "tick_rate": 0,
+      "school": "physical"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "shadow_teleport",
+    "impact_effect": "shadow_explosion",
+    "stealth_effect": "shadow_invisibility"
+  },
+  "sound_effects": {
+    "cast_sound": "shadow_teleport",
+    "impact_sound": "shadow_strike",
+    "stealth_sound": "shadow_whisper"
+  },
+  "scaling": {
+    "agility": 1.4,
+    "stealth_mastery": 1.2
+  },
+  "requirements": {
+    "level": 20,
+    "abilities": [
+      "stealth",
+      "backstab"
+    ],
+    "class": "assassin"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "teleport_range": 15.0,
+      "stealth_duration": 3000,
+      "critical_bonus": 0.3
+    },
+    "journeyman": {
+      "teleport_range": 20.0,
+      "stealth_duration": 5000,
+      "critical_bonus": 0.5,
+      "damage_bonus": 0.2
+    },
+    "master": {
+      "teleport_range": 25.0,
+      "stealth_duration": 7500,
+      "critical_bonus": 0.7,
+      "damage_bonus": 0.3,
+      "multi_target": true
+    },
+    "grandmaster": {
+      "teleport_range": 30.0,
+      "stealth_duration": 10000,
+      "critical_bonus": 1.0,
+      "damage_bonus": 0.4,
+      "multi_target": true,
+      "ability_unlock": "shadow_clone"
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

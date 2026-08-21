@@ -1,0 +1,82 @@
+{
+  "id": "beast_mastery_spell_0692",
+  "name": "Beast Mastery Spell 0692",
+  "description": "Envenime l'ennemi avec un poison beast_mastery_spell_0692 fatal qui réduit considérablement leurs soins",
+  "icon": "beast_mastery_spell_0692_icon",
+  "school": "beast_mastery",
+  "rarity": "uncommon",
+  "spell_type": "venom_damage_over_time",
+  "target_type": "single_enemy",
+  "range": 35.0,
+  "cast_time": 0,
+  "cooldown": 2000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 40,
+    "damage_type": "poison_nature_damage",
+    "scaling": {
+      "aim_competence": 1.3,
+      "wildlife_lore": 1.4
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "venomous_snake_poison",
+      "value": 120,
+      "duration": 18000,
+      "tick_rate": 3000,
+      "initial_poison_damage": 40,
+      "dot_damage_per_tick": 20,
+      "healing_received_reduction": 0.4,
+      "mana_regeneration_debuff": 0.5,
+      "antidote_immune_window": 8000,
+      "venom_spread_chance": 0.15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "snake_strike_arrow_envenoming",
+    "poison_effect": "green_venom_bubbles_target_pustules",
+    "damage_effect": "poison_damage_healing_cloud_reduction",
+    "weakness_effect": "beast_mastery_spell_0692_weakness_energy_draining"
+  },
+  "sound_effects": {
+    "cast_effect": "bow_shot_arrow_hiss_sting_impact",
+    "poison_effect": "venom_bubble_pop_hissing_infection",
+    "damage_effect": "poisoned_tissue_rotting_hurt_breaths",
+    "weakness_effect": "mana_drain_hungry_suction_weakness"
+  },
+  "requirements": {
+    "level": 14,
+    "skills": [
+      "beast_mastery",
+      "venom_lore"
+    ],
+    "classes": [
+      "hunter",
+      "venom_caster"
+    ],
+    "specializations": [
+      "poison_master"
+    ]
+  },
+  "upgrades": {
+    "greater_serpent_sting": {
+      "unlock_level": 24,
+      "description": "La Beast Mastery Spell 0692 devient grande avec du poison accru et des effets paralysants",
+      "increased_poison_damage": 60,
+      "paralyzing_neurological_effect": 0.2,
+      "heal_reduction_double": 0.8,
+      "poison_duration_extension": 8000
+    },
+    "corpse_cobra_sting": {
+      "unlock_level": 34,
+      "description": "La Beast Mastery Spell 0692 invoque une cobra nécrotique qui dévore le cadavre si la cible meurt",
+      "corpse_summon_coil": true,
+      "dead_body_consumption": true,
+      "corpse_cobra_attacks_nearby": 40,
+      "corpse_reanimation_prevented": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

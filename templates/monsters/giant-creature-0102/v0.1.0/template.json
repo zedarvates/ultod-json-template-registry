@@ -1,0 +1,63 @@
+{
+  "id": "giant_creature_0102",
+  "name": "Giant Creature 0102",
+  "description": "Géant à deux têtes brutal, armé de massues primitives et doté d'une force prodigieuse",
+  "icon": "giant_creature_0102_icon",
+  "category": "giant",
+  "rarity": "rare",
+  "base_stats": {
+    "health": 1200,
+    "mana": 300,
+    "strength": 130,
+    "dexterity": 40,
+    "intelligence": 25,
+    "wisdom": 35,
+    "constitution": 140,
+    "charisma": 10
+  },
+  "properties": {
+    "size": "large",
+    "speed": 9.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "giant_creature_0102_bone",
+      "primitive_club"
+    ],
+    "rare_drops": [
+      "two_headed_totem",
+      "giant_ring"
+    ],
+    "epic_drops": [
+      "giant_creature_0102_brain",
+      "dual_mind_crystal"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "high",
+    "attack_pattern": "dual_strike",
+    "special_abilities": [
+      "double_attack",
+      "intimidating_dual_roar"
+    ]
+  },
+  "abilities": [
+    "dual_club_slam",
+    "headbutt",
+    "ground_stomp",
+    "dual_roar",
+    "rock_throw",
+    "rage_mode"
+  ],
+  "resistances": {
+    "physical": 50,
+    "mental": 30
+  },
+  "weaknesses": [
+    "magic",
+    "poison",
+    "holy"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

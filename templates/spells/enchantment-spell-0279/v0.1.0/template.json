@@ -1,0 +1,84 @@
+{
+  "id": "enchantment_spell_0279",
+  "name": "Enchantment Spell 0279",
+  "description": "Accorde une Enchantment Spell 0279 qui améliore les capacités des alliés",
+  "icon": "enchantment_spell_0279_icon",
+  "school": "enchantment",
+  "rarity": "common",
+  "spell_type": "enchantment_spell_0279_buff",
+  "target_type": "single_ally",
+  "range": 30.0,
+  "cast_time": 1200,
+  "cooldown": 6000,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "blessed_buff"
+  },
+  "effects": [
+    {
+      "effect_type": "enchantment_spell_0279_enhancement",
+      "value": 100,
+      "duration": 30000,
+      "tick_rate": 0,
+      "attribute_bonuses": {
+        "strength": 3,
+        "constitution": 4,
+        "luck": 2
+      },
+      "resistance_bonuses": {
+        "holy": 0.15,
+        "unholy": 0.1
+      },
+      "divine_aura": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "holy_symbols_rain",
+    "buff_effect": "golden_enchantment_spell_0279_glow",
+    "enhance_effect": "blessed_energy_swirl",
+    "expire_effect": "enchantment_spell_0279_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "blessing_chant",
+    "buff_sound": "enchantment_spell_0279_empowerment_harmony",
+    "enhance_sound": "holy_blessings_resonance",
+    "expire_sound": "blessing_ebb"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "enchantment_spell_0279_magic",
+      "enchantment"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "blesser"
+    ]
+  },
+  "upgrades": {
+    "greater_blessing": {
+      "unlock_level": 12,
+      "description": "La bénédiction améliore considérablement plus d'attributs",
+      "attribute_bonus_multiplier": 1.5,
+      "blessing_area_effect": 10.0,
+      "max_additional_targets": 2
+    },
+    "divine_inspiration": {
+      "unlock_level": 22,
+      "description": "Octroie des compétences enchantment_spell_0279s temporaires",
+      "temporary_divine_skills": [
+        "holy_strike",
+        "enchantment_spell_0279_defense"
+      ],
+      "skill_duration": 5000,
+      "inspiration_glow": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

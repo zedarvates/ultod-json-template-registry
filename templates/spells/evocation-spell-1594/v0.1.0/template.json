@@ -1,0 +1,45 @@
+{
+  "id": "evocation_spell_1594",
+  "name": "Evocation Spell 1594",
+  "description": "Invoque une épée magique qui frappe automatiquement vos ennemis",
+  "icon": "evocation_spell_1594_icon",
+  "school": "evocation",
+  "rarity": "rare",
+  "spell_type": "summon",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 55,
+  "damage": {
+    "base_damage": 20,
+    "damage_type": "force",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "evocation_spell_1594_weapon",
+      "value": 20,
+      "duration": 60000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sword_summon"
+  },
+  "sound_effects": {
+    "cast_sound": "sword_clang"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

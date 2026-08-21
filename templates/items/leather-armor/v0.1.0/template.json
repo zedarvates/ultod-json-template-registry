@@ -1,0 +1,30 @@
+{
+  "id": "leather_armor",
+  "name": "Armure de Cuir",
+  "description": "Armure légère de départ, souple et fiable pour les nouveaux aventuriers.",
+  "icon": "leather_armor",
+  "category": "armor",
+  "rarity": "common",
+  "item_type": "armor",
+  "sub_type": "chest",
+  "base_stats": {
+    "durability": 80,
+    "max_durability": 80,
+    "weight": 4.0,
+    "value": 80
+  },
+  "armor_properties": {
+    "armor_value": 12,
+    "slot": "chest"
+  },
+  "properties": {
+    "stackable": false,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 1
+  },
+  "template_type": "item",
+  "version": "0.1.0"
+}

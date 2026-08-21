@@ -1,0 +1,48 @@
+{
+  "id": "transmutation_spell_1601",
+  "name": "Transmutation Spell 1601",
+  "description": "Crée un puits gravitationnel qui attire et immobilise les ennemis",
+  "icon": "transmutation_spell_1601_icon",
+  "school": "transmutation",
+  "rarity": "epic",
+  "spell_type": "control",
+  "target_type": "area",
+  "range": 27.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 4.5
+  },
+  "effects": [
+    {
+      "effect_type": "gravitational_pull",
+      "value": 0,
+      "duration": 10000,
+      "tick_rate": 0,
+      "strength_save": true,
+      "save_dc": 16,
+      "pull_force": 8
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "transmutation_spell_1601_distortion"
+  },
+  "sound_effects": {
+    "cast_sound": "gravitational_hum"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [
+      "transmutation"
+    ],
+    "classes": [
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

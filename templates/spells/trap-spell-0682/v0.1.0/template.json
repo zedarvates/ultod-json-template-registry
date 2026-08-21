@@ -1,0 +1,84 @@
+{
+  "id": "trap_spell_0682",
+  "name": "Trap Spell 0682",
+  "description": "Place un Trap Spell 0682 qui inflige de lourds dégâts à l'ennemi qui le déclenche",
+  "icon": "trap_spell_0682_icon",
+  "school": "trap",
+  "rarity": "rare",
+  "spell_type": "damage_explosion_trap",
+  "target_type": "place_at_ground",
+  "range": 35.0,
+  "cast_time": 2500,
+  "cooldown": 30000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 250,
+    "damage_type": "explosion_fire_damage",
+    "scaling": {
+      "trap_engineering": 2.0,
+      "explosives_mastery": 1.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "blast_damage_explosion",
+      "value": 250,
+      "duration": 60000,
+      "tick_rate": 0,
+      "trap_disguise_perfect": true,
+      "trigger_radius_medium": 4.0,
+      "initial_blast_damage": 250,
+      "area_explosion_radius": 8.0,
+      "fire_damage_over_time": 50,
+      "knockback_force_moderate": 0.6
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "trap_components_assembling_ground_mechanism",
+    "arm_effect": "ground_subtle_disturbance_concealed_trap",
+    "trigger_effect": "massive_explosion_fire_ball_eruption",
+    "damage_effect": "area_blast_wave_fire_damage_ripples",
+    "fade_effect": "smoke_clearing_burnt_ground_leftover"
+  },
+  "sound_effects": {
+    "cast_effect": "trap_mechanism_clicking_final_arm",
+    "arm_effect": "trap_hidden_stealth_placement_noiseless",
+    "trigger_effect": "huge_explosion_boom_shockwave_impact",
+    "damage_effect": "fire_crackling_damage_continuous_burn",
+    "fade_effect": "explosion_echoes_fading_smoke_hiss"
+  },
+  "requirements": {
+    "level": 24,
+    "skills": [
+      "trap_crafting",
+      "trap_spell_0682s"
+    ],
+    "classes": [
+      "hunter",
+      "demolitions_expert"
+    ],
+    "specializations": [
+      "trap_spell_0682s_expert"
+    ]
+  },
+  "upgrades": {
+    "chain_reaction_trap": {
+      "unlock_level": 34,
+      "description": "Le Trap Spell 0682 peut créer des réactions en chaîne avec d'autres pièges",
+      "chain_explosion_radius": 15.0,
+      "multi_trap_triggering": 5,
+      "increased_damage_per_hit": 100,
+      "explosion_velocity_chain": 2.0
+    },
+    "cataclysmic_trap": {
+      "unlock_level": 44,
+      "description": "Le Trap Spell 0682 devient cataclysmique, affectant toute la zone avec destruction totale",
+      "zone_annihilation_power": 800,
+      "terrain_deforming_explosion": true,
+      "permanent_terrain_alteration": true,
+      "reality_tearing_aftershock": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,125 @@
+{
+  "id": "feline",
+  "name": "Feline",
+  "description": "Graceful humanoid felines with cat-like features, exceptional agility and natural stealth",
+  "icon": "races/feline_icon.png",
+  "category": "playable",
+  "rarity": "rare",
+  "faction": "alliance",
+  "base_stats": {
+    "strength": 10,
+    "dexterity": 16,
+    "constitution": 9,
+    "intelligence": 11,
+    "wisdom": 10,
+    "charisma": 12,
+    "luck": 13
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 1.1,
+    "experience_rate": 1.0,
+    "health_regeneration": 0.9,
+    "stealth_bonus": 1.4,
+    "acrobatics": 1.3,
+    "luck_bonus": 1.2
+  },
+  "available_classes": [
+    "rogue",
+    "guardian",
+    "mage",
+    "basilisk",
+    "ranger",
+    "druid"
+  ],
+  "body_proportions": {
+    "average_height": 1.7,
+    "average_build": 0.85,
+    "max_height": 1.9,
+    "min_height": 1.5,
+    "max_build": 1.1,
+    "min_build": 0.7
+  },
+  "appearance_restrictions": {
+    "allowed_skin_colors": [
+      {
+        "min_r": 0.8,
+        "max_r": 1.0,
+        "min_g": 0.6,
+        "max_g": 0.9,
+        "min_b": 0.4,
+        "max_b": 0.7
+      },
+      {
+        "min_r": 0.6,
+        "max_r": 0.9,
+        "min_g": 0.4,
+        "max_g": 0.7,
+        "min_b": 0.2,
+        "max_b": 0.5
+      }
+    ],
+    "allowed_hair_colors": [
+      {
+        "min_r": 0.1,
+        "max_r": 0.4,
+        "min_g": 0.1,
+        "max_g": 0.4,
+        "min_b": 0.1,
+        "max_b": 0.4
+      },
+      {
+        "min_r": 0.8,
+        "max_r": 1.0,
+        "min_g": 0.6,
+        "max_g": 0.9,
+        "min_b": 0.4,
+        "max_b": 0.7
+      },
+      {
+        "min_r": 0.9,
+        "max_r": 1.0,
+        "min_g": 0.8,
+        "max_g": 1.0,
+        "min_b": 0.1,
+        "max_b": 0.3
+      }
+    ]
+  },
+  "racial_traits": [
+    "feline_grace",
+    "feline_night_vision",
+    "feline_acrobatics",
+    "feline_claws",
+    "feline_luck"
+  ],
+  "passive_bonuses": {
+    "agility_bonus": 1.2,
+    "stealth_bonus": 1.25,
+    "night_vision_range": 1.3,
+    "jump_height": 1.4,
+    "fall_damage_reduction": 1.3,
+    "luck_bonus": 1.15
+  },
+  "starting_equipment": {
+    "weapon": "feline_daggers",
+    "armor": "leather_armor",
+    "gold": 110
+  },
+  "cultural_background": {
+    "languages": [
+      "common",
+      "feline"
+    ],
+    "starting_city": "jungle_city",
+    "alignment_tendency": "neutral_good",
+    "cultural_bonuses": {
+      "stealth": 18,
+      "acrobatics": 20,
+      "luck": 15,
+      "animal_kinship": 12,
+      "night_vision": 10
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "race"
+}

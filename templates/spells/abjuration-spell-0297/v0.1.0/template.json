@@ -1,0 +1,79 @@
+{
+  "id": "abjuration_spell_0297",
+  "name": "Abjuration Spell 0297",
+  "description": "Crée un Abjuration Spell 0297 sacré qui protège tous les alliés à l'intérieur et bannit les ennemis",
+  "icon": "abjuration_spell_0297_icon",
+  "school": "abjuration",
+  "rarity": "legendary",
+  "spell_type": "sanctified_zone",
+  "target_type": "area_effect",
+  "range": 50.0,
+  "cast_time": 6000,
+  "cooldown": 120000,
+  "mana_cost": 200,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "abjuration_spell_0297_protection"
+  },
+  "effects": [
+    {
+      "effect_type": "divine_abjuration_spell_0297_zone",
+      "value": 800,
+      "duration": 30000,
+      "tick_rate": 2000,
+      "sanctuary_radius": 25.0,
+      "enemy_entry_prevention": true,
+      "ally_damage_absorption": 0.7,
+      "holy_damage_to_intruders": 80,
+      "sanctuary_purification": true,
+      "divine_healing_aura": 40
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "abjuration_spell_0297_crystal_construct",
+    "zone_effect": "golden_barrier_dome",
+    "protection_effect": "divine_energy_ripples",
+    "purify_effect": "corruption_burn_away",
+    "expire_effect": "abjuration_spell_0297_dissolve_gentle"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_abjuration_spell_0297_form",
+    "zone_sound": "divine_protection_pulse",
+    "protection_sound": "barrier_energy_hum",
+    "purify_sound": "corruption_cleared_chime",
+    "expire_sound": "abjuration_spell_0297_fade_echo"
+  },
+  "requirements": {
+    "level": 45,
+    "skills": [
+      "divine_magic",
+      "abjuration_spell_0297_creation"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "abjuration_spell_0297_master"
+    ]
+  },
+  "upgrades": {
+    "cathedral_sanctuary": {
+      "unlock_level": 55,
+      "description": "Le Abjuration Spell 0297 devient une véritable cathédrale avec des défenses avancées",
+      "cathedral_form": true,
+      "guardian_angel_summon": true,
+      "sanctuary_teleport_safe": true
+    },
+    "eternal_sanctuary": {
+      "unlock_level": 65,
+      "description": "Le Abjuration Spell 0297 devient permanent et étend son influence",
+      "permanent_duration": true,
+      "influence_expansion": 50.0,
+      "divine_domain_creation": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

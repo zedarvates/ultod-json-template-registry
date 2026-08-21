@@ -1,0 +1,57 @@
+{
+  "id": "rogue_spell_1211",
+  "name": "Rogue Spell 1211",
+  "description": "Lance un rogue_spell_1211 qui inflige des dégâts physiques à distance",
+  "icon": "rogue_spell_1211_icon",
+  "school": "rogue",
+  "rarity": "common",
+  "spell_type": "ranged_attack",
+  "target_type": "enemy",
+  "range": 30.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "energy_cost": 40,
+  "damage": {
+    "base_damage": 42,
+    "damage_type": "physical"
+  },
+  "effects": [
+    {
+      "effect_type": "rogue_spell_1211_damage",
+      "value": 42,
+      "duration": 0,
+      "tick_rate": 0,
+      "crit_multiplier": 2.0,
+      "bleed_damage": 12,
+      "bleed_duration": 6000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "throw_star",
+    "attack_effect": "spinning_blade",
+    "impact_effect": "bleeding_cut"
+  },
+  "sound_effects": {
+    "cast_sound": "blade_throw",
+    "attack_sound": "whistle_throw",
+    "impact_sound": "thud_hit"
+  },
+  "requirements": {
+    "level": 9,
+    "skills": [
+      "throwing_weapons"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_shuriken_toss": {
+      "unlock_level": 18,
+      "description": "Augmente les dégâts de 25%",
+      "damage_multiplier": 1.25
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

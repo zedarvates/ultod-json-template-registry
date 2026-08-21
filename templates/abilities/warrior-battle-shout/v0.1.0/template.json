@@ -1,0 +1,76 @@
+{
+  "id": "warrior_battle_shout",
+  "name": "Cri de Guerre",
+  "description": "Un cri puissant qui inspire les alliés et intimide les ennemis",
+  "icon": "battle_shout_icon",
+  "category": "support",
+  "rarity": "common",
+  "ability_type": "aoe_buff",
+  "target_type": "area_allies",
+  "range": 12.0,
+  "cast_time": 1000,
+  "cooldown": 20000,
+  "resource_cost": {
+    "type": "rage",
+    "amount": 25
+  },
+  "duration": 12000,
+  "effects": [
+    {
+      "effect_type": "damage_boost",
+      "value": 15,
+      "scaling": {
+        "charisma": 0.3
+      }
+    },
+    {
+      "effect_type": "morale_boost",
+      "value": 20,
+      "scaling": {
+        "strength": 0.4
+      }
+    },
+    {
+      "effect_type": "fear_aoe",
+      "value": 15,
+      "duration": 5000,
+      "tick_rate": 0,
+      "scaling": {
+        "charisma": 0.5
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "shout_wave",
+    "active_effect": "inspiration_aura",
+    "end_effect": "echo_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "warrior_shout",
+    "active_sound": "battle_cry_echo",
+    "end_sound": "inspiration_fade"
+  },
+  "requirements": {
+    "level": 5,
+    "class": "warrior",
+    "skills": [
+      "battle_shout"
+    ]
+  },
+  "upgrades": {
+    "commanding_presence": {
+      "unlock_level": 15,
+      "description": "Augmente la portée et la durée du cri",
+      "range_bonus": 5.0,
+      "duration_bonus": 4000
+    },
+    "terrifying_roar": {
+      "unlock_level": 30,
+      "description": "Augmente l'effet d'intimidation",
+      "fear_bonus": 10,
+      "stun_chance": 15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

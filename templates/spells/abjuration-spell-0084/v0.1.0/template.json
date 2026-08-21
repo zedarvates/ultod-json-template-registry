@@ -1,0 +1,82 @@
+{
+  "id": "abjuration_spell_0084",
+  "name": "Abjuration Spell 0084",
+  "description": "Le barde crée une harmonie protectrice qui absorbe les dégâts et protège contre les effets néfastes",
+  "icon": "abjuration_spell_0084_icon",
+  "school": "abjuration",
+  "rarity": "uncommon",
+  "spell_type": "abjuration_spell_0084_buff",
+  "target_type": "single_ally",
+  "range": 40.0,
+  "cast_time": 1500,
+  "cooldown": 12000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "damage_absorption",
+      "value": 500,
+      "duration": 20000,
+      "tick_rate": 0,
+      "absorption_capacity": 500,
+      "damage_reduction_percent": 15
+    },
+    {
+      "effect_type": "status_immunity",
+      "value": 100,
+      "duration": 20000,
+      "tick_rate": 0,
+      "immunity_types": [
+        "stun",
+        "slow",
+        "fear"
+      ],
+      "debuff_resistance": 0.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "harmonious_protection_orb",
+    "buff_effect": "floating_musical_notes_shield",
+    "expire_effect": "shield_crackling_dissolve"
+  },
+  "sound_effects": {
+    "cast_sound": "protective_chorus_build",
+    "buff_sound": "gentle_protection_harmony",
+    "expire_sound": "shield_breaking_chime"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "performance",
+      "abjuration",
+      "music_magic"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour"
+    ]
+  },
+  "upgrades": {
+    "fortress_symmetry": {
+      "unlock_level": 20,
+      "description": "Le bouclier absorbe plus et protège contre plus d'effets",
+      "absorption_capacity_bonus": 300,
+      "immunity_types_additional": [
+        "poison",
+        "bleed"
+      ]
+    },
+    "grand_protection": {
+      "unlock_level": 30,
+      "description": "Peut protéger plusieurs alliés simultanément",
+      "max_targets": 4,
+      "duration_bonus": 10000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

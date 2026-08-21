@@ -1,0 +1,89 @@
+{
+  "id": "paladin_aura_of_courage",
+  "name": "Aura de Courage",
+  "description": "Entoure les alliés d'une aura de courage qui inspire la bravoure",
+  "ability_type": "active",
+  "category": "support",
+  "cooldown": 120000,
+  "mana_cost": 90,
+  "cast_time": 3500,
+  "range": 0,
+  "target_type": "self",
+  "duration": 90000,
+  "effects": [
+    {
+      "effect_type": "courage_aura",
+      "value": 0.5,
+      "duration": 90000,
+      "tick_rate": 0,
+      "aura_type": "party_buff"
+    },
+    {
+      "effect_type": "fear_resistance",
+      "value": 0.6,
+      "duration": 90000,
+      "tick_rate": 0,
+      "resistance_type": "fear"
+    },
+    {
+      "effect_type": "morale_boost",
+      "value": 0.4,
+      "duration": 90000,
+      "tick_rate": 0,
+      "morale_type": "all"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "courage_formation",
+    "aura_effect": "golden_courage",
+    "resistance_effect": "fear_ward"
+  },
+  "sound_effects": {
+    "cast_sound": "courage_chant",
+    "aura_sound": "courage_harmony",
+    "resistance_sound": "fear_resistance"
+  },
+  "scaling": {
+    "paladin_skill": 1.6,
+    "divine_mastery": 1.4
+  },
+  "requirements": {
+    "level": 30,
+    "abilities": [
+      "divine_protection",
+      "holy_aura"
+    ],
+    "class": "paladin"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "courage_strength": 0.2,
+      "fear_resistance": 0.3,
+      "morale_boost": 0.2
+    },
+    "journeyman": {
+      "courage_strength": 0.3,
+      "fear_resistance": 0.4,
+      "morale_boost": 0.3,
+      "aura_range": 20.0
+    },
+    "master": {
+      "courage_strength": 0.4,
+      "fear_resistance": 0.5,
+      "morale_boost": 0.4,
+      "aura_range": 30.0,
+      "area_effect": true
+    },
+    "grandmaster": {
+      "courage_strength": 0.5,
+      "fear_resistance": 0.6,
+      "morale_boost": 0.4,
+      "aura_range": 40.0,
+      "area_effect": true,
+      "ability_unlock": "divine_presence"
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

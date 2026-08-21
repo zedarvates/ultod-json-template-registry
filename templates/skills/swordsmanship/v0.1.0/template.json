@@ -1,0 +1,336 @@
+{
+  "id": "swordsmanship",
+  "name": "Swordsmanship",
+  "description": "Master the art of wielding swords and bladed weapons with precision and power",
+  "category": "combat",
+  "skill_type": "weapon_mastery",
+  "base_gain_chance": 0.5,
+  "gain_rate": 1.0,
+  "skill_cap": 100.0,
+  "real_skill_cap": 700.0,
+  "stat_dependencies": [
+    "strength",
+    "dexterity"
+  ],
+  "stat_multipliers": {
+    "strength": 0.7,
+    "dexterity": 0.3
+  },
+  "weapon_types": [
+    "sword",
+    "katana",
+    "scimitar",
+    "cutlass",
+    "falchion",
+    "broadsword",
+    "longsword",
+    "shortsword"
+  ],
+  "training_methods": {
+    "sparring": {
+      "gain_multiplier": 1.2,
+      "requirements": [
+        "training_partner",
+        "safe_area"
+      ],
+      "description": "Practice combat with another player"
+    },
+    "combat": {
+      "gain_multiplier": 1.0,
+      "requirements": [
+        "enemies",
+        "weapons"
+      ],
+      "description": "Fight actual enemies in combat"
+    },
+    "practice_dummies": {
+      "gain_multiplier": 0.8,
+      "requirements": [
+        "practice_dummy",
+        "training_area"
+      ],
+      "description": "Strike practice dummies to improve form"
+    },
+    "training_weapons": {
+      "gain_multiplier": 0.6,
+      "requirements": [
+        "training_sword",
+        "instructor"
+      ],
+      "description": "Use specialized training weapons under guidance"
+    }
+  },
+  "special_moves": [
+    {
+      "name": "Paralyzing Blow",
+      "unlock_level": 50,
+      "description": "Strike that can paralyze the target",
+      "effects": [
+        "paralyze",
+        "damage"
+      ],
+      "requirements": [
+        "stamina",
+        "weapon_damage"
+      ],
+      "cooldown": 5000
+    },
+    {
+      "name": "Crushing Blow",
+      "unlock_level": 60,
+      "description": "Powerful strike that ignores armor",
+      "effects": [
+        "armor_ignore",
+        "bonus_damage"
+      ],
+      "requirements": [
+        "strength",
+        "stamina"
+      ],
+      "cooldown": 8000
+    },
+    {
+      "name": "Shield Bash",
+      "unlock_level": 40,
+      "description": "Bash with shield to stun opponent",
+      "effects": [
+        "stun",
+        "interrupt"
+      ],
+      "requirements": [
+        "shield_equipped",
+        "stamina"
+      ],
+      "cooldown": 6000
+    },
+    {
+      "name": "Whirlwind Attack",
+      "unlock_level": 70,
+      "description": "Spin attack hitting multiple targets",
+      "effects": [
+        "aoe_damage",
+        "knockback"
+      ],
+      "requirements": [
+        "stamina",
+        "skill_level"
+      ],
+      "cooldown": 12000
+    },
+    {
+      "name": "Double Strike",
+      "unlock_level": 30,
+      "description": "Attack twice in quick succession",
+      "effects": [
+        "double_hit",
+        "reduced_damage"
+      ],
+      "requirements": [
+        "dexterity",
+        "stamina"
+      ],
+      "cooldown": 4000
+    },
+    {
+      "name": "Feint",
+      "unlock_level": 45,
+      "description": "Fake attack to open opponent's defense",
+      "effects": [
+        "defense_reduction",
+        "next_attack_bonus"
+      ],
+      "requirements": [
+        "dexterity",
+        "intelligence"
+      ],
+      "cooldown": 7000
+    },
+    {
+      "name": "Riposte",
+      "unlock_level": 65,
+      "description": "Counterattack when successfully parrying",
+      "effects": [
+        "counter_damage",
+        "stun"
+      ],
+      "requirements": [
+        "parry_success",
+        "stamina"
+      ],
+      "cooldown": 3000
+    },
+    {
+      "name": "Disarm",
+      "unlock_level": 55,
+      "description": "Attempt to disarm your opponent",
+      "effects": [
+        "disarm",
+        "damage"
+      ],
+      "requirements": [
+        "dexterity",
+        "skill_level"
+      ],
+      "cooldown": 10000
+    },
+    {
+      "name": "Bleed",
+      "unlock_level": 35,
+      "description": "Inflict a bleeding wound on target",
+      "effects": [
+        "damage_over_time",
+        "health_drain"
+      ],
+      "requirements": [
+        "weapon_type",
+        "skill_level"
+      ],
+      "cooldown": 9000
+    },
+    {
+      "name": "Vampiric Strike",
+      "unlock_level": 80,
+      "description": "Strike that heals you for damage dealt",
+      "effects": [
+        "life_steal",
+        "damage"
+      ],
+      "requirements": [
+        "skill_level",
+        "stamina"
+      ],
+      "cooldown": 15000
+    }
+  ],
+  "mastery_levels": {
+    "apprentice": {
+      "level": 50,
+      "requirements": {
+        "skill_level": 50
+      },
+      "bonuses": {
+        "damage_bonus": 0.1,
+        "accuracy_bonus": 5,
+        "critical_chance": 0.02
+      },
+      "abilities": [
+        "basic_combat_stance",
+        "weapon_maintenance"
+      ],
+      "title": "Swordsman Apprentice"
+    },
+    "journeyman": {
+      "level": 70,
+      "requirements": {
+        "skill_level": 70
+      },
+      "bonuses": {
+        "damage_bonus": 0.2,
+        "accuracy_bonus": 10,
+        "critical_chance": 0.05,
+        "parry_chance": 0.05
+      },
+      "abilities": [
+        "advanced_combat_stance",
+        "weapon_enhancement"
+      ],
+      "title": "Journeyman Swordsman"
+    },
+    "master": {
+      "level": 90,
+      "requirements": {
+        "skill_level": 90
+      },
+      "bonuses": {
+        "damage_bonus": 0.3,
+        "accuracy_bonus": 15,
+        "critical_chance": 0.1,
+        "parry_chance": 0.1,
+        "attack_speed": 0.1
+      },
+      "abilities": [
+        "master_combat_stance",
+        "weapon_mastery",
+        "special_technique"
+      ],
+      "title": "Master Swordsman"
+    },
+    "grandmaster": {
+      "level": 100,
+      "requirements": {
+        "skill_level": 100
+      },
+      "bonuses": {
+        "damage_bonus": 0.4,
+        "accuracy_bonus": 20,
+        "critical_chance": 0.15,
+        "parry_chance": 0.2,
+        "attack_speed": 0.2,
+        "dodge_chance": 0.05
+      },
+      "abilities": [
+        "grandmaster_combat_stance",
+        "legendary_weapon_mastery",
+        "blade_dance"
+      ],
+      "title": "Grandmaster Swordsman",
+      "unique_ability": "blade_dance"
+    }
+  },
+  "progression_bonuses": {
+    "damage_scaling": {
+      "formula": "base_damage * (1 + skill_level * 0.004)",
+      "max_multiplier": 3.0
+    },
+    "accuracy_scaling": {
+      "formula": "base_accuracy + skill_level * 0.2",
+      "max_bonus": 40
+    },
+    "critical_scaling": {
+      "formula": "base_critical + skill_level * 0.001",
+      "max_chance": 0.25
+    }
+  },
+  "synergies": {
+    "tactics": {
+      "bonus_type": "damage",
+      "formula": "0.02 * tactics_skill_level",
+      "max_bonus": 0.5,
+      "description": "Tactics skill increases sword damage"
+    },
+    "anatomy": {
+      "bonus_type": "critical_chance",
+      "formula": "0.01 * anatomy_skill_level",
+      "max_bonus": 0.15,
+      "description": "Anatomy knowledge increases critical hit chance"
+    },
+    "parrying": {
+      "bonus_type": "defense",
+      "formula": "0.015 * parrying_skill_level",
+      "max_bonus": 0.3,
+      "description": "Parrying skill improves defensive capabilities"
+    }
+  },
+  "equipment_requirements": {
+    "weapon_type": "sword",
+    "minimum_quality": "normal",
+    "durability_threshold": 50,
+    "enchantment_bonus": 0
+  },
+  "visual_effects": {
+    "skill_activation": "sword_glow",
+    "critical_hit": "sword_critical_flash",
+    "parry": "sword_parry_spark",
+    "special_move": "sword_trail_effect"
+  },
+  "sound_effects": {
+    "weapon_swing": "sword_swing",
+    "weapon_hit": "sword_hit",
+    "critical_hit": "sword_critical",
+    "parry": "sword_parry",
+    "special_move": "sword_special"
+  },
+  "version": "0.1.0",
+  "last_updated": "2025-11-12",
+  "template_type": "skill"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "monster_spell_spell_1100",
+  "name": "Monster Spell Spell 1100",
+  "description": "Description pour Monster Spell Spell 1100",
+  "icon": "monster_spell_spell_1100_icon",
+  "school": "monster_spell",
+  "rarity": "common",
+  "spell_type": "healing",
+  "target_type": "single",
+  "range": 6.0,
+  "cast_time": 300,
+  "cooldown": 1000,
+  "mana_cost": 20,
+  "effects": [
+    {
+      "effect_type": "healing_effect",
+      "value": 24,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sun_glow",
+    "projectile_effect": "light_beam",
+    "impact_effect": "heal_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "hum",
+    "impact_sound": "heal"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "plant_magic"
+    ],
+    "classes": [
+      "plant"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "monster_spell_spell_0601",
+  "name": "Monster Spell Spell 0601",
+  "description": "Description pour Monster Spell Spell 0601",
+  "icon": "monster_spell_spell_0601_icon",
+  "school": "monster_spell",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 6.0,
+  "cast_time": 300,
+  "cooldown": 1000,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 24,
+    "damage_type": "energy"
+  },
+  "effects": [
+    {
+      "effect_type": "energy_damage",
+      "value": 24,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "clap_hands",
+    "projectile_effect": "sound_wave",
+    "impact_effect": "shock_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "clap",
+    "impact_sound": "thunder"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "giant_magic"
+    ],
+    "classes": [
+      "giant"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

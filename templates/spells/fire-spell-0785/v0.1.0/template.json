@@ -1,0 +1,72 @@
+{
+  "id": "fire_spell_0785",
+  "name": "Fire Spell 0785",
+  "description": "Libère une décharge cataclysmique de flammes concentrées qui incinère la cible et crée une zone de feu durable",
+  "icon": "fire_spell_0785_icon",
+  "school": "fire",
+  "rarity": "legendary",
+  "spell_type": "adapted_referencete_fire_destruction",
+  "target_type": "enemy_or_location",
+  "range": 40.0,
+  "cast_time": 4500,
+  "cooldown": 30000,
+  "mana_cost": 180,
+  "damage": {
+    "base_damage": 400,
+    "damage_type": "cataclysmic_fire_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "volcanic_discharge_blast",
+      "value": 500,
+      "duration": 5000,
+      "tick_rate": 1000,
+      "explosion_diameter": 12.0,
+      "initial_blast_damage": 400,
+      "burning_ground_duration": 15000,
+      "ash_cloud_creation_radius": 18.0,
+      "charred_terrain_burning_damage": 50,
+      "incineration_chance_percent": 35
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "volcanic_energy_magma_core_energy_gathering_concentric_rings",
+    "blast_effect": "cataclysmic_fire_explosion_earth_shaking_volcanic_eruption",
+    "area_effect": "burning_ground_scorched_earth_ash_falling_fire_pillars",
+    "lasting_effect": "residual_volcano_fire_pits_erupting_periodic_lava_bursts"
+  },
+  "sound_effects": {
+    "cast_effect": "volcanic_rumbling_building_energy_magma_gurgling_boiling",
+    "blast_effect": "cataclysmic_explosion_earth_quake_thunder_volcanic_boom",
+    "area_effect": "continuous_fire_crackling_ground_scorching_ash_pattering",
+    "lasting_effect": "periodic_lava_eruptions_secondary_explosions_fissures_cracking"
+  },
+  "requirements": {
+    "level": 35,
+    "skills": [
+      "fire_magic",
+      "volcanic_mastery",
+      "destructive_incantations"
+    ],
+    "classes": [
+      "mage",
+      "fire_master",
+      "destruction_mage"
+    ],
+    "specializations": [
+      "pyroclastic_specialist"
+    ]
+  },
+  "upgrades": {
+    "greater_pyroblast": {
+      "unlock_level": 45,
+      "description": "Le Fire Spell 0785 devient plus destructeur avec des effets volcaniques avancés",
+      "explosion_damage_multiplier": 2.0,
+      "burning_area_expansion": 1.5,
+      "lava_geyser_creation": 4,
+      "meteor_summon_probability": 25
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

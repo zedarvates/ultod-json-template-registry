@@ -1,0 +1,20 @@
+{
+  "id": "shield_block",
+  "name": "Maîtrise du blocage",
+  "description": "Augmente considérablement les chances de bloquer les attaques avec un bouclier.",
+  "type": "buff",
+  "resource_cost": 10,
+  "resource_type": "rage",
+  "cooldown": 20.0,
+  "range": 0.0,
+  "effects": [
+    {
+      "type": "stat_mod",
+      "stat": "block_chance",
+      "value": 0.5,
+      "duration": 6.0
+    }
+  ],
+  "template_type": "ability",
+  "version": "0.1.0"
+}

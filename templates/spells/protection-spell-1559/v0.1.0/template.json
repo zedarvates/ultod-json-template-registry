@@ -1,0 +1,73 @@
+{
+  "id": "protection_spell_1559",
+  "name": "Protection Spell 1559",
+  "description": "Attaque puissante disponible après avoir été touché, infligeant des dégâts basés sur les dégâts reçus récemment",
+  "icon": "protection_spell_1559_icon",
+  "school": "protection",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 5000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 150,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 1.0,
+      "rage": 0.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "protection_spell_1559_damage",
+      "value": 150,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "damage_taken_multiplier": 0.5
+    },
+    {
+      "effect_type": "rage_generation",
+      "value": 10,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "protection_spell_1559_strike",
+    "projectile_effect": "none",
+    "impact_effect": "vengeful_blow",
+    "trail_effect": "anger_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "protection_spell_1559_cry",
+    "impact_sound": "powerful_impact"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "protection"
+    ]
+  },
+  "upgrades": {
+    "improved_revenge": {
+      "unlock_level": 18,
+      "description": "Augmente les dégâts de base de Protection Spell 1559 de 40%",
+      "damage_bonus": 40
+    },
+    "revenge_mastery": {
+      "unlock_level": 28,
+      "description": "Protection Spell 1559 peut être utilisée plus fréquemment",
+      "cooldown_reduction": 1000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

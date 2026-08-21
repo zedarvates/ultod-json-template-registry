@@ -1,0 +1,69 @@
+{
+  "id": "curses_spell_0154",
+  "name": "Curses Spell 0154",
+  "description": "A curse that weakens curses_spell_0154ous enemies, making them vulnerable and allowing mana regeneration when defeated",
+  "icon": "dk_curses_spell_0154_icon",
+  "school": "curses",
+  "rarity": "rare",
+  "spell_type": "curse_spell",
+  "target_type": "enemy",
+  "range": 25.0,
+  "cast_time": 2000,
+  "cooldown": 30000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "curse",
+    "villain_effect": {
+      "mana_regeneration_on_kill": 0.25,
+      "weakness_multiplier": 1.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "curses_spell_0154_curse",
+      "value": 30,
+      "duration": 20000,
+      "tick_rate": 4000,
+      "villain_damage_amplifier": 1.3,
+      "continuous_mana_regeneration": true,
+      "mana_regen_per_second": 2.5,
+      "max_duration": 30000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "curses_spell_0154_mark_appear",
+    "attack_effect": "bane_runes",
+    "impact_effect": "curses_spell_0154_weakening_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "bane_curse",
+    "attack_sound": "curses_spell_0154_weakening",
+    "impact_sound": "dark_empowerment"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "curses_spell_0154_hunting",
+      "curses"
+    ],
+    "classes": [
+      "black_knight"
+    ]
+  },
+  "upgrades": {
+    "bane_mastery": {
+      "unlock_level": 14,
+      "description": "Increases mana regeneration from curses_spell_0154 kills to 35%",
+      "mana_regeneration_bonus": 0.1
+    },
+    "mass_bane": {
+      "unlock_level": 20,
+      "description": "Affects all curses_spell_0154s within 10 yards",
+      "area_effect": true,
+      "area_radius": 10.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,42 @@
+{
+  "school": "spiritualism_spell_1407ualism",
+  "rarity": "uncommon",
+  "target_type": "area",
+  "range": 0.0,
+  "area_radius": 8.0,
+  "cast_time": 3500,
+  "cooldown": 45000,
+  "mana_cost": 70,
+  "visual_effects": {
+    "cast_effect": "bomb_cast",
+    "projectile_effect": "spiritualism_spell_1407ualism_spell_1407_projectile",
+    "impact_effect": "explosion_impact",
+    "trail_effect": "spiritualism_spell_1407_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "bomb_cast_sound",
+    "impact_sound": "explosion_sound"
+  },
+  "requirements": {
+    "level": 22
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "spiritualism_spell_1407",
+  "name": "Spiritualism Spell 1407",
+  "description": "Creates a spiritualism_spell_1407ual explosion that damages all enemies in the area",
+  "icon": "spiritualism_spell_1407ualism_spell_1407_icon",
+  "spell_type": "damage",
+  "damage_type": "spiritualism_spell_1407",
+  "base_damage": 200,
+  "damage": {
+    "base_damage": 200,
+    "damage_type": "spiritualism_spell_1407",
+    "area_damage": true,
+    "scaling": {
+      "spirit": 1.0,
+      "intellect": 0.3
+    }
+  },
+  "template_type": "spell"
+}

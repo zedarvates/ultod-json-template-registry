@@ -1,0 +1,64 @@
+{
+  "id": "wizard",
+  "name": "Magicien",
+  "description": "Maître des arcanes, manipulant les forces magiques avec précision et puissance",
+  "color": "4169E1",
+  "primary_resource": "mana",
+  "base_stats": {
+    "strength": 0.6,
+    "agility": 0.8,
+    "intelligence": 1.6,
+    "vitality": 0.7,
+    "wisdom": 1.2,
+    "charisma": 1.0
+  },
+  "available_classes": [
+    "wizard"
+  ],
+  "starting_skills": [
+    {
+      "id": 26001,
+      "name": "Maîtrise Arcanique",
+      "description": "Augmente la puissance des sorts et réduit leur coût en mana",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": true
+    },
+    {
+      "id": 26002,
+      "name": "Projectile Magique",
+      "description": "Lance un projectile d'énergie magique",
+      "cooldown": 0,
+      "mana_cost": 15,
+      "range": 25.0,
+      "cast_time": 1500,
+      "learned_at_level": 1,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 0,
+        "talents": [
+          {
+            "id": 26001,
+            "name": "Archimage",
+            "description": "+25% puissance des sorts et +20% régénération de mana",
+            "max_rank": 5,
+            "icon_path": "archmage"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 120,
+  "health_modifier": 0.7,
+  "damage_modifier": 1.4,
+  "armor_modifier": 0.6,
+  "template_type": "class",
+  "version": "0.1.0"
+}

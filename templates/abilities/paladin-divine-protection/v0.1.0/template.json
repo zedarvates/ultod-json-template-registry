@@ -1,0 +1,89 @@
+{
+  "id": "paladin_divine_protection",
+  "name": "Protection Divine",
+  "description": "Offre une protection divine aux alliés menacés",
+  "ability_type": "active",
+  "category": "protection",
+  "cooldown": 180000,
+  "mana_cost": 120,
+  "cast_time": 4000,
+  "range": 50.0,
+  "target_type": "friendly_ally",
+  "duration": 60000,
+  "effects": [
+    {
+      "effect_type": "divine_shield",
+      "value": 0.6,
+      "duration": 60000,
+      "tick_rate": 0,
+      "shield_type": "divine"
+    },
+    {
+      "effect_type": "holy_resistance",
+      "value": 0.4,
+      "duration": 60000,
+      "tick_rate": 0,
+      "resistance_type": "holy"
+    },
+    {
+      "effect_type": "damage_reflection",
+      "value": 0.2,
+      "duration": 60000,
+      "tick_rate": 0,
+      "reflection_type": "divine"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_light_burst",
+    "shield_effect": "golden_barrier",
+    "resistance_effect": "holy_ward"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_incantation",
+    "shield_sound": "divine_barrier",
+    "resistance_sound": "holy_protection"
+  },
+  "scaling": {
+    "paladin_skill": 1.7,
+    "divine_mastery": 1.5
+  },
+  "requirements": {
+    "level": 35,
+    "abilities": [
+      "holy_shield",
+      "divine_healing"
+    ],
+    "class": "paladin"
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "shield_strength": 0.3,
+      "holy_resistance": 0.2,
+      "damage_reflection": 0.1
+    },
+    "journeyman": {
+      "shield_strength": 0.4,
+      "holy_resistance": 0.3,
+      "damage_reflection": 0.15,
+      "duration": 90000
+    },
+    "master": {
+      "shield_strength": 0.5,
+      "holy_resistance": 0.4,
+      "damage_reflection": 0.2,
+      "duration": 120000,
+      "area_protection": true
+    },
+    "grandmaster": {
+      "shield_strength": 0.6,
+      "holy_resistance": 0.4,
+      "damage_reflection": 0.2,
+      "duration": 180000,
+      "area_protection": true,
+      "ability_unlock": "divine_intervention"
+    }
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

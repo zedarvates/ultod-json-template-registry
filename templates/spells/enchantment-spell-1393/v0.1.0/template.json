@@ -1,0 +1,49 @@
+{
+  "id": "enchantment_spell_1393",
+  "name": "Enchantment Spell 1393",
+  "description": "Endort les créatures dans une zone de 6 mètres sur 12 mètres",
+  "icon": "enchantment_spell_1393_icon",
+  "school": "enchantment",
+  "rarity": "common",
+  "spell_type": "control",
+  "target_type": "area",
+  "range": 9.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 6.0
+  },
+  "effects": [
+    {
+      "effect_type": "enchantment_spell_1393",
+      "value": 0,
+      "duration": 60000,
+      "tick_rate": 0,
+      "wisdom_save": true,
+      "save_dc": 13
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dream_sand"
+  },
+  "sound_effects": {
+    "cast_sound": "snore"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "enchantment"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard",
+      "bard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

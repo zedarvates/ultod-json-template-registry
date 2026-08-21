@@ -1,0 +1,82 @@
+{
+  "id": "dark_corruption_spell_0151",
+  "name": "Dark Corruption Spell 0151",
+  "description": "Channels accumulated dark_corruption_spell_0151 into a devastating attack. Higher dark_corruption_spell_0151 levels grant stronger effects and mana restoration, but risk corrupting the caster further",
+  "icon": "dk_dark_dark_corruption_spell_0151_spell_0151_icon",
+  "school": "dark_dark_corruption_spell_0151",
+  "rarity": "epic",
+  "spell_type": "dark_corruption_spell_0151_attack",
+  "target_type": "enemy",
+  "range": 15.0,
+  "cast_time": 3500,
+  "cooldown": 45000,
+  "mana_cost": 75,
+  "damage": {
+    "base_damage": 50,
+    "damage_type": "dark_corruption_spell_0151",
+    "corruption_scaling": {
+      "damage_multiplier_per_1_percent_corruption": 0.05,
+      "max_corruption_bonus": 2.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "dark_corruption_spell_0151_burst",
+      "value": 50,
+      "duration": 10000,
+      "tick_rate": 0,
+      "corruption_based_scaling": true,
+      "corruption_removal_on_cast": 0.1,
+      "mana_restore_on_hit": 0.2,
+      "buff_duration": 20000,
+      "corruption_buffs": {
+        "additional_corruption_gain": 0.05,
+        "damage_buff": 0.15,
+        "mana_regeneration_buff": 0.1
+      },
+      "risks": {
+        "self_corruption_increase": 0.03,
+        "healing_reduction_debuff": 0.1
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dark_corruption_spell_0151_energy_buildup",
+    "attack_effect": "dark_corruption_spell_0151_wave",
+    "impact_effect": "dark_corruption_spell_0151_explosion",
+    "corruption_trails": true
+  },
+  "sound_effects": {
+    "cast_sound": "dark_corruption_spell_0151_building",
+    "attack_sound": "dark_dark_corruption_spell_0151_spell_0151",
+    "impact_sound": "dark_corruption_spell_0151_impact"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "dark_corruption_spell_0151_mastery",
+      "dark_magic"
+    ],
+    "classes": [
+      "black_knight"
+    ],
+    "minimum_corruption": 0.05
+  },
+  "upgrades": {
+    "controlled_corruption": {
+      "unlock_level": 18,
+      "description": "Reduces self-dark_corruption_spell_0151 risk by 50% and increases dark_corruption_spell_0151 removal",
+      "risk_reduction": 0.5,
+      "corruption_removal_increase": 0.05
+    },
+    "corruption_nova": {
+      "unlock_level": 25,
+      "description": "Creates a nova effect hitting all nearby enemies",
+      "area_effect": true,
+      "area_radius": 8.0,
+      "area_damage_multiplier": 0.7
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "arts_martiaux_spell_0896",
+  "name": "Arts Martiaux Spell 0896",
+  "description": "Une frappe puissante qui génère de l'énergie ki et peut interrompre les incantations",
+  "icon": "arts_martiaux_spell_0896_icon",
+  "school": "arts_martiaux",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 1.0,
+      "strength": 0.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 120,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "ki_generation",
+      "value": 15,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "spell_interrupt",
+      "value": 0,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 0.3
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "arts_martiaux_spell_0896_strike",
+    "projectile_effect": "none",
+    "impact_effect": "palm_impact"
+  },
+  "sound_effects": {
+    "cast_sound": "palm_strike",
+    "impact_sound": "flesh_impact"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "monk"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_tiger_palm": {
+      "unlock_level": 10,
+      "description": "Arts Martiaux Spell 0896 génère plus de ki et a une meilleure chance d'interruption",
+      "ki_bonus": 10,
+      "interrupt_chance_bonus": 0.2
+    },
+    "tiger_palm_mastery": {
+      "unlock_level": 20,
+      "description": "Arts Martiaux Spell 0896 peut toucher plusieurs cibles",
+      "multi_target": true,
+      "damage_bonus": 50
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

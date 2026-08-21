@@ -1,0 +1,114 @@
+{
+  "item_id": "custom_spell_orb",
+  "name": "Orbe de Sort Personnalisable",
+  "description": "Conteneur magique permettant des personnalisations multiples de sorts avec interface utilisateur",
+  "icon": "custom_spell_orb_icon",
+  "category": "consumable",
+  "rarity": "legendary",
+  "item_type": "spell_customization_orb",
+  "bind_type": "soulbound",
+  "level_required": 60,
+  "durability": {
+    "single_use": false,
+    "charges": 10,
+    "current_charges": 10
+  },
+  "effects": [
+    {
+      "effect_type": "multi_parameter_spell_customization",
+      "value": {
+        "customizable_aspects": 8,
+        "interface_levels": 3
+      },
+      "duration": -1,
+      "description": "Permet la personnalisation complète des sorts via une interface utilisateur intuitive",
+      "customization_capabilities": {
+        "parameter_types": [
+          "range",
+          "damage",
+          "cast_time",
+          "mana_cost",
+          "aoe_radius",
+          "projectile_speed",
+          "duration",
+          "cooldown"
+        ],
+        "balance_system": "dynamic_tradeoffs",
+        "preview_system": "realtime_visualization",
+        "preset_management": "save_load_configurations"
+      },
+      "balance_formula": "total_efficiency = customization_bonus - (instability_risk + resource_penalty)"
+    }
+  ],
+  "usage_instructions": {
+    "cast_time": 30000,
+    "cooldown": 60000,
+    "target_type": "spell_selection_interface",
+    "consumable_on_use": false,
+    "customization_context": "persistent_spell_enhancement"
+  },
+  "crafting_requirements": {
+    "profession": "magic_crafter",
+    "level_required": 55,
+    "specialization": "balance_system_mastery",
+    "materials": [
+      {
+        "material_id": "arcanum_crystal",
+        "quantity": 3
+      },
+      {
+        "material_id": "elemental_essence_condensate",
+        "quantity": 2
+      },
+      {
+        "material_id": "mirror_essence",
+        "quantity": 2
+      },
+      {
+        "material_id": "resonance_stone",
+        "quantity": 3
+      },
+      {
+        "material_id": "void_weave_thread",
+        "quantity": 10
+      }
+    ],
+    "crafting_time": 600000,
+    "success_rate": 0.3,
+    "batch_production": 1
+  },
+  "spell_customization_data": {
+    "customizable_parameters": [
+      "range",
+      "damage",
+      "cast_time",
+      "mana_cost",
+      "cooldown",
+      "aoe_radius",
+      "projectile_speed",
+      "duration",
+      "tick_rate"
+    ],
+    "effect_mechanic": "comprehensive_spell_tuning",
+    "balance_tradeoffs": [
+      "dynamic_penalties",
+      "efficiency_caps",
+      "instability_risks"
+    ],
+    "visual_indicators": [
+      "parameter_sliders",
+      "balance_chart",
+      "effect_preview",
+      "warning_system"
+    ],
+    "interface_features": [
+      "realtime_balance_calculation",
+      "preset_save_load",
+      "comparison_tools",
+      "statistical_analysis"
+    ]
+  },
+  "version": "0.1.0",
+  "id": "custom_spell_orb",
+  "template_type": "item"
+}

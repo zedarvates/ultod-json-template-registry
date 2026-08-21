@@ -1,0 +1,89 @@
+{
+  "id": "chronomancy_spell_0232",
+  "name": "Chronomancy Spell 0232",
+  "description": "L'aptitude ultime du chronomancien - refaçonne le temps et l'espace pour dominer le champ de bataille",
+  "icon": "chronomancy_spell_0232_icon",
+  "school": "chronomancy",
+  "rarity": "mythical",
+  "spell_type": "adapted_referencete_temporal_dominion",
+  "target_type": "global_transformation",
+  "range": 150.0,
+  "cast_time": 10000,
+  "cooldown": 600000,
+  "mana_cost": 500,
+  "damage": {
+    "base_damage": 800,
+    "damage_type": "temporal_ascension",
+    "scaling": {
+      "intelligence": 3.0,
+      "wisdom": 2.5,
+      "charisma": 2.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "reality_reweaving",
+      "value": 100,
+      "duration": 60000,
+      "tick_rate": 0,
+      "chronal_dominion_radius": 50.0,
+      "time_lock_on_enemies": true,
+      "ally_time_immersion": true,
+      "paradox_creation_immunity": true,
+      "temporal_godhood": true,
+      "reality_anchor": "caster"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "temporal_apocalypse_buildup",
+    "dominion_effect": "reality_crystal_matrix",
+    "enemy_effect": "frozen_in_eternity_prison",
+    "ally_effect": "temporal_godhood_aura",
+    "expire_effect": "reality_stabilization_wave"
+  },
+  "sound_effects": {
+    "cast_sound": "universal_temporal_symphony",
+    "dominion_sound": "reality_reweaving_cacophony",
+    "enemy_sound": "eternity_imprisonment_echo",
+    "ally_sound": "godhood_ascension_chorus",
+    "expire_sound": "temporal_harmony_resolution"
+  },
+  "requirements": {
+    "level": 70,
+    "skills": [
+      "chronomancy",
+      "reality_manipulation",
+      "temporal_ascension",
+      "godlike_power"
+    ],
+    "classes": [
+      "chronomancer",
+      "time_mage",
+      "temporalist",
+      "chronomancy_spell_0232_deity"
+    ],
+    "specializations": [
+      "reality_master",
+      "temporal_emperor",
+      "chronomancy_spell_0232_god"
+    ]
+  },
+  "upgrades": {
+    "eternal_dominion": {
+      "unlock_level": 80,
+      "description": "La conquête devient permanente et affecte une zone encore plus grande",
+      "infinite_duration": true,
+      "dominion_expansion": 100.0,
+      "godlike_abilities_unlocked": true
+    },
+    "paradox_deific": {
+      "unlock_level": 85,
+      "description": "Peut créer et contrôler des paradoxes à volonté pour des effets inimaginables",
+      "paradox_creation_control": true,
+      "reality_bending_mastery": true,
+      "timeline_rewrite_unlimited": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

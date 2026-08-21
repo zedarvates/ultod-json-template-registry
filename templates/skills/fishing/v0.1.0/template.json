@@ -1,0 +1,830 @@
+{
+  "id": "fishing",
+  "name": "Fishing",
+  "description": "Master the art of catching aquatic life, from common fish to legendary sea monsters",
+  "category": "gathering",
+  "skill_type": "resource_extraction",
+  "base_gain_chance": 0.4,
+  "gain_rate": 1.0,
+  "skill_cap": 100.0,
+  "real_skill_cap": 700.0,
+  "stat_dependencies": [
+    "dexterity",
+    "intelligence"
+  ],
+  "stat_multipliers": {
+    "dexterity": 0.6,
+    "intelligence": 0.4
+  },
+  "resource_types": {
+    "common_fish": {
+      "minnow": {
+        "rarity": "common",
+        "base_yield": 15,
+        "difficulty": 1,
+        "value_multiplier": 0.5,
+        "uses": [
+          "bait",
+          "low_quality_food"
+        ]
+      },
+      "perch": {
+        "rarity": "common",
+        "base_yield": 12,
+        "difficulty": 1,
+        "value_multiplier": 0.8,
+        "uses": [
+          "food",
+          "trade_goods"
+        ]
+      },
+      "bass": {
+        "rarity": "common",
+        "base_yield": 10,
+        "difficulty": 1,
+        "value_multiplier": 1.0,
+        "uses": [
+          "food",
+          "cooking"
+        ]
+      },
+      "trout": {
+        "rarity": "uncommon",
+        "base_yield": 8,
+        "difficulty": 2,
+        "value_multiplier": 1.5,
+        "uses": [
+          "food",
+          "delicacy"
+        ]
+      }
+    },
+    "valuable_fish": {
+      "salmon": {
+        "rarity": "uncommon",
+        "base_yield": 6,
+        "difficulty": 3,
+        "value_multiplier": 2.0,
+        "uses": [
+          "food",
+          "trade",
+          "cuisine"
+        ]
+      },
+      "tuna": {
+        "rarity": "rare",
+        "base_yield": 5,
+        "difficulty": 4,
+        "value_multiplier": 3.0,
+        "uses": [
+          "food",
+          "trade",
+          "sushi"
+        ]
+      },
+      "swordfish": {
+        "rarity": "rare",
+        "base_yield": 4,
+        "difficulty": 5,
+        "value_multiplier": 4.0,
+        "uses": [
+          "food",
+          "weapons",
+          "trophies"
+        ]
+      },
+      "marlin": {
+        "rarity": "epic",
+        "base_yield": 3,
+        "difficulty": 6,
+        "value_multiplier": 6.0,
+        "uses": [
+          "trophies",
+          "trade",
+          "rare_cuisine"
+        ]
+      }
+    },
+    "fantastic_creatures": {
+      "mermaid_tears": {
+        "rarity": "rare",
+        "base_yield": 2,
+        "difficulty": 7,
+        "value_multiplier": 10.0,
+        "uses": [
+          "alchemy",
+          "potions",
+          "enchanted_items"
+        ]
+      },
+      "kraken_eye": {
+        "rarity": "epic",
+        "base_yield": 1,
+        "difficulty": 8,
+        "value_multiplier": 25.0,
+        "uses": [
+          "artifacts",
+          "weapons",
+          "enchanted_items"
+        ]
+      },
+      "leviathan_scale": {
+        "rarity": "legendary",
+        "base_yield": 1,
+        "difficulty": 9,
+        "value_multiplier": 50.0,
+        "uses": [
+          "legendary_armor",
+          "artifacts",
+          "divine_items"
+        ]
+      },
+      "phoenix_feather_fish": {
+        "rarity": "legendary",
+        "base_yield": 1,
+        "difficulty": 10,
+        "value_multiplier": 100.0,
+        "uses": [
+          "resurrection",
+          "enchanted_items",
+          "divine_crafting"
+        ]
+      },
+      "dragon_fish": {
+        "rarity": "mythic",
+        "base_yield": 1,
+        "difficulty": 11,
+        "value_multiplier": 200.0,
+        "uses": [
+          "legendary_weapons",
+          "artifacts",
+          "world_changing_items"
+        ]
+      }
+    },
+    "aquatic_materials": {
+      "pearls": {
+        "rarity": "uncommon",
+        "base_yield": 3,
+        "difficulty": 3,
+        "value_multiplier": 5.0,
+        "uses": [
+          "jewelry",
+          "enchanted_items",
+          "trade"
+        ]
+      },
+      "coral": {
+        "rarity": "rare",
+        "base_yield": 2,
+        "difficulty": 5,
+        "value_multiplier": 8.0,
+        "uses": [
+          "decorative_items",
+          "alchemy",
+          "enchanted_items"
+        ]
+      },
+      "sea_sponges": {
+        "rarity": "common",
+        "base_yield": 8,
+        "difficulty": 2,
+        "value_multiplier": 1.5,
+        "uses": [
+          "alchemy",
+          "crafting",
+          "cleaning"
+        ]
+      },
+      "kelp": {
+        "rarity": "common",
+        "base_yield": 10,
+        "difficulty": 1,
+        "value_multiplier": 0.8,
+        "uses": [
+          "alchemy",
+          "food",
+          "crafting"
+        ]
+      },
+      "rare_seaweed": {
+        "rarity": "rare",
+        "base_yield": 4,
+        "difficulty": 6,
+        "value_multiplier": 12.0,
+        "uses": [
+          "alchemy",
+          "potions",
+          "enchanted_items"
+        ]
+      }
+    }
+  },
+  "training_methods": {
+    "fishing_spots": {
+      "gain_multiplier": 1.0,
+      "requirements": [
+        "fishing_rod",
+        "bait",
+        "water_access"
+      ],
+      "description": "Fish at various locations to gain skill"
+    },
+    "deep_sea_fishing": {
+      "gain_multiplier": 1.3,
+      "requirements": [
+        "advanced_rod",
+        "special_bait",
+        "boat"
+      ],
+      "description": "Fish in deep waters for rare catches"
+    },
+    "ice_fishing": {
+      "gain_multiplier": 1.1,
+      "requirements": [
+        "ice_fishing_rod",
+        "cold_resistance",
+        "frozen_lake"
+      ],
+      "description": "Fish through ice in cold regions"
+    },
+    "tournament_fishing": {
+      "gain_multiplier": 1.5,
+      "requirements": [
+        "skill_level",
+        "tournament_entry",
+        "competition"
+      ],
+      "description": "Compete in fishing tournaments for skill advancement"
+    },
+    "apprenticeship": {
+      "gain_multiplier": 1.2,
+      "requirements": [
+        "master_fisher",
+        "training_waters",
+        "guidance"
+      ],
+      "description": "Learn fishing techniques from experienced masters"
+    }
+  },
+  "special_abilities": [
+    {
+      "name": "Fish Sense",
+      "unlock_level": 25,
+      "description": "Detect nearby fish and their types",
+      "effects": [
+        "fish_detection",
+        "size_indication",
+        "rarity_assessment"
+      ],
+      "requirements": [
+        "skill_level",
+        "concentration",
+        "patience"
+      ],
+      "cooldown": 30000,
+      "range": 30
+    },
+    {
+      "name": "Perfect Cast",
+      "unlock_level": 40,
+      "description": "Cast with perfect accuracy and distance",
+      "effects": [
+        "accuracy_bonus",
+        "range_bonus",
+        "bait_efficiency"
+      ],
+      "requirements": [
+        "skill_level",
+        "technique",
+        "weather_awareness"
+      ],
+      "cooldown": 45000,
+      "success_rate": 0.9
+    },
+    {
+      "name": "Deep Sea Dive",
+      "unlock_level": 55,
+      "description": "Fish in extremely deep waters",
+      "effects": [
+        "deep_water_access",
+        "rare_catch_bonus",
+        "treasure_chance"
+      ],
+      "requirements": [
+        "skill_level",
+        "diving_equipment",
+        "courage"
+      ],
+      "cooldown": 120000,
+      "depth_range": "abyssal"
+    },
+    {
+      "name": "Weather Mastery",
+      "unlock_level": 35,
+      "description": "Fish effectively in any weather conditions",
+      "effects": [
+        "weather_resistance",
+        "storm_bonus",
+        "calm_bonus"
+      ],
+      "requirements": [
+        "skill_level",
+        "weather_knowledge",
+        "adaptability"
+      ],
+      "cooldown": 0,
+      "passive": true
+    },
+    {
+      "name": "Bait Expertise",
+      "unlock_level": 30,
+      "description": "Know exactly which bait attracts which fish",
+      "effects": [
+        "bait_efficiency",
+        "catch_rate_bonus",
+        "species_targeting"
+      ],
+      "requirements": [
+        "skill_level",
+        "bait_knowledge",
+        "experience"
+      ],
+      "cooldown": 0,
+      "passive": true
+    },
+    {
+      "name": "Legendary Catch",
+      "unlock_level": 70,
+      "description": "Increased chance to catch legendary fish",
+      "effects": [
+        "legendary_chance",
+        "mythic_bonus",
+        "artifact_chance"
+      ],
+      "requirements": [
+        "skill_level",
+        "patience",
+        "luck"
+      ],
+      "cooldown": 180000,
+      "legendary_rate": 0.05
+    },
+    {
+      "name": "Fishing Net",
+      "unlock_level": 45,
+      "description": "Cast a net to catch multiple fish at once",
+      "effects": [
+        "area_catch",
+        "quantity_bonus",
+        "small_species_bonus"
+      ],
+      "requirements": [
+        "skill_level",
+        "net_equipment",
+        "teamwork"
+      ],
+      "cooldown": 90000,
+      "area_range": 10
+    },
+    {
+      "name": "Master Angler",
+      "unlock_level": 85,
+      "description": "adapted_referencete fishing mastery with perfect technique",
+      "effects": [
+        "perfect_catch",
+        "guaranteed_rare",
+        "master_bait"
+      ],
+      "requirements": [
+        "skill_level",
+        "perfection",
+        "wisdom"
+      ],
+      "cooldown": 300000,
+      "mastery_bonus": 0.5
+    }
+  ],
+  "fishing_equipment": {
+    "basic_rod": {
+      "durability": 100,
+      "casting_range": 10,
+      "fish_rarity_bonus": 0,
+      "required_level": 1,
+      "craftable": true
+    },
+    "iron_rod": {
+      "durability": 200,
+      "casting_range": 15,
+      "fish_rarity_bonus": 0.05,
+      "required_level": 20,
+      "craftable": true
+    },
+    "steel_rod": {
+      "durability": 300,
+      "casting_range": 20,
+      "fish_rarity_bonus": 0.1,
+      "required_level": 40,
+      "craftable": true
+    },
+    "adamantite_rod": {
+      "durability": 700,
+      "casting_range": 30,
+      "fish_rarity_bonus": 0.2,
+      "required_level": 80,
+      "craftable": true
+    },
+    "runite_rod": {
+      "durability": 1000,
+      "casting_range": 35,
+      "fish_rarity_bonus": 0.25,
+      "required_level": 90,
+      "craftable": true
+    },
+    "dragon_rod": {
+      "durability": 1500,
+      "casting_range": 40,
+      "fish_rarity_bonus": 0.35,
+      "required_level": 95,
+      "craftable": false,
+      "rarity": "legendary"
+    },
+    "celestial_rod": {
+      "durability": 2000,
+      "casting_range": 50,
+      "fish_rarity_bonus": 0.5,
+      "required_level": 100,
+      "craftable": false,
+      "rarity": "mythic",
+      "special_effect": "divine_fishing"
+    }
+  },
+  "bait_types": {
+    "worms": {
+      "effectiveness": 1.0,
+      "attracts": [
+        "common_fish"
+      ],
+      "durability": 10,
+      "cost": 0.1
+    },
+    "minnows": {
+      "effectiveness": 1.2,
+      "attracts": [
+        "common_fish",
+        "valuable_fish"
+      ],
+      "durability": 15,
+      "cost": 0.5
+    },
+    "shrimp": {
+      "effectiveness": 1.3,
+      "attracts": [
+        "valuable_fish"
+      ],
+      "durability": 20,
+      "cost": 1.0
+    },
+    "crabs": {
+      "effectiveness": 1.4,
+      "attracts": [
+        "valuable_fish",
+        "fantastic_creatures"
+      ],
+      "durability": 25,
+      "cost": 2.0
+    },
+    "lures": {
+      "effectiveness": 1.5,
+      "attracts": [
+        "valuable_fish",
+        "fantastic_creatures"
+      ],
+      "durability": 30,
+      "cost": 5.0
+    },
+    "magic_bait": {
+      "effectiveness": 2.0,
+      "attracts": [
+        "fantastic_creatures",
+        "aquatic_materials"
+      ],
+      "durability": 50,
+      "cost": 10.0,
+      "magical": true
+    },
+    "legendary_bait": {
+      "effectiveness": 3.0,
+      "attracts": [
+        "fantastic_creatures",
+        "mythic_creatures"
+      ],
+      "durability": 100,
+      "cost": 50.0,
+      "magical": true,
+      "rarity": "legendary"
+    }
+  },
+  "fishing_locations": {
+    "freshwater": {
+      "description": "Lakes, rivers, and streams",
+      "difficulty": 1,
+      "common_fish": [
+        "minnow",
+        "perch",
+        "bass",
+        "trout"
+      ],
+      "rare_fish": [
+        "salmon"
+      ],
+      "special_effects": [
+        "peaceful",
+        "relaxing"
+      ]
+    },
+    "saltwater": {
+      "description": "Oceans and seas",
+      "difficulty": 2,
+      "common_fish": [
+        "perch",
+        "bass"
+      ],
+      "valuable_fish": [
+        "tuna",
+        "swordfish"
+      ],
+      "rare_fish": [
+        "marlin"
+      ],
+      "special_effects": [
+        "challenging",
+        "rewarding"
+      ]
+    },
+    "deep_sea": {
+      "description": "Abyssal depths and trenches",
+      "difficulty": 4,
+      "valuable_fish": [
+        "swordfish",
+        "marlin"
+      ],
+      "fantastic_creatures": [
+        "kraken_eye",
+        "leviathan_scale"
+      ],
+      "special_effects": [
+        "dangerous",
+        "profitable"
+      ]
+    },
+    "frozen_waters": {
+      "description": "Frozen lakes and icy seas",
+      "difficulty": 3,
+      "common_fish": [
+        "perch",
+        "trout"
+      ],
+      "valuable_fish": [
+        "salmon"
+      ],
+      "special_effects": [
+        "cold",
+        "challenging"
+      ]
+    },
+    "magical_waters": {
+      "description": "Mystical lakes and enchanted seas",
+      "difficulty": 5,
+      "fantastic_creatures": [
+        "mermaid_tears",
+        "phoenix_feather_fish"
+      ],
+      "aquatic_materials": [
+        "rare_seaweed",
+        "coral"
+      ],
+      "special_effects": [
+        "magical",
+        "mysterious"
+      ]
+    },
+    "volcanic_waters": {
+      "description": "Hot springs and lava lakes",
+      "difficulty": 6,
+      "fantastic_creatures": [
+        "dragon_fish",
+        "fire_elemental_fish"
+      ],
+      "special_effects": [
+        "hot",
+        "dangerous"
+      ]
+    }
+  },
+  "mastery_levels": {
+    "apprentice": {
+      "level": 50,
+      "requirements": {
+        "skill_level": 50
+      },
+      "bonuses": {
+        "catch_rate": 0.1,
+        "rare_chance": 0.02,
+        "bait_efficiency": 0.05,
+        "casting_accuracy": 5
+      },
+      "abilities": [
+        "basic_fishing",
+        "fish_identification",
+        "bait_selection"
+      ],
+      "title": "Fisher Apprentice",
+      "equipment_bonus": 1.1
+    },
+    "journeyman": {
+      "level": 70,
+      "requirements": {
+        "skill_level": 70
+      },
+      "bonuses": {
+        "catch_rate": 0.2,
+        "rare_chance": 0.05,
+        "bait_efficiency": 0.1,
+        "casting_accuracy": 10,
+        "treasure_chance": 0.01
+      },
+      "abilities": [
+        "advanced_fishing",
+        "weather_mastery",
+        "perfect_cast",
+        "fishing_net"
+      ],
+      "title": "Journeyman Fisher",
+      "equipment_bonus": 1.2
+    },
+    "master": {
+      "level": 90,
+      "requirements": {
+        "skill_level": 90
+      },
+      "bonuses": {
+        "catch_rate": 0.3,
+        "rare_chance": 0.1,
+        "bait_efficiency": 0.15,
+        "casting_accuracy": 15,
+        "treasure_chance": 0.02,
+        "legendary_chance": 0.005
+      },
+      "abilities": [
+        "master_fishing",
+        "deep_sea_dive",
+        "legendary_catch",
+        "fish_sense"
+      ],
+      "title": "Master Fisher",
+      "equipment_bonus": 1.3
+    },
+    "grandmaster": {
+      "level": 100,
+      "requirements": {
+        "skill_level": 100
+      },
+      "bonuses": {
+        "catch_rate": 0.4,
+        "rare_chance": 0.15,
+        "bait_efficiency": 0.2,
+        "casting_accuracy": 20,
+        "treasure_chance": 0.03,
+        "legendary_chance": 0.01,
+        "mythic_chance": 0.001
+      },
+      "abilities": [
+        "grandmaster_fishing",
+        "master_angler",
+        "perfect_technique",
+        "divine_fishing"
+      ],
+      "title": "Grandmaster Fisher",
+      "equipment_bonus": 1.5,
+      "unique_ability": "ocean_master"
+    }
+  },
+  "progression_bonuses": {
+    "catch_rate_scaling": {
+      "formula": "base_rate * (1 + skill_level * 0.002)",
+      "max_multiplier": 2.0
+    },
+    "rare_chance_scaling": {
+      "formula": "base_chance + skill_level * 0.0008",
+      "max_chance": 0.25
+    },
+    "casting_range_scaling": {
+      "formula": "base_range + skill_level * 0.2",
+      "max_bonus": 40
+    },
+    "treasure_chance_scaling": {
+      "formula": "base_chance + skill_level * 0.0002",
+      "max_chance": 0.05
+    }
+  },
+  "synergies": {
+    "alchemy": {
+      "bonus_type": "potion_ingredients",
+      "formula": "0.03 * alchemy_skill_level",
+      "max_bonus": 0.4,
+      "description": "Alchemy skill improves potion ingredient quality"
+    },
+    "cooking": {
+      "bonus_type": "food_quality",
+      "formula": "0.025 * cooking_skill_level",
+      "max_bonus": 0.35,
+      "description": "Cooking skill improves fish preparation"
+    },
+    "navigation": {
+      "bonus_type": "fishing_location_bonus",
+      "formula": "0.02 * navigation_skill_level",
+      "max_bonus": 0.3,
+      "description": "Navigation skill improves fishing location discovery"
+    },
+    "weather_mastery": {
+      "bonus_type": "weather_resistance",
+      "formula": "0.015 * weather_mastery_skill_level",
+      "max_bonus": 0.25,
+      "description": "Weather mastery improves fishing in all conditions"
+    }
+  },
+  "equipment_requirements": {
+    "fishing_rod": "required",
+    "minimum_quality": "normal",
+    "durability_threshold": 50,
+    "bait": "required",
+    "fishing_line": "required"
+  },
+  "environmental_factors": {
+    "time_of_day": {
+      "dawn": {
+        "catch_rate_bonus": 0.1,
+        "rare_chance_bonus": 0.05
+      },
+      "dusk": {
+        "catch_rate_bonus": 0.1,
+        "rare_chance_bonus": 0.05
+      },
+      "midnight": {
+        "catch_rate_bonus": 0.05,
+        "mythic_chance_bonus": 0.01
+      },
+      "noon": {
+        "catch_rate_bonus": 0.05,
+        "common_fish_bonus": 0.1
+      }
+    },
+    "weather_conditions": {
+      "calm": {
+        "catch_rate_bonus": 0.1,
+        "casting_accuracy_bonus": 0.05
+      },
+      "storm": {
+        "catch_rate_penalty": 0.2,
+        "rare_chance_bonus": 0.1
+      },
+      "rain": {
+        "catch_rate_bonus": 0.05,
+        "treasure_chance_bonus": 0.02
+      }
+    },
+    "moon_phases": {
+      "new_moon": {
+        "mystery_bonus": 0.2,
+        "mythic_chance_bonus": 0.02
+      },
+      "full_moon": {
+        "catch_rate_bonus": 0.15,
+        "rare_chance_bonus": 0.1
+      },
+      "quarter_moon": {
+        "balanced_bonus": 0.1
+      }
+    }
+  },
+  "visual_effects": {
+    "fishing_start": "cast_line",
+    "fishing_wait": "bobbing_float",
+    "fish_bite": "splash_effect",
+    "fish_catch": "reel_in",
+    "rare_catch": "rare_glow",
+    "legendary_catch": "legendary_sparkle"
+  },
+  "sound_effects": {
+    "cast_line": "fishing_cast",
+    "water_splash": "water_hit",
+    "fish_bite": "fish_bite",
+    "reel_in": "fishing_reel",
+    "rare_catch": "rare_chime",
+    "legendary_catch": "legendary_horn"
+  },
+  "version": "0.1.0",
+  "last_updated": "2025-11-12",
+  "template_type": "skill"
+}

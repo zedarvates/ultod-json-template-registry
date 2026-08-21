@@ -1,0 +1,80 @@
+{
+  "id": "monk",
+  "name": "Monk",
+  "description": "A martial artist who harnesses chi energy for healing and combat",
+  "color": "00FF96",
+  "primary_resource": "energy",
+  "base_stats": {
+    "strength": 16,
+    "agility": 16,
+    "intelligence": 12,
+    "vitality": 14,
+    "wisdom": 14,
+    "charisma": 18
+  },
+  "specializations": [
+    "brewmaster",
+    "mistweaver",
+    "windwalker"
+  ],
+  "starting_skills": [
+    {
+      "id": 11001,
+      "name": "Tiger Palm",
+      "description": "Strike with the palm, dealing damage and generating chi",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 5.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 11002,
+      "name": "Blackout Kick",
+      "description": "A sweeping kick that deals damage",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 5.0,
+      "cast_time": 0,
+      "learned_at_level": 4,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 110001,
+            "name": "Celerity",
+            "description": "Increases haste by 5%",
+            "max_rank": 3,
+            "icon_path": "talents/monk/celerity.png"
+          },
+          {
+            "id": 110002,
+            "name": "Tiger's Lust",
+            "description": "Increases movement speed by 10%",
+            "max_rank": 2,
+            "icon_path": "talents/monk/tigers_lust.png"
+          },
+          {
+            "id": 110003,
+            "name": "Momentum",
+            "description": "Increases critical strike chance by 3%",
+            "max_rank": 3,
+            "icon_path": "talents/monk/momentum.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100,
+  "health_modifier": 1.05,
+  "damage_modifier": 1.05,
+  "armor_modifier": 0.9,
+  "template_type": "class",
+  "version": "0.1.0"
+}

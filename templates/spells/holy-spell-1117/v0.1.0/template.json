@@ -1,0 +1,99 @@
+{
+  "id": "holy_spell_1117",
+  "name": "Holy Spell 1117",
+  "description": "Soigne tous les alliés dans une large zone, restaurant leurs points de vie",
+  "icon": "holy_spell_1117_icon",
+  "school": "holy",
+  "rarity": "epic",
+  "spell_type": "healing",
+  "target_type": "aoe_ally",
+  "range": 0,
+  "cast_time": 3000,
+  "cooldown": 25000,
+  "mana_cost": 120,
+  "healing": {
+    "base_healing": 200,
+    "healing_type": "holy",
+    "scaling": {
+      "wisdom": 1.5,
+      "spirit": 1.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "aoe_heal",
+      "value": 200,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_range": 20.0,
+      "max_targets": 10
+    },
+    {
+      "effect_type": "cleanse",
+      "value": 0,
+      "duration": 0,
+      "tick_rate": 0,
+      "effects_cleansed": [
+        "poison",
+        "disease",
+        "curse"
+      ]
+    },
+    {
+      "effect_type": "buff_aoe",
+      "value": 20,
+      "duration": 10000,
+      "tick_rate": 0,
+      "buff_type": "regeneration",
+      "aoe_range": 20.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_circle",
+    "healing_effect": "golden_rain",
+    "buff_effect": "healing_aura",
+    "trail_effect": "light_beams"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_chorus",
+    "healing_sound": "holy_spell_1117_restore",
+    "buff_sound": "blessing_chime"
+  },
+  "requirements": {
+    "level": 22,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "priest",
+      "paladin",
+      "druid",
+      "shaman"
+    ]
+  },
+  "upgrades": {
+    "divine_intervention": {
+      "unlock_level": 32,
+      "description": "Le sort peut ressusciter les alliés récemment décédés",
+      "resurrection": true,
+      "resurrection_range": 10.0
+    },
+    "sanctuary": {
+      "unlock_level": 42,
+      "description": "Crée une zone sanctifiée qui empêche les dégâts pendant un court moment",
+      "sanctuary_duration": 5000,
+      "damage_nullification": 100
+    },
+    "heavenly_blessing": {
+      "unlock_level": 52,
+      "description": "Accorde des bénédictions permanentes aux alliés soignés",
+      "permanent_buffs": [
+        "health_boost",
+        "mana_boost",
+        "resistance_boost"
+      ]
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

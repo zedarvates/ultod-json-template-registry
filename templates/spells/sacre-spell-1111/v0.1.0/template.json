@@ -1,0 +1,60 @@
+{
+  "id": "sacre_spell_1111",
+  "name": "Sacre Spell 1111",
+  "description": "Vous redonnez à une créature la vie, la rendant aussi saine qu'avant. Vous pouvez guérir une maladie, neutraliser un poison, soigner tous les dégâts considérés permanents, ou lui rendre une capacité perdue",
+  "icon": "sacre_spell_1111_icon",
+  "school": "sacré",
+  "rarity": "rare",
+  "spell_type": "utility",
+  "target_type": "ally",
+  "range": 2.0,
+  "cast_time": 2000,
+  "cooldown": 240000,
+  "mana_cost": 150,
+  "effects": [
+    {
+      "effect_type": "remove_advanced_debuff",
+      "value": 0,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_radius": 0.0,
+      "proc_chance": 1.0,
+      "removes_curses": true,
+      "removes_permanent_damage": true,
+      "restores_abilities": true,
+      "cures_any_condition": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_purification",
+    "restoration_effect": "golden_rejuvenation",
+    "impact_effect": "holistic_healing_wave"
+  },
+  "sound_effects": {
+    "cast_sound": "heavenly_sacre_spell_1111",
+    "restoration_sound": "renewal_hymn",
+    "impact_sound": "healing_chorus"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "supreme_restoration": {
+      "unlock_level": 11,
+      "description": "Peut restaurer plusieurs conditions en même temps",
+      "multi_restore": true
+    },
+    "perfected_restoration": {
+      "unlock_level": 17,
+      "description": "Guérit même les conditions rares comme la pétrification",
+      "advanced_conditions": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

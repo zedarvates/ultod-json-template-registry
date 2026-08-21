@@ -1,0 +1,233 @@
+{
+  "id": "plant_creature_0296",
+  "name": "Plant Creature 0296",
+  "description": "Un cactus massif de 8 pieds de haut avec des épines blanches comme l'os qui piquent armes et armures. Chaque épine contient un venin paralytique puissant qui se transmet instantanément au contact et peut percer même les armures les plus résistantes.",
+  "icon": "plant_creature_0296_icon",
+  "category": "plant",
+  "rarity": "uncommon",
+  "base_stats": {
+    "health": 35,
+    "mana": 0,
+    "strength": 10,
+    "dexterity": 1,
+    "intelligence": 1,
+    "wisdom": 1,
+    "constitution": 14,
+    "charisma": 1
+  },
+  "properties": {
+    "size": "large",
+    "size_modifiers": {
+      "health_multiplier": 2.0,
+      "damage_multiplier": 1.5,
+      "speed_modifier": 0.85,
+      "space_requirement": 10,
+      "strength_bonus": 4,
+      "constitution_bonus": 2
+    },
+    "alignment": "neutral evil",
+    "languages": [
+      "understands but doesn't speak"
+    ],
+    "challenge_rating": "3",
+    "experience_value": 250
+  },
+  "movement_speed": {
+    "base_speed": 0,
+    "speed_types": {
+      "walk": 0,
+      "burrow": 0,
+      "climb": 0,
+      "fly": 0,
+      "swim": 0,
+      "space": 0
+    },
+    "speed_modifiers": {
+      "size_modifier": 1.0,
+      "biome_modifiers": {
+        "forest": 0.3,
+        "swamp": 0.2,
+        "mountains": 0.8,
+        "desert": 1.5,
+        "tundra": 0.4,
+        "jungle": 0.2,
+        "underground": 0.9,
+        "underwater": 0.0,
+        "aerial": 0.0,
+        "space": 0.0
+      },
+      "environmental_modifiers": {
+        "weather": 1.1,
+        "lighting": 1.0,
+        "terrain": 1.0
+      }
+    },
+    "movement_abilities": [],
+    "movement_restrictions": [
+      "immobile",
+      "requires_dry_environment",
+      "sunlight_dependent"
+    ]
+  },
+  "paralytic_properties": {
+    "paralysis_type": "weapon_transfer_and_contact",
+    "trigger_conditions": {
+      "direct_contact": true,
+      "proximity_radius": 0,
+      "airborne_release": false,
+      "weapon_contamination": true
+    },
+    "saving_throw": {
+      "ability": "constitution",
+      "dc": 18,
+      "advantage": false,
+      "disadvantage": false
+    },
+    "paralysis_effects": {
+      "immediate_paralysis": true,
+      "gradual_onset": false,
+      "onset_rounds": 0,
+      "paralysis_duration_minutes": 20,
+      "condition_immunity_override": false
+    },
+    "penetration_properties": {
+      "armor_piercing": true,
+      "magic_resistance": 50,
+      "epine_density": "100+ spines",
+      "reattachment_possibility": true
+    },
+    "special_mechanics": {
+      "cumulative_effects": true,
+      "resistance_buildup": false,
+      "plant_regeneration": true,
+      "seasonal_variations": true,
+      "defensive_posture": true
+    }
+  },
+  "properties_plant": {
+    "photosynthetic_ability": true,
+    "root_mobility": false,
+    "spore_production": false,
+    "vine_mastery": 0,
+    "natural_regeneration": "12 HP per day",
+    "sensory_detection": "motion within 40 feet",
+    "defensive_mechanism": true,
+    "harvestable": true,
+    "water_storage": true,
+    "desert_adaptation": true
+  },
+  "abilities": [
+    "plant_creature_0296_spike_launch",
+    "weapon_contamination",
+    "armor_piercing_spines",
+    "multiple_epine_attack",
+    "desert_survival",
+    "water_conservation",
+    "sunlight_charging",
+    "spine_regeneration",
+    "pain_inducement"
+  ],
+  "resistances": {
+    "physical": 70,
+    "piercing": 90,
+    "fire": 20,
+    "poison": 100,
+    "desert_elements": 80
+  },
+  "weaknesses": [
+    "cold_damage",
+    "ice_damage",
+    "herbicide_spells",
+    "overwatering",
+    "shadow_spells"
+  ],
+  "immunities": [
+    "charmed",
+    "frightened",
+    "paralyzed",
+    "poisoned",
+    "restrained",
+    "dehydrated"
+  ],
+  "senses": {
+    "tremorsense": 40,
+    "scent": true
+  },
+  "loot_table": {
+    "common_drops": [
+      "plant_creature_0296_spines",
+      "cactus_flesh",
+      "water_sac"
+    ],
+    "rare_drops": [
+      "paralysis_spine_oil",
+      "desert_survival_extract"
+    ],
+    "epic_drops": [
+      "plant_creature_0296_paralysis_heart"
+    ],
+    "legendary_drops": []
+  },
+  "harvest_info": {
+    "harvest_difficulty": "extremely_dangerous",
+    "harvest_tool": "magical_protection_essential",
+    "extraction_time": "2 hours",
+    "spine_yield": "50-80 spines",
+    "preservation": "1 month in desert conditions"
+  },
+  "habitat": {
+    "biomes": [
+      "deserts",
+      "rocky_terrain",
+      "arid_mountains"
+    ],
+    "seasons": [
+      "year_round"
+    ],
+    "lighting": "full_sun",
+    "soil_type": "sandy_poor",
+    "climate": "hot_dry"
+  },
+  "combat_mechanics": {
+    "spine_launch": {
+      "range": "30 feet",
+      "damage": "1d6 piercing + paralysis",
+      "armor_piercing": true,
+      "accuracy": "high"
+    },
+    "area_denial": {
+      "radius": "15 feet",
+      "effect": "difficult_terrain",
+      "spine_density": "moderate"
+    },
+    "weapon_poisoning": {
+      "duration": "until_cleaned",
+      "transfer_rate": "100% on contact",
+      "removal_difficulty": "dc_20_medicine"
+    }
+  },
+  "environmental_effects": {
+    "desert_oasis": "attracts dangerous creatures",
+    "sandstorm": "spines spread easily",
+    "heat_wave": "increased venom potency",
+    "water_source": "plant grows larger and more dangerous"
+  },
+  "ai_behavior": {
+    "aggression_level": "moderate",
+    "intelligence_level": "smart",
+    "tactical_awareness": "tactical",
+    "attack_pattern": "defensive_spike",
+    "defensive_patterns": [
+      "spine_barrage",
+      "weapon_contamination"
+    ],
+    "special_behaviors": [
+      "targets_heavily_armed_opponents",
+      "adapts_to_combat_situation",
+      "conserves_energy_in_heat",
+      "multiplies_near_water_sources"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

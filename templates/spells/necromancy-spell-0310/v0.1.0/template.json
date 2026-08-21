@@ -1,0 +1,79 @@
+{
+  "id": "necromancy_spell_0310",
+  "name": "Necromancy Spell 0310",
+  "description": "Des chaînes spectrales de glace emprisonnent l'ennemi dans le froid éternel",
+  "icon": "necromancy_spell_0310_icon",
+  "school": "necromancy",
+  "rarity": "uncommon",
+  "spell_type": "frost_root",
+  "target_type": "single_enemy",
+  "range": 25.0,
+  "cast_time": 1000,
+  "cooldown": 8000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 100,
+    "damage_type": "glacial_binding",
+    "scaling": {
+      "frost_power": 1.4,
+      "rune_efficiency": 1.1
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "frost_chain_imprisonment",
+      "value": 100,
+      "duration": 8000,
+      "tick_rate": 0,
+      "root_duration": 3000,
+      "movement_slow_percent": 50,
+      "damage_amp_while_rooted": 0.25,
+      "frost_weakness": true,
+      "chain_break_resistance": 0.3
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "spectral_ice_chain_summon",
+    "root_effect": "necromancy_spell_0310_crystallizing_around_target",
+    "slow_effect": "ice_trail_restricting_movement",
+    "damage_effect": "necromancy_spell_0310_glowing_brighter_from_damage"
+  },
+  "sound_effects": {
+    "cast_sound": "ice_chain_materializing",
+    "root_sound": "necromancy_spell_0310_snapping_into_place",
+    "slow_sound": "ice_crackling_restriction",
+    "damage_sound": "necromancy_spell_0310_straining_under_damage"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "frost_magic",
+      "chain_binding"
+    ],
+    "classes": [
+      "death_knight",
+      "winter_hunter"
+    ],
+    "specializations": [
+      "frost_jailer"
+    ]
+  },
+  "upgrades": {
+    "icy_jailor": {
+      "unlock_level": 22,
+      "description": "Les chaînes durent plus longtemps et appliquent plus de lenteur",
+      "root_duration_bonus": 2000,
+      "slow_strength_bonus": 20,
+      "damage_amp_increase": 0.15
+    },
+    "permafrost_prison": {
+      "unlock_level": 32,
+      "description": "Les chaînes peuvent emprisonner plusieurs ennemis simultanément",
+      "max_targets": 3,
+      "shared_break_mechanic": true,
+      "cold_damage_over_time": 40
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

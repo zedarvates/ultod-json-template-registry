@@ -1,0 +1,75 @@
+{
+  "id": "necromancy_spell_0325",
+  "name": "Necromancy Spell 0325",
+  "description": "Empower les runes du death knight, générant de la puissance runique et augmentant temporairement les dégâts",
+  "icon": "necromancy_spell_0325_icon",
+  "school": "necromancy",
+  "rarity": "uncommon",
+  "spell_type": "rune_power_enhancement",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 10000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "rune_enhancement"
+  },
+  "effects": [
+    {
+      "effect_type": "necromancy_spell_0325_power_burst",
+      "value": 100,
+      "duration": 15000,
+      "tick_rate": 0,
+      "rune_power_regeneration": 300,
+      "damage_increase_percent": 15,
+      "casting_speed_bonus": 0.2,
+      "empowerment_duration": 15000,
+      "rune_cooldown_reduction": 0.25
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "rune_symbols_illuminating",
+    "empower_effect": "runes_glowing_bright_blue",
+    "damage_effect": "empowered_strikes_energy_trail",
+    "expire_effect": "rune_glow_fading_gently"
+  },
+  "sound_effects": {
+    "cast_sound": "runes_power_charging_hum",
+    "empower_sound": "empowered_spell_casting_echo",
+    "damage_sound": "enhanced_damage_impact_crack",
+    "expire_sound": "empowered_state_fading_whisper"
+  },
+  "requirements": {
+    "level": 16,
+    "skills": [
+      "rune_magic",
+      "power_enhancement"
+    ],
+    "classes": [
+      "death_knight",
+      "rune_warrior"
+    ],
+    "specializations": [
+      "rune_master"
+    ]
+  },
+  "upgrades": {
+    "runic_ascendance": {
+      "unlock_level": 26,
+      "description": "La puissance runique générée est largement supérieure",
+      "rune_power_regeneration_bonus": 200,
+      "damage_increase_bonus": 10,
+      "duration_bonus": 5000
+    },
+    "runic_saturation": {
+      "unlock_level": 36,
+      "description": "Toutes les runes sont rechargées instantanément au lancement",
+      "instant_rune_full_recharge": true,
+      "cooldown_reduction_bonus": 0.5,
+      "critical_empowerment_chance": 0.3
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

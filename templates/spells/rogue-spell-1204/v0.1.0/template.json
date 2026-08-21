@@ -1,0 +1,58 @@
+{
+  "id": "rogue_spell_1204",
+  "name": "Rogue Spell 1204",
+  "description": "Inflige des dégâts par saignement sur la durée",
+  "icon": "rogue_spell_1204_icon",
+  "school": "rogue",
+  "rarity": "common",
+  "spell_type": "bleed_attack",
+  "target_type": "enemy",
+  "range": 1.5,
+  "cast_time": 0,
+  "cooldown": 6000,
+  "energy_cost": 45,
+  "damage": {
+    "base_damage": 15,
+    "damage_type": "physical"
+  },
+  "effects": [
+    {
+      "effect_type": "combo_point_generation",
+      "combo_points": 1,
+      "bleed_damage": 30,
+      "bleed_duration": 18000,
+      "silence_target": true,
+      "silence_duration": 3000,
+      "stealth_multiplier": 1.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "stealth_prepare",
+    "attack_effect": "throat_slash",
+    "impact_effect": "bleeding_neck"
+  },
+  "sound_effects": {
+    "cast_sound": "blade_drawn",
+    "attack_sound": "deep_cut",
+    "impact_sound": "blood_gurgle"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [
+      "stealth",
+      "dagger_mastery"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_garrote": {
+      "unlock_level": 15,
+      "description": "Augmente les dégâts de saignement",
+      "bleed_multiplier": 1.3
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

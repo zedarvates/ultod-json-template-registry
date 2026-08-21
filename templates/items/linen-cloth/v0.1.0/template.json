@@ -1,0 +1,32 @@
+{
+  "id": "linen_cloth",
+  "name": "Tissu de Lin",
+  "description": "Du tissu de lin doux et résistant, parfait pour la couture",
+  "icon": "linen_cloth",
+  "category": "material",
+  "rarity": "common",
+  "item_type": "crafting_material",
+  "sub_type": "cloth",
+  "base_stats": {
+    "durability": 1,
+    "max_durability": 1,
+    "weight": 0.5,
+    "value": 3
+  },
+  "properties": {
+    "stackable": true,
+    "consumable": false,
+    "reusable": false,
+    "soulbound": false,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "professions": []
+  },
+  "effects": [],
+  "version": "0.1.0",
+  "template_type": "item"
+}

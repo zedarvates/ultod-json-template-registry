@@ -81,23 +81,6 @@
       "holy": 12
     }
   },
-  "admin_controls": {
-    "enabled": true,
-    "admin_only": false,
-    "requires_permission": true,
-    "max_characters_per_account": 2,
-    "creation_restrictions": {
-      "min_level_required": 1,
-      "faction_restricted": false,
-      "realm_restricted": false
-    },
-    "balancing_multipliers": {
-      "damage_dealt": 1.0,
-      "damage_taken": 0.95,
-      "healing_received": 1.1,
-      "experience_rate": 1.05
-    }
-  },
   "template_type": "race",
   "version": "0.1.0"
 }

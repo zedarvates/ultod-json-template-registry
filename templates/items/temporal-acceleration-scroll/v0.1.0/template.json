@@ -1,0 +1,60 @@
+{
+  "item_id": "temporal_acceleration_scroll",
+  "name": "Parchemin d'Accélération Temporelle",
+  "description": "Un parchemin rare qui accélère temporairement tous les processus pour son utilisateur",
+  "icon": "temporal_acceleration_scroll_icon",
+  "category": "consumable",
+  "rarity": "rare",
+  "item_type": "utility_scroll",
+  "bind_type": "none",
+  "level_required": 40,
+  "durability": {
+    "single_use": true,
+    "charges": 1
+  },
+  "effects": [
+    {
+      "effect_type": "global_speed_boost",
+      "value": 1.5,
+      "duration": 120000,
+      "description": "Augmente la vitesse d'action de 50%"
+    },
+    {
+      "effect_type": "cooldown_reduction",
+      "value": 0.3,
+      "duration": 120000,
+      "description": "Réduit tous les temps de recharge de 30%"
+    }
+  ],
+  "usage_instructions": {
+    "cast_time": 2000,
+    "cooldown": 300000,
+    "self_only": true,
+    "consumable_on_use": true
+  },
+  "crafting_requirements": {
+    "profession": "master_chronomancer",
+    "level_required": 45,
+    "specialization": "clockmaker",
+    "materials": [
+      {
+        "material_id": "fine_paper",
+        "quantity": 3
+      },
+      {
+        "material_id": "temporal_essence",
+        "quantity": 5
+      },
+      {
+        "material_id": "chronal_ink",
+        "quantity": 2
+      }
+    ],
+    "crafting_time": 300000,
+    "success_rate": 0.8,
+    "batch_production": 5
+  },
+  "version": "0.1.0",
+  "id": "temporal_acceleration_scroll",
+  "template_type": "item"
+}

@@ -1,0 +1,65 @@
+{
+  "id": "sacre_spell_1112",
+  "name": "Sacre Spell 1112",
+  "description": "Vous projetez un éclair lumineux vers une créature dans la portée. Une attaque à distance avec magie. Si elle touche, la cible subit 4d6 dégâts radiants, et le prochain jet d'attaque contre elle avant la fin de votre prochain tour a l'avantage",
+  "icon": "sacre_spell_1112_icon",
+  "school": "sacré",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "enemy",
+  "range": 30.0,
+  "cast_time": 1000,
+  "cooldown": 20000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 28,
+    "damage_type": "radiant",
+    "scaling": {
+      "wisdom": 0.5,
+      "intelligence": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 28,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_radius": 0.0,
+      "proc_chance": 1.0,
+      "advantage_to_next_attack": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "lightning_charge",
+    "damage_effect": "radiant_burst",
+    "impact_effect": "holy_blast"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_zap",
+    "damage_sound": "radiant_explosion",
+    "impact_sound": "sacre_spell_1112_echo"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "empowered_guiding_bolt": {
+      "unlock_level": 5,
+      "description": "Augmente les dégâts de base",
+      "damage_increase": 10
+    },
+    "enhanced_guidance": {
+      "unlock_level": 11,
+      "description": "Donne l'avantage à toutes les attaques contre la cible pendant 1 tour",
+      "extended_advantage": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

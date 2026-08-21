@@ -1,0 +1,46 @@
+{
+  "id": "enchantment_spell_1531",
+  "name": "Enchantment Spell 1531",
+  "description": "Jette un Enchantment Spell 1531 sur une créature, réduisant ses jets de sauvegarde d'un type choisi",
+  "icon": "enchantment_spell_1531_icon",
+  "school": "enchantment",
+  "rarity": "uncommon",
+  "spell_type": "debuff",
+  "target_type": "single",
+  "range": 27.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "curse",
+      "value": -2,
+      "duration": 3600000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dark_cloud",
+    "curse_effect": "evil_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "curse_whisper"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "enchantment"
+    ],
+    "classes": [
+      "warlock"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

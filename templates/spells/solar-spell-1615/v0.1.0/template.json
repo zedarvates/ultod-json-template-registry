@@ -1,0 +1,75 @@
+{
+  "id": "solar_spell_1615",
+  "name": "Solar Spell 1615",
+  "description": "Lance l'arme sacrée solar_spell_1615 en projectile de feu solaire",
+  "icon": "solar_spell_1615_icon",
+  "school": "solar",
+  "rarity": "epic",
+  "spell_type": "damage",
+  "target_type": "single_enemy",
+  "range": 35.0,
+  "cast_time": 2000,
+  "cooldown": 0,
+  "solar_war_energy_cost": 40,
+  "damage": {
+    "base_damage": 90,
+    "damage_type": "fire",
+    "scaling": {
+      "strength": 1.3,
+      "intelligence": 1.1
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "burn",
+      "value": 20,
+      "duration": 6000,
+      "tick_rate": 1000,
+      "scaling": {
+        "strength": 0.8
+      }
+    },
+    {
+      "effect_type": "solar_blessing",
+      "value": 0,
+      "duration": 10000,
+      "tick_rate": 0,
+      "scaling": {}
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fire_serpent_manifest",
+    "hit_effect": "solar_explosion",
+    "miss_effect": "flame_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "serpent_hiss",
+    "hit_sound": "solar_strike",
+    "miss_sound": "fire_crackle"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "solar_warfare"
+    ],
+    "classes": [
+      "huitzilopochtli"
+    ]
+  },
+  "upgrades": {
+    "enhanced_xiuhcoatl": {
+      "unlock_level": 20,
+      "description": "Augmente les dégâts et l'effet de brûlure",
+      "damage_bonus": 30,
+      "burn_duration_bonus": 3000
+    },
+    "imperial_empower": {
+      "unlock_level": 30,
+      "description": "Le sort confère des buffs impériaux",
+      "empire_blessing": true,
+      "damage_reduction_bonus": 15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

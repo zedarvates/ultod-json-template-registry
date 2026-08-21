@@ -1,0 +1,1501 @@
+{
+  "blueprint_id": "npc_house_3",
+  "name": "npc_house_3",
+  "lot": {
+    "width": 13,
+    "depth": 13,
+    "cell_size": 1,
+    "floor_height": 3
+  },
+  "floors": [
+    {
+      "level": 0,
+      "tiles": [
+        {
+          "x": 3,
+          "z": 3,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 4,
+          "z": 3,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 5,
+          "z": 3,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 6,
+          "z": 3,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 3,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 8,
+          "z": 3,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 9,
+          "z": 3,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 3,
+          "z": 4,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 4,
+          "z": 4,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 5,
+          "z": 4,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 6,
+          "z": 4,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 4,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 8,
+          "z": 4,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 9,
+          "z": 4,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 3,
+          "z": 5,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 4,
+          "z": 5,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 5,
+          "z": 5,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 6,
+          "z": 5,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 5,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 8,
+          "z": 5,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 9,
+          "z": 5,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 3,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 4,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 5,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 6,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 8,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 9,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 3,
+          "z": 7,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 4,
+          "z": 7,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 5,
+          "z": 7,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 6,
+          "z": 7,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 7,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 8,
+          "z": 7,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 9,
+          "z": 7,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 3,
+          "z": 8,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 4,
+          "z": 8,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 5,
+          "z": 8,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 6,
+          "z": 8,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 8,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 8,
+          "z": 8,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 9,
+          "z": 8,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 3,
+          "z": 9,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 4,
+          "z": 9,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 5,
+          "z": 9,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 6,
+          "z": 9,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 9,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 8,
+          "z": 9,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 9,
+          "z": 9,
+          "part_id": "sol_marbre_sombre"
+        }
+      ],
+      "walls": [
+        {
+          "x": 3,
+          "z": 3,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 3,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 5,
+          "z": 3,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 5,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 3,
+          "edge": "N",
+          "part_id": "fenetre_gothique",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 10,
+          "edge": "N",
+          "part_id": "porte_ornee",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 3,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 8,
+          "z": 3,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 8,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 9,
+          "z": 3,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 9,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 3,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 3,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 4,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 4,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 5,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 5,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 6,
+          "edge": "W",
+          "part_id": "fenetre_gothique",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 6,
+          "edge": "W",
+          "part_id": "fenetre_gothique",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 7,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 7,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 9,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 9,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "tiles": [
+        {
+          "x": 3,
+          "z": 3,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 4,
+          "z": 3,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 5,
+          "z": 3,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 6,
+          "z": 3,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 3,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 8,
+          "z": 3,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 9,
+          "z": 3,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 3,
+          "z": 4,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 4,
+          "z": 4,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 5,
+          "z": 4,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 6,
+          "z": 4,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 4,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 8,
+          "z": 4,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 9,
+          "z": 4,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 3,
+          "z": 5,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 4,
+          "z": 5,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 5,
+          "z": 5,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 6,
+          "z": 5,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 5,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 8,
+          "z": 5,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 9,
+          "z": 5,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 3,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 4,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 5,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 6,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 8,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 9,
+          "z": 6,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 3,
+          "z": 7,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 4,
+          "z": 7,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 5,
+          "z": 7,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 6,
+          "z": 7,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 7,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 8,
+          "z": 7,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 9,
+          "z": 7,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 3,
+          "z": 8,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 4,
+          "z": 8,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 5,
+          "z": 8,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 6,
+          "z": 8,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 8,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 8,
+          "z": 8,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 9,
+          "z": 8,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 3,
+          "z": 9,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 4,
+          "z": 9,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 5,
+          "z": 9,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 6,
+          "z": 9,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 7,
+          "z": 9,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 8,
+          "z": 9,
+          "part_id": "sol_marbre_sombre"
+        },
+        {
+          "x": 9,
+          "z": 9,
+          "part_id": "sol_marbre_sombre"
+        }
+      ],
+      "walls": [
+        {
+          "x": 3,
+          "z": 3,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 3,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 4,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 5,
+          "z": 3,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 5,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 3,
+          "edge": "N",
+          "part_id": "fenetre_gothique",
+          "stack": 0
+        },
+        {
+          "x": 6,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 3,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 7,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 8,
+          "z": 3,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 8,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 9,
+          "z": 3,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 9,
+          "z": 10,
+          "edge": "N",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 3,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 3,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 4,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 4,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 5,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 5,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 6,
+          "edge": "W",
+          "part_id": "fenetre_gothique",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 6,
+          "edge": "W",
+          "part_id": "fenetre_gothique",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 7,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 7,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 8,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 3,
+          "z": 9,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        },
+        {
+          "x": 10,
+          "z": 9,
+          "edge": "W",
+          "part_id": "mur_pierre_sombre",
+          "stack": 0
+        }
+      ]
+    }
+  ],
+  "roof": [
+    {
+      "x": 3,
+      "z": 3,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 4,
+      "z": 3,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 5,
+      "z": 3,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 6,
+      "z": 3,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 7,
+      "z": 3,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 8,
+      "z": 3,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 9,
+      "z": 3,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 3,
+      "z": 4,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 4,
+      "z": 4,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 5,
+      "z": 4,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 6,
+      "z": 4,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 7,
+      "z": 4,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 8,
+      "z": 4,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 9,
+      "z": 4,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 3,
+      "z": 5,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 4,
+      "z": 5,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 5,
+      "z": 5,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 6,
+      "z": 5,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 7,
+      "z": 5,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 8,
+      "z": 5,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 9,
+      "z": 5,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 180
+    },
+    {
+      "x": 3,
+      "z": 6,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 3,
+      "z": 6,
+      "part_id": "toit_pignon",
+      "rotation": 90
+    },
+    {
+      "x": 4,
+      "z": 6,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 5,
+      "z": 6,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 6,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 7,
+      "z": 6,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 8,
+      "z": 6,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 9,
+      "z": 6,
+      "part_id": "toit_faite",
+      "rotation": 0
+    },
+    {
+      "x": 9,
+      "z": 6,
+      "part_id": "toit_pignon",
+      "rotation": 270
+    },
+    {
+      "x": 3,
+      "z": 7,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 4,
+      "z": 7,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 5,
+      "z": 7,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 7,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 7,
+      "z": 7,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 8,
+      "z": 7,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 9,
+      "z": 7,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 3,
+      "z": 8,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 4,
+      "z": 8,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 5,
+      "z": 8,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 8,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 7,
+      "z": 8,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 8,
+      "z": 8,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 9,
+      "z": 8,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 3,
+      "z": 9,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 4,
+      "z": 9,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 5,
+      "z": 9,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 6,
+      "z": 9,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 7,
+      "z": 9,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 8,
+      "z": 9,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    },
+    {
+      "x": 9,
+      "z": 9,
+      "part_id": "toit_ardoise_sombre",
+      "rotation": 0
+    }
+  ],
+  "garden": [
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0,
+        0,
+        4
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0,
+        0,
+        5
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "chemin_gravier",
+      "position": [
+        0,
+        0,
+        6
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "arbre_chene",
+      "position": [
+        4,
+        0,
+        -6
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    },
+    {
+      "part_id": "buisson",
+      "position": [
+        5,
+        0,
+        -5
+      ],
+      "rotation_y": 0,
+      "scale": 1
+    }
+  ],
+  "style_id": "gothique_riche",
+  "ornaments": [
+    {
+      "ornament_id": "torche_murale",
+      "x": 4,
+      "z": 3,
+      "edge": "N",
+      "floor": 0
+    },
+    {
+      "ornament_id": "torche_murale",
+      "x": 4,
+      "z": 10,
+      "edge": "N",
+      "floor": 0
+    },
+    {
+      "ornament_id": "tapisserie",
+      "x": 5,
+      "z": 3,
+      "edge": "N",
+      "floor": 0
+    },
+    {
+      "ornament_id": "tapisserie",
+      "x": 5,
+      "z": 10,
+      "edge": "N",
+      "floor": 0
+    },
+    {
+      "ornament_id": "torche_murale",
+      "x": 8,
+      "z": 3,
+      "edge": "N",
+      "floor": 0
+    },
+    {
+      "ornament_id": "torche_murale",
+      "x": 3,
+      "z": 3,
+      "edge": "W",
+      "floor": 0
+    },
+    {
+      "ornament_id": "torche_murale",
+      "x": 3,
+      "z": 5,
+      "edge": "W",
+      "floor": 0
+    },
+    {
+      "ornament_id": "tapisserie",
+      "x": 3,
+      "z": 7,
+      "edge": "W",
+      "floor": 0
+    },
+    {
+      "ornament_id": "torche_murale",
+      "x": 3,
+      "z": 8,
+      "edge": "W",
+      "floor": 0
+    },
+    {
+      "ornament_id": "blason",
+      "x": 3,
+      "z": 9,
+      "edge": "W",
+      "floor": 0
+    },
+    {
+      "ornament_id": "torche_murale",
+      "x": 10,
+      "z": 9,
+      "edge": "W",
+      "floor": 0
+    },
+    {
+      "ornament_id": "gargouille",
+      "x": 3,
+      "z": 3,
+      "edge": "N",
+      "floor": 1
+    },
+    {
+      "ornament_id": "torche_murale",
+      "x": 5,
+      "z": 10,
+      "edge": "N",
+      "floor": 1
+    },
+    {
+      "ornament_id": "torche_murale",
+      "x": 6,
+      "z": 10,
+      "edge": "N",
+      "floor": 1
+    },
+    {
+      "ornament_id": "tapisserie",
+      "x": 7,
+      "z": 3,
+      "edge": "N",
+      "floor": 1
+    },
+    {
+      "ornament_id": "torche_murale",
+      "x": 7,
+      "z": 10,
+      "edge": "N",
+      "floor": 1
+    },
+    {
+      "ornament_id": "torche_murale",
+      "x": 8,
+      "z": 3,
+      "edge": "N",
+      "floor": 1
+    },
+    {
+      "ornament_id": "tapisserie",
+      "x": 10,
+      "z": 3,
+      "edge": "W",
+      "floor": 1
+    },
+    {
+      "ornament_id": "torche_murale",
+      "x": 10,
+      "z": 4,
+      "edge": "W",
+      "floor": 1
+    },
+    {
+      "ornament_id": "tapisserie",
+      "x": 10,
+      "z": 7,
+      "edge": "W",
+      "floor": 1
+    }
+  ],
+  "props": [
+    {
+      "prop_id": "escalier_bois",
+      "x": 4,
+      "z": 4,
+      "floor": 0,
+      "rotation": 0
+    },
+    {
+      "prop_id": "table_longue",
+      "x": 9,
+      "z": 9,
+      "floor": 0,
+      "rotation": 0
+    },
+    {
+      "prop_id": "chaise",
+      "x": 7,
+      "z": 5,
+      "floor": 0,
+      "rotation": 0
+    },
+    {
+      "prop_id": "chaise",
+      "x": 6,
+      "z": 8,
+      "floor": 0,
+      "rotation": 0
+    },
+    {
+      "prop_id": "chaise",
+      "x": 4,
+      "z": 8,
+      "floor": 0,
+      "rotation": 0
+    },
+    {
+      "prop_id": "chaise",
+      "x": 3,
+      "z": 7,
+      "floor": 0,
+      "rotation": 0
+    },
+    {
+      "prop_id": "cheminee",
+      "x": 3,
+      "z": 3,
+      "floor": 0,
+      "rotation": 0
+    },
+    {
+      "prop_id": "bougie_table",
+      "x": 4,
+      "z": 3,
+      "floor": 0,
+      "rotation": 0
+    },
+    {
+      "prop_id": "bougie_table",
+      "x": 9,
+      "z": 3,
+      "floor": 0,
+      "rotation": 0
+    },
+    {
+      "prop_id": "bougie_table",
+      "x": 9,
+      "z": 7,
+      "floor": 0,
+      "rotation": 0
+    },
+    {
+      "prop_id": "lit",
+      "x": 3,
+      "z": 7,
+      "floor": 1,
+      "rotation": 0
+    },
+    {
+      "prop_id": "etagere",
+      "x": 6,
+      "z": 9,
+      "floor": 1,
+      "rotation": 0
+    }
+  ],
+  "kind": "maison",
+  "id": "npc_house_3",
+  "template_type": "blueprint",
+  "version": "0.1.0"
+}

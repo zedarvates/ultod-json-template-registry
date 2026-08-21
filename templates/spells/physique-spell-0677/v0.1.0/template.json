@@ -1,0 +1,66 @@
+{
+  "id": "physique_spell_0677",
+  "name": "Physique Spell 0677",
+  "description": "Tire physique_spell_0677matiquement sur la cible désignée avec l'arme à distance équipée",
+  "icon": "physique_spell_0677_icon",
+  "school": "physique",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 35.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 80,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 1.0,
+      "strength": 0.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 80,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "bow_draw",
+    "projectile_effect": "arrow_flight",
+    "impact_effect": "arrow_impact"
+  },
+  "sound_effects": {
+    "cast_sound": "bow_string",
+    "projectile_sound": "arrow_whistle",
+    "impact_sound": "arrow_hit"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "hunter",
+      "ranger"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_auto_shot": {
+      "unlock_level": 10,
+      "description": "Physique Spell 0677 inflige plus de dégâts et peut critiquer",
+      "damage_bonus": 40,
+      "crit_chance": 0.1
+    },
+    "auto_shot_mastery": {
+      "unlock_level": 20,
+      "description": "Physique Spell 0677 génère de la concentration pour les autres sorts",
+      "focus_generation": 10,
+      "attack_speed_bonus": 0.05
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

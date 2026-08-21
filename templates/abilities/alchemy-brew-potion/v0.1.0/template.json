@@ -1,0 +1,68 @@
+{
+  "id": "alchemy_brew_potion",
+  "name": "Préparer Potion",
+  "description": "Mélange habilement les ingrédients pour créer une potion",
+  "icon": "brew_potion_icon",
+  "category": "crafting",
+  "rarity": "common",
+  "ability_type": "crafting",
+  "target_type": "workstation",
+  "range": 1.5,
+  "cast_time": 3000,
+  "cooldown": 0,
+  "resource_cost": {
+    "type": "stamina",
+    "amount": 5
+  },
+  "duration": 0,
+  "effects": [
+    {
+      "effect_type": "crafting_progress",
+      "target": "workstation",
+      "value": 20,
+      "scaling": {
+        "intelligence": 0.4,
+        "skill_alchemy": 0.6
+      },
+      "quality_bonus": 0.15
+    },
+    {
+      "effect_type": "potion_stability",
+      "target": "workstation",
+      "value": 10,
+      "scaling": {
+        "wisdom": 0.5
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ingredient_mix",
+    "active_effect": "cauldron_bubble",
+    "success_effect": "potion_complete"
+  },
+  "sound_effects": {
+    "cast_sound": "ingredients_crush",
+    "active_sound": "liquid_bubble",
+    "success_sound": "potion_success"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "alchemy"
+    ],
+    "tools": [
+      "cauldron",
+      "mortar_pestle"
+    ]
+  },
+  "upgrades": {
+    "master_brewer": {
+      "unlock_level": 20,
+      "description": "Réduit les risques d'échec et améliore la qualité",
+      "quality_bonus": 25,
+      "stability_bonus": 30
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

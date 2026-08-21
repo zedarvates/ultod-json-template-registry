@@ -1,0 +1,44 @@
+{
+  "id": "sinister_strike",
+  "name": "Attaque Sinistre",
+  "description": "Une attaque de mêlée brutale qui inflige des dégâts et génère un point de combo",
+  "type": "ability",
+  "class_restriction": [
+    "rogue"
+  ],
+  "level_requirement": 1,
+  "resource_cost": {
+    "type": "energy",
+    "amount": 40
+  },
+  "cooldown_seconds": 0,
+  "range": 5.0,
+  "effects": [
+    {
+      "type": "damage",
+      "damage_type": "physical",
+      "base_damage": 50,
+      "scaling": {
+        "strength": 0.5,
+        "dexterity": 1.2,
+        "intelligence": 0.0,
+        "level": 0.5
+      },
+      "armor_penetration": 0.0
+    },
+    {
+      "type": "add_combo_point",
+      "damage_type": "none",
+      "base_damage": 1,
+      "scaling": {
+        "strength": 0.0,
+        "dexterity": 0.0,
+        "intelligence": 0.0,
+        "level": 0.0
+      },
+      "armor_penetration": 0.0
+    }
+  ],
+  "template_type": "ability",
+  "version": "0.1.0"
+}

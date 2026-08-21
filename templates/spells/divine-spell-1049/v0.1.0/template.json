@@ -1,0 +1,64 @@
+{
+  "id": "divine_spell_1049",
+  "name": "Divine Spell 1049",
+  "description": "Vous canalisez le pouvoir divin pour guérir une créature alliée d'un montant de PV égal à votre niveau de paladin multiplié par 5",
+  "icon": "divine_spell_1049_icon",
+  "school": "divine",
+  "rarity": "common",
+  "spell_type": "healing",
+  "target_type": "ally",
+  "range": 2.0,
+  "cast_time": 1000,
+  "cooldown": 10000,
+  "mana_cost": 25,
+  "healing": {
+    "base_healing": 50,
+    "scaling_factor": 5,
+    "healing_type": "divine"
+  },
+  "effects": [
+    {
+      "effect_type": "direct_healing",
+      "value": 50,
+      "duration": 0,
+      "tick_rate": 0,
+      "clears_negative_effects": false,
+      "holy_healing_bonus": 1.2
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "holy_glow",
+    "heal_effect": "divine_light_burst",
+    "impact_effect": "golden_shimmer"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_chant",
+    "heal_sound": "divine_restoration",
+    "impact_sound": "healing_chime"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "divine_magic"
+    ],
+    "classes": [
+      "paladin"
+    ]
+  },
+  "upgrades": {
+    "improved_lay_on_hands": {
+      "unlock_level": 5,
+      "description": "Dégâts supplémentaires contre les morts-vivants et les démons",
+      "undead_healing_penalty": -50,
+      "demon_healing_penalty": -50
+    },
+    "purifying_touch": {
+      "unlock_level": 11,
+      "description": "Dissipe un effet négatif en plus de soigner",
+      "removes_one_debuff": true,
+      "healing_bonus": 20
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

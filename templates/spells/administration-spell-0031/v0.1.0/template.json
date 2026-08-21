@@ -1,0 +1,54 @@
+{
+  "id": "administration_spell_0031",
+  "name": "Administration Spell 0031",
+  "description": "[ADMIN ONLY] Instantly modify any aspect of a player's administration_spell_0031 - stats, skills, inventory, appearance",
+  "icon": "admin_administration_spell_0031_icon",
+  "school": "administration",
+  "rarity": "epic",
+  "spell_type": "administration_spell_0031_modification",
+  "target_type": "player_target",
+  "range": 1000.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "administration_spell_0031_admin_alteration"
+  },
+  "effects": [
+    {
+      "effect_type": "complete_administration_spell_0031_modification",
+      "value": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "stat_modification_range": "unlimited_all_stats",
+      "skill_level_alteration": "instant_any_level",
+      "inventory_item_editing": "add_remove_modify",
+      "appearance_change_capability": "complete_cosmetic",
+      "level_adjustment_range": "1_to_max_level",
+      "save_immediate_auto": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "reality_rewrite_energy_surge",
+    "edit_effect": "administration_spell_0031_data_reconfiguration_sparks",
+    "success_effect": "complete_alternation_confirmation_glow",
+    "special_effect": "admin_power_administration_spell_0031_authority_radiance"
+  },
+  "sound_effects": {
+    "cast_effect": "reality_editing_data_stream_whir",
+    "edit_effect": "administration_spell_0031_reconfiguration_system_beeps",
+    "success_effect": "modification_complete_harmonic_affirmation",
+    "special_effect": "admin_authority_administration_spell_0031_control_echo"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "gamemaster",
+      "overseer"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

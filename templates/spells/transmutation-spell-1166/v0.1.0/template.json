@@ -1,0 +1,63 @@
+{
+  "id": "transmutation_spell_1166",
+  "name": "Transmutation Spell 1166",
+  "description": "Le sol dans une zone de 20 pieds de rayon se couvre d'épines et de ronces",
+  "icon": "transmutation_spell_1166_icon",
+  "school": "transmutation",
+  "rarity": "uncommon",
+  "spell_type": "area_damage",
+  "target_type": "area_ground",
+  "range": 150.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "piercing"
+  },
+  "effects": [
+    {
+      "effect_type": "area_trap",
+      "value": 20,
+      "duration": 600000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "damage_per_step": 2,
+      "slow_effect": 0.5,
+      "radius": 20.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "thorn_eruption",
+    "area_effect": "transmutation_spell_1166d_ground"
+  },
+  "sound_effects": {
+    "cast_sound": "cracking_vines",
+    "damage_sound": "thorn_stab"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "nature_magic"
+    ],
+    "classes": [
+      "ranger",
+      "druid"
+    ]
+  },
+  "upgrades": {
+    "greater_spikes": {
+      "unlock_level": 5,
+      "description": "Augmente les dégâts par pas à 4",
+      "damage_upgrade": 4
+    },
+    "poison_spikes": {
+      "unlock_level": 9,
+      "description": "Ajoute des dégâts de poison",
+      "poison_damage": 1,
+      "poison_type": "nature_poison"
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

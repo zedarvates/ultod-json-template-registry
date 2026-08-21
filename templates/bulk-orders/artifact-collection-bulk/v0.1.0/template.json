@@ -1,0 +1,51 @@
+{
+  "id": "artifact_collection_bulk",
+  "name": "Commande de Collection d'Artéfacts",
+  "profession": "archaeology",
+  "description": "Collection d'artéfacts anciens et d'objets historiques pour le musée royal",
+  "difficulty": "expert",
+  "time_limit_hours": 168,
+  "material_cost_multiplier": 1.5,
+  "experience_bonus_multiplier": 1.6,
+  "item_requirements": [
+    {
+      "item_type": "ancient_coin",
+      "quantity": 50,
+      "quality_requirement": "fine",
+      "special_properties": [
+        "authentic"
+      ]
+    },
+    {
+      "item_type": "lost_relic",
+      "quantity": 20,
+      "quality_requirement": "superior",
+      "special_properties": [
+        "magical",
+        "intact"
+      ]
+    },
+    {
+      "item_type": "forgotten_artifact",
+      "quantity": 5,
+      "quality_requirement": "exceptional",
+      "special_properties": [
+        "legendary",
+        "cursed"
+      ]
+    }
+  ],
+  "rewards": {
+    "gold_reward": 25000,
+    "experience_reward": 2000,
+    "item_rewards": [
+      "archaeology_master_guide",
+      "ancient_knowledge_tome",
+      "legendary_excavation_tool"
+    ],
+    "title_unlock": "Master Archaeologist",
+    "reputation_gain": 300
+  },
+  "template_type": "bulk_order",
+  "version": "0.1.0"
+}

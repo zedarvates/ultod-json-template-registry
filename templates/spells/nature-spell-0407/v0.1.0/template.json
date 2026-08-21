@@ -1,0 +1,73 @@
+{
+  "id": "nature_spell_0407",
+  "name": "Nature Spell 0407",
+  "description": "Un toucher apaisant qui canalise l'énergie de la nature pour guérir les blessures",
+  "icon": "nature_spell_0407_icon",
+  "school": "nature",
+  "rarity": "common",
+  "spell_type": "nature_spell_0407",
+  "target_type": "ally",
+  "range": 30.0,
+  "cast_time": 2500,
+  "cooldown": 0,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "nature",
+    "scaling": {
+      "wisdom": 1.6,
+      "intelligence": 0.4
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "heal",
+      "value": 280,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "nature_spell_0407_over_time",
+      "value": 25,
+      "duration": 12000,
+      "tick_rate": 3000,
+      "total_ticks": 4,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "nature_energy_flow",
+    "heal_effect": "green_nature_spell_0407_aura",
+    "hot_effect": "gentle_nature_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "nature_whisper",
+    "heal_sound": "nature_spell_0407_breeze",
+    "hot_sound": "gentle_rustle"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [],
+    "classes": [
+      "druid"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_healing_touch": {
+      "unlock_level": 18,
+      "description": "Nature Spell 0407 soigne plus et réduit le temps d'incantation",
+      "heal_bonus": 120,
+      "cast_time_reduction": 500
+    },
+    "healing_touch_mastery": {
+      "unlock_level": 28,
+      "description": "Nature Spell 0407 peut critiquer et soigne plus avec le temps",
+      "crit_chance": 0.2,
+      "hot_bonus": 15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

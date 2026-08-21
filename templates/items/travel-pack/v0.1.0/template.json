@@ -1,0 +1,29 @@
+{
+  "id": "travel_pack",
+  "name": "Sac de Voyage",
+  "description": "Sac de depart augmentant legerement la capacite d'inventaire.",
+  "icon": "travel_pack",
+  "category": "container",
+  "rarity": "common",
+  "item_type": "bag",
+  "sub_type": "backpack",
+  "base_stats": {
+    "durability": 50,
+    "max_durability": 50,
+    "weight": 1.0,
+    "value": 75
+  },
+  "bag_properties": {
+    "extra_slots": 8
+  },
+  "properties": {
+    "stackable": false,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 1
+  },
+  "template_type": "item",
+  "version": "0.1.0"
+}

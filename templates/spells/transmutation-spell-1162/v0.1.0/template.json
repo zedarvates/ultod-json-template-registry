@@ -1,0 +1,63 @@
+{
+  "id": "transmutation_spell_1162",
+  "name": "Transmutation Spell 1162",
+  "description": "Vous touchez une créature et augmentez sa vitesse de 10 pieds pendant 1 heure",
+  "icon": "transmutation_spell_1162_icon",
+  "school": "transmutation",
+  "rarity": "common",
+  "spell_type": "buff",
+  "target_type": "single_ally",
+  "range": 5.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "speed_boost",
+      "value": 10,
+      "duration": 3600000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "speed_increase": 10.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "swift_aura",
+    "buff_effect": "speed_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "wind_rush",
+    "buff_sound": "swift_echo"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "athletics",
+      "nature_magic"
+    ],
+    "classes": [
+      "ranger",
+      "druid",
+      "bard"
+    ]
+  },
+  "upgrades": {
+    "greater_strider": {
+      "unlock_level": 3,
+      "description": "Augmente la vitesse de 20 pieds",
+      "speed_increase": 20.0
+    },
+    "group_strider": {
+      "unlock_level": 7,
+      "description": "Affecte tous les alliés dans une zone",
+      "area_buff": true,
+      "radius": 10.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

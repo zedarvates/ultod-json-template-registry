@@ -1,0 +1,81 @@
+{
+  "id": "druid",
+  "name": "Druid",
+  "description": "A guardian of nature who can shapeshift into various forms",
+  "color": "FF7D0A",
+  "primary_resource": "mana",
+  "base_stats": {
+    "strength": 14,
+    "agility": 14,
+    "intelligence": 16,
+    "vitality": 16,
+    "wisdom": 18,
+    "charisma": 12
+  },
+  "specializations": [
+    "balance",
+    "feral",
+    "guardian",
+    "restoration_druid"
+  ],
+  "starting_skills": [
+    {
+      "id": 9001,
+      "name": "Wrath",
+      "description": "Causes nature damage to an enemy",
+      "cooldown": 0,
+      "mana_cost": 220,
+      "range": 30.0,
+      "cast_time": 2000,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 9002,
+      "name": "Moonfire",
+      "description": "Burns the enemy with lunar fire",
+      "cooldown": 0,
+      "mana_cost": 180,
+      "range": 30.0,
+      "cast_time": 0,
+      "learned_at_level": 4,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 90001,
+            "name": "Nature's Focus",
+            "description": "Reduces spell mana cost by 5%",
+            "max_rank": 3,
+            "icon_path": "talents/druid/natures_focus.png"
+          },
+          {
+            "id": 90002,
+            "name": "Feral Aggression",
+            "description": "Increases attack power by 5%",
+            "max_rank": 5,
+            "icon_path": "talents/druid/feral_aggression.png"
+          },
+          {
+            "id": 90003,
+            "name": "Natural Shapeshifter",
+            "description": "Reduces shapeshift mana cost by 10%",
+            "max_rank": 3,
+            "icon_path": "talents/druid/natural_shapeshifter.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100000,
+  "health_modifier": 1.1,
+  "damage_modifier": 1.0,
+  "armor_modifier": 1.0,
+  "template_type": "class",
+  "version": "0.1.0"
+}

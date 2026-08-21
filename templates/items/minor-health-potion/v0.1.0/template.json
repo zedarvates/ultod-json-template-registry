@@ -1,0 +1,33 @@
+{
+  "id": "minor_health_potion",
+  "name": "Petite Potion de Soin",
+  "description": "Restaure un peu de vie. Indispensable en debut de parcours.",
+  "icon": "minor_health_potion",
+  "category": "consumable",
+  "rarity": "common",
+  "item_type": "potion",
+  "sub_type": "health",
+  "base_stats": {
+    "durability": 1,
+    "max_durability": 1,
+    "weight": 0.15,
+    "value": 15
+  },
+  "consumable_properties": {
+    "heal_amount": 75,
+    "cast_time_seconds": 1.5,
+    "stackable": true,
+    "max_stack": 30
+  },
+  "properties": {
+    "stackable": true,
+    "consumable": true,
+    "tradeable": true,
+    "sellable": true
+  },
+  "requirements": {
+    "level": 1
+  },
+  "template_type": "item",
+  "version": "0.1.0"
+}

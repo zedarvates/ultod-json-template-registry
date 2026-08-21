@@ -1,0 +1,63 @@
+{
+  "id": "armes_spell_1225",
+  "name": "Armes Spell 1225",
+  "description": "Maîtrise parfaite de la armes_spell_1225, augmentant tous les dégâts physiques",
+  "icon": "armes_spell_1225_icon",
+  "school": "armes",
+  "rarity": "rare",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 1000,
+  "cooldown": 120000,
+  "mana_cost": 25,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "physical_damage_buff",
+      "value": 35,
+      "duration": 60000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "crit_chance_buff",
+      "value": 15,
+      "duration": 60000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "armes_spell_1225_glow",
+    "projectile_effect": "none",
+    "impact_effect": "sword_aura",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "sword_hum",
+    "impact_sound": "aura_activate"
+  },
+  "requirements": {
+    "level": 15,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "legendary_blade": {
+      "unlock_level": 30,
+      "description": "Augmente l'effet de dégâts physiques de 20%",
+      "damage_bonus": 7
+    },
+    "masters_edge": {
+      "unlock_level": 45,
+      "description": "Ajoute 10% de chances de coup critique supplémentaires",
+      "crit_bonus": 10
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

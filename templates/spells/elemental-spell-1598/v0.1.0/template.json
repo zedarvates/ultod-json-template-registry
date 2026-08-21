@@ -1,0 +1,96 @@
+{
+  "id": "elemental_spell_1598",
+  "name": "Elemental Spell 1598",
+  "description": "Invoque le souffle destructeur d'un elemental_spell_1598 ancien",
+  "icon": "elemental_spell_1598_icon",
+  "school": "elemental",
+  "rarity": "epic",
+  "spell_type": "damage",
+  "target_type": "cone",
+  "range": 12.0,
+  "cast_time": 2500,
+  "cooldown": 20000,
+  "mana_cost": 90,
+  "damage": {
+    "base_damage": 250,
+    "damage_type": "fire",
+    "scaling": {
+      "intelligence": 1.2,
+      "wisdom": 0.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "cone_damage",
+      "value": 250,
+      "duration": 0,
+      "tick_rate": 0,
+      "cone_angle": 90,
+      "cone_length": 12.0
+    },
+    {
+      "effect_type": "knockback",
+      "value": 5,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "burn_dot",
+      "value": 50,
+      "duration": 10000,
+      "tick_rate": 2000,
+      "total_ticks": 5,
+      "proc_chance": 0.8
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "elemental_spell_1598_head_formation",
+    "breath_effect": "flaming_cone",
+    "impact_effect": "fire_explosion",
+    "trail_effect": "smoke_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "elemental_spell_1598_roar",
+    "breath_sound": "flame_burst",
+    "impact_sound": "explosion_large"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "wizard",
+      "sorcerer",
+      "spiritmaster",
+      "samurai"
+    ]
+  },
+  "upgrades": {
+    "ancient_dragon_breath": {
+      "unlock_level": 35,
+      "description": "Le souffle devient plus large et plus destructeur",
+      "cone_angle": 120,
+      "damage_bonus": 50
+    },
+    "multi_element_breath": {
+      "unlock_level": 45,
+      "description": "Le souffle peut alterner entre différents éléments",
+      "element_types": [
+        "fire",
+        "ice",
+        "lightning"
+      ],
+      "element_switch_cooldown": 5000
+    },
+    "eternal_flame_breath": {
+      "unlock_level": 55,
+      "description": "Le souffle laisse des flammes persistantes au sol",
+      "ground_fire_duration": 15000,
+      "ground_fire_damage": 30
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "restoration_spell_0086",
+  "name": "Restoration Spell 0086",
+  "description": "Vous jouez une mélodie apaisante qui restaure des points de vie aux alliés proches",
+  "icon": "restoration_spell_0086_icon",
+  "school": "restoration",
+  "rarity": "common",
+  "spell_type": "restoration_spell_0086_buff",
+  "target_type": "multiple_allies",
+  "range": 30.0,
+  "cast_time": 2000,
+  "cooldown": 8000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "restoration_spell_0086",
+    "scaling": {
+      "charisma": 1.5,
+      "wisdom": 0.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "restoration_spell_0086_over_time",
+      "value": 25,
+      "duration": 30000,
+      "tick_rate": 5000,
+      "max_targets": 4,
+      "scaling": {
+        "charisma": 1.5,
+        "wisdom": 0.5
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "soothing_music_notes",
+    "buff_effect": "restoration_spell_0086_glow",
+    "expire_effect": "gentle_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "gentle_harp",
+    "buff_sound": "restoration_spell_0086_harmony",
+    "expire_sound": "soft_end"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "performance",
+      "music_magic"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour"
+    ]
+  },
+  "upgrades": {
+    "chord_of_rest": {
+      "unlock_level": 7,
+      "description": "Ajoute un effet de restauration d'énergie",
+      "energy_restore": 20
+    },
+    "grand_harmony": {
+      "unlock_level": 15,
+      "description": "Augmente la portée et le nombre de cibles",
+      "range_bonus": 15.0,
+      "max_targets": 6
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

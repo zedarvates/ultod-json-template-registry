@@ -1,0 +1,63 @@
+{
+  "id": "transmutation_spell_1154",
+  "name": "Transmutation Spell 1154",
+  "description": "Choisissez une créature volante. Sa vitesse de vol chute à 0 pendant la durée du sort",
+  "icon": "transmutation_spell_1154_icon",
+  "school": "transmutation",
+  "rarity": "uncommon",
+  "spell_type": "control",
+  "target_type": "single_enemy_flying",
+  "range": 300.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "ground_creature",
+      "value": 0,
+      "duration": 60000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "flight_disabled": true,
+      "concentration_required": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "earth_pull",
+    "control_effect": "gravity_chains"
+  },
+  "sound_effects": {
+    "cast_sound": "ground_rumble",
+    "control_sound": "wing_clatter"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "nature_magic"
+    ],
+    "classes": [
+      "ranger",
+      "druid",
+      "wizard"
+    ]
+  },
+  "upgrades": {
+    "greater_earthbind": {
+      "unlock_level": 5,
+      "description": "Peut affecter plusieurs cibles",
+      "area_effect": true,
+      "radius": 20.0
+    },
+    "crushing_earthbind": {
+      "unlock_level": 11,
+      "description": "Les créatures subissent des dégâts de chute si au-dessus du sol",
+      "fall_damage": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

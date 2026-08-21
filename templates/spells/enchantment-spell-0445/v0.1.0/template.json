@@ -1,0 +1,78 @@
+{
+  "id": "enchantment_spell_0445",
+  "name": "Enchantment Spell 0445",
+  "description": "Place une Enchantment Spell 0445 qui renforce magiquement tous les alliés dans sa zone d'effet",
+  "icon": "enchantment_spell_0445_icon",
+  "school": "enchantment",
+  "rarity": "rare",
+  "spell_type": "rune_field_enhancement",
+  "target_type": "place_at_location",
+  "range": 45.0,
+  "cast_time": 2000,
+  "cooldown": 35000,
+  "mana_cost": 90,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "rune_field_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "ancient_rune_power_resonance",
+      "value": 275,
+      "duration": 50000,
+      "tick_rate": 3000,
+      "rune_aura_radius": 20.0,
+      "allied_spell_power_boost": 25,
+      "allied_movement_speed": 10,
+      "rune_damage_to_enemies": 50,
+      "mana_regeneration_buff": 20,
+      "rune_stability_perfect": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "rune_stone_crystallizing_earth_embedment",
+    "active_effect": "rune_glowing_ancient_power_resonating",
+    "boost_effect": "allies_glowing_rune_aura_enhanced",
+    "expire_effect": "rune_energy_dissipating_ancient_whispers"
+  },
+  "sound_effects": {
+    "cast_effect": "earth_embedding_rune_crystal_formation",
+    "active_effect": "rune_power_humming_ancient_echoes",
+    "boost_effect": "power_amplification_rune_melodic_boost",
+    "expire_effect": "rune_power_fading_ancestral_sigh"
+  },
+  "requirements": {
+    "level": 28,
+    "skills": [
+      "arcane_magic",
+      "rune_crafting"
+    ],
+    "classes": [
+      "enchanter",
+      "rune_smith"
+    ],
+    "specializations": [
+      "rune_architect"
+    ]
+  },
+  "upgrades": {
+    "master_rune_stone": {
+      "unlock_level": 38,
+      "description": "La Enchantment Spell 0445 devient un maître et peut changer d'effets dynamiquement",
+      "adaptive_rune_types": 4,
+      "rune_effect_switching": true,
+      "multipier_reinforcements": 2.0,
+      "rune_synchronization_network": true
+    },
+    "titan_rune_monument": {
+      "unlock_level": 48,
+      "description": "La Enchantment Spell 0445 devient un monument titanique avec des effets mondiaux",
+      "titan_size_scaling": 3.0,
+      "global_mana_amplification": 0.5,
+      "legendary_quest_event_trigger": true,
+      "permanent_world_feature": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

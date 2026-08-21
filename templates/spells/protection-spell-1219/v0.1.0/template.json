@@ -1,0 +1,63 @@
+{
+  "id": "protection_spell_1219",
+  "name": "Protection Spell 1219",
+  "description": "Parade disciplinée qui bloque complètement les attaques entrantes temporairement",
+  "icon": "protection_spell_1219_icon",
+  "school": "protection",
+  "rarity": "common",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 500,
+  "cooldown": 20000,
+  "mana_cost": 15,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "damage_reduction",
+      "value": 100,
+      "duration": 3000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "block_chance",
+      "value": 100,
+      "duration": 3000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "guard_stance",
+    "projectile_effect": "none",
+    "impact_effect": "perfect_block",
+    "trail_effect": "parry_spark"
+  },
+  "sound_effects": {
+    "cast_sound": "sword_clang",
+    "impact_sound": "block_success"
+  },
+  "requirements": {
+    "level": 4,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "masters_defense": {
+      "unlock_level": 14,
+      "description": "Augmente la durée de la parade de 50%",
+      "duration_bonus": 1500
+    },
+    "counterstrike": {
+      "unlock_level": 28,
+      "description": "Permet une contre-attaque lors d'une parade réussie",
+      "counter_attack": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

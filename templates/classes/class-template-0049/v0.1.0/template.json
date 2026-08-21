@@ -1,0 +1,28 @@
+{
+  "id": "class_template_0049",
+  "name": "Class Template 0049",
+  "description": "Imported from adapted_reference klassen.scp (i_klasse_krieger)",
+  "skillclass_id": "krieger",
+  "base_stats": {
+    "strength": 20,
+    "dexterity": 15,
+    "constitution": 10,
+    "intelligence": 15,
+    "wisdom": 10,
+    "charisma": 10
+  },
+  "specializations": [
+    {
+      "id": "adapted_reference_default",
+      "name": "adapted_reference Default",
+      "description": "Imported default specialization",
+      "talents": [],
+      "abilities": []
+    }
+  ],
+  "talent_tree": {
+    "tiers": []
+  },
+  "template_type": "class",
+  "version": "0.1.0"
+}

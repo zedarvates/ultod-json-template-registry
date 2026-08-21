@@ -1,0 +1,107 @@
+{
+  "id": "gargoyle",
+  "name": "Gargoyle",
+  "description": "Stone-like humanoids with wings, combining the durability of stone with aerial mobility",
+  "icon": "races/gargoyle_icon.png",
+  "category": "playable",
+  "rarity": "epic",
+  "faction": "neutral",
+  "base_stats": {
+    "strength": 14,
+    "dexterity": 9,
+    "constitution": 16,
+    "intelligence": 10,
+    "wisdom": 11,
+    "charisma": 6,
+    "luck": 9
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 0.9,
+    "experience_rate": 0.9,
+    "health_regeneration": 1.2,
+    "physical_resistance": 1.3,
+    "flight_speed": 1.2,
+    "fall_damage_immunity": true
+  },
+  "available_classes": [
+    "warrior",
+    "guardian",
+    "basilisk",
+    "gunslinger",
+    "vandal"
+  ],
+  "body_proportions": {
+    "average_height": 1.9,
+    "average_build": 1.4,
+    "max_height": 2.1,
+    "min_height": 1.7,
+    "max_build": 1.7,
+    "min_build": 1.1
+  },
+  "appearance_restrictions": {
+    "allowed_skin_colors": [
+      {
+        "min_r": 0.3,
+        "max_r": 0.6,
+        "min_g": 0.3,
+        "max_g": 0.6,
+        "min_b": 0.3,
+        "max_b": 0.6
+      },
+      {
+        "min_r": 0.4,
+        "max_r": 0.7,
+        "min_g": 0.2,
+        "max_g": 0.5,
+        "min_b": 0.1,
+        "max_b": 0.4
+      }
+    ],
+    "allowed_hair_colors": [
+      {
+        "min_r": 0.0,
+        "max_r": 0.1,
+        "min_g": 0.0,
+        "max_g": 0.1,
+        "min_b": 0.0,
+        "max_b": 0.1
+      }
+    ]
+  },
+  "racial_traits": [
+    "gargoyle_stone_skin",
+    "gargoyle_flight",
+    "gargoyle_regeneration",
+    "gargoyle_earth_affinity",
+    "gargoyle_intimidation"
+  ],
+  "passive_bonuses": {
+    "physical_resistance": 1.25,
+    "flight_speed": 1.2,
+    "earth_magic_power": 1.3,
+    "fall_damage_immunity": true,
+    "stone_shaping": 1.4
+  },
+  "starting_equipment": {
+    "weapon": "stone_club",
+    "armor": "stone_armor",
+    "gold": 90
+  },
+  "cultural_background": {
+    "languages": [
+      "common",
+      "ancient"
+    ],
+    "starting_city": "mountain_stronghold",
+    "alignment_tendency": "neutral",
+    "cultural_bonuses": {
+      "stonemasonry": 20,
+      "flight": 15,
+      "earth_magic": 18,
+      "intimidation": 12,
+      "physical_resistance": 15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "race"
+}

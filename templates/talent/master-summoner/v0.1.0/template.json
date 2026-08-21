@@ -1,0 +1,28 @@
+{
+  "id": "master_summoner",
+  "name": "Maître Invocateur",
+  "description": "Permet de contrôler plusieurs créatures simultanément et améliore leurs capacités",
+  "max_rank": 3,
+  "prerequisites": [
+    "improved_summoning"
+  ],
+  "effects_per_rank": [
+    {
+      "type": "max_pets_bonus",
+      "value": 1,
+      "description": "+1 familier simultané"
+    },
+    {
+      "type": "pet_critical_strike_bonus",
+      "value": 0.03,
+      "description": "+3% coups critiques des familiers"
+    },
+    {
+      "type": "pet_experience_bonus",
+      "value": 0.2,
+      "description": "+20% expérience gagnée par les familiers"
+    }
+  ],
+  "template_type": "talent",
+  "version": "0.1.0"
+}

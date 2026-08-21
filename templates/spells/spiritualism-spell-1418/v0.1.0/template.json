@@ -1,0 +1,39 @@
+{
+  "school": "spiritualism",
+  "rarity": "uncommon",
+  "target_type": "ground",
+  "range": 15.0,
+  "cast_time": 3000,
+  "cooldown": 60000,
+  "mana_cost": 60,
+  "visual_effects": {
+    "cast_effect": "spiritualism_spell_1418_cast",
+    "projectile_effect": "none",
+    "impact_effect": "spiritualism_spell_1418_impact",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "spiritualism_spell_1418_cast_sound",
+    "impact_sound": "spiritualism_spell_1418_impact_sound"
+  },
+  "requirements": {
+    "level": 20
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "spiritualism_spell_1418",
+  "name": "Spiritualism Spell 1418",
+  "description": "spiritualism_spell_1418s a loyal spirit wolf to fight alongside you",
+  "icon": "spiritualism_spell_1418_icon",
+  "spell_type": "spiritualism_spell_1418",
+  "summon": {
+    "creature_type": "spirit_wolf",
+    "duration": 300000,
+    "health": 200,
+    "damage": 80,
+    "scaling": {
+      "spirit": 0.6
+    }
+  },
+  "template_type": "spell"
+}

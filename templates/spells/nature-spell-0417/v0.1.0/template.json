@@ -1,0 +1,76 @@
+{
+  "id": "nature_spell_0417",
+  "name": "Nature Spell 0417",
+  "description": "Crée une zone de Nature Spell 0417 qui soigne tous les alliés dans la zone au fil du temps",
+  "icon": "nature_spell_0417_icon",
+  "school": "nature",
+  "rarity": "legendary",
+  "spell_type": "healing",
+  "target_type": "area",
+  "range": 0.0,
+  "cast_time": 8000,
+  "cooldown": 480000,
+  "mana_cost": 200,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "nature",
+    "scaling": {
+      "wisdom": 2.0,
+      "intelligence": 1.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "area_healing_over_time",
+      "value": 80,
+      "duration": 20000,
+      "tick_rate": 2000,
+      "total_ticks": 10,
+      "aoe_radius": 30.0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "area_buff",
+      "value": 0.1,
+      "duration": 20000,
+      "tick_rate": 0,
+      "aoe_radius": 30.0,
+      "proc_chance": 1.0,
+      "buff_type": "healing_received"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "nature_circle_formation",
+    "area_effect": "tranquil_nature_aura",
+    "hot_effect": "gentle_healing_rain"
+  },
+  "sound_effects": {
+    "cast_sound": "nature_harmony",
+    "area_sound": "gentle_breeze",
+    "hot_sound": "healing_whispers"
+  },
+  "requirements": {
+    "level": 50,
+    "skills": [],
+    "classes": [
+      "druid"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_tranquility": {
+      "unlock_level": 60,
+      "description": "Nature Spell 0417 soigne plus et couvre une plus grande zone",
+      "healing_bonus": 40,
+      "radius_bonus": 10
+    },
+    "tranquility_mastery": {
+      "unlock_level": 70,
+      "description": "Nature Spell 0417 peut être lancée plus fréquemment et soigne les effets négatifs",
+      "cooldown_reduction": 120000,
+      "dispel_negative_effects": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

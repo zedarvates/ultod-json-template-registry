@@ -1,0 +1,62 @@
+{
+  "id": "rogue_backstab",
+  "name": "Attaque Sournoise",
+  "description": "Attaque puissante par derrière, infligeant des dégâts critiques",
+  "icon": "backstab_icon",
+  "category": "combat",
+  "rarity": "common",
+  "ability_type": "damage",
+  "target_type": "enemy",
+  "range": 1.5,
+  "cast_time": 0,
+  "cooldown": 8000,
+  "resource_cost": {
+    "type": "energy",
+    "amount": 35
+  },
+  "duration": 0,
+  "effects": [
+    {
+      "effect_type": "damage",
+      "damage_type": "physical",
+      "value": 200,
+      "scaling": {
+        "dexterity": 2.0,
+        "level": 0.8
+      },
+      "crit_multiplier": 2.5,
+      "backstab_bonus": 1.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "rogue_vanish",
+    "projectile_effect": "dagger_stab",
+    "impact_effect": "bleed_effect"
+  },
+  "sound_effects": {
+    "cast_sound": "stealth_approach",
+    "impact_sound": "flesh_stab"
+  },
+  "requirements": {
+    "level": 1,
+    "class": "rogue",
+    "skills": [
+      "stealth"
+    ]
+  },
+  "upgrades": {
+    "deadly_precision": {
+      "unlock_level": 12,
+      "description": "Augmente les chances de coup critique",
+      "crit_chance_bonus": 0.15
+    },
+    "hemorrhage": {
+      "unlock_level": 25,
+      "description": "Cause des saignements sur la durée",
+      "bleed_damage": 20,
+      "bleed_duration": 8000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

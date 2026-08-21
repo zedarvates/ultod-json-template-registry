@@ -1,0 +1,47 @@
+{
+  "id": "monster_spell_spell_0598",
+  "name": "Monster Spell Spell 0598",
+  "description": "Description pour Monster Spell Spell 0598",
+  "icon": "monster_spell_spell_0598_icon",
+  "school": "monster_spell",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 6.0,
+  "cast_time": 300,
+  "cooldown": 1000,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 24,
+    "damage_type": "cold"
+  },
+  "effects": [
+    {
+      "effect_type": "cold_damage",
+      "value": 24,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "breath_monster_spell_spell_0598",
+    "projectile_effect": "ice_cone",
+    "impact_effect": "monster_spell_spell_0598_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "growl",
+    "impact_sound": "freeze"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "giant_magic"
+    ],
+    "classes": [
+      "giant"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -103,6 +103,6 @@ Aucun code du serveur Zig, secret ou paramètre d'infrastructure n'est inclus.
 
 ## Couverture exhaustive
 
-L'inventaire agrégé couvre les trois sources et distingue les fichiers publiés, exclus et encore en attente. Les chemins sensibles des fichiers non publiés restent dans une liste de travail privée ; les comptes par famille, divergences et motifs de revue sont publics dans [AUDIT-COVERAGE.json](AUDIT-COVERAGE.json).
+L'inventaire agrégé couvre les trois sources et distingue les snapshots existants des exports sémantiques assainis. Les 4 009 sources serveur courantes sont toutes comptabilisées : 1 174 par empreinte publiée, 710 par référence source historique et 2 125 par export sémantique. Les chemins sensibles des adaptations ne sont pas publiés ; les comptes par famille sont disponibles dans [AUDIT-COVERAGE.json](AUDIT-COVERAGE.json).
 
-Un état `pending-review` n'est pas une validation. La couverture ne sera déclarée complète que lorsque ce compte sera nul et que les validations globales auront été rejouées.
+Un état `pending-review` n'est pas une validation. La couverture n'est déclarée complète qu'après validation JSON, intégrité SHA-256, absence de noms hashés, scan des champs interdits et preuve que les structures gameplay utiles ont été conservées.

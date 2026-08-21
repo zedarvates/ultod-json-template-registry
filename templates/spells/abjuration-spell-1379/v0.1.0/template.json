@@ -1,0 +1,47 @@
+{
+  "id": "abjuration_spell_1379",
+  "name": "Abjuration Spell 1379",
+  "description": "Annule les effets magiques sur une créature, objet ou zone",
+  "icon": "abjuration_spell_1379_icon",
+  "school": "abjuration",
+  "rarity": "common",
+  "spell_type": "abjuration_spell_1379",
+  "target_type": "single",
+  "range": 36.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "abjuration_spell_1379",
+      "value": 0,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "abjuration_spell_1379_wave"
+  },
+  "sound_effects": {
+    "cast_sound": "abjuration_spell_1379_sound"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "abjuration"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard",
+      "priest"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

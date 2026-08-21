@@ -1,0 +1,77 @@
+{
+  "id": "armes_spell_1565",
+  "name": "Armes Spell 1565",
+  "description": "Frappe l'armure de la cible, réduisant son armure et générant de la rage",
+  "icon": "armes_spell_1565_icon",
+  "school": "armes",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 50,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.5,
+      "rage": 0.2
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 50,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "armor_reduction_debuff",
+      "value": 0.1,
+      "duration": 30000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "rage_generation",
+      "value": 10,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "armor_crack",
+    "projectile_effect": "none",
+    "impact_effect": "armor_shatter",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "armor_strike",
+    "impact_sound": "metal_crack"
+  },
+  "requirements": {
+    "level": 9,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_sunder_armor": {
+      "unlock_level": 17,
+      "description": "Augmente la réduction d'armure de Armes Spell 1565 de 50%",
+      "armor_reduction_bonus": 0.05
+    },
+    "sunder_armor_mastery": {
+      "unlock_level": 27,
+      "description": "Armes Spell 1565 dure plus longtemps",
+      "duration_extension": 15000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

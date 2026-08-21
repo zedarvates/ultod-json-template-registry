@@ -1,0 +1,57 @@
+{
+  "id": "evocation_spell_1524",
+  "name": "Evocation Spell 1524",
+  "description": "Vous tirez un rayon d'énergie ténébreuse sur une créature dans la portée",
+  "icon": "evocation_spell_1524_icon",
+  "school": "evocation",
+  "rarity": "common",
+  "spell_type": "ranged_attack",
+  "target_type": "single",
+  "range": 36.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 14,
+    "damage_type": "force",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "force_damage",
+      "value": 14,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "evocation_spell_1524_glow",
+    "projectile_effect": "dark_energy_beam"
+  },
+  "sound_effects": {
+    "cast_sound": "evocation_spell_1524_echo"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "warlock"
+    ]
+  },
+  "upgrades": {
+    "agonizing_blast": {
+      "unlock_level": 2,
+      "description": "Dégâts supplémentaires nécrotiques",
+      "damage_multiplier": 1.5
+    },
+    "repelling_blast": {
+      "unlock_level": 4,
+      "description": "Repousse la cible",
+      "push_distance": 3.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

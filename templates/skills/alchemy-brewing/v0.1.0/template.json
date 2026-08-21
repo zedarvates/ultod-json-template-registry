@@ -1,0 +1,114 @@
+{
+  "id": "alchemy_brewing",
+  "name": "Alchemy Brewing",
+  "description": "Mastery of potion brewing and elixir creation",
+  "icon": "skills/alchemy/brewing.png",
+  "category": "crafting",
+  "subcategory": "alchemy",
+  "max_level": 15,
+  "level_requirements": {
+    "1": 0,
+    "2": 50,
+    "3": 150,
+    "4": 400,
+    "5": 800,
+    "6": 1400,
+    "7": 2200,
+    "8": 3200,
+    "9": 4500,
+    "10": 6000,
+    "11": 8000,
+    "12": 11000,
+    "13": 15000,
+    "14": 20000,
+    "15": 27000
+  },
+  "xp_sources": {
+    "basic_brew": 25,
+    "complex_brew": 40,
+    "rare_brew": 60,
+    "legendary_brew": 100,
+    "failed_brew": 5
+  },
+  "level_bonuses": {
+    "success_rate": {
+      "base": 0.05,
+      "per_level": 0.03
+    },
+    "craft_time": {
+      "base": 0.0,
+      "per_level": 0.05
+    },
+    "resource_efficiency": {
+      "base": 0.03,
+      "per_level": 0.02
+    },
+    "quality_bonus": {
+      "base": 0,
+      "per_level": 1
+    }
+  },
+  "specializations": {
+    "efficiency": {
+      "unlock_level": 5,
+      "description": "Focus on resource conservation and speed",
+      "bonuses": {
+        "resource_efficiency": 0.15,
+        "craft_time": 0.1
+      }
+    },
+    "quality": {
+      "unlock_level": 8,
+      "description": "Focus on creating higher quality potions",
+      "bonuses": {
+        "quality_bonus": 2,
+        "rare_material_chance": 0.05
+      }
+    },
+    "power": {
+      "unlock_level": 12,
+      "description": "Focus on creating more potent effects",
+      "bonuses": {
+        "effect_power": 0.2,
+        "success_rate": 0.1
+      }
+    }
+  },
+  "unlocked_recipes": {
+    "3": [
+      "healing_potion_basic"
+    ],
+    "5": [
+      "mana_potion_basic",
+      "strength_elixir"
+    ],
+    "7": [
+      "healing_potion_greater",
+      "blood_seeker_elixir"
+    ],
+    "10": [
+      "mana_potion_greater",
+      "dragon_essence_potion"
+    ],
+    "12": [
+      "lineage_stability_potion"
+    ],
+    "15": [
+      "phoenix_rebirth_elixir",
+      "legendary_master_potion"
+    ]
+  },
+  "lineage_synergies": {
+    "phoenix": {
+      "success_rate": 0.1,
+      "fire_potion_power": 0.15
+    },
+    "alchemist": {
+      "resource_efficiency": 0.2,
+      "recipe_discovery": 0.25
+    }
+  },
+  "enabled": true,
+  "template_type": "skill",
+  "version": "0.1.0"
+}

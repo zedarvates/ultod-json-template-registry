@@ -1,0 +1,81 @@
+{
+  "id": "chronomancy_spell_0248",
+  "name": "Chronomancy Spell 0248",
+  "description": "Crée une Chronomancy Spell 0248 où les ennemis répètent leurs dernières actions en boucle",
+  "icon": "chronomancy_spell_0248_icon",
+  "school": "chronomancy",
+  "rarity": "epic",
+  "spell_type": "temporal_trap",
+  "target_type": "single_enemy",
+  "range": 25.0,
+  "cast_time": 2500,
+  "cooldown": 40000,
+  "mana_cost": 95,
+  "damage": {
+    "base_damage": 300,
+    "damage_type": "temporal_confusion",
+    "scaling": {
+      "intelligence": 1.8,
+      "wisdom": 1.2
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "temporal_loop_trap",
+      "value": 100,
+      "duration": 8000,
+      "tick_rate": 0,
+      "loop_duration": 3000,
+      "repeat_last_actions": true,
+      "confusion_damage": 75,
+      "reality_stress": 40,
+      "paradox_break_chance": 0.3
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "spiral_temporal_runes",
+    "loop_effect": "repeating_action_ghosts",
+    "damage_effect": "reality_fraying_particles",
+    "expire_effect": "paradox_explosion"
+  },
+  "sound_effects": {
+    "cast_sound": "temporal_echo_loop_start",
+    "loop_sound": "repeated_action_echoes",
+    "damage_sound": "reality_tearing_crink",
+    "expire_sound": "paradox_release_boom"
+  },
+  "requirements": {
+    "level": 35,
+    "skills": [
+      "chronomancy",
+      "temporal_loops",
+      "reality_manipulation"
+    ],
+    "classes": [
+      "chronomancer",
+      "chronomancy_spell_0248_mage",
+      "temporalist"
+    ],
+    "specializations": [
+      "paradox_weaver"
+    ]
+  },
+  "upgrades": {
+    "extended_loop": {
+      "unlock_level": 45,
+      "description": "La boucle dure plus longtemps et répète plus d'actions",
+      "loop_duration_bonus": 2000,
+      "action_memory_depth": 5,
+      "stress_accumulation": 100
+    },
+    "infinite_recursion": {
+      "unlock_level": 55,
+      "description": "Peut créer des boucles infinies pour certains ennemis",
+      "infinite_loop_chance": 0.2,
+      "reality_anchor_required": true,
+      "caster_damage_reflection": 50
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

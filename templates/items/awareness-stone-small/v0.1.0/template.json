@@ -1,0 +1,48 @@
+{
+  "id": "awareness_stone_small",
+  "name": "Petit caillou",
+  "description": "Un caillou dense, dur et suffisamment petit pour Ãªtre lancÃ©.",
+  "icon": "stone_small",
+  "category": "material",
+  "rarity": "common",
+  "base_stats": {
+    "max_durability": 100,
+    "weight": 0.25,
+    "value": 1
+  },
+  "awareness": {
+    "physical": {
+      "mass_grams": 250,
+      "hardness": 0.9,
+      "fragility": 0.05,
+      "sharpness": 0.1,
+      "messiness": 0.05
+    },
+    "affordances": [
+      "graspable",
+      "throwable"
+    ],
+    "carry": {
+      "allowed_anchors": [
+        "hand_left",
+        "hand_right",
+        "pouch"
+      ],
+      "base_visibility": 0.85,
+      "concealability": 0.5
+    },
+    "social": {
+      "value_band": "trivial",
+      "humiliation_on_impact": 0.1,
+      "taboo_tags": []
+    },
+    "impact": {
+      "damage_family": "blunt",
+      "pain_scale": 0.8,
+      "injury_scale": 0.7,
+      "contamination_scale": 0.05
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "item"
+}

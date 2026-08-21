@@ -1,0 +1,65 @@
+{
+  "id": "armes_spell_1554",
+  "name": "Armes Spell 1554",
+  "description": "Une attaque puissante qui ne peut être utilisée que lorsque la cible esquive ou pare une attaque",
+  "icon": "armes_spell_1554_icon",
+  "school": "armes",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 5000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 180,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 1.1,
+      "rage": 0.7
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 180,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "powerful_overhead",
+    "projectile_effect": "none",
+    "impact_effect": "crushing_blow",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "powerful_swing",
+    "impact_sound": "crushing_impact"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "arms"
+    ]
+  },
+  "upgrades": {
+    "improved_overpower": {
+      "unlock_level": 20,
+      "description": "Augmente les dégâts de Armes Spell 1554 de 30%",
+      "damage_bonus": 30
+    },
+    "overpower_mastery": {
+      "unlock_level": 30,
+      "description": "Armes Spell 1554 peut être utilisée plus fréquemment",
+      "cooldown_reduction": 1000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

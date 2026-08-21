@@ -1,0 +1,119 @@
+{
+  "species_id": "adapted_reference",
+  "species_name": "adapted_reference Prime",
+  "chemistry": "water_carbon",
+  "base_traits": {
+    "scale": 1.4,
+    "diet": "carnivore",
+    "locomotion_preference": "walking",
+    "aggressiveness": 0.95
+  },
+  "parts": [
+    {
+      "part_id": "wing_bat_01",
+      "attach_point": "spine",
+      "position": [
+        0.0,
+        1.2,
+        -0.1
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "part_id": "tail_whip_01",
+      "attach_point": "hips",
+      "position": [
+        0.0,
+        0.8,
+        -0.2
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "part_id": "horn_demonic_01",
+      "attach_point": "head",
+      "position": [
+        0.0,
+        1.8,
+        0.1
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "loot_table": {
+    "guaranteed_drops": [
+      {
+        "item": "chitin_plate",
+        "chance": 1.0,
+        "min_quantity": 2,
+        "max_quantity": 5
+      }
+    ],
+    "common_drops": [
+      {
+        "item": "acid_gland",
+        "chance": 0.45,
+        "min_quantity": 1,
+        "max_quantity": 1
+      },
+      {
+        "item": "resin_clump",
+        "chance": 0.4,
+        "min_quantity": 1,
+        "max_quantity": 2
+      }
+    ],
+    "rare_drops": [
+      {
+        "item": "hive_node",
+        "chance": 0.1,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "epic_drops": [
+      {
+        "item": "queen_pheromone",
+        "chance": 0.03,
+        "min_quantity": 1,
+        "max_quantity": 1
+      }
+    ],
+    "currency": {
+      "chance": 0.3,
+      "min_quantity": 2,
+      "max_quantity": 10
+    }
+  },
+  "id": "template",
+  "name": "Template",
+  "template_type": "creature",
+  "version": "0.1.0"
+}

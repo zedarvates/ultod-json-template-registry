@@ -1,0 +1,58 @@
+{
+  "id": "divine_spell_1033",
+  "name": "Divine Spell 1033",
+  "description": "Vous créez une divine_spell_1033 protectrice qui réduit les dégâts reçus par vous et vos alliés dans un rayon de 10 mètres",
+  "icon": "divine_spell_1033_icon",
+  "school": "divine",
+  "rarity": "uncommon",
+  "spell_type": "divine_spell_1033_buff",
+  "target_type": "self_area",
+  "range": 10.0,
+  "cast_time": 2000,
+  "cooldown": 30000,
+  "mana_cost": 35,
+  "effects": [
+    {
+      "effect_type": "damage_reduction_divine_spell_1033",
+      "value": 15,
+      "duration": 20000,
+      "tick_rate": 0,
+      "damage_reduction_percentage": 15,
+      "aura_radius": 10
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "holy_circle",
+    "aura_effect": "golden_shield_field",
+    "impact_effect": "divine_barrier"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_barrier_cast",
+    "aura_sound": "protection_hum",
+    "impact_sound": "shield_impact"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "divine_magic"
+    ],
+    "classes": [
+      "paladin"
+    ]
+  },
+  "upgrades": {
+    "blessing_of_sanctuary": {
+      "unlock_level": 7,
+      "description": "Augmente la réduction des dégâts à 20%",
+      "damage_reduction_bonus": 5
+    },
+    "divine_guard": {
+      "unlock_level": 12,
+      "description": "Confère une immunité temporaire aux effets de contrôle",
+      "grants_cc_immunity": true,
+      "cc_immunity_duration": 5000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

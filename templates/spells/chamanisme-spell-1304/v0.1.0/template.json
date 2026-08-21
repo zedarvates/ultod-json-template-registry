@@ -1,0 +1,56 @@
+{
+  "school": "chamanisme",
+  "rarity": "common",
+  "target_type": "area",
+  "range": 30.0,
+  "cast_time": 2000,
+  "cooldown": 10000,
+  "mana_cost": 20,
+  "visual_effects": {
+    "cast_effect": "shaman_cast",
+    "projectile_effect": "none",
+    "impact_effect": "elemental_impact",
+    "trail_effect": "elemental_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "shaman_cast_sound",
+    "impact_sound": "elemental_impact_sound"
+  },
+  "requirements": {
+    "level": 14
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "chamanisme_spell_1304",
+  "name": "Chamanisme Spell 1304",
+  "description": "Une tempête qui repousse les ennemis",
+  "icon": "chamanisme_spell_1304_icon",
+  "spell_type": "damage",
+  "damage_type": "lightning",
+  "base_damage": 75,
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 75,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "knockback",
+      "value": 5,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "damage": {
+    "base_damage": 75,
+    "damage_type": "lightning",
+    "scaling": {
+      "spirit": 0.7,
+      "intellect": 0.5
+    }
+  },
+  "template_type": "spell"
+}

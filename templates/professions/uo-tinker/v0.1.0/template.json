@@ -1,0 +1,419 @@
+{
+  "profession": "uo_tinker",
+  "display_name": "Master Tinkerer (adapted_reference)",
+  "description": "Artisan of mechanical marvels and arcane contraptions, bending metal and magic into wondrous inventions that rival the greatest works of the Britannian mages",
+  "icon_path": "icons/professions/uo_tinker.png",
+  "category": "uo_crafting",
+  "is_active": true,
+  "uo_skill_system": {
+    "base_skill": "Tinkering",
+    "max_skill": 120.0,
+    "skill_gain_rate": 0.4,
+    "exceptional_threshold": 95.0,
+    "gm_threshold": 110.0
+  },
+  "uo_clockwork_crafting": {
+    "gears_materials": [
+      "Iron",
+      "Copper",
+      "Bronze",
+      "Gold",
+      "Valorite"
+    ],
+    "springs_materials": [
+      "Steel",
+      "Silver",
+      "adapted_reference"
+    ],
+    "axles_materials": [
+      "Iron",
+      "Bronze",
+      "Valorite"
+    ],
+    "cogwheel_sizes": [
+      "Tiny",
+      "Small",
+      "Medium",
+      "Large",
+      "Massive"
+    ]
+  },
+  "recipes": [
+    {
+      "id": "lockpick_set",
+      "name": "Master Lockpick Set",
+      "description": "A precision set of lockpicks crafted for the most skilled thieves and adventurers",
+      "profession": "uo_tinker",
+      "difficulty": 85.0,
+      "skill_required": 75.0,
+      "experience_gain": 95.0,
+      "materials": [
+        {
+          "type": "ingot",
+          "material": "iron",
+          "quantity": 5
+        },
+        {
+          "type": "ingot",
+          "material": "verite",
+          "quantity": 2
+        },
+        {
+          "type": "clock_parts",
+          "component": "springs",
+          "quality": "exceptional",
+          "quantity": 3
+        }
+      ],
+      "tools_required": [
+        "tinker_tools",
+        "precision_grinder",
+        "metal_file"
+      ],
+      "output": {
+        "item": "lockpick_set",
+        "quality": "exceptional",
+        "durability": 85,
+        "lockpick_skill_bonus": 15,
+        "break_chance_reduction": 25
+      },
+      "tinker_properties": {
+        "precision_rating": "A",
+        "material_hardness": 8,
+        "tension_spring_quality": "exceptional"
+      }
+    },
+    {
+      "id": "clockwork_automaton",
+      "name": "Clockwork Automaton",
+      "description": "Legendary mechanical construct said to have been built by the Clockwork Engineer during the Gargoyle Wars",
+      "profession": "uo_tinker",
+      "difficulty": 120.0,
+      "skill_required": 118.0,
+      "experience_gain": 600.0,
+      "materials": [
+        {
+          "type": "ingot",
+          "material": "valorite",
+          "quantity": 50
+        },
+        {
+          "type": "clock_parts",
+          "component": [
+            "gears",
+            "springs",
+            "axles"
+          ],
+          "quality": "legendary",
+          "quantity": 25
+        },
+        {
+          "type": "rare_component",
+          "name": "clockwork_heart",
+          "rarity": "legendary",
+          "quantity": 1
+        },
+        {
+          "type": "magical_component",
+          "name": "arcane_power_core",
+          "quantity": 3
+        },
+        {
+          "type": "ancient_component",
+          "name": "gargoyle_mechanism",
+          "quantity": 10
+        }
+      ],
+      "tools_required": [
+        "master_tinker_tools",
+        "magical_tinker_workshop",
+        "reality_anvil"
+      ],
+      "output": {
+        "item": "clockwork_automaton",
+        "quality": "legendary",
+        "durability": 500,
+        "intelligence": 85,
+        "combat_rating": "champion",
+        "passive_abilities": [
+          "Self Repair",
+          "Spell Absorption",
+          "Area Control"
+        ],
+        "legendary_trait": "Reality Stitching"
+      },
+      "tinker_properties": {
+        "complexity_rating": "S",
+        "magical_integration": 100,
+        "efficiency_rating": "A+",
+        "self_sustaining": true
+      },
+      "legendary_requirements": {
+        "skill_gm_tinker": true,
+        "skill_90_magery": true,
+        "completed_gargoyle_quests": 5,
+        "rare_components": [
+          "Dragon Tooth",
+          "Phoenix Feather",
+          "Abyssal Crystal"
+        ]
+      }
+    }
+  ],
+  "uo_dye_system": {
+    "dye_tub_crafts": {
+      "basic_dye_tub": {
+        "materials": [
+          "iron_ingots",
+          "natural_dyes"
+        ],
+        "capacity": 10,
+        "durability": 50
+      },
+      "exceptional_dye_tub": {
+        "materials": [
+          "valorite_ingots",
+          "rare_pigments"
+        ],
+        "capacity": 25,
+        "durability": 100,
+        "special_feature": "hue_preservation"
+      }
+    },
+    "dye_types": {
+      "natural_dyes": [
+        "red",
+        "blue",
+        "yellow",
+        "green",
+        "purple",
+        "black",
+        "white"
+      ],
+      "rare_dyes": [
+        "metallic_silver",
+        "metallic_gold",
+        "metallic_copper",
+        "neon_colors"
+      ],
+      "magical_dyes": [
+        "illusion_hue",
+        "glow_in_dark",
+        "weather_resistant"
+      ],
+      "cursed_dyes": [
+        "fade_curse",
+        "stain_curse",
+        "weaken_curse"
+      ]
+    },
+    "dye_tub_properties": {
+      "charge_system": "uses_based",
+      "max_charges": 20,
+      "recharge_method": "dye_vat_refill",
+      "special_hues": [
+        "flames",
+        "shadows",
+        "stars",
+        "runes"
+      ]
+    }
+  },
+  "uo_trap_crafting": {
+    "dart_trap": {
+      "difficulty": 60.0,
+      "damage": "5-10",
+      "poison_types": [
+        "lesser_poison",
+        "normal_poison",
+        "greater_poison"
+      ],
+      "materials": [
+        "clock_parts",
+        "poison_sacs",
+        "darts"
+      ]
+    },
+    "explosion_trap": {
+      "difficulty": 90.0,
+      "damage": "20-50",
+      "area_effect": "3x3_tiles",
+      "materials": [
+        "black_powder",
+        "clock_parts",
+        "fuses"
+      ]
+    },
+    "teleport_trap": {
+      "difficulty": 100.0,
+      "effect": "random_teleport",
+      "materials": [
+        "recall_runes",
+        "clock_parts",
+        "space_crystals"
+      ]
+    }
+  },
+  "uo_jewelry_enhancement": {
+    "bejeweled_items": {
+      "allowed_gems": [
+        "diamond",
+        "ruby",
+        "emerald",
+        "sapphire",
+        "star_sapphire",
+        "fire_opal"
+      ],
+      "enhancement_types": [
+        "damage_modifiers",
+        "resistance_bonuses",
+        "skill_bonuses"
+      ],
+      "exceptional_properties": [
+        "indestructible",
+        "self_repair",
+        "lucky_strike"
+      ]
+    },
+    "jewelry_sets": {
+      "bracelet_sets": [
+        "power_bracelet",
+        "protection_bracelet",
+        "skill_bracelet"
+      ],
+      "necklace_sets": [
+        "torc_of_might",
+        "amulet_of_wisdom",
+        "pendant_of_life"
+      ]
+    }
+  },
+  "uo_tinkering_wonders": {
+    "magical_construction": {
+      "crystal_balls": [
+        "scrying_ball",
+        "crystal_ball_of_communication",
+        "teleportation_crystal"
+      ],
+      "magical_storage": [
+        "reagent_pouches",
+        "gem_pouches",
+        "potion_bandoliers"
+      ],
+      "wands_and_staves": [
+        "healing_wand",
+        "lightning_wand",
+        "teleportation_wand"
+      ]
+    },
+    "siege_craft": {
+      "catapults": [
+        "portable_catapult",
+        "siege_catapult",
+        "magical_catapult"
+      ],
+      "trebuchets": [
+        "field_trebuchet",
+        "siege_trebuchet",
+        "arcane_trebuchet"
+      ],
+      "defense_works": [
+        "pit_traps",
+        "spike_traps",
+        "magical_barriers"
+      ]
+    }
+  },
+  "uo_golem_crafting": {
+    "basic_golems": {
+      "iron_golem": {
+        "materials": [
+          "iron_ingots",
+          "clock_parts"
+        ],
+        "abilities": [
+          "physical_resistance",
+          "melee_attack"
+        ]
+      },
+      "gold_golem": {
+        "materials": [
+          "gold_ingots",
+          "gems",
+          "magical_cores"
+        ],
+        "abilities": [
+          "magical_resistance",
+          "spell_casting"
+        ]
+      },
+      "stone_golem": {
+        "materials": [
+          "stone_blocks",
+          "runes",
+          "binding_crystals"
+        ],
+        "abilities": [
+          "physical_damage",
+          "structure_destruction"
+        ]
+      }
+    },
+    "legendary_golems": {
+      "valorite_golem": {
+        "materials": [
+          "valorite_ingots",
+          "legendary_cores"
+        ],
+        "abilities": [
+          "all_resistances_max",
+          "adapted_referencete_atk_def"
+        ]
+      }
+    }
+  },
+  "uo_tinker_combinations": {
+    "tinker_gem_of_utility": {
+      "creation_method": "combination",
+      "components": [
+        "10x_tinker_tools",
+        "10x_lockpicks",
+        "10x_traps"
+      ],
+      "result": "permanent_tinker_skill_bonus"
+    },
+    "whispering_gem": {
+      "creation_method": "rare_craft",
+      "components": [
+        "exceptional_gems",
+        "dragon_teeth",
+        "ancient_scrolls"
+      ],
+      "result": "random_powerful_ability"
+    }
+  },
+  "specializations": [
+    "locksmithing_specialist",
+    "trap_master",
+    "siege_engineer",
+    "magical_construction",
+    "jewelry_enhancement",
+    "golem_crafting"
+  ],
+  "uo_mastery_bonuses": {
+    "skill_100_bonus": {
+      "craft_success_rate": 15,
+      "exceptional_chance": 20,
+      "durability_bonus": 30
+    },
+    "skill_120_bonus": {
+      "legendary_craft_access": true,
+      "tinker_gem_multiplier": 2.0,
+      "creation_speed": 50
+    }
+  },
+  "id": "uo_tinker",
+  "name": "Uo Tinker",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

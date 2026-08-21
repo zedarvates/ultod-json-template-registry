@@ -1,0 +1,76 @@
+{
+  "id": "blacksmith_forge_mastery",
+  "name": "Maîtrise de la Forge",
+  "description": "Augmente temporairement les compétences de forge et la qualité des créations",
+  "icon": "forge_mastery_icon",
+  "category": "crafting",
+  "rarity": "uncommon",
+  "ability_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 2000,
+  "cooldown": 180000,
+  "resource_cost": {
+    "type": "stamina",
+    "amount": 30
+  },
+  "duration": 60000,
+  "effects": [
+    {
+      "effect_type": "crafting_speed",
+      "value": 50,
+      "scaling": {
+        "strength": 0.3
+      }
+    },
+    {
+      "effect_type": "quality_bonus",
+      "value": 25,
+      "scaling": {
+        "dexterity": 0.4
+      }
+    },
+    {
+      "effect_type": "material_efficiency",
+      "value": 20,
+      "scaling": {
+        "intelligence": 0.2
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "forge_flames",
+    "active_effect": "hammer_glow",
+    "end_effect": "embers_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "anvil_ring",
+    "active_sound": "forge_hum",
+    "end_sound": "coals_cool"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [
+      "blacksmithing"
+    ],
+    "professions": [
+      "blacksmith"
+    ]
+  },
+  "upgrades": {
+    "master_craftsman": {
+      "unlock_level": 25,
+      "description": "Augmente significativement la qualité et la vitesse",
+      "quality_bonus": 15,
+      "speed_bonus": 25
+    },
+    "legendary_forging": {
+      "unlock_level": 45,
+      "description": "Chance de créer des objets légendaires",
+      "legendary_chance": 5,
+      "masterwork_bonus": 30
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

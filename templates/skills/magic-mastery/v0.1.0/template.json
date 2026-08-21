@@ -1,0 +1,107 @@
+{
+  "id": "magic_mastery",
+  "name": "Maîtrise Magique",
+  "description": "Arbre de compétences pour maîtriser l'art de la magie et des sorts",
+  "icon": "magic_mastery_icon",
+  "category": "magic_mastery",
+  "subcategory": "spellcasting",
+  "max_level": 50,
+  "level_requirements": {
+    "1": 0,
+    "2": 150,
+    "3": 400,
+    "4": 800,
+    "5": 1600,
+    "10": 8000,
+    "15": 24000,
+    "20": 48000,
+    "25": 80000,
+    "30": 128000,
+    "35": 192000,
+    "40": 288000,
+    "45": 400000,
+    "50": 560000
+  },
+  "xp_sources": {
+    "spell_casts": 12,
+    "spell_kills": 150,
+    "spell_criticals": 40,
+    "mana_usage": 1,
+    "spell_combinations": 50
+  },
+  "level_bonuses": {
+    "spell_damage": {
+      "base_value": 6.0,
+      "per_level": 2.5
+    },
+    "mana_efficiency": {
+      "base_value": 2.0,
+      "per_level": 1.0
+    },
+    "spell_critical_chance": {
+      "base_value": 1.0,
+      "per_level": 0.8
+    },
+    "cast_speed": {
+      "base_value": 1.5,
+      "per_level": 0.6
+    }
+  },
+  "specializations": {
+    "elemental_master": {
+      "unlock_level": 20,
+      "description": "Spécialisation dans la magie élémentaire avec bonus aux sorts de feu, eau, terre et air",
+      "bonuses": {
+        "elemental_damage": 30.0,
+        "elemental_resistance": 20.0
+      }
+    },
+    "arcane_specialist": {
+      "unlock_level": 25,
+      "description": "Spécialisation dans la magie arcane pure avec des sorts de manipulation de la réalité",
+      "bonuses": {
+        "arcane_damage": 35.0,
+        "spell_penetration": 25.0
+      }
+    },
+    "healing_focus": {
+      "unlock_level": 30,
+      "description": "Spécialisation dans les sorts de soin et de protection",
+      "bonuses": {
+        "healing_power": 40.0,
+        "hot_duration": 50.0
+      }
+    }
+  },
+  "unlocked_recipes": {
+    "10": [
+      "basic_spell_tome",
+      "mana_crystal_enchantment"
+    ],
+    "20": [
+      "elemental_rune_carving",
+      "spell_focus_enhancement"
+    ],
+    "30": [
+      "arcane_formula_creation",
+      "magical_reagent_synthesis"
+    ],
+    "40": [
+      "legendary_spell_scroll",
+      "master_spellbook_creation"
+    ]
+  },
+  "lineage_synergies": {
+    "mage": {
+      "spellcasting": 1.4,
+      "intelligence": 1.3
+    },
+    "spiritmaster": {
+      "summoning": 1.2,
+      "spirit_magic": 1.5
+    }
+  },
+  "enabled": true,
+  "template_type": "skill",
+  "version": "0.1.0"
+}

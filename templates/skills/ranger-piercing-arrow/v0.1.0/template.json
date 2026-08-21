@@ -1,0 +1,153 @@
+{
+  "id": "ranger_piercing_arrow",
+  "name": "Piercing Arrow",
+  "class": "Ranger",
+  "type_principal": "physical_attack",
+  "sous_types": [
+    "debuff",
+    "dot"
+  ],
+  "description": "Fires an arrow that pierces through enemies, dealing damage and causing bleeding. Critical hits explode in AoE and restore mana.",
+  "icon": "piercing_arrow_icon",
+  "base_damage": 672,
+  "damage_multiplier": 1.0,
+  "critical_chance": 0.05,
+  "critical_multiplier": 2.0,
+  "super_armor_break": 7,
+  "resource_cost": {
+    "mana": 50
+  },
+  "cast_time": 0,
+  "cooldown": 5,
+  "range": 20,
+  "targeting": {
+    "type_cible": "enemy",
+    "max_cibles": 3,
+    "zone": {
+      "shape": "single"
+    },
+    "conditions_ciblage": [
+      "line_of_sight"
+    ]
+  },
+  "effects": [
+    {
+      "type": "direct_damage",
+      "damage_type": "physical",
+      "value": 672,
+      "scaling": {
+        "attack_power": 1.0
+      },
+      "can_crit": true
+    },
+    {
+      "type": "dot",
+      "damage_type": "physical",
+      "value": 56,
+      "duration": 6,
+      "tick_interval": 1,
+      "can_crit": false
+    }
+  ],
+  "specializations": [
+    {
+      "id": "healing_for_20_percent_damage_dealt",
+      "name": "Life Leech",
+      "description": "Heals for 20% of damage dealt",
+      "conditions": {
+        "level": 10
+      },
+      "modifications": {
+        "effects": [
+          {
+            "operation": "add",
+            "effect": {
+              "type": "heal",
+              "value": 0.2,
+              "scaling": {
+                "damage_dealt": 1.0
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "bleed_duration_plus_2_sec",
+      "name": "Extended Bleeding",
+      "description": "Increases bleeding duration by 2 seconds",
+      "conditions": {
+        "level": 15
+      },
+      "modifications": {
+        "effects": [
+          {
+            "operation": "modify",
+            "effect": {
+              "type": "dot",
+              "duration": 8
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "cannot_be_blocked",
+      "name": "Unblockable",
+      "description": "This arrow cannot be blocked or dodged",
+      "conditions": {
+        "level": 20
+      },
+      "modifications": {
+        "constraints": [
+          "unblockable",
+          "undodgeable"
+        ]
+      }
+    },
+    {
+      "id": "crit_resets_cooldown",
+      "name": "Critical Reset",
+      "description": "Critical hits reset the cooldown",
+      "conditions": {
+        "level": 25
+      },
+      "modifications": {
+        "effects": [
+          {
+            "operation": "add",
+            "effect": {
+              "type": "cooldown_reset",
+              "conditions": [
+                "critical_hit"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ranger_cast_glow",
+    "projectile_effect": "piercing_arrow_projectile",
+    "impact_effect": "bleeding_burst",
+    "buff_effect": "bleeding_debuff_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "bow_draw_piercing",
+    "impact_sound": "piercing_impact"
+  },
+  "balancing": {
+    "pvp_multipliers": {
+      "damage": 0.9,
+      "cooldown": 1.0
+    },
+    "pve_multipliers": {
+      "damage": 1.0,
+      "cooldown": 1.0
+    }
+  },
+  "version": "0.1.0",
+  "last_updated": "2025-11-21T14:16:30Z",
+  "template_type": "skill"
+}

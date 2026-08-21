@@ -1,0 +1,77 @@
+{
+  "id": "enchantment_spell_0439",
+  "name": "Enchantment Spell 0439",
+  "description": "Augmente la vitesse de mouvement et d'attaque de l'allié en tissant des enchantements de célérité",
+  "icon": "enchantment_spell_0439_icon",
+  "school": "enchantment",
+  "rarity": "common",
+  "spell_type": "speed_enhancement",
+  "target_type": "single_ally",
+  "range": 30.0,
+  "cast_time": 1500,
+  "cooldown": 8000,
+  "mana_cost": 45,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": " enchantment_spell_0439_buff"
+  },
+  "effects": [
+    {
+      "effect_type": "temporal_acceleration_buff",
+      "value": 100,
+      "duration": 20000,
+      "tick_rate": 0,
+      "movement_speed_bonus": 40,
+      "attack_speed_bonus": 30,
+      "casting_speed_bonus": 25,
+      "rapid_spell_bonus": true,
+      "agile_movements": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "golden_light_swirls_around_target",
+    "buff_effect": "bright_white_glow_speed_lines",
+    "active_effect": "motion_blur_speed_trails",
+    "expire_effect": "gentle_light_fade_out"
+  },
+  "sound_effects": {
+    "cast_sound": "magical_weaving_silk_threads",
+    "buff_sound": "high_pitched_acceleration_whistle",
+    "active_sound": "wind_rush_speed_constant",
+    "expire_sound": "deceleration_drop_back_normal"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [
+      "arcane_magic",
+      "enchantment"
+    ],
+    "classes": [
+      "enchanter",
+      "arcane_binder"
+    ],
+    "specializations": [
+      "speed_weaver"
+    ]
+  },
+  "upgrades": {
+    "greater_haste": {
+      "unlock_level": 16,
+      "description": "Intensifie considérablement la vitesse de mouvement et d'attaque",
+      "multiplier_bonus": 1.5,
+      "duration_extension": 10000,
+      "group_haste_aura": 10.0,
+      "max_additional_targets": 4
+    },
+    "supreme_agility": {
+      "unlock_level": 26,
+      "description": "La célérité atteint des niveaux surnaturels, permettant l'évitement des attaques",
+      "evasion_bonus": 0.25,
+      "supersonic_speed_burst": 100,
+      "time_dilation_field": 15.0,
+      "intangible_reaction": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "frost_spell_0778",
+  "name": "Frost Spell 0778",
+  "description": "Libère une explosion de froid qui gèle tous les ennemis dans un rayon et réduit leur vitesse de mouvement",
+  "icon": "frost_spell_0778_spell_0778_icon",
+  "school": "frost_spell_0778",
+  "rarity": "common",
+  "spell_type": "ice_aoe_freeze",
+  "target_type": "self_area_effect",
+  "range": 0.0,
+  "cast_time": 1500,
+  "cooldown": 12000,
+  "mana_cost": 55,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "frost_spell_0778_elemental_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "freezing_aoe_burst",
+      "value": 140,
+      "duration": 8000,
+      "tick_rate": 4000,
+      "nova_blast_radius": 8.0,
+      "freezing_damage_over_time": 25,
+      "movement_speed_reduction_percent": 60,
+      "attack_speed_reduction_percent": 40,
+      "frostbite_stacking_effect": true,
+      "slippery_ice_terrain_creation": 0.7
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "icy_energy_swirling_gathering_crystal_snowflakes",
+    "nova_effect": "massive_ice_burst_expanding_crystalline_shards_flying",
+    "frozen_effect": "targets_ice_crystals_forming_blue_white_freezing",
+    "terrain_effect": "ground_ice_patches_forming_slippery_blue_surface"
+  },
+  "sound_effects": {
+    "cast_effect": "icy_energy_whistle_freezing_wind_gathering",
+    "nova_effect": "explosive_ice_crack_freezing_burst_shattering_glass",
+    "frozen_effect": "creaking_ice_crystals_forming_crunching_slow",
+    "terrain_effect": "icy_ground_cracking_surface_hardening_crunch"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "frost_spell_0778_magic",
+      "cold_manipulation"
+    ],
+    "classes": [
+      "mage",
+      "frost_spell_0778_mage",
+      "cryomancer"
+    ],
+    "specializations": [
+      "frost_spell_0778_specialization"
+    ]
+  },
+  "upgrades": {
+    "greater_frost_nova": {
+      "unlock_level": 22,
+      "description": "La frost_spell_0778 Spell 0778 devient plus puissante avec des effets plus longs et un rayon augmenté",
+      "nova_radius_increase": 3.0,
+      "frost_damage_boost_percent": 50,
+      "movement_reduction_increase": 25,
+      "permafrost_terrain_effect": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

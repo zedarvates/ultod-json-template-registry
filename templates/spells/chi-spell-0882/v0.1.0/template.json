@@ -1,0 +1,72 @@
+{
+  "id": "chi_spell_0882",
+  "name": "Chi Spell 0882",
+  "description": "Lance un projectile d'énergie chi focalisée qui perce les ennemis et laisse une traînée d'énergie nourrissante",
+  "icon": "chi_spell_0882_icon",
+  "school": "chi",
+  "rarity": "rare",
+  "spell_type": "piercing_chi_projectile",
+  "target_type": "enemy_target",
+  "range": 40.0,
+  "cast_time": 1200,
+  "cooldown": 15000,
+  "mana_cost": 85,
+  "damage": {
+    "base_damage": 220,
+    "damage_type": "penetrating_chi_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "chi_energy_chi_spell_0882_launch",
+      "value": 300,
+      "duration": 5000,
+      "tick_rate": 1000,
+      "torpedo_penetration_chance": 90,
+      "maximum_targets_piercing": 5,
+      "heal_trail_allies_percent": 30,
+      "torpedo_speed_boost": 50.0,
+      "critical_strike_amplifier": 1.5,
+      "chi_energy_explosion_final": 60
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "chi_energy_gathering_spherical_compression_golden_aura",
+    "projectile_effect": "chi_spell_0882_launching_penetrating_beam_golden_trailing_energy",
+    "pierce_effect": "multiple_enemy_penetration_red_tau chi_energy_bleeding",
+    "heal_effect": "ally_healing_green_energy_wave_trail_restoration"
+  },
+  "sound_effects": {
+    "cast_effect": "chi_energy_gathering_compressing_whirling_energy_charge",
+    "projectile_effect": "chi_spell_0882_launch_energy_beam_whistle_piercing_thru_air",
+    "pierce_effect": "enemy_penetration_impact_tau_impacts_multiple_squelch",
+    "heal_effect": "ally_restoration_green_energy_soothing_healing_rush"
+  },
+  "requirements": {
+    "level": 32,
+    "skills": [
+      "chi_manipulation",
+      "energy_focus",
+      "chi_spell_0882ing"
+    ],
+    "classes": [
+      "monk",
+      "energy_cannon",
+      "chi_buster"
+    ],
+    "specializations": [
+      "chi_projector"
+    ]
+  },
+  "upgrades": {
+    "greater_chi_torpedo": {
+      "unlock_level": 42,
+      "description": "Le Chi Spell 0882 devient plus pénétrant avec des cibles multiples et des effets de soin améliorés",
+      "penetration_targets_increase": 8,
+      "heal_trail_efficiency_percent": 50,
+      "torpedo_size_multiplier": 1.5,
+      "guided_chi_homing": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

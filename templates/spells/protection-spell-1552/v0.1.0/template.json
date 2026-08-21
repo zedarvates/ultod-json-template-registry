@@ -1,0 +1,72 @@
+{
+  "id": "protection_spell_1552",
+  "name": "Protection Spell 1552",
+  "description": "Le guerrier se prépare à un dernier combat, augmentant drastiquement son armure mais réduisant ses points de vie maximum",
+  "icon": "protection_spell_1552_icon",
+  "school": "protection",
+  "rarity": "rare",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 480000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.0,
+      "rage": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "armor_buff",
+      "value": 1.0,
+      "duration": 20000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "health_reduction",
+      "value": 0.5,
+      "duration": 20000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "defensive_stance",
+    "projectile_effect": "none",
+    "impact_effect": "armor_hardening",
+    "trail_effect": "defensive_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "defensive_roar",
+    "impact_sound": "none"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "protection"
+    ]
+  },
+  "upgrades": {
+    "improved_last_stand": {
+      "unlock_level": 28,
+      "description": "Réduit la pénalité de points de vie de Protection Spell 1552 de 20%",
+      "health_reduction_decrease": 0.2
+    },
+    "last_stand_mastery": {
+      "unlock_level": 38,
+      "description": "Protection Spell 1552 dure plus longtemps",
+      "duration_extension": 10000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

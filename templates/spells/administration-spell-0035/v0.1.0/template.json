@@ -1,0 +1,56 @@
+{
+  "id": "administration_spell_0035",
+  "name": "Administration Spell 0035",
+  "description": "[ADMIN ONLY] Toggle god administration_spell_0035 - become invincible, invisible at will, and move at incredible speeds",
+  "icon": "admin_administration_spell_0035_icon",
+  "school": "administration",
+  "rarity": "epic",
+  "spell_type": "personal_admin_toggle",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "invulnerability_admin_buff"
+  },
+  "effects": [
+    {
+      "effect_type": "administrator_administration_spell_0035_toggle",
+      "value": 1,
+      "duration": "toggle_permanent",
+      "tick_rate": 0,
+      "complete_damage_immunity": true,
+      "optical_invisibility_toggle": true,
+      "superhuman_movement_speed": 5.0,
+      "flight_capability_toggle": true,
+      "immune_to_all_debuffs": true,
+      "see_hidden_entities": true,
+      "walk_through_walls": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_aura_shroud_ascension",
+    "active_effect": "golden_halo_divine_protection",
+    "toggle_effect": "power_surge_administration_spell_0035_activation",
+    "special_effect": "reality_bend_admin_control_aura"
+  },
+  "sound_effects": {
+    "cast_effect": "divine_chorus_ascent_power_grow",
+    "active_effect": "godly_presence_constant_echo_power",
+    "toggle_effect": "power_shift_status_change_confirmation",
+    "special_effect": "reality_admin_control_authoritative_presence"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "gamemaster",
+      "overseer",
+      "celestial_avatar"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,120 @@
+{
+  "id": "vampire_malkavian",
+  "name": "Malkavian Vampire",
+  "description": "Mad prophets and oracles touched by insanity, possessing uncanny insight and chaotic wisdom",
+  "icon": "races/vampire_malkavian_icon.png",
+  "category": "playable",
+  "rarity": "legendary",
+  "faction": "neutral",
+  "base_stats": {
+    "strength": 10,
+    "dexterity": 12,
+    "constitution": 11,
+    "intelligence": 16,
+    "wisdom": 15,
+    "charisma": 14,
+    "luck": 16
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 1.3,
+    "experience_rate": 1.1,
+    "mana_regeneration": 1.2,
+    "health_regeneration": 0.9,
+    "madness_insight": 1.5,
+    "prophetic_visions": 1.4
+  },
+  "available_classes": [
+    "mage",
+    "warlock",
+    "spiritmaster",
+    "chantern",
+    "necromancer",
+    "oracle"
+  ],
+  "body_proportions": {
+    "average_height": 1.75,
+    "average_build": 0.85,
+    "max_height": 1.95,
+    "min_height": 1.55,
+    "max_build": 1.05,
+    "min_build": 0.65
+  },
+  "appearance_restrictions": {
+    "allowed_skin_colors": [
+      {
+        "min_r": 0.8,
+        "max_r": 1.0,
+        "min_g": 0.7,
+        "max_g": 0.9,
+        "min_b": 0.8,
+        "max_b": 1.0
+      }
+    ],
+    "allowed_hair_colors": [
+      {
+        "min_r": 0.0,
+        "max_r": 0.2,
+        "min_g": 0.0,
+        "max_g": 0.2,
+        "min_b": 0.0,
+        "max_b": 0.2
+      },
+      {
+        "min_r": 0.9,
+        "max_r": 1.0,
+        "min_g": 0.8,
+        "max_g": 1.0,
+        "min_b": 0.9,
+        "max_b": 1.0
+      },
+      {
+        "min_r": 0.5,
+        "max_r": 0.8,
+        "min_g": 0.2,
+        "max_g": 0.5,
+        "min_b": 0.7,
+        "max_b": 1.0
+      }
+    ]
+  },
+  "racial_traits": [
+    "malkavian_madness",
+    "malkavian_insight",
+    "malkavian_prophecy",
+    "malkavian_chaos_magic",
+    "vampire_immortality",
+    "vampire_blood_drain",
+    "vampire_night_vision"
+  ],
+  "passive_bonuses": {
+    "magic_power": 1.3,
+    "prophetic_accuracy": 1.4,
+    "chaos_magic": 1.35,
+    "night_vision_range": 2.0,
+    "lifesteal": 1.15,
+    "madness_resistance": 1.5
+  },
+  "starting_equipment": {
+    "weapon": "madmans_dagger",
+    "armor": "disheveled_clothing",
+    "gold": 140
+  },
+  "cultural_background": {
+    "languages": [
+      "common",
+      "ancient",
+      "mad_speech"
+    ],
+    "starting_city": "asylum",
+    "alignment_tendency": "chaotic_neutral",
+    "cultural_bonuses": {
+      "prophecy": 22,
+      "madness_insight": 20,
+      "chaos_magic": 18,
+      "perception": 16,
+      "luck": 15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "race"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "transmutation_spell_1383",
+  "name": "Transmutation Spell 1383",
+  "description": "Une créature ciblée gagne des actions supplémentaires et une vitesse augmentée",
+  "icon": "transmutation_spell_1383_icon",
+  "school": "transmutation",
+  "rarity": "uncommon",
+  "spell_type": "buff",
+  "target_type": "single",
+  "range": 9.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "speed_boost",
+      "value": 2.0,
+      "duration": 60000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "speed_lines"
+  },
+  "sound_effects": {
+    "cast_sound": "speed_burst"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "transmutation"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

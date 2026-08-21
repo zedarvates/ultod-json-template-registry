@@ -1,0 +1,143 @@
+{
+  "id": "skill_trainer",
+  "name": "Maître des Compétences",
+  "description": "Expert offrant des leçons et des entraînements pour développer diverses compétences",
+  "icon": "skill_trainer_icon",
+  "category": "trainer",
+  "awareness": {
+    "enabled": true,
+    "cognitive_level": "full",
+    "initial_lod": "ordinary",
+    "initial_yaw_radians": 0.0,
+    "senses": {
+      "vision_range": 28.0,
+      "hearing_range": 24.0,
+      "tactile_sensitivity": 0.8
+    },
+    "attention": {
+      "capacity": 12,
+      "max_visual_candidates": 32,
+      "max_occlusion_rays": 8
+    },
+    "values": {
+      "nonviolence": 0.6,
+      "fairness": 0.8,
+      "loyalty": 0.7,
+      "honor": 0.8,
+      "compassion": 0.7,
+      "reciprocity": 0.8
+    },
+    "personal_norms": {
+      "property_rights": 0.7,
+      "nonviolence": 0.7,
+      "anti_coercion": 0.8,
+      "dignity": 0.9,
+      "reciprocity": 0.8
+    },
+    "initial_goals": {
+      "self_preservation": 0.8,
+      "possessions": 0.4,
+      "social_standing": 0.8,
+      "protect_others": 0.8,
+      "preserve_order": 0.8,
+      "affiliation": 0.8
+    },
+    "reaction_policy": {
+      "threat_response": "defend",
+      "may_defend": true,
+      "may_retaliate": false
+    }
+  },
+  "rarity": "common",
+  "dialogue": {
+    "greetings": [
+      "Bienvenue, aspirant. Prêt à perfectionner vos compétences?",
+      "La maîtrise vient avec la pratique et l'enseignement.",
+      "Que souhaitez-vous apprendre aujourd'hui?"
+    ],
+    "training_available": [
+      "Je peux vous enseigner cette compétence.",
+      "Avec de la pratique, vous excellerez dans cet art.",
+      "Cette compétence pourrait vous être utile dans vos aventures."
+    ],
+    "training_complete": [
+      "Vous avez bien progressé. Continuez à pratiquer!",
+      "La maîtrise demande du temps, mais vous êtes sur la bonne voie.",
+      "Utilisez cette connaissance avec sagesse."
+    ],
+    "skill_maxed": [
+      "Vous avez atteint la perfection dans cette compétence.",
+      "Il n'y a plus rien que je puisse vous enseigner ici.",
+      "Vous êtes maintenant un maître dans cet art."
+    ]
+  },
+  "trainable_skills": [
+    "sword_mastery",
+    "bow_mastery",
+    "magic_mastery",
+    "blacksmithing",
+    "taming",
+    "stealth",
+    "tracking",
+    "herbalism"
+  ],
+  "training_costs": {
+    "basic_training": {
+      "cost": 100,
+      "skill_points": 5,
+      "cooldown": 3600000
+    },
+    "advanced_training": {
+      "cost": 500,
+      "skill_points": 25,
+      "requirements": "skill_level_25",
+      "cooldown": 21600000
+    },
+    "master_training": {
+      "cost": 2500,
+      "skill_points": 50,
+      "requirements": "skill_level_75",
+      "cooldown": 86400000
+    }
+  },
+  "special_trainings": {
+    "combat_specialization": {
+      "cost": 1000,
+      "description": "Entraînement spécialisé dans les arts du combat",
+      "requirements": "multiple_combat_skills",
+      "benefits": "combat_skill_bonus_10"
+    },
+    "crafting_mastery": {
+      "cost": 800,
+      "description": "Maîtrise avancée des arts artisanaux",
+      "requirements": "multiple_crafting_skills",
+      "benefits": "crafting_skill_bonus_15"
+    },
+    "magical_affinity": {
+      "cost": 1200,
+      "description": "Connexion profonde avec les forces magiques",
+      "requirements": "multiple_magic_skills",
+      "benefits": "magic_skill_bonus_12"
+    }
+  },
+  "ai_behavior": {
+    "personality": "wise_teacher",
+    "interaction_style": "educational",
+    "helpfulness_level": 0.95,
+    "movement_pattern": "stationary_with_demonstrations"
+  },
+  "schedule": {
+    "active_hours": "9:00-17:00",
+    "training_sessions": "hourly",
+    "demonstration_times": "10:00,14:00"
+  },
+  "services": {
+    "skill_training": true,
+    "special_training": true,
+    "skill_assessment": true,
+    "training_materials": true,
+    "master_certification": true
+  },
+  "version": "0.1.0",
+  "template_type": "npc"
+}

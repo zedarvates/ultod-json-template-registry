@@ -1,0 +1,47 @@
+{
+  "id": "transmutation_spell_1612",
+  "name": "Transmutation Spell 1612",
+  "description": "Déplace des objets ou des créatures avec votre esprit",
+  "icon": "transmutation_spell_1612_icon",
+  "school": "transmutation",
+  "rarity": "rare",
+  "spell_type": "control",
+  "target_type": "single",
+  "range": 18.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "force_move",
+      "value": 10,
+      "duration": 0,
+      "tick_rate": 0,
+      "strength_save": true,
+      "save_dc": 15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "mind_force"
+  },
+  "sound_effects": {
+    "cast_sound": "force_whisper"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "transmutation"
+    ],
+    "classes": [
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

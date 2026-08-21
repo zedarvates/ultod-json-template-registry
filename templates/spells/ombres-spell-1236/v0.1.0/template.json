@@ -1,0 +1,77 @@
+{
+  "id": "ombres_spell_1236",
+  "name": "Ombres Spell 1236",
+  "description": "Un coup sacrificiel ultime qui cause des dégâts massifs mais au prix de la santé",
+  "icon": "ombres_spell_1236_icon",
+  "school": "ombres",
+  "rarity": "rare",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 1000,
+  "cooldown": 180000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 300,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.6,
+      "honor": 0.4
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 300,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "bleed_debuff",
+      "value": 80,
+      "duration": 15000,
+      "tick_rate": 3000,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "self_damage",
+      "value": 150,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ceremonial_stance",
+    "projectile_effect": "none",
+    "impact_effect": "adapted_referencete_sacrifice",
+    "trail_effect": "blood_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "ritual_chant",
+    "impact_sound": "sacrifice_impact"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "devoted_sacrifice": {
+      "unlock_level": 35,
+      "description": "Réduit les dégâts auto-infligés de 25%",
+      "self_damage_reduction": 37.5
+    },
+    "bushido_finality": {
+      "unlock_level": 50,
+      "description": "Augmente les dégâts de 50%",
+      "damage_bonus": 150
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

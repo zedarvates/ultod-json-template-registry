@@ -1,0 +1,107 @@
+{
+  "id": "orc",
+  "name": "Orc",
+  "description": "Fierce and strong tribal warriors with unmatched physical power and combat prowess",
+  "icon": "races/orc_icon.png",
+  "category": "playable",
+  "rarity": "common",
+  "faction": "horde",
+  "base_stats": {
+    "strength": 16,
+    "dexterity": 8,
+    "constitution": 14,
+    "intelligence": 7,
+    "wisdom": 9,
+    "charisma": 8,
+    "luck": 9
+  },
+  "stat_modifiers": {
+    "skill_learning_rate": 0.8,
+    "experience_rate": 0.95,
+    "health_regeneration": 1.2,
+    "physical_damage": 1.15,
+    "intimidation": 1.2,
+    "damage_reduction": 1.1
+  },
+  "available_classes": [
+    "warrior",
+    "guardian",
+    "rogue",
+    "basilisk",
+    "berserker",
+    "shaman"
+  ],
+  "body_proportions": {
+    "average_height": 1.95,
+    "average_build": 1.3,
+    "max_height": 2.2,
+    "min_height": 1.7,
+    "max_build": 1.6,
+    "min_build": 1.0
+  },
+  "appearance_restrictions": {
+    "allowed_skin_colors": [
+      {
+        "min_r": 0.3,
+        "max_r": 0.6,
+        "min_g": 0.2,
+        "max_g": 0.5,
+        "min_b": 0.1,
+        "max_b": 0.4
+      },
+      {
+        "min_r": 0.1,
+        "max_r": 0.3,
+        "min_g": 0.1,
+        "max_g": 0.3,
+        "min_b": 0.1,
+        "max_b": 0.3
+      }
+    ],
+    "allowed_hair_colors": [
+      {
+        "min_r": 0.1,
+        "max_r": 0.3,
+        "min_g": 0.1,
+        "max_g": 0.3,
+        "min_b": 0.1,
+        "max_b": 0.3
+      }
+    ]
+  },
+  "racial_traits": [
+    "orc_blood_rage",
+    "orc_hardiness",
+    "orc_weapon_mastery",
+    "orc_intimidation",
+    "orc_regeneration"
+  ],
+  "passive_bonuses": {
+    "physical_damage": 1.2,
+    "damage_reduction": 1.1,
+    "intimidation_bonus": 1.25,
+    "wound_regeneration": 1.3
+  },
+  "starting_equipment": {
+    "weapon": "orcish_axe",
+    "armor": "orcish_armor",
+    "gold": 80
+  },
+  "cultural_background": {
+    "languages": [
+      "common",
+      "orcish"
+    ],
+    "starting_city": "orc_stronghold",
+    "alignment_tendency": "chaotic_neutral",
+    "cultural_bonuses": {
+      "strength": 15,
+      "intimidation": 20,
+      "weapon_mastery": 18,
+      "hardiness": 12,
+      "regeneration": 10
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "race"
+}

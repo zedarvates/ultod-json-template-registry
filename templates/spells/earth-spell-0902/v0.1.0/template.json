@@ -1,0 +1,58 @@
+{
+  "id": "earth_spell_0902",
+  "name": "Earth Spell 0902",
+  "description": "Se Earth Spell 0902 pour échapper aux prédateurs et se cacher",
+  "icon": "earth_spell_0902_icon",
+  "school": "earth",
+  "rarity": "common",
+  "spell_type": "utility",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1000,
+  "cooldown": 12000,
+  "mana_cost": 8,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "scaling": {}
+  },
+  "effects": [
+    {
+      "effect_type": "invisibility",
+      "value": 100,
+      "duration": 10000,
+      "tick_rate": 0,
+      "scaling": {
+        "dexterity": 0.3
+      }
+    },
+    {
+      "effect_type": "regeneration",
+      "value": 5,
+      "duration": 10000,
+      "tick_rate": 2000,
+      "scaling": {
+        "constitution": 0.2
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "dirt_burst",
+    "hit_effect": "earth_spell_0902_smoke",
+    "miss_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "digging",
+    "hit_sound": "dirt_settle",
+    "miss_sound": "none"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [],
+    "classes": [
+      "monster"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

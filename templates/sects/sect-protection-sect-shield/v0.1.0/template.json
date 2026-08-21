@@ -1,0 +1,53 @@
+{
+  "id": "sect_protection_sect_shield",
+  "name": "Bouclier de Secte",
+  "description": "Bouclier énergétique enveloppant tous les membres de la secte",
+  "icon": "sect_shield_icon",
+  "school": "arcane",
+  "type": "buff",
+  "damage_type": "magical",
+  "mana_cost": 1000,
+  "range": 0,
+  "cast_time": 15000,
+  "cooldown": 7200000,
+  "aoe": {
+    "enabled": true,
+    "radius": 200,
+    "damage_reduction": 1.0,
+    "max_targets": 50
+  },
+  "effects": [
+    {
+      "type": "aura",
+      "name": "Bouclier de Secte",
+      "description": "Protection énergétique collective pour tous les membres",
+      "duration": 7200000,
+      "value": 0.8,
+      "stackable": false,
+      "dispellable": false
+    },
+    {
+      "type": "stat_modifier",
+      "name": "Solidarité Sectaire",
+      "description": "Réduction des dégâts reçus quand près d'autres membres",
+      "duration": 7200000,
+      "value": 0.3,
+      "stackable": true,
+      "dispellable": false
+    }
+  ],
+  "requirements": {
+    "level": 6,
+    "class": [
+      "guild_member"
+    ],
+    "talent_points": 25
+  },
+  "visual": {
+    "cast_animation": "sect_shield_cast",
+    "impact_effect": "sect_shield_barrier"
+  },
+  "enabled": true,
+  "template_type": "sect",
+  "version": "0.1.0"
+}

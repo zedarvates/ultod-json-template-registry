@@ -1,0 +1,115 @@
+{
+  "id": "temporal_undead_creature_0367",
+  "name": "Temporal Undead Creature 0367",
+  "description": "Une entité spectrale issue des époques perdues, hanter par les échos du temps",
+  "icon": "temporal_undead_creature_0367_icon",
+  "category": "temporal_undead",
+  "rarity": "epic",
+  "base_stats": {
+    "health": 1000,
+    "mana": 800,
+    "strength": 35,
+    "dexterity": 90,
+    "intelligence": 85,
+    "wisdom": 75,
+    "constitution": 40,
+    "charisma": 60
+  },
+  "properties": {
+    "is_temporal": true,
+    "is_undead": true,
+    "is_spectral": true,
+    "size": "medium",
+    "speed": 15.0,
+    "incorporeal": true
+  },
+  "loot_table": {
+    "common_drops": [
+      "temporal_essence",
+      "wraith_essence",
+      "time_fragment"
+    ],
+    "rare_drops": [
+      "spectral_time_crystal",
+      "temporal_undead_creature_0367_tears"
+    ],
+    "epic_drops": [
+      "wraith_temporal_core",
+      "echoes_of_time"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "high",
+    "attack_pattern": "spectral_temporal_combat",
+    "special_abilities": [
+      "time_drain",
+      "temporal_possession",
+      "echo_strike"
+    ],
+    "haunting_behavior": "temporal_echo_harvesting"
+  },
+  "abilities": [
+    "time_drain",
+    "temporal_possession",
+    "echo_strike",
+    "temporal_fear",
+    "phase_through_time",
+    "temporal_undead_creature_0367_scream"
+  ],
+  "temporal_abilities": {
+    "spectral_mastery": {
+      "time_drain_effectiveness": 90,
+      "possession_duration": 15000,
+      "echo_manipulation": true
+    },
+    "haunting_effects": {
+      "temporal_echo_steal": {
+        "effectiveness": 0.3,
+        "duration": 30000,
+        "radius": 10.0
+      }
+    }
+  },
+  "resistances": {
+    "temporal": 95,
+    "psychic": 85,
+    "cold": 80,
+    "arcane": 70,
+    "physical": 20,
+    "holy": 30,
+    "fire": 25
+  },
+  "weaknesses": [
+    "holy_magic",
+    "time_purification",
+    "temporal_anchoring"
+  ],
+  "spawn_conditions": {
+    "location": "abandoned_temporal_sites",
+    "time_of_day": "night_only",
+    "player_level_min": 40,
+    "prerequisite_quests": [
+      "temporal_haunting_incident"
+    ],
+    "requires_moon_phase": "new_moon"
+  },
+  "special_mechanics": {
+    "temporal_possession": {
+      "target": "players_and_npcs",
+      "duration": 10000,
+      "cooldown": 300000,
+      "break_conditions": [
+        "temporal_purification",
+        "time_anchor",
+        "blessed_weapon"
+      ]
+    },
+    "echo_harvesting": {
+      "effect": "steals_temporal_abilities",
+      "duration": 60000,
+      "visual_effect": "spectral_time_drain"
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

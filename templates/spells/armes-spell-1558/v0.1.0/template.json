@@ -1,0 +1,74 @@
+{
+  "id": "armes_spell_1558",
+  "name": "Armes Spell 1558",
+  "description": "Inflige des dégâts et saigne la cible pendant 15 secondes",
+  "icon": "armes_spell_1558_icon",
+  "school": "armes",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 6000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 100,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.8,
+      "rage": 0.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "bleed_dot",
+      "value": 25,
+      "duration": 15000,
+      "tick_rate": 3000,
+      "total_ticks": 5,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "sword_slash",
+    "projectile_effect": "none",
+    "impact_effect": "blood_splash",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "sword_slash",
+    "impact_sound": "flesh_tear"
+  },
+  "requirements": {
+    "level": 4,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "arms"
+    ]
+  },
+  "upgrades": {
+    "deep_wounds": {
+      "unlock_level": 12,
+      "description": "Augmente les dégâts de saignement de Armes Spell 1558 de 50%",
+      "bleed_damage_bonus": 50
+    },
+    "rend_mastery": {
+      "unlock_level": 22,
+      "description": "Armes Spell 1558 a une chance d'augmenter la durée du saignement",
+      "duration_extension_chance": 0.25,
+      "duration_extension_amount": 5000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "elementaire_spell_1289",
+  "name": "Elementaire Spell 1289",
+  "description": "Place un totem qui ralentit les ennemis proches et les empêche de se déplacer librement",
+  "icon": "elementaire_spell_1289_icon",
+  "school": "elementaire",
+  "rarity": "common",
+  "spell_type": "totem",
+  "target_type": "ground",
+  "range": 20.0,
+  "cast_time": 0,
+  "cooldown": 30000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "earth",
+    "scaling": {
+      "wisdom": 0.0,
+      "intelligence": 0.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "totem_placement",
+      "value": 1,
+      "duration": 45000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "totem_type": "elementaire_spell_1289"
+    },
+    {
+      "effect_type": "area_movement_debuff",
+      "value": 0.5,
+      "duration": 45000,
+      "tick_rate": 0,
+      "aoe_radius": 10.0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "root_chance",
+      "value": 0.15,
+      "duration": 2000,
+      "tick_rate": 0,
+      "aoe_radius": 10.0,
+      "proc_chance": 0.15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "totem_summon",
+    "totem_effect": "earth_totem_pulse",
+    "area_effect": "earth_vines"
+  },
+  "sound_effects": {
+    "cast_sound": "earth_rumble",
+    "totem_sound": "totem_hum",
+    "area_sound": "vines_grow"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [],
+    "classes": [
+      "shaman"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_earthbind_totem": {
+      "unlock_level": 22,
+      "description": "Elementaire Spell 1289 dure plus longtemps et couvre une plus grande zone",
+      "duration_extension": 15000,
+      "radius_bonus": 3
+    },
+    "earthbind_totem_mastery": {
+      "unlock_level": 32,
+      "description": "Elementaire Spell 1289 a une plus grande chance d'immobiliser",
+      "root_chance_bonus": 0.2,
+      "movement_reduction_bonus": 0.2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

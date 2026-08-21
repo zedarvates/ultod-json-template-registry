@@ -1,0 +1,88 @@
+{
+  "item_id": "balance_override_token",
+  "name": "Jeton de Contournement d'Équilibre",
+  "description": "Permet temporairement de dépasser les règles d'équilibre pour des personnalisations extrêmes",
+  "icon": "balance_override_token_icon",
+  "category": "consumable",
+  "rarity": "legendary",
+  "item_type": "balance_override_token",
+  "bind_type": "account",
+  "level_required": 80,
+  "durability": {
+    "single_use": true,
+    "charges": 1
+  },
+  "effects": [
+    {
+      "effect_type": "balance_rule_suspension",
+      "value": {
+        "override_duration": 300000,
+        "efficiency_cap_bypass": 1.5,
+        "penalty_reduction": 0.5
+      },
+      "duration": 1800000,
+      "description": "Suspend temporairement les règles d'équilibre magique pour des personnalisations extrêmes",
+      "override_mechanics": {
+        "balance_cap_override": "x1.5_normal_cap",
+        "penalty_reduction": "50%_automatic_penalties",
+        "stability_control": "manual_management_required",
+        "backfire_risk": 0.15
+      },
+      "balance_formula": "override_efficiency = 1.5 * normal_cap - inherent_instability"
+    }
+  ],
+  "usage_instructions": {
+    "cast_time": 45000,
+    "cooldown": 86400000,
+    "target_type": "spell_customization_interface",
+    "consumable_on_use": true,
+    "customization_context": "emergency_balance_bypass"
+  },
+  "crafting_requirements": {
+    "profession": "magic_crafter",
+    "level_required": 70,
+    "specialization": "balance_system_mastery",
+    "materials": [
+      {
+        "material_id": "balance_rune",
+        "quantity": 5
+      },
+      {
+        "material_id": "mirror_essence",
+        "quantity": 3
+      },
+      {
+        "material_id": "resonance_stone",
+        "quantity": 4
+      }
+    ],
+    "crafting_time": 900000,
+    "success_rate": 0.2,
+    "batch_production": 1
+  },
+  "spell_customization_data": {
+    "customizable_parameters": [
+      "all_parameters_unlocked"
+    ],
+    "effect_mechanic": "balance_consciousness_suspension",
+    "balance_tradeoffs": [
+      "extreme_instability",
+      "potential_backfire",
+      "long_term_cooldown"
+    ],
+    "visual_indicators": [
+      "golden_aura",
+      "instability_warnings",
+      "backfire_indicators"
+    ],
+    "override_features": [
+      "no_efficiency_caps",
+      "reduced_penalties",
+      "emergency_customizations",
+      "auto_stability_management"
+    ]
+  },
+  "version": "0.1.0",
+  "id": "balance_override_token",
+  "template_type": "item"
+}

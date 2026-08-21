@@ -1,0 +1,52 @@
+{
+  "id": "nature_spell_0909",
+  "name": "Nature Spell 0909",
+  "description": "Une attaque empoisonnée qui inflige des dégâts sur la durée",
+  "icon": "nature_spell_0909_icon",
+  "school": "nature",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "single_enemy",
+  "range": 3.0,
+  "cast_time": 800,
+  "cooldown": 4000,
+  "mana_cost": 10,
+  "damage": {
+    "base_damage": 18,
+    "damage_type": "poison",
+    "scaling": {
+      "dexterity": 1.0,
+      "intelligence": 0.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "poison",
+      "value": 8,
+      "duration": 8000,
+      "tick_rate": 2000,
+      "scaling": {
+        "intelligence": 0.3
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fang_glow",
+    "hit_effect": "nature_spell_0909_cloud",
+    "miss_effect": "fang_miss"
+  },
+  "sound_effects": {
+    "cast_sound": "hiss",
+    "hit_sound": "nature_spell_0909_sizzle",
+    "miss_sound": "air_hiss"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [],
+    "classes": [
+      "monster"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

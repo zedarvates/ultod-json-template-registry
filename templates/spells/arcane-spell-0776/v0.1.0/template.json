@@ -1,0 +1,87 @@
+{
+  "id": "arcane_spell_0776",
+  "name": "Arcane Spell 0776",
+  "description": "Interrompt l'incantation d'un ennemi et l'empêche de lancer des sorts pendant un court moment",
+  "icon": "arcane_spell_0776_icon",
+  "school": "arcane",
+  "rarity": "uncommon",
+  "spell_type": "control",
+  "target_type": "single_target",
+  "range": 25.0,
+  "cast_time": 0,
+  "cooldown": 24000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "arcane"
+  },
+  "effects": [
+    {
+      "effect_type": "interrupt",
+      "value": 0,
+      "duration": 0,
+      "tick_rate": 0,
+      "interrupt_chance": 1.0,
+      "max_cast_time_interrupt": 10000
+    },
+    {
+      "effect_type": "silence",
+      "value": 0,
+      "duration": 4000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "spell_lock",
+      "value": 0,
+      "duration": 8000,
+      "tick_rate": 0,
+      "proc_chance": 0.5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "arcane_flash",
+    "interrupt_effect": "spell_shatter",
+    "silence_effect": "magic_suppression",
+    "trail_effect": "arcane_runes"
+  },
+  "sound_effects": {
+    "cast_sound": "arcane_burst",
+    "interrupt_sound": "spell_break",
+    "silence_sound": "magic_nullify"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "mage",
+      "warlock",
+      "priest",
+      "wizard"
+    ]
+  },
+  "upgrades": {
+    "improved_counterspell": {
+      "unlock_level": 22,
+      "description": "Augmente la durée du silence et réduit le cooldown",
+      "silence_duration_bonus": 2000,
+      "cooldown_reduction": 4000
+    },
+    "spell_lock": {
+      "unlock_level": 32,
+      "description": "Bloque complètement les sorts de l'ennemi pendant plus longtemps",
+      "silence_duration_bonus": 4000,
+      "spell_lock_chance": 1.0
+    },
+    "arcane_suppression": {
+      "unlock_level": 42,
+      "description": "Le Arcane Spell 0776 réduit également la puissance des sorts de l'ennemi",
+      "spell_power_reduction": 30,
+      "reduction_duration": 10000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

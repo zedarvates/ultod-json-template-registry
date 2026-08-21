@@ -1,0 +1,80 @@
+{
+  "id": "warlock",
+  "name": "Warlock",
+  "description": "A dark summoner who makes pacts with demonic entities for power",
+  "color": "9482C9",
+  "primary_resource": "mana",
+  "base_stats": {
+    "strength": 10,
+    "agility": 12,
+    "intelligence": 18,
+    "vitality": 12,
+    "wisdom": 14,
+    "charisma": 14
+  },
+  "specializations": [
+    "affliction",
+    "demonology",
+    "destruction"
+  ],
+  "starting_skills": [
+    {
+      "id": 8001,
+      "name": "Shadow Bolt",
+      "description": "Launches a bolt of shadow magic",
+      "cooldown": 0,
+      "mana_cost": 265,
+      "range": 30.0,
+      "cast_time": 3000,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 8002,
+      "name": "Summon Imp",
+      "description": "Summons an imp to aid you in battle",
+      "cooldown": 0,
+      "mana_cost": 1200,
+      "range": 0,
+      "cast_time": 10000,
+      "learned_at_level": 3,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 80001,
+            "name": "Suppression",
+            "description": "Increases spell hit chance by 2%",
+            "max_rank": 3,
+            "icon_path": "talents/warlock/suppression.png"
+          },
+          {
+            "id": 80002,
+            "name": "Improved Corruption",
+            "description": "Increases Corruption damage by 10%",
+            "max_rank": 5,
+            "icon_path": "talents/warlock/improved_corruption.png"
+          },
+          {
+            "id": 80003,
+            "name": "Demonic Embrace",
+            "description": "Increases stamina by 5%",
+            "max_rank": 5,
+            "icon_path": "talents/warlock/demonic_embrace.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100000,
+  "health_modifier": 0.9,
+  "damage_modifier": 1.15,
+  "armor_modifier": 0.7,
+  "template_type": "class",
+  "version": "0.1.0"
+}

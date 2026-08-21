@@ -1,0 +1,25 @@
+{
+  "id": "undead_simple",
+  "name": "Undead",
+  "description": "Restless spirits and reanimated corpses with a connection to the void.",
+  "racial_traits": [
+    {
+      "id": "shadow_affinity",
+      "name": "Shadow Affinity",
+      "description": "Increases necrotic resistance and regeneration in shadows.",
+      "bonuses": {
+        "constitution": 3,
+        "intelligence": 3,
+        "charisma": -5
+      }
+    }
+  ],
+  "available_classes": [
+    "necromancer_simple",
+    "warrior",
+    "rogue"
+  ],
+  "starting_zone": "graveyard_hollow",
+  "template_type": "race",
+  "version": "0.1.0"
+}

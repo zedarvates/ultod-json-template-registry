@@ -1,0 +1,37 @@
+{
+  "school": "spiritualism",
+  "rarity": "rare",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 800,
+  "cooldown": 100000,
+  "mana_cost": 75,
+  "visual_effects": {
+    "cast_effect": "spiritualism_spell_1401_cast",
+    "projectile_effect": "none",
+    "impact_effect": "spiritualism_spell_1401_transformation",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "spiritualism_spell_1401_cast_sound",
+    "impact_sound": "spiritualism_spell_1401_activation"
+  },
+  "requirements": {
+    "level": 40
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "spiritualism_spell_1401",
+  "name": "Spiritualism Spell 1401",
+  "description": "Allows you to walk through walls and become invisible to enemies for a short time",
+  "icon": "spiritualism_spell_1401_icon",
+  "spell_type": "buff",
+  "effects": {
+    "duration": 12000,
+    "invisibility": true,
+    "phase_through_walls": true,
+    "speed_bonus": 2.0,
+    "damage_buff": 0.5
+  },
+  "template_type": "spell"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "transmutation_spell_1170",
+  "name": "Transmutation Spell 1170",
+  "description": "Vos flèches volent plus rapidement et plus nombreuses",
+  "icon": "transmutation_spell_1170_icon",
+  "school": "transmutation",
+  "rarity": "uncommon",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "attack_speed_boost",
+      "value": 2,
+      "duration": 60000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "extra_attacks": 1,
+      "concentration_required": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "arrow_acceleration",
+    "buff_effect": "rapid_fire_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "quiver_rustle",
+    "buff_sound": "rapid_twangs"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "archery",
+      "speed_magic"
+    ],
+    "classes": [
+      "ranger",
+      "hunter"
+    ]
+  },
+  "upgrades": {
+    "greater_swift": {
+      "unlock_level": 9,
+      "description": "Deux attaques supplémentaires",
+      "extra_attacks": 2
+    },
+    "endless_quiver": {
+      "unlock_level": 15,
+      "description": "Nombre illimité d'attaques",
+      "unlimited_attacks": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

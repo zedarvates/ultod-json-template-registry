@@ -1,0 +1,74 @@
+{
+  "item_id": "void_weave_thread",
+  "name": "Fil de Tissage du Vide",
+  "description": "Fil ultra-fin magique tissé dans le vide interdimensionnel, essentiel pour lier et stabiliser les modifications de sorts",
+  "icon": "void_weave_thread_icon",
+  "category": "material",
+  "rarity": "common",
+  "item_type": "magic_crafting_material",
+  "bind_type": "none",
+  "level_required": 15,
+  "durability": {
+    "single_use": false,
+    "max_durability": 50,
+    "current_durability": 50
+  },
+  "properties": {
+    "material_type": "binding_fiber",
+    "structural_integrity": 0.98,
+    "dimensional_stability": 0.92,
+    "spell_binding_strength": 0.8,
+    "degradation_rate": 0.02
+  },
+  "stack_limit": 200,
+  "weight": 0.02,
+  "value": {
+    "rarity_multiplier": 1.0
+  },
+  "drop_sources": [
+    {
+      "source_type": "mob_loot",
+      "mobs": [
+        "void_stalker",
+        "shadow_weaver",
+        "dimensional_beast"
+      ],
+      "drop_chance": 0.25,
+      "quantity_range": {
+        "min": 1,
+        "max": 5
+      }
+    },
+    {
+      "source_type": "gathering",
+      "nodes": [
+        "void_rift",
+        "shadow_realm",
+        "dimensional_tear"
+      ],
+      "skill_required": "gathering",
+      "skill_level": 20
+    },
+    {
+      "source_type": "crafting",
+      "profession": "tailoring",
+      "recipe_id": "void_thread_spinning"
+    }
+  ],
+  "usage_instructions": {
+    "usage_type": "crafting_component",
+    "compatible_professions": [
+      "magic_crafter",
+      "tailoring",
+      "enchanting"
+    ],
+    "binding_enhancement": 1.05
+  },
+  "visual_effects": {
+    "idle_effect": "void_flicker",
+    "usage_effect": "thread_dissolution"
+  },
+  "version": "0.1.0",
+  "id": "void_weave_thread",
+  "template_type": "item"
+}

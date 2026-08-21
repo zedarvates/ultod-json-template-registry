@@ -1,0 +1,75 @@
+{
+  "id": "sacre_spell_1121",
+  "name": "Sacre Spell 1121",
+  "description": "Une prière puissante qui soigne tous les membres du groupe dans une large zone",
+  "icon": "sacre_spell_1121_icon",
+  "school": "sacré",
+  "rarity": "rare",
+  "spell_type": "healing",
+  "target_type": "area",
+  "range": 0.0,
+  "cast_time": 3000,
+  "cooldown": 180000,
+  "mana_cost": 150,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "holy",
+    "scaling": {
+      "wisdom": 1.5,
+      "intelligence": 1.0
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "area_healing",
+      "value": 350,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_radius": 25.0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "healing_over_time",
+      "value": 50,
+      "duration": 10000,
+      "tick_rate": 2000,
+      "total_ticks": 5,
+      "aoe_radius": 25.0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_sacre_spell_1121_cast",
+    "healing_effect": "mass_healing_aura",
+    "hot_effect": "sustained_healing_glow"
+  },
+  "sound_effects": {
+    "cast_sound": "solemn_sacre_spell_1121",
+    "healing_sound": "divine_harmony",
+    "hot_sound": "gentle_blessing"
+  },
+  "requirements": {
+    "level": 30,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_prayer_of_healing": {
+      "unlock_level": 40,
+      "description": "Sacre Spell 1121 soigne beaucoup plus",
+      "healing_bonus": 150,
+      "hot_bonus": 25
+    },
+    "prayer_of_healing_mastery": {
+      "unlock_level": 50,
+      "description": "Sacre Spell 1121 peut être lancée plus fréquemment",
+      "cooldown_reduction": 60000,
+      "cast_time_reduction": 1000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

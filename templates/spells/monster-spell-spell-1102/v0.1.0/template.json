@@ -1,0 +1,47 @@
+{
+  "id": "monster_spell_spell_1102",
+  "name": "Monster Spell Spell 1102",
+  "description": "Description pour Monster Spell Spell 1102",
+  "icon": "monster_spell_spell_1102_icon",
+  "school": "monster_spell",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 6.0,
+  "cast_time": 300,
+  "cooldown": 1000,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 24,
+    "damage_type": "poison"
+  },
+  "effects": [
+    {
+      "effect_type": "poison_damage",
+      "value": 24,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "monster_spell_spell_1102_burst",
+    "projectile_effect": "monster_spell_spell_1102",
+    "impact_effect": "sneeze_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "poof",
+    "impact_sound": "sneeze"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "plant_magic"
+    ],
+    "classes": [
+      "plant"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,992 @@
+{
+  "sacred_locations_divine_realms": {
+    "sacred_site_categories": {
+      "temple_complexes": {
+        "description": "Major religious structures serving as worship centers",
+        "subcategories": {
+          "great_temples": {
+            "description": "Large, elaborate temple complexes with multiple functions",
+            "capacity": "500-2000 worshippers",
+            "functions": [
+              "primary_worship",
+              "ritual_ceremonies",
+              "pilgrimage_destinations",
+              "religious_education"
+            ],
+            "structural_features": [
+              "main_sanctuary",
+              "secondary_shrines",
+              "ceremonial_halls",
+              "educational_wings",
+              "pilgrim_accommodation",
+              "temple_defenses"
+            ],
+            "divine_properties": {
+              "blessed_aura": "enhanced_prayer_effectiveness",
+              "divine_communication": "improved_deity_communication",
+              "sacred_energy": "divine_power_generation",
+              "protective_field": "defensive_enchantment"
+            },
+            "staffing_requirements": {
+              "high_priest": "1 (temple_head)",
+              "senior_priests": "3-5",
+              "priests": "10-20",
+              "acolytes": "25-50",
+              "temple_guards": "20-40",
+              "maintenance_staff": "15-30"
+            },
+            "maintenance_costs": {
+              "daily_blessing": "50 divine energy",
+              "weekly_ceremony": "200 divine energy",
+              "annual_consecration": "1000 divine energy"
+            }
+          },
+          "community_temples": {
+            "description": "Medium-sized temples serving local communities",
+            "capacity": "100-500 worshippers",
+            "functions": [
+              "local_worship",
+              "community_gatherings",
+              "basic_rituals",
+              "religious_guidance"
+            ],
+            "structural_features": [
+              "main_sanctuary",
+              "community_hall",
+              "priest_residence",
+              "storage_areas"
+            ],
+            "divine_properties": {
+              "community_blessing": "enhanced_group_worship",
+              "local_protection": "area_protection_effects",
+              "divine_guidance": "spiritual_counseling_aid"
+            },
+            "staffing_requirements": {
+              "temple_priest": "1",
+              "assistant_priests": "2-3",
+              "temple_aides": "5-10"
+            }
+          },
+          "shrine_stations": {
+            "description": "Small worship stations for personal devotion",
+            "capacity": "10-50 worshippers",
+            "functions": [
+              "personal_prayer",
+              "traveler_worship",
+              "small_ceremonies",
+              "pilgrimage_stops"
+            ],
+            "structural_features": [
+              "main_shrine",
+              "offering_area",
+              "meditation_space",
+              "storage"
+            ],
+            "divine_properties": {
+              "personal_blessing": "enhanced_individual_prayer",
+              "traveler_protection": "protection_for_travelers",
+              "pilgrim_guidance": "navigation_aid"
+            },
+            "maintenance": "maintained_by local community"
+          }
+        }
+      },
+      "sacred_natural_sites": {
+        "description": "Natural locations enhanced by divine presence",
+        "subcategories": {
+          "sacred_groves": {
+            "description": "Enchanted forests with strong divine energy",
+            "characteristics": [
+              "ancient_trees_with_divine_sap",
+              "enhanced_growth_magic",
+              "animal_communion_abilities",
+              "peaceful_aura"
+            ],
+            "divine_properties": {
+              "nature_empowerment": "enhanced_nature_magic",
+              "life_healing": "healing_aura",
+              "animal_friendship": "wildlife_alliance",
+              "plant_communion": "nature_spirit_communication"
+            },
+            "location_features": [
+              "tree_of_life",
+              "healing_spring",
+              "animal_sanctuary",
+              "druid_circle",
+              "sacred_stones"
+            ],
+            "access_requirements": [
+              "nature_worship",
+              "peaceful_intent",
+              "eco_responsibility",
+              "divine_blessing"
+            ]
+          },
+          "holy_springs": {
+            "description": "Cleansing and healing water sources",
+            "characteristics": [
+              "eternal_flowing_water",
+              "healing_properties",
+              "purification_effects",
+              "spiritual_cleansing"
+            ],
+            "divine_properties": {
+              "healing_water": "restores_health_and_morale",
+              "purification_ritual": "cleanses_corruption",
+              "spiritual_clarity": "enhances_mental_clarity",
+              "blessing_empowerment": "amplifies_blessings"
+            },
+            "location_features": [
+              "healing_pool",
+              "purification_cascade",
+              "contemplation_bench",
+              "offering_stones"
+            ]
+          },
+          "divine_mountains": {
+            "description": "Sacred peaks serving as divine communication points",
+            "characteristics": [
+              "cloud_piercing_peaks",
+              "thin_air_enhanced_prayer",
+              "cosmic_visibility",
+              "lightning_conduits"
+            ],
+            "divine_properties": {
+              "cosmic_connection": "enhanced_divine_communication",
+              "weather_mastery": "control_over_weather",
+              "vision_enhancement": "prophetic_visions",
+              "elevation_blessing": "closer_to_divine_realms"
+            },
+            "location_features": [
+              "summit_shrine",
+              "lightning_altar",
+              "cosmic_observatory",
+              "wind_shrine"
+            ]
+          }
+        }
+      },
+      "divine_fortresses": {
+        "description": "Military religious structures for divine warfare",
+        "subcategories": {
+          "holy_citadels": {
+            "description": "Fortified religious military compounds",
+            "functions": [
+              "divine_warfare",
+              "military_training",
+              "faith_defense",
+              "crusade_bases"
+            ],
+            "defensive_features": [
+              "divine_walls",
+              "blessed_defenses",
+              "angelic_guards",
+              "reality_barriers"
+            ],
+            "military_capabilities": {
+              "divine_legions": "celestial_military_units",
+              "holy_weapons": "blessed_military_gear",
+              "purification_aura": "corruption_protection",
+              "crusade_power": "enhanced_faith_warfare"
+            }
+          },
+          "martyr_shrines": {
+            "description": "Memorials for fallen divine warriors",
+            "functions": [
+              "honor_dead",
+              "inspire_living",
+              "martyr_communion",
+              "spiritual_power"
+            ],
+            "memorial_features": [
+              "martyr_statues",
+              "soul_anchoring",
+              "inspiration_aura",
+              "sacrifice_memorial"
+            ],
+            "divine_properties": {
+              "martyr_inspiration": "courage_from_sacrifices",
+              "soul_preservation": "martyr_spirit_presence",
+              "heroic_aura": "enhances_warfare_abilities",
+              "sacrifice_power": "transforms_sacrifice_into_strength"
+            }
+          }
+        }
+      },
+      "ancient_sacred_sites": {
+        "description": "Prehistoric divine locations of immense power",
+        "subcategories": {
+          "primordial_ruins": {
+            "description": "Remnants from the dawn of creation",
+            "characteristics": [
+              "prehistoric_craftsmanship",
+              "primordial_energy",
+              "reality_anchoring",
+              "cosmic_significance"
+            ],
+            "divine_properties": {
+              "primordial_wisdom": "knowledge_from_universe_creation",
+              "reality_stability": "anchors_local_reality",
+              "cosmic_awareness": "universal_consciousness",
+              "creation_power": "ability_to_enhance_creation"
+            },
+            "dangers": [
+              "overwhelming_divine_power",
+              "reality_instability",
+              "cosmic_revelation_burden",
+              "primordial_energy_corruption"
+            ]
+          },
+          "prophetic_sites": {
+            "description": "Locations where prophecies are revealed",
+            "characteristics": [
+              "future_sight_enhancement",
+              "prophetic_echoes",
+              "destiny_manipulation",
+              "temporal_distortion"
+            ],
+            "divine_properties": {
+              "prophecy_revelation": "future_events_manifestation",
+              "destiny_guidance": "life_path_clarification",
+              "temporal_awareness": "past_present_future_connection",
+              "fate_manipulation": "ability_to_alter_destinies"
+            },
+            "risks": [
+              "prophetic_burden",
+              "destiny_entrapment",
+              "future_shock",
+              "temporal_paradox"
+            ]
+          }
+        }
+      }
+    },
+    "divine_realms": {
+      "celestial_planes": {
+        "description": "Primary divine realms of major deities",
+        "subcategories": {
+          "paradise_realm": {
+            "description": "adapted_referencete good-aligned divine domain",
+            "inhabitants": [
+              "archangels",
+              "canonized_saints",
+              "devoted_souls",
+              "celestial_beings"
+            ],
+            "characteristics": [
+              "perfect_environment",
+              "harmonic_reality",
+              "pure_energy",
+              "infinite_expansion"
+            ],
+            "divine_properties": {
+              "absolute_good": "purifies_all_evil_influence",
+              "cosmic_harmony": "perfect_balance_of_forces",
+              "paradise_transcendence": "escape_from_mortal_limitations"
+            },
+            "access_requirements": [
+              "lawful_good_alignment",
+              "zealous_saint_faith_tier",
+              "demonstrated_virtue",
+              "divine_invitation"
+            ],
+            "entry_mechanics": {
+              "soul_transcendence": "mortal_soul_becomes_celestial",
+              "divine_communion": "direct_communication_with_adapted_referencete_good",
+              "cosmic_service": "eternal_service_to_universe_wellbeing"
+            }
+          },
+          "neutral_balance_realm": {
+            "description": "Domain of balance and cosmic equilibrium",
+            "inhabitants": [
+              "balance_spirits",
+              "cosmic_sages",
+              "neutral_entities",
+              "universal_mediators"
+            ],
+            "characteristics": [
+              "infinite_variations",
+              "constant_change",
+              "balanced_powers",
+              "cosmic_wisdom"
+            ],
+            "divine_properties": {
+              "universal_balance": "maintains_cosmic_equilibrium",
+              "infinite_adaptation": "perfect_situation_suitability",
+              "cosmic_wisdom": "adapted_referencete_universal_knowledge",
+              "transcendent_perspective": "beyond_mortal_limitations"
+            },
+            "access_requirements": [
+              "true_neutral_alignment",
+              "deep_wisdom_demonstration",
+              "balance_acceptance",
+              "cosmic_understanding"
+            ]
+          }
+        }
+      },
+      "elemental_divine_planes": {
+        "description": "Domains of elemental divine forces",
+        "subcategories": {
+          "eternal_flame_realm": {
+            "description": "Domain of divine fire and creation",
+            "inhabitants": [
+              "fire_elementals",
+              "creation_spirits",
+              "phoenix_beings",
+              "solar_entities"
+            ],
+            "characteristics": [
+              "infinite_fire",
+              "creative_energy",
+              "rebirth_cycles",
+              "solar_power"
+            ],
+            "divine_properties": {
+              "creation_fire": "rebirth_and_renewal",
+              "solar_empowerment": "solar_energy_mastery",
+              "rebirth_mastery": "death_and_rebirth_control",
+              "creative_ignition": "sparking_new_realities"
+            }
+          },
+          "primordial_ocean_realm": {
+            "description": "Domain of divine water and life",
+            "inhabitants": [
+              "water_elementals",
+              "life_spirits",
+              "aquatic_divinities",
+              "tidal_forces"
+            ],
+            "characteristics": [
+              "infinite_water",
+              "life_giving_force",
+              "tidal_power",
+              "healing_waters"
+            ],
+            "divine_properties": {
+              "life_waters": "healing_and_revitalization",
+              "tidal_mastery": "control_over_cycles",
+              "primordial_creation": "original_life_creation_power",
+              "emotional_flow": "mastery_over_emotional_currents"
+            }
+          },
+          "earth_divine_realm": {
+            "description": "Domain of divine earth and stability",
+            "inhabitants": [
+              "earth_elementals",
+              "mountain_spirits",
+              "geological_entities",
+              "stability_forces"
+            ],
+            "characteristics": [
+              "infinite_stone",
+              "enduring_power",
+              "geological_mastery",
+              "foundation_strength"
+            ],
+            "divine_properties": {
+              "earth_mastery": "control_over_geological_forces",
+              "foundation_power": "strength_and_stability",
+              "endurance_grant": "infinite_persistence",
+              "geological_transformation": "earth_reshaping_ability"
+            }
+          },
+          "celestial_wind_realm": {
+            "description": "Domain of divine air and freedom",
+            "inhabitants": [
+              "air_elementals",
+              "wind_spirits",
+              "storm_entities",
+              "freedom_forces"
+            ],
+            "characteristics": [
+              "endless_skies",
+              "wind_power",
+              "freedom_energy",
+              "atmospheric_mastery"
+            ],
+            "divine_properties": {
+              "wind_mastery": "control_over_air_currents",
+              "freedom_grant": "liberty_and_independence",
+              "storm_power": "weather_and_atmospheric_control",
+              "aerial_transcendence": "overcoming_gravity_and_limits"
+            }
+          }
+        }
+      },
+      "chaos_planes": {
+        "description": "Realms of chaos and change",
+        "subcategories": {
+          "entropy_realm": {
+            "description": "Domain of chaotic change and transformation",
+            "inhabitants": [
+              "chaos_spirits",
+              "transformation_entities",
+              "change_agents",
+              "entropy_forces"
+            ],
+            "characteristics": [
+              "constant_transformation",
+              "unpredictable_environment",
+              "entropy_energy",
+              "radical_change"
+            ],
+            "divine_properties": {
+              "chaos_mastery": "control_over_randomness",
+              "transformation_power": "change_and_metamorphosis",
+              "entropy_manipulation": "decay_and_renewal_control",
+              "freedom_transcendence": "escape_from_all_constraints"
+            }
+          }
+        }
+      },
+      "void_planes": {
+        "description": "Realms of absence and forgotten things",
+        "subcategories": {
+          "forgotten_realm": {
+            "description": "Domain of lost and forgotten knowledge",
+            "inhabitants": [
+              "void_spirits",
+              "forgotten_souls",
+              "absence_entities",
+              "oblivion_forces"
+            ],
+            "characteristics": [
+              "nothingness",
+              "lost_memories",
+              "absence_power",
+              "forgotten_wisdom"
+            ],
+            "divine_properties": {
+              "forgotten_knowledge": "access_to_lost_information",
+              "absence_mastery": "power_through_nothingness",
+              "oblivion_control": "command_over_forgetting",
+              "void_transcendence": "escape_from_existence_itself"
+            }
+          }
+        }
+      }
+    },
+    "location_access_mechanics": {
+      "teleportation_system": {
+        "divine_portals": {
+          "description": "Permanent portals connecting sacred sites",
+          "creation_requirements": [
+            "cosmic_authorization",
+            "reality_anchoring",
+            "divine_essence",
+            "portal_maintenance"
+          ],
+          "access_requirements": [
+            "divine_permission",
+            "faith_tier_minimum",
+            "suitable_alignment",
+            "worthy_motivation"
+          ],
+          "portal_types": {
+            "one_way_portal": {
+              "description": "Portal with single destination",
+              "maintenance": "low",
+              "security": "high",
+              "cost": "moderate"
+            },
+            "bidirectional_portal": {
+              "description": "Two-way connection between sites",
+              "maintenance": "high",
+              "security": "extreme",
+              "cost": "major"
+            },
+            "network_portal": {
+              "description": "Connects to portal network",
+              "maintenance": "extreme",
+              "security": "maximum",
+              "cost": "cosmic"
+            }
+          }
+        },
+        "divine_travel": {
+          "description": "Direct divine transportation",
+          "methods": {
+            "divine_intervention": {
+              "description": "Deity personally transports worthy individual",
+              "requirements": [
+                "extreme_worthiness",
+                "divine_favor",
+                "cosmic_necessity"
+              ],
+              "cost": "major_divine_energy",
+              "destination": "any_divine_realm"
+            },
+            "angelic_transport": {
+              "description": "Divine messengers provide transportation",
+              "requirements": [
+                "worthy_mission",
+                "angelic_permission",
+                "safe_travel_purpose"
+              ],
+              "cost": "moderate_divine_energy",
+              "destination": "angelic_realm_or_sacred_site"
+            },
+            "divine_vehicle": {
+              "description": "Using divine transportation methods",
+              "requirements": [
+                "divine_item",
+                "appropriate_training",
+                "divine_permission"
+              ],
+              "cost": "variable_divine_energy",
+              "destination": "within_transportation_range"
+            }
+          }
+        }
+      },
+      "access_requirements": {
+        "faith_requirements": {
+          "curious_seeker": {
+            "access_level": "basic_shrines",
+            "divine_communication": "minimal",
+            "energy_cost": "standard"
+          },
+          "devoted_believer": {
+            "access_level": "community_temples",
+            "divine_communication": "basic",
+            "energy_cost": "discounted"
+          },
+          "fervent_devotee": {
+            "access_level": "great_temples",
+            "divine_communication": "enhanced",
+            "energy_cost": "significant_discount"
+          },
+          "zealous_saint": {
+            "access_level": "divine_realms",
+            "divine_communication": "direct",
+            "energy_cost": "minimal"
+          },
+          "canonized_being": {
+            "access_level": "all_locations",
+            "divine_communication": "universal",
+            "energy_cost": "none"
+          }
+        },
+        "alignment_compatibility": {
+          "perfect_alignment": {
+            "access_bonus": "full_access",
+            "divine_favor": "maximum",
+            "safety_rating": "maximum"
+          },
+          "compatible_alignment": {
+            "access_bonus": "most_locations",
+            "divine_favor": "high",
+            "safety_rating": "high"
+          },
+          "neutral_alignment": {
+            "access_bonus": "basic_locations",
+            "divine_favor": "moderate",
+            "safety_rating": "moderate"
+          },
+          "conflicted_alignment": {
+            "access_bonus": "limited_locations",
+            "divine_favor": "low",
+            "safety_rating": "low"
+          },
+          "opposed_alignment": {
+            "access_bonus": "denied_access",
+            "divine_favor": "hostile",
+            "safety_rating": "dangerous"
+          }
+        },
+        "special_access": {
+          "mission_based": {
+            "description": "Access granted for specific divine missions",
+            "requirements": [
+              "divine_mission",
+              "worthy_purpose",
+              "temporal_permission"
+            ],
+            "duration": "mission_completion",
+            "scope": "mission_related_locations"
+          },
+          "pilgrimage_rights": {
+            "description": "Temporary access for religious pilgrimages",
+            "requirements": [
+              "pilgrimage_purpose",
+              "community_sponsorship",
+              "sacred_intent"
+            ],
+            "duration": "pilgrimage_duration",
+            "scope": "pilgrimage_route_locations"
+          },
+          "emergency_access": {
+            "description": "Crisis-based access for urgent situations",
+            "requirements": [
+              "genuine_emergency",
+              "life_threat",
+              "divine_recognition"
+            ],
+            "duration": "emergency_resolution",
+            "scope": "nearest_suitable_location"
+          }
+        }
+      },
+      "location_maintenance": {
+        "daily_blessing": {
+          "description": "Regular divine energy to maintain location power",
+          "cost": "10-50 divine energy",
+          "frequency": "daily",
+          "effect": "maintains_current_power_level"
+        },
+        "periodic_ceremony": {
+          "description": "Major ceremonies to restore and enhance location",
+          "cost": "100-500 divine energy",
+          "frequency": "weekly/monthly",
+          "effect": "enhances_power_and_facilities"
+        },
+        "annual_consecration": {
+          "description": "Grand ceremony to renew divine covenant",
+          "cost": "1000-5000 divine energy",
+          "frequency": "annually",
+          "effect": "full_restoration_and_upgrade"
+        },
+        "community_contribution": {
+          "description": "Worshippers help maintain sacred sites",
+          "cost": "worshipper_time_and_energy",
+          "frequency": "ongoing",
+          "effect": "reduces_divine_energy_costs"
+        }
+      }
+    },
+    "location_effects": {
+      "blessing_effects": {
+        "healing_aura": {
+          "description": "Location continuously heals visitors",
+          "effect": "1-10 HP per hour depending on location power",
+          "range": "location_boundary",
+          "duration": "continuous",
+          "energy_cost": "minimal"
+        },
+        "divine_communication": {
+          "description": "Enhanced ability to communicate with divine beings",
+          "effect": "Prophetic visions, divine guidance, deity contact",
+          "requirements": "sincere_prayer_and_faith",
+          "frequency": "multiple_daily_attempts"
+        },
+        "spell_enhancement": {
+          "description": "Divine spells cast at location are more powerful",
+          "effect": "+1 to +3 spell levels, reduced energy costs",
+          "energy_type": "applies_to_all_divine_spells",
+          "alignment": "enhanced_for_compatible_alignments"
+        },
+        "alignment_guidance": {
+          "description": "Location helps align visitors with divine will",
+          "effect": "gradual_alignment_improvement",
+          "method": "subtle_influence_and_gentle_guidance",
+          "frequency": "continuous_exposure"
+        }
+      },
+      "protection_effects": {
+        "holy_barrier": {
+          "description": "Location protected by divine barriers",
+          "effect": "immunity_to_evil_influence, corruption protection",
+          "strength": "scales_with_location_power",
+          "duration": "location_continues_to_exist"
+        },
+        "sanctuary_zone": {
+          "description": "Area of divine protection and peace",
+          "effect": "no_violence, healing_focus, conflict_resolution",
+          "enforcement": "divine_authority",
+          "violation_consequences": "divine_displeasure"
+        },
+        "corruption_cleansing": {
+          "description": "Location purifies corruption and evil",
+          "effect": "removes_curses, purifies_items, cleanses_souls",
+          "speed": "gradual_over_time",
+          "intensity": "location_power_dependent"
+        }
+      },
+      "power_effects": {
+        "divine_energy_amplification": {
+          "description": "Location amplifies divine energy use",
+          "effect": "50-200% efficiency boost",
+          "application": "all_divine_abilities",
+          "limitation": "based_on_visitor_faith_tier"
+        },
+        "miracle_facilitation": {
+          "description": "Location makes miracles more likely",
+          "effect": "increased_miracle_success_rate",
+          "requirements": "worthy_purpose_and_sufficient_faith",
+          "energy_source": "location_divine_energy_reserves"
+        },
+        "transcendence_aid": {
+          "description": "Location assists in spiritual transcendence",
+          "effect": "accelerated_faith_development",
+          "method": "cosmic_awareness_and_wisdom_impartation",
+          "risk": "overwhelming_knowledge_for_unprepared_minds"
+        }
+      }
+    },
+    "location_economy": {
+      "temple_economics": {
+        "income_sources": {
+          "worship_donations": {
+            "description": "Voluntary offerings from worshippers",
+            "typical_amount": "1-10% of income",
+            "frequency": "daily",
+            "factors": [
+              "worshipper_wealth",
+              "devotion_level",
+              "location_attractiveness"
+            ]
+          },
+          "ritual_fees": {
+            "description": "Charges for special ceremonies and services",
+            "types": [
+              "wedding_ceremonies",
+              "funeral_services",
+              "blessing_rituals",
+              "healing_ceremonies"
+            ],
+            "pricing": "based_on_ceremony_complexity",
+            "profit_margin": "50-100%"
+          },
+          "pilgrimage_revenue": {
+            "description": "Income from pilgrims and tourists",
+            "sources": [
+              "accommodation_fees",
+              "souvenir_sales",
+              "guided_tours",
+              "donations"
+            ],
+            "seasonal_variation": "high_during_holy_days",
+            "community_benefit": "economic_boost_for_local_area"
+          },
+          "divine_endorsements": {
+            "description": "Funding from divine beings and higher authorities",
+            "amount": "major_funding_source",
+            "requirements": [
+              "demonstrated_faith",
+              "worthy_service",
+              "divine_approval"
+            ],
+            "accountability": "strict_oversight_and_reporting"
+          }
+        },
+        "operational_costs": {
+          "staff_salaries": {
+            "description": "Payment for temple personnel",
+            "components": [
+              "priest_salaries",
+              "maintenance_staff",
+              "security_guards"
+            ],
+            "funding_sources": [
+              "worship_donations",
+              "ritual_fees",
+              "divine_grants"
+            ]
+          },
+          "maintenance_expenses": {
+            "description": "Upkeep of temple facilities",
+            "components": [
+              "building_repair",
+              "equipment_maintenance",
+              "divine_energy_costs",
+              "security_systems"
+            ],
+            "priority": "essential_for_operations"
+          },
+          "community_service": {
+            "description": "Free services provided to community",
+            "services": [
+              "free_healing",
+              "counseling",
+              "educational_programs",
+              "emergency_aid"
+            ],
+            "funding": "budgeted_from_general_income"
+          }
+        }
+      },
+      "sacred_trade": {
+        "divine_commerce": {
+          "description": "Trade in sacred items and services",
+          "participants": [
+            "temple_merchants",
+            "pilgrim_traders",
+            "divine_artisans",
+            "holy_craftsmen"
+          ],
+          "goods": [
+            "blessed_items",
+            "sacred_artifacts",
+            "religious_supplies",
+            "pilgrim_necessities"
+          ],
+          "regulations": [
+            "divine_authority_oversight",
+            "ethical_trading_standards",
+            "fair_pricing_requirements"
+          ]
+        },
+        "pilgrimage_economy": {
+          "description": "Economic activity around pilgrimage routes",
+          "participants": [
+            "local_merchants",
+            "pilgrim_services",
+            "hospitality_providers",
+            "souvenir_vendors"
+          ],
+          "services": [
+            "accommodation",
+            "food_services",
+            "transportation",
+            "guide_services"
+          ],
+          "seasonal_patterns": "peak_during_holy_days_and_special_events"
+        }
+      },
+      "investment_and_development": {
+        "temple_expansion": {
+          "description": "Funding for temple growth and improvement",
+          "sources": [
+            "major_donations",
+            "divine_grants",
+            "community_fundraising",
+            "pilgrimage_revenue"
+          ],
+          "projects": [
+            "new_wings",
+            "improved_facilities",
+            "enhanced_security",
+            "expanded_services"
+          ],
+          "approval_process": "requires_divine_and_community_approval"
+        },
+        "infrastructure_development": {
+          "description": "Development of supporting infrastructure",
+          "projects": [
+            "access_roads",
+            "communication_systems",
+            "emergency_services",
+            "educational_facilities"
+          ],
+          "funding": "mixed_public_private_divine_partnership",
+          "community_benefit": "improves_quality_of_life_for_all"
+        }
+      }
+    },
+    "location_security": {
+      "defensive_systems": {
+        "physical_security": {
+          "perimeter_defenses": {
+            "description": "Physical barriers and fortifications",
+            "components": [
+              "walls",
+              "gates",
+              "towers",
+              "barriers"
+            ],
+            "enhancements": [
+              "divine_warding",
+              "magical_barriers",
+              "automated_systems"
+            ]
+          },
+          "internal_security": {
+            "description": "Security within the location",
+            "measures": [
+              "guard_patrols",
+              "surveillance_systems",
+              "access_control",
+              "emergency_protocols"
+            ],
+            "special_forces": [
+              "divine_guards",
+              "celestial_sentinels",
+              "sacred_warriors"
+            ]
+          }
+        },
+        "divine_security": {
+          "blessed_defenses": {
+            "description": "Divine-powered protection systems",
+            "effects": [
+              "corruption_detection",
+              "evil_repulsion",
+              "sanctity_preservation"
+            ],
+            "activation": "automatic_based_on_threat_level"
+          },
+          "reality_barriers": {
+            "description": "Barriers that affect reality itself",
+            "effects": [
+              "space_distortion",
+              "time_dilation",
+              "dimension_shifting"
+            ],
+            "applications": [
+              "threat_isolation",
+              "escape_prevention",
+              "safe_zone_creation"
+            ]
+          }
+        }
+      },
+      "threat_response": {
+        "intruder_detection": {
+          "description": "Systems to detect unauthorized presence",
+          "methods": [
+            "divine_sensing",
+            "spatial_awareness",
+            "alignment_scanning",
+            "intention_analysis"
+          ],
+          "response_levels": [
+            "alert",
+            "warning",
+            "containment",
+            "elimination"
+          ]
+        },
+        "emergency_protocols": {
+          "description": "Procedures for various emergency situations",
+          "types": [
+            "invasion_response",
+            "corruption_containment",
+            "evacuation_procedures",
+            "divine_intervention_requests"
+          ],
+          "activation": "automatic_or_manual_by_authorized_personnel"
+        }
+      },
+      "recovery_procedures": {
+        "damage_assessment": {
+          "description": "Evaluation of damage to sacred sites",
+          "assessors": [
+            "divine_inspectors",
+            "sacred_engineers",
+            "faithful_evaluators"
+          ],
+          "report_to": [
+            "temple_authority",
+            "divine_hierarchy",
+            "community_leadership"
+          ]
+        },
+        "restoration_procedures": {
+          "description": "Repair and restoration of damaged locations",
+          "resources": [
+            "divine_energy",
+            "sacred_materials",
+            "skilled_craftsmen",
+            "community_volunteers"
+          ],
+          "funding": "divine_grants, community_contributions, special_collections"
+        }
+      }
+    }
+  },
+  "id": "sacred_locations_divine_realms",
+  "name": "Sacred Locations Divine Realms",
+  "template_type": "divine_system",
+  "version": "0.1.0"
+}

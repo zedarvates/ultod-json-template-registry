@@ -1,0 +1,87 @@
+{
+  "id": "enchantment_spell_0448",
+  "name": "Enchantment Spell 0448",
+  "description": "Invoque un élémentaire puissant pour combattre aux côtés de l'enchanteur",
+  "icon": "enchantment_spell_0448_icon",
+  "school": "enchantment",
+  "rarity": "rare",
+  "spell_type": "planar_servant_evocation",
+  "target_type": "enchantment_spell_0448_at_location",
+  "range": 30.0,
+  "cast_time": 3000,
+  "cooldown": 45000,
+  "mana_cost": 100,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "elemental_enchantment_spell_0448_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "planar_entity_manifestation",
+      "value": 350,
+      "duration": 60000,
+      "tick_rate": 0,
+      "elemental_type_random": [
+        "fire",
+        "water",
+        "earth",
+        "air"
+      ],
+      "elemental_health": 600,
+      "elemental_damage": 120,
+      "elemental_abilities": [
+        "basic_attack",
+        "elemental_burst"
+      ],
+      "summon_control_range": 50.0,
+      "planar_return_cost": 50,
+      "elemental_loyalty_fanatic": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "planar_portal_rift_tearing_open",
+    "summon_effect": "elemental_form_emerging_powerful_energy",
+    "active_effect": "elemental_form_glowing_elemental_colors",
+    "banish_effect": "elemental_dissolving_planar_portal_suction"
+  },
+  "sound_effects": {
+    "cast_sound": "planar_rift_tearing_reality_crackling",
+    "summon_effect": "elemental_emergence_elemental_battle_cry",
+    "active_effect": "elemental_presence_elemental_movement",
+    "banish_effect": "planar_suction_elemental_banishment_call"
+  },
+  "requirements": {
+    "level": 35,
+    "skills": [
+      "arcane_magic",
+      "planar_enchantment_spell_0448ing"
+    ],
+    "classes": [
+      "enchanter",
+      "elemental_lord"
+    ],
+    "specializations": [
+      "planar_invoker"
+    ]
+  },
+  "upgrades": {
+    "elemental_mastery": {
+      "unlock_level": 45,
+      "description": "Contrôle parfait des élémentaires avec des capacités spécialisées par élément",
+      "elemental_specialization": true,
+      "dual_elemental_summon": false,
+      "elemental_health_increase": 300,
+      "planar_command_upgrades": true
+    },
+    "elemental_legion": {
+      "unlock_level": 55,
+      "description": "Peut invoquer plusieurs élémentaires simultanément avec synchronisation",
+      "multi_elemental_formation": 4,
+      "elemental_coordination": true,
+      "combined_elemental_power": 2.5,
+      "planar_dominion_expansion": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

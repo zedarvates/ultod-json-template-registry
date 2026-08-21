@@ -1,0 +1,259 @@
+{
+  "id": "blacksmith",
+  "name": "Blacksmith",
+  "description": "Master craftsman forging weapons, armor, and tools with ancient techniques",
+  "icon": "npcs/blacksmith_icon.png",
+  "category": "merchant",
+  "awareness": {
+    "enabled": true,
+    "cognitive_level": "summary",
+    "initial_lod": "distant",
+    "initial_yaw_radians": 0.0,
+    "senses": {
+      "vision_range": 15.0,
+      "hearing_range": 10.0,
+      "tactile_sensitivity": 0.9
+    },
+    "attention": {
+      "capacity": 5,
+      "max_visual_candidates": 16,
+      "max_occlusion_rays": 4
+    },
+    "values": {
+      "nonviolence": 0.6,
+      "fairness": 0.8,
+      "loyalty": 0.6,
+      "honor": 0.9,
+      "compassion": 0.5,
+      "reciprocity": 0.8
+    },
+    "personal_norms": {
+      "property_rights": 0.9,
+      "nonviolence": 0.6,
+      "anti_coercion": 0.8,
+      "dignity": 0.9,
+      "reciprocity": 0.8
+    },
+    "initial_goals": {
+      "self_preservation": 0.8,
+      "possessions": 0.9,
+      "social_standing": 0.9,
+      "protect_others": 0.4,
+      "preserve_order": 0.7,
+      "affiliation": 0.7
+    },
+    "reaction_policy": {
+      "threat_response": "seek_guard",
+      "may_defend": true,
+      "may_retaliate": false
+    }
+  },
+  "rarity": "common",
+  "npc_type": "specialized_merchant",
+  "base_stats": {
+    "level": 12,
+    "hp": 150,
+    "max_hp": 150,
+    "mana": 30,
+    "max_mana": 30,
+    "strength": 16,
+    "dexterity": 12,
+    "intelligence": 14,
+    "wisdom": 13,
+    "constitution": 14,
+    "charisma": 11,
+    "speed": 0.8,
+    "size": 1.0,
+    "weight": 90.0
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_flying": false,
+    "is_aquatic": false,
+    "is_undead": false,
+    "is_elemental": false,
+    "is_mechanical": false,
+    "is_magical": false,
+    "is_divine": false,
+    "is_fiendish": false,
+    "is_wild": false,
+    "is_tameable": false,
+    "is_summonable": false,
+    "is_soulbound": false,
+    "is_cursed": false,
+    "is_blessed": false,
+    "is_poisoned": false,
+    "is_paralyzed": false,
+    "is_silenced": false,
+    "is_blinded": false,
+    "is_deafened": false,
+    "is_charmed": false,
+    "is_frightened": false,
+    "is_confused": false,
+    "is_stunned": false,
+    "is_sleeping": false,
+    "is_invisible": false,
+    "is_invulnerable": false,
+    "is_immortal": false,
+    "is_unique": false,
+    "is_boss": false,
+    "is_mini_boss": false,
+    "is_elite": false,
+    "is_rare": false,
+    "is_common": true,
+    "is_uncommon": false,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "loot_table": {
+    "gold": {
+      "min": 25,
+      "max": 150
+    },
+    "items": [
+      {
+        "item_id": "iron_ingot",
+        "chance": 0.4,
+        "min_quantity": 1,
+        "max_quantity": 5
+      },
+      {
+        "item_id": "blacksmith_hammer",
+        "chance": 0.2,
+        "min_quantity": 1,
+        "max_quantity": 1
+      },
+      {
+        "item_id": "smith_potion",
+        "chance": 0.3,
+        "min_quantity": 1,
+        "max_quantity": 2
+      }
+    ]
+  },
+  "ai_behavior": {
+    "wander_chance": 0.02,
+    "wander_range": 3.0,
+    "max_targets": 1,
+    "combat_style": "passive",
+    "preferred_attack": "forge_hammer",
+    "patrol_route": [
+      "forge",
+      "storage",
+      "forge"
+    ],
+    "response_to_crime": "flee",
+    "ally_detection": "town_residents"
+  },
+  "abilities": [
+    "weapon_forging",
+    "armor_crafting",
+    "tool_creation",
+    "metal_refining"
+  ],
+  "dialogue": {
+    "greetings": [
+      "Welcome to my forge! What can I hammer into shape for you?",
+      "Fine steel makes fine weapons. What do you need?",
+      "The forge never rests, nor do I. What brings you here?"
+    ],
+    "farewells": [
+      "May your blade stay sharp.",
+      "Come back when you need more steel.",
+      "The forge awaits your return."
+    ],
+    "bargain_success": [
+      "A fair trade for quality work!",
+      "You know good craftsmanship when you see it."
+    ],
+    "no_gold": [
+      "Gold talks, friend. Come back when you have some.",
+      "No gold, no goods. It's the blacksmith's way."
+    ],
+    "repair_services": [
+      "Your armor looks worse for wear. I can fix it for a price.",
+      "That weapon needs tending. Let me see to it.",
+      "Even the best gear needs maintenance."
+    ]
+  },
+  "shop_inventory": {
+    "weapons": [
+      "iron_sword",
+      "steel_dagger",
+      "war_mace",
+      "battle_axe",
+      "longsword",
+      "short_sword",
+      "rapier",
+      "claymore"
+    ],
+    "armor": [
+      "iron_helmet",
+      "iron_chainmail",
+      "iron_greaves",
+      "iron_gauntlets",
+      "steel_shield",
+      "iron_shield",
+      "buckler",
+      "kite_shield"
+    ],
+    "tools": [
+      "smith_hammer",
+      "tongs",
+      "anvil",
+      "forge_hammer",
+      "metal_filing_tool",
+      "quench_barrel"
+    ],
+    "materials": [
+      "iron_ingot",
+      "steel_ingot",
+      "coal",
+      "iron_ore",
+      "steel_ore",
+      "gold_ingot",
+      "silver_ingot"
+    ],
+    "consumables": [
+      "smith_potion",
+      "repair_kit",
+      "blacksmith_scroll"
+    ]
+  },
+  "services": {
+    "buy_items": true,
+    "sell_items": true,
+    "repair_equipment": true,
+    "identify_items": false,
+    "appraisal_service": true,
+    "custom_crafting": true,
+    "enhancement_services": true
+  },
+  "schedule": {
+    "day": {
+      "05:00": "light_forge",
+      "06:00": "begin_work",
+      "12:00": "lunch_break",
+      "13:00": "resume_work",
+      "18:00": "end_work",
+      "19:00": "dinner"
+    },
+    "night": {
+      "19:00": "rest",
+      "22:00": "sleep",
+      "04:00": "wake_up"
+    }
+  },
+  "resistances": {
+    "physical": 0.1,
+    "fire": 0.3,
+    "ice": 0.0,
+    "lightning": 0.0,
+    "poison": 0.0
+  },
+  "weaknesses": [
+    "cold"
+  ],
+  "version": "0.1.0",
+  "template_type": "npc"
+}

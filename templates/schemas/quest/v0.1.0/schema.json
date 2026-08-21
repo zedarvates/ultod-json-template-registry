@@ -39,7 +39,6 @@
       "type": "object",
       "required": [
         "enabled",
-        "debug_mode",
         "log_level"
       ],
       "properties": {
@@ -47,14 +46,9 @@
           "type": "boolean",
           "description": "Whether the system is enabled"
         },
-        "debug_mode": {
-          "type": "boolean",
-          "description": "Whether debug mode is enabled"
-        },
         "log_level": {
           "type": "string",
           "enum": [
-            "debug",
             "info",
             "warn",
             "error"

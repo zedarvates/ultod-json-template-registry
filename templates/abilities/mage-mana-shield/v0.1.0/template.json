@@ -1,0 +1,67 @@
+{
+  "id": "mage_mana_shield",
+  "name": "Bouclier de Mana",
+  "description": "Crée un bouclier magique qui absorbe les dégâts avec du mana",
+  "icon": "mana_shield_icon",
+  "category": "support",
+  "rarity": "uncommon",
+  "ability_type": "buff",
+  "target_type": "single_ally",
+  "range": 15.0,
+  "cast_time": 1500,
+  "cooldown": 25000,
+  "resource_cost": {
+    "type": "mana",
+    "amount": 60
+  },
+  "duration": 20000,
+  "effects": [
+    {
+      "effect_type": "damage_absorption",
+      "value": 200,
+      "scaling": {
+        "intelligence": 1.5
+      }
+    },
+    {
+      "effect_type": "mana_shield",
+      "value": 2.0,
+      "scaling": {
+        "wisdom": 0.5
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "mana_weaving",
+    "active_effect": "mana_barrier",
+    "end_effect": "shield_shatter"
+  },
+  "sound_effects": {
+    "cast_sound": "mana_hum",
+    "active_sound": "barrier_hum",
+    "end_sound": "shield_break"
+  },
+  "requirements": {
+    "level": 12,
+    "class": "mage",
+    "skills": [
+      "mana_shield"
+    ]
+  },
+  "upgrades": {
+    "reinforced_barrier": {
+      "unlock_level": 25,
+      "description": "Augmente l'absorption de dégâts",
+      "absorption_bonus": 100,
+      "mana_efficiency": 1.2
+    },
+    "arcane_reflection": {
+      "unlock_level": 40,
+      "description": "Renvoie une partie des dégâts",
+      "reflection_percentage": 25,
+      "reflection_damage": 0.5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

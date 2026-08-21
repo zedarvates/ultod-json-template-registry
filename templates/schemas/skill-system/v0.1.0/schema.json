@@ -466,29 +466,6 @@
         }
       }
     },
-    "admin_controls": {
-      "type": "object",
-      "properties": {
-        "enabled": {
-          "type": "boolean",
-          "default": true
-        },
-        "admin_only": {
-          "type": "boolean",
-          "default": false
-        },
-        "debug_mode": {
-          "type": "boolean",
-          "default": false
-        },
-        "balancing_multipliers": {
-          "type": "object",
-          "additionalProperties": {
-            "type": "number"
-          }
-        }
-      }
-    },
     "version": {
       "type": "string"
     },

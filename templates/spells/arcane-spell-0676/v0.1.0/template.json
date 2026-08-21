@@ -1,0 +1,74 @@
+{
+  "id": "arcane_spell_0676",
+  "name": "Arcane Spell 0676",
+  "description": "Tire une flèche chargée d'énergie arcane_spell_0676 qui traverse les ennemis",
+  "icon": "arcane_spell_0676_spell_0676_icon",
+  "school": "arcane_spell_0676",
+  "rarity": "uncommon",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 35.0,
+  "cast_time": 0,
+  "cooldown": 6000,
+  "mana_cost": 25,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "arcane_spell_0676",
+    "scaling": {
+      "agility": 0.8,
+      "intelligence": 0.7
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 120,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "pierce_damage",
+      "value": 80,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "max_targets": 2
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "arcane_spell_0676_arrow_charge",
+    "projectile_effect": "glowing_arcane_spell_0676_arrow",
+    "impact_effect": "arcane_spell_0676_explosion"
+  },
+  "sound_effects": {
+    "cast_sound": "arcane_spell_0676_charge",
+    "projectile_sound": "arcane_spell_0676_whistle",
+    "impact_sound": "arcane_spell_0676_burst"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [],
+    "classes": [
+      "hunter",
+      "ranger"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_arcane_shot": {
+      "unlock_level": 16,
+      "description": "arcane_spell_0676 Spell 0676 traverse plus d'ennemis et inflige plus de dégâts",
+      "pierce_targets_bonus": 1,
+      "damage_bonus": 60
+    },
+    "arcane_shot_mastery": {
+      "unlock_level": 26,
+      "description": "arcane_spell_0676 Spell 0676 peut étourdir les ennemis touchés",
+      "stun_chance": 0.2,
+      "stun_duration": 2000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

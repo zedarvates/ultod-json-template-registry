@@ -1,0 +1,256 @@
+{
+  "id": "baker",
+  "name": "Baker",
+  "description": "Skilled artisan creating fresh bread, pastries, and food for the townsfolk",
+  "icon": "npcs/baker_icon.png",
+  "category": "merchant",
+  "awareness": {
+    "enabled": true,
+    "cognitive_level": "summary",
+    "initial_lod": "distant",
+    "initial_yaw_radians": 0.0,
+    "senses": {
+      "vision_range": 12.0,
+      "hearing_range": 10.0,
+      "tactile_sensitivity": 0.7
+    },
+    "attention": {
+      "capacity": 4,
+      "max_visual_candidates": 12,
+      "max_occlusion_rays": 3
+    },
+    "values": {
+      "nonviolence": 0.9,
+      "fairness": 0.7,
+      "loyalty": 0.6,
+      "honor": 0.6,
+      "compassion": 0.8,
+      "reciprocity": 0.9
+    },
+    "personal_norms": {
+      "property_rights": 0.8,
+      "nonviolence": 0.9,
+      "anti_coercion": 0.8,
+      "dignity": 0.8,
+      "reciprocity": 0.9
+    },
+    "initial_goals": {
+      "self_preservation": 0.7,
+      "possessions": 0.7,
+      "social_standing": 0.8,
+      "protect_others": 0.4,
+      "preserve_order": 0.6,
+      "affiliation": 0.9
+    },
+    "reaction_policy": {
+      "threat_response": "seek_guard",
+      "may_defend": false,
+      "may_retaliate": false
+    }
+  },
+  "rarity": "common",
+  "npc_type": "specialized_merchant",
+  "base_stats": {
+    "level": 8,
+    "hp": 100,
+    "max_hp": 100,
+    "mana": 25,
+    "max_mana": 25,
+    "strength": 10,
+    "dexterity": 15,
+    "intelligence": 12,
+    "wisdom": 11,
+    "constitution": 12,
+    "charisma": 14,
+    "speed": 0.9,
+    "size": 0.9,
+    "weight": 70.0
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_flying": false,
+    "is_aquatic": false,
+    "is_undead": false,
+    "is_elemental": false,
+    "is_mechanical": false,
+    "is_magical": false,
+    "is_divine": false,
+    "is_fiendish": false,
+    "is_wild": false,
+    "is_tameable": false,
+    "is_summonable": false,
+    "is_soulbound": false,
+    "is_cursed": false,
+    "is_blessed": false,
+    "is_poisoned": false,
+    "is_paralyzed": false,
+    "is_silenced": false,
+    "is_blinded": false,
+    "is_deafened": false,
+    "is_charmed": false,
+    "is_frightened": false,
+    "is_confused": false,
+    "is_stunned": false,
+    "is_sleeping": false,
+    "is_invisible": false,
+    "is_invulnerable": false,
+    "is_immortal": false,
+    "is_unique": false,
+    "is_boss": false,
+    "is_mini_boss": false,
+    "is_elite": false,
+    "is_rare": false,
+    "is_common": true,
+    "is_uncommon": false,
+    "is_legendary": false,
+    "is_mythical": false
+  },
+  "loot_table": {
+    "gold": {
+      "min": 15,
+      "max": 75
+    },
+    "items": [
+      {
+        "item_id": "flour_sack",
+        "chance": 0.5,
+        "min_quantity": 1,
+        "max_quantity": 3
+      },
+      {
+        "item_id": "baker_rolling_pin",
+        "chance": 0.3,
+        "min_quantity": 1,
+        "max_quantity": 1
+      },
+      {
+        "item_id": "sweet_roll",
+        "chance": 0.4,
+        "min_quantity": 1,
+        "max_quantity": 2
+      }
+    ]
+  },
+  "ai_behavior": {
+    "wander_chance": 0.05,
+    "wander_range": 2.0,
+    "max_targets": 1,
+    "combat_style": "passive",
+    "preferred_attack": "rolling_pin_whack",
+    "patrol_route": [
+      "kitchen",
+      "oven",
+      "shop_counter",
+      "storage"
+    ],
+    "response_to_crime": "flee",
+    "ally_detection": "town_residents"
+  },
+  "abilities": [
+    "bread_baking",
+    "pastry_making",
+    "cooking",
+    "food_preservation"
+  ],
+  "dialogue": {
+    "greetings": [
+      "Fresh bread! The aroma of success!",
+      "Welcome to my bakery! What shall I bake for you?",
+      "Come in, come in! Hot bread right out of the oven!"
+    ],
+    "farewells": [
+      "Come back when you need more bread!",
+      "May your stomach always be full!",
+      "Business has been good today, thanks!"
+    ],
+    "bargain_success": [
+      "You drive a hard bargain, but that's good bread!",
+      "Fair trade for fresh pastries!"
+    ],
+    "no_gold": [
+      "No gold, no bread, I'm afraid. Business is business.",
+      "Perhaps you can pay in grain instead?"
+    ],
+    "daily_specials": [
+      "Today's special: Honey wheat bread!",
+      "Fresh apple turnovers, still warm!",
+      "Don't miss my famous meat pies!"
+    ]
+  },
+  "shop_inventory": {
+    "bread": [
+      "white_bread",
+      "brown_bread",
+      "wheat_bread",
+      "rye_bread",
+      "sweet_bread",
+      "herb_bread",
+      "grain_bread"
+    ],
+    "pastries": [
+      "sweet_roll",
+      "apple_turnover",
+      "meat_pie",
+      "fruit_tart",
+      "honey_cake",
+      "berry_muffin",
+      "cinnamon_bun"
+    ],
+    "ingredients": [
+      "flour_sack",
+      "yeast",
+      "honey_jar",
+      "salt_container",
+      "spice_mix",
+      "sugar_sack",
+      "butter_roll"
+    ],
+    "cooked_meals": [
+      "baked_fish",
+      "roasted_meat",
+      "vegetable_stew",
+      "fish_soup",
+      "meat_soup",
+      "bread_soup"
+    ]
+  },
+  "services": {
+    "buy_items": true,
+    "sell_items": true,
+    "repair_equipment": false,
+    "identify_items": false,
+    "appraisal_service": false,
+    "custom_crafting": true,
+    "catering_services": true,
+    "food_storage": true
+  },
+  "schedule": {
+    "day": {
+      "04:00": "prepare_ingredients",
+      "05:00": "begin_baking",
+      "07:00": "shop_opens",
+      "12:00": "lunch_prep",
+      "15:00": "afternoon_baking",
+      "18:00": "shop_closes",
+      "20:00": "clean_up"
+    },
+    "night": {
+      "20:00": "rest",
+      "22:00": "sleep",
+      "03:00": "wake_up"
+    }
+  },
+  "resistances": {
+    "physical": 0.0,
+    "fire": 0.1,
+    "ice": 0.0,
+    "lightning": 0.0,
+    "poison": 0.0
+  },
+  "weaknesses": [
+    "lightning",
+    "cold"
+  ],
+  "version": "0.1.0",
+  "template_type": "npc"
+}

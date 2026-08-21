@@ -1,0 +1,54 @@
+{
+  "id": "animal_creature_0106",
+  "name": "Animal Creature 0106",
+  "description": "Animal domestique glouton qui fournit de la viande et fouille le sol",
+  "icon": "animal_creature_0106_icon",
+  "category": "animal",
+  "rarity": "common",
+  "base_stats": {
+    "health": 100,
+    "mana": 20,
+    "strength": 20,
+    "dexterity": 10,
+    "intelligence": 5,
+    "wisdom": 10,
+    "constitution": 25,
+    "charisma": 15
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_wild": false,
+    "size": "medium",
+    "speed": 6.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "pork",
+      "animal_creature_0106_hide"
+    ],
+    "rare_drops": [
+      "animal_creature_0106_trotter"
+    ],
+    "epic_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "none",
+    "attack_pattern": "defensive_charge",
+    "special_abilities": [
+      "root",
+      "produce_bacon"
+    ]
+  },
+  "abilities": [
+    "headbutt",
+    "root"
+  ],
+  "resistances": {
+    "physical": 20
+  },
+  "weaknesses": [
+    "predators"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

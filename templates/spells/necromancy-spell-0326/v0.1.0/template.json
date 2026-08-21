@@ -1,0 +1,80 @@
+{
+  "id": "necromancy_spell_0326",
+  "name": "Necromancy Spell 0326",
+  "description": "Corrompt une zone avec de l'énergie impie, drenant la vie et augmentant la puissance du death knight",
+  "icon": "necromancy_spell_0326_icon",
+  "school": "necromancy",
+  "rarity": "rare",
+  "spell_type": "necromancy_spell_0326_corruption",
+  "target_type": "area_effect",
+  "range": 30.0,
+  "cast_time": 2000,
+  "cooldown": 10000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 200,
+    "damage_type": "necromancy_spell_0326_corruption",
+    "scaling": {
+      "unholy_power": 1.7,
+      "necrotic_art": 1.2
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "ground_corruption_blight",
+      "value": 200,
+      "duration": 25000,
+      "tick_rate": 3000,
+      "blight_radius": 12.0,
+      "tick_damage": 60,
+      "life_drain_percent": 30,
+      "unholy_strength_bonus": 20,
+      "movement_speed_penalty": 0.25,
+      "blight_regeneration": false
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necromancy_spell_0326_ground_sinking",
+    "blight_effect": "disease_cloud_rising",
+    "damage_effect": "life_essence_draining",
+    "expire_effect": "corruption_dispelling"
+  },
+  "sound_effects": {
+    "cast_sound": "ground_corrupting_squelch",
+    "blight_sound": "disease_boil_bubbling",
+    "damage_sound": "life_essence_vaporising",
+    "expire_sound": "corruption_release_gasp"
+  },
+  "requirements": {
+    "level": 16,
+    "skills": [
+      "necromancy_spell_0326_corruption",
+      "disease_spreading"
+    ],
+    "classes": [
+      "death_knight",
+      "plague_lord"
+    ],
+    "specializations": [
+      "corruption_master"
+    ]
+  },
+  "upgrades": {
+    "deepening_blight": {
+      "unlock_level": 26,
+      "description": "Le fléau devient plus profond et dure plus longtemps",
+      "damage_increase": 40,
+      "duration_bonus": 10000,
+      "drain_strength_bonus": 15
+    },
+    "eternal_corruption": {
+      "unlock_level": 36,
+      "description": "Le fléau devient permanent et corrupte même les âmes",
+      "permanent_blight_chance": 0.2,
+      "soul_damage": 100,
+      "corruption_spread": 5.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

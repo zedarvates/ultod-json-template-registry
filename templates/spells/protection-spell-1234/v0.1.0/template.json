@@ -1,0 +1,63 @@
+{
+  "id": "protection_spell_1234",
+  "name": "Protection Spell 1234",
+  "description": "Reflète les sorts et attaques magiques vers leur origine",
+  "icon": "protection_spell_1234_icon",
+  "school": "protection",
+  "rarity": "rare",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 2000,
+  "cooldown": 40000,
+  "mana_cost": 35,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "spell_reflection",
+      "value": 60,
+      "duration": 15000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "projectile_reflection",
+      "value": 80,
+      "duration": 15000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "mirror_shield",
+    "projectile_effect": "none",
+    "impact_effect": "reflective_barrier",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "mirror_bell",
+    "impact_sound": "spell_deflect"
+  },
+  "requirements": {
+    "level": 27,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "perfect_deflection": {
+      "unlock_level": 41,
+      "description": "Augmente les chances de réflexion de 30%",
+      "reflect_bonus": 30
+    },
+    "mirror_mage": {
+      "unlock_level": 55,
+      "description": "Réfléchit même les sorts de zone",
+      "area_spell_reflection": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

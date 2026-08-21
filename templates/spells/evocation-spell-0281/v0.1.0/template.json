@@ -1,0 +1,80 @@
+{
+  "id": "evocation_spell_0281",
+  "name": "Evocation Spell 0281",
+  "description": "Invoque une tempête de lumière sacrée qui frappe tous les ennemis dans la zone",
+  "icon": "evocation_spell_0281_icon",
+  "school": "evocation",
+  "rarity": "epic",
+  "spell_type": "holy_area_damage",
+  "target_type": "area_enemy",
+  "range": 60.0,
+  "cast_time": 3500,
+  "cooldown": 30000,
+  "mana_cost": 140,
+  "damage": {
+    "base_damage": 400,
+    "damage_type": "holy_storm_damage",
+    "scaling": {
+      "charisma": 2.2,
+      "wisdom": 1.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "evocation_spell_0281_lightning_strikes",
+      "value": 400,
+      "duration": 12000,
+      "tick_rate": 2500,
+      "storm_radius": 25.0,
+      "chain_lightning_holy": true,
+      "max_targets": 12,
+      "holy_damage_per_strike": 100,
+      "ground_consecration": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "heavenly_storm_gathering",
+    "storm_effect": "holy_lightning_arcs",
+    "strike_effect": "golden_bolts_impact",
+    "ground_effect": "holy_ground_sigils_activate"
+  },
+  "sound_effects": {
+    "cast_sound": "evocation_spell_0281_rumbling",
+    "storm_sound": "holy_lightning_crackle",
+    "strike_sound": "heavenly_bolt_impact",
+    "ground_sound": "sacred_ground_pulse"
+  },
+  "requirements": {
+    "level": 28,
+    "skills": [
+      "evocation_spell_0281_magic",
+      "storm_calling"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "storm_bringer"
+    ]
+  },
+  "upgrades": {
+    "divine_lightning_chain": {
+      "unlock_level": 38,
+      "description": "Les éclairs se propagent et frappent plus d'ennemis",
+      "chain_length_increase": 3,
+      "damage_chain_multiplier": 0.8,
+      "storm_duration_bonus": 4000
+    },
+    "heavenly_downpour": {
+      "unlock_level": 48,
+      "description": "La tempête inonde la zone de lumière purificatrice",
+      "downpour_damage": 200,
+      "holypour_purification": true,
+      "enemy_slow_zone": 0.5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "restoration_spell_0093",
+  "name": "Restoration Spell 0093",
+  "description": "Le barde entonne un rythme vivifiant qui restaure l'énergie vitale et booste la récupération des alliés",
+  "icon": "restoration_spell_0093_icon",
+  "school": "restoration",
+  "rarity": "common",
+  "spell_type": "regeneration_performance",
+  "target_type": "multiple_allies",
+  "range": 35.0,
+  "cast_time": 1000,
+  "cooldown": 6000,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "healing"
+  },
+  "effects": [
+    {
+      "effect_type": "energy_regeneration",
+      "value": 50,
+      "duration": 25000,
+      "tick_rate": 2500,
+      "energy_restore_rate": 20,
+      "max_targets": 5
+    },
+    {
+      "effect_type": "health_regeneration",
+      "value": 30,
+      "duration": 25000,
+      "tick_rate": 2000,
+      "health_restore_rate": 15,
+      "max_targets": 5
+    },
+    {
+      "effect_type": "movement_speed_boost",
+      "value": 25,
+      "duration": 20000,
+      "tick_rate": 0,
+      "speed_increase_percent": 25,
+      "max_targets": 5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "vital_energy_notes_surge",
+    "buff_effect": "radiant_healing_auras",
+    "expire_effect": "energy_trail_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "uplifting_restoration_spell_0093ic_beats",
+    "buff_sound": "gentle_vitality_harmony",
+    "expire_sound": "soft_energy_ebb"
+  },
+  "requirements": {
+    "level": 4,
+    "skills": [
+      "performance",
+      "restoration",
+      "music_magic"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour"
+    ]
+  },
+  "upgrades": {
+    "tempo_boost": {
+      "unlock_level": 9,
+      "description": "Augmente le rythme de récupération et le bonus de vitesse",
+      "regeneration_tick_reduction": 500,
+      "speed_bonus": 15
+    },
+    "symphony_of_life": {
+      "unlock_level": 16,
+      "description": "Bénéficie à plus d'alliés et restaure aussi la mana",
+      "max_targets": 8,
+      "mana_regeneration": 10,
+      "duration_bonus": 10000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

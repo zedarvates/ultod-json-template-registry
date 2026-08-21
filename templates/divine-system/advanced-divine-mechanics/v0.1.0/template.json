@@ -1,0 +1,924 @@
+{
+  "advanced_divine_mechanics": {
+    "reality_manipulation_system": {
+      "reality_modification_levels": {
+        "micro_reality_changes": {
+          "description": "Minor alterations to local reality within small area",
+          "power_requirement": "moderate_divine_energy",
+          "faith_requirement": "fervent_devotee",
+          "modification_scope": "single_location_or_person",
+          "examples": [
+            "minor_environmental_changes",
+            "small_probability_modifications",
+            "limited_physical_adjustments",
+            "basic_reality_harmonies"
+          ],
+          "energy_cost": "50-100_divine_energy",
+          "cooldown_period": "30_minutes",
+          "risk_level": "low",
+          "failure_consequences": "minor_reality_tension"
+        },
+        "meso_reality_alterations": {
+          "description": "Medium-scale reality modifications affecting multiple people or areas",
+          "power_requirement": "high_divine_energy",
+          "faith_requirement": "zealous_saint",
+          "modification_scope": "community_level",
+          "examples": [
+            "significant_environmental_weather_changes",
+            "moderate_probability_modifications",
+            "physical_law_adjustments",
+            "reality_anchoring_points"
+          ],
+          "energy_cost": "200-500_divine_energy",
+          "cooldown_period": "2_hours",
+          "risk_level": "moderate",
+          "failure_consequences": "reality_instability_in_area"
+        },
+        "macro_reality_transformations": {
+          "description": "Large-scale reality modifications affecting regions or major areas",
+          "power_requirement": "extreme_divine_energy",
+          "faith_requirement": "canonized_being",
+          "modification_scope": "regional_to_continental",
+          "examples": [
+            "landscape_major_changes",
+            "fundamental_physical_law_changes",
+            "reality_constant_modifications",
+            "universal_force_adjustments"
+          ],
+          "energy_cost": "1000-5000_divine_energy",
+          "cooldown_period": "6_hours",
+          "risk_level": "high",
+          "failure_consequences": "reality_stability_threat"
+        },
+        "cosmic_reality_reconstructions": {
+          "description": "adapted_referencete reality modifications affecting entire dimensions or universes",
+          "power_requirement": "primordial_energy",
+          "faith_requirement": "cosmic_authority",
+          "modification_scope": "universal_to_multiversal",
+          "examples": [
+            "universal_constant_redefinitions",
+            "reality_foundation_modifications",
+            "dimension_creation_or_destruction",
+            "universal_physical_law_revisions"
+          ],
+          "energy_cost": "10000+_divine_energy",
+          "cooldown_period": "24_hours",
+          "risk_level": "cosmic_threat",
+          "failure_consequences": "universal_chaos_or_collapse"
+        }
+      },
+      "reality_modification_types": {
+        "physical_law_manipulation": {
+          "description": "Modification of fundamental physical laws in targeted areas",
+          "applicable_laws": [
+            "gravity_modification",
+            "time_flow_alteration",
+            "space_curvature_change",
+            "energy_conservation_modification",
+            "matter_creation_replication"
+          ],
+          "modification_mechanics": {
+            "law_focusing": "concentrating_divine_energy_on_specific_law",
+            "reality_coherence": "maintaining_reality_stability_during_changes",
+            "harmonization": "ensuring_changes_align_with_universal_principles",
+            "reversion_prevention": "establishing_new_law_as_reality_standard"
+          },
+          "safety_measures": [
+            "gradual_implementation",
+            "reality_anchor_establishment",
+            "harmonization_rituals",
+            "stability_monitoring"
+          ],
+          "applications": [
+            "gravity_manipulation_for_flight",
+            "time_acceleration_for_growth",
+            "space_distortion_for_travel",
+            "energy_amplification_for_powers"
+          ]
+        },
+        "probability_modification": {
+          "description": "Alteration of probability and chance in targeted scenarios",
+          "modification_mechanics": {
+            "fortune_enhancement": "increasing_positive_outcome_probability",
+            "disaster_prevention": "decreasing_negative_outcome_odds",
+            "opportunity_creation": "generating_new_possibility_paths",
+            "fate_coherence": "maintaining_causal_consistency"
+          },
+          "probability_ranges": {
+            "minor_adjustment": "5-15%_probability_change",
+            "significant_modification": "15-50%_probability_change",
+            "major_influence": "50-80%_probability_change",
+            "fate_override": "80-99%_probability_modification"
+          },
+          "applications": [
+            "enhanced_combat_success_rates",
+            "improved_crafting_outcomes",
+            "increased_survival_probabilities",
+            "opportunity_manifestation"
+          ],
+          "limitations": [
+            "cannot_override_cosmic_destinies",
+            "finite_reality_coherence_limits",
+            "opposition_from_other_probability_modifiers",
+            "reality_stability_threshold_protection"
+          ]
+        },
+        "temporal_manipulation": {
+          "description": "Control and modification of time flow and temporal mechanics",
+          "temporal_modifications": {
+            "time_acceleration": {
+              "description": "Speeding up local time flow",
+              "acceleration_rates": "2x_to_100x_normal_speed",
+              "duration_limits": "1_minute_to_1_hour_real_time",
+              "energy_cost": "proportional_to_speed_and_duration",
+              "applications": [
+                "rapid_growth",
+                "training_intensification",
+                "project_completion",
+                "skill_development"
+              ]
+            },
+            "time_deceleration": {
+              "description": "Slowing down local time flow",
+              "deceleration_rates": "0.1x_to_0.5x_normal_speed",
+              "duration_limits": "30_seconds_to_1_hour_real_time",
+              "energy_cost": "proportional_to_deceleration_level",
+              "applications": [
+                "enhanced_reflexes",
+                "reaction_time_improvement",
+                "emergency_responses",
+                "precision_work"
+              ]
+            },
+            "temporal_looping": {
+              "description": "Creating repeating time cycles",
+              "loop_durations": "1_minute_to_24_hours",
+              "repetition_counts": "2_to_infinite_repeats",
+              "energy_cost": "high_due_to_complexity",
+              "applications": [
+                "skill_practice",
+                "knowledge_mastery",
+                "failure_learning",
+                "perfection_achievement"
+              ]
+            },
+            "time_anchoring": {
+              "description": "Establishing temporal stability points",
+              "anchoring_strength": "hours_to_years_of_stability",
+              "protection_level": "against_temporal_disturbances",
+              "energy_cost": "major_initial_investment",
+              "applications": [
+                "important_memory_preservation",
+                "temporal_weapon_protection",
+                "history_stabilization",
+                "past_preservation"
+              ]
+            }
+          },
+          "temporal_risks": [
+            "temporal_paradoxes",
+            "causality_violations",
+            "time_stream_disruptions",
+            "temporal_instability",
+            "past_future_interference"
+          ],
+          "temporal_safety_measures": [
+            "causality_preservation_protocols",
+            "paradox_prevention_routines",
+            "temporal_stability_monitoring",
+            "reversion_emergency_procedures"
+          ]
+        },
+        "dimensional_manipulation": {
+          "description": "Control and modification of dimensional boundaries and properties",
+          "dimensional_modifications": {
+            "dimension_bridges": {
+              "description": "Creating connections between dimensions",
+              "bridge_types": [
+                "stable_portals",
+                "temporary_gates",
+                "reality_bridges",
+                "consciousness_paths"
+              ],
+              "duration": "minutes_to_permanent",
+              "stability_factors": [
+                "dimensional_compatibility",
+                "reality_coherence",
+                "energy_maintenance"
+              ],
+              "applications": [
+                "interdimensional_travel",
+                "resource_access",
+                "communication",
+                "rescue_operations"
+              ]
+            },
+            "dimension_stabilization": {
+              "description": "Reinforcing unstable or damaged dimensions",
+              "stabilization_levels": [
+                "minor_reinforcement",
+                "moderate_anchoring",
+                "major_support",
+                "fundamental_rewrite"
+              ],
+              "energy_investment": "proportional_to_damage_level",
+              "duration": "temporary_to_permanent",
+              "applications": [
+                "reality_repair",
+                "stability_restoration",
+                "damage_reversal",
+                "dimension_healing"
+              ]
+            },
+            "dimension_extension": {
+              "description": "Expanding dimensional space or properties",
+              "extension_types": [
+                "spatial_expansion",
+                "property_enhancement",
+                "capacity_increase",
+                "capability_amplification"
+              ],
+              "limitations": [
+                "dimensional_limits",
+                "reality_constraints",
+                "energy_requirements"
+              ],
+              "applications": [
+                "living_space_creation",
+                "resource_expansion",
+                "capability_enhancement",
+                "potential_realization"
+              ]
+            }
+          },
+          "dimensional_risks": [
+            "dimensional_collapse",
+            "reality_tears",
+            "interdimensional_invasions",
+            "consciousness_displacement",
+            "reality_instability"
+          ],
+          "dimensional_safety_measures": [
+            "stability_assessment_protocols",
+            "emergency_closure_procedures",
+            "interdimensional_communication",
+            "reality_anchoring_systems"
+          ]
+        }
+      }
+    },
+    "consciousness_expansion_system": {
+      "consciousness_levels": {
+        "personal_consciousness": {
+          "description": "Standard individual awareness and self-perception",
+          "capabilities": [
+            "self_awareness",
+            "personal_memory",
+            "individual_thought",
+            "personal_experience"
+          ],
+          "expansion_requirements": "basic_meditation_and_self_awareness_practices",
+          "energy_cost": "minimal",
+          "development_time": "ongoing_natural_development"
+        },
+        "enhanced_consciousness": {
+          "description": "Expanded awareness beyond personal boundaries",
+          "capabilities": [
+            "extended_awareness",
+            "empathy_expansion",
+            "collective_sensing",
+            "environmental_attunement"
+          ],
+          "expansion_requirements": [
+            "advanced_meditation",
+            "empathy_training",
+            "connection_practices"
+          ],
+          "energy_cost": "low_to_moderate",
+          "development_time": "months_to_years_of_practice"
+        },
+        "collective_consciousness": {
+          "description": "Integration with group or community awareness",
+          "capabilities": [
+            "group_thought_access",
+            "shared_memory",
+            "collective_wisdom",
+            "community_attunement"
+          ],
+          "expansion_requirements": [
+            "deep_communal_bonding",
+            "collective_meditation",
+            "group_consciousness_training"
+          ],
+          "energy_cost": "moderate_to_high",
+          "development_time": "years_of_community_integration"
+        },
+        "universal_consciousness": {
+          "description": "Connection with universal awareness and cosmic consciousness",
+          "capabilities": [
+            "cosmic_wisdom_access",
+            "universal_memory",
+            "reality_perception",
+            "cosmic_guidance"
+          ],
+          "expansion_requirements": [
+            "cosmic_awareness_training",
+            "universal_meditation",
+            "reality_attunement"
+          ],
+          "energy_cost": "high",
+          "development_time": "decades_of_devoted_practice"
+        },
+        "primordial_consciousness": {
+          "description": "Connection with primordial cosmic consciousness and creation awareness",
+          "capabilities": [
+            "primordial_wisdom",
+            "creation_memory",
+            "universal_origin_access",
+            "primordial_guidance"
+          ],
+          "expansion_requirements": [
+            "primordial_attunement",
+            "creation_meditation",
+            "adapted_referencete_consciousness_training"
+          ],
+          "energy_cost": "extremely_high",
+          "development_time": "lifetimes_of_dedicated_development"
+        }
+      },
+      "consciousness_expansion_methods": {
+        "meditation_practices": {
+          "basic_meditation": {
+            "description": "Foundational consciousness development practice",
+            "duration": "30_minutes_to_1_hour_daily",
+            "requirements": [
+              "quiet_space",
+              "comfortable_position",
+              "focused_intention"
+            ],
+            "effects": [
+              "enhanced_awareness",
+              "mental_clarity",
+              "stress_reduction",
+              "basic_consciousness_expansion"
+            ],
+            "progression": "leads_to_enhanced_consciousness"
+          },
+          "cosmic_meditation": {
+            "description": "Advanced practice connecting to cosmic consciousness",
+            "duration": "1_to_3_hours_extended_sessions",
+            "requirements": [
+              "cosmic_awareness",
+              "advanced_meditation_skills",
+              "cosmic_symbols"
+            ],
+            "effects": [
+              "universal_connection",
+              "cosmic_wisdom_access",
+              "reality_perception",
+              "universal_consciousness"
+            ],
+            "progression": "leads_to_universal_consciousness"
+          },
+          "primordial_meditation": {
+            "description": "adapted_referencete practice connecting to primordial consciousness",
+            "duration": "daily_practice_plus_extended_retreats",
+            "requirements": [
+              "primordial_preparation",
+              "cosmic_mastery",
+              "adapted_referencete_dedication"
+            ],
+            "effects": [
+              "primordial_connection",
+              "creation_wisdom",
+              "adapted_referencete_consciousness",
+              "primordial_wisdom"
+            ],
+            "progression": "leads_to_primordial_consciousness"
+          }
+        },
+        "consciousness_enhancement_rituals": {
+          "group_consciousness_ritual": {
+            "description": "Ceremony to enhance collective consciousness",
+            "participants": "5_to_50_individuals",
+            "duration": "2_to_4_hours",
+            "requirements": [
+              "group_preparation",
+              "consciousness_harmonization",
+              "collective_intention"
+            ],
+            "effects": [
+              "collective_awareness_enhancement",
+              "group_cohesion",
+              "shared_wisdom_access"
+            ],
+            "energy_cost": "moderate_collective_energy"
+          },
+          "cosmic_connection_ceremony": {
+            "description": "Ritual for cosmic consciousness connection",
+            "participants": "1_to_12_individuals",
+            "duration": "6_to_12_hours",
+            "requirements": [
+              "cosmic_preparation",
+              "universal_symbols",
+              "divine_guidance"
+            ],
+            "effects": [
+              "cosmic_consciousness_access",
+              "universal_wisdom",
+              "reality_perception"
+            ],
+            "energy_cost": "high_divine_energy"
+          },
+          "primordial_awakening_ritual": {
+            "description": "adapted_referencete ritual for primordial consciousness awakening",
+            "participants": "1_to_7_primordial_candidates",
+            "duration": "24_to_72_hours",
+            "requirements": [
+              "primordial_readiness",
+              "cosmic_mastery",
+              "adapted_referencete_preparation"
+            ],
+            "effects": [
+              "primordial_consciousness_awakening",
+              "creation_wisdom",
+              "adapted_referencete_reality_perception"
+            ],
+            "energy_cost": "extremely_high_primordial_energy"
+          }
+        }
+      },
+      "consciousness_based_powers": {
+        "psychic_perception": {
+          "description": "Enhanced perception through expanded consciousness",
+          "abilities": [
+            "distant_sight",
+            "thought_reading",
+            "emotion_sensing",
+            "aura_perception"
+          ],
+          "development_requirements": "enhanced_consciousness_minimum",
+          "energy_cost": "consciousness_energy",
+          "applications": [
+            "scouting",
+            "investigation",
+            "communication",
+            "guidance"
+          ]
+        },
+        "telepathic_communication": {
+          "description": "Direct mind-to-mind communication",
+          "range_limitation": "consciousness_level_dependent",
+          "group_capability": "collective_consciousness_enables_group_mind",
+          "development_requirements": "collective_consciousness_minimum",
+          "energy_cost": "mental_energy_consumption",
+          "applications": [
+            "silent_communication",
+            "group_coordination",
+            "mental_collaboration",
+            "wisdom_sharing"
+          ]
+        },
+        "reality_perception": {
+          "description": "Perception of true reality beyond surface appearances",
+          "perception_levels": [
+            "basic_reality",
+            "enhanced_reality",
+            "cosmic_reality",
+            "primordial_reality"
+          ],
+          "development_requirements": "universal_consciousness_minimum",
+          "energy_cost": "reality_perception_energy",
+          "applications": [
+            "truth_discernment",
+            "illusion_detection",
+            "reality_manipulation",
+            "cosmic_understanding"
+          ]
+        },
+        "consciousness_manipulation": {
+          "description": "Direct influence over consciousness states",
+          "manipulation_types": [
+            "awareness_enhancement",
+            "consciousness_expansion",
+            "mental_healing",
+            "consciousness_restoration"
+          ],
+          "development_requirements": "cosmic_consciousness_minimum",
+          "energy_cost": "high_mental_energy",
+          "applications": [
+            "mental_healing",
+            "consciousness_development",
+            "awareness_enhancement",
+            "mental_coordination"
+          ]
+        }
+      }
+    },
+    "time_manipulation_mechanics": {
+      "temporal_abilities": {
+        "time_acceleration": {
+          "description": "Ability to speed up personal or local time flow",
+          "acceleration_factors": "2x_to_100x_normal_speed",
+          "duration_limits": "1_minute_to_1_hour_real_time",
+          "applications": [
+            "rapid_training",
+            "project_completion",
+            "skill_development",
+            "urgency_management"
+          ],
+          "limitations": [
+            "energy_consumption",
+            "reality_coherence",
+            "temporal_stability",
+            "causality_protection"
+          ],
+          "development_requirements": "enhanced_consciousness_and_time_awareness",
+          "risk_factors": [
+            "temporal_displacement",
+            "causality_violation",
+            "temporal_paradox",
+            "reality_strain"
+          ]
+        },
+        "time_deceleration": {
+          "description": "Ability to slow down personal or local time flow",
+          "deceleration_factors": "0.1x_to_0.5x_normal_speed",
+          "duration_limits": "30_seconds_to_1_hour_real_time",
+          "applications": [
+            "enhanced_reflexes",
+            "precision_work",
+            "emergency_responses",
+            "danger_avoidance"
+          ],
+          "limitations": [
+            "consciousness_strain",
+            "reality_coherence",
+            "temporal_balance",
+            "energy_drain"
+          ],
+          "development_requirements": "enhanced_consciousness_and_temporal_control",
+          "risk_factors": [
+            "consciousness_overload",
+            "temporal_isolation",
+            "reality_disconnection",
+            "temporal_trapped"
+          ]
+        },
+        "time_rewinding": {
+          "description": "Ability to reverse local time flow",
+          "rewind_duration": "seconds_to_minutes",
+          "scope_limitation": "small_areas_to_individual_scale",
+          "applications": [
+            "mistake_correction",
+            "damage_reversal",
+            "failure_prevention",
+            "opportunity_creation"
+          ],
+          "limitations": [
+            "cosmic_prohibition",
+            "reality_coherence",
+            "temporal_energy",
+            "causality_protection"
+          ],
+          "development_requirements": "cosmic_consciousness_and_temporal_mastery",
+          "risk_factors": [
+            "temporal_paradox",
+            "causality_breakdown",
+            "reality_instability",
+            "universal_disruption"
+          ]
+        },
+        "time_foreseeing": {
+          "description": "Ability to perceive potential future events",
+          "foresight_depth": "minutes_to_months_ahead",
+          "probability_clarity": "high_certainty_events_only",
+          "applications": [
+            "future_planning",
+            "danger_avoidance",
+            "opportunity_recognition",
+            "destiny_guidance"
+          ],
+          "limitations": [
+            "cosmic_destiny_protection",
+            "probability_fluidity",
+            "consciousness_burden",
+            "reality_stability"
+          ],
+          "development_requirements": "universal_consciousness_and_prophetic_awareness",
+          "risk_factors": [
+            "prophetic_burden",
+            "destiny_entrapment",
+            "future_shock",
+            "temporal_overwhelm"
+          ]
+        }
+      },
+      "temporal_interactions": {
+        "time_stream_navigation": {
+          "description": "Ability to navigate through time streams",
+          "navigation_levels": [
+            "time_stream_awareness",
+            "time_stream_alignment",
+            "time_stream_guidance",
+            "time_stream_mastery"
+          ],
+          "capabilities": [
+            "time_period_awareness",
+            "temporal_orientation",
+            "causal_tracking",
+            "timeline_stability"
+          ],
+          "development_requirements": "universal_consciousness_and_temporal_mastery",
+          "applications": [
+            "temporal_discovery",
+            "timeline_exploration",
+            "historical_witnessing",
+            "future_investigation"
+          ]
+        },
+        "causality_manipulation": {
+          "description": "Influence over cause-and-effect relationships",
+          "manipulation_levels": [
+            "cause_enhancement",
+            "effect_amplification",
+            "causal_redirection",
+            "causal_creation"
+          ],
+          "capabilities": [
+            "cause_strengthening",
+            "effect_modification",
+            "causal_bridging",
+            "effect_generation"
+          ],
+          "development_requirements": "cosmic_consciousness_and_causal_mastery",
+          "applications": [
+            "desired_outcome_enhancement",
+            "unwanted_outcome_prevention",
+            "causal_chain_optimization",
+            "effect_creation"
+          ]
+        }
+      }
+    },
+    "dimensional_manipulation_mechanics": {
+      "dimensional_abilities": {
+        "dimensional_travel": {
+          "description": "Ability to traverse between dimensions",
+          "travel_methods": [
+            "consciousness_transference",
+            "reality_bridging",
+            "dimensional_walking",
+            "consciousness_shifting"
+          ],
+          "dimension_types": [
+            "adjacent_dimensions",
+            "similar_realities",
+            "alternate_timelines",
+            "consciousness_planes"
+          ],
+          "applications": [
+            "dimension_exploration",
+            "resource_access",
+            "reality_study",
+            "universal_discovery"
+          ],
+          "limitations": [
+            "dimensional_compatibility",
+            "consciousness_requirements",
+            "reality_stability",
+            "energy_consumption"
+          ],
+          "development_requirements": "cosmic_consciousness_and_dimensional_awareness"
+        },
+        "dimensional_reality_modification": {
+          "description": "Ability to modify dimensional properties and characteristics",
+          "modification_types": [
+            "physical_laws",
+            "spatial_properties",
+            "temporal_flows",
+            "energy_manifestations"
+          ],
+          "scope_levels": [
+            "minor_adjustments",
+            "significant_changes",
+            "major_transformations",
+            "fundamental_rewrites"
+          ],
+          "applications": [
+            "reality_customization",
+            "dimension_optimization",
+            "reality_enhancement",
+            "dimensional_creation"
+          ],
+          "limitations": [
+            "reality_coherence",
+            "dimensional_limits",
+            "cosmic_regulation",
+            "universal_protection"
+          ],
+          "development_requirements": "universal_consciousness_and_reality_mastery"
+        },
+        "interdimensional_communication": {
+          "description": "Communication across dimensional boundaries",
+          "communication_methods": [
+            "consciousness_broadcast",
+            "reality_wave_transmission",
+            "dimensional_echo",
+            "consciousness_link"
+          ],
+          "communication_range": "adjacent_to_distant_dimensions",
+          "applications": [
+            "cross_dimensional_cooperation",
+            "reality_coordination",
+            "universal_collaboration",
+            "dimensional_alliance"
+          ],
+          "limitations": [
+            "dimensional_barriers",
+            "consciousness_differences",
+            "reality_incompatibility",
+            "communication_distortion"
+          ],
+          "development_requirements": "enhanced_consciousness_and_communication_mastery"
+        }
+      }
+    },
+    "reality_mastery_requirements": {
+      "consciousness_prerequisites": {
+        "personal_mastery": {
+          "description": "Complete mastery of personal consciousness",
+          "requirements": [
+            "self_awareness_mastery",
+            "mental_clarity",
+            "consciousness_control",
+            "personal_power_manifestation"
+          ],
+          "time_development": "years_of_personal_development",
+          "energy_requirements": "significant_personal_energy"
+        },
+        "collective_integration": {
+          "description": "Integration with collective consciousness",
+          "requirements": [
+            "community_connection",
+            "group_consciousness_mastery",
+            "collective_wisdom_access",
+            "group_power_manifestation"
+          ],
+          "time_development": "decades_of_community_integration",
+          "energy_requirements": "major_collective_energy"
+        },
+        "universal_attunement": {
+          "description": "Attunement to universal consciousness",
+          "requirements": [
+            "cosmic_awareness",
+            "universal_connection",
+            "reality_perception",
+            "cosmic_wisdom_access"
+          ],
+          "time_development": "lifetimes_of_cosmic_development",
+          "energy_requirements": "extreme_cosmic_energy"
+        },
+        "primordial_connection": {
+          "description": "Connection with primordial consciousness",
+          "requirements": [
+            "primordial_attunement",
+            "creation_awareness",
+            "adapted_referencete_reality_connection",
+            "primordial_wisdom_mastery"
+          ],
+          "time_development": "multiple_lifetimes_of_primordial_development",
+          "energy_requirements": "adapted_referencete_primordial_energy"
+        }
+      },
+      "reality_mastery_challenges": {
+        "consciousness_overload": {
+          "description": "Risk of overwhelming personal consciousness with cosmic awareness",
+          "symptoms": [
+            "mental_fragmentation",
+            "consciousness_confusion",
+            "reality_disconnection",
+            "awareness_loss"
+          ],
+          "prevention": [
+            "gradual_development",
+            "consciousness_protection",
+            "reality_anchoring",
+            "gradual_exposure"
+          ]
+        },
+        "reality_disconnection": {
+          "description": "Risk of losing connection to base reality during consciousness expansion",
+          "symptoms": [
+            "reality_perception_loss",
+            "human_connection_breakdown",
+            "practical_skill_erosion",
+            "reality_anchoring_failure"
+          ],
+          "prevention": [
+            "reality_anchoring_practices",
+            "human_connection_maintenance",
+            "practical_skill_retention",
+            "consciousness_balance"
+          ]
+        },
+        "cosmic_paradox": {
+          "description": "Paradoxical conflicts between personal and cosmic consciousness",
+          "symptoms": [
+            "consciousness_conflicts",
+            "reality_perception_disruption",
+            "power_instability",
+            "consciousness_fracture"
+          ],
+          "prevention": [
+            "consciousness_integration",
+            "paradox_resolution",
+            "unity_consciousness",
+            "reality_coherence"
+          ]
+        },
+        "primordial_overwhelm": {
+          "description": "Overwhelming by adapted_referencete cosmic consciousness",
+          "symptoms": [
+            "consciousness_transcendence",
+            "individual_identity_loss",
+            "reality_dissolution",
+            "adapted_referencete_overwhelm"
+          ],
+          "prevention": [
+            "gradual_primordial_exposure",
+            "consciousness_protection",
+            "identity_maintenance",
+            "gradual_transcendence"
+          ]
+        }
+      },
+      "reality_mastery_progression": {
+        "beginner_practitioner": {
+          "consciousness_level": "enhanced_consciousness",
+          "reality_capabilities": "basic_reality_manipulation",
+          "mastery_focus": [
+            "personal_consciousness",
+            "basic_reality_awareness",
+            "fundamental_manipulation"
+          ],
+          "development_time": "months_to_years",
+          "key_challenges": [
+            "consciousness_stability",
+            "reality_coherence",
+            "power_control"
+          ]
+        },
+        "advanced_practitioner": {
+          "consciousness_level": "collective_consciousness",
+          "reality_capabilities": "intermediate_reality_manipulation",
+          "mastery_focus": [
+            "group_consciousness",
+            "community_reality_influence",
+            "collective_manipulation"
+          ],
+          "development_time": "years_to_decades",
+          "key_challenges": [
+            "group_coordination",
+            "collective_coherence",
+            "community_integration"
+          ]
+        },
+        "cosmic_practitioner": {
+          "consciousness_level": "universal_consciousness",
+          "reality_capabilities": "advanced_reality_manipulation",
+          "mastery_focus": [
+            "universal_consciousness",
+            "cosmic_reality_influence",
+            "universal_manipulation"
+          ],
+          "development_time": "decades_to_centuries",
+          "key_challenges": [
+            "cosmic_responsibility",
+            "universal_coherence",
+            "reality_stability"
+          ]
+        },
+        "primordial_master": {
+          "consciousness_level": "primordial_consciousness",
+          "reality_capabilities": "adapted_referencete_reality_mastery",
+          "mastery_focus": [
+            "primordial_consciousness",
+            "creation_reality_influence",
+            "adapted_referencete_manipulation"
+          ],
+          "development_time": "multiple_lifetimes",
+          "key_challenges": [
+            "primordial_responsibility",
+            "creation_coherence",
+            "adapted_referencete_reality_stability"
+          ]
+        }
+      }
+    }
+  },
+  "id": "advanced_divine_mechanics",
+  "name": "Advanced Divine Mechanics",
+  "template_type": "divine_system",
+  "version": "0.1.0"
+}

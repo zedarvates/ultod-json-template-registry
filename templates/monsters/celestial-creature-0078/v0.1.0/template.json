@@ -1,0 +1,121 @@
+{
+  "id": "celestial_creature_0078",
+  "name": "Celestial Creature 0078",
+  "description": "Une magnifique créature humanoïde de 12 pieds de haut, avec six ailes irisées qui diffusent une lumière divine dorée. Sa peau luit comme le soleil et ses yeux brillent d'une compassion infinie. Elle porte une armure étincelante et une épée flamboyante. Sa simple présence réconforte les innocents et apeure les méchants.",
+  "icon": "celestial_creature_0078_icon",
+  "category": "celestial",
+  "rarity": "legendary",
+  "base_stats": {
+    "health": 200,
+    "mana": 160,
+    "strength": 24,
+    "dexterity": 18,
+    "intelligence": 19,
+    "wisdom": 22,
+    "constitution": 24,
+    "charisma": 25
+  },
+  "properties": {
+    "size": "large",
+    "size_modifiers": {
+      "health_multiplier": 2.0,
+      "damage_multiplier": 1.5,
+      "speed_modifier": -1,
+      "space_requirement": 10,
+      "strength_bonus": 4,
+      "constitution_bonus": 2
+    },
+    "speed": 30,
+    "alignment": "lawful good",
+    "languages": [
+      "all",
+      "telepathy 120 ft"
+    ],
+    "challenge_rating": "16",
+    "experience_value": 15000
+  },
+  "properties_celestial": {
+    "divine_sanctity": true,
+    "holy_resistance": 90,
+    "aura_of_protection": {
+      "radius": 10,
+      "bonus": "+2"
+    },
+    "smite_evil_ability": true,
+    "regeneration_rate": "10 hp per turn",
+    "plane_travel": true,
+    "spell_mastery": true
+  },
+  "abilities": [
+    "divine_smiting",
+    "healing_hands",
+    "zone_of_truth",
+    "commune",
+    "raise_dead",
+    "dispel_evil_and_good",
+    "bless",
+    "cure_wounds",
+    "holy_aura"
+  ],
+  "resistances": {
+    "radiant": 100,
+    "necrotic": 90,
+    "poison": 100,
+    "magic": 70
+  },
+  "weaknesses": [
+    "necrotic_damage",
+    "evil_magic",
+    "unholy_weapons"
+  ],
+  "immunities": [
+    "charmed",
+    "exhaustion",
+    "frightened"
+  ],
+  "senses": {
+    "truesight": 120,
+    "darkvision": 120
+  },
+  "loot_table": {
+    "common_drops": [
+      "holy_water",
+      "divine_essence",
+      "celestial_feather"
+    ],
+    "rare_drops": [
+      "healing_manuscript",
+      "holy_blade",
+      "divine_sigil"
+    ],
+    "epic_drops": [
+      "celestial_creature_0078_wings",
+      "divine_armor",
+      "celestial_grimoire"
+    ],
+    "legendary_drops": [
+      "celestial_master_artifact",
+      "divine_judgment_blade",
+      "saint_heart"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "moderate",
+    "intelligence_level": "genius",
+    "tactical_awareness": "strategic",
+    "attack_pattern": "divine_combat",
+    "defensive_patterns": [
+      "holy_aura",
+      "healing_regeneration",
+      "dispel_evil"
+    ],
+    "special_behaviors": [
+      "protects_innocents_first",
+      "uses_healing_abilities_strategically",
+      "banishes_evil_creatures",
+      "inspires_ally_morale"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

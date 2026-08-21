@@ -1,0 +1,74 @@
+{
+  "id": "priest_divine_protection",
+  "name": "Protection Divine",
+  "description": "Invoque la protection divine pour réduire les dégâts et purifier les effets négatifs",
+  "icon": "divine_protection_icon",
+  "category": "support",
+  "rarity": "uncommon",
+  "ability_type": "buff",
+  "target_type": "single_ally",
+  "range": 18.0,
+  "cast_time": 2500,
+  "cooldown": 30000,
+  "resource_cost": {
+    "type": "mana",
+    "amount": 50
+  },
+  "duration": 15000,
+  "effects": [
+    {
+      "effect_type": "damage_reduction",
+      "value": 25,
+      "scaling": {
+        "wisdom": 0.4
+      }
+    },
+    {
+      "effect_type": "purify",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "scaling": {}
+    },
+    {
+      "effect_type": "holy_resistance",
+      "value": 30,
+      "scaling": {
+        "intelligence": 0.3
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_circle",
+    "active_effect": "golden_barrier",
+    "end_effect": "holy_dissipation"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_incantation",
+    "active_sound": "protection_hum",
+    "end_sound": "blessing_fade"
+  },
+  "requirements": {
+    "level": 8,
+    "class": "priest",
+    "skills": [
+      "divine_protection"
+    ]
+  },
+  "upgrades": {
+    "blessed_armor": {
+      "unlock_level": 18,
+      "description": "Augmente la réduction de dégâts",
+      "damage_reduction_bonus": 15,
+      "duration_bonus": 5000
+    },
+    "sanctuary": {
+      "unlock_level": 32,
+      "description": "Protège contre tous les effets de contrôle",
+      "cc_immunity": true,
+      "healing_boost": 20
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "ability"
+}

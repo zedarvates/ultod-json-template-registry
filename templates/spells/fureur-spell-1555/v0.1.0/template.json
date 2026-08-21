@@ -1,0 +1,80 @@
+{
+  "id": "fureur_spell_1555",
+  "name": "Fureur Spell 1555",
+  "description": "Interrompt l'incantation d'un ennemi et l'empêche d'incanter pendant un court instant",
+  "icon": "fureur_spell_1555_icon",
+  "school": "fureur",
+  "rarity": "common",
+  "spell_type": "interrupt",
+  "target_type": "single",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 10000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 50,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.5,
+      "rage": 0.2
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 50,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "spell_interrupt",
+      "value": 0,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "silence_debuff",
+      "value": 0,
+      "duration": 4000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "punch_interrupt",
+    "projectile_effect": "none",
+    "impact_effect": "spell_shatter",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "punch_swing",
+    "impact_sound": "spell_interrupt"
+  },
+  "requirements": {
+    "level": 10,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "fury"
+    ]
+  },
+  "upgrades": {
+    "improved_pummel": {
+      "unlock_level": 18,
+      "description": "Augmente les dégâts de Fureur Spell 1555 et la durée du silence de 50%",
+      "damage_bonus": 50,
+      "silence_duration_bonus": 2000
+    },
+    "pummel_mastery": {
+      "unlock_level": 28,
+      "description": "Fureur Spell 1555 peut être utilisée plus fréquemment",
+      "cooldown_reduction": 2000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

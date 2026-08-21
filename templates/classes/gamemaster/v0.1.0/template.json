@@ -1,0 +1,152 @@
+{
+  "id": "gamemaster",
+  "name": "[ADMIN] Game Master",
+  "description": "[ADMIN ONLY] The supreme dungeon master and event coordinator with reality-bending event powers",
+  "color": "FFD700",
+  "primary_resource": "event_energy",
+  "base_stats": {
+    "strength": 75,
+    "agility": 75,
+    "intelligence": 85,
+    "vitality": 70,
+    "wisdom": 80,
+    "charisma": 90
+  },
+  "specializations": [
+    "event_coordination",
+    "dungeon_mastery",
+    "reality_direction"
+  ],
+  "starting_skills": [
+    {
+      "id": 91001,
+      "name": "Spawn Dungeon",
+      "description": "[ADMIN] Instantly create and populate a dungeon",
+      "cooldown": 30000,
+      "mana_cost": 0,
+      "range": 1000.0,
+      "cast_time": 1000,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 91002,
+      "name": "Mass Spawn",
+      "description": "[ADMIN] Spawn large numbers of NPCs or monsters",
+      "cooldown": 10000,
+      "mana_cost": 0,
+      "range": 500.0,
+      "cast_time": 500,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 91003,
+      "name": "Weather Control",
+      "description": "[ADMIN] Change weather patterns and environmental effects",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": -1,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 91004,
+      "name": "Event Trigger",
+      "description": "[ADMIN] Start or stop any server event or quest",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 91005,
+      "name": "Global Announcement",
+      "description": "[ADMIN] Send message to all players server-wide",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 91006,
+      "name": "Time Control",
+      "description": "[ADMIN] Speed up or slow down time in specific areas",
+      "cooldown": 10000,
+      "mana_cost": 0,
+      "range": 200.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 910001,
+            "name": "Dungeon Weaver",
+            "description": "Create complex dungeon layouts instantly",
+            "max_rank": 1,
+            "icon_path": "talents/admin/dungeon_weaver.png"
+          },
+          {
+            "id": 910002,
+            "name": "NPC Director",
+            "description": "Control NPC behaviors and dialogues",
+            "max_rank": 1,
+            "icon_path": "talents/admin/npc_director.png"
+          },
+          {
+            "id": 910003,
+            "name": "Event Catalyst",
+            "description": "Trigger multiple chained events",
+            "max_rank": 1,
+            "icon_path": "talents/admin/event_catalyst.png"
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "talents": [
+          {
+            "id": 910004,
+            "name": "Reality Editor",
+            "description": "Modify terrain and environmental features",
+            "max_rank": 1,
+            "icon_path": "talents/admin/reality_editor.png"
+          },
+          {
+            "id": 910005,
+            "name": "Player Story Weaver",
+            "description": "Influence individual player stories and quests",
+            "max_rank": 1,
+            "icon_path": "talents/admin/story_weaver.png"
+          },
+          {
+            "id": 910006,
+            "name": "Server Stabilizer",
+            "description": "Prevent server crashes and optimize performance",
+            "max_rank": 1,
+            "icon_path": "talents/admin/server_stabilizer.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 500000,
+  "health_modifier": 20.0,
+  "damage_modifier": 15.0,
+  "armor_modifier": 50.0,
+  "speed_modifier": 5.0,
+  "cast_speed_modifier": 10.0,
+  "template_type": "class",
+  "version": "0.1.0"
+}

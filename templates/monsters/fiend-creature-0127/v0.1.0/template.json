@@ -1,0 +1,72 @@
+{
+  "id": "fiend_creature_0127",
+  "name": "Fiend Creature 0127",
+  "description": "Puissant seigneur des enfers avec des cornes tordues et des ailes de flammes",
+  "icon": "fiend_creature_0127_icon",
+  "category": "fiend",
+  "rarity": "legendary",
+  "base_stats": {
+    "health": 3500,
+    "mana": 1200,
+    "strength": 100,
+    "dexterity": 60,
+    "intelligence": 80,
+    "wisdom": 70,
+    "constitution": 120,
+    "charisma": 40
+  },
+  "properties": {
+    "is_fiendish": true,
+    "is_flying": true,
+    "is_unique": true,
+    "is_boss": true,
+    "size": "huge",
+    "speed": 10.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "fiend_creature_0127_horn",
+      "hellfire_essence",
+      "cursed_soul"
+    ],
+    "rare_drops": [
+      "fiend_creature_0127_crown",
+      "infernal_weapon"
+    ],
+    "epic_drops": [
+      "fiend_creature_0127_contract",
+      "lord_of_hell_title"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "extreme",
+    "attack_pattern": "hellish_assault",
+    "special_abilities": [
+      "hellfire_bolt",
+      "soul_drain",
+      "fear_aura",
+      "teleport"
+    ]
+  },
+  "abilities": [
+    "hellfire_storm",
+    "soul_rend",
+    "fiend_creature_0127ic_summon",
+    "fear_wave",
+    "infernal_barrier",
+    "life_leech"
+  ],
+  "resistances": {
+    "fire": 100,
+    "shadow": 80,
+    "physical": 60,
+    "holy": -100
+  },
+  "weaknesses": [
+    "holy",
+    "light",
+    "silver"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

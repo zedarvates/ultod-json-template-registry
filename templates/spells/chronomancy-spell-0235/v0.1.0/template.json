@@ -1,0 +1,78 @@
+{
+  "id": "chronomancy_spell_0235",
+  "name": "Chronomancy Spell 0235",
+  "description": "Crée une barrière de temps distordu qui bloque les ennemis et distord leurs perceptions",
+  "icon": "chronomancy_spell_0235_icon",
+  "school": "chronomancy",
+  "rarity": "uncommon",
+  "spell_type": "chronomancy_spell_0235_defense",
+  "target_type": "linear_barrier",
+  "range": 30.0,
+  "cast_time": 1800,
+  "cooldown": 25000,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "chronomancy_spell_0235_distortion"
+  },
+  "effects": [
+    {
+      "effect_type": "time_wall_creation",
+      "value": 100,
+      "duration": 20000,
+      "tick_rate": 0,
+      "barrier_length": 15.0,
+      "barrier_movement_block": true,
+      "temporal_distortion_field": 5.0,
+      "enemy_speed_reduction": 0.5,
+      "perception_alteration": true,
+      "barrier_integrity": 500
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "chronomancy_spell_0235_wall_materialization",
+    "barrier_effect": "warped_time_surface",
+    "interaction_effect": "displacement_wave",
+    "expire_effect": "chronomancy_spell_0235_wall_dissolve"
+  },
+  "sound_effects": {
+    "cast_sound": "reality_bending_crack",
+    "barrier_sound": "chronomancy_spell_0235_flow_hum",
+    "interaction_sound": "displacement_whip",
+    "expire_sound": "wall_shatter_echo"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "chronomancy",
+      "chronomancy_spell_0235s",
+      "distortion_magic"
+    ],
+    "classes": [
+      "chronomancer",
+      "time_mage",
+      "chronomancy_spell_0235ist"
+    ],
+    "specializations": [
+      "barrier_smith"
+    ]
+  },
+  "upgrades": {
+    "reinforced_walls": {
+      "unlock_level": 28,
+      "description": "La barrière devient plus solide et cause des dégâts aux attaquants",
+      "barrier_integrity_bonus": 300,
+      "damage_on_touch": 50,
+      "distortion_field_bonus": 3.0
+    },
+    "mobile_fortress": {
+      "unlock_level": 38,
+      "description": "La barrière peut être déplacée et étendue",
+      "movable_barrier": true,
+      "extendable_length": 10.0,
+      "temporal_anchor_points": 3
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

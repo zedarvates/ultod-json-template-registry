@@ -1,0 +1,65 @@
+{
+  "id": "evocation_spell_1389",
+  "name": "Evocation Spell 1389",
+  "description": "Vous créez trois flèches magiques luisantes. Chacune inflige 1d4 + 1 dégâts de force à sa cible",
+  "icon": "evocation_spell_1389_icon",
+  "school": "evocation",
+  "rarity": "common",
+  "spell_type": "projectile",
+  "target_type": "multiple_enemies",
+  "range": 120.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 5,
+    "damage_type": "force",
+    "projectile_count": 3
+  },
+  "effects": [
+    {
+      "effect_type": "evocation_spell_1389_projectiles",
+      "value": 5,
+      "duration": 0,
+      "tick_rate": 0,
+      "max_targets": 3,
+      "requires_attack_roll": false
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "evocation_spell_1389_glow",
+    "projectile_effect": "evocation_spell_1389_arrows",
+    "impact_effect": "force_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "evocation_spell_1389_whisper",
+    "projectile_sound": "whizz",
+    "impact_sound": "force_pop"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard",
+      "mage"
+    ]
+  },
+  "upgrades": {
+    "empowered_missiles": {
+      "unlock_level": 5,
+      "description": "Augmente à 5 projectiles infligeant 1d6 + 1 dégâts chacun",
+      "projectile_count": 5,
+      "damage_multiplier": 1.5
+    },
+    "seeking_missiles": {
+      "unlock_level": 11,
+      "description": "Les projectiles suivent leurs cibles à travers les obstacles",
+      "seek_targets": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

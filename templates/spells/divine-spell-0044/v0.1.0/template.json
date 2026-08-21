@@ -1,0 +1,86 @@
+{
+  "id": "divine_spell_0044",
+  "name": "Divine Spell 0044",
+  "description": "Crée une harmonie céleste qui soigne et inspire tous les alliés dans la zone",
+  "icon": "divine_spell_0044_spell_0044_icon",
+  "school": "divine_spell_0044",
+  "rarity": "rare",
+  "spell_type": "healing",
+  "target_type": "area_ally",
+  "range": 25.0,
+  "cast_time": 2500,
+  "cooldown": 0,
+  "divine_creative_energy_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "holy",
+    "scaling": {
+      "wisdom": 1.0,
+      "charisma": 0.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "heal",
+      "value": 75,
+      "duration": 0,
+      "tick_rate": 0,
+      "scaling": {
+        "wisdom": 1.3
+      }
+    },
+    {
+      "effect_type": "inspiration",
+      "value": 20,
+      "duration": 15000,
+      "tick_rate": 0,
+      "scaling": {
+        "charisma": 1.0
+      }
+    },
+    {
+      "effect_type": "regeneration",
+      "value": 5,
+      "duration": 15000,
+      "tick_rate": 1000,
+      "scaling": {
+        "wisdom": 0.5
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "musical_notes_float",
+    "hit_effect": "healing_harmony",
+    "miss_effect": "melody_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "lyre_melody",
+    "hit_sound": "healing_harmony",
+    "miss_sound": "musical_chord"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "divine_spell_0044_mastery"
+    ],
+    "classes": [
+      "apollo"
+    ]
+  },
+  "upgrades": {
+    "enhanced_melody": {
+      "unlock_level": 18,
+      "description": "Augmente l'efficacité de la mélodie",
+      "healing_bonus": 25,
+      "inspiration_bonus": 10
+    },
+    "perfect_harmony": {
+      "unlock_level": 28,
+      "description": "La mélodie confère une immunité temporaire",
+      "immunity_duration": 3000,
+      "cooldown_reduction": 5000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

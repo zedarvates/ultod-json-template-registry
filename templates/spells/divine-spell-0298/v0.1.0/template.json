@@ -1,0 +1,61 @@
+{
+  "id": "divine_spell_0298",
+  "name": "Divine Spell 0298",
+  "description": "Crée une arme spectrale qui attaque automatiquement vos ennemis",
+  "icon": "divine_spell_0298_icon",
+  "school": "divine",
+  "rarity": "rare",
+  "spell_type": "summon_weapon",
+  "target_type": "enemy",
+  "range": 60.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 12,
+    "damage_type": "force"
+  },
+  "effects": [
+    {
+      "effect_type": "summon_spirit_weapon",
+      "value": 8,
+      "duration": 60000,
+      "tick_rate": 2000,
+      "attack_range": 5.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_summon",
+    "weapon_effect": "spectral_weapon",
+    "attack_effect": "force_strike"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_summon",
+    "weapon_sound": "divine_spell_0298_manifestation",
+    "attack_sound": "force_impact"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "divine_magic"
+    ],
+    "classes": [
+      "cleric",
+      "paladin"
+    ]
+  },
+  "upgrades": {
+    "empowered_weapon": {
+      "unlock_level": 11,
+      "description": "Augmente les dégâts de l'arme de 2d8",
+      "damage_multiplier": 2.0
+    },
+    "dual_weapons": {
+      "unlock_level": 19,
+      "description": "Invoque deux armes spirituelles simultanément",
+      "weapon_count": 2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,717 @@
+{
+  "divine_item_artifact_system": {
+    "item_categories": {
+      "sacred_weapons": {
+        "description": "Divine weapons blessed or created by divine beings",
+        "subcategories": {
+          "blessed_weapons": {
+            "description": "Weapons enhanced with divine energy",
+            "power_levels": {
+              "minor_blessing": {
+                "divine_power": 25,
+                "effects": [
+                  "+1 damage",
+                  "holy_light_manifestation",
+                  "basic_divine_resistance"
+                ],
+                "creation_requirements": [
+                  "holy_relic",
+                  "blessing_ritual",
+                  "faithful_crafter"
+                ],
+                "energy_source": "holy_energy",
+                "maintenance": "minimal_prayer"
+              },
+              "major_blessing": {
+                "divine_power": 50,
+                "effects": [
+                  "+2 damage",
+                  "holy_aura",
+                  "divine_sight",
+                  "enhanced_blessing"
+                ],
+                "creation_requirements": [
+                  "sacred_relic",
+                  "major_ceremony",
+                  "devoted_crafter"
+                ],
+                "energy_source": "primordial_essence",
+                "maintenance": "regular_prayer"
+              },
+              "divine_masterwork": {
+                "divine_power": 75,
+                "effects": [
+                  "+3 damage",
+                  "divine_transcendence",
+                  "reality_enhancement",
+                  "cosmic_power"
+                ],
+                "creation_requirements": [
+                  "cosmic_relic",
+                  "legendary_craft",
+                  "canonized_saint"
+                ],
+                "energy_source": "primordial_essence",
+                "maintenance": "continuous_divine_connection"
+              }
+            }
+          },
+          "demon_slaying_weapons": {
+            "description": "Weapons specifically designed to combat evil forces",
+            "characteristics": [
+              "enhanced_damage_vs_evil",
+              "purification_abilities",
+              "corruption_resistance"
+            ],
+            "creation_traditions": [
+              "sun_priest_blessing",
+              "holy_fire_forging",
+              "sacrifice_empowerment"
+            ],
+            "special_abilities": {
+              "purification_strike": "Cleanses corruption on hit",
+              "demon_banishment": "Banishes summoned demons",
+              "holy_consecration": "Consecrates areas of battle"
+            }
+          },
+          "chaos_weapons": {
+            "description": "Weapons that embody chaotic divine forces",
+            "characteristics": [
+              "unpredictable_effects",
+              "transformation_powers",
+              "chaos_mastery"
+            ],
+            "creation_traditions": [
+              "chaos_ritual",
+              "transformation_ceremony",
+              "entropy_embrace"
+            ],
+            "special_abilities": {
+              "chaos_transformation": "Transforms user randomly",
+              "reality_warp": "Warps local reality",
+              "entropy_blessing": "Accelerates decay of enemies"
+            }
+          }
+        }
+      },
+      "holy_armor": {
+        "description": "Protective gear blessed with divine energy",
+        "subcategories": {
+          "blessed_armor": {
+            "description": "Standard divine protection",
+            "effects": [
+              "divine_ac_bonus",
+              "damage_reduction",
+              "spell_resistance"
+            ],
+            "creation_requirements": [
+              "holy_materials",
+              "blessing_ceremony",
+              "prayer_infusion"
+            ]
+          },
+          "saintly_armor": {
+            "description": "Armor worn by canonized saints",
+            "effects": [
+              "martyr_protection",
+              "faith_enhancement",
+              "miracle_channeling"
+            ],
+            "creation_requirements": [
+              "saint_relics",
+              "canonization_ceremony",
+              "adapted_referencete_blessing"
+            ]
+          },
+          "cosmic_armor": {
+            "description": "Armor providing cosmic-level protection",
+            "effects": [
+              "reality_protection",
+              "cosmic_resistance",
+              "dimension_stability"
+            ],
+            "creation_requirements": [
+              "cosmic_materials",
+              "primordial_essence",
+              "cosmic_forging"
+            ]
+          }
+        }
+      },
+      "divine_accessories": {
+        "description": "Magical items and tools enhanced by divine power",
+        "subcategories": {
+          "holy_jewelry": {
+            "description": "Jewelry with divine properties",
+            "types": {
+              "divine_crowns": {
+                "effects": [
+                  "divine_authority",
+                  "leadership_enhancement",
+                  "cosmic_wisdom"
+                ],
+                "creation_requirements": [
+                  "royal_bloodline",
+                  "divine_election",
+                  "coronation_ceremony"
+                ]
+              },
+              "holy_pendants": {
+                "effects": [
+                  "divine_protection",
+                  "faith_shield",
+                  "blessing_channeling"
+                ],
+                "creation_requirements": [
+                  "sacred_metals",
+                  "divine_symbols",
+                  "blessing_infusion"
+                ]
+              },
+              "sacred_rings": {
+                "effects": [
+                  "oath_binding",
+                  "divine_empowerment",
+                  "sacred_vows"
+                ],
+                "creation_requirements": [
+                  "divine_oath",
+                  "sacred_oil",
+                  "eternal_bonding"
+                ]
+              }
+            }
+          },
+          "divine_tools": {
+            "description": "Tools enhanced with divine capabilities",
+            "types": {
+              "sacred_scrolls": {
+                "effects": [
+                  "divine_knowledge",
+                  "spell_improvement",
+                  "prophetic_insight"
+                ],
+                "creation_requirements": [
+                  "divine_authorship",
+                  "cosmic_wisdom",
+                  "eternal_inscription"
+                ]
+              },
+              "holy_catalysts": {
+                "effects": [
+                  "spell_amplification",
+                  "energy_focusing",
+                  "divine_synthesis"
+                ],
+                "creation_requirements": [
+                  "divine_essence",
+                  "holy_chemistry",
+                  "alchemical_divinity"
+                ]
+              },
+              "sacred_instruments": {
+                "effects": [
+                  "divine_music",
+                  "healing_vibrations",
+                  "cosmic_harmony"
+                ],
+                "creation_requirements": [
+                  "divine_composition",
+                  "sacred_materials",
+                  "harmonic_blessing"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "cosmic_relics": {
+        "description": "Ancient artifacts of immense divine power",
+        "rarity": "legendary_to_cosmic",
+        "creation_origins": {
+          "primordial_creation": {
+            "description": "Items created during universe formation",
+            "power_source": "primordial_essence",
+            "properties": [
+              "reality_manipulation",
+              "universal_authority",
+              "creation_power"
+            ]
+          },
+          "divine_craftsmanship": {
+            "description": "Items crafted by cosmic-level divine beings",
+            "power_source": "divine_mastery",
+            "properties": [
+              "impossible_craftsmanship",
+              "magical_perfection",
+              "divine_efficiency"
+            ]
+          },
+          "cosmic_accidents": {
+            "description": "Items formed by cosmic events and forces",
+            "power_source": "cosmic_chaos",
+            "properties": [
+              "unpredictable_power",
+              "chaos_embodiment",
+              "reality_distortion"
+            ]
+          }
+        },
+        "relic_types": {
+          "world_shapers": {
+            "description": "Artifacts capable of altering reality on cosmic scales",
+            "effects": [
+              "world_creation",
+              "reality_modification",
+              "universal_change"
+            ],
+            "activation_requirements": [
+              "cosmic_authorization",
+              "universal_consensus",
+              "reality_acceptance"
+            ]
+          },
+          "time_anchors": {
+            "description": "Artifacts that stabilize or manipulate temporal flow",
+            "effects": [
+              "time_dilation",
+              "temporal_stabilization",
+              "past_future_access"
+            ],
+            "activation_requirements": [
+              "temporal_understanding",
+              "past_present_connection",
+              "future_wisdom"
+            ]
+          },
+          "soul_forges": {
+            "description": "Artifacts that can create or transform souls",
+            "effects": [
+              "soul_creation",
+              "essence_transformation",
+              "spiritual_evolution"
+            ],
+            "activation_requirements": [
+              "soul_mastery",
+              "essence_understanding",
+              "spiritual_authority"
+            ]
+          }
+        }
+      }
+    },
+    "creation_mechanics": {
+      "blessing_process": {
+        "basic_blessing": {
+          "requirements": [
+            "worthy_item_or_weapon",
+            "qualified_priest_or_cleric",
+            "appropriate_ritual_components",
+            "genuine_faith_demonstration"
+          ],
+          "duration": "2-4 hours",
+          "energy_cost": "25-50 divine energy",
+          "success_rate": "70-90%",
+          "outcome": "Minor divine enhancement"
+        },
+        "major_blessing": {
+          "requirements": [
+            "exceptional_item_or_weapon",
+            "high_level_priest_or_cult_leader",
+            "major_sacrifice_or_offering",
+            "communal_worship_ceremony"
+          ],
+          "duration": "6-12 hours",
+          "energy_cost": "100-200 divine energy",
+          "success_rate": "50-80%",
+          "outcome": "Significant divine power"
+        },
+        "divine_creation": {
+          "requirements": [
+            "cosmic_material_or_relic",
+            "divine_being_direct_intervention",
+            "universal_significance",
+            "reality_modification_necessity"
+          ],
+          "duration": "Days to weeks",
+          "energy_cost": "1000+ divine energy",
+          "success_rate": "10-50%",
+          "outcome": "Legendary divine artifact"
+        }
+      },
+      "craftsmanship_requirements": {
+        "material_quality": {
+          "base_materials": {
+            "description": "Standard crafting materials",
+            "craftsmanship_multiplier": "1x",
+            "divine_compatibility": "low"
+          },
+          "sacred_materials": {
+            "description": "Materials blessed or sanctified",
+            "craftsmanship_multiplier": "1.5x",
+            "divine_compatibility": "medium"
+          },
+          "divine_materials": {
+            "description": "Materials from divine sources",
+            "craftsmanship_multiplier": "2x",
+            "divine_compatibility": "high"
+          },
+          "cosmic_materials": {
+            "description": "Materials from cosmic or primordial sources",
+            "craftsmanship_multiplier": "3x+",
+            "divine_compatibility": "maximum"
+          }
+        },
+        "craftsman_requirements": {
+          "devoted_craftsman": {
+            "faith_tier": "devoted_believer",
+            "skill_requirement": "master_craftsman",
+            "divine_connection": "basic_patron_relationship",
+            "success_modifier": "+10%"
+          },
+          "fervent_artisan": {
+            "faith_tier": "fervent_devotee",
+            "skill_requirement": "grandmaster_craftsman",
+            "divine_connection": "close_patron_relationship",
+            "success_modifier": "+25%"
+          },
+          "saintly_creator": {
+            "faith_tier": "zealous_saint",
+            "skill_requirement": "legendary_craftsman",
+            "divine_connection": "divine_friendship",
+            "success_modifier": "+50%"
+          },
+          "divine_artisan": {
+            "faith_tier": "canonized_being",
+            "skill_requirement": "cosmic_craftsman",
+            "divine_connection": "divine_unity",
+            "success_modifier": "+100%"
+          }
+        }
+      },
+      "item_degradation": {
+        "natural_decay": {
+          "description": "Items slowly lose divine power over time",
+          "rate": "1% power loss per year without maintenance",
+          "factors": [
+            "usage_intensity",
+            "divine_energy_exposure",
+            "alignment_maintenance"
+          ],
+          "prevention": [
+            "regular_blessing",
+            "proper_storage",
+            "faith_demonstration"
+          ]
+        },
+        "corruption_effects": {
+          "description": "Evil influence corrupts divine items",
+          "causes": [
+            "evil_contact",
+            "corruption_exposure",
+            "alignment_violation"
+          ],
+          "symptoms": [
+            "power_reduction",
+            "malfunction",
+            "cursed_effects"
+          ],
+          "purification": [
+            "purification_ritual",
+            "holy_water",
+            "divine_intervention"
+          ]
+        },
+        "maintenance_requirements": {
+          "daily_prayer": {
+            "energy_cost": "minimal",
+            "effect": "maintains current power level",
+            "requirement": "devoted_believer"
+          },
+          "weekly_blessing": {
+            "energy_cost": "moderate",
+            "effect": "restores minor power loss",
+            "requirement": "qualified_priest"
+          },
+          "annual_consecration": {
+            "energy_cost": "major",
+            "effect": "full_power_restoration",
+            "requirement": "high_priest"
+          }
+        }
+      }
+    },
+    "item_power_levels": {
+      "mundane_enhanced": {
+        "power_range": "1-25 divine power",
+        "description": "Standard items with minor divine enhancement",
+        "effects": [
+          "basic_stat_boost",
+          "minor_protection",
+          "simple_blessing"
+        ],
+        "creation_difficulty": "moderate",
+        "rarity": "common_to_uncommon"
+      },
+      "holy_empowered": {
+        "power_range": "26-50 divine power",
+        "description": "Items with significant divine capabilities",
+        "effects": [
+          "major_stat_boost",
+          "divine_resistance",
+          "spell_enhancement"
+        ],
+        "creation_difficulty": "advanced",
+        "rarity": "uncommon_to_rare"
+      },
+      "sacred_masterworks": {
+        "power_range": "51-75 divine power",
+        "description": "Exceptional items with powerful divine properties",
+        "effects": [
+          "legendary_stats",
+          "divine_immunity",
+          "reality_enhancement"
+        ],
+        "creation_difficulty": "expert",
+        "rarity": "rare_to_very_rare"
+      },
+      "cosmic_artifacts": {
+        "power_range": "76-100 divine power",
+        "description": "Legendary items with cosmic-level abilities",
+        "effects": [
+          "universal_power",
+          "reality_manipulation",
+          "cosmic_authority"
+        ],
+        "creation_difficulty": "legendary",
+        "rarity": "very_rare_to_unique"
+      },
+      "primordial_relics": {
+        "power_range": "100+ divine power",
+        "description": "Items of adapted_referencete divine power from cosmic origins",
+        "effects": [
+          "absolute_authority",
+          "reality_mastery",
+          "universal_transformation"
+        ],
+        "creation_difficulty": "impossible_to_craft",
+        "rarity": "unique_or_one_of_a_kind"
+      }
+    },
+    "divine_item_properties": {
+      "weapon_properties": {
+        "holy_fury": {
+          "description": "Increases damage against evil-aligned targets",
+          "effect": "+2d6 damage vs evil, +4d6 vs demons",
+          "activation": "automatically_triggered",
+          "energy_cost": "none"
+        },
+        "divine_precision": {
+          "description": "Enhances accuracy and critical hit chance",
+          "effect": "+2 to attack rolls, 19-20 critical range",
+          "activation": "continuous",
+          "energy_cost": "minimal"
+        },
+        "sanctified_strike": {
+          "description": "Consecration and purification on hit",
+          "effect": "Purifies corruption, banishes undead",
+          "activation": "on_hit",
+          "energy_cost": "moderate"
+        },
+        "reality_enhancement": {
+          "description": "Modifies local reality to favor wielder",
+          "effect": "+5 to all rolls, immunity to mundane damage",
+          "activation": "continuous",
+          "energy_cost": "major"
+        }
+      },
+      "armor_properties": {
+        "divine_protection": {
+          "description": "Reduces all incoming damage",
+          "effect": "-2 to all damage taken",
+          "activation": "continuous",
+          "energy_cost": "minimal"
+        },
+        "faith_shield": {
+          "description": "Blocks magical and divine attacks",
+          "effect": "Immunity to spells below certain level",
+          "activation": "automatic",
+          "energy_cost": "moderate"
+        },
+        "martyr_endurance": {
+          "description": "Enhanced survivability through divine sacrifice",
+          "effect": "Convert damage to temporary HP, immunity to death effects",
+          "activation": "when_damaged",
+          "energy_cost": "major"
+        }
+      },
+      "accessory_properties": {
+        "divine_communication": {
+          "description": "Enables direct communication with divine beings",
+          "effect": "Telepathic communication with patron deity",
+          "activation": "willful_activation",
+          "energy_cost": "moderate"
+        },
+        "prophetic_sight": {
+          "description": "Grants visions of future events",
+          "effect": "Daily prophetic vision, truth detection",
+          "activation": "sleep_induced",
+          "energy_cost": "major"
+        },
+        "cosmic_awareness": {
+          "description": "Universal knowledge and understanding",
+          "effect": "Knows all information within 100 miles",
+          "activation": "continuous",
+          "energy_cost": "extreme"
+        }
+      }
+    },
+    "item_systems_integration": {
+      "player_progression": {
+        "item_availability": {
+          "level_1_5": "mundane_enhanced items",
+          "level_6_10": "holy_empowered items",
+          "level_11_15": "sacred_masterworks",
+          "level_16_20": "cosmic_artifacts",
+          "level_20+": "primordial_relics"
+        },
+        "faith_requirements": {
+          "curious_seeker": "basic_enhanced items",
+          "devoted_believer": "holy_empowered items",
+          "fervent_devotee": "sacred_masterworks",
+          "zealous_saint": "cosmic_artifacts",
+          "canonized_being": "primordial_relics"
+        }
+      },
+      "combat_integration": {
+        "divine_combat_bonuses": {
+          "alignment_boost": "Perfect alignment provides +1d6 damage",
+          "divine_fury": "High faith provides +2 attack rolls",
+          "holy_avenger": "Dedicated worshippers gain extra critical hits",
+          "cosmic_mastery": "adapted_referencete faith enables reality manipulation"
+        },
+        "sacred_weapon_mastery": {
+          "novice": "Basic divine weapon proficiency",
+          "adept": "Enhanced divine weapon abilities",
+          "master": "Reality manipulation through divine weapons",
+          "legendary": "Cosmic-level divine weapon mastery"
+        }
+      },
+      "social_integration": {
+        "divine_item_status": {
+          "holy_item_possession": "Increased social standing with faithful",
+          "sacred_weapon_ownership": "Leadership recognition",
+          "cosmic_artifact_holding": "Universal respect and authority"
+        },
+        "item_recognition": {
+          "divine_sight": "Able to identify divine items and their power",
+          "faith_perception": "Recognize worthy divine items",
+          "cosmic_awareness": "Understand artifact significance and history"
+        }
+      },
+      "economic_integration": {
+        "item_values": {
+          "mundane_enhanced": "2-10x normal item value",
+          "holy_empowered": "10-50x normal item value",
+          "sacred_masterworks": "50-200x normal item value",
+          "cosmic_artifacts": "200-1000x normal item value",
+          "primordial_relics": "priceless"
+        },
+        "trade_restrictions": {
+          "holy_items": "Cannot be traded to evil beings",
+          "sacred_artifacts": "Require divine approval for transfer",
+          "cosmic_relics": "Bound to worthy possessors"
+        }
+      }
+    },
+    "specific_artifact_examples": {
+      "the_sunblade": {
+        "category": "sacred_weapon",
+        "description": "Legendary sword that channels the power of dawn",
+        "properties": [
+          "holy_fury",
+          "divine_precision",
+          "sanctified_strike",
+          "reality_enhancement"
+        ],
+        "creation_story": "Forged from solar steel during the first sunrise by an archangel",
+        "current_status": "Lost artifact seeking worthy wielder",
+        "powers": {
+          "daylight_mastery": "Unlimited power during daylight hours",
+          "shadow_banishment": "Destroys all undead and shadow creatures",
+          "dawn_empowerment": "Grants wielder strength of morning sun"
+        },
+        "requirements": {
+          "alignment": "Lawful Good",
+          "faith_tier": "zealous_saint",
+          "demonstrated_worthiness": "Victory over major evil without corruption"
+        }
+      },
+      "the_apostle_vestments": {
+        "category": "holy_armor",
+        "description": "Complete set of armor worn by divine apostles",
+        "properties": [
+          "divine_protection",
+          "faith_shield",
+          "martyr_endurance"
+        ],
+        "creation_story": "Blessed by multiple deities for protection of divine messengers",
+        "powers": {
+          "apostle_communication": "Enables communication with any deity",
+          "universal_blessing": "Protects against all forms of harm",
+          "mission_fulfillment": "Ensures completion of divine missions"
+        },
+        "requirements": {
+          "role": "Divine messenger or apostle",
+          "faith_demonstration": "Proven ability to serve multiple deities",
+          "mission_commitment": "Dedication to universal service"
+        }
+      },
+      "the_cosmic_compass": {
+        "category": "divine_accessory",
+        "description": "Instrument that guides toward cosmic truths and destinations",
+        "properties": [
+          "prophetic_sight",
+          "cosmic_awareness",
+          "divine_communication"
+        ],
+        "creation_story": "Created during universe formation to guide cosmic explorers",
+        "powers": {
+          "universal_navigation": "Can locate any location in any dimension",
+          "cosmic_guidance": "Reveals the path to universal truths",
+          "destiny_alignment": "Guides toward cosmic purpose"
+        },
+        "requirements": {
+          "cosmic_purpose": "Must have universal mission",
+          "dimensional_awareness": "Ability to perceive multiple realities",
+          "destiny_acceptance": "Willingness to follow cosmic guidance"
+        }
+      },
+      "the_world_seed": {
+        "category": "cosmic_relic",
+        "description": "Primordial artifact capable of creating new worlds",
+        "properties": [
+          "reality_enhancement",
+          "creation_mastery",
+          "universal_authority"
+        ],
+        "creation_story": "Remnant from the first world creation, contains seed of infinite possibility",
+        "powers": {
+          "world_creation": "Can create new pocket dimensions or worlds",
+          "reality_seed": "Plants seeds of new realities",
+          "universal_evolution": "Accelerates cosmic development"
+        },
+        "requirements": {
+          "cosmic_authority": "Recognition as cosmic authority figure",
+          "universal_consensus": "Support from multiple cosmic powers",
+          "creation_wisdom": "Complete understanding of creation principles"
+        },
+        "danger": "Improper use can destroy existing realities"
+      }
+    }
+  },
+  "id": "divine_items_artifacts",
+  "name": "Divine Items Artifacts",
+  "template_type": "divine_system",
+  "version": "0.1.0"
+}

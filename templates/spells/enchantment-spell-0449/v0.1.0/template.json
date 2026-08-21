@@ -1,0 +1,70 @@
+{
+  "id": "enchantment_spell_0449",
+  "name": "Enchantment Spell 0449",
+  "description": "Enchant un allié avec une immunité temporaire à la peur et une résistance mentale accrue",
+  "icon": "enchantment_spell_0449_icon",
+  "school": "enchantment",
+  "rarity": "rare",
+  "spell_type": "mental_fortification",
+  "target_type": "single_ally",
+  "range": 30.0,
+  "cast_time": 1200,
+  "cooldown": 12000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "mental_fortification_buff"
+  },
+  "effects": [
+    {
+      "effect_type": "psychic_barrier_erection",
+      "value": 200,
+      "duration": 30000,
+      "tick_rate": 0,
+      "fear_immunity_complete": true,
+      "mind_control_resistance": 0.8,
+      "psychological_defense": 150,
+      "mental_stability_boost": true,
+      "sanity_protection_aura": 20.0,
+      "terror_nullification_field": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "psychic_barrier_symmetrical_runes",
+    "barrier_effect": "transparent_mental_shield_radiating",
+    "fortify_effect": "mind_strengthening_energy_waves",
+    "expire_effect": "shield_cracking_open_mind_vulnerable"
+  },
+  "sound_effects": {
+    "cast_sound": "mental_barrier_crystallizing_formation",
+    "barrier_sound": "psyche_stability_resonance_tones",
+    "fortify_effect": "mental_strength_triumphant_harmony",
+    "expire_sound": "shield_breaking_mental_fatigue_sigh"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "arcane_magic",
+      "mental_fortification"
+    ],
+    "classes": [
+      "enchanter",
+      "mind_warden"
+    ],
+    "specializations": [
+      "psychic_defender"
+    ]
+  },
+  "upgrades": {
+    "superior_tashan": {
+      "unlock_level": 28,
+      "description": "La forteresse mentale devient impénétrable et protège même contre les traumatismes",
+      "trama_immunity_radio": true,
+      "mind_shock_reflection": 0.5,
+      "sanity_shield_burst": 300,
+      "group_mental_protection": 12.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

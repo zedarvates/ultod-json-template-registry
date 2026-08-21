@@ -1,0 +1,47 @@
+{
+  "id": "conjuration_spell_1536",
+  "name": "Conjuration Spell 1536",
+  "description": "Téléporte brièvement vers un endroit visible dans la portée",
+  "icon": "conjuration_spell_1536_icon",
+  "school": "conjuration",
+  "rarity": "uncommon",
+  "spell_type": "movement",
+  "target_type": "self",
+  "range": 9.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "teleport",
+      "value": 9.0,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "mist_portal"
+  },
+  "sound_effects": {
+    "cast_sound": "whoosh"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "conjuration"
+    ],
+    "classes": [
+      "warlock",
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "divination_spell_0277",
+  "name": "Divination Spell 0277",
+  "description": "Permet au clerc de sentir la présence du mal et des intentions impies",
+  "icon": "divination_spell_0277_icon",
+  "school": "divination",
+  "rarity": "common",
+  "spell_type": "divine_sensing",
+  "target_type": "area_scan",
+  "range": 50.0,
+  "cast_time": 800,
+  "cooldown": 3000,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "divine_divination_spell_0277ion"
+  },
+  "effects": [
+    {
+      "effect_type": "evil_sensing_aura",
+      "value": 100,
+      "duration": 30000,
+      "tick_rate": 0,
+      "sensing_range": 50.0,
+      "evil_reveal_chance": 0.9,
+      "alignment_detection": true,
+      "hidden_undead_reveal": true,
+      "malicious_intent_glow": true,
+      "reveal_radius": 50.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_senses_activation",
+    "detection_effect": "evil_entities_glowing_aura",
+    "reveal_effect": "truth_unveiling_light_beams",
+    "persist_effect": "sensory_divine_markers"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_perception_humm",
+    "detection_sound": "evil_unmasked_whisper",
+    "reveal_sound": "truth_revealed_ding",
+    "persist_sound": "constant_evil_divination_spell_0277ion_beep"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "divine_magic",
+      "divination"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "truth_seeker"
+    ]
+  },
+  "upgrades": {
+    "enhanced_discernment": {
+      "unlock_level": 7,
+      "description": "Dévoile plus de détails sur les créatures maléfiques",
+      "alignment_detail_level": 3,
+      "hidden_threat_reveal": 0.95,
+      "distance_indicator": true
+    },
+    "divine_vision": {
+      "unlock_level": 15,
+      "description": "La détection devient permanente et révèle les auras invisibles",
+      "permanent_detection": true,
+      "aura_clarity_bonus": 0.2,
+      "invisible_reveal": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

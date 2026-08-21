@@ -1,0 +1,77 @@
+{
+  "id": "chronomancy_spell_0233",
+  "name": "Chronomancy Spell 0233",
+  "description": "Crée un bouclier temporel qui protège contre les effets temporels et absorbe le temps lui-même",
+  "icon": "chronomancy_spell_0233_icon",
+  "school": "chronomancy",
+  "rarity": "uncommon",
+  "spell_type": "temporal_protection",
+  "target_type": "single_ally",
+  "range": 25.0,
+  "cast_time": 1200,
+  "cooldown": 18000,
+  "mana_cost": 65,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "temporal_shield_buff",
+      "value": 100,
+      "duration": 25000,
+      "tick_rate": 0,
+      "temporal_immunity": 0.8,
+      "slow_resistance": 100,
+      "aging_protection": true,
+      "time_damage_absorption": 200,
+      "chronal_barrier_visual": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "temporal_energy_weaving",
+    "shield_effect": "warping_time_barrier",
+    "absorption_effect": "time_energy_dissolution",
+    "expire_effect": "temporal_barrier_shatter"
+  },
+  "sound_effects": {
+    "cast_sound": "time_weaving_hum",
+    "shield_sound": "temporal_barrier_pulse",
+    "absorption_sound": "time_energy_absorb_hiss",
+    "expire_sound": "barrier_break_crack"
+  },
+  "requirements": {
+    "level": 15,
+    "skills": [
+      "chronomancy",
+      "temporal_shielding",
+      "time_defense"
+    ],
+    "classes": [
+      "chronomancer",
+      "time_mage",
+      "temporalist"
+    ],
+    "specializations": [
+      "temporal_guardian"
+    ]
+  },
+  "upgrades": {
+    "reinforced_barriers": {
+      "unlock_level": 25,
+      "description": "Le bouclier devient plus résistant et absorbe plus de dégâts temporels",
+      "temporal_immunity_bonus": 0.2,
+      "absorption_capacity_bonus": 150,
+      "slow_resistance_bonus": 100
+    },
+    "temporal_reflection": {
+      "unlock_level": 35,
+      "description": "Le bouclier peut réfléchir certains effets temporels vers les agresseurs",
+      "reflection_chance": 0.4,
+      "reflected_damage_multiplier": 0.8,
+      "temporal_counter_damage": 50
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

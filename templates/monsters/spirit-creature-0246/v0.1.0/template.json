@@ -1,0 +1,66 @@
+{
+  "id": "spirit_creature_0246",
+  "name": "Spirit Creature 0246",
+  "description": "Esprit renard mystique aux multiples queues, maître des illusions et de la magie",
+  "icon": "spirit_creature_0246_icon",
+  "category": "spirit",
+  "rarity": "rare",
+  "base_stats": {
+    "health": 1200,
+    "mana": 1600,
+    "strength": 40,
+    "dexterity": 80,
+    "intelligence": 100,
+    "wisdom": 90,
+    "constitution": 60,
+    "charisma": 120
+  },
+  "properties": {
+    "is_magical": true,
+    "is_shapechanger": true,
+    "size": "medium",
+    "speed": 12.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "fox_tail",
+      "illusion_crystal"
+    ],
+    "rare_drops": [
+      "spirit_creature_0246_orb",
+      "shapechange_talisman"
+    ],
+    "epic_drops": [
+      "nine_tails_essence",
+      "spirit_fox_mask"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "moderate",
+    "attack_pattern": "illusionary_assault",
+    "special_abilities": [
+      "illusion_creation",
+      "shapechange",
+      "charm_magic"
+    ]
+  },
+  "abilities": [
+    "foxfire",
+    "mirror_image",
+    "charm_person",
+    "tail_whip",
+    "spirit_illusion"
+  ],
+  "resistances": {
+    "magic": 60,
+    "illusion": 100,
+    "physical": 20
+  },
+  "weaknesses": [
+    "holy",
+    "silver",
+    "truth_revealing"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

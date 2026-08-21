@@ -1,0 +1,75 @@
+{
+  "id": "armes_spell_1568",
+  "name": "Armes Spell 1568",
+  "description": "Frappe tous les ennemis proches, leur infligeant des dégâts et réduisant leur vitesse de mouvement",
+  "icon": "armes_spell_1568_icon",
+  "school": "armes",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "area",
+  "range": 8.0,
+  "cast_time": 0,
+  "cooldown": 4000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 80,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.6,
+      "rage": 0.4
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "area_damage",
+      "value": 80,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_radius": 8.0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "slow_debuff",
+      "value": 0.3,
+      "duration": 10000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ground_slam",
+    "projectile_effect": "shockwave",
+    "impact_effect": "armes_spell_1568_impact",
+    "trail_effect": "none"
+  },
+  "sound_effects": {
+    "cast_sound": "ground_slam",
+    "impact_sound": "armes_spell_1568"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": [
+      "arms"
+    ]
+  },
+  "upgrades": {
+    "improved_thunder_clap": {
+      "unlock_level": 14,
+      "description": "Augmente le rayon et les dégâts de Armes Spell 1568 de 25%",
+      "radius_bonus": 25,
+      "damage_bonus": 25
+    },
+    "thunder_clap_mastery": {
+      "unlock_level": 24,
+      "description": "Armes Spell 1568 a une chance d'étourdir les cibles",
+      "stun_chance": 0.2,
+      "stun_duration": 2000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "spirit_creature_0400",
+  "name": "Spirit Creature 0400",
+  "description": "Esprit ancien lié à une arme légendaire, prenant forme physique pour protéger son maître",
+  "icon": "spirit_creature_0400_icon",
+  "category": "spirit",
+  "rarity": "legendary",
+  "base_stats": {
+    "health": 2500,
+    "mana": 1500,
+    "strength": 70,
+    "dexterity": 85,
+    "intelligence": 60,
+    "wisdom": 75,
+    "constitution": 65,
+    "charisma": 40
+  },
+  "properties": {
+    "is_magical": true,
+    "is_unique": true,
+    "is_summonable": true,
+    "size": "medium",
+    "speed": 14.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "spirit_essence",
+      "spirit_creature_0400_fragment"
+    ],
+    "rare_drops": [
+      "spirit_core",
+      "spirit_creature_0400_blessing"
+    ],
+    "epic_drops": [
+      "legendary_spirit_creature_0400_summon",
+      "spirit_bond"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "defensive",
+    "attack_pattern": "spirit_creature_0400_adaptation",
+    "special_abilities": [
+      "spirit_creature_0400_form_change",
+      "master_protection",
+      "spirit_resonance"
+    ]
+  },
+  "abilities": [
+    "spirit_creature_0400_dance",
+    "spirit_shield",
+    "master_link",
+    "spirit_creature_0400_resonance",
+    "spirit_form"
+  ],
+  "resistances": {
+    "physical": 30,
+    "magic": 40,
+    "spirit": 80
+  },
+  "weaknesses": [
+    "darkness",
+    "corruption"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

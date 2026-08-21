@@ -1,0 +1,57 @@
+{
+  "id": "sacre_spell_1125",
+  "name": "Sacre Spell 1125",
+  "description": "Vous touchez une créature récemment tuée. Si sa mort a eu lieu il y a moins de 1 minute, vous ramenez la créature à la vie avec 1 point de vie. Ce sort ne peut pas être utilisé si le corps manque de tête ou d'un organe vital",
+  "icon": "sacre_spell_1125_icon",
+  "school": "sacré",
+  "rarity": "rare",
+  "spell_type": "resurrection",
+  "target_type": "ally",
+  "range": 2.0,
+  "cast_time": 1000,
+  "cooldown": 300000,
+  "mana_cost": 200,
+  "effects": [
+    {
+      "effect_type": "resurrection",
+      "value": 1,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_radius": 0.0,
+      "proc_chance": 1.0,
+      "time_limit_seconds": 60
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "holy_power_sur",
+    "resurrection_effect": "life_spark",
+    "impact_effect": "divine_restoration_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "angelic_incantation",
+    "resurrection_sound": "life_restored",
+    "impact_sound": "awakening_chime"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_revivify": {
+      "unlock_level": 9,
+      "description": "Augmente le nombre de PV restaurés",
+      "hp_bonus": 5
+    },
+    "timely_revivify": {
+      "unlock_level": 15,
+      "description": "Augmente la limite de temps pour la résurrection",
+      "time_bonus": 30
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

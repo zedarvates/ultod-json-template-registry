@@ -1,0 +1,459 @@
+{
+  "profession_id": "master_cook",
+  "name": "Master Cook",
+  "display_name": "Maître Cuisinier",
+  "description": "Maîtrise ultime de la cuisine permettant de créer des plats et boissons légendaires",
+  "base_skill": "cooking",
+  "tier": "master",
+  "skill_requirement": 70,
+  "experience_requirement": 35000,
+  "icon": "profession_cooking_master",
+  "category": "crafting",
+  "subcategory": "food_preparation",
+  "skill_progression": {
+    "formula": "cooking_level * (1 + 0.10 * mastery_tier + 0.06 * specialization_level)",
+    "mastery_levels": [
+      "apprentice",
+      "journeyman",
+      "expert",
+      "master"
+    ],
+    "tier_requirements": {
+      "apprentice": {
+        "level": 1,
+        "talent_points": 0
+      },
+      "journeyman": {
+        "level": 21,
+        "talent_points": 4
+      },
+      "expert": {
+        "level": 41,
+        "talent_points": 8
+      },
+      "master": {
+        "level": 61,
+        "talent_points": 12
+      }
+    },
+    "practice_benefits": {
+      "cooking_speed": 0.12,
+      "food_quality": 0.08,
+      "success_rate": 0.1,
+      "discovery_chance": 0.06
+    },
+    "decay_mechanic": {
+      "enabled": true,
+      "rate": 0.004,
+      "minimum_level": 20,
+      "recovery_rate": 0.01
+    }
+  },
+  "talent_tree": {
+    "total_points": 16,
+    "branches": {
+      "culinary_mastery": {
+        "name": "Maîtrise Culinaire",
+        "max_points": 5,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Préparation Précise",
+            "max_rank": 3,
+            "effects": {
+              "cooking_speed": 0.15,
+              "food_quality": 0.12,
+              "success_rate": 0.08
+            },
+            "prerequisites": [],
+            "description": "Techniques précises pour une préparation efficace"
+          },
+          {
+            "name": "Saveurs Harmonieuses",
+            "max_rank": 2,
+            "effects": {
+              "flavor_balance": 0.2,
+              "buff_duration": 0.15,
+              "stacking_bonus": 0.1
+            },
+            "prerequisites": [
+              "Préparation Précise_2"
+            ],
+            "description": "Création de plats aux saveurs équilibrées"
+          }
+        ]
+      },
+      "beverage_expertise": {
+        "name": "Expertise des Boissons",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Maître des Boissons",
+            "max_rank": 2,
+            "effects": {
+              "beverage_quality": 0.25,
+              "intoxication_control": 0.2,
+              "refreshment_power": 0.15
+            },
+            "prerequisites": [],
+            "description": "Création de boissons de qualité supérieure"
+          },
+          {
+            "name": "Élixir Spiritueux",
+            "max_rank": 2,
+            "effects": {
+              "alcohol_strength": 0.3,
+              "special_effects": true,
+              "duration_bonus": 0.25
+            },
+            "prerequisites": [
+              "Maître des Boissons_1"
+            ],
+            "description": "Boissons aux effets spéciaux et durables"
+          }
+        ]
+      },
+      "nutritional_science": {
+        "name": "Science Nutritionnelle",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Nutrition Optimale",
+            "max_rank": 2,
+            "effects": {
+              "health_regen": 0.2,
+              "stamina_boost": 0.18,
+              "mana_regen": 0.15
+            },
+            "prerequisites": [],
+            "description": "Plats qui optimisent la régénération"
+          },
+          {
+            "name": "Aliments Magiques",
+            "max_rank": 2,
+            "effects": {
+              "magical_properties": true,
+              "buff_amplification": 0.25,
+              "resistance_bonus": 0.2
+            },
+            "prerequisites": [
+              "Nutrition Optimale_2"
+            ],
+            "description": "Aliments infusés de propriétés magiques"
+          }
+        ]
+      },
+      "gourmet_arts": {
+        "name": "Arts Gourmets",
+        "max_points": 3,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Chef d'Exception",
+            "max_rank": 1,
+            "effects": {
+              "legendary_dishes": true,
+              "quality_multiplier": 0.4,
+              "reputation_bonus": 0.3
+            },
+            "prerequisites": [
+              "Saveurs Harmonieuses_2",
+              "Élixir Spiritueux_2"
+            ],
+            "description": "Capacité à créer des plats légendaires"
+          },
+          {
+            "name": "Banquet Impérial",
+            "max_rank": 1,
+            "effects": {
+              "mass_preparation": true,
+              "group_buffs": true,
+              "feast_duration": 0.5
+            },
+            "prerequisites": [
+              "Chef d'Exception"
+            ],
+            "description": "Préparation de banquets pour groupes"
+          },
+          {
+            "name": "Cuisine Divine",
+            "max_rank": 1,
+            "effects": {
+              "divine_blessing": true,
+              "permanent_buffs": true,
+              "legendary_creation": true
+            },
+            "prerequisites": [
+              "Banquet Impérial"
+            ],
+            "description": "Cuisine bénie par les dieux"
+          }
+        ]
+      }
+    }
+  },
+  "specialization_paths": {
+    "gourmet_chef": {
+      "name": "Chef Gourmet",
+      "requirements": {
+        "cooking_level": 35,
+        "culinary_mastery_points": 5,
+        "completed_quests": 2
+      },
+      "bonuses": {
+        "food_quality": 20.0,
+        "cooking_speed": 15.0,
+        "rare_ingredient_chance": 12.0,
+        "flavor_complexity": 0.25,
+        "buff_duration": 0.2
+      },
+      "unlock_recipes": [
+        "plat_signature",
+        "sauce_secrete",
+        "dessert_fantastique",
+        "boisson_exquise"
+      ],
+      "unlock_abilities": [
+        "preparation_rapide",
+        "saveur_parfaite",
+        "conservation_alimentaire"
+      ],
+      "synergies": {
+        "alchemist": {
+          "multiplier": 1.3,
+          "effects": [
+            "ingredient_enhancement",
+            "potion_food_synergy"
+          ]
+        },
+        "healer": {
+          "multiplier": 1.4,
+          "effects": [
+            "healing_food",
+            "regeneration_boost"
+          ]
+        }
+      }
+    },
+    "mixologist": {
+      "name": "Mixologue",
+      "requirements": {
+        "cooking_level": 40,
+        "beverage_expertise_points": 4,
+        "completed_quests": 2
+      },
+      "bonuses": {
+        "beverage_quality": 25.0,
+        "intoxication_control": 30.0,
+        "special_effects": 20.0,
+        "alcohol_strength": 0.35,
+        "duration_bonus": 0.25
+      },
+      "unlock_recipes": [
+        "cocktail_magique",
+        "elixir_fermente",
+        "potion_alcoolisee",
+        "breuvage_ancestral"
+      ],
+      "unlock_abilities": [
+        "mixage_parfait",
+        "fermentation_accelerée",
+        "effets_alcooliques"
+      ],
+      "synergies": {
+        "alchemist": {
+          "multiplier": 1.5,
+          "effects": [
+            "potion_beverage",
+            "fermentation_boost"
+          ]
+        },
+        "enchanter": {
+          "multiplier": 1.3,
+          "effects": [
+            "magical_beverages",
+            "enchantment_infusion"
+          ]
+        }
+      }
+    },
+    "nutritional_master": {
+      "name": "Maître Nutritionnel",
+      "requirements": {
+        "cooking_level": 60,
+        "nutritional_science_points": 4,
+        "gourmet_arts_points": 3,
+        "completed_specializations": 2,
+        "master_achievements": 2
+      },
+      "bonuses": {
+        "health_regen": 40.0,
+        "stamina_boost": 35.0,
+        "mana_regen": 30.0,
+        "buff_amplification": 25.0,
+        "resistance_bonus": 20.0
+      },
+      "unlock_recipes": [
+        "aliment_divin",
+        "banquet_celeste",
+        "elixir_nutritionnel",
+        "plat_immortel"
+      ],
+      "unlock_abilities": [
+        "nutrition_optimale",
+        "regeneration_accélérée",
+        "buff_permanent"
+      ],
+      "synergies": {
+        "healer": {
+          "multiplier": 1.6,
+          "effects": [
+            "healing_amplification",
+            "regeneration_mastery"
+          ]
+        },
+        "druid": {
+          "multiplier": 1.4,
+          "effects": [
+            "natural_foods",
+            "harmony_buff"
+          ]
+        }
+      }
+    }
+  },
+  "abilities": [
+    "master_cooking",
+    "gourmet_creation",
+    "beverage_mastery",
+    "nutritional_expertise",
+    "feast_preparation",
+    "divine_cuisine",
+    "food_preservation",
+    "flavor_enhancement"
+  ],
+  "quests": [
+    {
+      "id": "cook_apprentice",
+      "name": "L'Apprenti Cuisinier",
+      "requirements": {
+        "cooking_level": 1,
+        "cook_meals": 15,
+        "gather_ingredients": 40
+      },
+      "rewards": [
+        "basic_cooking_kit",
+        "apprentice_talent_points",
+        "basic_recipes"
+      ]
+    },
+    {
+      "id": "cook_journeyman",
+      "name": "Le Cuisinier Voyageur",
+      "requirements": {
+        "cooking_level": 21,
+        "cook_meals": 80,
+        "create_beverages": 20,
+        "discover_recipes": 3
+      },
+      "rewards": [
+        "journeyman_cooking_kit",
+        "journeyman_talent_points",
+        "advanced_recipes"
+      ]
+    },
+    {
+      "id": "cook_master",
+      "name": "Le Maître des Saveurs",
+      "requirements": {
+        "cooking_level": 61,
+        "cook_meals": 400,
+        "create_beverages": 150,
+        "discover_legendary": 8,
+        "master_achievements": 2
+      },
+      "rewards": [
+        "master_cooking_kit",
+        "master_talent_points",
+        "legendary_recipes",
+        "gourmet_arts_abilities"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "first_meal",
+      "name": "Premier Repas",
+      "requirement": {
+        "cook_meals": 1
+      },
+      "rewards": [
+        "basic_recipe",
+        "5_copper_coins"
+      ]
+    },
+    {
+      "id": "beverage_master",
+      "name": "Maître des Boissons",
+      "requirement": {
+        "create_beverages": 40
+      },
+      "rewards": [
+        "beverage_specialization",
+        "150_silver_coins",
+        "beverage_duration_bonus"
+      ]
+    },
+    {
+      "id": "legendary_feast",
+      "name": "Festin Légendaire",
+      "requirement": {
+        "legendary_dishes": 15
+      },
+      "rewards": [
+        "divine_cuisine",
+        "5000_gold_coins",
+        "market_reputation",
+        "gourmet_master_title"
+      ]
+    }
+  ],
+  "market_integration": {
+    "quality_multipliers": {
+      "common": 1.0,
+      "fine": 1.6,
+      "superior": 2.2,
+      "exquisite": 3.5,
+      "masterwork": 6.0,
+      "legendary": 12.0,
+      "mythic": 25.0
+    },
+    "reputation_bonuses": {
+      "local_cook": 1.0,
+      "town_chef": 1.2,
+      "regional_gourmet": 1.5,
+      "national_master": 2.0,
+      "world_famous": 3.0
+    },
+    "supply_demand": {
+      "food": {
+        "volatility": 0.15,
+        "trend": "steady_demand"
+      },
+      "beverages": {
+        "volatility": 0.18,
+        "trend": "increasing"
+      },
+      "special_dishes": {
+        "volatility": 0.22,
+        "trend": "rare_supply"
+      }
+    }
+  },
+  "enabled": true,
+  "id": "master_cook",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "paladin_holy_shield",
+  "name": "Bouclier Sacré",
+  "description": "Élève un bouclier d'énergie sacrée pour protéger les alliés",
+  "ability_type": "active",
+  "category": "protection",
+  "cooldown": 120000,
+  "mana_cost": 80,
+  "cast_time": 1500,
+  "range": 30.0,
+  "target_type": "friendly_ally",
+  "duration": 30000,
+  "effects": [
+    {
+      "effect_type": "damage_reduction",
+      "value": 0.3,
+      "duration": 30000,
+      "tick_rate": 0,
+      "school": "holy"
+    },
+    {
+      "effect_type": "holy_resistance",
+      "value": 0.2,
+      "duration": 30000,
+      "tick_rate": 0,
+      "school": "holy"
+    },
+    {
+      "effect_type": "healing_over_time",
+      "value": 50,
+      "duration": 30000,
+      "tick_rate": 3000,
+      "total_ticks": 10,
+      "school": "holy"
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "holy_circle_formation",
+    "shield_effect": "golden_barrier",
+    "impact_effect": "holy_sparks"
+  },
+  "sound_effects": {
+    "cast_sound": "holy_incantation",
+    "shield_sound": "divine_barrier",
+    "impact_sound": "holy_bell"
+  },
+  "scaling": {
+    "spell_power": 1.2,
+    "holy_mastery": 0.8
+  },
+  "synergies": {
+    "with_divine_protection": 1.5,
+    "with_aura_of_light": 1.3
+  },
+  "mastery_effects": {
+    "apprentice": {
+      "damage_reduction": 0.2,
+      "holy_resistance": 0.1
+    },
+    "journeyman": {
+      "damage_reduction": 0.3,
+      "holy_resistance": 0.2,
+      "healing_bonus": 1.2
+    },
+    "master": {
+      "damage_reduction": 0.4,
+      "holy_resistance": 0.3,
+      "healing_bonus": 1.5,
+      "reflect_damage": 0.1
+    },
+    "grandmaster": {
+      "damage_reduction": 0.5,
+      "holy_resistance": 0.4,
+      "healing_bonus": 2.0,
+      "reflect_damage": 0.2,
+      "area_protection": true
+    }
+  },
+  "requirements": {
+    "level": 30,
+    "abilities": [
+      "basic_holy_magic"
+    ],
+    "class": "paladin"
+  },
+  "enabled": true,
+  "template_type": "ability",
+  "version": "0.1.0"
+}

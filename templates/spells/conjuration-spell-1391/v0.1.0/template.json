@@ -1,0 +1,53 @@
+{
+  "id": "conjuration_spell_1391",
+  "name": "Conjuration Spell 1391",
+  "description": "Vous céléportez brièvement dans un espace inoccupé que vous pouvez voir dans une portée de 9 mètres",
+  "icon": "conjuration_spell_1391_icon",
+  "school": "conjuration",
+  "rarity": "common",
+  "spell_type": "movement",
+  "target_type": "self",
+  "range": 9.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "teleport",
+      "value": 9.0,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "mist_burst",
+    "teleport_effect": "mist_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "whoosh"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "conjuration"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {
+    "distant_misty_step": {
+      "unlock_level": 5,
+      "description": "Augmente la portée à 18 mètres",
+      "range_multiplier": 2.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

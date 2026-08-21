@@ -1,0 +1,378 @@
+{
+  "version": "0.1.0",
+  "shop_id": 1,
+  "shop_name": "Vault Starter Emporium",
+  "currency_default": "gold",
+  "source": "templates/item + classic MMORPG starter packs",
+  "items": [
+    {
+      "template_key": "starter_kit_adventurer",
+      "template_id": 10001,
+      "name": "Kit de Depart Aventurier",
+      "category": "starter_pack",
+      "currency": "gold",
+      "quantity": 9999,
+      "is_active": true,
+      "tags": [
+        "starter",
+        "classic",
+        "new_player"
+      ]
+    },
+    {
+      "template_key": "starter_kit_warrior",
+      "template_id": 10002,
+      "name": "Kit de Depart Guerrier",
+      "category": "starter_pack",
+      "currency": "gold",
+      "quantity": 9999,
+      "is_active": true,
+      "tags": [
+        "starter",
+        "warrior",
+        "classic"
+      ]
+    },
+    {
+      "template_key": "starter_kit_mage",
+      "template_id": 10003,
+      "name": "Kit de Depart Mage",
+      "category": "starter_pack",
+      "currency": "gold",
+      "quantity": 9999,
+      "is_active": true,
+      "tags": [
+        "starter",
+        "mage",
+        "classic"
+      ]
+    },
+    {
+      "template_key": "starter_kit_ranger",
+      "template_id": 10004,
+      "name": "Kit de Depart Rodeur",
+      "category": "starter_pack",
+      "currency": "gold",
+      "quantity": 9999,
+      "is_active": true,
+      "tags": [
+        "starter",
+        "ranger",
+        "classic"
+      ]
+    },
+    {
+      "template_key": "starter_kit_healer",
+      "template_id": 10005,
+      "name": "Kit de Depart Pretre/Healer",
+      "category": "starter_pack",
+      "currency": "gold",
+      "quantity": 9999,
+      "is_active": true,
+      "tags": [
+        "starter",
+        "healer",
+        "classic"
+      ]
+    },
+    {
+      "template_key": "starter_kit_merchant",
+      "template_id": 10006,
+      "name": "Kit de Depart Marchand",
+      "category": "starter_pack",
+      "currency": "gold",
+      "quantity": 9999,
+      "is_active": true,
+      "tags": [
+        "starter",
+        "merchant",
+        "classic"
+      ]
+    },
+    {
+      "template_key": "premium_starter_bundle",
+      "template_id": 10050,
+      "name": "Premium Starter Bundle",
+      "category": "premium_starter",
+      "currency": "gems",
+      "quantity": 9999,
+      "is_active": true,
+      "tags": [
+        "premium",
+        "conversion",
+        "featured"
+      ]
+    },
+    {
+      "template_key": "cosmetic_shadow_cloak",
+      "template_id": 15001,
+      "name": "Cape d'Ombre Astrale",
+      "category": "cosmetic",
+      "cosmetic_slot": "back",
+      "currency": "gems",
+      "quantity": 9999,
+      "is_active": true,
+      "tags": [
+        "cosmetic",
+        "gems_only"
+      ]
+    },
+    {
+      "template_key": "cosmetic_frost_mount_token",
+      "template_id": 15002,
+      "name": "Jeton Monture Dragon de Givre",
+      "category": "cosmetic",
+      "cosmetic_slot": "mount",
+      "currency": "gems",
+      "quantity": 9999,
+      "is_active": true,
+      "tags": [
+        "cosmetic",
+        "mount",
+        "gems_only",
+        "featured"
+      ]
+    },
+    {
+      "template_key": "rusty_sword",
+      "template_id": 11001,
+      "name": "Epee Rouillee",
+      "category": "weapon",
+      "currency": "gold",
+      "quantity": 100,
+      "is_active": true,
+      "tags": [
+        "weapon",
+        "melee",
+        "starter"
+      ]
+    },
+    {
+      "template_key": "iron_sword",
+      "template_id": 11002,
+      "name": "Epee en Fer",
+      "category": "weapon",
+      "currency": "gold",
+      "quantity": 50,
+      "is_active": true,
+      "tags": [
+        "weapon",
+        "melee"
+      ]
+    },
+    {
+      "template_key": "apprentice_staff",
+      "template_id": 11003,
+      "name": "Baton d'Apprenti Mage",
+      "category": "weapon",
+      "currency": "gold",
+      "quantity": 40,
+      "is_active": true,
+      "tags": [
+        "weapon",
+        "mage"
+      ]
+    },
+    {
+      "template_key": "enchanted_bow",
+      "template_id": 11004,
+      "name": "Arc Enchante",
+      "category": "weapon",
+      "currency": "gold",
+      "quantity": 15,
+      "is_active": true,
+      "tags": [
+        "weapon",
+        "ranged"
+      ]
+    },
+    {
+      "template_key": "leather_armor",
+      "template_id": 12001,
+      "name": "Armure de Cuir",
+      "category": "armor",
+      "currency": "gold",
+      "quantity": 50,
+      "is_active": true,
+      "tags": [
+        "armor",
+        "starter"
+      ]
+    },
+    {
+      "template_key": "leather_boots",
+      "template_id": 12002,
+      "name": "Bottes de Cuir",
+      "category": "armor",
+      "currency": "gold",
+      "quantity": 80,
+      "is_active": true,
+      "tags": [
+        "armor",
+        "starter"
+      ]
+    },
+    {
+      "template_key": "steel_shield",
+      "template_id": 12003,
+      "name": "Bouclier d'Acier",
+      "category": "armor",
+      "currency": "gold",
+      "quantity": 30,
+      "is_active": true,
+      "tags": [
+        "armor",
+        "shield"
+      ]
+    },
+    {
+      "template_key": "mage_robe",
+      "template_id": 12004,
+      "name": "Robe de Mage",
+      "category": "armor",
+      "currency": "gold",
+      "quantity": 40,
+      "is_active": true,
+      "tags": [
+        "armor",
+        "mage"
+      ]
+    },
+    {
+      "template_key": "iron_armor",
+      "template_id": 12005,
+      "name": "Armure de Fer",
+      "category": "armor",
+      "currency": "gold",
+      "quantity": 20,
+      "is_active": true,
+      "tags": [
+        "armor"
+      ]
+    },
+    {
+      "template_key": "minor_health_potion",
+      "template_id": 13001,
+      "name": "Petite Potion de Soin",
+      "category": "consumable",
+      "currency": "gold",
+      "quantity": 1000,
+      "is_active": true,
+      "tags": [
+        "potion",
+        "healing",
+        "starter"
+      ]
+    },
+    {
+      "template_key": "healing_potion",
+      "template_id": 13002,
+      "name": "Potion de Soin",
+      "category": "consumable",
+      "currency": "gold",
+      "quantity": 500,
+      "is_active": true,
+      "tags": [
+        "potion",
+        "healing"
+      ]
+    },
+    {
+      "template_key": "minor_mana_potion",
+      "template_id": 13003,
+      "name": "Petite Potion de Mana",
+      "category": "consumable",
+      "currency": "gold",
+      "quantity": 1000,
+      "is_active": true,
+      "tags": [
+        "potion",
+        "mana",
+        "starter"
+      ]
+    },
+    {
+      "template_key": "mana_potion",
+      "template_id": 13004,
+      "name": "Potion de Mana",
+      "category": "consumable",
+      "currency": "gold",
+      "quantity": 500,
+      "is_active": true,
+      "tags": [
+        "potion",
+        "mana"
+      ]
+    },
+    {
+      "template_key": "ration_supplies",
+      "template_id": 13005,
+      "name": "Rations de Voyage",
+      "category": "consumable",
+      "currency": "gold",
+      "quantity": 800,
+      "is_active": true,
+      "tags": [
+        "food",
+        "starter"
+      ]
+    },
+    {
+      "template_key": "bread",
+      "template_id": 13006,
+      "name": "Pain de Voyage",
+      "category": "consumable",
+      "currency": "gold",
+      "quantity": 2000,
+      "is_active": true,
+      "tags": [
+        "food",
+        "starter"
+      ]
+    },
+    {
+      "template_key": "recall_stone_basic",
+      "template_id": 14001,
+      "name": "Pierre de Rappel Basique",
+      "category": "utility",
+      "currency": "gold",
+      "quantity": 100,
+      "is_active": true,
+      "tags": [
+        "utility",
+        "teleport",
+        "starter"
+      ]
+    },
+    {
+      "template_key": "travel_pack",
+      "template_id": 14002,
+      "name": "Sac de Voyage",
+      "category": "utility",
+      "currency": "gold",
+      "quantity": 60,
+      "is_active": true,
+      "tags": [
+        "utility",
+        "bag",
+        "starter"
+      ]
+    },
+    {
+      "template_key": "spellbook_basic",
+      "template_id": 14003,
+      "name": "Grimoire de Base",
+      "category": "utility",
+      "currency": "gold",
+      "quantity": 25,
+      "is_active": true,
+      "tags": [
+        "utility",
+        "mage"
+      ]
+    }
+  ],
+  "id": "template",
+  "name": "Template",
+  "template_type": "shop"
+}

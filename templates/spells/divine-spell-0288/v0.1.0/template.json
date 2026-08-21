@@ -1,0 +1,63 @@
+{
+  "id": "divine_spell_0288",
+  "name": "Divine Spell 0288",
+  "description": "Un mot de pouvoir vital guérit instantanément un allié à portée de 1d4 + niveau du lanceur points de vie",
+  "icon": "divine_spell_0288_icon",
+  "school": "divine",
+  "rarity": "common",
+  "spell_type": "divine_spell_0288",
+  "target_type": "single_ally",
+  "range": 60.0,
+  "cast_time": 1000,
+  "cooldown": 2000,
+  "mana_cost": 15,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "divine"
+  },
+  "effects": [
+    {
+      "effect_type": "direct_divine_spell_0288",
+      "value": 4,
+      "duration": 0,
+      "tick_rate": 0,
+      "caster_level_modifier": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "word_glow",
+    "healing_effect": "golden_burst",
+    "expire_effect": "divine_spell_0288_done"
+  },
+  "sound_effects": {
+    "cast_sound": "power_word",
+    "healing_sound": "life_restored",
+    "expire_sound": "buff_end"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "divine_magic"
+    ],
+    "classes": [
+      "cleric",
+      "paladin",
+      "priest"
+    ]
+  },
+  "upgrades": {
+    "healing_blast": {
+      "unlock_level": 7,
+      "description": "Soigne un montant supplémentaire de 2d4",
+      "healing_multiplier": 1.5
+    },
+    "emergency_healing": {
+      "unlock_level": 13,
+      "description": "Réduit le cooldown et augmente la portée",
+      "cooldown_reduction": 50,
+      "range_bonus": 30.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

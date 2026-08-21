@@ -1,0 +1,69 @@
+{
+  "id": "divine_spell_1119",
+  "name": "Divine Spell 1119",
+  "description": "Un mot de pouvoir primitif restaure instantanément les points de vie d'une créature jusqu'à son maximum",
+  "icon": "divine_spell_1119_icon",
+  "school": "divine",
+  "rarity": "epic",
+  "spell_type": "instant_healing",
+  "target_type": "single_ally",
+  "range": 60.0,
+  "cast_time": 1000,
+  "cooldown": 300000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "divine"
+  },
+  "effects": [
+    {
+      "effect_type": "full_healing",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "healing_percentage": 100,
+      "remove_debuffs": true,
+      "remove_bleed": true,
+      "remove_poison": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_energy",
+    "healing_effect": "golden_eruption",
+    "complete_effect": "fully_restored"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_spell_1119ful_incantation",
+    "healing_sound": "life_restoration",
+    "complete_sound": "divine_chorus"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [
+      "divine_magic",
+      "divine_spell_1119_words"
+    ],
+    "classes": [
+      "priest",
+      "cleric",
+      "paladin"
+    ]
+  },
+  "upgrades": {
+    "area_healing": {
+      "unlock_level": 13,
+      "description": "Soigne jusqu'à 5 alliés dans un rayon de 10 pieds",
+      "max_targets": 5,
+      "aoe_radius": 3.0
+    },
+    "improved_healing": {
+      "unlock_level": 19,
+      "description": "Restaure également l'énergie et la mana",
+      "resource_restoration": true,
+      "mana_percentage": 50,
+      "energy_percentage": 50
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

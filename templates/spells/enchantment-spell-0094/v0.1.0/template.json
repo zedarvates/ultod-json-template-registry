@@ -1,0 +1,105 @@
+{
+  "id": "enchantment_spell_0094",
+  "name": "Enchantment Spell 0094",
+  "description": "Le barde chante un chant envoûtant qui hypnotise les ennemis et les force à se combattre entre eux",
+  "icon": "enchantment_spell_0094_icon",
+  "school": "enchantment",
+  "rarity": "uncommon",
+  "spell_type": "vocal_hypnosis",
+  "target_type": "area_enemy",
+  "range": 45.0,
+  "cast_time": 3000,
+  "cooldown": 18000,
+  "mana_cost": 65,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "psychic_vocal",
+    "scaling": {
+      "charisma": 1.8,
+      "constitution": 0.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "hypnotic_charm",
+      "value": 100,
+      "duration": 10000,
+      "tick_rate": 0,
+      "aoe_range": 30.0,
+      "confusion_proc": 0.7,
+      "friendly_fire_chance": 0.6,
+      "max_targets": 5,
+      "vocal_dependency": 1.0
+    },
+    {
+      "effect_type": "suggestion_damage",
+      "value": 80,
+      "duration": 8000,
+      "tick_rate": 2000,
+      "mind_control_damage": 80,
+      "auto_attack_targets": true,
+      "max_targets": 4
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "hypnotic_voice_waves",
+    "chant_effect": "swirling_enchantment_spell_0094_auras",
+    "confusion_effect": "mind_control_sparkles",
+    "expire_effect": "hypnosis_break"
+  },
+  "sound_effects": {
+    "cast_sound": "enchantment_spell_0094_song_intro",
+    "chant_sound": "mesmerizing_vocal_loop",
+    "confusion_sound": "mind_scramble_echo",
+    "break_sound": "enchantment_shatter"
+  },
+  "requirements": {
+    "level": 22,
+    "skills": [
+      "performance",
+      "enchantment",
+      "vocal_magic",
+      "hypnosis"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour",
+      "enchantment_spell_0094s_song"
+    ],
+    "specializations": [
+      "vocalist",
+      "mind_bender"
+    ]
+  },
+  "silence_interactions": {
+    "spell_suppression": true,
+    "silence_resistance": 0.2,
+    "suppressed_effects": [
+      "hypnotic_charm",
+      "suggestion_damage"
+    ],
+    "suppression_message": "Votre voix est muselée, le chant hypnotique échoue!"
+  },
+  "upgrades": {
+    "deep_hypnosis": {
+      "unlock_level": 32,
+      "description": "Le charme devient plus puissant et résiste mieux au silence",
+      "confusion_proc_bonus": 0.2,
+      "hypnosis_duration_bonus": 3000,
+      "silence_resistance_bonus": 0.3
+    },
+    "symphony_of_control": {
+      "unlock_level": 42,
+      "description": "Le chant affecte plus d'ennemis et oblige des actions spécifiques",
+      "max_targets_bonus": 3,
+      "forced_actions": [
+        "attack_allies",
+        "use_abilities"
+      ],
+      "vocal_dependency": 1.2
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

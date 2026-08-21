@@ -1,0 +1,46 @@
+{
+  "id": "transmutation_spell_1394",
+  "name": "Transmutation Spell 1394",
+  "description": "Arrête le temps pour tous sauf vous pendant un instant",
+  "icon": "transmutation_spell_1394_icon",
+  "school": "transmutation",
+  "rarity": "legendary",
+  "spell_type": "special",
+  "target_type": "area",
+  "range": 0.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 120,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 18.0
+  },
+  "effects": [
+    {
+      "effect_type": "transmutation_spell_1394",
+      "value": 0,
+      "duration": 1000,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "transmutation_spell_1394_freeze"
+  },
+  "sound_effects": {
+    "cast_sound": "tick_tock_stop"
+  },
+  "requirements": {
+    "level": 9,
+    "skills": [
+      "transmutation"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

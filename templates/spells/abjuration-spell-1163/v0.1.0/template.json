@@ -1,0 +1,63 @@
+{
+  "id": "abjuration_spell_1163",
+  "name": "Abjuration Spell 1163",
+  "description": "Une brume légère enveloppe vos traces et celles de vos alliés pendant 1 heure",
+  "icon": "abjuration_spell_1163_icon",
+  "school": "abjuration",
+  "rarity": "uncommon",
+  "spell_type": "buff",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 30,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "group_stealth",
+      "value": 0,
+      "duration": 3600000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "stealth_bonus": 10,
+      "tracking_resistance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "mist_shroud",
+    "buff_effect": "invisible_trails"
+  },
+  "sound_effects": {
+    "cast_sound": "silent_whisper",
+    "buff_sound": "quiet_footsteps"
+  },
+  "requirements": {
+    "level": 2,
+    "skills": [
+      "stealth",
+      "nature_magic",
+      "tracking"
+    ],
+    "classes": [
+      "ranger",
+      "druid"
+    ]
+  },
+  "upgrades": {
+    "greater_pass": {
+      "unlock_level": 5,
+      "description": "Bonus de furtivité de +20",
+      "stealth_bonus": 20
+    },
+    "total_invisibility": {
+      "unlock_level": 9,
+      "description": "Rend complètement invisible aux trackers",
+      "full_tracking_immunity": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

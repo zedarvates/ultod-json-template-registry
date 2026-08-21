@@ -1,0 +1,76 @@
+{
+  "id": "mage",
+  "name": "Mage",
+  "description": "Maître des arcanes et de la magie destructive",
+  "skillclass_id": "magier",
+  "base_stats": {
+    "strength": 8,
+    "dexterity": 10,
+    "constitution": 12,
+    "intelligence": 20,
+    "wisdom": 16,
+    "charisma": 14
+  },
+  "specializations": [
+    {
+      "id": "arcane",
+      "name": "Arcanes",
+      "description": "Spécialiste de la magie pure et des sorts de contrôle",
+      "talents": [
+        "arcane_mind",
+        "spell_power"
+      ],
+      "abilities": [
+        "arcane_missiles",
+        "counterspell"
+      ]
+    },
+    {
+      "id": "fire",
+      "name": "Feu",
+      "description": "Maître des flammes et de la destruction",
+      "talents": [
+        "fire_mastery",
+        "combustion"
+      ],
+      "abilities": [
+        "fireball",
+        "flame_strike"
+      ]
+    },
+    {
+      "id": "frost",
+      "name": "Givre",
+      "description": "Contrôleur des glaces et du froid",
+      "talents": [
+        "frost_mastery",
+        "ice_barrier"
+      ],
+      "abilities": [
+        "frostbolt",
+        "blizzard"
+      ]
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": "improved_fireball",
+            "max_rank": 3,
+            "prerequisites": []
+          },
+          {
+            "id": "arcane_focus",
+            "max_rank": 3,
+            "prerequisites": []
+          }
+        ]
+      }
+    ]
+  },
+  "template_type": "class",
+  "version": "0.1.0"
+}

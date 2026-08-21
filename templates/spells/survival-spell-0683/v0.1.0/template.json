@@ -1,0 +1,78 @@
+{
+  "id": "survival_spell_0683",
+  "name": "Survival Spell 0683",
+  "description": "Le chasseur feint la mort pour sortir du combat, devenant temporairement insensible aux attaques",
+  "icon": "survival_spell_0683_icon",
+  "school": "survival",
+  "rarity": "common",
+  "spell_type": "combat_reset_deception",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 0,
+  "cooldown": 120000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "combat_reset_deception"
+  },
+  "effects": [
+    {
+      "effect_type": "death_survival_spell_0683ing_trick",
+      "value": 200,
+      "duration": 15000,
+      "tick_rate": 0,
+      "combat_reset_complete": true,
+      "damage_immunity_feigning": 0.95,
+      "perfect_stillness_illusion": true,
+      "enemy_veiwpoint_logoff": true,
+      "corpse_appearance_total": true,
+      "spell_breaking_resistance": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "hunter_collapsing_corpse_appearance",
+    "active_effect": "perfect_corpse_illusion_deception",
+    "immunity_effect": "damage_bouncing_illusion_immunity",
+    "expire_effect": "hunter_awakening_arising_alive"
+  },
+  "sound_effects": {
+    "cast_effect": "body_falling_corpse_thud_death_groan",
+    "active_effect": "perfect_silence_tomb_quiet_illusion",
+    "immunity_effect": "damage_immunity_shield_echo_absorb",
+    "expire_effect": "hunter_stirring_alive_breath_wake_up"
+  },
+  "requirements": {
+    "level": 32,
+    "skills": [
+      "survival",
+      "deception"
+    ],
+    "classes": [
+      "hunter",
+      "trickster_survivor"
+    ],
+    "specializations": [
+      "death_simulator"
+    ]
+  },
+  "upgrades": {
+    "improved_feign_death": {
+      "unlock_level": 42,
+      "description": "La feinte de mort devient améliorée avec la régénération et la révélation retardée",
+      "combat_reset_with_regeneration": true,
+      "delayed_wake_up_reveal": 5000,
+      "cure_dot_effects_during_feign": true,
+      "death_feigning_perfect_disguise": true
+    },
+    "legendary_feign_life": {
+      "unlock_level": 52,
+      "description": "La feinte de mort atteint la légende, permettant de quitter complètement le plan de combat",
+      "planar_escape_combat_reset": true,
+      "inaccessible_during_feign": true,
+      "forced_disengage_all_aggro": true,
+      "astral_projection_feigning": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

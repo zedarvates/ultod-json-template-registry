@@ -1,0 +1,51 @@
+{
+  "id": "evocation_spell_1600",
+  "name": "Evocation Spell 1600",
+  "description": "Une explosion de froid gèle tous les ennemis autour de vous",
+  "icon": "evocation_spell_1600_icon",
+  "school": "evocation",
+  "rarity": "uncommon",
+  "spell_type": "area_damage",
+  "target_type": "area",
+  "range": 0.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 55,
+  "damage": {
+    "base_damage": 65,
+    "damage_type": "cold",
+    "aoe_radius": 8.0
+  },
+  "effects": [
+    {
+      "effect_type": "evocation_spell_1600_explosion",
+      "value": 65,
+      "duration": 0,
+      "tick_rate": 0,
+      "constitution_save": true,
+      "save_dc": 15,
+      "slow_effect": 50,
+      "slow_duration": 5000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "evocation_spell_1600_burst",
+    "impact_effect": "ice_shards"
+  },
+  "sound_effects": {
+    "cast_sound": "evocation_spell_1600_crackle",
+    "impact_sound": "ice_shatter"
+  },
+  "requirements": {
+    "level": 4,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "wizard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

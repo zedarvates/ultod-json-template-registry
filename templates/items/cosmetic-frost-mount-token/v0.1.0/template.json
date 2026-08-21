@@ -1,0 +1,27 @@
+{
+  "id": "cosmetic_frost_mount_token",
+  "name": "Jeton Monture Dragon de Givre",
+  "description": "Deblocage cosmetique de monture. Aucun avantage PvP.",
+  "icon": "cosmetic_frost_mount_token",
+  "category": "cosmetic",
+  "rarity": "epic",
+  "item_type": "cosmetic",
+  "sub_type": "mount",
+  "base_stats": {
+    "durability": 1,
+    "max_durability": 1,
+    "weight": 0.1,
+    "value": 0
+  },
+  "properties": {
+    "stackable": false,
+    "tradeable": false,
+    "sellable": false,
+    "cosmetic_only": true
+  },
+  "requirements": {
+    "level": 1
+  },
+  "version": "0.1.0",
+  "template_type": "item"
+}

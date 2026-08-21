@@ -1,0 +1,101 @@
+{
+  "id": "quest_giver",
+  "name": "Donneur de Quêtes",
+  "description": "Sage local offrant des missions et des aventures aux héros",
+  "icon": "quest_giver_icon",
+  "category": "quest",
+  "awareness": {
+    "enabled": true,
+    "cognitive_level": "full",
+    "initial_lod": "ordinary",
+    "initial_yaw_radians": 0.0,
+    "senses": {
+      "vision_range": 26.0,
+      "hearing_range": 22.0,
+      "tactile_sensitivity": 0.6
+    },
+    "attention": {
+      "capacity": 10,
+      "max_visual_candidates": 28,
+      "max_occlusion_rays": 8
+    },
+    "values": {
+      "nonviolence": 0.8,
+      "fairness": 0.8,
+      "loyalty": 0.8,
+      "honor": 0.8,
+      "compassion": 0.9,
+      "reciprocity": 0.8
+    },
+    "personal_norms": {
+      "property_rights": 0.7,
+      "nonviolence": 0.8,
+      "anti_coercion": 0.9,
+      "dignity": 0.9,
+      "reciprocity": 0.8
+    },
+    "initial_goals": {
+      "self_preservation": 0.7,
+      "possessions": 0.2,
+      "social_standing": 0.7,
+      "protect_others": 0.9,
+      "preserve_order": 0.8,
+      "affiliation": 0.8
+    },
+    "reaction_policy": {
+      "threat_response": "seek_guard",
+      "may_defend": false,
+      "may_retaliate": false
+    }
+  },
+  "rarity": "common",
+  "dialogue": {
+    "greetings": [
+      "Salutations, aventurier. Des quêtes vous attendent.",
+      "Vous semblez capable. Avez-vous du temps pour une mission?",
+      "Le royaume a besoin d'âmes courageuses comme la vôtre."
+    ],
+    "quest_available": [
+      "J'ai une tâche qui pourrait vous convenir.",
+      "Cette mission pourrait changer le cours des choses.",
+      "Êtes-vous prêt à relever ce défi?"
+    ],
+    "quest_complete": [
+      "Excellent travail! Voici votre récompense.",
+      "Vous avez bien servi la cause.",
+      "Le royaume vous remercie pour vos services."
+    ],
+    "no_quest": [
+      "Revenez plus tard, d'autres aventures vous attendront.",
+      "Vous avez déjà tant accompli. Reposez-vous.",
+      "Il n'y a rien pour vous actuellement."
+    ]
+  },
+  "available_quests": [
+    "kill_goblins",
+    "collect_herbs",
+    "deliver_message",
+    "escort_merchant",
+    "clear_dungeon"
+  ],
+  "ai_behavior": {
+    "personality": "wise_mentor",
+    "interaction_style": "guiding",
+    "helpfulness_level": 0.9,
+    "movement_pattern": "stationary"
+  },
+  "schedule": {
+    "active_hours": "8:00-20:00",
+    "quest_refresh_time": "06:00",
+    "story_arc_updates": "weekly"
+  },
+  "services": {
+    "give_quests": true,
+    "provide_lore": true,
+    "give_directions": true,
+    "sell_maps": true,
+    "story_progression": true
+  },
+  "version": "0.1.0",
+  "template_type": "npc"
+}

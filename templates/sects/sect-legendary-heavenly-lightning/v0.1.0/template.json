@@ -1,0 +1,69 @@
+{
+  "id": "sect_legendary_heavenly_lightning",
+  "name": "Éclair Céleste",
+  "description": "Contrôle des éclairs divins - technique légendaire permettant de maîtriser la foudre du ciel",
+  "icon": "heavenly_lightning_icon",
+  "school": "nature",
+  "type": "damage",
+  "damage_type": "lightning",
+  "mana_cost": 2500,
+  "range": 100,
+  "cast_time": 3000,
+  "cooldown": 180000,
+  "base_damage": {
+    "min": 5000,
+    "max": 8000,
+    "scaling": 2.5
+  },
+  "aoe": {
+    "enabled": true,
+    "radius": 15,
+    "damage_reduction": 0.7,
+    "max_targets": 5
+  },
+  "effects": [
+    {
+      "type": "damage",
+      "name": "Éclair Céleste",
+      "description": "Frappe divine de foudre invoquée des cieux",
+      "duration": 0,
+      "value": 1.0,
+      "stackable": false,
+      "dispellable": false
+    },
+    {
+      "type": "debuff",
+      "name": "Étourdissement Électrique",
+      "description": "Chance d'étourdir la cible pendant 3 secondes",
+      "duration": 3000,
+      "value": 0.5,
+      "stackable": false,
+      "dispellable": true
+    },
+    {
+      "type": "stat_modifier",
+      "name": "Maîtrise de la Foudre",
+      "description": "Augmente les dégâts de foudre de 200%",
+      "duration": 0,
+      "stackable": false,
+      "dispellable": false
+    }
+  ],
+  "requirements": {
+    "level": 10,
+    "class": [
+      "legendary_sect"
+    ],
+    "talent_points": 100
+  },
+  "visual": {
+    "cast_animation": "heavenly_lightning_cast",
+    "projectile_model": "lightning_bolt",
+    "impact_effect": "thunder_strike",
+    "sound_cast": "thunder_rumble",
+    "sound_impact": "lightning_crash"
+  },
+  "enabled": true,
+  "template_type": "sect",
+  "version": "0.1.0"
+}

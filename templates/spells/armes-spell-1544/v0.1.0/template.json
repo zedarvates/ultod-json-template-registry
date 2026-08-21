@@ -1,0 +1,77 @@
+{
+  "id": "armes_spell_1544",
+  "name": "Armes Spell 1544",
+  "description": "Le guerrier armes_spell_1544 vers un ennemi, le frappant et l'étourdissant",
+  "icon": "armes_spell_1544_icon",
+  "school": "armes",
+  "rarity": "common",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 25.0,
+  "cast_time": 0,
+  "cooldown": 20000,
+  "mana_cost": 0,
+  "damage": {
+    "base_damage": 80,
+    "damage_type": "physical",
+    "scaling": {
+      "strength": 0.7,
+      "rage": 0.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "direct_damage",
+      "value": 80,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "stun_debuff",
+      "value": 0,
+      "duration": 1500,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "armes_spell_1544_movement",
+      "value": 25.0,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "armes_spell_1544_forward",
+    "projectile_effect": "none",
+    "impact_effect": "collision_stun",
+    "trail_effect": "armes_spell_1544_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "armes_spell_1544_cry",
+    "impact_sound": "collision_impact"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [],
+    "classes": [
+      "warrior"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_charge": {
+      "unlock_level": 11,
+      "description": "Augmente les dégâts de armes_spell_1544 de 40%",
+      "damage_bonus": 40
+    },
+    "charge_mastery": {
+      "unlock_level": 21,
+      "description": "armes_spell_1544 peut être utilisée plus fréquemment",
+      "cooldown_reduction": 5000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

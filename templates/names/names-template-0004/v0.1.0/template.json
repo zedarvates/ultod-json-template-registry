@@ -1,0 +1,186 @@
+{
+  "culture": "adapted_referenceien",
+  "display_name": "adapted_referenceien/Horreur Cosmique",
+  "models": {
+    "first_name_male": {
+      "names": [
+        "Abdul",
+        "Alhazred",
+        "adapted_reference",
+        "Nyarlathotep",
+        "Azathoth",
+        "Yog-Sothoth",
+        "Shub-Niggurath",
+        "Tsathoggua",
+        "Hastur",
+        "Ithaqua",
+        "Rhan-Tegoth",
+        "Gla'aki",
+        "Yibb-Tstll",
+        "Daoloth",
+        "Nyogtha",
+        "Shudde-M'ell",
+        "Ubb",
+        "Zoth-Ommog",
+        "Ghroth",
+        "Vulthoom"
+      ],
+      "order": 3,
+      "min_length": 5,
+      "max_length": 15
+    },
+    "first_name_female": {
+      "names": [
+        "Nyx",
+        "Ereshkigal",
+        "Lilith",
+        "Hecate",
+        "Morrigan",
+        "Hel",
+        "Eris",
+        "Nox",
+        "Abyss",
+        "Void",
+        "Shadow",
+        "Darkness",
+        "Chaos",
+        "Terror",
+        "Nightmare",
+        "Doom",
+        "Despair",
+        "Madness",
+        "Insanity",
+        "Horror"
+      ],
+      "order": 2,
+      "min_length": 4,
+      "max_length": 12
+    },
+    "first_name_neutral": {
+      "names": [
+        "Void",
+        "Chaos",
+        "Shadow",
+        "Dark",
+        "Night",
+        "Terror",
+        "Doom",
+        "Madness",
+        "Horror",
+        "Abyss"
+      ],
+      "order": 2,
+      "min_length": 4,
+      "max_length": 10
+    },
+    "family_name": {
+      "names": [
+        "Alhazred",
+        "Witcher",
+        "Necromancer",
+        "Warlock",
+        "Sorcerer",
+        "Cultist",
+        "Summoner",
+        "Prophet",
+        "Oracle",
+        "Seer",
+        "Mystic",
+        "Enchanter",
+        "Illusionist",
+        "Conjurer",
+        "Diviner",
+        "Augur",
+        "Soothsayer",
+        "Fortuneteller",
+        "Prophetess",
+        "Sibyl"
+      ],
+      "order": 2,
+      "min_length": 6,
+      "max_length": 15
+    },
+    "nickname_human": {
+      "names": [
+        "le Maudite",
+        "Chuchoteur-dans-le-Noir",
+        "Voyant-des-Étoiles",
+        "Gardien-des-Portes",
+        "Seigneur-des-Ténèbres",
+        "Messager-des-Anciens",
+        "Éveilleur-des-Morts",
+        "Tisseur-de-Cauchemars",
+        "Briseur-de-Sceaux",
+        "Porteur-de-Lumière-Noire",
+        "le Damné",
+        "l'Oublié",
+        "le Maudit",
+        "le Possédé",
+        "l'Insensé"
+      ],
+      "order": 2,
+      "min_length": 8,
+      "max_length": 25
+    },
+    "pet_name": {
+      "names": [
+        "Nyxar",
+        "Voidfang",
+        "Shadowclaw",
+        "Darkwhisper",
+        "Nightterror",
+        "Doomhowl",
+        "Madness",
+        "Horrorpaw",
+        "Abysswalker",
+        "Chaosbringer",
+        "Terrorbeast",
+        "Doombringer",
+        "Madbeast",
+        "Horrorfiend",
+        "Abyssstalker",
+        "Chaosspawn",
+        "Terrorfiend",
+        "Doomspawn",
+        "Madfiend",
+        "Horrorbeast"
+      ],
+      "order": 2,
+      "min_length": 4,
+      "max_length": 12
+    }
+  },
+  "templates": {
+    "full_name": [
+      "{first_name} {family_name}",
+      "{first_name} {nickname}",
+      "{first_name} le {family_name}"
+    ],
+    "pet_full": [
+      "{pet_name}",
+      "{pet_name} le {epithet}",
+      "{pet_name} des {first_name}"
+    ]
+  },
+  "epithets": [
+    "Terrifiant",
+    "Maudit",
+    "Oublié",
+    "Possédé",
+    "Insensé",
+    "Damné",
+    "Corrompu",
+    "Malfaisant",
+    "Surnaturel",
+    "Éthéré",
+    "Cosmique",
+    "Primordial",
+    "Antique",
+    "Immémorial",
+    "Éternel"
+  ],
+  "id": "names_template_0004",
+  "name": "Names Template 0004",
+  "template_type": "name",
+  "version": "0.1.0"
+}

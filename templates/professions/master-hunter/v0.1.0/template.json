@@ -1,0 +1,516 @@
+{
+  "profession_id": "master_hunter",
+  "name": "Master Hunter",
+  "display_name": "Maître Chasseur",
+  "description": "Maîtrise ultime de la chasse et du pistage des créatures sauvages légendaires",
+  "base_skill": "hunting",
+  "tier": "master",
+  "skill_requirement": 75,
+  "experience_requirement": 37500,
+  "icon": "profession_hunting_master",
+  "category": "gathering",
+  "subcategory": "animal_tracking",
+  "skill_progression": {
+    "formula": "hunting_level * (1 + 0.11 * mastery_tier + 0.07 * specialization_level)",
+    "mastery_levels": [
+      "apprentice",
+      "journeyman",
+      "expert",
+      "master"
+    ],
+    "tier_requirements": {
+      "apprentice": {
+        "level": 1,
+        "talent_points": 0
+      },
+      "journeyman": {
+        "level": 21,
+        "talent_points": 4
+      },
+      "expert": {
+        "level": 41,
+        "talent_points": 9
+      },
+      "master": {
+        "level": 61,
+        "talent_points": 13
+      }
+    },
+    "practice_benefits": {
+      "tracking_speed": 0.12,
+      "prey_quality": 0.09,
+      "success_rate": 0.1,
+      "discovery_chance": 0.07
+    },
+    "decay_mechanic": {
+      "enabled": true,
+      "rate": 0.005,
+      "minimum_level": 25,
+      "recovery_rate": 0.011
+    }
+  },
+  "talent_tree": {
+    "total_points": 16,
+    "branches": {
+      "tracking_mastery": {
+        "name": "Maîtrise du Pistage",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Sens Aiguisés",
+            "max_rank": 2,
+            "effects": {
+              "tracking_range": 0.15,
+              "detection_accuracy": 0.12,
+              "trail_reading": 0.09
+            },
+            "prerequisites": [],
+            "description": "Sens développés pour le pistage"
+          },
+          {
+            "name": "Pistage Expert",
+            "max_rank": 2,
+            "effects": {
+              "animal_prediction": true,
+              "behavior_analysis": 0.18,
+              "ambush_detection": 0.15
+            },
+            "prerequisites": [
+              "Sens Aiguisés_1"
+            ],
+            "description": "Analyse experte du comportement animal"
+          }
+        ]
+      },
+      "weapon_proficiency": {
+        "name": "Maîtrise des Armes de Chasse",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Arc de Chasse",
+            "max_rank": 2,
+            "effects": {
+              "bow_accuracy": 0.16,
+              "arrow_penetration": 0.13,
+              "silent_shot": 0.1
+            },
+            "prerequisites": [],
+            "description": "Maîtrise des arcs de chasse"
+          },
+          {
+            "name": "Armes de Jet",
+            "max_rank": 2,
+            "effects": {
+              "throwing_accuracy": 0.2,
+              "weapon_return": true,
+              "multi_target": 0.17
+            },
+            "prerequisites": [
+              "Arc de Chasse_1"
+            ],
+            "description": "Maîtrise des armes de jet et projectiles"
+          }
+        ]
+      },
+      "beast_lore": {
+        "name": "Connaissance des Bêtes",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Étude Animale",
+            "max_rank": 2,
+            "effects": {
+              "animal_identification": true,
+              "weakness_detection": 0.19,
+              "behavior_prediction": 0.16
+            },
+            "prerequisites": [],
+            "description": "Étude approfondie des animaux"
+          },
+          {
+            "name": "Communication Animale",
+            "max_rank": 2,
+            "effects": {
+              "animal_friendship": true,
+              "beast_control": 0.23,
+              "pack_hunting": 0.2
+            },
+            "prerequisites": [
+              "Étude Animale_2"
+            ],
+            "description": "Communication et contrôle des animaux"
+          }
+        ]
+      },
+      "legendary_hunting": {
+        "name": "Chasse Légendaire",
+        "max_points": 4,
+        "prerequisites": [],
+        "talents": [
+          {
+            "name": "Proie Légendaire",
+            "max_rank": 1,
+            "effects": {
+              "legendary_prey": true,
+              "quality_multiplier": 0.45,
+              "reputation_bonus": 0.35
+            },
+            "prerequisites": [
+              "Pistage Expert_2",
+              "Armes de Jet_2"
+            ],
+            "description": "Chasse aux proies légendaires"
+          },
+          {
+            "name": "Maître Traqueur",
+            "max_rank": 1,
+            "effects": {
+              "perfect_tracking": true,
+              "invisible_hunter": true,
+              "beast_mastery": 0.55
+            },
+            "prerequisites": [
+              "Proie Légendaire"
+            ],
+            "description": "Maîtrise parfaite du pistage"
+          },
+          {
+            "name": "Chasseur Divin",
+            "max_rank": 1,
+            "effects": {
+              "divine_hunter": true,
+              "legendary_creation": true,
+              "godly_precision": 0.7
+            },
+            "prerequisites": [
+              "Maître Traqueur"
+            ],
+            "description": "Chasseur béni par les dieux"
+          },
+          {
+            "name": "Seigneur des Bêtes",
+            "max_rank": 1,
+            "effects": {
+              "beast_sovereignty": true,
+              "army_summoning": true,
+              "legendary_hunter": true
+            },
+            "prerequisites": [
+              "Chasseur Divin"
+            ],
+            "description": "Maîtrise ultime de la chasse et des bêtes"
+          }
+        ]
+      }
+    }
+  },
+  "specialization_paths": {
+    "tracker": {
+      "name": "Pisteur",
+      "requirements": {
+        "hunting_level": 33,
+        "tracking_mastery_points": 4,
+        "completed_quests": 2
+      },
+      "bonuses": {
+        "tracking_range": 20.0,
+        "detection_accuracy": 18.0,
+        "trail_reading": 15.0,
+        "animal_prediction": 25.0,
+        "behavior_analysis": 0.2
+      },
+      "unlock_recipes": [
+        "appat_animal",
+        "piege_renforce",
+        "potion_pistage",
+        "carte_territoire"
+      ],
+      "unlock_abilities": [
+        "pistage_rapide",
+        "detection_embuscade",
+        "analyse_comportement"
+      ],
+      "synergies": {
+        "ranger": {
+          "multiplier": 1.5,
+          "effects": [
+            "forest_tracking",
+            "animal_communication"
+          ]
+        },
+        "druid": {
+          "multiplier": 1.3,
+          "effects": [
+            "beast_friendship",
+            "nature_harmony"
+          ]
+        }
+      }
+    },
+    "bow_hunter": {
+      "name": "Chasseur à l'Arc",
+      "requirements": {
+        "hunting_level": 36,
+        "weapon_proficiency_points": 4,
+        "completed_quests": 2
+      },
+      "bonuses": {
+        "bow_accuracy": 22.0,
+        "arrow_penetration": 20.0,
+        "silent_shot": 18.0,
+        "throwing_accuracy": 25.0,
+        "multi_target": 0.22
+      },
+      "unlock_recipes": [
+        "arc_chasse",
+        "fleche_perforante",
+        "carquois_magique",
+        "arme_jeter_legendaire"
+      ],
+      "unlock_abilities": [
+        "tir_silencieux",
+        "fleche_guidée",
+        "lancer_multiple"
+      ],
+      "synergies": {
+        "fletcher": {
+          "multiplier": 1.6,
+          "effects": [
+            "bow_enhancement",
+            "arrow_mastery"
+          ]
+        },
+        "ranger": {
+          "multiplier": 1.4,
+          "effects": [
+            "ranged_damage",
+            "precision_boost"
+          ]
+        }
+      }
+    },
+    "beast_master": {
+      "name": "Maître des Bêtes",
+      "requirements": {
+        "hunting_level": 42,
+        "beast_lore_points": 4,
+        "completed_quests": 3
+      },
+      "bonuses": {
+        "animal_identification": 28.0,
+        "weakness_detection": 25.0,
+        "behavior_prediction": 22.0,
+        "animal_friendship": 30.0,
+        "beast_control": 0.35
+      },
+      "unlock_recipes": [
+        "collier_animal",
+        "appel_bete",
+        "potion_domination",
+        "arme_bete_legendaire"
+      ],
+      "unlock_abilities": [
+        "amitie_animale",
+        "controle_bete",
+        "chasse_groupe"
+      ],
+      "synergies": {
+        "druid": {
+          "multiplier": 1.7,
+          "effects": [
+            "animal_mastery",
+            "beast_synergy"
+          ]
+        },
+        "ranger": {
+          "multiplier": 1.5,
+          "effects": [
+            "companion_bond",
+            "pack_hunting"
+          ]
+        }
+      }
+    },
+    "legendary_hunter": {
+      "name": "Chasseur Légendaire",
+      "requirements": {
+        "hunting_level": 65,
+        "legendary_hunting_points": 4,
+        "completed_specializations": 2,
+        "master_achievements": 3
+      },
+      "bonuses": {
+        "legendary_prey": 55.0,
+        "quality_multiplier": 45.0,
+        "perfect_tracking": 40.0,
+        "beast_mastery": 35.0,
+        "legendary_hunter": true
+      },
+      "unlock_recipes": [
+        "arme_divine",
+        "appel_divin",
+        "potion_eternelle",
+        "creation_legendaire"
+      ],
+      "unlock_abilities": [
+        "chasse_parfaite",
+        "maitrise_bete",
+        "pouvoir_divin",
+        "seigneur_animaux"
+      ],
+      "synergies": {
+        "ranger": {
+          "multiplier": 1.8,
+          "effects": [
+            "legendary_hunting",
+            "divine_precision"
+          ]
+        },
+        "druid": {
+          "multiplier": 1.9,
+          "effects": [
+            "beast_sovereignty",
+            "nature_divinity"
+          ]
+        }
+      }
+    }
+  },
+  "abilities": [
+    "master_hunting",
+    "tracking_mastery",
+    "weapon_proficiency",
+    "beast_lore",
+    "legendary_hunting",
+    "perfect_tracking",
+    "divine_hunter",
+    "beast_sovereignty"
+  ],
+  "quests": [
+    {
+      "id": "hunter_apprentice",
+      "name": "L'Apprenti Chasseur",
+      "requirements": {
+        "hunting_level": 1,
+        "track_animals": 15,
+        "hunt_small_game": 20,
+        "craft_traps": 10
+      },
+      "rewards": [
+        "basic_hunting_kit",
+        "apprentice_talent_points",
+        "basic_hunting_recipes"
+      ]
+    },
+    {
+      "id": "hunter_journeyman",
+      "name": "Le Chasseur Voyageur",
+      "requirements": {
+        "hunting_level": 21,
+        "track_animals": 100,
+        "hunt_large_game": 50,
+        "craft_advanced_traps": 25,
+        "tame_animals": 5
+      },
+      "rewards": [
+        "journeyman_hunting_kit",
+        "journeyman_talent_points",
+        "advanced_hunting_recipes"
+      ]
+    },
+    {
+      "id": "hunter_master",
+      "name": "Le Maître Chasseur",
+      "requirements": {
+        "hunting_level": 61,
+        "track_animals": 600,
+        "hunt_legendary_beasts": 30,
+        "tame_legendary_animals": 15,
+        "master_achievements": 3
+      },
+      "rewards": [
+        "master_hunting_kit",
+        "master_talent_points",
+        "legendary_hunting_recipes",
+        "beast_lore_abilities"
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "first_kill",
+      "name": "Premier Gibier",
+      "requirement": {
+        "hunt_small_game": 1
+      },
+      "rewards": [
+        "basic_hunting_recipe",
+        "4_copper_coins"
+      ]
+    },
+    {
+      "id": "master_tracker",
+      "name": "Maître Pisteur",
+      "requirement": {
+        "track_animals": 200
+      },
+      "rewards": [
+        "tracking_specialization",
+        "200_silver_coins",
+        "tracking_range_bonus"
+      ]
+    },
+    {
+      "id": "legendary_hunt",
+      "name": "Chasse Légendaire",
+      "requirement": {
+        "hunt_legendary_beasts": 25
+      },
+      "rewards": [
+        "legendary_hunter",
+        "9000_gold_coins",
+        "market_reputation",
+        "master_hunter_title"
+      ]
+    }
+  ],
+  "market_integration": {
+    "quality_multipliers": {
+      "common": 1.0,
+      "fine": 1.6,
+      "superior": 2.3,
+      "exquisite": 3.8,
+      "masterwork": 6.5,
+      "legendary": 13.5,
+      "mythic": 28.0
+    },
+    "reputation_bonuses": {
+      "local_hunter": 1.0,
+      "town_hunter": 1.3,
+      "regional_tracker": 1.6,
+      "national_master": 2.1,
+      "world_famous": 3.3
+    },
+    "supply_demand": {
+      "common_pelts": {
+        "volatility": 0.11,
+        "trend": "steady_supply"
+      },
+      "rare_animal_parts": {
+        "volatility": 0.19,
+        "trend": "high_demand"
+      },
+      "legendary_trophies": {
+        "volatility": 0.26,
+        "trend": "rare_supply"
+      }
+    }
+  },
+  "enabled": true,
+  "id": "master_hunter",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

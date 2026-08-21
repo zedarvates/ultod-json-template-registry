@@ -1,0 +1,46 @@
+{
+  "id": "evocation_spell_1530",
+  "name": "Evocation Spell 1530",
+  "description": "Après avoir pris des dégâts, inflige des dégâts de feu à l'attaquant",
+  "icon": "evocation_spell_1530_icon",
+  "school": "evocation",
+  "rarity": "uncommon",
+  "spell_type": "reactive",
+  "target_type": "single",
+  "range": 18.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 40,
+  "damage": {
+    "base_damage": 20,
+    "damage_type": "fire",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "reactive_fire",
+      "value": 20,
+      "duration": 0,
+      "tick_rate": 0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "evocation_spell_1530_flame",
+    "projectile_effect": "fire_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "hell_laugh"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "warlock"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

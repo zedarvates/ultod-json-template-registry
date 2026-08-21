@@ -1,0 +1,145 @@
+{
+  "item_id": "temporal_sovereign_robes",
+  "name": "Robes du Souverain Temporel",
+  "description": "Des robes mystiques tissées avec des fils de réalité, offrant une protection et une puissance temporelle extrêmes",
+  "icon": "temporal_sovereign_robes_icon",
+  "category": "chest_armor",
+  "rarity": "legendary",
+  "item_type": "artifact_armor",
+  "bind_type": "bind_on_equip",
+  "level_required": 75,
+  "durability": {
+    "max_durability": 1200,
+    "current_durability": 1200,
+    "decay_rate": 0.001
+  },
+  "stats": {
+    "intelligence": 40,
+    "wisdom": 35,
+    "constitution": 50,
+    "mana": 800,
+    "mana_regeneration": 30,
+    "spell_power": 0.4,
+    "temporal_resistance": 0.45,
+    "armor_rating": 350,
+    "spell_resilience": 0.35
+  },
+  "special_effects": [
+    {
+      "effect_type": "temporal_ward",
+      "description": "Absorbe automatiquement les effets temporels négatifs",
+      "absorption_capacity": 500,
+      "recharge_time": 30000
+    },
+    {
+      "effect_type": "reality_protection",
+      "description": "Réduit tous les dégâts reçus de 15%",
+      "damage_reduction": 0.15,
+      "duration": "passive"
+    },
+    {
+      "effect_type": "chronal_regeneration",
+      "description": "Restaure automatiquement la santé et le mana",
+      "health_regen": 0.02,
+      "mana_regen": 0.05,
+      "tick_rate": 5000
+    }
+  ],
+  "temporal_abilities": {
+    "reality_barrier": {
+      "ability_type": "active",
+      "description": "Crée une barrière de réalité qui bloque tous les dégâts",
+      "cooldown": 120000,
+      "duration": 8000,
+      "absorption": 2000,
+      "effects": [
+        "damage_block",
+        "status_resistance",
+        "temporal_immunity"
+      ]
+    },
+    "temporal_adaptation": {
+      "ability_type": "passive",
+      "description": "S'adapte automatiquement aux attaques temporelles",
+      "effect": "absorbs_and_reflects_temporal_effects",
+      "reflection_chance": 0.3,
+      "duration": "permanent"
+    }
+  },
+  "set_bonuses": {
+    "temporal_sovereign_set": {
+      "set_items": [
+        "temporal_sovereign_crown",
+        "temporal_sovereign_robes",
+        "temporal_sovereign_staff"
+      ],
+      "bonuses": {
+        "2_pieces": {
+          "temporal_spell_power": 0.2,
+          "reality_barrier_cooldown_reduction": 0.4,
+          "temporal_resistance": 0.1
+        },
+        "3_pieces": {
+          "temporal_sovereign_command": true,
+          "mastery_of_time": true,
+          "reality_manipulation": true,
+          "set_bonus_effect": "chronal_immortality"
+        }
+      }
+    }
+  },
+  "crafting_requirements": {
+    "profession": "master_chronomancer",
+    "level_required": 80,
+    "specialization": "temporal_artificer",
+    "materials": [
+      {
+        "material_id": "temporal_dragon_scale",
+        "quantity": 2
+      },
+      {
+        "material_id": "reality_crystal",
+        "quantity": 8
+      },
+      {
+        "material_id": "time_mastery_essence",
+        "quantity": 15
+      },
+      {
+        "material_id": "ancient_temporal_fabric",
+        "quantity": 5
+      },
+      {
+        "material_id": "chronal_essence",
+        "quantity": 20
+      }
+    ],
+    "crafting_time": 9600000,
+    "success_rate": 0.5,
+    "failure_result": "temporal_sovereign_robes_fragment"
+  },
+  "acquisition": {
+    "quest_reward": {
+      "quest_id": "temporal_sovereign",
+      "quest_reward_type": "epic_completion"
+    },
+    "temporal_dragon_drop": {
+      "monster_id": "temporal_dragon",
+      "drop_rate": 0.03,
+      "quality": "legendary"
+    },
+    "temporal_event_reward": {
+      "event_type": "temporal_crisis_peak",
+      "participation_required": true,
+      "drop_rate": 0.03
+    }
+  },
+  "lore": {
+    "origin": "Forgées par les anciens Souverains Temporels pour maintenir l'équilibre du temps",
+    "history": "Ces robes ont protégéesinnombrables générations de gardiens temporels",
+    "powers": "Conferent une protection absolute contre les disturbances temporelles"
+  },
+  "version": "0.1.0",
+  "id": "temporal_sovereign_robes",
+  "template_type": "item"
+}

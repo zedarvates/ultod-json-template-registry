@@ -1,0 +1,426 @@
+{
+  "$comment": [
+    "Butin de repli par categorie. Il ne s'applique QUE si le monstre n'a aucun",
+    "objet a lui : des qu'un template liste ne serait-ce qu'un objet dans son",
+    "loot_table, ce fichier est ignore pour lui. Les tables ecrites a la main",
+    "restent donc intactes.",
+    "",
+    "Il existe parce que 373 des 389 templates de templates/monsters/ portent un",
+    "bloc loot_table aux listes vides : ils ne lachaient que l'or. Plutot que de",
+    "generer 373 fichiers, une regle par categorie couvre tout et se regle ici,",
+    "sans recompiler.",
+    "",
+    "Meme grammaire que templates/loot/loot_defaults.json : forme courte (id nu)",
+    "ou forme longue {item, chance, min_quantity, max_quantity}.",
+    "",
+    "currency_by_rarity multiplie la quantite d'or du bonus global selon la",
+    "rarete declaree du monstre. Un legendaire porte huit fois la bourse d'un",
+    "non-commun."
+  ],
+  "version": "0.1.0",
+  "currency_by_rarity": {
+    "common": 0.5,
+    "uncommon": 1.0,
+    "rare": 2.0,
+    "epic": 4.0,
+    "legendary": 8.0
+  },
+  "categories": {
+    "beast": {
+      "guaranteed_drops": [
+        {
+          "item": "raw_meat",
+          "max_quantity": 3
+        }
+      ],
+      "common_drops": [
+        "beast_hide",
+        {
+          "item": "beast_fang",
+          "chance": 0.3
+        }
+      ],
+      "rare_drops": [
+        "pristine_hide"
+      ]
+    },
+    "dragon": {
+      "guaranteed_drops": [
+        {
+          "item": "dragon_scale",
+          "min_quantity": 2,
+          "max_quantity": 6
+        }
+      ],
+      "common_drops": [
+        {
+          "item": "dragon_bone",
+          "chance": 0.5,
+          "max_quantity": 3
+        }
+      ],
+      "rare_drops": [
+        {
+          "item": "dragon_heart",
+          "chance": 0.15
+        }
+      ],
+      "epic_drops": [
+        {
+          "item": "elder_dragon_fang",
+          "chance": 0.06
+        }
+      ]
+    },
+    "humanoid": {
+      "guaranteed_drops": [
+        "torn_cloth"
+      ],
+      "common_drops": [
+        {
+          "item": "crude_weapon",
+          "chance": 0.3
+        },
+        {
+          "item": "coin_pouch",
+          "chance": 0.4
+        }
+      ],
+      "rare_drops": [
+        "worn_signet"
+      ]
+    },
+    "monstrosity": {
+      "guaranteed_drops": [
+        {
+          "item": "monstrous_hide",
+          "max_quantity": 2
+        }
+      ],
+      "common_drops": [
+        "chitin_plate",
+        {
+          "item": "aberrant_gland",
+          "chance": 0.25
+        }
+      ],
+      "rare_drops": [
+        "mutated_organ"
+      ]
+    },
+    "monster": {
+      "guaranteed_drops": [
+        {
+          "item": "monster_hide",
+          "max_quantity": 2
+        }
+      ],
+      "common_drops": [
+        "monster_fang"
+      ],
+      "rare_drops": [
+        "prime_specimen"
+      ]
+    },
+    "fiend": {
+      "guaranteed_drops": [
+        {
+          "item": "brimstone",
+          "max_quantity": 3
+        }
+      ],
+      "common_drops": [
+        "fiend_ichor",
+        {
+          "item": "infernal_horn",
+          "chance": 0.25
+        }
+      ],
+      "rare_drops": [
+        "pact_seal"
+      ],
+      "epic_drops": [
+        {
+          "item": "fiend_heart",
+          "chance": 0.04
+        }
+      ]
+    },
+    "rift": {
+      "guaranteed_drops": [
+        {
+          "item": "rift_shard",
+          "max_quantity": 3
+        }
+      ],
+      "common_drops": [
+        "unstable_essence"
+      ],
+      "rare_drops": [
+        {
+          "item": "rift_core",
+          "chance": 0.12
+        }
+      ]
+    },
+    "undead": {
+      "guaranteed_drops": [
+        {
+          "item": "bone_shard",
+          "min_quantity": 2,
+          "max_quantity": 5
+        }
+      ],
+      "common_drops": [
+        "grave_dust",
+        {
+          "item": "rotted_wrapping",
+          "chance": 0.3
+        }
+      ],
+      "rare_drops": [
+        "unquiet_soul"
+      ]
+    },
+    "aberration": {
+      "guaranteed_drops": [
+        "aberrant_flesh"
+      ],
+      "common_drops": [
+        {
+          "item": "alien_eye",
+          "chance": 0.3
+        }
+      ],
+      "rare_drops": [
+        "impossible_geometry_shard"
+      ]
+    },
+    "construct": {
+      "guaranteed_drops": [
+        {
+          "item": "scrap_alloy",
+          "min_quantity": 2,
+          "max_quantity": 5
+        }
+      ],
+      "common_drops": [
+        "binding_rune"
+      ],
+      "rare_drops": [
+        {
+          "item": "animating_core",
+          "chance": 0.12
+        }
+      ],
+      "currency": {
+        "chance": 0.35
+      }
+    },
+    "giant": {
+      "guaranteed_drops": [
+        {
+          "item": "giant_bone",
+          "max_quantity": 3
+        }
+      ],
+      "common_drops": [
+        {
+          "item": "huge_hide",
+          "chance": 0.5
+        }
+      ],
+      "rare_drops": [
+        "giants_thumb_ring"
+      ]
+    },
+    "swarm": {
+      "guaranteed_drops": [
+        {
+          "item": "chitin_scraps",
+          "min_quantity": 2,
+          "max_quantity": 6
+        }
+      ],
+      "common_drops": [
+        "insect_wing"
+      ],
+      "currency": {
+        "chance": 0.2
+      }
+    },
+    "fey": {
+      "guaranteed_drops": [
+        {
+          "item": "fey_dust",
+          "max_quantity": 3
+        }
+      ],
+      "common_drops": [
+        "glimmer_petal"
+      ],
+      "rare_drops": [
+        {
+          "item": "pact_of_the_hollow_hill",
+          "chance": 0.1
+        }
+      ]
+    },
+    "plant": {
+      "guaranteed_drops": [
+        {
+          "item": "plant_fiber",
+          "min_quantity": 2,
+          "max_quantity": 5
+        }
+      ],
+      "common_drops": [
+        "spore_pod"
+      ],
+      "rare_drops": [
+        "heartwood_seed"
+      ],
+      "currency": {
+        "chance": 0.15
+      }
+    },
+    "ooze": {
+      "guaranteed_drops": [
+        {
+          "item": "ooze_sample",
+          "max_quantity": 3
+        }
+      ],
+      "common_drops": [
+        "acidic_residue"
+      ],
+      "rare_drops": [
+        "undigested_valuable"
+      ]
+    },
+    "elemental": {
+      "guaranteed_drops": [
+        {
+          "item": "elemental_mote",
+          "max_quantity": 3
+        }
+      ],
+      "common_drops": [
+        "raw_essence"
+      ],
+      "rare_drops": [
+        {
+          "item": "primal_core",
+          "chance": 0.12
+        }
+      ],
+      "currency": {
+        "chance": 0.25
+      }
+    },
+    "celestial": {
+      "guaranteed_drops": [
+        "celestial_feather"
+      ],
+      "common_drops": [
+        {
+          "item": "radiant_mote",
+          "chance": 0.5,
+          "max_quantity": 2
+        }
+      ],
+      "rare_drops": [
+        {
+          "item": "halo_fragment",
+          "chance": 0.12
+        }
+      ],
+      "epic_drops": [
+        {
+          "item": "empyrean_tear",
+          "chance": 0.05
+        }
+      ]
+    },
+    "mythical": {
+      "guaranteed_drops": [
+        "mythic_remnant"
+      ],
+      "rare_drops": [
+        {
+          "item": "mythic_relic",
+          "chance": 0.2
+        }
+      ],
+      "epic_drops": [
+        {
+          "item": "legend_made_matter",
+          "chance": 0.08
+        }
+      ]
+    },
+    "spirit": {
+      "guaranteed_drops": [
+        {
+          "item": "ectoplasm",
+          "max_quantity": 3
+        }
+      ],
+      "common_drops": [
+        "spirit_wisp"
+      ],
+      "rare_drops": [
+        "bound_memory"
+      ]
+    },
+    "chaos": {
+      "guaranteed_drops": [
+        {
+          "item": "chaos_fragment",
+          "max_quantity": 3
+        }
+      ],
+      "common_drops": [
+        "warped_matter"
+      ],
+      "rare_drops": [
+        {
+          "item": "impossible_shard",
+          "chance": 0.12
+        }
+      ]
+    },
+    "summoned_beast": {
+      "guaranteed_drops": [
+        "summoning_residue"
+      ],
+      "currency": false
+    },
+    "summoned_undead": {
+      "guaranteed_drops": [
+        "summoning_residue"
+      ],
+      "currency": false
+    },
+    "summoned_fiend": {
+      "guaranteed_drops": [
+        "summoning_residue"
+      ],
+      "currency": false
+    },
+    "$default": {
+      "guaranteed_drops": [
+        "monster_remains"
+      ],
+      "common_drops": [
+        {
+          "item": "salvaged_scrap",
+          "chance": 0.3
+        }
+      ]
+    }
+  },
+  "id": "template",
+  "name": "Template",
+  "template_type": "loot"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "illusion_spell_0085",
+  "name": "Illusion Spell 0085",
+  "description": "Un chant puissant qui brise les effets de peur et terrorise les ennemis alentours",
+  "icon": "illusion_spell_0085_icon",
+  "school": "illusion",
+  "rarity": "rare",
+  "spell_type": "aura_control",
+  "target_type": "area_enemy",
+  "range": 25.0,
+  "cast_time": 3000,
+  "cooldown": 20000,
+  "mana_cost": 50,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "psychic"
+  },
+  "effects": [
+    {
+      "effect_type": "illusion_spell_0085_removal",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_range": 25.0,
+      "ally_fear_immunity": true
+    },
+    {
+      "effect_type": "enemy_terror",
+      "value": 40,
+      "duration": 10000,
+      "tick_rate": 2000,
+      "aoe_range": 25.0,
+      "proc_chance": 0.7,
+      "fear_resistance_pierce": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "powerful_song_rings",
+    "area_effect": "illusion_spell_0085_breaking_waves",
+    "impact_effect": "terror_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "mighty_chorus",
+    "impact_sound": "terrifying_echo",
+    "area_sound": "loosing_waves"
+  },
+  "requirements": {
+    "level": 12,
+    "skills": [
+      "performance",
+      "intimidation",
+      "music_magic"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour"
+    ]
+  },
+  "upgrades": {
+    "unbreakable_integrity": {
+      "unlock_level": 18,
+      "description": "Rend vos alliés complètement immunisés à la peur pour la durée",
+      "ally_fear_immunity_duration": 30000
+    },
+    "mass_terror": {
+      "unlock_level": 24,
+      "description": "Augmente considérablement le rayon et les effets",
+      "aoe_range_bonus": 15.0,
+      "terror_damage": 60
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

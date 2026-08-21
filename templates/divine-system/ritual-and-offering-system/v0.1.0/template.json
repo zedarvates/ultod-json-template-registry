@@ -1,0 +1,482 @@
+{
+  "ritual_and_offering_system": {
+    "offering_types": {
+      "material_offerings": {
+        "description": "Physical items offered to deities",
+        "categories": {
+          "sacrifice": {
+            "description": "Living or precious material offerings",
+            "items": [
+              "rare_animals",
+              "precious_metals",
+              "artisan_works",
+              "magical_artifacts"
+            ],
+            "power_value": "high",
+            "ritual_complexity": "complex",
+            "divine_favor": "significant_boost"
+          },
+          "food_offerings": {
+            "description": "Edible offerings for sustenance",
+            "items": [
+              "sacred_fruits",
+              "ceremonial_bread",
+              "sacred_wine",
+              "herbal_incense"
+            ],
+            "power_value": "medium",
+            "ritual_complexity": "simple_to_moderate",
+            "divine_favor": "moderate_boost"
+          },
+          "treasure_offerings": {
+            "description": "Valuable objects and coins",
+            "items": [
+              "gold_coins",
+              "jewels",
+              "magical_items",
+              "ancient_tomes"
+            ],
+            "power_value": "variable",
+            "ritual_complexity": "simple",
+            "divine_favor": "proportional_to_value"
+          },
+          "artisan_offerings": {
+            "description": "Handcrafted items made with devotion",
+            "items": [
+              "handwoven_cloth",
+              "carved_figures",
+              "crafted_weapons",
+              "artistic_works"
+            ],
+            "power_value": "varies_by_skill",
+            "ritual_complexity": "moderate",
+            "divine_favor": "shows_devotion_skill"
+          }
+        }
+      },
+      "spiritual_offerings": {
+        "description": "Non-material offerings of faith and devotion",
+        "categories": {
+          "prayer_offerings": {
+            "description": "Fervent prayers and devotional words",
+            "types": [
+              "daily_prayers",
+              "devotional_hymns",
+              "divine_praise",
+              "sacred_chants"
+            ],
+            "power_value": "based_on_sincerity",
+            "ritual_complexity": "simple",
+            "divine_favor": "consistent_small_boosts"
+          },
+          "meditation_offerings": {
+            "description": "Mental and spiritual communion",
+            "types": [
+              "silent_meditation",
+              "guided_mindfulness",
+              "vision_seeking",
+              "soul_contemplation"
+            ],
+            "power_value": "based_on_depth",
+            "ritual_complexity": "moderate_to_complex",
+            "divine_favor": "profound_connection"
+          },
+          "service_offerings": {
+            "description": "Actions taken in service to the divine",
+            "types": [
+              "temple_maintenance",
+              "pilgrimages",
+              "charitable_acts",
+              "defending_faith"
+            ],
+            "power_value": "based_on_sacrifice",
+            "ritual_complexity": "ongoing",
+            "divine_favor": "dedicated_relationship"
+          },
+          "virtue_offerings": {
+            "description": "Moral and ethical acts",
+            "types": [
+              "acts_of_mercy",
+              "justice_upholding",
+              "truth_speaking",
+              "compassion_shown"
+            ],
+            "power_value": "based_on_virtue_strength",
+            "ritual_complexity": "ongoing_lifestyle",
+            "divine_favor": "character_alignment_boost"
+          }
+        }
+      }
+    },
+    "ritual_ceremonies": {
+      "daily_rituals": {
+        "description": "Simple daily devotional practices",
+        "examples": {
+          "morning_prayer": {
+            "duration": "5-10 minutes",
+            "components": [
+              "prayer_words",
+              "simple_offering",
+              "meditation"
+            ],
+            "divine_favor": "+1 to +3 daily favor",
+            "faith_requirement": "any_devoted"
+          },
+          "meal_blessing": {
+            "duration": "2-5 minutes",
+            "components": [
+              "food_offering",
+              "gratitude_words",
+              "sharing"
+            ],
+            "divine_favor": "+1 to +2 daily favor",
+            "faith_requirement": "any_devoted"
+          },
+          "evening_reflection": {
+            "duration": "10-15 minutes",
+            "components": [
+              "contemplation",
+              "gratitude",
+              "promise_renewal"
+            ],
+            "divine_favor": "+2 to +4 daily favor",
+            "faith_requirement": "devoted_plus"
+          }
+        }
+      },
+      "weekly_rituals": {
+        "description": "Moderate weekly ceremonies",
+        "examples": {
+          "sabbath_worship": {
+            "duration": "30-60 minutes",
+            "components": [
+              "community_gathering",
+              "hymns",
+              "sermon",
+              "communal_meal"
+            ],
+            "divine_favor": "+5 to +10 weekly favor",
+            "faith_requirement": "devoted",
+            "participants": "2-20 people"
+          },
+          "seasonal_blessing": {
+            "duration": "45-90 minutes",
+            "components": [
+              "seasonal_offering",
+              "nature_rhythms",
+              "community_celebration"
+            ],
+            "divine_favor": "+8 to +15 seasonal favor",
+            "faith_requirement": "devoted",
+            "participants": "5-50 people"
+          },
+          "temple_service": {
+            "duration": "2-4 hours",
+            "components": [
+              "temple_maintenance",
+              "ritual_preparation",
+              "devotional_service"
+            ],
+            "divine_favor": "+10 to +20 service favor",
+            "faith_requirement": "zealous",
+            "participants": "1-10 people"
+          }
+        }
+      },
+      "monthly_rituals": {
+        "description": "Significant monthly ceremonies",
+        "examples": {
+          "divine_communion": {
+            "duration": "2-6 hours",
+            "components": [
+              "elaborate_offerings",
+              "sacred_space_creation",
+              "divine_presence_invocation"
+            ],
+            "divine_favor": "+20 to +50 monthly favor",
+            "faith_requirement": "zealous",
+            "requirements": [
+              "sacred_location",
+              "trained_leader",
+              "rare_components"
+            ]
+          },
+          "prophetic_gathering": {
+            "duration": "3-8 hours",
+            "components": [
+              "prophecy_seeking",
+              "vision_rituals",
+              "divine_guidance"
+            ],
+            "divine_favor": "+15 to +40 monthly favor",
+            "faith_requirement": "zealous",
+            "special_effects": [
+              "divine_visions",
+              "prophetic_dreams",
+              "spiritual_insight"
+            ]
+          },
+          "community_feast": {
+            "duration": "4-12 hours",
+            "components": [
+              "abundant_food_sharing",
+              "gratitude_celebration",
+              "community_bonding"
+            ],
+            "divine_favor": "+25 to +60 monthly favor",
+            "faith_requirement": "any_devoted",
+            "participants": "20-100+ people"
+          }
+        }
+      },
+      "annual_rituals": {
+        "description": "Grand annual ceremonies with major divine impact",
+        "examples": {
+          "great_festival": {
+            "duration": "1-3 days",
+            "components": [
+              "panoramnic_celebrations",
+              "major_offerings",
+              "divine_intervention_requests"
+            ],
+            "divine_favor": "+100 to +500 annual favor",
+            "faith_requirement": "canonized_leadership",
+            "participants": "100-1000+ people",
+            "special_effects": [
+              "divine_appearances",
+              "miracles",
+              "blessing_cascades"
+            ]
+          },
+          "divine_election": {
+            "duration": "1-7 days",
+            "components": [
+              "candidate_selection",
+              "divine_trials",
+              "spiritual_competition"
+            ],
+            "divine_favor": "creates_divine_relationship",
+            "faith_requirement": "all_levels_eligible",
+            "special_effects": [
+              "new_divine_connection",
+              "promotion_opportunities",
+              "divine_election"
+            ]
+          },
+          "apocalypse_ritual": {
+            "duration": "3-7 days",
+            "components": [
+              "world_changing_ceremony",
+              "reality_alteration",
+              "divine_intervention"
+            ],
+            "divine_favor": "world_modification",
+            "faith_requirement": "canonized_only",
+            "participants": "selected_elite_only",
+            "special_effects": [
+              "reality_changes",
+              "world_events",
+              "divine_manifestation"
+            ]
+          }
+        }
+      }
+    },
+    "ritual_components": {
+      "sacred_materials": {
+        "description": "Rare materials needed for powerful rituals",
+        "categories": {
+          "holy_relics": {
+            "examples": [
+              "relics_of_saints",
+              "divine_artifacts",
+              "sacred_texts",
+              "ancient_icons"
+            ],
+            "rarity": "very_rare",
+            "acquisition": "divine_blessing_or_hard_search"
+          },
+          "elemental_cores": {
+            "examples": [
+              "phoenix_feather",
+              "unicorn_horn",
+              "dragon_scale",
+              "fairy_wing"
+            ],
+            "rarity": "extremely_rare",
+            "acquisition": "epic_quests"
+          },
+          "cosmic_fragments": {
+            "examples": [
+              "star_fragment",
+              "void_crystal",
+              "time_shard",
+              "reality_fragment"
+            ],
+            "rarity": "legendary",
+            "acquisition": "divine_intervention"
+          }
+        }
+      },
+      "ritual_tools": {
+        "description": "Sacred implements for ceremony conduction",
+        "categories": {
+          "altar_tools": {
+            "examples": [
+              "sacred_chalice",
+              "holy_censer",
+              "divine_candles",
+              "ritual_knives"
+            ],
+            "functions": [
+              "offering_presentation",
+              "energy_focusing",
+              "sacred_space_creation"
+            ]
+          },
+          "ceremonial_garments": {
+            "examples": [
+              "priest_robes",
+              "sacred_vestments",
+              "divine_symbols",
+              "ceremonial_crowns"
+            ],
+            "functions": [
+              "divine_authority",
+              "energy_conduction",
+              "status_indication"
+            ]
+          },
+          "ritual_instruments": {
+            "examples": [
+              "sacred_harp",
+              "divine_drums",
+              "ceremonial_bells",
+              "sacred_flutes"
+            ],
+            "functions": [
+              "energy_amplification",
+              "divine_communication",
+              "mood_creation"
+            ]
+          }
+        }
+      },
+      "sacred_locations": {
+        "description": "Places where rituals gain enhanced power",
+        "categories": {
+          "divine_temples": {
+            "description": "Permanent structures built for worship",
+            "features": [
+              "dedicated_altars",
+              "sacred_spaces",
+              "energy_focusing",
+              "divine_presence"
+            ],
+            "power_modifier": "2x to 5x ritual power"
+          },
+          "natural_sacred_sites": {
+            "description": "Naturally powerful locations",
+            "examples": [
+              "sacred_groves",
+              "holy_springs",
+              "divine_mountains",
+              "cosmic_portals"
+            ],
+            "features": [
+              "natural_energy",
+              "spiritual_ambient",
+              "divine_connection"
+            ],
+            "power_modifier": "1.5x to 3x ritual power"
+          },
+          "temporary_ritual_spaces": {
+            "description": "Sacred spaces created for specific ceremonies",
+            "creation": "requires_ritual_setup_and_consecration",
+            "features": [
+              "energy_barriers",
+              "divine_focus",
+              "reality_stabilization"
+            ],
+            "power_modifier": "1.2x to 2x ritual power"
+          }
+        }
+      }
+    },
+    "ritual_outcomes": {
+      "favor_effects": {
+        "description": "Divine favor gained from successful rituals",
+        "benefits": {
+          "temporary_blessings": {
+            "duration": "1-24 hours",
+            "effects": [
+              "stat_boosts",
+              "divine_protection",
+              "enhanced_abilities"
+            ],
+            "favor_cost": "low_to_medium"
+          },
+          "sustained_divine_gifts": {
+            "duration": "1-7 days",
+            "effects": [
+              "persistent_abilities",
+              "divine_guidance",
+              "spiritual_enhancement"
+            ],
+            "favor_cost": "medium_to_high"
+          },
+          "permanent_divine_mark": {
+            "duration": "permanent",
+            "effects": [
+              "divine_heritage",
+              "permanent_abilities",
+              "divine_resonance"
+            ],
+            "favor_cost": "very_high"
+          },
+          "divine_intervention": {
+            "duration": "instant_action",
+            "effects": [
+              "miracle_performance",
+              "reality_intervention",
+              "divine_rescue"
+            ],
+            "favor_cost": "extreme"
+          }
+        }
+      },
+      "ritual_failures": {
+        "description": "Consequences of failed or disrupted rituals",
+        "consequences": {
+          "favor_loss": {
+            "description": "Divine displeasure reduces favor",
+            "severity": "minor_to_major",
+            "recovery": "requires_atonement_or_time"
+          },
+          "divine_anger": {
+            "description": "Active divine displeasure",
+            "effects": [
+              "blessing_reversal",
+              "curse_imposition",
+              "divine_silence"
+            ],
+            "severity": "major_to_critical"
+          },
+          "ritual_corruption": {
+            "description": "Ritual energy turns hostile",
+            "effects": [
+              "negative_energy_release",
+              "reality_distortion",
+              "demonic_invitation"
+            ],
+            "severity": "critical_with_long_term_effects"
+          }
+        }
+      }
+    }
+  },
+  "id": "ritual_and_offering_system",
+  "name": "Ritual And Offering System",
+  "template_type": "divine_system",
+  "version": "0.1.0"
+}

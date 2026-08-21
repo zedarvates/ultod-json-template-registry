@@ -1,0 +1,15 @@
+{
+  "id": "combat_expertise",
+  "name": "Expertise au combat",
+  "description": "Augmente votre score de toucher.",
+  "type": "stat_bonus",
+  "effects": [
+    {
+      "type": "stat_mod",
+      "stat": "hit_chance",
+      "value": 0.01
+    }
+  ],
+  "template_type": "talent",
+  "version": "0.1.0"
+}

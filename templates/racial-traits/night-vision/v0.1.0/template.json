@@ -1,0 +1,24 @@
+{
+  "id": "night_vision",
+  "name": "Vision Nocturne",
+  "description": "Capacité à voir clairement dans l'obscurité totale",
+  "icon": "night_vision_icon",
+  "category": "utility",
+  "rarity": "common",
+  "stat_modifiers": {
+    "perception": 0.15,
+    "stealth_detection": 0.1
+  },
+  "passive_effects": [
+    {
+      "id": "dark_vision",
+      "name": "Vision dans le Noir",
+      "description": "Peut voir normalement dans l'obscurité totale jusqu'à 60 mètres",
+      "modifier_type": "vision_range",
+      "value": 60.0
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

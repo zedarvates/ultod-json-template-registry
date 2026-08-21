@@ -1,0 +1,78 @@
+{
+  "id": "enchantment_spell_0450",
+  "name": "Enchantment Spell 0450",
+  "description": "Transporte l'enchanteur ou un allié instantanément vers une destination choisie",
+  "icon": "enchantment_spell_0450_icon",
+  "school": "enchantment",
+  "rarity": "rare",
+  "spell_type": "spatial_warp_magic",
+  "target_type": "self_or_ally",
+  "range": 35.0,
+  "cast_time": 2000,
+  "cooldown": 30000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "enchantment_spell_0450_energy"
+  },
+  "effects": [
+    {
+      "effect_type": "spatial_matter_displacement",
+      "value": 250,
+      "duration": 0,
+      "tick_rate": 0,
+      "teleport_range_max": 35.0,
+      "teleport_accuracy_perfect": true,
+      "phasing_damage_immunity": 2.0,
+      "post_teleport_vulnerability": 3000,
+      "teleport_echo_illusion": 0.3,
+      "spatial_distortion_field": 8.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "rune_circles_forming_spatial_tears",
+    "teleport_effect": "body_disintegrating_teleporting_particles",
+    "arrival_effect": "body_reassembling_from_vapor_teleported",
+    "distortion_effect": "space_rippling_teleport_wake_ripples"
+  },
+  "sound_effects": {
+    "cast_sound": "reality_tearing_spatial_cracking",
+    "teleport_sound": "body_rotation_teleport_whirl_disintegrate",
+    "arrival_sound": "body_reconstruction_teleport_materialize",
+    "distortion_sound": "space_rippling_teleport_swoosh_echo"
+  },
+  "requirements": {
+    "level": 25,
+    "skills": [
+      "arcane_magic",
+      "spatial_manipulation"
+    ],
+    "classes": [
+      "enchanter",
+      "reality_warper"
+    ],
+    "specializations": [
+      "dimensional_traveler"
+    ]
+  },
+  "upgrades": {
+    "blinking_phase_teleport": {
+      "unlock_level": 35,
+      "description": "Permet de cligner entre les phases, évitant les attaques pendant la Enchantment Spell 0450",
+      "phase_blinking_speed": 0.5,
+      "teleport_combat_evasion": 0.4,
+      "multi_teleport_chaining": 3,
+      "reality_anchor_immunity": true
+    },
+    "teleport_mastery": {
+      "unlock_level": 45,
+      "description": "Maîtrise parfaite de la Enchantment Spell 0450 avec contrôle des destinations et des effets",
+      "teleport_destination_choice": "any_location_seen",
+      "teleport_group_carry": 4,
+      "teleport_damage_proc": 200,
+      "spatial_momentum_carry": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

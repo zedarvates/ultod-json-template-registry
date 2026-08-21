@@ -1,0 +1,49 @@
+{
+  "version": "0.1.0",
+  "school": "nature",
+  "rarity": "legendary",
+  "target_type": "single",
+  "range": 46.1,
+  "cast_time": 1063,
+  "cooldown": 9593,
+  "mana_cost": 90,
+  "visual_effects": {
+    "cast_effect": "mage_cast",
+    "projectile_effect": "elemental_projectile",
+    "impact_effect": "elemental_impact",
+    "trail_effect": "elemental_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "mage_cast_sound",
+    "impact_sound": "elemental_impact_sound"
+  },
+  "requirements": {
+    "level": 7,
+    "skills": [],
+    "classes": [
+      "mage"
+    ],
+    "specializations": [
+      "fire"
+    ]
+  },
+  "balance_validated": true,
+  "generated_by": "content_pipeline_v2",
+  "id": "43aa6c6576fb",
+  "name": "Mage Fire Strike",
+  "description": "Generated mage fire spell #200",
+  "icon": "43aa6c6576fb_icon",
+  "spell_type": "buff",
+  "damage_type": null,
+  "effects": [
+    {
+      "effect_type": "regen",
+      "value": 0.35,
+      "duration": 12595,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "balance_efficiency": 0.0187,
+  "template_type": "content_pipeline"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "necromancy_spell_0312",
+  "name": "Necromancy Spell 0312",
+  "description": "Un miasme nécrotique recouvre le sol, drainant continuellement la vie de tous les ennemis dans la zone",
+  "icon": "necromancy_spell_0312_icon",
+  "school": "necromancy",
+  "rarity": "rare",
+  "spell_type": "areal_necrotic_decay",
+  "target_type": "area_effect",
+  "range": 40.0,
+  "cast_time": 2000,
+  "cooldown": 25000,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 300,
+    "damage_type": "area_necrotic_decay",
+    "scaling": {
+      "unholy_power": 2.0,
+      "necrotic_art": 1.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "decay_miasma_ground",
+      "value": 300,
+      "duration": 15000,
+      "tick_rate": 1500,
+      "decay_radius": 12.0,
+      "damage_per_tick": 60,
+      "healing_penalty": 0.5,
+      "life_drain_per_tick": 25,
+      "decay_ground_duration": 20000,
+      "max_targets": 8
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "necrotic_fog_ground_covering",
+    "damage_effect": "decay_particles_soaring_up",
+    "drain_effect": "life_essence_ground_absorption",
+    "fade_effect": "decay_fog_dissipating"
+  },
+  "sound_effects": {
+    "cast_sound": "decay_miasma_hissing_rise",
+    "damage_sound": "hurt_tick_damage_pop",
+    "drain_sound": "life_essence_ground_suction",
+    "fade_sound": "decay_miasma_whispering_dissolve"
+  },
+  "requirements": {
+    "level": 24,
+    "skills": [
+      "necromancy",
+      "decay_aura"
+    ],
+    "classes": [
+      "necromancy_spell_0312_knight",
+      "decay_archon"
+    ],
+    "specializations": [
+      "miasma_master"
+    ]
+  },
+  "upgrades": {
+    "enhanced_decay": {
+      "unlock_level": 34,
+      "description": "La zone de decay est plus grande et les dégâts plus importants",
+      "decay_radius_bonus": 6.0,
+      "damage_increase": 40,
+      "tick_acceleration": 500
+    },
+    "greater_necrosis": {
+      "unlock_level": 44,
+      "description": "Le miasme laisse une zone infectée permanente plus petite",
+      "permanent_decay_patch": true,
+      "patch_radius": 4.0,
+      "movement_penalty_patch": 0.4,
+      "infection_damage_patch": 20
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

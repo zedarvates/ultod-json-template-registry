@@ -1,0 +1,58 @@
+{
+  "id": "evocation_spell_1388",
+  "name": "Evocation Spell 1388",
+  "description": "Créez des tentacules d'électricité qui attrapent une créature dans une portée de 15 pieds, la tirent vers vous de 10 pieds, et infligent 1d8 dégâts de foudre",
+  "icon": "evocation_spell_1388_icon",
+  "school": "evocation",
+  "rarity": "common",
+  "spell_type": "control",
+  "target_type": "single",
+  "range": 4.5,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 20,
+  "damage": {
+    "base_damage": 8,
+    "damage_type": "evocation_spell_1388",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "pull_and_damage",
+      "value": 3.0,
+      "duration": 0,
+      "tick_rate": 0,
+      "strength_save": true,
+      "save_dc": 13
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "electric_charge",
+    "projectile_effect": "evocation_spell_1388_tentacle",
+    "impact_effect": "electric_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "electric_crackle",
+    "impact_sound": "zap"
+  },
+  "requirements": {
+    "level": 1,
+    "skills": [
+      "evocation"
+    ],
+    "classes": [
+      "sorcerer",
+      "wizard"
+    ]
+  },
+  "upgrades": {
+    "empowered_lure": {
+      "unlock_level": 3,
+      "description": "Augmente la portée à 30 pieds et les dégâts à 2d8",
+      "damage_multiplier": 1.5,
+      "range_multiplier": 2.0
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

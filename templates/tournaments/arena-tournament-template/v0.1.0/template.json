@@ -1,0 +1,88 @@
+{
+  "tournament_id": "arena_tournament_template",
+  "name": "Tournoi d'Arène Template",
+  "description": "Un modèle de tournoi d'arène pour les compétitions PvP",
+  "tournament_type": "arena_pvp",
+  "max_participants": 64,
+  "entry_fee": {
+    "gold": 1000,
+    "item": "tournament_token"
+  },
+  "prizes": [
+    {
+      "rank": 1,
+      "gold": 10000,
+      "items": [
+        "legendary_weapon",
+        "champion_crown"
+      ],
+      "title": "Arena Champion"
+    },
+    {
+      "rank": 2,
+      "gold": 5000,
+      "items": [
+        "epic_weapon"
+      ],
+      "title": "Arena Finalist"
+    },
+    {
+      "rank": 3,
+      "gold": 2500,
+      "items": [
+        "rare_weapon"
+      ],
+      "title": "Arena Semi-Finalist"
+    }
+  ],
+  "rules": {
+    "combat_type": "free_for_all",
+    "duration_minutes": 30,
+    "respawn_allowed": false,
+    "team_size": 1,
+    "allowed_spells": "all",
+    "forbidden_items": [
+      "teleportation_scrolls"
+    ]
+  },
+  "brackets": [
+    {
+      "round": "qualifying",
+      "participants": 64,
+      "format": "single_elimination",
+      "duration_minutes": 15
+    },
+    {
+      "round": "quarter_finals",
+      "participants": 16,
+      "format": "single_elimination",
+      "duration_minutes": 20
+    },
+    {
+      "round": "semi_finals",
+      "participants": 4,
+      "format": "single_elimination",
+      "duration_minutes": 25
+    },
+    {
+      "round": "finals",
+      "participants": 2,
+      "format": "single_elimination",
+      "duration_minutes": 30
+    }
+  ],
+  "spectator_features": {
+    "enabled": true,
+    "betting_allowed": true,
+    "commentary_available": true,
+    "replay_system": true
+  },
+  "schedule": {
+    "registration_period_days": 7,
+    "tournament_duration_days": 1,
+    "recurrence": "monthly"
+  },
+  "id": "arena_tournament_template",
+  "template_type": "tournament",
+  "version": "0.1.0"
+}

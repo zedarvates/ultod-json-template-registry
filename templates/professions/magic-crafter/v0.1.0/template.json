@@ -1,0 +1,197 @@
+{
+  "profession": "magic_crafter",
+  "display_name": "Forge Magique",
+  "description": "Maître artisan de la magie qui confectionne des objets permettant la personnalisation des sorts et l'amélioration de leurs propriétés",
+  "icon_path": "icons/professions/magic_crafter.png",
+  "category": "magic",
+  "is_active": true,
+  "recipes": [
+    {
+      "id": "spell_range_enhancer_scroll",
+      "name": "Parchemin d'Amplification de Portée",
+      "profession": "magic_crafter",
+      "difficulty": 35,
+      "components": [
+        {
+          "item_type": "arcanum_crystal",
+          "quantity": 1
+        },
+        {
+          "item_type": "void_weave_thread",
+          "quantity": 2
+        },
+        {
+          "item_type": "balance_rune",
+          "quantity": 1
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "range_enhancer_scroll",
+          "quantity": 1
+        }
+      ],
+      "conditions": {
+        "profession_level": 15,
+        "required_tools": [
+          "spellcraft_forge",
+          "rune_etcher"
+        ]
+      }
+    },
+    {
+      "id": "elemental_affinity_catalyst",
+      "name": "Catalyseur d'Affinité Élémentaire",
+      "profession": "magic_crafter",
+      "difficulty": 45,
+      "components": [
+        {
+          "item_type": "elemental_essence_condensate",
+          "quantity": 1
+        },
+        {
+          "item_type": "resonance_stone",
+          "quantity": 1
+        },
+        {
+          "item_type": "void_weave_thread",
+          "quantity": 3
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "elemental_affinity_catalyst",
+          "quantity": 1
+        }
+      ],
+      "conditions": {
+        "profession_level": 25,
+        "required_tools": [
+          "spellcraft_forge",
+          "elemental_furnace"
+        ]
+      }
+    },
+    {
+      "id": "hybrid_spell_matrix",
+      "name": "Matrice de Sort Hybride",
+      "profession": "magic_crafter",
+      "difficulty": 60,
+      "components": [
+        {
+          "item_type": "arcanum_crystal",
+          "quantity": 2
+        },
+        {
+          "item_type": "mirror_essence",
+          "quantity": 1
+        },
+        {
+          "item_type": "resonance_stone",
+          "quantity": 2
+        },
+        {
+          "item_type": "void_weave_thread",
+          "quantity": 5
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "hybrid_spell_matrix",
+          "quantity": 1
+        }
+      ],
+      "conditions": {
+        "profession_level": 40,
+        "required_tools": [
+          "spellcraft_forge",
+          "matrix_constructor"
+        ]
+      }
+    },
+    {
+      "id": "custom_spell_orb",
+      "name": "Orbe de Sort Personnalisable",
+      "profession": "magic_crafter",
+      "difficulty": 75,
+      "components": [
+        {
+          "item_type": "arcanum_crystal",
+          "quantity": 3
+        },
+        {
+          "item_type": "elemental_essence_condensate",
+          "quantity": 2
+        },
+        {
+          "item_type": "mirror_essence",
+          "quantity": 2
+        },
+        {
+          "item_type": "resonance_stone",
+          "quantity": 3
+        },
+        {
+          "item_type": "void_weave_thread",
+          "quantity": 10
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "custom_spell_orb",
+          "quantity": 1
+        }
+      ],
+      "conditions": {
+        "profession_level": 55,
+        "required_tools": [
+          "spellcraft_forge",
+          "orb_construction_chamber"
+        ]
+      }
+    },
+    {
+      "id": "balance_override_token",
+      "name": "Jeton de Contournement d'Équilibre",
+      "profession": "magic_crafter",
+      "difficulty": 85,
+      "components": [
+        {
+          "item_type": "balance_rune",
+          "quantity": 5
+        },
+        {
+          "item_type": "mirror_essence",
+          "quantity": 3
+        },
+        {
+          "item_type": "resonance_stone",
+          "quantity": 4
+        }
+      ],
+      "outputs": [
+        {
+          "item_type": "balance_override_token",
+          "quantity": 1
+        }
+      ],
+      "conditions": {
+        "profession_level": 70,
+        "required_tools": [
+          "spellcraft_forge",
+          "balance_scales"
+        ]
+      }
+    }
+  ],
+  "specializations": [
+    "spell_enhancement",
+    "elemental_manipulation",
+    "hybrid_spell_creation",
+    "balance_system_mastery"
+  ],
+  "id": "magic_crafter",
+  "name": "Magic Crafter",
+  "template_type": "profession",
+  "version": "0.1.0"
+}

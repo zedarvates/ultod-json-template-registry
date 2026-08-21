@@ -20,7 +20,6 @@
     "body_proportions",
     "appearance_restrictions",
     "cultural_background",
-    "admin_controls",
     "template_type",
     "version"
   ],
@@ -313,77 +312,9 @@
         }
       }
     },
-    "admin_controls": {
-      "type": "object",
-      "properties": {
-        "enabled": {
-          "type": "boolean"
-        },
-        "admin_only": {
-          "type": "boolean"
-        },
-        "requires_permission": {
-          "type": "boolean"
-        },
-        "max_characters_per_account": {
-          "type": "integer",
-          "minimum": 1,
-          "maximum": 20
-        },
-        "creation_restrictions": {
-          "type": "object",
-          "properties": {
-            "min_level_required": {
-              "type": "integer",
-              "minimum": 1,
-              "maximum": 100
-            },
-            "faction_restricted": {
-              "type": "boolean"
-            },
-            "realm_restricted": {
-              "type": "boolean"
-            }
-          }
-        },
-        "balancing_multipliers": {
-          "type": "object",
-          "properties": {
-            "damage_dealt": {
-              "type": "number",
-              "minimum": 0.1,
-              "maximum": 3.0
-            },
-            "damage_taken": {
-              "type": "number",
-              "minimum": 0.1,
-              "maximum": 3.0
-            },
-            "healing_received": {
-              "type": "number",
-              "minimum": 0.1,
-              "maximum": 3.0
-            },
-            "experience_rate": {
-              "type": "number",
-              "minimum": 0.1,
-              "maximum": 3.0
-            }
-          }
-        }
-      }
-    },
     "enabled": {
       "type": "boolean",
       "default": true
-    },
-    "admin_only": {
-      "type": "boolean",
-      "default": false
-    },
-    "debug_mode": {
-      "type": "boolean",
-      "default": false
     }
   },
   "id": "race_schema"

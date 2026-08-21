@@ -1,0 +1,70 @@
+{
+  "id": "mace_fighting",
+  "name": "Combat à la Masse",
+  "description": "Maîtrise des armes contondantes comme les masses, marteaux et fléaux",
+  "icon": "mace_fighting_icon",
+  "category": "combat",
+  "rarity": "common",
+  "base_skill": 0,
+  "max_skill": 120,
+  "skill_gain_rate": 1.2,
+  "attributes": {
+    "primary": "strength",
+    "secondary": "constitution"
+  },
+  "weapon_types": [
+    "mace",
+    "hammer",
+    "flail",
+    "morning_star"
+  ],
+  "abilities": [
+    {
+      "name": "coup_écrasant",
+      "description": "Coup puissant qui ignore une partie de l'armure",
+      "unlock_level": 30,
+      "damage_bonus": 15,
+      "armor_penetration": 20
+    },
+    {
+      "name": "choc_étourdissant",
+      "description": "Coup qui peut étourdir l'adversaire",
+      "unlock_level": 50,
+      "stun_chance": 25,
+      "stun_duration": 2000
+    },
+    {
+      "name": "tourbillon_dévastateur",
+      "description": "Attaque circulaire touchant plusieurs ennemis",
+      "unlock_level": 80,
+      "aoe_damage": 40,
+      "aoe_range": 3.0
+    }
+  ],
+  "bonuses": {
+    "damage_vs_armor": 15,
+    "critical_hit_chance": 5,
+    "stamina_efficiency": 10
+  },
+  "requirements": {
+    "level": 1,
+    "strength": 20
+  },
+  "training_methods": [
+    "practice_dummies",
+    "sparring",
+    "monster_hunting"
+  ],
+  "mastery_bonuses": {
+    "level_50": {
+      "damage_multiplier": 1.1,
+      "stamina_regen": 1.2
+    },
+    "level_100": {
+      "armor_penetration": 25,
+      "critical_multiplier": 1.5
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "skill"
+}

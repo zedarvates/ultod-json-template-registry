@@ -1,0 +1,81 @@
+{
+  "id": "abjuration_spell_0299",
+  "name": "Abjuration Spell 0299",
+  "description": "Utilise la puissance divine pour repousser et détruire les créatures mortes-vivantes",
+  "icon": "abjuration_spell_0299_icon",
+  "school": "abjuration",
+  "rarity": "uncommon",
+  "spell_type": "undead_banishing",
+  "target_type": "area_enemy",
+  "range": 30.0,
+  "cast_time": 1200,
+  "cooldown": 15000,
+  "mana_cost": 60,
+  "damage": {
+    "base_damage": 120,
+    "damage_type": "holy_abjuration_spell_0299ing",
+    "scaling": {
+      "charisma": 2.2,
+      "wisdom": 1.3
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "undead_abjuration_spell_0299ing_wave",
+      "value": 120,
+      "duration": 0,
+      "tick_rate": 0,
+      "holy_damage_mult": 1.5,
+      "turn_radius": 25.0,
+      "turn_success_rate": 0.75,
+      "weaker_undead_destroyed": true,
+      "flee_duration": 8000,
+      "holy_weakness_applied": 15000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "holy_symbol_brandish",
+    "turn_effect": "undead_cringing_aura",
+    "damage_effect": "holy_energy_bursts",
+    "flee_effect": "forced_retreat_golden_rays"
+  },
+  "sound_effects": {
+    "cast_sound": "divine_authority_command",
+    "turn_sound": "undead_agony_shrieks",
+    "damage_sound": "holy_annihilation_crack",
+    "flee_sound": "unholy_mob_retreat_scramble"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "divine_magic",
+      "undead_banishing"
+    ],
+    "classes": [
+      "cleric",
+      "priest",
+      "paladin"
+    ],
+    "specializations": [
+      "undead_slayer"
+    ]
+  },
+  "upgrades": {
+    "mass_turning": {
+      "unlock_level": 15,
+      "description": "Repousse beaucoup plus de morts-vivants et les détruit plus facilement",
+      "turn_radius_bonus": 15.0,
+      "turn_success_bonus": 0.2,
+      "destroy_threshold": "higher_tier"
+    },
+    "divine_reckoning": {
+      "unlock_level": 25,
+      "description": "Les créatures repoussées souffrent d'un jugement divin continu",
+      "judgment_dot": 40,
+      "prevent_resurrection": true,
+      "holy_ground_left": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

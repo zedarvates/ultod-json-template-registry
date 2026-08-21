@@ -1,0 +1,77 @@
+{
+  "id": "weather_control",
+  "name": "Contrôle du Temps",
+  "description": "Capacité à influencer et contrôler les conditions météorologiques",
+  "icon": "weather_control_icon",
+  "category": "elemental",
+  "rarity": "legendary",
+  "stat_modifiers": {
+    "weather_resistance": 0.6,
+    "elemental_damage": 0.3,
+    "area_control": 0.4
+  },
+  "passive_effects": [
+    {
+      "id": "weather_adaptation",
+      "name": "Adaptation Météorologique",
+      "description": "Immunisé aux effets négatifs de tous les types de temps",
+      "modifier_type": "weather_immunity",
+      "value": 100.0
+    },
+    {
+      "id": "storm_sense",
+      "name": "Sens des Tempêtes",
+      "description": "Peut prédire et sentir les changements météorologiques",
+      "modifier_type": "weather_prediction",
+      "value": 80.0
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "call_lightning",
+      "name": "Appel de la Foudre",
+      "description": "Invoque des éclairs du ciel pour frapper les ennemis",
+      "cooldown": 20000,
+      "duration": 0,
+      "effects": {
+        "lightning_strikes": 5,
+        "damage_per_strike": 150,
+        "aoe_range": 25.0
+      }
+    },
+    {
+      "id": "rain_of_fire",
+      "name": "Pluie de Feu",
+      "description": "Fait pleuvoir des météores enflammés sur une zone",
+      "cooldown": 120000,
+      "duration": 15000,
+      "effects": {
+        "meteor_count": 20,
+        "damage_per_meteor": 80,
+        "aoe_range": 30.0
+      }
+    },
+    {
+      "id": "perfect_weather",
+      "name": "Temps Parfait",
+      "description": "Crée des conditions météorologiques idéales pour le combat",
+      "cooldown": 300000,
+      "duration": 120000,
+      "effects": {
+        "weather_type": "optimal",
+        "ally_bonuses": {
+          "visibility": 50,
+          "movement": 25,
+          "accuracy": 30
+        },
+        "enemy_penalties": {
+          "visibility": -30,
+          "movement": -20
+        }
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

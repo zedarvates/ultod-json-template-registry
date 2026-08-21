@@ -1,0 +1,100 @@
+{
+  "id": "beast_creature_0049",
+  "name": "Beast Creature 0049",
+  "description": "Un ours massif et puissant de 4 pieds au garrot, avec une fourrure épais brun foncé. Ses larges épaules et ses puissantes pattesarmed de griffes de 4 pouces peuvent déchirer la chair et l'os. Ses petits yeux intelligents observent avec prudence, tandis que son museau noir hume constamment l'air à la recherche de proies ou de dangers.",
+  "icon": "beast_creature_0049_icon",
+  "category": "beast",
+  "rarity": "common",
+  "base_stats": {
+    "health": 34,
+    "mana": 0,
+    "strength": 19,
+    "dexterity": 10,
+    "intelligence": 2,
+    "wisdom": 13,
+    "constitution": 16,
+    "charisma": 2
+  },
+  "properties": {
+    "size": "medium",
+    "size_modifiers": {
+      "health_multiplier": 1.0,
+      "damage_multiplier": 1.0,
+      "speed_modifier": 0,
+      "space_requirement": 5,
+      "strength_bonus": 0,
+      "constitution_bonus": 0
+    },
+    "speed": 40,
+    "alignment": "neutral",
+    "languages": [
+      "understands but doesn't speak"
+    ],
+    "challenge_rating": "1",
+    "experience_value": 200
+  },
+  "properties_beast": {
+    "pack_tactics": false,
+    "scent_ability": true,
+    "natural_armor_bonus": 2,
+    "special_movement": [
+      "swim"
+    ],
+    "intelligence_modifier": -4,
+    "rearing_behavior": "protective",
+    "hibernation_cycle": true
+  },
+  "abilities": [
+    "multiattack",
+    "bite_attack",
+    "claw_attack",
+    "charge",
+    "opportunity_attack",
+    "scent_tracking"
+  ],
+  "resistances": {
+    "physical": 20,
+    "cold": 30
+  },
+  "weaknesses": [
+    "fire_damage",
+    "slashing_damage"
+  ],
+  "immunities": [],
+  "senses": {
+    "scent": true,
+    "darkvision": 60
+  },
+  "loot_table": {
+    "common_drops": [
+      "bear_hide",
+      "bear_claws",
+      "meat"
+    ],
+    "rare_drops": [
+      "bear_teeth",
+      "thick_fur"
+    ],
+    "epic_drops": [],
+    "legendary_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "moderate",
+    "intelligence_level": "instinctive",
+    "tactical_awareness": "basic",
+    "attack_pattern": "territorial_defense",
+    "defensive_patterns": [
+      "charge",
+      "rearing_attack",
+      "escape_swim"
+    ],
+    "special_behaviors": [
+      "territorial_defensive",
+      "protects_cubs_fiercely",
+      "uses_scent_to_track",
+      "hates_intruders_in_territory"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "monster"
+}

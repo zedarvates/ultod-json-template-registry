@@ -1,0 +1,33 @@
+{
+  "id": "ambush",
+  "name": "Embuscade",
+  "description": "Attaque la cible avec ferveur, infligeant des dégâts massifs. Nécessite d'être camouflé",
+  "type": "ability",
+  "class_restriction": [
+    "rogue"
+  ],
+  "level_requirement": 18,
+  "resource_cost": {
+    "type": "energy",
+    "amount": 60
+  },
+  "cooldown_seconds": 0,
+  "range": 5.0,
+  "effects": [
+    {
+      "type": "damage",
+      "damage_type": "physical",
+      "base_damage": 250,
+      "scaling": {
+        "strength": 0.0,
+        "dexterity": 2.5,
+        "intelligence": 0.0,
+        "level": 1.5
+      },
+      "armor_penetration": 0.0,
+      "required_position": "back"
+    }
+  ],
+  "template_type": "ability",
+  "version": "0.1.0"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "dragon",
+  "name": "Dragon",
+  "description": "Ancient draconic lineage granting immense power and resilience",
+  "color": "FF6B35",
+  "primary_resource": "mana",
+  "base_stats": {
+    "strength": 22,
+    "agility": 16,
+    "intelligence": 20,
+    "vitality": 24,
+    "wisdom": 18,
+    "charisma": 20
+  },
+  "specializations": [
+    "devastation",
+    "preservation"
+  ],
+  "starting_skills": [
+    {
+      "id": 14001,
+      "name": "Dragonfire",
+      "description": "Unleash a blast of draconic flame",
+      "cooldown": 8000,
+      "mana_cost": 400,
+      "range": 25.0,
+      "cast_time": 2000,
+      "learned_at_level": 1,
+      "is_passive": false
+    },
+    {
+      "id": 14002,
+      "name": "Dragon Scales",
+      "description": "Tough draconic scales reduce damage taken",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": true
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 1,
+        "talents": [
+          {
+            "id": 140001,
+            "name": "Draconic Power",
+            "description": "Increases all damage by 8%",
+            "max_rank": 5,
+            "icon_path": "talents/dragon/draconic_power.png"
+          },
+          {
+            "id": 140002,
+            "name": "Ancient Flame",
+            "description": "Fire spells deal 15% more damage",
+            "max_rank": 3,
+            "icon_path": "talents/dragon/ancient_flame.png"
+          },
+          {
+            "id": 140003,
+            "name": "Dragon's Fortitude",
+            "description": "Increases maximum health by 10%",
+            "max_rank": 5,
+            "icon_path": "talents/dragon/dragons_fortitude.png"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100000,
+  "health_modifier": 1.4,
+  "damage_modifier": 1.25,
+  "armor_modifier": 1.5,
+  "is_lineage_class": true,
+  "unlock_requirements": {
+    "required_item": "dragon_heart_crystal",
+    "required_level": 30,
+    "description": "Requires a Dragon Heart Crystal found in ancient dragon lairs"
+  },
+  "template_type": "class",
+  "version": "0.1.0"
+}

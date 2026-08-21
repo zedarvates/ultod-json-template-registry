@@ -1,0 +1,49 @@
+{
+  "id": "rogue_spell_1205",
+  "name": "Rogue Spell 1205",
+  "description": "Téléporte d'ennemi en ennemi en infligeant des dégâts rapides",
+  "icon": "rogue_spell_1205_icon",
+  "school": "rogue",
+  "rarity": "legendary",
+  "spell_type": "multi_target_attack",
+  "target_type": "enemy",
+  "range": 10.0,
+  "cast_time": 0,
+  "cooldown": 120000,
+  "energy_cost": 0,
+  "damage": {
+    "base_damage": 45,
+    "damage_type": "physical"
+  },
+  "effects": [
+    {
+      "effect_type": "spree_attack",
+      "value": 8,
+      "duration": 2000,
+      "tick_rate": 0,
+      "teleport_count": 8,
+      "damage_per_hit": 45
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "spree_start",
+    "attack_effect": "teleport_strikes",
+    "impact_effect": "blood_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "spree_laugh",
+    "attack_sound": "quick_stabs",
+    "impact_sound": "enemies_scream"
+  },
+  "requirements": {
+    "level": 28,
+    "skills": [
+      "combat"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

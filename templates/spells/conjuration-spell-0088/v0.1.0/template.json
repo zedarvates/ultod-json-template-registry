@@ -1,0 +1,83 @@
+{
+  "id": "conjuration_spell_0088",
+  "name": "Conjuration Spell 0088",
+  "description": "Une mélodie ensorcelante qui invoque des créatures musicales pour assister en combat",
+  "icon": "conjuration_spell_0088_icon",
+  "school": "conjuration",
+  "rarity": "legendary",
+  "spell_type": "summon",
+  "target_type": "caster_area",
+  "range": 0.0,
+  "cast_time": 4000,
+  "cooldown": 120000,
+  "mana_cost": 150,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "musical_energy"
+  },
+  "effects": [
+    {
+      "effect_type": "summon_minion",
+      "value": 4,
+      "duration": 120000,
+      "tick_rate": 0,
+      "minion_type": "spectral_musician",
+      "minion_name": "Gardien Harmonique",
+      "max_summons": 3,
+      "minion_stats": {
+        "health": 800,
+        "damage": 45,
+        "armor": 25,
+        "level": "caster_level",
+        "abilities": [
+          "healing_aura",
+          "damage_buff",
+          "combat_assist"
+        ]
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "summoning_music_runes",
+    "buff_effect": "spectral_musicians_appear",
+    "expire_effect": "music_fade_and_vanish"
+  },
+  "sound_effects": {
+    "cast_sound": "mystical_summoning_chant",
+    "impact_sound": "creatures_materialize",
+    "area_sound": "harmonic_orchestra"
+  },
+  "requirements": {
+    "level": 35,
+    "skills": [
+      "performance",
+      "conjuration",
+      "music_magic"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour"
+    ],
+    "specializations": [
+      "conjurer_specialist"
+    ]
+  },
+  "upgrades": {
+    "master_of_orchestra": {
+      "unlock_level": 40,
+      "description": "Invoque des créatures plus puissantes et disciplinées",
+      "minion_health_bonus": 300,
+      "minion_damage_bonus": 20,
+      "minion_armor_bonus": 15
+    },
+    "legendary_concerto": {
+      "unlock_level": 50,
+      "description": "Augmente le nombre d'invocations et leur durée",
+      "max_summons": 5,
+      "duration_bonus": 60000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

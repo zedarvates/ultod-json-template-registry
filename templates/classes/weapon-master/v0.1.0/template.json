@@ -1,0 +1,64 @@
+{
+  "id": "weapon_master",
+  "name": "Maître d'Armes",
+  "description": "Maître des arts martiaux maîtrisant toutes les armes avec une spécialisation dans l'échange d'armes",
+  "color": "FFD700",
+  "primary_resource": "focus",
+  "base_stats": {
+    "strength": 1.3,
+    "agility": 1.4,
+    "intelligence": 0.9,
+    "vitality": 1.1,
+    "wisdom": 0.8,
+    "charisma": 1.0
+  },
+  "available_classes": [
+    "weapon_master"
+  ],
+  "starting_skills": [
+    {
+      "id": 22001,
+      "name": "Maîtrise des Armes",
+      "description": "Permet de changer rapidement d'arme en combat",
+      "cooldown": 0,
+      "mana_cost": 0,
+      "range": 0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": true
+    },
+    {
+      "id": 22002,
+      "name": "Combo Rapide",
+      "description": "Série d'attaques enchaînées avec l'arme actuelle",
+      "cooldown": 0,
+      "mana_cost": 15,
+      "range": 3.0,
+      "cast_time": 0,
+      "learned_at_level": 1,
+      "is_passive": false
+    }
+  ],
+  "talent_tree": {
+    "tiers": [
+      {
+        "tier": 0,
+        "talents": [
+          {
+            "id": 22001,
+            "name": "Échange Instantané",
+            "description": "+50% vitesse d'échange d'armes et +20% dégâts pendant 3s après échange",
+            "max_rank": 5,
+            "icon_path": "weapon_swap_mastery"
+          }
+        ]
+      }
+    ]
+  },
+  "resource_max": 100,
+  "health_modifier": 1.1,
+  "damage_modifier": 1.2,
+  "armor_modifier": 0.9,
+  "template_type": "class",
+  "version": "0.1.0"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "evocation_spell_0090",
+  "name": "Evocation Spell 0090",
+  "description": "Le barde lance un solo effréné de tapping evocation_spell_0090 qui crée des vagues d'énergie destructrices et inspire ses alliés",
+  "icon": "evocation_spell_0090_icon",
+  "school": "evocation",
+  "rarity": "mythical",
+  "spell_type": "solo_performance",
+  "target_type": "area_effects",
+  "range": 100.0,
+  "cast_time": 6000,
+  "cooldown": 180000,
+  "mana_cost": 300,
+  "damage": {
+    "base_damage": 200,
+    "damage_type": "harmonic",
+    "scaling": {
+      "charisma": 2.5,
+      "dexterity": 1.2,
+      "constitution": 0.8
+    },
+    "aoe_range": 25.0
+  },
+  "effects": [
+    {
+      "effect_type": "solo_damage_waves",
+      "value": 200,
+      "duration": 8000,
+      "tick_rate": 1000,
+      "waves_count": 8,
+      "wave_damage": 200,
+      "knockback_force": 15.0,
+      "max_targets": 10,
+      "vibration_effect_radius": 25.0
+    },
+    {
+      "effect_type": "ally_inspiration_solo",
+      "value": 100,
+      "duration": 60000,
+      "tick_rate": 0,
+      "max_targets": 12,
+      "damage_boost_percent": 50,
+      "speed_boost_percent": 30,
+      "music_buff": true
+    },
+    {
+      "effect_type": "ground_vibration",
+      "value": 80,
+      "duration": 5000,
+      "tick_rate": 500,
+      "aoe_range": 30.0,
+      "shake_intensity": 0.3,
+      "structural_damage": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "guitar_solo_energy_burst",
+    "channel_effect": "psychic_guitar_strings",
+    "impact_effect": "harmonic_explosion_chains",
+    "persistent_effect": "sonic_ground_waves"
+  },
+  "sound_effects": {
+    "cast_sound": "epic_guitar_solo_intro",
+    "channel_sound": "legendary_tapping_licks",
+    "impact_sound": "earth_shaking_riffs",
+    "persistent_sound": "echoing_epic_chorus"
+  },
+  "requirements": {
+    "level": 50,
+    "skills": [
+      "performance",
+      "evocation",
+      "tapping_prodigy",
+      "epic_music_mastery"
+    ],
+    "classes": [
+      "bard",
+      "minstrel",
+      "troubadour",
+      "rock_god"
+    ],
+    "specializations": [
+      "solo_artist",
+      "harmony_master"
+    ]
+  },
+  "upgrades": {
+    "legendary_solo": {
+      "unlock_level": 55,
+      "description": "Le solo devient légendaire avec plus de vagues et d'effets visuels",
+      "waves_count_bonus": 4,
+      "damage_boost": 100,
+      "visual_intensity": 2.0
+    },
+    "god_tier_symphony": {
+      "unlock_level": 60,
+      "description": "Le solo atteint des niveaux divins d'énergie evocation_spell_0090e",
+      "aoe_range_bonus": 20.0,
+      "duration_bonus": 30000,
+      "global_cooldown_reduction": 60000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

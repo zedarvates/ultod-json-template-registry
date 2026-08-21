@@ -1,0 +1,50 @@
+{
+  "id": "enchantment_spell_1532",
+  "name": "Enchantment Spell 1532",
+  "description": "Paralyse une créature non humanoïde dans la portée",
+  "icon": "enchantment_spell_1532_icon",
+  "school": "enchantment",
+  "rarity": "legendary",
+  "spell_type": "control",
+  "target_type": "single",
+  "range": 27.0,
+  "cast_time": 500,
+  "cooldown": 0,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none",
+    "aoe_radius": 0.0
+  },
+  "effects": [
+    {
+      "effect_type": "paralysis",
+      "value": 0,
+      "duration": 60000,
+      "tick_rate": 0,
+      "wisdom_save": true,
+      "save_dc": 15
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "monster_bind"
+  },
+  "sound_effects": {
+    "cast_sound": "monster_bind"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "enchantment"
+    ],
+    "classes": [
+      "warlock",
+      "sorcerer",
+      "wizard",
+      "bard"
+    ]
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "template_type": "spell"
+}

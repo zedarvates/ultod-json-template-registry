@@ -1,0 +1,60 @@
+{
+  "id": "rogue_spell_1207",
+  "name": "Rogue Spell 1207",
+  "description": "Attaque rapide avec deux armes, génère des points de combo et applique un saignement",
+  "icon": "rogue_spell_1207_icon",
+  "school": "rogue",
+  "rarity": "common",
+  "spell_type": "melee_attack",
+  "target_type": "enemy",
+  "range": 5.0,
+  "cast_time": 0,
+  "cooldown": 0,
+  "energy_cost": 55,
+  "damage": {
+    "base_damage": 40,
+    "damage_type": "physical"
+  },
+  "effects": [
+    {
+      "effect_type": "combo_point_generation",
+      "combo_points": 2,
+      "duration": 0,
+      "tick_rate": 0,
+      "bleed_damage": 20,
+      "bleed_duration": 8000,
+      "dual_wield_required": true,
+      "stealth_multiplier": 1.8
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "blade_cross",
+    "attack_effect": "dual_slash",
+    "impact_effect": "poisoned_wound"
+  },
+  "sound_effects": {
+    "cast_sound": "blade_cross",
+    "attack_sound": "dual_hit",
+    "impact_sound": "deep_bleed"
+  },
+  "requirements": {
+    "level": 8,
+    "skills": [
+      "dual_wield",
+      "dagger_mastery"
+    ],
+    "classes": [
+      "rogue"
+    ]
+  },
+  "upgrades": {
+    "improved_mutilate": {
+      "unlock_level": 18,
+      "description": "Augmente les dégâts de 25% et la durée de saignement",
+      "damage_multiplier": 1.25,
+      "bleed_duration_bonus": 2000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

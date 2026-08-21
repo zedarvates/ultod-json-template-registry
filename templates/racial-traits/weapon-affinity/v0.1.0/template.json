@@ -1,0 +1,61 @@
+{
+  "id": "weapon_affinity",
+  "name": "Affinité d'Arme",
+  "description": "Lien naturel avec les armes permettant une maîtrise plus rapide et efficace",
+  "icon": "weapon_affinity_icon",
+  "category": "combat",
+  "rarity": "rare",
+  "stat_modifiers": {
+    "weapon_skill_learn_rate": 0.25,
+    "weapon_damage": 0.15,
+    "weapon_accuracy": 0.2
+  },
+  "lineage_synergies": {
+    "warrior": 1.4,
+    "rogue": 1.3,
+    "guardian": 1.2
+  },
+  "passive_effects": [
+    {
+      "id": "weapon_mastery_boost",
+      "name": "Maîtrise d'Arme Améliorée",
+      "description": "Toutes les compétences d'armes progressent plus rapidement",
+      "modifier_type": "skill_xp_rate",
+      "value": 25.0
+    },
+    {
+      "id": "weapon_damage_passive",
+      "name": "Dégâts d'Arme Naturels",
+      "description": "Bonus de dégâts avec toutes les armes",
+      "modifier_type": "weapon_damage",
+      "value": 15.0
+    }
+  ],
+  "active_abilities": [
+    {
+      "id": "weapon_resonance",
+      "name": "Résonance d'Arme",
+      "description": "Momentanément améliore toutes les compétences d'armes",
+      "cooldown": 300000,
+      "duration": 60000,
+      "effects": {
+        "weapon_skill_boost": 50.0,
+        "weapon_damage_boost": 25.0
+      }
+    },
+    {
+      "id": "weapon_swap_boost",
+      "name": "Échange Rapide d'Armes",
+      "description": "Permet un changement d'arme instantané pendant un court moment",
+      "cooldown": 180000,
+      "duration": 10000,
+      "effects": {
+        "weapon_swap_speed": 100.0,
+        "weapon_swap_cooldown": 0.0
+      }
+    }
+  ],
+  "enabled": true,
+  "template_type": "racial_trait",
+  "version": "0.1.0"
+}

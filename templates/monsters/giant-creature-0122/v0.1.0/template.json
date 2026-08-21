@@ -1,0 +1,65 @@
+{
+  "id": "giant_creature_0122",
+  "name": "Giant Creature 0122",
+  "description": "Géant à un œil, forgeron et berger des montagnes, doté d'une force légendaire",
+  "icon": "giant_creature_0122_icon",
+  "category": "giant",
+  "rarity": "rare",
+  "base_stats": {
+    "health": 1400,
+    "mana": 250,
+    "strength": 120,
+    "dexterity": 30,
+    "intelligence": 25,
+    "wisdom": 45,
+    "constitution": 130,
+    "charisma": 15
+  },
+  "properties": {
+    "size": "large",
+    "speed": 7.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "giant_creature_0122_eye",
+      "giant_hammer"
+    ],
+    "rare_drops": [
+      "single_crystal",
+      "mountain_herb"
+    ],
+    "epic_drops": [
+      "giant_creature_0122_heart",
+      "one_eyed_totem"
+    ]
+  },
+  "ai_behavior": {
+    "aggression_level": "moderate",
+    "attack_pattern": "hammer_slam",
+    "special_abilities": [
+      "petrifying_gaze",
+      "hammer_throw",
+      "mountain_roar"
+    ]
+  },
+  "abilities": [
+    "hammer_crush",
+    "eye_beam",
+    "ground_slam",
+    "hammer_toss",
+    "defensive_stance",
+    "sheep_summon"
+  ],
+  "resistances": {
+    "physical": 50,
+    "earth": 70,
+    "mental": 40
+  },
+  "weaknesses": [
+    "lightning",
+    "poison",
+    "holy"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

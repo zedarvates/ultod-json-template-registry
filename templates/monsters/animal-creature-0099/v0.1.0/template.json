@@ -1,0 +1,56 @@
+{
+  "id": "animal_creature_0099",
+  "name": "Animal Creature 0099",
+  "description": "Gracieux herbivore aux bois majestueux, symbole de la nature sauvage",
+  "icon": "animal_creature_0099_icon",
+  "category": "animal",
+  "rarity": "uncommon",
+  "base_stats": {
+    "health": 90,
+    "mana": 25,
+    "strength": 18,
+    "dexterity": 22,
+    "intelligence": 6,
+    "wisdom": 14,
+    "constitution": 16,
+    "charisma": 15
+  },
+  "properties": {
+    "is_aggressive": false,
+    "is_wild": true,
+    "size": "medium",
+    "speed": 12.0
+  },
+  "loot_table": {
+    "common_drops": [
+      "venison",
+      "animal_creature_0099_hide"
+    ],
+    "rare_drops": [
+      "antlers",
+      "animal_creature_0099_heart"
+    ],
+    "epic_drops": []
+  },
+  "ai_behavior": {
+    "aggression_level": "low",
+    "attack_pattern": "flee",
+    "special_abilities": [
+      "antler_charge",
+      "graceful_leap"
+    ]
+  },
+  "abilities": [
+    "antler_gore",
+    "leap",
+    "graze"
+  ],
+  "resistances": {
+    "physical": 12
+  },
+  "weaknesses": [
+    "predators"
+  ],
+  "version": "0.1.0",
+  "template_type": "monster"
+}

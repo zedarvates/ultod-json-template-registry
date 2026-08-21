@@ -1,0 +1,78 @@
+{
+  "id": "chronomancy_spell_0246",
+  "name": "Chronomancy Spell 0246",
+  "description": "Remonte brièvement le temps de l'ensemble du champ de bataille, offrant une seconde chance",
+  "icon": "chronomancy_spell_0246_icon",
+  "school": "chronomancy",
+  "rarity": "legendary",
+  "spell_type": "temporal_reversal",
+  "target_type": "global_field",
+  "range": 100.0,
+  "cast_time": 5000,
+  "cooldown": 300000,
+  "mana_cost": 200,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "temporal_reversal"
+  },
+  "effects": [
+    {
+      "effect_type": "universal_flashback",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "flashback_seconds": 10,
+      "reality_rethread_chance": 0.7,
+      "undo_damage_threshold": 0.9,
+      "retain_tactical_memory": true,
+      "paradox_prevention": true,
+      "global_cooldown_trigger": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "reality_unwinding_spiral",
+    "flashback_effect": "chronomancy_spell_0246_reversal_aurora",
+    "memory_effect": "tactical_echo_display",
+    "reality_effect": "paradox_containment_field"
+  },
+  "sound_effects": {
+    "cast_sound": "universal_chronomancy_spell_0246_reversal",
+    "flashback_sound": "reality_unspooling_whir",
+    "memory_sound": "tactical_foresight_chime",
+    "reality_sound": "paradox_stabilization_hum"
+  },
+  "requirements": {
+    "level": 60,
+    "skills": [
+      "chronomancy",
+      "universal_chronomancy_spell_0246_control",
+      "paradox_mastery"
+    ],
+    "classes": [
+      "chronomancer",
+      "chronomancy_spell_0246_mage",
+      "temporalist"
+    ],
+    "specializations": [
+      "reality_reweaver",
+      "chronal_emperor"
+    ]
+  },
+  "upgrades": {
+    "extended_retcon": {
+      "unlock_level": 70,
+      "description": "Le Chronomancy Spell 0246 peut remonter plus loin dans le temps",
+      "flashback_seconds_bonus": 15,
+      "reality_rethread_bonus": 0.2,
+      "memory_retention_improvement": true
+    },
+    "absolute_reset": {
+      "unlock_level": 75,
+      "description": "Peut annuler complètement la défaite et recommencer le combat",
+      "battle_reset_ability": true,
+      "timeline_rewrite_authority": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "conjuration_spell_1611",
+  "name": "Conjuration Spell 1611",
+  "description": "Invoque un élémentaire pour combattre à vos côtés",
+  "icon": "conjuration_spell_1611_icon",
+  "school": "conjuration",
+  "rarity": "rare",
+  "spell_type": "conjuration_spell_1611",
+  "target_type": "self",
+  "range": 0,
+  "cast_time": 5000,
+  "cooldown": 120000,
+  "mana_cost": 150,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "none"
+  },
+  "effects": [
+    {
+      "effect_type": "conjuration_spell_1611",
+      "value": 0,
+      "duration": 60000,
+      "tick_rate": 0,
+      "summon_type": "elemental",
+      "elemental_type": "fire_water_earth_air"
+    },
+    {
+      "effect_type": "pet_control",
+      "value": 0,
+      "duration": 60000,
+      "tick_rate": 0,
+      "control_range": 30.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "conjuration_spell_1611ing_circle",
+    "summon_effect": "elemental_emergence",
+    "pet_effect": "elemental_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "conjuration_spell_1611ing_chant",
+    "summon_sound": "elemental_roar",
+    "dismiss_sound": "elemental_vanish"
+  },
+  "requirements": {
+    "level": 18,
+    "skills": [
+      "magic_mastery"
+    ],
+    "classes": [
+      "wizard",
+      "shaman",
+      "spiritmaster",
+      "druid"
+    ]
+  },
+  "upgrades": {
+    "greater_elemental": {
+      "unlock_level": 28,
+      "description": "Invoque un élémentaire plus puissant avec plus de santé et de dégâts",
+      "health_multiplier": 1.5,
+      "damage_multiplier": 1.3
+    },
+    "dual_elemental": {
+      "unlock_level": 38,
+      "description": "Invoque deux élémentaires de types différents",
+      "summon_count": 2,
+      "elemental_types": [
+        "fire",
+        "water"
+      ]
+    },
+    "elemental_lord": {
+      "unlock_level": 48,
+      "description": "Invoque un seigneur élémentaire avec des capacités avancées",
+      "elite_summon": true,
+      "special_abilities": [
+        "elemental_nova",
+        "resistance_aura"
+      ]
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

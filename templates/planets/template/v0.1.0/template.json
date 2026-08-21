@@ -1,0 +1,43 @@
+{
+  "planet_id": "terre",
+  "primary": true,
+  "inputs": {
+    "seed": 1234,
+    "gravity_ms2": 9.80665,
+    "oxygen_fraction": 0.21,
+    "pressure_atm": 1.0,
+    "temperature_k": 288.15,
+    "star_luminosity": 1.0
+  },
+  "kill_zone": {
+    "enabled": true,
+    "deepest_point_y": 0.0,
+    "offset_meters": 800.0,
+    "radius_meters": 500.0,
+    "center_x": 0.0,
+    "center_z": 0.0,
+    "respawn_x": 0.0,
+    "respawn_y": 10.0,
+    "respawn_z": 0.0
+  },
+  "biomes": [
+    "forest_biome",
+    "ocean_biome",
+    "desert_biome",
+    "tundra_biome",
+    "cave_biome"
+  ],
+  "creature_pool": {
+    "include": [],
+    "exclude": []
+  },
+  "cities": [
+    "havre_du_roi"
+  ],
+  "dungeons": [],
+  "weather_profile": "",
+  "id": "template",
+  "name": "Template",
+  "template_type": "planet",
+  "version": "0.1.0"
+}

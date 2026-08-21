@@ -1,0 +1,72 @@
+{
+  "id": "frost_spell_0890",
+  "name": "Frost Spell 0890",
+  "description": "Enferme le corps dans un cocon de glace protecteur qui absorbe une quantité massive de dégâts et interrompt tous les effets",
+  "icon": "frost_spell_0890_icon",
+  "school": "frost",
+  "rarity": "epic",
+  "spell_type": "icy_self_protection_cocoon",
+  "target_type": "self_shield",
+  "range": 0.0,
+  "cast_time": 2000,
+  "cooldown": 180000,
+  "mana_cost": 100,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "frozen_protection_barrier"
+  },
+  "effects": [
+    {
+      "effect_type": "icy_protection_cocoon",
+      "value": 300,
+      "duration": 15000,
+      "tick_rate": 0,
+      "damage_absorption_capacity": 1000,
+      "all_status_effects_cleared": true,
+      "movement_immobilized_but_safe": true,
+      "ice_reflect_projectiles": 0.5,
+      "emergency_health_preservation": true,
+      "cannon_reduction_damage": 99
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ice_crystals_forming_body_encasing_glacier_cocoon",
+    "active_effect": "glacier_ice_shell body_protected_damage_impact_cracks_shards",
+    "damage_effect": "damage_impacts_ice_shattering_fragments_frost_spell_0890_holding",
+    "break_effect": "ice_shell_breaking_shattering_glacial_explosion_recovery"
+  },
+  "sound_effects": {
+    "cast_effect": "ice_crystal_forming_body_encasing_crunching_ice_growth",
+    "active_effect": "glacial_ice_shell_humming_damage_impacts_cracking_surface",
+    "damage_effect": "damage_breaking_ice_shattering_crystal_fragmentation",
+    "break_effect": "ice_shell_breaking_major_crack_shattering_complete"
+  },
+  "requirements": {
+    "level": 40,
+    "skills": [
+      "frost_manipulation",
+      "defensive_ice",
+      "cryogenic_control"
+    ],
+    "classes": [
+      "monk",
+      "frost_warden",
+      "ice_ascetic"
+    ],
+    "specializations": [
+      "polar_defender"
+    ]
+  },
+  "upgrades": {
+    "greater_ice_block": {
+      "unlock_level": 50,
+      "description": "Le Frost Spell 0890 devient plus résistant avec une protection accrue",
+      "damage_absorption_increase_percent": 200,
+      "duration_extension_percent": 50,
+      "ice_shell_regeneration": true,
+      "damage_reflection_capability": 0.3
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

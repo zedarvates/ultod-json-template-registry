@@ -1,0 +1,82 @@
+{
+  "id": "ombre_spell_0076",
+  "name": "Ombre Spell 0076",
+  "description": "Se téléporte dans l'ombre pour attaquer par surprise",
+  "icon": "ombre_spell_0076_icon",
+  "school": "ombre",
+  "rarity": "rare",
+  "spell_type": "damage",
+  "target_type": "single",
+  "range": 20.0,
+  "cast_time": 0,
+  "cooldown": 60000,
+  "mana_cost": 80,
+  "damage": {
+    "base_damage": 250,
+    "damage_type": "physical",
+    "scaling": {
+      "agility": 1.4,
+      "strength": 0.8
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "teleport",
+      "value": 20.0,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "teleport_type": "ombre_spell_0076_step"
+    },
+    {
+      "effect_type": "stealth",
+      "value": 1.0,
+      "duration": 5000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "stealth_type": "enhanced"
+    },
+    {
+      "effect_type": "critical_strike",
+      "value": 0.5,
+      "duration": 10000,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ombre_spell_0076_teleport",
+    "impact_effect": "ombre_spell_0076_explosion",
+    "stealth_effect": "ombre_spell_0076_invisibility"
+  },
+  "sound_effects": {
+    "cast_sound": "ombre_spell_0076_teleport",
+    "impact_sound": "ombre_spell_0076_strike",
+    "stealth_sound": "ombre_spell_0076_whisper"
+  },
+  "requirements": {
+    "level": 20,
+    "skills": [],
+    "classes": [
+      "assassin",
+      "rogue"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_shadow_assault": {
+      "unlock_level": 30,
+      "description": "Ombre Spell 0076 porte plus loin et dure plus longtemps",
+      "range_bonus": 10,
+      "stealth_duration_bonus": 3000
+    },
+    "shadow_assault_mastery": {
+      "unlock_level": 40,
+      "description": "Ombre Spell 0076 peut toucher plusieurs cibles",
+      "multi_target": true,
+      "damage_bonus": 50
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

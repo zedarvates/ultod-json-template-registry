@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0720",
+  "name": "Illusion Spell 0720",
+  "description": "Transfère la cible vers une autre dimension ou un autre emplacement, laissant une image temporaire",
+  "icon": "illusion_spell_0720_icon",
+  "school": "illusion",
+  "rarity": "uncommon",
+  "spell_type": "dimensional_displacement_illusion",
+  "target_type": "single_enemy_teleportation",
+  "range": 45.0,
+  "cast_time": 2000,
+  "cooldown": 60000,
+  "mana_cost": 120,
+  "damage": {
+    "base_damage": 80,
+    "damage_type": "dimensional_shift_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "extra_dimensional_transportation_illusion",
+      "value": 320,
+      "duration": 0,
+      "tick_rate": 0,
+      "unstable_dimension_transport": true,
+      "tethered_reality_return": 10000,
+      "displacement_confusion_state": 8000,
+      "dimensional_distortion_damage": 80,
+      "illusive_replacement_maintained": 15000,
+      "reality_anchor_fragility": 25
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "reality_tearing_portal_rift_opening_swirling",
+    "displacement_effect": "victim_sucked_through_portal_energies_sparking",
+    "illusion_effect": "solid_image_left_confusing_enemies_briefly",
+    "return_effect": "victim_thrown_back_reality_anchoring_pain"
+  },
+  "sound_effects": {
+    "cast_effect": "reality_tearing_portal_breach_fields_screeching",
+    "displacement_effect": "victim_transport_screaming_unknown_voices",
+    "illusion_effect": "solid_form_sounds_attack_continues_echo",
+    "return_effect": "victim_impact_reality_acl return_clarity_return"
+  },
+  "requirements": {
+    "level": 42,
+    "skills": [
+      "illusion_magic",
+      "dimension_bending"
+    ],
+    "classes": [
+      "illusionist",
+      "dimensional_weaver"
+    ],
+    "specializations": [
+      "spatial_displacer"
+    ]
+  },
+  "upgrades": {
+    "greater_strange": {
+      "unlock_level": 52,
+      "description": "Illusion Spell 0720 devient plus grand avec des déplacements contrôlés et des dimensions alternatives",
+      "controlled_dimension_selection": 5,
+      "enhanced_illusory_substitute": true,
+      "dimensional_environment_adaptation": true,
+      "return_path_control_mastery": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

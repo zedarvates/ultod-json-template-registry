@@ -1,0 +1,169 @@
+{
+  "id": "ranger_marking_arrow",
+  "name": "Marking Arrow",
+  "class": "Ranger",
+  "type_principal": "physical_attack",
+  "sous_types": [
+    "debuff",
+    "aoe"
+  ],
+  "description": "Fires an arrow that marks targets, reducing their critical resistance and applying various debuffs",
+  "icon": "marking_arrow_icon",
+  "base_damage": 740,
+  "damage_multiplier": 1.0,
+  "critical_chance": 0.05,
+  "critical_multiplier": 2.0,
+  "super_armor_break": 10,
+  "resource_cost": {
+    "mana": 50
+  },
+  "cast_time": 0,
+  "cooldown": 10,
+  "range": 20,
+  "targeting": {
+    "type_cible": "enemy",
+    "max_cibles": 3,
+    "zone": {
+      "shape": "circle",
+      "radius": 3
+    },
+    "conditions_ciblage": [
+      "line_of_sight"
+    ]
+  },
+  "effects": [
+    {
+      "type": "aoe_damage",
+      "damage_type": "physical",
+      "value": 740,
+      "scaling": {
+        "attack_power": 1.0
+      },
+      "can_crit": true
+    },
+    {
+      "type": "debuff",
+      "value": -200,
+      "duration": 5,
+      "damage_type": "pure"
+    }
+  ],
+  "specializations": [
+    {
+      "id": "reduces_target_defense_by_10_percent",
+      "name": "Defense Reduction",
+      "description": "Reduces target defense by 10%",
+      "conditions": {
+        "level": 15
+      },
+      "modifications": {
+        "effects": [
+          {
+            "operation": "add",
+            "effect": {
+              "type": "debuff",
+              "value": -0.1,
+              "duration": 5,
+              "damage_type": "physical"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "50_percent_chance_knockback_2m",
+      "name": "Knockback Chance",
+      "description": "50% chance to knockback targets 2 meters",
+      "conditions": {
+        "level": 20
+      },
+      "modifications": {
+        "effects": [
+          {
+            "operation": "add",
+            "effect": {
+              "type": "knockback",
+              "value": 2,
+              "duration": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "duration_plus_2_sec",
+      "name": "Extended Duration",
+      "description": "Increases debuff duration by 2 seconds",
+      "conditions": {
+        "level": 25
+      },
+      "modifications": {
+        "effects": [
+          {
+            "operation": "modify",
+            "effect": {
+              "type": "debuff",
+              "duration": 7
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "plus_1_charge",
+      "name": "Extra Charge",
+      "description": "Adds an extra charge to the skill",
+      "conditions": {
+        "level": 30
+      },
+      "modifications": {
+        "cooldown": 8
+      }
+    },
+    {
+      "id": "reduces_target_mp_up_to_300",
+      "name": "Mana Drain",
+      "description": "Drains up to 300 mana from targets",
+      "conditions": {
+        "level": 35
+      },
+      "modifications": {
+        "effects": [
+          {
+            "operation": "add",
+            "effect": {
+              "type": "debuff",
+              "value": 300,
+              "duration": 5,
+              "tick_interval": 1,
+              "damage_type": "pure"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "ranger_cast_glow",
+    "projectile_effect": "marking_arrow_projectile",
+    "impact_effect": "marking_burst",
+    "buff_effect": "marked_debuff_aura"
+  },
+  "sound_effects": {
+    "cast_sound": "bow_draw_marking",
+    "impact_sound": "marking_impact"
+  },
+  "balancing": {
+    "pvp_multipliers": {
+      "damage": 0.95,
+      "cooldown": 1.0
+    },
+    "pve_multipliers": {
+      "damage": 1.0,
+      "cooldown": 1.0
+    }
+  },
+  "version": "0.1.0",
+  "last_updated": "2025-11-21T14:17:00Z",
+  "template_type": "skill"
+}

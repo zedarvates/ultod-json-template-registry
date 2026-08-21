@@ -1,0 +1,58 @@
+{
+  "id": "sacre_spell_1124",
+  "name": "Sacre Spell 1124",
+  "description": "Vous touchez une créature morte depuis moins de 100 ans qui n'est pas morte de vieillesse et n'est pas un mort-vivant. Si son âme est consentante et libre, la cible revient à la vie avec tous ses points de vie",
+  "icon": "sacre_spell_1124_icon",
+  "school": "sacré",
+  "rarity": "epic",
+  "spell_type": "sacre_spell_1124",
+  "target_type": "ally",
+  "range": 2.0,
+  "cast_time": 6000,
+  "cooldown": 3600000,
+  "mana_cost": 500,
+  "effects": [
+    {
+      "effect_type": "sacre_spell_1124",
+      "value": 100,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_radius": 0.0,
+      "proc_chance": 1.0,
+      "time_limit_years": 100,
+      "full_hp_restore": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "divine_rebirth",
+    "resurrection_effect": "life_reignited",
+    "impact_effect": "sacre_spell_1124_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "heavenly_summonings",
+    "resurrection_sound": "life_reborn",
+    "impact_sound": "reawakening_symphony"
+  },
+  "requirements": {
+    "level": 7,
+    "skills": [],
+    "classes": [
+      "priest"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "improved_resurrection": {
+      "unlock_level": 11,
+      "description": "Peut ressusciter des créatures mortes depuis plus longtemps",
+      "time_bonus_years": 50
+    },
+    "true_resurrection": {
+      "unlock_level": 17,
+      "description": "Ressuscite même sans corps complet ou dégâts fatals",
+      "no_body_requirement": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

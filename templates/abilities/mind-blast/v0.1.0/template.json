@@ -1,0 +1,32 @@
+{
+  "id": "mind_blast",
+  "name": "Attaque Mentale",
+  "description": "Foudroie l'esprit de l'ennemi avec une énergie de l'ombre infligeant de gros dégâts",
+  "type": "spell",
+  "class_restriction": [
+    "priest"
+  ],
+  "level_requirement": 10,
+  "resource_cost": {
+    "type": "mana",
+    "amount": 150
+  },
+  "cooldown_seconds": 8,
+  "range": 30.0,
+  "effects": [
+    {
+      "type": "damage",
+      "damage_type": "shadow",
+      "base_damage": 250,
+      "scaling": {
+        "strength": 0.0,
+        "dexterity": 0.0,
+        "intelligence": 2.0,
+        "level": 1.2
+      },
+      "armor_penetration": 0.0
+    }
+  ],
+  "template_type": "ability",
+  "version": "0.1.0"
+}

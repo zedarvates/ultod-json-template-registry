@@ -1,0 +1,63 @@
+{
+  "id": "mouvement_spell_1229",
+  "name": "Mouvement Spell 1229",
+  "description": "Une charge sans honneur qui permet une mobilité rapide au combat",
+  "icon": "mouvement_spell_1229_icon",
+  "school": "mouvement",
+  "rarity": "common",
+  "spell_type": "utility",
+  "target_type": "single",
+  "range": 12.0,
+  "cast_time": 0,
+  "cooldown": 15000,
+  "mana_cost": 15,
+  "damage": null,
+  "effects": [
+    {
+      "effect_type": "movement_dash",
+      "value": 12.0,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    },
+    {
+      "effect_type": "backstab_damage",
+      "value": 50,
+      "duration": 0,
+      "tick_rate": 0,
+      "proc_chance": 1.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "rush_forward",
+    "projectile_effect": "none",
+    "impact_effect": "position_change",
+    "trail_effect": "dash_smoke"
+  },
+  "sound_effects": {
+    "cast_sound": "dash_whoosh",
+    "impact_sound": "teleport_arrive"
+  },
+  "requirements": {
+    "level": 6,
+    "skills": [],
+    "classes": [
+      "samurai"
+    ],
+    "specializations": []
+  },
+  "upgrades": {
+    "shadow_dash": {
+      "unlock_level": 15,
+      "description": "Augmente la portée du dash de 30%",
+      "range_bonus": 3.6
+    },
+    "rogue_momentum": {
+      "unlock_level": 27,
+      "description": "Réduit le cooldown de 20%",
+      "cooldown_reduction": 3000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

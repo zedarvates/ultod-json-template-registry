@@ -1,0 +1,43 @@
+{
+  "school": "spiritualism_spell_1409ualism",
+  "rarity": "common",
+  "target_type": "single",
+  "range": 20.0,
+  "cast_time": 1500,
+  "cooldown": 12000,
+  "mana_cost": 30,
+  "visual_effects": {
+    "cast_effect": "drain_cast",
+    "projectile_effect": "spiritualism_spell_1409ualism_spell_1409_projectile",
+    "impact_effect": "drain_impact",
+    "trail_effect": "spiritualism_spell_1409_trail"
+  },
+  "sound_effects": {
+    "cast_sound": "drain_cast_sound",
+    "impact_sound": "drain_sound"
+  },
+  "requirements": {
+    "level": 12
+  },
+  "upgrades": {},
+  "version": "0.1.0",
+  "id": "spiritualism_spell_1409",
+  "name": "Spiritualism Spell 1409",
+  "description": "Drains the spiritualism_spell_1409ual energy from an enemy, dealing damage and restoring your mana",
+  "icon": "spiritualism_spell_1409ualism_spell_1409_icon",
+  "spell_type": "damage",
+  "damage_type": "spiritualism_spell_1409",
+  "base_damage": 100,
+  "damage": {
+    "base_damage": 100,
+    "damage_type": "spiritualism_spell_1409",
+    "scaling": {
+      "spirit": 0.8
+    }
+  },
+  "effects": {
+    "mana_restore": 25,
+    "over_time": false
+  },
+  "template_type": "spell"
+}

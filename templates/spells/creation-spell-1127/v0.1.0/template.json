@@ -1,0 +1,75 @@
+{
+  "id": "creation_spell_1127",
+  "name": "Creation Spell 1127",
+  "description": "Crée temporairement des structures défensives et offensives",
+  "icon": "creation_spell_1127_icon",
+  "school": "creation",
+  "rarity": "rare",
+  "spell_type": "utility",
+  "target_type": "ground",
+  "range": 25.0,
+  "cast_time": 3000,
+  "cooldown": 0,
+  "craftsmanship_energy_cost": 45,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "physical",
+    "scaling": {
+      "intelligence": 0.8,
+      "strength": 0.5
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "construct_creation",
+      "value": 200,
+      "duration": 60000,
+      "tick_rate": 0,
+      "scaling": {
+        "intelligence": 1.2
+      }
+    },
+    {
+      "effect_type": "area_defense",
+      "value": 15,
+      "duration": 60000,
+      "tick_rate": 0,
+      "scaling": {}
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "blueprint_manifestation",
+    "hit_effect": "structure_materialization",
+    "miss_effect": "construction_fade"
+  },
+  "sound_effects": {
+    "cast_sound": "crafting_chant",
+    "hit_sound": "hammer_anvil",
+    "miss_sound": "construction_fail"
+  },
+  "requirements": {
+    "level": 5,
+    "skills": [
+      "craftsmanship_mastery"
+    ],
+    "classes": [
+      "ptah"
+    ]
+  },
+  "upgrades": {
+    "advanced_blueprint": {
+      "unlock_level": 15,
+      "description": "Améliore la résistance et la durée des structures",
+      "structure_health_bonus": 50,
+      "duration_bonus": 30000
+    },
+    "master_architect": {
+      "unlock_level": 25,
+      "description": "Peut créer plusieurs structures en même temps",
+      "multiple_structures": 2,
+      "energy_cost_reduction": 15
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "fel_spell_1526",
+  "name": "Fel Spell 1526",
+  "description": "Une boule de feu hideux et corrompu explose sur les ennemis, infligeant des dégâts de feu supplémentaires basés sur la corruption de la cible",
+  "icon": "fel_spell_1526_icon",
+  "school": "fel",
+  "rarity": "uncommon",
+  "spell_type": "area_damage",
+  "target_type": "area",
+  "range": 150.0,
+  "cast_time": 1000,
+  "cooldown": 0,
+  "mana_cost": 35,
+  "damage": {
+    "base_damage": 40,
+    "damage_type": "fel"
+  },
+  "effects": [
+    {
+      "effect_type": "corrupting_explosion",
+      "value": 40,
+      "duration": 0,
+      "tick_rate": 0,
+      "aoe_radius": 6.0,
+      "corruption_bonus": 0.3,
+      "soul_drain": 10,
+      "fel_corruption": 5
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "fel_energy",
+    "projectile_effect": "green_fire",
+    "explosion_effect": "fel_burst"
+  },
+  "sound_effects": {
+    "cast_sound": "demonic_whisper",
+    "explosion_sound": "fel_fireboom",
+    "corruption_sound": "soul_tear"
+  },
+  "requirements": {
+    "level": 3,
+    "skills": [
+      "fel_magic",
+      "soul_manipulation"
+    ],
+    "classes": [
+      "warlock",
+      "sorcerer",
+      "necromancer"
+    ]
+  },
+  "upgrades": {
+    "drain_soul": {
+      "unlock_level": 9,
+      "description": "Draine l'âme des cibles blessées, leur infligeant des dégâts supplémentaires sur la durée",
+      "dot_damage": 8,
+      "dot_duration": 20000
+    },
+    "chaos_bolt": {
+      "unlock_level": 15,
+      "description": "Le projectile ricoche sur plusieurs cibles",
+      "chain_targets": 3,
+      "chain_damage_reduction": 0.6
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

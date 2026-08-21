@@ -1,0 +1,90 @@
+{
+  "id": "temporal_spell_0239",
+  "name": "Temporal Spell 0239",
+  "description": "Ouvre une faille dans le temps qui ralentit tous les ennemis dans la zone",
+  "icon": "temporal_spell_0239_spell_0239_icon",
+  "school": "temporal_spell_0239",
+  "rarity": "epic",
+  "spell_type": "area_control",
+  "target_type": "area",
+  "range": 30.0,
+  "cast_time": 4000,
+  "cooldown": 30000,
+  "mana_cost": 150,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "temporal_spell_0239",
+    "scaling": {
+      "intelligence": 0.0,
+      "wisdom": 0.0,
+      "chronomancy": 1.2
+    }
+  },
+  "effects": [
+    {
+      "effect_type": "time_slow",
+      "value": 0.5,
+      "duration": 15000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "area_radius": 10.0
+    },
+    {
+      "effect_type": "movement_reduction",
+      "value": 0.3,
+      "duration": 15000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "area_radius": 10.0
+    },
+    {
+      "effect_type": "cast_speed_reduction",
+      "value": 0.4,
+      "duration": 15000,
+      "tick_rate": 0,
+      "proc_chance": 1.0,
+      "area_radius": 10.0
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "temporal_spell_0239_spell_0239_opening",
+    "active_effect": "time_distortion_aura",
+    "area_effect": "chronal_waves"
+  },
+  "sound_effects": {
+    "cast_sound": "temporal_spell_0239_spell_0239_chant",
+    "active_sound": "chronal_vibration",
+    "area_sound": "time_rift_rumble"
+  },
+  "requirements": {
+    "level": 45,
+    "skills": [
+      "chronomancy_mastery",
+      "temporal_spell_0239_manipulation"
+    ],
+    "classes": [
+      "chronomancer",
+      "mage",
+      "wizard"
+    ],
+    "specializations": [
+      "temporal_spell_0239_specialist"
+    ]
+  },
+  "upgrades": {
+    "greater_temporal_rift": {
+      "unlock_level": 55,
+      "description": "La temporal_spell_0239 Spell 0239 affecte une plus grande zone et dure plus longtemps",
+      "area_radius_increase": 5.0,
+      "duration_extension": 5000
+    },
+    "time_cascade": {
+      "unlock_level": 65,
+      "description": "Des failles secondaires se forment automatiquement autour de la principale",
+      "secondary_rifts": 3,
+      "cascade_delay": 2000
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

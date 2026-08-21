@@ -1,0 +1,70 @@
+{
+  "id": "illusion_spell_0705",
+  "name": "Illusion Spell 0705",
+  "description": "Invisibilité supreme offrant une furtivité adaptative et des capacités avancées de dissimulation",
+  "icon": "illusion_spell_0705_icon",
+  "school": "illusion",
+  "rarity": "epic",
+  "spell_type": "master_stealth_illusion",
+  "target_type": "self",
+  "range": 0.0,
+  "cast_time": 2500,
+  "cooldown": 40000,
+  "mana_cost": 75,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "adapted_referencete_illusion_spell_0705_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "adaptive_perfect_stealth",
+      "value": 300,
+      "duration": 240000,
+      "tick_rate": 0,
+      "perfect_detection_immune": true,
+      "environmental_adaptation": true,
+      "sound_suppression": 0.9,
+      "scent_masking": true,
+      "magical_detection_bypass": 0.95,
+      "no_movement_penalty": true
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "adapted_referencete_stealth_mastery_energy_perfection",
+    "active_effect": "environment_blend_absolute_nothing_visible",
+    "adaptive_effect": "terrain_color_shift_perfect_camouflage",
+    "expire_effect": "stealth_dissolution_reveal_gradual_return"
+  },
+  "sound_effects": {
+    "cast_effect": "adapted_referencete_stealth_weaving_perfect_harmony_no_sound",
+    "active_effect": "absolute_silence_no_disturbance_environment",
+    "adaptive_effect": "noise_cancellation_perfect_blend_natural",
+    "expire_effect": "stealth_unravel_slight_whisper_materialization"
+  },
+  "requirements": {
+    "level": 30,
+    "skills": [
+      "illusion_magic",
+      "master_stealth"
+    ],
+    "classes": [
+      "illusionist",
+      "shadow_master"
+    ],
+    "specializations": [
+      "illusion_spell_0705_grandmaster"
+    ]
+  },
+  "upgrades": {
+    "greater_advanced_invisibility": {
+      "unlock_level": 40,
+      "description": "L'Illusion Spell 0705 devient plus grande avec des adaptations environnementales et des capacités spéciales",
+      "instant_environmental_switch": true,
+      "stealth_damage_conversion": 0.5,
+      "group_invisibility_projection": 3,
+      "teleport_while_invisible": true
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}

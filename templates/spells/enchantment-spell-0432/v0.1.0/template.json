@@ -1,0 +1,78 @@
+{
+  "id": "enchantment_spell_0432",
+  "name": "Enchantment Spell 0432",
+  "description": "Créé des illusions réfléchissantes qui absorbent et redirigent les sorts vers leurs lanceurs",
+  "icon": "enchantment_spell_0432_icon",
+  "school": "enchantment",
+  "rarity": "rare",
+  "spell_type": "spell_reflection_shield",
+  "target_type": "single_ally",
+  "range": 25.0,
+  "cast_time": 1800,
+  "cooldown": 15000,
+  "mana_cost": 70,
+  "damage": {
+    "base_damage": 0,
+    "damage_type": "reflected_spell_damage"
+  },
+  "effects": [
+    {
+      "effect_type": "mirror_reflection_barrier",
+      "value": 250,
+      "duration": 18000,
+      "tick_rate": 0,
+      "spell_reflection_chance": 80,
+      "reflection_amplification": 1.2,
+      "mirror_shatter_damage": 200,
+      "illusion_shard_projectiles": 6,
+      "multiple_reflections": true,
+      "reflection_cooldown": 2000
+    }
+  ],
+  "visual_effects": {
+    "cast_effect": "shimmering_mirrors_appearing_around_target",
+    "barrier_effect": "glass_like_surfaces_refracting_light",
+    "reflection_effect": "spells_bouncing_off_with_light_trails",
+    "shatter_effect": "mirror_shards_flying_with_damage"
+  },
+  "sound_effects": {
+    "cast_sound": "magical_glass_crystallizing_shatter",
+    "barrier_sound": "refraction_echoes_light_pings",
+    "reflection_sound": "spell_forward_reverse_cast_echo",
+    "shatter_sound": "glass_exploding_cracked_damage"
+  },
+  "requirements": {
+    "level": 28,
+    "skills": [
+      "arcane_magic",
+      "illusion_mastery"
+    ],
+    "classes": [
+      "enchanter",
+      "mirror_warden"
+    ],
+    "specializations": [
+      "spell_reflector"
+    ]
+  },
+  "upgrades": {
+    "prismatic_chain": {
+      "unlock_level": 38,
+      "description": "Les miroirs deviennent prismatiques, fractionnant les sorts en attaques multiples",
+      "multi_spell_reflection": 3,
+      "rainbow_damage_arcs": true,
+      "prismatic_shard_field": 8.0,
+      "spectrum_dispersion": 0.3
+    },
+    "infinite_reflection": {
+      "unlock_level": 48,
+      "description": "Les réflections deviennent infinies, créant des boucles magiques destructrices",
+      "endless_reflection_loops": true,
+      "reflection_amplification_cascade": 2.0,
+      "reality_tear_rifts": true,
+      "infinity_mana_drain": 100
+    }
+  },
+  "version": "0.1.0",
+  "template_type": "spell"
+}
