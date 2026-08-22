@@ -1,6 +1,8 @@
 import hashlib
 import json
 import shutil
+import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
@@ -14,6 +16,18 @@ from scripts.validate_registry import (
 
 
 class PublicRegistryPolicyTests(unittest.TestCase):
+    def test_brand_schema_id_is_not_mistaken_for_ultima_reference(self):
+        self.assertEqual(
+            validate_public_content(
+                {"$id": "https://ultimateodycer.com/schemas/template-contract/1.0.0"}
+            ),
+            [],
+        )
+        self.assertEqual(
+            validate_public_content({"source": "Ultima Online data"}),
+            ["third-party-reference"],
+        )
+
     def test_rejects_hash_placeholder_directory(self):
         violations = validate_public_path(
             "templates/monsters/original-aberration-1234567890/v0.1.0/template.json"
@@ -133,6 +147,37 @@ def write_catalog(root, entries):
 
 
 class DualProfileValidationTests(unittest.TestCase):
+    def test_cli_file_invocation_resolves_repository_package(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            path = root / "templates/items/legacy-item/v0.1.0/template.json"
+            path.parent.mkdir(parents=True)
+            path.write_bytes(b'{"id":"legacy_item"}')
+            write_catalog(
+                root,
+                [
+                    {
+                        "file": path.relative_to(root).as_posix(),
+                        "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
+                        "validation_profile": "legacy-unvalidated",
+                        "contract_version": None,
+                    }
+                ],
+            )
+            result = subprocess.run(
+                [
+                    sys.executable,
+                    "scripts/validate_registry.py",
+                    "--root",
+                    str(root),
+                ],
+                cwd=Path(__file__).parents[1],
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+            self.assertEqual(result.returncode, 0, result.stderr)
+
     def test_legacy_document_is_not_forced_through_v1_schema(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)

@@ -6,11 +6,15 @@ import hashlib
 import json
 import posixpath
 import re
+import sys
 from pathlib import Path, PurePosixPath
 from typing import Any
 
 import jsonschema
 from jsonschema import Draft202012Validator
+
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from scripts.registry_catalog import build_catalog_index, exact_ref, validate_reference_graph
 from scripts.template_contract import (
@@ -35,7 +39,7 @@ INTERNAL_KEY = re.compile(
     re.IGNORECASE,
 )
 RIGHTS_TERM = re.compile(
-    r"(?:warcraft|ultima(?: online)?|one[ _-]?piece|tolkien|lovecraft|cthulhu|aion|xenomorph|mithril|peacebloom|silverleaf)",
+    r"(?:\bwarcraft\b|\bultima(?:[ _-]+online)?\b|\bone[ _-]?piece\b|\btolkien\b|\blovecraft\b|\bcthulhu\b|\baion\b|\bxenomorph\b|\bmithril\b|\bpeacebloom\b|\bsilverleaf\b)",
     re.IGNORECASE,
 )
 HASH_PLACEHOLDER = re.compile(r"/original-[^/]+-[0-9a-f]{10}/", re.IGNORECASE)
