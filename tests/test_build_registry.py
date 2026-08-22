@@ -12,6 +12,7 @@ from scripts.build_registry import (
     sanitize_template,
     template_slug,
 )
+from scripts.migrate_catalog_v2 import ensure_contract_schema_entry, migrate_catalog
 
 
 class SemanticTemplateSanitizerTests(unittest.TestCase):
@@ -248,6 +249,67 @@ class SemanticExportTests(unittest.TestCase):
             self.assertNotIn("source_sha256", item_entry)
             self.assertEqual(monster_entry["source_sha256"], hashlib.sha256(monster_content).hexdigest())
             self.assertNotIn("source_file", monster_entry)
+
+
+class CatalogV2MigrationTests(unittest.TestCase):
+    def test_backfill_marks_existing_entries_legacy_without_dropping_metadata(self):
+        source = {
+            "registry_version": "1.0.0",
+            "generated_at": "2026-08-19",
+            "entries": [
+                {
+                    "name": "iron-ore",
+                    "version": "0.1.0",
+                    "file": "templates/items/iron-ore/v0.1.0/template.json",
+                    "sha256": "a" * 64,
+                    "source_file": "item/iron_ore.json",
+                }
+            ],
+        }
+        migrated = migrate_catalog(source)
+        self.assertEqual(migrated["registry_version"], "2.0.0")
+        self.assertEqual(migrated["aliases"], [])
+        self.assertEqual(
+            migrated["entries"][0]["validation_profile"], "legacy-unvalidated"
+        )
+        self.assertIsNone(migrated["entries"][0]["contract_version"])
+        self.assertEqual(
+            migrated["entries"][0]["source_file"], "item/iron_ore.json"
+        )
+
+    def test_catalog_migration_does_not_touch_template_bytes(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            template = root / "templates/items/iron-ore/v0.1.0/template.json"
+            template.parent.mkdir(parents=True)
+            template.write_bytes(b'{"id":"iron_ore"}\r\n')
+            before = hashlib.sha256(template.read_bytes()).hexdigest()
+            migrated = migrate_catalog({"entries": []})
+            (root / "templates/catalog.json").write_text(
+                json.dumps(migrated), encoding="utf-8"
+            )
+            after = hashlib.sha256(template.read_bytes()).hexdigest()
+            self.assertEqual(after, before)
+
+    def test_contract_schema_entry_is_added_once_with_real_checksum(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            schema = root / "templates/schemas/template-contract/v1.0.0/schema.json"
+            schema.parent.mkdir(parents=True)
+            schema.write_bytes(
+                b'{"$id":"https://ultimateodycer.com/schemas/template-contract/1.0.0"}'
+            )
+            catalog = {"entries": []}
+            ensure_contract_schema_entry(catalog, root)
+            ensure_contract_schema_entry(catalog, root)
+            self.assertEqual(len(catalog["entries"]), 1)
+            self.assertEqual(
+                catalog["entries"][0]["validation_profile"], "strict-schema-v1"
+            )
+            self.assertEqual(
+                catalog["entries"][0]["sha256"],
+                hashlib.sha256(schema.read_bytes()).hexdigest(),
+            )
 
 
 if __name__ == "__main__":
