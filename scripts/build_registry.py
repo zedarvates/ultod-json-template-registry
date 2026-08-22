@@ -307,6 +307,8 @@ def promote_exports(staging_root: Path, registry_root: Path, catalog_path: Path)
             "file": template_file,
             "sha256": hashlib.sha256(source_template.read_bytes()).hexdigest(),
             "compatibility": [],
+            "validation_profile": "legacy-unvalidated",
+            "contract_version": None,
         }
         if item["expose_source_file"]:
             entry["source_file"] = item["source_file"]

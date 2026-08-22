@@ -25,6 +25,14 @@ These templates are uncertified snapshots. None is yet declared compatible with 
 
 Current local coverage accounts for all 4,009 current server JSON sources: 1,884 through existing snapshots or source references and 2,125 through semantic, sanitized exports. Exported templates retain useful gameplay structure and readable names; hash-only placeholder templates are forbidden.
 
+### Validation profiles
+
+- `legacy-unvalidated` preserves published `v0.1.0` snapshots and applies JSON, public-policy, catalog, and checksum checks only.
+- `strict-v1` requires the common envelope, an exact family schema, canonical references, declarative authority, and full link validation.
+- `strict-schema-v1` requires a valid Draft 2020-12 schema, a stable `$id`, local reference closure, and catalog integrity.
+
+Legacy presence is not compatibility evidence. Strict consumers must reject legacy entries unless they explicitly opt in.
+
 ## Purpose
 
 This repository provides a public, traceable home for shared and specialized JSON templates, especially for:

@@ -1,233 +1,255 @@
-# UltOd JSON Template Specification
+# Ultimate Odycer JSON Template Specification
 
-Version de la spécification : `1.0.0`
+Specification version: `1.0.0`
 
-Cette référence définit comment créer un nouveau modèle JSON compatible avec le registre UltOd. Elle s'adresse aux contributeurs humains, aux outils de génération et aux LLM.
+Catalog version: `2.0.0`
 
-Les termes **DOIT**, **NE DOIT PAS**, **DEVRAIT** et **PEUT** sont normatifs.
+This document defines the public contract for human contributors, generators, LLMs, clients, and server adapters. The terms **MUST**, **MUST NOT**, **SHOULD**, and **MAY** are normative.
 
-## 1. Conventions
+## 1. Validation profiles
 
-### 1.1 Organisation des fichiers
+Every catalog entry MUST declare exactly one validation profile.
 
-Un nouveau modèle DOIT utiliser cette structure :
+| Profile | Purpose | Guarantees |
+| --- | --- | --- |
+| `legacy-unvalidated` | Preserve historical snapshots | Strict JSON, public policy, catalog membership, and full-file SHA-256 only |
+| `strict-v1` | Versioned public template | Common envelope, exact family schema, naming, checksums, and link closure |
+| `strict-schema-v1` | Versioned v1 schema | Valid Draft 2020-12 schema, stable `$id`, local reference closure, and checksum |
+
+Legacy presence is not compatibility evidence. A strict consumer MUST reject `legacy-unvalidated` unless it explicitly opts in.
+
+## 2. Immutable layout
+
+A strict template MUST use:
 
 ```text
-templates/<famille>/<nom-du-modele>/v<MAJEUR>.<MINEUR>.<CORRECTIF>/
-  template.json
-  README.md
+templates/<family>/<slug>/v<MAJOR>.<MINOR>.<PATCH>/template.json
 ```
 
-Un schéma JSON remplace `template.json` par `schema.json`.
+A strict family schema MUST use:
 
-- `<famille>` et `<nom-du-modele>` DOIVENT être en `kebab-case` ASCII.
-- La version du dossier DOIT commencer par `v` et suivre SemVer.
-- Une version publiée NE DOIT PAS être modifiée. Toute modification crée une nouvelle version.
-- `templates/catalog.json` DOIT référencer chaque version publiée.
+```text
+templates/schemas/<family>/v<MAJOR>.<MINOR>.<PATCH>/schema.json
+```
 
-### 1.2 Format JSON
+- `<family>` and `<slug>` MUST use ASCII `kebab-case`.
+- Published version directories MUST NOT be modified.
+- A change creates a new version directory.
+- Nested strict families such as `family/subfamily/slug` are forbidden; classification belongs in `spec`.
+- Absolute paths and filesystem traversal are forbidden.
 
-- Le fichier DOIT être du JSON UTF-8 valide.
-- Les clés DOIVENT être en `snake_case` ASCII.
-- Les identifiants DOIVENT être stables, uniques dans leur famille et en `snake_case`.
-- Les nombres DOIVENT être des nombres JSON, jamais des chaînes.
-- Les booléens DOIVENT utiliser `true` ou `false`, jamais `0`, `1`, `yes` ou `no`.
-- Une valeur absente DEVRAIT être omise. Utiliser `null` seulement si le contrat distingue explicitement `null` d'une absence.
-- Les durées et unités DOIVENT être explicites dans la clé : `duration_ms`, `cooldown_seconds`, `distance_m`.
-- Les références vers d'autres modèles DOIVENT utiliser des identifiants logiques, jamais un chemin absolu.
+## 3. Strict v1 envelope
 
-### 1.3 Statuts
-
-Chaque entrée de catalogue DOIT utiliser l'un des statuts suivants :
-
-- `draft` : travail en cours, non destiné à l'intégration ;
-- `experimental` : testable, mais susceptible de changer ;
-- `stable` : contrat validé pour les consommateurs listés ;
-- `deprecated` : encore lisible, mais remplacé par une version indiquée.
-
-La présence d'un fichier dans le registre ne prouve jamais son intégration runtime.
-
-## 2. Champs obligatoires
-
-### 2.1 Nouveau modèle
-
-Tout nouveau `template.json` créé après cette spécification DOIT contenir :
-
-| Champ | Type | Règle |
-| --- | --- | --- |
-| `id` | chaîne | Identifiant stable en `snake_case`. |
-| `template_type` | chaîne | Type logique stable en `snake_case`. |
-| `version` | chaîne | Version SemVer identique au dossier, sans préfixe `v`. |
-
-Un modèle historique publié comme instantané PEUT ne pas posséder ces trois champs. Cette exception DOIT être signalée dans le `README.md` de sa version et ne s'applique pas aux nouveaux modèles.
-
-### 2.2 Entrée de catalogue
-
-Chaque version DOIT avoir une entrée dans `templates/catalog.json` contenant :
-
-| Champ | Type | Règle |
-| --- | --- | --- |
-| `name` | chaîne | Nom du modèle en `kebab-case`. |
-| `kind` | chaîne | Nature du contrat, par exemple `biome-template`. |
-| `version` | chaîne | Version SemVer sans préfixe `v`. |
-| `status` | chaîne | `draft`, `experimental`, `stable` ou `deprecated`. |
-| `file` | chaîne | Chemin relatif canonique du JSON. |
-| `source_file` | chaîne | Nom de la source auditée, si le modèle est un instantané. |
-| `sha256` | chaîne | Empreinte SHA-256 hexadécimale en minuscules. |
-| `compatibility` | tableau | Consommateurs dont la compatibilité a réellement été vérifiée. |
-
-Le tableau `compatibility` DOIT rester vide tant qu'aucune preuve de compatibilité n'existe.
-
-Lorsqu'une compatibilité est vérifiée, chaque élément du tableau DOIT être un objet contenant :
-
-| Champ | Type | Règle |
-| --- | --- | --- |
-| `consumer` | chaîne | Identifiant stable du client, serveur ou outil. |
-| `version` | chaîne | Version exacte testée. |
-| `verified_at` | chaîne | Date ISO 8601 de la validation. |
-| `evidence` | chaîne | Référence vers un test, rapport ou commit vérifiable. |
-
-### 2.3 Documentation de version
-
-Le `README.md` placé à côté du JSON DOIT préciser :
-
-- le statut ;
-- la source ou l'auteur ;
-- la compatibilité vérifiée ;
-- les dépendances et références logiques ;
-- les limites connues ;
-- l'empreinte SHA-256 ;
-- les changements depuis la version précédente, sauf pour `v0.1.0`.
-
-## 3. Champs optionnels
-
-Un modèle PEUT utiliser les champs communs suivants lorsqu'ils ont un sens :
-
-| Champ | Type | Usage |
-| --- | --- | --- |
-| `name` | chaîne | Nom affichable. |
-| `description` | chaîne | Description destinée aux humains. |
-| `enabled` | booléen | Activation déclarative ; ne constitue pas une autorisation. |
-| `tags` | tableau de chaînes | Recherche et classification. |
-| `dependencies` | tableau de chaînes | Identifiants logiques requis. |
-| `metadata` | objet | Informations non fonctionnelles et extensibles. |
-
-Les champs spécifiques à une famille DOIVENT être documentés par un JSON Schema versionné lorsque cette famille devient `stable`.
-
-Un consommateur DEVRAIT ignorer les champs optionnels inconnus, sauf si le schéma de la version définit explicitement `additionalProperties: false`.
-
-## 4. Règles de compatibilité
-
-### 4.1 Compatibilité des lecteurs
-
-- Un lecteur DOIT sélectionner une version prise en charge ; il ne doit pas supposer que la dernière version est compatible.
-- Un lecteur DOIT échouer proprement si un champ obligatoire manque ou possède un type invalide.
-- Un lecteur NE DOIT PAS donner de privilège, monnaie, objet, rang ou accès à partir d'une valeur cliente non validée.
-- Une référence inconnue DOIT être signalée ou ignorée selon le contrat de la famille, jamais remplacée silencieusement par une ressource privilégiée.
-- Les champs inconnus NE DOIVENT PAS modifier le comportement de sécurité par défaut.
-
-### 4.2 Changements incompatibles
-
-Les changements suivants exigent une nouvelle version majeure :
-
-- supprimer ou renommer un champ ;
-- changer le type, l'unité ou la signification d'un champ ;
-- rendre obligatoire un champ auparavant optionnel ;
-- réduire une plage numérique acceptée ;
-- supprimer une valeur d'énumération ;
-- changer une valeur par défaut d'une manière qui modifie le comportement ;
-- déplacer le modèle vers une autre famille ou changer son `id`.
-
-Ajouter une valeur d'énumération n'est rétrocompatible que si le contrat demande déjà aux lecteurs d'accepter les valeurs inconnues. Sinon, le changement est majeur.
-
-### 4.3 Sécurité et périmètre public
-
-Un modèle public NE DOIT PAS contenir :
-
-- secret, mot de passe, token, clé ou chaîne de connexion ;
-- URL ou adresse interne de production ;
-- chemin absolu local ;
-- donnée personnelle ou donnée de production ;
-- paramètre de facturation, quota commercial ou infrastructure hébergée ;
-- commande administrative, contournement d'autorisation ou réglage de performance serveur ;
-- ressource tierce dont les droits ne sont pas vérifiés.
-
-Les permissions déclaratives PEUVENT être décrites, mais l'autorité DOIT rester côté serveur.
-
-## 5. Versioning
-
-Chaque modèle suit SemVer indépendamment : `MAJEUR.MINEUR.CORRECTIF`.
-
-- `MAJEUR` : changement incompatible.
-- `MINEUR` : ajout rétrocompatible, comme un champ optionnel.
-- `CORRECTIF` : correction sans changement de contrat ni de comportement attendu.
-
-Une correction de faute dans une description PEUT être un correctif. Une modification de récompense, de valeur par défaut, de permission ou de règle de gameplay n'est pas automatiquement un correctif : elle DOIT être classée selon son impact sur les consommateurs.
-
-Le détail des règles de publication se trouve dans [VERSIONING.md](VERSIONING.md).
-
-## 6. Exemples
-
-### 6.1 Modèle minimal valide
-
-Chemin : `templates/events/community-festival/v1.0.0/template.json`
+Every `strict-v1` template MUST contain exactly the common fields allowed by its schema:
 
 ```json
 {
-  "id": "community_festival",
-  "template_type": "event",
+  "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "monsters:forest-wolf",
+  "slug": "forest-wolf",
+  "family": "monsters",
   "version": "1.0.0",
-  "name": "Community Festival",
-  "description": "A small recurring social event.",
-  "enabled": true,
-  "tags": ["social", "seasonal"],
-  "duration_ms": 3600000,
-  "dependencies": ["location_town_square"]
+  "authority": "declarative",
+  "intended_consumers": ["zig-server-v2"],
+  "compatibility": [],
+  "dependencies": ["items:forest-token@1.0.0"],
+  "spec_checksum": "sha256:0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+  "spec": {}
 }
 ```
 
-### 6.2 Entrée de catalogue correspondante
+The example checksum illustrates the format only. Publication MUST use the checksum calculated from the actual `spec` value.
+
+### 3.1 Identity
+
+- `id` MUST equal `<family>:<slug>`.
+- `family`, `slug`, and `version` MUST agree with the path.
+- `contract_version` MUST be `1.0.0` for this envelope.
+- `authority` MUST be `declarative`.
+- IDs MUST remain stable after publication.
+
+### 3.2 Naming and JSON types
+
+- Property names MUST use ASCII `snake_case`.
+- Slugs, tags, consumer names, and logical identifiers MUST use ASCII `kebab-case`.
+- Numbers MUST be JSON numbers, never numeric strings.
+- `NaN`, `Infinity`, duplicate keys, and comments are invalid JSON.
+- Booleans MUST be `true` or `false`.
+- Missing optional values SHOULD be omitted; `null` is allowed only when the family schema defines a distinct meaning.
+- Coordinates MUST be `{ "x": number, "y": number, "z": number }` with units documented by the family.
+- Rewards MUST be arrays of typed declarative references, never free-form strings.
+- Unknown root and family `spec` properties MUST be rejected.
+
+### 3.3 Exact references
+
+Every dependency, alias, supersession, and successor reference MUST use:
+
+```text
+<family>:<slug>@<MAJOR>.<MINOR>.<PATCH>
+```
+
+References MUST resolve to exactly one catalog entry. Implicit latest-version selection, fuzzy matching, silent aliases, missing targets, self-reference, and alias cycles are forbidden.
+
+## 4. Checksums
+
+The catalog `sha256` covers the complete file bytes.
+
+`spec_checksum` covers only canonical JSON serialization of `spec`:
+
+- UTF-8;
+- object keys sorted lexicographically;
+- no insignificant whitespace;
+- JSON separators `,` and `:`;
+- non-ASCII characters preserved;
+- non-finite numbers rejected.
+
+The stored form is `sha256:<64 lowercase hexadecimal characters>`. Both the template and catalog MUST contain the computed `spec_checksum` for `strict-v1`.
+
+## 5. Family schemas
+
+Every strict template MUST reference one exact `strict-schema-v1` family schema.
+
+- Schemas MUST use JSON Schema Draft 2020-12.
+- `$id` MUST equal `https://ultimateodycer.com/schemas/<family>/<version>`.
+- The family schema MUST compose the common contract schema and close its `spec` object with `additionalProperties: false`.
+- Every required and optional field MUST have one stable type.
+- Numeric fields MUST define meaningful bounds.
+- Strings, arrays, objects, file size, and nesting MUST be bounded.
+- `$ref` targets MUST resolve from schemas stored in this repository.
+- Validation MUST NOT retrieve schemas from the network.
+- Required fields live in the schema and MUST NOT be duplicated in template metadata.
+
+## 6. Declarative and authoritative separation
+
+The public registry describes intent. The server retains authority.
+
+| Allowed public value | Forbidden public authority |
+| --- | --- |
+| identity, category, tags | HP, damage, armor, economy values |
+| logical dependencies | cooldowns, cast timing, tick timing |
+| capability and role labels | spawn rates, waves, population budgets |
+| `balance_profile_id` | balance values and formulas |
+| `loot_table_id` | drop probabilities and loot rolls |
+| `behavior_profile_id` | AI decision weights and execution |
+| optional logical `asset_ref` | paths, bundles, load policy, asset availability claims |
+
+A strict template MUST NOT contain admin controls, server addresses, connection strings, secrets, production data, commercial configuration, runtime commands, embedded scripts, behavior trees, long lore, dialogue, or unverified third-party material.
+
+The Zig server, Godot client, VR client, and LLM pipeline MUST consume strict templates through explicit adapters. No consumer may treat a public template as authorization.
+
+## 7. Consumer metadata
+
+`intended_consumers` is a unique array of routing hints. It does not prove support.
+
+`compatibility` MUST remain empty until a real integration is verified. Each compatibility record MUST contain:
 
 ```json
 {
-  "name": "community-festival",
-  "kind": "event-template",
-  "version": "1.0.0",
-  "status": "experimental",
-  "file": "templates/events/community-festival/v1.0.0/template.json",
-  "sha256": "<64-caracteres-hexadecimaux-minuscules>",
-  "compatibility": []
+  "consumer": "zig-server-v2",
+  "version": "2.4.0",
+  "verified_at": "2026-08-22T12:00:00Z",
+  "evidence": "tests/public-template-contract/commit-abcdef1"
 }
 ```
 
-L'empreinte factice DOIT être remplacée par la véritable empreinte avant publication.
+- `consumer` identifies one exact adapter or application.
+- `version` is the exact tested version.
+- `verified_at` is an ISO 8601 timestamp.
+- `evidence` points to a test, report, or commit that can be inspected.
+- Schema validity alone is not compatibility or runtime proof.
 
-### 6.3 Exemple incompatible
+## 8. Catalog v2
+
+`templates/catalog.json` is the canonical index. It MUST contain:
 
 ```json
 {
-  "id": "community-festival",
-  "template_type": "event",
-  "version": 1,
-  "duration": "one hour",
-  "admin_override": true,
-  "server_url": "http://internal-host:8080"
+  "registry_version": "2.0.0",
+  "aliases": [],
+  "entries": []
 }
 ```
 
-Cet exemple est invalide : `version` n'est pas une chaîne SemVer, l'unité de `duration` est ambiguë et les champs administratifs ou internes sont interdits.
+Every entry MUST retain its existing provenance metadata and declare:
 
-## 7. Checklist pour humains et LLM
+- `name`, `kind`, `version`, `status`, `file`, `sha256`, and `compatibility`;
+- `validation_profile` and `contract_version`.
 
-Avant de proposer un modèle :
+A `strict-v1` entry additionally MUST declare:
 
-- produire du JSON strict, sans commentaire ;
-- vérifier `id`, `template_type` et `version` ;
-- utiliser des unités explicites ;
-- conserver uniquement des références logiques ;
-- ne jamais inventer une compatibilité ;
-- laisser `compatibility` vide sans preuve ;
-- calculer l'empreinte SHA-256 ;
-- documenter les limites et dépendances ;
-- rechercher les secrets et données internes ;
-- créer une nouvelle version au lieu de modifier une version publiée.
+- `id`, `slug`, `family`, and `schema_file`;
+- `spec_checksum` and `intended_consumers`;
+- `supersedes`, even when empty;
+- `provenance_ref` when private provenance exists.
+
+Raw private paths MUST NOT be added to v1 entries. Historical `source_file` fields remain legacy metadata and are not resolvable links.
+
+## 9. Legacy preservation and migration
+
+Existing published `v0.1.0` documents remain byte-identical and use:
+
+```json
+{
+  "validation_profile": "legacy-unvalidated",
+  "contract_version": null
+}
+```
+
+These fields belong to the catalog entry, not the historical template file.
+
+A migration MUST assign exactly one disposition:
+
+- `migrated`;
+- `manual-review`;
+- `legacy-only-authoritative`;
+- `legacy-only-narrative`;
+- `excluded-public-policy`;
+- `invalid-source`.
+
+Ambiguous data MUST NOT be guessed. Only a validated v1 replacement may set `superseded_by` on a reviewed legacy catalog entry.
+
+## 10. Independent versioning
+
+The common contract, family schema, and individual template evolve independently.
+
+- Major: incompatible field, type, unit, meaning, requiredness, or enumeration change.
+- Minor: backward-compatible optional capability.
+- Patch: correction that does not change the contract or expected behavior.
+
+Equal initial `1.0.0` versions do not couple future releases. A consumer MUST select an exact supported version.
+
+## 11. LLM generation rules
+
+An LLM producing a strict template MUST:
+
+1. select one existing family and exact schema version;
+2. emit strict JSON only;
+3. use the common envelope and schema-defined `spec` fields only;
+4. use exact versioned references;
+5. omit compatibility without evidence;
+6. use symbolic profile references instead of runtime values;
+7. avoid lore, dialogue, implicit assets, and invented identifiers;
+8. calculate the canonical `spec_checksum`;
+9. run the complete validator before proposing publication.
+
+## 12. Zig and client rules
+
+- The registry path layout is not the Zig server runtime layout.
+- Zig MUST use an explicit, disabled-by-default adapter before consuming v1.
+- The adapter MUST verify, resolve, project, and bind in separate fail-closed stages.
+- Runtime profile resolution remains server-side.
+- Godot and VR clients MUST NOT derive authority from template values.
+- Missing references MUST fail explicitly; consumers MUST NOT select a similarly named fallback.
+- Compatibility is recorded only after typed parsing, link closure, and an isolated end-to-end load pass.
+
+## 13. Contributor commands
+
+```powershell
+python -m pip install -r requirements-dev.txt
+python -m unittest discover -s tests -v
+python scripts/migrate_catalog_v2.py --check
+python scripts/validate_registry.py --report validation-report.json
+```
+
+Publication is blocked if any command fails.
