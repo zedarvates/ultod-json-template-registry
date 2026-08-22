@@ -4,8 +4,13 @@ import hashlib
 import json
 import re
 from dataclasses import dataclass
-from pathlib import PurePosixPath
+from pathlib import Path, PurePosixPath
 from typing import Any
+
+from jsonschema import Draft202012Validator, FormatChecker
+from jsonschema.exceptions import SchemaError
+from referencing import Registry, Resource
+from referencing.exceptions import Unresolvable
 
 
 KEBAB = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
@@ -123,3 +128,67 @@ def validate_schema_identity(path: str, document: dict[str, Any]) -> list[str]:
         return ["strict schema family and version path are invalid"]
     expected = f"https://ultimateodycer.com/schemas/{family}/{version_dir[1:]}"
     return [] if document.get("$id") == expected else [f"$id must equal {expected}"]
+
+
+def load_schema_store(root: Path):
+    schemas: dict[str, dict[str, Any]] = {}
+    registry = Registry()
+    for path in sorted((root / "templates/schemas").rglob("schema.json")):
+        document = decode_json_bytes(path.read_bytes())
+        schema_id = document.get("$id") if isinstance(document, dict) else None
+        if not isinstance(schema_id, str):
+            continue
+        schemas[path.relative_to(root).as_posix()] = document
+        registry = registry.with_resource(schema_id, Resource.from_contents(document))
+    return schemas, registry
+
+
+def _schema_refs(value: Any):
+    if isinstance(value, dict):
+        for key, child in value.items():
+            if key == "$ref" and isinstance(child, str):
+                yield child
+            yield from _schema_refs(child)
+    elif isinstance(value, list):
+        for child in value:
+            yield from _schema_refs(child)
+
+
+def validate_schema_references(root: Path, schema_file: str) -> list[str]:
+    schemas, _ = load_schema_store(root)
+    schema = schemas.get(schema_file)
+    if schema is None:
+        return [f"schema file not found: {schema_file}"]
+    known_ids = {
+        document["$id"]
+        for document in schemas.values()
+        if isinstance(document.get("$id"), str)
+    }
+    errors = []
+    for reference in _schema_refs(schema):
+        base = reference.split("#", 1)[0]
+        if base and base not in known_ids:
+            errors.append(f"unresolved local schema reference: {reference}")
+    return sorted(set(errors))
+
+
+def validate_with_schema(root: Path, schema_file: str, document: Any) -> list[str]:
+    schemas, registry = load_schema_store(root)
+    schema = schemas.get(schema_file)
+    if schema is None:
+        return [f"schema file not found: {schema_file}"]
+    try:
+        Draft202012Validator.check_schema(schema)
+        validator = Draft202012Validator(
+            schema,
+            registry=registry,
+            format_checker=FormatChecker(),
+        )
+        return [
+            f"{'/'.join(str(part) for part in error.absolute_path) or '$'}: {error.message}"
+            for error in sorted(
+                validator.iter_errors(document), key=lambda item: list(item.absolute_path)
+            )
+        ]
+    except (SchemaError, Unresolvable) as error:
+        return [f"schema resolution failed: {error}"]

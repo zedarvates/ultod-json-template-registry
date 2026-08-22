@@ -1,4 +1,7 @@
+import json
+import tempfile
 import unittest
+from pathlib import Path
 
 from scripts.template_contract import (
     compute_spec_checksum,
@@ -6,7 +9,9 @@ from scripts.template_contract import (
     parse_strict_template_path,
     validate_document_limits,
     validate_envelope_identity,
+    validate_schema_references,
     validate_schema_identity,
+    validate_with_schema,
 )
 
 
@@ -73,6 +78,103 @@ class TemplateContractPrimitiveTests(unittest.TestCase):
             errors,
             ["$id must equal https://ultimateodycer.com/schemas/monsters/1.2.3"],
         )
+
+
+def strict_document(spec):
+    return {
+        "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+        "contract_version": "1.0.0",
+        "id": "monsters:forest-wolf",
+        "slug": "forest-wolf",
+        "family": "monsters",
+        "version": "1.0.0",
+        "authority": "declarative",
+        "intended_consumers": [],
+        "compatibility": [],
+        "dependencies": [],
+        "spec_checksum": compute_spec_checksum(spec),
+        "spec": spec,
+    }
+
+
+class SchemaStoreTests(unittest.TestCase):
+    def test_family_schema_refines_and_closes_spec(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            common = root / "templates/schemas/template-contract/v1.0.0/schema.json"
+            family = root / "templates/schemas/monsters/v1.0.0/schema.json"
+            common.parent.mkdir(parents=True)
+            family.parent.mkdir(parents=True)
+            common.write_text(
+                Path("templates/schemas/template-contract/v1.0.0/schema.json").read_text(
+                    encoding="utf-8"
+                ),
+                encoding="utf-8",
+            )
+            family.write_text(
+                json.dumps(
+                    {
+                        "$schema": "https://json-schema.org/draft/2020-12/schema",
+                        "$id": "https://ultimateodycer.com/schemas/monsters/1.0.0",
+                        "allOf": [
+                            {
+                                "$ref": "https://ultimateodycer.com/schemas/template-contract/1.0.0"
+                            },
+                            {
+                                "properties": {
+                                    "spec": {
+                                        "type": "object",
+                                        "required": ["category"],
+                                        "properties": {"category": {"type": "string"}},
+                                        "additionalProperties": False,
+                                    }
+                                }
+                            },
+                        ],
+                    }
+                ),
+                encoding="utf-8",
+            )
+            document = strict_document(spec={"category": "animal", "runtime_hp": 100})
+            errors = validate_with_schema(
+                root, "templates/schemas/monsters/v1.0.0/schema.json", document
+            )
+            self.assertTrue(any("runtime_hp" in error for error in errors))
+
+    def test_common_schema_rejects_unknown_root_field(self):
+        document = strict_document(spec={"category": "animal"})
+        document["unexpected"] = True
+        errors = validate_with_schema(
+            Path("."),
+            "templates/schemas/template-contract/v1.0.0/schema.json",
+            document,
+        )
+        self.assertTrue(any("unexpected" in error for error in errors))
+
+    def test_schema_reference_must_resolve_from_local_store(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            schema = root / "templates/schemas/monsters/v1.0.0/schema.json"
+            schema.parent.mkdir(parents=True)
+            schema.write_text(
+                json.dumps(
+                    {
+                        "$schema": "https://json-schema.org/draft/2020-12/schema",
+                        "$id": "https://ultimateodycer.com/schemas/monsters/1.0.0",
+                        "$ref": "https://ultimateodycer.com/schemas/missing/1.0.0",
+                    }
+                ),
+                encoding="utf-8",
+            )
+            self.assertEqual(
+                validate_schema_references(
+                    root, "templates/schemas/monsters/v1.0.0/schema.json"
+                ),
+                [
+                    "unresolved local schema reference: "
+                    "https://ultimateodycer.com/schemas/missing/1.0.0"
+                ],
+            )
 
 
 if __name__ == "__main__":
