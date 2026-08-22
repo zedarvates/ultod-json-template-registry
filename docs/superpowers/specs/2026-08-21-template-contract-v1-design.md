@@ -109,7 +109,7 @@ Every conforming `template.json` must use this shape:
 - `authority` has the single allowed v1 value `declarative`.
 - `intended_consumers` states routing intent, not proven compatibility.
 - `compatibility` remains empty until an exact consumer version and evidence reference are recorded.
-- `dependencies` contains canonical registry IDs, never paths or display names.
+- `dependencies` contains exact canonical references in the form `<family>:<slug>@<semver>`, never paths, display names, or unversioned IDs.
 - `spec` contains only family-specific declarative content.
 - The common and family schemas use `additionalProperties: false` at every object boundary unless an explicitly typed extension map is required.
 
@@ -165,7 +165,7 @@ The following common concepts have one representation in v1:
 | slug | `kebab-case` string |
 | coordinates | object `{ "x": number, "y": number, "z": number }` with documented unit |
 | tags | unique array of `kebab-case` strings |
-| dependencies | unique array of canonical IDs |
+| dependencies | unique array of exact canonical references `<family>:<slug>@<semver>` |
 | rewards | array of typed declarative references, never free-form strings |
 | stats | forbidden in the common envelope; family schemas may expose symbolic `balance_profile_id` only |
 | durations | forbidden when they control runtime; descriptive durations require explicit units and family justification |
@@ -192,14 +192,14 @@ Long lore, dialogue, narrative prose, embedded scripts, and behavior trees are e
 The catalog becomes the canonical index. Every v1 entry includes:
 
 - `id`, `slug`, `family`, `kind`, `version`, `contract_version`;
-- `validation_profile: "strict-v1"`;
+- `validation_profile: "strict-v1"` for templates or `validation_profile: "strict-schema-v1"` for v1 schemas;
 - `schema_file`, `file`, full-file `sha256`, and `spec_checksum`;
 - `status`, `intended_consumers`, `compatibility`, and `supersedes`;
 - an opaque `provenance_ref` when private audit provenance exists.
 
 Raw private paths and ambiguous basenames are not links. Existing `source_file` values are retained only on legacy entries. V1 uses opaque provenance references whose resolution remains outside the public repository.
 
-All dependency and supersession references must resolve to exactly one catalog entry. Aliases are explicit, versioned, acyclic, and map a previous canonical ID to a current canonical ID. Silent fuzzy matching is forbidden.
+All dependency and supersession references use `<family>:<slug>@<semver>` and must resolve to exactly one catalog entry. Aliases are explicit, versioned, acyclic, and map a previous exact canonical reference to a current exact canonical reference. Silent fuzzy matching and implicit latest-version selection are forbidden.
 
 ## Zig Server Compatibility
 
@@ -287,6 +287,14 @@ All legacy checks plus:
 - declarative-authority policy;
 - forbidden runtime, narrative, asset-path, internal, commercial, administrative, and third-party fields;
 - bounded strings, arrays, nesting depth, file size, and numeric ranges.
+
+### Strict schema v1 profile
+
+- valid Draft 2020-12 meta-schema;
+- stable absolute `$id` and local-only `$ref` closure;
+- version and family agreement with the schema path;
+- public policy, catalog membership, and full-file checksum;
+- no remote retrieval during validation.
 
 Validation failure blocks publication. The validator prints every failure in a machine-readable report and a bounded human summary.
 
