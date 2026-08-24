@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "monsters:temporal-dragon-creature-0369",
+  "slug": "temporal-dragon-creature-0369",
+  "family": "monsters",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:6169d7dc36253b07c4f928bbca23ec0d67c4fc829454a4804545be1b6ae1d1c0",
+  "spec": {
+    "display_name": "Temporal Dragon Creature 0369",
+    "category": "temporal-dragon-creature-0369-dragon-creature-0369",
+    "rarity": "mythic"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "monsters:aberration-creature-0001",
+  "slug": "aberration-creature-0001",
+  "family": "monsters",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ba65d282718ea31c13a9a4875875816dfb3592c27e8bc6d287e3fa9083632284",
+  "spec": {
+    "display_name": "Aberration Creature 0001",
+    "category": "aberration",
+    "rarity": "legendary"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:fairy-spirit",
+  "slug": "fairy-spirit",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ca364abcab3b945014cd1e1049efe52de456cd9bd64afbb4621a4fa158d18e16",
+  "spec": {
+    "display_name": "Fairy Spirit",
+    "resource_kind": "mana"
+  }
+}

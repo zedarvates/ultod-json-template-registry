@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:resonance-stone",
+  "slug": "resonance-stone",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:1ad46c2d962d811e9476bb0f8b7fb2693b43b6c0e4d5be6245ba7c578d4aab6c",
+  "spec": {
+    "display_name": "Pierre de Résonance",
+    "category": "material",
+    "rarity": "rare",
+    "item_kind": "magic-crafting-material"
+  }
+}

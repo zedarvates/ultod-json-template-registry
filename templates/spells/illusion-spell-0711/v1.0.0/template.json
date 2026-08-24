@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:illusion-spell-0711",
+  "slug": "illusion-spell-0711",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:43792f907458d4feea02e846d9422ebf090bf9e7dfea2a1878c7e2d173e8f289",
+  "spec": {
+    "display_name": "Illusion Spell 0711",
+    "school": "illusion",
+    "rarity": "uncommon",
+    "spell_kind": "multi-sensory-illusion-creation",
+    "target_kind": "place-at-location"
+  }
+}

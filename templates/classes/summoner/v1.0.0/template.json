@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:summoner",
+  "slug": "summoner",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:04897b94490bff4d9678259e16dbeebd21cf113a750bc406877813ed220b4127",
+  "spec": {
+    "display_name": "Invocateur"
+  }
+}

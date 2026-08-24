@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:summoners-grimoire",
+  "slug": "summoners-grimoire",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:92d0996c61802a22e9665a37447517a785d2b0161846b90266cf8347cd4b294f",
+  "spec": {
+    "display_name": "Grimoire d'Invocation",
+    "category": "weapon",
+    "rarity": "rare",
+    "item_kind": "off-hand",
+    "subtype": "book"
+  }
+}

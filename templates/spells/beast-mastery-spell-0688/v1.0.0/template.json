@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:beast-mastery-spell-0688",
+  "slug": "beast-mastery-spell-0688",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:164c2e91250562948fd5d9b9372dd12974ccf5777c9eb77489a864755db23923",
+  "spec": {
+    "display_name": "Beast Mastery Spell 0688",
+    "school": "beast-mastery",
+    "rarity": "common",
+    "spell_kind": "animal-companion-healing",
+    "target_kind": "summoned-beast"
+  }
+}

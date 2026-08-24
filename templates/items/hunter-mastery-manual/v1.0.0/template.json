@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:hunter-mastery-manual",
+  "slug": "hunter-mastery-manual",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:8daed96a88e11cab89288f650ed4daf642529f4f98b4dee246f92d6460fa55b2",
+  "spec": {
+    "display_name": "Hunter Mastery Manual",
+    "category": "quest-item",
+    "rarity": "common",
+    "item_kind": "quest-item",
+    "subtype": "generic"
+  }
+}

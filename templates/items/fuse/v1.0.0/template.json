@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:fuse",
+  "slug": "fuse",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:10607e3b3ea7949a2ba2f850e6bd2ca7f983eeffa2b5ed663bdde1da7cfb3dec",
+  "spec": {
+    "display_name": "fuse",
+    "category": "material",
+    "rarity": "common",
+    "item_kind": "material",
+    "subtype": "generic"
+  }
+}

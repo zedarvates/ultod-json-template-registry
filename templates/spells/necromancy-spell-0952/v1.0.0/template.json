@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancy-spell-0952",
+  "slug": "necromancy-spell-0952",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:338902605abba150f9d116abacd061b80ab1ec5e1fa02280e79f49aa4e27ee30",
+  "spec": {
+    "display_name": "Necromancy Spell 0952",
+    "school": "necromancy",
+    "rarity": "common",
+    "spell_kind": "necromancy-spell-0952-siphon-channel",
+    "target_kind": "enemy-target"
+  }
+}

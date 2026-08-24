@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:class-template-0054",
+  "slug": "class-template-0054",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:94a69f373b5298f5847c3bb36b3987fc4ba67b4c9d81775894b96da9fd2a0d21",
+  "spec": {
+    "display_name": "Class Template 0054"
+  }
+}

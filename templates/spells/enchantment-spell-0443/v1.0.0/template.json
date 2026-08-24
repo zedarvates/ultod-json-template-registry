@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:enchantment-spell-0443",
+  "slug": "enchantment-spell-0443",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a057bdabd749ef45c14b639d93896b3e6f61e9f0b8df98d8729bd4cbce9671b8",
+  "spec": {
+    "display_name": "Enchantment Spell 0443",
+    "school": "enchantment",
+    "rarity": "legendary",
+    "spell_kind": "mass-illusion-summon",
+    "target_kind": "area-effect-fear"
+  }
+}

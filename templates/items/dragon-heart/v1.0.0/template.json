@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:dragon-heart",
+  "slug": "dragon-heart",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f3c77d7af68472fc6ab929089ab7361875eef17dbca4718f28063a87cc38e09c",
+  "spec": {
+    "display_name": "Dragon Heart",
+    "category": "material",
+    "rarity": "common",
+    "item_kind": "material",
+    "subtype": "generic"
+  }
+}

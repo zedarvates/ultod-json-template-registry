@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:rogue-spell-1204",
+  "slug": "rogue-spell-1204",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a40d6275f154220504c378a3535ab23e684ed3252c00d54fffb6e88b785a5fef",
+  "spec": {
+    "display_name": "Rogue Spell 1204",
+    "school": "rogue",
+    "rarity": "common",
+    "spell_kind": "bleed-attack",
+    "target_kind": "enemy"
+  }
+}

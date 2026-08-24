@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:esprit-spell-1230",
+  "slug": "esprit-spell-1230",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:171c8b1bfa6236fb2d0848e9e5141339d4fc84102b802ce8db6308f512c73288",
+  "spec": {
+    "display_name": "Esprit Spell 1230",
+    "school": "esprit",
+    "rarity": "uncommon",
+    "spell_kind": "buff",
+    "target_kind": "self"
+  }
+}

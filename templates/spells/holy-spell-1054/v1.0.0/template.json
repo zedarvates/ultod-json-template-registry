@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:holy-spell-1054",
+  "slug": "holy-spell-1054",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:7ee43eda3d0f2fb40052f364e3baa50126d6128db6447e3f5aacf8bb1b98e9c5",
+  "spec": {
+    "display_name": "Holy Spell 1054",
+    "school": "holy",
+    "rarity": "uncommon",
+    "spell_kind": "control",
+    "target_kind": "single-enemy"
+  }
+}

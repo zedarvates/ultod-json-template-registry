@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:swordsman-spell-spell-1433",
+  "slug": "swordsman-spell-spell-1433",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:45a340bf146449cc413a06cb6ad23e8d6f917ad2aacc8cb6eaf21fc87cf56724",
+  "spec": {
+    "display_name": "Swordsman Spell Spell 1433",
+    "school": "swordsman-spell-spell-1433-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

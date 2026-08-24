@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:evocation-spell-0089",
+  "slug": "evocation-spell-0089",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:014d5bf00f84af7ae84cfcad86b2239ea49e1dd8acf773f1d7f79ee37b12d1da",
+  "spec": {
+    "display_name": "Evocation Spell 0089",
+    "school": "evocation",
+    "rarity": "legendary",
+    "spell_kind": "rapid-fire-attack",
+    "target_kind": "single-enemy"
+  }
+}

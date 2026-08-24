@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:beast-mastery-spell-0678",
+  "slug": "beast-mastery-spell-0678",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:46726b518cae760f195375e7936009aa371bd1852360781dec53a8e98423ee3e",
+  "spec": {
+    "display_name": "Beast Mastery Spell 0678",
+    "school": "beast-mastery-spell-0678-mastery",
+    "rarity": "uncommon",
+    "spell_kind": "animal-companion-summon",
+    "target_kind": "summon-at-location"
+  }
+}

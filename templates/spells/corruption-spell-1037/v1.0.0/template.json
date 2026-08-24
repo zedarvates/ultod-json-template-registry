@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:corruption-spell-1037",
+  "slug": "corruption-spell-1037",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f11606670b232ec996d431c435bbda951f169b2e95baa3cb848c415d40a8ba2f",
+  "spec": {
+    "display_name": "Corruption Spell 1037",
+    "school": "corruption-spell-1037",
+    "rarity": "epic",
+    "spell_kind": "drain-spell",
+    "target_kind": "enemy"
+  }
+}

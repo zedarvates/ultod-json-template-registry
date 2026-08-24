@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancy-spell-0316",
+  "slug": "necromancy-spell-0316",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b99e4d49b78fa0f5a72520dbd5bf73a5b68318f1069878eb5be31a3125fc3d69",
+  "spec": {
+    "display_name": "Necromancy Spell 0316",
+    "school": "necromancy",
+    "rarity": "uncommon",
+    "spell_kind": "cryo-virus",
+    "target_kind": "single-enemy"
+  }
+}

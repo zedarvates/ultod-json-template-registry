@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancy-spell-0941",
+  "slug": "necromancy-spell-0941",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c0270e2260707a2c1d6e6c7a32e319964840debb62126dba15ebf7ed25342fb0",
+  "spec": {
+    "display_name": "Necromancy Spell 0941",
+    "school": "necromancy",
+    "rarity": "uncommon",
+    "spell_kind": "osseous-protection-buff",
+    "target_kind": "self-buff"
+  }
+}

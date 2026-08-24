@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:huitzilopochtli-spell-spell-0654",
+  "slug": "huitzilopochtli-spell-spell-0654",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:49ea49b36f0857ee87e320ca3899f4fd7cac96117ef8abbc0f30ed2edd3e9d34",
+  "spec": {
+    "display_name": "Huitzilopochtli Spell Spell 0654",
+    "school": "huitzilopochtli-spell-spell-0654-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

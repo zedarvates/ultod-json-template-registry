@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:artisan-spell-spell-0047",
+  "slug": "artisan-spell-spell-0047",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:1cc87ee5cd2529605fbab814a07a3a2bd4f93e8af076e19dfbf720d117fe165a",
+  "spec": {
+    "display_name": "Artisan Spell Spell 0047",
+    "school": "artisan-spell-spell-0047-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

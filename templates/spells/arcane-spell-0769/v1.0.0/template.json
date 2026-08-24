@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:arcane-spell-0769",
+  "slug": "arcane-spell-0769",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:5df2bf4e43c07f24832bb26680d2484004c584b1b0ceb10616083918b9b53a2e",
+  "spec": {
+    "display_name": "Arcane Spell 0769",
+    "school": "arcane-spell-0769",
+    "rarity": "common",
+    "spell_kind": "buff",
+    "target_kind": "single-ally"
+  }
+}

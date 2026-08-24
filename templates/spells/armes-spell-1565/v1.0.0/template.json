@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:armes-spell-1565",
+  "slug": "armes-spell-1565",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:39f63a1eea10f898be756fe8679fabfe5ea8213de5c3df1011b9313a479fdd0c",
+  "spec": {
+    "display_name": "Armes Spell 1565",
+    "school": "armes",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

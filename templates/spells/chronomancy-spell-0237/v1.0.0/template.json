@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:chronomancy-spell-0237",
+  "slug": "chronomancy-spell-0237",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:18d4d2a4c9832799f4c039c47f2a25b909ebaf90a6832f59adad2185c731a29c",
+  "spec": {
+    "display_name": "Chronomancy Spell 0237",
+    "school": "chronomancy",
+    "rarity": "epic",
+    "spell_kind": "chronomancy-spell-0237-teleportation-chaos",
+    "target_kind": "area-enemy"
+  }
+}

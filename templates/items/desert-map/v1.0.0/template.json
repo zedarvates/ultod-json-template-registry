@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:desert-map",
+  "slug": "desert-map",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:2971d7cea9d901a835f5dcd3525bc78ef888096753e726bc52226d9a43e40931",
+  "spec": {
+    "display_name": "Desert Map",
+    "category": "quest-item",
+    "rarity": "common",
+    "item_kind": "quest-item",
+    "subtype": "generic"
+  }
+}

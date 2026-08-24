@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:forgotten-artifact",
+  "slug": "forgotten-artifact",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:4c9ac5409d7638e5a429556e87584ea97055c199f66dde55cf98b49a15965bec",
+  "spec": {
+    "display_name": "Forgotten Artifact",
+    "category": "material",
+    "rarity": "common",
+    "item_kind": "material",
+    "subtype": "generic"
+  }
+}

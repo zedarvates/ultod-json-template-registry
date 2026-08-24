@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:rogue-spell-1196",
+  "slug": "rogue-spell-1196",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:fd326d40dbae0b432dffa7010fe70e09a9bfa0e6b13b91e424243ae0f1b1f3d5",
+  "spec": {
+    "display_name": "Rogue Spell 1196",
+    "school": "rogue",
+    "rarity": "common",
+    "spell_kind": "sneak-attack",
+    "target_kind": "enemy"
+  }
+}

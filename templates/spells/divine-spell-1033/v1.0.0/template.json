@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:divine-spell-1033",
+  "slug": "divine-spell-1033",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e5ffe14f9b5ad84a928ac49a5c68a390ee05ddb8ca3d5f61614fd1591379d16a",
+  "spec": {
+    "display_name": "Divine Spell 1033",
+    "school": "divine",
+    "rarity": "uncommon",
+    "spell_kind": "divine-spell-1033-buff",
+    "target_kind": "self-area"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:empty-flask",
+  "slug": "empty-flask",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:76ca745a7f0752cbb25c454af1a4cd43f159a5bd5743d1a36f2e0c2c762dbc3f",
+  "spec": {
+    "display_name": "empty_flask",
+    "category": "material",
+    "rarity": "common",
+    "item_kind": "material",
+    "subtype": "generic"
+  }
+}

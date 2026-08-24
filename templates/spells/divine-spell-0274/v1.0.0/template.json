@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:divine-spell-0274",
+  "slug": "divine-spell-0274",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:3fa3698661751cec05a8cd730165a9d6737a12d60be7e76bf35d02c045843fdf",
+  "spec": {
+    "display_name": "Divine Spell 0274",
+    "school": "divine",
+    "rarity": "common",
+    "spell_kind": "buff",
+    "target_kind": "multiple-allies"
+  }
+}

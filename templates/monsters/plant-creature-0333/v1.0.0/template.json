@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "monsters:plant-creature-0333",
+  "slug": "plant-creature-0333",
+  "family": "monsters",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e0f14bf504cb4eb80610742d6945d012d7cd15e7553da96d05cd3f75e834c2cc",
+  "spec": {
+    "display_name": "Plant Creature 0333",
+    "category": "plant",
+    "rarity": "uncommon"
+  }
+}

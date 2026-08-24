@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:frost-spell-1602",
+  "slug": "frost-spell-1602",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b1c1446d8df1c7492a64941b0018aa666b675186d0992cb5b78f4d088126e06f",
+  "spec": {
+    "display_name": "Frost Spell 1602",
+    "school": "frost",
+    "rarity": "uncommon",
+    "spell_kind": "damage",
+    "target_kind": "cone"
+  }
+}

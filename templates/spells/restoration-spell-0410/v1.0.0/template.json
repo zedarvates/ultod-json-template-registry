@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:restoration-spell-0410",
+  "slug": "restoration-spell-0410",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:60f6e3737110d35951accbc00f96310cb2b84dcd675d9e7164b039f724a9481a",
+  "spec": {
+    "display_name": "Restoration Spell 0410",
+    "school": "restoration",
+    "rarity": "uncommon",
+    "spell_kind": "timed-blossom-healing",
+    "target_kind": "single-ally"
+  }
+}

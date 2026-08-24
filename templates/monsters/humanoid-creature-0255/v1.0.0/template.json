@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "monsters:humanoid-creature-0255",
+  "slug": "humanoid-creature-0255",
+  "family": "monsters",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:2cf99b0699793ce0b67b2e5678ff5ca4c15c95e8ac962473416f1b906226e153",
+  "spec": {
+    "display_name": "Humanoid Creature 0255",
+    "category": "humanoid",
+    "rarity": "uncommon"
+  }
+}

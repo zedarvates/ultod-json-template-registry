@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:chamanisme-spell-1304",
+  "slug": "chamanisme-spell-1304",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d0b8ec8a887fddd936287e2ef9b560683d187afbd557eeb0e3677065f4dea87a",
+  "spec": {
+    "display_name": "Chamanisme Spell 1304",
+    "school": "chamanisme",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "area"
+  }
+}

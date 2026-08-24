@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "monsters:fiend-creature-0048",
+  "slug": "fiend-creature-0048",
+  "family": "monsters",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:3f5c30f6165f1126e550081fa7b9e281383f6511f23ed026de6b984a530449d2",
+  "spec": {
+    "display_name": "Fiend Creature 0048",
+    "category": "fiend",
+    "rarity": "uncommon"
+  }
+}

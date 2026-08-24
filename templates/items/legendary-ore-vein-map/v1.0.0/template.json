@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:legendary-ore-vein-map",
+  "slug": "legendary-ore-vein-map",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c618b057d4f1361c8119f271a6b3be41fd21eae46ca0121750cb5bd4f94292d5",
+  "spec": {
+    "display_name": "Legendary Ore Vein Map",
+    "category": "quest-item",
+    "rarity": "common",
+    "item_kind": "quest-item",
+    "subtype": "generic"
+  }
+}

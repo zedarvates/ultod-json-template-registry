@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:healing-spell-0889",
+  "slug": "healing-spell-0889",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:090df7ce041e3fc1dd5697a2532ccfadd5207a91e5925aad5e2a1521f32a5944",
+  "spec": {
+    "display_name": "Healing Spell 0889",
+    "school": "healing-spell-0889",
+    "rarity": "rare",
+    "spell_kind": "passive-healing-spell-0889-orb",
+    "target_kind": "area-healing-spell-0889-orb"
+  }
+}

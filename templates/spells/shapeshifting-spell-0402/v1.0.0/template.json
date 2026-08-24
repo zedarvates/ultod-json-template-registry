@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:shapeshifting-spell-0402",
+  "slug": "shapeshifting-spell-0402",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:1b8976de078aaf8436abd9c1356d74ea0d77bdb836829d7a860006c9e2489f8c",
+  "spec": {
+    "display_name": "Shapeshifting Spell 0402",
+    "school": "shapeshifting",
+    "rarity": "common",
+    "spell_kind": "animal-form",
+    "target_kind": "self"
+  }
+}

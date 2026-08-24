@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:mining-expertise-tome",
+  "slug": "mining-expertise-tome",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:6025dfb4dd8bf442bdcfaf2588a0bff77799958c3811d9c7c14cb6f2dd097783",
+  "spec": {
+    "display_name": "Mining Expertise Tome",
+    "category": "quest-item",
+    "rarity": "common",
+    "item_kind": "quest-item",
+    "subtype": "generic"
+  }
+}

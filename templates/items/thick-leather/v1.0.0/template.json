@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:thick-leather",
+  "slug": "thick-leather",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:61e77f3860851182093960d0925fc1bda9c01c50465ab3db5e4f5e591597bf90",
+  "spec": {
+    "display_name": "thick_leather",
+    "category": "material",
+    "rarity": "common",
+    "item_kind": "material",
+    "subtype": "generic"
+  }
+}

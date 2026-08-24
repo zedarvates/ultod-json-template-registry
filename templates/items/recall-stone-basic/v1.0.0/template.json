@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:recall-stone-basic",
+  "slug": "recall-stone-basic",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:73c449f4b8eef247e50fa23c7307aaf7ca16ea0b5c47ca5b96cec70477158adb",
+  "spec": {
+    "display_name": "Pierre de Rappel Basique",
+    "category": "consumable",
+    "rarity": "common",
+    "item_kind": "teleportation",
+    "subtype": "recall-stone"
+  }
+}

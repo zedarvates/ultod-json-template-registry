@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/races/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "races:celestien",
+  "slug": "celestien",
+  "family": "races",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:aca6298abd5fd2639eacd11b9d8677d34e0b81f7442d9092ac4bc094afd1a5dd",
+  "spec": {
+    "display_name": "Celestien",
+    "category": "celestial",
+    "rarity": "legendary",
+    "faction_tag": "order"
+  }
+}

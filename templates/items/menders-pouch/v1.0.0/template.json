@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:menders-pouch",
+  "slug": "menders-pouch",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:70616f81a60b5a0b61c77316a884813e643f14e23035ad4e9d5f0e9e0f584c86",
+  "spec": {
+    "display_name": "Mender Pouch",
+    "category": "consumable",
+    "rarity": "common",
+    "item_kind": "consumable",
+    "subtype": "potion"
+  }
+}

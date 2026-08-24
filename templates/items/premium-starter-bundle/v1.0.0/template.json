@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:premium-starter-bundle",
+  "slug": "premium-starter-bundle",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f152b4f332853b76dc2daf9c9cdb8c08537dba908b0c18c7f8d26ea1a90aa914",
+  "spec": {
+    "display_name": "Premium Starter Bundle",
+    "category": "container",
+    "rarity": "rare",
+    "item_kind": "kit",
+    "subtype": "premium-starter"
+  }
+}

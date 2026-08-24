@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/races/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "races:drakhari",
+  "slug": "drakhari",
+  "family": "races",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:17ddef62f8eef2a7ce21ad999bcd83fe00ea8f48de3e8a6437a390e2a91d7f9d",
+  "spec": {
+    "display_name": "Drakhari",
+    "category": "humanoid",
+    "rarity": "epic",
+    "faction_tag": "chaos"
+  }
+}

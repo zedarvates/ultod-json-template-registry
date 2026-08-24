@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:master-of-cards",
+  "slug": "master-of-cards",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a6d50bc3bedb24e983fd9a51e90542971b86c714fdd3507962510cc0ad9aaee6",
+  "spec": {
+    "display_name": "Maître des Cartes",
+    "resource_kind": "card-energy"
+  }
+}

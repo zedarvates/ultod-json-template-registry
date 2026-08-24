@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:fureur-spell-1542",
+  "slug": "fureur-spell-1542",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:3cd9566efb2eec90d6a9807c5e8833fb1bc5ab397b10a8aeda47d85fd3f8a7fc",
+  "spec": {
+    "display_name": "Fureur Spell 1542",
+    "school": "fureur",
+    "rarity": "uncommon",
+    "spell_kind": "buff",
+    "target_kind": "self"
+  }
+}

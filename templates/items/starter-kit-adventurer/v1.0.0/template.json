@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:starter-kit-adventurer",
+  "slug": "starter-kit-adventurer",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d94cf98868bb23f7942a2c18e49f61310d737972533837bd3fa32dc65c981249",
+  "spec": {
+    "display_name": "Kit de Depart Aventurier",
+    "category": "container",
+    "rarity": "common",
+    "item_kind": "kit",
+    "subtype": "starter-kit"
+  }
+}

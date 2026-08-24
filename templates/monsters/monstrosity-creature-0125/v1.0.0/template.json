@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "monsters:monstrosity-creature-0125",
+  "slug": "monstrosity-creature-0125",
+  "family": "monsters",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:663fbba97f1a7481ac1bca31bc2f6ea91e25340842300d3de83010c8d289277e",
+  "spec": {
+    "display_name": "Monstrosity Creature 0125",
+    "category": "monstrosity",
+    "rarity": "epic"
+  }
+}

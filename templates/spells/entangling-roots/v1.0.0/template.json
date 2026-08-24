@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:entangling-roots",
+  "slug": "entangling-roots",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d70e29fc69889f9cd7c33aaa3f8d6d127c066908fc2de4f9cda85384bfa8fb27",
+  "spec": {
+    "display_name": "Entangling Roots",
+    "school": "nature",
+    "rarity": "uncommon",
+    "spell_kind": "damage-over-time",
+    "target_kind": "enemy"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:nature-spell-0407",
+  "slug": "nature-spell-0407",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f50adace198626f657d57ff9e5ea412be69a012301878923f40ec0ff17ae63df",
+  "spec": {
+    "display_name": "Nature Spell 0407",
+    "school": "nature",
+    "rarity": "common",
+    "spell_kind": "nature-spell-0407",
+    "target_kind": "ally"
+  }
+}

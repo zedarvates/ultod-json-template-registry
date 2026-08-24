@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:arcanum-crystal",
+  "slug": "arcanum-crystal",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:5dfc4eac9abfe6f1e012d5bcbc59b3b6a3261cc9d69918f6da0588e056b5e4e6",
+  "spec": {
+    "display_name": "Cristal d'Arcanum",
+    "category": "material",
+    "rarity": "uncommon",
+    "item_kind": "magic-crafting-material"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:ombres-spell-1236",
+  "slug": "ombres-spell-1236",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f627baab1f970c8973198c2f0650024c05b38ffe5c573e4fc8ee84a862713761",
+  "spec": {
+    "display_name": "Ombres Spell 1236",
+    "school": "ombres",
+    "rarity": "rare",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:conjuration-spell-1521",
+  "slug": "conjuration-spell-1521",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ca47c26b62632e546d3265b5588c3054f5fdbf2fa2777d54fae39d7d2c4ed184",
+  "spec": {
+    "display_name": "Conjuration Spell 1521",
+    "school": "conjuration",
+    "rarity": "uncommon",
+    "spell_kind": "area-damage",
+    "target_kind": "area"
+  }
+}

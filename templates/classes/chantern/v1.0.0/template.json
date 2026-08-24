@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:chantern",
+  "slug": "chantern",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:76b041a21924597c6d97e641ae6b9c1cf8d00c8aed7214f9c4cf3db955f2dda6",
+  "spec": {
+    "display_name": "Chanter",
+    "resource_kind": "harmonic"
+  }
+}

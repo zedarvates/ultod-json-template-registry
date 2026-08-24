@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:enchantment-spell-0433",
+  "slug": "enchantment-spell-0433",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:7464d7386f9f55a7bb72eccac68cc1eefd2468818c3b88ae17deecc3421f80a1",
+  "spec": {
+    "display_name": "Enchantment Spell 0433",
+    "school": "enchantment",
+    "rarity": "rare",
+    "spell_kind": "mind-control-domination",
+    "target_kind": "single-enemy"
+  }
+}

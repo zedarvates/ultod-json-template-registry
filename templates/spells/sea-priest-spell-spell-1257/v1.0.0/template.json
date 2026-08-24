@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:sea-priest-spell-spell-1257",
+  "slug": "sea-priest-spell-spell-1257",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:8a2d1bfe190b7ff94bff363a6b16885479e166ce4b3042543c7ac2296a8944dc",
+  "spec": {
+    "display_name": "Sea Priest Spell Spell 1257",
+    "school": "sea-sea-priest-spell-spell-1257-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

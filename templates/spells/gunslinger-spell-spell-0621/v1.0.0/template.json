@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:gunslinger-spell-spell-0621",
+  "slug": "gunslinger-spell-spell-0621",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:3a5e62c11b0cbdeab88d7ac4b6e16d6d0309898934be2d9b04ed27d7b6ca3763",
+  "spec": {
+    "display_name": "Gunslinger Spell Spell 0621",
+    "school": "gunslinger-spell-spell-0621-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

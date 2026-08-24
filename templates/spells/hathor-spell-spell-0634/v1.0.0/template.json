@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:hathor-spell-spell-0634",
+  "slug": "hathor-spell-spell-0634",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:57f96da0cedddc0ae0e2960931adf943646cd2fa3c0a14bfe2a56c40906a91c0",
+  "spec": {
+    "display_name": "Hathor Spell Spell 0634",
+    "school": "hathor-spell-spell-0634-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

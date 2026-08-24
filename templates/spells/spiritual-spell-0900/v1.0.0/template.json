@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:spiritual-spell-0900",
+  "slug": "spiritual-spell-0900",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:bf6a433cbb4f5b2b9e167770329ac6eaffa157eb90aff992bdc1876a4848fb7f",
+  "spec": {
+    "display_name": "Spiritual Spell 0900",
+    "school": "spiritual",
+    "rarity": "common",
+    "spell_kind": "spiritual-regeneration-buff",
+    "target_kind": "self-channeling"
+  }
+}

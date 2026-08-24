@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:chronomancy-spell-0231",
+  "slug": "chronomancy-spell-0231",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b6bfef0de1d133b72fe0616b15f445b6e0a8c9e107c2998a16faa4092c3678b7",
+  "spec": {
+    "display_name": "Chronomancy Spell 0231",
+    "school": "chronomancy",
+    "rarity": "uncommon",
+    "spell_kind": "temporal-teleport",
+    "target_kind": "self"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:nature-spell-0974",
+  "slug": "nature-spell-0974",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:28bd7727ec8fa6d5d0c43703677743f3c09302935f6cbc2c544db0aba9da5ac4",
+  "spec": {
+    "display_name": "Nature Spell 0974",
+    "school": "nature",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single-enemy"
+  }
+}

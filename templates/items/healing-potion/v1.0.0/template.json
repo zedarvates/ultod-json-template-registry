@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:healing-potion",
+  "slug": "healing-potion",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:6a47851428d19b976a0ebc51257555a0ba3cb04f58059f6fa9dd37cbddf5fc69",
+  "spec": {
+    "display_name": "Potion de Soin",
+    "category": "consumable",
+    "rarity": "common",
+    "item_kind": "potion",
+    "subtype": "health"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:holy-spell-1117",
+  "slug": "holy-spell-1117",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:5e8200b755f813e46aee055951ad78e6141bf2d637905b3d1e92226a4e0b9fce",
+  "spec": {
+    "display_name": "Holy Spell 1117",
+    "school": "holy",
+    "rarity": "epic",
+    "spell_kind": "healing",
+    "target_kind": "aoe-ally"
+  }
+}

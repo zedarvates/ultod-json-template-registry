@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:chi-spell-0881",
+  "slug": "chi-spell-0881",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:5a63f9fd434146a5a35c95cbb140855799b7f240fb97724db62e38e1578d08a5",
+  "spec": {
+    "display_name": "Chi Spell 0881",
+    "school": "chi",
+    "rarity": "uncommon",
+    "spell_kind": "chi-healing-damage-wave",
+    "target_kind": "target-or-direction-chi-spell-0881"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:survival-spell-0694",
+  "slug": "survival-spell-0694",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d2c834c9521a9d758917b956fed6231da318c1720c00649eeddb8854ae1d75ad",
+  "spec": {
+    "display_name": "Survival Spell 0694",
+    "school": "survival",
+    "rarity": "common",
+    "spell_kind": "beast-detection-survival-spell-0694ing",
+    "target_kind": "area-scan"
+  }
+}

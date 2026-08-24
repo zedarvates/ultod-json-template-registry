@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:doctor-spell-spell-0393",
+  "slug": "doctor-spell-spell-0393",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:81fdc38157321d92e29f4d3613f7e7d8adcadb524441d27b9aa12c797999ffd3",
+  "spec": {
+    "display_name": "Doctor Spell Spell 0393",
+    "school": "doctor-spell-spell-0393-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

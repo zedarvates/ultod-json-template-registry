@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:awareness-egg-raw",
+  "slug": "awareness-egg-raw",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:fccfaf3368451f5c92457fdf6a11d73aec281ea0bb0f78d4ab061e2d2b9be1d2",
+  "spec": {
+    "display_name": "Oeuf cru",
+    "category": "consumable",
+    "rarity": "common"
+  }
+}

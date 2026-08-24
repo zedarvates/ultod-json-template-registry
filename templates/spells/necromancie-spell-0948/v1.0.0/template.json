@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancie-spell-0948",
+  "slug": "necromancie-spell-0948",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:3929f9f4077d167b6d03cea0ef62a59d0b67d183d5ba9b5ef96fb6e809af09b4",
+  "spec": {
+    "display_name": "Necromancie Spell 0948",
+    "school": "necromancie",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:divine-spell-1045",
+  "slug": "divine-spell-1045",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e91142e9dd052a4cbab25dae3ed4c8a45feec50016643f5d821159980da9e96c",
+  "spec": {
+    "display_name": "Divine Spell 1045",
+    "school": "divine",
+    "rarity": "epic",
+    "spell_kind": "area-burst",
+    "target_kind": "area"
+  }
+}

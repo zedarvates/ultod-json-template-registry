@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:gamemaster-spell-spell-0592",
+  "slug": "gamemaster-spell-spell-0592",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e7dbec810746abf6a9d1376b15e6adbc773fbb932a341b04ea901d2071aa7eba",
+  "spec": {
+    "display_name": "Gamemaster Spell Spell 0592",
+    "school": "gamemaster-spell-spell-0592-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

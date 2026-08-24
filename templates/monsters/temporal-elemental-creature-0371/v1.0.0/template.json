@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "monsters:temporal-elemental-creature-0371",
+  "slug": "temporal-elemental-creature-0371",
+  "family": "monsters",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:fdfc93afc30343fc4702f63580996a04b6de30b3b4894824fee8d3f8ad2258de",
+  "spec": {
+    "display_name": "Temporal Elemental Creature 0371",
+    "category": "temporal-elemental",
+    "rarity": "epic"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:enchantment-spell-1537",
+  "slug": "enchantment-spell-1537",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:248deff2fb8e56b1918707b8aec8ae33d6e3338150f6b46d6f3e5d3ec7e19e1b",
+  "spec": {
+    "display_name": "Enchantment Spell 1537",
+    "school": "enchantment",
+    "rarity": "artifact",
+    "spell_kind": "instant-kill",
+    "target_kind": "single"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:enchantment-spell-0448",
+  "slug": "enchantment-spell-0448",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:8a080f59b2d59c63132fafe3a93a393275db7ee9e9e3a49b06b744eef61255ab",
+  "spec": {
+    "display_name": "Enchantment Spell 0448",
+    "school": "enchantment",
+    "rarity": "rare",
+    "spell_kind": "planar-servant-evocation",
+    "target_kind": "enchantment-spell-0448-at-location"
+  }
+}

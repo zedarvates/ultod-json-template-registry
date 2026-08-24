@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:chamanisme-spell-1283",
+  "slug": "chamanisme-spell-1283",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:9ff5fe79b0f5dc116c7663ea099709651f8a2d1dbd299e931af11c3bf3e1f0f6",
+  "spec": {
+    "display_name": "Chamanisme Spell 1283",
+    "school": "chamanisme",
+    "rarity": "common",
+    "spell_kind": "resurrection",
+    "target_kind": "single"
+  }
+}

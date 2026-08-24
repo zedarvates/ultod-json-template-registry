@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:warrior-potion",
+  "slug": "warrior-potion",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d309c97052620861d7a8a6b702be22e204f954c7176806835287c47efd663ede",
+  "spec": {
+    "display_name": "Warrior Potion",
+    "category": "consumable",
+    "rarity": "common",
+    "item_kind": "consumable",
+    "subtype": "generic"
+  }
+}

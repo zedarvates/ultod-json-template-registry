@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:evoker-spell-spell-0454",
+  "slug": "evoker-spell-spell-0454",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:968ff8d4c51c54950235b1e2847d2dfad583fb222c67c5cc761aac707878a85d",
+  "spec": {
+    "display_name": "Evoker Spell Spell 0454",
+    "school": "evoker-spell-spell-0454-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

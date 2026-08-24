@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancy-spell-0319",
+  "slug": "necromancy-spell-0319",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:1fbb45a292e641db23758468b789456d374a34024dac280317ed7411b0c87c2e",
+  "spec": {
+    "display_name": "Necromancy Spell 0319",
+    "school": "necromancy",
+    "rarity": "rare",
+    "spell_kind": "frost-defense",
+    "target_kind": "self"
+  }
+}

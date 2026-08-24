@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:solar-spell-1615",
+  "slug": "solar-spell-1615",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e74016b2b6a120d5676284e34955c3e731bbcc0ca177c74d4310c98625f08dd6",
+  "spec": {
+    "display_name": "Solar Spell 1615",
+    "school": "solar",
+    "rarity": "epic",
+    "spell_kind": "damage",
+    "target_kind": "single-enemy"
+  }
+}

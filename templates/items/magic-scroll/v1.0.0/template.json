@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:magic-scroll",
+  "slug": "magic-scroll",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e9c048d7e78786405ff6b2131b4f498d5bd0b3cdb1ec4d45da4ed153f9a67964",
+  "spec": {
+    "display_name": "Magic Scroll",
+    "category": "quest-item",
+    "rarity": "common",
+    "item_kind": "quest-item",
+    "subtype": "generic"
+  }
+}

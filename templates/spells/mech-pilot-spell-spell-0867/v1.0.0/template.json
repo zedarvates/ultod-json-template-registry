@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:mech-pilot-spell-spell-0867",
+  "slug": "mech-pilot-spell-spell-0867",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:17958b100fbc0200d7411fd22616c0130512653175ff2d398fcfab38530430cf",
+  "spec": {
+    "display_name": "Mech Pilot Spell Spell 0867",
+    "school": "mech-pilot-spell-spell-0867-pilot-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

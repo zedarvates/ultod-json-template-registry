@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:songweaver",
+  "slug": "songweaver",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:04cfd814fb04da1d0f16cae6cce528de7f7b42977bd818c8403bb094226f95af",
+  "spec": {
+    "display_name": "Tisse-Chants",
+    "resource_kind": "harmonic"
+  }
+}

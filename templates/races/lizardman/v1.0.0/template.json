@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/races/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "races:lizardman",
+  "slug": "lizardman",
+  "family": "races",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:4c5bf82860d601ecb866d6ec22d25b2f0066920b2191a1587b725800b38654fb",
+  "spec": {
+    "display_name": "Lizardman",
+    "category": "playable",
+    "rarity": "uncommon",
+    "faction_tag": "neutral"
+  }
+}

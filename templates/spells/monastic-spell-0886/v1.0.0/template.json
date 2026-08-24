@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:monastic-spell-0886",
+  "slug": "monastic-spell-0886",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:fb714aaf081db98ddccaa3c99827af0a466e156a46de2d3aec0fa39e8454c822",
+  "spec": {
+    "display_name": "Monastic Spell 0886",
+    "school": "monastic",
+    "rarity": "uncommon",
+    "spell_kind": "extra-attack",
+    "target_kind": "enemy"
+  }
+}

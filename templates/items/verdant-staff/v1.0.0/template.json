@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:verdant-staff",
+  "slug": "verdant-staff",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:cf7e2aca4df840cb1d5d7e81a188d1f302e535f9a0d73fbd1e5eac1cc2b5d3be",
+  "spec": {
+    "display_name": "Verdant Staff",
+    "category": "weapon",
+    "rarity": "rare",
+    "item_kind": "weapon",
+    "subtype": "staff"
+  }
+}

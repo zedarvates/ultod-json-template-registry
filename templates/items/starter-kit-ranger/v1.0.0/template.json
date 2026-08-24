@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:starter-kit-ranger",
+  "slug": "starter-kit-ranger",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d7293ceb88762aad68dbedb0a6f45d56fec1b28c125571986fee709fb1adc478",
+  "spec": {
+    "display_name": "Kit de Depart Rodeur",
+    "category": "container",
+    "rarity": "common",
+    "item_kind": "kit",
+    "subtype": "starter-kit"
+  }
+}

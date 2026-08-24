@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:conjuration-spell-0285",
+  "slug": "conjuration-spell-0285",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:3b4f5d25c4f0b83812ace28149ce0aa49abeb52ea4b1042a78172592c37ef36c",
+  "spec": {
+    "display_name": "Conjuration Spell 0285",
+    "school": "conjuration",
+    "rarity": "rare",
+    "spell_kind": "angelic-summon",
+    "target_kind": "single-ally"
+  }
+}

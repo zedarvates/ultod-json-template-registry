@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:fighter",
+  "slug": "fighter",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ba2e3c96c18cf1401cd5aaf6d3bd381682cfe391e1c9a858ec45102552cdff02",
+  "spec": {
+    "display_name": "Guerrier",
+    "resource_kind": "stamina"
+  }
+}

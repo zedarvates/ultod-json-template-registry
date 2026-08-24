@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:kraken-spell-spell-0739",
+  "slug": "kraken-spell-spell-0739",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:fe880286227c67d4220d717d81d5e0890629b6e234116f4dc4499cbaf91de2b1",
+  "spec": {
+    "display_name": "Kraken Spell Spell 0739",
+    "school": "kraken-spell-spell-0739-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

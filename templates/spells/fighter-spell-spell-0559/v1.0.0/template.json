@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:fighter-spell-spell-0559",
+  "slug": "fighter-spell-spell-0559",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d148c4519f243188af5c09c3b63cfc36326dd9b22ca08f0bd43904fcd1b916e7",
+  "spec": {
+    "display_name": "Fighter Spell Spell 0559",
+    "school": "fighter-spell-spell-0559-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:administration-spell-0030",
+  "slug": "administration-spell-0030",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:9cb870a82d0ae71f5ef264d7149952c1e303785b7e755c92bf57dc62efd3a916",
+  "spec": {
+    "display_name": "Administration Spell 0030",
+    "school": "administration-spell-0030istration",
+    "rarity": "epic",
+    "spell_kind": "player-management",
+    "target_kind": "location-target"
+  }
+}

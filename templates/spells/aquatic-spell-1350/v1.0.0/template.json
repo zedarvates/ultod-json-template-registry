@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:aquatic-spell-1350",
+  "slug": "aquatic-spell-1350",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:11533dd4ca4fca1c09d20775e3c27ab2fdcccc1d33ea1ca3ba519cf9a457fd84",
+  "spec": {
+    "display_name": "Aquatic Spell 1350",
+    "school": "aquatic",
+    "rarity": "rare",
+    "spell_kind": "damage",
+    "target_kind": "area-enemy"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:marksmanship-spell-0695",
+  "slug": "marksmanship-spell-0695",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:60f44f8c3fcc8e394d4c3a86591fe6ea19e77061fb21863f915ec41489ed5974",
+  "spec": {
+    "display_name": "Marksmanship Spell 0695",
+    "school": "marksmanship",
+    "rarity": "uncommon",
+    "spell_kind": "sleep-inducing-shot",
+    "target_kind": "single-enemy"
+  }
+}

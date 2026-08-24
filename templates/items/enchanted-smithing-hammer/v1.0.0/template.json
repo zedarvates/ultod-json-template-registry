@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:enchanted-smithing-hammer",
+  "slug": "enchanted-smithing-hammer",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e266fd3f7a5e4aa9ffe61d567de8ee323467740fabfcc17969760df551e53f98",
+  "spec": {
+    "display_name": "Enchanted Smithing Hammer",
+    "category": "tool",
+    "rarity": "common",
+    "item_kind": "tool",
+    "subtype": "generic"
+  }
+}

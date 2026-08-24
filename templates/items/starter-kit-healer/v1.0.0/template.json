@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:starter-kit-healer",
+  "slug": "starter-kit-healer",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0b4fa1178581271aac63d3b2ae4e250c12823412f994bc36072b3ec949546e53",
+  "spec": {
+    "display_name": "Kit de Depart Pretre/Healer",
+    "category": "container",
+    "rarity": "common",
+    "item_kind": "kit",
+    "subtype": "starter-kit"
+  }
+}

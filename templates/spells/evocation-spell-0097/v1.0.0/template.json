@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:evocation-spell-0097",
+  "slug": "evocation-spell-0097",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:82c8327ac55f0bae94e901913d2c3bf475c2a7a0965e97b7ea6417001bf66a0e",
+  "spec": {
+    "display_name": "Evocation Spell 0097",
+    "school": "evocation",
+    "rarity": "epic",
+    "spell_kind": "bass-earthquake",
+    "target_kind": "area-enemy"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:solar-spell-1150",
+  "slug": "solar-spell-1150",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:031f00df88372ab45aa0d34e29958ace4a1188f0bcc1c4df9f7f0ec363c85259",
+  "spec": {
+    "display_name": "Solar Spell 1150",
+    "school": "solar-spell-1150",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single-enemy"
+  }
+}

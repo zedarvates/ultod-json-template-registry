@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:dragon",
+  "slug": "dragon",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:1b20fcb79948e93c27aa12a66c2155da2abee885969b3f12e5db51d2c80fd333",
+  "spec": {
+    "display_name": "Dragon",
+    "resource_kind": "mana"
+  }
+}

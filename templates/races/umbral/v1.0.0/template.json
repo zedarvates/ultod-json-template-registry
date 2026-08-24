@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/races/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "races:umbral",
+  "slug": "umbral",
+  "family": "races",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:1cb0d3e8b62e970f5e92a0d2e694509a6f565a478978cca257aec533f2462676",
+  "spec": {
+    "display_name": "Umbral",
+    "category": "undead",
+    "rarity": "rare",
+    "faction_tag": "shadow"
+  }
+}

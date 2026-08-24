@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "monsters:undead-creature-0414",
+  "slug": "undead-creature-0414",
+  "family": "monsters",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:24b7f39155474e0d5b209b4c476f47d3399d0d5ff46f660b70747bac80b59a34",
+  "spec": {
+    "display_name": "Undead Creature 0414",
+    "category": "undead",
+    "rarity": "legendary"
+  }
+}

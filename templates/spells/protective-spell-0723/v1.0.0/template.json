@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:protective-spell-0723",
+  "slug": "protective-spell-0723",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d4b39ee0275d9193c9c7a4d623f6748d515ddda7c40a12221e2444474e0e8d22",
+  "spec": {
+    "display_name": "Protective Spell 0723",
+    "school": "protective-spell-0723",
+    "rarity": "common",
+    "spell_kind": "buff",
+    "target_kind": "single-ally"
+  }
+}

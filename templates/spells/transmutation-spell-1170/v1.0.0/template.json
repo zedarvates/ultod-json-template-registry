@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:transmutation-spell-1170",
+  "slug": "transmutation-spell-1170",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ddb058ece4e06def4d3861af0fc75a948ecad5538b2e0c124effd61dc98b09a7",
+  "spec": {
+    "display_name": "Transmutation Spell 1170",
+    "school": "transmutation",
+    "rarity": "uncommon",
+    "spell_kind": "buff",
+    "target_kind": "self"
+  }
+}

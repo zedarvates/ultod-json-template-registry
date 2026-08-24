@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:ironwood-buckler",
+  "slug": "ironwood-buckler",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:52743a39196aa84f5c457bc7aabe93d5c8f68ddb4f64ebecaac6db0be5cc38d2",
+  "spec": {
+    "display_name": "Ironwood Buckler",
+    "category": "armor",
+    "rarity": "common",
+    "item_kind": "armor",
+    "subtype": "shield"
+  }
+}

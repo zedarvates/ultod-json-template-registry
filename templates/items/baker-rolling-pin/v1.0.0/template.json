@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:baker-rolling-pin",
+  "slug": "baker-rolling-pin",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:912a51898881cebf8d81eea4766168fbf541a5b616f88719c2ea43a4bbf57b95",
+  "spec": {
+    "display_name": "Baker Rolling Pin",
+    "category": "tool",
+    "rarity": "common",
+    "item_kind": "tool",
+    "subtype": "generic"
+  }
+}

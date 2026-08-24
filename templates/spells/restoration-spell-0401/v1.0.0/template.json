@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:restoration-spell-0401",
+  "slug": "restoration-spell-0401",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:6dcfb2305846db30bfcf4bde90288678e7e30534c7440365cbd9540eb336490e",
+  "spec": {
+    "display_name": "Restoration Spell 0401",
+    "school": "restoration",
+    "rarity": "common",
+    "spell_kind": "protection-buff",
+    "target_kind": "single-ally"
+  }
+}

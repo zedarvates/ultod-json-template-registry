@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:arcane-spell-0771",
+  "slug": "arcane-spell-0771",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ab9c79330663d8df28b8c36fcd18e0ea13baf04e59e00f1637dae54ceb5c0b2d",
+  "spec": {
+    "display_name": "Arcane Spell 0771",
+    "school": "arcane-spell-0771",
+    "rarity": "legendary",
+    "spell_kind": "intellect-amplification-buff",
+    "target_kind": "self-buff"
+  }
+}

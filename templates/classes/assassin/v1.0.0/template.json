@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:assassin",
+  "slug": "assassin",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:cd645f6c0d86f95f8cf4426723d1e04a1777a1f3daf3615335ceab2af0679ef6",
+  "spec": {
+    "display_name": "Assassin",
+    "resource_kind": "energy"
+  }
+}

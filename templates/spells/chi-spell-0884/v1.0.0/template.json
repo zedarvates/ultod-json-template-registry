@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:chi-spell-0884",
+  "slug": "chi-spell-0884",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a6ebf6ea2de704b9970f1ada3b1db96bf380f3db4417cd369acf5ef8271dff2e",
+  "spec": {
+    "display_name": "Chi Spell 0884",
+    "school": "chi",
+    "rarity": "uncommon",
+    "spell_kind": "spell-dispersion-defense",
+    "target_kind": "self-spell-shield"
+  }
+}

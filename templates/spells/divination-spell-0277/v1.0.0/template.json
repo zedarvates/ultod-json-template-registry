@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:divination-spell-0277",
+  "slug": "divination-spell-0277",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:fc124c9e7ebb1591f418f34aa88a545ff6c6c9d47a03bfe5be33074823b03f50",
+  "spec": {
+    "display_name": "Divination Spell 0277",
+    "school": "divination",
+    "rarity": "common",
+    "spell_kind": "divine-sensing",
+    "target_kind": "area-scan"
+  }
+}

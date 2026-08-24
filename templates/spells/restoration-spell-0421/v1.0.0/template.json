@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:restoration-spell-0421",
+  "slug": "restoration-spell-0421",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:36e6801d7d92dbd5852c336ee5d2727efb5f7090bee819f7a3ab8a68e8fa2062",
+  "spec": {
+    "display_name": "Restoration Spell 0421",
+    "school": "restoration",
+    "rarity": "rare",
+    "spell_kind": "multi-target-healing",
+    "target_kind": "area-allies"
+  }
+}

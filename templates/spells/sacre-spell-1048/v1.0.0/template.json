@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:sacre-spell-1048",
+  "slug": "sacre-spell-1048",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b5e638e7e833b01114d6c9dd4f9be73b6ef8aecb80680b885e0f6520d3ab5cb7",
+  "spec": {
+    "display_name": "Sacre Spell 1048",
+    "school": "sacr",
+    "rarity": "uncommon",
+    "spell_kind": "buff",
+    "target_kind": "ally"
+  }
+}

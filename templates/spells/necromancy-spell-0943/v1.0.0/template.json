@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancy-spell-0943",
+  "slug": "necromancy-spell-0943",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:8c712e7b85123e749d89532c2aeacb16bd543264b20b7f3212c70352e2c5e04a",
+  "spec": {
+    "display_name": "Necromancy Spell 0943",
+    "school": "necromancy",
+    "rarity": "epic",
+    "spell_kind": "osseous-construct-summon",
+    "target_kind": "summon-at-location"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:divine-spell-0044",
+  "slug": "divine-spell-0044",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:6c9bc9a6f7c0a3845946534a784357e195d9e10c20965bfbda64367146906c8c",
+  "spec": {
+    "display_name": "Divine Spell 0044",
+    "school": "divine-spell-0044",
+    "rarity": "rare",
+    "spell_kind": "healing",
+    "target_kind": "area-ally"
+  }
+}

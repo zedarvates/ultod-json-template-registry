@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:classless-warrior-spell-spell-0255",
+  "slug": "classless-warrior-spell-spell-0255",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:fe0f29a7cad6d5e8fb9c60d3ed4777cc728d73fe8012008b74944d213da550b9",
+  "spec": {
+    "display_name": "Classless Warrior Spell Spell 0255",
+    "school": "classless-warrior-spell-spell-0255-warrior-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

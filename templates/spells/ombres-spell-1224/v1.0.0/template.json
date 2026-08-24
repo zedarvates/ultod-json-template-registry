@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:ombres-spell-1224",
+  "slug": "ombres-spell-1224",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0d378194b6fecd062a419b125fe72499d815b2ef8db1ac2fe2f1074ddb348d75",
+  "spec": {
+    "display_name": "Ombres Spell 1224",
+    "school": "ombres",
+    "rarity": "legendary",
+    "spell_kind": "buff",
+    "target_kind": "self"
+  }
+}

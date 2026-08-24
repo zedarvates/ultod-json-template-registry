@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:corruption-spell-1053",
+  "slug": "corruption-spell-1053",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f00024e6e53d533b00c6992e730252af324acd27c4de0a46c319db8ee48dbeec",
+  "spec": {
+    "display_name": "Corruption Spell 1053",
+    "school": "corruption",
+    "rarity": "uncommon",
+    "spell_kind": "buff-spell",
+    "target_kind": "self"
+  }
+}

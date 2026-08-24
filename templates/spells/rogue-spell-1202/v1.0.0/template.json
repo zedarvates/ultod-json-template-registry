@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:rogue-spell-1202",
+  "slug": "rogue-spell-1202",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:fd076167c3ab73b9407aefd11a38f479ed5ba22f5748bdfc873e504b32374f9b",
+  "spec": {
+    "display_name": "Rogue Spell 1202",
+    "school": "rogue",
+    "rarity": "uncommon",
+    "spell_kind": "aoe-attack",
+    "target_kind": "area"
+  }
+}

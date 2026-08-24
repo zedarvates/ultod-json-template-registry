@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:vandal-spell-spell-1518",
+  "slug": "vandal-spell-spell-1518",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:4a5a4eb01c6e81a5028c7f014594a070169d2e0ca9d4f3539a12d8481a94efc0",
+  "spec": {
+    "display_name": "Vandal Spell Spell 1518",
+    "school": "vandal-spell-spell-1518-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:temporal-acceleration-scroll",
+  "slug": "temporal-acceleration-scroll",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d666afce058b89c5f153f036e37c1e20bf7e6026415b019d262de93bfe783e23",
+  "spec": {
+    "display_name": "Parchemin d'Accélération Temporelle",
+    "category": "consumable",
+    "rarity": "rare",
+    "item_kind": "utility-scroll"
+  }
+}

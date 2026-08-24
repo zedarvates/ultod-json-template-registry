@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:luminess-spell-spell-0750",
+  "slug": "luminess-spell-spell-0750",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ea6f72e12029fea7026cb0250c25c20266369269b346c17bb1ee6b231594c154",
+  "spec": {
+    "display_name": "Luminess Spell Spell 0750",
+    "school": "luminess-spell-spell-0750-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

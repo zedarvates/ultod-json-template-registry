@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:spiritmaster",
+  "slug": "spiritmaster",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:5ebd7f33726ddd702db9015a7fd7864a5394649f86884dc4ef408aae464b7f70",
+  "spec": {
+    "display_name": "Spiritualiste",
+    "resource_kind": "spirit"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:abjuration-spell-1392",
+  "slug": "abjuration-spell-1392",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0862105890eb94f749fac5c483b00c621ffd38b4b9a0353a0ae737d8cbb8ea86",
+  "spec": {
+    "display_name": "Abjuration Spell 1392",
+    "school": "abjuration",
+    "rarity": "common",
+    "spell_kind": "defense",
+    "target_kind": "self"
+  }
+}

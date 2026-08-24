@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/races/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "races:high-elf",
+  "slug": "high-elf",
+  "family": "races",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e87743127ae2d42413e758e565cde49f35d6a4832091363b67df43409c69cf7b",
+  "spec": {
+    "display_name": "High Elf",
+    "category": "playable",
+    "rarity": "rare",
+    "faction_tag": "alliance"
+  }
+}

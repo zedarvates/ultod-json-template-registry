@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:weapon-master-spell-spell-1587",
+  "slug": "weapon-master-spell-spell-1587",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:2d9af4edeabd6d9250b381dd79e93b29a83f51f3194aadb3ff1f9e3ae082773e",
+  "spec": {
+    "display_name": "Weapon Master Spell Spell 1587",
+    "school": "weapon-master-spell-spell-1587-master-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

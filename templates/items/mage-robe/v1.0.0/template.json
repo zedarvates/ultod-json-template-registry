@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:mage-robe",
+  "slug": "mage-robe",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:629be2b3e7759e1fb59604ea57f1ca724ed4d34585e62fb9b99989583837a185",
+  "spec": {
+    "display_name": "Robe de Mage",
+    "category": "armor",
+    "rarity": "common",
+    "item_kind": "armor",
+    "subtype": "chest"
+  }
+}

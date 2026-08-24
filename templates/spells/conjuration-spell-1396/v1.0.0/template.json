@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:conjuration-spell-1396",
+  "slug": "conjuration-spell-1396",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:1d823d91688c2ee64f4bf5029083415b2cb670a70149518a277edc35faef0b53",
+  "spec": {
+    "display_name": "Conjuration Spell 1396",
+    "school": "conjuration",
+    "rarity": "artifact",
+    "spell_kind": "special",
+    "target_kind": "self"
+  }
+}

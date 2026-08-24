@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:iron-armor",
+  "slug": "iron-armor",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:69d01c7454a91c0895bd225cc6f35b4e9583bf7cd09c48a4eabb72c303f34200",
+  "spec": {
+    "display_name": "Armure de Fer",
+    "category": "armor",
+    "rarity": "uncommon",
+    "item_kind": "armor",
+    "subtype": "chest"
+  }
+}

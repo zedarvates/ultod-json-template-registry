@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:ember-blade",
+  "slug": "ember-blade",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:09750db286939e38e41abb566968f0d89a8eb1d050a9bd51b5b19663a4278386",
+  "spec": {
+    "display_name": "Ember Blade",
+    "category": "weapon",
+    "rarity": "uncommon",
+    "item_kind": "weapon",
+    "subtype": "sword"
+  }
+}

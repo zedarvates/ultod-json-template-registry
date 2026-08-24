@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:creation-spell-1127",
+  "slug": "creation-spell-1127",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d5205604c14f7fdafca39d37c0eb2f78a8014f70f8e48ca1c535b99497c5f032",
+  "spec": {
+    "display_name": "Creation Spell 1127",
+    "school": "creation",
+    "rarity": "rare",
+    "spell_kind": "utility",
+    "target_kind": "ground"
+  }
+}

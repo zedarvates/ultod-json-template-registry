@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/races/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "races:vampire-malkavian",
+  "slug": "vampire-malkavian",
+  "family": "races",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:688c93042ed3e50646c33a8b75792a0dd8d92535733349818f7ca57888ae8166",
+  "spec": {
+    "display_name": "Malkavian Vampire",
+    "category": "playable",
+    "rarity": "legendary",
+    "faction_tag": "neutral"
+  }
+}

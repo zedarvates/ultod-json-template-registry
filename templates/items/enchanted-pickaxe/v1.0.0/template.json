@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:enchanted-pickaxe",
+  "slug": "enchanted-pickaxe",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:bc6b4a9395e07f3b210eff585063559f627ff64a72582ad8fee6e57acddd33bd",
+  "spec": {
+    "display_name": "Enchanted Pickaxe",
+    "category": "tool",
+    "rarity": "common",
+    "item_kind": "tool",
+    "subtype": "generic"
+  }
+}

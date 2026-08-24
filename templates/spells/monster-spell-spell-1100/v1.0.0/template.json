@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:monster-spell-spell-1100",
+  "slug": "monster-spell-spell-1100",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a2d494d5d8753f9987127113a207620952ed76e228d0b73cfd7dbe935ee85cf9",
+  "spec": {
+    "display_name": "Monster Spell Spell 1100",
+    "school": "monster-spell",
+    "rarity": "common",
+    "spell_kind": "healing",
+    "target_kind": "single"
+  }
+}

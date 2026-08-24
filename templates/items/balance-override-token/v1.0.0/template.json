@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:balance-override-token",
+  "slug": "balance-override-token",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:45548b8a3867bdaea240691168ac1a586c2d960cb8ad0c2a864d14d8274aee7d",
+  "spec": {
+    "display_name": "Jeton de Contournement d'Équilibre",
+    "category": "consumable",
+    "rarity": "legendary",
+    "item_kind": "balance-override-token"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:spiritualism-spell-1397",
+  "slug": "spiritualism-spell-1397",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:428c51fb0e6a59c66a93319d940760ddfb90e4de4ae3dec4c6f931093a5c9b82",
+  "spec": {
+    "display_name": "Spiritualism Spell 1397",
+    "school": "spiritualism",
+    "rarity": "common",
+    "spell_kind": "healing",
+    "target_kind": "ally"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:enchantment-spell-0430",
+  "slug": "enchantment-spell-0430",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0cf0c271c322fcf3433d022c5aedec7db5dca2fb5ae8d284460d2d70863c957a",
+  "spec": {
+    "display_name": "Enchantment Spell 0430",
+    "school": "enchantment",
+    "rarity": "common",
+    "spell_kind": "homing-enchantment-spell-0430-projectiles",
+    "target_kind": "single-enemy"
+  }
+}

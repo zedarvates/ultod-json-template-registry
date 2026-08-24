@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:cosmetic-frost-mount-token",
+  "slug": "cosmetic-frost-mount-token",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a171ddc050d321ac02affa51e75077d1092ddb5016a39aacecf6955bc2d3221a",
+  "spec": {
+    "display_name": "Jeton Monture Dragon de Givre",
+    "category": "cosmetic",
+    "rarity": "epic",
+    "item_kind": "cosmetic",
+    "subtype": "mount"
+  }
+}

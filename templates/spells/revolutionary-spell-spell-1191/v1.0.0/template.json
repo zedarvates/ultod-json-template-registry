@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:revolutionary-spell-spell-1191",
+  "slug": "revolutionary-spell-spell-1191",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:304b1f5119062342ac794c896ec3cf1fb2fd6c046779061f60b5693dec28a9b4",
+  "spec": {
+    "display_name": "Revolutionary Spell Spell 1191",
+    "school": "revolutionary-spell-spell-1191-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

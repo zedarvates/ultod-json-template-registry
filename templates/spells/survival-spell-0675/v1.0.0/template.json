@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:survival-spell-0675",
+  "slug": "survival-spell-0675",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c89e8630a84e7de8b64db56e572fe7aaf07b3905ae4ceb6b625dbec5e8664487",
+  "spec": {
+    "display_name": "Survival Spell 0675",
+    "school": "survival",
+    "rarity": "uncommon",
+    "spell_kind": "focus-acceleration-buff",
+    "target_kind": "self"
+  }
+}

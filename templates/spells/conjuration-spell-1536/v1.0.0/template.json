@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:conjuration-spell-1536",
+  "slug": "conjuration-spell-1536",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ce02c412228b684f07aac743cec6100de72e8f144bc2d7265cad42b4c0f7829c",
+  "spec": {
+    "display_name": "Conjuration Spell 1536",
+    "school": "conjuration",
+    "rarity": "uncommon",
+    "spell_kind": "movement",
+    "target_kind": "self"
+  }
+}

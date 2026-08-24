@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:divine-commander-spell-spell-0368",
+  "slug": "divine-commander-spell-spell-0368",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:1e16d06eaf78d372a47c0575a89de54d1a22a8d7b62762da2147e30384d44ed7",
+  "spec": {
+    "display_name": "Divine Commander Spell Spell 0368",
+    "school": "divine-commander-spell-spell-0368-commander-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

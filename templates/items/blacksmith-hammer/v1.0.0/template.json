@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:blacksmith-hammer",
+  "slug": "blacksmith-hammer",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f7575d4c96b5416d57c9fff4d0a414893fd95ec799000d150873f8fe77e1d6eb",
+  "spec": {
+    "display_name": "Blacksmith Hammer",
+    "category": "tool",
+    "rarity": "common",
+    "item_kind": "tool",
+    "subtype": "generic"
+  }
+}

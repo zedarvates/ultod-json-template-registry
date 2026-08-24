@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:administrator-spell-spell-0021",
+  "slug": "administrator-spell-spell-0021",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:da11cb41fffad6add1ea3ff5d05dd21843cfc644e3f47262f83e782e6f88226d",
+  "spec": {
+    "display_name": "Administrator Spell Spell 0021",
+    "school": "administrator-spell-spell-0021-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

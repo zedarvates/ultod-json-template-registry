@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/races/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "races:gnome",
+  "slug": "gnome",
+  "family": "races",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:03385cddee370de93586b01855caa232bb1cb169e8b0e19594d406c204b838b4",
+  "spec": {
+    "display_name": "Gnome",
+    "category": "playable",
+    "rarity": "rare",
+    "faction_tag": "alliance"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:classless-warrior",
+  "slug": "classless-warrior",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:4fe277d5c7b10fdbf6f8590c52be14d06f4a7b1713f4c27fb0030fec36a66163",
+  "spec": {
+    "display_name": "Guerrier sans Classe",
+    "resource_kind": "stamina"
+  }
+}

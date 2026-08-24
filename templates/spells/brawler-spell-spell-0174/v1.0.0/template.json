@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:brawler-spell-spell-0174",
+  "slug": "brawler-spell-spell-0174",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b7c6845a7ab7577f8eff6cf4fc301a9e07d22e678aa945ab8d9b44307d0a345f",
+  "spec": {
+    "display_name": "Brawler Spell Spell 0174",
+    "school": "brawler-spell-spell-0174-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

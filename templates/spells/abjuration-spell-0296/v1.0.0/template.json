@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:abjuration-spell-0296",
+  "slug": "abjuration-spell-0296",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:2bd9b0937cbf6e812de12419ce5f28a730e8eb46a10b748ce737a3a72b08e76a",
+  "spec": {
+    "display_name": "Abjuration Spell 0296",
+    "school": "abjuration",
+    "rarity": "rare",
+    "spell_kind": "divine-warding",
+    "target_kind": "area-effect"
+  }
+}

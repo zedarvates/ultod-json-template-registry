@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:illusion-spell-0716",
+  "slug": "illusion-spell-0716",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f51cba01f572c8cdf00de2743831d71d2dc1fb11fea9aec6b63f19352be377c9",
+  "spec": {
+    "display_name": "Illusion Spell 0716",
+    "school": "illusion",
+    "rarity": "legendary",
+    "spell_kind": "lasting-environmental-illusion",
+    "target_kind": "place-at-location-anchor"
+  }
+}

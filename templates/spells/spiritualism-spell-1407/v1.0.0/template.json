@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:spiritualism-spell-1407",
+  "slug": "spiritualism-spell-1407",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:5eb1c18eb07ed8ab326f78f9b4d5ddf8568f9ca7b463d872c41c2244e46d043f",
+  "spec": {
+    "display_name": "Spiritualism Spell 1407",
+    "school": "spiritualism-spell-1407ualism",
+    "rarity": "uncommon",
+    "spell_kind": "damage",
+    "target_kind": "area"
+  }
+}

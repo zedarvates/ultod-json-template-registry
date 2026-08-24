@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:arcane-spell-0783",
+  "slug": "arcane-spell-0783",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0df910c7fe19ee64f88a5ab8dbe922e61b471c6f6dfedfaa4b686bf3fa444aa1",
+  "spec": {
+    "display_name": "Arcane Spell 0783",
+    "school": "arcane",
+    "rarity": "rare",
+    "spell_kind": "defensive",
+    "target_kind": "self"
+  }
+}

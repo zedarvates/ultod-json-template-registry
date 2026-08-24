@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:enchantment-spell-0438",
+  "slug": "enchantment-spell-0438",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:42545613af4d00c5e14b55f2c1a0916447470ff614a83e97ec370baa51178539",
+  "spec": {
+    "display_name": "Enchantment Spell 0438",
+    "school": "enchantment",
+    "rarity": "epic",
+    "spell_kind": "collective-protection-ward",
+    "target_kind": "area-around-allies"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:master-of-cards-spell-spell-0820",
+  "slug": "master-of-cards-spell-spell-0820",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a3ab0d6e044e27b78d253a3103cfbfc92b5dbad3e3f7150f0bce270944459755",
+  "spec": {
+    "display_name": "Master Of Cards Spell Spell 0820",
+    "school": "master-of-cards-spell-spell-0820-of-cards-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

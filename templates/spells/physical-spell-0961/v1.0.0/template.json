@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:physical-spell-0961",
+  "slug": "physical-spell-0961",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:2d498bb4cee730e2dbd46cfc884a18af5da56b7f29e760da2152a72b3a02bd00",
+  "spec": {
+    "display_name": "Physical Spell 0961",
+    "school": "physical",
+    "rarity": "epic",
+    "spell_kind": "damage",
+    "target_kind": "area-enemies"
+  }
+}

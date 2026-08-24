@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:starter-kit-mage",
+  "slug": "starter-kit-mage",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:bb6ece804e4d560986734df46e3233b9f349e5bf08323116e2241d8d1a1952b5",
+  "spec": {
+    "display_name": "Kit de Depart Mage",
+    "category": "container",
+    "rarity": "uncommon",
+    "item_kind": "kit",
+    "subtype": "starter-kit"
+  }
+}

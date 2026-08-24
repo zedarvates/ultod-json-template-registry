@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:transmutation-spell-1166",
+  "slug": "transmutation-spell-1166",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:883a1a9b44b421bd0b0196e5a5f3a8e8d0e0640474b19a26d79ccb7b3be8a9de",
+  "spec": {
+    "display_name": "Transmutation Spell 1166",
+    "school": "transmutation",
+    "rarity": "uncommon",
+    "spell_kind": "area-damage",
+    "target_kind": "area-ground"
+  }
+}

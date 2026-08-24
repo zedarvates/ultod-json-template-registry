@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:illusion-spell-0091",
+  "slug": "illusion-spell-0091",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:1ac2d9c6cfabe5ba2ef5a0856c47b8805af919b6005e0d1603f9828a6ea16b1b",
+  "spec": {
+    "display_name": "Illusion Spell 0091",
+    "school": "illusion",
+    "rarity": "rare",
+    "spell_kind": "illusion-performance",
+    "target_kind": "caster-area"
+  }
+}

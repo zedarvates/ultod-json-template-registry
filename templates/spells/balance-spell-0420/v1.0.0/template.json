@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:balance-spell-0420",
+  "slug": "balance-spell-0420",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:1a29d51bf8fbff2045b4482c21637a79b591662a5e9f7275606293bef3a4c5bf",
+  "spec": {
+    "display_name": "Balance Spell 0420",
+    "school": "balance",
+    "rarity": "rare",
+    "spell_kind": "wind-control",
+    "target_kind": "cone-effect"
+  }
+}

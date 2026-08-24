@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "monsters:fey-creature-0222",
+  "slug": "fey-creature-0222",
+  "family": "monsters",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:dbc125036f968f5523431bb1618ae6e56166124d2216c33e19a1ade1b4610637",
+  "spec": {
+    "display_name": "Fey Creature 0222",
+    "category": "fey",
+    "rarity": "legendary"
+  }
+}

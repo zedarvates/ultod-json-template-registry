@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:shadow-spell-0977",
+  "slug": "shadow-spell-0977",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f308b73f19d58aa17e0bdec54eaa446daf616ac83624ccf350c02b82d38d0683",
+  "spec": {
+    "display_name": "Shadow Spell 0977",
+    "school": "shadow-spell-0977",
+    "rarity": "uncommon",
+    "spell_kind": "utility",
+    "target_kind": "single-enemy"
+  }
+}

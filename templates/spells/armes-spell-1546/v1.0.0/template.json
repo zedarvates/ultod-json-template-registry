@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:armes-spell-1546",
+  "slug": "armes-spell-1546",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b93668312e47d379ae40ec3c6b0c1c8f1f80324cbaa4c1a82ec337d8dcd579e0",
+  "spec": {
+    "display_name": "Armes Spell 1546",
+    "school": "armes",
+    "rarity": "common",
+    "spell_kind": "debuff",
+    "target_kind": "area"
+  }
+}

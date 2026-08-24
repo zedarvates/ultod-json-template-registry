@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "monsters:temporal-humanoid-creature-0368",
+  "slug": "temporal-humanoid-creature-0368",
+  "family": "monsters",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d63f160f36a7bc59c8936948e4ab1968c9e1d43a7f4ae1344ab30fd4a46258c1",
+  "spec": {
+    "display_name": "Temporal Humanoid Creature 0368",
+    "category": "temporal-humanoid",
+    "rarity": "epic"
+  }
+}

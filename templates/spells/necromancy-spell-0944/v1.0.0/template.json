@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancy-spell-0944",
+  "slug": "necromancy-spell-0944",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:731a4c0bb4b8ea0c1872b9a7ffbbcafc4ac1237803ce2c2212d86bdb8f1bd57a",
+  "spec": {
+    "display_name": "Necromancy Spell 0944",
+    "school": "necromancy",
+    "rarity": "uncommon",
+    "spell_kind": "osseous-ground-attack",
+    "target_kind": "ground-spike-area"
+  }
+}

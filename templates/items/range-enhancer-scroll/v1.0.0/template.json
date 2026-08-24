@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:range-enhancer-scroll",
+  "slug": "range-enhancer-scroll",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:088ce3e518381084562cec6f9b4574228c8c1ed76d87ead2cc1256a2709c1b8d",
+  "spec": {
+    "display_name": "Parchemin d'Amplification de Portée",
+    "category": "consumable",
+    "rarity": "uncommon",
+    "item_kind": "spell-customization-scroll"
+  }
+}

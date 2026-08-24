@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancy-spell-0322",
+  "slug": "necromancy-spell-0322",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:af0a0f1a961073dc45d4e6e55335b42ab1ca7af7f9f698e37cef8f11ac8bdd53",
+  "spec": {
+    "display_name": "Necromancy Spell 0322",
+    "school": "necromancy",
+    "rarity": "rare",
+    "spell_kind": "frost-cleaving-attack",
+    "target_kind": "single-enemy"
+  }
+}

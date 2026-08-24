@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:executor-spell-spell-0477",
+  "slug": "executor-spell-spell-0477",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b3e70054a7bf982445c8c90a05d0c7303e72a6140e32b7b9c6243b19cf3462a7",
+  "spec": {
+    "display_name": "Executor Spell Spell 0477",
+    "school": "executor-spell-spell-0477-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

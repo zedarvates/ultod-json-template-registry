@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:chamanisme-spell-1300",
+  "slug": "chamanisme-spell-1300",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:bfe3935d65ff5dbeabc151bd68cccd166e1c074aa099a8bad2823f43fc572344",
+  "spec": {
+    "display_name": "Chamanisme Spell 1300",
+    "school": "chamanisme",
+    "rarity": "common",
+    "spell_kind": "healing",
+    "target_kind": "single"
+  }
+}

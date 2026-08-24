@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:chi-spell-0882",
+  "slug": "chi-spell-0882",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:dcab7184fdfc7cee06e462c2daaa44822c3d56061555985ba3dcbc9779dc0f64",
+  "spec": {
+    "display_name": "Chi Spell 0882",
+    "school": "chi",
+    "rarity": "rare",
+    "spell_kind": "piercing-chi-projectile",
+    "target_kind": "enemy-target"
+  }
+}

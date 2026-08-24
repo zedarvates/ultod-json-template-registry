@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:illusion-spell-0700",
+  "slug": "illusion-spell-0700",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:8c79576f3bfebad7af923c99b710528b0a9b233a201763b794922d96b634398d",
+  "spec": {
+    "display_name": "Illusion Spell 0700",
+    "school": "illusion",
+    "rarity": "common",
+    "spell_kind": "superficial-telepathy-peek",
+    "target_kind": "single-target-intellect-scan"
+  }
+}

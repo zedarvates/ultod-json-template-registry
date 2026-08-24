@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:night-vision-goggles",
+  "slug": "night-vision-goggles",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:35e2ade159a73193573e49e5d73d3107eb9884af69937c422dd263b2d9b53c33",
+  "spec": {
+    "display_name": "Night Vision Goggles",
+    "category": "tool",
+    "rarity": "rare",
+    "item_kind": "tool",
+    "subtype": "optic"
+  }
+}
