@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ultimateodycer.com/schemas/template-contract/1.0.0",
+  "title": "Ultimate Odycer Template Contract v1",
+  "type": "object",
+  "required": [
+    "$schema",
+    "contract_version",
+    "id",
+    "slug",
+    "family",
+    "version",
+    "authority",
+    "intended_consumers",
+    "compatibility",
+    "dependencies",
+    "spec_checksum",
+    "spec"
+  ],
+  "properties": {
+    "$schema": {"type": "string", "minLength": 1, "maxLength": 256},
+    "contract_version": {"const": "1.0.0"},
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*:[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 129
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 64
+    },
+    "family": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 64
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
+    },
+    "authority": {"const": "declarative"},
+    "intended_consumers": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+      "uniqueItems": true,
+      "maxItems": 16
+    },
+    "compatibility": {
+      "type": "array",
+      "maxItems": 16,
+      "items": {"$ref": "#/$defs/compatibility"}
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*:[a-z0-9]+(?:-[a-z0-9]+)*@(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)$"
+      },
+      "uniqueItems": true,
+      "maxItems": 128
+    },
+    "spec_checksum": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "spec": {"type": "object"}
+  },
+  "$defs": {
+    "compatibility": {
+      "type": "object",
+      "required": ["consumer", "version", "verified_at", "evidence"],
+      "properties": {
+        "consumer": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+        "version": {"type": "string", "minLength": 1, "maxLength": 64},
+        "verified_at": {"type": "string", "format": "date-time"},
+        "evidence": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:[-/:._a-z0-9]+)$",
+          "maxLength": 256
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
