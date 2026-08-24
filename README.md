@@ -6,7 +6,7 @@
 
 **Ultimate Odycer Open Ecosystem** - Local-first, server-authoritative, production-ready game foundations.
 
-[Visit ultimateodycer.com](https://ultimateodycer.com) · [Star this repository](https://github.com/zedarvates/ultod-json-template-registry/stargazers)
+[Visit ultimateodycer.com](https://ultimateodycer.com) · [YouTube](https://www.youtube.com/@ProUltimateServeur) · [Star this repository](https://github.com/zedarvates/ultod-json-template-registry/stargazers)
 
 </div>
 
@@ -217,6 +217,7 @@ Exhaustive coverage and audit status by family are tracked in [AUDIT-COVERAGE.md
 
 - [Ultimate Odycer website](https://ultimateodycer.com)
 - [Discord](https://discord.gg/Mdcdjb6bU)
+- [YouTube](https://www.youtube.com/@ProUltimateServeur)
 - [Template specification](TEMPLATE-SPEC.md)
 - [Versioning policy](VERSIONING.md)
 
