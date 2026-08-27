@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/dungeons/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "dungeons:crypt-of-shadows",
+  "slug": "crypt-of-shadows",
+  "family": "dungeons",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:132d9db8859359353c9e5a97e52e3b5bc353f70e70df9cf57c932832dfaa42d0",
+  "spec": {
+    "display_name": "Crypt of Shadows",
+    "theme_tag": "shadow"
+  }
+}

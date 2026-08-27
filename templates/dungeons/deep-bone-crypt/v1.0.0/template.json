@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/dungeons/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "dungeons:deep-bone-crypt",
+  "slug": "deep-bone-crypt",
+  "family": "dungeons",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:fbd6f5c54f77549cb2dd69c29d426bd2b3429b26003b03bc92952d48c6cabc73",
+  "spec": {
+    "display_name": "crypte_ossements_profonde",
+    "theme_tag": "crypt"
+  }
+}

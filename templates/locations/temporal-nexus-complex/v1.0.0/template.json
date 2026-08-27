@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/locations/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "locations:temporal-nexus-complex",
+  "slug": "temporal-nexus-complex",
+  "family": "locations",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:227a4a4ac65bf01a0965379f95d7a043c0d84ef2cfc4b90edeb21e46a254d290",
+  "spec": {
+    "display_name": "Complexe du Nexus Temporel",
+    "location_kind": "dungeon",
+    "size_tag": "large",
+    "rarity_tag": "epic"
+  }
+}
