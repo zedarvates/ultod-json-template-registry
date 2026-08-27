@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/solar-systems/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "solar-systems:nexara-system",
+  "slug": "nexara-system",
+  "family": "solar-systems",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b4d1651356034e311be4961ef97a14e50da25fff346b81ead5ea427d1544d3df",
+  "spec": {
+    "display_name": "Nexara System"
+  }
+}

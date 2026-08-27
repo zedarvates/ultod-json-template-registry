@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/dungeons/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "dungeons:root-lair",
+  "slug": "root-lair",
+  "family": "dungeons",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:9b3bdb7977fa9a94bb22e85ac3f0c7524b04f239021e6223e28f5d0634e40279",
+  "spec": {
+    "display_name": "repaire_racines",
+    "theme_tag": "roots"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "report_version": "1.0.0",
+  "cohort": "2",
+  "families": [
+    "cities",
+    "city-layouts",
+    "dungeons",
+    "locations",
+    "planets",
+    "solar-systems"
+  ],
+  "summary": {
+    "total": 15,
+    "dispositions": {
+      "legacy-only-authoritative": 2,
+      "manual-review": 4,
+      "migrated": 9
+    }
+  },
+  "results": [
+    {
+      "source_file": "templates/cities/template/v0.1.0/template.json",
+      "family": "cities",
+      "slug": "template",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-assets-and-metrics"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/city-layouts/template/v0.1.0/template.json",
+      "family": "city-layouts",
+      "slug": "template",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-assets-and-metrics"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/dungeons/crypt-of-shadows/v0.1.0/template.json",
+      "family": "dungeons",
+      "slug": "crypt-of-shadows",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/dungeons/crypt-of-shadows/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/dungeons/deep-bone-crypt/v0.1.0/template.json",
+      "family": "dungeons",
+      "slug": "deep-bone-crypt",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/dungeons/deep-bone-crypt/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/dungeons/demo-crypt/v0.1.0/template.json",
+      "family": "dungeons",
+      "slug": "demo-crypt",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/dungeons/grammar-generated-crypt/v0.1.0/template.json",
+      "family": "dungeons",
+      "slug": "grammar-generated-crypt",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/dungeons/ice-lair/v0.1.0/template.json",
+      "family": "dungeons",
+      "slug": "ice-lair",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/dungeons/ice-lair/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/dungeons/obsidian-fortress/v0.1.0/template.json",
+      "family": "dungeons",
+      "slug": "obsidian-fortress",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/dungeons/obsidian-fortress/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/dungeons/root-lair/v0.1.0/template.json",
+      "family": "dungeons",
+      "slug": "root-lair",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/dungeons/root-lair/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/locations/city/v0.1.0/template.json",
+      "family": "locations",
+      "slug": "city-template",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/locations/temporal-nexus-complex/v0.1.0/template.json",
+      "family": "locations",
+      "slug": "temporal-nexus-complex",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/locations/temporal-nexus-complex/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/planets/seladris/0.1.0/template.json",
+      "family": "planets",
+      "slug": "seladris",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/planets/seladris/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/planets/template/v0.1.0/template.json",
+      "family": "planets",
+      "slug": "template",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/planets/velorath/0.1.0/template.json",
+      "family": "planets",
+      "slug": "velorath",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/planets/velorath/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/solar-systems/nexara-system/0.1.0/template.json",
+      "family": "solar-systems",
+      "slug": "nexara-system",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/solar-systems/nexara-system/v1.0.0/template.json"
+    }
+  ]
+}

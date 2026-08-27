@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/dungeons/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "dungeons:ice-lair",
+  "slug": "ice-lair",
+  "family": "dungeons",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:87f554fdb4780c0cc295ac9d0c4957cf41f9dd16446de9dd0734db29038614e2",
+  "spec": {
+    "display_name": "antre_glace_isole",
+    "theme_tag": "ice"
+  }
+}

@@ -685,7 +685,11 @@
       "sha256": "e3acac23a5bad2a0ac12fc2f3216c9d64c3bdc25a4fb41c0120a2c30c069b677",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "dungeons:crypt-of-shadows",
+      "slug": "crypt-of-shadows",
+      "family": "dungeons",
+      "superseded_by": "dungeons:crypt-of-shadows@1.0.0"
     },
     {
       "name": "master-config",
@@ -769,7 +773,11 @@
       "sha256": "c2d85ed55d9f281cf870c1f627b32010e058e15c9f2dcfea1e415064e6eaff8d",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "dungeons:ice-lair",
+      "slug": "ice-lair",
+      "family": "dungeons",
+      "superseded_by": "dungeons:ice-lair@1.0.0"
     },
     {
       "name": "deep-bone-crypt",
@@ -781,7 +789,11 @@
       "sha256": "0975b3904a1cf70190440bd1639ea586c2ed0dca8c237e0844de23779a916301",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "dungeons:deep-bone-crypt",
+      "slug": "deep-bone-crypt",
+      "family": "dungeons",
+      "superseded_by": "dungeons:deep-bone-crypt@1.0.0"
     },
     {
       "name": "demo-crypt",
@@ -817,7 +829,11 @@
       "sha256": "5223d0aad58fc4a4b256a687d368e2a084325195b4f8e99f9b9c01dc96638295",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "dungeons:obsidian-fortress",
+      "slug": "obsidian-fortress",
+      "family": "dungeons",
+      "superseded_by": "dungeons:obsidian-fortress@1.0.0"
     },
     {
       "name": "root-lair",
@@ -829,7 +845,11 @@
       "sha256": "0d0c4fbac8627707de30eaef26f296fefba33a241e4da9965c0f2eb7491a0212",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "dungeons:root-lair",
+      "slug": "root-lair",
+      "family": "dungeons",
+      "superseded_by": "dungeons:root-lair@1.0.0"
     },
     {
       "name": "cloth-robe",
@@ -15069,7 +15089,11 @@
       "sha256": "b40517f4944e95baaa98ee9f134ff91425b98feafc90b13435b362157507ab8d",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "planets:seladris",
+      "slug": "seladris",
+      "family": "planets",
+      "superseded_by": "planets:seladris@1.0.0"
     },
     {
       "name": "velorath",
@@ -15081,7 +15105,11 @@
       "sha256": "7320f9896bdad68e16bd904af92217f8dbbb1bd4c66d5cb7238af02bc89c0210",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "planets:velorath",
+      "slug": "velorath",
+      "family": "planets",
+      "superseded_by": "planets:velorath@1.0.0"
     },
     {
       "name": "nexara-system",
@@ -15093,7 +15121,11 @@
       "sha256": "b22936bf1f145cb9c8394fe716d0c415c590ede05c08ead3413947bd9287f6bd",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "solar-systems:nexara-system",
+      "slug": "nexara-system",
+      "family": "solar-systems",
+      "superseded_by": "solar-systems:nexara-system@1.0.0"
     },
     {
       "name": "ambush",
@@ -22489,7 +22521,11 @@
       "compatibility": [],
       "source_file": "locations/temporal_nexus_complex.json",
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "locations:temporal-nexus-complex",
+      "slug": "temporal-nexus-complex",
+      "family": "locations",
+      "superseded_by": "locations:temporal-nexus-complex@1.0.0"
     },
     {
       "name": "template",
@@ -111888,6 +111924,248 @@
       "status": "experimental",
       "file": "templates/schemas/names/v1.0.0/schema.json",
       "sha256": "78cc8f8fd36d3ca7343deed853aa9b57363e85e98256779034d6506ec1227181",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "dungeons:crypt-of-shadows",
+      "slug": "crypt-of-shadows",
+      "family": "dungeons",
+      "name": "crypt-of-shadows",
+      "kind": "dungeon-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/dungeons/v1.0.0/schema.json",
+      "file": "templates/dungeons/crypt-of-shadows/v1.0.0/template.json",
+      "sha256": "4cb5b98c4762864ef039646490039ae310d7883c2460f7741ec390a0c8af0544",
+      "spec_checksum": "sha256:132d9db8859359353c9e5a97e52e3b5bc353f70e70df9cf57c932832dfaa42d0",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "dungeons:crypt-of-shadows@0.1.0"
+      ]
+    },
+    {
+      "id": "dungeons:deep-bone-crypt",
+      "slug": "deep-bone-crypt",
+      "family": "dungeons",
+      "name": "deep-bone-crypt",
+      "kind": "dungeon-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/dungeons/v1.0.0/schema.json",
+      "file": "templates/dungeons/deep-bone-crypt/v1.0.0/template.json",
+      "sha256": "d0e754e5e400ddaf8461708c709fa08360603a4f7bb1bf65fc5a3ddb301fc9e5",
+      "spec_checksum": "sha256:fbd6f5c54f77549cb2dd69c29d426bd2b3429b26003b03bc92952d48c6cabc73",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "dungeons:deep-bone-crypt@0.1.0"
+      ]
+    },
+    {
+      "id": "dungeons:ice-lair",
+      "slug": "ice-lair",
+      "family": "dungeons",
+      "name": "ice-lair",
+      "kind": "dungeon-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/dungeons/v1.0.0/schema.json",
+      "file": "templates/dungeons/ice-lair/v1.0.0/template.json",
+      "sha256": "c8926a259709f1f174e9fe9603f99dbb1acf4f844adf01fd76d110b23a192062",
+      "spec_checksum": "sha256:87f554fdb4780c0cc295ac9d0c4957cf41f9dd16446de9dd0734db29038614e2",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "dungeons:ice-lair@0.1.0"
+      ]
+    },
+    {
+      "id": "dungeons:obsidian-fortress",
+      "slug": "obsidian-fortress",
+      "family": "dungeons",
+      "name": "obsidian-fortress",
+      "kind": "dungeon-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/dungeons/v1.0.0/schema.json",
+      "file": "templates/dungeons/obsidian-fortress/v1.0.0/template.json",
+      "sha256": "7f287c639129d62a9d24e6dffb601ad137552565a4509a5b091d2b70e24e0854",
+      "spec_checksum": "sha256:a0f4bbc51a5d0a6a3dc5a9ff06f5968cd6524fcc1c481010f1b0735d760511af",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "dungeons:obsidian-fortress@0.1.0"
+      ]
+    },
+    {
+      "id": "dungeons:root-lair",
+      "slug": "root-lair",
+      "family": "dungeons",
+      "name": "root-lair",
+      "kind": "dungeon-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/dungeons/v1.0.0/schema.json",
+      "file": "templates/dungeons/root-lair/v1.0.0/template.json",
+      "sha256": "c8c60bf2ecb5e61e0a3e25118b85347d22137f1a9fe7d4a6cd2c36b94e6b811b",
+      "spec_checksum": "sha256:9b3bdb7977fa9a94bb22e85ac3f0c7524b04f239021e6223e28f5d0634e40279",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "dungeons:root-lair@0.1.0"
+      ]
+    },
+    {
+      "name": "dungeons",
+      "kind": "json-schema",
+      "version": "1.0.0",
+      "status": "experimental",
+      "file": "templates/schemas/dungeons/v1.0.0/schema.json",
+      "sha256": "1bc4c355438c4bc9fa1caaa5dc52ea7ff182f6aa8a3115e1bcd96bfdf97c3ca8",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "locations:temporal-nexus-complex",
+      "slug": "temporal-nexus-complex",
+      "family": "locations",
+      "name": "temporal-nexus-complex",
+      "kind": "location-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/locations/v1.0.0/schema.json",
+      "file": "templates/locations/temporal-nexus-complex/v1.0.0/template.json",
+      "sha256": "e0dcfa1d5fd2b026fa0282d63a29c67468bd2e4e7f442110eea2b94aaa659072",
+      "spec_checksum": "sha256:227a4a4ac65bf01a0965379f95d7a043c0d84ef2cfc4b90edeb21e46a254d290",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "locations:temporal-nexus-complex@0.1.0"
+      ]
+    },
+    {
+      "name": "locations",
+      "kind": "json-schema",
+      "version": "1.0.0",
+      "status": "experimental",
+      "file": "templates/schemas/locations/v1.0.0/schema.json",
+      "sha256": "edfe3983865035b2e77c71b2a0b1efc461e7ab5f916f4cb4ab7c776ca4eab0ef",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "planets:seladris",
+      "slug": "seladris",
+      "family": "planets",
+      "name": "seladris",
+      "kind": "planet-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/planets/v1.0.0/schema.json",
+      "file": "templates/planets/seladris/v1.0.0/template.json",
+      "sha256": "5ac7272afaf9cb6cf641191a7f7175e1e90238c98036a2dba959064a580e5e8e",
+      "spec_checksum": "sha256:b6eaa2c9b772c84bda67046d3b1012e3d7c1566dcf210e2fa7639f3a3e9e0a8a",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "planets:seladris@0.1.0"
+      ]
+    },
+    {
+      "id": "planets:velorath",
+      "slug": "velorath",
+      "family": "planets",
+      "name": "velorath",
+      "kind": "planet-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/planets/v1.0.0/schema.json",
+      "file": "templates/planets/velorath/v1.0.0/template.json",
+      "sha256": "9d0c57f26645e28a9d1277155522a9058d8854a915ea4f87f721908a3e90950b",
+      "spec_checksum": "sha256:d0f0db41156714740f2332fc1d9b900d04a93969fb6ec09e62cb4ab255b2003d",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "planets:velorath@0.1.0"
+      ]
+    },
+    {
+      "name": "planets",
+      "kind": "json-schema",
+      "version": "1.0.0",
+      "status": "experimental",
+      "file": "templates/schemas/planets/v1.0.0/schema.json",
+      "sha256": "7ddf03f194e33ff855a567ada09fc693e9d45af1657e92e685cc98d021153b3f",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "solar-systems:nexara-system",
+      "slug": "nexara-system",
+      "family": "solar-systems",
+      "name": "nexara-system",
+      "kind": "solar-system-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/solar-systems/v1.0.0/schema.json",
+      "file": "templates/solar-systems/nexara-system/v1.0.0/template.json",
+      "sha256": "df85bf149afd8eb897c053189086433e786a85689b01b9bcbe02886b57b1f65d",
+      "spec_checksum": "sha256:b4d1651356034e311be4961ef97a14e50da25fff346b81ead5ea427d1544d3df",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "solar-systems:nexara-system@0.1.0"
+      ]
+    },
+    {
+      "name": "solar-systems",
+      "kind": "json-schema",
+      "version": "1.0.0",
+      "status": "experimental",
+      "file": "templates/schemas/solar-systems/v1.0.0/schema.json",
+      "sha256": "cb32bccccd440a132b4f230ad3f7dc81951ed40a3291fc6ef8a8d100f82a1912",
       "compatibility": [],
       "validation_profile": "strict-schema-v1",
       "contract_version": "1.0.0"
