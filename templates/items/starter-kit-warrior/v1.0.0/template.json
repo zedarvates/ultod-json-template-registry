@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:starter-kit-warrior",
+  "slug": "starter-kit-warrior",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:252f91b9409c5c33145aa2925b805f96f2837c9116599fd316d2cde7bee4e4d7",
+  "spec": {
+    "display_name": "Kit de Depart Guerrier",
+    "category": "container",
+    "rarity": "common",
+    "item_kind": "kit",
+    "subtype": "starter-kit"
+  }
+}

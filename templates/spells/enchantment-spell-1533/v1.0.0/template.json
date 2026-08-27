@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:enchantment-spell-1533",
+  "slug": "enchantment-spell-1533",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:8138a83069d4de0f46e8d5921a156b01f9ac8109f087590707779de0fad29f26",
+  "spec": {
+    "display_name": "Enchantment Spell 1533",
+    "school": "enchantment",
+    "rarity": "uncommon",
+    "spell_kind": "control",
+    "target_kind": "single"
+  }
+}

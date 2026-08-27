@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:enchantment-spell-0081",
+  "slug": "enchantment-spell-0081",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:dbd29ca1240b4705e6e10712e7ce2a5b0d6ecafa5403136a08f7a2d6654d71a8",
+  "spec": {
+    "display_name": "Enchantment Spell 0081",
+    "school": "enchantment",
+    "rarity": "rare",
+    "spell_kind": "vocal-command",
+    "target_kind": "area-enemy"
+  }
+}

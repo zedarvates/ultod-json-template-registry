@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancy-spell-0308",
+  "slug": "necromancy-spell-0308",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c8a4dc9338ebc2ec99ffdab4ea4013c08bc3437ccba22cdb83d3a608d37e8d16",
+  "spec": {
+    "display_name": "Necromancy Spell 0308",
+    "school": "necromancy",
+    "rarity": "rare",
+    "spell_kind": "necromancy-spell-0308-self-empowerment",
+    "target_kind": "self"
+  }
+}

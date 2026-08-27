@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:ranged-spell-0693",
+  "slug": "ranged-spell-0693",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a65323a362946d877793105421e3cbd052c0bfbee1962a88a64a7e6f935ac5e0",
+  "spec": {
+    "display_name": "Ranged Spell 0693",
+    "school": "ranged",
+    "rarity": "common",
+    "spell_kind": "precision-shot",
+    "target_kind": "single-enemy"
+  }
+}

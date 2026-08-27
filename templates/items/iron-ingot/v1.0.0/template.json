@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:iron-ingot",
+  "slug": "iron-ingot",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:8ffebfc75ddde92fbac07f8c764c12e2fa7a0bb24460557ba32d4f0f56dd7575",
+  "spec": {
+    "display_name": "Lingot de Fer",
+    "category": "material",
+    "rarity": "common",
+    "item_kind": "crafting-material",
+    "subtype": "metal"
+  }
+}

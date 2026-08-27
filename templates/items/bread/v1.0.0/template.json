@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:bread",
+  "slug": "bread",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c49b1c5d1fb1d5f49a6245955fdcc980db8be16568acb3b235b4719a8fcc228f",
+  "spec": {
+    "display_name": "Pain de Voyage",
+    "category": "consumable",
+    "rarity": "common",
+    "item_kind": "food",
+    "subtype": "bread"
+  }
+}

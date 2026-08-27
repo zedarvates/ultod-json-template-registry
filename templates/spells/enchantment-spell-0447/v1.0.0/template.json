@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:enchantment-spell-0447",
+  "slug": "enchantment-spell-0447",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:33ebdcc664bfe0ffd9bd127d4a6408db138d5620457fb52f443b9ccc40805de4",
+  "spec": {
+    "display_name": "Enchantment Spell 0447",
+    "school": "enchantment",
+    "rarity": "uncommon",
+    "spell_kind": "psychic-induction-slumber",
+    "target_kind": "single-enemy"
+  }
+}

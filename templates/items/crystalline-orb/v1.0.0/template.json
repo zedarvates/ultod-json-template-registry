@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:crystalline-orb",
+  "slug": "crystalline-orb",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:bffe196d8f80ab4ab77b782e0c4122635a59b851d065c538daff610e3a26fca6",
+  "spec": {
+    "display_name": "Crystalline Orb",
+    "category": "accessory",
+    "rarity": "uncommon",
+    "item_kind": "accessory",
+    "subtype": "focus"
+  }
+}

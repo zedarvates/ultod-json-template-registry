@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:illusion-spell-0702",
+  "slug": "illusion-spell-0702",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:24d82ddf017eed57e5a5ab27d1a02436d21c05cf26e2ec8d845036b36e92977f",
+  "spec": {
+    "display_name": "Illusion Spell 0702",
+    "school": "illusion",
+    "rarity": "common",
+    "spell_kind": "teleportation-with-deception",
+    "target_kind": "directional-teleport"
+  }
+}

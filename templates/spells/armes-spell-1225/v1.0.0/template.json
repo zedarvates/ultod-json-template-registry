@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:armes-spell-1225",
+  "slug": "armes-spell-1225",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:8eeb84fd2a77609ef985ac210da30ef91103dc40b6a2371df8d8109d6aa64cac",
+  "spec": {
+    "display_name": "Armes Spell 1225",
+    "school": "armes",
+    "rarity": "rare",
+    "spell_kind": "buff",
+    "target_kind": "self"
+  }
+}

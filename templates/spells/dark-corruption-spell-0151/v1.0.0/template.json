@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:dark-corruption-spell-0151",
+  "slug": "dark-corruption-spell-0151",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:fff2bb5f5aa8c288ed54e76e1de091bb310013c33950fb19d4845fe64a53b95a",
+  "spec": {
+    "display_name": "Dark Corruption Spell 0151",
+    "school": "dark-dark-corruption-spell-0151",
+    "rarity": "epic",
+    "spell_kind": "dark-corruption-spell-0151-attack",
+    "target_kind": "enemy"
+  }
+}

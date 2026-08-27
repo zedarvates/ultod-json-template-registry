@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:balance-rune",
+  "slug": "balance-rune",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0c9b3ea9952c0b06acd46338f4be0fd5264c2d6ed5567bb39260958256ab0efc",
+  "spec": {
+    "display_name": "Rune d'Équilibre",
+    "category": "material",
+    "rarity": "uncommon",
+    "item_kind": "magic-crafting-material"
+  }
+}

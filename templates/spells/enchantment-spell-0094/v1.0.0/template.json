@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:enchantment-spell-0094",
+  "slug": "enchantment-spell-0094",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:79a78321561bfa26b5b23573508ba2c350de3ee5606d6ea07c77ab21448fcc98",
+  "spec": {
+    "display_name": "Enchantment Spell 0094",
+    "school": "enchantment",
+    "rarity": "uncommon",
+    "spell_kind": "vocal-hypnosis",
+    "target_kind": "area-enemy"
+  }
+}

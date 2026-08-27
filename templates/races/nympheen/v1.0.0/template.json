@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/races/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "races:nympheen",
+  "slug": "nympheen",
+  "family": "races",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:bcdd9474f5c5ffd9b9cfff89812edf6eb16cdd6feb63a5c817c0fc5f85921a23",
+  "spec": {
+    "display_name": "Nympheen",
+    "category": "fey",
+    "rarity": "uncommon",
+    "faction_tag": "nature"
+  }
+}

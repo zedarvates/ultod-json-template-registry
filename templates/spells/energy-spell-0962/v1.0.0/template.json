@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:energy-spell-0962",
+  "slug": "energy-spell-0962",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d29b321cae60619cf89fe7f38ed6165448dbfa228822072c248b941fedd2e328",
+  "spec": {
+    "display_name": "Energy Spell 0962",
+    "school": "energy",
+    "rarity": "epic",
+    "spell_kind": "utility",
+    "target_kind": "single-enemy"
+  }
+}

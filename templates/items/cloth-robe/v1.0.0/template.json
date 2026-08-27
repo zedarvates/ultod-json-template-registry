@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:cloth-robe",
+  "slug": "cloth-robe",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:910529eedbf0420c250d8c2bff5e00c9c575b8bbb790d70e3df9d35dd13af27b",
+  "spec": {
+    "display_name": "cloth_robe",
+    "category": "armor",
+    "rarity": "common",
+    "item_kind": "armor",
+    "subtype": "generic"
+  }
+}

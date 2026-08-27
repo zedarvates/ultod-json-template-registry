@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:arcane-spell-0786",
+  "slug": "arcane-spell-0786",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d010f19654b7ef30f886117ef5f180a219b8becfb0ad2572a7dec27775041f36",
+  "spec": {
+    "display_name": "Arcane Spell 0786",
+    "school": "arcane",
+    "rarity": "common",
+    "spell_kind": "temporal-debuff",
+    "target_kind": "enemy-debuff"
+  }
+}

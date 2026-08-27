@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:combat-equipment",
+  "slug": "combat-equipment",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:bf2b00f2fd9dc1289e8e5d1e4e8c630f1c106948add48963dfba479c40e2fd50",
+  "spec": {
+    "display_name": "Combat Equipment",
+    "category": "armor",
+    "rarity": "common",
+    "item_kind": "armor",
+    "subtype": "generic"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:chronomancy-spell-0240",
+  "slug": "chronomancy-spell-0240",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:fa6f14369fff64529246f02cace2da89af139ba6c813686129d34bb60ba8cf3c",
+  "spec": {
+    "display_name": "Chronomancy Spell 0240",
+    "school": "chronomancy",
+    "rarity": "epic",
+    "spell_kind": "chronomancy-spell-0240-chaos",
+    "target_kind": "area-effect"
+  }
+}

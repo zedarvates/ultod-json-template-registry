@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancy-spell-0940",
+  "slug": "necromancy-spell-0940",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c4678eb7281502cbc80f0fe0343a497a2f92547a97a4a7b0b16dd2d4ef95bbe2",
+  "spec": {
+    "display_name": "Necromancy Spell 0940",
+    "school": "necromancy",
+    "rarity": "rare",
+    "spell_kind": "plague-spread-debuff",
+    "target_kind": "area-plague-infection"
+  }
+}

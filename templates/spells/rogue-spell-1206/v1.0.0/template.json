@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:rogue-spell-1206",
+  "slug": "rogue-spell-1206",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c10d3110c24cb31037b755b1f9797ef8b3b76aa706b793a4933f2b028feec7cf",
+  "spec": {
+    "display_name": "Rogue Spell 1206",
+    "school": "rogue",
+    "rarity": "uncommon",
+    "spell_kind": "target-debuff",
+    "target_kind": "enemy"
+  }
+}

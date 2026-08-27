@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:mouvement-spell-1229",
+  "slug": "mouvement-spell-1229",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b7a540ef5fd71fd0405d2314097115953c85b454c8c478817e2be2c8812ca814",
+  "spec": {
+    "display_name": "Mouvement Spell 1229",
+    "school": "mouvement",
+    "rarity": "common",
+    "spell_kind": "utility",
+    "target_kind": "single"
+  }
+}

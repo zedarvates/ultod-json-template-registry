@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:enchantment-spell-0439",
+  "slug": "enchantment-spell-0439",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a4581dca837ac241507b74ee61b73fabdf9761baf31f53f23d8711a6e8c575ec",
+  "spec": {
+    "display_name": "Enchantment Spell 0439",
+    "school": "enchantment",
+    "rarity": "common",
+    "spell_kind": "speed-enhancement",
+    "target_kind": "single-ally"
+  }
+}

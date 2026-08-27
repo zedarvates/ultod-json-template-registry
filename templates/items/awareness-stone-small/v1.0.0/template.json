@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:awareness-stone-small",
+  "slug": "awareness-stone-small",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e8af311db7bfaef0466b8d8207912df6fe71752acad5026e80c92c41b6e0535f",
+  "spec": {
+    "display_name": "Petit caillou",
+    "category": "material",
+    "rarity": "common"
+  }
+}

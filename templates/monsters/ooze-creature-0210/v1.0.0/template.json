@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "monsters:ooze-creature-0210",
+  "slug": "ooze-creature-0210",
+  "family": "monsters",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:2398a8c8eb61cbbc5a9b3406c0da254d2992a0b275ff10e1b7c1310277b134a9",
+  "spec": {
+    "display_name": "Ooze Creature 0210",
+    "category": "ooze",
+    "rarity": "uncommon"
+  }
+}

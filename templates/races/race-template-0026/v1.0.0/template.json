@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/races/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "races:race-template-0026",
+  "slug": "race-template-0026",
+  "family": "races",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:4932116eb943737eec0cb816a77bd0a39c74c171d57a552669c01b5f5ab26173",
+  "spec": {
+    "display_name": "Race Template 0026"
+  }
+}

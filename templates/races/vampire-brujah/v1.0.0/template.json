@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/races/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "races:vampire-brujah",
+  "slug": "vampire-brujah",
+  "family": "races",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f0a40dce6943b64fba07f430828d374caf1dfe4fbe2466ef02613f4c42238953",
+  "spec": {
+    "display_name": "Brujah Vampire",
+    "category": "playable",
+    "rarity": "legendary",
+    "faction_tag": "neutral"
+  }
+}

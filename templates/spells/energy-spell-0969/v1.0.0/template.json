@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:energy-spell-0969",
+  "slug": "energy-spell-0969",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c0dccc70ebe01f42d36c26abac2e4396cbcb88f182f8381ec32c777ebf1cb2aa",
+  "spec": {
+    "display_name": "Energy Spell 0969",
+    "school": "energy",
+    "rarity": "rare",
+    "spell_kind": "damage",
+    "target_kind": "area-enemies"
+  }
+}

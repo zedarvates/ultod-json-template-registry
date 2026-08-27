@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:illusion-spell-0715",
+  "slug": "illusion-spell-0715",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b839be454e9b67be4e96b797502b23f0517680a35bf39df9fb426925835e74c1",
+  "spec": {
+    "display_name": "Illusion Spell 0715",
+    "school": "illusion",
+    "rarity": "rare",
+    "spell_kind": "invisibility-with-functional-decoy",
+    "target_kind": "self-with-image-projection"
+  }
+}

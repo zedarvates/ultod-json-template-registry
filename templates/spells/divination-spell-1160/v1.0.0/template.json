@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:divination-spell-1160",
+  "slug": "divination-spell-1160",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:2f0da5c961be51a969e0ff87be1b3993048ec3ae88aa61f07fe0d916925a6538",
+  "spec": {
+    "display_name": "Divination Spell 1160",
+    "school": "divination",
+    "rarity": "uncommon",
+    "spell_kind": "mark-target",
+    "target_kind": "single-enemy"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancy-spell-0939",
+  "slug": "necromancy-spell-0939",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:cb5d89cdee2c4332e72ded7f8ab220fbda25d5ae195b49ef6d18bf9428f39a47",
+  "spec": {
+    "display_name": "Necromancy Spell 0939",
+    "school": "necromancy",
+    "rarity": "epic",
+    "spell_kind": "life-magic-nullification-adapted-reference",
+    "target_kind": "self-protective-adapted-reference"
+  }
+}

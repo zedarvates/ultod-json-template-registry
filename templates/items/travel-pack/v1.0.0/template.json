@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:travel-pack",
+  "slug": "travel-pack",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:95cd348e994ae4e3f46252251cf0e8ccca76c29e0bc4817208b5c29d3216bf76",
+  "spec": {
+    "display_name": "Sac de Voyage",
+    "category": "container",
+    "rarity": "common",
+    "item_kind": "bag",
+    "subtype": "backpack"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:overseer-spell-spell-1032",
+  "slug": "overseer-spell-spell-1032",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:14928893221542afbb7fa51f45cbf727209840f244a6ee6b1e41da060cc899e9",
+  "spec": {
+    "display_name": "Overseer Spell Spell 1032",
+    "school": "overseer-spell-spell-1032-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:rogue-spell-1195",
+  "slug": "rogue-spell-1195",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:85819ca465c57c8f617333fb592da6ed1487257c7330cef97867f227577a3066",
+  "spec": {
+    "display_name": "Rogue Spell 1195",
+    "school": "rogue",
+    "rarity": "rare",
+    "spell_kind": "self-buff",
+    "target_kind": "self"
+  }
+}

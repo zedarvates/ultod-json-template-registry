@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:abjuration-spell-1606",
+  "slug": "abjuration-spell-1606",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b4e87410dae876f3734cabda01486ad5a9583d9f2ea07d3263717f703faf6379",
+  "spec": {
+    "display_name": "Abjuration Spell 1606",
+    "school": "abjuration",
+    "rarity": "common",
+    "spell_kind": "buff",
+    "target_kind": "self"
+  }
+}

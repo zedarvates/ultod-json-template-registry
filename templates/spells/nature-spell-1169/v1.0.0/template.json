@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:nature-spell-1169",
+  "slug": "nature-spell-1169",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:139283adc1a4002b03f2522a97942e35e3de773eb3d587fdb9da24cff32ca363",
+  "spec": {
+    "display_name": "Nature Spell 1169",
+    "school": "nature",
+    "rarity": "rare",
+    "spell_kind": "buff",
+    "target_kind": "self"
+  }
+}

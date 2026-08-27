@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:necromancer-simple",
+  "slug": "necromancer-simple",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:22e52c1ca875f438c8582f1da945f1c22c6c930116240c7866b3555652c67bfb",
+  "spec": {
+    "display_name": "Necromancer"
+  }
+}

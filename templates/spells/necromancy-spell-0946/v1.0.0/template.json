@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancy-spell-0946",
+  "slug": "necromancy-spell-0946",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ad596e86b2b1f07bbc1899cc7e63e8776f416477c5d0ef4f2972d038e7e4824d",
+  "spec": {
+    "display_name": "Necromancy Spell 0946",
+    "school": "necromancy",
+    "rarity": "rare",
+    "spell_kind": "necrotic-detonation",
+    "target_kind": "necromancy-spell-0946-target"
+  }
+}

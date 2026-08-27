@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:arts-martiaux-spell-0896",
+  "slug": "arts-martiaux-spell-0896",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:342b8f61864045a560501986d5c6f926cda2311607f2199d65f38c905b96185b",
+  "spec": {
+    "display_name": "Arts Martiaux Spell 0896",
+    "school": "arts-martiaux",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:poison-spell-0079",
+  "slug": "poison-spell-0079",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:bb742c495c843d15fc33a169533dffa8c67b770f01308da736ba94b5f69fc882",
+  "spec": {
+    "display_name": "Poison Spell 0079",
+    "school": "poison",
+    "rarity": "uncommon",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

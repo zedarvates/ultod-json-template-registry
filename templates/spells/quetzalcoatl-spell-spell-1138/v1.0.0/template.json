@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:quetzalcoatl-spell-spell-1138",
+  "slug": "quetzalcoatl-spell-spell-1138",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c1a391c160117fe1d3ec958defce3728f3c3ba4d11c84bfd60d2f2ff5a27810c",
+  "spec": {
+    "display_name": "Quetzalcoatl Spell Spell 1138",
+    "school": "quetzalcoatl-spell-spell-1138-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

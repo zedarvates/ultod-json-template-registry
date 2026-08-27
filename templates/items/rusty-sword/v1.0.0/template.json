@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:rusty-sword",
+  "slug": "rusty-sword",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ad2ae9b01bcb0ab0fe1ff749147c8a96c7fa1975571df6a3a66245b25baa09c0",
+  "spec": {
+    "display_name": "Epee Rouillee",
+    "category": "weapon",
+    "rarity": "common",
+    "item_kind": "sword",
+    "subtype": "one-hand"
+  }
+}

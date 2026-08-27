@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:evocation-spell-0281",
+  "slug": "evocation-spell-0281",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:12fe7b736b370ab941d8102d65ac40d9d2a5c6563e6a79162a23028f397721fa",
+  "spec": {
+    "display_name": "Evocation Spell 0281",
+    "school": "evocation",
+    "rarity": "epic",
+    "spell_kind": "holy-area-damage",
+    "target_kind": "area-enemy"
+  }
+}

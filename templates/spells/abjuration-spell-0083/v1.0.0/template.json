@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:abjuration-spell-0083",
+  "slug": "abjuration-spell-0083",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a996451f512ebc6e21cf9bfe83ec957596c7e89c99b0fa3c349c33861e3cb088",
+  "spec": {
+    "display_name": "Abjuration Spell 0083",
+    "school": "abjuration",
+    "rarity": "rare",
+    "spell_kind": "silencing-debuff",
+    "target_kind": "single-enemy"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:celestial-warden",
+  "slug": "celestial-warden",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0b703a50f51166bfbce77c1a2542450862070ac77be6b783aab7ef931c13bffd",
+  "spec": {
+    "display_name": "Celestial Warden",
+    "resource_kind": "divine-power"
+  }
+}

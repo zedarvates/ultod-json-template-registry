@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:item-catalog-0112",
+  "slug": "item-catalog-0112",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:54f1dfd48a096b37cc50bb776a82399dd998c7863306d1b394240c89240f263e",
+  "spec": {
+    "display_name": "Item Catalog 0112"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:martial-spell-0878",
+  "slug": "martial-spell-0878",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:449468fad201f3389cf56f3894a2a1427bb109a7b97f41c92d5b05f4a5ee70e9",
+  "spec": {
+    "display_name": "Martial Spell 0878",
+    "school": "martial",
+    "rarity": "legendary",
+    "spell_kind": "adapted-referencete-lotus-kick",
+    "target_kind": "enemy-legendary-strike"
+  }
+}

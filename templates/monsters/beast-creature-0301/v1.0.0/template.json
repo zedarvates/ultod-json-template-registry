@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "monsters:beast-creature-0301",
+  "slug": "beast-creature-0301",
+  "family": "monsters",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:87d0b141851f799fb357bd4e961e4c00fa0b85ec87d9d462002d071c08abe790",
+  "spec": {
+    "display_name": "Beast Creature 0301",
+    "category": "beast",
+    "rarity": "rare"
+  }
+}

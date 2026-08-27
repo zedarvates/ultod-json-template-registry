@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:rogue-spell-1207",
+  "slug": "rogue-spell-1207",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:da192f8089d1ab31d9e1b9377cb37cc278e258bc838540b94a86256b0c5bc37c",
+  "spec": {
+    "display_name": "Rogue Spell 1207",
+    "school": "rogue",
+    "rarity": "common",
+    "spell_kind": "melee-attack",
+    "target_kind": "enemy"
+  }
+}

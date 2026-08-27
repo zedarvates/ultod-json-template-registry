@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancy-spell-0942",
+  "slug": "necromancy-spell-0942",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d2de76ecd411f341fc84f6d5e0e3c688a35139c70dd31baae248eb18f2a08fbd",
+  "spec": {
+    "display_name": "Necromancy Spell 0942",
+    "school": "necromancy",
+    "rarity": "rare",
+    "spell_kind": "osseous-defensive-structure",
+    "target_kind": "area-defensive-walls"
+  }
+}

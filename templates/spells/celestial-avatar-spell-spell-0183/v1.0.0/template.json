@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:celestial-avatar-spell-spell-0183",
+  "slug": "celestial-avatar-spell-spell-0183",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:5b2d0fb966e7a9af3573f2ca636815b7856e1abda64d1cdca6bc8f63550cbfe2",
+  "spec": {
+    "display_name": "Celestial Avatar Spell Spell 0183",
+    "school": "celestial-avatar-spell-spell-0183-avatar-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

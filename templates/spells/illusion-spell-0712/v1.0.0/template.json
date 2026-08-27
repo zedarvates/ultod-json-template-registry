@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:illusion-spell-0712",
+  "slug": "illusion-spell-0712",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:4a8276b56161d75d4a8de257bdd20d1718afdfb1e0acad3f81dbe7d83149d754",
+  "spec": {
+    "display_name": "Illusion Spell 0712",
+    "school": "illusion",
+    "rarity": "legendary",
+    "spell_kind": "extra-dimensional-imprisonment",
+    "target_kind": "single-enemy-trapping"
+  }
+}

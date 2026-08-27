@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:linen-cloth",
+  "slug": "linen-cloth",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:25988f7fd4f5a292510441adf93bb95cf1a5bc76254a4cba433fe33624e65aa8",
+  "spec": {
+    "display_name": "Tissu de Lin",
+    "category": "material",
+    "rarity": "common",
+    "item_kind": "crafting-material",
+    "subtype": "cloth"
+  }
+}

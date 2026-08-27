@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:survival-spell-0689",
+  "slug": "survival-spell-0689",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:6d4e4c80fe5e95550a07719b0ef5a1d18099860d7c38348ee82ef2ababfc09d1",
+  "spec": {
+    "display_name": "Survival Spell 0689",
+    "school": "survival",
+    "rarity": "common",
+    "spell_kind": "self-healing-regeneration",
+    "target_kind": "self"
+  }
+}

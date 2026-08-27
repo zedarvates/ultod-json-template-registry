@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:master-of-shadows-spell-spell-0842",
+  "slug": "master-of-shadows-spell-spell-0842",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:1a1b01448ca2d312c23e37b553ffecd83338753aaeaa64b6bd3e25efce78527a",
+  "spec": {
+    "display_name": "Master Of Shadows Spell Spell 0842",
+    "school": "master-of-shadows-spell-spell-0842-of-shadows-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:bastet-spell-spell-0139",
+  "slug": "bastet-spell-spell-0139",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:3f7961ab44397580873d8d32d866b9e10884e0441648dc66434d6e7190cd58d6",
+  "spec": {
+    "display_name": "Bastet Spell Spell 0139",
+    "school": "bastet-spell-spell-0139-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

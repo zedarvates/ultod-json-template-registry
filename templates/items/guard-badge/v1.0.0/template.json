@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:guard-badge",
+  "slug": "guard-badge",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:798a0dcfe2caade098d9506c2ca6404fcba617c1944b7ffc2f9ee92946a2f5fc",
+  "spec": {
+    "display_name": "Guard Badge",
+    "category": "armor",
+    "rarity": "common",
+    "item_kind": "armor",
+    "subtype": "generic"
+  }
+}

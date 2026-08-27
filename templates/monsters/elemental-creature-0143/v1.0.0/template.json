@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "monsters:elemental-creature-0143",
+  "slug": "elemental-creature-0143",
+  "family": "monsters",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:818e70d77290ee3a9f8e1db41f8b927810e604820f0bf7e6a09d0a0bd232e83d",
+  "spec": {
+    "display_name": "Elemental Creature 0143",
+    "category": "elemental",
+    "rarity": "uncommon"
+  }
+}

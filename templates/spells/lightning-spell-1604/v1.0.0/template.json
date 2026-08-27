@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:lightning-spell-1604",
+  "slug": "lightning-spell-1604",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:adf2ed395e8a36c897a53d53a388f15dbfa53121ef16bf16db91515cb909728c",
+  "spec": {
+    "display_name": "Lightning Spell 1604",
+    "school": "lightning-spell-1604",
+    "rarity": "uncommon",
+    "spell_kind": "damage",
+    "target_kind": "single-target"
+  }
+}

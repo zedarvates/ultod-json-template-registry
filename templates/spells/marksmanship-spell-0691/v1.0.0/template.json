@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:marksmanship-spell-0691",
+  "slug": "marksmanship-spell-0691",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:257f4236817ce8dadf928d4a6e137b22b585b3faa97d23bb8348a4844fe821b6",
+  "spec": {
+    "display_name": "Marksmanship Spell 0691",
+    "school": "marksmanship",
+    "rarity": "rare",
+    "spell_kind": "attack-speed-burst",
+    "target_kind": "self"
+  }
+}

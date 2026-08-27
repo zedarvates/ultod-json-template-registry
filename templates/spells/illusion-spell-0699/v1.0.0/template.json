@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:illusion-spell-0699",
+  "slug": "illusion-spell-0699",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d65d1682b282651205a1a8c221d1d1f16cd3b537662c75f051732057db239609",
+  "spec": {
+    "display_name": "Illusion Spell 0699",
+    "school": "illusion",
+    "rarity": "rare",
+    "spell_kind": "mass-sleep-induction",
+    "target_kind": "area-effect-sleep"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:tamer-spell-spell-1459",
+  "slug": "tamer-spell-spell-1459",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a67c2e6e2995b40cf7f285997cb2a3a5a0b07d4dda68b730d0bc31bcefd5c731",
+  "spec": {
+    "display_name": "Tamer Spell Spell 1459",
+    "school": "tamer-spell-spell-1459-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:guard-sword",
+  "slug": "guard-sword",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:33fd05b81432369d6a883bee2a2999a6c30ad2819ae2f4b8d3ecf97602190ae3",
+  "spec": {
+    "display_name": "Guard Sword",
+    "category": "weapon",
+    "rarity": "common",
+    "item_kind": "weapon",
+    "subtype": "generic"
+  }
+}

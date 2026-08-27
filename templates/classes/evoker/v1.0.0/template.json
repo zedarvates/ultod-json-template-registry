@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:evoker",
+  "slug": "evoker",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:09a88204bd536cb80a1bcd857ca6fc2d509088d9b8d9d2295a535e516c50e3ce",
+  "spec": {
+    "display_name": "Evoker",
+    "resource_kind": "mana"
+  }
+}

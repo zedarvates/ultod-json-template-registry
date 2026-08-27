@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:overseer",
+  "slug": "overseer",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:61367c1a580bbc4939b96b29ae04b7659aa61b28e8855ef294a312ea95e2f1df",
+  "spec": {
+    "display_name": "[ADMIN] Overseer",
+    "resource_kind": "analysis-power"
+  }
+}

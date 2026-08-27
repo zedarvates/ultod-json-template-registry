@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:evocation-spell-1607",
+  "slug": "evocation-spell-1607",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:4eecd3955351019d65023e7d4359d9a6a4bcd334847e328647b000a9b174c391",
+  "spec": {
+    "display_name": "Evocation Spell 1607",
+    "school": "evocation",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "multi"
+  }
+}

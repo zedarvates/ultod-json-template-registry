@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:chantern-spell-spell-0226",
+  "slug": "chantern-spell-spell-0226",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:79ff4a59fe2c07ecf0856ac91f21bf87470317c5b11916a64016d6ff3e084573",
+  "spec": {
+    "display_name": "Chantern Spell Spell 0226",
+    "school": "chantern-spell-spell-0226-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

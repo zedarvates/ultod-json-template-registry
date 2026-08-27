@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:evocation-spell-0082",
+  "slug": "evocation-spell-0082",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b5607684e4928d769dbc4de458c5185a9d9b9738691f951e0b1571c5a005c275",
+  "spec": {
+    "display_name": "Evocation Spell 0082",
+    "school": "evocation",
+    "rarity": "uncommon",
+    "spell_kind": "fire-performance",
+    "target_kind": "area-enemy"
+  }
+}

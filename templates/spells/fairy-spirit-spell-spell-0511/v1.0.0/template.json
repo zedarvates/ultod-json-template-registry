@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:fairy-spirit-spell-spell-0511",
+  "slug": "fairy-spirit-spell-spell-0511",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:42509826a16fde02c30a1d11993c0f11c97de6f1fac3aa61f184516c1b119e6c",
+  "spec": {
+    "display_name": "Fairy Spirit Spell Spell 0511",
+    "school": "fairy-spirit-spell-spell-0511-spirit-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

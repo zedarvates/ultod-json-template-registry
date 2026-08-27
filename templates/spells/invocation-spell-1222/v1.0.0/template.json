@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:invocation-spell-1222",
+  "slug": "invocation-spell-1222",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ba78938e8fea8f32a6c30a11358a71c27f5534debbb68e38ff2d7c396afec0ef",
+  "spec": {
+    "display_name": "Invocation Spell 1222",
+    "school": "invocation",
+    "rarity": "uncommon",
+    "spell_kind": "debuff",
+    "target_kind": "single"
+  }
+}

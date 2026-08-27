@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "monsters:celestial-creature-0078",
+  "slug": "celestial-creature-0078",
+  "family": "monsters",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d55e62d8f18372e23849414c7c31129b109fa490683023b3300bdca4ec609ad9",
+  "spec": {
+    "display_name": "Celestial Creature 0078",
+    "category": "celestial",
+    "rarity": "legendary"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:spiritualism-spell-1410",
+  "slug": "spiritualism-spell-1410",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ce55029a58f7d5a639f07a74038b5d442fc3578b0f770d6a2d2dccdbcbd238cf",
+  "spec": {
+    "display_name": "Spiritualism Spell 1410",
+    "school": "spiritualism-spell-1410ualism",
+    "rarity": "epic",
+    "spell_kind": "crafting",
+    "target_kind": "item"
+  }
+}

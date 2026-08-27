@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:marksmanship-spell-0684",
+  "slug": "marksmanship-spell-0684",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:cebfa9756eb622b23fbefe2abacf4df419ef4fada31a23effdd8187d5a454e8b",
+  "spec": {
+    "display_name": "Marksmanship Spell 0684",
+    "school": "marksmanship",
+    "rarity": "common",
+    "spell_kind": "anti-stealth-reveal-projectile",
+    "target_kind": "area-effect"
+  }
+}

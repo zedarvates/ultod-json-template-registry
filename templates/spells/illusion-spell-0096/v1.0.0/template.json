@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:illusion-spell-0096",
+  "slug": "illusion-spell-0096",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:350be3cde56b04ed9986488e35531e1b5e77ecdada72fc9af828236b40ab094f",
+  "spec": {
+    "display_name": "Illusion Spell 0096",
+    "school": "illusion",
+    "rarity": "rare",
+    "spell_kind": "electronic-warfare",
+    "target_kind": "area-enemy"
+  }
+}

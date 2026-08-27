@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:smoke-bomb",
+  "slug": "smoke-bomb",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d79bdb5931089cd1804fb1bb5c912f92b1bcc633926b26b58f76789beeba5ab0",
+  "spec": {
+    "display_name": "smoke_bomb",
+    "category": "consumable",
+    "rarity": "common",
+    "item_kind": "consumable",
+    "subtype": "generic"
+  }
+}

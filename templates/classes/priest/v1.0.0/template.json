@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:priest",
+  "slug": "priest",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c129042592f8f8f16f59922eaca79a0df6d6df961a994a3ad3c630a374eb6e0b",
+  "spec": {
+    "display_name": "Priest",
+    "resource_kind": "mana"
+  }
+}

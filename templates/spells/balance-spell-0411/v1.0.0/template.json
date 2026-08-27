@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:balance-spell-0411",
+  "slug": "balance-spell-0411",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:598644e6781229fd0a1689f8eee48449c5cc38c7f4e910a37f78b0489f5b3735",
+  "spec": {
+    "display_name": "Balance Spell 0411",
+    "school": "balance",
+    "rarity": "common",
+    "spell_kind": "lunar-damage",
+    "target_kind": "single-enemy"
+  }
+}

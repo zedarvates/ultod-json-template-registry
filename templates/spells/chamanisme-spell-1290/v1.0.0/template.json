@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:chamanisme-spell-1290",
+  "slug": "chamanisme-spell-1290",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:7b98cec429d9658c4008534e0ee33f9bbaf01d59733691d3fd77480736ae55ee",
+  "spec": {
+    "display_name": "Chamanisme Spell 1290",
+    "school": "chamanisme",
+    "rarity": "common",
+    "spell_kind": "summon",
+    "target_kind": "single"
+  }
+}

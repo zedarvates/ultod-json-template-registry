@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:sweet-roll",
+  "slug": "sweet-roll",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:4cb92ed0d06deda08611b38a277d376f3b1333fbd4faf0bed7eac3c69a5362d9",
+  "spec": {
+    "display_name": "Sweet Roll",
+    "category": "consumable",
+    "rarity": "common",
+    "item_kind": "consumable",
+    "subtype": "generic"
+  }
+}

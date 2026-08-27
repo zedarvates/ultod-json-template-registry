@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:elemental-spell-1598",
+  "slug": "elemental-spell-1598",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:dd854cea70ac8d58981d260fbb750bd3c8323d01b16fcd5c37f92670bd2315a3",
+  "spec": {
+    "display_name": "Elemental Spell 1598",
+    "school": "elemental",
+    "rarity": "epic",
+    "spell_kind": "damage",
+    "target_kind": "cone"
+  }
+}

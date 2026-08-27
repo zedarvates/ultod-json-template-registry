@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:trap-spell-0682",
+  "slug": "trap-spell-0682",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:8119de54c9ad7caf2bbe22524e6b230b2ab2bc38b49c04aba2928dff98df1df6",
+  "spec": {
+    "display_name": "Trap Spell 0682",
+    "school": "trap",
+    "rarity": "rare",
+    "spell_kind": "damage-explosion-trap",
+    "target_kind": "place-at-ground"
+  }
+}

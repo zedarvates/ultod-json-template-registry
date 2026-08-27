@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:enchantment-spell-0432",
+  "slug": "enchantment-spell-0432",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:52859d6eaca4aebaf6426188bfbad62b44f989a8599960065a2d3ef787ba3128",
+  "spec": {
+    "display_name": "Enchantment Spell 0432",
+    "school": "enchantment",
+    "rarity": "rare",
+    "spell_kind": "spell-reflection-shield",
+    "target_kind": "single-ally"
+  }
+}

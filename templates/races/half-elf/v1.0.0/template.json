@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/races/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "races:half-elf",
+  "slug": "half-elf",
+  "family": "races",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:456b2d88b84c5570dab198025e7e3e3f9a3c66282f2578f02e454e9fc2a00587",
+  "spec": {
+    "display_name": "Mi-Elfe"
+  }
+}

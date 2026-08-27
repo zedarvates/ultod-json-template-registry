@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancy-spell-0957",
+  "slug": "necromancy-spell-0957",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:30ccd26963f8feccb44f860dac1c678fb2b75835b40f6c8fbe9c3ab484baf968",
+  "spec": {
+    "display_name": "Necromancy Spell 0957",
+    "school": "necromancy",
+    "rarity": "legendary",
+    "spell_kind": "elite-undead-necromancy-spell-0957ing",
+    "target_kind": "necromancy-spell-0957-at-location"
+  }
+}

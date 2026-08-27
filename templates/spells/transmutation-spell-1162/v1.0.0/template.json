@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:transmutation-spell-1162",
+  "slug": "transmutation-spell-1162",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ef7e9de3777a624ef31c9035955aaf0d472250479f086564baf3c691e33b2990",
+  "spec": {
+    "display_name": "Transmutation Spell 1162",
+    "school": "transmutation",
+    "rarity": "common",
+    "spell_kind": "buff",
+    "target_kind": "single-ally"
+  }
+}

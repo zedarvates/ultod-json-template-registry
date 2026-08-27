@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:reality-anchor-device",
+  "slug": "reality-anchor-device",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:60c41a527b6c8a29e434ff4028438d7c74f4f5651f18ced174c8be5a4e514d27",
+  "spec": {
+    "display_name": "Dispositif d'Ancrage de Réalité",
+    "category": "utility-device",
+    "rarity": "epic",
+    "item_kind": "spatial-utility"
+  }
+}

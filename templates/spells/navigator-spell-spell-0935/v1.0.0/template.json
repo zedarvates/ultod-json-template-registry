@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:navigator-spell-spell-0935",
+  "slug": "navigator-spell-spell-0935",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:2646854b36edd87e751e4c309ed4b9a4cdcfffb7d69579781dcd515bbbf66042",
+  "spec": {
+    "display_name": "Navigator Spell Spell 0935",
+    "school": "navigator-spell-spell-0935-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

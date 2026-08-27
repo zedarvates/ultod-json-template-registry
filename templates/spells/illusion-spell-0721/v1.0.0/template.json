@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:illusion-spell-0721",
+  "slug": "illusion-spell-0721",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b1bfa0b046e8983b389d87b76350c392b37e71a1c24637679e5d2b2c80b406d3",
+  "spec": {
+    "display_name": "Illusion Spell 0721",
+    "school": "illusion",
+    "rarity": "legendary",
+    "spell_kind": "reality-manifestation-from-nothing",
+    "target_kind": "creation-at-location"
+  }
+}

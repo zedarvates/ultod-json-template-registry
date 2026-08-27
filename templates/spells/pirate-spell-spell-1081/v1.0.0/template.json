@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:pirate-spell-spell-1081",
+  "slug": "pirate-spell-spell-1081",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:cd7210996e0e72999b1b109b34b9ba7384562bca4c0b389f47a990e6b057bb05",
+  "spec": {
+    "display_name": "Pirate Spell Spell 1081",
+    "school": "pirate-spell-spell-1081-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

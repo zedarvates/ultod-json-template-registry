@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:guard-insignia",
+  "slug": "guard-insignia",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:01fe27a6b8b8ef785da96864794385c5e3adc84659060c9c7f6c585d573fe0b3",
+  "spec": {
+    "display_name": "Guard Insignia",
+    "category": "armor",
+    "rarity": "common",
+    "item_kind": "armor",
+    "subtype": "generic"
+  }
+}

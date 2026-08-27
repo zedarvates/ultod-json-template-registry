@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancy-spell-0318",
+  "slug": "necromancy-spell-0318",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b413d4b761a2cccd776e5e59b20ad12f13cc97f61629798e4db00a87704695da",
+  "spec": {
+    "display_name": "Necromancy Spell 0318",
+    "school": "necromancy",
+    "rarity": "rare",
+    "spell_kind": "frost-area-attack",
+    "target_kind": "area-effect"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:physique-spell-0690",
+  "slug": "physique-spell-0690",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0c29c63844077d5cda76cacc58263b9008481248495ffd0b27e005648b4bf8d5",
+  "spec": {
+    "display_name": "Physique Spell 0690",
+    "school": "physique",
+    "rarity": "uncommon",
+    "spell_kind": "damage",
+    "target_kind": "area"
+  }
+}

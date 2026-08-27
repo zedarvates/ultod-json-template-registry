@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:binoculars-basic",
+  "slug": "binoculars-basic",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e006a22f4591f0433d30be1903d1b53c2ba3e596f24b4bb6e76212a7bb0dca8f",
+  "spec": {
+    "display_name": "Basic Binoculars",
+    "category": "tool",
+    "rarity": "common",
+    "item_kind": "tool",
+    "subtype": "optic"
+  }
+}

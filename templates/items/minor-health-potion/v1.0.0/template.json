@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:minor-health-potion",
+  "slug": "minor-health-potion",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d8302ec999403aba39b0f753dc83b64986fedda846f04311d2965fe2c3882484",
+  "spec": {
+    "display_name": "Petite Potion de Soin",
+    "category": "consumable",
+    "rarity": "common",
+    "item_kind": "potion",
+    "subtype": "health"
+  }
+}

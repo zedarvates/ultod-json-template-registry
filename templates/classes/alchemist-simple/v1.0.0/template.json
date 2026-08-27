@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:alchemist-simple",
+  "slug": "alchemist-simple",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ec8e3b4246579cc6f464ceda2876eec49b833c1b71ae601a17aced1b855fc15f",
+  "spec": {
+    "display_name": "Alchemist"
+  }
+}

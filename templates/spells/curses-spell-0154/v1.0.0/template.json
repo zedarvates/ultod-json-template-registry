@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:curses-spell-0154",
+  "slug": "curses-spell-0154",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d8fc16ad6296671af707f0f44b4d1a6fd69913868f797e7cf9f8fa001cf5467c",
+  "spec": {
+    "display_name": "Curses Spell 0154",
+    "school": "curses",
+    "rarity": "rare",
+    "spell_kind": "curse-spell",
+    "target_kind": "enemy"
+  }
+}

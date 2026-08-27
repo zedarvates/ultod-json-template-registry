@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:herbal-medicine",
+  "slug": "herbal-medicine",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:4c0b67eb4e9c1b2ae532010064d741ed68738a1d8ce61c61921b412e839e487a",
+  "spec": {
+    "display_name": "Herbal Medicine",
+    "category": "consumable",
+    "rarity": "common",
+    "item_kind": "consumable",
+    "subtype": "generic"
+  }
+}

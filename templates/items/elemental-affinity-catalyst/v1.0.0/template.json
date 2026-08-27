@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:elemental-affinity-catalyst",
+  "slug": "elemental-affinity-catalyst",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:282b9328b3a88663c51d7f436a43c9e7baf37f26a4e60659c6ec197ae47e632e",
+  "spec": {
+    "display_name": "Catalyseur d'Affinité Élémentaire",
+    "category": "consumable",
+    "rarity": "rare",
+    "item_kind": "spell-customization-catalyst"
+  }
+}

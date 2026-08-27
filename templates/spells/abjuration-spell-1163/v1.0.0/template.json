@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:abjuration-spell-1163",
+  "slug": "abjuration-spell-1163",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b8aad056a2466f79a5ca019a0d31b8f7b76cdc6de4bb8c1bd2a658075785cb14",
+  "spec": {
+    "display_name": "Abjuration Spell 1163",
+    "school": "abjuration",
+    "rarity": "uncommon",
+    "spell_kind": "buff",
+    "target_kind": "self"
+  }
+}

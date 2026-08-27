@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/races/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "races:skaven",
+  "slug": "skaven",
+  "family": "races",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:341cddf9486fb0f24a5b4dd7f114e5ace66e61fb2dc1b778ceca42fda65458f3",
+  "spec": {
+    "display_name": "Skaven",
+    "category": "humanoid",
+    "rarity": "rare",
+    "faction_tag": "chaos"
+  }
+}

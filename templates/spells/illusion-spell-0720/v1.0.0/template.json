@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:illusion-spell-0720",
+  "slug": "illusion-spell-0720",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:981b585c24d1b5ce66e4a30c007138405c239b0b37591422a115d8c6fd7a97e2",
+  "spec": {
+    "display_name": "Illusion Spell 0720",
+    "school": "illusion",
+    "rarity": "uncommon",
+    "spell_kind": "dimensional-displacement-illusion",
+    "target_kind": "single-enemy-teleportation"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancy-spell-0325",
+  "slug": "necromancy-spell-0325",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:159a6f29d24b823db9175b9bb7effbc4edc1e8857190b018b9e4895885382cf6",
+  "spec": {
+    "display_name": "Necromancy Spell 0325",
+    "school": "necromancy",
+    "rarity": "uncommon",
+    "spell_kind": "rune-power-enhancement",
+    "target_kind": "self"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancy-spell-0327",
+  "slug": "necromancy-spell-0327",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:7d5df72c4b6a1789733dbbc3664cdc06a8158c5be8f2be61ef1182750f2498b6",
+  "spec": {
+    "display_name": "Necromancy Spell 0327",
+    "school": "necromancy",
+    "rarity": "epic",
+    "spell_kind": "blood-self-buff",
+    "target_kind": "self"
+  }
+}

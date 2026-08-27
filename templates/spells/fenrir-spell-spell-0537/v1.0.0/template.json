@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:fenrir-spell-spell-0537",
+  "slug": "fenrir-spell-spell-0537",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:487e77c2280711e23749b4415b2348713e520a936bb91bf3081385d995af3757",
+  "spec": {
+    "display_name": "Fenrir Spell Spell 0537",
+    "school": "fenrir-spell-spell-0537-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

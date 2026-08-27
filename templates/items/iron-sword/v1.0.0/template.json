@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:iron-sword",
+  "slug": "iron-sword",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:4296a9d6901e89ec48ff5bef9586ce4f2ade94069418cd3e879858d9e2fe6bd9",
+  "spec": {
+    "display_name": "Épée en Fer",
+    "category": "weapon",
+    "rarity": "common",
+    "item_kind": "sword",
+    "subtype": "one-hand"
+  }
+}

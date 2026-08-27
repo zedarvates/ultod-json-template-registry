@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/races/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "races:sylphe",
+  "slug": "sylphe",
+  "family": "races",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:6f5e396e2e6de9f84a85792b1b6c11612c88fe61d6216e89377820a8564fd944",
+  "spec": {
+    "display_name": "Sylphe",
+    "category": "elemental",
+    "rarity": "uncommon",
+    "faction_tag": "nature"
+  }
+}

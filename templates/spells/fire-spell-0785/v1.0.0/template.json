@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:fire-spell-0785",
+  "slug": "fire-spell-0785",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:598f04a89b29a30155fec1eea62c95861e38a045ac740a00fae65d38b22db475",
+  "spec": {
+    "display_name": "Fire Spell 0785",
+    "school": "fire",
+    "rarity": "legendary",
+    "spell_kind": "adapted-referencete-fire-destruction",
+    "target_kind": "enemy-or-location"
+  }
+}

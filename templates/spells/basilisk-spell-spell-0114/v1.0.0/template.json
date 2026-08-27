@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:basilisk-spell-spell-0114",
+  "slug": "basilisk-spell-spell-0114",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:198df3c8797ed3d5981afbed90ed7340dcfaa8446d23825dbac46838dcb3f723",
+  "spec": {
+    "display_name": "Basilisk Spell Spell 0114",
+    "school": "basilisk-spell-spell-0114-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

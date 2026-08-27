@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:gamemaster",
+  "slug": "gamemaster",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:25c3992c15e88da7bdf7617122b87c2e5af8d5408824a37c3ed83acbe925b019",
+  "spec": {
+    "display_name": "[ADMIN] Game Master",
+    "resource_kind": "event-energy"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:transmutation-spell-1601",
+  "slug": "transmutation-spell-1601",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:5732489da63175f7dc325f42ce2019238747fcc4c86fc37a891ae3f8fb25a3f5",
+  "spec": {
+    "display_name": "Transmutation Spell 1601",
+    "school": "transmutation",
+    "rarity": "epic",
+    "spell_kind": "control",
+    "target_kind": "area"
+  }
+}

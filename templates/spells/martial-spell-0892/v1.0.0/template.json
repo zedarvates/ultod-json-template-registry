@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:martial-spell-0892",
+  "slug": "martial-spell-0892",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:18f21e3700fddc645fda2761821786efe553f3acdfec6c49e5138c25f825de1d",
+  "spec": {
+    "display_name": "Martial Spell 0892",
+    "school": "martial",
+    "rarity": "uncommon",
+    "spell_kind": "nerve-strike-martial-spell-0892",
+    "target_kind": "enemy-target"
+  }
+}

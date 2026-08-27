@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/races/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "races:elf-simple",
+  "slug": "elf-simple",
+  "family": "races",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:52d725d97efc84f0fe449e447cca0ba094d1b2f24da3028d3db53585fafe70c3",
+  "spec": {
+    "display_name": "Elf"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:elementaire-spell-1217",
+  "slug": "elementaire-spell-1217",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:5828ae3ee8201bc48e57164cabfe6b4c689ce25dd246f4e0c62e7edc2c6334cd",
+  "spec": {
+    "display_name": "Elementaire Spell 1217",
+    "school": "elementaire",
+    "rarity": "rare",
+    "spell_kind": "damage",
+    "target_kind": "area"
+  }
+}

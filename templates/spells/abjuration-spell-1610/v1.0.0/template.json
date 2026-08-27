@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:abjuration-spell-1610",
+  "slug": "abjuration-spell-1610",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:6c9b43c049942aa718a1c393d337f3517e70c048e4bb62b873a201395d5af951",
+  "spec": {
+    "display_name": "Abjuration Spell 1610",
+    "school": "abjuration",
+    "rarity": "epic",
+    "spell_kind": "barrier",
+    "target_kind": "area"
+  }
+}

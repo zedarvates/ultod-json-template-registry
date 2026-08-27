@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:abjuration-spell-0084",
+  "slug": "abjuration-spell-0084",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0160afa9de580b9df9581f78ed68e6f60f3b1b0ec692b7b4198b188e19ac8b90",
+  "spec": {
+    "display_name": "Abjuration Spell 0084",
+    "school": "abjuration",
+    "rarity": "uncommon",
+    "spell_kind": "abjuration-spell-0084-buff",
+    "target_kind": "single-ally"
+  }
+}

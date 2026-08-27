@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "monsters:swarm-creature-0363",
+  "slug": "swarm-creature-0363",
+  "family": "monsters",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:5577fa749ed0d1483b6cf2ae78b083e3df7e98f9d3f692d568626f50d2c3f119",
+  "spec": {
+    "display_name": "Swarm Creature 0363",
+    "category": "swarm-creature-0363",
+    "rarity": "uncommon"
+  }
+}

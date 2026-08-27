@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:shadow-spell-0152",
+  "slug": "shadow-spell-0152",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f0c41ea093e1cfc2da8ff6feb9b76c98a843e010375021dcd1f43dce55aa06d6",
+  "spec": {
+    "display_name": "Shadow Spell 0152",
+    "school": "shadow",
+    "rarity": "common",
+    "spell_kind": "melee-attack",
+    "target_kind": "enemy"
+  }
+}

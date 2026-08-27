@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:transmutation-spell-1154",
+  "slug": "transmutation-spell-1154",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:44badc4461e12c89fa439f70f38f4d7cda418995572f07ceed6e39b6a48f84e1",
+  "spec": {
+    "display_name": "Transmutation Spell 1154",
+    "school": "transmutation",
+    "rarity": "uncommon",
+    "spell_kind": "control",
+    "target_kind": "single-enemy-flying"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:spiritual-spell-0043",
+  "slug": "spiritual-spell-0043",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c3834a31f756e7ebccc69c27b8e00fd8fb10fec824b026348640683f7412b1f6",
+  "spec": {
+    "display_name": "Spiritual Spell 0043",
+    "school": "spiritual",
+    "rarity": "epic",
+    "spell_kind": "damage",
+    "target_kind": "single-enemy"
+  }
+}

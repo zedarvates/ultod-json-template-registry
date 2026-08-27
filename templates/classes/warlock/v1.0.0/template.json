@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:warlock",
+  "slug": "warlock",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ad71f4add72e78042b4fbfdb633655715551fabd0e777ea0cfffef147f70c845",
+  "spec": {
+    "display_name": "Warlock",
+    "resource_kind": "mana"
+  }
+}

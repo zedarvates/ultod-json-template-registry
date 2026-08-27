@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:balance-spell-0404",
+  "slug": "balance-spell-0404",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:904f376b6893bb82f2e1a2a5a1fdeaa92ce8661a8f549addc322a9b84ac34d39",
+  "spec": {
+    "display_name": "Balance Spell 0404",
+    "school": "balance",
+    "rarity": "uncommon",
+    "spell_kind": "earth-control-totem",
+    "target_kind": "area-effect"
+  }
+}

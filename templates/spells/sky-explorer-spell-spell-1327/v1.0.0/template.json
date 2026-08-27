@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:sky-explorer-spell-spell-1327",
+  "slug": "sky-explorer-spell-spell-1327",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:27eb3dfa8314c977d500474d45abc005b9c0efd2533633b8244f1e63360db173",
+  "spec": {
+    "display_name": "Sky Explorer Spell Spell 1327",
+    "school": "sky-sky-explorer-spell-spell-1327-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

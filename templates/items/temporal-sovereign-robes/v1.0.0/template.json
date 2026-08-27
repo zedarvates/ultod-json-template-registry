@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:temporal-sovereign-robes",
+  "slug": "temporal-sovereign-robes",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:406454584aff5fa2d4a56e1b2b716960bf389bfabdefec1537940008f5249abf",
+  "spec": {
+    "display_name": "Robes du Souverain Temporel",
+    "category": "chest-armor",
+    "rarity": "legendary",
+    "item_kind": "artifact-armor"
+  }
+}

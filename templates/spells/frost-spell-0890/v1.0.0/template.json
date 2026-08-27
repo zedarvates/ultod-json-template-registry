@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:frost-spell-0890",
+  "slug": "frost-spell-0890",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:bd8b3e2254c64d81851b2acc53cb0f19f64563bae9c8e4abe71efeb0935e7ab6",
+  "spec": {
+    "display_name": "Frost Spell 0890",
+    "school": "frost",
+    "rarity": "epic",
+    "spell_kind": "icy-self-protection-cocoon",
+    "target_kind": "self-shield"
+  }
+}

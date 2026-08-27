@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:transmutation-spell-1383",
+  "slug": "transmutation-spell-1383",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:596d0c9b9cc147452f8074b74b83318458542764e4b39af9b58761cd7db2d494",
+  "spec": {
+    "display_name": "Transmutation Spell 1383",
+    "school": "transmutation",
+    "rarity": "uncommon",
+    "spell_kind": "buff",
+    "target_kind": "single"
+  }
+}

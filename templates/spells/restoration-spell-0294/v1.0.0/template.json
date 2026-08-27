@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:restoration-spell-0294",
+  "slug": "restoration-spell-0294",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:05ee921287fbde1ca9fb759237b39ab5373765821974d8b102a6a9d857a8e60c",
+  "spec": {
+    "display_name": "Restoration Spell 0294",
+    "school": "restoration",
+    "rarity": "epic",
+    "spell_kind": "restoration-spell-0294-spell",
+    "target_kind": "single-ally-corpse"
+  }
+}

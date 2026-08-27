@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:sacre-spell-1116",
+  "slug": "sacre-spell-1116",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:afe1e4713d1cd5bbdf57354a4d9bdb97aef22bf179dcf796ee4d8ba1571d4568",
+  "spec": {
+    "display_name": "Sacre Spell 1116",
+    "school": "sacr",
+    "rarity": "uncommon",
+    "spell_kind": "utility",
+    "target_kind": "ally"
+  }
+}

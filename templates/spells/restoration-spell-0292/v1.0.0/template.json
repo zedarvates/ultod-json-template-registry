@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:restoration-spell-0292",
+  "slug": "restoration-spell-0292",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:27bddf7fb9c23f820f5a0d84bdeec8b09be72e93b22992d856aa123047d7b77a",
+  "spec": {
+    "display_name": "Restoration Spell 0292",
+    "school": "restoration",
+    "rarity": "uncommon",
+    "spell_kind": "divine-restoration-spell-0292",
+    "target_kind": "multiple-allies"
+  }
+}

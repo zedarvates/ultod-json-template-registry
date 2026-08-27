@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:shadow-bolt",
+  "slug": "shadow-bolt",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:9e683ba7fe7ee4613a26233ab441dd57f56d0de02f89e1300e5a0f50751e0f59",
+  "spec": {
+    "display_name": "Shadow Bolt",
+    "school": "shadow",
+    "rarity": "common",
+    "spell_kind": "damage-instant",
+    "target_kind": "enemy"
+  }
+}

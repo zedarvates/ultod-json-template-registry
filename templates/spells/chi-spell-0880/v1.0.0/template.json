@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:chi-spell-0880",
+  "slug": "chi-spell-0880",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:9b7944d043bc7a1c413ad5c806723410c10c75d1453d44fa5dc2d0b9e7692284",
+  "spec": {
+    "display_name": "Chi Spell 0880",
+    "school": "chi",
+    "rarity": "uncommon",
+    "spell_kind": "chi-energy-wave",
+    "target_kind": "self-area-chi-spell-0880"
+  }
+}

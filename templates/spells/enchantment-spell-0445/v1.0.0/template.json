@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:enchantment-spell-0445",
+  "slug": "enchantment-spell-0445",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:791253b59211b3d82587f7e178267520efddd9a4c87f64f8ea70a621152da3f9",
+  "spec": {
+    "display_name": "Enchantment Spell 0445",
+    "school": "enchantment",
+    "rarity": "rare",
+    "spell_kind": "rune-field-enhancement",
+    "target_kind": "place-at-location"
+  }
+}

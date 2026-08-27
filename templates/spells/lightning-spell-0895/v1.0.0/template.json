@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:lightning-spell-0895",
+  "slug": "lightning-spell-0895",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b1bda6ee79694238a467a235a52d1c2f55413d9e5849294ed467f72d0616f23f",
+  "spec": {
+    "display_name": "Lightning Spell 0895",
+    "school": "lightning",
+    "rarity": "rare",
+    "spell_kind": "lightning-leg-enhancement",
+    "target_kind": "self-leg-buff"
+  }
+}

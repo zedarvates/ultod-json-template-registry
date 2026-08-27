@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:enchantment-spell-0441",
+  "slug": "enchantment-spell-0441",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:840fd2487eb7f2c48f514d69aa63d6f2e319f7a2fc0c761f472a49348e61b603",
+  "spec": {
+    "display_name": "Enchantment Spell 0441",
+    "school": "enchantment",
+    "rarity": "uncommon",
+    "spell_kind": "stealth-cloaking-magic",
+    "target_kind": "self-or-ally"
+  }
+}

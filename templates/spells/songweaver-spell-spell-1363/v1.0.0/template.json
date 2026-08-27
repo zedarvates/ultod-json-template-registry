@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:songweaver-spell-spell-1363",
+  "slug": "songweaver-spell-spell-1363",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a367d062fe25b3a45be5a97ec0656747edcb156048bcdca12a343fc8c0a077f0",
+  "spec": {
+    "display_name": "Songweaver Spell Spell 1363",
+    "school": "songweaver-spell-spell-1363-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

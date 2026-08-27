@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:cosmetic-shadow-cloak",
+  "slug": "cosmetic-shadow-cloak",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f54760196b0cb2491cf5fcf00db6f4f9bdd337558f4d60ca6b70ac8d2f86a9d4",
+  "spec": {
+    "display_name": "Cape d'Ombre Astrale",
+    "category": "cosmetic",
+    "rarity": "rare",
+    "item_kind": "cosmetic",
+    "subtype": "cloak"
+  }
+}

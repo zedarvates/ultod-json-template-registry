@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "monsters:rift-creature-0084",
+  "slug": "rift-creature-0084",
+  "family": "monsters",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:2aba69d2a9879802f0473098e81aba3e818a4d15e45a48133bc6ab7f3a018188",
+  "spec": {
+    "display_name": "Rift Creature 0084",
+    "category": "rift",
+    "rarity": "rare"
+  }
+}

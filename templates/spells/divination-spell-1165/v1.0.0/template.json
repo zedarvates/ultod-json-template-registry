@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:divination-spell-1165",
+  "slug": "divination-spell-1165",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:2d48ecb8c84bc5f9696f3be9242a05b3c0148dca00745e410c3ac8d7f17b4751",
+  "spec": {
+    "display_name": "Divination Spell 1165",
+    "school": "divination",
+    "rarity": "uncommon",
+    "spell_kind": "utility",
+    "target_kind": "self"
+  }
+}

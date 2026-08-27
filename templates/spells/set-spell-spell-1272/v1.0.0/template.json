@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:set-spell-spell-1272",
+  "slug": "set-spell-spell-1272",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:324c782b39972c9a347e4ebd1bdabf68b618d04c455a8cb6a8fed2ab7e1736c6",
+  "spec": {
+    "display_name": "Set Spell Spell 1272",
+    "school": "set-set-spell-spell-1272",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

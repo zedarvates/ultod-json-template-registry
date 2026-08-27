@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:thoth-spell-spell-1486",
+  "slug": "thoth-spell-spell-1486",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d78680a30a931c1512e5aaaee92f8d00aea73bd2dd3389439f73c8f3d0d5fd85",
+  "spec": {
+    "display_name": "Thoth Spell Spell 1486",
+    "school": "thoth-spell-spell-1486-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

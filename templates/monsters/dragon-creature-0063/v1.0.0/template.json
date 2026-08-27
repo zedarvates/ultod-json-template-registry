@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/monsters/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "monsters:dragon-creature-0063",
+  "slug": "dragon-creature-0063",
+  "family": "monsters",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:bfa93f010c5fb4d8be9163f21b43812ef8f1cab0602c705b2cf10da931122696",
+  "spec": {
+    "display_name": "Dragon Creature 0063",
+    "category": "dragon",
+    "rarity": "uncommon"
+  }
+}

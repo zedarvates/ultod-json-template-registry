@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancy-spell-0307",
+  "slug": "necromancy-spell-0307",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:caa8f03b3a850fd3ca680fc63779acf0b87923f03582285c4c389d6325ba9e21",
+  "spec": {
+    "display_name": "Necromancy Spell 0307",
+    "school": "necromancy",
+    "rarity": "uncommon",
+    "spell_kind": "infectious-disease",
+    "target_kind": "single-enemy"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:celestial-avatar",
+  "slug": "celestial-avatar",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b17cab0f93e0a0355d91d5aef8dd504bb72fc8ccb27d2dec0a8eb0f6d4b57188",
+  "spec": {
+    "display_name": "[ADMIN] Celestial Avatar",
+    "resource_kind": "divine-essence"
+  }
+}

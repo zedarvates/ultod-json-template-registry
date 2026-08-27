@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:holy-spell-1035",
+  "slug": "holy-spell-1035",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:989f66705013510743c0935b406d5f77f3db45008d596193d43773638df9e2ad",
+  "spec": {
+    "display_name": "Holy Spell 1035",
+    "school": "holy",
+    "rarity": "common",
+    "spell_kind": "healing-over-time",
+    "target_kind": "single-ally"
+  }
+}

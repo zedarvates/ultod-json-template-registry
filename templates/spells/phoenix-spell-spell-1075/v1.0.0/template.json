@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:phoenix-spell-spell-1075",
+  "slug": "phoenix-spell-spell-1075",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0b4fb8c692c336eebab641d7178ab777fb325dcbad54608084e28c45271c7330",
+  "spec": {
+    "display_name": "Phoenix Spell Spell 1075",
+    "school": "phoenix-spell-spell-1075-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

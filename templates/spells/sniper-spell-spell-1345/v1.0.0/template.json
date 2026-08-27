@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:sniper-spell-spell-1345",
+  "slug": "sniper-spell-spell-1345",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e0f7e2ce3e8613f4521efe3b4fe17e8063507357627d28e6c6c95596c98a8e50",
+  "spec": {
+    "display_name": "Sniper Spell Spell 1345",
+    "school": "sniper-spell-spell-1345-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

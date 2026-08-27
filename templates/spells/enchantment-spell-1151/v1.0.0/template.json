@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:enchantment-spell-1151",
+  "slug": "enchantment-spell-1151",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:2a8f3a53729420d1cb24d6a85dda5a159c3e41860709633719a20ad777bdfffc",
+  "spec": {
+    "display_name": "Enchantment Spell 1151",
+    "school": "enchantment",
+    "rarity": "uncommon",
+    "spell_kind": "charm",
+    "target_kind": "single-beast"
+  }
+}

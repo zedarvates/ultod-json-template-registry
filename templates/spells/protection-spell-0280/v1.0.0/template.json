@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:protection-spell-0280",
+  "slug": "protection-spell-0280",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0e913a6854dd9af2729787e6406bab159a1c56168cd982b13c46d3e24a789607",
+  "spec": {
+    "display_name": "Protection Spell 0280",
+    "school": "protection",
+    "rarity": "common",
+    "spell_kind": "protection-spell-0280-protection",
+    "target_kind": "single-ally"
+  }
+}

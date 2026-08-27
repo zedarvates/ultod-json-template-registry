@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:spyglass-basic",
+  "slug": "spyglass-basic",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:2331cdf3319e30afc8743a2a911b882b9e6f03933ec2b4d9de91b3689a68980d",
+  "spec": {
+    "display_name": "Basic Spyglass",
+    "category": "tool",
+    "rarity": "common",
+    "item_kind": "tool",
+    "subtype": "optic"
+  }
+}

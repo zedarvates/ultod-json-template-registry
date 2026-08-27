@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:conjuration-spell-1152",
+  "slug": "conjuration-spell-1152",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:20d17636cd16e14694111f20b861c9287d857ddbfaaf3b5c1a2dd935cdc6abfc",
+  "spec": {
+    "display_name": "Conjuration Spell 1152",
+    "school": "conjuration",
+    "rarity": "rare",
+    "spell_kind": "summon",
+    "target_kind": "area-ground"
+  }
+}

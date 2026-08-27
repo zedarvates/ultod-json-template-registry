@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:temporal-spell-0234",
+  "slug": "temporal-spell-0234",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:4a7ecbb1c1da1448e2e14de67cbd4f586667103b5e629c4701daa64f8519c8bd",
+  "spec": {
+    "display_name": "Temporal Spell 0234",
+    "school": "temporal",
+    "rarity": "legendary",
+    "spell_kind": "healing-utility",
+    "target_kind": "self"
+  }
+}

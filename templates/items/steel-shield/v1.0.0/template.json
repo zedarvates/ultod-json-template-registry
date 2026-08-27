@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:steel-shield",
+  "slug": "steel-shield",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:6dd2550e6f9ed343feba396b9521f257148a2769d9f3e3a40f5af93bc2396dd7",
+  "spec": {
+    "display_name": "Bouclier d'Acier",
+    "category": "armor",
+    "rarity": "common",
+    "item_kind": "shield",
+    "subtype": "offhand"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:temporal-sovereign-staff",
+  "slug": "temporal-sovereign-staff",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:3c58d5695c511dbec434deb1a635f040656be85f3863e24810beb96f5bcb6caa",
+  "spec": {
+    "display_name": "Bâton du Souverain Temporel",
+    "category": "main-hand-weapon",
+    "rarity": "legendary",
+    "item_kind": "artifact-weapon"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:necromancy-spell-0955",
+  "slug": "necromancy-spell-0955",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:3605ea84e5c166f7170a6560186de02c3df9f529e21542990560fe3e1217c345",
+  "spec": {
+    "display_name": "Necromancy Spell 0955",
+    "school": "necromancy",
+    "rarity": "epic",
+    "spell_kind": "necromancy-spell-0955-imprisonment-spell",
+    "target_kind": "single-target"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:enchantment-spell-0440",
+  "slug": "enchantment-spell-0440",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:eab967cd8cf29887d04ac6f9c47df792b072ef7e007a0060a78910cbb7e39363",
+  "spec": {
+    "display_name": "Enchantment Spell 0440",
+    "school": "enchantment",
+    "rarity": "uncommon",
+    "spell_kind": "deceptive-projection",
+    "target_kind": "self"
+  }
+}

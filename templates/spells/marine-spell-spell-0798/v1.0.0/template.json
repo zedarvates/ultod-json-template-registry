@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:marine-spell-spell-0798",
+  "slug": "marine-spell-spell-0798",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b18047b8d7a5ca149d480a06798c8787985bd44b412c23e6c7e9189038b9a326",
+  "spec": {
+    "display_name": "Marine Spell Spell 0798",
+    "school": "marine-spell-spell-0798-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

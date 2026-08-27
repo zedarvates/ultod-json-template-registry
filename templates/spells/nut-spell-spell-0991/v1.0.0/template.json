@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:nut-spell-spell-0991",
+  "slug": "nut-spell-spell-0991",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:40a8b5137ab84975b93bdb6c8ede4b3c8ad5a8dc32ddb343d8b532c95d917929",
+  "spec": {
+    "display_name": "Nut Spell Spell 0991",
+    "school": "nut-nut-spell-spell-0991",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

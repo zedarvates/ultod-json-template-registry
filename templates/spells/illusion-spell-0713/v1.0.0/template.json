@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:illusion-spell-0713",
+  "slug": "illusion-spell-0713",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f0c6138f1627bf311b00fe8f7524fd9bead3153d1cd46e81cf41293646148996",
+  "spec": {
+    "display_name": "Illusion Spell 0713",
+    "school": "illusion",
+    "rarity": "epic",
+    "spell_kind": "complete-physiological-alteration",
+    "target_kind": "single-target-self"
+  }
+}

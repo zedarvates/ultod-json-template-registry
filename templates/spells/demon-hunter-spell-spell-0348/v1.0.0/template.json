@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:demon-hunter-spell-spell-0348",
+  "slug": "demon-hunter-spell-spell-0348",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:1b4210a0bf459b246633a8d8536e7c6f61ce2eb93e6bc25740a26700c68d23cc",
+  "spec": {
+    "display_name": "Demon Hunter Spell Spell 0348",
+    "school": "demon-hunter-spell-spell-0348-hunter-spell",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single"
+  }
+}

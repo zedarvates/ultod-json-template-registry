@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/races/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "races:beastman",
+  "slug": "beastman",
+  "family": "races",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:dcac38e3fd0196a31f36b8b43c2216729e61d297d874aa9ae93db77263223aef",
+  "spec": {
+    "display_name": "Beastman",
+    "category": "playable",
+    "rarity": "uncommon",
+    "faction_tag": "chaos"
+  }
+}

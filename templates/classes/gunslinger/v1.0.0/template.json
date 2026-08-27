@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:gunslinger",
+  "slug": "gunslinger",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:bc7621f17e90936fc3744027003f11638fde239ba5efeb328d7be9b7ae0dfc33",
+  "spec": {
+    "display_name": "Gunslinger",
+    "resource_kind": "kinetic"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/items/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "items:void-weave-thread",
+  "slug": "void-weave-thread",
+  "family": "items",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:1fb1b4aee5927a0ebd946903c4cc85a7e89d282dbb5f4ba96cb377fa8f5c9ce0",
+  "spec": {
+    "display_name": "Fil de Tissage du Vide",
+    "category": "material",
+    "rarity": "common",
+    "item_kind": "magic-crafting-material"
+  }
+}

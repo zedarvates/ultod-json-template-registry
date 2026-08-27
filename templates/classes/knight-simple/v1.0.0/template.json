@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/classes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "classes:knight-simple",
+  "slug": "knight-simple",
+  "family": "classes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f3d16f7540ace48fabdfb9f711a53e8b0223eae05b8398e5cf24ce94f8cb207e",
+  "spec": {
+    "display_name": "Knight"
+  }
+}

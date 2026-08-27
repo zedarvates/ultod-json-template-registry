@@ -1,0 +1,23 @@
+{
+  "$schema": "../../../schemas/spells/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:beast-mastery-spell-0692",
+  "slug": "beast-mastery-spell-0692",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a25e4298b254912df9e93d85e55bd77c66a1bd758ede297c57db8acdab1d3e23",
+  "spec": {
+    "display_name": "Beast Mastery Spell 0692",
+    "school": "beast-mastery",
+    "rarity": "uncommon",
+    "spell_kind": "venom-damage-over-time",
+    "target_kind": "single-enemy"
+  }
+}
