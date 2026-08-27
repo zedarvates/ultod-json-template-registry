@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/biomes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "biomes:desert",
+  "slug": "desert",
+  "family": "biomes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:8dfb003a935ccf059dbeb23619b80639e502bfc9d2a590020742174a880157c5",
+  "spec": {
+    "display_name": "Sahara Ancien",
+    "category_tag": "dangerous",
+    "climate_tag": "hot",
+    "terrain_tags": [
+      "sand-dunes",
+      "rocky-canyon",
+      "ancient-ruins"
+    ]
+  }
+}

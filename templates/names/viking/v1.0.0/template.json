@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/names/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "names:viking",
+  "slug": "viking",
+  "family": "names",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0297227894eab55e24bd310dd909061ebe63fbcde899a140ae322ea461c62951",
+  "spec": {
+    "display_name": "Vikings/Nordiques",
+    "culture_tag": "viking"
+  }
+}

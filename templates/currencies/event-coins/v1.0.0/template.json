@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/currencies/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "currencies:event-coins",
+  "slug": "event-coins",
+  "family": "currencies",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:97ff92a265bd4e9d5357db7c5ff07505ff1fdf53d05800325fb0679181acc3e8",
+  "spec": {
+    "display_name": "Event Coins",
+    "currency_code": "event-coins"
+  }
+}

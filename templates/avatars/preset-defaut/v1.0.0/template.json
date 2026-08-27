@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/avatars/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "avatars:preset-defaut",
+  "slug": "preset-defaut",
+  "family": "avatars",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:da2f94213d801c06ad4034ec6ace8bcdb9f77158d1fd51ca3f5b9a7a62877ab8",
+  "spec": {
+    "display_name": "Défaut"
+  }
+}

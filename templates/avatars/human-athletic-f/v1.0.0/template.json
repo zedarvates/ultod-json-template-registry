@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/avatars/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "avatars:human-athletic-f",
+  "slug": "human-athletic-f",
+  "family": "avatars",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:6ade1c30f3daee62a6666357b6a03011179dce0934a27311379f60508951d2d3",
+  "spec": {
+    "display_name": "Humaine athletique",
+    "species_tag": "human",
+    "variant_tag": "athletic",
+    "body_frame_tag": "feminine"
+  }
+}

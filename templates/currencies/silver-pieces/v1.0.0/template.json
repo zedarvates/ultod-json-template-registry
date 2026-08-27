@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/currencies/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "currencies:silver-pieces",
+  "slug": "silver-pieces",
+  "family": "currencies",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:1fecf90a1d30f49aec2aa4eb154de7dcc7c1d60ba6fbc10d24a76f12bea2c7a4",
+  "spec": {
+    "display_name": "Silver Pieces",
+    "currency_code": "silver-pieces"
+  }
+}
