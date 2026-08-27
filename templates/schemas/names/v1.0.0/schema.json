@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ultimateodycer.com/schemas/names/1.0.0",
+  "title": "Ultimate Odycer names Template v1",
+  "allOf": [
+    {
+      "$ref": "https://ultimateodycer.com/schemas/template-contract/1.0.0"
+    },
+    {
+      "properties": {
+        "spec": {
+          "type": "object",
+          "required": [
+            "display_name",
+            "culture_tag"
+          ],
+          "properties": {
+            "display_name": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "culture_tag": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "maxLength": 64
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    }
+  ]
+}

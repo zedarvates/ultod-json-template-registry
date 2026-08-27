@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/currencies/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "currencies:essence-crystals",
+  "slug": "essence-crystals",
+  "family": "currencies",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:7787328955b5289be822166bf0bb783378cf4f48ed4a321b96523548cd3b0aa4",
+  "spec": {
+    "display_name": "Essence Crystals",
+    "currency_code": "essence-crystals"
+  }
+}

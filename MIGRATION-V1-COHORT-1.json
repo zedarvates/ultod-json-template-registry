@@ -1,0 +1,237 @@
+{
+  "report_version": "1.0.0",
+  "cohort": "1",
+  "families": [
+    "achievements",
+    "avatars",
+    "biomes",
+    "currencies",
+    "names"
+  ],
+  "summary": {
+    "total": 26,
+    "dispositions": {
+      "legacy-only-authoritative": 3,
+      "manual-review": 1,
+      "migrated": 22
+    }
+  },
+  "results": [
+    {
+      "source_file": "templates/achievements/combat/v0.1.0/template.json",
+      "family": "achievements",
+      "slug": "combat",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-progression-and-rewards"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/achievements/exploration/v0.1.0/template.json",
+      "family": "achievements",
+      "slug": "exploration",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-progression-and-rewards"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/achievements/profession/v0.1.0/template.json",
+      "family": "achievements",
+      "slug": "profession",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-progression-and-rewards"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/avatars/human-athletic-f/v0.1.0/template.json",
+      "family": "avatars",
+      "slug": "human-athletic-f",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/avatars/human-athletic-f/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/avatars/human-balanced-m/v0.1.0/template.json",
+      "family": "avatars",
+      "slug": "human-balanced-m",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/avatars/human-balanced-m/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/avatars/preset-defaut/v0.1.0/template.json",
+      "family": "avatars",
+      "slug": "preset-defaut",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/avatars/preset-defaut/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/biomes/cave/v0.1.0/template.json",
+      "family": "biomes",
+      "slug": "cave",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/biomes/cave/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/biomes/celestial/v0.1.0/template.json",
+      "family": "biomes",
+      "slug": "celestial",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/biomes/celestial/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/biomes/desert/v0.1.0/template.json",
+      "family": "biomes",
+      "slug": "desert",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/biomes/desert/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/biomes/forest/v0.1.0/template.json",
+      "family": "biomes",
+      "slug": "forest",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/biomes/forest/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/biomes/mystic/v0.1.0/template.json",
+      "family": "biomes",
+      "slug": "mystic",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/biomes/mystic/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/biomes/ocean/v0.1.0/template.json",
+      "family": "biomes",
+      "slug": "ocean",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/biomes/ocean/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/biomes/tundra/v0.1.0/template.json",
+      "family": "biomes",
+      "slug": "tundra",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/biomes/tundra/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/biomes/volcano/v0.1.0/template.json",
+      "family": "biomes",
+      "slug": "volcano",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/biomes/volcano/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/currencies/1/v0.1.0/template.json",
+      "family": "currencies",
+      "slug": "gold-pieces",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/currencies/gold-pieces/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/currencies/100/v0.1.0/template.json",
+      "family": "currencies",
+      "slug": "essence-crystals",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/currencies/essence-crystals/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/currencies/101/v0.1.0/template.json",
+      "family": "currencies",
+      "slug": "pvp-tokens",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/currencies/pvp-tokens/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/currencies/102/v0.1.0/template.json",
+      "family": "currencies",
+      "slug": "event-coins",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/currencies/event-coins/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/currencies/2/v0.1.0/template.json",
+      "family": "currencies",
+      "slug": "silver-pieces",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/currencies/silver-pieces/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/currencies/3/v0.1.0/template.json",
+      "family": "currencies",
+      "slug": "copper-pieces",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/currencies/copper-pieces/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/names/elfe/v0.1.0/template.json",
+      "family": "names",
+      "slug": "elfe",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/names/elfe/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/names/fantasy/v0.1.0/template.json",
+      "family": "names",
+      "slug": "fantasy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/names/fantasy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/names/gaulois/v0.1.0/template.json",
+      "family": "names",
+      "slug": "gaulois",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/names/gaulois/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/names/nain/v0.1.0/template.json",
+      "family": "names",
+      "slug": "nain",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/names/nain/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/names/names-template-0004/v0.1.0/template.json",
+      "family": "names",
+      "slug": "adapted-referenceien",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/names/viking/v0.1.0/template.json",
+      "family": "names",
+      "slug": "viking",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/names/viking/v1.0.0/template.json"
+    }
+  ]
+}

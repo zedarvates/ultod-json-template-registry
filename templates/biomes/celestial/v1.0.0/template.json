@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/biomes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "biomes:celestial",
+  "slug": "celestial",
+  "family": "biomes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:42dfe35bdde95ea39ede8f5f00ccd5256927c438af8483f3c5a8211e99bc0c58",
+  "spec": {
+    "display_name": "Royaumes Célestes",
+    "category_tag": "magical",
+    "climate_tag": "celestial",
+    "terrain_tags": [
+      "cloud-platforms",
+      "star-crystals",
+      "divine-temples"
+    ]
+  }
+}

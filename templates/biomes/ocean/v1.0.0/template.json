@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/biomes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "biomes:ocean",
+  "slug": "ocean",
+  "family": "biomes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c854e6a30759091098b77372e6f9572a24413964e8e0079c35281a242bc439c4",
+  "spec": {
+    "display_name": "Océan Profond",
+    "category_tag": "dangerous",
+    "climate_tag": "water",
+    "terrain_tags": [
+      "coral-reef",
+      "deep-trench",
+      "shipwreck"
+    ]
+  }
+}

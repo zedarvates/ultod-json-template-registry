@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/currencies/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "currencies:copper-pieces",
+  "slug": "copper-pieces",
+  "family": "currencies",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:568644762432408f3cd5bb676451ed6ddd583961800babb422f39ba6b2184910",
+  "spec": {
+    "display_name": "Copper Pieces",
+    "currency_code": "copper-pieces"
+  }
+}

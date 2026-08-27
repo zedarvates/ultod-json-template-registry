@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/biomes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "biomes:mystic",
+  "slug": "mystic",
+  "family": "biomes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:bc23a70fa7f576f70a1f39fcffc8c18b771a6b0dd33dc8e0212eb40b8ec6a4b4",
+  "spec": {
+    "display_name": "Mystic Realms",
+    "category_tag": "magical",
+    "climate_tag": "magical",
+    "terrain_tags": [
+      "floating-islands",
+      "magic-streams",
+      "crystal-trees"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ultimateodycer.com/schemas/biomes/1.0.0",
+  "title": "Ultimate Odycer biomes Template v1",
+  "allOf": [
+    {
+      "$ref": "https://ultimateodycer.com/schemas/template-contract/1.0.0"
+    },
+    {
+      "properties": {
+        "spec": {
+          "type": "object",
+          "required": [
+            "display_name"
+          ],
+          "properties": {
+            "display_name": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "category_tag": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "maxLength": 64
+            },
+            "climate_tag": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "maxLength": 64
+            },
+            "terrain_tags": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+                "maxLength": 64
+              },
+              "uniqueItems": true,
+              "maxItems": 32
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    }
+  ]
+}

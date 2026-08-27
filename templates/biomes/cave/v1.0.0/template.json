@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/biomes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "biomes:cave",
+  "slug": "cave",
+  "family": "biomes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:1a87dc22b5798ba70a39acc3bd9a264bd83f86cc544ad2aa7ebbe69e9ca4c395",
+  "spec": {
+    "display_name": "Deep Caverns",
+    "category_tag": "dangerous",
+    "climate_tag": "cool",
+    "terrain_tags": [
+      "cave-walls",
+      "crystal-formations",
+      "underground-lake"
+    ]
+  }
+}
