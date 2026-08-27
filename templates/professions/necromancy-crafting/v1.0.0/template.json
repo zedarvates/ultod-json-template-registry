@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/professions/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "professions:necromancy-crafting",
+  "slug": "necromancy-crafting",
+  "family": "professions",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:9ab122bd362d93d0a4796ade06f29b0fdfec51b51ad71acec6687abdb5d2c8e3",
+  "spec": {
+    "display_name": "Forge Nécromantique",
+    "category_tag": "necromantic-crafting"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/professions/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "professions:master-jeweler",
+  "slug": "master-jeweler",
+  "family": "professions",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:8dd89e0fe8d818023b1bee6e24130d111fc0cb4b0faccf2ed5f9f7b63f39524c",
+  "spec": {
+    "display_name": "Maître Joaillier",
+    "category_tag": "crafting",
+    "subcategory_tag": "gem-crafting"
+  }
+}

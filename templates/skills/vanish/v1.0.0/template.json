@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:vanish",
+  "slug": "vanish",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:db31393e6a465a1e21392a1cad8cd8c880755fca336b06be879f017bd8de0003",
+  "spec": {
+    "display_name": "Vanish",
+    "category_tag": "stealth",
+    "subcategory_tag": "stealth-movement"
+  }
+}

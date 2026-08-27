@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:lumberjacking",
+  "slug": "lumberjacking",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a0a10ecc2cab7ce2d676e3c661a660fdd1dc1a37f7a3b2bc663d0655d0a13606",
+  "spec": {
+    "display_name": "Abattage",
+    "category_tag": "gathering"
+  }
+}

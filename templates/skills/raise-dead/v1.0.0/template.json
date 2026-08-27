@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:raise-dead",
+  "slug": "raise-dead",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:bb162decb4a4cd53e6624cd89446e3c497aa1054165da0745201cca90e58b124",
+  "spec": {
+    "display_name": "Raise Dead",
+    "category_tag": "magic-mastery",
+    "subcategory_tag": "summoning"
+  }
+}

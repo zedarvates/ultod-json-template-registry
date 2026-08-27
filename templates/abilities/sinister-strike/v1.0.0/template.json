@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:sinister-strike",
+  "slug": "sinister-strike",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:341c9ce6fd3a825e52a1f910aaa7f60cd24bac2751b6a4782798a2940d504d9a",
+  "spec": {
+    "display_name": "Attaque Sinistre"
+  }
+}

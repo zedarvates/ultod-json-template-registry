@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:magery",
+  "slug": "magery",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:47ff6f3f5702140511d459a90c13ad96526f7fd6aa60741872b5b108c8085848",
+  "spec": {
+    "display_name": "Magery",
+    "category_tag": "knowledge",
+    "skill_kind": "arcane-mastery"
+  }
+}

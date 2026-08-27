@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/professions/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "professions:elemental-crafting",
+  "slug": "elemental-crafting",
+  "family": "professions",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:48937e7f6fba2526690bd16bd4519bc2c9700e3cd1fd178c3ae18b14dd9fb318",
+  "spec": {
+    "display_name": "Forge Élémentaire",
+    "category_tag": "advanced-crafting"
+  }
+}

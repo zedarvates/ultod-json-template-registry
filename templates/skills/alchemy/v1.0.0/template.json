@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:alchemy",
+  "slug": "alchemy",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a850a2e658dbf063bee49d5dc1168b7dc07b75c5ba3a292c8aa79d05a927b206",
+  "spec": {
+    "display_name": "Alchimie",
+    "category_tag": "crafting",
+    "subcategory_tag": "potion-making"
+  }
+}

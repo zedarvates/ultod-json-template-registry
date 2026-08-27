@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/talent/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "talent:weapon-mastery",
+  "slug": "weapon-mastery",
+  "family": "talent",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:200709337975fbdcbcbf8b98f32f6905014fd235c26aa49f010ae4cc07aa0361",
+  "spec": {
+    "display_name": "Maîtrise des Armes"
+  }
+}

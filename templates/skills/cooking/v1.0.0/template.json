@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:cooking",
+  "slug": "cooking",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:03da7ecd582bdf01f94ba637db54544f1c44d2661f8c13a646a7ee3740236da6",
+  "spec": {
+    "display_name": "Cuisine",
+    "category_tag": "crafting",
+    "subcategory_tag": "food-preparation"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:alchemist-transmutation-circle",
+  "slug": "alchemist-transmutation-circle",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:3ecaff8e149773fb3b5828bb191b3606615d3d1744b578a84b2984608de99b2e",
+  "spec": {
+    "display_name": "Cercle de Transmutation",
+    "ability_kind": "active",
+    "category_tag": "crafting",
+    "target_kind": "materials"
+  }
+}

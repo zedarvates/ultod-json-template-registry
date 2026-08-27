@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:stealth-movement",
+  "slug": "stealth-movement",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:8a597c30856af2d3a94ca55f9e4f58861e493a0901ca836ce719117ae5c411c0",
+  "spec": {
+    "display_name": "Stealth Movement",
+    "category_tag": "stealth",
+    "subcategory_tag": "stealth-movement"
+  }
+}

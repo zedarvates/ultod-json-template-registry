@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/professions/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "professions:master-fletcher",
+  "slug": "master-fletcher",
+  "family": "professions",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f9acf22c50b943f3c57fee02ff9117784c99d3b6aee346b69295c2f1b7748d8f",
+  "spec": {
+    "display_name": "Maître Archer",
+    "category_tag": "crafting",
+    "subcategory_tag": "ranged-weapons"
+  }
+}

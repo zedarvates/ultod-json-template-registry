@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/professions/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "professions:master-blacksmith",
+  "slug": "master-blacksmith",
+  "family": "professions",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f47435d67ce520978dfec35cf2465c97ac67df95888e600d854b6ee9f3428888",
+  "spec": {
+    "display_name": "Master Blacksmith"
+  }
+}

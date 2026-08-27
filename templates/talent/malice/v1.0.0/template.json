@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/talent/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "talent:malice",
+  "slug": "malice",
+  "family": "talent",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:410adc67c5033372cf5027483ca2df75dcfd7d1adb8fb50e3eddf4acbc94f573",
+  "spec": {
+    "display_name": "Malice"
+  }
+}

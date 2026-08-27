@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/professions/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "professions:cooking",
+  "slug": "cooking",
+  "family": "professions",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d3d9b5e9d8f5f3b6a05bb44a2b40b54554a5b948e3341947253639722cc8cf7c",
+  "spec": {
+    "display_name": "Cuisine",
+    "category_tag": "crafting"
+  }
+}

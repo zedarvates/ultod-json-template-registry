@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:heroic-strike",
+  "slug": "heroic-strike",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:78fc7ffd3280834fcfa2d6a87abcc8375a4b910f2fb2c0318f4c22bfbb977e68",
+  "spec": {
+    "display_name": "Frappe Héroïque"
+  }
+}

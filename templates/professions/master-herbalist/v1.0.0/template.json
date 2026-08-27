@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/professions/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "professions:master-herbalist",
+  "slug": "master-herbalist",
+  "family": "professions",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ccb4b5addcc37ff9d827b368c4d6533dbb6af1b8c7cdf6435a7b120c05b5702b",
+  "spec": {
+    "display_name": "Maître Herboriste",
+    "category_tag": "gathering",
+    "subcategory_tag": "plant-harvesting"
+  }
+}

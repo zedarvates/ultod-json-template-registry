@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:holy-fire",
+  "slug": "holy-fire",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:9c4a64a68cfe3549263cba6ee6451642a657d39ec9b970416a2e0c7df4df1d47",
+  "spec": {
+    "display_name": "Flamme Sacrée"
+  }
+}

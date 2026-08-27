@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:mutilate",
+  "slug": "mutilate",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e78a046b3b28f6e4b100d095a56e90fe9ad83c23d5e0b157fc36043da21275d4",
+  "spec": {
+    "display_name": "Estropier"
+  }
+}

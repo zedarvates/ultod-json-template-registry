@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:mage-arcane-barrage",
+  "slug": "mage-arcane-barrage",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:3be38e0c4f6d2349c9d522755f065a7caa9ad1656712272149cdfcc9eb2e39f3",
+  "spec": {
+    "display_name": "Barrage Arcane",
+    "ability_kind": "active",
+    "category_tag": "damage",
+    "target_kind": "enemy"
+  }
+}

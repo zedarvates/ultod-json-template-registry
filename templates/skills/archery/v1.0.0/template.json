@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:archery",
+  "slug": "archery",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:796fe2be0e6fc975b9c54c884b7a637c380f4a4b647d7262cbcd64013fe02480",
+  "spec": {
+    "display_name": "Archery",
+    "category_tag": "combat",
+    "skill_kind": "ranged-mastery"
+  }
+}

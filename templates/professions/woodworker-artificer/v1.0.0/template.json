@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/professions/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "professions:woodworker-artificer",
+  "slug": "woodworker-artificer",
+  "family": "professions",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:5e4e8fd1fa07bf9a0e449aed1c8bcba2946fb1e6b509561958d510dfa29d0154",
+  "spec": {
+    "display_name": "Woodworker/Artificer"
+  }
+}

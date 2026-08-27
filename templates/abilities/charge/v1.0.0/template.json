@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:charge",
+  "slug": "charge",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0de0b7f61d57b0bccd55a7e32bdb5378e098c580eb8ce201dd49f03468d30c37",
+  "spec": {
+    "display_name": "Charge",
+    "ability_kind": "damage",
+    "category_tag": "boss",
+    "target_kind": "enemy"
+  }
+}

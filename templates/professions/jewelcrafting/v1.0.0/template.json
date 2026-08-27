@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/professions/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "professions:jewelcrafting",
+  "slug": "jewelcrafting",
+  "family": "professions",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:38d6ae600a71359fbc464a7a131724e5d4276d246f2f12052b0382f9f781f8f3",
+  "spec": {
+    "display_name": "Joaillerie",
+    "category_tag": "crafting"
+  }
+}

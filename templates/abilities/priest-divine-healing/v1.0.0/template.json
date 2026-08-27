@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:priest-divine-healing",
+  "slug": "priest-divine-healing",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:7d5cc8fd4c908c0de0a3226c596fdb431d54f1558bdaafcf9db7157c3d569f81",
+  "spec": {
+    "display_name": "Soin Divin",
+    "ability_kind": "active",
+    "category_tag": "healing",
+    "target_kind": "friendly-ally"
+  }
+}

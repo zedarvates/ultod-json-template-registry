@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:armor-smithing",
+  "slug": "armor-smithing",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b681418b79334e9519f1b49fb7d86826cfc0bb862cf4f6bad4efe2d7ada45a57",
+  "spec": {
+    "display_name": "Armor Smithing",
+    "category_tag": "crafting",
+    "subcategory_tag": "blacksmithing"
+  }
+}

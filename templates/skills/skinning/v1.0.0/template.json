@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:skinning",
+  "slug": "skinning",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:24e793ffdeece6edc2b1ef738a914dad741ab4842a5739f1e59e636f50a897bf",
+  "spec": {
+    "display_name": "Dépeçage",
+    "category_tag": "gathering"
+  }
+}

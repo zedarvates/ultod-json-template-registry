@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:prospecting",
+  "slug": "prospecting",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f5aebcfce5a3c30bbe750427ebd688db6b82903a55d76887d69cc6a2fc388a47",
+  "spec": {
+    "display_name": "Prospecting",
+    "category_tag": "gathering",
+    "subcategory_tag": "mining"
+  }
+}

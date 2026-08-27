@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:herbalism",
+  "slug": "herbalism",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:adc3562d71da209841e3f011bac9139247cbaed4798c3e47a101a9617dd52bb8",
+  "spec": {
+    "display_name": "Herboristerie",
+    "category_tag": "gathering"
+  }
+}

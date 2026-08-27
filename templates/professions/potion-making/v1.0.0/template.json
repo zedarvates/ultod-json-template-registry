@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/professions/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "professions:potion-making",
+  "slug": "potion-making",
+  "family": "professions",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:02abab9530ba45d5afd2517f57d0e9a6bcb4438a9b3ef47c848d5b7d7e2d30f7",
+  "spec": {
+    "display_name": "Préparation de Potions",
+    "category_tag": "specialized-alchemy"
+  }
+}

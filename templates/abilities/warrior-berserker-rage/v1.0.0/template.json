@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:warrior-berserker-rage",
+  "slug": "warrior-berserker-rage",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:21746a9c06860dacc680361d408e068e99eedf66276f6e237bea995839fa40f2",
+  "spec": {
+    "display_name": "Rage du Berserker",
+    "ability_kind": "buff",
+    "category_tag": "combat",
+    "target_kind": "self"
+  }
+}

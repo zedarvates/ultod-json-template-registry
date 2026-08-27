@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:priest-healing-light",
+  "slug": "priest-healing-light",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:bbf973bf34f6657529fbb4fa917a40bb241e96e1fe3d1dfce99ff01b89cf3540",
+  "spec": {
+    "display_name": "Lumière Guérisseuse",
+    "ability_kind": "healing",
+    "category_tag": "combat",
+    "target_kind": "single-ally"
+  }
+}

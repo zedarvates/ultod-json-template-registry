@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:axe-fighting",
+  "slug": "axe-fighting",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:8ba603a4ef119c15e28da1679d51d21f979a06a214e6c89979f69cfdc2709c6e",
+  "spec": {
+    "display_name": "Combat à la Hache",
+    "category_tag": "combat"
+  }
+}

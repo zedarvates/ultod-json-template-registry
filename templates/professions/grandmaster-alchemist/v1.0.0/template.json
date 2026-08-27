@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/professions/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "professions:grandmaster-alchemist",
+  "slug": "grandmaster-alchemist",
+  "family": "professions",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:5a5f70707fc488fa062c10ae4b49a13382fceed244358c44cf2fe914223ad34f",
+  "spec": {
+    "display_name": "Grandmaster Alchemist"
+  }
+}
