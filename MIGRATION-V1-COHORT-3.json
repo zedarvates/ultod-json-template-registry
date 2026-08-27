@@ -1,0 +1,1690 @@
+{
+  "report_version": "1.0.0",
+  "cohort": "3",
+  "families": [
+    "abilities",
+    "professions",
+    "skills",
+    "talent"
+  ],
+  "summary": {
+    "total": 200,
+    "dispositions": {
+      "legacy-only-authoritative": 4,
+      "manual-review": 31,
+      "migrated": 165
+    }
+  },
+  "results": [
+    {
+      "source_file": "templates/abilities/alchemist-potion-mastery/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "alchemist-potion-mastery",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/alchemist-potion-mastery/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/alchemist-transmutation-circle/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "alchemist-transmutation-circle",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/alchemist-transmutation-circle/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/alchemy-brew-potion/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "alchemy-brew-potion",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/alchemy-brew-potion/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/ambush/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "ambush",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/ambush/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/arcane-missiles/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "arcane-missiles",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/arcane-missiles/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/assassin-shadow-assault/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "assassin-shadow-assault",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/assassin-shadow-assault/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/assassin-venomous-strike/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "assassin-venomous-strike",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/assassin-venomous-strike/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/bard-heroic-ballad/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "bard-heroic-ballad",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/bard-heroic-ballad/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/bard-melodic-whisper/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "bard-melodic-whisper",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/bard-melodic-whisper/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/blacksmith-forge-mastery/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "blacksmith-forge-mastery",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/blacksmith-forge-mastery/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/blacksmith-hammer-strike/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "blacksmith-hammer-strike",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/blacksmith-hammer-strike/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/blizzard/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "blizzard",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/blizzard/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/bloodthirst/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "bloodthirst",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/bloodthirst/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/charge-double/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "charge-double",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/charge-double/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/charge/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "charge",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/charge/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/colere-du-gardien/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "colere-du-gardien",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/colere-du-gardien/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/cook-flavor-burst/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "cook-flavor-burst",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/cook-flavor-burst/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/coup-de-fleau/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "coup-de-fleau",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/coup-de-fleau/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/diplomat-peace-treaty/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "diplomat-peace-treaty",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/diplomat-peace-treaty/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/diplomat-persuasion-mastery/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "diplomat-persuasion-mastery",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/diplomat-persuasion-mastery/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/druid-nature-wrath/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "druid-nature-wrath",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/druid-nature-wrath/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/druid-wild-morph/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "druid-wild-morph",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/druid-wild-morph/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/enchanter-arcane-infusion/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "enchanter-arcane-infusion",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/enchanter-arcane-infusion/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/enchanter-rune-mastery/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "enchanter-rune-mastery",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/enchanter-rune-mastery/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/enchanting-infusion/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "enchanting-infusion",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/enchanting-infusion/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/eviscerate/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "eviscerate",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/eviscerate/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/explorer-ancient-discovery/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "explorer-ancient-discovery",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/explorer-ancient-discovery/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/explorer-pathfinder/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "explorer-pathfinder",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/explorer-pathfinder/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/explorer-treasure-sense/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "explorer-treasure-sense",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/explorer-treasure-sense/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/fireball-2/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "fireball",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/abilities/fireball/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "fireball",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/abilities/frenesie-sanguinaire/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "frenesie-sanguinaire",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/frenesie-sanguinaire/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/frostbolt-2/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "frostbolt",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/abilities/frostbolt/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "frostbolt",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/abilities/griffure/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "griffure",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/griffure/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/heroic-strike/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "heroic-strike",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/heroic-strike/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/holy-fire/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "holy-fire",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/holy-fire/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/invocation-ossements/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "invocation-ossements",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/invocation-ossements/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/mage-arcane-barrage/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "mage-arcane-barrage",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/mage-arcane-barrage/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/mage-arcane-missile/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "mage-arcane-missile",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/mage-arcane-missile/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/mage-fireball/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "mage-fireball",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/mage-fireball/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/mage-mana-shield/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "mage-mana-shield",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/mage-mana-shield/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/mage-time-warp/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "mage-time-warp",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/mage-time-warp/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/malediction-majeure/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "malediction-majeure",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/malediction-majeure/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/malediction-mineure/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "malediction-mineure",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/malediction-mineure/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/merchant-market-manipulation/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "merchant-market-manipulation",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/merchant-market-manipulation/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/merchant-trade-master/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "merchant-trade-master",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/merchant-trade-master/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/mind-blast/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "mind-blast",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/mind-blast/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/mortal-strike/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "mortal-strike",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/mortal-strike/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/mutilate/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "mutilate",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/mutilate/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/paladin-aura-of-courage/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "paladin-aura-of-courage",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/paladin-aura-of-courage/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/paladin-blessing/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "paladin-blessing",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/paladin-blessing/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/paladin-divine-intervention/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "paladin-divine-intervention",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/paladin-divine-intervention/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/paladin-divine-protection/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "paladin-divine-protection",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/paladin-divine-protection/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/paladin-holy-shield/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "paladin-holy-shield",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/paladin-holy-shield/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/power-word-shield/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "power-word-shield",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/power-word-shield/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/priest-divine-healing/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "priest-divine-healing",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/priest-divine-healing/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/priest-divine-protection/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "priest-divine-protection",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/priest-divine-protection/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/priest-heal/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "priest-heal",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/priest-heal/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/priest-healing-light/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "priest-healing-light",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/priest-healing-light/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/priest-holy-aura/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "priest-holy-aura",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/priest-holy-aura/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/ranger-beast-tracking/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "ranger-beast-tracking",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/ranger-beast-tracking/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/ranger-hunter-mark/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "ranger-hunter-mark",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/ranger-hunter-mark/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/ranger-survival-instincts/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "ranger-survival-instincts",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/ranger-survival-instincts/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/rogue-backstab/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "rogue-backstab",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/rogue-backstab/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/rogue-shadow-step/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "rogue-shadow-step",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/rogue-shadow-step/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/rugissement-sonore/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "rugissement-sonore",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/rugissement-sonore/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/shadow-word-pain/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "shadow-word-pain",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/shadow-word-pain/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/shield-block/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "shield-block",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/shield-block/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/sinister-strike/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "sinister-strike",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/sinister-strike/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/summoner-raise-skeleton/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "summoner-raise-skeleton",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/summoner-raise-skeleton/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/summoner-summon-imp/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "summoner-summon-imp",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/summoner-summon-imp/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/summoner-summon-wolf/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "summoner-summon-wolf",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/summoner-summon-wolf/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/tailor-precision-stitch/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "tailor-precision-stitch",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/tailor-precision-stitch/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/taunt/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "taunt",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/taunt/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/warrior-battle-shout/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "warrior-battle-shout",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/warrior-battle-shout/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/warrior-berserker-rage/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "warrior-berserker-rage",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/warrior-berserker-rage/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/warrior-heroic-strike/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "warrior-heroic-strike",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/warrior-heroic-strike/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/abilities/whirlwind/v0.1.0/template.json",
+      "family": "abilities",
+      "slug": "whirlwind",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/abilities/whirlwind/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/accessory-crafting/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "accessory-crafting",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/accessory-crafting/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/achievement-system/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "achievement-system",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-progression-or-market-system"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/advancement-system/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "advancement-system",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-progression-or-market-system"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/alchemy/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "alchemy",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/architecture/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "architecture",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/architecture/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/armor-crafting/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "armor-crafting",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/armor-crafting/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/blacksmithing/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "blacksmithing",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/cooking/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "cooking",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/cooking/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/core-alchemy/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "alchemy",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/core-blacksmithing/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "blacksmithing",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/core-enchanting/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "enchanting",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/core-engineering/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "engineering",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/core-leatherworking/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "leatherworking",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/core-tailoring/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "tailoring",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/crystal-crafting/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "crystal-crafting",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/crystal-crafting/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/divine-crafting/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "divine-crafting",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/divine-crafting/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/elemental-crafting/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "elemental-crafting",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/elemental-crafting/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/enchanting/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "enchanting",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/engineering/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "engineering",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/grandmaster-alchemist/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "grandmaster-alchemist",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/grandmaster-alchemist/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/herbalism/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "herbalism",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/herbalism/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/jewelcrafting/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "jewelcrafting",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/jewelcrafting/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/leatherworking/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "leatherworking",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/magic-crafter/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "magic-crafter",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/magic-crafter/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/market-integration/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "market-integration",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-progression-or-market-system"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/master-baker/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "master-baker",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/master-baker/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/master-blacksmith/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "master-blacksmith",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/master-blacksmith/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/master-cook/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "master-cook",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/master-cook/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/master-fisher/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "master-fisher",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/master-fisher/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/master-fletcher/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "master-fletcher",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/master-fletcher/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/master-herbalist/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "master-herbalist",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/master-herbalist/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/master-hunter/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "master-hunter",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/master-hunter/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/master-jeweler/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "master-jeweler",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/master-jeweler/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/master-lumberjack/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "master-lumberjack",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/master-lumberjack/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/master-tailor-enchanter/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "master-tailor-enchanter",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/master-tailor-enchanter/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/mining-geologist-master/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "mining-geologist-master",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/mining-geologist-master/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/mining/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "mining",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/mining/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/necromancy-crafting/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "necromancy-crafting",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/necromancy-crafting/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/potion-making/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "potion-making",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/potion-making/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/profession-synergies/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "profession-synergies",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-progression-or-market-system"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/professions-template-0004/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "professions-template-0004",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-adapted-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/professions-template-0005/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "professions-template-0005",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-adapted-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/professions-template-0006/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "professions-template-0006",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-adapted-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/professions-template-0007/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "professions-template-0007",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-adapted-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/rune-crafting/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "rune-crafting",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/rune-crafting/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/shadow-crafting/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "shadow-crafting",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/shadow-crafting/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/summoning-crafting/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "summoning-crafting",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/summoning-crafting/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/tailoring/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "tailoring",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/time-crafting/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "time-crafting",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/time-crafting/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/uo-blacksmith/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "uo-blacksmith",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-adapted-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/uo-carpenter/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "uo-carpenter",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-adapted-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/uo-inscriber/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "uo-inscriber",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-adapted-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/uo-tailor-alchemist/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "uo-tailor-alchemist",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-adapted-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/uo-tinker/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "uo-tinker",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-adapted-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/professions/weapon-crafting/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "weapon-crafting",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/weapon-crafting/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/woodworker-artificer/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "woodworker-artificer",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/woodworker-artificer/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/professions/woodworking/v0.1.0/template.json",
+      "family": "professions",
+      "slug": "woodworking",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/professions/woodworking/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/alchemy-brewing/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "alchemy-brewing",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/alchemy-brewing/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/alchemy/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "alchemy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/alchemy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/animal-taming/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "animal-taming",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/animal-taming/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/arcana-study/0.1.0/template.json",
+      "family": "skills",
+      "slug": "arcana-study",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/arcana-study/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/arcane-channeling/0.1.0/template.json",
+      "family": "skills",
+      "slug": "arcane-channeling",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/arcane-channeling/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/archery/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "archery",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/archery/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/armor-smithing/0.1.0/template.json",
+      "family": "skills",
+      "slug": "armor-smithing",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/armor-smithing/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/axe-fighting/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "axe-fighting",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/axe-fighting/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/blacksmithing/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "blacksmithing",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/blacksmithing/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/blacksmithy/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "blacksmithy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/blacksmithy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/bow-mastery/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "bow-mastery",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/bow-mastery/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/cleave_strike/0.1.0/template.json",
+      "family": "skills",
+      "slug": "cleave-strike",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/cleave-strike/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/cooking/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "cooking",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/cooking/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/divine_smite/0.1.0/template.json",
+      "family": "skills",
+      "slug": "divine-smite",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/divine-smite/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/fencing/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "fencing",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/fencing/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/fishing/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "fishing",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/fishing/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/herbalism/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "herbalism",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/herbalism/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/lumberjacking/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "lumberjacking",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/lumberjacking/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/mace-fighting/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "mace-fighting",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/mace-fighting/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/magery/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "magery",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/magery/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/magic-mastery/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "magic-mastery",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/magic-mastery/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/martial-arts/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "martial-arts",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/martial-arts/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/meditation/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "meditation",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/meditation/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/mining-2/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "mining",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/skills/mining/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "mining",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/skills/negotiation/0.1.0/template.json",
+      "family": "skills",
+      "slug": "negotiation",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/negotiation/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/peacemaking/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "peacemaking",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/peacemaking/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/prospecting/0.1.0/template.json",
+      "family": "skills",
+      "slug": "prospecting",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/prospecting/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/raise_dead/0.1.0/template.json",
+      "family": "skills",
+      "slug": "raise-dead",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/raise-dead/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/ranger-arrow-rain/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "ranger-arrow-rain",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/ranger-arrow-rain/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/ranger-basel-power/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "ranger-basel-power",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/ranger-basel-power/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/ranger-griffin-arrow/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "ranger-griffin-arrow",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/ranger-griffin-arrow/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/ranger-marking-arrow/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "ranger-marking-arrow",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/ranger-marking-arrow/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/ranger-piercing-arrow/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "ranger-piercing-arrow",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/ranger-piercing-arrow/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/ranger-silence-arrow/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "ranger-silence-arrow",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/ranger-silence-arrow/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/ranger-stealth/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "ranger-stealth",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/ranger-stealth/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/shield-defense/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "shield-defense",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/shield-defense/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/skinning/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "skinning",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/skinning/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/spear-combat/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "spear-combat",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/spear-combat/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/stealth-movement/0.1.0/template.json",
+      "family": "skills",
+      "slug": "stealth-movement",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/stealth-movement/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/sword-mastery/0.1.0/template.json",
+      "family": "skills",
+      "slug": "sword-mastery",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/skills/sword-mastery/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "sword-mastery",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/skills/swordsmanship/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "swordsmanship",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/swordsmanship/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/tailoring-2/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "tailoring",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/skills/tailoring/v0.1.0/template.json",
+      "family": "skills",
+      "slug": "tailoring",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/skills/tracking/0.1.0/template.json",
+      "family": "skills",
+      "slug": "tracking",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/tracking/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skills/vanish/0.1.0/template.json",
+      "family": "skills",
+      "slug": "vanish",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skills/vanish/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/talent/arcane-mind/v0.1.0/template.json",
+      "family": "talent",
+      "slug": "arcane-mind",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/talent/arcane-mind/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/talent/bloodthirst-talent/v0.1.0/template.json",
+      "family": "talent",
+      "slug": "bloodthirst-talent",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/talent/bloodthirst-talent/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/talent/combat-expertise/v0.1.0/template.json",
+      "family": "talent",
+      "slug": "combat-expertise",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/talent/combat-expertise/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/talent/defensive-stance/v0.1.0/template.json",
+      "family": "talent",
+      "slug": "defensive-stance",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/talent/defensive-stance/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/talent/deflection/v0.1.0/template.json",
+      "family": "talent",
+      "slug": "deflection",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/talent/deflection/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/talent/fire-mastery/v0.1.0/template.json",
+      "family": "talent",
+      "slug": "fire-mastery",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/talent/fire-mastery/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/talent/frost-mastery/v0.1.0/template.json",
+      "family": "talent",
+      "slug": "frost-mastery",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/talent/frost-mastery/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/talent/improved-healing/v0.1.0/template.json",
+      "family": "talent",
+      "slug": "improved-healing",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/talent/improved-healing/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/talent/improved-heroic-strike/v0.1.0/template.json",
+      "family": "talent",
+      "slug": "improved-heroic-strike",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/talent/improved-heroic-strike/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/talent/improved-summoning/v0.1.0/template.json",
+      "family": "talent",
+      "slug": "improved-summoning",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/talent/improved-summoning/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/talent/lethality/v0.1.0/template.json",
+      "family": "talent",
+      "slug": "lethality",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/talent/lethality/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/talent/malice/v0.1.0/template.json",
+      "family": "talent",
+      "slug": "malice",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/talent/malice/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/talent/master-summoner/v0.1.0/template.json",
+      "family": "talent",
+      "slug": "master-summoner",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/talent/master-summoner/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/talent/shield-mastery/v0.1.0/template.json",
+      "family": "talent",
+      "slug": "shield-mastery",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/talent/shield-mastery/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/talent/spiritual-guidance/v0.1.0/template.json",
+      "family": "talent",
+      "slug": "spiritual-guidance",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/talent/spiritual-guidance/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/talent/unbridled-rage/v0.1.0/template.json",
+      "family": "talent",
+      "slug": "unbridled-rage",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/talent/unbridled-rage/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/talent/weapon-mastery/v0.1.0/template.json",
+      "family": "talent",
+      "slug": "weapon-mastery",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/talent/weapon-mastery/v1.0.0/template.json"
+    }
+  ]
+}

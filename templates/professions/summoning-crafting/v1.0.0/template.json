@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/professions/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "professions:summoning-crafting",
+  "slug": "summoning-crafting",
+  "family": "professions",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:dab4c8467bca6abfa1911163e9299eaf914b1c852e0d0acfbc227dd337fefc0d",
+  "spec": {
+    "display_name": "Forge d'Invocation",
+    "category_tag": "summoning-crafting"
+  }
+}

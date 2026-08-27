@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:rogue-shadow-step",
+  "slug": "rogue-shadow-step",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e3a01799f802c348eba8957648f9c248c375d25175d3852971bbe44f1ef7fcb9",
+  "spec": {
+    "display_name": "Pas de l'Ombre",
+    "ability_kind": "utility",
+    "category_tag": "exploration",
+    "target_kind": "point"
+  }
+}

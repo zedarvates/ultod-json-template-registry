@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:ranger-beast-tracking",
+  "slug": "ranger-beast-tracking",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d2c489b41cf27afb546a3a7e146cd2d35d3a6ec5c1d7871a56faf0b0e793aef3",
+  "spec": {
+    "display_name": "Pistage des Bêtes",
+    "ability_kind": "utility",
+    "category_tag": "exploration",
+    "target_kind": "area"
+  }
+}

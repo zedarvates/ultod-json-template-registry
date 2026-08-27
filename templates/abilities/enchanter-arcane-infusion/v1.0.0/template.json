@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:enchanter-arcane-infusion",
+  "slug": "enchanter-arcane-infusion",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:6147bc887f4c838e1876530580b2c0ee7d8b09e8cb67c3b1d46aed8bfdff4b10",
+  "spec": {
+    "display_name": "Infusion Arcane",
+    "ability_kind": "active",
+    "category_tag": "crafting",
+    "target_kind": "items"
+  }
+}

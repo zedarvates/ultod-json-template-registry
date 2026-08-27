@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:explorer-ancient-discovery",
+  "slug": "explorer-ancient-discovery",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b4734b2b054641398c0b9e60d12396453a7342f6a7f72ea628e04322ecbd024c",
+  "spec": {
+    "display_name": "Découverte Ancienne",
+    "ability_kind": "active",
+    "category_tag": "exploration",
+    "target_kind": "self"
+  }
+}

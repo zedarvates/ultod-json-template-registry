@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:arcane-missiles",
+  "slug": "arcane-missiles",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:3c96256560a95be0255021269e8dcc3099441f75294717ea785d46809dc42ddb",
+  "spec": {
+    "display_name": "Projectiles des Arcanes"
+  }
+}

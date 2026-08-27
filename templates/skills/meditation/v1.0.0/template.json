@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:meditation",
+  "slug": "meditation",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:6b688910d5b95432d22b6f7381430a8f4f6c486a4618892ff13d4fd660d2f6f3",
+  "spec": {
+    "display_name": "Meditation",
+    "category_tag": "knowledge",
+    "skill_kind": "spiritual-mastery"
+  }
+}

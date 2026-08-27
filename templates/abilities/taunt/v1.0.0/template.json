@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:taunt",
+  "slug": "taunt",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:52ccc0aa730cb680897fa73b1c2636b179c8d9a0de1894e378d833b002d6ac59",
+  "spec": {
+    "display_name": "Provocation"
+  }
+}

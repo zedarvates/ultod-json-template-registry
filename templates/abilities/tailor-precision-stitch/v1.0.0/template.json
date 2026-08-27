@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:tailor-precision-stitch",
+  "slug": "tailor-precision-stitch",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a8d403a8550117edb8f471d68c9308a9fc6fa67f760c1837583a30f21aa25c5a",
+  "spec": {
+    "display_name": "Couture de Précision",
+    "ability_kind": "buff",
+    "category_tag": "crafting",
+    "target_kind": "self"
+  }
+}

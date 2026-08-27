@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:mage-time-warp",
+  "slug": "mage-time-warp",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:125e8823a4d576829e30e3be88748305f388daacd7e7ee0baea4d37a02aa88f6",
+  "spec": {
+    "display_name": "Distorsion Temporelle",
+    "ability_kind": "active",
+    "category_tag": "utility",
+    "target_kind": "self"
+  }
+}

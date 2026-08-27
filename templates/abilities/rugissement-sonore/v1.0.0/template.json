@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:rugissement-sonore",
+  "slug": "rugissement-sonore",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:789d13fc80d7d27a934ebc0c50d1b7680024490399171cfb4bfb785f0e65c677",
+  "spec": {
+    "display_name": "Rugissement sonore",
+    "ability_kind": "control",
+    "category_tag": "boss",
+    "target_kind": "area"
+  }
+}

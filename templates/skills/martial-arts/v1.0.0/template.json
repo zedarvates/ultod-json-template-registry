@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:martial-arts",
+  "slug": "martial-arts",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:236b9e59e2d1c417b1445d0614d15e097d8b91fec6d3ac2d2b4474b25ab7de45",
+  "spec": {
+    "display_name": "Arts Martiaux",
+    "category_tag": "combat",
+    "subcategory_tag": "unarmed-combat"
+  }
+}

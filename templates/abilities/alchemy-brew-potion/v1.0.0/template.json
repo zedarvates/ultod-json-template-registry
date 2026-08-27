@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:alchemy-brew-potion",
+  "slug": "alchemy-brew-potion",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:bd21edde460900359de8cb6e455efffe4847186087b19a4b949727a928e62214",
+  "spec": {
+    "display_name": "Préparer Potion",
+    "ability_kind": "crafting",
+    "category_tag": "crafting",
+    "target_kind": "workstation"
+  }
+}

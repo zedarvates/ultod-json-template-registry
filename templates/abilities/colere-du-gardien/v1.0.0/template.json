@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:colere-du-gardien",
+  "slug": "colere-du-gardien",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:1d6d1abd9e62e13b3076994b070d0131525eeb168dc1fa59db973b8ee71887de",
+  "spec": {
+    "display_name": "Colère du Gardien",
+    "ability_kind": "buff",
+    "category_tag": "boss",
+    "target_kind": "self"
+  }
+}

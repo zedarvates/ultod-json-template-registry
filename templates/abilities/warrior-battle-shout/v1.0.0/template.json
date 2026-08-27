@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:warrior-battle-shout",
+  "slug": "warrior-battle-shout",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d80a77647ddc7c3a6be42fb2676fbc860f8377e9b25f403a443b3ddf11104bea",
+  "spec": {
+    "display_name": "Cri de Guerre",
+    "ability_kind": "aoe-buff",
+    "category_tag": "support",
+    "target_kind": "area-allies"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/professions/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "professions:crystal-crafting",
+  "slug": "crystal-crafting",
+  "family": "professions",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:165ac81f23c7be3120d354fade243c42b2d1cf7552fd77c4bd64d2f988864d00",
+  "spec": {
+    "display_name": "Cristallomancie",
+    "category_tag": "specialized-crafting"
+  }
+}

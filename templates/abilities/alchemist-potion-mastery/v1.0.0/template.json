@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:alchemist-potion-mastery",
+  "slug": "alchemist-potion-mastery",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0d17ea4eb78d6bdc7e95fdc72337410afc26d0b4120b572f9adda52d0a08f991",
+  "spec": {
+    "display_name": "Maîtrise des Potions",
+    "ability_kind": "passive",
+    "category_tag": "crafting",
+    "target_kind": "self"
+  }
+}

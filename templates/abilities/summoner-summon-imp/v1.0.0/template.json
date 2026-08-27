@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:summoner-summon-imp",
+  "slug": "summoner-summon-imp",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:4112fdee1a426fb97bc9d88fbc526689134d4ad5f5877e07c56c07ed7a6379cb",
+  "spec": {
+    "display_name": "Invocation d'Impie",
+    "ability_kind": "summon",
+    "category_tag": "combat",
+    "target_kind": "self"
+  }
+}

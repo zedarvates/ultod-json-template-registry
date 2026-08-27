@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:priest-holy-aura",
+  "slug": "priest-holy-aura",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:799484410e808f2df0598e78765fb6d05fb1155d067f7a9ea5a8aa0bf68f3d2a",
+  "spec": {
+    "display_name": "Aura Sacrée",
+    "ability_kind": "active",
+    "category_tag": "protection",
+    "target_kind": "self"
+  }
+}

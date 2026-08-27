@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/talent/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "talent:defensive-stance",
+  "slug": "defensive-stance",
+  "family": "talent",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:5d24265a42ef4538a0b4975f02fe6f941893f183270ab3b49fc4ec2c6413f777",
+  "spec": {
+    "display_name": "Posture Défensive"
+  }
+}

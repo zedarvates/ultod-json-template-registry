@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/professions/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "professions:master-fisher",
+  "slug": "master-fisher",
+  "family": "professions",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0ebb71ab20133998330255a9f7ef0f0008dc0d2dde5c02126437096316c6a62c",
+  "spec": {
+    "display_name": "Maître Pêcheur",
+    "category_tag": "gathering",
+    "subcategory_tag": "aquatic-harvesting"
+  }
+}

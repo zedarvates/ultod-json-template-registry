@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/talent/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "talent:improved-summoning",
+  "slug": "improved-summoning",
+  "family": "talent",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:bd5b361d85d0687c306a2d73e304fd57333c2d87c57cb5ef25165bb3749423d3",
+  "spec": {
+    "display_name": "Invocation Améliorée"
+  }
+}

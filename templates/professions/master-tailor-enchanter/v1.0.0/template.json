@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/professions/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "professions:master-tailor-enchanter",
+  "slug": "master-tailor-enchanter",
+  "family": "professions",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:9dc3f134e5e37053deda1cfa697a22a9de2a7a4679c0e8150bb246653be21b0c",
+  "spec": {
+    "display_name": "Master Tailor/Enchanter"
+  }
+}

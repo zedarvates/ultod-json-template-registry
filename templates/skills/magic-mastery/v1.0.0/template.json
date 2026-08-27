@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:magic-mastery",
+  "slug": "magic-mastery",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e2e8160b3223b7ece7239e6c76ef39da18c86627a15c10e5c48f684e7ecb056c",
+  "spec": {
+    "display_name": "Maîtrise Magique",
+    "category_tag": "magic-mastery",
+    "subcategory_tag": "spellcasting"
+  }
+}

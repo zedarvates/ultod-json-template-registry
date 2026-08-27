@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:diplomat-persuasion-mastery",
+  "slug": "diplomat-persuasion-mastery",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:543d96c2853794e968cd405abcfabbf189a1104119ebedf8f7a3c2a3d6c19e4c",
+  "spec": {
+    "display_name": "Maîtrise de la Persuasion",
+    "ability_kind": "passive",
+    "category_tag": "social",
+    "target_kind": "self"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/professions/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "professions:divine-crafting",
+  "slug": "divine-crafting",
+  "family": "professions",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:5977e5847c5c0ecc4a1a3a1f574aa0eb367e2e9bc29d5961141aecc4c2573f21",
+  "spec": {
+    "display_name": "Forge Divine",
+    "category_tag": "legendary-crafting"
+  }
+}

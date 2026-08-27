@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:blizzard",
+  "slug": "blizzard",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:580604c92aaae35395354b0f9d79848fc9c8504b51f8881b38346306b884d5c2",
+  "spec": {
+    "display_name": "Blizzard"
+  }
+}

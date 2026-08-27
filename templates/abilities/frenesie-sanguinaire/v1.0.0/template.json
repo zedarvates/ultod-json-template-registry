@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/abilities/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "abilities:frenesie-sanguinaire",
+  "slug": "frenesie-sanguinaire",
+  "family": "abilities",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:694be312eb31320316e3346af9af4ef7deb3b3c48ec8a36dff2b53b04e08a104",
+  "spec": {
+    "display_name": "Frénésie sanguinaire",
+    "ability_kind": "buff",
+    "category_tag": "boss",
+    "target_kind": "self"
+  }
+}

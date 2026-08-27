@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/professions/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "professions:rune-crafting",
+  "slug": "rune-crafting",
+  "family": "professions",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c1f232ae6db323cd6fdaecf2f2b85c67257597a6c42d28847262412f9336246a",
+  "spec": {
+    "display_name": "Gravure de Runes",
+    "category_tag": "runic-crafting"
+  }
+}

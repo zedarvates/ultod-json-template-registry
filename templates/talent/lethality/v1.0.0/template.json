@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/talent/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "talent:lethality",
+  "slug": "lethality",
+  "family": "talent",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:27d38075854fdc440b8397ecda93a8926e799877faacafb9d25e584f9ea76cec",
+  "spec": {
+    "display_name": "Létalité"
+  }
+}
