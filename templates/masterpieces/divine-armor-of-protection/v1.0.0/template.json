@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/masterpieces/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "masterpieces:divine-armor-of-protection",
+  "slug": "divine-armor-of-protection",
+  "family": "masterpieces",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:6625d0500ac2df5054569230881c0331db6862076c4e55db7513eaec47cf3fd6",
+  "spec": {
+    "display_name": "Divine Armor of Protection",
+    "profession_tag": "tailoring"
+  }
+}

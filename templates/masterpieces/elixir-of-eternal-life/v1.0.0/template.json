@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/masterpieces/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "masterpieces:elixir-of-eternal-life",
+  "slug": "elixir-of-eternal-life",
+  "family": "masterpieces",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:913526c1d6b3b00e16f3beb0661642080e21ab673f75eeb6a2dc9469d537a593",
+  "spec": {
+    "display_name": "Elixir of Eternal Life",
+    "profession_tag": "alchemy"
+  }
+}

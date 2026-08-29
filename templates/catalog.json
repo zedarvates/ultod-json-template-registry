@@ -769,7 +769,11 @@
       "sha256": "735d458154daa53f81f32b9845cc842fa9da021a758987a13f2fc7ba79756310",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "masterpieces:divine-armor-of-protection",
+      "slug": "divine-armor-of-protection",
+      "family": "masterpieces",
+      "superseded_by": "masterpieces:divine-armor-of-protection@1.0.0"
     },
     {
       "name": "elixir-of-eternal-life",
@@ -781,7 +785,11 @@
       "sha256": "be75689684d3270cf33e179352dfaab5f905169ad9b44437fe10c0b84ab9a46d",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "masterpieces:elixir-of-eternal-life",
+      "slug": "elixir-of-eternal-life",
+      "family": "masterpieces",
+      "superseded_by": "masterpieces:elixir-of-eternal-life@1.0.0"
     },
     {
       "name": "blade-of-eternity",
@@ -793,7 +801,11 @@
       "sha256": "aeff36cb773b81b938b14fdff79fa529819adc6bd1fc9bc48ee52b8edf27416e",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "masterpieces:legendary-blade-of-eternity",
+      "slug": "legendary-blade-of-eternity",
+      "family": "masterpieces",
+      "superseded_by": "masterpieces:legendary-blade-of-eternity@1.0.0"
     },
     {
       "name": "ice-lair",
@@ -32541,7 +32553,11 @@
       "compatibility": [],
       "source_sha256": "106a45bd9c3b9c7612aced9c4080eadc7f0aec5626b8d093dc8a4177f076b0b2",
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "skillclass:dieb",
+      "slug": "dieb",
+      "family": "skillclass",
+      "superseded_by": "skillclass:dieb@1.0.0"
     },
     {
       "name": "handwerker",
@@ -32553,7 +32569,11 @@
       "compatibility": [],
       "source_sha256": "19f807b66b37ea1a0298e5f384f6c1907d2afbedd84da81b8067b4e341cdf04a",
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "skillclass:handwerker",
+      "slug": "handwerker",
+      "family": "skillclass",
+      "superseded_by": "skillclass:handwerker@1.0.0"
     },
     {
       "name": "krieger",
@@ -32565,7 +32585,11 @@
       "compatibility": [],
       "source_sha256": "0c0b4a549e7ad2fc72fb84fe5053cd384e7d0919c8ee26340f82c8e275475020",
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "skillclass:krieger",
+      "slug": "krieger",
+      "family": "skillclass",
+      "superseded_by": "skillclass:krieger@1.0.0"
     },
     {
       "name": "magier",
@@ -32577,7 +32601,11 @@
       "compatibility": [],
       "source_sha256": "32fbbbe084c17ef5d6e909f7fc6abaa174eb27b8c8cfb6741b4b9d0f6b033e2c",
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "skillclass:magier",
+      "slug": "magier",
+      "family": "skillclass",
+      "superseded_by": "skillclass:magier@1.0.0"
     },
     {
       "name": "waldlaufer",
@@ -32589,7 +32617,11 @@
       "compatibility": [],
       "source_sha256": "e967d41f0572ae3612c33e7852182bc3a9fe997146f8dd5aa290d26db8f4cedd",
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "skillclass:waldlaufer",
+      "slug": "waldlaufer",
+      "family": "skillclass",
+      "superseded_by": "skillclass:waldlaufer@1.0.0"
     },
     {
       "name": "alchemy",
@@ -120454,6 +120486,204 @@
       "status": "experimental",
       "file": "templates/schemas/tournaments/v1.0.0/schema.json",
       "sha256": "c2f579a478d707d7b1498610b829f8ac3106e744aee0e572de0bae5921557f48",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "masterpieces:legendary-blade-of-eternity",
+      "slug": "legendary-blade-of-eternity",
+      "family": "masterpieces",
+      "name": "legendary-blade-of-eternity",
+      "kind": "masterpiece-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/masterpieces/v1.0.0/schema.json",
+      "file": "templates/masterpieces/legendary-blade-of-eternity/v1.0.0/template.json",
+      "sha256": "16b7f7ced4b44b805d61f756a8580368b5b450562cba74f6ae97ce0ddca75423",
+      "spec_checksum": "sha256:56069ad4b9d3f7fc045208194444f1157ba90492ea66a8af4404b8a299103f96",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "masterpieces:legendary-blade-of-eternity@0.1.0"
+      ]
+    },
+    {
+      "id": "masterpieces:divine-armor-of-protection",
+      "slug": "divine-armor-of-protection",
+      "family": "masterpieces",
+      "name": "divine-armor-of-protection",
+      "kind": "masterpiece-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/masterpieces/v1.0.0/schema.json",
+      "file": "templates/masterpieces/divine-armor-of-protection/v1.0.0/template.json",
+      "sha256": "aa5e4a56e9efe00d1165946ae6d253f1449330d05c533bff2b16d3fb517f734b",
+      "spec_checksum": "sha256:6625d0500ac2df5054569230881c0331db6862076c4e55db7513eaec47cf3fd6",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "masterpieces:divine-armor-of-protection@0.1.0"
+      ]
+    },
+    {
+      "id": "masterpieces:elixir-of-eternal-life",
+      "slug": "elixir-of-eternal-life",
+      "family": "masterpieces",
+      "name": "elixir-of-eternal-life",
+      "kind": "masterpiece-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/masterpieces/v1.0.0/schema.json",
+      "file": "templates/masterpieces/elixir-of-eternal-life/v1.0.0/template.json",
+      "sha256": "d9430ea389bc8b84a7749df7c7c56cc194e84a9a5daa562207dd8d2b67fe65ca",
+      "spec_checksum": "sha256:913526c1d6b3b00e16f3beb0661642080e21ab673f75eeb6a2dc9469d537a593",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "masterpieces:elixir-of-eternal-life@0.1.0"
+      ]
+    },
+    {
+      "name": "masterpieces",
+      "kind": "json-schema",
+      "version": "1.0.0",
+      "status": "experimental",
+      "file": "templates/schemas/masterpieces/v1.0.0/schema.json",
+      "sha256": "403b677d7729fcde30f54b263e131140406cfc6de4efcf847fb94c3d1e780d35",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "skillclass:dieb",
+      "slug": "dieb",
+      "family": "skillclass",
+      "name": "dieb",
+      "kind": "skillclass-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/skillclass/v1.0.0/schema.json",
+      "file": "templates/skillclass/dieb/v1.0.0/template.json",
+      "sha256": "06022cd1fb256843fce57bc4f7456780843371ea651bed8d2a2403d5d3afe01e",
+      "spec_checksum": "sha256:2895bc1de0b388b8c46198f6a510a33d32404772c86f34d5554a5b1c7f5b1fe8",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "skillclass:dieb@0.1.0"
+      ]
+    },
+    {
+      "id": "skillclass:handwerker",
+      "slug": "handwerker",
+      "family": "skillclass",
+      "name": "handwerker",
+      "kind": "skillclass-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/skillclass/v1.0.0/schema.json",
+      "file": "templates/skillclass/handwerker/v1.0.0/template.json",
+      "sha256": "dc6fc8e57878feb73cc191bfb206764f35e43260e3702193f77374ffe4758b59",
+      "spec_checksum": "sha256:fe776f6d0d9993df7880b149db684e0dc4ba86af56d02fe87b0472903d8d0c5a",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "skillclass:handwerker@0.1.0"
+      ]
+    },
+    {
+      "id": "skillclass:krieger",
+      "slug": "krieger",
+      "family": "skillclass",
+      "name": "krieger",
+      "kind": "skillclass-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/skillclass/v1.0.0/schema.json",
+      "file": "templates/skillclass/krieger/v1.0.0/template.json",
+      "sha256": "58f038aeb3b8730b745b93644da1743abd394f0bde84c5b5274bb0204cca564a",
+      "spec_checksum": "sha256:70eda481d43540ed7ed25c8884ee1d997a40260e6820254064a6d831d4365042",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "skillclass:krieger@0.1.0"
+      ]
+    },
+    {
+      "id": "skillclass:magier",
+      "slug": "magier",
+      "family": "skillclass",
+      "name": "magier",
+      "kind": "skillclass-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/skillclass/v1.0.0/schema.json",
+      "file": "templates/skillclass/magier/v1.0.0/template.json",
+      "sha256": "ba81b676c6ff52fb3874be50c871d9352d9317e7e9324bf4745e0cb8fa08627c",
+      "spec_checksum": "sha256:7f3c5316914629c35febbd420012afd54ad93e18fc9daf529fff8249b99c2a8c",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "skillclass:magier@0.1.0"
+      ]
+    },
+    {
+      "id": "skillclass:waldlaufer",
+      "slug": "waldlaufer",
+      "family": "skillclass",
+      "name": "waldlaufer",
+      "kind": "skillclass-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/skillclass/v1.0.0/schema.json",
+      "file": "templates/skillclass/waldlaufer/v1.0.0/template.json",
+      "sha256": "27af978158627df18dff8e66385bd719b875e52f56ecd73ac5a3b59ad323043b",
+      "spec_checksum": "sha256:c540c349b4736694146a9b0a32f1b69ce22e382731cf5518d982d86d0c2e502e",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "skillclass:waldlaufer@0.1.0"
+      ]
+    },
+    {
+      "name": "skillclass",
+      "kind": "json-schema",
+      "version": "1.0.0",
+      "status": "experimental",
+      "file": "templates/schemas/skillclass/v1.0.0/schema.json",
+      "sha256": "0e0886c8b9e30e6e37ad0eac7113e442acf75cc192d90fcec363ef7011b188f7",
       "compatibility": [],
       "validation_profile": "strict-schema-v1",
       "contract_version": "1.0.0"
