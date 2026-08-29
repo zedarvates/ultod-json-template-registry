@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/energy/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "energy:mana",
+  "slug": "mana",
+  "family": "energy",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:bf194135dab97946cf2356ea6455fdb8e34252d3ddf997161d7830124f345d66",
+  "spec": {
+    "display_name": "Mana"
+  }
+}

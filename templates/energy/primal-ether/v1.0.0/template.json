@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/energy/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "energy:primal-ether",
+  "slug": "primal-ether",
+  "family": "energy",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b732f387ec576f5ca6ff0d0ed291ae6f5c1962bb8f4685275b369b75e3fa0059",
+  "spec": {
+    "display_name": "Éther Primordial"
+  }
+}

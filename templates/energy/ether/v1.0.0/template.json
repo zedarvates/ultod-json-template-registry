@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/energy/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "energy:ether",
+  "slug": "ether",
+  "family": "energy",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a6de3822fc4316c9133c95c8f54e7958aa42c4c2fa10f6cdf6a4a96cac13e39b",
+  "spec": {
+    "display_name": "Éther"
+  }
+}

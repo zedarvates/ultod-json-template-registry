@@ -13717,7 +13717,11 @@
       "sha256": "445e1246a6a15e2aeb72c1a102dfe936d05010cf665f2d18405916f58acd15f1",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:air-energy",
+      "slug": "air-energy",
+      "family": "energy",
+      "superseded_by": "energy:air-energy@1.0.0"
     },
     {
       "name": "arcane-energy",
@@ -13729,7 +13733,11 @@
       "sha256": "864b9f9d0a36c6c1b2d117722cafafa9fd77c5e452df423aba8e047decb77bc1",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:arcane-energy",
+      "slug": "arcane-energy",
+      "family": "energy",
+      "superseded_by": "energy:arcane-energy@1.0.0"
     },
     {
       "name": "celestial-energy",
@@ -13741,7 +13749,11 @@
       "sha256": "bfc7b45211d78d22cfe50fbbb9987cd20df5399a44e10f7acbf62d55c2901e0f",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:celestial-energy",
+      "slug": "celestial-energy",
+      "family": "energy",
+      "superseded_by": "energy:celestial-energy@1.0.0"
     },
     {
       "name": "celestial-ether",
@@ -13753,7 +13765,11 @@
       "sha256": "c6f2535af293abcd6138e6d71c2000bd09dc0d8f658196e746cfba82fe1aa89b",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:celestial-ether",
+      "slug": "celestial-ether",
+      "family": "energy",
+      "superseded_by": "energy:celestial-ether@1.0.0"
     },
     {
       "name": "cosmic-energy",
@@ -13765,7 +13781,11 @@
       "sha256": "ce902208bd861ee776bd789fa762a2a1d38dd9275fb1eb1376900d5bd13af630",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:cosmic-energy",
+      "slug": "cosmic-energy",
+      "family": "energy",
+      "superseded_by": "energy:cosmic-energy@1.0.0"
     },
     {
       "name": "dark-energy",
@@ -13777,7 +13797,11 @@
       "sha256": "ce372dbd9bf0f74194ee3acaa3ca63d5ee090640fc390d4b9825e9dcf5b8c5a2",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:dark-energy",
+      "slug": "dark-energy",
+      "family": "energy",
+      "superseded_by": "energy:dark-energy@1.0.0"
     },
     {
       "name": "demonic-energy",
@@ -13789,7 +13813,11 @@
       "sha256": "040e7ac1f4fc72a7ac0044e97491f00dfb4a893acd9aeff1975c90d69dab4324",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:demonic-energy",
+      "slug": "demonic-energy",
+      "family": "energy",
+      "superseded_by": "energy:demonic-energy@1.0.0"
     },
     {
       "name": "divine-energy",
@@ -13801,7 +13829,11 @@
       "sha256": "6b4587e941c3a14b1fbff055a8ff23d48d464d9fc6e1092951db3d0c7e14e7de",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:divine-energy",
+      "slug": "divine-energy",
+      "family": "energy",
+      "superseded_by": "energy:divine-energy@1.0.0"
     },
     {
       "name": "earth-energy",
@@ -13813,7 +13845,11 @@
       "sha256": "e8e1090d2bf2cc4672c918443f486b1e6589720b2418241c38931fde6d6712dc",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:earth-energy",
+      "slug": "earth-energy",
+      "family": "energy",
+      "superseded_by": "energy:earth-energy@1.0.0"
     },
     {
       "name": "elemental",
@@ -13825,7 +13861,11 @@
       "sha256": "4ba4ef3871a8c397b2abee7e63fcadcf21dd8450d3bb86c4cf5313e6baeddf16",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:elemental",
+      "slug": "elemental",
+      "family": "energy",
+      "superseded_by": "energy:elemental@1.0.0"
     },
     {
       "name": "energy-events-templates",
@@ -13885,7 +13925,11 @@
       "sha256": "341aff1185f78414dd4ee38bc1d62cea6799cd1a3848982f3b132923983f275e",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:ether",
+      "slug": "ether",
+      "family": "energy",
+      "superseded_by": "energy:ether@1.0.0"
     },
     {
       "name": "fire-energy",
@@ -13897,7 +13941,11 @@
       "sha256": "7f5049526cbb6b5aeebf8a39548f3fb2cbe3fd9b68ea2e7af27abe4079f0e5fc",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:fire-energy",
+      "slug": "fire-energy",
+      "family": "energy",
+      "superseded_by": "energy:fire-energy@1.0.0"
     },
     {
       "name": "life-force",
@@ -13909,7 +13957,11 @@
       "sha256": "17f20481bc43e23a72ed2ca6e4e2d19f8106795748037e63dee1b4e036858063",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:life-force",
+      "slug": "life-force",
+      "family": "energy",
+      "superseded_by": "energy:life-force@1.0.0"
     },
     {
       "name": "light-energy",
@@ -13921,7 +13973,11 @@
       "sha256": "e40ec34dc7f85dc7ccd462ae10e7c8fd7ff63d5432591095a937ca10cc49555b",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:light-energy",
+      "slug": "light-energy",
+      "family": "energy",
+      "superseded_by": "energy:light-energy@1.0.0"
     },
     {
       "name": "mana",
@@ -13933,7 +13989,11 @@
       "sha256": "5594dc56a30ea5a177b81b58bbd39b29182801bd6d875ba738cbac7ffd815f6e",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:mana",
+      "slug": "mana",
+      "family": "energy",
+      "superseded_by": "energy:mana@1.0.0"
     },
     {
       "name": "nature-energy",
@@ -13945,7 +14005,11 @@
       "sha256": "fac8d44f0e58d22f461385c7394c79b6fa624bb2f4bfb2ddb9ea7b35fb242ccd",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:nature-energy",
+      "slug": "nature-energy",
+      "family": "energy",
+      "superseded_by": "energy:nature-energy@1.0.0"
     },
     {
       "name": "nether-ether",
@@ -13957,7 +14021,11 @@
       "sha256": "1740fdbeecefb21af4229a4c07876a4affc084869350e946d778a4f8d001b73d",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:nether-ether",
+      "slug": "nether-ether",
+      "family": "energy",
+      "superseded_by": "energy:nether-ether@1.0.0"
     },
     {
       "name": "primal-energy",
@@ -13969,7 +14037,11 @@
       "sha256": "d3e7a11efdcee9545bf052e9a3384f0a1f14a89dd695352464f8b66b3c3d303a",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:primal-energy",
+      "slug": "primal-energy",
+      "family": "energy",
+      "superseded_by": "energy:primal-energy@1.0.0"
     },
     {
       "name": "primal-ether",
@@ -13981,7 +14053,11 @@
       "sha256": "dac81d33433650b71df73bf27f6f801eaf6a13db82b1fdb886c27649851c6ae7",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:primal-ether",
+      "slug": "primal-ether",
+      "family": "energy",
+      "superseded_by": "energy:primal-ether@1.0.0"
     },
     {
       "name": "shadow-energy",
@@ -13993,7 +14069,11 @@
       "sha256": "003a396a6b9a1dfd81725265c1790f584c4fa6462ba0eafe19c3953cdc7a7296",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:shadow-energy",
+      "slug": "shadow-energy",
+      "family": "energy",
+      "superseded_by": "energy:shadow-energy@1.0.0"
     },
     {
       "name": "soul-energy",
@@ -14005,7 +14085,11 @@
       "sha256": "a89a9c3e3b296c8d42854d87d40d5cab885705f84a56508b909e2838dd58fff8",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:soul-energy",
+      "slug": "soul-energy",
+      "family": "energy",
+      "superseded_by": "energy:soul-energy@1.0.0"
     },
     {
       "name": "spirit-energy",
@@ -14017,7 +14101,11 @@
       "sha256": "2418e1b8a006e519445c620d32b80fed9ab9cfd08d6e98c6df254b4aa288f73f",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:spirit-energy",
+      "slug": "spirit-energy",
+      "family": "energy",
+      "superseded_by": "energy:spirit-energy@1.0.0"
     },
     {
       "name": "temporal-energy",
@@ -14029,7 +14117,11 @@
       "sha256": "05969c49094bda156dfbd2e4a122bc30aed90a523d2b716745b698c6e4fc3351",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:temporal-energy",
+      "slug": "temporal-energy",
+      "family": "energy",
+      "superseded_by": "energy:temporal-energy@1.0.0"
     },
     {
       "name": "void-energy",
@@ -14041,7 +14133,11 @@
       "sha256": "a31baf15d2b934f244a5b0bbf7d9e7e7b678ab61a21b0a913e1e302283395bbe",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:void-energy",
+      "slug": "void-energy",
+      "family": "energy",
+      "superseded_by": "energy:void-energy@1.0.0"
     },
     {
       "name": "void-ether",
@@ -14053,7 +14149,11 @@
       "sha256": "0c019de3ad745c7645512a8e46f29ca15e11c98c4b4124765af02bf7ad20ee33",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:void-ether",
+      "slug": "void-ether",
+      "family": "energy",
+      "superseded_by": "energy:void-ether@1.0.0"
     },
     {
       "name": "water-energy",
@@ -14065,7 +14165,11 @@
       "sha256": "d595ff75bc9fc67da41d98c668383b15e6c6fd71415385a2d5738a8cbd0ad7e9",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "energy:water-energy",
+      "slug": "water-energy",
+      "family": "energy",
+      "superseded_by": "energy:water-energy@1.0.0"
     },
     {
       "name": "balance-god",
@@ -121003,6 +121107,589 @@
       "status": "experimental",
       "file": "templates/schemas/bulk-orders/v1.0.0/schema.json",
       "sha256": "0b5784cd29605f593a46a09556e65078105642be816134ce594561bf97ba225e",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "energy:air-energy",
+      "slug": "air-energy",
+      "family": "energy",
+      "name": "air-energy",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/air-energy/v1.0.0/template.json",
+      "sha256": "59ae83ff005876c1405cf3456549ab79fd629e157c6fb5f70e03a36312a7e4ef",
+      "spec_checksum": "sha256:2a4346d7a465715e97afaeeabdf723d6eb68653bf79ef5f9a47ea10c91dfd57f",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:air-energy@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:arcane-energy",
+      "slug": "arcane-energy",
+      "family": "energy",
+      "name": "arcane-energy",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/arcane-energy/v1.0.0/template.json",
+      "sha256": "36bfcef4cd8f03e6404ed3d344aef7381ac61b2e42509064edf8444d557a3422",
+      "spec_checksum": "sha256:d70586c6482fb80c76052538985e78c5a6f043ec19360b577c03833112222e9d",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:arcane-energy@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:celestial-energy",
+      "slug": "celestial-energy",
+      "family": "energy",
+      "name": "celestial-energy",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/celestial-energy/v1.0.0/template.json",
+      "sha256": "90917350d11c05af3e2d4b4e5e3cb8f3f8dd265c1ca7987f32cf6fa6d0cd4402",
+      "spec_checksum": "sha256:fd20a2ebe2e55467c0d16550feea46dfbbd6d59dadb84922b41126cc40b61844",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:celestial-energy@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:celestial-ether",
+      "slug": "celestial-ether",
+      "family": "energy",
+      "name": "celestial-ether",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/celestial-ether/v1.0.0/template.json",
+      "sha256": "80059ab5541626b076d5a9896fc03ec5fc6ed4ee62e51ac85484749b67c034e1",
+      "spec_checksum": "sha256:3c317a4d3b45b439526e049ec50ce5ee53529cb436acccf185c473cd7c0f3beb",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:celestial-ether@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:cosmic-energy",
+      "slug": "cosmic-energy",
+      "family": "energy",
+      "name": "cosmic-energy",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/cosmic-energy/v1.0.0/template.json",
+      "sha256": "407ca4ab66799deccd7531bf8f88a2237d9a30572aa3b0a2754925fa96dc62f7",
+      "spec_checksum": "sha256:105a7d24b96ddaed50793f8959ade965485a164c413feb20b26881b56bd5b394",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:cosmic-energy@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:dark-energy",
+      "slug": "dark-energy",
+      "family": "energy",
+      "name": "dark-energy",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/dark-energy/v1.0.0/template.json",
+      "sha256": "f839d58de686d9602fbc123a215fcd4ab4f326026f74018cae2f0131e4d753c1",
+      "spec_checksum": "sha256:8b6ea31f1b4d32e7c36a5c60f7d5f63fc9776e31f8b1c0b524401c170e9eee5c",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:dark-energy@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:demonic-energy",
+      "slug": "demonic-energy",
+      "family": "energy",
+      "name": "demonic-energy",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/demonic-energy/v1.0.0/template.json",
+      "sha256": "5d876f373e0974d39f3a1ee9b59d00d7ef1b4a4f535464e7a984752c070ab7cb",
+      "spec_checksum": "sha256:04882246bec575ea787f7d461821d4f5d1a08070f4d23e3530327453c7d24e3d",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:demonic-energy@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:divine-energy",
+      "slug": "divine-energy",
+      "family": "energy",
+      "name": "divine-energy",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/divine-energy/v1.0.0/template.json",
+      "sha256": "240c22b372dd98c902b95b3e7089d3c2cb6b8ad88776e9d47a120dc9ceacdc4c",
+      "spec_checksum": "sha256:f78fe8af9927830cd3c146477dcfc21b9bbcfc68993dd040cadf3186f891570f",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:divine-energy@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:earth-energy",
+      "slug": "earth-energy",
+      "family": "energy",
+      "name": "earth-energy",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/earth-energy/v1.0.0/template.json",
+      "sha256": "25c0513b46d865196d5feeb63a6695a5b9a5973d18ec988edbe1d39c1769d2ce",
+      "spec_checksum": "sha256:25a37569b9f453b6080145cd2c1ae591228d38ccc4526235cd027f61e5c06d89",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:earth-energy@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:elemental",
+      "slug": "elemental",
+      "family": "energy",
+      "name": "elemental",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/elemental/v1.0.0/template.json",
+      "sha256": "b387952cc736bdb4e10f3e91e32cd2ba3ac340beb2d5ce38e43018de1d6fcc67",
+      "spec_checksum": "sha256:0703e70706eda17cda9828ebeee1220cd26030f6b32f29893a7f05c097e71dbb",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:elemental@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:ether",
+      "slug": "ether",
+      "family": "energy",
+      "name": "ether",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/ether/v1.0.0/template.json",
+      "sha256": "31994eacd605f2c5ed325623d59c7156c72c39c8dcd5ecdd5bb16cf7172089fc",
+      "spec_checksum": "sha256:a6de3822fc4316c9133c95c8f54e7958aa42c4c2fa10f6cdf6a4a96cac13e39b",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:ether@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:fire-energy",
+      "slug": "fire-energy",
+      "family": "energy",
+      "name": "fire-energy",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/fire-energy/v1.0.0/template.json",
+      "sha256": "d3c0dd4c7aea553bdfe985c635f5356f36c71c0c6f10e9555b64d62053696879",
+      "spec_checksum": "sha256:7c886c8077a43fb07391582197e2ad0cbb3f3ed947b071f8bbad6f8b780f408f",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:fire-energy@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:life-force",
+      "slug": "life-force",
+      "family": "energy",
+      "name": "life-force",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/life-force/v1.0.0/template.json",
+      "sha256": "9a06062974be29634885aea2faa347f5670109d5ad0009df5df636e6f2ce1dcc",
+      "spec_checksum": "sha256:754869ef43a5526ba493781f97e48a9b9411835418bfe25a0b0bb204509df838",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:life-force@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:light-energy",
+      "slug": "light-energy",
+      "family": "energy",
+      "name": "light-energy",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/light-energy/v1.0.0/template.json",
+      "sha256": "ac3f2d152b30781738d6aedd6e9c79c818c4c71ff8687cfbd2671bd28edeed97",
+      "spec_checksum": "sha256:ba868c51b293ccc9c370d7ed8887312a5a864b45c2477e31dedc3f17a9b9afaf",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:light-energy@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:mana",
+      "slug": "mana",
+      "family": "energy",
+      "name": "mana",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/mana/v1.0.0/template.json",
+      "sha256": "b3b8e144af70c0a4c7e6f3a1cddd95bf1b0aec6a218edd288fedf37c606e3170",
+      "spec_checksum": "sha256:bf194135dab97946cf2356ea6455fdb8e34252d3ddf997161d7830124f345d66",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:mana@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:nature-energy",
+      "slug": "nature-energy",
+      "family": "energy",
+      "name": "nature-energy",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/nature-energy/v1.0.0/template.json",
+      "sha256": "1edb179fd95d9aabe3dae0a0d335d7e2ac9e3dec0d17fb33770b552bb51c164a",
+      "spec_checksum": "sha256:36c28c0a3a8520f66d0219a19b08ad01ba54f1afcdbbfee0fccb8514edb78d1c",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:nature-energy@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:nether-ether",
+      "slug": "nether-ether",
+      "family": "energy",
+      "name": "nether-ether",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/nether-ether/v1.0.0/template.json",
+      "sha256": "370d45b824aef55c90886484d7e76cb04d7c02f1b0bc6ec6915001df2a06e561",
+      "spec_checksum": "sha256:6c3c9d69cd400b8dfe251d5c6a644d9a23c9d55e84b7dc0c15e364c79429947d",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:nether-ether@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:primal-energy",
+      "slug": "primal-energy",
+      "family": "energy",
+      "name": "primal-energy",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/primal-energy/v1.0.0/template.json",
+      "sha256": "6d97eb19d52fd675cddf417c5fa26c04806a9984029eaf5ec8ce5a38815048c0",
+      "spec_checksum": "sha256:3e9d6a975c77d21d4bec01b84fd6ae2377eb1b23dd34d13321f91673000c0cfe",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:primal-energy@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:primal-ether",
+      "slug": "primal-ether",
+      "family": "energy",
+      "name": "primal-ether",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/primal-ether/v1.0.0/template.json",
+      "sha256": "2940829802444e988fe3027b2c0b7673544a8b87e91335c17652d8a21c0ae7eb",
+      "spec_checksum": "sha256:b732f387ec576f5ca6ff0d0ed291ae6f5c1962bb8f4685275b369b75e3fa0059",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:primal-ether@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:shadow-energy",
+      "slug": "shadow-energy",
+      "family": "energy",
+      "name": "shadow-energy",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/shadow-energy/v1.0.0/template.json",
+      "sha256": "cdc043a6a96a9c7e9173df0c99c3e0f2a93af53c130e19e37253c834568093df",
+      "spec_checksum": "sha256:cbf7745dd2df9cce1d513e42b987da33209109685759e9b260fa713972f745d3",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:shadow-energy@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:soul-energy",
+      "slug": "soul-energy",
+      "family": "energy",
+      "name": "soul-energy",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/soul-energy/v1.0.0/template.json",
+      "sha256": "f022a71c00afbcda036604e625653fb187b5a4d13a976c0c1935631c03f5da33",
+      "spec_checksum": "sha256:c7c9b842dafa080de0df8608c3aa7d9d5c4e84d10d284a2f3658e566f7885a7a",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:soul-energy@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:spirit-energy",
+      "slug": "spirit-energy",
+      "family": "energy",
+      "name": "spirit-energy",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/spirit-energy/v1.0.0/template.json",
+      "sha256": "9e431d22d88533ec53f090b637f49322f6dd089201f429fe9ce14c6c2df25fab",
+      "spec_checksum": "sha256:16480a2e533e00ca39d930206ec8abd404bc694292043f74c49457380f192a00",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:spirit-energy@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:temporal-energy",
+      "slug": "temporal-energy",
+      "family": "energy",
+      "name": "temporal-energy",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/temporal-energy/v1.0.0/template.json",
+      "sha256": "cabe98d00df8dbd602a72b6490022ba3b7c358057bd8058dcf5475da38d7f7dc",
+      "spec_checksum": "sha256:f35a81951571bde5523ac4bd93d8bbdf3133828f8efdd1a7789148528b12c846",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:temporal-energy@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:void-energy",
+      "slug": "void-energy",
+      "family": "energy",
+      "name": "void-energy",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/void-energy/v1.0.0/template.json",
+      "sha256": "a84c445cbb26d85754a8872a02bd25865103e61744ef16281bd4bf2d9352d885",
+      "spec_checksum": "sha256:9c9817057a867ba78cb927e76e718fece417a28874532d4950147a3f434027b1",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:void-energy@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:void-ether",
+      "slug": "void-ether",
+      "family": "energy",
+      "name": "void-ether",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/void-ether/v1.0.0/template.json",
+      "sha256": "52b2e73b0cfe8f32a09246ab925e52f92f5956d0c2d9f0ed3fd9f207330fa655",
+      "spec_checksum": "sha256:973ca2aa5ce7f7abe24925eb2f3dc8feec30bb2d146872ad7cebbb18ee79f27a",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:void-ether@0.1.0"
+      ]
+    },
+    {
+      "id": "energy:water-energy",
+      "slug": "water-energy",
+      "family": "energy",
+      "name": "water-energy",
+      "kind": "energy-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/energy/v1.0.0/schema.json",
+      "file": "templates/energy/water-energy/v1.0.0/template.json",
+      "sha256": "1fd481a74dad60eef2202a3a78ef72b307bf17fbce63f6f31bf67f8593afa0a1",
+      "spec_checksum": "sha256:8b2fde1b943b6cf11f8daddef39bb7457888a029a60fa4c32c0fb3cd8d786b74",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "energy:water-energy@0.1.0"
+      ]
+    },
+    {
+      "name": "energy",
+      "kind": "json-schema",
+      "version": "1.0.0",
+      "status": "experimental",
+      "file": "templates/schemas/energy/v1.0.0/schema.json",
+      "sha256": "cdb0a522f1a26facd433b899b543772e75c7e8c68a265b1ebee7fc42f587a97c",
       "compatibility": [],
       "validation_profile": "strict-schema-v1",
       "contract_version": "1.0.0"

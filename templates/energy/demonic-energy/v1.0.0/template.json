@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/energy/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "energy:demonic-energy",
+  "slug": "demonic-energy",
+  "family": "energy",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:04882246bec575ea787f7d461821d4f5d1a08070f4d23e3530327453c7d24e3d",
+  "spec": {
+    "display_name": "Énergie Démoniaque"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/energy/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "energy:divine-energy",
+  "slug": "divine-energy",
+  "family": "energy",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f78fe8af9927830cd3c146477dcfc21b9bbcfc68993dd040cadf3186f891570f",
+  "spec": {
+    "display_name": "Énergie Divine"
+  }
+}
