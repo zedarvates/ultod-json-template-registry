@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/energy/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "energy:soul-energy",
+  "slug": "soul-energy",
+  "family": "energy",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c7c9b842dafa080de0df8608c3aa7d9d5c4e84d10d284a2f3658e566f7885a7a",
+  "spec": {
+    "display_name": "Énergie d'Âme"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/energy/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "energy:arcane-energy",
+  "slug": "arcane-energy",
+  "family": "energy",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d70586c6482fb80c76052538985e78c5a6f043ec19360b577c03833112222e9d",
+  "spec": {
+    "display_name": "Énergie Arcanique"
+  }
+}

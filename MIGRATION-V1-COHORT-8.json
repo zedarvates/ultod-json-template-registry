@@ -1,0 +1,284 @@
+{
+  "report_version": "1.0.0",
+  "cohort": "8",
+  "families": [
+    "energy"
+  ],
+  "summary": {
+    "total": 32,
+    "dispositions": {
+      "legacy-only-authoritative": 6,
+      "migrated": 26
+    }
+  },
+  "results": [
+    {
+      "source_file": "templates/energy/air-energy/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "air-energy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/air-energy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/arcane-energy/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "arcane-energy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/arcane-energy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/celestial-energy/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "celestial-energy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/celestial-energy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/celestial-ether/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "celestial-ether",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/celestial-ether/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/cosmic-energy/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "cosmic-energy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/cosmic-energy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/dark-energy/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "dark-energy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/dark-energy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/demonic-energy/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "demonic-energy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/demonic-energy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/divine-energy/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "divine-energy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/divine-energy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/divine-shrine-001/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "divine-shrine-001",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-energy-instance-catalog-or-formula"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/energy/earth-energy/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "earth-energy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/earth-energy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/elemental/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "elemental",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/elemental/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/energy-events-templates/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "energy-events-templates",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-energy-instance-catalog-or-formula"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/energy/energy-master-template/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "energy-master-template",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-energy-instance-catalog-or-formula"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/energy/energy-nodes-templates/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "energy-nodes-templates",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-energy-instance-catalog-or-formula"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/energy/energy-synergies-advanced/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "energy-synergies-advanced",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-energy-instance-catalog-or-formula"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/energy/ether/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "ether",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/ether/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/fire-energy/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "fire-energy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/fire-energy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/life-force/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "life-force",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/life-force/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/light-energy/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "light-energy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/light-energy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/mana-well-001/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "mana-well-001",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-energy-instance-catalog-or-formula"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/energy/mana/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "mana",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/mana/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/nature-energy/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "nature-energy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/nature-energy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/nether-ether/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "nether-ether",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/nether-ether/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/primal-energy/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "primal-energy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/primal-energy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/primal-ether/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "primal-ether",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/primal-ether/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/shadow-energy/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "shadow-energy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/shadow-energy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/soul-energy/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "soul-energy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/soul-energy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/spirit-energy/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "spirit-energy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/spirit-energy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/temporal-energy/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "temporal-energy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/temporal-energy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/void-energy/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "void-energy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/void-energy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/void-ether/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "void-ether",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/void-ether/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/energy/water-energy/v0.1.0/template.json",
+      "family": "energy",
+      "slug": "water-energy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/energy/water-energy/v1.0.0/template.json"
+    }
+  ]
+}

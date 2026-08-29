@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/energy/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "energy:life-force",
+  "slug": "life-force",
+  "family": "energy",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:754869ef43a5526ba493781f97e48a9b9411835418bfe25a0b0bb204509df838",
+  "spec": {
+    "display_name": "Force Vitale"
+  }
+}

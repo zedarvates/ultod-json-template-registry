@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/energy/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "energy:light-energy",
+  "slug": "light-energy",
+  "family": "energy",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ba868c51b293ccc9c370d7ed8887312a5a864b45c2477e31dedc3f17a9b9afaf",
+  "spec": {
+    "display_name": "Énergie de Lumière"
+  }
+}
