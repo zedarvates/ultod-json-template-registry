@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/recipes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "recipes:leather-armor",
+  "slug": "leather-armor",
+  "family": "recipes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:03405feecdbbcd6dc12d2881dc57f3ca8cd737f0d7f0b2b2615e635ea21e5ee7",
+  "spec": {
+    "display_name": "Armure de Cuir",
+    "profession_tag": "leatherworking",
+    "station_kind": "workbench"
+  }
+}

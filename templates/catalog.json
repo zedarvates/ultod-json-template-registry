@@ -905,7 +905,11 @@
       "sha256": "1abaf49cb9594efa08ca46eed4ff8eebb02048ba72564cebe786481fad3f39d7",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "recipes:cloth-robe",
+      "slug": "cloth-robe",
+      "family": "recipes",
+      "superseded_by": "recipes:cloth-robe@1.0.0"
     },
     {
       "name": "iron-armor",
@@ -917,7 +921,11 @@
       "sha256": "664c175a5a3e3cb81b88cd1ddb60afcccedabecc6755bebf26775272d4cfa4c9",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "recipes:iron-armor",
+      "slug": "iron-armor",
+      "family": "recipes",
+      "superseded_by": "recipes:iron-armor@1.0.0"
     },
     {
       "name": "iron-sword",
@@ -929,7 +937,11 @@
       "sha256": "04e4039c4181b35945882173455ec0138db3f7eef38c86d7db47ba1ea160fab5",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "recipes:iron-sword",
+      "slug": "iron-sword",
+      "family": "recipes",
+      "superseded_by": "recipes:iron-sword@1.0.0"
     },
     {
       "name": "leather-armor",
@@ -941,7 +953,11 @@
       "sha256": "2843b6a08e1c86d5028b9fc8de5d159413faa55ee19bd2c6ae2b6206404a6699",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "recipes:leather-armor",
+      "slug": "leather-armor",
+      "family": "recipes",
+      "superseded_by": "recipes:leather-armor@1.0.0"
     },
     {
       "name": "smoke-bomb",
@@ -953,7 +969,11 @@
       "sha256": "7bf9a46d6bdc5fead99e061ab71ab456d49a1590d16d6a202bc3904b6e0c51f1",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "recipes:smoke-bomb",
+      "slug": "smoke-bomb",
+      "family": "recipes",
+      "superseded_by": "recipes:smoke-bomb@1.0.0"
     },
     {
       "name": "celt-banshee",
@@ -16857,7 +16877,11 @@
       "compatibility": [],
       "source_file": "bulk_orders/blacksmith_bulk_order.json",
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "bulk-orders:blacksmith-sword-bulk",
+      "slug": "blacksmith-sword-bulk",
+      "family": "bulk-orders",
+      "superseded_by": "bulk-orders:blacksmith-sword-bulk@1.0.0"
     },
     {
       "name": "artifact-collection-bulk",
@@ -16869,7 +16893,11 @@
       "compatibility": [],
       "source_file": "bulk_orders/collection_bulk_order.json",
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "bulk-orders:artifact-collection-bulk",
+      "slug": "artifact-collection-bulk",
+      "family": "bulk-orders",
+      "superseded_by": "bulk-orders:artifact-collection-bulk@1.0.0"
     },
     {
       "name": "mining-gathering-bulk",
@@ -16881,7 +16909,11 @@
       "compatibility": [],
       "source_sha256": "459b0a0552c160cc30a249952d739815c9d3e7fed378427802f097942a2b2c31",
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "bulk-orders:mining-gathering-bulk",
+      "slug": "mining-gathering-bulk",
+      "family": "bulk-orders",
+      "superseded_by": "bulk-orders:mining-gathering-bulk@1.0.0"
     },
     {
       "name": "monster-hunting-bulk",
@@ -16893,7 +16925,11 @@
       "compatibility": [],
       "source_file": "bulk_orders/hunting_bulk_order.json",
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "bulk-orders:monster-hunting-bulk",
+      "slug": "monster-hunting-bulk",
+      "family": "bulk-orders",
+      "superseded_by": "bulk-orders:monster-hunting-bulk@1.0.0"
     },
     {
       "name": "template",
@@ -32217,7 +32253,11 @@
       "compatibility": [],
       "source_sha256": "a7182bf5c1053f1ecd3d2f05a16b72a0ea70540653f4b47fc70b8a49e5b14cd8",
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "recipe:healing-potion",
+      "slug": "healing-potion",
+      "family": "recipe",
+      "superseded_by": "recipe:healing-potion@1.0.0"
     },
     {
       "name": "minor-strength-enchant",
@@ -32229,7 +32269,11 @@
       "compatibility": [],
       "source_file": "recipe/minor_strength_enchant.json",
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "recipe:minor-strength-enchant",
+      "slug": "minor-strength-enchant",
+      "family": "recipe",
+      "superseded_by": "recipe:minor-strength-enchant@1.0.0"
     },
     {
       "name": "buildings",
@@ -120684,6 +120728,281 @@
       "status": "experimental",
       "file": "templates/schemas/skillclass/v1.0.0/schema.json",
       "sha256": "0e0886c8b9e30e6e37ad0eac7113e442acf75cc192d90fcec363ef7011b188f7",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "recipes:cloth-robe",
+      "slug": "cloth-robe",
+      "family": "recipes",
+      "name": "cloth-robe",
+      "kind": "recipe-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/recipes/v1.0.0/schema.json",
+      "file": "templates/recipes/cloth-robe/v1.0.0/template.json",
+      "sha256": "c9ba2cc59a6ec646d485d771c1d936415079300ad8a24285ad9882b649d79287",
+      "spec_checksum": "sha256:888dc4491e6d58636164d27ebb3155ad8b1036d9ff89fa6dcdc752d4646ebdc2",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "recipes:cloth-robe@0.1.0"
+      ]
+    },
+    {
+      "id": "recipes:iron-armor",
+      "slug": "iron-armor",
+      "family": "recipes",
+      "name": "iron-armor",
+      "kind": "recipe-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/recipes/v1.0.0/schema.json",
+      "file": "templates/recipes/iron-armor/v1.0.0/template.json",
+      "sha256": "75e25b85966125d1dc80781de71b510edd32e7dfabb5e401f7e6ee08232b357e",
+      "spec_checksum": "sha256:6e46c00da2056cfbedd99c73048782a87b46d057288808a0aadbc81f61663655",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "recipes:iron-armor@0.1.0"
+      ]
+    },
+    {
+      "id": "recipes:iron-sword",
+      "slug": "iron-sword",
+      "family": "recipes",
+      "name": "iron-sword",
+      "kind": "recipe-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/recipes/v1.0.0/schema.json",
+      "file": "templates/recipes/iron-sword/v1.0.0/template.json",
+      "sha256": "38f36188d4ef769765c2a18beab228251916c21d85bf2d920c3214ccb73a6c14",
+      "spec_checksum": "sha256:b0cf691a480d1ce919dd2f6cc623b99a4f0734a2373a776888a97b522b21efb6",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "recipes:iron-sword@0.1.0"
+      ]
+    },
+    {
+      "id": "recipes:leather-armor",
+      "slug": "leather-armor",
+      "family": "recipes",
+      "name": "leather-armor",
+      "kind": "recipe-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/recipes/v1.0.0/schema.json",
+      "file": "templates/recipes/leather-armor/v1.0.0/template.json",
+      "sha256": "4bd432ba03b063f0628f40cdd208360f763579fc69f42a9aed041a0f431da231",
+      "spec_checksum": "sha256:03405feecdbbcd6dc12d2881dc57f3ca8cd737f0d7f0b2b2615e635ea21e5ee7",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "recipes:leather-armor@0.1.0"
+      ]
+    },
+    {
+      "id": "recipes:smoke-bomb",
+      "slug": "smoke-bomb",
+      "family": "recipes",
+      "name": "smoke-bomb",
+      "kind": "recipe-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/recipes/v1.0.0/schema.json",
+      "file": "templates/recipes/smoke-bomb/v1.0.0/template.json",
+      "sha256": "dbc8951be83d9f0cbf895df2e352d032926f93e40a794e2b91c14138dc31d115",
+      "spec_checksum": "sha256:2641cb6557ed795a603fcd5888fa7662e54ffc7c4f983824416b06fa2e9d5879",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "recipes:smoke-bomb@0.1.0"
+      ]
+    },
+    {
+      "name": "recipes",
+      "kind": "json-schema",
+      "version": "1.0.0",
+      "status": "experimental",
+      "file": "templates/schemas/recipes/v1.0.0/schema.json",
+      "sha256": "0f45af7254bf4b5ef2e9a8dd99ff2a9fc2d42c46d425e2ce507518d6744d5335",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "recipe:healing-potion",
+      "slug": "healing-potion",
+      "family": "recipe",
+      "name": "healing-potion",
+      "kind": "recipe-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/recipe/v1.0.0/schema.json",
+      "file": "templates/recipe/healing-potion/v1.0.0/template.json",
+      "sha256": "5d537d303a3ef51f87d3d9c843f28cc50e3533cfcbac59e738dada88461d633a",
+      "spec_checksum": "sha256:ad9f360dc1a16db16ffd72eb62c08bdee0e012a3bde960bb886459950d0c33e0",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "recipe:healing-potion@0.1.0"
+      ]
+    },
+    {
+      "id": "recipe:minor-strength-enchant",
+      "slug": "minor-strength-enchant",
+      "family": "recipe",
+      "name": "minor-strength-enchant",
+      "kind": "recipe-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/recipe/v1.0.0/schema.json",
+      "file": "templates/recipe/minor-strength-enchant/v1.0.0/template.json",
+      "sha256": "65dc66acd39a7119ee31d0cecb08a99d1036a7609e2f0d93f1dce06595d2ecd5",
+      "spec_checksum": "sha256:ae1a35f00687c9c3068da35196dcc5221bbbd16a0add3fa4dc8ca13a0be04002",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "recipe:minor-strength-enchant@0.1.0"
+      ]
+    },
+    {
+      "name": "recipe",
+      "kind": "json-schema",
+      "version": "1.0.0",
+      "status": "experimental",
+      "file": "templates/schemas/recipe/v1.0.0/schema.json",
+      "sha256": "6e3c30ee96e764a4445aaa6e56c53609b2118ab6b194079e2eb37c18808fd291",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "bulk-orders:artifact-collection-bulk",
+      "slug": "artifact-collection-bulk",
+      "family": "bulk-orders",
+      "name": "artifact-collection-bulk",
+      "kind": "bulk-order-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/bulk-orders/v1.0.0/schema.json",
+      "file": "templates/bulk-orders/artifact-collection-bulk/v1.0.0/template.json",
+      "sha256": "6cfa8dccbb56cfb5567a1cface4cf22f669bc3213fb723acec47f28c47fd6b35",
+      "spec_checksum": "sha256:dd98b22f091f0bc6e90e71f24d3a205f17a3e80ccd78cd3bba4ebba5270202d2",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "bulk-orders:artifact-collection-bulk@0.1.0"
+      ]
+    },
+    {
+      "id": "bulk-orders:blacksmith-sword-bulk",
+      "slug": "blacksmith-sword-bulk",
+      "family": "bulk-orders",
+      "name": "blacksmith-sword-bulk",
+      "kind": "bulk-order-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/bulk-orders/v1.0.0/schema.json",
+      "file": "templates/bulk-orders/blacksmith-sword-bulk/v1.0.0/template.json",
+      "sha256": "9d38cf1a754213e1815aebc669356bfe1bb6befcb1cf7e9d16a60923ae55cdcd",
+      "spec_checksum": "sha256:66b5c53f114f96c91a69eb5a790bd3228dbedc71d1ac0ead8f3c67a281ab329a",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "bulk-orders:blacksmith-sword-bulk@0.1.0"
+      ]
+    },
+    {
+      "id": "bulk-orders:mining-gathering-bulk",
+      "slug": "mining-gathering-bulk",
+      "family": "bulk-orders",
+      "name": "mining-gathering-bulk",
+      "kind": "bulk-order-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/bulk-orders/v1.0.0/schema.json",
+      "file": "templates/bulk-orders/mining-gathering-bulk/v1.0.0/template.json",
+      "sha256": "388e5d3f72a2d7593b122a5002537963a61620812bc858f9757ea4f965cbe915",
+      "spec_checksum": "sha256:32f349c8d0123827ebe14508343dd2e23cd63c481300a68dbb07ff50e19f2309",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "bulk-orders:mining-gathering-bulk@0.1.0"
+      ]
+    },
+    {
+      "id": "bulk-orders:monster-hunting-bulk",
+      "slug": "monster-hunting-bulk",
+      "family": "bulk-orders",
+      "name": "monster-hunting-bulk",
+      "kind": "bulk-order-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/bulk-orders/v1.0.0/schema.json",
+      "file": "templates/bulk-orders/monster-hunting-bulk/v1.0.0/template.json",
+      "sha256": "c0c20583be6dd84810802a51e3bbde4a162fc05f2531daf5ea0767fab746382d",
+      "spec_checksum": "sha256:227ed89fb307095544aadb740b62bdb7a2679c1a8f1da312c6413e6337ffdbee",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "bulk-orders:monster-hunting-bulk@0.1.0"
+      ]
+    },
+    {
+      "name": "bulk-orders",
+      "kind": "json-schema",
+      "version": "1.0.0",
+      "status": "experimental",
+      "file": "templates/schemas/bulk-orders/v1.0.0/schema.json",
+      "sha256": "0b5784cd29605f593a46a09556e65078105642be816134ce594561bf97ba225e",
       "compatibility": [],
       "validation_profile": "strict-schema-v1",
       "contract_version": "1.0.0"

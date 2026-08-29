@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/bulk-orders/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "bulk-orders:blacksmith-sword-bulk",
+  "slug": "blacksmith-sword-bulk",
+  "family": "bulk-orders",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:66b5c53f114f96c91a69eb5a790bd3228dbedc71d1ac0ead8f3c67a281ab329a",
+  "spec": {
+    "display_name": "Commande d'Épées Standard",
+    "profession_tag": "blacksmithing"
+  }
+}
