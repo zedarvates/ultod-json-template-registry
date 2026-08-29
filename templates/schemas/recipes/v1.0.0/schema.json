@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ultimateodycer.com/schemas/recipes/1.0.0",
+  "title": "Ultimate Odycer recipes Template v1",
+  "allOf": [
+    {
+      "$ref": "https://ultimateodycer.com/schemas/template-contract/1.0.0"
+    },
+    {
+      "properties": {
+        "spec": {
+          "type": "object",
+          "required": [
+            "display_name"
+          ],
+          "properties": {
+            "display_name": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "profession_tag": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "maxLength": 64
+            },
+            "station_kind": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+              "maxLength": 64
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    }
+  ]
+}

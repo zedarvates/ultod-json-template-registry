@@ -1,0 +1,159 @@
+{
+  "report_version": "1.0.0",
+  "cohort": "7",
+  "families": [
+    "recipes",
+    "recipe",
+    "bulk-orders",
+    "bods",
+    "loot",
+    "gathering-node"
+  ],
+  "summary": {
+    "total": 16,
+    "dispositions": {
+      "legacy-only-authoritative": 5,
+      "migrated": 11
+    }
+  },
+  "results": [
+    {
+      "source_file": "templates/bods/template/v0.1.0/template.json",
+      "family": "bods",
+      "slug": "template",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-quantities-timings-probabilities-or-rewards"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/bulk-orders/artifact-collection-bulk/v0.1.0/template.json",
+      "family": "bulk-orders",
+      "slug": "artifact-collection-bulk",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/bulk-orders/artifact-collection-bulk/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/bulk-orders/blacksmith-sword-bulk/v0.1.0/template.json",
+      "family": "bulk-orders",
+      "slug": "blacksmith-sword-bulk",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/bulk-orders/blacksmith-sword-bulk/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/bulk-orders/mining-gathering-bulk/v0.1.0/template.json",
+      "family": "bulk-orders",
+      "slug": "mining-gathering-bulk",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/bulk-orders/mining-gathering-bulk/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/bulk-orders/monster-hunting-bulk/v0.1.0/template.json",
+      "family": "bulk-orders",
+      "slug": "monster-hunting-bulk",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/bulk-orders/monster-hunting-bulk/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/bulk-orders/standard-crafting-bulk-order/0.1.0/template.json",
+      "family": "bulk-orders",
+      "slug": "standard-crafting-bulk-order",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-bulk-order-system"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/gathering-node/gathering-node-template-0001/v0.1.0/template.json",
+      "family": "gathering-node",
+      "slug": "gathering-node-template-0001",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-quantities-timings-probabilities-or-rewards"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/loot/template-2/v0.1.0/template.json",
+      "family": "loot",
+      "slug": "template",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-quantities-timings-probabilities-or-rewards"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/loot/template/v0.1.0/template.json",
+      "family": "loot",
+      "slug": "template",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-quantities-timings-probabilities-or-rewards"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/recipe/healing-potion/v0.1.0/template.json",
+      "family": "recipe",
+      "slug": "healing-potion",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/recipe/healing-potion/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/recipe/minor-strength-enchant/v0.1.0/template.json",
+      "family": "recipe",
+      "slug": "minor-strength-enchant",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/recipe/minor-strength-enchant/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/recipes/cloth-robe/v0.1.0/template.json",
+      "family": "recipes",
+      "slug": "cloth-robe",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/recipes/cloth-robe/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/recipes/iron-armor/v0.1.0/template.json",
+      "family": "recipes",
+      "slug": "iron-armor",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/recipes/iron-armor/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/recipes/iron-sword/v0.1.0/template.json",
+      "family": "recipes",
+      "slug": "iron-sword",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/recipes/iron-sword/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/recipes/leather-armor/v0.1.0/template.json",
+      "family": "recipes",
+      "slug": "leather-armor",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/recipes/leather-armor/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/recipes/smoke-bomb/v0.1.0/template.json",
+      "family": "recipes",
+      "slug": "smoke-bomb",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/recipes/smoke-bomb/v1.0.0/template.json"
+    }
+  ]
+}

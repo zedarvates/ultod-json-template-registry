@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/recipes/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "recipes:smoke-bomb",
+  "slug": "smoke-bomb",
+  "family": "recipes",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:2641cb6557ed795a603fcd5888fa7662e54ffc7c4f983824416b06fa2e9d5879",
+  "spec": {
+    "display_name": "Bombe de Fumée",
+    "profession_tag": "engineering",
+    "station_kind": "workbench"
+  }
+}

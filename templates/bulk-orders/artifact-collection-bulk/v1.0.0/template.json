@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/bulk-orders/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "bulk-orders:artifact-collection-bulk",
+  "slug": "artifact-collection-bulk",
+  "family": "bulk-orders",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:dd98b22f091f0bc6e90e71f24d3a205f17a3e80ccd78cd3bba4ebba5270202d2",
+  "spec": {
+    "display_name": "Commande de Collection d'Artéfacts",
+    "profession_tag": "archaeology"
+  }
+}
