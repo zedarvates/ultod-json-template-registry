@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/sects/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "sects:sect-protection-iron-wall",
+  "slug": "sect-protection-iron-wall",
+  "family": "sects",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:fba7c350ad307594dcd97fef1e2a91d3475748e8dc87684f6b639d2da5908c2a",
+  "spec": {
+    "display_name": "Mur de Fer",
+    "school_tag": "physical",
+    "sect_kind": "buff"
+  }
+}

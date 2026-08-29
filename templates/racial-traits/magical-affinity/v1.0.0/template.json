@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/racial-traits/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "racial-traits:magical-affinity",
+  "slug": "magical-affinity",
+  "family": "racial-traits",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:9fecd658570b23371db1896ccb2f62e810cb65db4c37337ce2958be2fa958389",
+  "spec": {
+    "display_name": "Affinité Magique",
+    "category_tag": "magic",
+    "rarity_tag": "rare"
+  }
+}

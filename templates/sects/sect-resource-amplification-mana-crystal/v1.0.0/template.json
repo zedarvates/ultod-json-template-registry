@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/sects/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "sects:sect-resource-amplification-mana-crystal",
+  "slug": "sect-resource-amplification-mana-crystal",
+  "family": "sects",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c2f6ccb9ecadb91606785c9d3c17f71b5bf901b21755f7434751f12c3b09bc0c",
+  "spec": {
+    "display_name": "Amplification Cristaux de Mana",
+    "school_tag": "arcane",
+    "sect_kind": "buff"
+  }
+}

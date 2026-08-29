@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/gods/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "gods:order-god",
+  "slug": "order-god",
+  "family": "gods",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:03401298aec751b84d0f97fd49dc550d770ecb9f46114d3b1188ec437b5b9fa1",
+  "spec": {
+    "display_name": "Zeus",
+    "domain_tag": "order",
+    "alignment_tag": "lawful-neutral"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/racial-traits/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "racial-traits:thick-hide",
+  "slug": "thick-hide",
+  "family": "racial-traits",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e4cd8188f88eef71015e545889294f1c9ab1a748a75f4843f149630f82fd1cf0",
+  "spec": {
+    "display_name": "Thick Hide",
+    "category_tag": "physical",
+    "rarity_tag": "common"
+  }
+}

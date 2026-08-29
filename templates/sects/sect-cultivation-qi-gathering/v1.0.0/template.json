@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/sects/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "sects:sect-cultivation-qi-gathering",
+  "slug": "sect-cultivation-qi-gathering",
+  "family": "sects",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:66feadafe561628fc34145ae7286215ea211163c5561d4d7cb282405f9e47d70",
+  "spec": {
+    "display_name": "Rassemblement de Qi",
+    "school_tag": "nature",
+    "sect_kind": "buff"
+  }
+}

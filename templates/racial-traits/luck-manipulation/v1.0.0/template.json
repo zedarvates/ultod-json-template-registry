@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/racial-traits/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "racial-traits:luck-manipulation",
+  "slug": "luck-manipulation",
+  "family": "racial-traits",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:36092f291460475c418fece1926f7d55898645870d170c4498f98ab3122b73a8",
+  "spec": {
+    "display_name": "Manipulation de la Chance",
+    "category_tag": "utility",
+    "rarity_tag": "epic"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/racial-traits/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "racial-traits:photosynthetic-regen",
+  "slug": "photosynthetic-regen",
+  "family": "racial-traits",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:584913e9c78005b380e88be78fb546d1bd776154e37de4e0fa4733f2d5e70fb6",
+  "spec": {
+    "display_name": "Photosynthetic Regen",
+    "category_tag": "survival",
+    "rarity_tag": "common"
+  }
+}

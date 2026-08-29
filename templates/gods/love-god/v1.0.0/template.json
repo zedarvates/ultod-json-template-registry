@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/gods/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "gods:love-god",
+  "slug": "love-god",
+  "family": "gods",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:4c49819cff0888d9bdb19657c176981c6c575ea57d847c58c61cee57a0f48ced",
+  "spec": {
+    "display_name": "Aphrodite",
+    "domain_tag": "love",
+    "alignment_tag": "chaotic-good"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/racial-traits/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "racial-traits:night-vision",
+  "slug": "night-vision",
+  "family": "racial-traits",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:3630b7c28488d0a5c3779d79a9196d362f55c787375f7d4e648a8071a2d59218",
+  "spec": {
+    "display_name": "Vision Nocturne",
+    "category_tag": "utility",
+    "rarity_tag": "common"
+  }
+}

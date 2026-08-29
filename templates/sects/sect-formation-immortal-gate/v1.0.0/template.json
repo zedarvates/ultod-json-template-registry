@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/sects/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "sects:sect-formation-immortal-gate",
+  "slug": "sect-formation-immortal-gate",
+  "family": "sects",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:3f00feeae704644f0d484a0b624fbdf9b1a4f2b20ff0f01c1997c84f74767b4e",
+  "spec": {
+    "display_name": "Formation de la Porte des Immortels",
+    "school_tag": "holy",
+    "sect_kind": "buff"
+  }
+}

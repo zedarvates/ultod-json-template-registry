@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/gods/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "gods:war-god",
+  "slug": "war-god",
+  "family": "gods",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:fb07a38aff9b156128fc3c25e93d422f95eb58637c3fad6852695cfbd26033e6",
+  "spec": {
+    "display_name": "Ares",
+    "domain_tag": "war",
+    "alignment_tag": "chaotic-neutral"
+  }
+}

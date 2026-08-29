@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/sects/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "sects:sect-formation-seven-stars",
+  "slug": "sect-formation-seven-stars",
+  "family": "sects",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e63bc24796a91386191ca5bcdad9590f1929d4500de84e85d479c0aec1488d3a",
+  "spec": {
+    "display_name": "Formation des Sept Étoiles",
+    "school_tag": "arcane",
+    "sect_kind": "buff"
+  }
+}

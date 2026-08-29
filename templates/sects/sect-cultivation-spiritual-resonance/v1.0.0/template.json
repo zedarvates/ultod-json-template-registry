@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/sects/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "sects:sect-cultivation-spiritual-resonance",
+  "slug": "sect-cultivation-spiritual-resonance",
+  "family": "sects",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b667815b55966c82144ac427bfc3f7e733d50ba98a32a1a430488419674ba73e",
+  "spec": {
+    "display_name": "Résonance Spirituelle",
+    "school_tag": "holy",
+    "sect_kind": "buff"
+  }
+}

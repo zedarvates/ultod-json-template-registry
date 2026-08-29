@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/npcs/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "npcs:desert-nomad",
+  "slug": "desert-nomad",
+  "family": "npcs",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:bcf6fe56264fc972768358396fb572e213420f4e5ff612edded8565c9a7c22db",
+  "spec": {
+    "display_name": "Desert Nomad",
+    "category_tag": "regional",
+    "rarity_tag": "uncommon",
+    "npc_kind": "regional-specialist"
+  }
+}

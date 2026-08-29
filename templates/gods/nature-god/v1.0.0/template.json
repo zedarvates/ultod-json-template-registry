@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/gods/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "gods:nature-god",
+  "slug": "nature-god",
+  "family": "gods",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e444f241ceaf090f197a2f7a27ffb6888f79600231413c9ae90b338b92807d3d",
+  "spec": {
+    "display_name": "Gaia",
+    "domain_tag": "nature",
+    "alignment_tag": "neutral-good"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/lineages/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "lineages:star-forged",
+  "slug": "star-forged",
+  "family": "lineages",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:da552563d6b7f6569f2d34ae4f15033009f7b8aa13e4b8ae5f1e2b13a6a6732c",
+  "spec": {
+    "display_name": "Star Forged",
+    "rarity_tag": "legendary"
+  }
+}

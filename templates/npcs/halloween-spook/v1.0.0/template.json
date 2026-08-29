@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/npcs/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "npcs:halloween-spook",
+  "slug": "halloween-spook",
+  "family": "npcs",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:60621e5a3dcdaa348d23edfad5753cc45be700237fcd67953074129166214e1f",
+  "spec": {
+    "display_name": "Halloween Spook",
+    "category_tag": "seasonal",
+    "rarity_tag": "rare",
+    "npc_kind": "seasonal-event"
+  }
+}

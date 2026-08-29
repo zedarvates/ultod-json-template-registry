@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/lineages/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "lineages:void-touched",
+  "slug": "void-touched",
+  "family": "lineages",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:82b92fc11f1648cd45579acecb8b23f0bc078ca7fd94b6c474ec903f11c6fe28",
+  "spec": {
+    "display_name": "Void Touched",
+    "rarity_tag": "rare"
+  }
+}

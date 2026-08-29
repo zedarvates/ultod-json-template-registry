@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/npcs/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "npcs:merchant",
+  "slug": "merchant",
+  "family": "npcs",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:572f7eef32a82fa06f78735ca14b518dcb5220c4188cd8d7d4c843d27b6e9a21",
+  "spec": {
+    "display_name": "Marchand",
+    "category_tag": "merchant",
+    "rarity_tag": "common"
+  }
+}

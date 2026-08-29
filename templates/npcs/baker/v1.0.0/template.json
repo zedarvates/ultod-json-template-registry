@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/npcs/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "npcs:baker",
+  "slug": "baker",
+  "family": "npcs",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:36240de6d552c9e85c52c74e065e4f2a90b011cc33ea0fedc08e3fd27cd6909f",
+  "spec": {
+    "display_name": "Baker",
+    "category_tag": "merchant",
+    "rarity_tag": "common",
+    "npc_kind": "specialized-merchant"
+  }
+}

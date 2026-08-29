@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/lineages/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "lineages:osiris-lineage",
+  "slug": "osiris-lineage",
+  "family": "lineages",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:99c707edcf7433f68aa5179de4a91dc5c1baffb13dcbc9c07ed5ab40c671e782",
+  "spec": {
+    "display_name": "Lignée d'Osiris",
+    "rarity_tag": "legendary"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/racial-traits/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "racial-traits:rune-repair",
+  "slug": "rune-repair",
+  "family": "racial-traits",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f28a5703cb507553387041a9d6b7eea62da3e4db455391a6a41aea23fe2b38b2",
+  "spec": {
+    "display_name": "Rune Repair",
+    "category_tag": "utility",
+    "rarity_tag": "uncommon"
+  }
+}

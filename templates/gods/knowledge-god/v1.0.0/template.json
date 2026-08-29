@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/gods/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "gods:knowledge-god",
+  "slug": "knowledge-god",
+  "family": "gods",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:cc5a9102db04bbd7865cd2e4d6c01e05c5616da5e58078f1fb4e3be7c80c7f32",
+  "spec": {
+    "display_name": "Thoth",
+    "domain_tag": "knowledge",
+    "alignment_tag": "neutral"
+  }
+}

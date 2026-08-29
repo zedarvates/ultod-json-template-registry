@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/lineages/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "lineages:ra-lineage",
+  "slug": "ra-lineage",
+  "family": "lineages",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b35479133d55130ac3e54d932ab9b6b6b7a2b7ff3b7eddcfcdbcb21b326ccdd1",
+  "spec": {
+    "display_name": "Lignée de Râ",
+    "rarity_tag": "legendary"
+  }
+}

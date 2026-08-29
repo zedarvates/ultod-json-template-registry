@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/npcs/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "npcs:village-elder",
+  "slug": "village-elder",
+  "family": "npcs",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:9ce82f1c160c867e67ea8a1735e95bb294837d1428d3ab83a1738b311762c7c0",
+  "spec": {
+    "display_name": "Village Elder",
+    "category_tag": "citizen",
+    "rarity_tag": "uncommon",
+    "npc_kind": "citizen"
+  }
+}

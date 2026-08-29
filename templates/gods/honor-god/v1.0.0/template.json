@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/gods/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "gods:honor-god",
+  "slug": "honor-god",
+  "family": "gods",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f79b4f1d6b9f6f8120270a41496a789f91f2d73e132a0961d9a85e50c26fb7e1",
+  "spec": {
+    "display_name": "Honor",
+    "domain_tag": "honor",
+    "alignment_tag": "lawful-good"
+  }
+}

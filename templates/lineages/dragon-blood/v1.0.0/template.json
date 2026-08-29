@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/lineages/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "lineages:dragon-blood",
+  "slug": "dragon-blood",
+  "family": "lineages",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a2ff455bf9bff6f142b737da89bd5a4c033ae2da5315347a67652691881b6ad0",
+  "spec": {
+    "display_name": "Dragon Blood",
+    "rarity_tag": "epic"
+  }
+}

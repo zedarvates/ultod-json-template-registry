@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/gods/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "gods:freedom-god",
+  "slug": "freedom-god",
+  "family": "gods",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f825110e949b7deda78323a917526969bf76d8109b1e96a38d40dde5a01317d1",
+  "spec": {
+    "display_name": "Liberty",
+    "domain_tag": "freedom",
+    "alignment_tag": "chaotic-good"
+  }
+}
