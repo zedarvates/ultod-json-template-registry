@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/npcs/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "npcs:guard",
+  "slug": "guard",
+  "family": "npcs",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:940def009599a66f7bedc813ed95e27e20e95d351fa27c147eb8de51760f669c",
+  "spec": {
+    "display_name": "City Guard",
+    "category_tag": "npc",
+    "rarity_tag": "common",
+    "npc_kind": "guard"
+  }
+}

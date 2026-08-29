@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/lineages/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "lineages:wildheart-awakening",
+  "slug": "wildheart-awakening",
+  "family": "lineages",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e90028e101b05e2fdab25dd30dfc03bcba3af8ab7ef6aef39bb0bb759189ce1d",
+  "spec": {
+    "display_name": "Wildheart Awakening",
+    "rarity_tag": "epic"
+  }
+}

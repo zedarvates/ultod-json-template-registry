@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/gods/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "gods:trade-god",
+  "slug": "trade-god",
+  "family": "gods",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d8f11ebedd42b44089108b977495a5f8896888a499436007884a10d517510776",
+  "spec": {
+    "display_name": "Hermes",
+    "domain_tag": "trade",
+    "alignment_tag": "chaotic-good"
+  }
+}

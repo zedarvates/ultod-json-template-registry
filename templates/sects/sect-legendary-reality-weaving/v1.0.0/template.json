@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/sects/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "sects:sect-legendary-reality-weaving",
+  "slug": "sect-legendary-reality-weaving",
+  "family": "sects",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:9534741dab23451c9fb4a7bd2a05c82ad77339d40d30ebee6006cb08262f0562",
+  "spec": {
+    "display_name": "Tissage de Réalité",
+    "school_tag": "arcane",
+    "sect_kind": "control"
+  }
+}

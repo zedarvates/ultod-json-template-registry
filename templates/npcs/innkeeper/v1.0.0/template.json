@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/npcs/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "npcs:innkeeper",
+  "slug": "innkeeper",
+  "family": "npcs",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:abdacb0e6079d14f4bbf44a1ae62e2c68a6c5d367c49abab027eea0a585f0477",
+  "spec": {
+    "display_name": "Innkeeper",
+    "category_tag": "merchant",
+    "rarity_tag": "common",
+    "npc_kind": "specialized-merchant"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/racial-traits/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "racial-traits:storm-affinity",
+  "slug": "storm-affinity",
+  "family": "racial-traits",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c5daefc05f59bc84169f5fa2e06403116692295e11aa194dd929c361707d3bf5",
+  "spec": {
+    "display_name": "Storm Affinity",
+    "category_tag": "elemental",
+    "rarity_tag": "uncommon"
+  }
+}

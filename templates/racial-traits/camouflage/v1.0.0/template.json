@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/racial-traits/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "racial-traits:camouflage",
+  "slug": "camouflage",
+  "family": "racial-traits",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:8170b8df3490e650c1482f61c3ada4d695023e6fe8f6d0b53353715fcdc68ebc",
+  "spec": {
+    "display_name": "Camouflage",
+    "category_tag": "stealth",
+    "rarity_tag": "rare"
+  }
+}

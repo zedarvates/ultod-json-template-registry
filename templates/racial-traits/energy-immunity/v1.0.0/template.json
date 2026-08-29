@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/racial-traits/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "racial-traits:energy-immunity",
+  "slug": "energy-immunity",
+  "family": "racial-traits",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f3b9e8e9e37454e1eff463d943cb0da465b1b19d23635039a43454e44559f0d4",
+  "spec": {
+    "display_name": "Immunité Énergétique",
+    "category_tag": "defensive",
+    "rarity_tag": "legendary"
+  }
+}

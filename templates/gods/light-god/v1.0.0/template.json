@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/gods/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "gods:light-god",
+  "slug": "light-god",
+  "family": "gods",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:84f7a9d8e18f8402c9f9bfb7699962beec9fb27f300b2c7742b77581542b8784",
+  "spec": {
+    "display_name": "Apollo",
+    "domain_tag": "light",
+    "alignment_tag": "lawful-good"
+  }
+}

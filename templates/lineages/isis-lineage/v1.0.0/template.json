@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/lineages/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "lineages:isis-lineage",
+  "slug": "isis-lineage",
+  "family": "lineages",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f690b0e228ae5b6eb8dbc4cbc7b4e4f06c975f6890750a87e5b6355d608e3ea2",
+  "spec": {
+    "display_name": "Lignée d'Isis",
+    "rarity_tag": "epic"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/racial-traits/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "racial-traits:death-resist",
+  "slug": "death-resist",
+  "family": "racial-traits",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:9afe233508b4017da2bd15f92e7f73aeb1804c85440f52a78111208c89bffceb",
+  "spec": {
+    "display_name": "Death Resist",
+    "category_tag": "combat",
+    "rarity_tag": "rare"
+  }
+}

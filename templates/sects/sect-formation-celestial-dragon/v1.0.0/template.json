@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/sects/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "sects:sect-formation-celestial-dragon",
+  "slug": "sect-formation-celestial-dragon",
+  "family": "sects",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:50bca9deb0ced3b985efc34aaaa0db63add7de4e06f98db38bd7e47f866af603",
+  "spec": {
+    "display_name": "Formation du Dragon Céleste",
+    "school_tag": "holy",
+    "sect_kind": "buff"
+  }
+}

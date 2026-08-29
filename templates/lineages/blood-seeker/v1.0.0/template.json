@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/lineages/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "lineages:blood-seeker",
+  "slug": "blood-seeker",
+  "family": "lineages",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:1e0bcfdde86facc5e37c4b1522083313d9f2b17d2c95bbed11ec8ea2ca44ddcd",
+  "spec": {
+    "display_name": "Chercheur de Sang",
+    "rarity_tag": "epic"
+  }
+}

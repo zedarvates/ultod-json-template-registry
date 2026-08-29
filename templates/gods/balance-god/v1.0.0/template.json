@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/gods/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "gods:balance-god",
+  "slug": "balance-god",
+  "family": "gods",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f6152b63a634e1dae245f5ae04e75ab2b99707ff889bfec1188ff731d9247bc0",
+  "spec": {
+    "display_name": "Themis",
+    "domain_tag": "balance",
+    "alignment_tag": "lawful-neutral"
+  }
+}

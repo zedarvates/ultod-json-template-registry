@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/gods/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "gods:shadow-god",
+  "slug": "shadow-god",
+  "family": "gods",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:da26f25f80256527f54692bf677ddb6589d03a84825fc6627d303a1c37a9353d",
+  "spec": {
+    "display_name": "Nyx",
+    "domain_tag": "shadow",
+    "alignment_tag": "chaotic-neutral"
+  }
+}

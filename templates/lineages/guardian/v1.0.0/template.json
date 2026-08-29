@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/lineages/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "lineages:guardian",
+  "slug": "guardian",
+  "family": "lineages",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:4e19d19b97fd1825b9d4a75decedcbbaed739bec671f47f1d70249c834171705",
+  "spec": {
+    "display_name": "Gardien",
+    "rarity_tag": "rare"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/npcs/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "npcs:provisioner",
+  "slug": "provisioner",
+  "family": "npcs",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:88caf7adf37357efe64c8f120de4668d2775889ffaa9b68e0b56aaebfae90533",
+  "spec": {
+    "display_name": "Provisioner",
+    "category_tag": "merchant",
+    "rarity_tag": "common",
+    "npc_kind": "specialized-merchant"
+  }
+}

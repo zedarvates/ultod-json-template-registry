@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/sects/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "sects:sect-legendary-heavenly-lightning",
+  "slug": "sect-legendary-heavenly-lightning",
+  "family": "sects",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:7ad639645227a36f4fcd2a5527b616bb840824351a35e162ed83341a38c69574",
+  "spec": {
+    "display_name": "Éclair Céleste",
+    "school_tag": "nature",
+    "sect_kind": "damage"
+  }
+}

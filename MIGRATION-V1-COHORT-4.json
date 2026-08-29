@@ -1,0 +1,898 @@
+{
+  "report_version": "1.0.0",
+  "cohort": "4",
+  "families": [
+    "npcs",
+    "gods",
+    "guilds",
+    "sects",
+    "lineages",
+    "racial-traits"
+  ],
+  "summary": {
+    "total": 108,
+    "dispositions": {
+      "legacy-only-authoritative": 4,
+      "manual-review": 2,
+      "migrated": 102
+    }
+  },
+  "results": [
+    {
+      "source_file": "templates/gods/balance-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "balance-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/balance-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/chaos-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "chaos-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/chaos-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/creation-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "creation-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/creation-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/death-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "death-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/death-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/destruction-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "destruction-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/destruction-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/freedom-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "freedom-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/freedom-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/honor-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "honor-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/honor-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/justice-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "justice-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/justice-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/knowledge-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "knowledge-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/knowledge-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/life-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "life-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/life-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/light-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "light-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/light-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/love-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "love-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/love-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/magic-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "magic-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/magic-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/nature-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "nature-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/nature-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/order-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "order-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/order-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/protection-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "protection-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/protection-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/relic-warhammer/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "relic-warhammer",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-relic-template"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/gods/shadow-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "shadow-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/shadow-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/trade-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "trade-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/trade-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/war-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "war-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/war-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/gods/wisdom-god/v0.1.0/template.json",
+      "family": "gods",
+      "slug": "wisdom-god",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/gods/wisdom-god/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/guilds/default-bank-tabs/v0.1.0/template.json",
+      "family": "guilds",
+      "slug": "default-bank-tabs",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "permissions-economy-or-standing"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/guilds/default-ranks/v0.1.0/template.json",
+      "family": "guilds",
+      "slug": "default-ranks",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "permissions-economy-or-standing"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/guilds/factions/v0.1.0/template.json",
+      "family": "guilds",
+      "slug": "factions",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "permissions-economy-or-standing"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/lineages/blood-seeker/v0.1.0/template.json",
+      "family": "lineages",
+      "slug": "blood-seeker",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/blood-seeker/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/lineages/dragon/v0.1.0/template.json",
+      "family": "lineages",
+      "slug": "dragon",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/dragon/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/lineages/dragon_blood/0.1.0/template.json",
+      "family": "lineages",
+      "slug": "dragon-blood",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/dragon-blood/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/lineages/druid/v0.1.0/template.json",
+      "family": "lineages",
+      "slug": "druid",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/druid/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/lineages/guardian/v0.1.0/template.json",
+      "family": "lineages",
+      "slug": "guardian",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/guardian/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/lineages/huitzilopochtli-lineage/v0.1.0/template.json",
+      "family": "lineages",
+      "slug": "huitzilopochtli-lineage",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/huitzilopochtli-lineage/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/lineages/isis-lineage/v0.1.0/template.json",
+      "family": "lineages",
+      "slug": "isis-lineage",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/isis-lineage/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/lineages/lich-awakening/v0.1.0/template.json",
+      "family": "lineages",
+      "slug": "lich-awakening",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/lich-awakening/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/lineages/mage/v0.1.0/template.json",
+      "family": "lineages",
+      "slug": "mage",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/mage/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/lineages/osiris-lineage/v0.1.0/template.json",
+      "family": "lineages",
+      "slug": "osiris-lineage",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/osiris-lineage/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/lineages/phoenix/v0.1.0/template.json",
+      "family": "lineages",
+      "slug": "phoenix",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/phoenix/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/lineages/ptah-lineage/v0.1.0/template.json",
+      "family": "lineages",
+      "slug": "ptah-lineage",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/ptah-lineage/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/lineages/ra-lineage/v0.1.0/template.json",
+      "family": "lineages",
+      "slug": "ra-lineage",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/ra-lineage/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/lineages/rogue/v0.1.0/template.json",
+      "family": "lineages",
+      "slug": "rogue",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/rogue/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/lineages/star_forged/0.1.0/template.json",
+      "family": "lineages",
+      "slug": "star-forged",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/star-forged/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/lineages/vampire/v0.1.0/template.json",
+      "family": "lineages",
+      "slug": "vampire",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/vampire/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/lineages/void_touched/0.1.0/template.json",
+      "family": "lineages",
+      "slug": "void-touched",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/void-touched/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/lineages/warrior/v0.1.0/template.json",
+      "family": "lineages",
+      "slug": "warrior",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/warrior/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/lineages/wildheart-awakening/v0.1.0/template.json",
+      "family": "lineages",
+      "slug": "wildheart-awakening",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/lineages/wildheart-awakening/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/alchemist/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "alchemist",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/alchemist/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/baker/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "baker",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/baker/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/blacksmith/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "blacksmith",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/blacksmith/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/desert-nomad/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "desert-nomad",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/desert-nomad/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/farmer/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "farmer",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/farmer/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/forest-ranger/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "forest-ranger",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/forest-ranger/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/guard/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "guard",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/guard/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/halloween-spook/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "halloween-spook",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/halloween-spook/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/healer/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "healer",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/healer/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/innkeeper/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "innkeeper",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/innkeeper/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/librarian/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "librarian",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/librarian/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/mage-trainer/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "mage-trainer",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/mage-trainer/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/magic-shop-owner/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "magic-shop-owner",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/magic-shop-owner/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/mercenary/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "mercenary",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/mercenary/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/merchant/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "merchant",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/merchant/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/provisioner/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "provisioner",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/provisioner/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/quest-giver/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "quest-giver",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/quest-giver/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/skill-trainer/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "skill-trainer",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/skill-trainer/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/stable-master/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "stable-master",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/stable-master/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/town-guard-template/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "town-guard-template",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/npcs/town-guard/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "town-guard",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/town-guard/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/treasure-merchant/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "treasure-merchant",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/treasure-merchant/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/npcs/village-elder/v0.1.0/template.json",
+      "family": "npcs",
+      "slug": "village-elder",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/npcs/village-elder/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/blood-morph/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "blood-morph",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/blood-morph/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/blood-regeneration/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "blood-regeneration",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/blood-regeneration/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/camouflage/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "camouflage",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/camouflage/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/death_resist/0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "death-resist",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/death-resist/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/elemental-harmony/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "elemental-harmony",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/elemental-harmony/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/elemental-resistance/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "elemental-resistance",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/elemental-resistance/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/energy-absorption/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "energy-absorption",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/energy-absorption/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/energy-immunity/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "energy-immunity",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/energy-immunity/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/flight/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "flight",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/flight/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/gravity-control/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "gravity-control",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/gravity-control/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/illusion-creation/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "illusion-creation",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/illusion-creation/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/luck-manipulation/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "luck-manipulation",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/luck-manipulation/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/magical-affinity/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "magical-affinity",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/magical-affinity/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/night-vision/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "night-vision",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/night-vision/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/phase-shifting/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "phase-shifting",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/phase-shifting/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/photosynthetic_regen/0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "photosynthetic-regen",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/photosynthetic-regen/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/plant-manipulation/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "plant-manipulation",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/plant-manipulation/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/poison-immunity/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "poison-immunity",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/poison-immunity/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/racial-traits-template-0014/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "racial-traits-template-0014",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/racial-traits/regeneration/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "regeneration",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/regeneration/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/rune_repair/0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "rune-repair",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/rune-repair/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/shadow-manipulation/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "shadow-manipulation",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/shadow-manipulation/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/size-manipulation/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "size-manipulation",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/size-manipulation/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/storm_affinity/0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "storm-affinity",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/storm-affinity/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/telepathy/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "telepathy",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/telepathy/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/thick_hide/0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "thick-hide",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/thick-hide/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/time-manipulation/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "time-manipulation",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/time-manipulation/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/underwater-breathing/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "underwater-breathing",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/underwater-breathing/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/weapon-affinity/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "weapon-affinity",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/weapon-affinity/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/racial-traits/weather-control/v0.1.0/template.json",
+      "family": "racial-traits",
+      "slug": "weather-control",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/racial-traits/weather-control/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/sects/sect-cultivation-qi-gathering/v0.1.0/template.json",
+      "family": "sects",
+      "slug": "sect-cultivation-qi-gathering",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/sects/sect-cultivation-qi-gathering/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/sects/sect-cultivation-spiritual-resonance/v0.1.0/template.json",
+      "family": "sects",
+      "slug": "sect-cultivation-spiritual-resonance",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/sects/sect-cultivation-spiritual-resonance/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/sects/sect-formation-celestial-dragon/v0.1.0/template.json",
+      "family": "sects",
+      "slug": "sect-formation-celestial-dragon",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/sects/sect-formation-celestial-dragon/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/sects/sect-formation-immortal-gate/v0.1.0/template.json",
+      "family": "sects",
+      "slug": "sect-formation-immortal-gate",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/sects/sect-formation-immortal-gate/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/sects/sect-formation-seven-stars/v0.1.0/template.json",
+      "family": "sects",
+      "slug": "sect-formation-seven-stars",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/sects/sect-formation-seven-stars/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/sects/sect-legendary-heavenly-lightning/v0.1.0/template.json",
+      "family": "sects",
+      "slug": "sect-legendary-heavenly-lightning",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/sects/sect-legendary-heavenly-lightning/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/sects/sect-legendary-reality-weaving/v0.1.0/template.json",
+      "family": "sects",
+      "slug": "sect-legendary-reality-weaving",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/sects/sect-legendary-reality-weaving/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/sects/sect-legendary-void-walk/v0.1.0/template.json",
+      "family": "sects",
+      "slug": "sect-legendary-void-walk",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/sects/sect-legendary-void-walk/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/sects/sect-protection-iron-wall/v0.1.0/template.json",
+      "family": "sects",
+      "slug": "sect-protection-iron-wall",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/sects/sect-protection-iron-wall/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/sects/sect-protection-sect-shield/v0.1.0/template.json",
+      "family": "sects",
+      "slug": "sect-protection-sect-shield",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/sects/sect-protection-sect-shield/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/sects/sect-protection-spiritual-barrier/v0.1.0/template.json",
+      "family": "sects",
+      "slug": "sect-protection-spiritual-barrier",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/sects/sect-protection-spiritual-barrier/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/sects/sect-resource-amplification-mana-crystal/v0.1.0/template.json",
+      "family": "sects",
+      "slug": "sect-resource-amplification-mana-crystal",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/sects/sect-resource-amplification-mana-crystal/v1.0.0/template.json"
+    }
+  ]
+}

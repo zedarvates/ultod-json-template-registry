@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/racial-traits/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "racial-traits:telepathy",
+  "slug": "telepathy",
+  "family": "racial-traits",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d5597b817e37349ceda9e0721e241c10e02d7d083edce9220388faa2b9a4ae69",
+  "spec": {
+    "display_name": "Télépathie",
+    "category_tag": "social",
+    "rarity_tag": "epic"
+  }
+}

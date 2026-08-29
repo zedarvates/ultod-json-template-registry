@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/npcs/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "npcs:alchemist",
+  "slug": "alchemist",
+  "family": "npcs",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:635c5dee979b42129d5375c7964b68dc3ccfa16ae50dc12e71112a367afbf423",
+  "spec": {
+    "display_name": "Alchemist",
+    "category_tag": "merchant",
+    "rarity_tag": "uncommon",
+    "npc_kind": "specialized-merchant"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/gods/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "gods:death-god",
+  "slug": "death-god",
+  "family": "gods",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e56a34f26ec31896e1d7fc5f74fa70bb5d594e87338db20e760f1e1882f81809",
+  "spec": {
+    "display_name": "Hades",
+    "domain_tag": "death",
+    "alignment_tag": "neutral-evil"
+  }
+}

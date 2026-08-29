@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/lineages/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "lineages:phoenix",
+  "slug": "phoenix",
+  "family": "lineages",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:66d0d7cf646f404c415efada73272b641de14ad58c799eb9f8833752ae6c1ac3",
+  "spec": {
+    "display_name": "Phénix",
+    "rarity_tag": "legendary"
+  }
+}

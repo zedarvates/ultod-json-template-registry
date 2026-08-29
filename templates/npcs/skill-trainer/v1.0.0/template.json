@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/npcs/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "npcs:skill-trainer",
+  "slug": "skill-trainer",
+  "family": "npcs",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:00f4b481087bd709f2b073bb1acbc9f23dec6966c5dd2b030b3ab1d77f798196",
+  "spec": {
+    "display_name": "Maître des Compétences",
+    "category_tag": "trainer",
+    "rarity_tag": "common"
+  }
+}

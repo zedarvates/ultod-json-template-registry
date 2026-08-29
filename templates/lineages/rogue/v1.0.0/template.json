@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/lineages/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "lineages:rogue",
+  "slug": "rogue",
+  "family": "lineages",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0a182d12ad0fb3dfd4bf54d327282b2a1250008447713bd6ec943efbbe34d501",
+  "spec": {
+    "display_name": "Voleur",
+    "rarity_tag": "uncommon"
+  }
+}

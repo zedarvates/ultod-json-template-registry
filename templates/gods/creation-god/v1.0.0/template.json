@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/gods/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "gods:creation-god",
+  "slug": "creation-god",
+  "family": "gods",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ebf3fdb77ab6e8a3b6b2e62db1fa2c21e8cf156cdc9992cc5be9e0629086c99e",
+  "spec": {
+    "display_name": "Hephaestus",
+    "domain_tag": "creation",
+    "alignment_tag": "neutral-good"
+  }
+}

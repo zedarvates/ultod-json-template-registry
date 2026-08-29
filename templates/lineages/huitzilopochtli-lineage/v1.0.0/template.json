@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/lineages/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "lineages:huitzilopochtli-lineage",
+  "slug": "huitzilopochtli-lineage",
+  "family": "lineages",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:a1d735040f2e2ba733b97707b1513f47d344477e2f06626de768a51973a5443c",
+  "spec": {
+    "display_name": "Lignée d'Huitzilopochtli",
+    "rarity_tag": "legendary"
+  }
+}

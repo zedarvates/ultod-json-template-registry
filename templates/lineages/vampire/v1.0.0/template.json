@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/lineages/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "lineages:vampire",
+  "slug": "vampire",
+  "family": "lineages",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:39f3e9f00aba8a39eb1f51c59ecf00a975b7652c5e6670ed526e9b2808edaeaf",
+  "spec": {
+    "display_name": "Vampire",
+    "rarity_tag": "epic"
+  }
+}

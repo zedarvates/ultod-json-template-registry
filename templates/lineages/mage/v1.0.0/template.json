@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/lineages/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "lineages:mage",
+  "slug": "mage",
+  "family": "lineages",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:fa8feeee8c9db07ac6a24dc27b00d3f8eeff2ebf66ceadc1159fdd7fca0f9d50",
+  "spec": {
+    "display_name": "Mage",
+    "rarity_tag": "uncommon"
+  }
+}

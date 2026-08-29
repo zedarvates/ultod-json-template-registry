@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/racial-traits/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "racial-traits:elemental-harmony",
+  "slug": "elemental-harmony",
+  "family": "racial-traits",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:6adcc4fa16768ebde9f5fa3f6611fe203a3d2d7fbed3e5dbb8eacef18bf04a6a",
+  "spec": {
+    "display_name": "Elemental Harmony",
+    "category_tag": "elemental",
+    "rarity_tag": "legendary"
+  }
+}

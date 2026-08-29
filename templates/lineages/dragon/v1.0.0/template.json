@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/lineages/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "lineages:dragon",
+  "slug": "dragon",
+  "family": "lineages",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:f87a6414807cfb0ab288b443aaba62f318145d524f1e1be6a5a9bd04e3d1630b",
+  "spec": {
+    "display_name": "Dragon Lineage",
+    "rarity_tag": "legendary"
+  }
+}
