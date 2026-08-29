@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/quests/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "quests:forest-goblin-hunt",
+  "slug": "forest-goblin-hunt",
+  "family": "quests",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:59912efc5ff7985e67c6ec750adbe56f9c177f9f7eabef0063c0c0acb59585e7",
+  "spec": {
+    "display_name": "Chasse aux Gobelins de la Forêt",
+    "difficulty_tag": "easy"
+  }
+}

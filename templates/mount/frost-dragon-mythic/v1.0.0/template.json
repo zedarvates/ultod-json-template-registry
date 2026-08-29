@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/mount/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "mount:frost-dragon-mythic",
+  "slug": "frost-dragon-mythic",
+  "family": "mount",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d3a1e323e39cffc5cc32b652b7af17e741890cdcf61e98dbd08c37f78115a6ae",
+  "spec": {
+    "display_name": "Dragon de Givre Mythique",
+    "rarity_tag": "mythic"
+  }
+}

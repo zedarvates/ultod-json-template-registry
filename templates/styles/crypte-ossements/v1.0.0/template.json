@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/styles/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "styles:crypte-ossements",
+  "slug": "crypte-ossements",
+  "family": "styles",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:736e3c2fff02b42a36e9160351bea6c24e22bcb53bfd7c978effda9a0df7cf17",
+  "spec": {
+    "display_name": "Crypte d'ossements",
+    "applies_to_tag": "dungeon"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/creatures/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "creatures:vik-kraken",
+  "slug": "vik-kraken",
+  "family": "creatures",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c2c072b8f9267ced2b093eac744c25a7f76466d5c0389a6733753e62458020af",
+  "spec": {
+    "display_name": "Kraken",
+    "chemistry_tag": "water-carbon"
+  }
+}

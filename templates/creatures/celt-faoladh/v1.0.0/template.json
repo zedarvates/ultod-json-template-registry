@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/creatures/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "creatures:celt-faoladh",
+  "slug": "celt-faoladh",
+  "family": "creatures",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:970416e0087da501e564d5c97f0789a4abbf922eb88a66c68731552137953b5d",
+  "spec": {
+    "display_name": "Faoladh (Loup-garou)",
+    "chemistry_tag": "water-carbon"
+  }
+}

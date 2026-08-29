@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/creatures/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "creatures:vik-ulfhednar",
+  "slug": "vik-ulfhednar",
+  "family": "creatures",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:39405a2a9638ad766f3a9d308ef62322b65f2aa2576fde199aec6b8dfaee3171",
+  "spec": {
+    "display_name": "Ulfhednar (Ours berserker)",
+    "chemistry_tag": "water-carbon"
+  }
+}

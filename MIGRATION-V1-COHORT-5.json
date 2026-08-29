@@ -1,0 +1,474 @@
+{
+  "report_version": "1.0.0",
+  "cohort": "5",
+  "families": [
+    "bosses",
+    "creatures",
+    "events",
+    "mount",
+    "quests",
+    "rifts",
+    "styles",
+    "tournaments",
+    "treasure-maps"
+  ],
+  "summary": {
+    "total": 54,
+    "dispositions": {
+      "manual-review": 9,
+      "migrated": 45
+    }
+  },
+  "results": [
+    {
+      "source_file": "templates/bosses/ancestral-beast/v0.1.0/template.json",
+      "family": "bosses",
+      "slug": "custom-beast-01",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/bosses/custom-beast-01/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/bosses/crypt-guardian/v0.1.0/template.json",
+      "family": "bosses",
+      "slug": "gardien-crypte-01",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/bosses/gardien-crypte-01/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/celt-banshee/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "celt-banshee",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/celt-banshee/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/celt-cait-sith/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "celt-cait-sith",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/celt-cait-sith/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/celt-faoladh/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "celt-faoladh",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/celt-faoladh/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/celt-kelpie/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "celt-kelpie",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/celt-kelpie/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/celt-selkie/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "celt-selkie",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/celt-selkie/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/cn-baihu/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "cn-baihu",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/cn-baihu/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/cn-fenghuang/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "cn-fenghuang",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/cn-fenghuang/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/cn-jiangshi/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "cn-jiangshi",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/cn-jiangshi/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/cn-long-dragon/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "cn-long-dragon",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/cn-long-dragon/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/cn-nian/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "cn-nian",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/cn-nian/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/cn-qilin/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "cn-qilin",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/cn-qilin/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/common-bat/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "common-bat",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/common-bat/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/common-boar/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "common-boar",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/common-boar/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/common-deer/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "common-deer",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/common-deer/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/common-serpent/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "common-serpent",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/common-serpent/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/common-spider/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "common-spider",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/common-spider/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/common-wolf/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "common-wolf",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/common-wolf/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/fant-med-dragon/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "fant-med-dragon",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/fant-med-dragon/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/fant-med-golem/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "fant-med-golem",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/fant-med-golem/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/fant-med-griffin/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "fant-med-griffin",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/fant-med-griffin/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/fant-med-revenant/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "fant-med-revenant",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/fant-med-revenant/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/fant-med-troll/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "fant-med-troll",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/fant-med-troll/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/fant-med-unicorn/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "fant-med-unicorn",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/fant-med-unicorn/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/lunar-training-drone/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "lunar-training-drone",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/lunar-training-drone/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/template/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "adapted-reference",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/creatures/vik-draugr/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "vik-draugr",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/vik-draugr/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/vik-kraken/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "vik-kraken",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/vik-kraken/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/vik-mammoth/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "vik-mammoth",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/vik-mammoth/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/vik-nidhogg/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "vik-nidhogg",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/vik-nidhogg/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/creatures/vik-ulfhednar/v0.1.0/template.json",
+      "family": "creatures",
+      "slug": "vik-ulfhednar",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/creatures/vik-ulfhednar/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/events/festival/v0.1.0/template.json",
+      "family": "events",
+      "slug": "festival-template",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/events/temporal-crisis/v0.1.0/template.json",
+      "family": "events",
+      "slug": "temporal-crisis",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/events/temporal-crisis/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/mount/frost-dragon-mythic/v0.1.0/template.json",
+      "family": "mount",
+      "slug": "frost-dragon-mythic",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/mount/frost-dragon-mythic/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/quests/crafting-mastery-quest/v0.1.0/template.json",
+      "family": "quests",
+      "slug": "crafting-mastery-quest",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/quests/crafting-mastery-quest/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/quests/example-quest/v0.1.0/template.json",
+      "family": "quests",
+      "slug": "example-quest",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/quests/forest-goblin-hunt/v0.1.0/template.json",
+      "family": "quests",
+      "slug": "forest-goblin-hunt",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/quests/forest-goblin-hunt/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/quests/summoner-training-quest/v0.1.0/template.json",
+      "family": "quests",
+      "slug": "summoner-training-quest",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/quests/summoner-training-quest/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/quests/temporal-mysteries-awakening/v0.1.0/template.json",
+      "family": "quests",
+      "slug": "temporal-mysteries-awakening",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/quests/temporal-mysteries-awakening/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/quests/temporal-paradox-investigation/v0.1.0/template.json",
+      "family": "quests",
+      "slug": "temporal-paradox-investigation",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/quests/temporal-paradox-investigation/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/rifts/chaos/v0.1.0/template.json",
+      "family": "rifts",
+      "slug": "chaos-rift-template",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/rifts/dimensional/v0.1.0/template.json",
+      "family": "rifts",
+      "slug": "dimensional-rift-template",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/rifts/elemental/v0.1.0/template.json",
+      "family": "rifts",
+      "slug": "elemental-rift-template",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/rifts/temporal/v0.1.0/template.json",
+      "family": "rifts",
+      "slug": "temporal-rift-template",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/styles/citadelle-elfique/v0.1.0/template.json",
+      "family": "styles",
+      "slug": "citadelle-elfique",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/styles/citadelle-elfique/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/styles/crypte-ossements/v0.1.0/template.json",
+      "family": "styles",
+      "slug": "crypte-ossements",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/styles/crypte-ossements/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/styles/forge-obsidienne/v0.1.0/template.json",
+      "family": "styles",
+      "slug": "forge-obsidienne",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/styles/forge-obsidienne/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/styles/gothique-riche/v0.1.0/template.json",
+      "family": "styles",
+      "slug": "gothique-riche",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/styles/gothique-riche/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/styles/hameau-forestier/v0.1.0/template.json",
+      "family": "styles",
+      "slug": "hameau-forestier",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/styles/hameau-forestier/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/styles/oasis-desertique/v0.1.0/template.json",
+      "family": "styles",
+      "slug": "oasis-desertique",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/styles/oasis-desertique/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/tournaments/arena-tournament-template/v0.1.0/template.json",
+      "family": "tournaments",
+      "slug": "arena-tournament-template",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/tournaments/chronomancer-masters-tournament/v0.1.0/template.json",
+      "family": "tournaments",
+      "slug": "chronomancer-masters-tournament",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/tournaments/chronomancer-masters-tournament/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/treasure-maps/template/v0.1.0/template.json",
+      "family": "treasure-maps",
+      "slug": "treasure-map-tier-5",
+      "disposition": "manual-review",
+      "reason_codes": [
+        "no-reviewed-declarative-identity"
+      ],
+      "target_file": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/creatures/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "creatures:fant-med-revenant",
+  "slug": "fant-med-revenant",
+  "family": "creatures",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:401a5f2c08b32e08a2a9c89102a1565186dda375012880c6764b6d59833ad78b",
+  "spec": {
+    "display_name": "Chevalier mort-vivant",
+    "chemistry_tag": "ammonia"
+  }
+}

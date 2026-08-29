@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/creatures/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "creatures:celt-kelpie",
+  "slug": "celt-kelpie",
+  "family": "creatures",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:7bc450aab118fa8b8cbb1ee74ee07531d0697bfc5bde4e14d093e883b5979a18",
+  "spec": {
+    "display_name": "Kelpie",
+    "chemistry_tag": "water-carbon"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/quests/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "quests:temporal-paradox-investigation",
+  "slug": "temporal-paradox-investigation",
+  "family": "quests",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:1bc3c16646a34ad3c95348300498e943cb41b65cdf57e50c99a9181ad1ad5306",
+  "spec": {
+    "display_name": "Temporal Paradox Investigation"
+  }
+}

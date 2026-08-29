@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/creatures/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "creatures:common-boar",
+  "slug": "common-boar",
+  "family": "creatures",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:22dc781059a958bce023b4935a4e4e9407000b6f3c430239658b7aee400e73db",
+  "spec": {
+    "display_name": "Sanglier",
+    "chemistry_tag": "water-carbon"
+  }
+}

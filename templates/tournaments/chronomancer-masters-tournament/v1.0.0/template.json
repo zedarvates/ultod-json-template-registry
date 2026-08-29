@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/tournaments/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "tournaments:chronomancer-masters-tournament",
+  "slug": "chronomancer-masters-tournament",
+  "family": "tournaments",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:dc9821b65bcea8517c3830087ab99f70785d262c1782c170028b076fd9f9363c",
+  "spec": {
+    "display_name": "Tournoi des Maîtres Chronomanciens",
+    "tournament_kind": "temporal-specialization",
+    "rarity_tag": "mythic"
+  }
+}
