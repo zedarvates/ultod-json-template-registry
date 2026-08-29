@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/creatures/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "creatures:vik-draugr",
+  "slug": "vik-draugr",
+  "family": "creatures",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:49755f5ab13eef203798123a346c990ff8bea96985e624cef109650850fa3db3",
+  "spec": {
+    "display_name": "Draugar",
+    "chemistry_tag": "ammonia"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/creatures/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "creatures:cn-jiangshi",
+  "slug": "cn-jiangshi",
+  "family": "creatures",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b7a54f34fd9fbe24d0ecaccbb858b888d5b1d3320c0c5326854586fcdd02c7e5",
+  "spec": {
+    "display_name": "Jiangshi",
+    "chemistry_tag": "ammonia"
+  }
+}

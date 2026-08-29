@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/styles/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "styles:gothique-riche",
+  "slug": "gothique-riche",
+  "family": "styles",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d5aa285ed6b5f333acaf8233a4dbfac606afe90a2c2962465e7a90a3746bcd54",
+  "spec": {
+    "display_name": "Gothique prospère",
+    "applies_to_tag": "house"
+  }
+}

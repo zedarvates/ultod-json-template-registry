@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/creatures/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "creatures:lunar-training-drone",
+  "slug": "lunar-training-drone",
+  "family": "creatures",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:12bfc16fb4aaa84cebb9a573d8842dbcdbaa35d023036db346b0b774d3916dec",
+  "spec": {
+    "display_name": "Drone d entrainement lunaire",
+    "chemistry_tag": "silicate"
+  }
+}

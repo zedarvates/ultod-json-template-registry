@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/creatures/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "creatures:common-bat",
+  "slug": "common-bat",
+  "family": "creatures",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:97194802a2d622dccee0f47c187116479739c7ccc0e11a31eca8608d98855d97",
+  "spec": {
+    "display_name": "Chauve-souris",
+    "chemistry_tag": "water-carbon"
+  }
+}

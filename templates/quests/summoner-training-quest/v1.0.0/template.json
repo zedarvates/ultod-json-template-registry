@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/quests/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "quests:summoner-training-quest",
+  "slug": "summoner-training-quest",
+  "family": "quests",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:7fa58a15de32e19d0e705909b557f4562e29df8e654683bc76ebbe56f7b322a9",
+  "spec": {
+    "display_name": "Formation de l'Invocateur",
+    "difficulty_tag": "easy"
+  }
+}

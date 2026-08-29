@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/creatures/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "creatures:celt-selkie",
+  "slug": "celt-selkie",
+  "family": "creatures",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c319952aa75d5e3a2f202c45771b5096f587d1575735ad592303140253a27e97",
+  "spec": {
+    "display_name": "Selkie",
+    "chemistry_tag": "water-carbon"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/quests/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "quests:temporal-mysteries-awakening",
+  "slug": "temporal-mysteries-awakening",
+  "family": "quests",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:def0059967896d88c78a589ce2fbc2ca7710a258d4712d620d2a444be7abb029",
+  "spec": {
+    "display_name": "Temporal Mysteries Awakening"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../schemas/events/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "events:temporal-crisis",
+  "slug": "temporal-crisis",
+  "family": "events",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:2ff386fc2b9f4b7cce19474ee73a823366905b6fdaacbac5b688556952d3d1f0",
+  "spec": {
+    "display_name": "Crise Temporelle",
+    "event_kind": "world-event",
+    "rarity_tag": "mythic"
+  }
+}

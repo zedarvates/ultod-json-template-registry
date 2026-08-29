@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/styles/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "styles:hameau-forestier",
+  "slug": "hameau-forestier",
+  "family": "styles",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b83a24c39ab3963a8c895211b312eaaf18395ad7c92d9aee30e21091601d62f9",
+  "spec": {
+    "display_name": "Hameau forestier",
+    "applies_to_tag": "house"
+  }
+}

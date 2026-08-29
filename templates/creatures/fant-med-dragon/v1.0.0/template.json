@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/creatures/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "creatures:fant-med-dragon",
+  "slug": "fant-med-dragon",
+  "family": "creatures",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ea9fdde04dda62252041d37ed8de64e025565decbe7dafc990daa7205791e201",
+  "spec": {
+    "display_name": "Dragon",
+    "chemistry_tag": "plasma"
+  }
+}

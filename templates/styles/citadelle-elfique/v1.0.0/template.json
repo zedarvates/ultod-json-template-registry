@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/styles/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "styles:citadelle-elfique",
+  "slug": "citadelle-elfique",
+  "family": "styles",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:7d911189f107cdb4c5f6a1f56f896cf9ebefad71d8fd58be1a5c891bf23885b0",
+  "spec": {
+    "display_name": "Citadelle elfique",
+    "applies_to_tag": "house"
+  }
+}

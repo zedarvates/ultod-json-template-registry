@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/creatures/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "creatures:cn-long-dragon",
+  "slug": "cn-long-dragon",
+  "family": "creatures",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:cf7ccaff4a336c77f3028ab2acc3af2f3e7e0a2b2283f351f222b8edf098ef29",
+  "spec": {
+    "display_name": "Long (Dragon céleste)",
+    "chemistry_tag": "water-carbon"
+  }
+}

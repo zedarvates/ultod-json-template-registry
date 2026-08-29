@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/creatures/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "creatures:fant-med-troll",
+  "slug": "fant-med-troll",
+  "family": "creatures",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:197a96177ff18df7dc8659d6ae4c1a34e0671a985ff210370205374080c1aab5",
+  "spec": {
+    "display_name": "Troll",
+    "chemistry_tag": "silicate"
+  }
+}

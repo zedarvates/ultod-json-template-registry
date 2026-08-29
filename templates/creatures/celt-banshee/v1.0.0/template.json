@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/creatures/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "creatures:celt-banshee",
+  "slug": "celt-banshee",
+  "family": "creatures",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ef4bdb702567b3296a2db421a70556d53332a263109a9764272ac445746990f1",
+  "spec": {
+    "display_name": "Banshee",
+    "chemistry_tag": "ammonia"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/creatures/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "creatures:fant-med-golem",
+  "slug": "fant-med-golem",
+  "family": "creatures",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b36ed54cd705a461c3b0ba2b41c5f524e92aaa06b8d343039f72c5a649f998d4",
+  "spec": {
+    "display_name": "Golem de pierre",
+    "chemistry_tag": "silicate"
+  }
+}
