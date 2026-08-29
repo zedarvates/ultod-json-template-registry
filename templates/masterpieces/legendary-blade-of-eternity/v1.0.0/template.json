@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/masterpieces/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "masterpieces:legendary-blade-of-eternity",
+  "slug": "legendary-blade-of-eternity",
+  "family": "masterpieces",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:56069ad4b9d3f7fc045208194444f1157ba90492ea66a8af4404b8a299103f96",
+  "spec": {
+    "display_name": "Blade of Eternity",
+    "profession_tag": "blacksmithing"
+  }
+}

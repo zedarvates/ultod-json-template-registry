@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ultimateodycer.com/schemas/skillclass/1.0.0",
+  "title": "Ultimate Odycer skillclass Template v1",
+  "allOf": [
+    {
+      "$ref": "https://ultimateodycer.com/schemas/template-contract/1.0.0"
+    },
+    {
+      "properties": {
+        "spec": {
+          "type": "object",
+          "required": [
+            "display_name"
+          ],
+          "properties": {
+            "display_name": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    }
+  ]
+}

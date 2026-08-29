@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/skillclass/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skillclass:waldlaufer",
+  "slug": "waldlaufer",
+  "family": "skillclass",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c540c349b4736694146a9b0a32f1b69ce22e382731cf5518d982d86d0c2e502e",
+  "spec": {
+    "display_name": "waldlaufer"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "report_version": "1.0.0",
+  "cohort": "6",
+  "families": [
+    "masterpieces",
+    "prologues",
+    "skillclass",
+    "virtues-factions"
+  ],
+  "summary": {
+    "total": 15,
+    "dispositions": {
+      "legacy-only-authoritative": 2,
+      "legacy-only-narrative": 5,
+      "migrated": 8
+    }
+  },
+  "results": [
+    {
+      "source_file": "templates/masterpieces/blade-of-eternity/v0.1.0/template.json",
+      "family": "masterpieces",
+      "slug": "legendary-blade-of-eternity",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/masterpieces/legendary-blade-of-eternity/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/masterpieces/divine-armor-of-protection/v0.1.0/template.json",
+      "family": "masterpieces",
+      "slug": "divine-armor-of-protection",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/masterpieces/divine-armor-of-protection/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/masterpieces/elixir-of-eternal-life/v0.1.0/template.json",
+      "family": "masterpieces",
+      "slug": "elixir-of-eternal-life",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/masterpieces/elixir-of-eternal-life/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/prologues/enfant-tempete/v0.1.0/template.json",
+      "family": "prologues",
+      "slug": "enfant-tempete",
+      "disposition": "legacy-only-narrative",
+      "reason_codes": [
+        "narrative-beats-and-outcomes"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/prologues/esclave-sans-nom/v0.1.0/template.json",
+      "family": "prologues",
+      "slug": "esclave-sans-nom",
+      "disposition": "legacy-only-narrative",
+      "reason_codes": [
+        "narrative-beats-and-outcomes"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/prologues/naufrage/v0.1.0/template.json",
+      "family": "prologues",
+      "slug": "naufrage",
+      "disposition": "legacy-only-narrative",
+      "reason_codes": [
+        "narrative-beats-and-outcomes"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/prologues/prisonnier-politique/v0.1.0/template.json",
+      "family": "prologues",
+      "slug": "prisonnier-politique",
+      "disposition": "legacy-only-narrative",
+      "reason_codes": [
+        "narrative-beats-and-outcomes"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/prologues/soldat-tombe/v0.1.0/template.json",
+      "family": "prologues",
+      "slug": "soldat-tombe",
+      "disposition": "legacy-only-narrative",
+      "reason_codes": [
+        "narrative-beats-and-outcomes"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/skillclass/dieb/v0.1.0/template.json",
+      "family": "skillclass",
+      "slug": "dieb",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skillclass/dieb/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skillclass/handwerker/v0.1.0/template.json",
+      "family": "skillclass",
+      "slug": "handwerker",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skillclass/handwerker/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skillclass/krieger/v0.1.0/template.json",
+      "family": "skillclass",
+      "slug": "krieger",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skillclass/krieger/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skillclass/magier/v0.1.0/template.json",
+      "family": "skillclass",
+      "slug": "magier",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skillclass/magier/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/skillclass/waldlaufer/v0.1.0/template.json",
+      "family": "skillclass",
+      "slug": "waldlaufer",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/skillclass/waldlaufer/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/virtues-factions/template-2/v0.1.0/template.json",
+      "family": "virtues-factions",
+      "slug": "template",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-points-tiers-rewards-and-buffs"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/virtues-factions/template/v0.1.0/template.json",
+      "family": "virtues-factions",
+      "slug": "template",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-points-tiers-rewards-and-buffs"
+      ],
+      "target_file": null
+    }
+  ]
+}
