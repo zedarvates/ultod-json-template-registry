@@ -1,0 +1,457 @@
+{
+  "report_version": "1.0.0",
+  "cohort": "9",
+  "families": [
+    "rts",
+    "divine-system"
+  ],
+  "summary": {
+    "total": 44,
+    "dispositions": {
+      "legacy-only-authoritative": 40,
+      "legacy-only-narrative": 4
+    }
+  },
+  "results": [
+    {
+      "source_file": "templates/rts/buildings/v0.1.0/template.json",
+      "family": "rts",
+      "slug": "buildings",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/rts/commands/v0.1.0/template.json",
+      "family": "rts",
+      "slug": "commands",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/rts/diplomacy/v0.1.0/template.json",
+      "family": "rts",
+      "slug": "diplomacy",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/rts/events/v0.1.0/template.json",
+      "family": "rts",
+      "slug": "events",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/rts/factions/v0.1.0/template.json",
+      "family": "rts",
+      "slug": "factions",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/rts/formations/v0.1.0/template.json",
+      "family": "rts",
+      "slug": "formations",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/rts/quests/v0.1.0/template.json",
+      "family": "rts",
+      "slug": "quests",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/rts/resources/v0.1.0/template.json",
+      "family": "rts",
+      "slug": "resources",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/rts/rts-abilities/v0.1.0/template.json",
+      "family": "rts",
+      "slug": "rts-abilities",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/rts/rts-config/v0.1.0/template.json",
+      "family": "rts",
+      "slug": "rts-config",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/rts/technologies/v0.1.0/template.json",
+      "family": "rts",
+      "slug": "technologies",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/rts/terrain/v0.1.0/template.json",
+      "family": "rts",
+      "slug": "terrain",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/rts/units/v0.1.0/template.json",
+      "family": "rts",
+      "slug": "units",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/advanced-divine-mechanics/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "advanced-divine-mechanics",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/buddhist-crafting-professions/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "buddhist-crafting-professions",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/buddhist-divine-events/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "buddhist-divine-events",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/buddhist-divine-hierarchy/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "buddhist-divine-hierarchy",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/buddhist-divine-spells/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "buddhist-divine-spells",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/buddhist-divine-system-completion-report/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "buddhist-divine-system-completion-report",
+      "disposition": "legacy-only-narrative",
+      "reason_codes": [
+        "examples-report-or-storyline"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/buddhist-sacred-locations/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "buddhist-sacred-locations",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/class-integration-examples/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "class-integration-examples",
+      "disposition": "legacy-only-narrative",
+      "reason_codes": [
+        "examples-report-or-storyline"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/cosmic-diplomacy-inter-pantheon-relationships/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "cosmic-diplomacy-inter-pantheon-relationships",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/detailed-spell-examples/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "detailed-spell-examples",
+      "disposition": "legacy-only-narrative",
+      "reason_codes": [
+        "examples-report-or-storyline"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/divine-alignment-system/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "divine-alignment-system",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/divine-consciousness-mental-expansion/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "divine-consciousness-mental-expansion",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/divine-crafting-professions/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "divine-crafting-professions",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/divine-economy-sacred-marketplace/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "divine-economy-sacred-marketplace",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/divine-energy-mechanics/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "divine-energy-mechanics",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/divine-events-cosmic-occurrences/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "divine-events-cosmic-occurrences",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/divine-items-artifacts/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "divine-items-artifacts",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/divine-quest-storylines/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "divine-quest-storylines",
+      "disposition": "legacy-only-narrative",
+      "reason_codes": [
+        "examples-report-or-storyline"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/divine-relationship-worship-mechanics/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "divine-relationship-worship-mechanics",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/divine-spell-system/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "divine-spell-system",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/divine-system-template-0020/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "divine-system-template-0020",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/divine-time-complete/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "divine-time-complete",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/divine-time/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "divine-time",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/divine-universal-complete/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "divine-universal-complete",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/divine-universal-creation-evolution/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "divine-universal-creation-evolution",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/divine-universal/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "divine-universal",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/ritual-and-offering-system/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "ritual-and-offering-system",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/sacred-locations-divine-realms/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "sacred-locations-divine-realms",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/subordinate-entity-templates/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "subordinate-entity-templates",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/template-2/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "template-2",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/divine-system/template/v0.1.0/template.json",
+      "family": "divine-system",
+      "slug": "template",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "aggregate-runtime-system-or-catalog"
+      ],
+      "target_file": null
+    }
+  ]
+}
