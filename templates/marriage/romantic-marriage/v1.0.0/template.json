@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/marriage/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "marriage:romantic-marriage",
+  "slug": "romantic-marriage",
+  "family": "marriage",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:27c131583dbcec5e694c1bc2b1744c58755042ac6cdfb7acb619d953755e100c",
+  "spec": {
+    "display_name": "Mariage Romantique",
+    "marriage_kind": "romantic"
+  }
+}

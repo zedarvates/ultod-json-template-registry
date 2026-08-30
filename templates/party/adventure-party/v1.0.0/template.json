@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../schemas/party/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "party:adventure-party",
+  "slug": "adventure-party",
+  "family": "party",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:cf7190d90ddbe6d22a3409d170659f635e2f7183e1b96a655811074a6a9d1e35",
+  "spec": {
+    "display_name": "Groupe d'Aventure"
+  }
+}
