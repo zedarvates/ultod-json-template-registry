@@ -661,7 +661,11 @@
       "sha256": "abcd2cb789ac66f471e46d97264fba9c8a7b92371d405597a54f14c5370877c3",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "party:adventure-party",
+      "slug": "adventure-party",
+      "family": "party",
+      "superseded_by": "party:adventure-party@1.0.0"
     },
     {
       "name": "combat-training",
@@ -673,7 +677,11 @@
       "sha256": "83a9aff41272b7b1a11f52e4234883cc2a60611e6e2511f281c388dc0627421b",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "mentorship:combat-training",
+      "slug": "combat-training",
+      "family": "mentorship",
+      "superseded_by": "mentorship:combat-training@1.0.0"
     },
     {
       "name": "romantic-marriage",
@@ -685,7 +693,11 @@
       "sha256": "1b124d508942a04d9cf8d54f24755fa0b7796c349e3541950b339ef7ea6c7ff4",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "marriage:romantic-marriage",
+      "slug": "romantic-marriage",
+      "family": "marriage",
+      "superseded_by": "marriage:romantic-marriage@1.0.0"
     },
     {
       "name": "wedding-ceremony",
@@ -697,7 +709,11 @@
       "sha256": "9c75f676b9800b3de2885b545d22ee4d4f4d7f33bb4c4f7e3cf250f84d07068b",
       "compatibility": [],
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "social-events:wedding-ceremony",
+      "slug": "wedding-ceremony",
+      "family": "social-events",
+      "superseded_by": "social-events:wedding-ceremony@1.0.0"
     },
     {
       "name": "crypt-of-shadows",
@@ -20125,7 +20141,11 @@
       "compatibility": [],
       "source_file": "cosmetic/wings_of_fire.json",
       "validation_profile": "legacy-unvalidated",
-      "contract_version": null
+      "contract_version": null,
+      "id": "cosmetic:wings-of-fire",
+      "slug": "wings-of-fire",
+      "family": "cosmetic",
+      "superseded_by": "cosmetic:wings-of-fire@1.0.0"
     },
     {
       "name": "weekly-featured",
@@ -121690,6 +121710,171 @@
       "status": "experimental",
       "file": "templates/schemas/energy/v1.0.0/schema.json",
       "sha256": "cdb0a522f1a26facd433b899b543772e75c7e8c68a265b1ebee7fc42f587a97c",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "cosmetic:wings-of-fire",
+      "slug": "wings-of-fire",
+      "family": "cosmetic",
+      "name": "wings-of-fire",
+      "kind": "cosmetic-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/cosmetic/v1.0.0/schema.json",
+      "file": "templates/cosmetic/wings-of-fire/v1.0.0/template.json",
+      "sha256": "6d94967071a9128831685ad2b89ae0cb7c1d0b41ccaee0cfa93713f0a3ac1c01",
+      "spec_checksum": "sha256:72d7d58ca990dfa95b477c0cde527956ef8bbf1889d71ea8e24364e2a3cf6817",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "cosmetic:wings-of-fire@0.1.0"
+      ]
+    },
+    {
+      "name": "cosmetic",
+      "kind": "json-schema",
+      "version": "1.0.0",
+      "status": "experimental",
+      "file": "templates/schemas/cosmetic/v1.0.0/schema.json",
+      "sha256": "190a91708083f326946e804e451a088bc3cc772e980efd535d98c3e319d4e7c7",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "marriage:romantic-marriage",
+      "slug": "romantic-marriage",
+      "family": "marriage",
+      "name": "romantic-marriage",
+      "kind": "marriage-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/marriage/v1.0.0/schema.json",
+      "file": "templates/marriage/romantic-marriage/v1.0.0/template.json",
+      "sha256": "0c98066758911a026ef980ba2023d2c886f867116a9541bef4a7fb3af6e1ca55",
+      "spec_checksum": "sha256:27c131583dbcec5e694c1bc2b1744c58755042ac6cdfb7acb619d953755e100c",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "marriage:romantic-marriage@0.1.0"
+      ]
+    },
+    {
+      "name": "marriage",
+      "kind": "json-schema",
+      "version": "1.0.0",
+      "status": "experimental",
+      "file": "templates/schemas/marriage/v1.0.0/schema.json",
+      "sha256": "324274af37114fba03d8c305740824823097a68c10d3019ec3ca301d731f7f9a",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "mentorship:combat-training",
+      "slug": "combat-training",
+      "family": "mentorship",
+      "name": "combat-training",
+      "kind": "mentorship-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/mentorship/v1.0.0/schema.json",
+      "file": "templates/mentorship/combat-training/v1.0.0/template.json",
+      "sha256": "08ad4af0b4eaa6d78376fbfaef2f24aa00e76c3d4299996fe4cc270e0e2289cb",
+      "spec_checksum": "sha256:d5d532c1a7eb193c3c2d2b2fbc9b4e6f45a46f9018fa80e2a5cd2e289cc380df",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "mentorship:combat-training@0.1.0"
+      ]
+    },
+    {
+      "name": "mentorship",
+      "kind": "json-schema",
+      "version": "1.0.0",
+      "status": "experimental",
+      "file": "templates/schemas/mentorship/v1.0.0/schema.json",
+      "sha256": "a2021c4fa646a3953a4c840b185620277796260b9c0c861c0aca7483f84feed5",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "party:adventure-party",
+      "slug": "adventure-party",
+      "family": "party",
+      "name": "adventure-party",
+      "kind": "party-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/party/v1.0.0/schema.json",
+      "file": "templates/party/adventure-party/v1.0.0/template.json",
+      "sha256": "de678cae7086d6037a18da5e29ca629029d767b9f091be7a6fd63578a2a15841",
+      "spec_checksum": "sha256:cf7190d90ddbe6d22a3409d170659f635e2f7183e1b96a655811074a6a9d1e35",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "party:adventure-party@0.1.0"
+      ]
+    },
+    {
+      "name": "party",
+      "kind": "json-schema",
+      "version": "1.0.0",
+      "status": "experimental",
+      "file": "templates/schemas/party/v1.0.0/schema.json",
+      "sha256": "0c16d61323dc44ccb421299028a7d355f1f1d8f22591de0f74407dfbae937883",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "social-events:wedding-ceremony",
+      "slug": "wedding-ceremony",
+      "family": "social-events",
+      "name": "wedding-ceremony",
+      "kind": "social-event-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/social-events/v1.0.0/schema.json",
+      "file": "templates/social-events/wedding-ceremony/v1.0.0/template.json",
+      "sha256": "0bea890a4a467794dffbb4ae4c2482f8d40f889f9f62b3c1802c77c3e4b80788",
+      "spec_checksum": "sha256:bb27a17f807ee50c6f059ff0f095b1f47a1990e13e5d4815d0b29f62302be3db",
+      "intended_consumers": [
+        "llm-pipeline"
+      ],
+      "compatibility": [],
+      "supersedes": [
+        "social-events:wedding-ceremony@0.1.0"
+      ]
+    },
+    {
+      "name": "social-events",
+      "kind": "json-schema",
+      "version": "1.0.0",
+      "status": "experimental",
+      "file": "templates/schemas/social-events/v1.0.0/schema.json",
+      "sha256": "cf872738520964b003685543c533b36189f6dcce048c8c131f9cd6f462b49628",
       "compatibility": [],
       "validation_profile": "strict-schema-v1",
       "contract_version": "1.0.0"

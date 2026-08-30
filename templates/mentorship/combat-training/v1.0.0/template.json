@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/mentorship/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "mentorship:combat-training",
+  "slug": "combat-training",
+  "family": "mentorship",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d5d532c1a7eb193c3c2d2b2fbc9b4e6f45a46f9018fa80e2a5cd2e289cc380df",
+  "spec": {
+    "display_name": "Entraînement au Combat",
+    "mentorship_kind": "combat-training"
+  }
+}

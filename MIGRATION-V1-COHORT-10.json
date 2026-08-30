@@ -1,0 +1,430 @@
+{
+  "report_version": "1.0.0",
+  "cohort": "10",
+  "families": [
+    "blueprints",
+    "ai",
+    "houses",
+    "champions",
+    "cosmetic",
+    "cosmetic-shop",
+    "haptics",
+    "marriage",
+    "mentorship",
+    "paragons",
+    "party",
+    "pvp",
+    "shop",
+    "social-events",
+    "vendor-shops"
+  ],
+  "summary": {
+    "total": 41,
+    "dispositions": {
+      "legacy-only-authoritative": 36,
+      "migrated": 5
+    }
+  },
+  "results": [
+    {
+      "source_file": "templates/ai/elite-guard/v0.1.0/template.json",
+      "family": "ai",
+      "slug": "elite-guard",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/ai/guard-basic/v0.1.0/template.json",
+      "family": "ai",
+      "slug": "guard-basic",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/ai/storm-wyvern-boss/v0.1.0/template.json",
+      "family": "ai",
+      "slug": "storm-wyvern-boss",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/example-hut/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "example-hut",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/moon-palace/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "moon-palace",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/moon-sanctuary/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "moon-sanctuary",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-0/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-0",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-1/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-1",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-10/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-10",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-11/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-11",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-12/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-12",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-13/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-13",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-14/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-14",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-15/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-15",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-16/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-16",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-17/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-17",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-18/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-18",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-2/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-2",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-3/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-3",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-4/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-4",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-5/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-5",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-6/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-6",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-7/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-7",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-8/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-8",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/npc-house-9/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "npc-house-9",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/solar-lyre-temple-complex/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "solar-lyre-temple-complex",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/blueprints/worlds-cabinet/v0.1.0/template.json",
+      "family": "blueprints",
+      "slug": "worlds-cabinet",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/champions/template/v0.1.0/template.json",
+      "family": "champions",
+      "slug": "template",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/cosmetic-shop/weekly-featured/v0.1.0/template.json",
+      "family": "cosmetic-shop",
+      "slug": "weekly-featured",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/cosmetic/wings-of-fire/v0.1.0/template.json",
+      "family": "cosmetic",
+      "slug": "wings-of-fire",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/cosmetic/wings-of-fire/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/haptics/default-patterns/v0.1.0/template.json",
+      "family": "haptics",
+      "slug": "default-patterns",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/houses/furnished-cottage/v0.1.0/template.json",
+      "family": "houses",
+      "slug": "furnished-cottage",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/houses/houses-template-0001/v0.1.0/template.json",
+      "family": "houses",
+      "slug": "houses-template-0001",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/marriage/romantic-marriage/v0.1.0/template.json",
+      "family": "marriage",
+      "slug": "romantic-marriage",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/marriage/romantic-marriage/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/mentorship/combat-training/v0.1.0/template.json",
+      "family": "mentorship",
+      "slug": "combat-training",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/mentorship/combat-training/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/paragons/master-config/v0.1.0/template.json",
+      "family": "paragons",
+      "slug": "master-config",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/party/adventure-party/v0.1.0/template.json",
+      "family": "party",
+      "slug": "adventure-party",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/party/adventure-party/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/pvp/temporal-chronomancer-arena/v0.1.0/template.json",
+      "family": "pvp",
+      "slug": "temporal-chronomancer-arena",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/shop/template/v0.1.0/template.json",
+      "family": "shop",
+      "slug": "template",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    },
+    {
+      "source_file": "templates/social-events/wedding-ceremony/v0.1.0/template.json",
+      "family": "social-events",
+      "slug": "wedding-ceremony",
+      "disposition": "migrated",
+      "reason_codes": [],
+      "target_file": "templates/social-events/wedding-ceremony/v1.0.0/template.json"
+    },
+    {
+      "source_file": "templates/vendor-shops/template/v0.1.0/template.json",
+      "family": "vendor-shops",
+      "slug": "template",
+      "disposition": "legacy-only-authoritative",
+      "reason_codes": [
+        "runtime-layout-behavior-assets-commerce-or-system-rules"
+      ],
+      "target_file": null
+    }
+  ]
+}

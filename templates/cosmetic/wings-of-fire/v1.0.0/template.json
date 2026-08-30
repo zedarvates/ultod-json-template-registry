@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../schemas/cosmetic/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "cosmetic:wings-of-fire",
+  "slug": "wings-of-fire",
+  "family": "cosmetic",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:72d7d58ca990dfa95b477c0cde527956ef8bbf1889d71ea8e24364e2a3cf6817",
+  "spec": {
+    "display_name": "Wings of Fire",
+    "category_tag": "wings"
+  }
+}
