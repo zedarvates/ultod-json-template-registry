@@ -1,0 +1,804 @@
+{
+  "report_version": "1.0.0",
+  "resolution_policy": "no-guessing-v1",
+  "summary": {
+    "manual_reviews": 61,
+    "resolved": 61,
+    "unresolved": 0
+  },
+  "resolutions": [
+    {
+      "source_file": "templates/abilities/fireball-2/v0.1.0/template.json",
+      "family": "abilities",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/abilities/fireball/v0.1.0/template.json",
+      "family": "abilities",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/abilities/frostbolt-2/v0.1.0/template.json",
+      "family": "abilities",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/abilities/frostbolt/v0.1.0/template.json",
+      "family": "abilities",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/classes/druid/0.1.0/template.json",
+      "family": "classes",
+      "original_report": "MIGRATION-V1.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/classes/druid/v0.1.0/template.json",
+      "family": "classes",
+      "original_report": "MIGRATION-V1.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/classes/mage/0.1.0/template.json",
+      "family": "classes",
+      "original_report": "MIGRATION-V1.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/classes/mage/v0.1.0/template.json",
+      "family": "classes",
+      "original_report": "MIGRATION-V1.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/classes/necromancer/0.1.0/template.json",
+      "family": "classes",
+      "original_report": "MIGRATION-V1.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/classes/necromancer/v0.1.0/template.json",
+      "family": "classes",
+      "original_report": "MIGRATION-V1.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/classes/paladin/0.1.0/template.json",
+      "family": "classes",
+      "original_report": "MIGRATION-V1.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/classes/paladin/v0.1.0/template.json",
+      "family": "classes",
+      "original_report": "MIGRATION-V1.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/classes/ranger/0.1.0/template.json",
+      "family": "classes",
+      "original_report": "MIGRATION-V1.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/classes/ranger/v0.1.0/template.json",
+      "family": "classes",
+      "original_report": "MIGRATION-V1.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/classes/rogue/0.1.0/template.json",
+      "family": "classes",
+      "original_report": "MIGRATION-V1.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/classes/rogue/v0.1.0/template.json",
+      "family": "classes",
+      "original_report": "MIGRATION-V1.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/classes/warrior/0.1.0/template.json",
+      "family": "classes",
+      "original_report": "MIGRATION-V1.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/classes/warrior/v0.1.0/template.json",
+      "family": "classes",
+      "original_report": "MIGRATION-V1.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/creatures/template/v0.1.0/template.json",
+      "family": "creatures",
+      "original_report": "MIGRATION-V1-COHORT-5.json",
+      "original_reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/dungeons/demo-crypt/v0.1.0/template.json",
+      "family": "dungeons",
+      "original_report": "MIGRATION-V1-COHORT-2.json",
+      "original_reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/dungeons/grammar-generated-crypt/v0.1.0/template.json",
+      "family": "dungeons",
+      "original_report": "MIGRATION-V1-COHORT-2.json",
+      "original_reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/events/festival/v0.1.0/template.json",
+      "family": "events",
+      "original_report": "MIGRATION-V1-COHORT-5.json",
+      "original_reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/locations/city/v0.1.0/template.json",
+      "family": "locations",
+      "original_report": "MIGRATION-V1-COHORT-2.json",
+      "original_reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/names/names-template-0004/v0.1.0/template.json",
+      "family": "names",
+      "original_report": "MIGRATION-V1-COHORT-1.json",
+      "original_reason_codes": [
+        "nonsemantic-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/npcs/town-guard-template/v0.1.0/template.json",
+      "family": "npcs",
+      "original_report": "MIGRATION-V1-COHORT-4.json",
+      "original_reason_codes": [
+        "nonsemantic-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/planets/template/v0.1.0/template.json",
+      "family": "planets",
+      "original_report": "MIGRATION-V1-COHORT-2.json",
+      "original_reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/alchemy/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/blacksmithing/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/core-alchemy/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/core-blacksmithing/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/core-enchanting/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/core-engineering/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/core-leatherworking/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/core-tailoring/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/enchanting/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/engineering/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/leatherworking/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/professions-template-0004/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "nonsemantic-or-adapted-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/professions-template-0005/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "nonsemantic-or-adapted-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/professions-template-0006/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "nonsemantic-or-adapted-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/professions-template-0007/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "nonsemantic-or-adapted-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/tailoring/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/uo-blacksmith/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "nonsemantic-or-adapted-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/uo-carpenter/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "nonsemantic-or-adapted-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/uo-inscriber/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "nonsemantic-or-adapted-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/uo-tailor-alchemist/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "nonsemantic-or-adapted-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/professions/uo-tinker/v0.1.0/template.json",
+      "family": "professions",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "nonsemantic-or-adapted-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/quests/example-quest/v0.1.0/template.json",
+      "family": "quests",
+      "original_report": "MIGRATION-V1-COHORT-5.json",
+      "original_reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/racial-traits/racial-traits-template-0014/v0.1.0/template.json",
+      "family": "racial-traits",
+      "original_report": "MIGRATION-V1-COHORT-4.json",
+      "original_reason_codes": [
+        "nonsemantic-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/rifts/chaos/v0.1.0/template.json",
+      "family": "rifts",
+      "original_report": "MIGRATION-V1-COHORT-5.json",
+      "original_reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/rifts/dimensional/v0.1.0/template.json",
+      "family": "rifts",
+      "original_report": "MIGRATION-V1-COHORT-5.json",
+      "original_reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/rifts/elemental/v0.1.0/template.json",
+      "family": "rifts",
+      "original_report": "MIGRATION-V1-COHORT-5.json",
+      "original_reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/rifts/temporal/v0.1.0/template.json",
+      "family": "rifts",
+      "original_report": "MIGRATION-V1-COHORT-5.json",
+      "original_reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/skills/mining-2/v0.1.0/template.json",
+      "family": "skills",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/skills/mining/v0.1.0/template.json",
+      "family": "skills",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/skills/sword-mastery/0.1.0/template.json",
+      "family": "skills",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/skills/sword-mastery/v0.1.0/template.json",
+      "family": "skills",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/skills/tailoring-2/v0.1.0/template.json",
+      "family": "skills",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/skills/tailoring/v0.1.0/template.json",
+      "family": "skills",
+      "original_report": "MIGRATION-V1-COHORT-3.json",
+      "original_reason_codes": [
+        "normalized-slug-collision"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "ambiguous-duplicate-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/tournaments/arena-tournament-template/v0.1.0/template.json",
+      "family": "tournaments",
+      "original_report": "MIGRATION-V1-COHORT-5.json",
+      "original_reason_codes": [
+        "nonsemantic-or-fixture-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    },
+    {
+      "source_file": "templates/treasure-maps/template/v0.1.0/template.json",
+      "family": "treasure-maps",
+      "original_report": "MIGRATION-V1-COHORT-5.json",
+      "original_reason_codes": [
+        "no-reviewed-declarative-identity"
+      ],
+      "resolution_disposition": "legacy-only-authoritative",
+      "resolution_reason_codes": [
+        "technical-fixture-identity-not-promoted"
+      ],
+      "strict_target_file": null
+    }
+  ]
+}

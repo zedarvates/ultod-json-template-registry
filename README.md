@@ -21,9 +21,11 @@ Central versioned registry for JSON templates and schemas used across the Ultima
 
 **Experimental registry.** The collection contains versioned snapshots covering schemas, haptics, avatars, biomes, achievements, events, guilds, locations, houses, names, styles, rifts, party configurations, mentorship paths, marriage models, social events, dungeons, paragons, bosses, masterpieces, recipes, creatures, generated content (including a large quest set), prologues, quests, professions, gods, energy, AI, RTS, blueprints, divine systems, and abilities, all released as `0.1.0`.
 
-These templates are uncertified snapshots. None is yet declared compatible with a specific client or server version.
+The registry now accounts for all 4,047 legacy JSON sources exactly once. Migration reports classify 2,706 sources as strict-v1 replacements, 1,271 as legacy-only authoritative runtime data, 9 as legacy-only narrative material, and 61 historical manual-review cases. `MANUAL-REVIEW-RESOLUTIONS-V1.json` closes all 61 manual cases without guessing identities or inventing strict compatibility.
 
-Current local coverage accounts for all 4,009 current server JSON sources: 1,884 through existing snapshots or source references and 2,125 through semantic, sanitized exports. Exported templates retain useful gameplay structure and readable names; hash-only placeholder templates are forbidden.
+Strict-v1 publication is not runtime compatibility evidence. Compatibility remains empty until a specific consumer adapter passes its own typed parsing, link-closure, and isolated load proofs. Hash-only and ordinal placeholder identities are never promoted to strict-v1.
+
+The current Zig candidate-link audit is intentionally non-authoritative: 219 exact source paths, 5 unique basenames, 1 unique ID, 3 ambiguous spell names, and 2,085 missing mappings. The three ambiguous names (`chain-lightning`, `fireball`, and `frost-nova`) occur under multiple server class directories and are not guessed. See `ZIG-LINK-CANDIDATES-V1.json`; it explicitly sets `compatibility_claimed` to `false`.
 
 ### Validation profiles
 
