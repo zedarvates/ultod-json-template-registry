@@ -1,6 +1,6 @@
 {
   "registry_version": "2.0.0",
-  "generated_at": "2026-08-19",
+  "generated_at": "2026-10-10",
   "source_set": "authoritative-server-schemas",
   "entries": [
     {
@@ -121878,6 +121878,18 @@
       "compatibility": [],
       "validation_profile": "strict-schema-v1",
       "contract_version": "1.0.0"
+    },
+    {
+      "name": "class",
+      "kind": "json-schema",
+      "version": "0.2.0",
+      "status": "experimental",
+      "file": "templates/schemas/class/v0.2.0/schema.json",
+      "source_file": "consumer-authoring/class-specializations-0.2.0",
+      "sha256": "f19462bde9590fb8641097a810e8b6419db94afe62645d5b7c119ec7779bcad9",
+      "compatibility": [],
+      "validation_profile": "legacy-unvalidated",
+      "contract_version": null
     }
   ],
   "aliases": []
