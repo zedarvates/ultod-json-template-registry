@@ -1,0 +1,16 @@
+{
+  "id": "mixed-specializations-example",
+  "name": "Mixed specializations example",
+  "description": "Consumer-side example; not a strict-v1 registry template.",
+  "specializations": [
+    "forest-guardian",
+    {
+      "id": "storm-caller",
+      "name": "Storm caller",
+      "description": "An object preserves its declared fields.",
+      "abilities": ["storm-call"],
+      "talents": ["storm-focus"]
+    },
+    null
+  ]
+}

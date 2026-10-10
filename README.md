@@ -27,6 +27,14 @@ Strict-v1 publication is not runtime compatibility evidence. Compatibility remai
 
 The current Zig candidate-link audit is intentionally non-authoritative: 219 exact source paths, 5 unique basenames, 1 unique ID, 3 ambiguous spell names, and 2,085 missing mappings. The three ambiguous names (`chain-lightning`, `fireball`, and `frost-nova`) occur under multiple server class directories and are not guessed. See `ZIG-LINK-CANDIDATES-V1.json`; it explicitly sets `compatibility_claimed` to `false`.
 
+### Raw-catalog consumer update (2026-10-10)
+
+The optional legacy class schema `0.2.0` accepts string/object/null
+specialization items without rewriting published snapshots. See
+[the .NET 8 consumer profile](docs/consumers/godot-net8-catalog-loading.md)
+for scoped fixture evidence and its limits. This does not change strict-v1
+contracts or certify the public legacy collection as runtime-compatible.
+
 ### Validation profiles
 
 - `legacy-unvalidated` preserves published `v0.1.0` snapshots and applies JSON, public-policy, catalog, and checksum checks only.
