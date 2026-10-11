@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-action-hero-double-boomstick",
+  "slug": "the-duke-action-hero-double-boomstick",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-boomstick-burst@1.0.0",
+    "skills:the-duke-action-hero-action-reload@1.0.0"
+  ],
+  "spec_checksum": "sha256:7922da8ce209c39ee8acb446b4cb703aca28dbe162fdc60f29c877b635462431",
+  "spec": {
+    "display_name": "Double décharge",
+    "category_tag": "the-duke",
+    "subcategory_tag": "action-hero",
+    "skill_kind": "talent"
+  }
+}

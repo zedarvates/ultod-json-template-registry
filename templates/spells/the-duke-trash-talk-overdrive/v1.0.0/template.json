@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../schemas/spells/v1.1.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:the-duke-trash-talk-overdrive",
+  "slug": "the-duke-trash-talk-overdrive",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:15b111c9d2b76b33192528b6308a92aafb461e723b6bbc12e058bbf2fffe8e5f",
+  "spec": {
+    "display_name": "Trash Talk Overdrive",
+    "school": "the-duke",
+    "rarity": "common",
+    "spell_kind": "control",
+    "target_kind": "cone",
+    "capability_tags": [
+      "taunt",
+      "punchline",
+      "accuracy-debuff",
+      "grit-gain",
+      "boss-vulnerability",
+      "self-armour"
+    ]
+  }
+}

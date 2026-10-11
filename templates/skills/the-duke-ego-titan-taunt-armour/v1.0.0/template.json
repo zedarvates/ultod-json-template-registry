@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-ego-titan-taunt-armour",
+  "slug": "the-duke-ego-titan-taunt-armour",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-trash-talk-overdrive@1.0.0",
+    "skills:the-duke-ego-titan-thick-skin@1.0.0"
+  ],
+  "spec_checksum": "sha256:a1cadb04a874b3da11265ec60574216a5e085668a7f88a61658781c32a42b38e",
+  "spec": {
+    "display_name": "Armure de provocation",
+    "category_tag": "the-duke",
+    "subcategory_tag": "ego-titan",
+    "skill_kind": "talent"
+  }
+}

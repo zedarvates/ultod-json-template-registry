@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/spells/v1.1.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:the-duke-steroids",
+  "slug": "the-duke-steroids",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:3317bbd6c393924bb74022fa59e919a63dcc69595815d93d3063d5bfcd1fc536",
+  "spec": {
+    "display_name": "Steroids",
+    "school": "the-duke",
+    "rarity": "common",
+    "spell_kind": "buff",
+    "target_kind": "self",
+    "capability_tags": [
+      "speed-empowerment",
+      "grit-regeneration",
+      "strength-empowerment",
+      "optional-cosmetic-blur"
+    ]
+  }
+}

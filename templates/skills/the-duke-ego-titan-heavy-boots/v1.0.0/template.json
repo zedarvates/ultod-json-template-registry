@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-ego-titan-heavy-boots",
+  "slug": "the-duke-ego-titan-heavy-boots",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-mighty-kick@1.0.0",
+    "skills:the-duke-ego-titan-grit-flow@1.0.0"
+  ],
+  "spec_checksum": "sha256:6b219a1446ece5859245ecdd034adb3cdf49b2426048dd8d35b69c21fd7d0f8c",
+  "spec": {
+    "display_name": "Bottes lourdes",
+    "category_tag": "the-duke",
+    "subcategory_tag": "ego-titan",
+    "skill_kind": "talent"
+  }
+}

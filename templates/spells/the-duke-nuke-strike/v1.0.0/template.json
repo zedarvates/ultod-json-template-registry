@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../schemas/spells/v1.1.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:the-duke-nuke-strike",
+  "slug": "the-duke-nuke-strike",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:276cb6f9c537a820253f3a0a37c0c75bc23e5fb93d9aae3c161b0aea49a68b23",
+  "spec": {
+    "display_name": "Nuke Strike",
+    "school": "the-duke",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "ground-area",
+    "capability_tags": [
+      "ultimate",
+      "explosive",
+      "area-damage",
+      "residual-burn",
+      "self-slow-after-impact"
+    ]
+  }
+}

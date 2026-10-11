@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-action-hero-steady-aim",
+  "slug": "the-duke-action-hero-steady-aim",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-boomstick-burst@1.0.0"
+  ],
+  "spec_checksum": "sha256:8e6e3e0375b7b5e723b324e34ca3baaf4397bea3bad865bb3f10c2ef328152e6",
+  "spec": {
+    "display_name": "Visée d'acier",
+    "category_tag": "the-duke",
+    "subcategory_tag": "action-hero",
+    "skill_kind": "talent"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../schemas/spells/v1.1.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:the-duke-balls-of-steel",
+  "slug": "the-duke-balls-of-steel",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:dc03bd82c90d3c75f7e6d9916ab1bfb6d7a9b4f8ee71ba6da9b824470c9e3713",
+  "spec": {
+    "display_name": "Balls of Steel",
+    "school": "the-duke",
+    "rarity": "common",
+    "spell_kind": "buff",
+    "target_kind": "self",
+    "capability_tags": [
+      "ultimate",
+      "damage-mitigation",
+      "damage-reflection"
+    ]
+  }
+}

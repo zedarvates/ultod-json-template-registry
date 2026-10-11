@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-explosives-expert-explosives-expert-capstone",
+  "slug": "the-duke-explosives-expert-explosives-expert-capstone",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-nuke-strike@1.0.0",
+    "skills:the-duke-explosives-expert-tactical-warhead@1.0.0"
+  ],
+  "spec_checksum": "sha256:f8f2417cfa16dcfa85dd4f7e10f99845b7f58d1b67722599a979ae2de629e156",
+  "spec": {
+    "display_name": "Expert en explosifs",
+    "category_tag": "the-duke",
+    "subcategory_tag": "explosives-expert",
+    "skill_kind": "talent"
+  }
+}

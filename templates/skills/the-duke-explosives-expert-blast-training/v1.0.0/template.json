@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-explosives-expert-blast-training",
+  "slug": "the-duke-explosives-expert-blast-training",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-pipe-bomb@1.0.0"
+  ],
+  "spec_checksum": "sha256:fd8c2949c7bd797e705586d271f7b060a4176e39b7fb53ceaf752b25216aeecf",
+  "spec": {
+    "display_name": "Formation explosive",
+    "category_tag": "the-duke",
+    "subcategory_tag": "explosives-expert",
+    "skill_kind": "talent"
+  }
+}

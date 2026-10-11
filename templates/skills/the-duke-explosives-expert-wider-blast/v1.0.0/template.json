@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-explosives-expert-wider-blast",
+  "slug": "the-duke-explosives-expert-wider-blast",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-pipe-bomb@1.0.0",
+    "skills:the-duke-explosives-expert-double-hologram@1.0.0"
+  ],
+  "spec_checksum": "sha256:9581d2c4d2e7e38a7cc76c28b90c8d3c611d75e47faed5d19d9aab7b2e153814",
+  "spec": {
+    "display_name": "Souffle élargi",
+    "category_tag": "the-duke",
+    "subcategory_tag": "explosives-expert",
+    "skill_kind": "talent"
+  }
+}

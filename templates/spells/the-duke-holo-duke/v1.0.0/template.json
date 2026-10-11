@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/spells/v1.1.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:the-duke-holo-duke",
+  "slug": "the-duke-holo-duke",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:9b416603729818baf9989846b04c84a8bba886324dda86926077e5f76f0a346c",
+  "spec": {
+    "display_name": "Holo-Duke",
+    "school": "the-duke",
+    "rarity": "common",
+    "spell_kind": "utility",
+    "target_kind": "ground-area",
+    "capability_tags": [
+      "deployable",
+      "hologram",
+      "aggro-decoy",
+      "expiry-explosion"
+    ]
+  }
+}

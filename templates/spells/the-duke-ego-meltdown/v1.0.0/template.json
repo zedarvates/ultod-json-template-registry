@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../schemas/spells/v1.1.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:the-duke-ego-meltdown",
+  "slug": "the-duke-ego-meltdown",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ac0b4de6d62db6db519924b8f99d29731f308bb4436a98e8a403b8493ad14eb2",
+  "spec": {
+    "display_name": "Ego Meltdown",
+    "school": "the-duke",
+    "rarity": "common",
+    "spell_kind": "control",
+    "target_kind": "self-area",
+    "capability_tags": [
+      "ultimate",
+      "taunt",
+      "punchline",
+      "mental-resistance-debuff",
+      "enemy-damage-debuff",
+      "grit-regeneration"
+    ]
+  }
+}

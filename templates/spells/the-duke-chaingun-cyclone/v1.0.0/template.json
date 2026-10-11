@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/spells/v1.1.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:the-duke-chaingun-cyclone",
+  "slug": "the-duke-chaingun-cyclone",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:218217aef74fcbb07a9e1950177097125abe455acf3c115711afea5008c989dc",
+  "spec": {
+    "display_name": "Chaingun Cyclone",
+    "school": "the-duke",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "self-area",
+    "capability_tags": [
+      "channelled",
+      "ballistic",
+      "circular-area",
+      "channel-armour"
+    ]
+  }
+}

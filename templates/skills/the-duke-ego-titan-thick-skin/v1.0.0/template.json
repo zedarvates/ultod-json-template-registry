@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-ego-titan-thick-skin",
+  "slug": "the-duke-ego-titan-thick-skin",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-balls-of-steel@1.0.0",
+    "skills:the-duke-ego-titan-heavy-boots@1.0.0"
+  ],
+  "spec_checksum": "sha256:95b3be119fd2ab2a399e7bcbc515496c59ea526c0dbaafbd117f5393175ad0f2",
+  "spec": {
+    "display_name": "Peau dure",
+    "category_tag": "the-duke",
+    "subcategory_tag": "ego-titan",
+    "skill_kind": "talent"
+  }
+}

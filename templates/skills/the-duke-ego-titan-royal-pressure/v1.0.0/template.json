@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-ego-titan-royal-pressure",
+  "slug": "the-duke-ego-titan-royal-pressure",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-royal-insult-protocol@1.0.0",
+    "skills:the-duke-ego-titan-lasting-steroids@1.0.0"
+  ],
+  "spec_checksum": "sha256:18e0ccfe31937990e34cfee1664bf45cff1499dc3bda3d7fe51161391c63a948",
+  "spec": {
+    "display_name": "Pression royale",
+    "category_tag": "the-duke",
+    "subcategory_tag": "ego-titan",
+    "skill_kind": "talent"
+  }
+}

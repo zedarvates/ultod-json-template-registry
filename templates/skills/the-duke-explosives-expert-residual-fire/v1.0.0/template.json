@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-explosives-expert-residual-fire",
+  "slug": "the-duke-explosives-expert-residual-fire",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-nuke-strike@1.0.0",
+    "skills:the-duke-explosives-expert-frozen-detonation@1.0.0"
+  ],
+  "spec_checksum": "sha256:9ad88f752f1b44caa8d903fb89790f547f9870be10eb7d655bfded256259fbca",
+  "spec": {
+    "display_name": "Braises persistantes",
+    "category_tag": "the-duke",
+    "subcategory_tag": "explosives-expert",
+    "skill_kind": "talent"
+  }
+}
