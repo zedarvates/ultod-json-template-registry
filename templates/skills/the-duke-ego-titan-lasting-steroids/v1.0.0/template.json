@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-ego-titan-lasting-steroids",
+  "slug": "the-duke-ego-titan-lasting-steroids",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-steroids@1.0.0",
+    "skills:the-duke-ego-titan-stunning-kick@1.0.0"
+  ],
+  "spec_checksum": "sha256:0a4465c56e73e42df14637b5d1dd08e704419605eb591f446d2cfa7f7a7d5b20",
+  "spec": {
+    "display_name": "Survoltage prolongé",
+    "category_tag": "the-duke",
+    "subcategory_tag": "ego-titan",
+    "skill_kind": "talent"
+  }
+}

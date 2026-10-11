@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-explosives-expert-cryo-preparation",
+  "slug": "the-duke-explosives-expert-cryo-preparation",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-freezethrower@1.0.0",
+    "skills:the-duke-explosives-expert-sticky-handling@1.0.0"
+  ],
+  "spec_checksum": "sha256:345411feb08ddbe1898c055cd15c0369066e030505469951f9affd6dcf579683",
+  "spec": {
+    "display_name": "Préparation cryogénique",
+    "category_tag": "the-duke",
+    "subcategory_tag": "explosives-expert",
+    "skill_kind": "talent"
+  }
+}

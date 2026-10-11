@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-ego-titan-steel-stance",
+  "slug": "the-duke-ego-titan-steel-stance",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-balls-of-steel@1.0.0",
+    "skills:the-duke-ego-titan-meltdown-endurance@1.0.0"
+  ],
+  "spec_checksum": "sha256:b2aaf86c4e0110ecda8500b1c910e72984962a0ce8fdef19da790d2ca9ea4e0d",
+  "spec": {
+    "display_name": "Posture d'acier",
+    "category_tag": "the-duke",
+    "subcategory_tag": "ego-titan",
+    "skill_kind": "talent"
+  }
+}

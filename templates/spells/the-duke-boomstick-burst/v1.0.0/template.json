@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../schemas/spells/v1.1.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:the-duke-boomstick-burst",
+  "slug": "the-duke-boomstick-burst",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:2fd132bc72654a517ff4c1797f8884a5daac4e930558e6db9b8fcc10206f049a",
+  "spec": {
+    "display_name": "Boomstick Burst",
+    "school": "the-duke",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "cone",
+    "capability_tags": [
+      "scatter-shot",
+      "ballistic",
+      "grit-critical-synergy"
+    ]
+  }
+}

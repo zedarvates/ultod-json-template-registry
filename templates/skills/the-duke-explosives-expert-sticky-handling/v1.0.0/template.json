@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-explosives-expert-sticky-handling",
+  "slug": "the-duke-explosives-expert-sticky-handling",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-pipe-bomb@1.0.0",
+    "skills:the-duke-explosives-expert-blast-training@1.0.0"
+  ],
+  "spec_checksum": "sha256:2f3bc7faaadb366d77f67fa5e88d3440f54521e0de2cffe9d09ab813fbb0bda3",
+  "spec": {
+    "display_name": "Pose contrôlée",
+    "category_tag": "the-duke",
+    "subcategory_tag": "explosives-expert",
+    "skill_kind": "talent"
+  }
+}

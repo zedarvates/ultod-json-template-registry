@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-explosives-expert-tactical-warhead",
+  "slug": "the-duke-explosives-expert-tactical-warhead",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-nuke-strike@1.0.0",
+    "skills:the-duke-explosives-expert-controlled-recoil@1.0.0"
+  ],
+  "spec_checksum": "sha256:0b6114dd4f79b3112c439209546378ee1c59d0292cee33f5223f76e7d44e0612",
+  "spec": {
+    "display_name": "Ogive tactique",
+    "category_tag": "the-duke",
+    "subcategory_tag": "explosives-expert",
+    "skill_kind": "talent"
+  }
+}

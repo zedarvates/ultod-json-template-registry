@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../schemas/spells/v1.1.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:the-duke-heroic-momentum",
+  "slug": "the-duke-heroic-momentum",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:6ab8e1e6baa0448f35c7252e0eef219605e96ed49e61a6d222e2ab41455b2703",
+  "spec": {
+    "display_name": "Heroic Momentum",
+    "school": "the-duke",
+    "rarity": "common",
+    "spell_kind": "passive",
+    "target_kind": "self",
+    "capability_tags": [
+      "passive",
+      "confirmed-kill",
+      "temporary-speed"
+    ]
+  }
+}

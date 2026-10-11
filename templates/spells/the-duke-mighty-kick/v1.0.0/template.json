@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../schemas/spells/v1.1.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:the-duke-mighty-kick",
+  "slug": "the-duke-mighty-kick",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:327fee5471013c2620ace06a230638ab2853766e29ed7d69be94aa833bed9de3",
+  "spec": {
+    "display_name": "Mighty Kick",
+    "school": "the-duke",
+    "rarity": "common",
+    "spell_kind": "damage",
+    "target_kind": "single",
+    "capability_tags": [
+      "melee",
+      "physical-impact",
+      "knockback",
+      "wall-impact-grit"
+    ]
+  }
+}

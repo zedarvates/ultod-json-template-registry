@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-ego-titan-meltdown-endurance",
+  "slug": "the-duke-ego-titan-meltdown-endurance",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-ego-meltdown@1.0.0",
+    "skills:the-duke-ego-titan-controlled-reflection@1.0.0"
+  ],
+  "spec_checksum": "sha256:bf34ba48a7dce195ad86692634c5dade361b46cc22a03fbc442a32257d500d61",
+  "spec": {
+    "display_name": "Endurance de tirade",
+    "category_tag": "the-duke",
+    "subcategory_tag": "ego-titan",
+    "skill_kind": "talent"
+  }
+}

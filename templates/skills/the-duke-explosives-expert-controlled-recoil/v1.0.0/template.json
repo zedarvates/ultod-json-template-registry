@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-explosives-expert-controlled-recoil",
+  "slug": "the-duke-explosives-expert-controlled-recoil",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-nuke-strike@1.0.0",
+    "skills:the-duke-explosives-expert-residual-fire@1.0.0"
+  ],
+  "spec_checksum": "sha256:8f1dca6d29f830b0c53206e1fcc5bf4cab851e8c51967f46e67738575565901e",
+  "spec": {
+    "display_name": "Recul maîtrisé",
+    "category_tag": "the-duke",
+    "subcategory_tag": "explosives-expert",
+    "skill_kind": "talent"
+  }
+}

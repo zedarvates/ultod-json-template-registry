@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-action-hero-heroic-tempo",
+  "slug": "the-duke-action-hero-heroic-tempo",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-heroic-momentum@1.0.0",
+    "skills:the-duke-action-hero-cyclone-focus@1.0.0"
+  ],
+  "spec_checksum": "sha256:4484e40767b869b3bd6cad1a3fd69e7650ac3fde10c4da309c4891c736243853",
+  "spec": {
+    "display_name": "Tempo héroïque",
+    "category_tag": "the-duke",
+    "subcategory_tag": "action-hero",
+    "skill_kind": "talent"
+  }
+}

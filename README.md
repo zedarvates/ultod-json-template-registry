@@ -35,6 +35,15 @@ specialization items without rewriting published snapshots. See
 for scoped fixture evidence and its limits. This does not change strict-v1
 contracts or certify the public legacy collection as runtime-compatible.
 
+### The Duke — Action Hero class pack (2026-10-11)
+
+[The Duke pack](docs/packs/the-duke.md) adds a declarative class egg,
+15 active abilities (including three trash-talk provocations), four passives,
+and three specialization chains of 12 talents. The 57 new templates have exact
+catalog references and empty compatibility records. This is an experimental
+content pack; in-game unlocking, balance, effects and assets remain unverified.
+Optional spells/classes schemas 1.1.0 retain all published 1.0.0 contracts.
+
 ### Validation profiles
 
 - `legacy-unvalidated` preserves published `v0.1.0` snapshots and applies JSON, public-policy, catalog, and checksum checks only.

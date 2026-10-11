@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../schemas/spells/v1.1.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "spells:the-duke-action-reload",
+  "slug": "the-duke-action-reload",
+  "family": "spells",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c15ce8c5a4906053b64b9f6d295257e0cacc7dc40b6bce46dc1ee7f2305c4474",
+  "spec": {
+    "display_name": "Action Reload",
+    "school": "the-duke",
+    "rarity": "common",
+    "spell_kind": "passive",
+    "target_kind": "self",
+    "capability_tags": [
+      "passive",
+      "reload",
+      "next-shot-empowerment"
+    ]
+  }
+}

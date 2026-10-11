@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../schemas/skills/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "skills:the-duke-explosives-expert-decoy-tactics",
+  "slug": "the-duke-explosives-expert-decoy-tactics",
+  "family": "skills",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "llm-pipeline",
+    "zig-server-v2"
+  ],
+  "compatibility": [],
+  "dependencies": [
+    "spells:the-duke-holo-duke@1.0.0",
+    "skills:the-duke-explosives-expert-cryo-preparation@1.0.0"
+  ],
+  "spec_checksum": "sha256:b9f5d888f1c8cb3144b1f54121256f2c6b0e4667d2395297bdbfc4b9fed175f4",
+  "spec": {
+    "display_name": "Tactique de diversion",
+    "category_tag": "the-duke",
+    "subcategory_tag": "explosives-expert",
+    "skill_kind": "talent"
+  }
+}
