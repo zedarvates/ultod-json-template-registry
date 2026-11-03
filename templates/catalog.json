@@ -123742,6 +123742,25 @@
       "supersedes": [
         "architecture-editor:uo-0158@1.0.0"
       ]
+    },
+    {
+      "id": "architecture-editor:uo-0160",
+      "slug": "uo-0160",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:e40f121dfb6d0cedbd2c7a66bf724862d16a3e3ccae71c008a466c9944740644",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0160",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0160/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "f35c97a6e5855ea6fe8240211eacd82152027ec6afeef07f1be7cceecfe36bec"
     }
   ],
   "aliases": []
