@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-0162",
+  "slug": "uo-0162",
+  "family": "architecture-editor",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:8babb61ad9cec4cc0c40c2123140fc43f7e31d618046fb99295805832b4ca67a",
+  "spec": {
+    "display_name": "Maison UO 0162 — galerie de marbre et terrasse",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-0162/v1.0.0/blueprint.json",
+    "recipe_sha256": "fbc3beb3019e51fee62432326a4fcc6f57ddd120e1bf67f880119e96bc1a5ef9",
+    "preview_file": "assets/architecture-editor/uo-0162/v1.0.0/preview.jpg",
+    "preview_sha256": "dbffde922e8b3e20f417d6e5178d94c0234dee2ab7dd5659b5ac506f9c36e948",
+    "reviewed_model_sha256": "3b5336ac35dfae6a5fb4ef295197181928de7be800c460cb3f9631c22854f4cb",
+    "zig_parts": 168,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}
