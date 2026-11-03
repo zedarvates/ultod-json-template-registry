@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-0118",
+  "slug": "uo-0118",
+  "family": "architecture-editor",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:8a0bc30e7072fea33141a4b7e9c6ffad14c26fc92b1a0417c76dd9b7cbd8e337",
+  "spec": {
+    "display_name": "Maison UO 0118 — étage, galerie et toit en L",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-0118/v1.0.0/blueprint.json",
+    "recipe_sha256": "d166614b53cb49c42a0965d75d227f7e8480e78c52e67e5dc770968a2082fc83",
+    "preview_file": "assets/architecture-editor/uo-0118/v1.0.0/preview.jpg",
+    "preview_sha256": "e86b0e8eefc931e13a9d7f38c2b8aaaed9448c6864c66d33b474aab0809fda33",
+    "reviewed_model_sha256": "970ee239717f87da70b1f89d17880c8192fdaa2e45aef09d95571d688678cf2d",
+    "zig_parts": 504,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}

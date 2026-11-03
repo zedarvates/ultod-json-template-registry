@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-0124",
+  "slug": "uo-0124",
+  "family": "architecture-editor",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:e0df2ba3cbd10235374f2f00d6bbd34372f11938b940b66a8cc8c6772ad885f8",
+  "spec": {
+    "display_name": "Fortification UO 0124 — tours et coursives",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-0124/v1.0.0/blueprint.json",
+    "recipe_sha256": "d6c220718d0ede14f52fc654ef03d0923beb74d77f8384f14e54b9e658ca7b39",
+    "preview_file": "assets/architecture-editor/uo-0124/v1.0.0/preview.jpg",
+    "preview_sha256": "738c4ec9a860cc4ff0ad9af8d509f6e41c3848ad61192279deca8c8642bbf7be",
+    "reviewed_model_sha256": "5e438f7953f52cc203bc66061c7448788ff1c8b51cff5347f6d5614362fa8e1d",
+    "zig_parts": 1477,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}

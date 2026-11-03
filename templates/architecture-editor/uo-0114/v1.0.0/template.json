@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-0114",
+  "slug": "uo-0114",
+  "family": "architecture-editor",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:271b790b014c06601a880668245be4e5ed8814714abe70ddf48b412efbcd0f45",
+  "spec": {
+    "display_name": "Tente UO 0114/0115 — toile de revue",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-0114/v1.0.0/blueprint.json",
+    "recipe_sha256": "e4d95e5bd88db8c5a2de2ed87e433578c0c5324a9326518a0c7c60f2ca811731",
+    "preview_file": "assets/architecture-editor/uo-0114/v1.0.0/preview.jpg",
+    "preview_sha256": "6c37248038f885658838889fd3977bb496c73ed0945521f7f0a10bf83512c069",
+    "reviewed_model_sha256": "9d287a8c368f765b89cb7335cc307e5642be7715e31d163e788067dfc9ecffb7",
+    "zig_parts": 125,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}

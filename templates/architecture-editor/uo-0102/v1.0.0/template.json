@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-0102",
+  "slug": "uo-0102",
+  "family": "architecture-editor",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:7694c0e06424541955b820a82946b577588586abf17624f579aa2996d7b0943d",
+  "spec": {
+    "display_name": "Maison UO 0102 — pierre et bardeaux de bois",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-0102/v1.0.0/blueprint.json",
+    "recipe_sha256": "a6769078fd2cbe2bbdb272aa6b1533084ab5699b17f927e59ea91562814208b4",
+    "preview_file": "assets/architecture-editor/uo-0102/v1.0.0/preview.jpg",
+    "preview_sha256": "29a48945a554756718497b3b5f9dac141a576c41cbb14e2e8d029677a68187b4",
+    "reviewed_model_sha256": "727b83afd16a34f4d2ecd3f0f125bfd1e18a2187265e4cd3de9786dfa7978e1a",
+    "zig_parts": 96,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}

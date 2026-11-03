@@ -1,0 +1,5 @@
+# Preserve the published checksums of the architecture recipes and manifests.
+assets/architecture-editor/**/blueprint.json text eol=lf
+assets/architecture-editor/**/*.jpg binary
+templates/architecture-editor/** text eol=lf
+templates/schemas/architecture-editor/** text eol=lf

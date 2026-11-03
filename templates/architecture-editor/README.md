@@ -1,0 +1,37 @@
+# Éditeur d’architecture — Old School 90s MMORPG Like
+
+Recettes HouseBlueprint à importer avec **Importer un .json** dans l’éditeur. Chaque version est immuable et accompagnée d’une capture réelle de la vue 3D.
+
+Les preuves couvrent le validateur Zig local et l’aperçu dans l’éditeur. Les captures montrent le GLB de revue ; ni le GLB ni le code du serveur ne sont distribués ici.
+
+| Modèle | Version | Recette | Capture |
+|---|---|---|---|
+| Maison UO 0100 — chaux, pierre et tuiles | [1.0.0](uo-0100/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0100/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0100/v1.0.0/preview.jpg) |
+| Maison UO 0102 — pierre et bardeaux de bois | [1.0.0](uo-0102/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0102/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0102/v1.0.0/preview.jpg) |
+| Maison UO 0102 — pierre et bardeaux de bois | [1.1.0](uo-0102/v1.1.0/template.json) | [JSON](../../assets/architecture-editor/uo-0102/v1.1.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0102/v1.1.0/preview.jpg) |
+| Maison UO 0104 — brique et bardeaux de bois | [1.0.0](uo-0104/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0104/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0104/v1.0.0/preview.jpg) |
+| Maison UO 0106/0107 — planches et bardeaux de bois | [1.0.0](uo-0106/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0106/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0106/v1.0.0/preview.jpg) |
+| Maison UO 0108/0109 — enduit à la chaux et bardeaux | [1.0.0](uo-0108/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0108/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0108/v1.0.0/preview.jpg) |
+| Maison UO 0110/0111 — planches et chaume | [1.0.0](uo-0110/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0110/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0110/v1.0.0/preview.jpg) |
+| Tente UO 0112/0113 — toile de revue | [1.0.0](uo-0112/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0112/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0112/v1.0.0/preview.jpg) |
+| Tente UO 0114/0115 — toile de revue | [1.0.0](uo-0114/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0114/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0114/v1.0.0/preview.jpg) |
+| Maison UO 0116 — grande maison en brique et ardoise | [1.0.0](uo-0116/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0116/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0116/v1.0.0/preview.jpg) |
+| Maison UO 0116 — grande maison en brique et ardoise | [1.1.0](uo-0116/v1.1.0/template.json) | [JSON](../../assets/architecture-editor/uo-0116/v1.1.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0116/v1.1.0/preview.jpg) |
+| Maison UO 0118 — étage, galerie et toit en L | [1.0.0](uo-0118/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0118/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0118/v1.0.0/preview.jpg) |
+| Maison UO 0120 — double entrée et escalier de grès | [1.0.0](uo-0120/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0120/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0120/v1.0.0/preview.jpg) |
+| Tour UO 0122 — pierre, galeries et terrasse crénelée | [1.0.0](uo-0122/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0122/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0122/v1.0.0/preview.jpg) |
+| Tour UO 0122 — pierre, galeries et terrasse crénelée | [1.1.0](uo-0122/v1.1.0/template.json) | [JSON](../../assets/architecture-editor/uo-0122/v1.1.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0122/v1.1.0/preview.jpg) |
+| Fortification UO 0124 — tours et coursives | [1.0.0](uo-0124/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0124/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0124/v1.0.0/preview.jpg) |
+| Fortification UO 0124 — tours et coursives | [1.1.0](uo-0124/v1.1.0/template.json) | [JSON](../../assets/architecture-editor/uo-0124/v1.1.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0124/v1.1.0/preview.jpg) |
+| Forteresse UO 0126 — quatre tours et cour | [1.0.0](uo-0126/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0126/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0126/v1.0.0/preview.jpg) |
+| Forteresse UO 0126 — quatre tours et cour | [1.1.0](uo-0126/v1.1.0/template.json) | [JSON](../../assets/architecture-editor/uo-0126/v1.1.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0126/v1.1.0/preview.jpg) |
+| Bâtiment UO 0140 — comptoir et cour dallée | [1.0.0](uo-0140/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0140/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0140/v1.0.0/preview.jpg) |
+| Bâtiment UO 0140 — comptoir et cour dallée | [1.1.0](uo-0140/v1.1.0/template.json) | [JSON](../../assets/architecture-editor/uo-0140/v1.1.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0140/v1.1.0/preview.jpg) |
+| Pavillon UO 0150 — marbre et terrasses | [1.0.0](uo-0150/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0150/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0150/v1.0.0/preview.jpg) |
+| Pavillon UO 0150 — marbre et terrasses | [1.1.0](uo-0150/v1.1.0/template.json) | [JSON](../../assets/architecture-editor/uo-0150/v1.1.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0150/v1.1.0/preview.jpg) |
+| Tour UO 0152 — pierre et couronnement à arcades | [1.0.0](uo-0152/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0152/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0152/v1.0.0/preview.jpg) |
+| Tour UO 0152 — pierre et couronnement à arcades | [1.1.0](uo-0152/v1.1.0/template.json) | [JSON](../../assets/architecture-editor/uo-0152/v1.1.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0152/v1.1.0/preview.jpg) |
+| Chalet UO 0154 — rondins, chaume et balcon | [1.0.0](uo-0154/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0154/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0154/v1.0.0/preview.jpg) |
+| Chalet UO 0154 — rondins, chaume et balcon | [1.1.0](uo-0154/v1.1.0/template.json) | [JSON](../../assets/architecture-editor/uo-0154/v1.1.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0154/v1.1.0/preview.jpg) |
+| Maison UO 0156 — grès et terrasses dallées | [1.0.0](uo-0156/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0156/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0156/v1.0.0/preview.jpg) |
+| Maison UO 0156 — grès et terrasses dallées | [1.1.0](uo-0156/v1.1.0/template.json) | [JSON](../../assets/architecture-editor/uo-0156/v1.1.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0156/v1.1.0/preview.jpg) |

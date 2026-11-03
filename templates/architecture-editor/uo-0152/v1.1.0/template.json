@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-0152",
+  "slug": "uo-0152",
+  "family": "architecture-editor",
+  "version": "1.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:dc6f6bfca877dca4577b0ecc4a942c7f84f66fe99aa35fef0b52513a2e7adf77",
+  "spec": {
+    "display_name": "Tour UO 0152 — pierre et couronnement à arcades",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-0152/v1.1.0/blueprint.json",
+    "recipe_sha256": "95c4259ffe12d6fa53b94ed5d17547f14e2bea252adfa0e106527581b4c660af",
+    "preview_file": "assets/architecture-editor/uo-0152/v1.1.0/preview.jpg",
+    "preview_sha256": "54c92daf25e93d92b1d217c7bffa779378ceff288b52cc479be633a9e5f175db",
+    "reviewed_model_sha256": "a63c3cf61ee8d8996f88c64b7c7d44e9144b944ade67c818cc5769bbb9f430b4",
+    "zig_parts": 210,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}

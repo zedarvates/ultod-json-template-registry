@@ -249,3 +249,9 @@ The conventions for creating a compatible template are defined in [TEMPLATE-SPEC
 ## License
 
 The original schemas, templates, and documents in this registry are distributed under the Apache-2.0 license. This license does not cover the proprietary Zig server, hosted services, production data, third-party assets, or commercial Ultimate Odycer components.
+
+## Éditeur d’architecture — Old School 90s MMORPG Like
+
+[Parcourir les recettes versionnées et leurs captures](templates/architecture-editor/README.md).
+Les fichiers HouseBlueprint sont téléchargeables séparément pour l’import
+dans l’éditeur.

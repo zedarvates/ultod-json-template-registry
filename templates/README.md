@@ -59,3 +59,9 @@ Le `README.md` de la version devra identifier son statut et ses consommateurs r�
 ## Frontière serveur
 
 Aucun code du serveur Zig ne doit être copié ici. Un modèle lié à une interface serveur pourra décrire un contrat public validé, mais il ne devra contenir ni implémentation propriétaire, ni configuration de déploiement, ni secret.
+
+## Éditeur d’architecture
+
+[Old School 90s MMORPG Like](architecture-editor/README.md) : plans
+HouseBlueprint importables et captures, par version immuable.
+[Procédure d’import automatisé](../docs/architecture-editor-import.md).
