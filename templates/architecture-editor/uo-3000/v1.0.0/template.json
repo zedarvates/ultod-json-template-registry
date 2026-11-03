@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-3000",
+  "slug": "uo-3000",
+  "family": "architecture-editor",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:b7e708a73714cd09b6486bdd7fb86021b92b9468b09826f5d2348e7ba78c6794",
+  "spec": {
+    "display_name": "Maison UO 3000 — logis en rondins et chaume",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-3000/v1.0.0/blueprint.json",
+    "recipe_sha256": "503c2e6eccdcbe73ec5266fa249c22e0f681fd2761f6c56cb599e6269704e072",
+    "preview_file": "assets/architecture-editor/uo-3000/v1.0.0/preview.jpg",
+    "preview_sha256": "a20ddf29c2e6b5bec0f936cd492fd6ffce9c12b9d4ccb5ce8bb44f280703b6c3",
+    "reviewed_model_sha256": "f2868f868b261010de4228f8870b22373c9a20a8b76bfe2f08a13c55ea182c43",
+    "zig_parts": 168,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}

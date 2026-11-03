@@ -123780,6 +123780,25 @@
       "file": "templates/architecture-editor/uo-0162/v1.0.0/template.json",
       "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
       "sha256": "20c8b93d6c4f659e326aacdfd1ec66932285d1ccbade098535275f6a99374bfe"
+    },
+    {
+      "id": "architecture-editor:uo-3000",
+      "slug": "uo-3000",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:b7e708a73714cd09b6486bdd7fb86021b92b9468b09826f5d2348e7ba78c6794",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-3000",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-3000/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "370e593f6f2424e198ac771c14e92657bf304c82d4b1982217ace1b127caacef"
     }
   ],
   "aliases": []
