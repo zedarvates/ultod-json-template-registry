@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-0158",
+  "slug": "uo-0158",
+  "family": "architecture-editor",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c1bd90a15b931714ba5aeb23933943b7e4ae7f6adfc7c17b35ff2aaa5d010996",
+  "spec": {
+    "display_name": "Maison UO 0158 — cour de brique et chaume",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-0158/v1.0.0/blueprint.json",
+    "recipe_sha256": "f6d27698ed868d8a52fe3084ca707472c2196cc0a638385809ab605404d89b1e",
+    "preview_file": "assets/architecture-editor/uo-0158/v1.0.0/preview.jpg",
+    "preview_sha256": "5f3eb0e72faecdb0e63682ead4e6bf0952e7a3b783427f15033b671673bb08c8",
+    "reviewed_model_sha256": "aeeb85da02aedc9e5289ae189e1ceffa2fbdcbf656464b9e5aa7584e558043fb",
+    "zig_parts": 357,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}
