@@ -7,6 +7,7 @@ Les preuves couvrent le validateur Zig local et l’aperçu dans l’éditeur. L
 | Modèle | Version | Recette | Capture |
 |---|---|---|---|
 | Maison UO 0100 — chaux, pierre et tuiles | [1.0.0](uo-0100/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0100/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0100/v1.0.0/preview.jpg) |
+| Maison UO 0100 — chaux, pierre et tuiles | [1.1.0](uo-0100/v1.1.0/template.json) | [JSON](../../assets/architecture-editor/uo-0100/v1.1.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0100/v1.1.0/preview.jpg) |
 | Maison UO 0102 — pierre et bardeaux de bois | [1.0.0](uo-0102/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0102/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0102/v1.0.0/preview.jpg) |
 | Maison UO 0102 — pierre et bardeaux de bois | [1.1.0](uo-0102/v1.1.0/template.json) | [JSON](../../assets/architecture-editor/uo-0102/v1.1.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0102/v1.1.0/preview.jpg) |
 | Maison UO 0104 — brique et bardeaux de bois | [1.0.0](uo-0104/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0104/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0104/v1.0.0/preview.jpg) |
@@ -14,7 +15,9 @@ Les preuves couvrent le validateur Zig local et l’aperçu dans l’éditeur. L
 | Maison UO 0108/0109 — enduit à la chaux et bardeaux | [1.0.0](uo-0108/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0108/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0108/v1.0.0/preview.jpg) |
 | Maison UO 0110/0111 — planches et chaume | [1.0.0](uo-0110/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0110/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0110/v1.0.0/preview.jpg) |
 | Tente UO 0112/0113 — toile de revue | [1.0.0](uo-0112/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0112/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0112/v1.0.0/preview.jpg) |
+| Tente UO 0112/0113 — toile de revue | [1.1.0](uo-0112/v1.1.0/template.json) | [JSON](../../assets/architecture-editor/uo-0112/v1.1.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0112/v1.1.0/preview.jpg) |
 | Tente UO 0114/0115 — toile de revue | [1.0.0](uo-0114/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0114/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0114/v1.0.0/preview.jpg) |
+| Tente UO 0114/0115 — toile de revue | [1.1.0](uo-0114/v1.1.0/template.json) | [JSON](../../assets/architecture-editor/uo-0114/v1.1.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0114/v1.1.0/preview.jpg) |
 | Maison UO 0116 — grande maison en brique et ardoise | [1.0.0](uo-0116/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0116/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0116/v1.0.0/preview.jpg) |
 | Maison UO 0116 — grande maison en brique et ardoise | [1.1.0](uo-0116/v1.1.0/template.json) | [JSON](../../assets/architecture-editor/uo-0116/v1.1.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0116/v1.1.0/preview.jpg) |
 | Maison UO 0118 — étage, galerie et toit en L | [1.0.0](uo-0118/v1.0.0/template.json) | [JSON](../../assets/architecture-editor/uo-0118/v1.0.0/blueprint.json) | [Aperçu](../../assets/architecture-editor/uo-0118/v1.0.0/preview.jpg) |

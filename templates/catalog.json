@@ -123818,6 +123818,72 @@
       "file": "templates/architecture-editor/uo-0135/v1.0.0/template.json",
       "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
       "sha256": "51e75134b1986dbe82cbff2ca2ff305eb5fa18d39eaa3882477ca9761f1a1677"
+    },
+    {
+      "id": "architecture-editor:uo-0100",
+      "slug": "uo-0100",
+      "family": "architecture-editor",
+      "version": "1.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:ede48b9bb20d187390e98ee8b80981ce35cfe8860f7e59edded0de51bedcde5e",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0100",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0100/v1.1.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "9885362ba1f6bcdb8da3958f42bbc69c52c3a8a34ac85bc7f73522e1ed5255d7",
+      "supersedes": [
+        "architecture-editor:uo-0100@1.0.0"
+      ]
+    },
+    {
+      "id": "architecture-editor:uo-0112",
+      "slug": "uo-0112",
+      "family": "architecture-editor",
+      "version": "1.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:b950582854602601db2807a21dea954882bc4cdd11b11499f2df3742a316dd7a",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0112",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0112/v1.1.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "deeefe7d6e74946c1ddce8bac689da4dc30cef98f55cfa2db75f1b84f8f3b29a",
+      "supersedes": [
+        "architecture-editor:uo-0112@1.0.0"
+      ]
+    },
+    {
+      "id": "architecture-editor:uo-0114",
+      "slug": "uo-0114",
+      "family": "architecture-editor",
+      "version": "1.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:a8d774cc8147010a375a8fecd3e4a40063a7755e5ff45819b4fd51cda0df0615",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0114",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0114/v1.1.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "7a1c7e6c9869c9b82728f33e1c460702d2e0778b798fed6814f5f03f5cd479f4",
+      "supersedes": [
+        "architecture-editor:uo-0114@1.0.0"
+      ]
     }
   ],
   "aliases": []
