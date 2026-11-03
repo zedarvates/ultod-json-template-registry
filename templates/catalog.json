@@ -123761,6 +123761,25 @@
       "file": "templates/architecture-editor/uo-0160/v1.0.0/template.json",
       "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
       "sha256": "f35c97a6e5855ea6fe8240211eacd82152027ec6afeef07f1be7cceecfe36bec"
+    },
+    {
+      "id": "architecture-editor:uo-0162",
+      "slug": "uo-0162",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:8babb61ad9cec4cc0c40c2123140fc43f7e31d618046fb99295805832b4ca67a",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0162",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0162/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "20c8b93d6c4f659e326aacdfd1ec66932285d1ccbade098535275f6a99374bfe"
     }
   ],
   "aliases": []
