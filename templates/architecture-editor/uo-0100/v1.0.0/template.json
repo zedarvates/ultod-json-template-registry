@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-0100",
+  "slug": "uo-0100",
+  "family": "architecture-editor",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0460130a47bd8e7be777b533905b184399aa6079f79e2ad8e3b0f34280575c89",
+  "spec": {
+    "display_name": "Maison UO 0100 — chaux, pierre et tuiles",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-0100/v1.0.0/blueprint.json",
+    "recipe_sha256": "36e227434e664d7b5dbb24fdb1be8f8779c9910aad01b9d1da683604fee7797b",
+    "preview_file": "assets/architecture-editor/uo-0100/v1.0.0/preview.jpg",
+    "preview_sha256": "5d2b34fa1ef7e3fac03e8e6fae0d3676e11327803f2b85854c288cc65fd6e752",
+    "reviewed_model_sha256": "89084630a93d8c2d8a3d70fb1c7bafcf00e26c8fddd4158e3e4ad64f420b404e",
+    "zig_parts": 96,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}

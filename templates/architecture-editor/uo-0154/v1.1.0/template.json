@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-0154",
+  "slug": "uo-0154",
+  "family": "architecture-editor",
+  "version": "1.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:7b38bdbea6cca4c0f1b6436b228d2e06e67b4092732dd14334a0ea74112d5575",
+  "spec": {
+    "display_name": "Chalet UO 0154 — rondins, chaume et balcon",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-0154/v1.1.0/blueprint.json",
+    "recipe_sha256": "f86f9d6de1953b6021b21b8f52f6b3ed781a4ed6e10894e5b7c18a4a6f20f475",
+    "preview_file": "assets/architecture-editor/uo-0154/v1.1.0/preview.jpg",
+    "preview_sha256": "44c9afe763f78ecc8e987ce4959bc75c78b2abbe3c2c2b51c6dd1b1b17cdf8d5",
+    "reviewed_model_sha256": "3261c5f17640230158f78f688fe3964a744cec5463e79774486e39069201c3fc",
+    "zig_parts": 272,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}

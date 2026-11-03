@@ -7,10 +7,12 @@ from pathlib import Path
 
 
 def audit_coverage(root: Path):
+    catalog = json.loads((root / "templates/catalog.json").read_text(encoding="utf-8"))
     legacy = {
-        path.relative_to(root).as_posix()
-        for path in (root / "templates").rglob("template.json")
-        if path.parent.name != "v1.0.0"
+        entry["file"]
+        for entry in catalog["entries"]
+        if entry.get("validation_profile") == "legacy-unvalidated"
+        and entry["file"].endswith("/template.json")
     }
     seen = defaultdict(list)
     reports = sorted(root.glob("MIGRATION-V1*.json"))

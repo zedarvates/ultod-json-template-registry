@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-0150",
+  "slug": "uo-0150",
+  "family": "architecture-editor",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c34f63d48d3ef6741773efde83a2be2232110436e72c5312f30f2dfe2acf3666",
+  "spec": {
+    "display_name": "Pavillon UO 0150 — marbre et terrasses",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-0150/v1.0.0/blueprint.json",
+    "recipe_sha256": "e6844a5553fe02c327fc30231430bc858811119baf649c70f7a45ae5d785647c",
+    "preview_file": "assets/architecture-editor/uo-0150/v1.0.0/preview.jpg",
+    "preview_sha256": "0283b5ab351110d3e52a0c55280c6b68f8fd259c8bcb6359e3c450364b9c3c41",
+    "reviewed_model_sha256": "9b1eee0259cfad284d2b905b413a3c40b8b813f81a7dc87642d18ba35372908d",
+    "zig_parts": 497,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-0122",
+  "slug": "uo-0122",
+  "family": "architecture-editor",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:da60fd6ad714fc9b0584bf7cb7b80ced705d3cc0066a6028d288217a9bfc19bd",
+  "spec": {
+    "display_name": "Tour UO 0122 — pierre, galeries et terrasse crénelée",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-0122/v1.0.0/blueprint.json",
+    "recipe_sha256": "d6e16cf6ce7a2916dc41ebbfcfc8f2b1966e22e194e2d2cdf772da755618841c",
+    "preview_file": "assets/architecture-editor/uo-0122/v1.0.0/preview.jpg",
+    "preview_sha256": "213600a33f726fabaa54b464c59024edd787bfba1ad531f53caa020fbf1c4e23",
+    "reviewed_model_sha256": "03b08b9838d2508932d710008ab86daf686c1c4c6446f31811d59935d596c59e",
+    "zig_parts": 1099,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}

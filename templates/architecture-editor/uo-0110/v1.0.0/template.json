@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-0110",
+  "slug": "uo-0110",
+  "family": "architecture-editor",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:34834fa36143a7486cb992f63df21a31772cfa104e484bf27309994dd6a8c4ee",
+  "spec": {
+    "display_name": "Maison UO 0110/0111 — planches et chaume",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-0110/v1.0.0/blueprint.json",
+    "recipe_sha256": "07b8030eed68905d86e97d3fa42bea4f405f9624709d3a2597ed61345a2cc4dd",
+    "preview_file": "assets/architecture-editor/uo-0110/v1.0.0/preview.jpg",
+    "preview_sha256": "c6d56411d8975e2d2099a8ae258aad76ff488182d670040e701066eefaaf1ffd",
+    "reviewed_model_sha256": "72a6cebf25ffc7020fc7df8079e626a65c5b7c69e75e5fb332ce1e6cf987d84e",
+    "zig_parts": 96,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}

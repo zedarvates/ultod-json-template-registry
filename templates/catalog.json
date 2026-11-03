@@ -123109,6 +123109,598 @@
       ],
       "compatibility": [],
       "supersedes": []
+    },
+    {
+      "name": "architecture-editor",
+      "kind": "json-schema",
+      "version": "1.0.0",
+      "status": "experimental",
+      "file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "0209a82df59951f9d41e498d95db0233eb2418d67c356a40bb98d088be52c88d",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "architecture-editor:uo-0100",
+      "slug": "uo-0100",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:0460130a47bd8e7be777b533905b184399aa6079f79e2ad8e3b0f34280575c89",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0100",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0100/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "3b902688c682d2576298a150cc6c1756553f46e35078554a1c4e68ea7844f201"
+    },
+    {
+      "id": "architecture-editor:uo-0102",
+      "slug": "uo-0102",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:7694c0e06424541955b820a82946b577588586abf17624f579aa2996d7b0943d",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0102",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0102/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "e2f3661d14418d89fa9a68090468698b20adc3b188096d9d028b59ab428ded00"
+    },
+    {
+      "id": "architecture-editor:uo-0104",
+      "slug": "uo-0104",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:8125a9a6d25b1092cddb5a3e4ff06a694b934f1f6bc97d7b8f6ee89120fc0755",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0104",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0104/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "da5e46fd6b06e17e75a544cbd9ba804efde028f8ac322686640ce78525054cef"
+    },
+    {
+      "id": "architecture-editor:uo-0106",
+      "slug": "uo-0106",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:be30c9dd4d56324a6fbb0268692f3749781a93b823a44f2dae4fb8530a447b3f",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0106",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0106/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "eb6b5b1bfc4b0460e69d89f2ad536a1924276b1b72671c473d64ac92f6266c9e"
+    },
+    {
+      "id": "architecture-editor:uo-0108",
+      "slug": "uo-0108",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:43f9a654625c90cceeb23ac60986d5307065e33b9b226a628d67653571dce0c5",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0108",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0108/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "a6062c495e647b72815166194615da748f0cb7ccd306e7dbd4884af837e46af0"
+    },
+    {
+      "id": "architecture-editor:uo-0110",
+      "slug": "uo-0110",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:34834fa36143a7486cb992f63df21a31772cfa104e484bf27309994dd6a8c4ee",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0110",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0110/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "a53ca32f159de8949f1d65a5b174442189eedbe9f90d613764fef63fce1847e5"
+    },
+    {
+      "id": "architecture-editor:uo-0112",
+      "slug": "uo-0112",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:3049d09c961c188e5d36b80aa75654e8e5de2cbb22835c04d0a545c757bd677f",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0112",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0112/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "981d437b4e48932a7961b0eebf47d2c08dbf4b965cb10165815df8fc3a5796de"
+    },
+    {
+      "id": "architecture-editor:uo-0114",
+      "slug": "uo-0114",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:271b790b014c06601a880668245be4e5ed8814714abe70ddf48b412efbcd0f45",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0114",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0114/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "04d9dffe987786e332898b59e3e87049dde274b587381d36ec8767e4a77a8bd5"
+    },
+    {
+      "id": "architecture-editor:uo-0116",
+      "slug": "uo-0116",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:8bbd8ba64c0ae45bb6083720012b56c367ad51c2eda8c8744c959da12583b44e",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0116",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0116/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "323a4d79de3c0dbf701f58a92eb067a7e7772fc3e7d9a2442973d7cb446d1e9e"
+    },
+    {
+      "id": "architecture-editor:uo-0118",
+      "slug": "uo-0118",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:8a0bc30e7072fea33141a4b7e9c6ffad14c26fc92b1a0417c76dd9b7cbd8e337",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0118",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0118/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "34447b86bcc3f00aa4a128574ad9eeafefb3a12b33cfd95d4ae59648f2a7ba2b"
+    },
+    {
+      "id": "architecture-editor:uo-0120",
+      "slug": "uo-0120",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:6bdca5b1cb717805e99be23507a59c6364e259ab9ffec6526947a5412b862695",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0120",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0120/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "6554235c64e17bb6fab41b7c1c94b0f630d7c37b90aa1c135a3880ccde4bacc8"
+    },
+    {
+      "id": "architecture-editor:uo-0122",
+      "slug": "uo-0122",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:da60fd6ad714fc9b0584bf7cb7b80ced705d3cc0066a6028d288217a9bfc19bd",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0122",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0122/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "68ecce0319d2034f3ec39650c5c24f4f6a3a3e32deb396e14a3ec5e5c0dfa4d6"
+    },
+    {
+      "id": "architecture-editor:uo-0124",
+      "slug": "uo-0124",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:e0df2ba3cbd10235374f2f00d6bbd34372f11938b940b66a8cc8c6772ad885f8",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0124",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0124/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "e37b424e54cec9c5d8f550d24a0a08b59f5604ea5add6ef737e76007460ecaaf"
+    },
+    {
+      "id": "architecture-editor:uo-0126",
+      "slug": "uo-0126",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:2beb9ea8c4f26125a787a197918a6397dd3c998456e40c49e3647ba4fb089268",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0126",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0126/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "7291d938c8750a815d05fef0efd73529f02af32a6332df9ae409f8abd07c12c7"
+    },
+    {
+      "id": "architecture-editor:uo-0140",
+      "slug": "uo-0140",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:95ebab14fa9ed00aec16840558f3073fde3ffd01f625d74f440b3c45a620f032",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0140",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0140/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "45a398818d8d8a8e19b8dce925d10ca6b7595f35f669028ff0b7904f3aadb8b4"
+    },
+    {
+      "id": "architecture-editor:uo-0150",
+      "slug": "uo-0150",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:c34f63d48d3ef6741773efde83a2be2232110436e72c5312f30f2dfe2acf3666",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0150",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0150/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "f0dd55549609ccc86857ef9a6040984b708165e0ccefb173fe4db72d122044dd"
+    },
+    {
+      "id": "architecture-editor:uo-0152",
+      "slug": "uo-0152",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:a47195915895ae456bcbd0378535a4b5c271b8f691e46917030331ceee984b29",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0152",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0152/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "b162a1413532791e1a21fb24ceca78a16efb33d2b9f365ffe73ecd7be8962f3a"
+    },
+    {
+      "id": "architecture-editor:uo-0154",
+      "slug": "uo-0154",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:d69fc6024bc61116ea53e8cedcf02e3a0b691dfa982c8c5588255bac69144f60",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0154",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0154/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "4527ff2ff760ee85699f97188f7107f81ebc922c4eb5d1330c927d5ac6c109c5"
+    },
+    {
+      "id": "architecture-editor:uo-0156",
+      "slug": "uo-0156",
+      "family": "architecture-editor",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:c7914bafa8b1059d089550e80cb069222457050ae05907c80b5913acf7190575",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0156",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0156/v1.0.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "5df19f95692214f21e0f41e05f8e8d3d06a49de06554c39289f1f4803839c02d"
+    },
+    {
+      "id": "architecture-editor:uo-0102",
+      "slug": "uo-0102",
+      "family": "architecture-editor",
+      "version": "1.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:b18d643cdf6a2f605e02194fa43c34ff06efc4050621a9f059516a8b89e8fee5",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0102",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0102/v1.1.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "df5f305ef609d5c21a0aad853f99fc0aa6b35410cc0ef6db72e07d6478e3b524",
+      "supersedes": [
+        "architecture-editor:uo-0102@1.0.0"
+      ]
+    },
+    {
+      "id": "architecture-editor:uo-0116",
+      "slug": "uo-0116",
+      "family": "architecture-editor",
+      "version": "1.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:ac6bc9193d0525c201f3e42d98f3f1bc1d34f23f4eb211aa98d7008bbdfcfb91",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0116",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0116/v1.1.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "00b726c5a4375e0e7c8611c3bc6412b4cbbcc8be83387f246bfeafadfee7c62c",
+      "supersedes": [
+        "architecture-editor:uo-0116@1.0.0"
+      ]
+    },
+    {
+      "id": "architecture-editor:uo-0122",
+      "slug": "uo-0122",
+      "family": "architecture-editor",
+      "version": "1.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:dea1bf12f7da2340478b6d60047367556c06e4241750768b439bf16ed6a1eb4f",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0122",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0122/v1.1.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "476eabdb71629e923aaed0d6f51475628a4ab7ed543474d16f69a379855b4870",
+      "supersedes": [
+        "architecture-editor:uo-0122@1.0.0"
+      ]
+    },
+    {
+      "id": "architecture-editor:uo-0124",
+      "slug": "uo-0124",
+      "family": "architecture-editor",
+      "version": "1.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:a7ccc6bf9db24c0ecf65b3cdfd4137305cb6f0658f163a117ce8e3919d800c66",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0124",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0124/v1.1.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "b434d42b8fde6cde5bf5755e3332347808ee0ca1be97f428e4763eb2ee3bdb9d",
+      "supersedes": [
+        "architecture-editor:uo-0124@1.0.0"
+      ]
+    },
+    {
+      "id": "architecture-editor:uo-0126",
+      "slug": "uo-0126",
+      "family": "architecture-editor",
+      "version": "1.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:aab19a19efa8984e1b3c2f252c843d663a65f7da4537590065fbb0c0b5ecf384",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0126",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0126/v1.1.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "2cfb45f00e3656e05d27a4c46f1e5c31888e0987b937a6ebf708d1c90e9bca7e",
+      "supersedes": [
+        "architecture-editor:uo-0126@1.0.0"
+      ]
+    },
+    {
+      "id": "architecture-editor:uo-0140",
+      "slug": "uo-0140",
+      "family": "architecture-editor",
+      "version": "1.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:ac578414476f7f0add6a3d6be88922ddcb1e68d8dc60c728961f82b5e63e009d",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0140",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0140/v1.1.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "dac6fbefad76ee6601ee15f5ba6ae2a268df90b1c10f9b13a71007516ccc3ac4",
+      "supersedes": [
+        "architecture-editor:uo-0140@1.0.0"
+      ]
+    },
+    {
+      "id": "architecture-editor:uo-0150",
+      "slug": "uo-0150",
+      "family": "architecture-editor",
+      "version": "1.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:65ce3e5d6ff5758f0688f8959220185d33456f5d1590e6be710de6f518c2fabf",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0150",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0150/v1.1.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "5dc5cb92155c1167991b71bdd453a3e58cd4068f984b4fc4139066ce8331924c",
+      "supersedes": [
+        "architecture-editor:uo-0150@1.0.0"
+      ]
+    },
+    {
+      "id": "architecture-editor:uo-0152",
+      "slug": "uo-0152",
+      "family": "architecture-editor",
+      "version": "1.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:dc6f6bfca877dca4577b0ecc4a942c7f84f66fe99aa35fef0b52513a2e7adf77",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0152",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0152/v1.1.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "0c33ac2c7b2f5af28ae2297ddad6b8258384cb8fd1822689f5c0007f0275eea9",
+      "supersedes": [
+        "architecture-editor:uo-0152@1.0.0"
+      ]
+    },
+    {
+      "id": "architecture-editor:uo-0154",
+      "slug": "uo-0154",
+      "family": "architecture-editor",
+      "version": "1.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:7b38bdbea6cca4c0f1b6436b228d2e06e67b4092732dd14334a0ea74112d5575",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0154",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0154/v1.1.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "12665985a72ba2d00416e2a561c442ae6af3d718fcd73dcdc327047bd2699f4a",
+      "supersedes": [
+        "architecture-editor:uo-0154@1.0.0"
+      ]
+    },
+    {
+      "id": "architecture-editor:uo-0156",
+      "slug": "uo-0156",
+      "family": "architecture-editor",
+      "version": "1.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:3681254132b201634ea0807408ce80e3082e90527252cc37013878acc14b3088",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0156",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0156/v1.1.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "cdddb43698732fda1926b2ba74afa0df47c937bb0023f1680042f5416e16a7b4",
+      "supersedes": [
+        "architecture-editor:uo-0156@1.0.0"
+      ]
     }
   ],
   "aliases": []

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-0140",
+  "slug": "uo-0140",
+  "family": "architecture-editor",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:95ebab14fa9ed00aec16840558f3073fde3ffd01f625d74f440b3c45a620f032",
+  "spec": {
+    "display_name": "Bâtiment UO 0140 — comptoir et cour dallée",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-0140/v1.0.0/blueprint.json",
+    "recipe_sha256": "8060c2be79cc73304d4d6969494fd32fbd2b455f896af3066414f85908026287",
+    "preview_file": "assets/architecture-editor/uo-0140/v1.0.0/preview.jpg",
+    "preview_sha256": "20626e018bee75f3427686529188d88eaca6ed42762a5dc5e1ec39ef9379be27",
+    "reviewed_model_sha256": "c0bd8e14f2a437a1fc56852f0ef8a3dc0376d9ae2de721cb666ab72f559e8368",
+    "zig_parts": 399,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}

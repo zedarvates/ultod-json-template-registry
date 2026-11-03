@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ultimateodycer.com/schemas/architecture-editor/1.0.0",
+  "title": "Ultimate Odycer architecture editor recipe v1",
+  "allOf": [
+    {
+      "$ref": "https://ultimateodycer.com/schemas/template-contract/1.0.0"
+    },
+    {
+      "properties": {
+        "family": {
+          "const": "architecture-editor"
+        },
+        "spec": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "display_name": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "collection": {
+              "const": "old-school-90s-mmorpg-like"
+            },
+            "recipe_format": {
+              "const": "house-blueprint"
+            },
+            "recipe_file": {
+              "type": "string",
+              "pattern": "^assets/architecture-editor/[a-z0-9-]+/v[0-9]+\\.[0-9]+\\.[0-9]+/blueprint\\.json$"
+            },
+            "preview_file": {
+              "type": "string",
+              "pattern": "^assets/architecture-editor/[a-z0-9-]+/v[0-9]+\\.[0-9]+\\.[0-9]+/preview\\.jpg$"
+            },
+            "recipe_sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "preview_sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "reviewed_model_sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "zig_parts": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "evidence_scope": {
+              "const": "local-zig-and-editor-preview"
+            }
+          },
+          "required": [
+            "display_name",
+            "collection",
+            "recipe_format",
+            "recipe_file",
+            "preview_file",
+            "recipe_sha256",
+            "preview_sha256",
+            "reviewed_model_sha256",
+            "zig_parts",
+            "evidence_scope"
+          ]
+        }
+      }
+    }
+  ]
+}

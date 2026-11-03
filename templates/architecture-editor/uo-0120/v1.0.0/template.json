@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-0120",
+  "slug": "uo-0120",
+  "family": "architecture-editor",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:6bdca5b1cb717805e99be23507a59c6364e259ab9ffec6526947a5412b862695",
+  "spec": {
+    "display_name": "Maison UO 0120 — double entrée et escalier de grès",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-0120/v1.0.0/blueprint.json",
+    "recipe_sha256": "233937b2e5532a69a067510db142b83077167b0fc28d858a1348b610781811d6",
+    "preview_file": "assets/architecture-editor/uo-0120/v1.0.0/preview.jpg",
+    "preview_sha256": "710742ff39b54d69cf793af7183b21a43f0821af9f5d41f41ad74c618f1f5207",
+    "reviewed_model_sha256": "935401cca57a7875cdb32baedc0a806a4953958049e565e7eb0c7e3760c141a2",
+    "zig_parts": 503,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}

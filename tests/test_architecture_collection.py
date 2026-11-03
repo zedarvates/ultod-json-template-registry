@@ -1,0 +1,39 @@
+"""Keep native recipes and their visual evidence bound to the registry catalog."""
+import json
+from pathlib import Path
+import unittest
+
+from scripts.import_architecture_templates import FAMILY, ROOT, sha, verify_recipe, generate_index
+
+
+class ArchitectureCollectionTest(unittest.TestCase):
+    def test_downloads_match_every_architecture_version(self):
+        catalog=json.loads((ROOT/'templates/catalog.json').read_bytes())
+        entries=[e for e in catalog['entries'] if e.get('family')==FAMILY]
+        self.assertTrue(entries)
+        documents={}
+        for entry in entries:
+            with self.subTest(template=entry['file']):
+                document=json.loads((ROOT/entry['file']).read_bytes())
+                documents[entry['file']]=document
+                spec=document['spec']
+                base=f"assets/{FAMILY}/{entry['slug']}/v{entry['version']}"
+                self.assertEqual(spec['recipe_file'],f'{base}/blueprint.json')
+                self.assertEqual(spec['preview_file'],f'{base}/preview.jpg')
+                recipe=(ROOT/spec['recipe_file']).read_bytes()
+                preview=(ROOT/spec['preview_file']).read_bytes()
+                self.assertEqual(sha(recipe),spec['recipe_sha256'])
+                self.assertEqual(sha(preview),spec['preview_sha256'])
+                verify_recipe(json.loads(recipe))
+                self.assertTrue(preview.startswith(b'\xff\xd8\xff'))
+                self.assertTrue(preview.endswith(b'\xff\xd9'))
+        self.assertEqual((ROOT/f'templates/{FAMILY}/README.md').read_bytes(),generate_index(entries,documents))
+
+    def test_recipe_rejects_local_and_editor_metadata(self):
+        base={'blueprint_id':'uo_regen_multi_0100_v1','name':'Tour',
+              'lot':{'width':16,'depth':16},'floors':[{'level':0}]}
+        verify_recipe(base)
+        with self.assertRaises(ValueError):
+            verify_recipe({**base,'preview_image':'data:image/png;base64,not-public'})
+        with self.assertRaises(ValueError):
+            verify_recipe({**base,'runtime_profile':{'hlod_scene':'res://private.tscn'}})

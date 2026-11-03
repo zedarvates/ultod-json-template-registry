@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-0126",
+  "slug": "uo-0126",
+  "family": "architecture-editor",
+  "version": "1.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:aab19a19efa8984e1b3c2f252c843d663a65f7da4537590065fbb0c0b5ecf384",
+  "spec": {
+    "display_name": "Forteresse UO 0126 — quatre tours et cour",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-0126/v1.1.0/blueprint.json",
+    "recipe_sha256": "87c971010af8941369b4d6c62334358cb5d3666bf5b1466b7d05b26a55d099d0",
+    "preview_file": "assets/architecture-editor/uo-0126/v1.1.0/preview.jpg",
+    "preview_sha256": "deb4bc551dfc295abd8d5d07694848a397ea1583519bb1ab1f65e0723744adf5",
+    "reviewed_model_sha256": "47297e50d3a3014bf511eb8465aac89d70cff02b11e14f3e934aefb21cd3eb05",
+    "zig_parts": 2372,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}

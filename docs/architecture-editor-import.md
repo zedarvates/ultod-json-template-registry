@@ -1,0 +1,35 @@
+# Import des recettes de l’éditeur d’architecture
+
+La collection [Old School 90s MMORPG Like](../templates/architecture-editor/README.md)
+sépare le fichier natif importable, la capture et l’entrée de catalogue.
+
+Préparer localement un manifeste JSON (ne pas le committer) :
+
+```json
+[
+  {
+    "slug": "uo-0156",
+    "version": "1.2.0",
+    "blueprint": "/local/house.blueprint.json",
+    "preview": "/local/viewport.jpg",
+    "reviewed_model_sha256": "<empreinte du GLB correspondant à la capture>"
+  }
+]
+```
+
+Utiliser un plan d’auteur et une capture JPEG cadrée sur le résultat, sans
+interface d’administration, données de joueur ni chemins locaux. Vérifier
+que la capture correspond au plan et au GLB déclaré avant l’import.
+
+```sh
+python scripts/import_architecture_templates.py manifest.json --validator /local/native_blueprint_validator
+python scripts/import_architecture_templates.py manifest.json --validator /local/native_blueprint_validator --apply
+python -m unittest discover -s tests -v
+python scripts/validate_registry.py
+```
+
+Le script vérifie le plan avec le validateur Zig local et met à jour
+le catalogue et l’index en lot. Il est idempotent si les octets sont identiques.
+Si le plan ou la capture change, choisir une version supérieure. L’import ne
+fait ni commit ni envoi Git : publier les fichiers validés via le flux Git du
+dépôt. Les aperçus de revue ne certifient pas le serveur de jeu ni la VR.

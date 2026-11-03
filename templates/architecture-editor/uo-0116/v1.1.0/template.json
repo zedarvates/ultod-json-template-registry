@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-0116",
+  "slug": "uo-0116",
+  "family": "architecture-editor",
+  "version": "1.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ac6bc9193d0525c201f3e42d98f3f1bc1d34f23f4eb211aa98d7008bbdfcfb91",
+  "spec": {
+    "display_name": "Maison UO 0116 — grande maison en brique et ardoise",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-0116/v1.1.0/blueprint.json",
+    "recipe_sha256": "74c97cd760903d0614dc3d8833b27cf95923205b4c3d4ddc77e98f0c9d428e9c",
+    "preview_file": "assets/architecture-editor/uo-0116/v1.1.0/preview.jpg",
+    "preview_sha256": "58a87f0fb0e8069eb69ef06d54400eae6f3b3a07791b78059368e04fc3583684",
+    "reviewed_model_sha256": "c60d3161e12e710f3fb4d810aee8b7f8c2d4a777110cec643f7dc5e538a7a346",
+    "zig_parts": 409,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}

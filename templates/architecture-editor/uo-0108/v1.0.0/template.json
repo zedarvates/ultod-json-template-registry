@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-0108",
+  "slug": "uo-0108",
+  "family": "architecture-editor",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:43f9a654625c90cceeb23ac60986d5307065e33b9b226a628d67653571dce0c5",
+  "spec": {
+    "display_name": "Maison UO 0108/0109 — enduit à la chaux et bardeaux",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-0108/v1.0.0/blueprint.json",
+    "recipe_sha256": "a17e8c1e135e547dbf9721d0b122d7b8c9c5b27da83ccfcae92841a605c6d9e1",
+    "preview_file": "assets/architecture-editor/uo-0108/v1.0.0/preview.jpg",
+    "preview_sha256": "ee3ed2d8d238994a6f38f78039c229b261a158f55f159c14493c401fee8eff3a",
+    "reviewed_model_sha256": "fc529bcda91038dd4f73cc2cb1b9cb9bd2600a0ff37ca01326611d956587f3e2",
+    "zig_parts": 96,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}
