@@ -1,0 +1,26 @@
+{
+  "schema": "uo.cougar-anatomy-profile-documentation/v1",
+  "delivery": "review_only",
+  "profile": "puma-concolor-v1",
+  "identity": "mobile:felines_cougar",
+  "walking_legs": 4,
+  "weight_bearing_digits_per_paw": 4,
+  "fore_raised_dewclaws_each": 1,
+  "foot_posture": "digitigrade, wrist/hock elevated; pad contacts sampled on flat ground",
+  "tail_joints": 8,
+  "rounded_concave_pinnae": 2,
+  "pupil_shape": "round",
+  "head_bind_pivot_m": [
+    0,
+    0.75,
+    -0.76
+  ],
+  "body_cranium_tail_texture_cycles_per_meter": 5,
+  "references": [
+    "https://mdc.mo.gov/discover-nature/field-guide/mountain-lion",
+    "https://wildlife.ca.gov/Conservation/Mammals/Mountain-Lion",
+    "https://fwp.mt.gov/conservation/living-with-wildlife/mountain-lions",
+    "https://mountainlion.org/about-mountain-lions/"
+  ],
+  "reference_use": "Qualitative anatomy and colour only; no reference image pixels or geometry copied"
+}

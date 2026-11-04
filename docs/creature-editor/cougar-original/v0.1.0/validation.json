@@ -1,0 +1,96 @@
+{
+  "frames": 601,
+  "bones": 33,
+  "lod_triangles": [
+    9440,
+    5182,
+    2626
+  ],
+  "minimum_all_geometry_y_m": 0.00019862989630992187,
+  "maximum_stance_absolute_y_m": 0.0003357885875677768,
+  "maximum_world_stance_anchor_error_m": 0.00013706123067255504,
+  "minimum_expected_supports": 3,
+  "minimum_peak_swing_clearance_m": 0.044896106535790826,
+  "maximum_sampled_edge_length_ratio": 1.3072214960155235,
+  "minimum_sampled_edge_length_ratio": 0.7123370784547045,
+  "texture_dimensions": [
+    [
+      512,
+      512
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "rgba8_complete_mip_estimate_bytes": 2097148,
+  "schema": "uo.cougar-documentary-validation/v1",
+  "delivery": "review_only",
+  "model_sha256": "57f119cb1433c03fd7c1d4e38c48650c9bf0898d68c0b25269693261ec3840e3",
+  "native_engine": "4.8-beta2 (official)",
+  "native_rendering_method": "forward_plus",
+  "native_samples_per_lod": 241,
+  "native_minimum_supports": 3,
+  "native_maximum_stance_anchor_error_m": 0.000137068229378201,
+  "fur_uv_charts": [
+    {
+      "lod": 0,
+      "part": "ConnectedBodyTailLimbs",
+      "faces": 3600,
+      "maximum_uv_anisotropy": 1.7109410762786865
+    },
+    {
+      "lod": 0,
+      "part": "Cranium",
+      "faces": 1056,
+      "maximum_uv_anisotropy": 1.6156907081604004
+    },
+    {
+      "lod": 0,
+      "part": "Tail",
+      "faces": 192,
+      "maximum_uv_anisotropy": 1.4327694177627563
+    },
+    {
+      "lod": 1,
+      "part": "ConnectedBodyTailLimbs",
+      "faces": 1800,
+      "maximum_uv_anisotropy": 1.7014480829238892
+    },
+    {
+      "lod": 1,
+      "part": "Cranium",
+      "faces": 512,
+      "maximum_uv_anisotropy": 1.532421588897705
+    },
+    {
+      "lod": 1,
+      "part": "Tail",
+      "faces": 128,
+      "maximum_uv_anisotropy": 1.3158855438232422
+    },
+    {
+      "lod": 2,
+      "part": "ConnectedBodyTailLimbs",
+      "faces": 750,
+      "maximum_uv_anisotropy": 1.7092238664627075
+    },
+    {
+      "lod": 2,
+      "part": "Cranium",
+      "faces": 200,
+      "maximum_uv_anisotropy": 1.471909523010254
+    },
+    {
+      "lod": 2,
+      "part": "Tail",
+      "faces": 96,
+      "maximum_uv_anisotropy": 1.2138562202453613
+    }
+  ],
+  "scope": "Première copie originale de revue du puma. Appuis, déformations et rendu isolés sur sol plat ; sculpture et pelage non approuvés photoréalistes. Aucun autre félin, terrain, virage, force, collision exhaustive, gameplay réseau ou VR qualifié."
+}

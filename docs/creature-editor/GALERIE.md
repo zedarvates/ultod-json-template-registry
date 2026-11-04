@@ -76,6 +76,16 @@ Première base originale d’ours brun : épaules hautes, tête abaissée, oreil
 
 Appuis et déformations mesurés sur sol plat dans l’éditeur et Godot isolés ; sculpture et fourrure encore en revue. Autres espèces d’ours, terrain, forces, gameplay et VR non qualifiés.
 
+## Puma — digitigradie et poil court
+
+![Puma — digitigradie et poil court — capture Godot de la recette reconstruite](cougar-original/v0.1.0/preview.png)
+
+[Fiche 0.1.0](cougar-original/v0.1.0/README.md) · [Recette JSON](cougar-original/v0.1.0/recipe.json)
+
+Nouvelle famille originale : tête courte, oreilles concaves, longue queue articulée et quatre doigts d’appui par patte. Poil court fauve original, recette téléchargée puis reconstruite et captures Godot.
+
+Première copie originale de revue du puma. Appuis, déformations et rendu isolés sur sol plat ; sculpture et pelage non approuvés photoréalistes. Aucun autre félin, terrain, virage, force, collision exhaustive, gameplay réseau ou VR qualifié.
+
 ## Rat géant
 
 ![Rat géant — capture historique de la reconstruction](rat-original/v0.1.0/preview.png)

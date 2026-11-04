@@ -1,0 +1,23 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "a983ebd9c445e3b6b322503c8abff3d4ddba36119a2053b201c8b2b7abf01033",
+  "preview_file": "preview.png",
+  "preview_sha256": "46b672e5b264623fc32e7129639ad34e42fc4dc0c3b2000c5725537e2621b45c",
+  "head_preview_file": "head.png",
+  "head_preview_sha256": "789693828b7952f61cc0ddf26256c6b1fc35a941fd265e593e3445959ed98ea7",
+  "rendered_model_sha256": "57f119cb1433c03fd7c1d4e38c48650c9bf0898d68c0b25269693261ec3840e3",
+  "source_review_sha256": "8920ebde1cc21230e7ef6ca3358ec835058f20a70ed3b353eab2c32acbd51f69",
+  "preview_kind": "Godot captures of the actual reconstructed downloaded recipe",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.cougar-original/v1 and puma-concolor-v1 local authoring",
+    "original short-tawny-fur image and PBR derivation",
+    "continuous-skin union inputs, rig and isolated flat-walk adapter"
+  ],
+  "rights": "Original project geometry and original built-in ImageGen short-coat albedo, with procedural normal/ORM and vertex pigment. No historical game geometry or third-party reference pixels copied.",
+  "scope": "Première copie originale de revue du puma. Appuis, déformations et rendu isolés sur sol plat ; sculpture et pelage non approuvés photoréalistes. Aucun autre félin, terrain, virage, force, collision exhaustive, gameplay réseau ou VR qualifié."
+}
