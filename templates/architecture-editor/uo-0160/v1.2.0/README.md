@@ -8,6 +8,6 @@ Cette revue remplace les joints larges et sombres par une pierre calcaire taill�
 
 [Profil de matériau JSON](../../../../assets/architecture-editor/uo-0160/v1.2.0/surface-recipe.json) : paramètres, graine, convention des canaux et empreintes du générateur et des cartes. Ce profil descriptif nécessite le générateur local correspondant. L’import du plan seul n’installe pas le matériau et ne régénère pas le GLB de la capture.
 
-Profil SHA-256 : 106437e1c777c2a75e7035b548b8c9c32243f22441d2bf389c417fdfc19ab89c
+Profil SHA-256 : 5c8fc18d8e62726fad72491e93e11959dab18f399bee31297cae1dd46d2fad82
 
 ![Capture intérieure dans l’éditeur](../../../../assets/architecture-editor/uo-0160/v1.2.0/preview.jpg)
