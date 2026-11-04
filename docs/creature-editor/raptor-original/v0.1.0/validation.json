@@ -1,0 +1,75 @@
+{
+  "frames_per_lod": 601,
+  "lods": [
+    {
+      "lod": 0,
+      "triangles": 15444,
+      "maximum_uv_anisotropy": 1.722508467753687,
+      "pads": 8,
+      "talons": 8,
+      "closed_solids": 174
+    },
+    {
+      "lod": 1,
+      "triangles": 9000,
+      "maximum_uv_anisotropy": 1.7101459142641322,
+      "pads": 8,
+      "talons": 8,
+      "closed_solids": 125
+    },
+    {
+      "lod": 2,
+      "triangles": 4540,
+      "maximum_uv_anisotropy": 1.6854870232492176,
+      "pads": 8,
+      "talons": 8,
+      "closed_solids": 95
+    }
+  ],
+  "bones": 29,
+  "minimum_all_geometry_y_m": -4.807392865485112e-05,
+  "maximum_stance_absolute_y_m": 4.807392865485112e-05,
+  "maximum_world_stance_anchor_error_m": 8.681722834006903e-05,
+  "minimum_supports": 1,
+  "maximum_supports": 2,
+  "maximum_pelvis_projection_support_polygon_violation_m": -0.02402382648177026,
+  "minimum_edge_ratio": 0.9999998808382732,
+  "maximum_edge_ratio": 1.0000001106116112,
+  "minimum_area_ratio": 0.9999858986132313,
+  "minimum_normal_alignment": 0.46406512492607965,
+  "minimum_peak_swing_clearance_m": 0.0595201622835871,
+  "texture_dimensions": [
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      128,
+      128
+    ]
+  ],
+  "schema": "uo.raptor-documentary-validation/v1",
+  "delivery": "review_only",
+  "model_sha256": "d7c2c3b590ba0ccc2e1037fca32bfb92b8ebbff7b883cf2845be6cffea5cf45b",
+  "model_bytes": 3198904,
+  "lod_triangles": [
+    15444,
+    9000,
+    4540
+  ],
+  "rgba8_complete_mip_estimate_bytes": 786428,
+  "native_samples_per_lod": 241,
+  "native_maximum_stance_anchor_error_m": 0.000363352417480201,
+  "native_minimum_peak_swing_clearance_m": 0.0583742298185825,
+  "selected_forward_plus_and_compatibility_passed": true,
+  "editor_lods_actual_pad_anchors_play_pause_end_replay_downloads_passed": true,
+  "recipe_reconstructed_cpu_and_forward_plus_passed": true,
+  "pelvis_projection_is_only_a_proxy": true,
+  "continuous_skin_union_qualified": false,
+  "flight_created": false,
+  "scope": "Première revue encore stylisée : CPU, éditeur réel et Godot isolé, marche bipède rectiligne sur plan plat. Sculpture, plumes, peau continue et écailles restent à affiner. Masse réelle, forces, équilibre dynamique, terrain, virages, intersections exhaustives, vol, monde principal, réseau et VR non qualifiés."
+}

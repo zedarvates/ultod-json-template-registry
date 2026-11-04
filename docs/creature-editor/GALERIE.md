@@ -46,6 +46,16 @@ Première revue équine : pièces originales de l’éditeur, oreilles raccordé
 
 Première revue équine encore stylisée sur sol plat, dans l’éditeur et Godot isolés. Tête, naseaux, crinière et queue restent à affiner. Aucun photoréalisme final, terrain, virage, force, collision exhaustive, monde principal, réseau ou VR qualifié.
 
+## Rapace — ailes repliées et marche bipède
+
+![Rapace — ailes repliées et marche bipède — capture Godot de la recette téléchargée puis reconstruite](raptor-original/v0.1.0/preview.png)
+
+[Fiche 0.1.0](raptor-original/v0.1.0/README.md) · [Recette JSON](raptor-original/v0.1.0/recipe.json)
+
+Tête vivante et ailes unitaires originales, deux pieds à trois doigts avant et un hallux. Recette téléchargée puis reconstruite, appuis contrôlés dans l’éditeur et Godot ; finition encore stylisée.
+
+Première revue encore stylisée : CPU, éditeur réel et Godot isolé, marche bipède rectiligne sur plan plat. Sculpture, plumes, peau continue et écailles restent à affiner. Masse réelle, forces, équilibre dynamique, terrain, virages, intersections exhaustives, vol, monde principal, réseau et VR non qualifiés.
+
 ## Biche — silhouette et marche
 
 ![Biche — silhouette et marche — capture Godot de la recette téléchargée puis reconstruite](deer-doe-original/v0.1.0/preview.png)
