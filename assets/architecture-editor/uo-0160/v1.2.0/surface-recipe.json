@@ -1,0 +1,137 @@
+{
+  "schema": "uo.architecture-surface-recipe/v1",
+  "profile_id": "uo-0160-cut-limestone-1.0.0",
+  "kind": "descriptive-material-profile",
+  "requires_generator": "uo-cut-limestone-pbr-v1",
+  "generator_sha256": "9f29ffa675d5e0b5f2c682e088b1e8ccde78c0d1a12b3648d8dd5b3ceec8a06b",
+  "periodic_field_generator_sha256": "fc2e6dee5e82b36324eb589edc378204c8d355ba94a3aab742e9f95261a9a7f3",
+  "interior_tint_generator_sha256": "a1e2e138e2d047fd33f1f0d8ff50604ace2819f11ebd6b3907a17f1576bfc02c",
+  "target_material": "UO_0160_masonry_height_in_orm_alpha",
+  "seed": 160101,
+  "resolution": [
+    512,
+    512
+  ],
+  "repeat_m": [
+    2,
+    1.56
+  ],
+  "courses": 6,
+  "stones_per_course": 4,
+  "course_height_m": 0.26,
+  "stone_width_random_range": [
+    0.8,
+    1.2
+  ],
+  "alternating_course_offset_m": 0.23,
+  "noise": {
+    "coarse": {
+      "period": 7,
+      "seed_offset": 0
+    },
+    "medium": {
+      "period": 31,
+      "seed_offset": 1
+    },
+    "fine": {
+      "period": 117,
+      "seed_offset": 2
+    },
+    "bed_warp": {
+      "period": 9,
+      "seed_offset": 3,
+      "amplitude_m": 0.0016
+    },
+    "vertical_warp": {
+      "period": 13,
+      "seed_offset_base": 10,
+      "amplitude_m": 0.0015
+    }
+  },
+  "joint_width_m": 0.009,
+  "bevel_width_m": 0.011,
+  "edge_chip_m": {
+    "offset": 0.0009,
+    "medium": 0.0009,
+    "fine": 0.0008
+  },
+  "height_m": {
+    "mortar": 0.0012,
+    "mortar_fine": 0.00025,
+    "face": 0.014,
+    "face_medium": 0.0018,
+    "face_fine": 0.00065,
+    "face_coarse": 0.0009
+  },
+  "diffuse_srgb255": {
+    "stone": [
+      157,
+      151,
+      137
+    ],
+    "mortar": [
+      139,
+      136,
+      126
+    ],
+    "stone_random_tone_range": [
+      -12,
+      12
+    ],
+    "stone_noise_gain": {
+      "coarse": 4,
+      "medium": 3,
+      "fine": 1.8
+    },
+    "stone_warmth_range": [
+      -3,
+      3
+    ],
+    "stone_warmth_rgb_gain": [
+      1,
+      0.35,
+      -0.55
+    ],
+    "mortar_noise_gain": {
+      "medium": 2,
+      "fine": 1
+    }
+  },
+  "orm": {
+    "red": "ao",
+    "green": "roughness",
+    "blue": "metallic",
+    "alpha": "height",
+    "ao_offset": 0.85,
+    "ao_face_gain": 0.15,
+    "roughness_offset": 0.91,
+    "roughness_face_gain": -0.12,
+    "roughness_medium_gain": 0.025,
+    "metallic": 0,
+    "height_m_per_unit": 0.024
+  },
+  "normal": "OpenGL +Y; central differences of the same physical height",
+  "relief": {
+    "method": "single offset mapping",
+    "height_resolution": [
+      256,
+      256
+    ],
+    "height_format": "R8",
+    "mipmaps": true,
+    "height_with_mipmaps_bytes": 87381,
+    "godot_heightmap_scale": 1.3,
+    "deep_parallax": false,
+    "enable_below_shell_distance_m": 7,
+    "disable_above_shell_distance_m": 12,
+    "compatibility_profile": "normal-only"
+  },
+  "reviewed_model_sha256": "7b5b77133efa9cefe40b43bbdfb61411fece86ca4043caf7417fa01361fc6b4d",
+  "maps_sha256": {
+    "albedo": "62170bff4c6ea234fdfc333c2db9cbc31ff1877ba7cf74c52dd69b651c848cef",
+    "normal": "c9ec0f1105e960b0a22e62d8ec9cfc8ea673fb6cb14b9d89ea654793366b4938",
+    "orm": "6b6271f56279f79213c3f9749fcb6576f8f7d9bac46a258e8488934aba0a6f47",
+    "height": "921eea75a77c585c0d154810ef29521db3b54dbbe8e90302e587c1d85e2361d2"
+  },
+  "scope": "Material parameters for the matched local generator. Importing the HouseBlueprint alone does not install this material or regenerate its GLB."
+}
