@@ -26,15 +26,15 @@ Recette exportée et capture de sa reconstruction, conservées sans réécriture
 
 Instantané historique de revue ; consulter la fiche pour la portée exacte des contrôles.
 
-## Crocodilien — tête affinée et peau métrique
+## Crocodilien — crâne arrondi et yeux attachés
 
-![Crocodilien — tête affinée et peau métrique — capture Godot de la recette reconstruite](crocodile-original/v0.4.0/preview.png)
+![Crocodilien — crâne arrondi et yeux attachés — capture Godot de la recette reconstruite](crocodile-original/v0.5.0/preview.png)
 
-[Fiche 0.4.0](crocodile-original/v0.4.0/README.md) · [Recette JSON](crocodile-original/v0.4.0/recipe.json)
+[Fiche 0.5.0](crocodile-original/v0.5.0/README.md) · [Recette JSON](crocodile-original/v0.5.0/recipe.json)
 
-Crâne aminci et resserré, yeux moins brillants, dents variées et UV métriques sur le corps et les pattes. Même budget de triangles et d’images ; recette reconstruite et marche contrôlée dans l’éditeur et Godot.
+Contour crânien arrondi, yeux réduits et attachés à la surface de chaque LOD, dépliage continu du dessus et des flancs. Recette téléchargée, reconstruite et marche contrôlée dans l’éditeur et Godot.
 
-Revue CPU, éditeur réel et Godot isolé sur sol plat. Sculpture et raccords UV restent en revue ; terrain, nage, virages, forces, collisions exhaustives, monde principal, réseau et VR non qualifiés.
+Revue locale CPU, éditeur réel et Godot isolé, marche rectiligne sur sol plat. Sculpture, raccord tête/cou et coutures du corps restent en revue ; terrain, virages, nage, forces, collisions exhaustives, monde principal, réseau, VR et coût en foule non qualifiés.
 
 ## Cheval brun — silhouette et marche
 

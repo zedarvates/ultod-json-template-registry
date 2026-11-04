@@ -1,0 +1,41 @@
+{
+  "schema": "uo.crocodile-cranial-profile-documentation/v1",
+  "id": "rounded-cranium-v5-continuous-roof",
+  "delivery": "review_only",
+  "units": "meters",
+  "head_bind_pivot": [
+    0,
+    0.31,
+    -0.7
+  ],
+  "perimeter": "Periodic cubic interpolation of original control points, then equal arclength sampling; actual mesh corners rounded",
+  "base_eye_centers": [
+    [
+      -0.146,
+      0.398,
+      -0.735
+    ],
+    [
+      0.146,
+      0.398,
+      -0.735
+    ]
+  ],
+  "eye_local_radii": [
+    0.024,
+    0.0155,
+    0.0105
+  ],
+  "eye_attachment": "Ray intersection with actual exported cranial LOD; eye centre 1.7 mm outward from skull surface along the orbital normal",
+  "eye_posterior_embedding_m": 0.0088,
+  "lid_tube_radius": 0.0045,
+  "iris_base_vertex_colour_linear": [
+    0.34,
+    0.255,
+    0.105
+  ],
+  "iris_clearcoat": 0.35,
+  "iris_roughness": 0.3,
+  "roof_uv": "Least-squares conformal parameterization of actual roof, side and nasal cavity triangles; no roof/side UV cut",
+  "scope": "Documentary parameters, not a standalone generator or native species genome."
+}
