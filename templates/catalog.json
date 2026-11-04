@@ -124200,6 +124200,36 @@
       "supersedes": [
         "xeno-editor:giant-spider-eight-legs@0.1.0"
       ]
+    },
+    {
+      "name": "xeno-editor",
+      "kind": "json-schema",
+      "version": "1.2.0",
+      "status": "experimental",
+      "file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "231c8b678315311aa1b8c1697f80769820132e9c8b91a86dec72dea8cde0a7aa",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "xeno-editor:giant-scorpion-original",
+      "slug": "giant-scorpion-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:54ac4255889d40ec2eb5074d21f66534e168e029a08f6b0d7eb452de90e7dbb4",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "giant-scorpion-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/giant-scorpion-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "38156d22e2169b0bac9120b64058d4b3d239cc8da71ffff3ef110e86f46d1bb9"
     }
   ],
   "aliases": []

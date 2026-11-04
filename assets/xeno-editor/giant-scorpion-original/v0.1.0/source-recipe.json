@@ -1,0 +1,29 @@
+{
+  "species_id": "uo_giant_scorpion",
+  "species_name": "Scorpion géant (bestiaire UO)",
+  "chemistry": "silicate",
+  "base_traits": {
+    "scale": 1.3,
+    "diet": "carnivore",
+    "locomotion_preference": "crawling",
+    "aggressiveness": 0.6
+  },
+  "parts": [
+    { "part_id": "head_jaw_01", "attach_point": "Head",
+      "position": [0, 0, 0.08], "rotation": [0, 0, 0], "scale": [0.9, 0.9, 0.9] },
+    { "part_id": "claw_scythe", "attach_point": "LeftShoulder",
+      "position": [-0.2, -0.02, 0.15], "rotation": [0, 20, 0], "scale": [1.4, 1.4, 1.4] },
+    { "part_id": "claw_scythe", "attach_point": "RightShoulder",
+      "position": [0.2, -0.02, 0.15], "rotation": [0, -20, 0], "scale": [1.4, 1.4, 1.4] },
+    { "part_id": "armor_plate_01", "attach_point": "Spine",
+      "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [1.2, 1.2, 1.2] },
+    { "part_id": "leg_crawler_01", "attach_point": "LeftUpperLeg",
+      "position": [0, -0.15, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+    { "part_id": "leg_crawler_01", "attach_point": "RightUpperLeg",
+      "position": [0, -0.15, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+    { "part_id": "tail_stinger_01", "attach_point": "TailBase",
+      "position": [0, 0.1, -0.15], "rotation": [60, 0, 0], "scale": [1.1, 1.1, 1.1] },
+    { "part_id": "eye_compound_01", "attach_point": "Head",
+      "position": [0, 0.03, 0.06], "rotation": [0, 0, 0], "scale": [0.6, 0.6, 0.6] }
+  ]
+}
