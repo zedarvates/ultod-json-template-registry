@@ -1,0 +1,118 @@
+{
+  "schema": "uo.reference-building/v1",
+  "id": "tour_reference_01",
+  "name": "Gratte-ciel 1",
+  "floor_height": 3.5,
+  "tiers": [
+    {
+      "id": "socle",
+      "floors": 5,
+      "width": 32,
+      "depth": 24,
+      "x": 0,
+      "z": 0
+    },
+    {
+      "id": "corps",
+      "floors": 14,
+      "width": 26,
+      "depth": 20,
+      "x": 0,
+      "z": 0
+    },
+    {
+      "id": "tour",
+      "floors": 10,
+      "width": 18,
+      "depth": 15,
+      "x": 0,
+      "z": 0
+    },
+    {
+      "id": "couronne",
+      "floors": 4,
+      "width": 11,
+      "depth": 10,
+      "x": 0,
+      "z": 0
+    }
+  ],
+  "facade": {
+    "bay_width": 2.7,
+    "window_ratio": 0.57,
+    "sill_ratio": 0.2,
+    "window_height_ratio": 0.64,
+    "relief": 0.22,
+    "finish": "plain",
+    "texture_scale_m": 2,
+    "detail": "simple",
+    "cornice_every": 4,
+    "stone": "#bcb5a4",
+    "glass": "#294e64",
+    "trim": "#d9d0b8",
+    "roof": "#537367",
+    "roughness": 0.72,
+    "glass_finish": "legacy",
+    "glass_roughness": 0.19,
+    "glass_ior": 1.5,
+    "arch_every": 4,
+    "arch_shape": "pointed"
+  },
+  "crown": {
+    "kind": "pyramid",
+    "height": 12,
+    "width": 6,
+    "depth": 6,
+    "levels": 3,
+    "ribs": 8,
+    "pinnacles": false,
+    "roof_ratio": 0.92,
+    "pinnacle_rise": 0.32,
+    "pinnacle_finish": "roof",
+    "spire_profile": "plain",
+    "pinnacle_profile": "plain",
+    "dormers": 0,
+    "collar_ratio": 0.22
+  },
+  "source": null,
+  "analysis": null,
+  "vision_reading": null,
+  "facade_faces": {},
+  "face_references": {},
+  "lighting": {
+    "environment": "none",
+    "intensity": 1,
+    "rotation": 35,
+    "exposure": 1.1,
+    "shadows": false
+  },
+  "facade_bands": [],
+  "wings": [],
+  "review_camera": null,
+  "evidence": {
+    "floors": 33,
+    "tiers": 4,
+    "windows": 914,
+    "face_windows": {
+      "front": 257,
+      "back": 257,
+      "left": 200,
+      "right": 200
+    },
+    "band_windows": {},
+    "facade_band_count": 0,
+    "boxes": 5647,
+    "triangles": 67776,
+    "facade_triangles": 0,
+    "crown_triangles": 12,
+    "crown_profile": "pyramid",
+    "dimensions_are": "author_parameters",
+    "image_analysis": "not_automated",
+    "face_reference_count": 0,
+    "interior": false,
+    "runtime_verified": false,
+    "source_pixels_embedded": false,
+    "rendering": "procedural_exterior",
+    "server_activation": false
+  }
+}
