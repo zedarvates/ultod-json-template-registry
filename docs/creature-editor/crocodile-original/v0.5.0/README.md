@@ -14,7 +14,7 @@ Le dessus, les flancs et les deux poches nasales forment maintenant **un déplia
 
 Le corps et la marche sont conservés. Les UV de toute la peau sont aussi mesurés pendant **601 poses par LOD** : anisotropie maximale **2.379**, aucun Jacobien UV effondré. Ces mesures ne constituent pas une approbation artistique finale.
 
-Le budget est **9 566 / 5 442 / 3 070 triangles**, 31 os, trois images **512 / 256 / 256** pixels et **2 097 148 octets** estimés en RGBA8 avec mipmaps. L’arrondi ajoute quatre triangles par LOD à la version 0.4.0. Aucun nouveau bitmap ; aucune mesure de FPS ou de mémoire totale du pilote. Le GLB reconstruit pèse **2,181,296 octets**.
+Le budget est **9 566 / 5 442 / 3 066 triangles**, 31 os, trois images **512 / 256 / 256** pixels et **2 097 148 octets** estimés en RGBA8 avec mipmaps. L’arrondi ajoute quatre triangles aux LOD0 et LOD1 ; le LOD2 conserve son nombre de triangles. Aucun nouveau bitmap ; aucune mesure de FPS ou de mémoire totale du pilote. Le GLB reconstruit pèse **2,181,296 octets**.
 
 La marche passe les contrôles CPU, éditeur et Godot : au moins **trois appuis**, dérive maximale CPU **0.137 mm**, hauteur absolue en appui **0.337 mm**, levée minimale **44.95 mm**. Godot contrôle les vrais binds et paumes sur 241 instants par LOD. La sélection passe Forward+ et Compatibility. La recette téléchargée dans l’éditeur porte le pas à **0,11 m** ; elle est reconstruite puis vérifiée dans Godot Forward+. Toutes les captures ci-dessous viennent de cette reconstruction.
 
