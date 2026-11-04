@@ -1,0 +1,333 @@
+{
+  "frames": 601,
+  "bones": 33,
+  "lod_triangles": [
+    11744,
+    6306,
+    3314
+  ],
+  "minimum_all_geometry_y_m": 0.00019862989630992187,
+  "maximum_stance_absolute_y_m": 0.0003357885875677768,
+  "maximum_world_stance_anchor_error_m": 0.00013706123067255504,
+  "minimum_expected_supports": 3,
+  "minimum_peak_swing_clearance_m": 0.044896106535790826,
+  "maximum_sampled_edge_length_ratio": 1.3063976812249043,
+  "minimum_sampled_edge_length_ratio": 0.7128922043997185,
+  "texture_dimensions": [
+    [
+      512,
+      512
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "rgba8_complete_mip_estimate_bytes": 2097148,
+  "schema": "uo.cougar-documentary-validation/v1",
+  "delivery": "review_only",
+  "model_sha256": "86a623908d155cef019b24eee01d152bb426f713a8ff3b58fecde2e8e243df61",
+  "native_engine": "4.8-beta2 (official)",
+  "native_rendering_method": "forward_plus",
+  "native_samples_per_lod": 241,
+  "native_minimum_supports": 3,
+  "native_maximum_stance_anchor_error_m": 0.000137068229378201,
+  "fur_uv_charts": [
+    {
+      "lod": 0,
+      "part": "ConnectedBodyTailLimbs",
+      "material": 0,
+      "faces": 3600,
+      "maximum_uv_anisotropy": 1.7109410762786865
+    },
+    {
+      "lod": 0,
+      "part": "Cranium",
+      "material": 0,
+      "faces": 1926,
+      "maximum_uv_anisotropy": 1.693414330482483
+    },
+    {
+      "lod": 0,
+      "part": "Jaw",
+      "material": 0,
+      "faces": 448,
+      "maximum_uv_anisotropy": 1.3213768005371094
+    },
+    {
+      "lod": 0,
+      "part": "OrbitalRimL",
+      "material": 0,
+      "faces": 384,
+      "maximum_uv_anisotropy": 1.547135353088379
+    },
+    {
+      "lod": 0,
+      "part": "OrbitalRimR",
+      "material": 0,
+      "faces": 384,
+      "maximum_uv_anisotropy": 1.5533061027526855
+    },
+    {
+      "lod": 0,
+      "part": "Tail",
+      "material": 0,
+      "faces": 192,
+      "maximum_uv_anisotropy": 1.4327694177627563
+    },
+    {
+      "lod": 0,
+      "part": "CraniumLight",
+      "material": 5,
+      "faces": 474,
+      "maximum_uv_anisotropy": 1.5940625667572021
+    },
+    {
+      "lod": 0,
+      "part": "JawLight",
+      "material": 5,
+      "faces": 128,
+      "maximum_uv_anisotropy": 1.3885581493377686
+    },
+    {
+      "lod": 1,
+      "part": "ConnectedBodyTailLimbs",
+      "material": 0,
+      "faces": 1800,
+      "maximum_uv_anisotropy": 1.7014472484588623
+    },
+    {
+      "lod": 1,
+      "part": "Cranium",
+      "material": 0,
+      "faces": 989,
+      "maximum_uv_anisotropy": 1.6964609622955322
+    },
+    {
+      "lod": 1,
+      "part": "Jaw",
+      "material": 0,
+      "faces": 219,
+      "maximum_uv_anisotropy": 1.3417093753814697
+    },
+    {
+      "lod": 1,
+      "part": "OrbitalRimL",
+      "material": 0,
+      "faces": 220,
+      "maximum_uv_anisotropy": 1.5112454891204834
+    },
+    {
+      "lod": 1,
+      "part": "OrbitalRimR",
+      "material": 0,
+      "faces": 220,
+      "maximum_uv_anisotropy": 1.7002431154251099
+    },
+    {
+      "lod": 1,
+      "part": "Tail",
+      "material": 0,
+      "faces": 128,
+      "maximum_uv_anisotropy": 1.3158855438232422
+    },
+    {
+      "lod": 1,
+      "part": "CraniumLight",
+      "material": 5,
+      "faces": 211,
+      "maximum_uv_anisotropy": 1.6919825077056885
+    },
+    {
+      "lod": 1,
+      "part": "JawLight",
+      "material": 5,
+      "faces": 69,
+      "maximum_uv_anisotropy": 1.373754620552063
+    },
+    {
+      "lod": 2,
+      "part": "ConnectedBodyTailLimbs",
+      "material": 0,
+      "faces": 750,
+      "maximum_uv_anisotropy": 1.6705472469329834
+    },
+    {
+      "lod": 2,
+      "part": "Cranium",
+      "material": 0,
+      "faces": 429,
+      "maximum_uv_anisotropy": 1.689933180809021
+    },
+    {
+      "lod": 2,
+      "part": "Jaw",
+      "material": 0,
+      "faces": 96,
+      "maximum_uv_anisotropy": 1.4255173206329346
+    },
+    {
+      "lod": 2,
+      "part": "OrbitalRimL",
+      "material": 0,
+      "faces": 112,
+      "maximum_uv_anisotropy": 1.6621084213256836
+    },
+    {
+      "lod": 2,
+      "part": "OrbitalRimR",
+      "material": 0,
+      "faces": 112,
+      "maximum_uv_anisotropy": 1.669475793838501
+    },
+    {
+      "lod": 2,
+      "part": "Tail",
+      "material": 0,
+      "faces": 96,
+      "maximum_uv_anisotropy": 1.2138562202453613
+    },
+    {
+      "lod": 2,
+      "part": "CraniumLight",
+      "material": 5,
+      "faces": 91,
+      "maximum_uv_anisotropy": 1.6244096755981445
+    },
+    {
+      "lod": 2,
+      "part": "JawLight",
+      "material": 5,
+      "faces": 32,
+      "maximum_uv_anisotropy": 1.4645020961761475
+    }
+  ],
+  "cranial_closed_units": [
+    {
+      "welded_vertices": 1202,
+      "triangles": 2400,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "lod": 0,
+      "unit": "PumaCranium",
+      "material_regions": 2
+    },
+    {
+      "welded_vertices": 290,
+      "triangles": 576,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "lod": 0,
+      "unit": "PumaJaw",
+      "material_regions": 2
+    },
+    {
+      "welded_vertices": 602,
+      "triangles": 1200,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "lod": 1,
+      "unit": "PumaCranium",
+      "material_regions": 2
+    },
+    {
+      "welded_vertices": 146,
+      "triangles": 288,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "lod": 1,
+      "unit": "PumaJaw",
+      "material_regions": 2
+    },
+    {
+      "welded_vertices": 262,
+      "triangles": 520,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "lod": 2,
+      "unit": "PumaCranium",
+      "material_regions": 2
+    },
+    {
+      "welded_vertices": 66,
+      "triangles": 128,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "lod": 2,
+      "unit": "PumaJaw",
+      "material_regions": 2
+    }
+  ],
+  "head_body_rendered_attributes_match": true,
+  "matching_material_boundary_colours": [
+    {
+      "welded_vertices": 1202,
+      "triangles": 2400,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "unit": "PumaCranium",
+      "regions": 2,
+      "matching_boundary_colours": 5998
+    },
+    {
+      "welded_vertices": 290,
+      "triangles": 576,
+      "nonmanifold_edges": 0,
+      "components": 1,
+      "unit": "PumaJaw",
+      "regions": 2,
+      "matching_boundary_colours": 401
+    }
+  ],
+  "damaged_region_cases_rejected": [
+    "missing_region",
+    "duplicate_faces",
+    "disconnected_duplicate"
+  ],
+  "native_optical_materials": {
+    "U0_Iris": {
+      "clearcoat": 1.0,
+      "clearcoat_enabled": true,
+      "roughness": 0.119999997317791,
+      "vertex_colours": true
+    },
+    "U0_Pupil": {
+      "clearcoat": 0.899999976158142,
+      "clearcoat_enabled": true,
+      "roughness": 0.0799999982118607,
+      "vertex_colours": true
+    },
+    "U1_Iris": {
+      "clearcoat": 1.0,
+      "clearcoat_enabled": true,
+      "roughness": 0.119999997317791,
+      "vertex_colours": true
+    },
+    "U1_Pupil": {
+      "clearcoat": 0.899999976158142,
+      "clearcoat_enabled": true,
+      "roughness": 0.0799999982118607,
+      "vertex_colours": true
+    },
+    "U2_Iris": {
+      "clearcoat": 1.0,
+      "clearcoat_enabled": true,
+      "roughness": 0.119999997317791,
+      "vertex_colours": true
+    },
+    "U2_Pupil": {
+      "clearcoat": 0.899999976158142,
+      "clearcoat_enabled": true,
+      "roughness": 0.0799999982118607,
+      "vertex_colours": true
+    }
+  },
+  "native_adapted_optical_surfaces": 6,
+  "native_shared_adapted_materials": 2,
+  "cached_optical_material_verified": true,
+  "scope": "Revue originale du puma sur sol plat dans l’éditeur et Godot isolés. La sculpture reste stylisée : aucune approbation photoréaliste finale, terrain, virage, forces, collisions exhaustives, gameplay réseau ou VR."
+}
