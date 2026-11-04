@@ -1,0 +1,390 @@
+{
+  "schema": "uo.creature-editor-review-parts-fragment/v1",
+  "delivery": "review_only",
+  "parts": [
+    {
+      "part_id": "rat_body_original_01",
+      "name": "rat body original 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "rat_head_original_01",
+      "name": "rat head original 01",
+      "category": "head",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "rat_tail_original_01",
+      "name": "rat tail original 01",
+      "category": "tail",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "rat_leg_frontl_original_01",
+      "name": "rat leg frontl original 01",
+      "category": "leg",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "rat_leg_frontr_original_01",
+      "name": "rat leg frontr original 01",
+      "category": "leg",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "rat_leg_hindl_original_01",
+      "name": "rat leg hindl original 01",
+      "category": "leg",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "rat_leg_hindr_original_01",
+      "name": "rat leg hindr original 01",
+      "category": "leg",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "rat_body_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/rat_body_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "1fdf9ead7347025e5ea2e0cd074352490efc6fe827e6ffb4fdd273514839f3b6",
+      "bytes": 28340,
+      "triangles": 1344,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural rat geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "rat_head_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/rat_head_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "600c497dc2768e1c3a8b4c53bd6980b6a1be9daf4ed778143a434a8080dca16b",
+      "bytes": 63520,
+      "triangles": 2912,
+      "metadata": {
+        "category": "head",
+        "part_role": "primitive",
+        "source": "original local procedural rat geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "rat_tail_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/rat_tail_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "a5a97b8717e6945547093d29c470d00014bfa7137044e91e7304d41fb9d1d32a",
+      "bytes": 23092,
+      "triangles": 1104,
+      "metadata": {
+        "category": "tail",
+        "part_role": "primitive",
+        "source": "original local procedural rat geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "rat_leg_frontl_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/rat_leg_frontl_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "0cf9ca39e20b588c1251f6adf99c5c24c4d729a2c00324199b84e5bb613063bc",
+      "bytes": 15000,
+      "triangles": 744,
+      "metadata": {
+        "category": "leg",
+        "part_role": "primitive",
+        "source": "original local procedural rat geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "rat_leg_frontr_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/rat_leg_frontr_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "f65d2eb748056d4cd6de97589bd22c328c53e4632198bfa3a118d4f681b39792",
+      "bytes": 14972,
+      "triangles": 744,
+      "metadata": {
+        "category": "leg",
+        "part_role": "primitive",
+        "source": "original local procedural rat geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "rat_leg_hindl_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/rat_leg_hindl_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "e50ffaebf61b9889c3530b6f6cf9174c8ab31a4a168b07e90d0b8080101dda39",
+      "bytes": 16304,
+      "triangles": 822,
+      "metadata": {
+        "category": "leg",
+        "part_role": "primitive",
+        "source": "original local procedural rat geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "rat_leg_hindr_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/rat_leg_hindr_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "a2f3554017a760a83ba1eb177a131250437509c48c8cc8fe8d08e7d4e380eb16",
+      "bytes": 16280,
+      "triangles": 822,
+      "metadata": {
+        "category": "leg",
+        "part_role": "primitive",
+        "source": "original local procedural rat geometry; new uniform colors"
+      }
+    }
+  ],
+  "design": {
+    "parts": {
+      "rat_body_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original rat component, static review."
+      },
+      "rat_head_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "head",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original rat component, static review."
+      },
+      "rat_tail_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "tail",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original rat component, static review."
+      },
+      "rat_leg_frontl_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "leg",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original rat component, static review."
+      },
+      "rat_leg_frontr_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "leg",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original rat component, static review."
+      },
+      "rat_leg_hindl_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "leg",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original rat component, static review."
+      },
+      "rat_leg_hindr_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "leg",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original rat component, static review."
+      }
+    }
+  }
+}

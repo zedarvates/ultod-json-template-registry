@@ -124287,6 +124287,25 @@
       "file": "templates/xeno-editor/giant-bat-original/v0.1.0/template.json",
       "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
       "sha256": "9645a5204a50f63e5900fc9e9262cc654fc1d7b3f56a9d976f386e54c14940b8"
+    },
+    {
+      "id": "xeno-editor:giant-rat-original",
+      "slug": "giant-rat-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:c7ebca76cf41bf84468b70b892f857782dd91dc243d51e2e094ce2b77d7c46d5",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "giant-rat-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/giant-rat-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "ceeb8370959a571be0818621d66315cd63e15ca6175bee84041b7073764c5b3b"
     }
   ],
   "aliases": []
