@@ -13,6 +13,7 @@ Ces instantanés proviennent des ateliers de l’éditeur de créatures. Les rec
 | Gazer | 0.1.0 | [Fiche](gazer-original/v0.1.0/README.md) |
 | Golem | 0.1.0 | [Fiche](golem-original/v0.1.0/README.md) |
 | Ours brun — plantigradie et marche | 0.1.0 | [Recette et captures Godot](bear-original/v0.1.0/README.md) |
+| Vache brune — anatomie et marche | 0.1.0 | [Recette et captures Godot](bovine-original/v0.1.0/README.md) |
 | Puma — tête continue et pelage nuancé | 0.2.0 | [Recette et captures Godot](cougar-original/v0.2.0/README.md) · [Première base conservée](cougar-original/v0.1.0/README.md) |
 | Loup — oreilles et marche | 0.1.0 | [Recette reconstruite](wolf-original/v0.1.0/README.md) |
 | Rat géant | 0.1.0 | [Fiche](rat-original/v0.1.0/README.md) |

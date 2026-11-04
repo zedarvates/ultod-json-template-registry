@@ -1,0 +1,20 @@
+{
+  "schema": "uo.bovine-anatomy-profile-documentation/v1",
+  "delivery": "review_only",
+  "identity": "mobile:bovines_cow_brown",
+  "walking_legs": 4,
+  "load_bearing_digits_per_foot": 2,
+  "raised_dewclaws_per_foot": 2,
+  "lateral_ears": 2,
+  "horns": 2,
+  "female_udder": true,
+  "teats": 4,
+  "tail_joints": 4,
+  "head_component_contains_torso": false,
+  "body_cranium_jaw_uv_texture_cycles_per_meter": 5,
+  "references": [
+    "https://open.lib.umn.edu/largeanimalanatomy/chapter/neck-head/",
+    "https://open.lib.umn.edu/largeanimalsurgery/chapter/bovine-foot-conditions/"
+  ],
+  "reference_use": "Anatomical layout guidance only, not measured specimen proportions or a scan"
+}
