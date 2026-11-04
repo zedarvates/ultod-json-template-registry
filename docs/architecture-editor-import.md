@@ -29,7 +29,18 @@ python scripts/validate_registry.py
 ```
 
 Le script vérifie le plan avec le validateur Zig local et met à jour
-le catalogue et l’index en lot. Il est idempotent si les octets sont identiques.
+le catalogue, l’index et la [galerie en images](../templates/architecture-editor/GALERIE.md)
+en lot. La galerie montre la dernière version de chaque architecture. Il est idempotent si les octets sont identiques.
 Si le plan ou la capture change, choisir une version supérieure. L’import ne
 fait ni commit ni envoi Git : publier les fichiers validés via le flux Git du
 dépôt. Les aperçus de revue ne certifient pas le serveur de jeu ni la VR.
+
+Après l’ajout de captures complémentaires ou pour actualiser la galerie sans
+importer de recette :
+
+```sh
+python scripts/generate_architecture_gallery.py
+python scripts/generate_architecture_gallery.py --check
+```
+
+Les tests vérifient que la galerie reste à jour et que ses liens locaux existent.

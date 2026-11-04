@@ -1,9 +1,10 @@
 """Keep native recipes and their visual evidence bound to the registry catalog."""
 import json
+import re
 from pathlib import Path
 import unittest
 
-from scripts.import_architecture_templates import FAMILY, ROOT, sha, verify_recipe, generate_index
+from scripts.import_architecture_templates import FAMILY, ROOT, sha, verify_recipe, generate_index, generate_gallery
 
 
 class ArchitectureCollectionTest(unittest.TestCase):
@@ -28,6 +29,14 @@ class ArchitectureCollectionTest(unittest.TestCase):
                 self.assertTrue(preview.startswith(b'\xff\xd8\xff'))
                 self.assertTrue(preview.endswith(b'\xff\xd9'))
         self.assertEqual((ROOT/f'templates/{FAMILY}/README.md').read_bytes(),generate_index(entries,documents))
+        gallery_path=ROOT/f'templates/{FAMILY}/GALERIE.md'
+        gallery=gallery_path.read_text(encoding='utf-8')
+        self.assertEqual(gallery_path.read_bytes(),generate_gallery(entries,documents))
+        self.assertEqual(gallery.count('**['),len({e['slug'] for e in entries}))
+        for target in re.findall(r'!?\[[^\]\n]*\]\(([^)\s]+)\)',gallery):
+            linked=(gallery_path.parent/target).resolve()
+            self.assertTrue(linked.is_relative_to(ROOT.resolve()),target)
+            self.assertTrue(linked.is_file(),target)
 
     def test_recipe_rejects_local_and_editor_metadata(self):
         base={'blueprint_id':'uo_regen_multi_0100_v1','name':'Tour',
