@@ -1,0 +1,23 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "1113b141f53bada217883a51d6d0a649fec13bd4f2ccc598d21f2e0c427c9e02",
+  "preview_file": "preview.png",
+  "preview_sha256": "e3783062a24e6175d4632b331d0885dde0306015e62e5849b83181ef4adde3f8",
+  "head_preview_file": "head.png",
+  "head_preview_sha256": "5c576412bde45f07d3bce72aa96086bf8cd11cac65445029738ad1c86d2d574f",
+  "rendered_model_sha256": "b78d5d43f939958e905bf4b191f078e94de7d470a0bf1723f5b5dd64d4cd1cee",
+  "source_review_sha256": "8dad1c4ad5a39110b667128ba7e813070b0fcdba3878d1f39783d6138ca7c197",
+  "preview_kind": "Godot captures of the reconstructed downloaded recipe",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.crocodile-original/v1 with rounded-cranium-v2",
+    "original crocodilian cranial module and original scale textures",
+    "continuous-skin authoring and flat-walk review adapter"
+  ],
+  "rights": "Original project geometry, original generated albedo, procedural normal/ORM; local Godot screenshots. No third-party reference image pixels or geometry copied.",
+  "validation_scope": "CPU, editor and isolated native Godot flat-ground review; no final photorealism, gameplay, network authority, terrain, swimming, full collision or VR qualification"
+}

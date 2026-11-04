@@ -1,0 +1,16 @@
+{
+  "schema": "uo.crocodile-project/v1",
+  "generator": "uo.crocodile-original/v1",
+  "delivery": "review_only",
+  "source_sha256": "8dad1c4ad5a39110b667128ba7e813070b0fcdba3878d1f39783d6138ca7c197",
+  "recipe": {
+    "schema": "uo.crocodile-shape/v1",
+    "delivery": "review_only",
+    "body_scale": 1,
+    "stride_m": 0.11,
+    "period_s": 1.8,
+    "tail_sway_rad": 0.025,
+    "jaw_open_rad": 0.025,
+    "cranial_profile": "rounded-cranium-v2"
+  }
+}

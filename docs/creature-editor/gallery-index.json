@@ -21,11 +21,11 @@
     },
     {
       "id": "crocodile-original",
-      "name": "Crocodilien — prototype à corriger",
-      "version": "v0.1.0",
-      "summary": "Archive provisoire : l’image représente uniquement le composant crânien head-02, pas le corps complet. Défauts visibles conservés pour la reprise : crâne trop plat et épais, flancs aux UV étirés et yeux trop saillants. Cette version ne doit pas être sélectionnée comme modèle final.",
-      "scope": "Tête seule : export, topologie et rendu statique contrôlés. Corps 01 construit à 8 734 / 4 902 / 2 814 triangles, mais audit de déformation, marche et validations Godot non exécutés. Aucun PASS artistique ou de créature complète.",
-      "preview_kind": "capture navigateur de la tête seule, prototype rejeté artistiquement"
+      "name": "Crocodilien — tête arrondie et marche",
+      "version": "v0.2.0",
+      "summary": "Crâne arrondi et aminci, yeux intégrés et UV de flancs corrigés. Recette réellement téléchargée puis reconstruite ; captures du corps et de la tête dans Godot.",
+      "scope": "CPU, éditeur et Godot isolés : appuis et déformations mesurés sur sol plat, trois LOD et trois petites textures. Terrain, nage, jeu réseau, VR et finition photoréaliste restent à qualifier.",
+      "preview_kind": "capture Godot de la recette reconstruite"
     },
     {
       "id": "gazer-original",

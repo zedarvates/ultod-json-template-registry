@@ -26,15 +26,15 @@ Recette exportée et capture de sa reconstruction, conservées sans réécriture
 
 Instantané historique de revue ; consulter la fiche pour la portée exacte des contrôles.
 
-## Crocodilien — prototype à corriger
+## Crocodilien — tête arrondie et marche
 
-![Crocodilien — prototype à corriger — capture navigateur de la tête seule, prototype rejeté artistiquement](crocodile-original/v0.1.0/preview.png)
+![Crocodilien — tête arrondie et marche — capture Godot de la recette reconstruite](crocodile-original/v0.2.0/preview.png)
 
-[Fiche 0.1.0](crocodile-original/v0.1.0/README.md) · [Recette JSON](crocodile-original/v0.1.0/recipe.json)
+[Fiche 0.2.0](crocodile-original/v0.2.0/README.md) · [Recette JSON](crocodile-original/v0.2.0/recipe.json)
 
-Archive provisoire : l’image représente uniquement le composant crânien head-02, pas le corps complet. Défauts visibles conservés pour la reprise : crâne trop plat et épais, flancs aux UV étirés et yeux trop saillants. Cette version ne doit pas être sélectionnée comme modèle final.
+Crâne arrondi et aminci, yeux intégrés et UV de flancs corrigés. Recette réellement téléchargée puis reconstruite ; captures du corps et de la tête dans Godot.
 
-Tête seule : export, topologie et rendu statique contrôlés. Corps 01 construit à 8 734 / 4 902 / 2 814 triangles, mais audit de déformation, marche et validations Godot non exécutés. Aucun PASS artistique ou de créature complète.
+CPU, éditeur et Godot isolés : appuis et déformations mesurés sur sol plat, trois LOD et trois petites textures. Terrain, nage, jeu réseau, VR et finition photoréaliste restent à qualifier.
 
 ## Gazer
 
