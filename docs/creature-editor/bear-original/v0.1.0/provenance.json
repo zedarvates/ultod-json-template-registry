@@ -1,0 +1,24 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "1d0dcb8d250015b1903abe6bb96eb5459904cf7fa26e009b58ab80346ea3da2e",
+  "preview_file": "preview.png",
+  "preview_sha256": "82dbedee9889628c38fb3b14c4a0f7d7cf1bb23ca5b0316f61a79b7023c614a3",
+  "head_preview_file": "head.png",
+  "head_preview_sha256": "b68493c7146d946bd4d6794bace3b71221515aad7bb8c258232fed2429f22781",
+  "rendered_model_sha256": "9b227e106f7f03598e512b5f0ca74c98e7de5abfd658aedb306361f30663587f",
+  "source_review_sha256": "aa758a543ae34cd55234ddced4cd50fbcbbe9019058d793d91a02be718855f06",
+  "preview_kind": "Godot captures of the actual reconstructed exported recipe",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.bear-original/v1 local authoring generator",
+    "brown-bear-v1 shared cranial definition",
+    "original project brown-fur bitmap and PBR derivation",
+    "isolated review adapter and exact body-union inputs"
+  ],
+  "rights": "Original geometry and original shared generated brown-fur texture from the project; no historical or third-party reference geometry or pixels copied.",
+  "scope": "Brown bear only, isolated flat-ground review. No final photographic art, black/polar bear variants, hybrids, terrain, forces, full collision, gameplay network or VR qualification."
+}

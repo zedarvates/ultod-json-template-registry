@@ -66,6 +66,16 @@ Variante reconstruite de la recette exportée : oreilles affinées, pointes rele
 
 Reconstruction de la recette téléchargée et revue Godot sur sol plat ; trois LOD de 15 978 / 5 074 / 1 400 triangles. Aucune preuve de terrain, monde réseau, VR, collisions exhaustives ou photoréalisme final.
 
+## Ours brun — plantigradie et marche
+
+![Ours brun — plantigradie et marche — capture Godot de la recette reconstruite](bear-original/v0.1.0/preview.png)
+
+[Fiche 0.1.0](bear-original/v0.1.0/README.md) · [Recette JSON](bear-original/v0.1.0/recipe.json)
+
+Première base originale d’ours brun : épaules hautes, tête abaissée, oreilles rondes, pieds plantigrades à cinq doigts et griffes. Recette téléchargée puis reconstruite, avec captures Godot.
+
+Appuis et déformations mesurés sur sol plat dans l’éditeur et Godot isolés ; sculpture et fourrure encore en revue. Autres espèces d’ours, terrain, forces, gameplay et VR non qualifiés.
+
 ## Rat géant
 
 ![Rat géant — capture historique de la reconstruction](rat-original/v0.1.0/preview.png)
