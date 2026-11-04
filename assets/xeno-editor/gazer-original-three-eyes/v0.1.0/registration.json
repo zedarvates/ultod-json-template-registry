@@ -1,0 +1,444 @@
+{
+  "schema": "uo.creature-editor-review-parts-fragment/v1",
+  "delivery": "review_only",
+  "parts": [
+    {
+      "part_id": "gazer_body_original_01",
+      "name": "gazer body original 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "gazer_eye_main_original_01",
+      "name": "gazer eye main original 01",
+      "category": "sensor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "gazer_eye_l_original_01",
+      "name": "gazer eye l original 01",
+      "category": "sensor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "gazer_eye_r_original_01",
+      "name": "gazer eye r original 01",
+      "category": "sensor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "gazer_antenna_l_original_01",
+      "name": "gazer antenna l original 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "gazer_antenna_r_original_01",
+      "name": "gazer antenna r original 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "gazer_lower_l_original_01",
+      "name": "gazer lower l original 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "gazer_lower_r_original_01",
+      "name": "gazer lower r original 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "gazer_body_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/gazer_body_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "6c68dc8d03160f1459a0944b76b61eac64bd62334035552f9171f13ece4ac70f",
+      "bytes": 44220,
+      "triangles": 2128,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural gazer geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "gazer_eye_main_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/gazer_eye_main_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "fe28c6cac032f750379891962897561a7ffe74186ae8676b2e995663e3cbd298",
+      "bytes": 43236,
+      "triangles": 1814,
+      "metadata": {
+        "category": "sensor",
+        "part_role": "primitive",
+        "source": "original local procedural gazer geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "gazer_eye_l_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/gazer_eye_l_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "d726442fb8ddf6f8c5e375acf22518ab06018f9cdcc6c167d4d9392dec4b65b6",
+      "bytes": 21456,
+      "triangles": 842,
+      "metadata": {
+        "category": "sensor",
+        "part_role": "primitive",
+        "source": "original local procedural gazer geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "gazer_eye_r_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/gazer_eye_r_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "7bab933b1da567344d384d8d0b62aa49e7a40ce9440fb3c039c56d02df585029",
+      "bytes": 21452,
+      "triangles": 842,
+      "metadata": {
+        "category": "sensor",
+        "part_role": "primitive",
+        "source": "original local procedural gazer geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "gazer_antenna_l_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/gazer_antenna_l_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "cada57138ad61e6b80c74aa93fb1ce16a79b85c822f4b9f572c5b339f44ec734",
+      "bytes": 3636,
+      "triangles": 128,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural gazer geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "gazer_antenna_r_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/gazer_antenna_r_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "4d0b1762d31760c863b4e429729c8920470bc46a3af2b94aa5962d633a83adcb",
+      "bytes": 3632,
+      "triangles": 128,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural gazer geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "gazer_lower_l_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/gazer_lower_l_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "b989f13f5d29328032a6dcc5d7cae29e5d4aa24ed84db8a63fa2523f39a2dbc0",
+      "bytes": 5860,
+      "triangles": 240,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural gazer geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "gazer_lower_r_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/gazer_lower_r_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "23b92cdb92ff3c946f56694b307920d6d036494121247f4dfbc5784677a57f7b",
+      "bytes": 5860,
+      "triangles": 240,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural gazer geometry; new uniform colors"
+      }
+    }
+  ],
+  "design": {
+    "parts": {
+      "gazer_body_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original gazer component, local static review."
+      },
+      "gazer_eye_main_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "sensor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original gazer component, local static review."
+      },
+      "gazer_eye_l_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "sensor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original gazer component, local static review."
+      },
+      "gazer_eye_r_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "sensor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original gazer component, local static review."
+      },
+      "gazer_antenna_l_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original gazer component, local static review."
+      },
+      "gazer_antenna_r_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original gazer component, local static review."
+      },
+      "gazer_lower_l_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original gazer component, local static review."
+      },
+      "gazer_lower_r_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original gazer component, local static review."
+      }
+    }
+  }
+}
