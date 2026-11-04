@@ -1,0 +1,78 @@
+{
+  "frames": 601,
+  "bones": 27,
+  "lod_triangles": [
+    10976,
+    6142,
+    3156
+  ],
+  "minimum_all_geometry_y_m": 0.00019832854136954877,
+  "maximum_stance_absolute_y_m": 0.0004265980557055134,
+  "maximum_world_stance_anchor_error_m": 0.000227886745673073,
+  "minimum_expected_supports": 3,
+  "minimum_peak_swing_clearance_m": 0.07471872708893289,
+  "maximum_sampled_edge_length_ratio": 1.3423332564049402,
+  "minimum_sampled_edge_length_ratio": 0.7201758970677371,
+  "texture_dimensions": [
+    [
+      512,
+      512
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "rgba8_complete_mip_estimate_bytes": 2097148,
+  "schema": "uo.bear-documentary-validation/v1",
+  "delivery": "review_only",
+  "glb_sha256": "9b227e106f7f03598e512b5f0ca74c98e7de5abfd658aedb306361f30663587f",
+  "native_engine": "4.8-beta2 (official)",
+  "native_rendering_method": "forward_plus",
+  "native_samples_per_lod": 241,
+  "native_minimum_supports": 3,
+  "native_maximum_stance_anchor_error_m": 0.000227853204705752,
+  "fur_uv_charts": [
+    {
+      "lod": 0,
+      "part": "ConnectedBodyTailLimbs",
+      "faces": 4200,
+      "maximum_uv_anisotropy": 1.7212878465652466
+    },
+    {
+      "lod": 0,
+      "part": "Cranium",
+      "faces": 1152,
+      "maximum_uv_anisotropy": 1.647754430770874
+    },
+    {
+      "lod": 1,
+      "part": "ConnectedBodyTailLimbs",
+      "faces": 2200,
+      "maximum_uv_anisotropy": 1.7046723365783691
+    },
+    {
+      "lod": 1,
+      "part": "Cranium",
+      "faces": 512,
+      "maximum_uv_anisotropy": 1.594393253326416
+    },
+    {
+      "lod": 2,
+      "part": "ConnectedBodyTailLimbs",
+      "faces": 900,
+      "maximum_uv_anisotropy": 1.6755774021148682
+    },
+    {
+      "lod": 2,
+      "part": "Cranium",
+      "faces": 200,
+      "maximum_uv_anisotropy": 1.4139338731765747
+    }
+  ],
+  "scope": "Brown bear only, isolated flat-ground review. No final photographic art, black/polar bear variants, hybrids, terrain, forces, full collision, gameplay network or VR qualification."
+}

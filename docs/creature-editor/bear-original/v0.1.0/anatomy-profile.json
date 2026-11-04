@@ -1,0 +1,21 @@
+{
+  "schema": "uo.bear-anatomy-profile-documentation/v1",
+  "delivery": "review_only",
+  "profile": "brown-bear-v1",
+  "walking_legs": 4,
+  "digits_per_foot": 5,
+  "foot_posture": "plantigrade flat review stance",
+  "rounded_ears": 2,
+  "nasal_pockets": 2,
+  "head_bind_pivot_m": [
+    0,
+    1,
+    -0.85
+  ],
+  "body_and_head_texture_cycles_per_meter": 1.5,
+  "references": [
+    "https://www.nps.gov/subjects/bears/brown-bears.htm",
+    "https://www.fws.gov/species/brown-bear-ursus-arctos-arctos"
+  ],
+  "reference_use": "Qualitative anatomy only; no reference image pixels or geometry copied"
+}
