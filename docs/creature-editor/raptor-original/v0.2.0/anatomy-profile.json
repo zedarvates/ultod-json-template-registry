@@ -1,0 +1,99 @@
+{
+  "schema": "uo.raptor-anatomy-profile-documentation/v2",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "anatomy": {
+    "walking_legs": 2,
+    "digits_per_foot": 4,
+    "forward_digits": 3,
+    "hallux": 1,
+    "wing_components": 2,
+    "rigged_wing_state": "folded_rest_geometry",
+    "flight_created": false,
+    "connected_feathered_core": true,
+    "foot_scales": true
+  },
+  "continuous_skin_scope": [
+    "torso",
+    "neck",
+    "upper_feathered_legs"
+  ],
+  "weight_authoring": {
+    "method": "Blender bone heat followed by ten surface smoothing iterations and normalized four-influence selection",
+    "lods": [
+      {
+        "lod": 0,
+        "vertices": 1102,
+        "maximum_influences": 4,
+        "minimum_retained_mass_before_normalization": 0.9879627667179116,
+        "surface_weight_smoothing_iterations": 10
+      },
+      {
+        "lod": 1,
+        "vertices": 652,
+        "maximum_influences": 4,
+        "minimum_retained_mass_before_normalization": 0.9734107838797659,
+        "surface_weight_smoothing_iterations": 10
+      },
+      {
+        "lod": 2,
+        "vertices": 352,
+        "maximum_influences": 4,
+        "minimum_retained_mass_before_normalization": 0.9541385844989589,
+        "surface_weight_smoothing_iterations": 10
+      }
+    ]
+  },
+  "legacy_glb_rebuild_byte_identical_sha256": "7ed94d680ccf783e05b8e5fdfad972861022ea02e7d97f954a4daffcab34dd31",
+  "source_components": [
+    {
+      "component": "head",
+      "revision": "04",
+      "lod": 0,
+      "sha256": "afe23dc54f0b79b607336953b331110bc85915338248252a009d1c3551c44c88"
+    },
+    {
+      "component": "wing",
+      "revision": "02",
+      "lod": 0,
+      "sha256": "72f89205fbe95b013559fce36e50b849af5d35ed08d4298bb1bc04eb55a460a8"
+    },
+    {
+      "component": "head",
+      "revision": "04",
+      "lod": 1,
+      "sha256": "c0beeba59c1b033c48ea35217d437e3afd544562082198ec903cc95859811d73"
+    },
+    {
+      "component": "wing",
+      "revision": "02",
+      "lod": 1,
+      "sha256": "171710034f0784fb66e24f1ab5c0213a45cf1723ea41841f8cb1e9645e9baf81"
+    },
+    {
+      "component": "head",
+      "revision": "04",
+      "lod": 2,
+      "sha256": "40d963f34dd6fb3581018978ecf5478e80bd585710a856373290c511da84bfc0"
+    },
+    {
+      "component": "wing",
+      "revision": "02",
+      "lod": 2,
+      "sha256": "a3ca11d4ca8baf389b592c423793cae9c502fffa535100c052b8b98cd76659be"
+    }
+  ],
+  "walking_clip": {
+    "name": "RaptorWalk",
+    "duration_s": 6.4,
+    "period_s": 1.6,
+    "duty": 0.64,
+    "key_fps": 120
+  },
+  "references": [
+    "https://www.pugetsound.edu/puget-sound-museum-natural-history/biodiversity-resources/birds/glossary-avian-external-anatomy",
+    "https://docs.blender.org/manual/en/5.0/animation/armatures/skinning/parenting.html"
+  ],
+  "scope": "Revue locale encore stylisée : torse, cou et haut des pattes réunis en une surface fermée ; marche rectiligne sur plan plat contrôlée au CPU, dans l’éditeur et Godot isolés. Tête, ailes, bas des pattes, doigts et plumes restent des pièces séparées. Sculpture, plumage, intersections exhaustives, forces, terrain, vol, monde principal, réseau, VR et photoréalisme final non qualifiés."
+}

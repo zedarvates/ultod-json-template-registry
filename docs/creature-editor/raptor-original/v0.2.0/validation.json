@@ -1,0 +1,97 @@
+{
+  "frames_per_lod": 601,
+  "lods": [
+    {
+      "lod": 0,
+      "triangles": 17356,
+      "maximum_uv_anisotropy": 1.722508467753687,
+      "pads": 8,
+      "talons": 8,
+      "closed_solids": 237,
+      "connected_core_components": 1,
+      "toe_scales": 48,
+      "tarsal_scales": 20,
+      "maximum_influences_used": 4
+    },
+    {
+      "lod": 1,
+      "triangles": 9852,
+      "maximum_uv_anisotropy": 1.7071598806939348,
+      "pads": 8,
+      "talons": 8,
+      "closed_solids": 164,
+      "connected_core_components": 1,
+      "toe_scales": 32,
+      "tarsal_scales": 12,
+      "maximum_influences_used": 4
+    },
+    {
+      "lod": 2,
+      "triangles": 5000,
+      "maximum_uv_anisotropy": 1.6775528998472469,
+      "pads": 8,
+      "talons": 8,
+      "closed_solids": 122,
+      "connected_core_components": 1,
+      "toe_scales": 24,
+      "tarsal_scales": 8,
+      "maximum_influences_used": 4
+    }
+  ],
+  "bones": 29,
+  "minimum_all_geometry_y_m": -4.807392865485112e-05,
+  "maximum_stance_absolute_y_m": 4.807392865485112e-05,
+  "maximum_world_stance_anchor_error_m": 8.681722834006903e-05,
+  "minimum_supports": 1,
+  "maximum_supports": 2,
+  "maximum_pelvis_projection_support_polygon_violation_m": -0.02402382648177026,
+  "minimum_edge_ratio": 0.6715409841226855,
+  "maximum_edge_ratio": 1.3217155113387093,
+  "minimum_area_ratio": 0.675127645521338,
+  "minimum_normal_alignment": 0.46406512492607965,
+  "minimum_peak_swing_clearance_m": 0.0595201622835871,
+  "texture_dimensions": [
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      128,
+      128
+    ]
+  ],
+  "schema": "uo.raptor-documentary-validation/v2",
+  "delivery": "review_only",
+  "model_sha256": "677318f284ae1c2aeb256df34f2e3476055235c11e246e7391295e817aa6d97c",
+  "model_bytes": 3584104,
+  "lod_triangles": [
+    17356,
+    9852,
+    5000
+  ],
+  "triangle_ceilings": [
+    18000,
+    10000,
+    5500
+  ],
+  "rgba8_complete_mip_estimate_bytes": 786428,
+  "native_samples_per_lod": 241,
+  "native_maximum_stance_anchor_error_m": 0.000363352417480201,
+  "native_minimum_peak_swing_clearance_m": 0.0583742298185825,
+  "continuous_skin_scope": [
+    "torso",
+    "neck",
+    "upper_feathered_legs"
+  ],
+  "selected_forward_plus_and_compatibility_passed": true,
+  "recipe_reconstructed_cpu_and_forward_plus_passed": true,
+  "editor_both_versions_controls_contacts_and_downloads_passed": true,
+  "legacy_glb_rebuild_byte_identical": true,
+  "pelvis_projection_is_only_a_proxy": true,
+  "flight_created": false,
+  "scope": "Revue locale encore stylisée : torse, cou et haut des pattes réunis en une surface fermée ; marche rectiligne sur plan plat contrôlée au CPU, dans l’éditeur et Godot isolés. Tête, ailes, bas des pattes, doigts et plumes restent des pièces séparées. Sculpture, plumage, intersections exhaustives, forces, terrain, vol, monde principal, réseau, VR et photoréalisme final non qualifiés."
+}

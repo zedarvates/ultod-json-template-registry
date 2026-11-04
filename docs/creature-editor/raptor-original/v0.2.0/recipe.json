@@ -1,0 +1,17 @@
+{
+  "schema": "uo.raptor-project/v2",
+  "generator": "uo.raptor-original/v2",
+  "delivery": "review_only",
+  "source_sha256": "69b1e5b9517f7f15a84d5c12620e5e2ca258905af95deaaac79133442d5ab91f",
+  "recipe": {
+    "schema": "uo.raptor-shape/v2",
+    "delivery": "review_only",
+    "surface_profile": "connected-feather-skin-v2",
+    "body_scale": 1,
+    "stride_m": 0.13,
+    "lift_m": 0.065,
+    "period_s": 1.6,
+    "sway_m": 0.09,
+    "duty": 0.64
+  }
+}
