@@ -1,0 +1,25 @@
+{
+  "schema": "uo.rabbit-design-documentation/v1",
+  "delivery": "review_only",
+  "cranial_profile": "lagomorph-original-v3-orbits",
+  "head_bind_pivot_m": [
+    0,
+    0.45,
+    -0.39
+  ],
+  "continuous_cheek_and_nasal_bridge_sculpt": true,
+  "closed_orbital_rims": 2,
+  "pinna_height_before_body_scale_m": 0.245,
+  "pinna_front_back_depth_m": 0.035,
+  "pinna_levels_retain_top_bottom_extrema": true,
+  "fore_digits_each": 5,
+  "hind_digits_each": 4,
+  "sole_policy": "Fur covered; no exposed pads",
+  "binding": "Original unchanged body/limb surface diffusion, maximum4influences",
+  "anatomical_sources": [
+    "https://www.depts.ttu.edu/nsrl/mammals-of-texas-online-edition/Accounts_Lagomorpha/Sylvilagus_floridanus.php",
+    "https://www.amnh.org/exhibitions/permanent/north-american-mammals/eastern-cottontail"
+  ],
+  "rights": "Anatomical references only; no external image or mesh copied",
+  "scope": "Original fictional lagomorph; qualitative reference proportions, not a measured specimen or an authoritative genome."
+}

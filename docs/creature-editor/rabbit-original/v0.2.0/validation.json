@@ -1,0 +1,80 @@
+{
+  "frames": 601,
+  "bones": 26,
+  "lod_triangles": [
+    11252,
+    6612,
+    3768
+  ],
+  "minimum_all_geometry_y_m": 0.00019965552684423545,
+  "maximum_stance_absolute_y_m": 0.00033638810654689643,
+  "maximum_world_stance_anchor_error_m": 0.00013657767206975716,
+  "minimum_expected_supports": 3,
+  "minimum_peak_swing_clearance_m": 0.044938229299918545,
+  "maximum_sampled_edge_length_ratio": 1.3586422151784445,
+  "minimum_sampled_edge_length_ratio": 0.5021682867236159,
+  "minimum_sampled_area_ratio": 0.470433227913533,
+  "minimum_sampled_normal_alignment": 0.2834357986781821,
+  "texture_dimensions": [
+    [
+      512,
+      512
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "rgba8_complete_mip_estimate_bytes": 2097148,
+  "dynamic_skin_uv_measurements": {
+    "maximum_anisotropy": 2.5264310397630934,
+    "minimum_albedo_texels_per_meter": 754.8248518504905,
+    "maximum_albedo_texels_per_meter": 1458.9209486653233,
+    "samples_per_lod": 601
+  },
+  "schema": "uo.rabbit-documentary-validation/v1",
+  "delivery": "review_only",
+  "model_sha256": "e567d3c90d5348132683492a201c74ab41ae4bd419bfb25277422e4c521a63dc",
+  "model_bytes": 2055340,
+  "native_engine": "4.8-beta2 (official)",
+  "native_samples_per_lod": 241,
+  "native_maximum_stance_anchor_error_m": 0.000136687129270285,
+  "native_minimum_supports": 3,
+  "selected_and_reconstructed_renderers": [
+    "forward_plus",
+    "gl_compatibility"
+  ],
+  "editor_source_sha256": "1448f9aa9a27fd86e1a5b8d97a784ea46202a49091ad0c0557e002661226189b",
+  "editor_recipe_download_and_rebuild": true,
+  "editor_viewport_controls": [
+    {
+      "id": "wire",
+      "actual_viewport_pixels_changed": true,
+      "restored": true
+    },
+    {
+      "id": "skeleton",
+      "actual_viewport_pixels_changed": true,
+      "restored": true
+    },
+    {
+      "id": "detail",
+      "actual_viewport_pixels_changed": true,
+      "restored": true
+    }
+  ],
+  "head_component_matches_body_all_lods": true,
+  "scope": "Revue locale encore stylisée : tête sculptée, contours de paupière fermés et oreilles épaissies ; marche lente rectiligne sur sol plat dans l’éditeur et Godot isolés. Raccords de composants, queue, silhouette du pelage et détails du LOD2 restent ouverts. Bonds, forces/masse, terrain, collisions exhaustives, monde principal, serveur, réseau, VR et photoréalisme final non qualifiés.",
+  "editor_version_comparison_preserves_pose_and_view": true,
+  "unadmitted_editor_version_rejected": true,
+  "non_cranial_geometry_rig_clip_and_images_exact_from_previous_review": true,
+  "added_triangles": [
+    348,
+    328,
+    232
+  ]
+}
