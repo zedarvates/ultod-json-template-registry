@@ -1,0 +1,19 @@
+{
+  "schema": "uo.wolf-earpin-project/v1",
+  "delivery": "review_only",
+  "source_sha256": "9e748af6ce3f5549645cd3e51c483b81b613f66d1aa209ce42ee04cdf8356d31",
+  "recipe": {
+    "schema": "uo.wolf-earpin/v1",
+    "delivery": "review_only",
+    "tip_raise_m": 0.015,
+    "upper_width_retained": 0.85,
+    "cup_depth_m": 0.003,
+    "inner_inset": 0.73,
+    "inner_offset_m": 0.0006,
+    "inner_tint_srgb": [
+      0.65,
+      0.61,
+      0.53
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "b6af938fcfb19bf6c5db1f717c961f2b0a26db0fc22b9a1fb57bf76b8ab509d2",
+  "preview_file": "preview.png",
+  "preview_sha256": "62430b8a92b85a18e3458fc6ed8832fc14a9f10254aee2b09b63bcdf70bb7c07",
+  "rendered_model_sha256": "3b380521bc4436b5e9b06239608fa5b3f0ee12c81570a4fb63a7eba62008d72d",
+  "preview_kind": "capture Godot du clip de marche local",
+  "validation_scope": "CPU, éditeur central et Godot Compatibility/Forward+ : quatre cycles rectilignes sur sol plat, au moins 3 appuis. Terrain, virages, forces, collisions complètes, gameplay, VR et finition artistique non qualifiés.",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "native creature editor parts catalogue",
+    "uo.arthropod-motion-link/v1",
+    "pinned arthropod gait model identified by motion_review.glb_sha256"
+  ],
+  "rights": "Original project geometry and original generated or procedural textures; screenshot of the local review renderer. No third-party reference pixels or geometry copied.",
+  "walking_legs": 6,
+  "local_revision": "arthropod-gait/beetle-03"
+}

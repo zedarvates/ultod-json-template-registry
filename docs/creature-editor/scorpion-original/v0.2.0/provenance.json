@@ -1,0 +1,21 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "266bb4c9055746da5acbc4bd14b323ac81c26670862296fda1f71fecd6bb61a0",
+  "preview_file": "preview.png",
+  "preview_sha256": "689b9841e373139f7304333add8cfb44de517942829bd5d5d43032a6b5f4215d",
+  "rendered_model_sha256": "c1cad49e78ba0382a0bdfb87adf97ceddb949768f7cbe418068518ab35fc14c5",
+  "preview_kind": "capture Godot de la recette de marche reconstruite",
+  "validation_scope": "Audit CPU de 673 instants par LOD, éditeur et Godot : au moins quatre appuis sur sol plat ; 8 992 / 4 470 / 1 998 triangles et deux images 256 × 256. Ce ne sont pas des preuves de forces, terrain, virages, gameplay, VR ou photoréalisme final.",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.scorpion-walk/v1",
+    "original scorpion source identified by recipe source_sha256"
+  ],
+  "rights": "Original project geometry and original generated or procedural textures; screenshot of the local review renderer. No third-party reference pixels or geometry copied.",
+  "local_revision": "scorpion-gait/02",
+  "walking_legs": 8
+}

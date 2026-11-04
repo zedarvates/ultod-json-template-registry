@@ -1,0 +1,95 @@
+{
+  "schema": "uo.creature-documentary-gallery/v1",
+  "updated": "2026-11-04",
+  "delivery": "review_only",
+  "entries": [
+    {
+      "id": "spider-original",
+      "name": "Araignée géante — huit pattes",
+      "version": "v0.1.0",
+      "summary": "Génome natif de revue : 8 pattes locomotrices et tête crânienne dédiée, sans torse dupliqué. Orientation locale du composant de tête : 90° autour de Y. Le lien de marche référence un clip précalculé lié au SHA du modèle ; les modifications de forme demandent une nouvelle revue.",
+      "scope": "CPU, éditeur central et Godot Compatibility/Forward+ : quatre cycles rectilignes sur sol plat, au moins 4 appuis. Terrain, virages, forces, collisions complètes, gameplay, VR et finition artistique non qualifiés.",
+      "preview_kind": "capture Godot du clip de marche local"
+    },
+    {
+      "id": "bat-original",
+      "name": "Chauve-souris géante",
+      "version": "v0.1.0",
+      "summary": "Recette exportée et capture de sa reconstruction, conservées sans réécriture.",
+      "scope": "Instantané historique de revue ; consulter la fiche pour la portée exacte des contrôles.",
+      "preview_kind": "capture historique de la reconstruction"
+    },
+    {
+      "id": "crocodile-original",
+      "name": "Crocodilien — prototype à corriger",
+      "version": "v0.1.0",
+      "summary": "Archive provisoire : l’image représente uniquement le composant crânien head-02, pas le corps complet. Défauts visibles conservés pour la reprise : crâne trop plat et épais, flancs aux UV étirés et yeux trop saillants. Cette version ne doit pas être sélectionnée comme modèle final.",
+      "scope": "Tête seule : export, topologie et rendu statique contrôlés. Corps 01 construit à 8 734 / 4 902 / 2 814 triangles, mais audit de déformation, marche et validations Godot non exécutés. Aucun PASS artistique ou de créature complète.",
+      "preview_kind": "capture navigateur de la tête seule, prototype rejeté artistiquement"
+    },
+    {
+      "id": "gazer-original",
+      "name": "Gazer",
+      "version": "v0.1.0",
+      "summary": "Recette exportée et capture de sa reconstruction, conservées sans réécriture.",
+      "scope": "Instantané historique de revue ; consulter la fiche pour la portée exacte des contrôles.",
+      "preview_kind": "capture historique de la reconstruction"
+    },
+    {
+      "id": "golem-original",
+      "name": "Golem",
+      "version": "v0.1.0",
+      "summary": "Recette exportée et capture de sa reconstruction, conservées sans réécriture.",
+      "scope": "Instantané historique de revue ; consulter la fiche pour la portée exacte des contrôles.",
+      "preview_kind": "capture historique de la reconstruction"
+    },
+    {
+      "id": "wolf-original",
+      "name": "Loup — oreilles et marche",
+      "version": "v0.1.0",
+      "summary": "Variante reconstruite de la recette exportée : oreilles affinées, pointes relevées de 15 mm, profondeur de 3 mm et détail de fourrure partagé. La révision locale sélectionnée conserve une profondeur de 4 mm ; cette image montre bien la variante de preuve à 3 mm.",
+      "scope": "Reconstruction de la recette téléchargée et revue Godot sur sol plat ; trois LOD de 15 978 / 5 074 / 1 400 triangles. Aucune preuve de terrain, monde réseau, VR, collisions exhaustives ou photoréalisme final.",
+      "preview_kind": "capture Godot de la variante reconstruite"
+    },
+    {
+      "id": "rat-original",
+      "name": "Rat géant",
+      "version": "v0.1.0",
+      "summary": "Recette exportée et capture de sa reconstruction, conservées sans réécriture.",
+      "scope": "Instantané historique de revue ; consulter la fiche pour la portée exacte des contrôles.",
+      "preview_kind": "capture historique de la reconstruction"
+    },
+    {
+      "id": "boar-original",
+      "name": "Sanglier géant",
+      "version": "v0.1.0",
+      "summary": "Recette exportée et capture de sa reconstruction, conservées sans réécriture.",
+      "scope": "Instantané historique de revue ; consulter la fiche pour la portée exacte des contrôles.",
+      "preview_kind": "capture historique de la reconstruction"
+    },
+    {
+      "id": "beetle-original",
+      "name": "Scarabée géant — six pattes",
+      "version": "v0.1.0",
+      "summary": "Génome natif de revue : 6 pattes locomotrices et tête crânienne dédiée, sans torse dupliqué. Orientation locale du composant de tête : 180° autour de Y. Le lien de marche référence un clip précalculé lié au SHA du modèle ; les modifications de forme demandent une nouvelle revue.",
+      "scope": "CPU, éditeur central et Godot Compatibility/Forward+ : quatre cycles rectilignes sur sol plat, au moins 3 appuis. Terrain, virages, forces, collisions complètes, gameplay, VR et finition artistique non qualifiés.",
+      "preview_kind": "capture Godot du clip de marche local"
+    },
+    {
+      "id": "scorpion-original",
+      "name": "Scorpion — marche articulée",
+      "version": "v0.2.0",
+      "summary": "Nouvelle version documentaire animée, conservant la fiche statique 0.1.0. Recette réellement téléchargée puis reconstruite : pas de 0,08 m, levée de 0,04 m, cycle de 1,5 s, part d’appui de 0,74. Huit pattes locomotrices distinctes des deux pédipalpes ; trois actionneurs simplifiés par patte.",
+      "scope": "Audit CPU de 673 instants par LOD, éditeur et Godot : au moins quatre appuis sur sol plat ; 8 992 / 4 470 / 1 998 triangles et deux images 256 × 256. Ce ne sont pas des preuves de forces, terrain, virages, gameplay, VR ou photoréalisme final.",
+      "preview_kind": "capture Godot de la recette de marche reconstruite"
+    },
+    {
+      "id": "serpent-original",
+      "name": "Serpent",
+      "version": "v0.1.0",
+      "summary": "Recette exportée et capture de sa reconstruction, conservées sans réécriture.",
+      "scope": "Instantané historique de revue ; consulter la fiche pour la portée exacte des contrôles.",
+      "preview_kind": "capture historique de la reconstruction"
+    }
+  ]
+}

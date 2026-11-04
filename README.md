@@ -19,6 +19,8 @@ Central versioned registry for JSON templates and schemas used across the Ultima
 
 [**Galerie des architectures — Old School 90s MMORPG Like**](templates/architecture-editor/GALERIE.md)
 
+[**Galerie des créatures originales — recettes et captures**](docs/creature-editor/GALERIE.md)
+
 ## Status
 
 **Experimental registry.** The collection contains versioned snapshots covering schemas, haptics, avatars, biomes, achievements, events, guilds, locations, houses, names, styles, rifts, party configurations, mentorship paths, marriage models, social events, dungeons, paragons, bosses, masterpieces, recipes, creatures, generated content (including a large quest set), prologues, quests, professions, gods, energy, AI, RTS, blueprints, divine systems, and abilities, all released as `0.1.0`.

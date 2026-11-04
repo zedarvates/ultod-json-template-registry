@@ -3,3 +3,7 @@ assets/architecture-editor/**/blueprint.json text eol=lf
 assets/architecture-editor/**/*.jpg binary
 templates/architecture-editor/** text eol=lf
 templates/schemas/architecture-editor/** text eol=lf
+
+# Keep documentary recipe SHA-256 values stable across Windows and Linux.
+docs/creature-editor/** text eol=lf
+docs/creature-editor/**/*.png binary

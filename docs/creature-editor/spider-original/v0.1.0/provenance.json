@@ -1,0 +1,22 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "30711ab3d2a1531c2cb763f96dc38819cc1da3ddc984930a4dfac1b6c3649184",
+  "preview_file": "preview.png",
+  "preview_sha256": "49ac57c0043c0c733cfa29a7c74fbf17c88095efe509de6ae6089502afd84579",
+  "rendered_model_sha256": "b715d1b8db99f391fd74edd7057b53ffb2b7e8285bafe15fc08c88a0a85b594c",
+  "preview_kind": "capture Godot du clip de marche local",
+  "validation_scope": "CPU, éditeur central et Godot Compatibility/Forward+ : quatre cycles rectilignes sur sol plat, au moins 4 appuis. Terrain, virages, forces, collisions complètes, gameplay, VR et finition artistique non qualifiés.",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "native creature editor parts catalogue",
+    "uo.arthropod-motion-link/v1",
+    "pinned arthropod gait model identified by motion_review.glb_sha256"
+  ],
+  "rights": "Original project geometry and original generated or procedural textures; screenshot of the local review renderer. No third-party reference pixels or geometry copied.",
+  "walking_legs": 8,
+  "local_revision": "arthropod-gait/spider-03"
+}

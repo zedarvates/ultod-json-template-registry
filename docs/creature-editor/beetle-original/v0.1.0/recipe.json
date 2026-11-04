@@ -1,0 +1,278 @@
+{
+  "base_traits": {
+    "aggressiveness": 0.4,
+    "diet": "herbivore",
+    "locomotion_preference": "crawling",
+    "scale": 0.9
+  },
+  "bestiary_provenance": {
+    "entry_id": "mobile:giant_beetle",
+    "recipe": "uo_fire_beetle.json",
+    "recipe_adaptations": [
+      "head_beak_01: legacy head orientation aligned to editor -Z convention; visual review required.",
+      "leg_crawler_01: legacy leg pitch aligned with native mount profile; ground contact remains unverified.",
+      "leg_crawler_01: legacy leg pitch aligned with native mount profile; ground contact remains unverified."
+    ],
+    "recipe_sha256": "c6db4dce928d0f1d675a3fff4a7388244ee3f0163e6253b696747698a029c78a",
+    "schema": "uo.bestiary-provenance/v1",
+    "scope": "Editable anatomy candidate, not a completed recreation.",
+    "server_sources": []
+  },
+  "chemistry": "plasma",
+  "delivery": "review_only",
+  "parts": [
+    {
+      "attach_point": "spine:5",
+      "part_id": "arth_head_beetle_01",
+      "position": [
+        0,
+        0,
+        -0.025
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    {
+      "part_id": "arth_beetle_thorax_01",
+      "attach_point": "spine:2",
+      "position": [
+        0,
+        0,
+        -0.08999999999999997
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "arth_beetle_elytra_01",
+      "attach_point": "spine:2",
+      "position": [
+        0,
+        0,
+        -0.08999999999999997
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "arth_leg_beetle_01",
+      "attach_point": "spine:5",
+      "mirror_x": true,
+      "position": [
+        0.12,
+        -0.009,
+        0.04500000000000004
+      ],
+      "rotation": [
+        0,
+        35,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "arth_leg_beetle_01",
+      "attach_point": "spine:4",
+      "mirror_x": true,
+      "position": [
+        0.13,
+        -0.009,
+        0.02500000000000005
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "arth_leg_beetle_01",
+      "attach_point": "spine:3",
+      "mirror_x": true,
+      "position": [
+        0.14,
+        -0.009,
+        -0.02999999999999997
+      ],
+      "rotation": [
+        0,
+        -35,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "attach_point": "spine:5",
+      "part_id": "antenna_01",
+      "position": [
+        0,
+        0.055,
+        -0.11
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.18,
+        0.18,
+        0.18
+      ]
+    }
+  ],
+  "procedural_locomotion": {
+    "appendices": {
+      "appendix_type": "leg6",
+      "body": {
+        "balance_mode": "planted",
+        "balance_threshold": 0.18,
+        "body_clearance": 0.82,
+        "hip_offset": 0.5,
+        "pelvis_stabilizer": 0.75,
+        "shoulder_offset": 0.5,
+        "slope_compensation": 0.9,
+        "torque_compensation": 0.65
+      },
+      "count": 6,
+      "ik_profile": "tripod",
+      "step": {
+        "step_duration": 0.4125,
+        "step_height": 0.035,
+        "step_length": 0.07,
+        "step_threshold": 0.04
+      },
+      "visual": {
+        "material_template": "chitin_dark",
+        "mesh_template": "arth_leg_beetle_01",
+        "scale": 1
+      }
+    },
+    "gait": {
+      "frequency": 0.8,
+      "pattern": "tripod",
+      "phase_offset": 0.5,
+      "stability_mode": "stable"
+    },
+    "schema_version": 1,
+    "variants": {}
+  },
+  "review_only": true,
+  "server_authoritative": false,
+  "species_id": "uo_review_beetle_six_legs",
+  "species_name": "Scarabée géant — six pattes",
+  "spine": [
+    {
+      "flexibility": 0.2,
+      "pos": [
+        0,
+        0.42,
+        0.35
+      ],
+      "radius": 0.022
+    },
+    {
+      "flexibility": 0.2,
+      "pos": [
+        0,
+        0.42,
+        0.21999999999999997
+      ],
+      "radius": 0.022
+    },
+    {
+      "flexibility": 0.2,
+      "pos": [
+        0,
+        0.42,
+        0.08999999999999997
+      ],
+      "radius": 0.022
+    },
+    {
+      "flexibility": 0.2,
+      "pos": [
+        0,
+        0.42,
+        -0.040000000000000036
+      ],
+      "radius": 0.022
+    },
+    {
+      "flexibility": 0.2,
+      "pos": [
+        0,
+        0.42,
+        -0.17000000000000004
+      ],
+      "radius": 0.022
+    },
+    {
+      "flexibility": 0.2,
+      "pos": [
+        0,
+        0.42,
+        -0.30000000000000004
+      ],
+      "radius": 0.022
+    }
+  ],
+  "head_unit_repair": {
+    "schema": "uo.arthropod-head-repair/v1",
+    "old_head_part": "head_beak_01",
+    "new_head_part": "arth_head_beetle_01",
+    "scope": "Only head unit, external duplicate eyes removed; beetle antenna mount follows new cranial unit; legs and spine preserved",
+    "art_status": "pending_review"
+  },
+  "body_region_revision": {
+    "schema": "uo.arthropod-body-review/v1",
+    "version": 1,
+    "head_unchanged": true,
+    "pose": "Static ground stance, no walk claim",
+    "source": "tools/bestiary/arthropod-body/build.py"
+  },
+  "motion_review": {
+    "schema": "uo.arthropod-motion-link/v1",
+    "delivery": "review_only",
+    "folder": "beetle-03",
+    "glb_sha256": "3b380521bc4436b5e9b06239608fa5b3f0ee12c81570a4fb63a7eba62008d72d",
+    "scope": "Pinned original-shape four-cycle flat walk; changed authoring poses require a new rig review"
+  }
+}
