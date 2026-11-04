@@ -56,15 +56,15 @@ Torse, cou et haut des pattes réunis, écailles originales sur les pieds, défo
 
 Revue locale encore stylisée : torse, cou et haut des pattes réunis en une surface fermée ; marche rectiligne sur plan plat contrôlée au CPU, dans l’éditeur et Godot isolés. Tête, ailes, bas des pattes, doigts et plumes restent des pièces séparées. Sculpture, plumage, intersections exhaustives, forces, terrain, vol, monde principal, réseau, VR et photoréalisme final non qualifiés.
 
-## Lapin — silhouette et marche lente
+## Lapin — museau, paupières et oreilles
 
-![Lapin — silhouette et marche lente — capture Godot de la recette téléchargée puis reconstruite](rabbit-original/v0.1.0/preview.png)
+![Lapin — museau, paupières et oreilles — capture Godot de la recette téléchargée puis reconstruite](rabbit-original/v0.2.0/preview.png)
 
-[Fiche 0.1.0](rabbit-original/v0.1.0/README.md) · [Recette JSON](rabbit-original/v0.1.0/recipe.json)
+[Fiche 0.2.0](rabbit-original/v0.2.0/README.md) · [Recette JSON](rabbit-original/v0.2.0/recipe.json)
 
-Première revue encore stylisée : tête et oreilles dédiées, pieds avant/arrière distincts et peau continue. Recette téléchargée puis reconstruite, déformations et appuis contrôlés dans l’éditeur et les deux modes Godot.
+Tête affinée encore stylisée : joues et arête nasale sculptées, contours de paupière fermés, oreilles plus courtes et épaisses, mâchoire moins contrastée. Recette téléchargée puis reconstruite, déformations et appuis contrôlés dans l’éditeur et les deux modes Godot.
 
-Première revue locale encore stylisée : marche lente rectiligne sur sol plat dans l’éditeur et Godot isolés. Sculpture du museau et des orbites, épaisseur des oreilles, queue, silhouette du pelage et détails du LOD2 restent ouverts. Bonds, forces/masse, terrain, collisions exhaustives, monde principal, serveur, réseau, VR et photoréalisme final non qualifiés.
+Revue locale encore stylisée : tête sculptée, contours de paupière fermés et oreilles épaissies ; marche lente rectiligne sur sol plat dans l’éditeur et Godot isolés. Raccords de composants, queue, silhouette du pelage et détails du LOD2 restent ouverts. Bonds, forces/masse, terrain, collisions exhaustives, monde principal, serveur, réseau, VR et photoréalisme final non qualifiés.
 
 ## Biche — silhouette et marche
 
