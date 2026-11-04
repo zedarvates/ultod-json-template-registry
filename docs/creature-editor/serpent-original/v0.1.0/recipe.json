@@ -1,0 +1,16 @@
+{
+  "schema": "uo.serpent-project/v1",
+  "delivery": "review_only",
+  "generator": "uo.serpent-original/v1",
+  "source_sha256": "19cf7fdde23df4cc3552dfd36918fef9f4c516ff45b9f0f91c69e8f196d4cfb8",
+  "recipe": {
+    "schema": "uo.serpent-shape/v1",
+    "delivery": "review_only",
+    "body_length_m": 3,
+    "body_radius_m": 0.085,
+    "wave_amplitude_m": 0.2,
+    "wave_cycles": 1.2,
+    "head_width_m": 0.12,
+    "scale_hue": 0.14
+  }
+}
