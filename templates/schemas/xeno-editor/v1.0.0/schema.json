@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ultimateodycer.com/schemas/xeno-editor/1.0.0",
+  "title": "Xeno editor review genome reference v1",
+  "allOf": [
+    {
+      "$ref": "https://ultimateodycer.com/schemas/template-contract/1.0.0"
+    },
+    {
+      "properties": {
+        "family": {
+          "const": "xeno-editor"
+        },
+        "spec": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "display_name": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "genome_file": {
+              "type": "string",
+              "pattern": "^assets/xeno-editor/[a-z0-9-]+/v[0-9]+\\.[0-9]+\\.[0-9]+/genome\\.json$"
+            },
+            "source_recipe_file": {
+              "type": "string",
+              "pattern": "^assets/xeno-editor/[a-z0-9-]+/v[0-9]+\\.[0-9]+\\.[0-9]+/source-recipe\\.json$"
+            },
+            "preview_file": {
+              "type": "string",
+              "pattern": "^assets/xeno-editor/[a-z0-9-]+/v[0-9]+\\.[0-9]+\\.[0-9]+/preview\\.png$"
+            },
+            "genome_sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "source_recipe_sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "preview_sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "reviewed_model_sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "review_status": {
+              "const": "review-only"
+            },
+            "evidence_scope": {
+              "const": "editor-export-and-static-godot-import"
+            }
+          },
+          "required": [
+            "display_name",
+            "genome_file",
+            "source_recipe_file",
+            "preview_file",
+            "genome_sha256",
+            "source_recipe_sha256",
+            "preview_sha256",
+            "reviewed_model_sha256",
+            "review_status",
+            "evidence_scope"
+          ]
+        }
+      }
+    }
+  ]
+}

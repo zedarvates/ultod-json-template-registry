@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/xeno-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "xeno-editor:giant-spider-eight-legs",
+  "slug": "giant-spider-eight-legs",
+  "family": "xeno-editor",
+  "version": "0.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "xeno-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:faf7a35f2081905a6d1f7d20c0a3b4b0293d633a0492ef7dd02b935413fc006f",
+  "spec": {
+    "display_name": "Araignée géante — huit pattes",
+    "genome_file": "assets/xeno-editor/giant-spider-eight-legs/v0.1.0/genome.json",
+    "source_recipe_file": "assets/xeno-editor/giant-spider-eight-legs/v0.1.0/source-recipe.json",
+    "preview_file": "assets/xeno-editor/giant-spider-eight-legs/v0.1.0/preview.png",
+    "genome_sha256": "48f918fb2da1914d15b9b02656dee84a22816664fd21dd98502ffc996019c11d",
+    "source_recipe_sha256": "3abfe5c6f4a548a4ad018851b1968bf3ee4a156fed05162ff4d3ee5a5b7168c1",
+    "preview_sha256": "727f1f577e1e0890be2a51ce85b2d035a17b4a98842a9537593b876ef612947f",
+    "reviewed_model_sha256": "687fe73f9a41a6e84bb9bcef5df656df1e7b574efb24417e23af4eb922955f30",
+    "review_status": "review-only",
+    "evidence_scope": "editor-export-and-static-godot-import"
+  }
+}

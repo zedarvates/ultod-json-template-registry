@@ -1,0 +1,15 @@
+{
+  "schema": "uo.rat-project/v1",
+  "generator": "uo.rat-original/v1",
+  "delivery": "review_only",
+  "source_sha256": "6f610f61774cadbb6d5cea02bbc8da11d849092ed6f0f81a6fb181f63f4805d2",
+  "recipe": {
+    "schema": "uo.rat-shape/v1",
+    "delivery": "review_only",
+    "body_length_m": 1.3,
+    "tail_length_m": 1.2,
+    "ear_radius_m": 0.1,
+    "stride_m": 0.2,
+    "period_s": 1.8
+  }
+}

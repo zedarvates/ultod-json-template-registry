@@ -124148,6 +124148,36 @@
       "supersedes": [
         "architecture-editor:uo-0160@1.6.1"
       ]
+    },
+    {
+      "name": "xeno-editor",
+      "kind": "json-schema",
+      "version": "1.0.0",
+      "status": "experimental",
+      "file": "templates/schemas/xeno-editor/v1.0.0/schema.json",
+      "sha256": "2beeddaacbd044c11d6ab7298837a746314a0f47a1a49e311d0e528337842754",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "xeno-editor:giant-spider-eight-legs",
+      "slug": "giant-spider-eight-legs",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:faf7a35f2081905a6d1f7d20c0a3b4b0293d633a0492ef7dd02b935413fc006f",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "giant-spider-eight-legs",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/giant-spider-eight-legs/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.0.0/schema.json",
+      "sha256": "2526c2f64e3b46dfeb81e9f4ac47f3b8b9cf90ae9da11348baa3dfb2e9693c98"
     }
   ],
   "aliases": []
