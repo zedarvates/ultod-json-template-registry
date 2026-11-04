@@ -1,0 +1,69 @@
+{
+  "schema": "uo.crocodile-cranial-profile-documentation/v1",
+  "id": "tapered-cranium-v4-metric-skin",
+  "delivery": "review_only",
+  "units": "meters",
+  "head_bind_pivot": [
+    0,
+    0.31,
+    -0.7
+  ],
+  "cranial_height_profile_z": [
+    -1.46,
+    -1.15,
+    -0.9,
+    -0.7,
+    -0.49
+  ],
+  "cranial_height_profile_y": [
+    0.288,
+    0.31,
+    0.345,
+    0.378,
+    0.352
+  ],
+  "cranial_lateral_scale_z": [
+    -1.46,
+    -1.26,
+    -1.1,
+    -0.9,
+    -0.7,
+    -0.5
+  ],
+  "cranial_lateral_scales": [
+    1,
+    1,
+    0.91,
+    0.96,
+    0.96,
+    1
+  ],
+  "eye_centers": [
+    [
+      -0.15,
+      0.402,
+      -0.735
+    ],
+    [
+      0.15,
+      0.402,
+      -0.735
+    ]
+  ],
+  "eye_local_radii": [
+    0.028,
+    0.018,
+    0.014
+  ],
+  "lid_tube_radius": 0.0045,
+  "iris_base_vertex_colour_linear": [
+    0.34,
+    0.255,
+    0.105
+  ],
+  "iris_clearcoat": 0.35,
+  "iris_roughness": 0.3,
+  "skin_cycles_per_meter": 2.1,
+  "tooth_shape": "Interleaved upper/lower arcades; position-based variable lengths 18-36 mm before lower-arcade factor 0.8; procedural tapered closed teeth.",
+  "scope": "Documentary design parameters, not a standalone generator or native species genome."
+}
