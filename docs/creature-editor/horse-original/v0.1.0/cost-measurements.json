@@ -1,0 +1,96 @@
+{
+  "schema": "uo.horse-bounded-cost-documentation/v1",
+  "delivery": "review_only",
+  "model_sha256": "1238fda8759608afd8ad14853756b85d4e73542c6a158d44008caad8e927855b",
+  "engine": "4.8-beta2 (official)",
+  "resolution": [
+    1280,
+    800
+  ],
+  "actors": 64,
+  "texture_images": 3,
+  "texture_dimensions": [
+    [
+      512,
+      512
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "shadows": false,
+  "vsync_requested": "disabled",
+  "warmup_frames_per_lod": 30,
+  "rows": [
+    {
+      "actors": 64,
+      "asset_triangles_per_actor": 12988.0,
+      "authored_scene_triangles": 831232,
+      "frame_completion_wall": {
+        "maximum_ms": 4.235,
+        "median_ms": 2.962,
+        "minimum_ms": 2.67,
+        "p95_ms": 3.431
+      },
+      "frames": 120,
+      "lod": 0,
+      "median_reported_draw_calls": 320,
+      "median_reported_primitives": 831232,
+      "sample_review_submission_cpu_wall": {
+        "maximum_ms": 0.91,
+        "median_ms": 0.609,
+        "minimum_ms": 0.553,
+        "p95_ms": 0.677
+      }
+    },
+    {
+      "actors": 64,
+      "asset_triangles_per_actor": 7024.0,
+      "authored_scene_triangles": 449536,
+      "frame_completion_wall": {
+        "maximum_ms": 4.421,
+        "median_ms": 2.87,
+        "minimum_ms": 2.625,
+        "p95_ms": 3.492
+      },
+      "frames": 120,
+      "lod": 1,
+      "median_reported_draw_calls": 320,
+      "median_reported_primitives": 449536,
+      "sample_review_submission_cpu_wall": {
+        "maximum_ms": 0.77,
+        "median_ms": 0.584,
+        "minimum_ms": 0.542,
+        "p95_ms": 0.716
+      }
+    },
+    {
+      "actors": 64,
+      "asset_triangles_per_actor": 3668.0,
+      "authored_scene_triangles": 234752,
+      "frame_completion_wall": {
+        "maximum_ms": 3.135,
+        "median_ms": 2.683,
+        "minimum_ms": 2.621,
+        "p95_ms": 2.918
+      },
+      "frames": 120,
+      "lod": 2,
+      "median_reported_draw_calls": 320,
+      "median_reported_primitives": 234752,
+      "sample_review_submission_cpu_wall": {
+        "maximum_ms": 0.68,
+        "median_ms": 0.56,
+        "minimum_ms": 0.539,
+        "p95_ms": 0.613
+      }
+    }
+  ],
+  "scope": "One isolated 64-actor shadowless scene, warm cache and 30 warmup frames/LOD. Wall time ends at the engine frame_post_draw signal; this is not a GPU timestamp/fence. Sampling wall time is submission cost, not total animation or GPU time. No world/AI/network/physics/VR/crowd gameplay or FPS guarantee.",
+  "observed_renderer_startup": "Vulkan 1.4.341 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 5060 Ti"
+}

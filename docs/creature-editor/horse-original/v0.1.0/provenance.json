@@ -1,0 +1,26 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "0d7d7fa0312106b42ca5a3e4b4b9b9a6d36007bb3e1bb76a253cbdce9ddca1aa",
+  "preview_file": "preview.png",
+  "preview_sha256": "e99871e44eb4de4848f9a15c0a4d07dbd278ac5ad2b48f5259b0a07c58d25152",
+  "head_preview_file": "head.png",
+  "head_preview_sha256": "d028f6b70aa26f6f201fb3efd74c83cab725bd9176f1f36f8e788962d4c5dae8",
+  "feet_preview_file": "feet.png",
+  "feet_preview_sha256": "95ff728d7d1158198842a73673251b077036183147de6df3b9e56e334a162ddc",
+  "rendered_model_sha256": "5a8c0ef700e77094ccce03d499b46717f2cd9a4d614ef3dba3cefe123ea51e80",
+  "source_review_sha256": "1238fda8759608afd8ad14853756b85d4e73542c6a158d44008caad8e927855b",
+  "preview_kind": "Godot captures of the actual downloaded and reconstructed equine recipe",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.horse-original/v1 generator and original editor equine parts cache",
+    "original shared short-coat bitmap and derivative maps",
+    "connected trunk with rebuilt round cannon shafts and constrained skinning",
+    "native/editor review adapters"
+  ],
+  "rights": "Original project geometry and reused original procedural editor parts; original generated short-coat detail and native captures. No third-party reference pixels or historical game meshes copied.",
+  "scope": "Première revue équine encore stylisée sur sol plat, dans l’éditeur et Godot isolés. Tête, naseaux, crinière et queue restent à affiner. Aucun photoréalisme final, terrain, virage, force, collision exhaustive, monde principal, réseau ou VR qualifié."
+}
