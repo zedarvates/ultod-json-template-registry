@@ -1,0 +1,76 @@
+{
+  "frames": 601,
+  "bones": 31,
+  "lod_triangles": [
+    9562,
+    5438,
+    3066
+  ],
+  "minimum_all_geometry_y_m": 0.00019978837056418915,
+  "maximum_stance_absolute_y_m": 0.00033655715162260545,
+  "maximum_world_stance_anchor_error_m": 0.00013684027686936188,
+  "minimum_expected_supports": 3,
+  "minimum_peak_swing_clearance_m": 0.04494504345701315,
+  "maximum_sampled_edge_length_ratio": 1.4052112978553517,
+  "minimum_sampled_edge_length_ratio": 0.5648178067323624,
+  "texture_dimensions": [
+    [
+      512,
+      512
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "rgba8_complete_mip_estimate_bytes": 2097148,
+  "schema": "uo.crocodile-documentary-validation/v1",
+  "delivery": "review_only",
+  "model_sha256": "0d76a1defadff87d59fe4a89de474407f3729b9e1459b26fb27acde3840ed797",
+  "native_engine": "4.8-beta2 (official)",
+  "native_rendering_method": "forward_plus",
+  "native_samples_per_lod": 241,
+  "native_maximum_stance_anchor_error_m": 0.000136945105623454,
+  "native_minimum_supports": 3,
+  "editor_source_sha256": "64520c6dbb536597833df5c0289834d7a614d889a29cb0444d4572b383a411ce",
+  "editor_recipe_download_and_rebuild": true,
+  "selected_native_renderers": [
+    "forward_plus",
+    "gl_compatibility"
+  ],
+  "cranial_profile": "tapered-cranium-v4-metric-skin",
+  "cranial_uv_measurements": [
+    {
+      "lod": 0,
+      "cranial_triangles": 1050,
+      "zero_uv_area_triangles": 0,
+      "minimum_uv_triangle_area": 2.3558473912999034e-05,
+      "sidewall_uv_triangles_checked": 94,
+      "maximum_sidewall_uv_anisotropy": 1.4207236766815186,
+      "exported_body_component_attributes_match": true
+    },
+    {
+      "lod": 1,
+      "cranial_triangles": 622,
+      "zero_uv_area_triangles": 0,
+      "minimum_uv_triangle_area": 3.4266384318470955e-05,
+      "sidewall_uv_triangles_checked": 66,
+      "maximum_sidewall_uv_anisotropy": 1.4016175270080566,
+      "exported_body_component_attributes_match": true
+    },
+    {
+      "lod": 2,
+      "cranial_triangles": 358,
+      "zero_uv_area_triangles": 0,
+      "minimum_uv_triangle_area": 0.00021828537865076214,
+      "sidewall_uv_triangles_checked": 40,
+      "maximum_sidewall_uv_anisotropy": 1.5493042469024658,
+      "exported_body_component_attributes_match": true
+    }
+  ],
+  "scope": "Revue CPU, éditeur réel et Godot isolé sur sol plat. Sculpture et raccords UV restent en revue ; terrain, nage, virages, forces, collisions exhaustives, monde principal, réseau et VR non qualifiés."
+}

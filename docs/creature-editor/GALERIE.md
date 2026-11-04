@@ -26,15 +26,15 @@ Recette exportée et capture de sa reconstruction, conservées sans réécriture
 
 Instantané historique de revue ; consulter la fiche pour la portée exacte des contrôles.
 
-## Crocodilien — paupières et iris
+## Crocodilien — tête affinée et peau métrique
 
-![Crocodilien — paupières et iris — capture Godot de la recette reconstruite](crocodile-original/v0.3.0/preview.png)
+![Crocodilien — tête affinée et peau métrique — capture Godot de la recette reconstruite](crocodile-original/v0.4.0/preview.png)
 
-[Fiche 0.3.0](crocodile-original/v0.3.0/README.md) · [Recette JSON](crocodile-original/v0.3.0/recipe.json)
+[Fiche 0.4.0](crocodile-original/v0.4.0/README.md) · [Recette JSON](crocodile-original/v0.4.0/recipe.json)
 
-Yeux aplatis et orientés, paupières texturées et iris nuancé sans texture supplémentaire. UV crâniens corrigés conservés ; recette téléchargée et reconstruite, captures Godot et appuis mesurés.
+Crâne aminci et resserré, yeux moins brillants, dents variées et UV métriques sur le corps et les pattes. Même budget de triangles et d’images ; recette reconstruite et marche contrôlée dans l’éditeur et Godot.
 
-Revue CPU, éditeur réel et Godot isolé sur sol plat ; sculpture et textures encore en revue. Terrain, nage, virages, forces, collisions exhaustives, gameplay réseau et VR non qualifiés.
+Revue CPU, éditeur réel et Godot isolé sur sol plat. Sculpture et raccords UV restent en revue ; terrain, nage, virages, forces, collisions exhaustives, monde principal, réseau et VR non qualifiés.
 
 ## Vache brune — crâne, oreilles et fanon
 

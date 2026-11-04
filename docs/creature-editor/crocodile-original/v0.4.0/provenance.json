@@ -1,0 +1,23 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "fe0ec51704d6ce5479c7f994c1b47e8956a9161e09ca4d1ef9dfb3622b912c14",
+  "preview_file": "preview.png",
+  "preview_sha256": "5679621a83bbc78fbb95ac481614c3c7c8c9521ff3ee20d7ca4df248b8e7c707",
+  "head_preview_file": "head.png",
+  "head_preview_sha256": "e4c7bf4bf7b1de5c938779dc1b988b9847974dd8fe5e61c72f69ab1a99efdc31",
+  "rendered_model_sha256": "0d76a1defadff87d59fe4a89de474407f3729b9e1459b26fb27acde3840ed797",
+  "source_review_sha256": "64520c6dbb536597833df5c0289834d7a614d889a29cb0444d4572b383a411ce",
+  "preview_kind": "Godot captures of the reconstructed downloaded recipe",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.crocodile-original/v1 with tapered-cranium-v4-metric-skin",
+    "original shared cranial module and metric UV chart module",
+    "original crocodilian skin maps and flat-walk review adapter"
+  ],
+  "rights": "Original project geometry and generated skin bitmap, procedural derivative maps and vertex colours; native Godot screenshots. No reference pixels or geometry copied.",
+  "validation_scope": "Revue CPU, éditeur réel et Godot isolé sur sol plat. Sculpture et raccords UV restent en revue ; terrain, nage, virages, forces, collisions exhaustives, monde principal, réseau et VR non qualifiés."
+}
