@@ -1,0 +1,26 @@
+{
+  "schema": "uo.crocodile-cranial-profile-documentation/v1",
+  "id": "sculpted-cranium-v6-continuous-roof",
+  "delivery": "review_only",
+  "units": "meters",
+  "head_bind_pivot": [
+    0,
+    0.31,
+    -0.7
+  ],
+  "snout_roof_delta": "-0.014 * exp(-((z+1.04)/0.22)^2)",
+  "snout_floor_delta": "+0.008 * exp(-((z+1.04)/0.25)^2)",
+  "cheek_delta": "-0.007 * (abs(x)/width)^2 * exp(-((z+0.86)/0.21)^2)",
+  "upper_bevel_drop_m": 0.023,
+  "lower_side_width_ratio": 0.94,
+  "eye_local_radii": [
+    0.024,
+    0.0155,
+    0.0105
+  ],
+  "eye_attachment": "Actual cranial LOD ray intersection; centre 1.7mm outward; posterior insertion8.8mm",
+  "lid_radius_m": "0.0032 + 0.0023 * max(0,sin(orbital_angle))",
+  "roof_uv": "Least-squares conformal chart on the actual roof, side and nasal cavity triangles",
+  "previous_recipe_compatibility": "v5 retained by the local generator and immutable prior reviews",
+  "scope": "Documentary parameters, not a standalone generator or native species genome."
+}

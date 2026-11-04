@@ -1,0 +1,53 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "cad7ff40a1073ab0ca5e1583dedf5e0fdaf7144da3b7f4797c6497bcfd9ec8d3",
+  "preview_file": "preview.png",
+  "preview_sha256": "26c9f37cc81a16c68ede8482167f8030cff51ee91bfb80e798a85db7629a47ec",
+  "head_preview_file": "head.png",
+  "head_preview_sha256": "52df6f99498bb87571ec33ec419104ba08d8b8fdad8c335736053f6449e0d23b",
+  "rendered_model_sha256": "3b3548aa758b3a1ccadd6575c2ffc2fc854418cb212f72a0a9c85678dcde91d0",
+  "source_review_sha256": "eaced26e08958f7bf116cd6154e10b0510c4acc40899057e59cc561348c181a6",
+  "preview_kind": "Unmodified native Godot captures of the reconstructed downloaded recipe",
+  "captures": [
+    {
+      "file": "preview.png",
+      "sha256": "26c9f37cc81a16c68ede8482167f8030cff51ee91bfb80e798a85db7629a47ec"
+    },
+    {
+      "file": "head.png",
+      "sha256": "52df6f99498bb87571ec33ec419104ba08d8b8fdad8c335736053f6449e0d23b"
+    },
+    {
+      "file": "head-lod2.png",
+      "sha256": "21fd7379378ede2cac67fff28e703de9999151ede0dbad097a89739bc5618395"
+    },
+    {
+      "file": "feet-0.png",
+      "sha256": "ceb1100b9a62dec624a56cb4f6bcbd7412d0724f212ec7a3147fb5d8c3c64114"
+    },
+    {
+      "file": "feet-25.png",
+      "sha256": "bea80ec27b3a2e24d10fb591efc01fe09a409766ee168dfd39dc2bb35c4aa557"
+    },
+    {
+      "file": "feet-50.png",
+      "sha256": "ab3eee19008dc0653446e1982e8210a401e023681fe4db99f7160a62ef0be2cf"
+    },
+    {
+      "file": "feet-75.png",
+      "sha256": "c84a69bebd58ed01122d8f69599bab53812ae99905322fc91c9539aa181667cc"
+    }
+  ],
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.crocodile-original/v1 with sculpted-cranium-v6-continuous-roof",
+    "shared cranial definition, conformal roof unwrap and actual-LOD eye sockets",
+    "original crocodilian skin maps and flat-walk review adapter"
+  ],
+  "rights": "Original project geometry, generated skin bitmap, procedural derivative maps, vertex colours and native Godot captures. No external reference pixels or geometry copied.",
+  "validation_scope": "Revue locale CPU, éditeur réel et Godot isolé, marche rectiligne sur sol plat. Raccord tête/cou, coutures du corps, dentition et finition artistique restent en revue. Terrain, virages, nage, forces, collisions exhaustives, foule, monde principal, réseau et VR non qualifiés."
+}
