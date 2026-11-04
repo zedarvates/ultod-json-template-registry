@@ -1,0 +1,46 @@
+{
+  "schema": "uo.crocodile-cranial-profile-documentation/v1",
+  "id": "rounded-cranium-v3-eyelids",
+  "delivery": "review_only",
+  "units": "meters",
+  "head_bind_pivot": [
+    0,
+    0.31,
+    -0.7
+  ],
+  "eye_centers": [
+    [
+      -0.155,
+      0.406,
+      -0.735
+    ],
+    [
+      0.155,
+      0.406,
+      -0.735
+    ]
+  ],
+  "eye_local_radii": [
+    0.028,
+    0.018,
+    0.014
+  ],
+  "pupil_local_radii": [
+    0.0035,
+    0.012,
+    0.0025
+  ],
+  "orbit_normal_before_normalization": [
+    0.72,
+    0.55,
+    -0.42
+  ],
+  "lid_ellipse_radii": [
+    0.03,
+    0.019
+  ],
+  "lid_tube_radius": 0.0055,
+  "iris_colour_method": "vertex colours: amber radial fibres and dark limbal ring; no additional texture",
+  "sidewall_uv_cycles_per_meter": 2.1,
+  "scope": "Documentary parameters; not a standalone generator or native editor genome"
+}
