@@ -1,0 +1,49 @@
+{
+  "schema": "uo.horse-anatomy-profile-documentation/v1",
+  "delivery": "review_only",
+  "identity": "mobile:equines_horse_dark_brown",
+  "walking_legs": 4,
+  "load_bearing_digits_per_foot": 1,
+  "articulated_segments_per_limb": 4,
+  "tail_joints": 5,
+  "mane_joints": 3,
+  "head_component_contains_torso": false,
+  "head_source_pitch_degrees": -18,
+  "head_source_scale": 0.62,
+  "ear_source_scale": 0.55,
+  "head_bind_pivot_m": [
+    0,
+    1.98,
+    -1.2
+  ],
+  "hoof_width_length_height_m": [
+    0.17,
+    0.23,
+    0.12
+  ],
+  "metric_texture_cycles_per_meter": 5,
+  "original_parts": [
+    {
+      "identity": "head_horse_02",
+      "sha256": "3f60a822f33e118262605004a7f668aac8546ff42961248ac3f6a7242db8de93"
+    },
+    {
+      "identity": "ear_horse_02",
+      "sha256": "631cd8f7d18f67bd063da8bd40e90790e78a93f51f59f59393e052a2c11697a7"
+    },
+    {
+      "identity": "tail_horse_03",
+      "sha256": "e9e4b0c928da33b25053bc422e17039a5cd35135c1d3f33127a9b032d38be255"
+    },
+    {
+      "identity": "mane_horse_04",
+      "sha256": "32b34b2d6194466bbd6b94b6bdcbf47a782b87592de9000d8c0a57fc055cf585"
+    }
+  ],
+  "source_art_status": "Head and mane source decisions remain pending; no human art status or server authority promoted",
+  "references": [
+    "https://horses.extension.org/anatomy-of-the-horses-hoof/",
+    "https://open.lib.umn.edu/largeanimalanatomy/chapter/neck-head/"
+  ],
+  "reference_use": "Qualitative anatomical guidance only; original project parts, not a scan or copied reference media"
+}

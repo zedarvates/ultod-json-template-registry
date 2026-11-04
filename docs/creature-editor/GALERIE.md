@@ -36,6 +36,16 @@ Crâne aminci et resserré, yeux moins brillants, dents variées et UV métrique
 
 Revue CPU, éditeur réel et Godot isolé sur sol plat. Sculpture et raccords UV restent en revue ; terrain, nage, virages, forces, collisions exhaustives, monde principal, réseau et VR non qualifiés.
 
+## Cheval brun — silhouette et marche
+
+![Cheval brun — silhouette et marche — capture Godot de la recette reconstruite](horse-original/v0.1.0/preview.png)
+
+[Fiche 0.1.0](horse-original/v0.1.0/README.md) · [Recette JSON](horse-original/v0.1.0/recipe.json)
+
+Première revue équine : pièces originales de l’éditeur, oreilles raccordées, crinière visible et membres reconstruits avec sections mesurées. Recette reconstruite, appuis et coût de 64 instances contrôlés ; finition encore stylisée.
+
+Première revue équine encore stylisée sur sol plat, dans l’éditeur et Godot isolés. Tête, naseaux, crinière et queue restent à affiner. Aucun photoréalisme final, terrain, virage, force, collision exhaustive, monde principal, réseau ou VR qualifié.
+
 ## Vache brune — crâne, oreilles et fanon
 
 ![Vache brune — crâne, oreilles et fanon — capture Godot de la recette reconstruite](bovine-original/v0.2.0/preview.png)

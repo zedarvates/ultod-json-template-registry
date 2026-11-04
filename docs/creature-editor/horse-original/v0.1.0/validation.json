@@ -1,0 +1,86 @@
+{
+  "frames": 601,
+  "bones": 37,
+  "lod_triangles": [
+    12988,
+    7024,
+    3668
+  ],
+  "minimum_all_geometry_y_m": -9.146202478686205e-07,
+  "maximum_stance_absolute_y_m": 8.364482883799857e-05,
+  "maximum_world_stance_anchor_error_m": 8.376261726414548e-05,
+  "minimum_expected_supports": 3,
+  "maximum_sampled_edge_length_ratio": 1.195263993703248,
+  "minimum_sampled_edge_length_ratio": 0.6470200865696671,
+  "minimum_face_area_ratio": 0.4742174728813321,
+  "minimum_skinned_normal_alignment": 0.2628868588042029,
+  "minimum_peak_swing_clearance_m": 0.10625841770091243,
+  "texture_dimensions": [
+    [
+      512,
+      512
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "rgba8_complete_mip_estimate_bytes": 2097148,
+  "schema": "uo.horse-documentary-validation/v1",
+  "delivery": "review_only",
+  "model_sha256": "5a8c0ef700e77094ccce03d499b46717f2cd9a4d614ef3dba3cefe123ea51e80",
+  "native_samples_per_lod": 241,
+  "native_minimum_supports": 3,
+  "native_maximum_stance_anchor_error_m": 0.000296048208838329,
+  "native_minimum_peak_swing_clearance_m": 0.109115317463875,
+  "native_cached_instances_share_textures": true,
+  "selected_forward_plus_and_compatibility_passed": true,
+  "head_body_attributes_and_indices_match": true,
+  "ear_sockets": [
+    {
+      "lod": 0,
+      "side": "L",
+      "socket_inside_actual_cranium": true,
+      "dorsal_inset_m": 0.013999972159081164
+    },
+    {
+      "lod": 0,
+      "side": "R",
+      "socket_inside_actual_cranium": true,
+      "dorsal_inset_m": 0.013999971709814096
+    },
+    {
+      "lod": 1,
+      "side": "L",
+      "socket_inside_actual_cranium": true,
+      "dorsal_inset_m": 0.014008440067604155
+    },
+    {
+      "lod": 1,
+      "side": "R",
+      "socket_inside_actual_cranium": true,
+      "dorsal_inset_m": 0.01402554784743723
+    },
+    {
+      "lod": 2,
+      "side": "L",
+      "socket_inside_actual_cranium": true,
+      "dorsal_inset_m": 0.014036784022667115
+    },
+    {
+      "lod": 2,
+      "side": "R",
+      "socket_inside_actual_cranium": true,
+      "dorsal_inset_m": 0.014011363672908117
+    }
+  ],
+  "editor_play_pause_resume_end_replay_passed": true,
+  "selected_model_bytes": 2372688,
+  "unwelded_candidate_bytes": 3915936,
+  "packed_triangle_attributes_and_images_exact": true,
+  "scope": "Première revue équine encore stylisée sur sol plat, dans l’éditeur et Godot isolés. Tête, naseaux, crinière et queue restent à affiner. Aucun photoréalisme final, terrain, virage, force, collision exhaustive, monde principal, réseau ou VR qualifié."
+}
