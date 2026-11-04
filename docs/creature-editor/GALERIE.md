@@ -46,6 +46,26 @@ Première revue équine : pièces originales de l’éditeur, oreilles raccordé
 
 Première revue équine encore stylisée sur sol plat, dans l’éditeur et Godot isolés. Tête, naseaux, crinière et queue restent à affiner. Aucun photoréalisme final, terrain, virage, force, collision exhaustive, monde principal, réseau ou VR qualifié.
 
+## Biche — silhouette et marche
+
+![Biche — silhouette et marche — capture Godot de la recette téléchargée puis reconstruite](deer-doe-original/v0.1.0/preview.png)
+
+[Fiche 0.1.0](deer-doe-original/v0.1.0/README.md) · [Recette JSON](deer-doe-original/v0.1.0/recipe.json)
+
+Première revue cervidée : tête originale dédiée, grandes oreilles, pelage nuancé et deux sabots pointus par pied. Recette téléchargée et reconstruite, appuis vérifiés dans l’éditeur et Godot ; finition encore stylisée.
+
+Première revue cervidée encore stylisée : CPU, éditeur réel et Godot isolé sur sol plat. Visage, poils, raccords et dimorphisme du corps restent à affiner. Terrain, virages, forces, intersections exhaustives, monde principal, réseau et VR non qualifiés.
+
+## Cerf à bois — silhouette et marche
+
+![Cerf à bois — silhouette et marche — capture Godot de la recette téléchargée puis reconstruite](deer-stag-original/v0.1.0/preview.png)
+
+[Fiche 0.1.0](deer-stag-original/v0.1.0/README.md) · [Recette JSON](deer-stag-original/v0.1.0/recipe.json)
+
+Première revue cervidée : tête originale dédiée, grandes oreilles, pelage nuancé et deux sabots pointus par pied. Recette téléchargée et reconstruite, appuis vérifiés dans l’éditeur et Godot ; finition encore stylisée.
+
+Première revue cervidée encore stylisée : CPU, éditeur réel et Godot isolé sur sol plat. Visage, poils, raccords et dimorphisme du corps restent à affiner. Terrain, virages, forces, intersections exhaustives, monde principal, réseau et VR non qualifiés.
+
 ## Vache brune — crâne, oreilles et fanon
 
 ![Vache brune — crâne, oreilles et fanon — capture Godot de la recette reconstruite](bovine-original/v0.2.0/preview.png)

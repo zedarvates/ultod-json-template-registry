@@ -1,0 +1,256 @@
+{
+  "schema": "uo.cervid-anatomy-profile-documentation/v1",
+  "delivery": "review_only",
+  "identity": "mobile:deer_stag",
+  "variant": "stag",
+  "walking_legs": 4,
+  "load_bearing_digits_per_foot": 2,
+  "raised_dewclaws_per_foot": 2,
+  "articulated_segments_per_limb": 4,
+  "tail_joints": 3,
+  "head_component_contains_torso": false,
+  "antlers": 2,
+  "head_body_part_parity": [
+    {
+      "lod": 0,
+      "cranial_meshes_with_matching_attributes": 15,
+      "feet": [
+        {
+          "limb": "FrontL",
+          "load_bearing_digits": [
+            {
+              "sole_area_m2": 0.0022689348998454766,
+              "length_m": 0.09988492727279663,
+              "width_m": 0.03133007884025574,
+              "front_width_m": 0.021426603198051453
+            },
+            {
+              "sole_area_m2": 0.0022689344808388685,
+              "length_m": 0.09988492727279663,
+              "width_m": 0.03133006393909454,
+              "front_width_m": 0.021426603198051453
+            }
+          ],
+          "raised_dewclaws": 2
+        },
+        {
+          "limb": "FrontR",
+          "load_bearing_digits": [
+            {
+              "sole_area_m2": 0.0022689344808388685,
+              "length_m": 0.09988492727279663,
+              "width_m": 0.03133006393909454,
+              "front_width_m": 0.021426603198051453
+            },
+            {
+              "sole_area_m2": 0.0022689348998454766,
+              "length_m": 0.09988492727279663,
+              "width_m": 0.03133007884025574,
+              "front_width_m": 0.021426603198051453
+            }
+          ],
+          "raised_dewclaws": 2
+        },
+        {
+          "limb": "HindL",
+          "load_bearing_digits": [
+            {
+              "sole_area_m2": 0.0018789042075759719,
+              "length_m": 0.09089529514312744,
+              "width_m": 0.028510376811027527,
+              "front_width_m": 0.01949821412563324
+            },
+            {
+              "sole_area_m2": 0.001878904450734352,
+              "length_m": 0.09089529514312744,
+              "width_m": 0.02851034700870514,
+              "front_width_m": 0.019498199224472046
+            }
+          ],
+          "raised_dewclaws": 2
+        },
+        {
+          "limb": "HindR",
+          "load_bearing_digits": [
+            {
+              "sole_area_m2": 0.001878904450734352,
+              "length_m": 0.09089529514312744,
+              "width_m": 0.02851034700870514,
+              "front_width_m": 0.019498199224472046
+            },
+            {
+              "sole_area_m2": 0.0018789042075759716,
+              "length_m": 0.09089529514312744,
+              "width_m": 0.028510376811027527,
+              "front_width_m": 0.01949821412563324
+            }
+          ],
+          "raised_dewclaws": 2
+        }
+      ]
+    },
+    {
+      "lod": 1,
+      "cranial_meshes_with_matching_attributes": 15,
+      "feet": [
+        {
+          "limb": "FrontL",
+          "load_bearing_digits": [
+            {
+              "sole_area_m2": 0.00221812253409892,
+              "length_m": 0.09395945072174072,
+              "width_m": 0.03171826899051666,
+              "front_width_m": 0.019600912928581238
+            },
+            {
+              "sole_area_m2": 0.0022181228234057215,
+              "length_m": 0.09395945072174072,
+              "width_m": 0.03171829879283905,
+              "front_width_m": 0.01960092782974243
+            }
+          ],
+          "raised_dewclaws": 2
+        },
+        {
+          "limb": "FrontR",
+          "load_bearing_digits": [
+            {
+              "sole_area_m2": 0.0022181228234057215,
+              "length_m": 0.09395945072174072,
+              "width_m": 0.03171829879283905,
+              "front_width_m": 0.01960092782974243
+            },
+            {
+              "sole_area_m2": 0.00221812253409892,
+              "length_m": 0.09395945072174072,
+              "width_m": 0.03171826899051666,
+              "front_width_m": 0.019600912928581238
+            }
+          ],
+          "raised_dewclaws": 2
+        },
+        {
+          "limb": "HindL",
+          "load_bearing_digits": [
+            {
+              "sole_area_m2": 0.0018368275662647975,
+              "length_m": 0.08550310134887695,
+              "width_m": 0.028863638639450073,
+              "front_width_m": 0.017836838960647583
+            },
+            {
+              "sole_area_m2": 0.0018368270325113132,
+              "length_m": 0.08550310134887695,
+              "width_m": 0.028863638639450073,
+              "front_width_m": 0.017836838960647583
+            }
+          ],
+          "raised_dewclaws": 2
+        },
+        {
+          "limb": "HindR",
+          "load_bearing_digits": [
+            {
+              "sole_area_m2": 0.0018368270325113132,
+              "length_m": 0.08550310134887695,
+              "width_m": 0.028863638639450073,
+              "front_width_m": 0.017836838960647583
+            },
+            {
+              "sole_area_m2": 0.0018368275662647977,
+              "length_m": 0.08550310134887695,
+              "width_m": 0.028863638639450073,
+              "front_width_m": 0.017836838960647583
+            }
+          ],
+          "raised_dewclaws": 2
+        }
+      ]
+    },
+    {
+      "lod": 2,
+      "cranial_meshes_with_matching_attributes": 15,
+      "feet": [
+        {
+          "limb": "FrontL",
+          "load_bearing_digits": [
+            {
+              "sole_area_m2": 0.0020623128260144345,
+              "length_m": 0.08882111310958862,
+              "width_m": 0.03133004903793335,
+              "front_width_m": 0.015949562191963196
+            },
+            {
+              "sole_area_m2": 0.002062313064366439,
+              "length_m": 0.08882111310958862,
+              "width_m": 0.03133006393909454,
+              "front_width_m": 0.015949562191963196
+            }
+          ],
+          "raised_dewclaws": 2
+        },
+        {
+          "limb": "FrontR",
+          "load_bearing_digits": [
+            {
+              "sole_area_m2": 0.002062313064366439,
+              "length_m": 0.08882111310958862,
+              "width_m": 0.03133006393909454,
+              "front_width_m": 0.015949562191963196
+            },
+            {
+              "sole_area_m2": 0.0020623128260144345,
+              "length_m": 0.08882111310958862,
+              "width_m": 0.03133004903793335,
+              "front_width_m": 0.015949562191963196
+            }
+          ],
+          "raised_dewclaws": 2
+        },
+        {
+          "limb": "HindL",
+          "load_bearing_digits": [
+            {
+              "sole_area_m2": 0.0017078012188576077,
+              "length_m": 0.08082717657089233,
+              "width_m": 0.028510361909866333,
+              "front_width_m": 0.014514103531837463
+            },
+            {
+              "sole_area_m2": 0.0017078006889450503,
+              "length_m": 0.08082717657089233,
+              "width_m": 0.028510361909866333,
+              "front_width_m": 0.014514103531837463
+            }
+          ],
+          "raised_dewclaws": 2
+        },
+        {
+          "limb": "HindR",
+          "load_bearing_digits": [
+            {
+              "sole_area_m2": 0.0017078006889450503,
+              "length_m": 0.08082717657089233,
+              "width_m": 0.028510361909866333,
+              "front_width_m": 0.014514103531837463
+            },
+            {
+              "sole_area_m2": 0.0017078012188576077,
+              "length_m": 0.08082717657089233,
+              "width_m": 0.028510361909866333,
+              "front_width_m": 0.014514103531837463
+            }
+          ],
+          "raised_dewclaws": 2
+        }
+      ]
+    }
+  ],
+  "coat": "Original brown short coat with cream throat, chin, eye rims, muzzle band, underside and lower tail. Qualitative white-tailed-deer reference, not a scan or a species-accuracy certification.",
+  "male_body_status": "The initial stag shares the doe body proportions; sexual dimorphism remains to refine.",
+  "references": [
+    "https://mdc.mo.gov/discover-nature/field-guide/white-tailed-deer",
+    "https://www.ncwildlife.gov/species/white-tailed-deer"
+  ],
+  "reference_use": "Qualitative morphology only; no copied reference image or mesh"
+}
