@@ -1,0 +1,46 @@
+{
+  "schema": "uo.cougar-anatomy-profile-documentation/v1",
+  "delivery": "review_only",
+  "profile": "puma-concolor-v2",
+  "identity": "mobile:felines_cougar",
+  "walking_legs": 4,
+  "weight_bearing_digits_per_paw": 4,
+  "fore_raised_dewclaws_each": 1,
+  "tail_joints": 8,
+  "head_bind_pivot_m": [
+    0,
+    0.75,
+    -0.76
+  ],
+  "continuous_cranium_triangles": [
+    2400,
+    1200,
+    520
+  ],
+  "cranial_original_sculpt_input_sha256": "29b3ba6cc0f3a95f92483d76fc3d944c5f3c1781705301f969d114c593d760c7",
+  "cranial_sculpt_cache_files": [
+    {
+      "file": "cranial-lod0.json",
+      "sha256": "791bf3c31888ff4435ba10697546eb7087c3c0578039504313271a1136ee228c"
+    },
+    {
+      "file": "cranial-lod1.json",
+      "sha256": "2a9b9b7ef4752bbae43d64dc22dd0070f9fea888b7dfae5672abc178889f6ce5"
+    },
+    {
+      "file": "cranial-lod2.json",
+      "sha256": "ea6aed5f5d4a62ff86ca928201b8f597371c59653c7d0eebf079d708b986fc14"
+    }
+  ],
+  "pupil_shape": "round central disc clipped to the almond lid aperture",
+  "ocular_inset_m": 0.006,
+  "iris_clearcoat": 1,
+  "pupil_clearcoat": 0.9,
+  "body_cranium_tail_texture_cycles_per_meter": 5,
+  "colour_method": "Neutral original fur luminance detail with smooth tawny/cream vertex pigment; same shading on both semantic cranial regions",
+  "references": [
+    "https://home.nps.gov/articles/000/puma-profiles-p-106.htm",
+    "https://mdc.mo.gov/discover-nature/field-guide/mountain-lion"
+  ],
+  "reference_use": "Qualitative visual comparison only, not texture or geometry inputs"
+}
