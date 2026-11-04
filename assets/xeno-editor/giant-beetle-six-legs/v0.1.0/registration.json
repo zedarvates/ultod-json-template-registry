@@ -1,0 +1,79 @@
+{
+  "schema": "uo.creature-editor-review-parts-fragment/v1",
+  "delivery": "review_only",
+  "parts": [
+    {
+      "part_id": "arth_antenna_beetle_original_01",
+      "name": "Antennes de scarabée originales",
+      "category": "sensor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "arth_antenna_beetle_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/arth_antenna_beetle_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "d308f0c4a01729bf5609b2f1d8a47e14a7a369949f71709ff801e79d735289f7",
+      "bytes": 5072,
+      "triangles": 200,
+      "bounds": {
+        "min": [
+          -0.794,
+          0.031,
+          -0.589
+        ],
+        "max": [
+          0.794,
+          0.459,
+          -0.191
+        ]
+      },
+      "textures": 0,
+      "metadata": {
+        "category": "sensor",
+        "part_role": "primitive",
+        "source": "original local parametric geometry"
+      }
+    }
+  ],
+  "design": {
+    "parts": {
+      "arth_antenna_beetle_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "sensor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original paired antennae; local review only."
+      }
+    }
+  }
+}

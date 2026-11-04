@@ -14,7 +14,7 @@ class XenoEditorAssetTests(unittest.TestCase):
         for entry in entries:
             spec = json.loads((ROOT / entry["file"]).read_text(encoding="utf-8"))["spec"]
             assets = {}
-            for name in ("genome", "source_recipe", "preview"):
+            for name in (("genome", "source_recipe", "preview", "part", "registration") if "part_file" in spec else ("genome", "source_recipe", "preview")):
                 path = PurePosixPath(spec[name + "_file"])
                 self.assertEqual(path.parts[:2], ("assets", "xeno-editor"))
                 self.assertNotIn("..", path.parts)
@@ -27,6 +27,11 @@ class XenoEditorAssetTests(unittest.TestCase):
             self.assertFalse(genome["server_authoritative"])
             self.assertEqual(genome["bestiary_provenance"]["recipe_sha256"], spec["source_recipe_sha256"])
             self.assertTrue(assets["preview"].startswith(b"\x89PNG\r\n\x1a\n"))
+            if "part" in assets:
+                self.assertTrue(assets["part"].startswith(b"glTF"))
+                fragment = json.loads(assets["registration"])
+                self.assertEqual(fragment["assets"][0]["sha256"], spec["part_sha256"])
+                self.assertTrue(fragment["parts"][0]["review_only"])
 
 
 if __name__ == "__main__":
