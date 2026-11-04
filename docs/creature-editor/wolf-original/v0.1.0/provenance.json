@@ -1,0 +1,21 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "efda6f88ca575cb89a29d7b40387621742591be1da25863ca6415659e2346c7f",
+  "preview_file": "preview.png",
+  "preview_sha256": "81b1fd87c6798c6044f182ade8804c6ca930778547854c9dad7b300d153820c4",
+  "rendered_model_sha256": "e1382a9336fb2c2b64b780b884889a98056b10ebaf07a56f167c6f5957c86ba7",
+  "preview_kind": "capture Godot de la variante reconstruite",
+  "validation_scope": "Reconstruction de la recette téléchargée et revue Godot sur sol plat ; trois LOD de 15 978 / 5 074 / 1 400 triangles. Aucune preuve de terrain, monde réseau, VR, collisions exhaustives ou photoréalisme final.",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.wolf-earpin/v1",
+    "parent wolf face revision identified by recipe source_sha256",
+    "local fur and ear renderer"
+  ],
+  "rights": "Original project geometry and original generated or procedural textures; screenshot of the local review renderer. No third-party reference pixels or geometry copied.",
+  "local_revision": "wolf-earpin-v31/03"
+}

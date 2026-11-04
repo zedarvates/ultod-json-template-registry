@@ -1,0 +1,281 @@
+{
+  "base_traits": {
+    "aggressiveness": 0.6,
+    "diet": "carnivore",
+    "locomotion_preference": "crawling",
+    "scale": 1
+  },
+  "bestiary_provenance": {
+    "entry_id": "mobile:arachnids_spider_giant",
+    "recipe": "uo_giant_spider.json",
+    "recipe_adaptations": [
+      "head_jaw_01: legacy head orientation aligned to editor -Z convention; visual review required.",
+      "leg_insect_01: legacy leg pitch aligned with native mount profile; ground contact remains unverified.",
+      "leg_insect_01: legacy leg pitch aligned with native mount profile; ground contact remains unverified.",
+      "leg_insect_01: legacy leg pitch aligned with native mount profile; ground contact remains unverified.",
+      "leg_insect_01: legacy leg pitch aligned with native mount profile; ground contact remains unverified."
+    ],
+    "recipe_sha256": "3abfe5c6f4a548a4ad018851b1968bf3ee4a156fed05162ff4d3ee5a5b7168c1",
+    "schema": "uo.bestiary-provenance/v1",
+    "scope": "Editable anatomy candidate, not a completed recreation.",
+    "server_sources": []
+  },
+  "chemistry": "silicate",
+  "delivery": "review_only",
+  "parts": [
+    {
+      "attach_point": "spine:5",
+      "part_id": "arth_head_spider_01",
+      "position": [
+        0,
+        0.015,
+        -0.06
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "arth_spider_prosoma_01",
+      "attach_point": "spine:2",
+      "position": [
+        0,
+        0,
+        -0.08999999999999997
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "arth_spider_abdomen_01",
+      "attach_point": "spine:2",
+      "position": [
+        0,
+        0,
+        -0.08999999999999997
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "arth_leg_spider_01",
+      "attach_point": "spine:5",
+      "mirror_x": true,
+      "position": [
+        0.125,
+        -0.015,
+        0.010000000000000064
+      ],
+      "rotation": [
+        0,
+        55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "arth_leg_spider_01",
+      "attach_point": "spine:4",
+      "mirror_x": true,
+      "position": [
+        0.145,
+        -0.015,
+        -0.054999999999999966
+      ],
+      "rotation": [
+        0,
+        18,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "arth_leg_spider_01",
+      "attach_point": "spine:4",
+      "mirror_x": true,
+      "position": [
+        0.145,
+        -0.015,
+        0.010000000000000037
+      ],
+      "rotation": [
+        0,
+        -18,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "arth_leg_spider_01",
+      "attach_point": "spine:3",
+      "mirror_x": true,
+      "position": [
+        0.125,
+        -0.015,
+        -0.054999999999999966
+      ],
+      "rotation": [
+        0,
+        -55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "review_only": true,
+  "server_authoritative": false,
+  "species_id": "uo_review_spider_giant_8legs",
+  "species_name": "Araignée géante — huit pattes",
+  "spine": [
+    {
+      "flexibility": 0.25,
+      "pos": [
+        0,
+        0.52,
+        0.35
+      ],
+      "radius": 0.022
+    },
+    {
+      "flexibility": 0.25,
+      "pos": [
+        0,
+        0.52,
+        0.21999999999999997
+      ],
+      "radius": 0.022
+    },
+    {
+      "flexibility": 0.25,
+      "pos": [
+        0,
+        0.52,
+        0.08999999999999997
+      ],
+      "radius": 0.022
+    },
+    {
+      "flexibility": 0.25,
+      "pos": [
+        0,
+        0.52,
+        -0.040000000000000036
+      ],
+      "radius": 0.022
+    },
+    {
+      "flexibility": 0.25,
+      "pos": [
+        0,
+        0.52,
+        -0.17000000000000004
+      ],
+      "radius": 0.022
+    },
+    {
+      "flexibility": 0.25,
+      "pos": [
+        0,
+        0.52,
+        -0.30000000000000004
+      ],
+      "radius": 0.022
+    }
+  ],
+  "head_unit_repair": {
+    "schema": "uo.arthropod-head-repair/v1",
+    "old_head_part": "head_jaw_01",
+    "new_head_part": "arth_head_spider_01",
+    "scope": "Only head unit, external duplicate eyes removed; beetle antenna mount follows new cranial unit; legs and spine preserved",
+    "art_status": "pending_review"
+  },
+  "body_region_revision": {
+    "schema": "uo.arthropod-body-review/v1",
+    "version": 1,
+    "head_unchanged": true,
+    "pose": "Static ground stance, no walk claim",
+    "source": "tools/bestiary/arthropod-body/build.py"
+  },
+  "procedural_locomotion": {
+    "appendices": {
+      "appendix_type": "leg8",
+      "body": {
+        "balance_mode": "planted",
+        "balance_threshold": 0.18,
+        "body_clearance": 0.82,
+        "hip_offset": 0.5,
+        "pelvis_stabilizer": 0.75,
+        "shoulder_offset": 0.5,
+        "slope_compensation": 0.9,
+        "torque_compensation": 0.65
+      },
+      "count": 8,
+      "ik_profile": "octopod",
+      "step": {
+        "step_duration": 0.35000000000000003,
+        "step_height": 0.045,
+        "step_length": 0.09,
+        "step_threshold": 0.04
+      },
+      "visual": {
+        "material_template": "chitin_dark",
+        "mesh_template": "arth_leg_spider_01",
+        "scale": 1
+      }
+    },
+    "gait": {
+      "frequency": 0.8,
+      "pattern": "alternating8",
+      "phase_offset": 0.5,
+      "stability_mode": "stable"
+    },
+    "schema_version": 1,
+    "variants": {}
+  },
+  "motion_review": {
+    "schema": "uo.arthropod-motion-link/v1",
+    "delivery": "review_only",
+    "folder": "spider-03",
+    "glb_sha256": "b715d1b8db99f391fd74edd7057b53ffb2b7e8285bafe15fc08c88a0a85b594c",
+    "scope": "Pinned original-shape four-cycle flat walk; changed authoring poses require a new rig review"
+  }
+}

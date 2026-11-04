@@ -1,0 +1,28 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "f1e859f4be9e6d970a6f8e9509a33f1953f680bea5411c045cc5a606439a8a30",
+  "preview_file": "preview.png",
+  "preview_sha256": "eb2219c74fa89c1a4284992749f7bcd56871db6d3c923ba6ccb492700ab7ce40",
+  "rendered_model_sha256": "38684c59c2ad30205ce371362460ccbdccb8ab5ef7cbc08d877fb6571237a7c6",
+  "preview_kind": "capture navigateur de la tête seule, prototype rejeté artistiquement",
+  "validation_scope": "Tête seule : export, topologie et rendu statique contrôlés. Corps 01 construit à 8 734 / 4 902 / 2 814 triangles, mais audit de déformation, marche et validations Godot non exécutés. Aucun PASS artistique ou de créature complète.",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.crocodile-shape/v1",
+    "shared crocodilian cranial generator",
+    "original generated scales and procedural normal/ORM"
+  ],
+  "rights": "Original project geometry and original generated or procedural textures; screenshot of the local review renderer. No third-party reference pixels or geometry copied.",
+  "local_revision": "crocodile/01; cranial component head-02",
+  "complete_body_glb_sha256": "ddc40400f891ff049453c4ad4178c18f0fcf0e1a933b8c67e5ebdf6d644da12f",
+  "complete_body_qualified": false,
+  "artistic_defects": [
+    "flat thick cranium",
+    "stretched sidewall UVs",
+    "protruding eyes"
+  ]
+}
