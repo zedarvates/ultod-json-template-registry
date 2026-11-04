@@ -124178,6 +124178,28 @@
       "file": "templates/xeno-editor/giant-spider-eight-legs/v0.1.0/template.json",
       "schema_file": "templates/schemas/xeno-editor/v1.0.0/schema.json",
       "sha256": "2526c2f64e3b46dfeb81e9f4ac47f3b8b9cf90ae9da11348baa3dfb2e9693c98"
+    },
+    {
+      "id": "xeno-editor:giant-spider-eight-legs",
+      "slug": "giant-spider-eight-legs",
+      "family": "xeno-editor",
+      "version": "0.2.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:49605c2560d43d653a30fa1297ce04df394139d3e4250d8e2774ebb375cea811",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "giant-spider-eight-legs",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/giant-spider-eight-legs/v0.2.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.0.0/schema.json",
+      "sha256": "36ea30c3ddf91f54f7ebb64f8b8e1ddedc3252766af7b91f49f7058c6034bdc1",
+      "supersedes": [
+        "xeno-editor:giant-spider-eight-legs@0.1.0"
+      ]
     }
   ],
   "aliases": []
