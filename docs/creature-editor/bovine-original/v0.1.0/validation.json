@@ -1,0 +1,115 @@
+{
+  "frames": 601,
+  "bones": 45,
+  "lod_triangles": [
+    9666,
+    4790,
+    2394
+  ],
+  "minimum_all_geometry_y_m": -3.1076007781266634e-06,
+  "maximum_stance_absolute_y_m": 0.0002583538609206895,
+  "maximum_world_stance_anchor_error_m": 0.00026106868664597173,
+  "minimum_expected_supports": 3,
+  "maximum_sampled_edge_length_ratio": 1.2458975065560802,
+  "texture_dimensions": [
+    [
+      512,
+      512
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "rgba8_complete_mip_estimate_bytes": 2097148,
+  "schema": "uo.bovine-documentary-validation/v1",
+  "delivery": "review_only",
+  "model_sha256": "40b56258deafc40988dfe9a879937a9c29cd076b2c31c9e16b67916393b10541",
+  "native_samples_per_lod": 241,
+  "native_minimum_supports": 3,
+  "native_maximum_stance_anchor_error_m": 0.000261062057688832,
+  "native_cached_instances_share_textures": true,
+  "selected_forward_plus_and_compatibility_passed": true,
+  "metric_uv_zones": [
+    {
+      "lod": 0,
+      "part": "ConnectedTorsoAndLimbs",
+      "faces": 3360,
+      "maximum_uv_anisotropy": 1.7236772775650024,
+      "minimum_repeat_per_m": 2.900775909423828,
+      "maximum_repeat_per_m": 5.000031471252441
+    },
+    {
+      "lod": 0,
+      "part": "Cranium",
+      "faces": 1248,
+      "maximum_uv_anisotropy": 1.629815697669983,
+      "minimum_repeat_per_m": 3.0678324699401855,
+      "maximum_repeat_per_m": 5.000020503997803
+    },
+    {
+      "lod": 0,
+      "part": "Jaw",
+      "faces": 720,
+      "maximum_uv_anisotropy": 1.4749038219451904,
+      "minimum_repeat_per_m": 3.3900580406188965,
+      "maximum_repeat_per_m": 5.000014781951904
+    },
+    {
+      "lod": 1,
+      "part": "ConnectedTorsoAndLimbs",
+      "faces": 1536,
+      "maximum_uv_anisotropy": 1.7104907035827637,
+      "minimum_repeat_per_m": 2.92313814163208,
+      "maximum_repeat_per_m": 5.0000081062316895
+    },
+    {
+      "lod": 1,
+      "part": "Cranium",
+      "faces": 576,
+      "maximum_uv_anisotropy": 1.6094478368759155,
+      "minimum_repeat_per_m": 3.1066548824310303,
+      "maximum_repeat_per_m": 5.000011920928955
+    },
+    {
+      "lod": 1,
+      "part": "Jaw",
+      "faces": 336,
+      "maximum_uv_anisotropy": 1.3001353740692139,
+      "minimum_repeat_per_m": 3.8457536697387695,
+      "maximum_repeat_per_m": 5.0000128746032715
+    },
+    {
+      "lod": 2,
+      "part": "ConnectedTorsoAndLimbs",
+      "faces": 724,
+      "maximum_uv_anisotropy": 1.6821116209030151,
+      "minimum_repeat_per_m": 2.972454309463501,
+      "maximum_repeat_per_m": 5.000006198883057
+    },
+    {
+      "lod": 2,
+      "part": "Cranium",
+      "faces": 240,
+      "maximum_uv_anisotropy": 1.585328221321106,
+      "minimum_repeat_per_m": 3.1539223194122314,
+      "maximum_repeat_per_m": 5.000009536743164
+    },
+    {
+      "lod": 2,
+      "part": "Jaw",
+      "faces": 144,
+      "maximum_uv_anisotropy": 1.4415037631988525,
+      "minimum_repeat_per_m": 3.468601942062378,
+      "maximum_repeat_per_m": 5.000003814697266
+    }
+  ],
+  "head_body_rendered_attributes_match": true,
+  "exported_vertex_colors_in_range": true,
+  "editor_play_pause_resume_replay_passed": true,
+  "scope": "Première revue bovine encore stylisée, sur sol plat dans l’éditeur et Godot isolés. Photoréalisme final, terrain, virages, forces, collisions exhaustives, gameplay réseau et VR non qualifiés."
+}

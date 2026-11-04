@@ -1,0 +1,24 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "748a766bbdd831407a28807e6d6caa0134988edc9953699f0f2e867d7f7738c9",
+  "preview_file": "preview.png",
+  "preview_sha256": "e57edd2f106fae06bdb6e9752c34f1f9ca0c627931c0ce229485bab8664078d9",
+  "head_preview_file": "head.png",
+  "head_preview_sha256": "168320b7c58f783a396180d24d1de22ab986693128155a14ca44a5bbd90ba67b",
+  "rendered_model_sha256": "40b56258deafc40988dfe9a879937a9c29cd076b2c31c9e16b67916393b10541",
+  "source_review_sha256": "64150b0b4d90ca7b50c15be44400fb1cae07d69d097ba508a73f73f8f53e8f3c",
+  "preview_kind": "Godot captures of the actual downloaded and reconstructed bovine recipe",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.bovine-original/v1 generator and original geometry modules",
+    "original shared short-coat bitmap and derived maps",
+    "continuous-body union cache and skin weights",
+    "native/editor review adapters"
+  ],
+  "rights": "Original parameterized geometry and shared original ImageGen short-coat detail. Anatomical references consulted qualitatively, no reference image pixels or historical game meshes copied.",
+  "scope": "Première revue bovine encore stylisée, sur sol plat dans l’éditeur et Godot isolés. Photoréalisme final, terrain, virages, forces, collisions exhaustives, gameplay réseau et VR non qualifiés."
+}
