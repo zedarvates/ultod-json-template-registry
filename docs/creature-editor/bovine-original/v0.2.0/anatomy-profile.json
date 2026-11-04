@@ -1,0 +1,31 @@
+{
+  "schema": "uo.bovine-anatomy-profile-documentation/v2",
+  "delivery": "review_only",
+  "identity": "mobile:bovines_cow_brown",
+  "profile": "bovine-cranium-v3",
+  "original_sculpt_input_sha256": "db70f7e10debc7a8f52008e653988e110ac26d336a998cabcb84cb77fc2c9b41",
+  "cranial_lod_triangles": [
+    2400,
+    1200,
+    520
+  ],
+  "walking_legs": 4,
+  "load_bearing_digits_per_foot": 2,
+  "raised_dewclaws_per_foot": 2,
+  "continuous_dewlap": true,
+  "cup_shaped_pinnae": 2,
+  "inset_eyes": 2,
+  "pupil": "horizontal oval represented by vertex pigment",
+  "orbital_lids": 2,
+  "horns": 2,
+  "female_udder": true,
+  "teats": 4,
+  "beveled_hooves": true,
+  "head_component_contains_torso": false,
+  "clip_key_fps": 120,
+  "references": [
+    "https://open.lib.umn.edu/largeanimalanatomy/chapter/neck-head/",
+    "https://www.sciencedirect.com/science/article/pii/S0042698900001139"
+  ],
+  "reference_use": "Anatomical guidance only; not specimen measurements or photographic reconstruction"
+}

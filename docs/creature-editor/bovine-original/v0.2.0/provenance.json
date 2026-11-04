@@ -1,0 +1,24 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "64cba6a26dcc45e8ffc98a9fd70a346573acb623d9c7b37d1c17eef33bde61f7",
+  "preview_file": "preview.png",
+  "preview_sha256": "43e13146bb994d6adb234b3acc9b79c14e535bf9a65768e6de53519df3a85750",
+  "head_preview_file": "head.png",
+  "head_preview_sha256": "6a483b6ce360f326fdee92c7c7841fa13bb46c3d6f27dc102f67d603a27b72d6",
+  "rendered_model_sha256": "04872e3f86d90d0dc8ae02d4909e6ffcf9e36aa3ca0fbb42bd11e55fc0bb1060",
+  "source_review_sha256": "16ab010a4eee35d414c5f21b57abea30d27fab60a25a03b498580e9ace17802a",
+  "preview_kind": "Actual Godot capture of the downloaded and reconstructed v2 recipe",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.bovine-original/v2 and bovine-cranium-v3 original sculpt cache",
+    "original shared short-coat bitmap and bounded map derivation",
+    "continuous body/dewlap union cache, skin weights and 120-Hz clip authoring",
+    "private editor and Godot review components"
+  ],
+  "rights": "Original parameterized surfaces and original shared generated coat. Anatomical references are qualitative guidance; no reference photograph pixels or historical game mesh copied.",
+  "scope": "Revue anatomique encore stylisée sur sol plat, éditeur réel et Godot isolé. Aucun photoréalisme final, terrain, virage, forces, collisions exhaustives, monde principal, réseau ou VR qualifié."
+}
