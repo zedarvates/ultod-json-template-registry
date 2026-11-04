@@ -1,5 +1,7 @@
 # Éditeur d’architecture — Old School 90s MMORPG Like
 
+[**Voir la galerie des architectures en images**](GALERIE.md)
+
 Recettes HouseBlueprint à importer avec **Importer un .json** dans l’éditeur. Chaque version est immuable et accompagnée d’une capture réelle de la vue 3D.
 
 Les preuves couvrent le validateur Zig local et l’aperçu dans l’éditeur. Les captures montrent le GLB de revue ; ni le GLB ni le code du serveur ne sont distribués ici.

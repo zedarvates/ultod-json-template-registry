@@ -17,6 +17,8 @@
 
 Central versioned registry for JSON templates and schemas used across the Ultimate Odycer ecosystem.
 
+[**Galerie des architectures — Old School 90s MMORPG Like**](templates/architecture-editor/GALERIE.md)
+
 ## Status
 
 **Experimental registry.** The collection contains versioned snapshots covering schemas, haptics, avatars, biomes, achievements, events, guilds, locations, houses, names, styles, rifts, party configurations, mentorship paths, marriage models, social events, dungeons, paragons, bosses, masterpieces, recipes, creatures, generated content (including a large quest set), prologues, quests, professions, gods, energy, AI, RTS, blueprints, divine systems, and abilities, all released as `0.1.0`.
@@ -251,6 +253,8 @@ The conventions for creating a compatible template are defined in [TEMPLATE-SPEC
 The original schemas, templates, and documents in this registry are distributed under the Apache-2.0 license. This license does not cover the proprietary Zig server, hosted services, production data, third-party assets, or commercial Ultimate Odycer components.
 
 ## Éditeur d’architecture — Old School 90s MMORPG Like
+
+[**Voir la galerie des architectures en images**](templates/architecture-editor/GALERIE.md).
 
 [Parcourir les recettes versionnées et leurs captures](templates/architecture-editor/README.md).
 Les fichiers HouseBlueprint sont téléchargeables séparément pour l’import

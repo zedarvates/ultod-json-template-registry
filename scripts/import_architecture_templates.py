@@ -22,6 +22,7 @@ COLLECTION = 'old-school-90s-mmorpg-like'
 SCHEMA = f'templates/schemas/{FAMILY}/v1.0.0/schema.json'
 CATALOG = 'templates/catalog.json'
 INDEX = f'templates/{FAMILY}/README.md'
+GALLERY = f'templates/{FAMILY}/GALERIE.md'
 SHA = re.compile(r'^[a-f0-9]{64}$')
 PRIVATE_VALUE = re.compile(r'://|[A-Za-z]:[\\/]|[\\/]{2}|(?:^|\s)localhost\b|[<>\x00-\x1f]',re.I)
 
@@ -89,6 +90,7 @@ def verify_recipe(value, group='root'):
 
 def generate_index(entries, documents):
     lines=['# Éditeur d’architecture — Old School 90s MMORPG Like','',
+           '[**Voir la galerie des architectures en images**](GALERIE.md)','',
            'Recettes HouseBlueprint à importer avec **Importer un .json** dans l’éditeur. '
            'Chaque version est immuable et accompagnée d’une capture réelle de la vue 3D.','',
            'Les preuves couvrent le validateur Zig local et l’aperçu dans l’éditeur. '
@@ -99,6 +101,55 @@ def generate_index(entries, documents):
         name=spec['display_name'].replace('|','\\|')
         local=Path(entry['file']).relative_to(f'templates/{FAMILY}').as_posix()
         lines.append(f"| {name} | [{entry['version']}]({local}) | [JSON](../../{spec['recipe_file']}) | [Aperçu](../../{spec['preview_file']}) |")
+    return ('\n'.join(lines)+'\n').encode()
+
+
+def generate_gallery(entries, documents, root=ROOT):
+    latest={}
+    for entry in entries:
+        previous=latest.get(entry['slug'])
+        version=lambda e:tuple(map(int,e['version'].split('.')))
+        if previous is None or version(entry)>version(previous):
+            latest[entry['slug']]=entry
+    ordered=[latest[slug] for slug in sorted(latest)]
+    lines=['# Galerie des architectures — Old School 90s MMORPG Like','',
+           f'**{len(ordered)} architectures** · Dernière version publiée de chaque modèle. '
+           'Cliquer sur une image pour l’agrandir, ou sur le nom pour ouvrir la fiche.','',
+           '[Toutes les versions et leurs recettes](README.md) · [Accueil du dépôt](../../README.md)','',
+           'Aperçus des modèles de revue. Les fiches précisent les contrôles réalisés ; '
+           'ces images ne certifient pas la compatibilité avec le serveur actif ni le photoréalisme global.','',
+           '| Architecture | Architecture | Architecture |','|---|---|---|']
+    cards=[]
+    extra=[]
+    for entry in ordered:
+        spec=documents[entry['file']]['spec']
+        name=spec['display_name'].replace('|','\\|')
+        folder=Path(entry['file']).parent.relative_to(f'templates/{FAMILY}').as_posix()
+        preview='../../'+spec['preview_file']
+        links=f"[Plan JSON](../../{spec['recipe_file']})"
+        assets=Path(spec['recipe_file']).parent
+        if (root/assets/'surface-recipe.json').is_file():
+            links+=f' · [Profil de surfaces](../../{assets.as_posix()}/surface-recipe.json)'
+        cards.append(f'[![{name}]({preview})]({preview})<br>'
+                     f"**[{name}]({folder}/README.md)**<br>v{entry['version']} · {links}")
+        native=[]
+        for filename,label in (('native-near-parallax.jpg','Parallax de proximité'),
+                               ('native-interior-daylight.jpg','Intérieur sous éclairage de revue')):
+            path=assets/filename
+            if (root/path).is_file():
+                url='../../'+path.as_posix()
+                native.append((label,f'[![{label}]({url})]({url})<br>{label}'))
+        if native:
+            extra.extend(['',f"## {name} — vues dans Trammel privé, v{entry['version']}",'',
+                          'Captures complémentaires du client privé. La vue intérieure utilise un profil temporaire de lumière de revue. '
+                          f'[Détails des vérifications]({folder}/README.md).','',
+                          '| '+' | '.join(label for label,_ in native)+' |',
+                          '| '+' | '.join('---' for _ in native)+' |',
+                          '| '+' | '.join(cell for _,cell in native)+' |'])
+    for start in range(0,len(cards),3):
+        row=cards[start:start+3]
+        lines.append('| '+' | '.join(row+['']*(3-len(row)))+' |')
+    lines.extend(extra)
     return ('\n'.join(lines)+'\n').encode()
 
 
@@ -185,6 +236,7 @@ def import_batch(root, batch, validator, *, apply):
         entries.extend(incoming)
         (root/CATALOG).write_bytes(encoded(catalog))
         (root/INDEX).write_bytes(generate_index([e for e in entries if e.get('family')==FAMILY],documents))
+        (root/GALLERY).write_bytes(generate_gallery([e for e in entries if e.get('family')==FAMILY],documents,root))
     return sum(e.get('family')==FAMILY for e in incoming)
 
 
