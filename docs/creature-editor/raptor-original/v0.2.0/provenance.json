@@ -1,0 +1,50 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "04742ed4885ffd018ad5afd6ef670f390ba1436dc0beda0386d8814fa9800437",
+  "preview_file": "preview.png",
+  "preview_sha256": "d2f8e73333db9e256f109af503df8e869a5a4f511f568c736c4d00313e125bce",
+  "rendered_model_sha256": "677318f284ae1c2aeb256df34f2e3476055235c11e246e7391295e817aa6d97c",
+  "source_review_sha256": "69b1e5b9517f7f15a84d5c12620e5e2ca258905af95deaaac79133442d5ab91f",
+  "captures": [
+    {
+      "file": "preview.png",
+      "sha256": "d2f8e73333db9e256f109af503df8e869a5a4f511f568c736c4d00313e125bce"
+    },
+    {
+      "file": "side.png",
+      "sha256": "1840aa0e29fcdd1deff90b299bf0e17c16708084c77ca3d89095624c4fa2b1ca"
+    },
+    {
+      "file": "head.png",
+      "sha256": "6089537ac1754854f1531271ef3f431169709c1b04ceb70cafaeeae81652a3ad"
+    },
+    {
+      "file": "feet.png",
+      "sha256": "c41ab4fbc6bda4f27e3fb3f77bbd9f7c9271ced7870c0929f4f767e4f4dcd678"
+    },
+    {
+      "file": "walk-0.png",
+      "sha256": "2f1d5d3f92bfbb97b9dd5b9a85681120705b99cb6f5c5afb4c2920ae7b2b2bbc"
+    },
+    {
+      "file": "walk-4.png",
+      "sha256": "a81f4501d4c8e62ed3494121d20564a8e3e362e83b99eac4fa8d94d67bcadcc1"
+    }
+  ],
+  "preview_kind": "Unchanged native Godot captures of the downloaded and reconstructed connected-skin raptor recipe",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.raptor-original/v2 local generator and connected-feather-skin-v2 profile",
+    "original head04 and single wing02 components, original feathered body union and bone-heat weights",
+    "original closed toe/tarsal scale geometry, toe pads and talons",
+    "three shared original procedural feather maps and local review adapters"
+  ],
+  "legacy_recipe_retained": true,
+  "legacy_glb_reconstruction_byte_identical": "7ed94d680ccf783e05b8e5fdfad972861022ea02e7d97f954a4daffcab34dd31",
+  "rights": "Original project geometry, procedural arrays and native captures; no reference image pixels or source game meshes copied.",
+  "scope": "Revue locale encore stylisée : torse, cou et haut des pattes réunis en une surface fermée ; marche rectiligne sur plan plat contrôlée au CPU, dans l’éditeur et Godot isolés. Tête, ailes, bas des pattes, doigts et plumes restent des pièces séparées. Sculpture, plumage, intersections exhaustives, forces, terrain, vol, monde principal, réseau, VR et photoréalisme final non qualifiés."
+}

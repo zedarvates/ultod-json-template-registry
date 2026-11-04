@@ -46,15 +46,15 @@ Première revue équine : pièces originales de l’éditeur, oreilles raccordé
 
 Première revue équine encore stylisée sur sol plat, dans l’éditeur et Godot isolés. Tête, naseaux, crinière et queue restent à affiner. Aucun photoréalisme final, terrain, virage, force, collision exhaustive, monde principal, réseau ou VR qualifié.
 
-## Rapace — ailes repliées et marche bipède
+## Rapace — peau continue et écailles
 
-![Rapace — ailes repliées et marche bipède — capture Godot de la recette téléchargée puis reconstruite](raptor-original/v0.1.0/preview.png)
+![Rapace — peau continue et écailles — capture Godot de la recette téléchargée puis reconstruite](raptor-original/v0.2.0/preview.png)
 
-[Fiche 0.1.0](raptor-original/v0.1.0/README.md) · [Recette JSON](raptor-original/v0.1.0/recipe.json)
+[Fiche 0.2.0](raptor-original/v0.2.0/README.md) · [Recette JSON](raptor-original/v0.2.0/recipe.json)
 
-Tête vivante et ailes unitaires originales, deux pieds à trois doigts avant et un hallux. Recette téléchargée puis reconstruite, appuis contrôlés dans l’éditeur et Godot ; finition encore stylisée.
+Torse, cou et haut des pattes réunis, écailles originales sur les pieds, déformations et appuis contrôlés. Recettes v1/v2 conservées ; nouvelle recette téléchargée puis reconstruite. Finition encore stylisée.
 
-Première revue encore stylisée : CPU, éditeur réel et Godot isolé, marche bipède rectiligne sur plan plat. Sculpture, plumes, peau continue et écailles restent à affiner. Masse réelle, forces, équilibre dynamique, terrain, virages, intersections exhaustives, vol, monde principal, réseau et VR non qualifiés.
+Revue locale encore stylisée : torse, cou et haut des pattes réunis en une surface fermée ; marche rectiligne sur plan plat contrôlée au CPU, dans l’éditeur et Godot isolés. Tête, ailes, bas des pattes, doigts et plumes restent des pièces séparées. Sculpture, plumage, intersections exhaustives, forces, terrain, vol, monde principal, réseau, VR et photoréalisme final non qualifiés.
 
 ## Biche — silhouette et marche
 
