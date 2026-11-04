@@ -36,15 +36,15 @@ Yeux aplatis et orientés, paupières texturées et iris nuancé sans texture su
 
 Revue CPU, éditeur réel et Godot isolé sur sol plat ; sculpture et textures encore en revue. Terrain, nage, virages, forces, collisions exhaustives, gameplay réseau et VR non qualifiés.
 
-## Vache brune — anatomie et marche
+## Vache brune — crâne, oreilles et fanon
 
-![Vache brune — anatomie et marche — capture Godot de la recette reconstruite](bovine-original/v0.1.0/preview.png)
+![Vache brune — crâne, oreilles et fanon — capture Godot de la recette reconstruite](bovine-original/v0.2.0/preview.png)
 
-[Fiche 0.1.0](bovine-original/v0.1.0/README.md) · [Recette JSON](bovine-original/v0.1.0/recipe.json)
+[Fiche 0.2.0](bovine-original/v0.2.0/README.md) · [Recette JSON](bovine-original/v0.2.0/recipe.json)
 
-Première revue bovine originale : corps continu, tête allongée, oreilles latérales, cornes et sabots fendus. Recette réellement téléchargée et reconstruite ; silhouette et finition encore stylisées.
+Crâne continu avec orbites creusées, oreilles en coupe, pupille horizontale, fanon et sabots biseautés. Recette reconstruite, contrôles de compression et levée ; coût natif borné de 64 instances mesuré.
 
-Première revue bovine encore stylisée, sur sol plat dans l’éditeur et Godot isolés. Photoréalisme final, terrain, virages, forces, collisions exhaustives, gameplay réseau et VR non qualifiés.
+Revue anatomique encore stylisée sur sol plat, éditeur réel et Godot isolé. Aucun photoréalisme final, terrain, virage, forces, collisions exhaustives, monde principal, réseau ou VR qualifié.
 
 ## Gazer
 

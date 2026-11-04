@@ -1,0 +1,18 @@
+{
+  "schema": "uo.bovine-project/v2",
+  "generator": "uo.bovine-original/v2",
+  "delivery": "review_only",
+  "source_sha256": "16ab010a4eee35d414c5f21b57abea30d27fab60a25a03b498580e9ace17802a",
+  "recipe": {
+    "schema": "uo.bovine-shape/v2",
+    "cranial_profile": "bovine-cranium-v3",
+    "delivery": "review_only",
+    "body_length_m": 1.8,
+    "tail_length_m": 0.72,
+    "ear_height_m": 0.14,
+    "horn_length_m": 0.3,
+    "stride_m": 0.28,
+    "lift_m": 0.11,
+    "period_s": 1.9
+  }
+}

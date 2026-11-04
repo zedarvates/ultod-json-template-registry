@@ -1,0 +1,233 @@
+{
+  "frames": 601,
+  "bones": 45,
+  "lod_triangles": [
+    12898,
+    6622,
+    3394
+  ],
+  "minimum_all_geometry_y_m": -7.365642255056973e-07,
+  "maximum_stance_absolute_y_m": 7.962000125091222e-05,
+  "maximum_world_stance_anchor_error_m": 7.989710520540196e-05,
+  "minimum_expected_supports": 3,
+  "maximum_sampled_edge_length_ratio": 1.3156357703617454,
+  "minimum_sampled_edge_length_ratio": 0.7007008651499591,
+  "minimum_face_area_ratio": 0.6098940610839061,
+  "minimum_skinned_normal_alignment": 0.5015856847827767,
+  "minimum_peak_swing_clearance_m": 0.09409345160949362,
+  "peak_swing_samples": 312,
+  "texture_dimensions": [
+    [
+      512,
+      512
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "rgba8_complete_mip_estimate_bytes": 2097148,
+  "schema": "uo.bovine-documentary-validation/v2",
+  "delivery": "review_only",
+  "model_sha256": "04872e3f86d90d0dc8ae02d4909e6ffcf9e36aa3ca0fbb42bd11e55fc0bb1060",
+  "native_samples_per_lod": 241,
+  "native_minimum_supports": 3,
+  "native_maximum_stance_anchor_error_m": 0.000283627072349191,
+  "selected_forward_plus_and_compatibility_passed": true,
+  "head_body_rendered_attributes_match": true,
+  "exported_colors_in_range": true,
+  "metric_uv_zones": [
+    {
+      "lod": 0,
+      "part": "ConnectedTorsoAndLimbs",
+      "faces": 3792,
+      "maximum_uv_anisotropy": 1.7189818620681763,
+      "minimum_repeat_per_m": 2.9086999893188477,
+      "maximum_repeat_per_m": 5.000026226043701
+    },
+    {
+      "lod": 0,
+      "part": "Cranium",
+      "faces": 2400,
+      "maximum_uv_anisotropy": 1.7049988508224487,
+      "minimum_repeat_per_m": 2.9325451850891113,
+      "maximum_repeat_per_m": 5.000082492828369
+    },
+    {
+      "lod": 0,
+      "part": "Jaw",
+      "faces": 720,
+      "maximum_uv_anisotropy": 1.446708083152771,
+      "minimum_repeat_per_m": 3.456125259399414,
+      "maximum_repeat_per_m": 5.000013828277588
+    },
+    {
+      "lod": 1,
+      "part": "ConnectedTorsoAndLimbs",
+      "faces": 1728,
+      "maximum_uv_anisotropy": 1.7067352533340454,
+      "minimum_repeat_per_m": 2.929570436477661,
+      "maximum_repeat_per_m": 5.00001859664917
+    },
+    {
+      "lod": 1,
+      "part": "Cranium",
+      "faces": 1200,
+      "maximum_uv_anisotropy": 1.6865806579589844,
+      "minimum_repeat_per_m": 2.9645769596099854,
+      "maximum_repeat_per_m": 5.0000224113464355
+    },
+    {
+      "lod": 1,
+      "part": "Jaw",
+      "faces": 336,
+      "maximum_uv_anisotropy": 1.3052289485931396,
+      "minimum_repeat_per_m": 3.8307416439056396,
+      "maximum_repeat_per_m": 5.000010013580322
+    },
+    {
+      "lod": 2,
+      "part": "ConnectedTorsoAndLimbs",
+      "faces": 820,
+      "maximum_uv_anisotropy": 1.666483759880066,
+      "minimum_repeat_per_m": 3.0003299713134766,
+      "maximum_repeat_per_m": 5.000017166137695
+    },
+    {
+      "lod": 2,
+      "part": "Cranium",
+      "faces": 520,
+      "maximum_uv_anisotropy": 1.7055144309997559,
+      "minimum_repeat_per_m": 2.9316654205322266,
+      "maximum_repeat_per_m": 5.000009536743164
+    },
+    {
+      "lod": 2,
+      "part": "Jaw",
+      "faces": 144,
+      "maximum_uv_anisotropy": 1.5620489120483398,
+      "minimum_repeat_per_m": 3.200922727584839,
+      "maximum_repeat_per_m": 5.000003337860107
+    }
+  ],
+  "nasal_visibility": [
+    {
+      "lod": 0,
+      "side": -1,
+      "samples": 5,
+      "minimum_cranium_clearance_behind_nasal_bottom_m": 0.006313028346136118
+    },
+    {
+      "lod": 0,
+      "side": 1,
+      "samples": 5,
+      "minimum_cranium_clearance_behind_nasal_bottom_m": 0.0064302882828328745
+    },
+    {
+      "lod": 1,
+      "side": -1,
+      "samples": 5,
+      "minimum_cranium_clearance_behind_nasal_bottom_m": 0.006483100192191449
+    },
+    {
+      "lod": 1,
+      "side": 1,
+      "samples": 5,
+      "minimum_cranium_clearance_behind_nasal_bottom_m": 0.006356379913701415
+    },
+    {
+      "lod": 2,
+      "side": -1,
+      "samples": 5,
+      "minimum_cranium_clearance_behind_nasal_bottom_m": 0.0068872827589103736
+    },
+    {
+      "lod": 2,
+      "side": 1,
+      "samples": 5,
+      "minimum_cranium_clearance_behind_nasal_bottom_m": 0.007393252219945579
+    }
+  ],
+  "native_cost_probe": {
+    "model_sha256": "16ab010a4eee35d414c5f21b57abea30d27fab60a25a03b498580e9ace17802a",
+    "engine": "4.8-beta2 (official)",
+    "resolution": [
+      1280,
+      800
+    ],
+    "actors": 64,
+    "vsync": "disabled",
+    "shadows": false,
+    "rows": [
+      {
+        "actors": 64,
+        "asset_triangles_per_actor": 12898.0,
+        "authored_scene_triangles": 825472,
+        "frame_completion_wall": {
+          "maximum_ms": 4.059,
+          "median_ms": 2.853,
+          "minimum_ms": 2.794,
+          "p95_ms": 3.324
+        },
+        "frames": 120,
+        "lod": 0,
+        "median_reported_draw_calls": 320,
+        "median_reported_primitives": 825472,
+        "sample_review_submission_cpu_wall": {
+          "maximum_ms": 0.694,
+          "median_ms": 0.574,
+          "minimum_ms": 0.554,
+          "p95_ms": 0.623
+        }
+      },
+      {
+        "actors": 64,
+        "asset_triangles_per_actor": 6622.0,
+        "authored_scene_triangles": 423808,
+        "frame_completion_wall": {
+          "maximum_ms": 3.797,
+          "median_ms": 2.909,
+          "minimum_ms": 2.788,
+          "p95_ms": 3.172
+        },
+        "frames": 120,
+        "lod": 1,
+        "median_reported_draw_calls": 320,
+        "median_reported_primitives": 423808,
+        "sample_review_submission_cpu_wall": {
+          "maximum_ms": 0.788,
+          "median_ms": 0.612,
+          "minimum_ms": 0.555,
+          "p95_ms": 0.647
+        }
+      },
+      {
+        "actors": 64,
+        "asset_triangles_per_actor": 3394.0,
+        "authored_scene_triangles": 217216,
+        "frame_completion_wall": {
+          "maximum_ms": 4.279,
+          "median_ms": 3.157,
+          "minimum_ms": 2.997,
+          "p95_ms": 3.598
+        },
+        "frames": 120,
+        "lod": 2,
+        "median_reported_draw_calls": 320,
+        "median_reported_primitives": 217216,
+        "sample_review_submission_cpu_wall": {
+          "maximum_ms": 0.811,
+          "median_ms": 0.643,
+          "minimum_ms": 0.608,
+          "p95_ms": 0.731
+        }
+      }
+    ],
+    "scope": "One isolated 64-actor shadowless scene, warm cache and 30 warmup frames/LOD. Wall time ends at the engine frame_post_draw signal; this is not a GPU timestamp/fence. Sampling wall time is submission cost, not total animation or GPU time. No world/AI/network/physics/VR/crowd gameplay or FPS guarantee."
+  },
+  "scope": "Revue anatomique encore stylisée sur sol plat, éditeur réel et Godot isolé. Aucun photoréalisme final, terrain, virage, forces, collisions exhaustives, monde principal, réseau ou VR qualifié."
+}
