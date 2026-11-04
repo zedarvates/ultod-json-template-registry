@@ -1,0 +1,29 @@
+{
+  "species_id": "uo_giant_spider",
+  "species_name": "Araignée géante (bestiaire UO)",
+  "chemistry": "silicate",
+  "base_traits": {
+    "scale": 1.0,
+    "diet": "carnivore",
+    "locomotion_preference": "crawling",
+    "aggressiveness": 0.6
+  },
+  "parts": [
+    { "part_id": "head_jaw_01", "attach_point": "Head",
+      "position": [0, 0, 0.06], "rotation": [0, 0, 0], "scale": [0.7, 0.7, 0.7] },
+    { "part_id": "eye_compound_01", "attach_point": "Head",
+      "position": [0, 0.04, 0.05], "rotation": [0, 0, 0], "scale": [0.9, 0.9, 0.9] },
+    { "part_id": "leg_insect_01", "attach_point": "LeftUpperLeg",
+      "position": [-0.05, -0.1, 0], "rotation": [0, 0, -15], "scale": [1.4, 1.4, 1.4] },
+    { "part_id": "leg_insect_01", "attach_point": "RightUpperLeg",
+      "position": [0.05, -0.1, 0], "rotation": [0, 0, 15], "scale": [1.4, 1.4, 1.4] },
+    { "part_id": "leg_insect_01", "attach_point": "LeftShoulder",
+      "position": [-0.15, 0, 0.1], "rotation": [0, 0, -25], "scale": [1.2, 1.2, 1.2] },
+    { "part_id": "leg_insect_01", "attach_point": "RightShoulder",
+      "position": [0.15, 0, 0.1], "rotation": [0, 0, 25], "scale": [1.2, 1.2, 1.2] },
+    { "part_id": "shell_spikes_01", "attach_point": "Spine",
+      "position": [0, 0.03, -0.05], "rotation": [0, 0, 0], "scale": [1.3, 1.3, 1.3] },
+    { "part_id": "antenna_01", "attach_point": "Head",
+      "position": [0, 0.08, 0.03], "rotation": [0, 0, 0], "scale": [0.9, 0.9, 0.9] }
+  ]
+}
