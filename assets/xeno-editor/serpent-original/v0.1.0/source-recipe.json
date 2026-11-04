@@ -1,0 +1,23 @@
+{
+  "species_id": "uo_giant_serpent",
+  "species_name": "Serpent géant (bestiaire UO)",
+  "chemistry": "water_carbon",
+  "base_traits": {
+    "scale": 1.6,
+    "diet": "carnivore",
+    "locomotion_preference": "crawling",
+    "aggressiveness": 0.55
+  },
+  "parts": [
+    { "part_id": "head_jaw_01", "attach_point": "Head",
+      "position": [0, 0, 0.1], "rotation": [0, 0, 0], "scale": [1.1, 1.1, 1.1] },
+    { "part_id": "armor_plate_01", "attach_point": "Spine",
+      "position": [0, 0, 0], "rotation": [0, 0, 0], "scale": [0.8, 0.8, 0.8] },
+    { "part_id": "tail_fin_01", "attach_point": "TailBase",
+      "position": [0, 0, -0.4], "rotation": [0, 0, 0], "scale": [1.8, 1.8, 1.8] },
+    { "part_id": "eye_normal_01", "attach_point": "Head",
+      "position": [0.04, 0.02, 0.06], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+    { "part_id": "eye_normal_01", "attach_point": "Head",
+      "position": [-0.04, 0.02, 0.06], "rotation": [0, 0, 0], "scale": [1, 1, 1] }
+  ]
+}

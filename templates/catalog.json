@@ -124249,6 +124249,25 @@
       "file": "templates/xeno-editor/gazer-original-three-eyes/v0.1.0/template.json",
       "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
       "sha256": "fb26b1d86635a1b8e790d5b41b3b78c0eeb55f2dd8b62d135e2e09c6fa2502a6"
+    },
+    {
+      "id": "xeno-editor:serpent-original",
+      "slug": "serpent-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:0f53f0c09853ef18e45133fcf6444100b5332dc63e3c083ebeecf106f3a3e764",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "serpent-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/serpent-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "0437050e94458fde43e23fae37f7e88a3d6e45557bf566a723f121baa5bbc583"
     }
   ],
   "aliases": []
