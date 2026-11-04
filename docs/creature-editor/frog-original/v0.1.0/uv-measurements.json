@@ -1,0 +1,61 @@
+{
+  "schema": "uo.frog-uv-documentation/v1",
+  "delivery": "review_only",
+  "model_sha256": "68432b85b030dff5340977412154ff2c8d07cbfce8551410e0079dd12515e5b9",
+  "rest_lods": [
+    {
+      "lod": 0,
+      "textured_triangles": 8294,
+      "zero_area_uv_triangles": 0,
+      "maximum_anisotropy": 1.7068741303611485,
+      "minimum_albedo_texels_per_meter": 822.9780714231404,
+      "maximum_albedo_texels_per_meter": 1075.2024688741928,
+      "actual_skin_vertices": 7241
+    },
+    {
+      "lod": 1,
+      "textured_triangles": 4752,
+      "zero_area_uv_triangles": 0,
+      "maximum_anisotropy": 1.6935032859578059,
+      "minimum_albedo_texels_per_meter": 826.2209414399258,
+      "maximum_albedo_texels_per_meter": 1075.2020172004097,
+      "actual_skin_vertices": 4900
+    },
+    {
+      "lod": 2,
+      "textured_triangles": 2648,
+      "zero_area_uv_triangles": 0,
+      "maximum_anisotropy": 1.6839869722667848,
+      "minimum_albedo_texels_per_meter": 828.5515686834256,
+      "maximum_albedo_texels_per_meter": 1075.2020172004097,
+      "actual_skin_vertices": 3174
+    }
+  ],
+  "animated": {
+    "maximum_anisotropy": 2.126203749921069,
+    "minimum_albedo_texels_per_meter": 784.9196142982127,
+    "maximum_albedo_texels_per_meter": 1370.9137059087636,
+    "samples_per_lod": 601
+  },
+  "pigment_at_uv_seams": [
+    {
+      "lod": 0,
+      "coincident_uv_seam_groups": 2117,
+      "vertices_checked": 5055,
+      "maximum_baked_pigment_disagreement": 0.0
+    },
+    {
+      "lod": 1,
+      "coincident_uv_seam_groups": 1496,
+      "vertices_checked": 3886,
+      "maximum_baked_pigment_disagreement": 0.0
+    },
+    {
+      "lod": 2,
+      "coincident_uv_seam_groups": 974,
+      "vertices_checked": 2729,
+      "maximum_baked_pigment_disagreement": 0.0
+    }
+  ],
+  "scope": "Actual exported triangles and baked COLOR_0. Large color variation is continuous at coincident vertices within a part. Fine UV maps retain directional chart seams; no globally seamless skin claim."
+}

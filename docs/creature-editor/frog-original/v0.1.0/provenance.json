@@ -1,0 +1,61 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "178938c4881e1ce116f02db3204f753ebbf811a112777d93b5eef0b7411e803c",
+  "preview_file": "preview.png",
+  "preview_sha256": "3ace704b264587373b8ddebfb71b1201e79e8d2fca38b3019f4b8cfa9f264337",
+  "head_preview_file": "head.png",
+  "head_preview_sha256": "cf527354a90fc510f406a0ad0fe4fda906191d4d0a4ac6ee052220915861e2ca",
+  "rendered_model_sha256": "68432b85b030dff5340977412154ff2c8d07cbfce8551410e0079dd12515e5b9",
+  "source_review_sha256": "1f645a410a467c5cd56ed3e308dd3fd1103a1d4828074a3aa4f96c1d2f01f683",
+  "captures": [
+    {
+      "file": "preview.png",
+      "sha256": "3ace704b264587373b8ddebfb71b1201e79e8d2fca38b3019f4b8cfa9f264337"
+    },
+    {
+      "file": "side.png",
+      "sha256": "295c06fc9f94f81f54a7fc822577dfd893ff79b9c3457d3e07299e6282fe8e27"
+    },
+    {
+      "file": "top.png",
+      "sha256": "b1fa9c691d312e5800ef0d80b49defefab02ad9ef51fcbb51930b18b6c75c625"
+    },
+    {
+      "file": "head.png",
+      "sha256": "cf527354a90fc510f406a0ad0fe4fda906191d4d0a4ac6ee052220915861e2ca"
+    },
+    {
+      "file": "head-lod2.png",
+      "sha256": "bd8c16c537998be90c280ab104f1614c498581ba5d66926e6b67d50278ceb319"
+    },
+    {
+      "file": "feet-15.png",
+      "sha256": "c8383bae28a101ce4427d309abc0e6af557a399661634ce3e28d726b7d64321b"
+    },
+    {
+      "file": "feet-40.png",
+      "sha256": "f7b83d4cc533f0d3208ce5b20c8d2a6c0d2ae447eeb372d76f9ae104acaa5a33"
+    },
+    {
+      "file": "feet-65.png",
+      "sha256": "9e4d54bda0a940f9337bb0f1f75c40c96f6924760df6feaa3b97a21964947c5a"
+    },
+    {
+      "file": "feet-90.png",
+      "sha256": "20e2af61b101ced04f72dc2de80802f83cd1afe93a335eff41f6969681d307bd"
+    }
+  ],
+  "preview_kind": "Unmodified native Godot captures of the actual downloaded and rebuilt frog recipe",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.frog-original/v1, ranid-original-v1",
+    "original numerical amphibian geometry and 23-bone local crawl rig",
+    "original mathematical microalbedo, normal and ORM maps; baked continuous vertex pigment"
+  ],
+  "rights": "Original numerical geometry and deterministic mathematical pixel fields. No external model, historical media or photograph copied. Reference identities remain unbound and server statistics unchanged.",
+  "validation_scope": "Première revue locale encore stylisée : déplacement lent sur sol plat dans l’éditeur et Godot isolés. Sculpture, iris, raccords de composants et silhouette du LOD2 restent à affiner. Centre de masse, forces, bonds, nage, terrain, collisions exhaustives, monde principal, réseau, VR et photoréalisme final non qualifiés."
+}

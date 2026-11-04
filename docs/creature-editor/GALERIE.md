@@ -1,6 +1,6 @@
 # Galerie des créatures originales
 
-Recettes de l’éditeur, captures réelles et états de revue — mise à jour du 2026-11-04.
+Recettes de l’éditeur, captures réelles et états de revue — mise à jour du 2026-11-05.
 
 Les images montrent des prototypes locaux et les variantes précisées dans chaque fiche. Les JSON conservent les paramètres et les références de dépendances ; les générateurs, pièces et modèles ne sont pas distribués dans ce dépôt. Aucun modèle présenté ici n’est déclaré prêt pour le jeu ni photoréaliste final.
 
@@ -65,6 +65,16 @@ Revue locale encore stylisée : torse, cou et haut des pattes réunis en une sur
 Tête affinée encore stylisée : joues et arête nasale sculptées, contours de paupière fermés, oreilles plus courtes et épaisses, mâchoire moins contrastée. Recette téléchargée puis reconstruite, déformations et appuis contrôlés dans l’éditeur et les deux modes Godot.
 
 Revue locale encore stylisée : tête sculptée, contours de paupière fermés et oreilles épaissies ; marche lente rectiligne sur sol plat dans l’éditeur et Godot isolés. Raccords de composants, queue, silhouette du pelage et détails du LOD2 restent ouverts. Bonds, forces/masse, terrain, collisions exhaustives, monde principal, serveur, réseau, VR et photoréalisme final non qualifiés.
+
+## Grenouille géante — peau et doigts palmés
+
+![Grenouille géante — peau et doigts palmés — capture Godot de la recette téléchargée puis reconstruite](frog-original/v0.1.0/preview.png)
+
+[Fiche 0.1.0](frog-original/v0.1.0/README.md) · [Recette JSON](frog-original/v0.1.0/recipe.json)
+
+Tête dédiée, yeux dorsaux, tympans, quatre doigts avant et cinq doigts palmés arrière. Pigment original continu, recette téléchargée puis reconstruite et déplacement lent contrôlé dans l’éditeur et les deux modes Godot. Finition encore stylisée.
+
+Première revue locale encore stylisée : déplacement lent sur sol plat dans l’éditeur et Godot isolés. Sculpture, iris, raccords de composants et silhouette du LOD2 restent à affiner. Centre de masse, forces, bonds, nage, terrain, collisions exhaustives, monde principal, réseau, VR et photoréalisme final non qualifiés.
 
 ## Biche — silhouette et marche
 

@@ -1,0 +1,88 @@
+{
+  "frames": 601,
+  "bones": 23,
+  "lod_triangles": [
+    11302,
+    6440,
+    3552
+  ],
+  "minimum_all_geometry_y_m": 0.00019990023697173448,
+  "maximum_stance_absolute_y_m": 0.00020000239205097042,
+  "maximum_world_stance_anchor_error_m": 1.6104209869654791e-07,
+  "minimum_expected_supports": 3,
+  "minimum_peak_swing_clearance_m": 0.034954711604676635,
+  "maximum_sampled_edge_length_ratio": 1.2599299783168827,
+  "minimum_sampled_edge_length_ratio": 0.7022408987272256,
+  "minimum_sampled_area_ratio": 0.5410084763832888,
+  "minimum_sampled_normal_alignment": 0.6648586496758053,
+  "texture_dimensions": [
+    [
+      512,
+      512
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "rgba8_complete_mip_estimate_bytes": 2097148,
+  "dynamic_skin_uv_measurements": {
+    "maximum_anisotropy": 2.126203749921069,
+    "minimum_albedo_texels_per_meter": 784.9196142982127,
+    "maximum_albedo_texels_per_meter": 1370.9137059087636,
+    "samples_per_lod": 601
+  },
+  "schema": "uo.frog-documentary-validation/v1",
+  "delivery": "review_only",
+  "model_sha256": "68432b85b030dff5340977412154ff2c8d07cbfce8551410e0079dd12515e5b9",
+  "native_engine": "4.8-beta2 (official)",
+  "native_samples_per_lod": 241,
+  "selected_and_rebuilt_renderers": [
+    "forward_plus",
+    "gl_compatibility"
+  ],
+  "recipe_download_and_reconstruction": true,
+  "head_component_parity_all_lods": true,
+  "viewport_controls": [
+    {
+      "id": "wire",
+      "actual_viewport_pixels_changed": true,
+      "restored": true
+    },
+    {
+      "id": "skeleton",
+      "actual_viewport_pixels_changed": true,
+      "restored": true
+    },
+    {
+      "id": "detail",
+      "actual_viewport_pixels_changed": true,
+      "restored": true
+    }
+  ],
+  "pigment_coincident_seams": [
+    {
+      "lod": 0,
+      "coincident_uv_seam_groups": 2117,
+      "vertices_checked": 5055,
+      "maximum_baked_pigment_disagreement": 0.0
+    },
+    {
+      "lod": 1,
+      "coincident_uv_seam_groups": 1496,
+      "vertices_checked": 3886,
+      "maximum_baked_pigment_disagreement": 0.0
+    },
+    {
+      "lod": 2,
+      "coincident_uv_seam_groups": 974,
+      "vertices_checked": 2729,
+      "maximum_baked_pigment_disagreement": 0.0
+    }
+  ],
+  "scope": "Première revue locale encore stylisée : déplacement lent sur sol plat dans l’éditeur et Godot isolés. Sculpture, iris, raccords de composants et silhouette du LOD2 restent à affiner. Centre de masse, forces, bonds, nage, terrain, collisions exhaustives, monde principal, réseau, VR et photoréalisme final non qualifiés."
+}

@@ -1,6 +1,6 @@
 {
   "schema": "uo.creature-documentary-gallery/v1",
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "delivery": "review_only",
   "entries": [
     {
@@ -49,6 +49,14 @@
       "version": "v0.2.0",
       "summary": "Tête affinée encore stylisée : joues et arête nasale sculptées, contours de paupière fermés, oreilles plus courtes et épaisses, mâchoire moins contrastée. Recette téléchargée puis reconstruite, déformations et appuis contrôlés dans l’éditeur et les deux modes Godot.",
       "scope": "Revue locale encore stylisée : tête sculptée, contours de paupière fermés et oreilles épaissies ; marche lente rectiligne sur sol plat dans l’éditeur et Godot isolés. Raccords de composants, queue, silhouette du pelage et détails du LOD2 restent ouverts. Bonds, forces/masse, terrain, collisions exhaustives, monde principal, serveur, réseau, VR et photoréalisme final non qualifiés.",
+      "preview_kind": "capture Godot de la recette téléchargée puis reconstruite"
+    },
+    {
+      "id": "frog-original",
+      "name": "Grenouille géante — peau et doigts palmés",
+      "version": "v0.1.0",
+      "summary": "Tête dédiée, yeux dorsaux, tympans, quatre doigts avant et cinq doigts palmés arrière. Pigment original continu, recette téléchargée puis reconstruite et déplacement lent contrôlé dans l’éditeur et les deux modes Godot. Finition encore stylisée.",
+      "scope": "Première revue locale encore stylisée : déplacement lent sur sol plat dans l’éditeur et Godot isolés. Sculpture, iris, raccords de composants et silhouette du LOD2 restent à affiner. Centre de masse, forces, bonds, nage, terrain, collisions exhaustives, monde principal, réseau, VR et photoréalisme final non qualifiés.",
       "preview_kind": "capture Godot de la recette téléchargée puis reconstruite"
     },
     {
