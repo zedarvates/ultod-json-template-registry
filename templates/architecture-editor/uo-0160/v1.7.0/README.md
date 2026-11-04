@@ -16,3 +16,11 @@ Contrôles locaux : contour de chaque arc, absence de triangle dégénéré ou r
 Profil exporté SHA-256 : 3bdb6230af4423d958d777df05bb1358a415cc148160f48b8f191904f959bb47
 
 ![Profil des arcades chargé dans l’éditeur](../../../../assets/architecture-editor/uo-0160/v1.7.0/preview.jpg)
+
+Revue complémentaire dans **Trammel privé** : les textures et le modèle v1.7.0 sont inchangés. Le client de revue isole désormais le monde 3D de l’aperçu des reliques : sa lumière ne pollue plus les murs du jeu. Les normales restent actives ; le parallax de proximité et son repli à distance ont été revérifiés. Cette correction de client reste locale et ne modifie pas l’installation active.
+
+![Parallax de proximité dans le client privé](../../../../assets/architecture-editor/uo-0160/v1.7.0/native-near-parallax.jpg)
+
+![Intérieur à normales sous éclairage de revue, sans lumière parasite de l’interface](../../../../assets/architecture-editor/uo-0160/v1.7.0/native-interior-daylight.jpg)
+
+La vue intérieure utilise le profil temporaire de lumière de revue. Ces captures complètent la preuve de l’éditeur ; elles ne certifient ni le photoréalisme global ni une mise en production. Les JSON versionnés et la capture originale de l’éditeur sont conservés.

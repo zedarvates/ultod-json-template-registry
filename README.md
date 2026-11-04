@@ -255,3 +255,5 @@ The original schemas, templates, and documents in this registry are distributed 
 [Parcourir les recettes versionnées et leurs captures](templates/architecture-editor/README.md).
 Les fichiers HouseBlueprint sont téléchargeables séparément pour l’import
 dans l’éditeur.
+
+Maison 0160 v1.7.0 : [captures complémentaires dans Trammel privé](templates/architecture-editor/uo-0160/v1.7.0/README.md), avec parallax de proximité et contrôle de l’éclairage intérieur.
