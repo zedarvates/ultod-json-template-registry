@@ -1,0 +1,41 @@
+{
+  "schema": "uo.rabbit-uv-documentation/v1",
+  "delivery": "review_only",
+  "model_sha256": "300383ac2e980714890d69526859a56d77c86f324f324b139082296343b28eea",
+  "rest_lods": [
+    {
+      "lod": 0,
+      "textured_triangles": 7912,
+      "zero_area_uv_triangles": 0,
+      "maximum_anisotropy": 1.7191916547813089,
+      "minimum_albedo_texels_per_meter": 820.0251996657356,
+      "maximum_albedo_texels_per_meter": 1075.2025897460576,
+      "actual_skin_vertices": 6429
+    },
+    {
+      "lod": 1,
+      "textured_triangles": 4392,
+      "zero_area_uv_triangles": 0,
+      "maximum_anisotropy": 1.7224143160913772,
+      "minimum_albedo_texels_per_meter": 819.2575415824566,
+      "maximum_albedo_texels_per_meter": 1075.2009824140457,
+      "actual_skin_vertices": 4185
+    },
+    {
+      "lod": 2,
+      "textured_triangles": 2312,
+      "zero_area_uv_triangles": 0,
+      "maximum_anisotropy": 1.7166999312507727,
+      "minimum_albedo_texels_per_meter": 820.6199528202727,
+      "maximum_albedo_texels_per_meter": 1075.2005349471394,
+      "actual_skin_vertices": 2698
+    }
+  ],
+  "animated": {
+    "maximum_anisotropy": 2.5264310397630934,
+    "minimum_albedo_texels_per_meter": 754.8248518504905,
+    "maximum_albedo_texels_per_meter": 1458.9209486653233,
+    "samples_per_lod": 601
+  },
+  "scope": "All actual exported fur triangles and 601 decoded animated poses per LOD. Directional metric UV charts retain seams. No final fur or whole-body seamless claim."
+}
