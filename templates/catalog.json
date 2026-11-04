@@ -123884,6 +123884,50 @@
       "supersedes": [
         "architecture-editor:uo-0114@1.0.0"
       ]
+    },
+    {
+      "id": "architecture-editor:uo-0112",
+      "slug": "uo-0112",
+      "family": "architecture-editor",
+      "version": "1.2.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:6b0b2364981339554b1796095a29d5b63115a982bfad3da9fb4432dab3836c52",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0112",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0112/v1.2.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "e5dd8856b191f28d90c64804b57c1f736d30cd6847f8cf690fde6b95c8aaca32",
+      "supersedes": [
+        "architecture-editor:uo-0112@1.1.0"
+      ]
+    },
+    {
+      "id": "architecture-editor:uo-0114",
+      "slug": "uo-0114",
+      "family": "architecture-editor",
+      "version": "1.2.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:4537c1ea32cb9b07ee8fc541148487309548b886ff883daf0aa2e4590c717b37",
+      "intended_consumers": [
+        "architecture-editor"
+      ],
+      "compatibility": [],
+      "name": "uo-0114",
+      "kind": "architecture-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/architecture-editor/uo-0114/v1.2.0/template.json",
+      "schema_file": "templates/schemas/architecture-editor/v1.0.0/schema.json",
+      "sha256": "72ed4f080e25ea613a42b37a9862e858f3f729622e6d0a2948cfeb75db3a42ff",
+      "supersedes": [
+        "architecture-editor:uo-0114@1.1.0"
+      ]
     }
   ],
   "aliases": []
