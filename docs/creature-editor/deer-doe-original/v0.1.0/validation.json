@@ -1,0 +1,49 @@
+{
+  "frames": 601,
+  "bones": 32,
+  "lod_triangles": [
+    11810,
+    6364,
+    3306
+  ],
+  "minimum_all_geometry_y_m": -7.56375683695433e-07,
+  "maximum_stance_absolute_y_m": 6.63154621854965e-05,
+  "maximum_world_stance_anchor_error_m": 6.641078513117115e-05,
+  "minimum_expected_supports": 3,
+  "maximum_sampled_edge_length_ratio": 1.1812846250972646,
+  "minimum_sampled_edge_length_ratio": 0.6384506043841189,
+  "minimum_face_area_ratio": 0.509873338573647,
+  "minimum_skinned_normal_alignment": 0.3074724454593617,
+  "minimum_peak_swing_clearance_m": 0.08562237677544537,
+  "texture_dimensions": [
+    [
+      512,
+      512
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "rgba8_complete_mip_estimate_bytes": 2097148,
+  "schema": "uo.cervid-documentary-validation/v1",
+  "delivery": "review_only",
+  "variant": "doe",
+  "model_sha256": "6576608df235de57355cb7b0756c85ca84f021b8c60463b2a02549a97090d178",
+  "model_bytes": 2174824,
+  "native_samples_per_lod": 241,
+  "native_minimum_supports": 3,
+  "native_maximum_stance_anchor_error_m": 0.000234941253438592,
+  "native_minimum_peak_swing_clearance_m": 0.0879215747117996,
+  "native_cached_instances_share_textures": true,
+  "selected_forward_plus_and_compatibility_passed": true,
+  "head_body_exported_attributes_match": true,
+  "pointed_pair_sole_shapes_checked": true,
+  "editor_variant_selection_and_pose_bounds_passed": true,
+  "editor_play_pause_end_replay_and_downloads_passed": true,
+  "scope": "Première revue cervidée encore stylisée : CPU, éditeur réel et Godot isolé sur sol plat. Visage, poils, raccords et dimorphisme du corps restent à affiner. Terrain, virages, forces, intersections exhaustives, monde principal, réseau et VR non qualifiés."
+}

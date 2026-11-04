@@ -1,0 +1,610 @@
+{
+  "status": "PASS_ACTUAL_CANNON_CROSS_SECTIONS",
+  "sha256": "5a597a48dde979526a3092c0abaf223e7ae2967647903dbcabe787aab101d933",
+  "revision": "08",
+  "sections": [
+    {
+      "lod": 0,
+      "limb": "FrontL",
+      "at": 0.15,
+      "intersections": 64,
+      "minimum_diameter_m": 0.060514921379899105,
+      "maximum_diameter_m": 0.061456800451363286,
+      "section_aspect_ratio": 1.0155644103964256,
+      "section_center_error_m": 9.795649272825232e-05
+    },
+    {
+      "lod": 0,
+      "limb": "FrontL",
+      "at": 0.35,
+      "intersections": 64,
+      "minimum_diameter_m": 0.05424764450570531,
+      "maximum_diameter_m": 0.055091725762165145,
+      "section_aspect_ratio": 1.0155597770954103,
+      "section_center_error_m": 0.00010395871600900887
+    },
+    {
+      "lod": 0,
+      "limb": "FrontL",
+      "at": 0.55,
+      "intersections": 64,
+      "minimum_diameter_m": 0.05279949294458408,
+      "maximum_diameter_m": 0.05362184344191967,
+      "section_aspect_ratio": 1.0155749695967475,
+      "section_center_error_m": 1.1744343637105443e-05
+    },
+    {
+      "lod": 0,
+      "limb": "FrontL",
+      "at": 0.75,
+      "intersections": 64,
+      "minimum_diameter_m": 0.05205843162603811,
+      "maximum_diameter_m": 0.052869262044166254,
+      "section_aspect_ratio": 1.0155753908214666,
+      "section_center_error_m": 1.1558802868951757e-05
+    },
+    {
+      "lod": 0,
+      "limb": "FrontL",
+      "at": 0.9,
+      "intersections": 64,
+      "minimum_diameter_m": 0.055340766986107445,
+      "maximum_diameter_m": 0.05620212733566307,
+      "section_aspect_ratio": 1.0155646622998893,
+      "section_center_error_m": 8.957071574762892e-05
+    },
+    {
+      "lod": 0,
+      "limb": "FrontR",
+      "at": 0.15,
+      "intersections": 64,
+      "minimum_diameter_m": 0.060568248480256465,
+      "maximum_diameter_m": 0.06146621989099346,
+      "section_aspect_ratio": 1.0148257780812286,
+      "section_center_error_m": 9.797072461503638e-05
+    },
+    {
+      "lod": 0,
+      "limb": "FrontR",
+      "at": 0.35,
+      "intersections": 64,
+      "minimum_diameter_m": 0.054295436638302386,
+      "maximum_diameter_m": 0.05510019125496965,
+      "section_aspect_ratio": 1.0148217726294064,
+      "section_center_error_m": 0.00010394843718085406
+    },
+    {
+      "lod": 0,
+      "limb": "FrontR",
+      "at": 0.55,
+      "intersections": 64,
+      "minimum_diameter_m": 0.05284602295527181,
+      "maximum_diameter_m": 0.05363007075411261,
+      "section_aspect_ratio": 1.0148364579772522,
+      "section_center_error_m": 1.1754464511472289e-05
+    },
+    {
+      "lod": 0,
+      "limb": "FrontR",
+      "at": 0.75,
+      "intersections": 64,
+      "minimum_diameter_m": 0.052104339602268554,
+      "maximum_diameter_m": 0.05287734219818552,
+      "section_aspect_ratio": 1.0148356663152738,
+      "section_center_error_m": 1.1561409812740536e-05
+    },
+    {
+      "lod": 0,
+      "limb": "FrontR",
+      "at": 0.9,
+      "intersections": 64,
+      "minimum_diameter_m": 0.05538955513244216,
+      "maximum_diameter_m": 0.05621074212838548,
+      "section_aspect_ratio": 1.0148256651272929,
+      "section_center_error_m": 8.958431093828398e-05
+    },
+    {
+      "lod": 0,
+      "limb": "HindL",
+      "at": 0.15,
+      "intersections": 64,
+      "minimum_diameter_m": 0.05459967299681272,
+      "maximum_diameter_m": 0.0553410219030432,
+      "section_aspect_ratio": 1.0135779001144156,
+      "section_center_error_m": 9.579016891830739e-05
+    },
+    {
+      "lod": 0,
+      "limb": "HindL",
+      "at": 0.35,
+      "intersections": 64,
+      "minimum_diameter_m": 0.05311340395911153,
+      "maximum_diameter_m": 0.053835159866600424,
+      "section_aspect_ratio": 1.0135889597293468,
+      "section_center_error_m": 1.132239169425682e-05
+    },
+    {
+      "lod": 0,
+      "limb": "HindL",
+      "at": 0.55,
+      "intersections": 64,
+      "minimum_diameter_m": 0.052537892632607414,
+      "maximum_diameter_m": 0.05325177589725933,
+      "section_aspect_ratio": 1.0135879691567387,
+      "section_center_error_m": 1.1173346850094246e-05
+    },
+    {
+      "lod": 0,
+      "limb": "HindL",
+      "at": 0.75,
+      "intersections": 64,
+      "minimum_diameter_m": 0.05292432371268374,
+      "maximum_diameter_m": 0.053642961792311594,
+      "section_aspect_ratio": 1.0135785973105524,
+      "section_center_error_m": 8.18811029234326e-05
+    },
+    {
+      "lod": 0,
+      "limb": "HindL",
+      "at": 0.9,
+      "intersections": 64,
+      "minimum_diameter_m": 0.056069337680298786,
+      "maximum_diameter_m": 0.0568307095960802,
+      "section_aspect_ratio": 1.0135791137773495,
+      "section_center_error_m": 8.669106937194569e-05
+    },
+    {
+      "lod": 0,
+      "limb": "HindR",
+      "at": 0.15,
+      "intersections": 64,
+      "minimum_diameter_m": 0.05423974540313663,
+      "maximum_diameter_m": 0.05526061015012537,
+      "section_aspect_ratio": 1.0188213410553677,
+      "section_center_error_m": 9.613640465052679e-05
+    },
+    {
+      "lod": 0,
+      "limb": "HindR",
+      "at": 0.35,
+      "intersections": 64,
+      "minimum_diameter_m": 0.052763310552852716,
+      "maximum_diameter_m": 0.0537569637610453,
+      "section_aspect_ratio": 1.0188322756434558,
+      "section_center_error_m": 1.1367637089610454e-05
+    },
+    {
+      "lod": 0,
+      "limb": "HindR",
+      "at": 0.55,
+      "intersections": 64,
+      "minimum_diameter_m": 0.0521915628799325,
+      "maximum_diameter_m": 0.05317443018054289,
+      "section_aspect_ratio": 1.0188319193060282,
+      "section_center_error_m": 1.1216353722179928e-05
+    },
+    {
+      "lod": 0,
+      "limb": "HindR",
+      "at": 0.75,
+      "intersections": 64,
+      "minimum_diameter_m": 0.052575370867187346,
+      "maximum_diameter_m": 0.05356501314121159,
+      "section_aspect_ratio": 1.0188233056220226,
+      "section_center_error_m": 8.216913773351195e-05
+    },
+    {
+      "lod": 0,
+      "limb": "HindR",
+      "at": 0.9,
+      "intersections": 64,
+      "minimum_diameter_m": 0.05569963627088889,
+      "maximum_diameter_m": 0.056748119130243,
+      "section_aspect_ratio": 1.0188238726417338,
+      "section_center_error_m": 8.6997797500722e-05
+    },
+    {
+      "lod": 1,
+      "limb": "FrontL",
+      "at": 0.15,
+      "intersections": 48,
+      "minimum_diameter_m": 0.05941542595052785,
+      "maximum_diameter_m": 0.06114857531454099,
+      "section_aspect_ratio": 1.0291700233783772,
+      "section_center_error_m": 0.00010465960480497555
+    },
+    {
+      "lod": 1,
+      "limb": "FrontL",
+      "at": 0.35,
+      "intersections": 48,
+      "minimum_diameter_m": 0.055002049802659,
+      "maximum_diameter_m": 0.05660683785068238,
+      "section_aspect_ratio": 1.02917687711242,
+      "section_center_error_m": 6.142805183022408e-05
+    },
+    {
+      "lod": 1,
+      "limb": "FrontL",
+      "at": 0.55,
+      "intersections": 48,
+      "minimum_diameter_m": 0.05209835883337112,
+      "maximum_diameter_m": 0.05361864786317386,
+      "section_aspect_ratio": 1.029181130919405,
+      "section_center_error_m": 1.1736648039572898e-05
+    },
+    {
+      "lod": 1,
+      "limb": "FrontL",
+      "at": 0.75,
+      "intersections": 48,
+      "minimum_diameter_m": 0.05136714074609157,
+      "maximum_diameter_m": 0.05286611199416627,
+      "section_aspect_ratio": 1.0291815200593728,
+      "section_center_error_m": 1.1556637980579018e-05
+    },
+    {
+      "lod": 1,
+      "limb": "FrontL",
+      "at": 0.9,
+      "intersections": 48,
+      "minimum_diameter_m": 0.054605896302426626,
+      "maximum_diameter_m": 0.05619880229860583,
+      "section_aspect_ratio": 1.0291709522971133,
+      "section_center_error_m": 8.955569156843395e-05
+    },
+    {
+      "lod": 1,
+      "limb": "FrontR",
+      "at": 0.15,
+      "intersections": 48,
+      "minimum_diameter_m": 0.05954044661603507,
+      "maximum_diameter_m": 0.06112774396534987,
+      "section_aspect_ratio": 1.0266591441537376,
+      "section_center_error_m": 0.00010463897648546681
+    },
+    {
+      "lod": 1,
+      "limb": "FrontR",
+      "at": 0.35,
+      "intersections": 48,
+      "minimum_diameter_m": 0.05511778162669802,
+      "maximum_diameter_m": 0.05658757219769428,
+      "section_aspect_ratio": 1.026666359342088,
+      "section_center_error_m": 6.140890480864746e-05
+    },
+    {
+      "lod": 1,
+      "limb": "FrontR",
+      "at": 0.55,
+      "intersections": 48,
+      "minimum_diameter_m": 0.052207970371186845,
+      "maximum_diameter_m": 0.05360041157230158,
+      "section_aspect_ratio": 1.0266710464171427,
+      "section_center_error_m": 1.1717645813935932e-05
+    },
+    {
+      "lod": 1,
+      "limb": "FrontR",
+      "at": 0.75,
+      "intersections": 48,
+      "minimum_diameter_m": 0.051475218909292644,
+      "maximum_diameter_m": 0.05284812495882962,
+      "section_aspect_ratio": 1.0266712037098134,
+      "section_center_error_m": 1.1537476540909267e-05
+    },
+    {
+      "lod": 1,
+      "limb": "FrontR",
+      "at": 0.9,
+      "intersections": 48,
+      "minimum_diameter_m": 0.054720762049089516,
+      "maximum_diameter_m": 0.05617966531693283,
+      "section_aspect_ratio": 1.0266608726416226,
+      "section_center_error_m": 8.953965778197074e-05
+    },
+    {
+      "lod": 1,
+      "limb": "HindL",
+      "at": 0.15,
+      "intersections": 48,
+      "minimum_diameter_m": 0.05494151795353305,
+      "maximum_diameter_m": 0.05679294356995306,
+      "section_aspect_ratio": 1.0336981154759113,
+      "section_center_error_m": 5.87415714830291e-05
+    },
+    {
+      "lod": 1,
+      "limb": "HindL",
+      "at": 0.35,
+      "intersections": 48,
+      "minimum_diameter_m": 0.05215766676408988,
+      "maximum_diameter_m": 0.05389837671871907,
+      "section_aspect_ratio": 1.03337399969409,
+      "section_center_error_m": 5.217704821436124e-05
+    },
+    {
+      "lod": 1,
+      "limb": "HindL",
+      "at": 0.55,
+      "intersections": 48,
+      "minimum_diameter_m": 0.05152259817256312,
+      "maximum_diameter_m": 0.05325902338483457,
+      "section_aspect_ratio": 1.0337022059030427,
+      "section_center_error_m": 1.1080732663009584e-05
+    },
+    {
+      "lod": 1,
+      "limb": "HindL",
+      "at": 0.75,
+      "intersections": 48,
+      "minimum_diameter_m": 0.05190149942403217,
+      "maximum_diameter_m": 0.0536502443571683,
+      "section_aspect_ratio": 1.0336935339545588,
+      "section_center_error_m": 8.152082728287695e-05
+    },
+    {
+      "lod": 1,
+      "limb": "HindL",
+      "at": 0.9,
+      "intersections": 48,
+      "minimum_diameter_m": 0.05498577128981898,
+      "maximum_diameter_m": 0.05683837702724234,
+      "section_aspect_ratio": 1.0336924570478179,
+      "section_center_error_m": 8.631360794164375e-05
+    },
+    {
+      "lod": 1,
+      "limb": "HindR",
+      "at": 0.15,
+      "intersections": 48,
+      "minimum_diameter_m": 0.0553358588291923,
+      "maximum_diameter_m": 0.05674063512516556,
+      "section_aspect_ratio": 1.0253863647496544,
+      "section_center_error_m": 5.9302315449870566e-05
+    },
+    {
+      "lod": 1,
+      "limb": "HindR",
+      "at": 0.35,
+      "intersections": 48,
+      "minimum_diameter_m": 0.052532109550169896,
+      "maximum_diameter_m": 0.053848763510541645,
+      "section_aspect_ratio": 1.0250637937757725,
+      "section_center_error_m": 5.14177905270217e-05
+    },
+    {
+      "lod": 1,
+      "limb": "HindR",
+      "at": 0.55,
+      "intersections": 48,
+      "minimum_diameter_m": 0.051892413751920954,
+      "maximum_diameter_m": 0.05321000096222526,
+      "section_aspect_ratio": 1.0253907481853362,
+      "section_center_error_m": 1.1187802929301404e-05
+    },
+    {
+      "lod": 1,
+      "limb": "HindR",
+      "at": 0.75,
+      "intersections": 48,
+      "minimum_diameter_m": 0.052274102655149646,
+      "maximum_diameter_m": 0.05360086205475538,
+      "section_aspect_ratio": 1.0253808163548654,
+      "section_center_error_m": 8.229990050555605e-05
+    },
+    {
+      "lod": 1,
+      "limb": "HindR",
+      "at": 0.9,
+      "intersections": 48,
+      "minimum_diameter_m": 0.055380484733278695,
+      "maximum_diameter_m": 0.05678607490840049,
+      "section_aspect_ratio": 1.0253806044113074,
+      "section_center_error_m": 8.713810342520138e-05
+    },
+    {
+      "lod": 2,
+      "limb": "FrontL",
+      "at": 0.15,
+      "intersections": 32,
+      "minimum_diameter_m": 0.05665185453660254,
+      "maximum_diameter_m": 0.0607730406827529,
+      "section_aspect_ratio": 1.0727458294147754,
+      "section_center_error_m": 0.00011160357761034408
+    },
+    {
+      "lod": 2,
+      "limb": "FrontL",
+      "at": 0.35,
+      "intersections": 32,
+      "minimum_diameter_m": 0.050766719715843435,
+      "maximum_diameter_m": 0.05439000702834337,
+      "section_aspect_ratio": 1.071371310432909,
+      "section_center_error_m": 5.5944610986636236e-05
+    },
+    {
+      "lod": 2,
+      "limb": "FrontL",
+      "at": 0.55,
+      "intersections": 32,
+      "minimum_diameter_m": 0.04998625803294747,
+      "maximum_diameter_m": 0.053623244072425455,
+      "section_aspect_ratio": 1.0727597180225161,
+      "section_center_error_m": 1.1560132405224718e-05
+    },
+    {
+      "lod": 2,
+      "limb": "FrontL",
+      "at": 0.75,
+      "intersections": 32,
+      "minimum_diameter_m": 0.050286085742041464,
+      "maximum_diameter_m": 0.053944668834189156,
+      "section_aspect_ratio": 1.0727553763264766,
+      "section_center_error_m": 5.4897982442203165e-05
+    },
+    {
+      "lod": 2,
+      "limb": "FrontL",
+      "at": 0.9,
+      "intersections": 32,
+      "minimum_diameter_m": 0.052763479925928176,
+      "maximum_diameter_m": 0.05660231044615508,
+      "section_aspect_ratio": 1.0727554461081041,
+      "section_center_error_m": 5.760075771577707e-05
+    },
+    {
+      "lod": 2,
+      "limb": "FrontR",
+      "at": 0.15,
+      "intersections": 32,
+      "minimum_diameter_m": 0.0562132863958192,
+      "maximum_diameter_m": 0.06079493814095982,
+      "section_aspect_ratio": 1.0815047836356597,
+      "section_center_error_m": 0.00011194743427020347
+    },
+    {
+      "lod": 2,
+      "limb": "FrontR",
+      "at": 0.35,
+      "intersections": 34,
+      "minimum_diameter_m": 0.05037488157457843,
+      "maximum_diameter_m": 0.05440784790600352,
+      "section_aspect_ratio": 1.080059073200091,
+      "section_center_error_m": 5.612637671434071e-05
+    },
+    {
+      "lod": 2,
+      "limb": "FrontR",
+      "at": 0.55,
+      "intersections": 32,
+      "minimum_diameter_m": 0.04959928141515306,
+      "maximum_diameter_m": 0.05364256941284719,
+      "section_aspect_ratio": 1.0815190841950155,
+      "section_center_error_m": 1.1602098779126858e-05
+    },
+    {
+      "lod": 2,
+      "limb": "FrontR",
+      "at": 0.75,
+      "intersections": 32,
+      "minimum_diameter_m": 0.04989677449018734,
+      "maximum_diameter_m": 0.053964121581992125,
+      "section_aspect_ratio": 1.081515230861359,
+      "section_center_error_m": 5.50567780272921e-05
+    },
+    {
+      "lod": 2,
+      "limb": "FrontR",
+      "at": 0.9,
+      "intersections": 32,
+      "minimum_diameter_m": 0.052355008135647155,
+      "maximum_diameter_m": 0.05662272230515463,
+      "section_aspect_ratio": 1.081514917511811,
+      "section_center_error_m": 5.7761314682024794e-05
+    },
+    {
+      "lod": 2,
+      "limb": "HindL",
+      "at": 0.15,
+      "intersections": 32,
+      "minimum_diameter_m": 0.05069757162907358,
+      "maximum_diameter_m": 0.05471021489226176,
+      "section_aspect_ratio": 1.0791486285092013,
+      "section_center_error_m": 0.00011084722189819486
+    },
+    {
+      "lod": 2,
+      "limb": "HindL",
+      "at": 0.35,
+      "intersections": 32,
+      "minimum_diameter_m": 0.04989019744522609,
+      "maximum_diameter_m": 0.053839744987976446,
+      "section_aspect_ratio": 1.0791648008025327,
+      "section_center_error_m": 1.1228354837758284e-05
+    },
+    {
+      "lod": 2,
+      "limb": "HindL",
+      "at": 0.55,
+      "intersections": 32,
+      "minimum_diameter_m": 0.04934959865256827,
+      "maximum_diameter_m": 0.05325631527375342,
+      "section_aspect_ratio": 1.0791641011852857,
+      "section_center_error_m": 1.1113273496989523e-05
+    },
+    {
+      "lod": 2,
+      "limb": "HindL",
+      "at": 0.75,
+      "intersections": 32,
+      "minimum_diameter_m": 0.050924605578676965,
+      "maximum_diameter_m": 0.054955813997046896,
+      "section_aspect_ratio": 1.0791603267725234,
+      "section_center_error_m": 5.395625676406064e-05
+    },
+    {
+      "lod": 2,
+      "limb": "HindL",
+      "at": 0.9,
+      "intersections": 32,
+      "minimum_diameter_m": 0.052833683190051876,
+      "maximum_diameter_m": 0.05701602845587148,
+      "section_aspect_ratio": 1.0791605849392516,
+      "section_center_error_m": 5.597452821476296e-05
+    },
+    {
+      "lod": 2,
+      "limb": "HindR",
+      "at": 0.15,
+      "intersections": 32,
+      "minimum_diameter_m": 0.05117110979442433,
+      "maximum_diameter_m": 0.05466873327622157,
+      "section_aspect_ratio": 1.0683515267862793,
+      "section_center_error_m": 0.0001119141960924494
+    },
+    {
+      "lod": 2,
+      "limb": "HindR",
+      "at": 0.35,
+      "intersections": 32,
+      "minimum_diameter_m": 0.050356224547533274,
+      "maximum_diameter_m": 0.05379888337279162,
+      "section_aspect_ratio": 1.0683661028242633,
+      "section_center_error_m": 1.1335648516293127e-05
+    },
+    {
+      "lod": 2,
+      "limb": "HindR",
+      "at": 0.55,
+      "intersections": 32,
+      "minimum_diameter_m": 0.04981056454511466,
+      "maximum_diameter_m": 0.05321589840032653,
+      "section_aspect_ratio": 1.0683656948342268,
+      "section_center_error_m": 1.1218808168406662e-05
+    },
+    {
+      "lod": 2,
+      "limb": "HindR",
+      "at": 0.75,
+      "intersections": 32,
+      "minimum_diameter_m": 0.05140027681313671,
+      "maximum_diameter_m": 0.054914138102437685,
+      "section_aspect_ratio": 1.0683626919379334,
+      "section_center_error_m": 5.4477368294606963e-05
+    },
+    {
+      "lod": 2,
+      "limb": "HindR",
+      "at": 0.9,
+      "intersections": 32,
+      "minimum_diameter_m": 0.05332719312471233,
+      "maximum_diameter_m": 0.05697281174889059,
+      "section_aspect_ratio": 1.0683632197864328,
+      "section_center_error_m": 5.651372146578338e-05
+    }
+  ],
+  "minimum_diameter_m": 0.04934959865256827,
+  "maximum_section_aspect_ratio": 1.0815190841950155,
+  "scope": "60 actual rest-pose triangle-plane sections, 24 projected width directions, four cannon shafts and three LOD. This gate does not prove gait, forces or final art."
+}

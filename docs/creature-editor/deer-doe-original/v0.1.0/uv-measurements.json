@@ -1,0 +1,61 @@
+{
+  "status": "PASS_ALL_EXPORTED_TEXTURED_UV_JACOBIANS",
+  "sha256": "6576608df235de57355cb7b0756c85ca84f021b8c60463b2a02549a97090d178",
+  "lods": [
+    {
+      "lod": 0,
+      "material": "Fur",
+      "triangles": 8282,
+      "zero_area_uv_triangles": 0,
+      "maximum_uv_anisotropy": 1.7231883556405567,
+      "minimum_uv_cycles_per_meter_area_equivalent": 3.8089345528649305,
+      "maximum_uv_cycles_per_meter_area_equivalent": 5.000040653747884
+    },
+    {
+      "lod": 0,
+      "material": "Skin",
+      "triangles": 552,
+      "zero_area_uv_triangles": 0,
+      "maximum_uv_anisotropy": 1.4911349944035293,
+      "minimum_uv_cycles_per_meter_area_equivalent": 4.094555327522818,
+      "maximum_uv_cycles_per_meter_area_equivalent": 4.999602335105981
+    },
+    {
+      "lod": 1,
+      "material": "Fur",
+      "triangles": 4356,
+      "zero_area_uv_triangles": 0,
+      "maximum_uv_anisotropy": 1.7071784296184889,
+      "minimum_uv_cycles_per_meter_area_equivalent": 3.826755497015382,
+      "maximum_uv_cycles_per_meter_area_equivalent": 5.000014455015261
+    },
+    {
+      "lod": 1,
+      "material": "Skin",
+      "triangles": 376,
+      "zero_area_uv_triangles": 0,
+      "maximum_uv_anisotropy": 1.6118841699695357,
+      "minimum_uv_cycles_per_meter_area_equivalent": 3.938227923364103,
+      "maximum_uv_cycles_per_meter_area_equivalent": 4.999147975688319
+    },
+    {
+      "lod": 2,
+      "material": "Fur",
+      "triangles": 2162,
+      "zero_area_uv_triangles": 0,
+      "maximum_uv_anisotropy": 1.7030976631832397,
+      "minimum_uv_cycles_per_meter_area_equivalent": 3.831336805688206,
+      "maximum_uv_cycles_per_meter_area_equivalent": 5.000021917651355
+    },
+    {
+      "lod": 2,
+      "material": "Skin",
+      "triangles": 248,
+      "zero_area_uv_triangles": 0,
+      "maximum_uv_anisotropy": 1.4422703949916278,
+      "minimum_uv_cycles_per_meter_area_equivalent": 4.163378791472142,
+      "maximum_uv_cycles_per_meter_area_equivalent": 4.998539040667258
+    }
+  ],
+  "scope": "All textured rest-pose triangles. Metric directional charts preserve source image budgets; chart transitions, dynamic distortion and artistic texture review remain separate."
+}

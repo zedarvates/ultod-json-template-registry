@@ -1,0 +1,82 @@
+{
+  "schema": "uo.cervid-bounded-cost-documentation/v1",
+  "delivery": "review_only",
+  "variant": "stag",
+  "model_sha256": "bf145c5f1603a77c73ea802c85ec97a4007dbe4557ca76f19d8dd1a211770403",
+  "engine": "4.8-beta2 (official)",
+  "resolution": [
+    1280,
+    800
+  ],
+  "actors": 64,
+  "texture_images": 3,
+  "shadows": false,
+  "vsync_requested": "disabled",
+  "warmup_frames_per_lod": 30,
+  "rows": [
+    {
+      "actors": 64,
+      "asset_triangles_per_actor": 13130.0,
+      "authored_scene_triangles": 840320,
+      "frame_completion_wall": {
+        "maximum_ms": 3.321,
+        "median_ms": 2.407,
+        "minimum_ms": 2.357,
+        "p95_ms": 2.639
+      },
+      "frames": 120,
+      "lod": 0,
+      "median_reported_draw_calls": 320,
+      "median_reported_primitives": 840320,
+      "sample_review_submission_cpu_wall": {
+        "maximum_ms": 0.569,
+        "median_ms": 0.474,
+        "minimum_ms": 0.458,
+        "p95_ms": 0.497
+      }
+    },
+    {
+      "actors": 64,
+      "asset_triangles_per_actor": 7036.0,
+      "authored_scene_triangles": 450304,
+      "frame_completion_wall": {
+        "maximum_ms": 3.372,
+        "median_ms": 2.485,
+        "minimum_ms": 2.373,
+        "p95_ms": 2.798
+      },
+      "frames": 120,
+      "lod": 1,
+      "median_reported_draw_calls": 320,
+      "median_reported_primitives": 450304,
+      "sample_review_submission_cpu_wall": {
+        "maximum_ms": 0.705,
+        "median_ms": 0.489,
+        "minimum_ms": 0.459,
+        "p95_ms": 0.542
+      }
+    },
+    {
+      "actors": 64,
+      "asset_triangles_per_actor": 3666.0,
+      "authored_scene_triangles": 234624,
+      "frame_completion_wall": {
+        "maximum_ms": 2.699,
+        "median_ms": 2.408,
+        "minimum_ms": 2.357,
+        "p95_ms": 2.505
+      },
+      "frames": 120,
+      "lod": 2,
+      "median_reported_draw_calls": 320,
+      "median_reported_primitives": 234624,
+      "sample_review_submission_cpu_wall": {
+        "maximum_ms": 0.548,
+        "median_ms": 0.473,
+        "minimum_ms": 0.458,
+        "p95_ms": 0.492
+      }
+    }
+  ],
+  "scope": "One isolated 64-actor shadowless scene, warm cache and 30 warmup frames/LOD. Wall time ends at the engine frame_post_draw signal; this is not a GPU timestamp/fence. Sampling wall time is submission cost, not total animation or GPU time. No world/AI/network/physics/VR/crowd gameplay or FPS guarantee."
+}

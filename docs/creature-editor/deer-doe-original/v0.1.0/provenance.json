@@ -1,0 +1,26 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "9fc99f1075195eb06c91bd7cb54e8903574cc60f8b386a663c51b28ce93aee8a",
+  "preview_file": "preview.png",
+  "preview_sha256": "9c66f66f829da6c73b1686a99ecb89f2187bcba31abf31cf2da4bc6d3fa45df4",
+  "head_preview_file": "head.png",
+  "head_preview_sha256": "1c7bdcd080876a90e88592834e2f1ad8ba4d2971fe401aba27fc5302f3c8ccdc",
+  "feet_preview_file": "feet.png",
+  "feet_preview_sha256": "cfaeab5c06819722faeb15e9621dfa4527ed6fe19c2a8cc5d873d7d3c777b5c3",
+  "rendered_model_sha256": "6576608df235de57355cb7b0756c85ca84f021b8c60463b2a02549a97090d178",
+  "source_review_sha256": "938d21814f92700984596eac3faf239f041fdada6e20973e966ed72ecab03b0b",
+  "preview_kind": "Unmodified native Godot captures of the actual downloaded and reconstructed cervid recipe",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.deer-original/v1 generator with dedicated original cervid cranium, pinnae, nose and antlers",
+    "connected ungulate body, measured round lower shafts and constrained weights",
+    "pointed paired hooves, raised dewclaws and pastern skin",
+    "shared original short-coat maps and local review adapters"
+  ],
+  "rights": "Original project geometry and generated shared short-coat detail, procedural maps/colours and native captures. Anatomical references used for qualitative guidance; no reference pixels or meshes copied.",
+  "scope": "Première revue cervidée encore stylisée : CPU, éditeur réel et Godot isolé sur sol plat. Visage, poils, raccords et dimorphisme du corps restent à affiner. Terrain, virages, forces, intersections exhaustives, monde principal, réseau et VR non qualifiés."
+}
