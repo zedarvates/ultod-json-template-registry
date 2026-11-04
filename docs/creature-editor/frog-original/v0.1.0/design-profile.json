@@ -1,0 +1,22 @@
+{
+  "schema": "uo.frog-design-documentation/v1",
+  "delivery": "review_only",
+  "cranial_profile": "ranid-original-v1",
+  "bones": 23,
+  "fore_digits_each": 4,
+  "hind_digits_each": 5,
+  "hind_outward_degrees": 60,
+  "adult_tail": false,
+  "external_ears": false,
+  "tympana": 2,
+  "nasal_cups": 2,
+  "claws": false,
+  "skin": "Original 3D pigment function baked into vertex colors; three neutral microdetail maps",
+  "mesh_quality": "Bounded diagonal flips and short-edge collapses; closed-manifold link condition, original vertex displacement capped at6mm and final source equilateral quality0.10",
+  "anatomical_references": [
+    "https://home.nps.gov/chat/learn/nature/bullfrog.htm",
+    "https://nas.er.usgs.gov/queries/FactSheet.aspx?SpeciesID=71",
+    "https://naturalhistory.novascotia.ca/stories/bullfrog"
+  ],
+  "scope": "Fictional giant ranid using qualitative anatomical cues, no biometric specimen recreation or authoritative species genome."
+}
