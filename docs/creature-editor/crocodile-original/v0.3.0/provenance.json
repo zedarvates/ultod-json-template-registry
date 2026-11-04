@@ -1,0 +1,23 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "5cefa0ab1027bac07b96a66341c99cb5c698bf0f61c83e6dd9991ef5f50f9836",
+  "preview_file": "preview.png",
+  "preview_sha256": "719b2a5860af22c76c2411a2ee7807327782aa56445a1c63488345059294b0e3",
+  "head_preview_file": "head.png",
+  "head_preview_sha256": "54cb43d43fadcc73d39a8985c049db5d4f0e355a31b2c706c2a5d19acc6c4206",
+  "rendered_model_sha256": "1eb5207af6e22424fcdc4ad4239803d306f42263e413d102d5755d4b3d8e37b2",
+  "source_review_sha256": "cb4e29dc1e32a53632eb858a8722317760c73a708b312fa9bb52786ff631c78c",
+  "preview_kind": "Godot captures of the reconstructed downloaded recipe",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.crocodile-original/v1 with rounded-cranium-v3-eyelids",
+    "original cranial and orbital module, shared skin textures and vertex iris colours",
+    "continuous-skin authoring and flat-walk review adapter"
+  ],
+  "rights": "Original project geometry, original generated albedo, procedural normal/ORM and vertex colours; local Godot screenshots. No third-party reference pixels or geometry copied.",
+  "validation_scope": "Revue CPU, éditeur réel et Godot isolé sur sol plat ; sculpture et textures encore en revue. Terrain, nage, virages, forces, collisions exhaustives, gameplay réseau et VR non qualifiés."
+}

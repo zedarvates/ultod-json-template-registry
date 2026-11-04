@@ -7,3 +7,7 @@ templates/schemas/architecture-editor/** text eol=lf
 # Keep documentary recipe SHA-256 values stable across Windows and Linux.
 docs/creature-editor/** text eol=lf
 docs/creature-editor/**/*.png binary
+
+# Preserve Xeno recipe and genome byte hashes on Windows.
+assets/xeno-editor/**/*.json text eol=lf
+assets/xeno-editor/**/*.png binary

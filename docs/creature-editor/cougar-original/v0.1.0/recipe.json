@@ -1,0 +1,16 @@
+{
+  "schema": "uo.cougar-project/v1",
+  "generator": "uo.cougar-original/v1",
+  "delivery": "review_only",
+  "source_sha256": "8920ebde1cc21230e7ef6ca3358ec835058f20a70ed3b353eab2c32acbd51f69",
+  "recipe": {
+    "schema": "uo.cougar-shape/v1",
+    "delivery": "review_only",
+    "cranial_profile": "puma-concolor-v1",
+    "body_scale": 1,
+    "stride_m": 0.23,
+    "period_s": 1.8,
+    "tail_sway_rad": 0.025,
+    "jaw_open_rad": 0.012
+  }
+}

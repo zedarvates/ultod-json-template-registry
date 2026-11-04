@@ -21,10 +21,10 @@
     },
     {
       "id": "crocodile-original",
-      "name": "Crocodilien — tête arrondie et marche",
-      "version": "v0.2.0",
-      "summary": "Crâne arrondi et aminci, yeux intégrés et UV de flancs corrigés. Recette réellement téléchargée puis reconstruite ; captures du corps et de la tête dans Godot.",
-      "scope": "CPU, éditeur et Godot isolés : appuis et déformations mesurés sur sol plat, trois LOD et trois petites textures. Terrain, nage, jeu réseau, VR et finition photoréaliste restent à qualifier.",
+      "name": "Crocodilien — paupières et iris",
+      "version": "v0.3.0",
+      "summary": "Yeux aplatis et orientés, paupières texturées et iris nuancé sans texture supplémentaire. UV crâniens corrigés conservés ; recette téléchargée et reconstruite, captures Godot et appuis mesurés.",
+      "scope": "Revue CPU, éditeur réel et Godot isolé sur sol plat ; sculpture et textures encore en revue. Terrain, nage, virages, forces, collisions exhaustives, gameplay réseau et VR non qualifiés.",
       "preview_kind": "capture Godot de la recette reconstruite"
     },
     {
@@ -57,6 +57,14 @@
       "version": "v0.1.0",
       "summary": "Première base originale d’ours brun : épaules hautes, tête abaissée, oreilles rondes, pieds plantigrades à cinq doigts et griffes. Recette téléchargée puis reconstruite, avec captures Godot.",
       "scope": "Appuis et déformations mesurés sur sol plat dans l’éditeur et Godot isolés ; sculpture et fourrure encore en revue. Autres espèces d’ours, terrain, forces, gameplay et VR non qualifiés.",
+      "preview_kind": "capture Godot de la recette reconstruite"
+    },
+    {
+      "id": "cougar-original",
+      "name": "Puma — digitigradie et poil court",
+      "version": "v0.1.0",
+      "summary": "Nouvelle famille originale : tête courte, oreilles concaves, longue queue articulée et quatre doigts d’appui par patte. Poil court fauve original, recette téléchargée puis reconstruite et captures Godot.",
+      "scope": "Première copie originale de revue du puma. Appuis, déformations et rendu isolés sur sol plat ; sculpture et pelage non approuvés photoréalistes. Aucun autre félin, terrain, virage, force, collision exhaustive, gameplay réseau ou VR qualifié.",
       "preview_kind": "capture Godot de la recette reconstruite"
     },
     {

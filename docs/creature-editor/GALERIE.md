@@ -26,15 +26,15 @@ Recette exportée et capture de sa reconstruction, conservées sans réécriture
 
 Instantané historique de revue ; consulter la fiche pour la portée exacte des contrôles.
 
-## Crocodilien — tête arrondie et marche
+## Crocodilien — paupières et iris
 
-![Crocodilien — tête arrondie et marche — capture Godot de la recette reconstruite](crocodile-original/v0.2.0/preview.png)
+![Crocodilien — paupières et iris — capture Godot de la recette reconstruite](crocodile-original/v0.3.0/preview.png)
 
-[Fiche 0.2.0](crocodile-original/v0.2.0/README.md) · [Recette JSON](crocodile-original/v0.2.0/recipe.json)
+[Fiche 0.3.0](crocodile-original/v0.3.0/README.md) · [Recette JSON](crocodile-original/v0.3.0/recipe.json)
 
-Crâne arrondi et aminci, yeux intégrés et UV de flancs corrigés. Recette réellement téléchargée puis reconstruite ; captures du corps et de la tête dans Godot.
+Yeux aplatis et orientés, paupières texturées et iris nuancé sans texture supplémentaire. UV crâniens corrigés conservés ; recette téléchargée et reconstruite, captures Godot et appuis mesurés.
 
-CPU, éditeur et Godot isolés : appuis et déformations mesurés sur sol plat, trois LOD et trois petites textures. Terrain, nage, jeu réseau, VR et finition photoréaliste restent à qualifier.
+Revue CPU, éditeur réel et Godot isolé sur sol plat ; sculpture et textures encore en revue. Terrain, nage, virages, forces, collisions exhaustives, gameplay réseau et VR non qualifiés.
 
 ## Gazer
 
@@ -75,6 +75,16 @@ Reconstruction de la recette téléchargée et revue Godot sur sol plat ; trois 
 Première base originale d’ours brun : épaules hautes, tête abaissée, oreilles rondes, pieds plantigrades à cinq doigts et griffes. Recette téléchargée puis reconstruite, avec captures Godot.
 
 Appuis et déformations mesurés sur sol plat dans l’éditeur et Godot isolés ; sculpture et fourrure encore en revue. Autres espèces d’ours, terrain, forces, gameplay et VR non qualifiés.
+
+## Puma — digitigradie et poil court
+
+![Puma — digitigradie et poil court — capture Godot de la recette reconstruite](cougar-original/v0.1.0/preview.png)
+
+[Fiche 0.1.0](cougar-original/v0.1.0/README.md) · [Recette JSON](cougar-original/v0.1.0/recipe.json)
+
+Nouvelle famille originale : tête courte, oreilles concaves, longue queue articulée et quatre doigts d’appui par patte. Poil court fauve original, recette téléchargée puis reconstruite et captures Godot.
+
+Première copie originale de revue du puma. Appuis, déformations et rendu isolés sur sol plat ; sculpture et pelage non approuvés photoréalistes. Aucun autre félin, terrain, virage, force, collision exhaustive, gameplay réseau ou VR qualifié.
 
 ## Rat géant
 

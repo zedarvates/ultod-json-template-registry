@@ -8,11 +8,12 @@ Ces instantanés proviennent des ateliers de l’éditeur de créatures. Les rec
 | --- | --- | --- |
 | Chauve-souris géante | 0.1.0 | [Fiche](bat-original/v0.1.0/README.md) |
 | Araignée géante — huit pattes | 0.1.0 | [Génome et marche](spider-original/v0.1.0/README.md) |
-| Crocodilien — tête arrondie et marche | 0.2.0 | [Recette et captures Godot](crocodile-original/v0.2.0/README.md) · [Prototype conservé](crocodile-original/v0.1.0/README.md) |
+| Crocodilien — paupières et iris | 0.3.0 | [Recette et captures Godot](crocodile-original/v0.3.0/README.md) · [Version 0.2.0 conservée](crocodile-original/v0.2.0/README.md) |
 | Sanglier géant | 0.1.0 | [Fiche](boar-original/v0.1.0/README.md) |
 | Gazer | 0.1.0 | [Fiche](gazer-original/v0.1.0/README.md) |
 | Golem | 0.1.0 | [Fiche](golem-original/v0.1.0/README.md) |
 | Ours brun — plantigradie et marche | 0.1.0 | [Recette et captures Godot](bear-original/v0.1.0/README.md) |
+| Puma — digitigradie et poil court | 0.1.0 | [Recette et captures Godot](cougar-original/v0.1.0/README.md) |
 | Loup — oreilles et marche | 0.1.0 | [Recette reconstruite](wolf-original/v0.1.0/README.md) |
 | Rat géant | 0.1.0 | [Fiche](rat-original/v0.1.0/README.md) |
 | Scarabée géant — six pattes | 0.1.0 | [Génome et marche](beetle-original/v0.1.0/README.md) |
