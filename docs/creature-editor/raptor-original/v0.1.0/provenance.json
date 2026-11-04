@@ -1,0 +1,53 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "1029c740342bd281f7042b4d1849dc8d89cd0e4de7f7814fc6c91d0037952f7b",
+  "preview_file": "preview.png",
+  "preview_sha256": "14b9e3c34384371c23165b3e6e309f91ce3a7ba30fa1e83c01c6eea46029ad34",
+  "rendered_model_sha256": "d7c2c3b590ba0ccc2e1037fca32bfb92b8ebbff7b883cf2845be6cffea5cf45b",
+  "source_review_sha256": "7ed94d680ccf783e05b8e5fdfad972861022ea02e7d97f954a4daffcab34dd31",
+  "captures": [
+    {
+      "file": "preview.png",
+      "sha256": "14b9e3c34384371c23165b3e6e309f91ce3a7ba30fa1e83c01c6eea46029ad34"
+    },
+    {
+      "file": "side.png",
+      "sha256": "849ff64a0e779217b542d0aa174bdddcd0a5735228d7dd50a60ce430d6a4e916"
+    },
+    {
+      "file": "head.png",
+      "sha256": "d110caeee1e4c6595ed32a76042f72557a56208dcbd48237036137319b120b0c"
+    },
+    {
+      "file": "feet.png",
+      "sha256": "9eb2d999aa8785cbbed01e7384438a03ae424078110f8dd2be2ace4da0aba1e2"
+    },
+    {
+      "file": "walk-0.png",
+      "sha256": "f3d46a85c59ef0290f43f4736b601a4db4abd34007cb08fcb3b422450c5c4ef8"
+    },
+    {
+      "file": "walk-4.png",
+      "sha256": "8036ee286dcb0052616c2f28fbbf82ddde890fd497d6cdb291ed5f81450e6bdd"
+    }
+  ],
+  "preview_kind": "Unchanged native Godot captures of the actual downloaded then reconstructed raptor recipe",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.raptor-original/v1 local generator and avian biped authoring",
+    "original dedicated raptor head04 and single wing02 components with three LODs",
+    "original folded wing mapping, torso and four geometrical toe pads/talons per foot",
+    "shared original procedural feather maps and local editor/Godot review adapters"
+  ],
+  "rights": "Original project geometry, procedural pixel arrays and native captures. No EA/Origin mesh, reference bitmap or downloaded anatomical illustration copied.",
+  "unmapped_catalogue_identities": [
+    "mobile:birds_eagle",
+    "server:eagle",
+    "server:giant_eagle"
+  ],
+  "scope": "Première revue encore stylisée : CPU, éditeur réel et Godot isolé, marche bipède rectiligne sur plan plat. Sculpture, plumes, peau continue et écailles restent à affiner. Masse réelle, forces, équilibre dynamique, terrain, virages, intersections exhaustives, vol, monde principal, réseau et VR non qualifiés."
+}

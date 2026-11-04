@@ -1,0 +1,16 @@
+{
+  "schema": "uo.raptor-project/v1",
+  "generator": "uo.raptor-original/v1",
+  "delivery": "review_only",
+  "source_sha256": "7ed94d680ccf783e05b8e5fdfad972861022ea02e7d97f954a4daffcab34dd31",
+  "recipe": {
+    "schema": "uo.raptor-shape/v1",
+    "delivery": "review_only",
+    "body_scale": 1,
+    "stride_m": 0.13,
+    "lift_m": 0.065,
+    "period_s": 1.6,
+    "sway_m": 0.09,
+    "duty": 0.64
+  }
+}
