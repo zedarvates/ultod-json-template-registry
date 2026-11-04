@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../schemas/architecture-editor/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "architecture-editor:uo-0160",
+  "slug": "uo-0160",
+  "family": "architecture-editor",
+  "version": "1.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "architecture-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:deaf2fffb8632f24b1217b3c42026e7104aea4a8657b71648a4cbd8e3f3cd93a",
+  "spec": {
+    "display_name": "Maison UO 0160 — galerie de pierre et ardoise",
+    "collection": "old-school-90s-mmorpg-like",
+    "recipe_format": "house-blueprint",
+    "recipe_file": "assets/architecture-editor/uo-0160/v1.1.0/blueprint.json",
+    "recipe_sha256": "6512c8543d32373cd329030c642615666f865c388b8d9bcdbd48477d8c9051de",
+    "preview_file": "assets/architecture-editor/uo-0160/v1.1.0/preview.jpg",
+    "preview_sha256": "fc6ca20a468b48ad6b55f3118fd63a83a82b44935924397d5edb0bf0a8a612c5",
+    "reviewed_model_sha256": "8b5b7922de3d2a29f412935f2d5d8da46302ddc423c27ecf050c486153e39cf7",
+    "zig_parts": 161,
+    "evidence_scope": "local-zig-and-editor-preview"
+  }
+}
