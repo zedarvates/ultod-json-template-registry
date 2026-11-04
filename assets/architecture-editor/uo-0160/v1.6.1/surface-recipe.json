@@ -1,0 +1,222 @@
+{
+  "schema": "uo.architecture-surface-recipe/v1",
+  "profile_id": "uo-0160-surfaces-1.4.0",
+  "kind": "descriptive-material-profile",
+  "requires_generator": "uo-cut-limestone-pbr-v1",
+  "generator_sha256": "9f29ffa675d5e0b5f2c682e088b1e8ccde78c0d1a12b3648d8dd5b3ceec8a06b",
+  "periodic_field_generator_sha256": "fc2e6dee5e82b36324eb589edc378204c8d355ba94a3aab742e9f95261a9a7f3",
+  "interior_tint_generator_sha256": "a1e2e138e2d047fd33f1f0d8ff50604ace2819f11ebd6b3907a17f1576bfc02c",
+  "target_material": "UO_0160_masonry_height_in_orm_alpha",
+  "seed": 160101,
+  "resolution": [
+    512,
+    512
+  ],
+  "repeat_m": [
+    2,
+    1.56
+  ],
+  "courses": 6,
+  "stones_per_course": 4,
+  "course_height_m": 0.26,
+  "stone_width_random_range": [
+    0.8,
+    1.2
+  ],
+  "alternating_course_offset_m": 0.23,
+  "noise": {
+    "coarse": {
+      "period": 7,
+      "seed_offset": 0
+    },
+    "medium": {
+      "period": 31,
+      "seed_offset": 1
+    },
+    "fine": {
+      "period": 117,
+      "seed_offset": 2
+    },
+    "bed_warp": {
+      "period": 9,
+      "seed_offset": 3,
+      "amplitude_m": 0.0016
+    },
+    "vertical_warp": {
+      "period": 13,
+      "seed_offset_base": 10,
+      "amplitude_m": 0.0015
+    }
+  },
+  "joint_width_m": 0.009,
+  "bevel_width_m": 0.011,
+  "edge_chip_m": {
+    "offset": 0.0009,
+    "medium": 0.0009,
+    "fine": 0.0008
+  },
+  "height_m": {
+    "mortar": 0.0012,
+    "mortar_fine": 0.00025,
+    "face": 0.014,
+    "face_medium": 0.0018,
+    "face_fine": 0.00065,
+    "face_coarse": 0.0009
+  },
+  "diffuse_srgb255": {
+    "stone": [
+      157,
+      151,
+      137
+    ],
+    "mortar": [
+      139,
+      136,
+      126
+    ],
+    "stone_random_tone_range": [
+      -12,
+      12
+    ],
+    "stone_noise_gain": {
+      "coarse": 4,
+      "medium": 3,
+      "fine": 1.8
+    },
+    "stone_warmth_range": [
+      -3,
+      3
+    ],
+    "stone_warmth_rgb_gain": [
+      1,
+      0.35,
+      -0.55
+    ],
+    "mortar_noise_gain": {
+      "medium": 2,
+      "fine": 1
+    }
+  },
+  "orm": {
+    "red": "ao",
+    "green": "roughness",
+    "blue": "metallic",
+    "alpha": "height",
+    "ao_offset": 0.85,
+    "ao_face_gain": 0.15,
+    "roughness_offset": 0.91,
+    "roughness_face_gain": -0.12,
+    "roughness_medium_gain": 0.025,
+    "metallic": 0,
+    "height_m_per_unit": 0.024
+  },
+  "normal": "OpenGL +Y; central differences of the same physical height",
+  "relief": {
+    "method": "single offset mapping",
+    "height_resolution": [
+      256,
+      256
+    ],
+    "height_format": "R8",
+    "mipmaps": true,
+    "height_with_mipmaps_bytes": 87381,
+    "godot_heightmap_scale": 1.3,
+    "deep_parallax": false,
+    "enable_below_shell_distance_m": 7,
+    "disable_above_shell_distance_m": 12,
+    "compatibility_profile": "normal-only"
+  },
+  "reviewed_model_sha256": "636008588637b995f3d89f3ab1670b3e199b3f2425c1d0ba0268d0d7c855e362",
+  "maps_sha256": {
+    "albedo": "62170bff4c6ea234fdfc333c2db9cbc31ff1877ba7cf74c52dd69b651c848cef",
+    "normal": "c9ec0f1105e960b0a22e62d8ec9cfc8ea673fb6cb14b9d89ea654793366b4938",
+    "orm": "6b6271f56279f79213c3f9749fcb6576f8f7d9bac46a258e8488934aba0a6f47",
+    "height": "921eea75a77c585c0d154810ef29521db3b54dbbe8e90302e587c1d85e2361d2"
+  },
+  "scope": "Material parameters for the matched local generator. Importing the HouseBlueprint alone does not install this material or regenerate its GLB.",
+  "requires_uv_generator": "uo-upper-perimeter-ring-v1",
+  "uv_generator_sha256": "c285e121e303af5d2ffc813b8ca9ed080870515820100e6584d91700056b0f1c",
+  "uv_mapping": {
+    "schema": "uo.architecture-ring-uv/v1",
+    "repeats": 12,
+    "center_xz": [
+      1,
+      1
+    ],
+    "seam": "northwest",
+    "vertical_repeat_m": 1.56,
+    "effective_horizontal_repeat_m": {
+      "exterior": 2.106666666666667,
+      "interior": 1.8933333333333333
+    },
+    "scope": "upper perimeter wall planes and corner returns; no lower arcade or window-jamb unwrap"
+  },
+  "requires_reveal_generator": "uo-window-returns-v1",
+  "reveal_generator_sha256": "ab53548a904bfa4f5bc63eac793d38a35fbc3c5ff966df1aad55ed5d38f675f2",
+  "window_reveal_mapping": {
+    "schema": "uo.architecture-window-returns/v1",
+    "cut_local_depth_m": 0,
+    "wall_half_depth_m": 0.16,
+    "faces": [
+      "left",
+      "right",
+      "head"
+    ],
+    "source_faces": 24,
+    "added_triangles": 48,
+    "scope": "Eight upper windows; existing sill faces, door and lower arcade unchanged."
+  },
+  "geometry_budget": {
+    "triangles": 2384,
+    "previous_triangles": 2336,
+    "added_triangles": 48,
+    "reason": "Coplanar face subdivision for a UV cut at the glazing."
+  },
+  "requires_arch_generator": "uo-arch-surface-v1",
+  "arch_generator_sha256": "dffcf155e3c311702c924cc95a6fccd32c8cb78e8b47448ae332257d7cfcb7cc",
+  "arch_surface_mapping": {
+    "schema": "uo.architecture-arch-surface/v1",
+    "arches": 5,
+    "changed_uv_triangles": 320,
+    "added_triangles": 0,
+    "half_span_m": 0.36,
+    "rise_m": 0.46,
+    "spring_height_m": 1.96,
+    "depth_m": 0.36,
+    "contour_segments": 8,
+    "polyline_arc_length_m": 1.2804642051710853,
+    "repeat_m": [
+      2,
+      1.56
+    ],
+    "projection": "U=(world-along-axis+local-depth-exterior-depth)/2; V=-world-height/1.56",
+    "scope": "Five existing arch frames; caps at ground and beneath the upper floor retain their previous UVs."
+  },
+  "requires_roof_wood_generator": "uo-roof-wood-v1",
+  "roof_wood_generator_sha256": "6ccd7b56975159a605c2981846d60346e444ed55cfd1c6af361e2e72e377f958",
+  "roof_wood_mapping": {
+    "schema": "uo.architecture-roof-wood/v1",
+    "ridge_x_m": 1,
+    "ridge_y_m": 7.47,
+    "slope": 0.45,
+    "roof_repeat_m": [
+      2,
+      1.5
+    ],
+    "roof_v_phase": 0.08333333333333333,
+    "roof_v_flow": "ridge toward eaves",
+    "roof_base_color_factor": [
+      0.36,
+      0.65,
+      0.95,
+      1
+    ],
+    "fascia_grain_repeat_m": 2,
+    "fascia_cross_grain_repeat_m": 0.5,
+    "ladder_grain_repeat_m": 2,
+    "ladder_cross_section_wraps": 1,
+    "ladder_long_faces_triangles": 112,
+    "geometry_triangles_added": 0,
+    "scope": "Roof, fascia and ladder long faces; ladder end caps keep previous UVs. No new images."
+  }
+}
