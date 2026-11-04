@@ -1,0 +1,25 @@
+{
+  "species_id": "uo_fire_beetle",
+  "species_name": "Scarabée de feu (bestiaire UO)",
+  "chemistry": "plasma",
+  "base_traits": {
+    "scale": 0.9,
+    "diet": "herbivore",
+    "locomotion_preference": "crawling",
+    "aggressiveness": 0.4
+  },
+  "parts": [
+    { "part_id": "head_beak_01", "attach_point": "Head",
+      "position": [0, 0, 0.06], "rotation": [0, 0, 0], "scale": [0.8, 0.8, 0.8] },
+    { "part_id": "shell_spikes_01", "attach_point": "Spine",
+      "position": [0, 0.02, 0], "rotation": [0, 0, 0], "scale": [1.1, 1.1, 1.1] },
+    { "part_id": "leg_crawler_01", "attach_point": "LeftUpperLeg",
+      "position": [0, -0.12, 0], "rotation": [0, 0, 0], "scale": [0.8, 0.8, 0.8] },
+    { "part_id": "leg_crawler_01", "attach_point": "RightUpperLeg",
+      "position": [0, -0.12, 0], "rotation": [0, 0, 0], "scale": [0.8, 0.8, 0.8] },
+    { "part_id": "antenna_01", "attach_point": "Head",
+      "position": [0, 0.1, 0.02], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+    { "part_id": "eye_compound_01", "attach_point": "Head",
+      "position": [0, 0.02, 0.05], "rotation": [0, 0, 0], "scale": [0.5, 0.5, 0.5] }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../schemas/xeno-editor/v1.1.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "xeno-editor:giant-beetle-six-legs",
+  "slug": "giant-beetle-six-legs",
+  "family": "xeno-editor",
+  "version": "0.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "xeno-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:cb317981ecd8f0ccfb7ab7696995cbf7f00258c09c9c4e49e7f001ed52296a53",
+  "spec": {
+    "display_name": "Scarabée géant — six pattes",
+    "genome_file": "assets/xeno-editor/giant-beetle-six-legs/v0.1.0/genome.json",
+    "source_recipe_file": "assets/xeno-editor/giant-beetle-six-legs/v0.1.0/source-recipe.json",
+    "preview_file": "assets/xeno-editor/giant-beetle-six-legs/v0.1.0/preview.png",
+    "part_file": "assets/xeno-editor/giant-beetle-six-legs/v0.1.0/antenna.glb",
+    "registration_file": "assets/xeno-editor/giant-beetle-six-legs/v0.1.0/registration.json",
+    "genome_sha256": "dc086d1ebaa55226b5526ad64be4298a5ed521540ae91cf2527647a613342c4c",
+    "source_recipe_sha256": "c6db4dce928d0f1d675a3fff4a7388244ee3f0163e6253b696747698a029c78a",
+    "preview_sha256": "6822c7fac59c21f5a3645a14826faac2398c1439f39a627aaa841630f96a704c",
+    "part_sha256": "d308f0c4a01729bf5609b2f1d8a47e14a7a369949f71709ff801e79d735289f7",
+    "registration_sha256": "71a4eee7e4c624f83aee8b0b7265c38db8fec0c0779e5f30f5adadab34f1fbda",
+    "reviewed_model_sha256": "303b9163a2f5a56e02da4c4e0e45e4bc6f821222a9691f3b4d2196e4c9a43f28",
+    "review_status": "review-only",
+    "evidence_scope": "editor-export-only"
+  }
+}

@@ -124200,6 +124200,36 @@
       "supersedes": [
         "xeno-editor:giant-spider-eight-legs@0.1.0"
       ]
+    },
+    {
+      "name": "xeno-editor",
+      "kind": "json-schema",
+      "version": "1.1.0",
+      "status": "experimental",
+      "file": "templates/schemas/xeno-editor/v1.1.0/schema.json",
+      "sha256": "4054b6daca5c67df0e6bcd2202fb58cf38417c9f0c2a19c5ccbced52cbf576da",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "xeno-editor:giant-beetle-six-legs",
+      "slug": "giant-beetle-six-legs",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:cb317981ecd8f0ccfb7ab7696995cbf7f00258c09c9c4e49e7f001ed52296a53",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "giant-beetle-six-legs",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/giant-beetle-six-legs/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.1.0/schema.json",
+      "sha256": "8f435bbf5545c6f84270b056e4078c6c579484d2ea4b8c705114052207c9b792"
     }
   ],
   "aliases": []
