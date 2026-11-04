@@ -1,0 +1,61 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "c2e9d56064dc6a4ab0977c3aa8cb0ebd6415143be268b1edf2d845e42a11874d",
+  "preview_file": "preview.png",
+  "preview_sha256": "9053dcf5ee36e52bf45382d375b09f7a417906da0bda39c83ceb9bdbcdb4e16e",
+  "head_preview_file": "head.png",
+  "head_preview_sha256": "2619748387608e102dc759b8d1dd4e274bc0361b744e58bcb1d83a88389b4dd2",
+  "rendered_model_sha256": "300383ac2e980714890d69526859a56d77c86f324f324b139082296343b28eea",
+  "source_review_sha256": "faed37f9b5518bdf00ba5bd4e96028ff165969637646fa603d9d2db78f7e3ca0",
+  "captures": [
+    {
+      "file": "preview.png",
+      "sha256": "9053dcf5ee36e52bf45382d375b09f7a417906da0bda39c83ceb9bdbcdb4e16e"
+    },
+    {
+      "file": "side.png",
+      "sha256": "52d38227fcb33a0190146b4629357156f7a81ec3966e85ca9c6e1359371f1574"
+    },
+    {
+      "file": "top.png",
+      "sha256": "59f4ce5f1d1ea77adb8e4ed7556687e897d7bb15a00c9b4ccf727c2015d69ac9"
+    },
+    {
+      "file": "head.png",
+      "sha256": "2619748387608e102dc759b8d1dd4e274bc0361b744e58bcb1d83a88389b4dd2"
+    },
+    {
+      "file": "head-lod2.png",
+      "sha256": "65a0913a0924bb741feaa799bdfe7bce20b7035c2f9ed8d068c59230368cb9af"
+    },
+    {
+      "file": "feet-15.png",
+      "sha256": "6cea2bb9cccf3abe3064c972d30bfbdfef7854d65e192ceb25d580f559616b8c"
+    },
+    {
+      "file": "feet-40.png",
+      "sha256": "c12e634affc7c238ff57e0bebdf93881c53d769e14c9b27675284e1242c965ae"
+    },
+    {
+      "file": "feet-65.png",
+      "sha256": "a88033aa2805d45b722e2f1f1b6e034bd64c9c947362b3441d6a294935f1e647"
+    },
+    {
+      "file": "feet-90.png",
+      "sha256": "46795405f4add55b3532b8a55e21dafc29b933195ba24be013b8d35291307195"
+    }
+  ],
+  "preview_kind": "Unmodified native Godot captures of the actual reconstructed downloaded recipe",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.rabbit-original/v1 with lagomorph-original-v2-short-muzzle",
+    "original shared mammal coat maps",
+    "original continuous skin, anatomical surface diffusion and flat-walk review adapter"
+  ],
+  "rights": "Numerically authored original project geometry, original shared generated mammal coat pixels and procedural derivative maps, native Godot screenshots. No historical EA/Origin model or external image/geometry copied.",
+  "validation_scope": "Première revue locale encore stylisée : marche lente rectiligne sur sol plat dans l’éditeur et Godot isolés. Sculpture du museau et des orbites, épaisseur des oreilles, queue, silhouette du pelage et détails du LOD2 restent ouverts. Bonds, forces/masse, terrain, collisions exhaustives, monde principal, serveur, réseau, VR et photoréalisme final non qualifiés."
+}

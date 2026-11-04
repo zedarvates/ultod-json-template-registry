@@ -1,0 +1,26 @@
+{
+  "schema": "uo.rabbit-design-documentation/v1",
+  "delivery": "review_only",
+  "cranial_profile": "lagomorph-original-v2-short-muzzle",
+  "head_bind_pivot_m": [
+    0,
+    0.45,
+    -0.39
+  ],
+  "head_longitudinal_compression": 0.65,
+  "pinna_height_before_body_scale_m": 0.42,
+  "pinna_maximum_width_m": 0.09,
+  "fore_digits_each": 5,
+  "hind_digits_each": 4,
+  "sole_policy": "Fur covered; no exposed pads",
+  "continuous_skin": "Original torso/neck and12limb source solids, voxel union and measured three-LOD decimation",
+  "binding": "Anatomical seeds diffused for12surface iterations; maximum4influences with retained mass guard",
+  "torso_binding_limit": "Stationary pelvis/spine/chest weights combined only for this clip; equality checked at every decoded pose",
+  "triangle_correction": "One measured sliver diagonal replaced by a bounded quality-improving flip; shader vertex positions and triangle count retained",
+  "shading_normals": "Overly oblique bind normals constrained to a face-normal cosine of0.75; no geometry movement or runtime normal rebuild",
+  "anatomical_sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7150064/",
+    "https://pubmed.ncbi.nlm.nih.gov/23420943/"
+  ],
+  "scope": "Original fictional lagomorph; not automatically bound to any historical species identity. Documentary parameters, not a standalone generator or authoritative genome."
+}
