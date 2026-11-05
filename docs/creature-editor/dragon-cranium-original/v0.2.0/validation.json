@@ -1,0 +1,151 @@
+{
+  "schema": "uo.dragon-cranial-documentary-validation/v2",
+  "delivery": "review_only",
+  "selected_model_sha256": "17ecfdd283e9f87b0312562ac02e34926aca465d37618129b6702a7fa3ed2d9f",
+  "lods": [
+    {
+      "lod": 0,
+      "sha256": "17ecfdd283e9f87b0312562ac02e34926aca465d37618129b6702a7fa3ed2d9f",
+      "triangles": 6308,
+      "mesh_objects": 8,
+      "source_components": 26,
+      "minimum_area_m2": 1.8906159482412477e-07,
+      "minimum_normal_alignment": 0.3039584755897522,
+      "coincident_colour_groups": 271,
+      "nasal_ray_count": 10,
+      "minimum_unobstructed_nasal_depth_m": 0.02478183932806588,
+      "maximum_unobstructed_nasal_depth_m": 0.02900002036685967,
+      "eye_embedding_m": 0.034,
+      "maximum_horn_tangent_change_degrees": 5.391293515713611,
+      "textures": 0
+    },
+    {
+      "lod": 1,
+      "sha256": "521b08a3b6fd3f5ab30b5370b8a5d91d27d593eb5673fa7c5358035ca51968d2",
+      "triangles": 3862,
+      "mesh_objects": 8,
+      "source_components": 24,
+      "minimum_area_m2": 3.5354082683625165e-07,
+      "minimum_normal_alignment": 0.30015188455581665,
+      "coincident_colour_groups": 264,
+      "nasal_ray_count": 10,
+      "minimum_unobstructed_nasal_depth_m": 0.024781839441550324,
+      "maximum_unobstructed_nasal_depth_m": 0.02900002065919771,
+      "eye_embedding_m": 0.034,
+      "maximum_horn_tangent_change_degrees": 7.233882356187628,
+      "textures": 0
+    },
+    {
+      "lod": 2,
+      "sha256": "eb62b0033e5722025bb80c1d6f0d4f38a65ba6e494ada71237a84df8c89051e2",
+      "triangles": 2084,
+      "mesh_objects": 8,
+      "source_components": 22,
+      "minimum_area_m2": 4.330052547629748e-07,
+      "minimum_normal_alignment": 0.3179171681404114,
+      "coincident_colour_groups": 208,
+      "nasal_ray_count": 10,
+      "minimum_unobstructed_nasal_depth_m": 0.024564763543353352,
+      "maximum_unobstructed_nasal_depth_m": 0.029000020681488103,
+      "eye_embedding_m": 0.034,
+      "maximum_horn_tangent_change_degrees": 9.728179738554948,
+      "textures": 0
+    }
+  ],
+  "comparison": [
+    {
+      "lod": 0,
+      "v1_mesh_objects": 23,
+      "selected_mesh_objects": 8,
+      "v1_triangles": 4292,
+      "candidate02_triangles": 6740,
+      "selected03_triangles": 6308,
+      "nasal_depth_rays": [
+        {
+          "side": -1,
+          "before_m": 0.009999978542328036,
+          "after_m": 0.029000020618043743
+        },
+        {
+          "side": 1,
+          "before_m": 0.009999978542328036,
+          "after_m": 0.029000020618043743
+        }
+      ],
+      "unchanged_02_to_03_roles": [
+        "cranial_head_without_torso",
+        "jaw",
+        "orbital_ridge",
+        "horn",
+        "tooth"
+      ]
+    },
+    {
+      "lod": 1,
+      "v1_mesh_objects": 21,
+      "selected_mesh_objects": 8,
+      "v1_triangles": 2532,
+      "candidate02_triangles": 4198,
+      "selected03_triangles": 3862,
+      "nasal_depth_rays": [
+        {
+          "side": -1,
+          "before_m": 0.009999978542327925,
+          "after_m": 0.02900002060647222
+        },
+        {
+          "side": 1,
+          "before_m": 0.009999978542327925,
+          "after_m": 0.02900002060647211
+        }
+      ],
+      "unchanged_02_to_03_roles": [
+        "cranial_head_without_torso",
+        "jaw",
+        "orbital_ridge",
+        "horn",
+        "tooth"
+      ]
+    },
+    {
+      "lod": 2,
+      "v1_mesh_objects": 19,
+      "selected_mesh_objects": 8,
+      "v1_triangles": 1328,
+      "candidate02_triangles": 2324,
+      "selected03_triangles": 2084,
+      "nasal_depth_rays": [
+        {
+          "side": -1,
+          "before_m": 0.009999978542328036,
+          "after_m": 0.029000020560812967
+        },
+        {
+          "side": 1,
+          "before_m": 0.009999978542327814,
+          "after_m": 0.029000020560813078
+        }
+      ],
+      "unchanged_02_to_03_roles": [
+        "cranial_head_without_torso",
+        "jaw",
+        "orbital_ridge",
+        "horn",
+        "tooth"
+      ]
+    }
+  ],
+  "native_engine": "4.8-beta2 (official)",
+  "renderers": [
+    "gl_compatibility",
+    "forward_plus"
+  ],
+  "native_static_editor_export": true,
+  "editor_anchor_error_m": 0,
+  "recipe_exact_reconstruction": true,
+  "inline_views_and_widths": [
+    736,
+    320
+  ],
+  "scope": "Tête seule encore stylisée, sans microrelief de peau ni rig de mâchoire. Corps, marche, ailes, vol, terrain, collisions exhaustives, monde principal, serveur/réseau/VR, FPS et photoréalisme final non qualifiés."
+}
