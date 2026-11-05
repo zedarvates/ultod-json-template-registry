@@ -1,0 +1,39 @@
+{
+  "schema": "uo.shark-documentary-validation/v1",
+  "delivery": "review_only",
+  "model_sha256": "af392619d93c82c6da1a0aacf622be976e3018a42d8df05e6aa1d465348f6894",
+  "model_bytes": 696524,
+  "cpu_poses_per_lod": 601,
+  "native_poses_per_lod": 129,
+  "native_cpu_reference_poses": 17,
+  "native_maximum_cpu_landmark_error_m": 2.00341455638409e-05,
+  "native_renderers": [
+    "gl_compatibility",
+    "forward_plus"
+  ],
+  "selected_and_rebuilt_checked": true,
+  "actual_recipe_download_and_rebuild": true,
+  "changed_parameter": {
+    "tail_yaw_deg": {
+      "selected": 14,
+      "reconstructed": 15
+    }
+  },
+  "bind_geometry_skin_materials_and_images_exact": true,
+  "cached_instances_share_images": true,
+  "cached_instances_have_independent_bones": true,
+  "entity_transform_preserved": true,
+  "playback_after_end": true,
+  "editor_controls": {
+    "wire": {
+      "actual_pixel_change": true
+    },
+    "rig": {
+      "actual_pixel_change": true
+    },
+    "grain": {
+      "actual_pixel_change": true
+    }
+  },
+  "scope": "Première revue originale encore stylisée : nage latérale sur place, sans hydrodynamique ni vitesse autoritaire. Bouche ouverte/dents, respiration, raccords et collisions exhaustifs des nageoires, virages, finition photoréaliste, monde principal, serveur/réseau/VR et FPS restent non qualifiés."
+}

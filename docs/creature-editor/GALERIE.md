@@ -236,4 +236,14 @@ Repli compact au coude, poignet et doigts, membranes corrigées et UV animés co
 
 Revue locale encore stylisée : repli compact et déploiement au sol, sans simulation de tissu ou de vol. Finition photoréaliste, anatomie finale, collisions exhaustives corps/ailes, forces, terrain, monde principal, serveur/réseau/VR et FPS restent non qualifiés.
 
+## Requin — anatomie et nage de revue
+
+![Requin — anatomie et nage de revue — capture Godot de la recette téléchargée puis reconstruite](shark-original/v0.1.0/preview.png)
+
+[Fiche 0.1.0](shark-original/v0.1.0/README.md) · [Recette JSON](shark-original/v0.1.0/recipe.json)
+
+Corps original, sillons branchiaux, nageoires fermées et onde latérale de17os. Trois petites images partagées ; recette réellement téléchargée puis reconstruite, contrôles de skin/UV dans l’éditeur et Godot. Première revue encore stylisée.
+
+Première revue originale encore stylisée : nage latérale sur place, sans hydrodynamique ni vitesse autoritaire. Bouche ouverte/dents, respiration, raccords et collisions exhaustifs des nageoires, virages, finition photoréaliste, monde principal, serveur/réseau/VR et FPS restent non qualifiés.
+
 La version statique du [scorpion 0.1.0](scorpion-original/v0.1.0/README.md) et le [génome d’araignée déjà catalogué](../../templates/xeno-editor/giant-spider-eight-legs/v0.2.0/README.md) restent conservés. L’inventaire et la recréation des autres familles se poursuivent.
