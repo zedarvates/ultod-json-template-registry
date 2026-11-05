@@ -1,0 +1,73 @@
+{
+  "schema": "uo.architecture-parts-review/v1",
+  "license": "Apache-2.0",
+  "description": "Original box geometry; proxy assets, no runtime compatibility claim.",
+  "parts": [
+    {
+      "id": "uo-base-mur-plein",
+      "name": "Mur plein",
+      "category": "Structure",
+      "file": "mur-plein.glb",
+      "unit": "metre",
+      "up_axis": "Y",
+      "sha256": "4cb54659168429c90dbd03d2269452f9bedb682922cb4e35b1ddcbb36239df20",
+      "status": "proxy",
+      "editor_mapping": "unverified"
+    },
+    {
+      "id": "uo-base-mur-porte",
+      "name": "Mur avec porte",
+      "category": "Ouvertures",
+      "file": "mur-porte.glb",
+      "unit": "metre",
+      "up_axis": "Y",
+      "sha256": "f76db817e0cdc37798f52f4ef0f66975a121f062df898380239efbb7ce11a8fd",
+      "status": "proxy",
+      "editor_mapping": "unverified"
+    },
+    {
+      "id": "uo-base-mur-fenetre",
+      "name": "Mur avec fenêtre",
+      "category": "Ouvertures",
+      "file": "mur-fenetre.glb",
+      "unit": "metre",
+      "up_axis": "Y",
+      "sha256": "2d9e71728ec83ce4a154fd648c714ae9f250ba58cc06be7b5be0501e9bde6a50",
+      "status": "proxy",
+      "editor_mapping": "unverified"
+    },
+    {
+      "id": "uo-base-dalle",
+      "name": "Dalle",
+      "category": "Sols",
+      "file": "dalle.glb",
+      "unit": "metre",
+      "up_axis": "Y",
+      "sha256": "345c43354d6192c964eb884076d167f1fb274ef494d534f280b8533a8fda2ecc",
+      "status": "proxy",
+      "editor_mapping": "unverified"
+    },
+    {
+      "id": "uo-base-porte",
+      "name": "Porte simple",
+      "category": "Menuiseries",
+      "file": "porte.glb",
+      "unit": "metre",
+      "up_axis": "Y",
+      "sha256": "89c33516185d14a1b147d2d1ed23a2e0be65e751b24136a6758ae04f7e7bcdce",
+      "status": "proxy",
+      "editor_mapping": "unverified"
+    },
+    {
+      "id": "uo-base-poteau",
+      "name": "Poteau",
+      "category": "Structure",
+      "file": "poteau.glb",
+      "unit": "metre",
+      "up_axis": "Y",
+      "sha256": "1cb26b416e251eb017cb5c547f72f96e012ab8431ded2ada4819f7a71eddae85",
+      "status": "proxy",
+      "editor_mapping": "unverified"
+    }
+  ]
+}

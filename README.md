@@ -15,6 +15,17 @@
 
 # UltOd JSON Template Registry
 
+## Galeries et bases pour les éditeurs
+
+| Catégorie | Aperçus et réutilisation |
+| --- | --- |
+| Architecture classique | [Galerie des bâtiments](templates/architecture-editor/GALERIE.md) · [Recettes HouseBlueprint](templates/architecture-editor/README.md) |
+| Architecture moderne | [Galerie moderne et recettes](assets/architecture-editor/architecture-moderne-contemporaine/README.md) |
+| Pièces d’architecture | [Kit de base, aperçu et GLB](assets/architecture-editor/parts/base-modulaire-v1/README.md) |
+| Créatures | [Galerie des créatures](docs/creature-editor/GALERIE.md) · [Pièces publiées Xeno](assets/xeno-editor/) |
+
+[Guide de réutilisation pour éditeurs, Codex et serveur](docs/editor-reuse.md). Ces éléments sont des bases de création ; leur présence ne certifie pas leur intégration en jeu.
+
 Central versioned registry for JSON templates and schemas used across the Ultimate Odycer ecosystem.
 
 [**Galerie des architectures — Old School 90s MMORPG Like**](templates/architecture-editor/GALERIE.md)
