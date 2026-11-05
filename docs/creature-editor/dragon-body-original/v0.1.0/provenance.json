@@ -1,0 +1,97 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "4d73807ae08b339cd996c602dff48faf0af770206db4895ac6be73ba86475cc2",
+  "preview_file": "preview.png",
+  "preview_sha256": "0f581d1bcca009a94fe3a6ab3a8eac9896f4562b581d9e437cdaee025e927e68",
+  "head_preview_file": "head.png",
+  "head_preview_sha256": "e95eb7652b771ab9f43fe83aadfced1f5a4365b8a9f0cb86c1b3ed87a0e3d20e",
+  "rendered_model_sha256": "1a5f4f3bea272692bea5580be7cb11e03d07307d8662186395e338cd561e0a15",
+  "source_review_sha256": "774a3dce29d324eec8e600227327ec425c9bc2ccf46bb67b1cd1486d3c64a56b",
+  "captures": [
+    {
+      "file": "preview.png",
+      "sha256": "0f581d1bcca009a94fe3a6ab3a8eac9896f4562b581d9e437cdaee025e927e68",
+      "model_sha256": "1a5f4f3bea272692bea5580be7cb11e03d07307d8662186395e338cd561e0a15",
+      "kind": "downloaded recipe rebuilt08 in Godot Forward+"
+    },
+    {
+      "file": "side.png",
+      "sha256": "aad13444eba9cf0d57726b0d752454ea32930ad9efcefae272c4cc9f554d7582",
+      "model_sha256": "1a5f4f3bea272692bea5580be7cb11e03d07307d8662186395e338cd561e0a15",
+      "kind": "downloaded recipe rebuilt08 in Godot Forward+"
+    },
+    {
+      "file": "top.png",
+      "sha256": "8cedd0a5bbb2dc490aa03ec84eb4f1b9621cae42da094e3f0520bb5a08c2e64a",
+      "model_sha256": "1a5f4f3bea272692bea5580be7cb11e03d07307d8662186395e338cd561e0a15",
+      "kind": "downloaded recipe rebuilt08 in Godot Forward+"
+    },
+    {
+      "file": "head.png",
+      "sha256": "e95eb7652b771ab9f43fe83aadfced1f5a4365b8a9f0cb86c1b3ed87a0e3d20e",
+      "model_sha256": "1a5f4f3bea272692bea5580be7cb11e03d07307d8662186395e338cd561e0a15",
+      "kind": "downloaded recipe rebuilt08 in Godot Forward+"
+    },
+    {
+      "file": "head-lod2.png",
+      "sha256": "d8863161d1a46b62014d869601157a9f9514c306bba140b600c4ba242cfd8ba5",
+      "model_sha256": "1a5f4f3bea272692bea5580be7cb11e03d07307d8662186395e338cd561e0a15",
+      "kind": "downloaded recipe rebuilt08 in Godot Forward+"
+    },
+    {
+      "file": "feet-0.png",
+      "sha256": "0232634479959934374f37c6b7d6465754c4e89fb4cfc0fa682d50bae70c3429",
+      "model_sha256": "1a5f4f3bea272692bea5580be7cb11e03d07307d8662186395e338cd561e0a15",
+      "kind": "downloaded recipe rebuilt08 in Godot Forward+"
+    },
+    {
+      "file": "feet-25.png",
+      "sha256": "2180accd83c5e36448e375a9e3cea8e8e4d6f8c8e95c7aa7e442f2258e7a3825",
+      "model_sha256": "1a5f4f3bea272692bea5580be7cb11e03d07307d8662186395e338cd561e0a15",
+      "kind": "downloaded recipe rebuilt08 in Godot Forward+"
+    },
+    {
+      "file": "feet-50.png",
+      "sha256": "ef4504eade65a31ea692f8aa2b554f5db491d1f2bb8f66a0bc95cb80ef650675",
+      "model_sha256": "1a5f4f3bea272692bea5580be7cb11e03d07307d8662186395e338cd561e0a15",
+      "kind": "downloaded recipe rebuilt08 in Godot Forward+"
+    },
+    {
+      "file": "feet-75.png",
+      "sha256": "2ba7400167ea36e30506a4411ef0895bee76905627fb08ea23dcd9a5969b2d83",
+      "model_sha256": "1a5f4f3bea272692bea5580be7cb11e03d07307d8662186395e338cd561e0a15",
+      "kind": "downloaded recipe rebuilt08 in Godot Forward+"
+    },
+    {
+      "file": "tail-before.png",
+      "sha256": "da3a22b2051379b1ffcf04df671f5f07fa6ea4bbb410632712dcc5f692b07e76",
+      "kind": "same camera, lighting and stride; tail comparison",
+      "model_sha256": "f85fb1fdc82a0058274658af6f20c0bcd543708004375014488c8b1b0b1a83bf"
+    },
+    {
+      "file": "tail-after.png",
+      "sha256": "5af3170ead2c27f79ef86390fceeb3e44d08823a68936f520fc38c4e0c2db43b",
+      "kind": "same camera, lighting and stride; tail comparison",
+      "model_sha256": "774a3dce29d324eec8e600227327ec425c9bc2ccf46bb67b1cd1486d3c64a56b"
+    },
+    {
+      "file": "wrists-before.png",
+      "sha256": "db297b727d0b70ee7b5c416f2736a5daa64e26bef92825fb6cd8c954814ee95b",
+      "kind": "thin-palms before correction; same camera, lighting, phase and stride as feet-25.png",
+      "model_sha256": "818b07ef3feaca7b563499934556220d714956b72c53f28e9620a1fc94ae0d00"
+    }
+  ],
+  "preview_kind": "Unmodified native Godot captures of rebuilt downloaded recipe; two additional native tail comparison views",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.dragon-body-original/v1",
+    "original quadruped geometry and33-bone grounded rig",
+    "original dragon cranium compact-eyes profile, three LODs"
+  ],
+  "rights": "Original numerical geometry and vertex pigment, original shared project algorithms. No historic model, photograph or external bitmap copied. Candidate identities and authoritative server stats remain unbound and unchanged.",
+  "validation_scope": "Corps du dragon encore stylisé, sans ailes ni microrelief de peau. Marche lente sur sol plat dans des revues isolées ; pas de forces/centre de masse, terrain, virages, collisions exhaustives, vol, monde principal, serveur/réseau/VR, FPS ou photoréalisme final qualifiés."
+}

@@ -1,6 +1,6 @@
 # Galerie des créatures originales
 
-Recettes de l’éditeur, captures réelles et états de revue — mise à jour du 2026-11-05.
+Recettes de l’éditeur, captures réelles et états de revue — mise à jour du 2026-11-07.
 
 Les images montrent des prototypes locaux et les variantes précisées dans chaque fiche. Les JSON conservent les paramètres et les références de dépendances ; les générateurs, pièces et modèles ne sont pas distribués dans ce dépôt. Aucun modèle présenté ici n’est déclaré prêt pour le jeu ni photoréaliste final.
 
@@ -215,5 +215,15 @@ Instantané historique de revue ; consulter la fiche pour la portée exacte des 
 Tête seule : narines réellement intégrées au crâne, orbites sculptées, yeux enchâssés, cornes courbes et huit groupes de maillage. Recette reconstruite, attache vérifiée et comparaisons natives avant/après sous le même éclairage.
 
 Tête seule encore stylisée, sans microrelief de peau ni rig de mâchoire. Corps, marche, ailes, vol, terrain, collisions exhaustives, monde principal, serveur/réseau/VR, FPS et photoréalisme final non qualifiés.
+
+## Dragon — corps et marche, ailes à construire
+
+![Dragon — corps et marche, ailes à construire — capture Godot de la recette téléchargée puis reconstruite](dragon-body-original/v0.1.0/preview.png)
+
+[Fiche 0.1.0](dragon-body-original/v0.1.0/README.md) · [Recette JSON](dragon-body-original/v0.1.0/recipe.json)
+
+Cou, queue corrigée et quatre pieds griffus sur un rig original de33os. Tête conservée, peau centrale connectée, recette téléchargée puis reconstruite, appuis contrôlés dans l’éditeur et les deux modes Godot. Corps encore stylisé, sans ailes.
+
+Corps du dragon encore stylisé, sans ailes ni microrelief de peau. Marche lente sur sol plat dans des revues isolées ; pas de forces/centre de masse, terrain, virages, collisions exhaustives, vol, monde principal, serveur/réseau/VR, FPS ou photoréalisme final qualifiés.
 
 La version statique du [scorpion 0.1.0](scorpion-original/v0.1.0/README.md) et le [génome d’araignée déjà catalogué](../../templates/xeno-editor/giant-spider-eight-legs/v0.2.0/README.md) restent conservés. L’inventaire et la recréation des autres familles se poursuivent.
