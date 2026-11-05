@@ -1,0 +1,15 @@
+{
+  "schema": "uo.skeleton-project/v1",
+  "generator": "uo.skeleton-original/v1",
+  "delivery": "review_only",
+  "source_sha256": "9481acf757210e81b89a0d58761eba6099db729f7688487ec2f9ff2ed2b26707",
+  "recipe": {
+    "schema": "uo.skeleton-shape/v1",
+    "delivery": "review_only",
+    "height_m": 1.8,
+    "shoulder_width_m": 0.46,
+    "stride_m": 0.25,
+    "period_s": 1.9,
+    "cranial_profile": "facial-bones-v2"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "uo.skeleton-v2-validation-documentation/v1",
+  "delivery": "review_only",
+  "model_sha256": "e8fdb8c6a116bc72c79de37c2e10d9d180d5ccbbf8d78a6dbfc0f8f972637d5f",
+  "model_bytes": 4274328,
+  "cpu_poses_per_lod": 721,
+  "native_poses_per_lod": 241,
+  "jaw_openings_per_lod": 13,
+  "renderers": [
+    "gl_compatibility",
+    "forward_plus"
+  ],
+  "editor_recipe_download_and_rebuild": true,
+  "editor_actual_jaw_input_and_landmarks": true,
+  "native_jaw": {
+    "angles_per_lod": 13,
+    "hinge_error_m": 1.19209289550781e-07,
+    "maximum_lower_vertex_motion_m": 0.0261097270995378,
+    "maximum_upper_vertex_motion_m": 0.0,
+    "minimum_sampled_arcade_gap_m": 0.00266659259796143,
+    "ok": true
+  },
+  "native_playback_after_end": true,
+  "native_paused_clock_stable": true,
+  "entity_transform_preserved": true,
+  "noncranial_attributes_materials_pixels_and48_binds_exact": true,
+  "legacy_model_byte_exact": true,
+  "scope": "Revue locale encore stylisée. Crâne, bassin et proportions restent à affiner avant approbation photoréaliste. Contrôles de marche sur sol plat et séparation verticale des deux arcades sur les ouvertures échantillonnées ; pas de collisions dentaires/craniales exhaustives, forces, terrain, attaque, équipement, monde principal, serveur/réseau, VR ou FPS qualifiés."
+}

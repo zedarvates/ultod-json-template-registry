@@ -213,10 +213,10 @@
     },
     {
       "id": "skeleton-original",
-      "name": "Squelette — os, cavités et marche bipède",
-      "version": "v0.1.0",
-      "summary": "Nouvelle famille de morts-vivants : anatomie osseuse originale, crâne à cavités, mains et pieds détaillés. Recette téléchargée puis reconstruite, inspection par région et marche vérifiées dans l’éditeur et deux modes Godot ; finition encore stylisée.",
-      "scope": "Première adaptation originale encore stylisée. Crâne, bassin et proportions des os restent à affiner ; coutures de projection et intersections articulaires non exhaustivement qualifiées. Sol plat uniquement : pas de photoréalisme final, forces/friction, équilibre physique, terrain, attaque, mort, équipement, monde principal, serveur/réseau, VR ou FPS qualifiés.",
+      "name": "Squelette — crâne affiné et mâchoire articulée",
+      "version": "v0.2.0",
+      "summary": "Relief facial repris, couronnes différenciées et pivot mandibulaire corrigé. Ouverture bornée vérifiée sur les vrais sommets dans l’éditeur et Godot ; marche et reconstruction requalifiées, images conservées.",
+      "scope": "Revue locale encore stylisée. Crâne, bassin et proportions restent à affiner avant approbation photoréaliste. Contrôles de marche sur sol plat et séparation verticale des deux arcades sur les ouvertures échantillonnées ; pas de collisions dentaires/craniales exhaustives, forces, terrain, attaque, équipement, monde principal, serveur/réseau, VR ou FPS qualifiés.",
       "preview_kind": "capture Godot de la recette téléchargée puis reconstruite"
     }
   ]
