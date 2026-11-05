@@ -1,0 +1,55 @@
+{
+  "schema": "uo.crab-documentary-validation/v1",
+  "delivery": "review_only",
+  "model_sha256": "91f2a5536013ce25981ffc9cd8640e5ff10101ce52343dc69ede1b1f7068e816",
+  "model_bytes": 1915264,
+  "cpu_poses_per_lod": 601,
+  "native_poses_per_lod": 129,
+  "native_cpu_reference_poses": 17,
+  "native_engine": "4.8-beta2 (official)",
+  "native_maximum_cpu_landmark_error_m": 2.39558403336559e-07,
+  "native_maximum_stance_anchor_error_m": 2.91500214189e-07,
+  "native_minimum_actual_contacts": 6,
+  "renderers": [
+    "gl_compatibility",
+    "forward_plus"
+  ],
+  "actual_editor_recipe_download_and_rebuild": true,
+  "changed_parameter": {
+    "stride_m": {
+      "selected": 0.065,
+      "rebuilt": 0.072
+    }
+  },
+  "geometry_and_images_identical_between_selected_and_rebuilt": true,
+  "cached_images_shared": true,
+  "independent_cached_claw_rotation_rad": 0.306371033191681,
+  "entity_transform_preserved": true,
+  "scope": "Crabe original de revue : huit pattes marcheuses et deux pinces articulées, segments externes simplifiés et texture de chitine originale. Appuis cinématiques sur sol plat ; aucune preuve de masse/forces, terrain, collisions exhaustives, pression des pinces, anatomie finale, photoréalisme final, monde principal, serveur/réseau/VR ou FPS.",
+  "native_captured_swing_poses": [
+    {
+      "actual_contacts": 6,
+      "cycle_phase": 0.125,
+      "file": "walk-12p5.png",
+      "maximum_sole_y_m": 0.0402000397443771
+    },
+    {
+      "actual_contacts": 6,
+      "cycle_phase": 0.375,
+      "file": "walk-37p5.png",
+      "maximum_sole_y_m": 0.0402000397443771
+    },
+    {
+      "actual_contacts": 6,
+      "cycle_phase": 0.625,
+      "file": "walk-62p5.png",
+      "maximum_sole_y_m": 0.0402000360190868
+    },
+    {
+      "actual_contacts": 6,
+      "cycle_phase": 0.875,
+      "file": "walk-87p5.png",
+      "maximum_sole_y_m": 0.0402000397443771
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "uo.crab-project/v1",
+  "generator": "uo.crab-original/v1",
+  "anatomy_profile": "flattened-limbs-curved-chelae-v1",
+  "surface_profile": "original-chitin-photo-v2",
+  "delivery": "review_only",
+  "source_sha256": "88bfe0e18f2d63d542de2fcd8542e14b2a827974a9440928dcb1a4baa4d4a218",
+  "recipe": {
+    "schema": "uo.crab-shape/v1",
+    "delivery": "review_only",
+    "body_scale": 1,
+    "period_s": 1.6,
+    "stride_m": 0.072,
+    "lift_m": 0.04,
+    "claw_open_deg": 14
+  }
+}

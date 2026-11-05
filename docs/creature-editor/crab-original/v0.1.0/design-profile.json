@@ -1,0 +1,53 @@
+{
+  "schema": "uo.crab-design-documentation/v1",
+  "delivery": "review_only",
+  "anatomy_profile": "flattened-limbs-curved-chelae-v1",
+  "surface_profile": "original-chitin-photo-v2",
+  "bones": 57,
+  "lod_triangles": [
+    9360,
+    5264,
+    2704
+  ],
+  "material_batches_per_lod": 4,
+  "closed_components_per_lod": 106,
+  "anatomy": {
+    "walking_legs": 8,
+    "chelipeds": 2,
+    "fixed_chela_fingers": 2,
+    "movable_chela_fingers": 2,
+    "eyestalks": 2,
+    "external_walking_segments_each": 5,
+    "biological_segment_scope": "Simplified external exoskeleton segments, not a seven-article anatomical reconstruction"
+  },
+  "skin": "Rigid one-bone-per-vertex and one owner per triangle; simplified exoskeletal articulation",
+  "leg_actuators": "Three actuators per walking leg with rigid intermediate segment and terminal counterrotation",
+  "chelae": "Two chelipeds, each with fixed curved finger and independently animated movable curved finger",
+  "textures": {
+    "images": 3,
+    "dimensions": [
+      [
+        256,
+        256
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ]
+    ],
+    "rgba8_complete_mip_estimate_bytes": 524284,
+    "source": "Original builtin ImageGen chitin albedo, resized and boundary conditioned. Approximate high-pass luminance microrelief, not measured height or species photography.",
+    "source_sha256": "0f881abc680e7b5c73d6aa39cd9a6d75cb29f593ba82e1f776bad7914be693a9"
+  },
+  "texture_bake": "Albedo256 from original generated chitin, eight-pixel edge conditioning; exact opposite albedo edges. Approximate high-pass luminance normal128 and roughness/ORM128, not measured relief.",
+  "references": [
+    "https://www.adfg.alaska.gov/index.cfm?adfg=invasiveprofiles.europeangreencrab_characteristics",
+    "https://www.fisheries.noaa.gov/species/alaska-snow-crab/science"
+  ],
+  "anatomical_scope": "Generic original coastal/giant game adaptation, not a measured reconstruction of either reference species; five simplified external walking segments, not complete seven-article anatomy",
+  "scope": "Crabe original de revue : huit pattes marcheuses et deux pinces articulées, segments externes simplifiés et texture de chitine originale. Appuis cinématiques sur sol plat ; aucune preuve de masse/forces, terrain, collisions exhaustives, pression des pinces, anatomie finale, photoréalisme final, monde principal, serveur/réseau/VR ou FPS."
+}

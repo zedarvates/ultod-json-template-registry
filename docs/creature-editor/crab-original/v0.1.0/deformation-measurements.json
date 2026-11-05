@@ -1,0 +1,269 @@
+{
+  "schema": "uo.crab-measurements-documentation/v1",
+  "delivery": "review_only",
+  "selected": {
+    "status": "PASS_CRAB_EIGHT_CONTACTS_LATERAL_GAIT_RIGID_GEOMETRY_AND_UV",
+    "sha256": "88bfe0e18f2d63d542de2fcd8542e14b2a827974a9440928dcb1a4baa4d4a218",
+    "poses_per_lod": 601,
+    "bones": 57,
+    "lods": [
+      {
+        "lod": 0,
+        "triangles": 9360,
+        "material_batches": 4,
+        "closed_components": 106,
+        "walking_contact_sets": 8
+      },
+      {
+        "lod": 1,
+        "triangles": 5264,
+        "material_batches": 4,
+        "closed_components": 106,
+        "walking_contact_sets": 8
+      },
+      {
+        "lod": 2,
+        "triangles": 2704,
+        "material_batches": 4,
+        "closed_components": 106,
+        "walking_contact_sets": 8
+      }
+    ],
+    "textures": [
+      [
+        256,
+        256
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ]
+    ],
+    "rgba8_complete_mip_estimate_bytes": 524284,
+    "minimum_geometry_y_m": 0.0001999113607404536,
+    "maximum_stance_absolute_y_m": 0.00020000607140924605,
+    "maximum_stance_anchor_error_m": 1.4609986762301866e-07,
+    "minimum_actual_contacts": 6,
+    "minimum_visual_anchor_support_margin_m": 0.31707451728796526,
+    "minimum_peak_swing_clearance_m": 0.04012428599164841,
+    "uv_anisotropy_max": 1.6792652276588096,
+    "normal_alignment_min": 0.302069509427549,
+    "rigid_per_face": true,
+    "scope": "Decoded GLB, actual sole vertices and visual root projection inside sampled support polygon. Not mass/force balance, terrain, all collisions, claw pressure, final art, production/network/VR or FPS proof."
+  },
+  "reconstructed": {
+    "status": "PASS_CRAB_EIGHT_CONTACTS_LATERAL_GAIT_RIGID_GEOMETRY_AND_UV",
+    "sha256": "91f2a5536013ce25981ffc9cd8640e5ff10101ce52343dc69ede1b1f7068e816",
+    "poses_per_lod": 601,
+    "bones": 57,
+    "lods": [
+      {
+        "lod": 0,
+        "triangles": 9360,
+        "material_batches": 4,
+        "closed_components": 106,
+        "walking_contact_sets": 8
+      },
+      {
+        "lod": 1,
+        "triangles": 5264,
+        "material_batches": 4,
+        "closed_components": 106,
+        "walking_contact_sets": 8
+      },
+      {
+        "lod": 2,
+        "triangles": 2704,
+        "material_batches": 4,
+        "closed_components": 106,
+        "walking_contact_sets": 8
+      }
+    ],
+    "textures": [
+      [
+        256,
+        256
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ]
+    ],
+    "rgba8_complete_mip_estimate_bytes": 524284,
+    "minimum_geometry_y_m": 0.00019988909305525659,
+    "maximum_stance_absolute_y_m": 0.00020000515894301886,
+    "maximum_stance_anchor_error_m": 1.9340295624358974e-07,
+    "minimum_actual_contacts": 6,
+    "minimum_visual_anchor_support_margin_m": 0.3167350515466582,
+    "minimum_peak_swing_clearance_m": 0.04012368296426352,
+    "uv_anisotropy_max": 1.6792652276588096,
+    "normal_alignment_min": 0.302069509427549,
+    "rigid_per_face": true,
+    "scope": "Decoded GLB, actual sole vertices and visual root projection inside sampled support polygon. Not mass/force balance, terrain, all collisions, claw pressure, final art, production/network/VR or FPS proof."
+  },
+  "selected_attachments": {
+    "status": "PASS_CRAB_CARAPACE_ROOT_CENTERS_AND_SHARED_DISTANCE_ANALYTIC_BOX",
+    "revision": "04",
+    "shared_function_analytic_samples": 83,
+    "rotation_translation_invariance": true,
+    "lods": [
+      {
+        "lod": 0,
+        "root_centers_checked": 12,
+        "inside_distances_m": [
+          0.03557598264733157,
+          0.050828584448599036,
+          0.046010152063504464,
+          0.021530693123781055,
+          0.03553291840593097,
+          0.050828584448599036,
+          0.04601769969197309,
+          0.021509603942104827,
+          0.03407007854601191,
+          0.03404809801863508,
+          0.006942627441716849,
+          0.0069884116597032225
+        ],
+        "minimum_inside_distance_m": 0.006942627441716849
+      },
+      {
+        "lod": 1,
+        "root_centers_checked": 12,
+        "inside_distances_m": [
+          0.036236148846997655,
+          0.05086522359538286,
+          0.04551397466143223,
+          0.021519856123690045,
+          0.03618670652775036,
+          0.05086522359538286,
+          0.04558092477285102,
+          0.021512903619444117,
+          0.03233856988964407,
+          0.03228045232487998,
+          0.006768631900299225,
+          0.006809611661034224
+        ],
+        "minimum_inside_distance_m": 0.006768631900299225
+      },
+      {
+        "lod": 2,
+        "root_centers_checked": 12,
+        "inside_distances_m": [
+          0.02988647683183631,
+          0.05025059703043545,
+          0.039824050224183685,
+          0.02033805814263783,
+          0.02975459931230767,
+          0.05016006162531765,
+          0.03996951524251263,
+          0.020306837450543118,
+          0.02949825333653945,
+          0.029554848144740055,
+          0.00318842235651199,
+          0.0033893906801745447
+        ],
+        "minimum_inside_distance_m": 0.00318842235651199
+      }
+    ],
+    "scope": "Eight coxal, two cheliped and two eyestalk root centers inside the exported carapace. These centers and carapace share the static root bone, so their relative placement is invariant. Not complete appendage surface clearance, welded skin or all collisions."
+  },
+  "reconstructed_attachments": {
+    "status": "PASS_CRAB_CARAPACE_ROOT_CENTERS_AND_SHARED_DISTANCE_ANALYTIC_BOX",
+    "revision": "05",
+    "shared_function_analytic_samples": 83,
+    "rotation_translation_invariance": true,
+    "lods": [
+      {
+        "lod": 0,
+        "root_centers_checked": 12,
+        "inside_distances_m": [
+          0.03557598264733157,
+          0.050828584448599036,
+          0.046010152063504464,
+          0.021530693123781055,
+          0.03553291840593097,
+          0.050828584448599036,
+          0.04601769969197309,
+          0.021509603942104827,
+          0.03407007854601191,
+          0.03404809801863508,
+          0.006942627441716849,
+          0.0069884116597032225
+        ],
+        "minimum_inside_distance_m": 0.006942627441716849
+      },
+      {
+        "lod": 1,
+        "root_centers_checked": 12,
+        "inside_distances_m": [
+          0.036236148846997655,
+          0.05086522359538286,
+          0.04551397466143223,
+          0.021519856123690045,
+          0.03618670652775036,
+          0.05086522359538286,
+          0.04558092477285102,
+          0.021512903619444117,
+          0.03233856988964407,
+          0.03228045232487998,
+          0.006768631900299225,
+          0.006809611661034224
+        ],
+        "minimum_inside_distance_m": 0.006768631900299225
+      },
+      {
+        "lod": 2,
+        "root_centers_checked": 12,
+        "inside_distances_m": [
+          0.02988647683183631,
+          0.05025059703043545,
+          0.039824050224183685,
+          0.02033805814263783,
+          0.02975459931230767,
+          0.05016006162531765,
+          0.03996951524251263,
+          0.020306837450543118,
+          0.02949825333653945,
+          0.029554848144740055,
+          0.00318842235651199,
+          0.0033893906801745447
+        ],
+        "minimum_inside_distance_m": 0.00318842235651199
+      }
+    ],
+    "scope": "Eight coxal, two cheliped and two eyestalk root centers inside the exported carapace. These centers and carapace share the static root bone, so their relative placement is invariant. Not complete appendage surface clearance, welded skin or all collisions."
+  },
+  "regression": {
+    "status": "PASS_CRAB_UNCHANGED_GEOMETRY_REBUILT_RECIPE_PIXELS_AND_LEGACY_PROFILE",
+    "geometry_rig_and_default_clip_unchanged_from03": true,
+    "reconstructed05_mesh_attributes_materials_and_image_bytes_equal04": true,
+    "downloaded_stride_m": 0.072,
+    "legacy06_render_attributes_clips_materials_and_image_bytes_equal03": true,
+    "imagegen_source_sha256": "0f881abc680e7b5c73d6aa39cd9a6d75cb29f593ba82e1f776bad7914be693a9",
+    "periodic_albedo_opposite_edges_exact": true,
+    "runtime_texture_dimensions": [
+      [
+        256,
+        256
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ]
+    ],
+    "scope": "Actual decoded exports; no final art, world/server/VR or performance proof"
+  },
+  "scope": "Crabe original de revue : huit pattes marcheuses et deux pinces articulées, segments externes simplifiés et texture de chitine originale. Appuis cinématiques sur sol plat ; aucune preuve de masse/forces, terrain, collisions exhaustives, pression des pinces, anatomie finale, photoréalisme final, monde principal, serveur/réseau/VR ou FPS."
+}
