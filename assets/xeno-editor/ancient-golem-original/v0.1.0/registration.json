@@ -1,0 +1,336 @@
+{
+  "schema": "uo.creature-editor-review-parts-fragment/v1",
+  "delivery": "review_only",
+  "parts": [
+    {
+      "part_id": "golem_body_01",
+      "name": "golem body 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "golem_head_01",
+      "name": "golem head 01",
+      "category": "head",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "golem_arm_l_01",
+      "name": "golem arm l 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "golem_arm_r_01",
+      "name": "golem arm r 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "golem_leg_l_01",
+      "name": "golem leg l 01",
+      "category": "leg",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "golem_leg_r_01",
+      "name": "golem leg r 01",
+      "category": "leg",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "golem_body_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/golem_body_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "6cadd96196f7ca1c7c4d116c433053d899a40efc349aa8332aa3aeff59b576fc",
+      "bytes": 38112,
+      "triangles": 604,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural golem geometry; uniform colors"
+      }
+    },
+    {
+      "id": "golem_head_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/golem_head_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "454fdf5dfa2e2b4d7a90d57450dc704f8d1cbffea7aedcc4c7e26bccad4400b8",
+      "bytes": 41904,
+      "triangles": 693,
+      "metadata": {
+        "category": "head",
+        "part_role": "primitive",
+        "source": "original procedural golem geometry; uniform colors"
+      }
+    },
+    {
+      "id": "golem_arm_l_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/golem_arm_l_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "5709d836ffbb49756f68f6b4bd96532e4ea850abb6f55ad35e5ec1e742768131",
+      "bytes": 52480,
+      "triangles": 938,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural golem geometry; uniform colors"
+      }
+    },
+    {
+      "id": "golem_arm_r_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/golem_arm_r_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "5edb329829655278f80622a38388e8c4dbb8737dd45f8c1f25e641f4fd5bee48",
+      "bytes": 49948,
+      "triangles": 942,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural golem geometry; uniform colors"
+      }
+    },
+    {
+      "id": "golem_leg_l_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/golem_leg_l_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "c364e1ce6b9e9478822feb4904c7ad058dd7110101881766cc70a157b0e36697",
+      "bytes": 35356,
+      "triangles": 602,
+      "metadata": {
+        "category": "leg",
+        "part_role": "primitive",
+        "source": "original procedural golem geometry; uniform colors"
+      }
+    },
+    {
+      "id": "golem_leg_r_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/golem_leg_r_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "4ee61ffe7a69fab9f93732ec63eb519656356f36881db796fcf5b229d7d873a2",
+      "bytes": 35332,
+      "triangles": 602,
+      "metadata": {
+        "category": "leg",
+        "part_role": "primitive",
+        "source": "original procedural golem geometry; uniform colors"
+      }
+    }
+  ],
+  "design": {
+    "parts": {
+      "golem_body_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static golem component; armor is technical category for body and arms."
+      },
+      "golem_head_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "head",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static golem component; armor is technical category for body and arms."
+      },
+      "golem_arm_l_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static golem component; armor is technical category for body and arms."
+      },
+      "golem_arm_r_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static golem component; armor is technical category for body and arms."
+      },
+      "golem_leg_l_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "leg",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static golem component; armor is technical category for body and arms."
+      },
+      "golem_leg_r_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "leg",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static golem component; armor is technical category for body and arms."
+      }
+    }
+  }
+}

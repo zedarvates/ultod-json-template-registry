@@ -124344,6 +124344,25 @@
       "file": "templates/xeno-editor/shark-original/v0.1.0/template.json",
       "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
       "sha256": "9e3e95850b4a634c82eebc3b706f5def3c36a528df5f80fa510bb0a9a83cd4e2"
+    },
+    {
+      "id": "xeno-editor:ancient-golem-original",
+      "slug": "ancient-golem-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:892ab81827446cc398cbee7b53fa8b244b3845c1335f74eb1cfdf17ca42e2212",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "ancient-golem-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/ancient-golem-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "e56e197d15a7079e88b3401c2a117765ea19093c2b14a97136ae53400aadefc2"
     }
   ],
   "aliases": []
