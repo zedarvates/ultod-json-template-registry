@@ -1,0 +1,77 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "cc44ccaf827a2f5935b6955a564c078ceeeb21d4b750007de48097d9ccd0b634",
+  "preview_file": "preview.png",
+  "preview_sha256": "f7658de015701accbe52de37f2ff453c85a6ce5ef9fbde28bca86e98c63bba32",
+  "rendered_model_sha256": "7e35bc9c081222ce0018709370ee6f5814315aa2d64a181740b23e053521847b",
+  "source_review_sha256": "0f7b00e9d947ca8b17cb2f07adfb8726e0da4e0b1354efac5af3065e48e66a1d",
+  "captures": [
+    {
+      "file": "preview.png",
+      "sha256": "f7658de015701accbe52de37f2ff453c85a6ce5ef9fbde28bca86e98c63bba32",
+      "model_sha256": "7e35bc9c081222ce0018709370ee6f5814315aa2d64a181740b23e053521847b",
+      "kind": "Unmodified native Forward+ capture of downloaded recipe rebuilt34"
+    },
+    {
+      "file": "head.png",
+      "sha256": "3ea00c1235415e1edd301f886ca4dba92f36d9bc022e031917c947a1ab0b7ad8",
+      "model_sha256": "7e35bc9c081222ce0018709370ee6f5814315aa2d64a181740b23e053521847b",
+      "kind": "Unmodified native Forward+ capture of downloaded recipe rebuilt34"
+    },
+    {
+      "file": "head-lod2.png",
+      "sha256": "497db3dcc2c5d10992c89fc13998ca56e23fbb2936a3f52371ceb95f7b6fc9db",
+      "model_sha256": "7e35bc9c081222ce0018709370ee6f5814315aa2d64a181740b23e053521847b",
+      "kind": "Unmodified native Forward+ capture of downloaded recipe rebuilt34"
+    },
+    {
+      "file": "feet-0.png",
+      "sha256": "b08662d9c82dd88756e8c879d81c4b93b1a13542b6c1bb33789c0946f2df160e",
+      "model_sha256": "7e35bc9c081222ce0018709370ee6f5814315aa2d64a181740b23e053521847b",
+      "kind": "Unmodified native Forward+ capture of downloaded recipe rebuilt34"
+    },
+    {
+      "file": "feet-25.png",
+      "sha256": "5c5148ada8e4067ac893093f87116169e007f237fb13f4bbbeffe62e8279d3a2",
+      "model_sha256": "7e35bc9c081222ce0018709370ee6f5814315aa2d64a181740b23e053521847b",
+      "kind": "Unmodified native Forward+ capture of downloaded recipe rebuilt34"
+    },
+    {
+      "file": "feet-50.png",
+      "sha256": "d75bbbec970bc2a0f4d885b0a4e8f4b47b5a0dff34fdd6f38719fb0af1502006",
+      "model_sha256": "7e35bc9c081222ce0018709370ee6f5814315aa2d64a181740b23e053521847b",
+      "kind": "Unmodified native Forward+ capture of downloaded recipe rebuilt34"
+    },
+    {
+      "file": "feet-75.png",
+      "sha256": "898d89189297885633d6bfcfca3498794c4d648854ca0c7b678033e2c52a7800",
+      "model_sha256": "7e35bc9c081222ce0018709370ee6f5814315aa2d64a181740b23e053521847b",
+      "kind": "Unmodified native Forward+ capture of downloaded recipe rebuilt34"
+    },
+    {
+      "file": "comparison-v8.png",
+      "sha256": "5175cb6198412f5ca4cc8c1ff502f09ffe7834f737f7d371fcafb680633aa83c",
+      "model_sha256": "a1404405909f26ff149ae4a742928b2c447b5d7f7407d118202d870b14c8ef1e",
+      "kind": "Unmodified same-camera head comparison, stride0.10m and time0.5s"
+    },
+    {
+      "file": "comparison-v9.png",
+      "sha256": "41b420fa6b3d7ecbaca98548539186bd9f0c18deaf502a1cd00fa73a9d6cb78e",
+      "model_sha256": "0f7b00e9d947ca8b17cb2f07adfb8726e0da4e0b1354efac5af3065e48e66a1d",
+      "kind": "Unmodified same-camera head comparison, stride0.10m and time0.5s"
+    }
+  ],
+  "preview_kind": "Seven rebuilt34 native captures, two same-parameter comparisons33/31",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.crocodile-original/v1",
+    "low-rostrum-v9-integrated-eyelids",
+    "original local skin maps and shared cranial part"
+  ],
+  "rights": "Original project geometry and generated skin bitmap, derived normal/ORM maps. Private GLBs, generators, source bitmaps and production genomes excluded.",
+  "validation_scope": "Revue locale sur sol plat dans l’éditeur et Godot isolé. Coutures du corps, raccord tête/cou, dentition finale, intersections exhaustives, terrain, virages, nage, forces, foule, monde principal, réseau, VR et FPS non qualifiés. Finition photoréaliste non approuvée."
+}

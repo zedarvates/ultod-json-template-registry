@@ -26,15 +26,15 @@ Recette exportée et capture de sa reconstruction, conservées sans réécriture
 
 Instantané historique de revue ; consulter la fiche pour la portée exacte des contrôles.
 
-## Crocodilien — museau profilé et écailles régulières
+## Crocodilien — museau abaissé et paupières intégrées
 
-![Crocodilien — museau profilé et écailles régulières — capture Godot de la recette reconstruite](crocodile-original/v0.8.0/preview.png)
+![Crocodilien — museau abaissé et paupières intégrées — capture Godot de la recette reconstruite](crocodile-original/v0.9.0/preview.png)
 
-[Fiche 0.8.0](crocodile-original/v0.8.0/README.md) · [Recette JSON](crocodile-original/v0.8.0/recipe.json)
+[Fiche 0.9.0](crocodile-original/v0.9.0/README.md) · [Recette JSON](crocodile-original/v0.9.0/recipe.json)
 
-Museau affiné par courbe lisse, yeux réorientés et iris assombri. Répartition des texels du crâne plus régulière sans ajout de triangles ni textures ; recette exportée et marche vérifiées dans l’éditeur et Godot.
+Avant du museau aminci, yeux davantage insérés et paupières moins saillantes. UV crâniens recalculés sans ajout de triangles ni textures ; recette téléchargée, reconstruite et marche vérifiées dans l’éditeur et Godot.
 
-Revue locale du crocodilien sur sol plat dans l’éditeur et Godot isolé. Finition photoréaliste, raccord final tête/cou, coutures du corps, dents, intersections exhaustives, terrain, virages, nage, forces, foule, monde principal, serveur/réseau/VR et FPS restent non qualifiés.
+Revue locale sur sol plat dans l’éditeur et Godot isolé. Coutures du corps, raccord tête/cou, dentition finale, intersections exhaustives, terrain, virages, nage, forces, foule, monde principal, réseau, VR et FPS non qualifiés. Finition photoréaliste non approuvée.
 
 ## Cheval brun — silhouette et marche
 

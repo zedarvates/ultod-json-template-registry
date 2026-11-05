@@ -1,0 +1,115 @@
+{
+  "frames": 601,
+  "bones": 31,
+  "lod_triangles": [
+    9566,
+    5442,
+    3066
+  ],
+  "minimum_all_geometry_y_m": 0.00019978837056418915,
+  "maximum_stance_absolute_y_m": 0.00033655715162260545,
+  "maximum_world_stance_anchor_error_m": 0.00013684027686936188,
+  "minimum_expected_supports": 3,
+  "minimum_peak_swing_clearance_m": 0.04494504345701315,
+  "maximum_sampled_edge_length_ratio": 1.4052112978553517,
+  "minimum_sampled_edge_length_ratio": 0.5648178067323624,
+  "texture_dimensions": [
+    [
+      512,
+      512
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "rgba8_complete_mip_estimate_bytes": 2097148,
+  "dynamic_skin_uv_measurements": {
+    "maximum_anisotropy": 2.378564970398256,
+    "minimum_albedo_texels_per_meter": 630.4423089366123,
+    "maximum_albedo_texels_per_meter": 1449.8746728043418,
+    "samples_per_lod": 601
+  },
+  "schema": "uo.crocodile-documentary-validation/v1",
+  "delivery": "review_only",
+  "model_sha256": "7e35bc9c081222ce0018709370ee6f5814315aa2d64a181740b23e053521847b",
+  "model_bytes": 2190656,
+  "native_engine": "4.8-beta2 (official)",
+  "native_samples_per_lod": 241,
+  "selected_and_rebuilt_renderers": [
+    "forward_plus",
+    "gl_compatibility"
+  ],
+  "editor_recipe_download_and_rebuild": true,
+  "editor_source_sha256": "0f7b00e9d947ca8b17cb2f07adfb8726e0da4e0b1354efac5af3065e48e66a1d",
+  "native_maximum_stance_anchor_error_m": 0.000136945105623454,
+  "native_minimum_supports": 3,
+  "regression": {
+    "status": "PASS_V9_EXPORTED_HEAD_IMPROVEMENT_AND_BODY_RECIPE_REGRESSION",
+    "pairs": [
+      {
+        "old": "31",
+        "new": "33",
+        "noncranial_attributes_clips_materials_and_image_bytes_exact": true
+      },
+      {
+        "old": "32",
+        "new": "34",
+        "noncranial_attributes_clips_materials_and_image_bytes_exact": true
+      }
+    ],
+    "head_comparison": [
+      {
+        "lod": 0,
+        "rostral_thickness_before_m": 0.0739970536278812,
+        "rostral_thickness_after_m": 0.060239540654503015,
+        "lid_depth_before_m": 0.008313874862126203,
+        "lid_depth_after_m": 0.005154594658883238
+      },
+      {
+        "lod": 1,
+        "rostral_thickness_before_m": 0.07403533321334185,
+        "rostral_thickness_after_m": 0.06073377388845544,
+        "lid_depth_before_m": 0.009130144723109246,
+        "lid_depth_after_m": 0.005660689121209761
+      },
+      {
+        "lod": 2,
+        "rostral_thickness_before_m": 0.07349679821989544,
+        "rostral_thickness_after_m": 0.06044949581884948,
+        "lid_depth_before_m": 0.00940425016966584,
+        "lid_depth_after_m": 0.005830646152359731
+      }
+    ],
+    "roof_comparison": [
+      {
+        "lod": 0,
+        "old_maximum_anisotropy": 1.7800085037737363,
+        "new_maximum_anisotropy": 1.77555294815994,
+        "old_density_ratio": 1.9113967675313266,
+        "new_density_ratio": 1.896210154532651
+      },
+      {
+        "lod": 1,
+        "old_maximum_anisotropy": 1.7968960217710437,
+        "new_maximum_anisotropy": 1.7994769321461384,
+        "old_density_ratio": 1.9768989363685103,
+        "new_density_ratio": 1.9627814058968136
+      },
+      {
+        "lod": 2,
+        "old_maximum_anisotropy": 1.8304847981112147,
+        "new_maximum_anisotropy": 1.8244383978798437,
+        "old_density_ratio": 2.1497018863488773,
+        "new_density_ratio": 2.1500645388687287
+      }
+    ],
+    "v8_head_regeneration_byte_exact": true,
+    "scope": "Actual exported head and noncranial attributes; no whole-body seamless skin or photorealistic final approval"
+  },
+  "scope": "Revue locale sur sol plat dans l’éditeur et Godot isolé. Coutures du corps, raccord tête/cou, dentition finale, intersections exhaustives, terrain, virages, nage, forces, foule, monde principal, réseau, VR et FPS non qualifiés. Finition photoréaliste non approuvée."
+}
