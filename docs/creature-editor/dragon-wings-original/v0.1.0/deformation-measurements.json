@@ -1,0 +1,359 @@
+{
+  "schema": "uo.dragon-wing-measurements/v1",
+  "delivery": "review_only",
+  "selected": {
+    "status": "PASS_DRAGON_WINGS_DECODED_GEOMETRY_CLIPS_AND_CONTACTS",
+    "sha256": "b2e1ef3200143da88b5525dbbf787f0feb581893e36010473dbbb57be38a5639",
+    "base_geometry_attributes_indices_and_walk_tracks_exact": true,
+    "triangles": [
+      13188,
+      8052,
+      4764
+    ],
+    "bones": 57,
+    "rest_uv_anisotropy_max": 1.1608469486236572,
+    "clips": [
+      {
+        "clip": "DragonWalk",
+        "frames_per_lod": 601,
+        "min_geometry_y_m": 0.00019969477476044185,
+        "min_wing_y_m": 0.8199999642372131,
+        "stance_y_m": 0.00020001031862479634,
+        "stance_drift_m": 3.526585178932257e-07,
+        "min_supports": 3,
+        "min_swing_peak_m": 0.06473409743894017,
+        "wing_edge_min": 0.8347139418141553,
+        "wing_edge_max": 1.4454750189398793,
+        "wing_area_min": 0.8236455344209203,
+        "wing_normal_min": 0.6915201489161331,
+        "body_and_strut_edge_min": 0.799132149361011,
+        "body_and_strut_edge_max": 1.1618408204730841,
+        "body_and_strut_area_min": 0.7341484113933132,
+        "body_and_strut_normal_min": 0.3001652394113287,
+        "tip_excursion_m": {
+          "L": 0.5600000023841858,
+          "R": 0.5600000023841858
+        },
+        "worst_wing_stretch": {
+          "lod": 0,
+          "time_s": 0.0,
+          "edge": [
+            232,
+            233
+          ],
+          "rest_points": [
+            [
+              -0.9975649118423462,
+              1.2463005781173706,
+              -0.2153061181306839
+            ],
+            [
+              -0.9967532753944397,
+              1.2438515424728394,
+              -0.19183672964572906
+            ]
+          ],
+          "posed_points": [
+            [
+              -0.36217362477019355,
+              1.6744494535872798,
+              -0.0577762744708853
+            ],
+            [
+              -0.38378785333017384,
+              1.6569519274724194,
+              -0.03799154190314554
+            ]
+          ]
+        }
+      },
+      {
+        "clip": "DragonWingDisplay",
+        "frames_per_lod": 601,
+        "min_geometry_y_m": 0.00020000237913336827,
+        "min_wing_y_m": 0.8199999642372131,
+        "stance_y_m": 0.00020000237913336827,
+        "stance_drift_m": 5.599278458051326e-08,
+        "min_supports": 4,
+        "min_swing_peak_m": null,
+        "wing_edge_min": 0.8347139642684963,
+        "wing_edge_max": 1.4454750189398793,
+        "wing_area_min": 0.8236455344209203,
+        "wing_normal_min": 0.6915203139575159,
+        "body_and_strut_edge_min": 0.9803465899332248,
+        "body_and_strut_edge_max": 1.0460406410741803,
+        "body_and_strut_area_min": 0.9535324972499855,
+        "body_and_strut_normal_min": 0.3001652394113287,
+        "tip_excursion_m": {
+          "L": 2.7010392233506573,
+          "R": 2.6989268205789694
+        },
+        "worst_wing_stretch": {
+          "lod": 0,
+          "time_s": 0.0,
+          "edge": [
+            232,
+            233
+          ],
+          "rest_points": [
+            [
+              -0.9975649118423462,
+              1.2463005781173706,
+              -0.2153061181306839
+            ],
+            [
+              -0.9967532753944397,
+              1.2438515424728394,
+              -0.19183672964572906
+            ]
+          ],
+          "posed_points": [
+            [
+              -0.36217362477019355,
+              1.6744494535872798,
+              -0.0577762744708853
+            ],
+            [
+              -0.38378785333017384,
+              1.6569519274724194,
+              -0.03799154190314554
+            ]
+          ]
+        }
+      },
+      {
+        "clip": "DragonWingLeftInspect",
+        "frames_per_lod": 601,
+        "min_geometry_y_m": 0.00020000237913336827,
+        "min_wing_y_m": 0.8199999642372131,
+        "stance_y_m": 0.00020000237913336827,
+        "stance_drift_m": 5.599278458051326e-08,
+        "min_supports": 4,
+        "min_swing_peak_m": null,
+        "wing_edge_min": 0.8347139642684963,
+        "wing_edge_max": 1.4454750189398793,
+        "wing_area_min": 0.8236455344209203,
+        "wing_normal_min": 0.6915203139575159,
+        "body_and_strut_edge_min": 0.980346589933225,
+        "body_and_strut_edge_max": 1.0460406410741803,
+        "body_and_strut_area_min": 0.9535324972499855,
+        "body_and_strut_normal_min": 0.3001652394113287,
+        "tip_excursion_m": {
+          "L": 2.7010392233506573,
+          "R": 0.0
+        },
+        "worst_wing_stretch": {
+          "lod": 0,
+          "time_s": 0.0,
+          "edge": [
+            232,
+            233
+          ],
+          "rest_points": [
+            [
+              -0.9975649118423462,
+              1.2463005781173706,
+              -0.2153061181306839
+            ],
+            [
+              -0.9967532753944397,
+              1.2438515424728394,
+              -0.19183672964572906
+            ]
+          ],
+          "posed_points": [
+            [
+              -0.36217362477019355,
+              1.6744494535872798,
+              -0.0577762744708853
+            ],
+            [
+              -0.38378785333017384,
+              1.6569519274724194,
+              -0.03799154190314554
+            ]
+          ]
+        }
+      }
+    ],
+    "scope": "Decoded exported geometry, 601 samples per clip/LOD, flat ground. No exhaustive body intersection, flight, terrain, runtime performance or final art approval."
+  },
+  "reconstructed": {
+    "status": "PASS_DRAGON_WINGS_DECODED_GEOMETRY_CLIPS_AND_CONTACTS",
+    "sha256": "766ad981b754f548f5f61d9cde8fdfbf53b87c20c86207211aaddc9b89798e2d",
+    "base_geometry_attributes_indices_and_walk_tracks_exact": true,
+    "triangles": [
+      13188,
+      8052,
+      4764
+    ],
+    "bones": 57,
+    "rest_uv_anisotropy_max": 1.1608469486236572,
+    "clips": [
+      {
+        "clip": "DragonWalk",
+        "frames_per_lod": 601,
+        "min_geometry_y_m": 0.00019969477476044185,
+        "min_wing_y_m": 0.8199999642372131,
+        "stance_y_m": 0.00020001031862479634,
+        "stance_drift_m": 3.526585178932257e-07,
+        "min_supports": 3,
+        "min_swing_peak_m": 0.06473409743894017,
+        "wing_edge_min": 0.8347139418141553,
+        "wing_edge_max": 1.4454750189398793,
+        "wing_area_min": 0.8236455344209203,
+        "wing_normal_min": 0.6915201489161331,
+        "body_and_strut_edge_min": 0.799132149361011,
+        "body_and_strut_edge_max": 1.1618408204730841,
+        "body_and_strut_area_min": 0.7341484113933132,
+        "body_and_strut_normal_min": 0.3001652394113287,
+        "tip_excursion_m": {
+          "L": 0.5600000023841858,
+          "R": 0.5600000023841858
+        },
+        "worst_wing_stretch": {
+          "lod": 0,
+          "time_s": 0.0,
+          "edge": [
+            232,
+            233
+          ],
+          "rest_points": [
+            [
+              -0.9975649118423462,
+              1.2463005781173706,
+              -0.2153061181306839
+            ],
+            [
+              -0.9967532753944397,
+              1.2438515424728394,
+              -0.19183672964572906
+            ]
+          ],
+          "posed_points": [
+            [
+              -0.36217362477019355,
+              1.6744494535872798,
+              -0.0577762744708853
+            ],
+            [
+              -0.38378785333017384,
+              1.6569519274724194,
+              -0.03799154190314554
+            ]
+          ]
+        }
+      },
+      {
+        "clip": "DragonWingDisplay",
+        "frames_per_lod": 601,
+        "min_geometry_y_m": 0.00020000237913336827,
+        "min_wing_y_m": 0.8199999642372131,
+        "stance_y_m": 0.00020000237913336827,
+        "stance_drift_m": 5.599278458051326e-08,
+        "min_supports": 4,
+        "min_swing_peak_m": null,
+        "wing_edge_min": 0.8347139642684963,
+        "wing_edge_max": 1.4454750189398806,
+        "wing_area_min": 0.8236455344209203,
+        "wing_normal_min": 0.6915203139575132,
+        "body_and_strut_edge_min": 0.9803465899332248,
+        "body_and_strut_edge_max": 1.04604064107418,
+        "body_and_strut_area_min": 0.9535324972499855,
+        "body_and_strut_normal_min": 0.3001652394113287,
+        "tip_excursion_m": {
+          "L": 2.736232972919526,
+          "R": 2.734088760446394
+        },
+        "worst_wing_stretch": {
+          "lod": 0,
+          "time_s": 6.0,
+          "edge": [
+            232,
+            233
+          ],
+          "rest_points": [
+            [
+              -0.9975649118423462,
+              1.2463005781173706,
+              -0.2153061181306839
+            ],
+            [
+              -0.9967532753944397,
+              1.2438515424728394,
+              -0.19183672964572906
+            ]
+          ],
+          "posed_points": [
+            [
+              -0.36217362477019344,
+              1.6744494535872796,
+              -0.05777627447088534
+            ],
+            [
+              -0.38378785333017396,
+              1.6569519274724194,
+              -0.037991541903145576
+            ]
+          ]
+        }
+      },
+      {
+        "clip": "DragonWingLeftInspect",
+        "frames_per_lod": 601,
+        "min_geometry_y_m": 0.00020000237913336827,
+        "min_wing_y_m": 0.8199999642372131,
+        "stance_y_m": 0.00020000237913336827,
+        "stance_drift_m": 5.599278458051326e-08,
+        "min_supports": 4,
+        "min_swing_peak_m": null,
+        "wing_edge_min": 0.8347139642684963,
+        "wing_edge_max": 1.4454750189398806,
+        "wing_area_min": 0.8236455344209203,
+        "wing_normal_min": 0.6915203139575132,
+        "body_and_strut_edge_min": 0.980346589933225,
+        "body_and_strut_edge_max": 1.04604064107418,
+        "body_and_strut_area_min": 0.9535324972499855,
+        "body_and_strut_normal_min": 0.3001652394113287,
+        "tip_excursion_m": {
+          "L": 2.736232972919526,
+          "R": 0.0
+        },
+        "worst_wing_stretch": {
+          "lod": 0,
+          "time_s": 6.0,
+          "edge": [
+            232,
+            233
+          ],
+          "rest_points": [
+            [
+              -0.9975649118423462,
+              1.2463005781173706,
+              -0.2153061181306839
+            ],
+            [
+              -0.9967532753944397,
+              1.2438515424728394,
+              -0.19183672964572906
+            ]
+          ],
+          "posed_points": [
+            [
+              -0.36217362477019344,
+              1.6744494535872796,
+              -0.05777627447088534
+            ],
+            [
+              -0.38378785333017396,
+              1.6569519274724194,
+              -0.037991541903145576
+            ]
+          ]
+        }
+      }
+    ],
+    "scope": "Decoded exported geometry, 601 samples per clip/LOD, flat ground. No exhaustive body intersection, flight, terrain, runtime performance or final art approval."
+  },
+  "scope": "Copie originale de revue encore stylisée. Marche sur sol plat et déploiement au sol seulement. Ailes relevées de55degrés pendant la marche, sans repli complet contre le corps. Pas de vol, forces, collisions exhaustives, terrain, monde principal, serveur/réseau/VR, FPS ou finition photoréaliste qualifiés."
+}

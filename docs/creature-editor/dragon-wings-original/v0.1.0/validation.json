@@ -1,0 +1,58 @@
+{
+  "schema": "uo.dragon-wings-documentary-validation/v1",
+  "delivery": "review_only",
+  "source_review_sha256": "b2e1ef3200143da88b5525dbbf787f0feb581893e36010473dbbb57be38a5639",
+  "model_sha256": "766ad981b754f548f5f61d9cde8fdfbf53b87c20c86207211aaddc9b89798e2d",
+  "cpu_samples_per_clip_and_lod": 601,
+  "native_samples_per_clip_and_lod": 241,
+  "browser_samples_per_clip_and_lod": 121,
+  "renderers": [
+    "gl_compatibility",
+    "forward_plus"
+  ],
+  "recipe_download_and_reconstruction": true,
+  "changed_parameter": {
+    "flap_angle_deg": {
+      "selected": 12,
+      "reconstructed": 13
+    }
+  },
+  "bind_meshes_materials_skeleton_and_shared_images_exact": true,
+  "native_contacts": [
+    {
+      "clip": "DragonWalk",
+      "maximum_stance_drift_m": 2.41069841422359e-07,
+      "maximum_stance_y_m": 0.000200085094547831,
+      "minimum_sole_y_m": 0.000199894057004713,
+      "minimum_supports": 3,
+      "samples_per_lod": 241
+    },
+    {
+      "clip": "DragonWingDisplay",
+      "maximum_stance_drift_m": 1.24332444784159e-07,
+      "maximum_stance_y_m": 0.000200022346689366,
+      "minimum_sole_y_m": 0.000199970192625187,
+      "minimum_supports": 4,
+      "samples_per_lod": 241
+    },
+    {
+      "clip": "DragonWingLeftInspect",
+      "maximum_stance_drift_m": 1.24332444784159e-07,
+      "maximum_stance_y_m": 0.000200022346689366,
+      "minimum_sole_y_m": 0.000199970192625187,
+      "minimum_supports": 4,
+      "samples_per_lod": 241
+    }
+  ],
+  "editor_independent_wing": {
+    "right_tip_displacement_m": 0,
+    "left_tip_displacement_m": 2.2554890029088117
+  },
+  "editor_render_controls": {
+    "wireframe_changes_pixels": true,
+    "skeleton_changes_pixels": true
+  },
+  "native_clip_switch_rest_reset": true,
+  "native_actor_entity_transform_preserved": true,
+  "scope": "Copie originale de revue encore stylisée. Marche sur sol plat et déploiement au sol seulement. Ailes relevées de55degrés pendant la marche, sans repli complet contre le corps. Pas de vol, forces, collisions exhaustives, terrain, monde principal, serveur/réseau/VR, FPS ou finition photoréaliste qualifiés."
+}

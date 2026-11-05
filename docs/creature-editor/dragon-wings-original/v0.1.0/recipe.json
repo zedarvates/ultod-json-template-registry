@@ -1,0 +1,15 @@
+{
+  "schema": "uo.dragon-wings-project/v1",
+  "generator": "uo.dragon-wings-original/v1",
+  "delivery": "review_only",
+  "source_sha256": "b2e1ef3200143da88b5525dbbf787f0feb581893e36010473dbbb57be38a5639",
+  "recipe": {
+    "schema": "uo.dragon-wing-shape/v1",
+    "delivery": "review_only",
+    "body_revision": "07",
+    "body_sha256": "774a3dce29d324eec8e600227327ec425c9bc2ccf46bb67b1cd1486d3c64a56b",
+    "wing_span_m": 5.2,
+    "fold_angle_deg": 55,
+    "flap_angle_deg": 13
+  }
+}
