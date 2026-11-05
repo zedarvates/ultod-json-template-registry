@@ -1,0 +1,39 @@
+{
+  "schema": "uo.skeleton-documentary-validation/v1",
+  "delivery": "review_only",
+  "model_sha256": "6e02a792bc3f35c40e989a1faa162cd240bde639c6cd951e1b75c27282552841",
+  "model_bytes": 4276424,
+  "cpu_poses_per_lod": 721,
+  "native_poses_per_lod": 241,
+  "native_engine": "Godot Engine v4.8.beta2.mono.official.cafc17a19 - https://godotengine.org",
+  "renderers": [
+    "gl_compatibility",
+    "forward_plus"
+  ],
+  "actual_recipe_download_and_rebuild": true,
+  "changed_parameter": {
+    "stride_m": {
+      "selected": 0.23,
+      "rebuilt": 0.25
+    }
+  },
+  "changed_animation_tracks": 7,
+  "bind_attributes_materials_and_pixels_exact": true,
+  "editor_focus_regions": [
+    "head",
+    "ribs",
+    "hands",
+    "feet"
+  ],
+  "editor_widths": [
+    736,
+    320
+  ],
+  "native_maximum_stance_anchor_error_m": 0.000227873519179411,
+  "native_playback_after_end": true,
+  "native_pause_clock_stable": true,
+  "cached_images_shared": true,
+  "independent_cached_pose_distance_m": 0.239465564489365,
+  "entity_transform_preserved": true,
+  "scope": "Première adaptation originale encore stylisée. Crâne, bassin et proportions des os restent à affiner ; coutures de projection et intersections articulaires non exhaustivement qualifiées. Sol plat uniquement : pas de photoréalisme final, forces/friction, équilibre physique, terrain, attaque, mort, équipement, monde principal, serveur/réseau, VR ou FPS qualifiés."
+}

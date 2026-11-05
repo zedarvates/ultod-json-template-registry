@@ -1,0 +1,83 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "5ca0467ea259168f85652cc0fcea9d319fa902d1d286517b3ba93f77ed60d756",
+  "preview_file": "preview.png",
+  "preview_sha256": "870ed808661252ccf85595045f41721729aab622a4f035542747cc33d2bfda92",
+  "rendered_model_sha256": "6e02a792bc3f35c40e989a1faa162cd240bde639c6cd951e1b75c27282552841",
+  "source_review_sha256": "c335705804cbc8e55d1e8f6c4b88e95f29d790d4cf10dc807b46110fd61a53ed",
+  "captures": [
+    {
+      "file": "preview.png",
+      "sha256": "870ed808661252ccf85595045f41721729aab622a4f035542747cc33d2bfda92",
+      "model_sha256": "6e02a792bc3f35c40e989a1faa162cd240bde639c6cd951e1b75c27282552841",
+      "kind": "unmodified Godot Forward+ capture of downloaded recipe reconstructed04"
+    },
+    {
+      "file": "front.png",
+      "sha256": "d8e28fafb45abc55c7c65b810e90c02b29b43b5ea33352dc466822fca6c12957",
+      "model_sha256": "6e02a792bc3f35c40e989a1faa162cd240bde639c6cd951e1b75c27282552841",
+      "kind": "unmodified Godot Forward+ capture of downloaded recipe reconstructed04"
+    },
+    {
+      "file": "head.png",
+      "sha256": "bb4cc2894edb0efe3f73f45aa9a5063a5f896f889bc2b671947c3f5de95d869f",
+      "model_sha256": "6e02a792bc3f35c40e989a1faa162cd240bde639c6cd951e1b75c27282552841",
+      "kind": "unmodified Godot Forward+ capture of downloaded recipe reconstructed04"
+    },
+    {
+      "file": "feet.png",
+      "sha256": "f677f9b7fa2efa6e667a4c6d738047abcd4028e9a54757361e23583d11b8015e",
+      "model_sha256": "6e02a792bc3f35c40e989a1faa162cd240bde639c6cd951e1b75c27282552841",
+      "kind": "unmodified Godot Forward+ capture of downloaded recipe reconstructed04"
+    },
+    {
+      "file": "lod1.png",
+      "sha256": "f98be2b8c76daad363a4b02ce994dec8bb3838cf9932b50dc29d2cea2031ef70",
+      "model_sha256": "6e02a792bc3f35c40e989a1faa162cd240bde639c6cd951e1b75c27282552841",
+      "kind": "unmodified Godot Forward+ capture of downloaded recipe reconstructed04"
+    },
+    {
+      "file": "lod2.png",
+      "sha256": "2e6ec623a9a9ea8fd8f457d5770e76c92b0045465533f054c5eb7a47a2bf2162",
+      "model_sha256": "6e02a792bc3f35c40e989a1faa162cd240bde639c6cd951e1b75c27282552841",
+      "kind": "unmodified Godot Forward+ capture of downloaded recipe reconstructed04"
+    },
+    {
+      "file": "walk-0.png",
+      "sha256": "2dc9e93e26cde20ca0f8b304bc964d08cade2d0de434dbda8d8dd2a9d747be43",
+      "model_sha256": "6e02a792bc3f35c40e989a1faa162cd240bde639c6cd951e1b75c27282552841",
+      "kind": "unmodified Godot Forward+ capture of downloaded recipe reconstructed04"
+    },
+    {
+      "file": "walk-25.png",
+      "sha256": "373bd0fbdd64c979d643ad2e7838467249071ed28b5d05a800214623726f825f",
+      "model_sha256": "6e02a792bc3f35c40e989a1faa162cd240bde639c6cd951e1b75c27282552841",
+      "kind": "unmodified Godot Forward+ capture of downloaded recipe reconstructed04"
+    },
+    {
+      "file": "walk-50.png",
+      "sha256": "785583a39f1843c79bcdb269952387bf8ec041676ae9fae9479d8ef91ce2c24b",
+      "model_sha256": "6e02a792bc3f35c40e989a1faa162cd240bde639c6cd951e1b75c27282552841",
+      "kind": "unmodified Godot Forward+ capture of downloaded recipe reconstructed04"
+    },
+    {
+      "file": "walk-75.png",
+      "sha256": "92e1b085ba1a844a74b4b3db75e0472a3a342b46a22984aee5efb3ae6fa3972b",
+      "model_sha256": "6e02a792bc3f35c40e989a1faa162cd240bde639c6cd951e1b75c27282552841",
+      "kind": "unmodified Godot Forward+ capture of downloaded recipe reconstructed04"
+    }
+  ],
+  "preview_kind": "Ten native captures of the actual downloaded recipe reconstructed04",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.skeleton-original/v1",
+    "original cortical bone image and rigid biped review adapter"
+  ],
+  "rights": "Original mathematical geometry, original built-in ImageGen bone bitmap and approximate normal/ORM derivatives, native screenshots. Anatomy references only; no external model or reference pixels copied. Private GLBs, generators, source bitmap and production genomes excluded.",
+  "native_catalogue_scope": "The queried catalogue has no skeletal human component. This is a separate original editor review adapter, not a rendering of native catalogue parts.",
+  "validation_scope": "Première adaptation originale encore stylisée. Crâne, bassin et proportions des os restent à affiner ; coutures de projection et intersections articulaires non exhaustivement qualifiées. Sol plat uniquement : pas de photoréalisme final, forces/friction, équilibre physique, terrain, attaque, mort, équipement, monde principal, serveur/réseau, VR ou FPS qualifiés."
+}

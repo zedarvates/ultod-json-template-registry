@@ -1,0 +1,55 @@
+{
+  "schema": "uo.skeleton-design-documentation/v1",
+  "delivery": "review_only",
+  "identity": "server:skeleton",
+  "anatomy": {
+    "rib_pairs": 12,
+    "cervical_vertebrae": 7,
+    "thoracic_vertebrae": 12,
+    "lumbar_vertebrae": 5,
+    "finger_phalanges_per_hand": 14,
+    "toe_phalanges_per_foot": 14,
+    "teeth": 32,
+    "cavities": [
+      "OrbitL",
+      "OrbitR",
+      "Nasal"
+    ]
+  },
+  "rig_joints": 49,
+  "geometric_batches_per_lod": 2,
+  "lod_triangles": [
+    25374,
+    10864,
+    8692
+  ],
+  "textures": {
+    "images": 3,
+    "dimensions": [
+      [
+        256,
+        256
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ]
+    ],
+    "rgba8_complete_mip_estimate_bytes": 524284,
+    "source_sha256": "b039c18295bfae26dfd6d47f93a5af68e86ccd02fb363933a19f39d9b641b94d",
+    "scope": "Original generated albedo; approximate derived normal and roughness, not measured material data"
+  },
+  "skin": "One rigid bone influence per vertex; bone shape remains rigid during joint motion",
+  "foot_contacts": "Visible closed calcaneus and metatarsal pieces with small plantar facets, no invisible contact shoe",
+  "gait": "Three local cycles,90Hz keys, inverse-kinematic ankles and a separate declared piece-volume support proxy",
+  "anatomical_scope": "Original humanlike undead game adaptation; component count and rig joints are not a claim to model exactly206 anatomical bones",
+  "references": [
+    "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-1-divisions-of-the-skeletal-system",
+    "https://openstax.org/books/anatomy-and-physiology-2e/pages/8-2-bones-of-the-upper-limb"
+  ],
+  "scope": "Première adaptation originale encore stylisée. Crâne, bassin et proportions des os restent à affiner ; coutures de projection et intersections articulaires non exhaustivement qualifiées. Sol plat uniquement : pas de photoréalisme final, forces/friction, équilibre physique, terrain, attaque, mort, équipement, monde principal, serveur/réseau, VR ou FPS qualifiés."
+}
