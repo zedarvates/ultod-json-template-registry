@@ -14,3 +14,5 @@ Six pièces effectivement utilisées par l’éditeur, conservées séparément 
 Les textures sont incorporées dans les GLB ; aucune URI externe n’a été détectée dans leurs descriptions glTF. Le [manifeste](manifest.json) indique leurs tailles et empreintes. Les aperçus de bâtiments correspondants sont dans la [galerie d’architecture](../../../../templates/architecture-editor/GALERIE.md).
 
 Ces fichiers sont des instantanés de l’éditeur : vérifier échelle, orientation, raccords et comportement dans chaque consommateur avant adoption. Leur présence ne démontre ni compatibilité serveur, ni collisions, ni qualité VR. Les six proxies ont été testés séparément : leurs résultats ne s’appliquent pas automatiquement à ces fichiers.
+
+En essai local isolé, les six GLB ont été chargés avec un manifeste temporaire dans une copie de l’éditeur comportant une correction candidate des lambrequins. Un assemblage exporté en JSON puis réimporté conserve les identifiants, coordonnées, arêtes et rotations contrôlés. La capture étant vide, cet essai ne qualifie pas l’aspect ou les raccords visuels. Il ne prouve ni l’intégration permanente ni le fonctionnement serveur.
