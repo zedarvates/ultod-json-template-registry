@@ -1,0 +1,88 @@
+{
+  "$schema": "../../../schemas/xeno-editor/v1.2.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "xeno-editor:giant-crab-original",
+  "slug": "giant-crab-original",
+  "family": "xeno-editor",
+  "version": "0.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "xeno-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:49e62363af906707e15f90643bef6ba5e95ecc4ced942b5d77db105761cf4525",
+  "spec": {
+    "display_name": "Crabe géant original",
+    "genome_file": "assets/xeno-editor/giant-crab-original/v0.1.0/genome.json",
+    "source_recipe_file": "assets/xeno-editor/giant-crab-original/v0.1.0/source-recipe.json",
+    "preview_file": "assets/xeno-editor/giant-crab-original/v0.1.0/preview.png",
+    "godot_preview_file": "assets/xeno-editor/giant-crab-original/v0.1.0/godot-preview.png",
+    "registration_file": "assets/xeno-editor/giant-crab-original/v0.1.0/registration.json",
+    "genome_sha256": "86dc7312fc93c3dd17cfcf9ccfefc1ca1c7ba55df7aaccd4df37d2aa6671500f",
+    "source_recipe_sha256": "6ad9466dd73f143a254695105c2e793b832c1535e7f34593ce620b753b3c2320",
+    "preview_sha256": "a26e3f04c76ac1d400a4044d7db3ae316e6de6bab8969381de65cb6579d0bdc3",
+    "godot_preview_sha256": "932a55dbf35d4e3117ccd94065b2cbb0877b70d92a3f651bb2e773f8a287e84c",
+    "registration_sha256": "a274e0cc76e894992026c346d231b364da903b35a4d314ca776882ae5d21da41",
+    "reviewed_model_sha256": "8f0338126e38d1b6ceddf5bf161bbd440de9ce7e7a5319def417aa754968b032",
+    "review_status": "review-only",
+    "evidence_scope": "editor-export-and-static-godot-import",
+    "parts": [
+      {
+        "id": "crab_body_original_01",
+        "file": "assets/xeno-editor/giant-crab-original/v0.1.0/parts/crab_body_original_01.glb",
+        "sha256": "8ea952d4d20a94474acd1f95d6d97a96c5332536bf9db3470cfd099c9a9634c0"
+      },
+      {
+        "id": "crab_claw_l_original_01",
+        "file": "assets/xeno-editor/giant-crab-original/v0.1.0/parts/crab_claw_l_original_01.glb",
+        "sha256": "8160f23911eb4c130eec928c8a911f196455915c10c578c60e03279972f5662b"
+      },
+      {
+        "id": "crab_leg_l1_original_01",
+        "file": "assets/xeno-editor/giant-crab-original/v0.1.0/parts/crab_leg_l1_original_01.glb",
+        "sha256": "efd8dba9a5597d094a5a72b7e350445c843d1b70c8a0f8f6bfa70c61b9777a90"
+      },
+      {
+        "id": "crab_leg_l2_original_01",
+        "file": "assets/xeno-editor/giant-crab-original/v0.1.0/parts/crab_leg_l2_original_01.glb",
+        "sha256": "ac59d9521f53c0be699642244e10420017d053a6bf9193022563d03124eb0aa5"
+      },
+      {
+        "id": "crab_leg_l3_original_01",
+        "file": "assets/xeno-editor/giant-crab-original/v0.1.0/parts/crab_leg_l3_original_01.glb",
+        "sha256": "e7ea9032ede87d2bad8f62d2bbac61d6c5476b64f79625c92289156bca0feb85"
+      },
+      {
+        "id": "crab_leg_l4_original_01",
+        "file": "assets/xeno-editor/giant-crab-original/v0.1.0/parts/crab_leg_l4_original_01.glb",
+        "sha256": "7cf0782468de80a6faa9122f49d0d7248a096e2dab217c3ed01356ca787649be"
+      },
+      {
+        "id": "crab_claw_r_original_01",
+        "file": "assets/xeno-editor/giant-crab-original/v0.1.0/parts/crab_claw_r_original_01.glb",
+        "sha256": "a6c529bdbf91d4c7858772e255e34f49a2124e1bd03b26fe1d710d4aeace0480"
+      },
+      {
+        "id": "crab_leg_r1_original_01",
+        "file": "assets/xeno-editor/giant-crab-original/v0.1.0/parts/crab_leg_r1_original_01.glb",
+        "sha256": "ddc17b73054fb9c1fd3e79bb0432ad38282834a455a53225a15a1021b18cb013"
+      },
+      {
+        "id": "crab_leg_r2_original_01",
+        "file": "assets/xeno-editor/giant-crab-original/v0.1.0/parts/crab_leg_r2_original_01.glb",
+        "sha256": "e3d0e0fbb13f33a7f736844bfe0123e486c224a7eec5c28846cb3315a30628bb"
+      },
+      {
+        "id": "crab_leg_r3_original_01",
+        "file": "assets/xeno-editor/giant-crab-original/v0.1.0/parts/crab_leg_r3_original_01.glb",
+        "sha256": "fd14f6ee57c9ee653f54e0d37d0af399ac00034cfada9df729eabbc103dbf19a"
+      },
+      {
+        "id": "crab_leg_r4_original_01",
+        "file": "assets/xeno-editor/giant-crab-original/v0.1.0/parts/crab_leg_r4_original_01.glb",
+        "sha256": "d9881c84bf16d4a51e6f2112ce862d8ef58f6b1c6eda85c8074917e74cf4b643"
+      }
+    ]
+  }
+}

@@ -124306,6 +124306,25 @@
       "file": "templates/xeno-editor/giant-rat-original/v0.1.0/template.json",
       "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
       "sha256": "ceeb8370959a571be0818621d66315cd63e15ca6175bee84041b7073764c5b3b"
+    },
+    {
+      "id": "xeno-editor:giant-crab-original",
+      "slug": "giant-crab-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:49e62363af906707e15f90643bef6ba5e95ecc4ced942b5d77db105761cf4525",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "giant-crab-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/giant-crab-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "e69c9037d9096919671c17b441af8040fe600d2df0e6ca5fd26a278b79ce5732"
     }
   ],
   "aliases": []
