@@ -26,13 +26,13 @@ Recette exportée et capture de sa reconstruction, conservées sans réécriture
 
 Instantané historique de revue ; consulter la fiche pour la portée exacte des contrôles.
 
-## Crocodilien — museau abaissé et paupières intégrées
+## Crocodilien — nuque affinée, yeux et UV régularisés
 
-![Crocodilien — museau abaissé et paupières intégrées — capture Godot de la recette reconstruite](crocodile-original/v0.9.0/preview.png)
+![Crocodilien — nuque affinée, yeux et UV régularisés — capture Godot de la recette reconstruite](crocodile-original/v0.10.0/preview.png)
 
-[Fiche 0.9.0](crocodile-original/v0.9.0/README.md) · [Recette JSON](crocodile-original/v0.9.0/recipe.json)
+[Fiche 0.10.0](crocodile-original/v0.10.0/README.md) · [Recette JSON](crocodile-original/v0.10.0/recipe.json)
 
-Avant du museau aminci, yeux davantage insérés et paupières moins saillantes. UV crâniens recalculés sans ajout de triangles ni textures ; recette téléchargée, reconstruite et marche vérifiées dans l’éditeur et Godot.
+Arrière du crâne affiné, yeux plus fins et iris ambrés. Écarts de densité UV réduits sans ajout de triangles ni textures ; recette téléchargée, reconstruite et marche vérifiées dans l’éditeur et Godot.
 
 Revue locale sur sol plat dans l’éditeur et Godot isolé. Coutures du corps, raccord tête/cou, dentition finale, intersections exhaustives, terrain, virages, nage, forces, foule, monde principal, réseau, VR et FPS non qualifiés. Finition photoréaliste non approuvée.
 

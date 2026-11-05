@@ -1,0 +1,115 @@
+{
+  "frames": 601,
+  "bones": 31,
+  "lod_triangles": [
+    9566,
+    5442,
+    3066
+  ],
+  "minimum_all_geometry_y_m": 0.00019978837056418915,
+  "maximum_stance_absolute_y_m": 0.00033655715162260545,
+  "maximum_world_stance_anchor_error_m": 0.00013684027686936188,
+  "minimum_expected_supports": 3,
+  "minimum_peak_swing_clearance_m": 0.04494504345701315,
+  "maximum_sampled_edge_length_ratio": 1.4052112978553517,
+  "minimum_sampled_edge_length_ratio": 0.5648178067323624,
+  "texture_dimensions": [
+    [
+      512,
+      512
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "rgba8_complete_mip_estimate_bytes": 2097148,
+  "dynamic_skin_uv_measurements": {
+    "maximum_anisotropy": 2.378564970398256,
+    "minimum_albedo_texels_per_meter": 751.9540790713471,
+    "maximum_albedo_texels_per_meter": 1449.8746728043418,
+    "samples_per_lod": 601
+  },
+  "schema": "uo.crocodile-documentary-validation/v1",
+  "delivery": "review_only",
+  "model_sha256": "ad5ba017448ef927758997513975468243c5920c4101e5dcb4eec2343920a211",
+  "model_bytes": 2190960,
+  "native_engine": "4.8-beta2 (official)",
+  "native_samples_per_lod": 241,
+  "selected_and_rebuilt_renderers": [
+    "forward_plus",
+    "gl_compatibility"
+  ],
+  "editor_recipe_download_and_rebuild": true,
+  "editor_source_sha256": "a1894e63a042dbc786589ca14596341fc955bfbaba549bec07811c40ffa2e5a1",
+  "native_maximum_stance_anchor_error_m": 0.000136945105623454,
+  "native_minimum_supports": 3,
+  "regression": {
+    "status": "PASS_V10_EXPORTED_HEAD_IMPROVEMENT_AND_BODY_RECIPE_REGRESSION",
+    "pairs": [
+      {
+        "old": "33",
+        "new": "35",
+        "noncranial_attributes_clips_materials_and_image_bytes_exact": true
+      },
+      {
+        "old": "34",
+        "new": "36",
+        "noncranial_attributes_clips_materials_and_image_bytes_exact": true
+      }
+    ],
+    "head_comparison": [
+      {
+        "lod": 0,
+        "nape_roof_height_before_m": 0.3678620308637619,
+        "nape_roof_height_after_m": 0.3563090443611145,
+        "eye_vertical_extent_before_m": 0.024776309728622437,
+        "eye_vertical_extent_after_m": 0.021763741970062256
+      },
+      {
+        "lod": 1,
+        "nape_roof_height_before_m": 0.36807164165945955,
+        "nape_roof_height_after_m": 0.3573976975817851,
+        "eye_vertical_extent_before_m": 0.024697691202163696,
+        "eye_vertical_extent_after_m": 0.021873772144317627
+      },
+      {
+        "lod": 2,
+        "nape_roof_height_before_m": 0.36837106359724403,
+        "nape_roof_height_after_m": 0.3589004991707176,
+        "eye_vertical_extent_before_m": 0.0232812762260437,
+        "eye_vertical_extent_after_m": 0.020975589752197266
+      }
+    ],
+    "roof_comparison": [
+      {
+        "lod": 0,
+        "old_maximum_anisotropy": 1.77555294815994,
+        "new_maximum_anisotropy": 1.7445397913540248,
+        "old_density_ratio": 1.896210154532651,
+        "new_density_ratio": 1.705237554204614
+      },
+      {
+        "lod": 1,
+        "old_maximum_anisotropy": 1.7994769321461384,
+        "new_maximum_anisotropy": 1.752037747666516,
+        "old_density_ratio": 1.9627814058968136,
+        "new_density_ratio": 1.6084338470692325
+      },
+      {
+        "lod": 2,
+        "old_maximum_anisotropy": 1.8244383978798437,
+        "new_maximum_anisotropy": 1.809007622991743,
+        "old_density_ratio": 2.1500645388687287,
+        "new_density_ratio": 1.750672115816102
+      }
+    ],
+    "v9_head_regeneration_byte_exact": true,
+    "scope": "Actual exported geometry, UVs and protected body regression. Density improves; peak anisotropy is reported separately, not claimed universally better. No seamless body or final photorealism approval."
+  },
+  "scope": "Revue locale sur sol plat dans l’éditeur et Godot isolé. Coutures du corps, raccord tête/cou, dentition finale, intersections exhaustives, terrain, virages, nage, forces, foule, monde principal, réseau, VR et FPS non qualifiés. Finition photoréaliste non approuvée."
+}

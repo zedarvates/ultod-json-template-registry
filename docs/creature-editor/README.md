@@ -8,7 +8,7 @@ Ces instantanés proviennent des ateliers de l’éditeur de créatures. Les rec
 | --- | --- | --- |
 | Chauve-souris géante | 0.1.0 | [Fiche](bat-original/v0.1.0/README.md) |
 | Araignée géante — huit pattes | 0.1.0 | [Génome et marche](spider-original/v0.1.0/README.md) |
-| Crocodilien — museau abaissé et paupières intégrées | 0.9.0 | [Recette, tête et marche Godot](crocodile-original/v0.9.0/README.md) · [Version0.8 conservée](crocodile-original/v0.8.0/README.md) |
+| Crocodilien — nuque affinée, yeux et UV régularisés | 0.10.0 | [Recette, tête et marche Godot](crocodile-original/v0.10.0/README.md) · [Version0.9 conservée](crocodile-original/v0.9.0/README.md) |
 | Sanglier géant | 0.1.0 | [Fiche](boar-original/v0.1.0/README.md) |
 | Gazer | 0.1.0 | [Fiche](gazer-original/v0.1.0/README.md) |
 | Golem | 0.1.0 | [Fiche](golem-original/v0.1.0/README.md) |
