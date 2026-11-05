@@ -1,0 +1,59 @@
+{
+  "schema": "uo.dragon-fold-documentary-validation/v1",
+  "delivery": "review_only",
+  "model_sha256": "38beba522bb06a9c53b4157edc674cfd77db9d34d886ea79ce9ec907e326120d",
+  "source_review_sha256": "d168b6a4135567fdc9612eb20c1267526a2a903a63102093b503a2309fb298bd",
+  "cpu_samples_per_clip_lod": 601,
+  "native_samples_per_clip_lod": 241,
+  "native_morph_snapshots_per_clip_lod": 13,
+  "native_morph_landmark_error_m": 0.000106826759292744,
+  "browser_samples_per_clip_lod": 121,
+  "renderers": [
+    "gl_compatibility",
+    "forward_plus"
+  ],
+  "actual_recipe_download_and_reconstruction": true,
+  "changed_parameter": {
+    "flap_angle_deg": {
+      "selected": 12,
+      "rebuilt": 13
+    }
+  },
+  "bind_meshes_morph_targets_materials_rig_images_exact": true,
+  "native_contacts": [
+    {
+      "clip": "DragonWalk",
+      "maximum_stance_drift_m": 2.41069841422359e-07,
+      "maximum_stance_y_m": 0.000200085094547831,
+      "minimum_sole_y_m": 0.000199894057004713,
+      "minimum_supports": 3,
+      "samples_per_lod": 241
+    },
+    {
+      "clip": "DragonWingDisplay",
+      "maximum_stance_drift_m": 1.24332444784159e-07,
+      "maximum_stance_y_m": 0.000200022346689366,
+      "minimum_sole_y_m": 0.000199970192625187,
+      "minimum_supports": 4,
+      "samples_per_lod": 241
+    },
+    {
+      "clip": "DragonWingLeftInspect",
+      "maximum_stance_drift_m": 1.24332444784159e-07,
+      "maximum_stance_y_m": 0.000200022346689366,
+      "minimum_sole_y_m": 0.000199970192625187,
+      "minimum_supports": 4,
+      "samples_per_lod": 241
+    }
+  ],
+  "entity_transform_preserved": true,
+  "editor_fold_details": {
+    "changes_pixels": true,
+    "restored": true
+  },
+  "editor_independent_wing": {
+    "right_tip_displacement_m": 0,
+    "left_tip_displacement_m": 2.826233058302161
+  },
+  "scope": "Revue locale encore stylisée : repli compact et déploiement au sol, sans simulation de tissu ou de vol. Finition photoréaliste, anatomie finale, collisions exhaustives corps/ailes, forces, terrain, monde principal, serveur/réseau/VR et FPS restent non qualifiés."
+}

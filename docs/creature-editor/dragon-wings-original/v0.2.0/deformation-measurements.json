@@ -1,0 +1,476 @@
+{
+  "schema": "uo.dragon-fold-measurements/v1",
+  "delivery": "review_only",
+  "selected": {
+    "status": "PASS_DRAGON_COMPACT_FOLD_MORPHS_SKIN_CONTACTS_AND_UV",
+    "sha256": "d168b6a4135567fdc9612eb20c1267526a2a903a63102093b503a2309fb298bd",
+    "non_membrane_bind_attributes_and_body_tracks_exact": true,
+    "clips": [
+      {
+        "clip": "DragonWalk",
+        "frames_per_lod": 601,
+        "minimum_y_m": 0.00019969477476044185,
+        "wing_minimum_y_m": 0.629709701497599,
+        "stance_y_m": 0.00020001031862479634,
+        "stance_drift_m": 3.526585178932257e-07,
+        "minimum_supports": 3,
+        "wing_edge_min": 0.8026808295872514,
+        "wing_edge_max": 1.2734656156795656,
+        "wing_area_min": 0.814714367489438,
+        "wing_normal_min": 0.6542672054512617,
+        "animated_uv_anisotropy_max": 1.59744647386741,
+        "solid_edge_min": 0.799132149361011,
+        "solid_edge_max": 1.2417517395247377,
+        "solid_area_min": 0.6262684893015128,
+        "solid_normal_min": 0.3001652394113287,
+        "folded_width_max_m": 1.1749171990702294,
+        "wing_height_max_m": 1.592068353770025,
+        "minimum_swing_peak_m": 0.06473409743894017,
+        "tip_excursion_m": {
+          "L": 0.5600000023841853,
+          "R": 0.5600000023841858
+        },
+        "worst": {
+          "solid_edge_min": {
+            "lod": 0,
+            "mesh": "Skin",
+            "time_s": 0.7733333333333334,
+            "value": 0.799132149361011
+          },
+          "solid_edge_max": {
+            "lod": 2,
+            "mesh": "Skin",
+            "time_s": 6.04,
+            "value": 1.2417517395247377
+          },
+          "solid_area_min": {
+            "lod": 1,
+            "mesh": "Skin",
+            "time_s": 0.0,
+            "value": 0.6262684893015128
+          },
+          "solid_normal_min": {
+            "lod": 1,
+            "mesh": "Skin",
+            "time_s": 0.0,
+            "value": 0.3001652394113287
+          },
+          "wing_edge_min": {
+            "lod": 2,
+            "mesh": "Membrane",
+            "time_s": 0.0,
+            "value": 0.8026808295872514
+          },
+          "wing_edge_max": {
+            "lod": 2,
+            "mesh": "Membrane",
+            "time_s": 2.16,
+            "value": 1.2734656156795656
+          },
+          "wing_area_min": {
+            "lod": 0,
+            "mesh": "Membrane",
+            "time_s": 0.013333333333333334,
+            "value": 0.814714367489438
+          },
+          "wing_normal_min": {
+            "lod": 1,
+            "mesh": "Membrane",
+            "time_s": 0.0,
+            "value": 0.6542672054512617
+          }
+        }
+      },
+      {
+        "clip": "DragonWingDisplay",
+        "frames_per_lod": 601,
+        "minimum_y_m": 0.00020000237913336827,
+        "wing_minimum_y_m": 0.6130770892289387,
+        "stance_y_m": 0.00020000237913336827,
+        "stance_drift_m": 5.599278458051326e-08,
+        "minimum_supports": 4,
+        "wing_edge_min": 0.6184191776775989,
+        "wing_edge_max": 1.2734656156795652,
+        "wing_area_min": 0.6902591971811315,
+        "wing_normal_min": 0.6542672054512617,
+        "animated_uv_anisotropy_max": 1.813210488129102,
+        "solid_edge_min": 0.875853707599851,
+        "solid_edge_max": 1.2681070631680087,
+        "solid_area_min": 0.6262684893015099,
+        "solid_normal_min": 0.3001652394113287,
+        "folded_width_max_m": 0.0,
+        "wing_height_max_m": 1.8852653422057644,
+        "minimum_swing_peak_m": null,
+        "tip_excursion_m": {
+          "L": 2.9523283887309377,
+          "R": 2.9518900107785306
+        },
+        "worst": {
+          "solid_edge_min": {
+            "lod": 1,
+            "mesh": "Skin",
+            "time_s": 0.74,
+            "value": 0.875853707599851
+          },
+          "solid_edge_max": {
+            "lod": 2,
+            "mesh": "Skin",
+            "time_s": 0.77,
+            "value": 1.2681070631680087
+          },
+          "solid_area_min": {
+            "lod": 1,
+            "mesh": "Skin",
+            "time_s": 6.0,
+            "value": 0.6262684893015099
+          },
+          "solid_normal_min": {
+            "lod": 1,
+            "mesh": "Skin",
+            "time_s": 0.0,
+            "value": 0.3001652394113287
+          },
+          "wing_edge_min": {
+            "lod": 1,
+            "mesh": "Membrane",
+            "time_s": 0.8300000000000001,
+            "value": 0.6184191776775989
+          },
+          "wing_edge_max": {
+            "lod": 2,
+            "mesh": "Membrane",
+            "time_s": 0.0,
+            "value": 1.2734656156795652
+          },
+          "wing_area_min": {
+            "lod": 1,
+            "mesh": "Membrane",
+            "time_s": 0.8200000000000001,
+            "value": 0.6902591971811315
+          },
+          "wing_normal_min": {
+            "lod": 1,
+            "mesh": "Membrane",
+            "time_s": 0.0,
+            "value": 0.6542672054512617
+          }
+        }
+      },
+      {
+        "clip": "DragonWingLeftInspect",
+        "frames_per_lod": 601,
+        "minimum_y_m": 0.00020000237913336827,
+        "wing_minimum_y_m": 0.6130770892289387,
+        "stance_y_m": 0.00020000237913336827,
+        "stance_drift_m": 5.599278458051326e-08,
+        "minimum_supports": 4,
+        "wing_edge_min": 0.6904628451068278,
+        "wing_edge_max": 1.2734656156795652,
+        "wing_area_min": 0.7317995879508647,
+        "wing_normal_min": 0.6542672054512617,
+        "animated_uv_anisotropy_max": 1.597446473867411,
+        "solid_edge_min": 0.875853707599851,
+        "solid_edge_max": 1.2425805438327622,
+        "solid_area_min": 0.6262684893015099,
+        "solid_normal_min": 0.3001652394113287,
+        "folded_width_max_m": 0.0,
+        "wing_height_max_m": 1.8852653422057644,
+        "minimum_swing_peak_m": null,
+        "tip_excursion_m": {
+          "L": 2.9523283887309377,
+          "R": 0.0
+        },
+        "worst": {
+          "solid_edge_min": {
+            "lod": 1,
+            "mesh": "Skin",
+            "time_s": 0.74,
+            "value": 0.875853707599851
+          },
+          "solid_edge_max": {
+            "lod": 2,
+            "mesh": "Skin",
+            "time_s": 5.23,
+            "value": 1.2425805438327622
+          },
+          "solid_area_min": {
+            "lod": 1,
+            "mesh": "Skin",
+            "time_s": 6.0,
+            "value": 0.6262684893015099
+          },
+          "solid_normal_min": {
+            "lod": 1,
+            "mesh": "Skin",
+            "time_s": 0.0,
+            "value": 0.3001652394113287
+          },
+          "wing_edge_min": {
+            "lod": 2,
+            "mesh": "Membrane",
+            "time_s": 4.82,
+            "value": 0.6904628451068278
+          },
+          "wing_edge_max": {
+            "lod": 2,
+            "mesh": "Membrane",
+            "time_s": 0.0,
+            "value": 1.2734656156795652
+          },
+          "wing_area_min": {
+            "lod": 1,
+            "mesh": "Membrane",
+            "time_s": 5.0,
+            "value": 0.7317995879508647
+          },
+          "wing_normal_min": {
+            "lod": 1,
+            "mesh": "Membrane",
+            "time_s": 0.0,
+            "value": 0.6542672054512617
+          }
+        }
+      }
+    ],
+    "scope": "Actual exported morphs applied before actual skin matrices, 601 samples per clip/LOD, planar contacts and compactness. No flight, exhaustive collisions, terrain, main-world/VR or final art proof."
+  },
+  "reconstructed": {
+    "status": "PASS_DRAGON_COMPACT_FOLD_MORPHS_SKIN_CONTACTS_AND_UV",
+    "sha256": "38beba522bb06a9c53b4157edc674cfd77db9d34d886ea79ce9ec907e326120d",
+    "non_membrane_bind_attributes_and_body_tracks_exact": true,
+    "clips": [
+      {
+        "clip": "DragonWalk",
+        "frames_per_lod": 601,
+        "minimum_y_m": 0.00019969477476044185,
+        "wing_minimum_y_m": 0.629709701497599,
+        "stance_y_m": 0.00020001031862479634,
+        "stance_drift_m": 3.526585178932257e-07,
+        "minimum_supports": 3,
+        "wing_edge_min": 0.8026808295872514,
+        "wing_edge_max": 1.2734656156795656,
+        "wing_area_min": 0.814714367489438,
+        "wing_normal_min": 0.6542672054512617,
+        "animated_uv_anisotropy_max": 1.59744647386741,
+        "solid_edge_min": 0.799132149361011,
+        "solid_edge_max": 1.2417517395247377,
+        "solid_area_min": 0.6262684893015128,
+        "solid_normal_min": 0.3001652394113287,
+        "folded_width_max_m": 1.1749171990702294,
+        "wing_height_max_m": 1.592068353770025,
+        "minimum_swing_peak_m": 0.06473409743894017,
+        "tip_excursion_m": {
+          "L": 0.5600000023841853,
+          "R": 0.5600000023841858
+        },
+        "worst": {
+          "solid_edge_min": {
+            "lod": 0,
+            "mesh": "Skin",
+            "time_s": 0.7733333333333334,
+            "value": 0.799132149361011
+          },
+          "solid_edge_max": {
+            "lod": 2,
+            "mesh": "Skin",
+            "time_s": 6.04,
+            "value": 1.2417517395247377
+          },
+          "solid_area_min": {
+            "lod": 1,
+            "mesh": "Skin",
+            "time_s": 0.0,
+            "value": 0.6262684893015128
+          },
+          "solid_normal_min": {
+            "lod": 1,
+            "mesh": "Skin",
+            "time_s": 0.0,
+            "value": 0.3001652394113287
+          },
+          "wing_edge_min": {
+            "lod": 2,
+            "mesh": "Membrane",
+            "time_s": 0.0,
+            "value": 0.8026808295872514
+          },
+          "wing_edge_max": {
+            "lod": 2,
+            "mesh": "Membrane",
+            "time_s": 2.16,
+            "value": 1.2734656156795656
+          },
+          "wing_area_min": {
+            "lod": 0,
+            "mesh": "Membrane",
+            "time_s": 0.013333333333333334,
+            "value": 0.814714367489438
+          },
+          "wing_normal_min": {
+            "lod": 1,
+            "mesh": "Membrane",
+            "time_s": 0.0,
+            "value": 0.6542672054512617
+          }
+        }
+      },
+      {
+        "clip": "DragonWingDisplay",
+        "frames_per_lod": 601,
+        "minimum_y_m": 0.00020000237913336827,
+        "wing_minimum_y_m": 0.6129347792716494,
+        "stance_y_m": 0.00020000237913336827,
+        "stance_drift_m": 5.599278458051326e-08,
+        "minimum_supports": 4,
+        "wing_edge_min": 0.6141546600507188,
+        "wing_edge_max": 1.2734656156795652,
+        "wing_area_min": 0.6842601671932745,
+        "wing_normal_min": 0.6542672054512617,
+        "animated_uv_anisotropy_max": 1.8147362513376162,
+        "solid_edge_min": 0.8758537075998509,
+        "solid_edge_max": 1.268107063168008,
+        "solid_area_min": 0.6262684893015128,
+        "solid_normal_min": 0.3001652394113287,
+        "folded_width_max_m": 0.0,
+        "wing_height_max_m": 1.9234073631566995,
+        "minimum_swing_peak_m": null,
+        "tip_excursion_m": {
+          "L": 2.962870708388257,
+          "R": 2.9624250068054088
+        },
+        "worst": {
+          "solid_edge_min": {
+            "lod": 1,
+            "mesh": "Skin",
+            "time_s": 0.74,
+            "value": 0.8758537075998509
+          },
+          "solid_edge_max": {
+            "lod": 2,
+            "mesh": "Skin",
+            "time_s": 0.77,
+            "value": 1.268107063168008
+          },
+          "solid_area_min": {
+            "lod": 1,
+            "mesh": "Skin",
+            "time_s": 0.0,
+            "value": 0.6262684893015128
+          },
+          "solid_normal_min": {
+            "lod": 1,
+            "mesh": "Skin",
+            "time_s": 0.0,
+            "value": 0.3001652394113287
+          },
+          "wing_edge_min": {
+            "lod": 1,
+            "mesh": "Membrane",
+            "time_s": 0.8300000000000001,
+            "value": 0.6141546600507188
+          },
+          "wing_edge_max": {
+            "lod": 2,
+            "mesh": "Membrane",
+            "time_s": 0.0,
+            "value": 1.2734656156795652
+          },
+          "wing_area_min": {
+            "lod": 1,
+            "mesh": "Membrane",
+            "time_s": 0.8200000000000001,
+            "value": 0.6842601671932745
+          },
+          "wing_normal_min": {
+            "lod": 1,
+            "mesh": "Membrane",
+            "time_s": 0.0,
+            "value": 0.6542672054512617
+          }
+        }
+      },
+      {
+        "clip": "DragonWingLeftInspect",
+        "frames_per_lod": 601,
+        "minimum_y_m": 0.00020000237913336827,
+        "wing_minimum_y_m": 0.6129347792716494,
+        "stance_y_m": 0.00020000237913336827,
+        "stance_drift_m": 5.599278458051326e-08,
+        "minimum_supports": 4,
+        "wing_edge_min": 0.6835900037558958,
+        "wing_edge_max": 1.2734656156795652,
+        "wing_area_min": 0.731799587950865,
+        "wing_normal_min": 0.6542672054512617,
+        "animated_uv_anisotropy_max": 1.610570898510917,
+        "solid_edge_min": 0.8758537075998509,
+        "solid_edge_max": 1.2425805438327626,
+        "solid_area_min": 0.6262684893015128,
+        "solid_normal_min": 0.3001652394113287,
+        "folded_width_max_m": 0.0,
+        "wing_height_max_m": 1.9234073631566995,
+        "minimum_swing_peak_m": null,
+        "tip_excursion_m": {
+          "L": 2.962870708388257,
+          "R": 0.0
+        },
+        "worst": {
+          "solid_edge_min": {
+            "lod": 1,
+            "mesh": "Skin",
+            "time_s": 0.74,
+            "value": 0.8758537075998509
+          },
+          "solid_edge_max": {
+            "lod": 2,
+            "mesh": "Skin",
+            "time_s": 5.23,
+            "value": 1.2425805438327626
+          },
+          "solid_area_min": {
+            "lod": 1,
+            "mesh": "Skin",
+            "time_s": 0.0,
+            "value": 0.6262684893015128
+          },
+          "solid_normal_min": {
+            "lod": 1,
+            "mesh": "Skin",
+            "time_s": 0.0,
+            "value": 0.3001652394113287
+          },
+          "wing_edge_min": {
+            "lod": 2,
+            "mesh": "Membrane",
+            "time_s": 4.82,
+            "value": 0.6835900037558958
+          },
+          "wing_edge_max": {
+            "lod": 2,
+            "mesh": "Membrane",
+            "time_s": 0.0,
+            "value": 1.2734656156795652
+          },
+          "wing_area_min": {
+            "lod": 1,
+            "mesh": "Membrane",
+            "time_s": 5.0,
+            "value": 0.731799587950865
+          },
+          "wing_normal_min": {
+            "lod": 1,
+            "mesh": "Membrane",
+            "time_s": 0.0,
+            "value": 0.6542672054512617
+          }
+        }
+      }
+    ],
+    "scope": "Actual exported morphs applied before actual skin matrices, 601 samples per clip/LOD, planar contacts and compactness. No flight, exhaustive collisions, terrain, main-world/VR or final art proof."
+  },
+  "failed_prototype_reference": {
+    "model_sha256": "9ac10200f6007d1941282c8fc48bc19f3fb0655545e33e76843667e8e4881ad8",
+    "uv_max": 4.234088988721555,
+    "membrane_normal_min": -0.2347164644712753
+  },
+  "scope": "Revue locale encore stylisée : repli compact et déploiement au sol, sans simulation de tissu ou de vol. Finition photoréaliste, anatomie finale, collisions exhaustives corps/ailes, forces, terrain, monde principal, serveur/réseau/VR et FPS restent non qualifiés."
+}

@@ -18,7 +18,7 @@ Ces instantanés proviennent des ateliers de l’éditeur de créatures. Les rec
 | Grenouille géante — peau et doigts palmés | 0.1.0 | [Recette et captures Godot — première revue](frog-original/v0.1.0/README.md) |
 | Dragon — crâne et narines connectés | 0.2.0 | [Composant et comparaisons Godot — revue partielle](dragon-cranium-original/v0.2.0/README.md) |
 | Dragon — corps et marche, ailes à construire | 0.1.0 | [Recette et captures Godot — corps de revue](dragon-body-original/v0.1.0/README.md) |
-| Dragon — ailes articulées et déploiement au sol | 0.1.0 | [Recette et captures Godot — ailes de revue](dragon-wings-original/v0.1.0/README.md) |
+| Dragon — ailes repliables et marche de revue | 0.2.0 | [Recette et captures Godot — repli de revue](dragon-wings-original/v0.2.0/README.md) |
 | Biche — silhouette et marche | 0.1.0 | [Recette et captures Godot](deer-doe-original/v0.1.0/README.md) |
 | Cerf à bois — silhouette et marche | 0.1.0 | [Recette et captures Godot](deer-stag-original/v0.1.0/README.md) |
 | Cheval brun — silhouette et marche | 0.1.0 | [Recette et captures Godot](horse-original/v0.1.0/README.md) |
