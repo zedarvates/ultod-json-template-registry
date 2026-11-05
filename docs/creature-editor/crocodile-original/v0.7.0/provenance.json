@@ -1,0 +1,77 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "f6508dd2d6a358eb0b0943b63de32b1eb306b4cf47a4ca55420f3694c142e0c1",
+  "preview_file": "preview.png",
+  "preview_sha256": "2021a3953021e6f38754a1e07381582e65472e3d4064a3a73379f53918f75120",
+  "rendered_model_sha256": "fb1bdb6d9818067abeb06afb74d5cc93076ca7d97e93d791a09655ec00642940",
+  "source_review_sha256": "91fbe7b359d3e053c983048d97212fbe14e5b02002bff7ac54aa96160a179763",
+  "captures": [
+    {
+      "file": "preview.png",
+      "sha256": "2021a3953021e6f38754a1e07381582e65472e3d4064a3a73379f53918f75120",
+      "model_sha256": "fb1bdb6d9818067abeb06afb74d5cc93076ca7d97e93d791a09655ec00642940",
+      "kind": "unmodified native Forward+ capture of downloaded recipe rebuilt28"
+    },
+    {
+      "file": "head.png",
+      "sha256": "23284ea153f661572a13ee3e85af7193452b5ccd9e6291857c6fc94233589424",
+      "model_sha256": "fb1bdb6d9818067abeb06afb74d5cc93076ca7d97e93d791a09655ec00642940",
+      "kind": "unmodified native Forward+ capture of downloaded recipe rebuilt28"
+    },
+    {
+      "file": "head-lod2.png",
+      "sha256": "b9a3728a83cb46a0325dec481e68723a8ff2a969fcc38f88a8eb9c8f90793dea",
+      "model_sha256": "fb1bdb6d9818067abeb06afb74d5cc93076ca7d97e93d791a09655ec00642940",
+      "kind": "unmodified native Forward+ capture of downloaded recipe rebuilt28"
+    },
+    {
+      "file": "feet-0.png",
+      "sha256": "ec657220e7c6db8a3ce1de3412d2c3fd05ca40352d17de55b605589595b753dd",
+      "model_sha256": "fb1bdb6d9818067abeb06afb74d5cc93076ca7d97e93d791a09655ec00642940",
+      "kind": "unmodified native Forward+ capture of downloaded recipe rebuilt28"
+    },
+    {
+      "file": "feet-25.png",
+      "sha256": "38fc6cc6e6d91c0cd75ff773042f55467df534c65293feb183139c17609ecf62",
+      "model_sha256": "fb1bdb6d9818067abeb06afb74d5cc93076ca7d97e93d791a09655ec00642940",
+      "kind": "unmodified native Forward+ capture of downloaded recipe rebuilt28"
+    },
+    {
+      "file": "feet-50.png",
+      "sha256": "7dc2bfccbc7161709a143a5a944272f8aeee48c1aebe5312e7128423463fe0ef",
+      "model_sha256": "fb1bdb6d9818067abeb06afb74d5cc93076ca7d97e93d791a09655ec00642940",
+      "kind": "unmodified native Forward+ capture of downloaded recipe rebuilt28"
+    },
+    {
+      "file": "feet-75.png",
+      "sha256": "e99ca049fbfb112576de9163c20dc6713ba2ca92d986334492bfe6182acae9d0",
+      "model_sha256": "fb1bdb6d9818067abeb06afb74d5cc93076ca7d97e93d791a09655ec00642940",
+      "kind": "unmodified native Forward+ capture of downloaded recipe rebuilt28"
+    },
+    {
+      "file": "comparison-v6.png",
+      "sha256": "84806d87bf83936764f0cc0644b5636c9791d1fbd017459210d18b7f5bcf3880",
+      "model_sha256": "eaced26e08958f7bf116cd6154e10b0510c4acc40899057e59cc561348c181a6",
+      "kind": "unmodified same-camera Forward+ comparison at matching default stride0.10m and time0.5s"
+    },
+    {
+      "file": "comparison-v7.png",
+      "sha256": "1ddf02b26d681a5bd3e98778287b6289a48d5e5be25576f6081a0b43a8227721",
+      "model_sha256": "91fbe7b359d3e053c983048d97212fbe14e5b02002bff7ac54aa96160a179763",
+      "kind": "unmodified same-camera Forward+ comparison at matching default stride0.10m and time0.5s"
+    }
+  ],
+  "preview_kind": "Seven native rebuilt28 captures and two same-parameter selected25/27 comparisons",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.crocodile-original/v1",
+    "tapered-cranium-v7-inset-eyes-continuous-jaw",
+    "original shared cranial component, skin images and local flat-walk adapter"
+  ],
+  "rights": "Original project geometry, original generated skin bitmap, procedural derivative maps and vertex iris pigment. Reference images and geometry are not copied. Private models, generators, source bitmaps and production genomes are excluded.",
+  "validation_scope": "Revue locale du crocodilien sur sol plat dans l’éditeur et Godot isolé. Finition photoréaliste, raccord cou/tête final, coutures du corps, dents, intersections exhaustives, terrain, virages, nage, forces, foule, monde principal, serveur/réseau/VR et FPS restent non qualifiés."
+}

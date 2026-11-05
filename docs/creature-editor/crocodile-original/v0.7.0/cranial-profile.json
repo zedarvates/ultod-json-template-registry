@@ -1,0 +1,56 @@
+{
+  "schema": "uo.crocodile-cranial-profile-documentation/v1",
+  "id": "tapered-cranium-v7-inset-eyes-continuous-jaw",
+  "delivery": "review_only",
+  "units": "meters",
+  "head_bind_pivot": [
+    0,
+    0.31,
+    -0.7
+  ],
+  "inherits": "sculpted-cranium-v6-continuous-roof",
+  "width_multiplier": {
+    "z": [
+      -1.46,
+      -1.3,
+      -1.1,
+      -0.9,
+      -0.7,
+      -0.5
+    ],
+    "ratio": [
+      0.88,
+      0.92,
+      0.98,
+      1,
+      0.98,
+      0.86
+    ]
+  },
+  "rear_roof_delta": "-0.012 * exp(-((z+0.57)/0.105)^2)",
+  "eye_direction_before_normalization": [
+    "side*0.60",
+    0.72,
+    -0.35
+  ],
+  "eye_radii_m": [
+    0.021,
+    0.0138,
+    0.009
+  ],
+  "pupil_radii_m": [
+    0.0021,
+    0.009,
+    0.001
+  ],
+  "socket_offset_from_actual_surface_m": -0.0012,
+  "anterior_exposure_m": 0.0078,
+  "posterior_embedding_m": 0.0102,
+  "lid_radius_m": "0.0028 + 0.0020*max(0,sin(angle))",
+  "jaw_uv": "Conformal open strip fitted to triangle metric, ventral seam and separate end caps; no added pixels",
+  "previous_recipe_compatibility": "v6 head regenerated and byte-identical to previous head17",
+  "references": [
+    "https://www.nps.gov/ever/learn/nature/crocodile.htm"
+  ],
+  "scope": "Documentary shape parameters; fantasy/game adaptation, not measured species reconstruction or standalone generator."
+}
