@@ -21,7 +21,7 @@
 | --- | --- |
 | Architecture classique | [Galerie des bâtiments](templates/architecture-editor/GALERIE.md) · [Recettes HouseBlueprint](templates/architecture-editor/README.md) |
 | Architecture moderne | [Galerie moderne et recettes](assets/architecture-editor/architecture-moderne-contemporaine/README.md) |
-| Pièces d’architecture | [Kit de base, aperçu et GLB](assets/architecture-editor/parts/base-modulaire-v1/README.md) |
+| Pièces d’architecture | [Pièces de l’éditeur](assets/architecture-editor/parts/editor-selection-v1/README.md) · [Kit proxy et schéma](assets/architecture-editor/parts/base-modulaire-v1/README.md) |
 | Créatures | [Galerie des créatures](docs/creature-editor/GALERIE.md) · [Pièces publiées Xeno](assets/xeno-editor/) |
 
 [Guide de réutilisation pour éditeurs, Codex et serveur](docs/editor-reuse.md). Ces éléments sont des bases de création ; leur présence ne certifie pas leur intégration en jeu.
