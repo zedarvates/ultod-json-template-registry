@@ -1,0 +1,16 @@
+{
+  "schema": "uo.crocodile-project/v1",
+  "generator": "uo.crocodile-original/v1",
+  "delivery": "review_only",
+  "source_sha256": "0f7b00e9d947ca8b17cb2f07adfb8726e0da4e0b1354efac5af3065e48e66a1d",
+  "recipe": {
+    "schema": "uo.crocodile-shape/v1",
+    "delivery": "review_only",
+    "body_scale": 1,
+    "stride_m": 0.11,
+    "period_s": 1.8,
+    "tail_sway_rad": 0.025,
+    "jaw_open_rad": 0.025,
+    "cranial_profile": "low-rostrum-v9-integrated-eyelids"
+  }
+}
