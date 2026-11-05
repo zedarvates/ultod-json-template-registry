@@ -1,0 +1,219 @@
+{
+  "schema": "uo.kraken-measurements-documentation/v1",
+  "delivery": "review_only",
+  "selected": {
+    "status": "PASS_KRAKEN_EIGHT_ARMS_LBS_UV_AND_SAMPLED_SUCKER_ROOTS",
+    "sha256": "8f39efa813232317998e72e2833269673d862514cf2255698ee3bb6a0b00d200",
+    "poses_per_lod": 385,
+    "attachment_poses_per_lod": 17,
+    "bones": 49,
+    "lods": [
+      {
+        "lod": 0,
+        "triangles": 12012,
+        "closed_components": 144,
+        "arms": 8,
+        "suckers": 128,
+        "material_batches": 4
+      },
+      {
+        "lod": 1,
+        "triangles": 6240,
+        "closed_components": 96,
+        "arms": 8,
+        "suckers": 80,
+        "material_batches": 4
+      },
+      {
+        "lod": 2,
+        "triangles": 2916,
+        "closed_components": 64,
+        "arms": 8,
+        "suckers": 48,
+        "material_batches": 4
+      }
+    ],
+    "edge_ratio_min": 0.9083621442415044,
+    "edge_ratio_max": 1.0912887199097696,
+    "area_ratio_min": 0.8999998119708569,
+    "area_ratio_max": 1.1092950385305342,
+    "normal_alignment_min": 0.3639601087280545,
+    "animated_uv_anisotropy_max": 1.8146748621304976,
+    "arm_tip_motion_m": [
+      0.37012798747793935,
+      0.33058856858192065,
+      0.24893102957579452,
+      0.23362093868210873,
+      0.32027378071953333,
+      0.3672836927041391,
+      0.3625422319859201,
+      0.3084423959802018
+    ],
+    "minimum_arm_root_center_inside_head_m": 0.006403955350287266,
+    "minimum_sucker_base_center_inside_arm_m": 0.004139179499919263,
+    "minimum_blind_sucker_depth_m": 0.00775296363033426,
+    "textures": [
+      [
+        256,
+        256
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ]
+    ],
+    "rgba8_complete_mip_estimate_bytes": 524284,
+    "scope": "Actual decoded LBS clip and closed components; sampled cup base centre attachments, not full surface collision, adhesion, hydrodynamics, forces, game/server/VR or final art proof."
+  },
+  "reconstructed": {
+    "status": "PASS_KRAKEN_EIGHT_ARMS_LBS_UV_AND_SAMPLED_SUCKER_ROOTS",
+    "sha256": "df7fc11d4e4dea8b9a222f00edd8c6838d2579df2d94f1b2a206af798e17d06e",
+    "poses_per_lod": 385,
+    "attachment_poses_per_lod": 17,
+    "bones": 49,
+    "lods": [
+      {
+        "lod": 0,
+        "triangles": 12012,
+        "closed_components": 144,
+        "arms": 8,
+        "suckers": 128,
+        "material_batches": 4
+      },
+      {
+        "lod": 1,
+        "triangles": 6240,
+        "closed_components": 96,
+        "arms": 8,
+        "suckers": 80,
+        "material_batches": 4
+      },
+      {
+        "lod": 2,
+        "triangles": 2916,
+        "closed_components": 64,
+        "arms": 8,
+        "suckers": 48,
+        "material_batches": 4
+      }
+    ],
+    "edge_ratio_min": 0.8989084158515807,
+    "edge_ratio_max": 1.1018901977153601,
+    "area_ratio_min": 0.8900090325097946,
+    "area_ratio_max": 1.1214208209745549,
+    "normal_alignment_min": 0.35947645238334214,
+    "animated_uv_anisotropy_max": 1.8241705958247867,
+    "arm_tip_motion_m": [
+      0.40684251037903235,
+      0.3640461000393517,
+      0.274738833188733,
+      0.2562059068700171,
+      0.3516645614020345,
+      0.4034539862920009,
+      0.3985771600671936,
+      0.3397840282507044
+    ],
+    "minimum_arm_root_center_inside_head_m": 0.006403955350287266,
+    "minimum_sucker_base_center_inside_arm_m": 0.003980986367056665,
+    "minimum_blind_sucker_depth_m": 0.00775296363033426,
+    "textures": [
+      [
+        256,
+        256
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ]
+    ],
+    "rgba8_complete_mip_estimate_bytes": 524284,
+    "scope": "Actual decoded LBS clip and closed components; sampled cup base centre attachments, not full surface collision, adhesion, hydrodynamics, forces, game/server/VR or final art proof."
+  },
+  "actual_details": {
+    "status": "PASS_EXPORTED_KRAKEN_BLIND_CAVITIES_AND_INSET_EYES",
+    "sha256": "df7fc11d4e4dea8b9a222f00edd8c6838d2579df2d94f1b2a206af798e17d06e",
+    "lods": [
+      {
+        "lod": 0,
+        "blind_suckers_checked": 128,
+        "minimum_actual_blind_depth_m": 0.007752947134442257,
+        "eyes": [
+          {
+            "side": -1,
+            "actual_inset_m": 0.008000000919768312,
+            "posterior_embedding_m": 0.03400000091976831,
+            "anterior_exposure_m": 0.017999999080231685
+          },
+          {
+            "side": 1,
+            "actual_inset_m": 0.007999997557709911,
+            "posterior_embedding_m": 0.03399999755770991,
+            "anterior_exposure_m": 0.018000002442290088
+          }
+        ]
+      },
+      {
+        "lod": 1,
+        "blind_suckers_checked": 80,
+        "minimum_actual_blind_depth_m": 0.00775296078802574,
+        "eyes": [
+          {
+            "side": -1,
+            "actual_inset_m": 0.007999992483415354,
+            "posterior_embedding_m": 0.033999992483415356,
+            "anterior_exposure_m": 0.018000007516584645
+          },
+          {
+            "side": 1,
+            "actual_inset_m": 0.007999992483415354,
+            "posterior_embedding_m": 0.033999992483415356,
+            "anterior_exposure_m": 0.018000007516584645
+          }
+        ]
+      },
+      {
+        "lod": 2,
+        "blind_suckers_checked": 48,
+        "minimum_actual_blind_depth_m": 0.0077529478455221615,
+        "eyes": [
+          {
+            "side": -1,
+            "actual_inset_m": 0.008000014121171198,
+            "posterior_embedding_m": 0.03400001412117119,
+            "anterior_exposure_m": 0.0179999858788288
+          },
+          {
+            "side": 1,
+            "actual_inset_m": 0.008000014666373283,
+            "posterior_embedding_m": 0.034000014666373285,
+            "anterior_exposure_m": 0.017999985333626716
+          }
+        ]
+      }
+    ],
+    "scope": "Actual rest-pose exported cup rim/inner-bottom centres and eye/head ray intersections; no suction pressure or full collision claim"
+  },
+  "rejected_prototype_diagnostic": {
+    "minimum_sucker_base_center_inside_arm_m": -0.003707694548389328,
+    "scope": "Actual decoded LBS clip and closed components; sampled cup base centre attachments, not full surface collision, adhesion, hydrodynamics, forces, game/server/VR or final art proof."
+  },
+  "reconstruction": {
+    "status": "PASS_KRAKEN_DOWNLOADED_RECIPE_AND_NATIVE_LAYOUT_RECONSTRUCTION",
+    "bind_attributes_materials_nodes_and_image_bytes_exact": true,
+    "changed_rotation_tracks": 40,
+    "native_layout_download_byte_exact": true,
+    "native_layout_sha256": "1e0fd1443eee624a28a38040fa404024e29c51a69dc0afda1b94b1570ed09bc4",
+    "selected_pitch_deg": 9,
+    "reconstructed_pitch_deg": 10,
+    "scope": "Actual exports and native review layout; original optimized geometry adapter differs from catalogue tentacle prefab. No renderer/server connection inferred from genome validation."
+  },
+  "scope": "Première adaptation originale octopoïde encore stylisée : huit bras, ventouses creuses et ondulation locale. Raccords tête/manteau/bras, coutures UV visibles, ventouses anguleuses et bec simplifié restent à améliorer. Pas de photoréalisme final, collisions exhaustives, adhésion, tissu/forces, hydrodynamique, vitesse autoritaire, monde principal, serveur/réseau/VR ou FPS qualifiés."
+}

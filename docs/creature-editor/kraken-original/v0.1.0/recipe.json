@@ -1,0 +1,16 @@
+{
+  "schema": "uo.kraken-project/v1",
+  "generator": "uo.kraken-original/v1",
+  "delivery": "review_only",
+  "anatomy_profile": "octopoid-eight-arms-blind-suckers-v1",
+  "native_layout_sha256": "1e0fd1443eee624a28a38040fa404024e29c51a69dc0afda1b94b1570ed09bc4",
+  "source_sha256": "8f39efa813232317998e72e2833269673d862514cf2255698ee3bb6a0b00d200",
+  "recipe": {
+    "schema": "uo.kraken-shape/v1",
+    "delivery": "review_only",
+    "body_scale": 1,
+    "period_s": 2.4,
+    "arm_pitch_deg": 10,
+    "arm_yaw_deg": 3
+  }
+}
