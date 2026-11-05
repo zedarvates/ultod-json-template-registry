@@ -1,0 +1,30 @@
+{
+  "schema": "uo.shark-batch-documentary-validation/v1",
+  "delivery": "review_only",
+  "model_sha256": "460ad7c2cec8f84f2f54da2751f55aeb20c1107711a1366d7837a651936671b1",
+  "model_bytes": 653828,
+  "cpu_poses_per_lod": 601,
+  "attachment_poses_per_lod": 129,
+  "native_poses_per_lod": 129,
+  "native_cpu_reference_poses": 17,
+  "native_maximum_cpu_landmark_error_m": 2.00341455638409e-05,
+  "renderers": [
+    "gl_compatibility",
+    "forward_plus"
+  ],
+  "actual_recipe_download_and_rebuild": true,
+  "changed_parameter": {
+    "tail_yaw_deg": {
+      "selected": 14,
+      "rebuilt": 15
+    }
+  },
+  "bind_arrays_identical_between_selected_and_rebuilt": true,
+  "original_selected_clip_exact": true,
+  "reconstructed_changed_rotation_tracks": 13,
+  "actual_browser_batches": 4,
+  "cached_images_shared": true,
+  "independent_cached_poses": true,
+  "entity_transform_preserved": true,
+  "scope": "Revue originale encore stylisée : nage latérale locale, quatre lots par LOD et sommets de base des nageoires contrôlés sur129poses/LOD. Composants séparés, sans peau soudée, collision exhaustive ni hydrodynamique. Bouche ouverte/dents, finition photoréaliste, variantes spécifiques, monde principal, serveur/réseau/VR et FPS restent non qualifiés."
+}

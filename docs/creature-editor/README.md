@@ -29,7 +29,7 @@ Ces instantanés proviennent des ateliers de l’éditeur de créatures. Les rec
 | Scarabée géant — six pattes | 0.1.0 | [Génome et marche](beetle-original/v0.1.0/README.md) |
 | Scorpion — marche articulée | 0.2.0 | [Recette animée](scorpion-original/v0.2.0/README.md) · [Ancienne fiche statique](scorpion-original/v0.1.0/README.md) |
 | Serpent | 0.1.0 | [Fiche](serpent-original/v0.1.0/README.md) |
-| Requin — anatomie et nage de revue | 0.1.0 | [Recette et captures Godot](shark-original/v0.1.0/README.md) |
+| Requin — attaches corrigées et quatre lots | 0.2.0 | [Recette et captures Godot](shark-original/v0.2.0/README.md) · [Première revue conservée](shark-original/v0.1.0/README.md) |
 
 La galerie est régénérable avec `python scripts/generate_creature_gallery.py` depuis la racine du dépôt. Ajouter une version documentaire dans `gallery-index.json` conserve les anciennes recettes et images. Les nouvelles fiches associent les SHA-256 de la recette, de l’image et du modèle capturé dans `provenance.json`.
 
