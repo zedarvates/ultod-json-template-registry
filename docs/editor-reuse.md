@@ -6,7 +6,7 @@ Les galeries servent à choisir une silhouette et une catégorie proches du beso
 
 1. Parcourir la [galerie classique](../templates/architecture-editor/GALERIE.md) ou la [galerie moderne](../assets/architecture-editor/architecture-moderne-contemporaine/README.md).
 2. Pour une maison classique, télécharger le `blueprint.json` lié et l’importer dans l’éditeur sur grille. Pour un bâtiment moderne, télécharger `recette.json` et l’ouvrir dans l’atelier « Bâtiment depuis une référence ». Ces deux formats sont distincts ; aucune conversion n’est démontrée ici.
-3. Le [kit de pièces de base](../assets/architecture-editor/parts/base-modulaire-v1/README.md) fournit six GLB simples indépendants, avec dimensions et empreintes. Un chargement isolé a été observé dans l’éditeur avec un manifeste temporaire ; seul un aperçu de mur et dalle a été essayé. Le mapping permanent et le raccordement serveur restent à réaliser et vérifier.
+3. Le [kit de pièces de base](../assets/architecture-editor/parts/base-modulaire-v1/README.md) fournit six GLB simples indépendants, avec dimensions et empreintes. Un chargement et un export/réimport isolés ont été observés avec les six pièces, un manifeste temporaire et une correction candidate de l’éditeur ; voir la fiche pour les limites. Le mapping permanent et le raccordement serveur restent à réaliser et vérifier.
 
 ## Créatures
 
