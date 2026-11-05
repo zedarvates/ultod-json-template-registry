@@ -1,0 +1,817 @@
+{
+  "schema": "uo.shark-batch-measurements/v1",
+  "delivery": "review_only",
+  "selected": {
+    "status": "PASS_ORIGINAL_SHARK_BATCH_GEOMETRY_UV_EYES_AND_SKINNED_SWIM",
+    "sha256": "d4c746ab4c9e87bdec63f6c6925e9c9acbd596d912160907e33a88d547bef4db",
+    "poses_per_lod": 601,
+    "bones": 17,
+    "lods": [
+      {
+        "lod": 0,
+        "triangles": 5868,
+        "mesh_batches": 4,
+        "closed_anatomical_components": 14,
+        "static_uv_anisotropy_max": 1.6824761378609574,
+        "eyes": [
+          {
+            "name": "Q0_EyeL",
+            "actual_surface_from_eye_center_m": 0.0068449130071901116,
+            "radius_m": 0.012
+          },
+          {
+            "name": "Q0_EyeR",
+            "actual_surface_from_eye_center_m": 0.006832494944020181,
+            "radius_m": 0.012
+          }
+        ]
+      },
+      {
+        "lod": 1,
+        "triangles": 2934,
+        "mesh_batches": 4,
+        "closed_anatomical_components": 14,
+        "static_uv_anisotropy_max": 1.6017212517154444,
+        "eyes": [
+          {
+            "name": "Q1_EyeL",
+            "actual_surface_from_eye_center_m": 0.004945023499371566,
+            "radius_m": 0.012
+          },
+          {
+            "name": "Q1_EyeR",
+            "actual_surface_from_eye_center_m": 0.004786062422043934,
+            "radius_m": 0.012
+          }
+        ]
+      },
+      {
+        "lod": 2,
+        "triangles": 1320,
+        "mesh_batches": 4,
+        "closed_anatomical_components": 14,
+        "static_uv_anisotropy_max": 1.506213408804987,
+        "eyes": [
+          {
+            "name": "Q2_EyeL",
+            "actual_surface_from_eye_center_m": 0.00035325247753190196,
+            "radius_m": 0.012
+          },
+          {
+            "name": "Q2_EyeR",
+            "actual_surface_from_eye_center_m": 0.00028235945571959486,
+            "radius_m": 0.012
+          }
+        ]
+      }
+    ],
+    "textures": [
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "rgba8_complete_mip_estimate_bytes": 196604,
+    "animated_uv_anisotropy_max": 1.6824757067919618,
+    "edge_ratio_min": 0.9743532502869826,
+    "edge_ratio_max": 1.0262694591124635,
+    "area_ratio_min": 0.9739704939778706,
+    "normal_alignment_min": 0.2906588330489,
+    "vertical_drift_max_m": 7.836648774350863e-09,
+    "cycle_position_error_max_m": 1.7989004359977357e-08,
+    "caudal_motion_from_first_pose_max_m": 0.19329535730322225,
+    "scope": "Decoded GLB geometry and visual skinned wave. Closed blind gills and mouth crease; no oral cavity, fluid dynamics, collision clearance, main game, server or final art proof."
+  },
+  "reconstructed": {
+    "status": "PASS_ORIGINAL_SHARK_BATCH_GEOMETRY_UV_EYES_AND_SKINNED_SWIM",
+    "sha256": "460ad7c2cec8f84f2f54da2751f55aeb20c1107711a1366d7837a651936671b1",
+    "poses_per_lod": 601,
+    "bones": 17,
+    "lods": [
+      {
+        "lod": 0,
+        "triangles": 5868,
+        "mesh_batches": 4,
+        "closed_anatomical_components": 14,
+        "static_uv_anisotropy_max": 1.6824761378609574,
+        "eyes": [
+          {
+            "name": "Q0_EyeL",
+            "actual_surface_from_eye_center_m": 0.0068449130071901116,
+            "radius_m": 0.012
+          },
+          {
+            "name": "Q0_EyeR",
+            "actual_surface_from_eye_center_m": 0.006832494944020181,
+            "radius_m": 0.012
+          }
+        ]
+      },
+      {
+        "lod": 1,
+        "triangles": 2934,
+        "mesh_batches": 4,
+        "closed_anatomical_components": 14,
+        "static_uv_anisotropy_max": 1.6017212517154444,
+        "eyes": [
+          {
+            "name": "Q1_EyeL",
+            "actual_surface_from_eye_center_m": 0.004945023499371566,
+            "radius_m": 0.012
+          },
+          {
+            "name": "Q1_EyeR",
+            "actual_surface_from_eye_center_m": 0.004786062422043934,
+            "radius_m": 0.012
+          }
+        ]
+      },
+      {
+        "lod": 2,
+        "triangles": 1320,
+        "mesh_batches": 4,
+        "closed_anatomical_components": 14,
+        "static_uv_anisotropy_max": 1.506213408804987,
+        "eyes": [
+          {
+            "name": "Q2_EyeL",
+            "actual_surface_from_eye_center_m": 0.00035325247753190196,
+            "radius_m": 0.012
+          },
+          {
+            "name": "Q2_EyeR",
+            "actual_surface_from_eye_center_m": 0.00028235945571959486,
+            "radius_m": 0.012
+          }
+        ]
+      }
+    ],
+    "textures": [
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "rgba8_complete_mip_estimate_bytes": 196604,
+    "animated_uv_anisotropy_max": 1.6824757067919618,
+    "edge_ratio_min": 0.9725146338746042,
+    "edge_ratio_max": 1.028186398793031,
+    "area_ratio_min": 0.9721236511285174,
+    "normal_alignment_min": 0.2906588330489,
+    "vertical_drift_max_m": 7.836648774350863e-09,
+    "cycle_position_error_max_m": 1.9265513070233694e-08,
+    "caudal_motion_from_first_pose_max_m": 0.20698808594079462,
+    "scope": "Decoded GLB geometry and visual skinned wave. Closed blind gills and mouth crease; no oral cavity, fluid dynamics, collision clearance, main game, server or final art proof."
+  },
+  "selected_attachments": {
+    "status": "PASS_SAMPLED_SHARK_FIN_BASES_INSIDE_BODY",
+    "minimum_signed_inside_distance_m": 0.0035167172334429984,
+    "worst": {
+      "lod": 2,
+      "fin": "DorsalRear",
+      "time_s": 0.5375,
+      "point": [
+        -0.0021800363635474107,
+        0.054999999701976776,
+        0.9990552243273787
+      ],
+      "signed_inside_distance_m": 0.0035167172334429984
+    },
+    "samples_per_lod": 129,
+    "lods": [
+      {
+        "lod": 0,
+        "fins": {
+          "DorsalFront": {
+            "minimum_inside_distance_m": 0.016454027632917617,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "DorsalRear": {
+            "minimum_inside_distance_m": 0.004429042612686254,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "Anal": {
+            "minimum_inside_distance_m": 0.007557688699340475,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "Caudal": {
+            "minimum_inside_distance_m": 0.004877289853576377,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "PectoralL": {
+            "minimum_inside_distance_m": 0.03683151320692215,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "PelvicL": {
+            "minimum_inside_distance_m": 0.02882654901968252,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "PectoralR": {
+            "minimum_inside_distance_m": 0.036867124206765155,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "PelvicR": {
+            "minimum_inside_distance_m": 0.028845348681925138,
+            "outside_samples": 0,
+            "base_vertices": 8
+          }
+        }
+      },
+      {
+        "lod": 1,
+        "fins": {
+          "DorsalFront": {
+            "minimum_inside_distance_m": 0.01579041181173347,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "DorsalRear": {
+            "minimum_inside_distance_m": 0.004171155422624679,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "Anal": {
+            "minimum_inside_distance_m": 0.0073168112678075,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "Caudal": {
+            "minimum_inside_distance_m": 0.00482205492797756,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "PectoralL": {
+            "minimum_inside_distance_m": 0.03732022262107698,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "PelvicL": {
+            "minimum_inside_distance_m": 0.028358208912124695,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "PectoralR": {
+            "minimum_inside_distance_m": 0.03735169127455701,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "PelvicR": {
+            "minimum_inside_distance_m": 0.028398129065493598,
+            "outside_samples": 0,
+            "base_vertices": 6
+          }
+        }
+      },
+      {
+        "lod": 2,
+        "fins": {
+          "DorsalFront": {
+            "minimum_inside_distance_m": 0.014306175560670393,
+            "outside_samples": 0,
+            "base_vertices": 4
+          },
+          "DorsalRear": {
+            "minimum_inside_distance_m": 0.0035167172334429984,
+            "outside_samples": 0,
+            "base_vertices": 4
+          },
+          "Anal": {
+            "minimum_inside_distance_m": 0.006504328626225023,
+            "outside_samples": 0,
+            "base_vertices": 4
+          },
+          "Caudal": {
+            "minimum_inside_distance_m": 0.004408753755029046,
+            "outside_samples": 0,
+            "base_vertices": 4
+          },
+          "PectoralL": {
+            "minimum_inside_distance_m": 0.03235494924936787,
+            "outside_samples": 0,
+            "base_vertices": 4
+          },
+          "PelvicL": {
+            "minimum_inside_distance_m": 0.026582005463655828,
+            "outside_samples": 0,
+            "base_vertices": 4
+          },
+          "PectoralR": {
+            "minimum_inside_distance_m": 0.03242172355111447,
+            "outside_samples": 0,
+            "base_vertices": 4
+          },
+          "PelvicR": {
+            "minimum_inside_distance_m": 0.02677404203416608,
+            "outside_samples": 0,
+            "base_vertices": 4
+          }
+        }
+      }
+    ],
+    "scope": "Actual exported base-edge vertices and closed posed body triangles; Euclidean nearest triangle distances signed by deduplicated ray parity. Positive is inside. Sampled fin bases only, not exhaustive surface collision, weld continuity or hydrodynamics."
+  },
+  "reconstructed_attachments": {
+    "status": "PASS_SAMPLED_SHARK_FIN_BASES_INSIDE_BODY",
+    "minimum_signed_inside_distance_m": 0.0034788073658829684,
+    "worst": {
+      "lod": 2,
+      "fin": "DorsalRear",
+      "time_s": 0.5375,
+      "point": [
+        -0.0025830799351868605,
+        0.05499999970197684,
+        0.9988929271384928
+      ],
+      "signed_inside_distance_m": 0.0034788073658829684
+    },
+    "samples_per_lod": 129,
+    "lods": [
+      {
+        "lod": 0,
+        "fins": {
+          "DorsalFront": {
+            "minimum_inside_distance_m": 0.016436557169121353,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "DorsalRear": {
+            "minimum_inside_distance_m": 0.004418719696720457,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "Anal": {
+            "minimum_inside_distance_m": 0.007552761445177382,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "Caudal": {
+            "minimum_inside_distance_m": 0.004248754218925866,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "PectoralL": {
+            "minimum_inside_distance_m": 0.03679061809805953,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "PelvicL": {
+            "minimum_inside_distance_m": 0.028688608998597404,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "PectoralR": {
+            "minimum_inside_distance_m": 0.03682696015463148,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "PelvicR": {
+            "minimum_inside_distance_m": 0.028708272954169174,
+            "outside_samples": 0,
+            "base_vertices": 8
+          }
+        }
+      },
+      {
+        "lod": 1,
+        "fins": {
+          "DorsalFront": {
+            "minimum_inside_distance_m": 0.015763793013019726,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "DorsalRear": {
+            "minimum_inside_distance_m": 0.0041563504920759595,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "Anal": {
+            "minimum_inside_distance_m": 0.0073103475895642854,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "Caudal": {
+            "minimum_inside_distance_m": 0.00420007590294252,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "PectoralL": {
+            "minimum_inside_distance_m": 0.03727706937917924,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "PelvicL": {
+            "minimum_inside_distance_m": 0.028229547219330988,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "PectoralR": {
+            "minimum_inside_distance_m": 0.0373087469730165,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "PelvicR": {
+            "minimum_inside_distance_m": 0.028271096314118022,
+            "outside_samples": 0,
+            "base_vertices": 6
+          }
+        }
+      },
+      {
+        "lod": 2,
+        "fins": {
+          "DorsalFront": {
+            "minimum_inside_distance_m": 0.014260714662707587,
+            "outside_samples": 0,
+            "base_vertices": 4
+          },
+          "DorsalRear": {
+            "minimum_inside_distance_m": 0.0034788073658829684,
+            "outside_samples": 0,
+            "base_vertices": 4
+          },
+          "Anal": {
+            "minimum_inside_distance_m": 0.006496640911806278,
+            "outside_samples": 0,
+            "base_vertices": 4
+          },
+          "Caudal": {
+            "minimum_inside_distance_m": 0.00379420527376308,
+            "outside_samples": 0,
+            "base_vertices": 4
+          },
+          "PectoralL": {
+            "minimum_inside_distance_m": 0.03232471417775987,
+            "outside_samples": 0,
+            "base_vertices": 4
+          },
+          "PelvicL": {
+            "minimum_inside_distance_m": 0.026483421122638753,
+            "outside_samples": 0,
+            "base_vertices": 4
+          },
+          "PectoralR": {
+            "minimum_inside_distance_m": 0.032390010733731926,
+            "outside_samples": 0,
+            "base_vertices": 4
+          },
+          "PelvicR": {
+            "minimum_inside_distance_m": 0.026683155643676026,
+            "outside_samples": 0,
+            "base_vertices": 4
+          }
+        }
+      }
+    ],
+    "scope": "Actual exported base-edge vertices and closed posed body triangles; Euclidean nearest triangle distances signed by deduplicated ray parity. Positive is inside. Sampled fin bases only, not exhaustive surface collision, weld continuity or hydrodynamics."
+  },
+  "previous_root_diagnostic": {
+    "status": "FAIL_SAMPLED_SHARK_FIN_BASE_CLEARANCE",
+    "minimum_signed_inside_distance_m": -0.0637592320197862,
+    "worst": {
+      "lod": 2,
+      "fin": "PelvicR",
+      "time_s": 1.6,
+      "point": [
+        0.06721361416994998,
+        -0.12349999696016323,
+        0.6671047762406309
+      ],
+      "signed_inside_distance_m": -0.0637592320197862
+    },
+    "samples_per_lod": 2,
+    "lods": [
+      {
+        "lod": 0,
+        "fins": {
+          "DorsalFront": {
+            "minimum_inside_distance_m": 0.01646003870452216,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "DorsalRear": {
+            "minimum_inside_distance_m": 0.0045611645086962305,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "Anal": {
+            "minimum_inside_distance_m": 0.007567551913463353,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "Caudal": {
+            "minimum_inside_distance_m": 0.004925655103166657,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "PectoralL": {
+            "minimum_inside_distance_m": 0.0008779330597992524,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "PelvicL": {
+            "minimum_inside_distance_m": -0.059433102557772725,
+            "outside_samples": 12,
+            "base_vertices": 8
+          },
+          "PectoralR": {
+            "minimum_inside_distance_m": 0.0020912253415579967,
+            "outside_samples": 0,
+            "base_vertices": 8
+          },
+          "PelvicR": {
+            "minimum_inside_distance_m": -0.06118828528040143,
+            "outside_samples": 12,
+            "base_vertices": 8
+          }
+        }
+      },
+      {
+        "lod": 1,
+        "fins": {
+          "DorsalFront": {
+            "minimum_inside_distance_m": 0.015801555969053714,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "DorsalRear": {
+            "minimum_inside_distance_m": 0.004387186227736435,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "Anal": {
+            "minimum_inside_distance_m": 0.007348436941057362,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "Caudal": {
+            "minimum_inside_distance_m": 0.004848251845171915,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "PectoralL": {
+            "minimum_inside_distance_m": 0.0016917227453971807,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "PelvicL": {
+            "minimum_inside_distance_m": -0.060077328263400995,
+            "outside_samples": 8,
+            "base_vertices": 6
+          },
+          "PectoralR": {
+            "minimum_inside_distance_m": 0.0028417652904995268,
+            "outside_samples": 0,
+            "base_vertices": 6
+          },
+          "PelvicR": {
+            "minimum_inside_distance_m": -0.06187408763890723,
+            "outside_samples": 8,
+            "base_vertices": 6
+          }
+        }
+      },
+      {
+        "lod": 2,
+        "fins": {
+          "DorsalFront": {
+            "minimum_inside_distance_m": 0.014318190335519062,
+            "outside_samples": 0,
+            "base_vertices": 4
+          },
+          "DorsalRear": {
+            "minimum_inside_distance_m": 0.003874701693992795,
+            "outside_samples": 0,
+            "base_vertices": 4
+          },
+          "Anal": {
+            "minimum_inside_distance_m": 0.006534182702249654,
+            "outside_samples": 0,
+            "base_vertices": 4
+          },
+          "Caudal": {
+            "minimum_inside_distance_m": 0.0046346131302597605,
+            "outside_samples": 0,
+            "base_vertices": 4
+          },
+          "PectoralL": {
+            "minimum_inside_distance_m": -0.0031684480547180395,
+            "outside_samples": 2,
+            "base_vertices": 4
+          },
+          "PelvicL": {
+            "minimum_inside_distance_m": -0.06259305948844322,
+            "outside_samples": 4,
+            "base_vertices": 4
+          },
+          "PectoralR": {
+            "minimum_inside_distance_m": -0.0022576071689663062,
+            "outside_samples": 2,
+            "base_vertices": 4
+          },
+          "PelvicR": {
+            "minimum_inside_distance_m": -0.0637592320197862,
+            "outside_samples": 4,
+            "base_vertices": 4
+          }
+        }
+      }
+    ],
+    "scope": "Actual exported base-edge vertices and closed posed body triangles; Euclidean nearest triangle distances signed by deduplicated ray parity. Positive is inside. Sampled fin bases only, not exhaustive surface collision, weld continuity or hydrodynamics."
+  },
+  "equivalence": {
+    "status": "PASS_SHARK_FOUR_BATCHES_PART_RANGES_ROOT_CORRECTIONS_AND_RECIPE_PARITY",
+    "variants": [
+      {
+        "revision": "01",
+        "source_components_checked": 42,
+        "unchanged_components_per_lod": 10,
+        "corrected_paired_fins": [
+          {
+            "lod": 0,
+            "part": "PectoralL",
+            "triangles": 80,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 0,
+            "part": "PelvicL",
+            "triangles": 32,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 0,
+            "part": "PectoralR",
+            "triangles": 80,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 0,
+            "part": "PelvicR",
+            "triangles": 32,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 1,
+            "part": "PectoralL",
+            "triangles": 52,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 1,
+            "part": "PelvicL",
+            "triangles": 20,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 1,
+            "part": "PectoralR",
+            "triangles": 52,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 1,
+            "part": "PelvicR",
+            "triangles": 20,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 2,
+            "part": "PectoralL",
+            "triangles": 24,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 2,
+            "part": "PelvicL",
+            "triangles": 8,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 2,
+            "part": "PectoralR",
+            "triangles": 24,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 2,
+            "part": "PelvicR",
+            "triangles": 8,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          }
+        ],
+        "images_materials_inverse_binds_exact": true,
+        "mesh_batches_per_lod": 4
+      },
+      {
+        "revision": "02",
+        "source_components_checked": 42,
+        "unchanged_components_per_lod": 10,
+        "corrected_paired_fins": [
+          {
+            "lod": 0,
+            "part": "PectoralL",
+            "triangles": 80,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 0,
+            "part": "PelvicL",
+            "triangles": 32,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 0,
+            "part": "PectoralR",
+            "triangles": 80,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 0,
+            "part": "PelvicR",
+            "triangles": 32,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 1,
+            "part": "PectoralL",
+            "triangles": 52,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 1,
+            "part": "PelvicL",
+            "triangles": 20,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 1,
+            "part": "PectoralR",
+            "triangles": 52,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 1,
+            "part": "PelvicR",
+            "triangles": 20,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 2,
+            "part": "PectoralL",
+            "triangles": 24,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 2,
+            "part": "PelvicL",
+            "triangles": 8,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 2,
+            "part": "PectoralR",
+            "triangles": 24,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          },
+          {
+            "lod": 2,
+            "part": "PelvicR",
+            "triangles": 8,
+            "skin_weights_and_pigment_at_face_corners_unchanged": true
+          }
+        ],
+        "images_materials_inverse_binds_exact": true,
+        "mesh_batches_per_lod": 4
+      }
+    ],
+    "reconstruction_bind_attributes_exact": true,
+    "selected_animation_tracks_exact_to_baseline": true,
+    "reconstructed_changed_rotation_tracks": 13,
+    "baseline_source_sha256": "dfa90cf3c512411a1ca1c9b3df152d4ae1fa10aea559560d8ee8623052a964bc",
+    "scope": "Exact per-triangle face-corner comparisons. Only the four paired fin shapes/normals/UVs change; their pigment and skin are retained. Other ten parts, materials, maps and inverse binds are exact. No FPS or welded skin claim."
+  },
+  "scope": "Revue originale encore stylisée : nage latérale locale, quatre lots par LOD et sommets de base des nageoires contrôlés sur129poses/LOD. Composants séparés, sans peau soudée, collision exhaustive ni hydrodynamique. Bouche ouverte/dents, finition photoréaliste, variantes spécifiques, monde principal, serveur/réseau/VR et FPS restent non qualifiés."
+}

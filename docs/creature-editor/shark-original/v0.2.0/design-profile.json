@@ -1,0 +1,95 @@
+{
+  "schema": "uo.shark-batch-design-documentation/v1",
+  "delivery": "review_only",
+  "batch_profile": "material-batches-v1-inset-paired",
+  "base_model_sha256": "dfa90cf3c512411a1ca1c9b3df152d4ae1fa10aea559560d8ee8623052a964bc",
+  "bones": 17,
+  "lod_triangles": [
+    5868,
+    2934,
+    1320
+  ],
+  "material_batches_before": 14,
+  "material_batches_after": 4,
+  "closed_components": 14,
+  "materials": 4,
+  "textures": {
+    "images": 3,
+    "dimensions": [
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "rgba8_complete_mip_estimate_bytes": 196604,
+    "source": "Original mathematical micrograin; vertex countershading, no external bitmap"
+  },
+  "correction": "Affine correction of four paired fin roots, outer tips retained, transformed normals and fresh metric UV charts; pigment and skin preserved at triangle corners",
+  "pelvic_base_before_unit_m": [
+    [
+      0.1,
+      -0.12,
+      0.35
+    ],
+    [
+      0.12,
+      -0.12,
+      0.66
+    ]
+  ],
+  "pelvic_base_after_unit_m": [
+    [
+      0.075,
+      -0.09,
+      0.35
+    ],
+    [
+      0.045,
+      -0.065,
+      0.66
+    ]
+  ],
+  "pectoral_base_before_unit_m": [
+    [
+      0.16,
+      -0.105,
+      -0.55
+    ],
+    [
+      0.18,
+      -0.12,
+      -0.2
+    ]
+  ],
+  "pectoral_base_after_unit_m": [
+    [
+      0.145,
+      -0.095,
+      -0.55
+    ],
+    [
+      0.15,
+      -0.1,
+      -0.2
+    ]
+  ],
+  "symmetry": "Mirror x for left side",
+  "part_ranges_retained": true,
+  "authorable_parameters": [
+    "period_s",
+    "tail_yaw_deg"
+  ],
+  "fixed_geometry_parameters": {
+    "body_scale": 1,
+    "dorsal_darkness": 0.55
+  },
+  "scope": "Revue originale encore stylisée : nage latérale locale, quatre lots par LOD et sommets de base des nageoires contrôlés sur129poses/LOD. Composants séparés, sans peau soudée, collision exhaustive ni hydrodynamique. Bouche ouverte/dents, finition photoréaliste, variantes spécifiques, monde principal, serveur/réseau/VR et FPS restent non qualifiés."
+}

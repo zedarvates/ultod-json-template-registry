@@ -189,10 +189,10 @@
     },
     {
       "id": "shark-original",
-      "name": "Requin — anatomie et nage de revue",
-      "version": "v0.1.0",
-      "summary": "Corps original, sillons branchiaux, nageoires fermées et onde latérale de17os. Trois petites images partagées ; recette réellement téléchargée puis reconstruite, contrôles de skin/UV dans l’éditeur et Godot. Première revue encore stylisée.",
-      "scope": "Première revue originale encore stylisée : nage latérale sur place, sans hydrodynamique ni vitesse autoritaire. Bouche ouverte/dents, respiration, raccords et collisions exhaustifs des nageoires, virages, finition photoréaliste, monde principal, serveur/réseau/VR et FPS restent non qualifiés.",
+      "name": "Requin — attaches corrigées et quatre lots",
+      "version": "v0.2.0",
+      "summary": "Bases pelviennes et pectorales rentrées et contrôlées pendant la nage ; regroupement14→4maillages, mêmes triangles et trois petites images. Recette téléchargée puis reconstruite, rendus éditeur/Godot. Première finition encore stylisée.",
+      "scope": "Revue originale encore stylisée : nage latérale locale, quatre lots par LOD et sommets de base des nageoires contrôlés sur129poses/LOD. Composants séparés, sans peau soudée, collision exhaustive ni hydrodynamique. Bouche ouverte/dents, finition photoréaliste, variantes spécifiques, monde principal, serveur/réseau/VR et FPS restent non qualifiés.",
       "preview_kind": "capture Godot de la recette téléchargée puis reconstruite"
     }
   ]

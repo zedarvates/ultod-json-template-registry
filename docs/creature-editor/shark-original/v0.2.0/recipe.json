@@ -1,0 +1,16 @@
+{
+  "schema": "uo.shark-batch-project/v1",
+  "generator": "uo.shark-batch-original/v1",
+  "base_model_sha256": "dfa90cf3c512411a1ca1c9b3df152d4ae1fa10aea559560d8ee8623052a964bc",
+  "batch_profile": "material-batches-v1-inset-paired",
+  "delivery": "review_only",
+  "source_sha256": "d4c746ab4c9e87bdec63f6c6925e9c9acbd596d912160907e33a88d547bef4db",
+  "recipe": {
+    "schema": "uo.shark-shape/v1",
+    "delivery": "review_only",
+    "body_scale": 1,
+    "period_s": 1.6,
+    "tail_yaw_deg": 15,
+    "dorsal_darkness": 0.55
+  }
+}

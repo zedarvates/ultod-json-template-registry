@@ -1,0 +1,96 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "33245407dba2c2ac764e9fb00750fb4f3a5dc5286ddf8288042e769fa35ba7e4",
+  "preview_file": "preview.png",
+  "preview_sha256": "2a7bf437184da9dbbfbd8c226cb053f8b99deb121a85b529ba705181d038242f",
+  "rendered_model_sha256": "460ad7c2cec8f84f2f54da2751f55aeb20c1107711a1366d7837a651936671b1",
+  "source_review_sha256": "d4c746ab4c9e87bdec63f6c6925e9c9acbd596d912160907e33a88d547bef4db",
+  "base_model_sha256": "dfa90cf3c512411a1ca1c9b3df152d4ae1fa10aea559560d8ee8623052a964bc",
+  "captures": [
+    {
+      "file": "preview.png",
+      "sha256": "2a7bf437184da9dbbfbd8c226cb053f8b99deb121a85b529ba705181d038242f",
+      "model_sha256": "460ad7c2cec8f84f2f54da2751f55aeb20c1107711a1366d7837a651936671b1",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed02"
+    },
+    {
+      "file": "side.png",
+      "sha256": "089365b2be033ea6aae9be8c7c4f3c7a7a88ef08edaf9817c7cfa8c5d11586a0",
+      "model_sha256": "460ad7c2cec8f84f2f54da2751f55aeb20c1107711a1366d7837a651936671b1",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed02"
+    },
+    {
+      "file": "top.png",
+      "sha256": "153ecd7499aa0d267f9c12ea99802111cf1d1a97e52e6c05549b46f7d0de8cdf",
+      "model_sha256": "460ad7c2cec8f84f2f54da2751f55aeb20c1107711a1366d7837a651936671b1",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed02"
+    },
+    {
+      "file": "head.png",
+      "sha256": "a9f8e419bc830d340206fc1427e2cfa1f7663610ec705703624be3d44a7bceea",
+      "model_sha256": "460ad7c2cec8f84f2f54da2751f55aeb20c1107711a1366d7837a651936671b1",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed02"
+    },
+    {
+      "file": "lod1.png",
+      "sha256": "019ba7b5f4f57213262c426e7eb33403d54bbbe07f5ec363cebf0306ac037aef",
+      "model_sha256": "460ad7c2cec8f84f2f54da2751f55aeb20c1107711a1366d7837a651936671b1",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed02"
+    },
+    {
+      "file": "lod2.png",
+      "sha256": "fdb54330c06db6172d7b64d9ba9be0ff8dbf35b7190617099c160465362e79db",
+      "model_sha256": "460ad7c2cec8f84f2f54da2751f55aeb20c1107711a1366d7837a651936671b1",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed02"
+    },
+    {
+      "file": "swim-0.png",
+      "sha256": "2637ccecddb1c386a7c6e12293688a6d7a4c3af0dc5483156538f3c75eb3fdfe",
+      "model_sha256": "460ad7c2cec8f84f2f54da2751f55aeb20c1107711a1366d7837a651936671b1",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed02"
+    },
+    {
+      "file": "swim-25.png",
+      "sha256": "089365b2be033ea6aae9be8c7c4f3c7a7a88ef08edaf9817c7cfa8c5d11586a0",
+      "model_sha256": "460ad7c2cec8f84f2f54da2751f55aeb20c1107711a1366d7837a651936671b1",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed02"
+    },
+    {
+      "file": "swim-50.png",
+      "sha256": "39b50f082b9faf87108dedfa8e5b6ca128b4ee503b955b872f3ce2466cbf4a74",
+      "model_sha256": "460ad7c2cec8f84f2f54da2751f55aeb20c1107711a1366d7837a651936671b1",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed02"
+    },
+    {
+      "file": "swim-75.png",
+      "sha256": "0876d885192ea466a72df73858fc822923e31eaad78bae6077e3db04503789c5",
+      "model_sha256": "460ad7c2cec8f84f2f54da2751f55aeb20c1107711a1366d7837a651936671b1",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed02"
+    },
+    {
+      "file": "before-roots.png",
+      "sha256": "275ee7a2a86d7a4f222c79e155c311fb1a77faee1d1c092e68dd006021818eea",
+      "model_sha256": "dfa90cf3c512411a1ca1c9b3df152d4ae1fa10aea559560d8ee8623052a964bc",
+      "kind": "unmodified same-camera/light/time/amplitude14 top view comparison"
+    },
+    {
+      "file": "after-roots.png",
+      "sha256": "587eaa703a875c9d00e0a5bc7adeaddf8a8aa3574cc23bd32e1c2afe9d5e6a03",
+      "model_sha256": "d4c746ab4c9e87bdec63f6c6925e9c9acbd596d912160907e33a88d547bef4db",
+      "kind": "unmodified same-camera/light/time/amplitude14 top view comparison"
+    }
+  ],
+  "preview_kind": "Ten native reconstructed02 views plus two same-parameter native baseline/selected top comparisons",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.shark-batch-original/v1",
+    "material-batches-v1-inset-paired",
+    "immutable original shark04 geometry and original micrograin maps"
+  ],
+  "rights": "Original project geometry, mathematical micrograin, vertex colours and native captures. No external/reference pixels copied. Private GLBs, generators, source bitmaps and production genomes excluded.",
+  "validation_scope": "Revue originale encore stylisée : nage latérale locale, quatre lots par LOD et sommets de base des nageoires contrôlés sur129poses/LOD. Composants séparés, sans peau soudée, collision exhaustive ni hydrodynamique. Bouche ouverte/dents, finition photoréaliste, variantes spécifiques, monde principal, serveur/réseau/VR et FPS restent non qualifiés."
+}
