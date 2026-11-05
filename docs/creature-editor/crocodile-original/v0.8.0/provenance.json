@@ -1,0 +1,77 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "fae1d25fd956a1bfb668db79adecebef2d40568fe20db72468019b0df4853bf1",
+  "preview_file": "preview.png",
+  "preview_sha256": "a5f14bffa18cbe45dff10579537294a8cffd2d60d3538592d3eca77b8caae6e3",
+  "rendered_model_sha256": "1cc7d1923a04545e8fc97492309bb6c052b008ea6c28ea6a5ac62075055b3155",
+  "source_review_sha256": "a1404405909f26ff149ae4a742928b2c447b5d7f7407d118202d870b14c8ef1e",
+  "captures": [
+    {
+      "file": "preview.png",
+      "sha256": "a5f14bffa18cbe45dff10579537294a8cffd2d60d3538592d3eca77b8caae6e3",
+      "model_sha256": "1cc7d1923a04545e8fc97492309bb6c052b008ea6c28ea6a5ac62075055b3155",
+      "kind": "unmodified native Forward+ capture of exported recipe reconstructed32"
+    },
+    {
+      "file": "head.png",
+      "sha256": "dedea6f628aa97190707413d9d44a91902fa9185302ed06368a7170e0f7b9cd0",
+      "model_sha256": "1cc7d1923a04545e8fc97492309bb6c052b008ea6c28ea6a5ac62075055b3155",
+      "kind": "unmodified native Forward+ capture of exported recipe reconstructed32"
+    },
+    {
+      "file": "head-lod2.png",
+      "sha256": "7516031351b411e8d7096217a289c7eeb3691e62779254e41a02c0dc80c2fc62",
+      "model_sha256": "1cc7d1923a04545e8fc97492309bb6c052b008ea6c28ea6a5ac62075055b3155",
+      "kind": "unmodified native Forward+ capture of exported recipe reconstructed32"
+    },
+    {
+      "file": "feet-0.png",
+      "sha256": "b904ef88d2ea73aa2c7b0dd86ee0478b7b74e397242dd09d0babc63e081a2312",
+      "model_sha256": "1cc7d1923a04545e8fc97492309bb6c052b008ea6c28ea6a5ac62075055b3155",
+      "kind": "unmodified native Forward+ capture of exported recipe reconstructed32"
+    },
+    {
+      "file": "feet-25.png",
+      "sha256": "6c15991b9449fc8f6e50aba3b8926b0079ee79f9590f8aa5e8ed7648d8e76fdd",
+      "model_sha256": "1cc7d1923a04545e8fc97492309bb6c052b008ea6c28ea6a5ac62075055b3155",
+      "kind": "unmodified native Forward+ capture of exported recipe reconstructed32"
+    },
+    {
+      "file": "feet-50.png",
+      "sha256": "8195b24f17bd909a04cc6602d21581b51d6a2d7c8d789b518e8585af621973f8",
+      "model_sha256": "1cc7d1923a04545e8fc97492309bb6c052b008ea6c28ea6a5ac62075055b3155",
+      "kind": "unmodified native Forward+ capture of exported recipe reconstructed32"
+    },
+    {
+      "file": "feet-75.png",
+      "sha256": "39d0b601c749030e76587df05600e8dc4f1bd644387fcc159fe433c93285b0cd",
+      "model_sha256": "1cc7d1923a04545e8fc97492309bb6c052b008ea6c28ea6a5ac62075055b3155",
+      "kind": "unmodified native Forward+ capture of exported recipe reconstructed32"
+    },
+    {
+      "file": "comparison-v7.png",
+      "sha256": "1ddf02b26d681a5bd3e98778287b6289a48d5e5be25576f6081a0b43a8227721",
+      "model_sha256": "91fbe7b359d3e053c983048d97212fbe14e5b02002bff7ac54aa96160a179763",
+      "kind": "unmodified same-camera Forward+ comparison at default stride0.10m and time0.5s"
+    },
+    {
+      "file": "comparison-v8.png",
+      "sha256": "5175cb6198412f5ca4cc8c1ff502f09ffe7834f737f7d371fcafb680633aa83c",
+      "model_sha256": "a1404405909f26ff149ae4a742928b2c447b5d7f7407d118202d870b14c8ef1e",
+      "kind": "unmodified same-camera Forward+ comparison at default stride0.10m and time0.5s"
+    }
+  ],
+  "preview_kind": "Seven native rebuilt32 captures and two same-parameter selected27/31 comparisons",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.crocodile-original/v1",
+    "streamlined-cranium-v8-metric-roof-orbits",
+    "original shared cranial part, three local skin images and flat-walk adapter"
+  ],
+  "rights": "Original geometry, generated original project skin bitmap, procedural derivative maps and vertex iris pigment. No external image or model copied. Private GLBs, generators, source bitmaps and production genomes excluded.",
+  "validation_scope": "Revue locale du crocodilien sur sol plat dans l’éditeur et Godot isolé. Finition photoréaliste, raccord final tête/cou, coutures du corps, dents, intersections exhaustives, terrain, virages, nage, forces, foule, monde principal, serveur/réseau/VR et FPS restent non qualifiés."
+}
