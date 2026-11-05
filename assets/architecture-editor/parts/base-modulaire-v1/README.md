@@ -15,6 +15,6 @@ L’image est un **schéma**, pas une capture 3D. Six GLB originaux en volumes s
 
 Repère : mètres, Y vertical, mur centré en X/Z et pied à Y=0. La dalle repose sur Y=0. Les parties d’un même GLB peuvent se toucher sans constituer une surface soudée. [Manifeste et empreintes SHA-256](manifest.json).
 
-**Statut : proxy de création.** L’association de ces GLB aux identifiants de pièces de l’éditeur, leur import dans Architecture Editor, le chargement serveur, les collisions et leur comportement en jeu ne sont pas vérifiés. Ne pas remplacer les assets existants automatiquement. Vérifier dimensions, orientation, matériaux, raccords, droits des ajouts et performance avant usage.
+**Statut : proxy de création.** En revue locale isolée, les six GLB ont été chargés par le chargeur de l’éditeur avec un manifeste de substitution temporaire. Un aperçu de plan a utilisé le mur plein et la dalle ; cet essai ne valide pas les quatre autres pièces en situation, ni un mapping permanent. Les lambrequins étaient désactivés : activés, l’aperçu a échoué sur `pignonXSet` non défini. Le chargement serveur, les collisions et le comportement en jeu ne sont pas vérifiés. Ne pas remplacer les assets existants automatiquement. Vérifier dimensions, orientation, matériaux, raccords, droits des ajouts et performance avant usage.
 
 Licence des fichiers originaux de ce kit : Apache-2.0, comme le dépôt. [Guide de réutilisation](../../../../docs/editor-reuse.md) · [Architecture moderne](../../architecture-moderne-contemporaine/README.md) · [Accueil](../../../../README.md)
