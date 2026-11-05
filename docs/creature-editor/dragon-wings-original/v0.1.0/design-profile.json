@@ -1,0 +1,49 @@
+{
+  "schema": "uo.dragon-wing-design/v1",
+  "delivery": "review_only",
+  "base_body_sha256": "774a3dce29d324eec8e600227327ec425c9bc2ccf46bb67b1cd1486d3c64a56b",
+  "base_body_attributes_indices_and_walk_tracks_exact": true,
+  "walking_legs": 4,
+  "wings": 2,
+  "independent_wing_joints_each": 12,
+  "digits_per_wing": 4,
+  "thumbs_per_wing": 1,
+  "bones": 57,
+  "triangles": [
+    13188,
+    8052,
+    4764
+  ],
+  "mesh_batches_per_lod": 7,
+  "materials": 7,
+  "textures": {
+    "images": 3,
+    "dimensions": [
+      [
+        256,
+        256
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ]
+    ],
+    "rgba8_complete_mip_estimate_bytes": 524284,
+    "source": "Original deterministic mathematical grain and veins; no photographic scan or external bitmap"
+  },
+  "attachment": "Actual shoulder and flank intersections on preserved body core; shoulder rotation around their connecting line",
+  "wing_span_m": 5.2,
+  "walking_wing_posture": "raised55degrees; complete anatomical tuck remains unfinished",
+  "animations": [
+    "DragonWalk",
+    "DragonWingDisplay",
+    "DragonWingLeftInspect"
+  ],
+  "flight_qualified": false,
+  "final_art_approved": false,
+  "scope": "Copie originale de revue encore stylisée. Marche sur sol plat et déploiement au sol seulement. Ailes relevées de55degrés pendant la marche, sans repli complet contre le corps. Pas de vol, forces, collisions exhaustives, terrain, monde principal, serveur/réseau/VR, FPS ou finition photoréaliste qualifiés."
+}

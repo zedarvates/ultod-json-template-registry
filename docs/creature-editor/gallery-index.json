@@ -1,6 +1,6 @@
 {
   "schema": "uo.creature-documentary-gallery/v1",
-  "updated": "2026-11-07",
+  "updated": "2026-11-05",
   "delivery": "review_only",
   "entries": [
     {
@@ -177,6 +177,14 @@
       "version": "v0.1.0",
       "summary": "Cou, queue corrigée et quatre pieds griffus sur un rig original de33os. Tête conservée, peau centrale connectée, recette téléchargée puis reconstruite, appuis contrôlés dans l’éditeur et les deux modes Godot. Corps encore stylisé, sans ailes.",
       "scope": "Corps du dragon encore stylisé, sans ailes ni microrelief de peau. Marche lente sur sol plat dans des revues isolées ; pas de forces/centre de masse, terrain, virages, collisions exhaustives, vol, monde principal, serveur/réseau/VR, FPS ou photoréalisme final qualifiés.",
+      "preview_kind": "capture Godot de la recette téléchargée puis reconstruite"
+    },
+    {
+      "id": "dragon-wings-original",
+      "name": "Dragon — ailes articulées et déploiement au sol",
+      "version": "v0.1.0",
+      "summary": "Deux ailes indépendantes ajoutées au corps conservé : rig de57os, trois animations, trois petites cartes partagées. Recette téléchargée puis reconstruite, appuis vérifiés dans l’éditeur et Godot. Repli complet et vol non qualifiés.",
+      "scope": "Copie originale de revue encore stylisée. Marche sur sol plat et déploiement au sol seulement. Ailes relevées de55degrés pendant la marche, sans repli complet contre le corps. Pas de vol, forces, collisions exhaustives, terrain, monde principal, serveur/réseau/VR, FPS ou finition photoréaliste qualifiés.",
       "preview_kind": "capture Godot de la recette téléchargée puis reconstruite"
     }
   ]

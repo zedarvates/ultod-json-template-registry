@@ -1,6 +1,6 @@
 # Galerie des créatures originales
 
-Recettes de l’éditeur, captures réelles et états de revue — mise à jour du 2026-11-07.
+Recettes de l’éditeur, captures réelles et états de revue — mise à jour du 2026-11-05.
 
 Les images montrent des prototypes locaux et les variantes précisées dans chaque fiche. Les JSON conservent les paramètres et les références de dépendances ; les générateurs, pièces et modèles ne sont pas distribués dans ce dépôt. Aucun modèle présenté ici n’est déclaré prêt pour le jeu ni photoréaliste final.
 
@@ -225,5 +225,15 @@ Tête seule encore stylisée, sans microrelief de peau ni rig de mâchoire. Corp
 Cou, queue corrigée et quatre pieds griffus sur un rig original de33os. Tête conservée, peau centrale connectée, recette téléchargée puis reconstruite, appuis contrôlés dans l’éditeur et les deux modes Godot. Corps encore stylisé, sans ailes.
 
 Corps du dragon encore stylisé, sans ailes ni microrelief de peau. Marche lente sur sol plat dans des revues isolées ; pas de forces/centre de masse, terrain, virages, collisions exhaustives, vol, monde principal, serveur/réseau/VR, FPS ou photoréalisme final qualifiés.
+
+## Dragon — ailes articulées et déploiement au sol
+
+![Dragon — ailes articulées et déploiement au sol — capture Godot de la recette téléchargée puis reconstruite](dragon-wings-original/v0.1.0/preview.png)
+
+[Fiche 0.1.0](dragon-wings-original/v0.1.0/README.md) · [Recette JSON](dragon-wings-original/v0.1.0/recipe.json)
+
+Deux ailes indépendantes ajoutées au corps conservé : rig de57os, trois animations, trois petites cartes partagées. Recette téléchargée puis reconstruite, appuis vérifiés dans l’éditeur et Godot. Repli complet et vol non qualifiés.
+
+Copie originale de revue encore stylisée. Marche sur sol plat et déploiement au sol seulement. Ailes relevées de55degrés pendant la marche, sans repli complet contre le corps. Pas de vol, forces, collisions exhaustives, terrain, monde principal, serveur/réseau/VR, FPS ou finition photoréaliste qualifiés.
 
 La version statique du [scorpion 0.1.0](scorpion-original/v0.1.0/README.md) et le [génome d’araignée déjà catalogué](../../templates/xeno-editor/giant-spider-eight-legs/v0.2.0/README.md) restent conservés. L’inventaire et la recréation des autres familles se poursuivent.
