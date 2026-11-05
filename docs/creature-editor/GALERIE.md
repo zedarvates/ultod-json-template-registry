@@ -256,4 +256,14 @@ Nouvelle famille originale : marche latérale à huit pattes, deux pinces courbe
 
 Crabe original de revue : huit pattes marcheuses et deux pinces articulées, segments externes simplifiés et texture de chitine originale. Appuis cinématiques sur sol plat ; aucune preuve de masse/forces, terrain, collisions exhaustives, pression des pinces, anatomie finale, photoréalisme final, monde principal, serveur/réseau/VR ou FPS.
 
+## Kraken — huit bras et ventouses
+
+![Kraken — huit bras et ventouses — capture Godot de la recette téléchargée puis reconstruite](kraken-original/v0.1.0/preview.png)
+
+[Fiche 0.1.0](kraken-original/v0.1.0/README.md) · [Recette JSON](kraken-original/v0.1.0/recipe.json)
+
+Nouvelle famille octopoïde : implantation native de huit bras, profil original optimisé, ventouses creuses et ondulation sur49os. Recette téléchargée puis reconstruite, éditeur et deux modes Godot ; finition encore stylisée.
+
+Première adaptation originale octopoïde encore stylisée : huit bras, ventouses creuses et ondulation locale. Raccords tête/manteau/bras, coutures UV visibles, ventouses anguleuses et bec simplifié restent à améliorer. Pas de photoréalisme final, collisions exhaustives, adhésion, tissu/forces, hydrodynamique, vitesse autoritaire, monde principal, serveur/réseau/VR ou FPS qualifiés.
+
 La version statique du [scorpion 0.1.0](scorpion-original/v0.1.0/README.md) et le [génome d’araignée déjà catalogué](../../templates/xeno-editor/giant-spider-eight-legs/v0.2.0/README.md) restent conservés. L’inventaire et la recréation des autres familles se poursuivent.

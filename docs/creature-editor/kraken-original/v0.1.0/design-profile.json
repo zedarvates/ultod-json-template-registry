@@ -1,0 +1,66 @@
+{
+  "schema": "uo.kraken-design-documentation/v1",
+  "delivery": "review_only",
+  "anatomy_profile": "octopoid-eight-arms-blind-suckers-v1",
+  "anatomy": {
+    "arms": 8,
+    "joints_per_arm": 6,
+    "sucker_rows_per_arm": 2,
+    "suckers_per_lod": [
+      128,
+      80,
+      48
+    ],
+    "eyes": 2,
+    "siphons": 1
+  },
+  "bones": 49,
+  "material_batches_per_lod": 4,
+  "lod_triangles": [
+    12012,
+    6240,
+    2916
+  ],
+  "textures": {
+    "source": "Original builtin ImageGen soft cephalopod albedo; bounded project bake and approximate luminance-derived microrelief, not measured skin depth",
+    "source_sha256": "20b30a20006de7b48f01f0a9646c60e2294b7fcececb55e6fdce6754d70ed288",
+    "images": 3,
+    "dimensions": [
+      [
+        256,
+        256
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ]
+    ],
+    "rgba8_complete_mip_estimate_bytes": 524284
+  },
+  "native_layout": {
+    "file": "native-layout.review.json",
+    "sha256": "1e0fd1443eee624a28a38040fa404024e29c51a69dc0afda1b94b1570ed09bc4",
+    "project_revision": 2,
+    "renderer_connected": false,
+    "game_server_connected": false,
+    "scope": "Eight positions/rotations/scales from actual MCP review export. New optimized original geometry adapter; not byte-identical to native tentacle_01 model. No native renderer/server connected."
+  },
+  "source_tentacle_component": {
+    "triangles": 1916,
+    "rigged": false,
+    "geometry_used_directly": false,
+    "scope": "Read-only catalogue prefab inspection. Only native layout fields drive the new optimized curved arm profile, not a byte-identical rendering of the prefab."
+  },
+  "skin": "Two linear bone influences per vertex, six bones per arm; entire suction cup shares its attachment weights",
+  "sucker_attachment": "Ray intersection against actual LOD arm before6mm inset; sampled base-centre containment during animation",
+  "eyes": "Horizontal pupil and original globe centred8mm inside each actual LOD head surface",
+  "references": [
+    "https://ocean.si.edu/ocean-life/invertebrates/octopuses-squids-and-relatives",
+    "https://aquarium.org/animals/giant-pacific-octopus/"
+  ],
+  "scope": "Première adaptation originale octopoïde encore stylisée : huit bras, ventouses creuses et ondulation locale. Raccords tête/manteau/bras, coutures UV visibles, ventouses anguleuses et bec simplifié restent à améliorer. Pas de photoréalisme final, collisions exhaustives, adhésion, tissu/forces, hydrodynamique, vitesse autoritaire, monde principal, serveur/réseau/VR ou FPS qualifiés."
+}
