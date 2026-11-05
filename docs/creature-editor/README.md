@@ -32,6 +32,7 @@ Ces instantanés proviennent des ateliers de l’éditeur de créatures. Les rec
 | Requin — attaches corrigées et quatre lots | 0.2.0 | [Recette et captures Godot](shark-original/v0.2.0/README.md) · [Première revue conservée](shark-original/v0.1.0/README.md) |
 | Crabe — huit pattes et pinces articulées | 0.1.0 | [Recette, chitine et marche Godot](crab-original/v0.1.0/README.md) |
 | Kraken — huit bras et ventouses | 0.1.0 | [Recette, implantation native et rendus Godot](kraken-original/v0.1.0/README.md) |
+| Squelette — os, cavités et marche bipède | 0.1.0 | [Recette, anatomie et rendus Godot](skeleton-original/v0.1.0/README.md) |
 
 La galerie est régénérable avec `python scripts/generate_creature_gallery.py` depuis la racine du dépôt. Ajouter une version documentaire dans `gallery-index.json` conserve les anciennes recettes et images. Les nouvelles fiches associent les SHA-256 de la recette, de l’image et du modèle capturé dans `provenance.json`.
 

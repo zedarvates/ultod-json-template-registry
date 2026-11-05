@@ -1,0 +1,525 @@
+{
+  "schema": "uo.skeleton-measurements-documentation/v1",
+  "delivery": "review_only",
+  "selected": {
+    "status": "PASS_SKELETON_GEOMETRY_ANATOMY_UV_AND_FLAT_CONTACTS",
+    "sha256": "c335705804cbc8e55d1e8f6c4b88e95f29d790d4cf10dc807b46110fd61a53ed",
+    "bones": 49,
+    "lod_triangles": [
+      25374,
+      10864,
+      8692
+    ],
+    "frames": 721,
+    "geometry": [
+      {
+        "lod": 0,
+        "anatomy": {
+          "vertebral_body": 24,
+          "neural_arch": 24,
+          "spinous_process": 24,
+          "sacrum": 1,
+          "ilium": 2,
+          "pelvic_ring": 2,
+          "pubic_bridge": 2,
+          "rib": 24,
+          "clavicle": 2,
+          "scapula": 2,
+          "sternum": 1,
+          "cranium_with_cavities": 1,
+          "maxillary_arc": 1,
+          "zygomatic_arch": 2,
+          "mandible": 1,
+          "mandibular_ramus": 2,
+          "humeral_head": 2,
+          "humerus": 2,
+          "radius": 2,
+          "ulna": 2,
+          "carpal": 16,
+          "metacarpal": 10,
+          "finger_phalanx": 28,
+          "femoral_head": 2,
+          "femur": 2,
+          "patella": 2,
+          "tibia": 2,
+          "fibula": 2,
+          "heel_contact": 2,
+          "talus": 2,
+          "tarsal": 10,
+          "metatarsal": 10,
+          "metatarsal_contact": 10,
+          "toe_phalanx": 28,
+          "tooth": 32
+        },
+        "triangles": 25374,
+        "closed_components": 281
+      },
+      {
+        "lod": 1,
+        "anatomy": {
+          "vertebral_body": 24,
+          "neural_arch": 24,
+          "spinous_process": 24,
+          "sacrum": 1,
+          "ilium": 2,
+          "pelvic_ring": 2,
+          "pubic_bridge": 2,
+          "rib": 24,
+          "clavicle": 2,
+          "scapula": 2,
+          "sternum": 1,
+          "cranium_with_cavities": 1,
+          "maxillary_arc": 1,
+          "zygomatic_arch": 2,
+          "mandible": 1,
+          "mandibular_ramus": 2,
+          "humeral_head": 2,
+          "humerus": 2,
+          "radius": 2,
+          "ulna": 2,
+          "carpal": 16,
+          "metacarpal": 10,
+          "finger_phalanx": 28,
+          "femoral_head": 2,
+          "femur": 2,
+          "patella": 2,
+          "tibia": 2,
+          "fibula": 2,
+          "heel_contact": 2,
+          "talus": 2,
+          "tarsal": 10,
+          "metatarsal": 10,
+          "metatarsal_contact": 10,
+          "toe_phalanx": 28,
+          "tooth": 32
+        },
+        "triangles": 10864,
+        "closed_components": 281
+      },
+      {
+        "lod": 2,
+        "anatomy": {
+          "vertebral_body": 24,
+          "neural_arch": 24,
+          "spinous_process": 24,
+          "sacrum": 1,
+          "ilium": 2,
+          "pelvic_ring": 2,
+          "pubic_bridge": 2,
+          "rib": 24,
+          "clavicle": 2,
+          "scapula": 2,
+          "sternum": 1,
+          "cranium_with_cavities": 1,
+          "maxillary_arc": 1,
+          "zygomatic_arch": 2,
+          "mandible": 1,
+          "mandibular_ramus": 2,
+          "humeral_head": 2,
+          "humerus": 2,
+          "radius": 2,
+          "ulna": 2,
+          "carpal": 16,
+          "metacarpal": 10,
+          "finger_phalanx": 28,
+          "femoral_head": 2,
+          "femur": 2,
+          "patella": 2,
+          "tibia": 2,
+          "fibula": 2,
+          "heel_contact": 2,
+          "talus": 2,
+          "tarsal": 10,
+          "metatarsal": 10,
+          "metatarsal_contact": 10,
+          "toe_phalanx": 28,
+          "tooth": 32
+        },
+        "triangles": 8692,
+        "closed_components": 281
+      }
+    ],
+    "minimum_all_geometry_y_m": 0.00012918681214295718,
+    "maximum_stance_plane_error_m": 9.87036748935121e-05,
+    "maximum_world_stance_anchor_error_m": 9.887359517925049e-05,
+    "minimum_expected_supports": 1,
+    "minimum_peak_swing_contact_y_m": 0.078644214553055,
+    "minimum_declared_volume_proxy_margin_m": 0.018501153919023215,
+    "maximum_rest_uv_anisotropy": 1.7050412699354136,
+    "scope": "Actual decoded rigid bone geometry, clip and flat-ground foot contacts. Piece-volume proxy includes overlaps and is not physical mass, force balance, terrain, exhaustive collisions, gameplay, network, VR or final art approval.",
+    "texture_dimensions": [
+      [
+        256,
+        256
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ]
+    ],
+    "rgba8_complete_mip_estimate_bytes": 524284
+  },
+  "reconstructed": {
+    "status": "PASS_SKELETON_GEOMETRY_ANATOMY_UV_AND_FLAT_CONTACTS",
+    "sha256": "6e02a792bc3f35c40e989a1faa162cd240bde639c6cd951e1b75c27282552841",
+    "bones": 49,
+    "lod_triangles": [
+      25374,
+      10864,
+      8692
+    ],
+    "frames": 721,
+    "geometry": [
+      {
+        "lod": 0,
+        "anatomy": {
+          "vertebral_body": 24,
+          "neural_arch": 24,
+          "spinous_process": 24,
+          "sacrum": 1,
+          "ilium": 2,
+          "pelvic_ring": 2,
+          "pubic_bridge": 2,
+          "rib": 24,
+          "clavicle": 2,
+          "scapula": 2,
+          "sternum": 1,
+          "cranium_with_cavities": 1,
+          "maxillary_arc": 1,
+          "zygomatic_arch": 2,
+          "mandible": 1,
+          "mandibular_ramus": 2,
+          "humeral_head": 2,
+          "humerus": 2,
+          "radius": 2,
+          "ulna": 2,
+          "carpal": 16,
+          "metacarpal": 10,
+          "finger_phalanx": 28,
+          "femoral_head": 2,
+          "femur": 2,
+          "patella": 2,
+          "tibia": 2,
+          "fibula": 2,
+          "heel_contact": 2,
+          "talus": 2,
+          "tarsal": 10,
+          "metatarsal": 10,
+          "metatarsal_contact": 10,
+          "toe_phalanx": 28,
+          "tooth": 32
+        },
+        "triangles": 25374,
+        "closed_components": 281
+      },
+      {
+        "lod": 1,
+        "anatomy": {
+          "vertebral_body": 24,
+          "neural_arch": 24,
+          "spinous_process": 24,
+          "sacrum": 1,
+          "ilium": 2,
+          "pelvic_ring": 2,
+          "pubic_bridge": 2,
+          "rib": 24,
+          "clavicle": 2,
+          "scapula": 2,
+          "sternum": 1,
+          "cranium_with_cavities": 1,
+          "maxillary_arc": 1,
+          "zygomatic_arch": 2,
+          "mandible": 1,
+          "mandibular_ramus": 2,
+          "humeral_head": 2,
+          "humerus": 2,
+          "radius": 2,
+          "ulna": 2,
+          "carpal": 16,
+          "metacarpal": 10,
+          "finger_phalanx": 28,
+          "femoral_head": 2,
+          "femur": 2,
+          "patella": 2,
+          "tibia": 2,
+          "fibula": 2,
+          "heel_contact": 2,
+          "talus": 2,
+          "tarsal": 10,
+          "metatarsal": 10,
+          "metatarsal_contact": 10,
+          "toe_phalanx": 28,
+          "tooth": 32
+        },
+        "triangles": 10864,
+        "closed_components": 281
+      },
+      {
+        "lod": 2,
+        "anatomy": {
+          "vertebral_body": 24,
+          "neural_arch": 24,
+          "spinous_process": 24,
+          "sacrum": 1,
+          "ilium": 2,
+          "pelvic_ring": 2,
+          "pubic_bridge": 2,
+          "rib": 24,
+          "clavicle": 2,
+          "scapula": 2,
+          "sternum": 1,
+          "cranium_with_cavities": 1,
+          "maxillary_arc": 1,
+          "zygomatic_arch": 2,
+          "mandible": 1,
+          "mandibular_ramus": 2,
+          "humeral_head": 2,
+          "humerus": 2,
+          "radius": 2,
+          "ulna": 2,
+          "carpal": 16,
+          "metacarpal": 10,
+          "finger_phalanx": 28,
+          "femoral_head": 2,
+          "femur": 2,
+          "patella": 2,
+          "tibia": 2,
+          "fibula": 2,
+          "heel_contact": 2,
+          "talus": 2,
+          "tarsal": 10,
+          "metatarsal": 10,
+          "metatarsal_contact": 10,
+          "toe_phalanx": 28,
+          "tooth": 32
+        },
+        "triangles": 8692,
+        "closed_components": 281
+      }
+    ],
+    "minimum_all_geometry_y_m": 0.00012703314809861885,
+    "maximum_stance_plane_error_m": 9.863196908062102e-05,
+    "maximum_world_stance_anchor_error_m": 9.883395253290214e-05,
+    "minimum_expected_supports": 1,
+    "minimum_peak_swing_contact_y_m": 0.07863897950423679,
+    "minimum_declared_volume_proxy_margin_m": 0.018041350272280102,
+    "maximum_rest_uv_anisotropy": 1.7050412699354136,
+    "scope": "Actual decoded rigid bone geometry, clip and flat-ground foot contacts. Piece-volume proxy includes overlaps and is not physical mass, force balance, terrain, exhaustive collisions, gameplay, network, VR or final art approval.",
+    "texture_dimensions": [
+      [
+        256,
+        256
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ]
+    ],
+    "rgba8_complete_mip_estimate_bytes": 524284
+  },
+  "actual_details": {
+    "status": "PASS_EXPORTED_SKELETON_CAVITIES_AND_SAMPLED_DENTAL_EXPOSURE",
+    "sha256": "6e02a792bc3f35c40e989a1faa162cd240bde639c6cd951e1b75c27282552841",
+    "lods": [
+      {
+        "lod": 0,
+        "cavities": [
+          {
+            "name": "OrbitL",
+            "actual_first_surface_depth_m": 0.043618358578729616,
+            "exported_bottom_error_m": 1.179164074716077e-08
+          },
+          {
+            "name": "OrbitR",
+            "actual_first_surface_depth_m": 0.043618358578729616,
+            "exported_bottom_error_m": 1.179164074716077e-08
+          },
+          {
+            "name": "Nasal",
+            "actual_first_surface_depth_m": 0.030569547072345604,
+            "exported_bottom_error_m": 3.894578422258821e-08
+          }
+        ],
+        "sampled_anterior_crowns": [
+          {
+            "upper_tooth": 6,
+            "sample_vertex": [
+              0.018269173800945282,
+              1.5608612298965454,
+              -0.09363919496536255
+            ],
+            "first_bone_behind_crown": true
+          },
+          {
+            "upper_tooth": 7,
+            "sample_vertex": [
+              0.005128025077283382,
+              1.5608612298965454,
+              -0.09641141444444656
+            ],
+            "first_bone_behind_crown": true
+          },
+          {
+            "upper_tooth": 8,
+            "sample_vertex": [
+              -0.008262880146503448,
+              1.5608612298965454,
+              -0.09641141444444656
+            ],
+            "first_bone_behind_crown": true
+          },
+          {
+            "upper_tooth": 9,
+            "sample_vertex": [
+              -0.021404029801487923,
+              1.5608612298965454,
+              -0.09363919496536255
+            ],
+            "first_bone_behind_crown": true
+          }
+        ]
+      },
+      {
+        "lod": 1,
+        "cavities": [
+          {
+            "name": "OrbitL",
+            "actual_first_surface_depth_m": 0.04361835845298001,
+            "exported_bottom_error_m": 1.1917390352333967e-08
+          },
+          {
+            "name": "OrbitR",
+            "actual_first_surface_depth_m": 0.04361835845298001,
+            "exported_bottom_error_m": 1.1917390352333967e-08
+          },
+          {
+            "name": "Nasal",
+            "actual_first_surface_depth_m": 0.030541171645020543,
+            "exported_bottom_error_m": 3.9311831886990056e-08
+          }
+        ],
+        "sampled_anterior_crowns": [
+          {
+            "upper_tooth": 6,
+            "sample_vertex": [
+              0.017527200281620026,
+              1.559333324432373,
+              -0.09271214157342911
+            ],
+            "first_bone_behind_crown": true
+          },
+          {
+            "upper_tooth": 7,
+            "sample_vertex": [
+              0.004386051557958126,
+              1.559333324432373,
+              -0.09548436105251312
+            ],
+            "first_bone_behind_crown": true
+          },
+          {
+            "upper_tooth": 8,
+            "sample_vertex": [
+              -0.009004853665828705,
+              1.559333324432373,
+              -0.09548436105251312
+            ],
+            "first_bone_behind_crown": true
+          },
+          {
+            "upper_tooth": 9,
+            "sample_vertex": [
+              -0.02214600332081318,
+              1.559333324432373,
+              -0.09271214157342911
+            ],
+            "first_bone_behind_crown": true
+          }
+        ]
+      },
+      {
+        "lod": 2,
+        "cavities": [
+          {
+            "name": "OrbitL",
+            "actual_first_surface_depth_m": 0.043618358138513114,
+            "exported_bottom_error_m": 1.223185724930076e-08
+          },
+          {
+            "name": "OrbitR",
+            "actual_first_surface_depth_m": 0.043618358138513114,
+            "exported_bottom_error_m": 1.223185724930076e-08
+          },
+          {
+            "name": "Nasal",
+            "actual_first_surface_depth_m": 0.030472506632638438,
+            "exported_bottom_error_m": 4.022796008806839e-08
+          }
+        ],
+        "sampled_anterior_crowns": [
+          {
+            "upper_tooth": 6,
+            "sample_vertex": [
+              0.017527200281620026,
+              1.559333324432373,
+              -0.09271214157342911
+            ],
+            "first_bone_behind_crown": true
+          },
+          {
+            "upper_tooth": 7,
+            "sample_vertex": [
+              0.004386051557958126,
+              1.559333324432373,
+              -0.09548436105251312
+            ],
+            "first_bone_behind_crown": true
+          },
+          {
+            "upper_tooth": 8,
+            "sample_vertex": [
+              -0.009004853665828705,
+              1.559333324432373,
+              -0.09548436105251312
+            ],
+            "first_bone_behind_crown": true
+          },
+          {
+            "upper_tooth": 9,
+            "sample_vertex": [
+              -0.02214600332081318,
+              1.559333324432373,
+              -0.09271214157342911
+            ],
+            "first_bone_behind_crown": true
+          }
+        ]
+      }
+    ],
+    "scope": "Three centre rays into closed skull cavities and four upper anterior crown samples per LOD; not exhaustive dental or anatomical intersection approval."
+  },
+  "reconstruction": {
+    "status": "PASS_SKELETON_DOWNLOADED_RECIPE_BIND_GEOMETRY_PIXELS_AND_SERVER_IMMUTABILITY",
+    "meshes_exact": 6,
+    "images_exact": 3,
+    "changed_animation_tracks": 7,
+    "source_sha256": "c335705804cbc8e55d1e8f6c4b88e95f29d790d4cf10dc807b46110fd61a53ed",
+    "server_template_sha256": "7d2dd5645b15d39159b1ae9314e9795ac7b9c218c48ca069848c3b0d8196a9fa"
+  },
+  "scope": "Première adaptation originale encore stylisée. Crâne, bassin et proportions des os restent à affiner ; coutures de projection et intersections articulaires non exhaustivement qualifiées. Sol plat uniquement : pas de photoréalisme final, forces/friction, équilibre physique, terrain, attaque, mort, équipement, monde principal, serveur/réseau, VR ou FPS qualifiés.",
+  "measurement_label_aliases": [
+    {
+      "source": "skull_with_cavities",
+      "published": "cranium_with_cavities",
+      "reason": "Avoid public commercial-key detector substring collision; measured values unchanged"
+    }
+  ]
+}
