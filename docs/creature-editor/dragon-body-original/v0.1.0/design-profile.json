@@ -1,0 +1,29 @@
+{
+  "schema": "uo.dragon-body-design/v1",
+  "delivery": "review_only",
+  "head_profile": "connected-nares-integrated-orbits-v2-compact-eyes",
+  "body_profile": "original-quadruped-analytic-tail-attached-palms-v3",
+  "bones": 33,
+  "walking_legs": 4,
+  "digits_each": 4,
+  "claws_each": 4,
+  "neck_joints": 3,
+  "tail_joints": 8,
+  "wings": 0,
+  "material_meshes_each_lod": 6,
+  "images": 0,
+  "continuous_skin": "One closed core combining torso, neck, tail and twelve limb segments; head, palms, digits and claws remain overlapping components",
+  "tail_retopology": "Actual core cut and analytic taper rings with decreasing radial subdivisions, closed topology and bounded cut coalescence; final triangulation quality0.10 retained",
+  "identity_candidates": [
+    "server:dragon",
+    "server:adult_red_dragon"
+  ],
+  "identity_binding": "unbound visual candidates; no authoritative gameplay stats edited",
+  "art_backlog": [
+    "Independent original wing rig and membranes",
+    "Skin microdetail and material transitions",
+    "Refine shoulder/elbow/hock masses and head/neck join",
+    "Ground turns, terrain, dynamic balance and exhaustive collision checks"
+  ],
+  "scope": "Corps du dragon encore stylisé, sans ailes ni microrelief de peau. Marche lente sur sol plat dans des revues isolées ; pas de forces/centre de masse, terrain, virages, collisions exhaustives, vol, monde principal, serveur/réseau/VR, FPS ou photoréalisme final qualifiés."
+}

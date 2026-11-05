@@ -1,0 +1,58 @@
+{
+  "schema": "uo.dragon-tail-documentation/v1",
+  "delivery": "review_only",
+  "selected_model_sha256": "774a3dce29d324eec8e600227327ec425c9bc2ccf46bb67b1cd1486d3c64a56b",
+  "rebuilt_model_sha256": "1a5f4f3bea272692bea5580be7cb11e03d07307d8662186395e338cd561e0a15",
+  "bind_assets_exact": true,
+  "profile_measurements": [
+    {
+      "revision": "01",
+      "lod": 0,
+      "vertices": 569,
+      "maximum_relative_radial_error": 0.07572401847882992,
+      "mean_relative_radial_error": 0.01032595754760796,
+      "sha256": "f85fb1fdc82a0058274658af6f20c0bcd543708004375014488c8b1b0b1a83bf"
+    },
+    {
+      "revision": "01",
+      "lod": 1,
+      "vertices": 376,
+      "maximum_relative_radial_error": 0.039264322508113514,
+      "mean_relative_radial_error": 0.007693259678993611,
+      "sha256": "f85fb1fdc82a0058274658af6f20c0bcd543708004375014488c8b1b0b1a83bf"
+    },
+    {
+      "revision": "01",
+      "lod": 2,
+      "vertices": 247,
+      "maximum_relative_radial_error": 0.14790779726209924,
+      "mean_relative_radial_error": 0.012804891372093567,
+      "sha256": "f85fb1fdc82a0058274658af6f20c0bcd543708004375014488c8b1b0b1a83bf"
+    },
+    {
+      "revision": "07",
+      "lod": 0,
+      "vertices": 152,
+      "maximum_relative_radial_error": 6.207796472423865e-07,
+      "mean_relative_radial_error": 1.1247275006445296e-07,
+      "sha256": "774a3dce29d324eec8e600227327ec425c9bc2ccf46bb67b1cd1486d3c64a56b"
+    },
+    {
+      "revision": "07",
+      "lod": 1,
+      "vertices": 128,
+      "maximum_relative_radial_error": 7.171190139487749e-07,
+      "mean_relative_radial_error": 1.2766217374893252e-07,
+      "sha256": "774a3dce29d324eec8e600227327ec425c9bc2ccf46bb67b1cd1486d3c64a56b"
+    },
+    {
+      "revision": "07",
+      "lod": 2,
+      "vertices": 105,
+      "maximum_relative_radial_error": 6.751413408334628e-07,
+      "mean_relative_radial_error": 1.4368757909108541e-07,
+      "sha256": "774a3dce29d324eec8e600227327ec425c9bc2ccf46bb67b1cd1486d3c64a56b"
+    }
+  ],
+  "scope": "Actual distal bind vertices betweenZ1.35and2.99m, original analytic profile. Vertex radial error does not measure whole-surface fidelity, dynamic collision or final artwork."
+}
