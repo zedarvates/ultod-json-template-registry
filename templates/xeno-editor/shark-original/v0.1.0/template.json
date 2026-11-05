@@ -1,0 +1,78 @@
+{
+  "$schema": "../../../schemas/xeno-editor/v1.2.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "xeno-editor:shark-original",
+  "slug": "shark-original",
+  "family": "xeno-editor",
+  "version": "0.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "xeno-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:28a47dec41fe23d6de9dd453f69b3f415548af41d74a643030ff2b3e3910a6fa",
+  "spec": {
+    "display_name": "Requin original",
+    "genome_file": "assets/xeno-editor/shark-original/v0.1.0/genome.json",
+    "source_recipe_file": "assets/xeno-editor/shark-original/v0.1.0/source-recipe.json",
+    "preview_file": "assets/xeno-editor/shark-original/v0.1.0/preview.png",
+    "godot_preview_file": "assets/xeno-editor/shark-original/v0.1.0/godot-preview.png",
+    "registration_file": "assets/xeno-editor/shark-original/v0.1.0/registration.json",
+    "genome_sha256": "0d60f711803ee4c856ecfac92fa71665820eb0ebcb06f7a361a3591a610aba3f",
+    "source_recipe_sha256": "67839689d134273d3b775b4580c666119aca19d23274e72f9635981efa97e345",
+    "preview_sha256": "b1e8ba4ded41e4453f7a730dd017a7d6fbe11dc44c396ab53515fa09cac4d4e2",
+    "godot_preview_sha256": "8285a3a09fcdbd71f5539c28da31bfecb6e1016cddb48db80bd58d7868381ae9",
+    "registration_sha256": "713f5f2d65fa0a56e25d839fec2de2657289ee7b39439ce74693c54680b6418c",
+    "reviewed_model_sha256": "e9f7d3f9a98c4c7a4bf46063b06c6d9dc85417d2ec1d0e67cf9a698fd1e4fce1",
+    "review_status": "review-only",
+    "evidence_scope": "editor-export-and-static-godot-import",
+    "parts": [
+      {
+        "id": "shark_body_original_01",
+        "file": "assets/xeno-editor/shark-original/v0.1.0/parts/shark_body_original_01.glb",
+        "sha256": "454c6c3fee46384bfad1f83e7f3304ba94dad647769c17fa0bc519e21701f708"
+      },
+      {
+        "id": "shark_fin_anal_01",
+        "file": "assets/xeno-editor/shark-original/v0.1.0/parts/shark_fin_anal_01.glb",
+        "sha256": "fa6b856b9064235576e8d703cab699f6930efcc89c813052245b9c00a1c5c47c"
+      },
+      {
+        "id": "shark_fin_caudal_01",
+        "file": "assets/xeno-editor/shark-original/v0.1.0/parts/shark_fin_caudal_01.glb",
+        "sha256": "f79ba326a63fc30071b73eeeab3a90a27b6d1f3ca87499c5b27cce697aea53e5"
+      },
+      {
+        "id": "shark_fin_dorsalfront_01",
+        "file": "assets/xeno-editor/shark-original/v0.1.0/parts/shark_fin_dorsalfront_01.glb",
+        "sha256": "e33d65795fc164cd0288838ee394af4029f9f3fc31d5607a84bc28fb97f34a2c"
+      },
+      {
+        "id": "shark_fin_dorsalrear_01",
+        "file": "assets/xeno-editor/shark-original/v0.1.0/parts/shark_fin_dorsalrear_01.glb",
+        "sha256": "b9a30c87cbd15a9e6479285400f6e98710b15a3ff988553037fb8f8609ad751a"
+      },
+      {
+        "id": "shark_fin_pectorall_01",
+        "file": "assets/xeno-editor/shark-original/v0.1.0/parts/shark_fin_pectorall_01.glb",
+        "sha256": "bf9b67a8887c149bec8ac5305ae22a60fdcdefb7a70816d23fe84f68d82e7996"
+      },
+      {
+        "id": "shark_fin_pectoralr_01",
+        "file": "assets/xeno-editor/shark-original/v0.1.0/parts/shark_fin_pectoralr_01.glb",
+        "sha256": "ff4a2988cd07e81ec6f801dce82b83c932bb6919220b259ea084b17043c90c07"
+      },
+      {
+        "id": "shark_fin_pelvicl_01",
+        "file": "assets/xeno-editor/shark-original/v0.1.0/parts/shark_fin_pelvicl_01.glb",
+        "sha256": "b4e8dc6097589ca82f9f2bcda8e7f5b4d57d2af83c37f898ef307660232d6809"
+      },
+      {
+        "id": "shark_fin_pelvicr_01",
+        "file": "assets/xeno-editor/shark-original/v0.1.0/parts/shark_fin_pelvicr_01.glb",
+        "sha256": "1be852111d19dfdc1d754ab517dc5924fd908c79b7e12d5879f0ab7e2624697c"
+      }
+    ]
+  }
+}

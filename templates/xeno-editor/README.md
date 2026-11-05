@@ -10,3 +10,4 @@ Les entrées décrivent des génomes conservés pour revue. Les assets et géné
 - [Chauve-souris géante originale v0.1.0](giant-bat-original/v0.1.0/README.md)
 - [Rat géant original v0.1.0](giant-rat-original/v0.1.0/README.md)
 - [Crabe géant original v0.1.0](giant-crab-original/v0.1.0/README.md)
+- [Requin original v0.1.0](shark-original/v0.1.0/README.md)
