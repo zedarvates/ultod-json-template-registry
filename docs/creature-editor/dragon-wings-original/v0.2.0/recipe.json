@@ -1,0 +1,17 @@
+{
+  "schema": "uo.dragon-fold-project/v1",
+  "generator": "uo.dragon-fold-original/v1",
+  "delivery": "review_only",
+  "source_sha256": "d168b6a4135567fdc9612eb20c1267526a2a903a63102093b503a2309fb298bd",
+  "recipe": {
+    "schema": "uo.dragon-wing-fold/v1",
+    "delivery": "review_only",
+    "source_revision": "04",
+    "source_sha256": "b2e1ef3200143da88b5525dbbf787f0feb581893e36010473dbbb57be38a5639",
+    "wrist_half_width_m": 0.36,
+    "wrist_height_m": 1.22,
+    "wrist_z_m": 0.45,
+    "flap_angle_deg": 13,
+    "fold_profile": "elbow-ring-pleated-v3-continuous-bend"
+  }
+}

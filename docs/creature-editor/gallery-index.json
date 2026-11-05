@@ -181,10 +181,10 @@
     },
     {
       "id": "dragon-wings-original",
-      "name": "Dragon — ailes articulées et déploiement au sol",
-      "version": "v0.1.0",
-      "summary": "Deux ailes indépendantes ajoutées au corps conservé : rig de57os, trois animations, trois petites cartes partagées. Recette téléchargée puis reconstruite, appuis vérifiés dans l’éditeur et Godot. Repli complet et vol non qualifiés.",
-      "scope": "Copie originale de revue encore stylisée. Marche sur sol plat et déploiement au sol seulement. Ailes relevées de55degrés pendant la marche, sans repli complet contre le corps. Pas de vol, forces, collisions exhaustives, terrain, monde principal, serveur/réseau/VR, FPS ou finition photoréaliste qualifiés.",
+      "name": "Dragon — ailes repliables et marche de revue",
+      "version": "v0.2.0",
+      "summary": "Repli compact au coude, poignet et doigts, membranes corrigées et UV animés contrôlés. Rig de57os, trois petites images partagées ; recette téléchargée puis reconstruite et vérifications dans l’éditeur/Godot. Finition encore stylisée, vol non qualifié.",
+      "scope": "Revue locale encore stylisée : repli compact et déploiement au sol, sans simulation de tissu ou de vol. Finition photoréaliste, anatomie finale, collisions exhaustives corps/ailes, forces, terrain, monde principal, serveur/réseau/VR et FPS restent non qualifiés.",
       "preview_kind": "capture Godot de la recette téléchargée puis reconstruite"
     }
   ]

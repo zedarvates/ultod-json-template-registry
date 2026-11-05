@@ -1,0 +1,101 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "cb8dd01770befe6d20390db442309490eec89d19a8a61457821448b8f48a57a4",
+  "preview_file": "preview.png",
+  "preview_sha256": "dd226e25b66c4914b8ace466c6a5e83ae312f09fca24d4fcf68e816fac0b4551",
+  "rendered_model_sha256": "38beba522bb06a9c53b4157edc674cfd77db9d34d886ea79ce9ec907e326120d",
+  "source_review_sha256": "d168b6a4135567fdc9612eb20c1267526a2a903a63102093b503a2309fb298bd",
+  "captures": [
+    {
+      "file": "preview.png",
+      "sha256": "dd226e25b66c4914b8ace466c6a5e83ae312f09fca24d4fcf68e816fac0b4551",
+      "model_sha256": "38beba522bb06a9c53b4157edc674cfd77db9d34d886ea79ce9ec907e326120d",
+      "kind": "unmodified native Godot Forward+ capture of actual downloaded recipe rebuilt07"
+    },
+    {
+      "file": "walk-lod1.png",
+      "sha256": "53cb05d8c0d666570285696a70b050c2cdee6be6c73072be69a48282f86691b9",
+      "model_sha256": "38beba522bb06a9c53b4157edc674cfd77db9d34d886ea79ce9ec907e326120d",
+      "kind": "unmodified native Godot Forward+ capture of actual downloaded recipe rebuilt07"
+    },
+    {
+      "file": "walk-lod2.png",
+      "sha256": "582eeef24bb099e7b9e9fdd69ed6b8d5a9de8df6451b5803ed8dda72d7042bd8",
+      "model_sha256": "38beba522bb06a9c53b4157edc674cfd77db9d34d886ea79ce9ec907e326120d",
+      "kind": "unmodified native Godot Forward+ capture of actual downloaded recipe rebuilt07"
+    },
+    {
+      "file": "display.png",
+      "sha256": "9e89a4c8d787c9aa86a07242087b23d7073be2f259b8a0563d2acb8a50ead130",
+      "model_sha256": "38beba522bb06a9c53b4157edc674cfd77db9d34d886ea79ce9ec907e326120d",
+      "kind": "unmodified native Godot Forward+ capture of actual downloaded recipe rebuilt07"
+    },
+    {
+      "file": "display-lod1.png",
+      "sha256": "ad03eb9a066b5159afc8ce64349d1b8fc751ce593ddc319614b1d8f742562f3f",
+      "model_sha256": "38beba522bb06a9c53b4157edc674cfd77db9d34d886ea79ce9ec907e326120d",
+      "kind": "unmodified native Godot Forward+ capture of actual downloaded recipe rebuilt07"
+    },
+    {
+      "file": "display-lod2.png",
+      "sha256": "e4242da36052e6d9ecc8e5ba2cd24e0433e41e1ed88914f6f1019751037a74dc",
+      "model_sha256": "38beba522bb06a9c53b4157edc674cfd77db9d34d886ea79ce9ec907e326120d",
+      "kind": "unmodified native Godot Forward+ capture of actual downloaded recipe rebuilt07"
+    },
+    {
+      "file": "top.png",
+      "sha256": "22c7672be65f70a3081f2d409933fd878e071349dde256e76a7a47e8a7403e42",
+      "model_sha256": "38beba522bb06a9c53b4157edc674cfd77db9d34d886ea79ce9ec907e326120d",
+      "kind": "unmodified native Godot Forward+ capture of actual downloaded recipe rebuilt07"
+    },
+    {
+      "file": "side.png",
+      "sha256": "b4e698d49421c08946a5fa702023c4bf0c46c35b3bc043482615d25583e68062",
+      "model_sha256": "38beba522bb06a9c53b4157edc674cfd77db9d34d886ea79ce9ec907e326120d",
+      "kind": "unmodified native Godot Forward+ capture of actual downloaded recipe rebuilt07"
+    },
+    {
+      "file": "folded-top.png",
+      "sha256": "48936ef80713425f136f4bbbd397a87b3823e4e6ccf45b16a98f70ab484027cb",
+      "model_sha256": "38beba522bb06a9c53b4157edc674cfd77db9d34d886ea79ce9ec907e326120d",
+      "kind": "unmodified native Godot Forward+ capture of actual downloaded recipe rebuilt07"
+    },
+    {
+      "file": "membrane.png",
+      "sha256": "7c269eda6cdb94c865affe3b3c52bcd77dff46e4041f456f1ac6c92cdf6e8256",
+      "model_sha256": "38beba522bb06a9c53b4157edc674cfd77db9d34d886ea79ce9ec907e326120d",
+      "kind": "unmodified native Godot Forward+ capture of actual downloaded recipe rebuilt07"
+    },
+    {
+      "file": "left-inspect.png",
+      "sha256": "5e12ce7a5e5e64006b2ca7fd7c8b1e839e51a56012e15438447203d043368da5",
+      "model_sha256": "38beba522bb06a9c53b4157edc674cfd77db9d34d886ea79ce9ec907e326120d",
+      "kind": "unmodified native Godot Forward+ capture of actual downloaded recipe rebuilt07"
+    },
+    {
+      "file": "before-fold.png",
+      "sha256": "c002898d79d0e3609c6f00b3d10bfbd61a2fecadf5b19183ec3456becfa93502",
+      "model_sha256": "8e60c2dbc9b5df86284200a07295df859e3dc8bf0e3e22bc5c40c3c5939011e9",
+      "kind": "experimental fold04 versus corrected06; identical camera, lighting, walking time0.5 and recipe parameters12degrees; Compatibility renderer"
+    },
+    {
+      "file": "after-fold.png",
+      "sha256": "e1d732f3495ebd4e9d8618aa7827b3f165f90cf3e60006d43694abe54e9348bd",
+      "model_sha256": "d168b6a4135567fdc9612eb20c1267526a2a903a63102093b503a2309fb298bd",
+      "kind": "experimental fold04 versus corrected06; identical camera, lighting, walking time0.5 and recipe parameters12degrees; Compatibility renderer"
+    }
+  ],
+  "preview_kind": "Eleven unmodified native views of rebuilt07 and two same-parameter native diagnostic comparison views04/06",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.dragon-fold-original/v1",
+    "elbow-ring-pleated-v3-continuous-bend",
+    "preserved original body and wings04, 57-joint skin and original mathematical maps"
+  ],
+  "rights": "Original numerical geometry, vertex pigment and mathematical membrane grain/veins; shared original project algorithms. No historic model, scan or external bitmap copied. Private GLBs, generators and texture bitmaps are excluded.",
+  "validation_scope": "Revue locale encore stylisée : repli compact et déploiement au sol, sans simulation de tissu ou de vol. Finition photoréaliste, anatomie finale, collisions exhaustives corps/ailes, forces, terrain, monde principal, serveur/réseau/VR et FPS restent non qualifiés."
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "uo.dragon-fold-design/v1",
+  "delivery": "review_only",
+  "fold_profile": "elbow-ring-pleated-v3-continuous-bend",
+  "bones": 57,
+  "walking_legs": 4,
+  "wings": 2,
+  "digits_each_wing": 4,
+  "thumbs_each_wing": 1,
+  "triangles": [
+    13478,
+    8262,
+    4894
+  ],
+  "mesh_batches_per_lod": 7,
+  "materials": 7,
+  "textures": {
+    "images": 3,
+    "dimensions": [
+      [
+        256,
+        256
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ]
+    ],
+    "rgba8_complete_mip_estimate_bytes": 524284,
+    "source": "Original deterministic mathematical grain and veins; no photographic scan or external bitmap"
+  },
+  "morphs": {
+    "targets_per_membrane_mesh": 30,
+    "position_and_normal_float32_bytes": 3136320,
+    "vertices": [
+      {
+        "lod": 0,
+        "membrane_vertices_before": 730,
+        "membrane_vertices_after": 2256,
+        "triangle_count_unchanged": true
+      },
+      {
+        "lod": 1,
+        "membrane_vertices_before": 430,
+        "membrane_vertices_after": 1260,
+        "triangle_count_unchanged": true
+      },
+      {
+        "lod": 2,
+        "membrane_vertices_before": 210,
+        "membrane_vertices_after": 840,
+        "triangle_count_unchanged": true
+      }
+    ],
+    "purpose": "Radial accordion folds with pose-corrective inverse skinning; not a cloth/flight simulation"
+  },
+  "radial_subdivisions": [
+    8,
+    6,
+    4
+  ],
+  "elbow_row_parameter": 0.5,
+  "body_bind_attributes_and_original_body_tracks_exact": true,
+  "folded_width_m": 1.1749171990702294,
+  "solver": "Offline cloth shape authoring with metric strain, continuous bending and shared seam constraints; baked pose corrections before skinning",
+  "scope": "Revue locale encore stylisée : repli compact et déploiement au sol, sans simulation de tissu ou de vol. Finition photoréaliste, anatomie finale, collisions exhaustives corps/ailes, forces, terrain, monde principal, serveur/réseau/VR et FPS restent non qualifiés."
+}

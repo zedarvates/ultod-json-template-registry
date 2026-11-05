@@ -226,14 +226,14 @@ Cou, queue corrigée et quatre pieds griffus sur un rig original de33os. Tête c
 
 Corps du dragon encore stylisé, sans ailes ni microrelief de peau. Marche lente sur sol plat dans des revues isolées ; pas de forces/centre de masse, terrain, virages, collisions exhaustives, vol, monde principal, serveur/réseau/VR, FPS ou photoréalisme final qualifiés.
 
-## Dragon — ailes articulées et déploiement au sol
+## Dragon — ailes repliables et marche de revue
 
-![Dragon — ailes articulées et déploiement au sol — capture Godot de la recette téléchargée puis reconstruite](dragon-wings-original/v0.1.0/preview.png)
+![Dragon — ailes repliables et marche de revue — capture Godot de la recette téléchargée puis reconstruite](dragon-wings-original/v0.2.0/preview.png)
 
-[Fiche 0.1.0](dragon-wings-original/v0.1.0/README.md) · [Recette JSON](dragon-wings-original/v0.1.0/recipe.json)
+[Fiche 0.2.0](dragon-wings-original/v0.2.0/README.md) · [Recette JSON](dragon-wings-original/v0.2.0/recipe.json)
 
-Deux ailes indépendantes ajoutées au corps conservé : rig de57os, trois animations, trois petites cartes partagées. Recette téléchargée puis reconstruite, appuis vérifiés dans l’éditeur et Godot. Repli complet et vol non qualifiés.
+Repli compact au coude, poignet et doigts, membranes corrigées et UV animés contrôlés. Rig de57os, trois petites images partagées ; recette téléchargée puis reconstruite et vérifications dans l’éditeur/Godot. Finition encore stylisée, vol non qualifié.
 
-Copie originale de revue encore stylisée. Marche sur sol plat et déploiement au sol seulement. Ailes relevées de55degrés pendant la marche, sans repli complet contre le corps. Pas de vol, forces, collisions exhaustives, terrain, monde principal, serveur/réseau/VR, FPS ou finition photoréaliste qualifiés.
+Revue locale encore stylisée : repli compact et déploiement au sol, sans simulation de tissu ou de vol. Finition photoréaliste, anatomie finale, collisions exhaustives corps/ailes, forces, terrain, monde principal, serveur/réseau/VR et FPS restent non qualifiés.
 
 La version statique du [scorpion 0.1.0](scorpion-original/v0.1.0/README.md) et le [génome d’araignée déjà catalogué](../../templates/xeno-editor/giant-spider-eight-legs/v0.2.0/README.md) restent conservés. L’inventaire et la recréation des autres familles se poursuivent.
