@@ -1,0 +1,58 @@
+{
+  "schema": "uo.shark-design-documentation/v1",
+  "delivery": "review_only",
+  "anatomy": {
+    "gill_recesses_each_side": 5,
+    "pectoral_fins": 2,
+    "pelvic_fins": 2,
+    "dorsal_fins": 2,
+    "anal_fins": 1,
+    "caudal_fins": 1,
+    "caudal_plane": "vertical",
+    "caudal_upper_lobe_larger": true
+  },
+  "bones": 17,
+  "lod_triangles": [
+    5868,
+    2934,
+    1320
+  ],
+  "mesh_batches_per_lod": 14,
+  "materials": 4,
+  "maximum_skin_influences": 2,
+  "textures": {
+    "images": 3,
+    "dimensions": [
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        64,
+        64
+      ]
+    ],
+    "rgba8_complete_mip_estimate_bytes": 196604,
+    "source": "Original mathematical micrograin; vertex countershading, no external bitmap"
+  },
+  "body_dimensions_note": "Original base outline extends approximately fromz=-1.45m to1.81m at unit scale; not species measurements",
+  "skin": "Closed fusiform body; five blind9mm gill recesses per side; closed lenticular fins with finite edge thickness",
+  "eyes": "Inset ellipsoid radii12/18/19mm, center7mm inside the analytic anterior surface; actual LOD intersection checked",
+  "mouth": "Closed ventral crease only; no open oral cavity or teeth",
+  "swim": "17-bone local lateral yaw wave, stiff anterior body, rigid fins attached to appropriate joints, two influences on the continuous body",
+  "reference_identities": [
+    "server:reef_shark",
+    "server:hunter_shark",
+    "server:giant_shark"
+  ],
+  "identity_scope": "Read-only candidates for a reusable family; these three species and their stats are not all recreated or activated",
+  "anatomy_references": [
+    "https://dlnr.hawaii.gov/sharks/anatomy/fins-swimming/",
+    "https://www.floridamuseum.ufl.edu/discover-fish/sharks/anatomy/"
+  ],
+  "scope": "Première revue originale encore stylisée : nage latérale sur place, sans hydrodynamique ni vitesse autoritaire. Bouche ouverte/dents, respiration, raccords et collisions exhaustifs des nageoires, virages, finition photoréaliste, monde principal, serveur/réseau/VR et FPS restent non qualifiés."
+}

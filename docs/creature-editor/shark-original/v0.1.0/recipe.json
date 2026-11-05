@@ -1,0 +1,14 @@
+{
+  "schema": "uo.shark-project/v1",
+  "generator": "uo.shark-original/v1",
+  "delivery": "review_only",
+  "source_sha256": "dfa90cf3c512411a1ca1c9b3df152d4ae1fa10aea559560d8ee8623052a964bc",
+  "recipe": {
+    "schema": "uo.shark-shape/v1",
+    "delivery": "review_only",
+    "body_scale": 1,
+    "period_s": 1.6,
+    "tail_yaw_deg": 15,
+    "dorsal_darkness": 0.55
+  }
+}

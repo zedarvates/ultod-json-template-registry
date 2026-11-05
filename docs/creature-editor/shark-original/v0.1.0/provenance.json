@@ -1,0 +1,63 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "7b90fa5a327554bb451b60b20bf6c253871e19b2e375f9ba84411cbe39f149d6",
+  "preview_file": "preview.png",
+  "preview_sha256": "3dec4fa8d90d42dc9c4b65d31fc76ffb6cee1f0866e7d646e3681e8a5480f498",
+  "rendered_model_sha256": "af392619d93c82c6da1a0aacf622be976e3018a42d8df05e6aa1d465348f6894",
+  "source_review_sha256": "dfa90cf3c512411a1ca1c9b3df152d4ae1fa10aea559560d8ee8623052a964bc",
+  "captures": [
+    {
+      "file": "preview.png",
+      "sha256": "3dec4fa8d90d42dc9c4b65d31fc76ffb6cee1f0866e7d646e3681e8a5480f498"
+    },
+    {
+      "file": "side.png",
+      "sha256": "80454242b0771fe47296bf00a579c9402164d52c5df282b350be5bc452bf70c4"
+    },
+    {
+      "file": "top.png",
+      "sha256": "c6af11d1e5c965eeb64a8d1c97691c0ff8caaebe318f4e92e3c86d11e431f838"
+    },
+    {
+      "file": "head.png",
+      "sha256": "a9f8e419bc830d340206fc1427e2cfa1f7663610ec705703624be3d44a7bceea"
+    },
+    {
+      "file": "lod1.png",
+      "sha256": "58e2f00f1a009b1054a36dc791718a01bd21b9f818f456ddacf19a7e857a726f"
+    },
+    {
+      "file": "lod2.png",
+      "sha256": "322b960d1350d3771875ce684713f7da8798ef1c769586e166717b5051d49eda"
+    },
+    {
+      "file": "swim-0.png",
+      "sha256": "268129f830a0c3ac08875c9d1805469175d49d1f3b49c01afd55140f8df50256"
+    },
+    {
+      "file": "swim-25.png",
+      "sha256": "80454242b0771fe47296bf00a579c9402164d52c5df282b350be5bc452bf70c4"
+    },
+    {
+      "file": "swim-50.png",
+      "sha256": "4840ee9594d6e5a2508c252ddd95beaad5583622d72e7199a9ee7fa33b275642"
+    },
+    {
+      "file": "swim-75.png",
+      "sha256": "478ce3d73f6275681c3f88385722034a37d5b6c694204772423def77f37edcb1"
+    }
+  ],
+  "preview_kind": "Ten unmodified native Godot Forward+ captures of the actual downloaded recipe rebuilt05",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.shark-original/v1 authoring profile with swept pectoral/caudal fins and inset eyes",
+    "original 17-joint skin and visual swimming clip",
+    "original mathematical micrograin and vertex countershading"
+  ],
+  "rights": "Original numerical geometry, procedural micrograin, normal/ORM maps and vertex pigment. Anatomy references are consulted without copying pixels, geometry or historic game assets. Private GLBs, generators and bitmap files are excluded.",
+  "validation_scope": "Première revue originale encore stylisée : nage latérale sur place, sans hydrodynamique ni vitesse autoritaire. Bouche ouverte/dents, respiration, raccords et collisions exhaustifs des nageoires, virages, finition photoréaliste, monde principal, serveur/réseau/VR et FPS restent non qualifiés."
+}
