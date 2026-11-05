@@ -206,4 +206,14 @@ Recette exportée et capture de sa reconstruction, conservées sans réécriture
 
 Instantané historique de revue ; consulter la fiche pour la portée exacte des contrôles.
 
+## Dragon — tête originale seule
+
+![Dragon — tête originale seule — capture Godot du composant de tête seul](dragon-cranium-original/v0.1.0/preview.png)
+
+[Fiche 0.1.0](dragon-cranium-original/v0.1.0/README.md) · [Recette JSON](dragon-cranium-original/v0.1.0/recipe.json)
+
+Première pièce originale du dragon : crâne sans torse, mâchoire, yeux, cornes et creux nasaux. Trois détails sans bitmap, attache et export statique vérifiés dans l’éditeur et les deux modes Godot. Défauts artistiques visibles conservés dans la fiche.
+
+Composant de tête seul, encore stylisé : ni dragon complet ni photoréalisme final. Corps, articulation de la mâchoire, ailes, marche, vol, collisions exhaustives, monde principal, serveur, réseau, VR et FPS non qualifiés.
+
 La version statique du [scorpion 0.1.0](scorpion-original/v0.1.0/README.md) et le [génome d’araignée déjà catalogué](../../templates/xeno-editor/giant-spider-eight-legs/v0.2.0/README.md) restent conservés. L’inventaire et la recréation des autres familles se poursuivent.

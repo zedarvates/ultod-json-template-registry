@@ -1,0 +1,107 @@
+{
+  "format": "uo.creature-authoring",
+  "schema_version": 1,
+  "document_id": "project_3ad32d01-a85e-480e-9df4-cbcbaeb00098",
+  "genome_fields": {
+    "species_id": "custom_beast_01",
+    "species_name": "Bête Custom",
+    "chemistry": "water_carbon",
+    "base_traits": {
+      "scale": 1,
+      "diet": "herbivore",
+      "locomotion_preference": "crawling",
+      "aggressiveness": 0.5
+    },
+    "procedural_locomotion": {
+      "schema_version": 1,
+      "appendices": {
+        "appendix_type": "leg4",
+        "ik_profile": "quadruped",
+        "count": 4,
+        "step": {
+          "step_length": 0.65,
+          "step_height": 0.22,
+          "step_threshold": 0.42,
+          "step_duration": 0.24
+        },
+        "body": {
+          "body_clearance": 0.8,
+          "slope_compensation": 0.85,
+          "balance_mode": "planted",
+          "pelvis_stabilizer": 0.7,
+          "hip_offset": 0.45,
+          "shoulder_offset": 0.45,
+          "torque_compensation": 0.5,
+          "balance_threshold": 0.18
+        },
+        "visual": {
+          "mesh_template": "",
+          "material_template": "",
+          "scale": 1,
+          "surface_profile": {
+            "id": "short_fur_brown",
+            "label": "Chat - poil court brun",
+            "animal_family": "feline",
+            "surface_type": "fur",
+            "base_color": "#705e4d",
+            "secondary_color": "#b99a75",
+            "fiber_length_mm": 12,
+            "fiber_density": 0.78,
+            "fiber_scale": 46,
+            "pattern_strength": 0.18,
+            "roughness": 0.72,
+            "sheen_strength": 0.22,
+            "normal_strength": 0.055
+          }
+        }
+      },
+      "gait": {
+        "pattern": "alternating4",
+        "frequency": 1.8,
+        "phase_offset": 0.5,
+        "stability_mode": "stable"
+      },
+      "variants": {},
+      "appendage_groups": []
+    }
+  },
+  "instances": [
+    {
+      "id": "piece_95ec5bb5-f73a-44fc-bc7c-ea5ba3543daf",
+      "part_id": "review_dragon_head_v1",
+      "asset_sha256": "2af5195b3313425d6835ad384de636e98627b2a5be45bf146ae539e291c54a9c",
+      "attachment": {
+        "kind": "skeleton_socket",
+        "socket": "Head"
+      },
+      "pose": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation_degrees": [
+          0,
+          15,
+          0
+        ],
+        "scale": [
+          1.1,
+          0.9,
+          1.2
+        ]
+      },
+      "mirror_x": false,
+      "shape_controls": [],
+      "legacy_fields": {
+        "material": {
+          "tint": "#ffffff",
+          "roughness": null,
+          "emissive": "#000000",
+          "emissiveIntensity": 0
+        },
+        "material_lib": null
+      }
+    }
+  ]
+}
