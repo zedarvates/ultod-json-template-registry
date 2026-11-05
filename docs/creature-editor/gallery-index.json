@@ -162,6 +162,14 @@
       "summary": "Recette exportée et capture de sa reconstruction, conservées sans réécriture.",
       "scope": "Instantané historique de revue ; consulter la fiche pour la portée exacte des contrôles.",
       "preview_kind": "capture historique de la reconstruction"
+    },
+    {
+      "id": "dragon-cranium-original",
+      "name": "Dragon — tête originale seule",
+      "version": "v0.1.0",
+      "summary": "Première pièce originale du dragon : crâne sans torse, mâchoire, yeux, cornes et creux nasaux. Trois détails sans bitmap, attache et export statique vérifiés dans l’éditeur et les deux modes Godot. Défauts artistiques visibles conservés dans la fiche.",
+      "scope": "Composant de tête seul, encore stylisé : ni dragon complet ni photoréalisme final. Corps, articulation de la mâchoire, ailes, marche, vol, collisions exhaustives, monde principal, serveur, réseau, VR et FPS non qualifiés.",
+      "preview_kind": "capture Godot du composant de tête seul"
     }
   ]
 }

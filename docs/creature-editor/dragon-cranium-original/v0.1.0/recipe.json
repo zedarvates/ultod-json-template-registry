@@ -1,0 +1,38 @@
+{
+  "schema": "uo.dragon-head-project/v1",
+  "generator": "uo.dragon-cranium-original/v1",
+  "delivery": "review_only",
+  "recipe": {
+    "schema": "uo.dragon-cranium/v1",
+    "delivery": "review_only",
+    "profile": "original-horned-v1",
+    "scale": 1.0,
+    "pigment": "oxide-red",
+    "contains_torso": false
+  },
+  "lods": [
+    {
+      "lod": 0,
+      "sha256": "2af5195b3313425d6835ad384de636e98627b2a5be45bf146ae539e291c54a9c",
+      "bytes": 227456,
+      "triangles": 4292
+    },
+    {
+      "lod": 1,
+      "sha256": "bdc2d94ec3d249c821b1f585abe8e32fbc28c894242e6a3303848f833468fd19",
+      "bytes": 147504,
+      "triangles": 2532
+    },
+    {
+      "lod": 2,
+      "sha256": "9e1ddc48220db859331e97b06f5a75b701cb78b00035223eb9f066d668da291b",
+      "bytes": 92288,
+      "triangles": 1328
+    }
+  ],
+  "limitations": [
+    "Head only: body, wing rig, gait and flight are not qualified",
+    "Separate intersecting parts; no exhaustive collision or final photorealistic approval",
+    "No textures; original vertex pigment and PBR factors only"
+  ]
+}

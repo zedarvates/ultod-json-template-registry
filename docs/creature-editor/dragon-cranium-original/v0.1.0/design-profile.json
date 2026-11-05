@@ -1,0 +1,29 @@
+{
+  "schema": "uo.dragon-cranial-design/v1",
+  "delivery": "review_only",
+  "contains_torso": false,
+  "anatomical_region": "dragon_cranial",
+  "fantasy_anatomy": true,
+  "forward_axis": "-Z",
+  "boundary_origin": [
+    0,
+    0,
+    0
+  ],
+  "maximum_depth_m": 0.8001,
+  "eyes": 2,
+  "eye_embedding_m": 0.018,
+  "horns": 2,
+  "nasal_recesses": 2,
+  "textures": 0,
+  "pigment": "Original deterministic function of 3D position baked into COLOR_0. No texture image or imported historic asset.",
+  "rigged": false,
+  "art_backlog": [
+    "Curve and integrate brows instead of block-like pads",
+    "Smooth horn centerlines and their base transition",
+    "Refine eyelids, jaw continuity and nasal plate silhouette",
+    "Batch mesh sections after preserving anatomical inspection metadata"
+  ],
+  "editor_project_warning": "Saved exact attachment test on a default editor body, with generic default traits. These defaults are not dragon gameplay parameters.",
+  "scope": "Composant de tête seul, encore stylisé : ni dragon complet ni photoréalisme final. Corps, articulation de la mâchoire, ailes, marche, vol, collisions exhaustives, monde principal, serveur, réseau, VR et FPS non qualifiés."
+}

@@ -1,0 +1,60 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "16ddd922ce3be65dfcc8c3b776167305985782d4e55fb38cfd927a6b51f3edc7",
+  "preview_file": "preview.png",
+  "preview_sha256": "b7e73fefb3a1ab68d6f4cea7993a3d022101a5457e4066b4917e82279caa99e7",
+  "editor_project_file": "editor-project.json",
+  "editor_project_sha256": "c29d4ef89812d3dbd204f537880d6336e3f8ad35f7c20566dd5f38ce35b6a690",
+  "rendered_model_sha256": "2af5195b3313425d6835ad384de636e98627b2a5be45bf146ae539e291c54a9c",
+  "captures": [
+    {
+      "file": "lod0-front.png",
+      "sha256": "c159a211aea2adbffaa41c0f8891eb2f661d608195450c6dd164a20cda7923f6"
+    },
+    {
+      "file": "preview.png",
+      "sha256": "b7e73fefb3a1ab68d6f4cea7993a3d022101a5457e4066b4917e82279caa99e7"
+    },
+    {
+      "file": "lod0-side.png",
+      "sha256": "523e63e5f1796395e989b44ee6ab754614b30f0d2439096191031cfe2730551b"
+    },
+    {
+      "file": "lod1-front.png",
+      "sha256": "e6577537654dc91ab2203bd5aa1061df9d502e9ed04f65ac636dea723ef9a0cf"
+    },
+    {
+      "file": "lod1-three-quarter.png",
+      "sha256": "6c9a54985731b40ce9f4c8fcc5a1f278d37a1842df7cb0a42e2f4440432e0dfc"
+    },
+    {
+      "file": "lod1-side.png",
+      "sha256": "6730f29be5b6eae57cf6ef5708c324481c5063d6a8fd275b611d5cccb8486d46"
+    },
+    {
+      "file": "lod2-front.png",
+      "sha256": "2aac97300e0f6cd116401f319c0385795c2811bd68bfc2bc39d70c1c4c1d7f06"
+    },
+    {
+      "file": "lod2-three-quarter.png",
+      "sha256": "e2c91626dae976dc78174f46ccf6f68ce28108e758781056ced2abc48940fe53"
+    },
+    {
+      "file": "lod2-side.png",
+      "sha256": "259dca7deafe673def21642e4ebbdcd752767f01b6a8efc6aa34b7408a05e919"
+    }
+  ],
+  "preview_kind": "Unmodified native Godot compatibility captures of original head-only LODs",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.dragon-cranium-original/v1",
+    "review_dragon_head_v1 local original GLB",
+    "bestiary-dragon-cranial-v1 opt-in local editor pack"
+  ],
+  "rights": "Original numerical fantasy geometry and vertex pigment. No historic model, photograph or external bitmap opened or copied. Server templates and authoritative statistics unchanged.",
+  "validation_scope": "Composant de tête seul, encore stylisé : ni dragon complet ni photoréalisme final. Corps, articulation de la mâchoire, ailes, marche, vol, collisions exhaustives, monde principal, serveur, réseau, VR et FPS non qualifiés."
+}

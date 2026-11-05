@@ -1,0 +1,92 @@
+{
+  "schema": "uo.dragon-cranial-documentary-validation/v1",
+  "delivery": "review_only",
+  "lods": [
+    {
+      "lod": 0,
+      "sha256": "2af5195b3313425d6835ad384de636e98627b2a5be45bf146ae539e291c54a9c",
+      "triangles": 4292,
+      "meshes": 23,
+      "closed_components": 23,
+      "minimum_triangle_area_m2": 3.5353269822735456e-07,
+      "minimum_normal_alignment": 0.30201035737991333,
+      "coincident_colour_groups": 327,
+      "textures": 0,
+      "eye_embedding_m": 0.018,
+      "roles": {
+        "cranial_head_without_torso": 1,
+        "jaw": 1,
+        "nasal_recess": 1,
+        "eye": 2,
+        "iris": 2,
+        "vertical_pupil": 2,
+        "orbital_ridge": 2,
+        "horn": 2,
+        "tooth": 10
+      }
+    },
+    {
+      "lod": 1,
+      "sha256": "bdc2d94ec3d249c821b1f585abe8e32fbc28c894242e6a3303848f833468fd19",
+      "triangles": 2532,
+      "meshes": 21,
+      "closed_components": 21,
+      "minimum_triangle_area_m2": 4.3300036622895277e-07,
+      "minimum_normal_alignment": 0.3047053813934326,
+      "coincident_colour_groups": 223,
+      "textures": 0,
+      "eye_embedding_m": 0.018,
+      "roles": {
+        "cranial_head_without_torso": 1,
+        "jaw": 1,
+        "nasal_recess": 1,
+        "eye": 2,
+        "iris": 2,
+        "vertical_pupil": 2,
+        "orbital_ridge": 2,
+        "horn": 2,
+        "tooth": 8
+      }
+    },
+    {
+      "lod": 2,
+      "sha256": "9e1ddc48220db859331e97b06f5a75b701cb78b00035223eb9f066d668da291b",
+      "triangles": 1328,
+      "meshes": 19,
+      "closed_components": 19,
+      "minimum_triangle_area_m2": 4.3300036622895277e-07,
+      "minimum_normal_alignment": 0.30010557174682617,
+      "coincident_colour_groups": 157,
+      "textures": 0,
+      "eye_embedding_m": 0.018,
+      "roles": {
+        "cranial_head_without_torso": 1,
+        "jaw": 1,
+        "nasal_recess": 1,
+        "eye": 2,
+        "iris": 2,
+        "vertical_pupil": 2,
+        "orbital_ridge": 2,
+        "horn": 2,
+        "tooth": 6
+      }
+    }
+  ],
+  "native_engine": "4.8-beta2 (official)",
+  "renderers": [
+    "gl_compatibility",
+    "forward_plus"
+  ],
+  "native_static_editor_export": true,
+  "editor_anchor_error_m": 0,
+  "editor_roundtrip": true,
+  "invalid_imports_rejected": [
+    "stale_sha",
+    "backwards_orientation"
+  ],
+  "inline_views_and_widths": [
+    736,
+    320
+  ],
+  "scope": "Composant de tête seul, encore stylisé : ni dragon complet ni photoréalisme final. Corps, articulation de la mâchoire, ailes, marche, vol, collisions exhaustives, monde principal, serveur, réseau, VR et FPS non qualifiés."
+}
