@@ -246,4 +246,14 @@ Bases pelviennes et pectorales rentrées et contrôlées pendant la nage ; regro
 
 Revue originale encore stylisée : nage latérale locale, quatre lots par LOD et sommets de base des nageoires contrôlés sur129poses/LOD. Composants séparés, sans peau soudée, collision exhaustive ni hydrodynamique. Bouche ouverte/dents, finition photoréaliste, variantes spécifiques, monde principal, serveur/réseau/VR et FPS restent non qualifiés.
 
+## Crabe — huit pattes et pinces articulées
+
+![Crabe — huit pattes et pinces articulées — capture Godot de la recette téléchargée puis reconstruite](crab-original/v0.1.0/preview.png)
+
+[Fiche 0.1.0](crab-original/v0.1.0/README.md) · [Recette JSON](crab-original/v0.1.0/recipe.json)
+
+Nouvelle famille originale : marche latérale à huit pattes, deux pinces courbes animées et chitine originale256/128/128. Recette réellement téléchargée puis reconstruite ; appuis vérifiés dans l’éditeur et les deux modes Godot.
+
+Crabe original de revue : huit pattes marcheuses et deux pinces articulées, segments externes simplifiés et texture de chitine originale. Appuis cinématiques sur sol plat ; aucune preuve de masse/forces, terrain, collisions exhaustives, pression des pinces, anatomie finale, photoréalisme final, monde principal, serveur/réseau/VR ou FPS.
+
 La version statique du [scorpion 0.1.0](scorpion-original/v0.1.0/README.md) et le [génome d’araignée déjà catalogué](../../templates/xeno-editor/giant-spider-eight-legs/v0.2.0/README.md) restent conservés. L’inventaire et la recréation des autres familles se poursuivent.
