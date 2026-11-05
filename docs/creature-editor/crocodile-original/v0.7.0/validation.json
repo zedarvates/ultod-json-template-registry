@@ -1,0 +1,52 @@
+{
+  "frames": 601,
+  "bones": 31,
+  "lod_triangles": [
+    9566,
+    5442,
+    3066
+  ],
+  "minimum_all_geometry_y_m": 0.00019978837056418915,
+  "maximum_stance_absolute_y_m": 0.00033655715162260545,
+  "maximum_world_stance_anchor_error_m": 0.00013684027686936188,
+  "minimum_expected_supports": 3,
+  "minimum_peak_swing_clearance_m": 0.04494504345701315,
+  "maximum_sampled_edge_length_ratio": 1.4052112978553517,
+  "minimum_sampled_edge_length_ratio": 0.5648178067323624,
+  "texture_dimensions": [
+    [
+      512,
+      512
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "rgba8_complete_mip_estimate_bytes": 2097148,
+  "dynamic_skin_uv_measurements": {
+    "maximum_anisotropy": 2.378564970398256,
+    "minimum_albedo_texels_per_meter": 399.174864722749,
+    "maximum_albedo_texels_per_meter": 1510.8951526559626,
+    "samples_per_lod": 601
+  },
+  "schema": "uo.crocodile-documentary-validation/v1",
+  "delivery": "review_only",
+  "model_sha256": "fb1bdb6d9818067abeb06afb74d5cc93076ca7d97e93d791a09655ec00642940",
+  "model_bytes": 2216376,
+  "native_engine": "4.8-beta2 (official)",
+  "native_samples_per_lod": 241,
+  "selected_and_rebuilt_renderers": [
+    "forward_plus",
+    "gl_compatibility"
+  ],
+  "editor_recipe_download_and_rebuild": true,
+  "editor_source_sha256": "91fbe7b359d3e053c983048d97212fbe14e5b02002bff7ac54aa96160a179763",
+  "native_maximum_stance_anchor_error_m": 0.000136945105623454,
+  "native_minimum_supports": 3,
+  "scope": "Revue locale du crocodilien sur sol plat dans l’éditeur et Godot isolé. Finition photoréaliste, raccord cou/tête final, coutures du corps, dents, intersections exhaustives, terrain, virages, nage, forces, foule, monde principal, serveur/réseau/VR et FPS restent non qualifiés."
+}

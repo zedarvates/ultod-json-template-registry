@@ -1,0 +1,582 @@
+{
+  "schema": "uo.crocodile-uv-documentation/v1",
+  "delivery": "review_only",
+  "model_sha256": "fb1bdb6d9818067abeb06afb74d5cc93076ca7d97e93d791a09655ec00642940",
+  "rest_lods": [
+    {
+      "lod": 0,
+      "zero_area_uv_triangles": 0,
+      "groups": {
+        "body_tail": {
+          "triangles": 1411,
+          "maximum_anisotropy": 1.698916326709781,
+          "min_albedo_texels_per_meter": 824.9038700098024,
+          "max_albedo_texels_per_meter": 1075.1987477550354
+        },
+        "limbs": {
+          "triangles": 1389,
+          "maximum_anisotropy": 1.6949827003898128,
+          "min_albedo_texels_per_meter": 825.8630982315563,
+          "max_albedo_texels_per_meter": 1075.197743781631
+        },
+        "cranial_head_without_torso": {
+          "triangles": 1054,
+          "maximum_anisotropy": 1.7189202589755326,
+          "min_albedo_texels_per_meter": 409.8966511225734,
+          "max_albedo_texels_per_meter": 1510.895125950623
+        },
+        "jaw": {
+          "triangles": 576,
+          "maximum_anisotropy": 1.2748923666866447,
+          "min_albedo_texels_per_meter": 866.9579603255905,
+          "max_albedo_texels_per_meter": 1075.2011825741793
+        },
+        "orbital_ridge": {
+          "triangles": 576,
+          "maximum_anisotropy": 1.5999042457003636,
+          "min_albedo_texels_per_meter": 850.047483349025,
+          "max_albedo_texels_per_meter": 1070.8663643987356
+        },
+        "plantar_palm": {
+          "triangles": 128,
+          "maximum_anisotropy": 1.458732275774327,
+          "min_albedo_texels_per_meter": 890.228248050976,
+          "max_albedo_texels_per_meter": 1075.2013985476376
+        },
+        "digit": {
+          "triangles": 864,
+          "maximum_anisotropy": 1.2110703174638044,
+          "min_albedo_texels_per_meter": 977.0201057320145,
+          "max_albedo_texels_per_meter": 1074.8399422531677
+        },
+        "hind_web": {
+          "triangles": 64,
+          "maximum_anisotropy": 1.2903102216237243,
+          "min_albedo_texels_per_meter": 946.5471425831518,
+          "max_albedo_texels_per_meter": 1075.2005845043007
+        },
+        "dorsal_scute": {
+          "triangles": 448,
+          "maximum_anisotropy": 1.3946768954692872,
+          "min_albedo_texels_per_meter": 910.4447547430588,
+          "max_albedo_texels_per_meter": 1075.201067843537
+        }
+      }
+    },
+    {
+      "lod": 1,
+      "zero_area_uv_triangles": 0,
+      "groups": {
+        "body_tail": {
+          "triangles": 743,
+          "maximum_anisotropy": 1.6708069208055023,
+          "min_albedo_texels_per_meter": 831.8150779466474,
+          "max_albedo_texels_per_meter": 1075.1843727136243
+        },
+        "limbs": {
+          "triangles": 657,
+          "maximum_anisotropy": 1.6563305985185266,
+          "min_albedo_texels_per_meter": 835.4408216433187,
+          "max_albedo_texels_per_meter": 1074.4332641582846
+        },
+        "cranial_head_without_torso": {
+          "triangles": 626,
+          "maximum_anisotropy": 1.800046179845651,
+          "min_albedo_texels_per_meter": 406.4677979431169,
+          "max_albedo_texels_per_meter": 1423.2251546897244
+        },
+        "jaw": {
+          "triangles": 288,
+          "maximum_anisotropy": 1.2711501714166404,
+          "min_albedo_texels_per_meter": 865.4233770770044,
+          "max_albedo_texels_per_meter": 1075.2004769047296
+        },
+        "orbital_ridge": {
+          "triangles": 320,
+          "maximum_anisotropy": 1.6791496071919536,
+          "min_albedo_texels_per_meter": 829.7408811239222,
+          "max_albedo_texels_per_meter": 1072.9459520293956
+        },
+        "plantar_palm": {
+          "triangles": 96,
+          "maximum_anisotropy": 1.4463872288152206,
+          "min_albedo_texels_per_meter": 894.0190659810869,
+          "max_albedo_texels_per_meter": 1075.2011399496785
+        },
+        "digit": {
+          "triangles": 648,
+          "maximum_anisotropy": 1.2925651607537476,
+          "min_albedo_texels_per_meter": 945.7182777835902,
+          "max_albedo_texels_per_meter": 1075.1867346573522
+        },
+        "hind_web": {
+          "triangles": 48,
+          "maximum_anisotropy": 1.275965538573014,
+          "min_albedo_texels_per_meter": 951.8533483567911,
+          "max_albedo_texels_per_meter": 1075.200414600871
+        },
+        "dorsal_scute": {
+          "triangles": 288,
+          "maximum_anisotropy": 1.3732557224600752,
+          "min_albedo_texels_per_meter": 917.5157509517851,
+          "max_albedo_texels_per_meter": 1075.201076277475
+        }
+      }
+    },
+    {
+      "lod": 2,
+      "zero_area_uv_triangles": 0,
+      "groups": {
+        "body_tail": {
+          "triangles": 335,
+          "maximum_anisotropy": 1.615980542154667,
+          "min_albedo_texels_per_meter": 845.806751029624,
+          "max_albedo_texels_per_meter": 1075.196812283246
+        },
+        "limbs": {
+          "triangles": 265,
+          "maximum_anisotropy": 1.6200713119955934,
+          "min_albedo_texels_per_meter": 844.738272514134,
+          "max_albedo_texels_per_meter": 1073.7710497427704
+        },
+        "cranial_head_without_torso": {
+          "triangles": 358,
+          "maximum_anisotropy": 1.9270876858765063,
+          "min_albedo_texels_per_meter": 399.1748681923309,
+          "max_albedo_texels_per_meter": 1348.261426254465
+        },
+        "jaw": {
+          "triangles": 128,
+          "maximum_anisotropy": 1.3487126600692942,
+          "min_albedo_texels_per_meter": 862.7946924648894,
+          "max_albedo_texels_per_meter": 1075.2004855319208
+        },
+        "orbital_ridge": {
+          "triangles": 160,
+          "maximum_anisotropy": 1.531103540766014,
+          "min_albedo_texels_per_meter": 868.9327613760214,
+          "max_albedo_texels_per_meter": 1074.964789783536
+        },
+        "plantar_palm": {
+          "triangles": 80,
+          "maximum_anisotropy": 1.3491870444383793,
+          "min_albedo_texels_per_meter": 925.6637882225616,
+          "max_albedo_texels_per_meter": 1075.200978191487
+        },
+        "digit": {
+          "triangles": 540,
+          "maximum_anisotropy": 1.3841652626696652,
+          "min_albedo_texels_per_meter": 913.8900117477604,
+          "max_albedo_texels_per_meter": 1075.1935668571816
+        },
+        "hind_web": {
+          "triangles": 48,
+          "maximum_anisotropy": 1.275965538573014,
+          "min_albedo_texels_per_meter": 951.8533483567911,
+          "max_albedo_texels_per_meter": 1075.200414600871
+        },
+        "dorsal_scute": {
+          "triangles": 192,
+          "maximum_anisotropy": 1.3732558105489423,
+          "min_albedo_texels_per_meter": 917.5157803792713,
+          "max_albedo_texels_per_meter": 1075.2010456036116
+        }
+      }
+    }
+  ],
+  "previous_rest_lods": [
+    {
+      "lod": 0,
+      "zero_area_uv_triangles": 0,
+      "groups": {
+        "body_tail": {
+          "triangles": 1411,
+          "maximum_anisotropy": 1.698916326709781,
+          "min_albedo_texels_per_meter": 824.9038700098024,
+          "max_albedo_texels_per_meter": 1075.1987477550354
+        },
+        "limbs": {
+          "triangles": 1389,
+          "maximum_anisotropy": 1.6949827003898128,
+          "min_albedo_texels_per_meter": 825.8630982315563,
+          "max_albedo_texels_per_meter": 1075.197743781631
+        },
+        "cranial_head_without_torso": {
+          "triangles": 1054,
+          "maximum_anisotropy": 1.653373718335787,
+          "min_albedo_texels_per_meter": 442.20329947322944,
+          "max_albedo_texels_per_meter": 1553.2464174477848
+        },
+        "jaw": {
+          "triangles": 576,
+          "maximum_anisotropy": 1.4690488074614556,
+          "min_albedo_texels_per_meter": 887.0981570091884,
+          "max_albedo_texels_per_meter": 1075.2011267763112
+        },
+        "orbital_ridge": {
+          "triangles": 576,
+          "maximum_anisotropy": 1.678505921189294,
+          "min_albedo_texels_per_meter": 829.9004406413873,
+          "max_albedo_texels_per_meter": 1073.818206654174
+        },
+        "plantar_palm": {
+          "triangles": 128,
+          "maximum_anisotropy": 1.458732275774327,
+          "min_albedo_texels_per_meter": 890.228248050976,
+          "max_albedo_texels_per_meter": 1075.2013985476376
+        },
+        "digit": {
+          "triangles": 864,
+          "maximum_anisotropy": 1.2110703174638044,
+          "min_albedo_texels_per_meter": 977.0201057320145,
+          "max_albedo_texels_per_meter": 1074.8399422531677
+        },
+        "hind_web": {
+          "triangles": 64,
+          "maximum_anisotropy": 1.2903102216237243,
+          "min_albedo_texels_per_meter": 946.5471425831518,
+          "max_albedo_texels_per_meter": 1075.2005845043007
+        },
+        "dorsal_scute": {
+          "triangles": 448,
+          "maximum_anisotropy": 1.3946768954692872,
+          "min_albedo_texels_per_meter": 910.4447547430588,
+          "max_albedo_texels_per_meter": 1075.201067843537
+        }
+      }
+    },
+    {
+      "lod": 1,
+      "zero_area_uv_triangles": 0,
+      "groups": {
+        "body_tail": {
+          "triangles": 743,
+          "maximum_anisotropy": 1.6708069208055023,
+          "min_albedo_texels_per_meter": 831.8150779466474,
+          "max_albedo_texels_per_meter": 1075.1843727136243
+        },
+        "limbs": {
+          "triangles": 657,
+          "maximum_anisotropy": 1.6563305985185266,
+          "min_albedo_texels_per_meter": 835.4408216433187,
+          "max_albedo_texels_per_meter": 1074.4332641582846
+        },
+        "cranial_head_without_torso": {
+          "triangles": 626,
+          "maximum_anisotropy": 1.7279285820477477,
+          "min_albedo_texels_per_meter": 435.115820558442,
+          "max_albedo_texels_per_meter": 1458.6133472254141
+        },
+        "jaw": {
+          "triangles": 288,
+          "maximum_anisotropy": 1.4583587423139994,
+          "min_albedo_texels_per_meter": 890.3438149474732,
+          "max_albedo_texels_per_meter": 1075.2004908095676
+        },
+        "orbital_ridge": {
+          "triangles": 320,
+          "maximum_anisotropy": 1.5724360518260039,
+          "min_albedo_texels_per_meter": 857.4386549281274,
+          "max_albedo_texels_per_meter": 1071.7022119126827
+        },
+        "plantar_palm": {
+          "triangles": 96,
+          "maximum_anisotropy": 1.4463872288152206,
+          "min_albedo_texels_per_meter": 894.0190659810869,
+          "max_albedo_texels_per_meter": 1075.2011399496785
+        },
+        "digit": {
+          "triangles": 648,
+          "maximum_anisotropy": 1.2925651607537476,
+          "min_albedo_texels_per_meter": 945.7182777835902,
+          "max_albedo_texels_per_meter": 1075.1867346573522
+        },
+        "hind_web": {
+          "triangles": 48,
+          "maximum_anisotropy": 1.275965538573014,
+          "min_albedo_texels_per_meter": 951.8533483567911,
+          "max_albedo_texels_per_meter": 1075.200414600871
+        },
+        "dorsal_scute": {
+          "triangles": 288,
+          "maximum_anisotropy": 1.3732557224600752,
+          "min_albedo_texels_per_meter": 917.5157509517851,
+          "max_albedo_texels_per_meter": 1075.201076277475
+        }
+      }
+    },
+    {
+      "lod": 2,
+      "zero_area_uv_triangles": 0,
+      "groups": {
+        "body_tail": {
+          "triangles": 335,
+          "maximum_anisotropy": 1.615980542154667,
+          "min_albedo_texels_per_meter": 845.806751029624,
+          "max_albedo_texels_per_meter": 1075.196812283246
+        },
+        "limbs": {
+          "triangles": 265,
+          "maximum_anisotropy": 1.6200713119955934,
+          "min_albedo_texels_per_meter": 844.738272514134,
+          "max_albedo_texels_per_meter": 1073.7710497427704
+        },
+        "cranial_head_without_torso": {
+          "triangles": 358,
+          "maximum_anisotropy": 1.8513250628875886,
+          "min_albedo_texels_per_meter": 426.0807292279952,
+          "max_albedo_texels_per_meter": 1382.3860364028135
+        },
+        "jaw": {
+          "triangles": 128,
+          "maximum_anisotropy": 1.2124393145553651,
+          "min_albedo_texels_per_meter": 976.4715811289396,
+          "max_albedo_texels_per_meter": 1075.200469824337
+        },
+        "orbital_ridge": {
+          "triangles": 160,
+          "maximum_anisotropy": 1.5338770203312788,
+          "min_albedo_texels_per_meter": 868.1434430568006,
+          "max_albedo_texels_per_meter": 1072.7831159645334
+        },
+        "plantar_palm": {
+          "triangles": 80,
+          "maximum_anisotropy": 1.3491870444383793,
+          "min_albedo_texels_per_meter": 925.6637882225616,
+          "max_albedo_texels_per_meter": 1075.200978191487
+        },
+        "digit": {
+          "triangles": 540,
+          "maximum_anisotropy": 1.3841652626696652,
+          "min_albedo_texels_per_meter": 913.8900117477604,
+          "max_albedo_texels_per_meter": 1075.1935668571816
+        },
+        "hind_web": {
+          "triangles": 48,
+          "maximum_anisotropy": 1.275965538573014,
+          "min_albedo_texels_per_meter": 951.8533483567911,
+          "max_albedo_texels_per_meter": 1075.200414600871
+        },
+        "dorsal_scute": {
+          "triangles": 192,
+          "maximum_anisotropy": 1.3732558105489423,
+          "min_albedo_texels_per_meter": 917.5157803792713,
+          "max_albedo_texels_per_meter": 1075.2010456036116
+        }
+      }
+    }
+  ],
+  "cranial_roof_lods": [
+    {
+      "lod": 0,
+      "sha256": "bce00ba5f456f37a50edf5e27217ae7ae7f996907f96282a6decac0e745e4231",
+      "cranial_triangles": 1054,
+      "maximum_all_cranial_uv_anisotropy": 1.718924211482039,
+      "minimum_albedo_texels_per_meter": 409.89869580210495,
+      "maximum_albedo_texels_per_meter": 1510.8975441567443,
+      "continuous_roof_side_shared_edges": 1453,
+      "maximum_uv_difference_across_shared_edges": 0.0,
+      "ventral_chart_triangles": 64,
+      "eyes": [
+        {
+          "side": -1,
+          "actual_cranium_surface_from_eye_center_m": 0.001200004389660752,
+          "eye_posterior_embedding_m": 0.010200004389660752,
+          "eye_anterior_exposure_m": 0.0077999956103392476
+        },
+        {
+          "side": 1,
+          "actual_cranium_surface_from_eye_center_m": 0.001200002347711677,
+          "eye_posterior_embedding_m": 0.010200002347711677,
+          "eye_anterior_exposure_m": 0.007799997652288322
+        }
+      ]
+    },
+    {
+      "lod": 1,
+      "sha256": "a19cfc21be7a12ea2e4446f6e4b958b3cdbf4de89506e52628dc6ad679d541f8",
+      "cranial_triangles": 626,
+      "maximum_all_cranial_uv_anisotropy": 1.8000465680905149,
+      "minimum_albedo_texels_per_meter": 406.46928917166593,
+      "maximum_albedo_texels_per_meter": 1423.2252975852919,
+      "continuous_roof_side_shared_edges": 851,
+      "maximum_uv_difference_across_shared_edges": 0.0,
+      "ventral_chart_triangles": 44,
+      "eyes": [
+        {
+          "side": -1,
+          "actual_cranium_surface_from_eye_center_m": 0.0012000021733076561,
+          "eye_posterior_embedding_m": 0.010200002173307656,
+          "eye_anterior_exposure_m": 0.007799997826692343
+        },
+        {
+          "side": 1,
+          "actual_cranium_surface_from_eye_center_m": 0.0012000021733076555,
+          "eye_posterior_embedding_m": 0.010200002173307654,
+          "eye_anterior_exposure_m": 0.007799997826692344
+        }
+      ]
+    },
+    {
+      "lod": 2,
+      "sha256": "237efdcc5a8cb99664229c6b812f3381f25e7a6cd64e8be94c5170261484c780",
+      "cranial_triangles": 358,
+      "maximum_all_cranial_uv_anisotropy": 1.9270868266426293,
+      "minimum_albedo_texels_per_meter": 399.175623770224,
+      "maximum_albedo_texels_per_meter": 1348.2616958031126,
+      "continuous_roof_side_shared_edges": 481,
+      "maximum_uv_difference_across_shared_edges": 0.0,
+      "ventral_chart_triangles": 28,
+      "eyes": [
+        {
+          "side": -1,
+          "actual_cranium_surface_from_eye_center_m": 0.0012000019865075371,
+          "eye_posterior_embedding_m": 0.010200001986507536,
+          "eye_anterior_exposure_m": 0.007799998013492462
+        },
+        {
+          "side": 1,
+          "actual_cranium_surface_from_eye_center_m": 0.0012000019865075374,
+          "eye_posterior_embedding_m": 0.010200001986507537,
+          "eye_anterior_exposure_m": 0.007799998013492462
+        }
+      ]
+    }
+  ],
+  "selected_dynamic": {
+    "maximum_anisotropy": 2.2058294769878497,
+    "minimum_albedo_texels_per_meter": 399.174864722749,
+    "maximum_albedo_texels_per_meter": 1510.8951526559626,
+    "samples_per_lod": 601
+  },
+  "reconstructed_dynamic": {
+    "maximum_anisotropy": 2.378564970398256,
+    "minimum_albedo_texels_per_meter": 399.174864722749,
+    "maximum_albedo_texels_per_meter": 1510.8951526559626,
+    "samples_per_lod": 601
+  },
+  "regression": {
+    "status": "PASS_V7_UNCHANGED_BODY_CLIPS_IMAGES_BUDGETS_AND_CONTINUOUS_JAW",
+    "pairs": [
+      {
+        "old": "25",
+        "new": "27",
+        "body_attributes_clip_and_images_exact": true,
+        "cuts": [
+          {
+            "lod": 0,
+            "old_jaw_cut_edges": {
+              "all": 52,
+              "end_caps": 32,
+              "longitudinal": 20,
+              "longitudinal_only_ventral": false,
+              "side_chart_orientation_signs": 2
+            },
+            "new_jaw_cut_edges": {
+              "all": 49,
+              "end_caps": 32,
+              "longitudinal": 17,
+              "longitudinal_only_ventral": true,
+              "side_chart_orientation_signs": 1
+            }
+          },
+          {
+            "lod": 1,
+            "old_jaw_cut_edges": {
+              "all": 24,
+              "end_caps": 24,
+              "longitudinal": 0,
+              "longitudinal_only_ventral": true,
+              "side_chart_orientation_signs": 2
+            },
+            "new_jaw_cut_edges": {
+              "all": 35,
+              "end_caps": 24,
+              "longitudinal": 11,
+              "longitudinal_only_ventral": true,
+              "side_chart_orientation_signs": 1
+            }
+          },
+          {
+            "lod": 2,
+            "old_jaw_cut_edges": {
+              "all": 16,
+              "end_caps": 16,
+              "longitudinal": 0,
+              "longitudinal_only_ventral": true,
+              "side_chart_orientation_signs": 2
+            },
+            "new_jaw_cut_edges": {
+              "all": 23,
+              "end_caps": 16,
+              "longitudinal": 7,
+              "longitudinal_only_ventral": true,
+              "side_chart_orientation_signs": 1
+            }
+          }
+        ]
+      },
+      {
+        "old": "26",
+        "new": "28",
+        "body_attributes_clip_and_images_exact": true,
+        "cuts": [
+          {
+            "lod": 0,
+            "old_jaw_cut_edges": {
+              "all": 52,
+              "end_caps": 32,
+              "longitudinal": 20,
+              "longitudinal_only_ventral": false,
+              "side_chart_orientation_signs": 2
+            },
+            "new_jaw_cut_edges": {
+              "all": 49,
+              "end_caps": 32,
+              "longitudinal": 17,
+              "longitudinal_only_ventral": true,
+              "side_chart_orientation_signs": 1
+            }
+          },
+          {
+            "lod": 1,
+            "old_jaw_cut_edges": {
+              "all": 24,
+              "end_caps": 24,
+              "longitudinal": 0,
+              "longitudinal_only_ventral": true,
+              "side_chart_orientation_signs": 2
+            },
+            "new_jaw_cut_edges": {
+              "all": 35,
+              "end_caps": 24,
+              "longitudinal": 11,
+              "longitudinal_only_ventral": true,
+              "side_chart_orientation_signs": 1
+            }
+          },
+          {
+            "lod": 2,
+            "old_jaw_cut_edges": {
+              "all": 16,
+              "end_caps": 16,
+              "longitudinal": 0,
+              "longitudinal_only_ventral": true,
+              "side_chart_orientation_signs": 2
+            },
+            "new_jaw_cut_edges": {
+              "all": 23,
+              "end_caps": 16,
+              "longitudinal": 7,
+              "longitudinal_only_ventral": true,
+              "side_chart_orientation_signs": 1
+            }
+          }
+        ]
+      }
+    ],
+    "v6_head_regeneration_byte_exact": true,
+    "chart_scope": "One orientation-preserving longitudinal strip, seam on ventral midline, two independent endcaps. Total cut count is not claimed to decrease; former projected top/bottom charts can overlap without UV discontinuities."
+  },
+  "scope": "All actual textured triangles; jaw conformal initialization then triangle metric fitting. One ventral longitudinal seam plus separate end caps. Maxima improve across LOD0/1; LOD2 jaw anisotropy increases locally from1.2124 to1.3487. Whole-body directional seams remain."
+}
