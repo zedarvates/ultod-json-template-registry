@@ -1,0 +1,759 @@
+{
+  "schema": "uo.skeleton-v2-measurements-documentation/v1",
+  "delivery": "review_only",
+  "selected": {
+    "status": "PASS_SKELETON_GEOMETRY_ANATOMY_UV_AND_FLAT_CONTACTS",
+    "sha256": "9481acf757210e81b89a0d58761eba6099db729f7688487ec2f9ff2ed2b26707",
+    "bones": 49,
+    "lod_triangles": [
+      25462,
+      11032,
+      8692
+    ],
+    "frames": 721,
+    "geometry": [
+      {
+        "lod": 0,
+        "anatomy": {
+          "vertebral_body": 24,
+          "neural_arch": 24,
+          "spinous_process": 24,
+          "sacrum": 1,
+          "ilium": 2,
+          "pelvic_ring": 2,
+          "pubic_bridge": 2,
+          "rib": 24,
+          "clavicle": 2,
+          "scapula": 2,
+          "sternum": 1,
+          "cranium_with_cavities": 1,
+          "maxillary_arc": 1,
+          "zygomatic_arch": 2,
+          "mandible": 1,
+          "mandibular_ramus": 2,
+          "humeral_head": 2,
+          "humerus": 2,
+          "radius": 2,
+          "ulna": 2,
+          "carpal": 16,
+          "metacarpal": 10,
+          "finger_phalanx": 28,
+          "femoral_head": 2,
+          "femur": 2,
+          "patella": 2,
+          "tibia": 2,
+          "fibula": 2,
+          "heel_contact": 2,
+          "talus": 2,
+          "tarsal": 10,
+          "metatarsal": 10,
+          "metatarsal_contact": 10,
+          "toe_phalanx": 28,
+          "tooth": 32
+        },
+        "triangles": 25462,
+        "closed_components": 281
+      },
+      {
+        "lod": 1,
+        "anatomy": {
+          "vertebral_body": 24,
+          "neural_arch": 24,
+          "spinous_process": 24,
+          "sacrum": 1,
+          "ilium": 2,
+          "pelvic_ring": 2,
+          "pubic_bridge": 2,
+          "rib": 24,
+          "clavicle": 2,
+          "scapula": 2,
+          "sternum": 1,
+          "cranium_with_cavities": 1,
+          "maxillary_arc": 1,
+          "zygomatic_arch": 2,
+          "mandible": 1,
+          "mandibular_ramus": 2,
+          "humeral_head": 2,
+          "humerus": 2,
+          "radius": 2,
+          "ulna": 2,
+          "carpal": 16,
+          "metacarpal": 10,
+          "finger_phalanx": 28,
+          "femoral_head": 2,
+          "femur": 2,
+          "patella": 2,
+          "tibia": 2,
+          "fibula": 2,
+          "heel_contact": 2,
+          "talus": 2,
+          "tarsal": 10,
+          "metatarsal": 10,
+          "metatarsal_contact": 10,
+          "toe_phalanx": 28,
+          "tooth": 32
+        },
+        "triangles": 11032,
+        "closed_components": 281
+      },
+      {
+        "lod": 2,
+        "anatomy": {
+          "vertebral_body": 24,
+          "neural_arch": 24,
+          "spinous_process": 24,
+          "sacrum": 1,
+          "ilium": 2,
+          "pelvic_ring": 2,
+          "pubic_bridge": 2,
+          "rib": 24,
+          "clavicle": 2,
+          "scapula": 2,
+          "sternum": 1,
+          "cranium_with_cavities": 1,
+          "maxillary_arc": 1,
+          "zygomatic_arch": 2,
+          "mandible": 1,
+          "mandibular_ramus": 2,
+          "humeral_head": 2,
+          "humerus": 2,
+          "radius": 2,
+          "ulna": 2,
+          "carpal": 16,
+          "metacarpal": 10,
+          "finger_phalanx": 28,
+          "femoral_head": 2,
+          "femur": 2,
+          "patella": 2,
+          "tibia": 2,
+          "fibula": 2,
+          "heel_contact": 2,
+          "talus": 2,
+          "tarsal": 10,
+          "metatarsal": 10,
+          "metatarsal_contact": 10,
+          "toe_phalanx": 28,
+          "tooth": 32
+        },
+        "triangles": 8692,
+        "closed_components": 281
+      }
+    ],
+    "minimum_all_geometry_y_m": 0.0001289706106735185,
+    "maximum_stance_plane_error_m": 9.870387405781027e-05,
+    "maximum_world_stance_anchor_error_m": 9.887422511274545e-05,
+    "minimum_expected_supports": 1,
+    "minimum_peak_swing_contact_y_m": 0.07864421529134995,
+    "minimum_declared_volume_proxy_margin_m": 0.018494678785578093,
+    "maximum_rest_uv_anisotropy": 1.7219392950026364,
+    "scope": "Actual decoded rigid bone geometry, clip and flat-ground foot contacts. Piece-volume proxy includes overlaps and is not physical mass, force balance, terrain, exhaustive collisions, gameplay, network, VR or final art approval.",
+    "texture_dimensions": [
+      [
+        256,
+        256
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ]
+    ],
+    "rgba8_complete_mip_estimate_bytes": 524284
+  },
+  "reconstructed": {
+    "status": "PASS_SKELETON_GEOMETRY_ANATOMY_UV_AND_FLAT_CONTACTS",
+    "sha256": "e8fdb8c6a116bc72c79de37c2e10d9d180d5ccbbf8d78a6dbfc0f8f972637d5f",
+    "bones": 49,
+    "lod_triangles": [
+      25462,
+      11032,
+      8692
+    ],
+    "frames": 721,
+    "geometry": [
+      {
+        "lod": 0,
+        "anatomy": {
+          "vertebral_body": 24,
+          "neural_arch": 24,
+          "spinous_process": 24,
+          "sacrum": 1,
+          "ilium": 2,
+          "pelvic_ring": 2,
+          "pubic_bridge": 2,
+          "rib": 24,
+          "clavicle": 2,
+          "scapula": 2,
+          "sternum": 1,
+          "cranium_with_cavities": 1,
+          "maxillary_arc": 1,
+          "zygomatic_arch": 2,
+          "mandible": 1,
+          "mandibular_ramus": 2,
+          "humeral_head": 2,
+          "humerus": 2,
+          "radius": 2,
+          "ulna": 2,
+          "carpal": 16,
+          "metacarpal": 10,
+          "finger_phalanx": 28,
+          "femoral_head": 2,
+          "femur": 2,
+          "patella": 2,
+          "tibia": 2,
+          "fibula": 2,
+          "heel_contact": 2,
+          "talus": 2,
+          "tarsal": 10,
+          "metatarsal": 10,
+          "metatarsal_contact": 10,
+          "toe_phalanx": 28,
+          "tooth": 32
+        },
+        "triangles": 25462,
+        "closed_components": 281
+      },
+      {
+        "lod": 1,
+        "anatomy": {
+          "vertebral_body": 24,
+          "neural_arch": 24,
+          "spinous_process": 24,
+          "sacrum": 1,
+          "ilium": 2,
+          "pelvic_ring": 2,
+          "pubic_bridge": 2,
+          "rib": 24,
+          "clavicle": 2,
+          "scapula": 2,
+          "sternum": 1,
+          "cranium_with_cavities": 1,
+          "maxillary_arc": 1,
+          "zygomatic_arch": 2,
+          "mandible": 1,
+          "mandibular_ramus": 2,
+          "humeral_head": 2,
+          "humerus": 2,
+          "radius": 2,
+          "ulna": 2,
+          "carpal": 16,
+          "metacarpal": 10,
+          "finger_phalanx": 28,
+          "femoral_head": 2,
+          "femur": 2,
+          "patella": 2,
+          "tibia": 2,
+          "fibula": 2,
+          "heel_contact": 2,
+          "talus": 2,
+          "tarsal": 10,
+          "metatarsal": 10,
+          "metatarsal_contact": 10,
+          "toe_phalanx": 28,
+          "tooth": 32
+        },
+        "triangles": 11032,
+        "closed_components": 281
+      },
+      {
+        "lod": 2,
+        "anatomy": {
+          "vertebral_body": 24,
+          "neural_arch": 24,
+          "spinous_process": 24,
+          "sacrum": 1,
+          "ilium": 2,
+          "pelvic_ring": 2,
+          "pubic_bridge": 2,
+          "rib": 24,
+          "clavicle": 2,
+          "scapula": 2,
+          "sternum": 1,
+          "cranium_with_cavities": 1,
+          "maxillary_arc": 1,
+          "zygomatic_arch": 2,
+          "mandible": 1,
+          "mandibular_ramus": 2,
+          "humeral_head": 2,
+          "humerus": 2,
+          "radius": 2,
+          "ulna": 2,
+          "carpal": 16,
+          "metacarpal": 10,
+          "finger_phalanx": 28,
+          "femoral_head": 2,
+          "femur": 2,
+          "patella": 2,
+          "tibia": 2,
+          "fibula": 2,
+          "heel_contact": 2,
+          "talus": 2,
+          "tarsal": 10,
+          "metatarsal": 10,
+          "metatarsal_contact": 10,
+          "toe_phalanx": 28,
+          "tooth": 32
+        },
+        "triangles": 8692,
+        "closed_components": 281
+      }
+    ],
+    "minimum_all_geometry_y_m": 0.00012680991486196098,
+    "maximum_stance_plane_error_m": 9.86328513107715e-05,
+    "maximum_world_stance_anchor_error_m": 9.883483909605381e-05,
+    "minimum_expected_supports": 1,
+    "minimum_peak_swing_contact_y_m": 0.07863898405917567,
+    "minimum_declared_volume_proxy_margin_m": 0.018034131067912632,
+    "maximum_rest_uv_anisotropy": 1.7219392950026364,
+    "scope": "Actual decoded rigid bone geometry, clip and flat-ground foot contacts. Piece-volume proxy includes overlaps and is not physical mass, force balance, terrain, exhaustive collisions, gameplay, network, VR or final art approval.",
+    "texture_dimensions": [
+      [
+        256,
+        256
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ]
+    ],
+    "rgba8_complete_mip_estimate_bytes": 524284
+  },
+  "details": {
+    "status": "PASS_EXPORTED_SKELETON_CAVITIES_AND_SAMPLED_DENTAL_EXPOSURE",
+    "sha256": "e8fdb8c6a116bc72c79de37c2e10d9d180d5ccbbf8d78a6dbfc0f8f972637d5f",
+    "lods": [
+      {
+        "lod": 0,
+        "cavities": [
+          {
+            "name": "OrbitL",
+            "actual_first_surface_depth_m": 0.04742052923116151,
+            "exported_bottom_error_m": 1.6059670954193805e-09
+          },
+          {
+            "name": "OrbitR",
+            "actual_first_surface_depth_m": 0.047420529231161496,
+            "exported_bottom_error_m": 1.6059671092971683e-09
+          },
+          {
+            "name": "Nasal",
+            "actual_first_surface_depth_m": 0.03529144618795291,
+            "exported_bottom_error_m": 2.0000379491458276e-08
+          }
+        ],
+        "sampled_anterior_crowns": [
+          {
+            "upper_tooth": 6,
+            "sample_vertex": [
+              0.01689736545085907,
+              1.5636667013168335,
+              -0.09154960513114929
+            ],
+            "first_bone_behind_crown": true
+          },
+          {
+            "upper_tooth": 7,
+            "sample_vertex": [
+              0.007017349358648062,
+              1.5636667013168335,
+              -0.09430211782455444
+            ],
+            "first_bone_behind_crown": true
+          },
+          {
+            "upper_tooth": 8,
+            "sample_vertex": [
+              -0.007017349358648062,
+              1.5636667013168335,
+              -0.09430211782455444
+            ],
+            "first_bone_behind_crown": true
+          },
+          {
+            "upper_tooth": 9,
+            "sample_vertex": [
+              -0.01689736545085907,
+              1.5636667013168335,
+              -0.09154960513114929
+            ],
+            "first_bone_behind_crown": true
+          }
+        ]
+      },
+      {
+        "lod": 1,
+        "cavities": [
+          {
+            "name": "OrbitL",
+            "actual_first_surface_depth_m": 0.047420529160511773,
+            "exported_bottom_error_m": 1.6766168314807928e-09
+          },
+          {
+            "name": "OrbitR",
+            "actual_first_surface_depth_m": 0.04742052916051179,
+            "exported_bottom_error_m": 1.676616817603005e-09
+          },
+          {
+            "name": "Nasal",
+            "actual_first_surface_depth_m": 0.03515887835829931,
+            "exported_bottom_error_m": 2.0768263025994216e-08
+          }
+        ],
+        "sampled_anterior_crowns": [
+          {
+            "upper_tooth": 6,
+            "sample_vertex": [
+              0.020485106855630875,
+              1.559999942779541,
+              -0.09038405865430832
+            ],
+            "first_bone_behind_crown": true
+          },
+          {
+            "upper_tooth": 7,
+            "sample_vertex": [
+              0.006914342287927866,
+              1.559999942779541,
+              -0.09324043244123459
+            ],
+            "first_bone_behind_crown": true
+          },
+          {
+            "upper_tooth": 8,
+            "sample_vertex": [
+              -0.006914342287927866,
+              1.559999942779541,
+              -0.09324043244123459
+            ],
+            "first_bone_behind_crown": true
+          },
+          {
+            "upper_tooth": 9,
+            "sample_vertex": [
+              -0.020485106855630875,
+              1.559999942779541,
+              -0.09038405865430832
+            ],
+            "first_bone_behind_crown": true
+          }
+        ]
+      },
+      {
+        "lod": 2,
+        "cavities": [
+          {
+            "name": "OrbitL",
+            "actual_first_surface_depth_m": 0.047420529182341964,
+            "exported_bottom_error_m": 1.6547866410476786e-09
+          },
+          {
+            "name": "OrbitR",
+            "actual_first_surface_depth_m": 0.047420529182341964,
+            "exported_bottom_error_m": 1.6547866410476786e-09
+          },
+          {
+            "name": "Nasal",
+            "actual_first_surface_depth_m": 0.03484153285858865,
+            "exported_bottom_error_m": 2.1100933361717367e-08
+          }
+        ],
+        "sampled_anterior_crowns": [
+          {
+            "upper_tooth": 6,
+            "sample_vertex": [
+              0.020485106855630875,
+              1.559999942779541,
+              -0.09038405865430832
+            ],
+            "first_bone_behind_crown": true
+          },
+          {
+            "upper_tooth": 7,
+            "sample_vertex": [
+              0.006914342287927866,
+              1.559999942779541,
+              -0.09324043244123459
+            ],
+            "first_bone_behind_crown": true
+          },
+          {
+            "upper_tooth": 8,
+            "sample_vertex": [
+              -0.006914342287927866,
+              1.559999942779541,
+              -0.09324043244123459
+            ],
+            "first_bone_behind_crown": true
+          },
+          {
+            "upper_tooth": 9,
+            "sample_vertex": [
+              -0.020485106855630875,
+              1.559999942779541,
+              -0.09038405865430832
+            ],
+            "first_bone_behind_crown": true
+          }
+        ]
+      }
+    ],
+    "scope": "Three centre rays into closed skull cavities and four upper anterior crown samples per LOD; not exhaustive dental or anatomical intersection approval."
+  },
+  "jaw": {
+    "status": "PASS_EXPORTED_V2_JAW_HINGE_AND_SAMPLED_ARCADE_SEPARATION",
+    "sha256": "e8fdb8c6a116bc72c79de37c2e10d9d180d5ccbbf8d78a6dbfc0f8f972637d5f",
+    "bind_hinge_m": [
+      0.0,
+      1.62,
+      0.009333333333333332
+    ],
+    "lods": [
+      {
+        "lod": 0,
+        "samples": [
+          {
+            "angle_degrees": 0.0,
+            "minimum_global_vertical_arcade_gap_m": 0.0026665925979614258,
+            "maximum_lower_vertex_motion_m": 0.0
+          },
+          {
+            "angle_degrees": 1.0,
+            "minimum_global_vertical_arcade_gap_m": 0.0035309038541844195,
+            "maximum_lower_vertex_motion_m": 0.0021797661886447674
+          },
+          {
+            "angle_degrees": 2.0,
+            "minimum_global_vertical_arcade_gap_m": 0.004042333052149294,
+            "maximum_lower_vertex_motion_m": 0.004359366379655026
+          },
+          {
+            "angle_degrees": 3.0,
+            "minimum_global_vertical_arcade_gap_m": 0.00453415278844127,
+            "maximum_lower_vertex_motion_m": 0.006538634588037347
+          },
+          {
+            "angle_degrees": 4.0,
+            "minimum_global_vertical_arcade_gap_m": 0.00500621325000461,
+            "maximum_lower_vertex_motion_m": 0.008717404854080547
+          },
+          {
+            "angle_degrees": 5.0,
+            "minimum_global_vertical_arcade_gap_m": 0.005458370642649646,
+            "maximum_lower_vertex_motion_m": 0.010895511255993268
+          },
+          {
+            "angle_degrees": 6.0,
+            "minimum_global_vertical_arcade_gap_m": 0.0058904872348541915,
+            "maximum_lower_vertex_motion_m": 0.013072787922540099
+          },
+          {
+            "angle_degrees": 7.0,
+            "minimum_global_vertical_arcade_gap_m": 0.006302431399718866,
+            "maximum_lower_vertex_motion_m": 0.015249069045673377
+          },
+          {
+            "angle_degrees": 8.0,
+            "minimum_global_vertical_arcade_gap_m": 0.006694077655059916,
+            "maximum_lower_vertex_motion_m": 0.017424188893159588
+          },
+          {
+            "angle_degrees": 9.0,
+            "minimum_global_vertical_arcade_gap_m": 0.007065306701634189,
+            "maximum_lower_vertex_motion_m": 0.019597981821201104
+          },
+          {
+            "angle_degrees": 10.0,
+            "minimum_global_vertical_arcade_gap_m": 0.007416005459477848,
+            "maximum_lower_vertex_motion_m": 0.021770282287050302
+          },
+          {
+            "angle_degrees": 11.0,
+            "minimum_global_vertical_arcade_gap_m": 0.00774606710235215,
+            "maximum_lower_vertex_motion_m": 0.023940924861616183
+          },
+          {
+            "angle_degrees": 12.0,
+            "minimum_global_vertical_arcade_gap_m": 0.008055391090283193,
+            "maximum_lower_vertex_motion_m": 0.026109744242062905
+          }
+        ]
+      },
+      {
+        "lod": 1,
+        "samples": [
+          {
+            "angle_degrees": 0.0,
+            "minimum_global_vertical_arcade_gap_m": 0.0026665925979614258,
+            "maximum_lower_vertex_motion_m": 0.0
+          },
+          {
+            "angle_degrees": 1.0,
+            "minimum_global_vertical_arcade_gap_m": 0.0035309038541844195,
+            "maximum_lower_vertex_motion_m": 0.0021797661886447674
+          },
+          {
+            "angle_degrees": 2.0,
+            "minimum_global_vertical_arcade_gap_m": 0.004042333052149294,
+            "maximum_lower_vertex_motion_m": 0.004359366379655026
+          },
+          {
+            "angle_degrees": 3.0,
+            "minimum_global_vertical_arcade_gap_m": 0.00453415278844127,
+            "maximum_lower_vertex_motion_m": 0.006538634588037347
+          },
+          {
+            "angle_degrees": 4.0,
+            "minimum_global_vertical_arcade_gap_m": 0.00500621325000461,
+            "maximum_lower_vertex_motion_m": 0.008717404854080547
+          },
+          {
+            "angle_degrees": 5.0,
+            "minimum_global_vertical_arcade_gap_m": 0.005458370642649646,
+            "maximum_lower_vertex_motion_m": 0.010895511255993268
+          },
+          {
+            "angle_degrees": 6.0,
+            "minimum_global_vertical_arcade_gap_m": 0.0058904872348541915,
+            "maximum_lower_vertex_motion_m": 0.013072787922540099
+          },
+          {
+            "angle_degrees": 7.0,
+            "minimum_global_vertical_arcade_gap_m": 0.006302431399718866,
+            "maximum_lower_vertex_motion_m": 0.015249069045673377
+          },
+          {
+            "angle_degrees": 8.0,
+            "minimum_global_vertical_arcade_gap_m": 0.006694077655059916,
+            "maximum_lower_vertex_motion_m": 0.017424188893159588
+          },
+          {
+            "angle_degrees": 9.0,
+            "minimum_global_vertical_arcade_gap_m": 0.007065306701634189,
+            "maximum_lower_vertex_motion_m": 0.019597981821201104
+          },
+          {
+            "angle_degrees": 10.0,
+            "minimum_global_vertical_arcade_gap_m": 0.007416005459477848,
+            "maximum_lower_vertex_motion_m": 0.021770282287050302
+          },
+          {
+            "angle_degrees": 11.0,
+            "minimum_global_vertical_arcade_gap_m": 0.00774606710235215,
+            "maximum_lower_vertex_motion_m": 0.023940924861616183
+          },
+          {
+            "angle_degrees": 12.0,
+            "minimum_global_vertical_arcade_gap_m": 0.008055391090283193,
+            "maximum_lower_vertex_motion_m": 0.026109744242062905
+          }
+        ]
+      },
+      {
+        "lod": 2,
+        "samples": [
+          {
+            "angle_degrees": 0.0,
+            "minimum_global_vertical_arcade_gap_m": 0.0026665925979614258,
+            "maximum_lower_vertex_motion_m": 0.0
+          },
+          {
+            "angle_degrees": 1.0,
+            "minimum_global_vertical_arcade_gap_m": 0.0035309038541844195,
+            "maximum_lower_vertex_motion_m": 0.0021797661886447674
+          },
+          {
+            "angle_degrees": 2.0,
+            "minimum_global_vertical_arcade_gap_m": 0.004042333052149294,
+            "maximum_lower_vertex_motion_m": 0.004359366379655026
+          },
+          {
+            "angle_degrees": 3.0,
+            "minimum_global_vertical_arcade_gap_m": 0.00453415278844127,
+            "maximum_lower_vertex_motion_m": 0.006538634588037347
+          },
+          {
+            "angle_degrees": 4.0,
+            "minimum_global_vertical_arcade_gap_m": 0.00500621325000461,
+            "maximum_lower_vertex_motion_m": 0.008717404854080547
+          },
+          {
+            "angle_degrees": 5.0,
+            "minimum_global_vertical_arcade_gap_m": 0.005458370642649646,
+            "maximum_lower_vertex_motion_m": 0.010895511255993268
+          },
+          {
+            "angle_degrees": 6.0,
+            "minimum_global_vertical_arcade_gap_m": 0.0058904872348541915,
+            "maximum_lower_vertex_motion_m": 0.013072787922540099
+          },
+          {
+            "angle_degrees": 7.0,
+            "minimum_global_vertical_arcade_gap_m": 0.006302431399718866,
+            "maximum_lower_vertex_motion_m": 0.015249069045673377
+          },
+          {
+            "angle_degrees": 8.0,
+            "minimum_global_vertical_arcade_gap_m": 0.006694077655059916,
+            "maximum_lower_vertex_motion_m": 0.017424188893159588
+          },
+          {
+            "angle_degrees": 9.0,
+            "minimum_global_vertical_arcade_gap_m": 0.007065306701634189,
+            "maximum_lower_vertex_motion_m": 0.019597981821201104
+          },
+          {
+            "angle_degrees": 10.0,
+            "minimum_global_vertical_arcade_gap_m": 0.007416005459477848,
+            "maximum_lower_vertex_motion_m": 0.021770282287050302
+          },
+          {
+            "angle_degrees": 11.0,
+            "minimum_global_vertical_arcade_gap_m": 0.00774606710235215,
+            "maximum_lower_vertex_motion_m": 0.023940924861616183
+          },
+          {
+            "angle_degrees": 12.0,
+            "minimum_global_vertical_arcade_gap_m": 0.008055391090283193,
+            "maximum_lower_vertex_motion_m": 0.026109744242062905
+          }
+        ]
+      }
+    ],
+    "scope": "Decoded rigid teeth at13openings perLOD. Global vertical separation certifies sampled inter-arcade nonintersection, not adjacent teeth, implants, hinge embedding, exhaustive skull collisions or gameplay."
+  },
+  "regression": {
+    "status": "PASS_SKELETON_V2_RECONSTRUCTION_UNCHANGED_BODY_AND_LEGACY_BYTES",
+    "pairs": [
+      {
+        "old": "03",
+        "new": "07",
+        "noncranial_attributes_materials_images_and_48_bind_matrices_exact": true,
+        "jaw_bind_pivot_corrected": true
+      },
+      {
+        "old": "04",
+        "new": "08",
+        "noncranial_attributes_materials_images_and_48_bind_matrices_exact": true,
+        "jaw_bind_pivot_corrected": true
+      }
+    ],
+    "legacy_reproduction_revision": "09",
+    "legacy_model_byte_exact": true,
+    "scope": "Body geometry/materials/pixels preserved; walking clips revalidated because the changed head alters the declared volume proxy. No physical, exhaustive collision or final art approval."
+  },
+  "measurement_label_aliases": [
+    {
+      "source": "skull_with_cavities",
+      "published": "cranium_with_cavities",
+      "reason": "Avoid registry sku-key collision; values unchanged"
+    }
+  ],
+  "scope": "Revue locale encore stylisée. Crâne, bassin et proportions restent à affiner avant approbation photoréaliste. Contrôles de marche sur sol plat et séparation verticale des deux arcades sur les ouvertures échantillonnées ; pas de collisions dentaires/craniales exhaustives, forces, terrain, attaque, équipement, monde principal, serveur/réseau, VR ou FPS qualifiés."
+}

@@ -1,0 +1,95 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "5051092b65116f6824b6cd05b30dfae77df7b9e0f53539b37500d05f9402ca36",
+  "preview_file": "preview.png",
+  "preview_sha256": "85c98cafd90b0bc84a5789f3cc8ffb600e3fa3c7a9a06c517c06fbddc93fa3ac",
+  "rendered_model_sha256": "e8fdb8c6a116bc72c79de37c2e10d9d180d5ccbbf8d78a6dbfc0f8f972637d5f",
+  "source_review_sha256": "9481acf757210e81b89a0d58761eba6099db729f7688487ec2f9ff2ed2b26707",
+  "captures": [
+    {
+      "file": "preview.png",
+      "sha256": "85c98cafd90b0bc84a5789f3cc8ffb600e3fa3c7a9a06c517c06fbddc93fa3ac",
+      "model_sha256": "e8fdb8c6a116bc72c79de37c2e10d9d180d5ccbbf8d78a6dbfc0f8f972637d5f",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed08"
+    },
+    {
+      "file": "head.png",
+      "sha256": "c88d304f3936bcb42d9e48b7e31eeaad00e9baadbb1139850e2054412a3c9485",
+      "model_sha256": "e8fdb8c6a116bc72c79de37c2e10d9d180d5ccbbf8d78a6dbfc0f8f972637d5f",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed08"
+    },
+    {
+      "file": "jaw-open.png",
+      "sha256": "423a3bb6954906c79f486672aaeb54fd0d16aebf5bde2df079900d050db159fd",
+      "model_sha256": "e8fdb8c6a116bc72c79de37c2e10d9d180d5ccbbf8d78a6dbfc0f8f972637d5f",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed08"
+    },
+    {
+      "file": "feet.png",
+      "sha256": "35a5f259832f3fa163ecef4b1589ade89350437943906a0e35b4575e692f93dc",
+      "model_sha256": "e8fdb8c6a116bc72c79de37c2e10d9d180d5ccbbf8d78a6dbfc0f8f972637d5f",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed08"
+    },
+    {
+      "file": "lod1.png",
+      "sha256": "27dc3493c44013c05d5a23dac65563c2a4be3a09aacd96915963e351f604b6e9",
+      "model_sha256": "e8fdb8c6a116bc72c79de37c2e10d9d180d5ccbbf8d78a6dbfc0f8f972637d5f",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed08"
+    },
+    {
+      "file": "lod2.png",
+      "sha256": "7fa155fa3ad5401b128ed8af42f0bedd539b6499666d5b4a0d141a8d4eda05b6",
+      "model_sha256": "e8fdb8c6a116bc72c79de37c2e10d9d180d5ccbbf8d78a6dbfc0f8f972637d5f",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed08"
+    },
+    {
+      "file": "walk-0.png",
+      "sha256": "302b4b2d36f5aff81adc2413af9e5e4921151ff818ae37cc5f5a068f1e2928ec",
+      "model_sha256": "e8fdb8c6a116bc72c79de37c2e10d9d180d5ccbbf8d78a6dbfc0f8f972637d5f",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed08"
+    },
+    {
+      "file": "walk-25.png",
+      "sha256": "22490f99e56ac1fe4a1ad929dbd534c0d6137607009292450316aaddb11d5d75",
+      "model_sha256": "e8fdb8c6a116bc72c79de37c2e10d9d180d5ccbbf8d78a6dbfc0f8f972637d5f",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed08"
+    },
+    {
+      "file": "walk-50.png",
+      "sha256": "595e68947b4b277dd9bd6b2a9d2b75327f4522feaaa2ebd78007897c41d7ca3b",
+      "model_sha256": "e8fdb8c6a116bc72c79de37c2e10d9d180d5ccbbf8d78a6dbfc0f8f972637d5f",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed08"
+    },
+    {
+      "file": "walk-75.png",
+      "sha256": "4417d8be6e1e9b9c77f86b11bfd9be19a1c91fa7d02847bfcdaba0a0057e8d88",
+      "model_sha256": "e8fdb8c6a116bc72c79de37c2e10d9d180d5ccbbf8d78a6dbfc0f8f972637d5f",
+      "kind": "unmodified native Forward+ capture of downloaded recipe reconstructed08"
+    },
+    {
+      "file": "comparison-v1.png",
+      "sha256": "f649aad9839ac337485dc8528f09077596216c870aa0fb495eb74c585ba2bbdc",
+      "model_sha256": "c335705804cbc8e55d1e8f6c4b88e95f29d790d4cf10dc807b46110fd61a53ed",
+      "kind": "unmodified native comparison, identical camera relative to actual head bone, time0.665s and stride0.23m"
+    },
+    {
+      "file": "comparison-v2.png",
+      "sha256": "46fe18ced9d07d5bd117ef18fe9ab2d918c30a048248868f1f1fe345b3d03f29",
+      "model_sha256": "9481acf757210e81b89a0d58761eba6099db729f7688487ec2f9ff2ed2b26707",
+      "kind": "unmodified native comparison, identical camera relative to actual head bone, time0.665s and stride0.23m"
+    }
+  ],
+  "preview_kind": "Ten native rebuilt captures plus two matched native head comparisons",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.skeleton-original/v1",
+    "facial-bones-v2",
+    "original cortical bone bitmap and rigid biped adapter"
+  ],
+  "rights": "Original mathematical geometry and original project ImageGen material. Anatomical references only; no reference pixels/mesh copied. Private GLBs, generators, source bitmap and production genomes excluded.",
+  "validation_scope": "Revue locale encore stylisée. Crâne, bassin et proportions restent à affiner avant approbation photoréaliste. Contrôles de marche sur sol plat et séparation verticale des deux arcades sur les ouvertures échantillonnées ; pas de collisions dentaires/craniales exhaustives, forces, terrain, attaque, équipement, monde principal, serveur/réseau, VR ou FPS qualifiés."
+}

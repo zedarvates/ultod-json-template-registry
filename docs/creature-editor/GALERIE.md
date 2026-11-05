@@ -266,14 +266,14 @@ Nouvelle famille octopoïde : implantation native de huit bras, profil original 
 
 Première adaptation originale octopoïde encore stylisée : huit bras, ventouses creuses et ondulation locale. Raccords tête/manteau/bras, coutures UV visibles, ventouses anguleuses et bec simplifié restent à améliorer. Pas de photoréalisme final, collisions exhaustives, adhésion, tissu/forces, hydrodynamique, vitesse autoritaire, monde principal, serveur/réseau/VR ou FPS qualifiés.
 
-## Squelette — os, cavités et marche bipède
+## Squelette — crâne affiné et mâchoire articulée
 
-![Squelette — os, cavités et marche bipède — capture Godot de la recette téléchargée puis reconstruite](skeleton-original/v0.1.0/preview.png)
+![Squelette — crâne affiné et mâchoire articulée — capture Godot de la recette téléchargée puis reconstruite](skeleton-original/v0.2.0/preview.png)
 
-[Fiche 0.1.0](skeleton-original/v0.1.0/README.md) · [Recette JSON](skeleton-original/v0.1.0/recipe.json)
+[Fiche 0.2.0](skeleton-original/v0.2.0/README.md) · [Recette JSON](skeleton-original/v0.2.0/recipe.json)
 
-Nouvelle famille de morts-vivants : anatomie osseuse originale, crâne à cavités, mains et pieds détaillés. Recette téléchargée puis reconstruite, inspection par région et marche vérifiées dans l’éditeur et deux modes Godot ; finition encore stylisée.
+Relief facial repris, couronnes différenciées et pivot mandibulaire corrigé. Ouverture bornée vérifiée sur les vrais sommets dans l’éditeur et Godot ; marche et reconstruction requalifiées, images conservées.
 
-Première adaptation originale encore stylisée. Crâne, bassin et proportions des os restent à affiner ; coutures de projection et intersections articulaires non exhaustivement qualifiées. Sol plat uniquement : pas de photoréalisme final, forces/friction, équilibre physique, terrain, attaque, mort, équipement, monde principal, serveur/réseau, VR ou FPS qualifiés.
+Revue locale encore stylisée. Crâne, bassin et proportions restent à affiner avant approbation photoréaliste. Contrôles de marche sur sol plat et séparation verticale des deux arcades sur les ouvertures échantillonnées ; pas de collisions dentaires/craniales exhaustives, forces, terrain, attaque, équipement, monde principal, serveur/réseau, VR ou FPS qualifiés.
 
 La version statique du [scorpion 0.1.0](scorpion-original/v0.1.0/README.md) et le [génome d’araignée déjà catalogué](../../templates/xeno-editor/giant-spider-eight-legs/v0.2.0/README.md) restent conservés. L’inventaire et la recréation des autres familles se poursuivent.

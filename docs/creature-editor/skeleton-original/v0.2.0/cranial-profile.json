@@ -1,0 +1,58 @@
+{
+  "schema": "uo.skeleton-cranial-documentation/v1",
+  "delivery": "review_only",
+  "id": "facial-bones-v2",
+  "inheritance": "Missing cranial_profile retains legacy-v1, reproduced byte-exact",
+  "features": [
+    "Smooth orbit remapping",
+    "Brow and malar relief with temporal narrowing",
+    "Elliptical mandibular corpus",
+    "Incisor/canine/molar crown profiles",
+    "Local conforming triangle subdivision before sculpting"
+  ],
+  "jaw_hinge_at_height1_8m_m": [
+    0.0,
+    1.62,
+    0.009333333333333332
+  ],
+  "inspection_angle_degrees": [
+    0,
+    12
+  ],
+  "rig_joints": 49,
+  "material_batches": 2,
+  "old_lod_triangles": [
+    25374,
+    10864,
+    8692
+  ],
+  "new_lod_triangles": [
+    25462,
+    11032,
+    8692
+  ],
+  "textures": {
+    "images": 3,
+    "dimensions": [
+      [
+        256,
+        256
+      ],
+      [
+        128,
+        128
+      ],
+      [
+        128,
+        128
+      ]
+    ],
+    "rgba8_complete_mip_estimate_bytes": 524284,
+    "source_sha256": "b039c18295bfae26dfd6d47f93a5af68e86ccd02fb363933a19f39d9b641b94d",
+    "scope": "Original generated albedo; approximate derived normal and roughness, not measured material data"
+  },
+  "references": [
+    "https://openstax.org/books/anatomy-and-physiology-2e/pages/7-2-the-skull"
+  ],
+  "scope": "Revue locale encore stylisée. Crâne, bassin et proportions restent à affiner avant approbation photoréaliste. Contrôles de marche sur sol plat et séparation verticale des deux arcades sur les ouvertures échantillonnées ; pas de collisions dentaires/craniales exhaustives, forces, terrain, attaque, équipement, monde principal, serveur/réseau, VR ou FPS qualifiés."
+}
