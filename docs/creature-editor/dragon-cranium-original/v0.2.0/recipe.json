@@ -1,0 +1,41 @@
+{
+  "schema": "uo.dragon-head-project/v2",
+  "generator": "uo.dragon-cranium-original/v2",
+  "delivery": "review_only",
+  "recipe": {
+    "schema": "uo.dragon-cranium/v2",
+    "delivery": "review_only",
+    "profile": "connected-nares-integrated-orbits-v2-compact-eyes",
+    "scale": 1.0,
+    "pigment": "oxide-red",
+    "contains_torso": false
+  },
+  "lods": [
+    {
+      "lod": 0,
+      "sha256": "17ecfdd283e9f87b0312562ac02e34926aca465d37618129b6702a7fa3ed2d9f",
+      "bytes": 288432,
+      "triangles": 6308,
+      "meshes": 8
+    },
+    {
+      "lod": 1,
+      "sha256": "521b08a3b6fd3f5ab30b5370b8a5d91d27d593eb5673fa7c5358035ca51968d2",
+      "bytes": 190004,
+      "triangles": 3862,
+      "meshes": 8
+    },
+    {
+      "lod": 2,
+      "sha256": "eb62b0033e5722025bb80c1d6f0d4f38a65ba6e494ada71237a84df8c89051e2",
+      "bytes": 115692,
+      "triangles": 2084,
+      "meshes": 8
+    }
+  ],
+  "limitations": [
+    "Head only, rigid; body/gait/wings/flight unqualified",
+    "Separate jaw, horn, eye and lid surfaces overlap; no final art or exhaustive collision approval",
+    "Original untextured vertex pigment; microrelief still missing"
+  ]
+}

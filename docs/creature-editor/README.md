@@ -16,7 +16,7 @@ Ces instantanés proviennent des ateliers de l’éditeur de créatures. Les rec
 | Rapace — peau et écailles | 0.2.0 | [Recette et captures Godot](raptor-original/v0.2.0/README.md) |
 | Lapin — museau, paupières et oreilles | 0.2.0 | [Recette et captures Godot — tête affinée](rabbit-original/v0.2.0/README.md) |
 | Grenouille géante — peau et doigts palmés | 0.1.0 | [Recette et captures Godot — première revue](frog-original/v0.1.0/README.md) |
-| Dragon — tête originale seule | 0.1.0 | [Composant et captures Godot — revue partielle](dragon-cranium-original/v0.1.0/README.md) |
+| Dragon — crâne et narines connectés | 0.2.0 | [Composant et comparaisons Godot — revue partielle](dragon-cranium-original/v0.2.0/README.md) |
 | Biche — silhouette et marche | 0.1.0 | [Recette et captures Godot](deer-doe-original/v0.1.0/README.md) |
 | Cerf à bois — silhouette et marche | 0.1.0 | [Recette et captures Godot](deer-stag-original/v0.1.0/README.md) |
 | Cheval brun — silhouette et marche | 0.1.0 | [Recette et captures Godot](horse-original/v0.1.0/README.md) |

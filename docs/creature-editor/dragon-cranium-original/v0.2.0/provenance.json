@@ -1,0 +1,84 @@
+{
+  "schema": "uo.creature-documentary-snapshot/v1",
+  "delivery": "review_only",
+  "server_authoritative": false,
+  "human_art_review": false,
+  "recipe_file": "recipe.json",
+  "recipe_sha256": "e28b47544c773ce413119ff2407c62e114be3246d9342f85c6a3be9672efa636",
+  "preview_file": "preview.png",
+  "preview_sha256": "acce379a4c5cff821bbb39485c2a8520bfa564eaf1fda6144ab92db961c1357f",
+  "editor_project_file": "editor-project.json",
+  "editor_project_sha256": "f07b5ba5fb3cd8f5cf286fefa5d32b353f79e0020e723ef82f8446e35942970a",
+  "rendered_model_sha256": "17ecfdd283e9f87b0312562ac02e34926aca465d37618129b6702a7fa3ed2d9f",
+  "captures": [
+    {
+      "file": "lod0-front.png",
+      "sha256": "95b5089d47b9a1afef31ab37be67d038b82a394357a11e651322b336c1ecd953",
+      "version": "selected03"
+    },
+    {
+      "file": "preview.png",
+      "sha256": "acce379a4c5cff821bbb39485c2a8520bfa564eaf1fda6144ab92db961c1357f",
+      "version": "selected03"
+    },
+    {
+      "file": "lod0-side.png",
+      "sha256": "fc99d4b588543c47155bc179209c8edfca185a8921a397806e939dfcdd8eee13",
+      "version": "selected03"
+    },
+    {
+      "file": "lod1-front.png",
+      "sha256": "e3e40b0fc5827013c079824a139e257a946666c77f2f5e9e852777ee53e8c353",
+      "version": "selected03"
+    },
+    {
+      "file": "lod1-three-quarter.png",
+      "sha256": "925247c6b72a9805453b14b9e3ee22fc5056060f9e8c67cd9aac9e70bfbb6b39",
+      "version": "selected03"
+    },
+    {
+      "file": "lod1-side.png",
+      "sha256": "d9f43ffc85d21a13b429e683fef712fd21ac26f4cc45bc487de5abe6bffd0977",
+      "version": "selected03"
+    },
+    {
+      "file": "lod2-front.png",
+      "sha256": "cf4a4c478b612104d603a7008bf32a649c4fb44b780b39b2e6029d573a02ea3e",
+      "version": "selected03"
+    },
+    {
+      "file": "lod2-three-quarter.png",
+      "sha256": "df71174f623ed80d5c28fc9bce6f463d4b44897f8978606a824ca0bda7ef30cd",
+      "version": "selected03"
+    },
+    {
+      "file": "lod2-side.png",
+      "sha256": "8c4506bb775c16add498537adb6791cbfc42f77fa83f5a282195c06fd57e9014",
+      "version": "selected03"
+    },
+    {
+      "file": "before-front.png",
+      "sha256": "fb8a8e8881b92efd90168fc5d3c8046d0e137dda21f8ee8928dd62b18a6a5a6a",
+      "version": "v0.1.0 rerendered in the same fixture"
+    },
+    {
+      "file": "before-three-quarter.png",
+      "sha256": "f1d7f839734091bb46131dbf08d41ada8b48e92388816565e572acf4887d5dff",
+      "version": "v0.1.0 rerendered in the same fixture"
+    },
+    {
+      "file": "before-side.png",
+      "sha256": "0681d1bbdf9fb63c28b5b0fb9aed0c0bf954d46c091e5a2b70ddb20fec0202dd",
+      "version": "v0.1.0 rerendered in the same fixture"
+    }
+  ],
+  "preview_kind": "Unmodified native Godot comparison captures, same camera and lighting for v1 and selected03",
+  "dependencies_included": false,
+  "required_dependencies": [
+    "uo.dragon-cranium-original/v2",
+    "review_dragon_head_v3 private local GLB",
+    "bestiary-dragon-cranial-v3 opt-in editor pack"
+  ],
+  "rights": "Original numerical fantasy geometry and vertex pigment; no historic model, photograph or external bitmap copied. Server templates and authoritative stats unchanged.",
+  "validation_scope": "Tête seule encore stylisée, sans microrelief de peau ni rig de mâchoire. Corps, marche, ailes, vol, terrain, collisions exhaustives, monde principal, serveur/réseau/VR, FPS et photoréalisme final non qualifiés."
+}

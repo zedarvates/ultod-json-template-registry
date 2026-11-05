@@ -1,0 +1,33 @@
+{
+  "schema": "uo.dragon-cranial-design/v2",
+  "delivery": "review_only",
+  "contains_torso": false,
+  "anatomical_region": "dragon_cranial",
+  "fantasy_anatomy": true,
+  "forward_axis": "-Z",
+  "boundary_origin": [
+    0,
+    0,
+    0
+  ],
+  "maximum_depth_m": 0.7901,
+  "eyes": 2,
+  "eye_embedding_m": 0.034,
+  "nasal_cups": 2,
+  "nasal_depth_m": 0.029,
+  "textures": 0,
+  "rigged": false,
+  "batches": "Eight material/anatomical-role batches. Per-component triangle ranges retained; jaw independent for future rig.",
+  "sculpt": "Original continuous orbital ridges and Bezier horn centerlines",
+  "pigment": "Original 3D vertex pigment with angular iris variation; no copied image or model",
+  "editor_dependency_id": "review_dragon_head_v3",
+  "editor_pack": "bestiary-dragon-cranial-v3",
+  "editor_project_warning": "Exact attachment test on generic default editor body. Defaults are not dragon gameplay parameters.",
+  "art_backlog": [
+    "Full body and four original walking legs",
+    "Original skin microdetail and smooth material transitions",
+    "Refine eyelids, horn/skull junction and mouth interior",
+    "Jaw rig and later independent wing rig"
+  ],
+  "scope": "Tête seule encore stylisée, sans microrelief de peau ni rig de mâchoire. Corps, marche, ailes, vol, terrain, collisions exhaustives, monde principal, serveur/réseau/VR, FPS et photoréalisme final non qualifiés."
+}
