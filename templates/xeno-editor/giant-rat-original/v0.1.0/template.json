@@ -1,0 +1,68 @@
+{
+  "$schema": "../../../schemas/xeno-editor/v1.2.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "xeno-editor:giant-rat-original",
+  "slug": "giant-rat-original",
+  "family": "xeno-editor",
+  "version": "0.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "xeno-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:c7ebca76cf41bf84468b70b892f857782dd91dc243d51e2e094ce2b77d7c46d5",
+  "spec": {
+    "display_name": "Rat géant original",
+    "genome_file": "assets/xeno-editor/giant-rat-original/v0.1.0/genome.json",
+    "source_recipe_file": "assets/xeno-editor/giant-rat-original/v0.1.0/source-recipe.json",
+    "preview_file": "assets/xeno-editor/giant-rat-original/v0.1.0/preview.png",
+    "godot_preview_file": "assets/xeno-editor/giant-rat-original/v0.1.0/godot-preview.png",
+    "registration_file": "assets/xeno-editor/giant-rat-original/v0.1.0/registration.json",
+    "genome_sha256": "fc896655b4b2150438cc411de4409101f064c30d08d9df5b0e65e1886196820b",
+    "source_recipe_sha256": "6918ca06b84f76e4bb37680c27d7fec6acbad27d94c783ede7402312b527c68a",
+    "preview_sha256": "c34ea15c10e2230e08d8a6165ac1c537f23b1164ac6f1cd390c37c3982f5dee8",
+    "godot_preview_sha256": "fecb0f43bcafd45d50cc8b36788d72114b848fe3fbce53e5d773c155f0304ffc",
+    "registration_sha256": "c70c5b956d43338748f9356f1933bc6e798d5ff3663b87dcc82e8b6263b15494",
+    "reviewed_model_sha256": "1a9ba2c51a92f8dc2900ed3f9bf84025c9bede2f54d796fb40128911113afca8",
+    "review_status": "review-only",
+    "evidence_scope": "editor-export-and-static-godot-import",
+    "parts": [
+      {
+        "id": "rat_body_original_01",
+        "file": "assets/xeno-editor/giant-rat-original/v0.1.0/parts/rat_body_original_01.glb",
+        "sha256": "1fdf9ead7347025e5ea2e0cd074352490efc6fe827e6ffb4fdd273514839f3b6"
+      },
+      {
+        "id": "rat_head_original_01",
+        "file": "assets/xeno-editor/giant-rat-original/v0.1.0/parts/rat_head_original_01.glb",
+        "sha256": "600c497dc2768e1c3a8b4c53bd6980b6a1be9daf4ed778143a434a8080dca16b"
+      },
+      {
+        "id": "rat_tail_original_01",
+        "file": "assets/xeno-editor/giant-rat-original/v0.1.0/parts/rat_tail_original_01.glb",
+        "sha256": "a5a97b8717e6945547093d29c470d00014bfa7137044e91e7304d41fb9d1d32a"
+      },
+      {
+        "id": "rat_leg_frontl_original_01",
+        "file": "assets/xeno-editor/giant-rat-original/v0.1.0/parts/rat_leg_frontl_original_01.glb",
+        "sha256": "0cf9ca39e20b588c1251f6adf99c5c24c4d729a2c00324199b84e5bb613063bc"
+      },
+      {
+        "id": "rat_leg_frontr_original_01",
+        "file": "assets/xeno-editor/giant-rat-original/v0.1.0/parts/rat_leg_frontr_original_01.glb",
+        "sha256": "f65d2eb748056d4cd6de97589bd22c328c53e4632198bfa3a118d4f681b39792"
+      },
+      {
+        "id": "rat_leg_hindl_original_01",
+        "file": "assets/xeno-editor/giant-rat-original/v0.1.0/parts/rat_leg_hindl_original_01.glb",
+        "sha256": "e50ffaebf61b9889c3530b6f6cf9174c8ab31a4a168b07e90d0b8080101dda39"
+      },
+      {
+        "id": "rat_leg_hindr_original_01",
+        "file": "assets/xeno-editor/giant-rat-original/v0.1.0/parts/rat_leg_hindr_original_01.glb",
+        "sha256": "a2f3554017a760a83ba1eb177a131250437509c48c8cc8fe8d08e7d4e380eb16"
+      }
+    ]
+  }
+}

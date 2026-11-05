@@ -1,0 +1,120 @@
+{
+  "schema": "uo.creature-editor-review-parts-fragment/v1",
+  "delivery": "review_only",
+  "parts": [
+    {
+      "part_id": "serpent_body_original_01",
+      "name": "serpent body original 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "serpent_head_original_01",
+      "name": "serpent head original 01",
+      "category": "head",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "serpent_body_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/serpent_body_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "0bf7825d38f131a3931954e1a310f6206c345424546021ee0ac07d21d8180fd4",
+      "bytes": 64696,
+      "triangles": 3104,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural serpent geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "serpent_head_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/serpent_head_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "1ed10b700981afad883e017a1c15b5cdb8a28f22c4239987f4ffff48426afbf2",
+      "bytes": 37328,
+      "triangles": 1604,
+      "metadata": {
+        "category": "head",
+        "part_role": "primitive",
+        "source": "original local procedural serpent geometry; new uniform colors"
+      }
+    }
+  ],
+  "design": {
+    "parts": {
+      "serpent_body_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original serpent component, static review."
+      },
+      "serpent_head_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "head",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original serpent component, static review."
+      }
+    }
+  }
+}

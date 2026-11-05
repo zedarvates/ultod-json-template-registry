@@ -124200,6 +124200,150 @@
       "supersedes": [
         "xeno-editor:giant-spider-eight-legs@0.1.0"
       ]
+    },
+    {
+      "name": "xeno-editor",
+      "kind": "json-schema",
+      "version": "1.2.0",
+      "status": "experimental",
+      "file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "231c8b678315311aa1b8c1697f80769820132e9c8b91a86dec72dea8cde0a7aa",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "xeno-editor:giant-scorpion-original",
+      "slug": "giant-scorpion-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:54ac4255889d40ec2eb5074d21f66534e168e029a08f6b0d7eb452de90e7dbb4",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "giant-scorpion-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/giant-scorpion-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "38156d22e2169b0bac9120b64058d4b3d239cc8da71ffff3ef110e86f46d1bb9"
+    },
+    {
+      "id": "xeno-editor:gazer-original-three-eyes",
+      "slug": "gazer-original-three-eyes",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:ac4421225afe4ddebbb43b97d3f82769a75fa4c8a3aea4137e08abf82156d7c9",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "gazer-original-three-eyes",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/gazer-original-three-eyes/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "fb26b1d86635a1b8e790d5b41b3b78c0eeb55f2dd8b62d135e2e09c6fa2502a6"
+    },
+    {
+      "id": "xeno-editor:serpent-original",
+      "slug": "serpent-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:0f53f0c09853ef18e45133fcf6444100b5332dc63e3c083ebeecf106f3a3e764",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "serpent-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/serpent-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "0437050e94458fde43e23fae37f7e88a3d6e45557bf566a723f121baa5bbc583"
+    },
+    {
+      "id": "xeno-editor:giant-bat-original",
+      "slug": "giant-bat-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:00b12b12ad38af69a654814fb931eed05b271945e90fca1bb096f8180bf834dd",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "giant-bat-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/giant-bat-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "9645a5204a50f63e5900fc9e9262cc654fc1d7b3f56a9d976f386e54c14940b8"
+    },
+    {
+      "id": "xeno-editor:giant-rat-original",
+      "slug": "giant-rat-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:c7ebca76cf41bf84468b70b892f857782dd91dc243d51e2e094ce2b77d7c46d5",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "giant-rat-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/giant-rat-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "ceeb8370959a571be0818621d66315cd63e15ca6175bee84041b7073764c5b3b"
+    },
+    {
+      "id": "xeno-editor:giant-crab-original",
+      "slug": "giant-crab-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:49e62363af906707e15f90643bef6ba5e95ecc4ced942b5d77db105761cf4525",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "giant-crab-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/giant-crab-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "e69c9037d9096919671c17b441af8040fe600d2df0e6ca5fd26a278b79ce5732"
+    },
+    {
+      "id": "xeno-editor:shark-original",
+      "slug": "shark-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:28a47dec41fe23d6de9dd453f69b3f415548af41d74a643030ff2b3e3910a6fa",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "shark-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/shark-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "9e3e95850b4a634c82eebc3b706f5def3c36a528df5f80fa510bb0a9a83cd4e2"
     }
   ],
   "aliases": []

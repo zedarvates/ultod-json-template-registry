@@ -1,0 +1,73 @@
+{
+  "$schema": "../../../schemas/xeno-editor/v1.2.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "xeno-editor:gazer-original-three-eyes",
+  "slug": "gazer-original-three-eyes",
+  "family": "xeno-editor",
+  "version": "0.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "xeno-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:ac4421225afe4ddebbb43b97d3f82769a75fa4c8a3aea4137e08abf82156d7c9",
+  "spec": {
+    "display_name": "Gazer original — trois yeux",
+    "genome_file": "assets/xeno-editor/gazer-original-three-eyes/v0.1.0/genome.json",
+    "source_recipe_file": "assets/xeno-editor/gazer-original-three-eyes/v0.1.0/source-recipe.json",
+    "preview_file": "assets/xeno-editor/gazer-original-three-eyes/v0.1.0/preview.png",
+    "godot_preview_file": "assets/xeno-editor/gazer-original-three-eyes/v0.1.0/godot-preview.png",
+    "registration_file": "assets/xeno-editor/gazer-original-three-eyes/v0.1.0/registration.json",
+    "genome_sha256": "8467dd0339253de6a835812c48aa3ddfd9429c188d5c19ce0e3b8cea5f6cc5d6",
+    "source_recipe_sha256": "75ba0e5f37929d71659f2b1a338733e87243372800140716fcae5cfbaffd68f9",
+    "preview_sha256": "ab55adf303bdfed7eac49d6079753b1cf4e91e55d783f5a7cf8e0c3a9be6fc8b",
+    "godot_preview_sha256": "f6132716f341e852dac1118da748d11454c3a932b9968be4ce40e3f6b910854b",
+    "registration_sha256": "5150951271e49548baec30b02965854a0db51edf045f99083c288f2688b0e8db",
+    "reviewed_model_sha256": "2ae6b29d81741cba5917b2e645a329da85ee43c0938b5f42f2913ce90f506522",
+    "review_status": "review-only",
+    "evidence_scope": "editor-export-and-static-godot-import",
+    "parts": [
+      {
+        "id": "gazer_body_original_01",
+        "file": "assets/xeno-editor/gazer-original-three-eyes/v0.1.0/parts/gazer_body_original_01.glb",
+        "sha256": "6c68dc8d03160f1459a0944b76b61eac64bd62334035552f9171f13ece4ac70f"
+      },
+      {
+        "id": "gazer_eye_main_original_01",
+        "file": "assets/xeno-editor/gazer-original-three-eyes/v0.1.0/parts/gazer_eye_main_original_01.glb",
+        "sha256": "fe28c6cac032f750379891962897561a7ffe74186ae8676b2e995663e3cbd298"
+      },
+      {
+        "id": "gazer_eye_l_original_01",
+        "file": "assets/xeno-editor/gazer-original-three-eyes/v0.1.0/parts/gazer_eye_l_original_01.glb",
+        "sha256": "d726442fb8ddf6f8c5e375acf22518ab06018f9cdcc6c167d4d9392dec4b65b6"
+      },
+      {
+        "id": "gazer_eye_r_original_01",
+        "file": "assets/xeno-editor/gazer-original-three-eyes/v0.1.0/parts/gazer_eye_r_original_01.glb",
+        "sha256": "7bab933b1da567344d384d8d0b62aa49e7a40ce9440fb3c039c56d02df585029"
+      },
+      {
+        "id": "gazer_antenna_l_original_01",
+        "file": "assets/xeno-editor/gazer-original-three-eyes/v0.1.0/parts/gazer_antenna_l_original_01.glb",
+        "sha256": "cada57138ad61e6b80c74aa93fb1ce16a79b85c822f4b9f572c5b339f44ec734"
+      },
+      {
+        "id": "gazer_antenna_r_original_01",
+        "file": "assets/xeno-editor/gazer-original-three-eyes/v0.1.0/parts/gazer_antenna_r_original_01.glb",
+        "sha256": "4d0b1762d31760c863b4e429729c8920470bc46a3af2b94aa5962d633a83adcb"
+      },
+      {
+        "id": "gazer_lower_l_original_01",
+        "file": "assets/xeno-editor/gazer-original-three-eyes/v0.1.0/parts/gazer_lower_l_original_01.glb",
+        "sha256": "b989f13f5d29328032a6dcc5d7cae29e5d4aa24ed84db8a63fa2523f39a2dbc0"
+      },
+      {
+        "id": "gazer_lower_r_original_01",
+        "file": "assets/xeno-editor/gazer-original-three-eyes/v0.1.0/parts/gazer_lower_r_original_01.glb",
+        "sha256": "23b92cdb92ff3c946f56694b307920d6d036494121247f4dfbc5784677a57f7b"
+      }
+    ]
+  }
+}

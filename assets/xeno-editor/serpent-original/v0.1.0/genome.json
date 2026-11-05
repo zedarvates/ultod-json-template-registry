@@ -1,0 +1,154 @@
+{
+  "species_id": "uo_review_original_serpent",
+  "species_name": "Serpent original — corps et tête",
+  "chemistry": "water_carbon",
+  "base_traits": {
+    "scale": 1.6,
+    "diet": "carnivore",
+    "locomotion_preference": "crawling",
+    "aggressiveness": 0.55
+  },
+  "spine": [
+    {
+      "pos": [
+        0,
+        0.52,
+        0.1
+      ],
+      "radius": 0.022,
+      "flexibility": 0.25
+    },
+    {
+      "pos": [
+        0,
+        0.52,
+        0.08
+      ],
+      "radius": 0.022,
+      "flexibility": 0.25
+    },
+    {
+      "pos": [
+        0,
+        0.52,
+        0.060000000000000005
+      ],
+      "radius": 0.022,
+      "flexibility": 0.25
+    },
+    {
+      "pos": [
+        0,
+        0.52,
+        0.04000000000000001
+      ],
+      "radius": 0.022,
+      "flexibility": 0.25
+    },
+    {
+      "pos": [
+        0,
+        0.52,
+        0.020000000000000004
+      ],
+      "radius": 0.022,
+      "flexibility": 0.25
+    },
+    {
+      "pos": [
+        0,
+        0.52,
+        0.0
+      ],
+      "radius": 0.022,
+      "flexibility": 0.25
+    }
+  ],
+  "procedural_locomotion": {
+    "appendices": {
+      "appendix_type": "tentacles",
+      "body": {
+        "balance_mode": "dynamic",
+        "balance_threshold": 0.18,
+        "body_clearance": 0.82,
+        "hip_offset": 0.5,
+        "pelvis_stabilizer": 0.75,
+        "shoulder_offset": 0.5,
+        "slope_compensation": 0.9,
+        "torque_compensation": 0.65
+      },
+      "count": 1,
+      "ik_profile": "spline",
+      "step": {
+        "step_duration": 0.35000000000000003,
+        "step_height": 0.045,
+        "step_length": 0.09,
+        "step_threshold": 0.04
+      },
+      "visual": {
+        "material_template": "chitin_dark",
+        "mesh_template": "serpent_body_original_01",
+        "scale": 1
+      }
+    },
+    "gait": {
+      "frequency": 0.8,
+      "pattern": "spline",
+      "phase_offset": 0.5,
+      "stability_mode": "stable"
+    },
+    "schema_version": 1,
+    "variants": {}
+  },
+  "delivery": "review_only",
+  "review_only": true,
+  "server_authoritative": false,
+  "bestiary_provenance": {
+    "schema": "uo.bestiary-provenance/v1",
+    "entry_id": "server:common_serpent",
+    "recipe": "uo_giant_serpent.json",
+    "recipe_sha256": "a29f9e6ce8659e79aa335bd4a4b03b22a71b363d7d75520e7413f1399a170441",
+    "server_sources": [],
+    "scope": "Original local procedural static assembly; review only; no locomotion claim"
+  },
+  "parts": [
+    {
+      "part_id": "serpent_body_original_01",
+      "attach_point": "spine:5",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "part_id": "serpent_head_original_01",
+      "attach_point": "spine:5",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

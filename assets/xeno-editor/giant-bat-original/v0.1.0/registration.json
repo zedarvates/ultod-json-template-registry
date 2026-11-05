@@ -1,0 +1,336 @@
+{
+  "schema": "uo.creature-editor-review-parts-fragment/v1",
+  "delivery": "review_only",
+  "parts": [
+    {
+      "part_id": "bat_body_original_01",
+      "name": "bat body original 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "bat_head_original_01",
+      "name": "bat head original 01",
+      "category": "head",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "bat_wing_l_original_01",
+      "name": "bat wing l original 01",
+      "category": "wing",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "bat_leg_l_original_01",
+      "name": "bat leg l original 01",
+      "category": "leg",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "bat_wing_r_original_01",
+      "name": "bat wing r original 01",
+      "category": "wing",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "bat_leg_r_original_01",
+      "name": "bat leg r original 01",
+      "category": "leg",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "bat_body_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/bat_body_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "ad9074f1d198991b5316c028f55155d758559e16bce00491c8acacea368f48c7",
+      "bytes": 14548,
+      "triangles": 565,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural bat geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "bat_head_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/bat_head_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "965ac039af041a37c1b9bcc9c4d7bcd5bb60ea41380f9ff26093ba2cb95dd357",
+      "bytes": 30416,
+      "triangles": 1360,
+      "metadata": {
+        "category": "head",
+        "part_role": "primitive",
+        "source": "original local procedural bat geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "bat_wing_l_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/bat_wing_l_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "d4e24e625b58f98768e4a58135a9e04da1ca61d241685128fc29c2bdc17e22ad",
+      "bytes": 38876,
+      "triangles": 1688,
+      "metadata": {
+        "category": "wing",
+        "part_role": "primitive",
+        "source": "original local procedural bat geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "bat_leg_l_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/bat_leg_l_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "ccfc47b67c71c7603d926fb95a62e71ca3511322412824721550d5cd51533cd0",
+      "bytes": 5968,
+      "triangles": 198,
+      "metadata": {
+        "category": "leg",
+        "part_role": "primitive",
+        "source": "original local procedural bat geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "bat_wing_r_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/bat_wing_r_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "2aac074ac3e2884f23290cf2f0ae335324f91029104d11487b11d47f6da97901",
+      "bytes": 38864,
+      "triangles": 1688,
+      "metadata": {
+        "category": "wing",
+        "part_role": "primitive",
+        "source": "original local procedural bat geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "bat_leg_r_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/bat_leg_r_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "88340101485176d7593d6e72a1cd7851fdf04b6ed92e444ede494f15a0e81078",
+      "bytes": 5964,
+      "triangles": 198,
+      "metadata": {
+        "category": "leg",
+        "part_role": "primitive",
+        "source": "original local procedural bat geometry; new uniform colors"
+      }
+    }
+  ],
+  "design": {
+    "parts": {
+      "bat_body_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original bat component, static review."
+      },
+      "bat_head_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "head",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original bat component, static review."
+      },
+      "bat_wing_l_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "wing",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original bat component, static review."
+      },
+      "bat_leg_l_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "leg",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original bat component, static review."
+      },
+      "bat_wing_r_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "wing",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original bat component, static review."
+      },
+      "bat_leg_r_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "leg",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original bat component, static review."
+      }
+    }
+  }
+}

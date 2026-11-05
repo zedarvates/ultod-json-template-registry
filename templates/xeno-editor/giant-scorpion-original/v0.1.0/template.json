@@ -1,0 +1,93 @@
+{
+  "$schema": "../../../schemas/xeno-editor/v1.2.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "xeno-editor:giant-scorpion-original",
+  "slug": "giant-scorpion-original",
+  "family": "xeno-editor",
+  "version": "0.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "xeno-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:54ac4255889d40ec2eb5074d21f66534e168e029a08f6b0d7eb452de90e7dbb4",
+  "spec": {
+    "display_name": "Scorpion original — huit pattes",
+    "genome_file": "assets/xeno-editor/giant-scorpion-original/v0.1.0/genome.json",
+    "source_recipe_file": "assets/xeno-editor/giant-scorpion-original/v0.1.0/source-recipe.json",
+    "preview_file": "assets/xeno-editor/giant-scorpion-original/v0.1.0/preview.png",
+    "godot_preview_file": "assets/xeno-editor/giant-scorpion-original/v0.1.0/godot-preview.png",
+    "registration_file": "assets/xeno-editor/giant-scorpion-original/v0.1.0/registration.json",
+    "genome_sha256": "92cae974930973032e3a2c212aca994509a20b2e58d259038aeed24d9163f072",
+    "source_recipe_sha256": "2167380923937ad259bacdb84d6476877e418e1b2b21ecff865acbcb3c41899a",
+    "preview_sha256": "022ad9150b0cb75b019520e548fc11794fa12195e15eb9e0cdb533119753aead",
+    "godot_preview_sha256": "8bfe7ba25ea632f87b19070b6daa2b4c72d0a1e1683da279f2552936e4679c9f",
+    "registration_sha256": "2dd40e8b1ef915115c43b617a5cb9c2e2e960ba083d82dd93793d969fc58dc27",
+    "reviewed_model_sha256": "847bd026c08aa464ca90e595a0aa962f071f4f512d7460750f6d1e5fc3ac2324",
+    "review_status": "review-only",
+    "evidence_scope": "editor-export-and-static-godot-import",
+    "parts": [
+      {
+        "id": "scorpion_body_original_01",
+        "file": "assets/xeno-editor/giant-scorpion-original/v0.1.0/parts/scorpion_body_original_01.glb",
+        "sha256": "84a0df68d0b7ebc85daa0ebd4c0fb0bd3a8622e4b8159b6da4e39886e21ec575"
+      },
+      {
+        "id": "scorpion_tail_original_01",
+        "file": "assets/xeno-editor/giant-scorpion-original/v0.1.0/parts/scorpion_tail_original_01.glb",
+        "sha256": "61f259af6a3e0e69525a411f2abfa80328093b0321068ac700b1b16cd659afd7"
+      },
+      {
+        "id": "scorpion_claw_right_original_01",
+        "file": "assets/xeno-editor/giant-scorpion-original/v0.1.0/parts/scorpion_claw_right_original_01.glb",
+        "sha256": "192881a64fa1a3ba1a57cc85b6e3c1728513d78b57a5e3594158d2c842d24863"
+      },
+      {
+        "id": "scorpion_leg_l1_original_01",
+        "file": "assets/xeno-editor/giant-scorpion-original/v0.1.0/parts/scorpion_leg_l1_original_01.glb",
+        "sha256": "06e13f1ab252d87ba9466f190a9df6c2bb7e3523cf2359a7471a393c53cb8bd6"
+      },
+      {
+        "id": "scorpion_leg_l2_original_01",
+        "file": "assets/xeno-editor/giant-scorpion-original/v0.1.0/parts/scorpion_leg_l2_original_01.glb",
+        "sha256": "f82cb447a431e735783d6461f5ad1824793000ba6c508bafd40b38fe7486f999"
+      },
+      {
+        "id": "scorpion_leg_l3_original_01",
+        "file": "assets/xeno-editor/giant-scorpion-original/v0.1.0/parts/scorpion_leg_l3_original_01.glb",
+        "sha256": "9db77d0e8c6bddfcacd7e42a297581fe94d6ff81ff2325f0889a4950ad596585"
+      },
+      {
+        "id": "scorpion_leg_l4_original_01",
+        "file": "assets/xeno-editor/giant-scorpion-original/v0.1.0/parts/scorpion_leg_l4_original_01.glb",
+        "sha256": "cff60a60d4de934df1ab60d01bd9860c21df25291c596ca463624fefce157e84"
+      },
+      {
+        "id": "scorpion_leg_r1_original_01",
+        "file": "assets/xeno-editor/giant-scorpion-original/v0.1.0/parts/scorpion_leg_r1_original_01.glb",
+        "sha256": "2d256b6558d6dc50463a7c893a1517d6758dfd39fa8ea0081446d8765c828843"
+      },
+      {
+        "id": "scorpion_leg_r2_original_01",
+        "file": "assets/xeno-editor/giant-scorpion-original/v0.1.0/parts/scorpion_leg_r2_original_01.glb",
+        "sha256": "46e527a6e4493de90c7e31d394c3a769bc56a83304c50a42c043f8c709940498"
+      },
+      {
+        "id": "scorpion_leg_r3_original_01",
+        "file": "assets/xeno-editor/giant-scorpion-original/v0.1.0/parts/scorpion_leg_r3_original_01.glb",
+        "sha256": "57625db41ce003774074afafa5c1477155ff86582c77bb6282a7f2259546080d"
+      },
+      {
+        "id": "scorpion_leg_r4_original_01",
+        "file": "assets/xeno-editor/giant-scorpion-original/v0.1.0/parts/scorpion_leg_r4_original_01.glb",
+        "sha256": "44fc5bea6f2a6cc0ed1dc4ddb22f3b84622a00a86b77e51f5a42adf606438061"
+      },
+      {
+        "id": "scorpion_claw_left_original_01",
+        "file": "assets/xeno-editor/giant-scorpion-original/v0.1.0/parts/scorpion_claw_left_original_01.glb",
+        "sha256": "227f4d7b8a68ef8481a1f4bc93b87b40326801c4cde61f89b58e30f14977478e"
+      }
+    ]
+  }
+}

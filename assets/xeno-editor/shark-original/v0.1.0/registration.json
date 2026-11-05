@@ -1,0 +1,498 @@
+{
+  "schema": "uo.creature-editor-review-parts-fragment/v1",
+  "delivery": "review_only",
+  "parts": [
+    {
+      "part_id": "shark_body_original_01",
+      "name": "shark body original 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "shark_fin_anal_01",
+      "name": "shark fin anal 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "shark_fin_caudal_01",
+      "name": "shark fin caudal 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "shark_fin_dorsalfront_01",
+      "name": "shark fin dorsalfront 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "shark_fin_dorsalrear_01",
+      "name": "shark fin dorsalrear 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "shark_fin_pectorall_01",
+      "name": "shark fin pectorall 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "shark_fin_pectoralr_01",
+      "name": "shark fin pectoralr 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "shark_fin_pelvicl_01",
+      "name": "shark fin pelvicl 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "shark_fin_pelvicr_01",
+      "name": "shark fin pelvicr 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "shark_body_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/shark_body_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "454c6c3fee46384bfad1f83e7f3304ba94dad647769c17fa0bc519e21701f708",
+      "bytes": 116320,
+      "triangles": 5420,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural shark geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "shark_fin_anal_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/shark_fin_anal_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "fa6b856b9064235576e8d703cab699f6930efcc89c813052245b9c00a1c5c47c",
+      "bytes": 2076,
+      "triangles": 32,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural shark geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "shark_fin_caudal_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/shark_fin_caudal_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "f79ba326a63fc30071b73eeeab3a90a27b6d1f3ca87499c5b27cce697aea53e5",
+      "bytes": 4568,
+      "triangles": 116,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural shark geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "shark_fin_dorsalfront_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/shark_fin_dorsalfront_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "e33d65795fc164cd0288838ee394af4029f9f3fc31d5607a84bc28fb97f34a2c",
+      "bytes": 2464,
+      "triangles": 44,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural shark geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "shark_fin_dorsalrear_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/shark_fin_dorsalrear_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "b9a30c87cbd15a9e6479285400f6e98710b15a3ff988553037fb8f8609ad751a",
+      "bytes": 2076,
+      "triangles": 32,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural shark geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "shark_fin_pectorall_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/shark_fin_pectorall_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "bf9b67a8887c149bec8ac5305ae22a60fdcdefb7a70816d23fe84f68d82e7996",
+      "bytes": 3544,
+      "triangles": 80,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural shark geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "shark_fin_pectoralr_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/shark_fin_pectoralr_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "ff4a2988cd07e81ec6f801dce82b83c932bb6919220b259ea084b17043c90c07",
+      "bytes": 3544,
+      "triangles": 80,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural shark geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "shark_fin_pelvicl_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/shark_fin_pelvicl_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "b4e8dc6097589ca82f9f2bcda8e7f5b4d57d2af83c37f898ef307660232d6809",
+      "bytes": 2080,
+      "triangles": 32,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural shark geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "shark_fin_pelvicr_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/shark_fin_pelvicr_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "1be852111d19dfdc1d754ab517dc5924fd908c79b7e12d5879f0ab7e2624697c",
+      "bytes": 2076,
+      "triangles": 32,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural shark geometry; new uniform colors"
+      }
+    }
+  ],
+  "design": {
+    "parts": {
+      "shark_body_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original shark component, static review. Armor is a technical editor category."
+      },
+      "shark_fin_anal_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original shark component, static review. Armor is a technical editor category."
+      },
+      "shark_fin_caudal_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original shark component, static review. Armor is a technical editor category."
+      },
+      "shark_fin_dorsalfront_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original shark component, static review. Armor is a technical editor category."
+      },
+      "shark_fin_dorsalrear_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original shark component, static review. Armor is a technical editor category."
+      },
+      "shark_fin_pectorall_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original shark component, static review. Armor is a technical editor category."
+      },
+      "shark_fin_pectoralr_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original shark component, static review. Armor is a technical editor category."
+      },
+      "shark_fin_pelvicl_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original shark component, static review. Armor is a technical editor category."
+      },
+      "shark_fin_pelvicr_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original shark component, static review. Armor is a technical editor category."
+      }
+    }
+  }
+}

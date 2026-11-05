@@ -1,0 +1,606 @@
+{
+  "schema": "uo.creature-editor-review-parts-fragment/v1",
+  "delivery": "review_only",
+  "parts": [
+    {
+      "part_id": "crab_body_original_01",
+      "name": "crab body original 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "crab_claw_l_original_01",
+      "name": "crab claw l original 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "crab_leg_l1_original_01",
+      "name": "crab leg l1 original 01",
+      "category": "leg",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "crab_leg_l2_original_01",
+      "name": "crab leg l2 original 01",
+      "category": "leg",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "crab_leg_l3_original_01",
+      "name": "crab leg l3 original 01",
+      "category": "leg",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "crab_leg_l4_original_01",
+      "name": "crab leg l4 original 01",
+      "category": "leg",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "crab_claw_r_original_01",
+      "name": "crab claw r original 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "crab_leg_r1_original_01",
+      "name": "crab leg r1 original 01",
+      "category": "leg",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "crab_leg_r2_original_01",
+      "name": "crab leg r2 original 01",
+      "category": "leg",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "crab_leg_r3_original_01",
+      "name": "crab leg r3 original 01",
+      "category": "leg",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "crab_leg_r4_original_01",
+      "name": "crab leg r4 original 01",
+      "category": "leg",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "crab_body_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/crab_body_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "8ea952d4d20a94474acd1f95d6d97a96c5332536bf9db3470cfd099c9a9634c0",
+      "bytes": 55936,
+      "triangles": 2464,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural crab geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "crab_claw_l_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/crab_claw_l_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "8160f23911eb4c130eec928c8a911f196455915c10c578c60e03279972f5662b",
+      "bytes": 30212,
+      "triangles": 952,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural crab geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "crab_leg_l1_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/crab_leg_l1_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "efd8dba9a5597d094a5a72b7e350445c843d1b70c8a0f8f6bfa70c61b9777a90",
+      "bytes": 20740,
+      "triangles": 624,
+      "metadata": {
+        "category": "leg",
+        "part_role": "primitive",
+        "source": "original local procedural crab geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "crab_leg_l2_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/crab_leg_l2_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "ac59d9521f53c0be699642244e10420017d053a6bf9193022563d03124eb0aa5",
+      "bytes": 20136,
+      "triangles": 624,
+      "metadata": {
+        "category": "leg",
+        "part_role": "primitive",
+        "source": "original local procedural crab geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "crab_leg_l3_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/crab_leg_l3_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "e7ea9032ede87d2bad8f62d2bbac61d6c5476b64f79625c92289156bca0feb85",
+      "bytes": 20348,
+      "triangles": 624,
+      "metadata": {
+        "category": "leg",
+        "part_role": "primitive",
+        "source": "original local procedural crab geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "crab_leg_l4_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/crab_leg_l4_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "7cf0782468de80a6faa9122f49d0d7248a096e2dab217c3ed01356ca787649be",
+      "bytes": 22324,
+      "triangles": 624,
+      "metadata": {
+        "category": "leg",
+        "part_role": "primitive",
+        "source": "original local procedural crab geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "crab_claw_r_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/crab_claw_r_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "a6c529bdbf91d4c7858772e255e34f49a2124e1bd03b26fe1d710d4aeace0480",
+      "bytes": 30192,
+      "triangles": 952,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural crab geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "crab_leg_r1_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/crab_leg_r1_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "ddc17b73054fb9c1fd3e79bb0432ad38282834a455a53225a15a1021b18cb013",
+      "bytes": 20720,
+      "triangles": 624,
+      "metadata": {
+        "category": "leg",
+        "part_role": "primitive",
+        "source": "original local procedural crab geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "crab_leg_r2_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/crab_leg_r2_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "e3d0e0fbb13f33a7f736844bfe0123e486c224a7eec5c28846cb3315a30628bb",
+      "bytes": 20116,
+      "triangles": 624,
+      "metadata": {
+        "category": "leg",
+        "part_role": "primitive",
+        "source": "original local procedural crab geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "crab_leg_r3_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/crab_leg_r3_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "fd14f6ee57c9ee653f54e0d37d0af399ac00034cfada9df729eabbc103dbf19a",
+      "bytes": 20324,
+      "triangles": 624,
+      "metadata": {
+        "category": "leg",
+        "part_role": "primitive",
+        "source": "original local procedural crab geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "crab_leg_r4_original_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/crab_leg_r4_original_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "d9881c84bf16d4a51e6f2112ce862d8ef58f6b1c6eda85c8074917e74cf4b643",
+      "bytes": 22304,
+      "triangles": 624,
+      "metadata": {
+        "category": "leg",
+        "part_role": "primitive",
+        "source": "original local procedural crab geometry; new uniform colors"
+      }
+    }
+  ],
+  "design": {
+    "parts": {
+      "crab_body_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original crab component, static review."
+      },
+      "crab_claw_l_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original crab component, static review."
+      },
+      "crab_leg_l1_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "leg",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original crab component, static review."
+      },
+      "crab_leg_l2_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "leg",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original crab component, static review."
+      },
+      "crab_leg_l3_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "leg",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original crab component, static review."
+      },
+      "crab_leg_l4_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "leg",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original crab component, static review."
+      },
+      "crab_claw_r_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original crab component, static review."
+      },
+      "crab_leg_r1_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "leg",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original crab component, static review."
+      },
+      "crab_leg_r2_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "leg",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original crab component, static review."
+      },
+      "crab_leg_r3_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "leg",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original crab component, static review."
+      },
+      "crab_leg_r4_original_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "leg",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original crab component, static review."
+      }
+    }
+  }
+}

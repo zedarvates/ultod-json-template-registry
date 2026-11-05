@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../schemas/xeno-editor/v1.2.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "xeno-editor:serpent-original",
+  "slug": "serpent-original",
+  "family": "xeno-editor",
+  "version": "0.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "xeno-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0f53f0c09853ef18e45133fcf6444100b5332dc63e3c083ebeecf106f3a3e764",
+  "spec": {
+    "display_name": "Serpent original — corps et tête",
+    "genome_file": "assets/xeno-editor/serpent-original/v0.1.0/genome.json",
+    "source_recipe_file": "assets/xeno-editor/serpent-original/v0.1.0/source-recipe.json",
+    "preview_file": "assets/xeno-editor/serpent-original/v0.1.0/preview.png",
+    "godot_preview_file": "assets/xeno-editor/serpent-original/v0.1.0/godot-preview.png",
+    "registration_file": "assets/xeno-editor/serpent-original/v0.1.0/registration.json",
+    "genome_sha256": "8524a46fec9f7a72b84f1669d33942b91c50694ad520e7eea26e095659d92ae6",
+    "source_recipe_sha256": "a29f9e6ce8659e79aa335bd4a4b03b22a71b363d7d75520e7413f1399a170441",
+    "preview_sha256": "f2f54d059b26b5e0bd7485c806d7186028ba12d3de2ab1141f054690929c934d",
+    "godot_preview_sha256": "9085c161ba0dcebbc22cb28f3432cc12941d00535e5928596294be0e7b45fc75",
+    "registration_sha256": "f226c5c22e634fc03222ef928812be7129a2997f5eb8998cdb4c113208e00bf5",
+    "reviewed_model_sha256": "cfc53b1a15c042e042fe758025495668d86aced3d99b93fab2d5e5c7201f8de6",
+    "review_status": "review-only",
+    "evidence_scope": "editor-export-and-static-godot-import",
+    "parts": [
+      {
+        "id": "serpent_body_original_01",
+        "file": "assets/xeno-editor/serpent-original/v0.1.0/parts/serpent_body_original_01.glb",
+        "sha256": "0bf7825d38f131a3931954e1a310f6206c345424546021ee0ac07d21d8180fd4"
+      },
+      {
+        "id": "serpent_head_original_01",
+        "file": "assets/xeno-editor/serpent-original/v0.1.0/parts/serpent_head_original_01.glb",
+        "sha256": "1ed10b700981afad883e017a1c15b5cdb8a28f22c4239987f4ffff48426afbf2"
+      }
+    ]
+  }
+}

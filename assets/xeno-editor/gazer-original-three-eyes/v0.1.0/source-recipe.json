@@ -1,0 +1,25 @@
+{
+  "species_id": "uo_gazer",
+  "species_name": "Gazer (bestiaire UO)",
+  "chemistry": "ammonia",
+  "base_traits": {
+    "scale": 1.0,
+    "diet": "carnivore",
+    "locomotion_preference": "flying",
+    "aggressiveness": 0.5
+  },
+  "parts": [
+    { "part_id": "eye_compound_01", "attach_point": "Head",
+      "position": [0, 0, 0.12], "rotation": [0, 0, 0], "scale": [1.6, 1.6, 1.6] },
+    { "part_id": "eye_normal_01", "attach_point": "Head",
+      "position": [-0.1, 0.08, 0.05], "rotation": [0, -20, 0], "scale": [0.7, 0.7, 0.7] },
+    { "part_id": "eye_normal_01", "attach_point": "Head",
+      "position": [0.1, 0.08, 0.05], "rotation": [0, 20, 0], "scale": [0.7, 0.7, 0.7] },
+    { "part_id": "tail_whip_01", "attach_point": "TailBase",
+      "position": [-0.08, -0.1, -0.05], "rotation": [40, 0, 20], "scale": [0.6, 0.6, 0.6] },
+    { "part_id": "tail_whip_01", "attach_point": "TailBase",
+      "position": [0.08, -0.1, -0.05], "rotation": [40, 0, -20], "scale": [0.6, 0.6, 0.6] },
+    { "part_id": "antenna_01", "attach_point": "Head",
+      "position": [0, 0.15, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] }
+  ]
+}

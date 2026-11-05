@@ -1,0 +1,63 @@
+{
+  "$schema": "../../../schemas/xeno-editor/v1.2.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "xeno-editor:giant-bat-original",
+  "slug": "giant-bat-original",
+  "family": "xeno-editor",
+  "version": "0.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "xeno-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:00b12b12ad38af69a654814fb931eed05b271945e90fca1bb096f8180bf834dd",
+  "spec": {
+    "display_name": "Chauve-souris géante originale",
+    "genome_file": "assets/xeno-editor/giant-bat-original/v0.1.0/genome.json",
+    "source_recipe_file": "assets/xeno-editor/giant-bat-original/v0.1.0/source-recipe.json",
+    "preview_file": "assets/xeno-editor/giant-bat-original/v0.1.0/preview.png",
+    "godot_preview_file": "assets/xeno-editor/giant-bat-original/v0.1.0/godot-preview.png",
+    "registration_file": "assets/xeno-editor/giant-bat-original/v0.1.0/registration.json",
+    "genome_sha256": "8d1d20737dc26f306ce31996946e51fed283bda322bab970b84b6f89350d47b1",
+    "source_recipe_sha256": "0d0c663e43d76b70dd360dc9825ac501abb1a14f66a7e1646f6f3ff9e4d0d306",
+    "preview_sha256": "0ed63ecb97d4cfbba71491066238bc88377d61c019742cdb30ef719ad7436867",
+    "godot_preview_sha256": "567d45625f5b8cea51c6cae929252a4109e12db31dc4d183dca40c60c7879c69",
+    "registration_sha256": "65fccba3decb2ae76e0ad169bdd48788a60d160995c85a2562d5febabe97c97e",
+    "reviewed_model_sha256": "eaf62a6afca54a08998642c2babc23a56ccf2107ca2c547f773a28154396d588",
+    "review_status": "review-only",
+    "evidence_scope": "editor-export-and-static-godot-import",
+    "parts": [
+      {
+        "id": "bat_body_original_01",
+        "file": "assets/xeno-editor/giant-bat-original/v0.1.0/parts/bat_body_original_01.glb",
+        "sha256": "ad9074f1d198991b5316c028f55155d758559e16bce00491c8acacea368f48c7"
+      },
+      {
+        "id": "bat_head_original_01",
+        "file": "assets/xeno-editor/giant-bat-original/v0.1.0/parts/bat_head_original_01.glb",
+        "sha256": "965ac039af041a37c1b9bcc9c4d7bcd5bb60ea41380f9ff26093ba2cb95dd357"
+      },
+      {
+        "id": "bat_wing_l_original_01",
+        "file": "assets/xeno-editor/giant-bat-original/v0.1.0/parts/bat_wing_l_original_01.glb",
+        "sha256": "d4e24e625b58f98768e4a58135a9e04da1ca61d241685128fc29c2bdc17e22ad"
+      },
+      {
+        "id": "bat_leg_l_original_01",
+        "file": "assets/xeno-editor/giant-bat-original/v0.1.0/parts/bat_leg_l_original_01.glb",
+        "sha256": "ccfc47b67c71c7603d926fb95a62e71ca3511322412824721550d5cd51533cd0"
+      },
+      {
+        "id": "bat_wing_r_original_01",
+        "file": "assets/xeno-editor/giant-bat-original/v0.1.0/parts/bat_wing_r_original_01.glb",
+        "sha256": "2aac074ac3e2884f23290cf2f0ae335324f91029104d11487b11d47f6da97901"
+      },
+      {
+        "id": "bat_leg_r_original_01",
+        "file": "assets/xeno-editor/giant-bat-original/v0.1.0/parts/bat_leg_r_original_01.glb",
+        "sha256": "88340101485176d7593d6e72a1cd7851fdf04b6ed92e444ede494f15a0e81078"
+      }
+    ]
+  }
+}
