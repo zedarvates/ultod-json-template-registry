@@ -298,3 +298,10 @@ La version statique du [scorpion 0.1.0](scorpion-original/v0.1.0/README.md) et l
 ![Gelée dans Godot](gelee-bleue-attaches-20261107/preview.png)
 
 [Recette, captures et limites](gelee-bleue-attaches-20261107/README.md)
+
+
+## Gelée bleue — matière et morphes
+
+![Gelée dans Godot](gelee-bleue-morphes-20261107/preview.png)
+
+[Recette, captures et mesures](gelee-bleue-morphes-20261107/README.md)
