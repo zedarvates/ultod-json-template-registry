@@ -1,28 +1,79 @@
 {
-  "schema": "uo.draft-horse-review/v1",
+  "schema": "uo.horse-draft-reference-pieces/v1",
   "delivery": "review_only",
-  "base_recipe": {
-    "schema": "uo.horse-shape/v1",
-    "delivery": "review_only",
-    "body_length_m": 1.8,
-    "stride_m": 0.27,
-    "lift_m": 0.12,
-    "period_s": 1.9,
-    "tail_sway_rad": 0.02,
-    "mane_sway_rad": 0.012
+  "reference": "Designer (8).png",
+  "parts": {
+    "body": {
+      "file": "body_horse_draft.glb",
+      "sha256": "a162eeaf11082b01e36125b3ba2835e3dd1502f23b27d9767d6a2b98f9342a7c",
+      "bytes": 26652,
+      "triangles": 1280,
+      "bounds": [
+        [
+          -0.48,
+          0.8300000000000001,
+          -0.88
+        ],
+        [
+          0.48,
+          1.87,
+          0.88
+        ]
+      ]
+    },
+    "neck": {
+      "file": "neck_horse_crest.glb",
+      "sha256": "2e3b371249ca8eddae20ffc2ed6e9b5776e8bab4f5dde5e6c0a83195eebda213",
+      "bytes": 33836,
+      "triangles": 1600,
+      "bounds": [
+        [
+          -0.28,
+          1.37,
+          -1.07
+        ],
+        [
+          0.28,
+          2.53,
+          -0.23000000000000004
+        ]
+      ]
+    },
+    "feathered_legs": {
+      "file": "legs_horse_feathered.glb",
+      "sha256": "6be17e74e9ebae0ba5bd88999a64f675f1d1a1e2d9e6646835dab332a32741a2",
+      "bytes": 12920,
+      "triangles": 608,
+      "bounds": [
+        [
+          -0.5,
+          -0.08,
+          -0.87
+        ],
+        [
+          0.5,
+          1.0072420703400007,
+          0.9299999999999999
+        ]
+      ]
+    }
   },
-  "changes": [
-    "broader torso",
-    "thicker limb segments",
-    "light mane and tail",
-    "four feathering proxies"
-  ],
-  "model_sha256": "0568918d4aad56a97ef04bbda2fae59d952141901e2264be50643aa8313c139a",
-  "builder_sha256": "31bb56e9d053188ede5e03bf6c361f9cfc50a132fb4f267dc5eb3b3d1889edec",
-  "limitations": [
-    "feathering is proxy geometry",
-    "no harness",
-    "visual and animation review required",
-    "not game-ready"
-  ]
+  "assembled": {
+    "file": "cheval_draft_assembled.glb",
+    "sha256": "55d3f9e39008af5e6618bdb9eb94020d7ef3a8dcc9e5fe17b61c7c2f05428a71",
+    "bytes": 57380,
+    "triangles": 3488,
+    "bounds": [
+      [
+        -0.5,
+        -0.08,
+        -0.88
+      ],
+      [
+        0.5,
+        1.87,
+        0.9299999999999999
+      ]
+    ]
+  }
 }
