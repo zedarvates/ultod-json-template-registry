@@ -1,0 +1,336 @@
+{
+  "schema": "uo.creature-editor-review-parts-fragment/v1",
+  "delivery": "review_only",
+  "parts": [
+    {
+      "part_id": "croc_body_01",
+      "name": "croc body 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "croc_head_01",
+      "name": "croc head 01",
+      "category": "head",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "croc_foot_fl_01",
+      "name": "croc foot fl 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "croc_foot_fr_01",
+      "name": "croc foot fr 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "croc_foot_hl_01",
+      "name": "croc foot hl 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "croc_foot_hr_01",
+      "name": "croc foot hr 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "croc_body_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/croc_body_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "3eb3e8675bdbd3049547c1ec7a08a759b46cf60bbf738a388e3859ed2c555bf7",
+      "bytes": 109332,
+      "triangles": 3248,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural crocodile geometry; uniform colors"
+      }
+    },
+    {
+      "id": "croc_head_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/croc_head_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "690533502c89aaf677caa4373f613a3bebc1e83a893a8302d7b653e0876f7b74",
+      "bytes": 116832,
+      "triangles": 4830,
+      "metadata": {
+        "category": "head",
+        "part_role": "primitive",
+        "source": "original procedural crocodile geometry; uniform colors"
+      }
+    },
+    {
+      "id": "croc_foot_fl_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/croc_foot_fl_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "33f8eb19a7e93755730900ded3b4cdebe97e3932a7af30681a235a685499b7bb",
+      "bytes": 16544,
+      "triangles": 380,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural crocodile geometry; uniform colors"
+      }
+    },
+    {
+      "id": "croc_foot_fr_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/croc_foot_fr_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "2c18a3fa60b2ce14d5ef23d1dc3fed530c9e9f2affbded17632d5a0f41d0c7f0",
+      "bytes": 15376,
+      "triangles": 380,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural crocodile geometry; uniform colors"
+      }
+    },
+    {
+      "id": "croc_foot_hl_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/croc_foot_hl_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "1cebbe0d8c50aabfb77f60c09572aec5145855410603b104882e3040b8966dda",
+      "bytes": 15308,
+      "triangles": 364,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural crocodile geometry; uniform colors"
+      }
+    },
+    {
+      "id": "croc_foot_hr_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/croc_foot_hr_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "7ce6dc462b13eaf72fb7a985219f1bb952e35621d1af98d908d6701315a68fab",
+      "bytes": 14696,
+      "triangles": 364,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural crocodile geometry; uniform colors"
+      }
+    }
+  ],
+  "design": {
+    "parts": {
+      "croc_body_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static crocodile component; armor category is technical."
+      },
+      "croc_head_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "head",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static crocodile component; armor category is technical."
+      },
+      "croc_foot_fl_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static crocodile component; armor category is technical."
+      },
+      "croc_foot_fr_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static crocodile component; armor category is technical."
+      },
+      "croc_foot_hl_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static crocodile component; armor category is technical."
+      },
+      "croc_foot_hr_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static crocodile component; armor category is technical."
+      }
+    }
+  }
+}
