@@ -1,6 +1,6 @@
 # Études de créatures d’après références — travail en cours
 
-Quatre prototypes documentaires de revue, capturés dans l’éditeur local. Les modèles et générateurs ne sont pas distribués ici ; les recettes seules ne permettent pas leur reconstruction. Les images de référence de l’utilisateur ne sont pas incluses.
+Cinq prototypes documentaires de revue, capturés dans l’éditeur local. Les modèles et générateurs ne sont pas distribués ici ; les recettes seules ne permettent pas leur reconstruction. Les images de référence de l’utilisateur ne sont pas incluses.
 
 ## Gelée bleue
 
@@ -20,10 +20,16 @@ Quatre prototypes documentaires de revue, capturés dans l’éditeur local. Les
 
 [Recette documentaire de revue](serpent/recipe.json). Serpent enroulé statique, ventre clair, mâchoires, crochets et langue. L’éditeur charge le GLB et vérifie son empreinte. Les mâchoires restent visiblement séparées, les écailles ne sont pas sculptées ; aucun rig, animation, collision ou intégration jeu n’est attesté.
 
-Ces études ne sont ni des entrées strict-v1 ni des créations achevées. Rat, mouton, crabe et lama restent hors de cette proposition.
+Ces études ne sont ni des entrées strict-v1 ni des créations achevées. Rat, mouton et lama restent hors de cette proposition.
 
 ## Cheval de trait — candidat de revue
 
 ![Cheval de trait candidat dans l’atelier équin](cheval/preview.png)
 
 [Recette documentaire de revue](cheval/recipe.json). Candidat issu du générateur équin, au corps et aux membres élargis et à la crinière claire. Les fanons sont des volumes provisoires lisses, le harnachement manque et la silhouette reste éloignée de la référence. La capture est une pose statique chargée par redirection locale dans l’atelier ; marche, collisions, jeu et VR ne sont pas validés.
+
+## Crabe — candidat de revue
+
+![Crabe candidat dans l’atelier](crabe/preview.png)
+
+[Recette documentaire de revue](crabe/recipe.json). Candidat à pinces élargies et teinte rouge-orangée, issu du générateur original en copie isolée. L’atelier a chargé le modèle par redirection locale : 57 os, huit pattes, pose initiale et échantillon à 0,4 seconde sans erreur de rendu constatée. La carapace n’a pas les pointes et le relief de la référence ; l’animation complète, les collisions, le jeu et la VR ne sont pas qualifiés.

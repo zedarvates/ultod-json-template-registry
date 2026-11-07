@@ -1,0 +1,32 @@
+{
+  "schema": "uo.crab-reference-review/v1",
+  "delivery": "review_only",
+  "base_recipe": {
+    "schema": "uo.crab-project/v1",
+    "generator": "uo.crab-original/v1",
+    "anatomy_profile": "flattened-limbs-curved-chelae-v1",
+    "surface_profile": "original-chitin-photo-v2",
+    "delivery": "review_only",
+    "recipe": {
+      "schema": "uo.crab-shape/v1",
+      "delivery": "review_only",
+      "body_scale": 1.0,
+      "period_s": 1.6,
+      "stride_m": 0.065,
+      "lift_m": 0.04,
+      "claw_open_deg": 14.0
+    }
+  },
+  "changes": [
+    "larger chela palms and fingers",
+    "warmer red-orange shell pigment"
+  ],
+  "model_sha256": "1b170512bae7209eecb8532c762a300a16d75f2116d3eb90612cfa1386b2d75e",
+  "source_generator_sha256": "093110eb95b9cb2f4e87bb9fe1374ff9aa09c0e69d92d6aa1198ebe635e07316",
+  "builder_sha256": "13397814071991803bbe3f0d77dcbc7c66aa1ca406fc38ca3c98ca96db3422e5",
+  "limitations": [
+    "carapace spikes not reconstructed",
+    "visual and motion review required",
+    "no game validation"
+  ]
+}
