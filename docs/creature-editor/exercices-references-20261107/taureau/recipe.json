@@ -1,0 +1,58 @@
+{
+  "schema": "uo.bull-review-recipe/v1",
+  "delivery": "review_only",
+  "base_recipe": {
+    "schema": "uo.bovine-shape/v2",
+    "cranial_profile": "bovine-cranium-v3",
+    "delivery": "review_only",
+    "body_length_m": 1.8,
+    "tail_length_m": 0.72,
+    "ear_height_m": 0.14,
+    "horn_length_m": 0.4,
+    "stride_m": 0.27,
+    "lift_m": 0.11,
+    "period_s": 1.9
+  },
+  "modifications": {
+    "schema": "uo.bull-candidate-modifications/v1",
+    "delivery": "review_only",
+    "base_generator": "uo.bovine-original/v2",
+    "body_profile_width_multipliers": [
+      1.05,
+      1.25,
+      1.26,
+      1.18,
+      1.08,
+      1.04,
+      1.0
+    ],
+    "body_profile_height_multipliers": [
+      1.12,
+      1.18,
+      1.17,
+      1.1,
+      1.04,
+      1.02,
+      1.0
+    ],
+    "removed_roles": [
+      "bovine_udder",
+      "bovine_teat"
+    ],
+    "horn_width_multiplier": 1.6,
+    "horn_height_multiplier": 0.48,
+    "limb_width_multiplier": 1.35,
+    "limb_depth_multiplier": 1.2,
+    "limits": [
+      "not visually reviewed",
+      "no runtime qualification"
+    ]
+  },
+  "builder_sha256": "cd12778d1e47aff83f20c245eb272cdf10a0cd10092ecfcb43717cbd9d8d3ad2",
+  "model_sha256": "60e28ab09443e0c2198d8ba461301dfe8d8ff232adb02ab8f78b2c5d3b29fc0d",
+  "limitations": [
+    "candidate only",
+    "visual match incomplete",
+    "runtime integration not verified"
+  ]
+}

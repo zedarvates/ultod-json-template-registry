@@ -1,0 +1,48 @@
+{
+  "schema": "uo.serpent-parts-review/v1",
+  "delivery": "review_only",
+  "source_sha256": "6b855a891e88ece9855f7ed2729540c99743203a69673857a33a2af078cae94c",
+  "generator_sha256": "c32f89c5c41e900fd7a6634f807689980788e70480fd3067496fc3b1cad0b140",
+  "parts": {
+    "coiled_skin": {
+      "file": "coiled_skin.glb",
+      "sha256": "3ed0c9e875fe3c23681160aab068ac5370774286152f5140e5480bda8567e9a2",
+      "source_origin_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "nodes": [
+        "coiled_body"
+      ]
+    },
+    "jaw_assembly": {
+      "file": "jaw_assembly.glb",
+      "sha256": "6cceb3b58f9cee243b560e5aa6180d8a740c3aa25813ea5f353d2ddb4d34c9dd",
+      "source_origin_m": [
+        -0.23001822270452976,
+        1.1850048899650574,
+        -0.16005399823188782
+      ],
+      "nodes": [
+        "upper_jaw",
+        "lower_jaw",
+        "mouth_interior",
+        "jaw_hinge_-1",
+        "jaw_hinge_1",
+        "fang_-1",
+        "fang_1",
+        "tongue_stem",
+        "tongue_tip_-1",
+        "tongue_tip_1"
+      ]
+    }
+  },
+  "limitations": [
+    "static extracted pieces",
+    "hinges overlap other meshes; surfaces not welded",
+    "no articulated rig",
+    "editor reassembly not verified",
+    "not game-ready"
+  ]
+}

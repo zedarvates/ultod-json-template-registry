@@ -1,0 +1,65 @@
+{
+  "schema": "uo.bull-parts-review/v1",
+  "delivery": "review_only",
+  "base_recipe": {
+    "schema": "uo.bovine-shape/v2",
+    "cranial_profile": "bovine-cranium-v3",
+    "delivery": "review_only",
+    "body_length_m": 1.8,
+    "tail_length_m": 0.72,
+    "ear_height_m": 0.14,
+    "horn_length_m": 0.4,
+    "stride_m": 0.27,
+    "lift_m": 0.11,
+    "period_s": 1.9
+  },
+  "modifications": {
+    "schema": "uo.bull-candidate-modifications/v1",
+    "delivery": "review_only",
+    "base_generator": "uo.bovine-original/v2",
+    "body_profile_width_multipliers": [
+      1.05,
+      1.25,
+      1.26,
+      1.18,
+      1.08,
+      1.04,
+      1.0
+    ],
+    "body_profile_height_multipliers": [
+      1.12,
+      1.18,
+      1.17,
+      1.1,
+      1.04,
+      1.02,
+      1.0
+    ],
+    "removed_roles": [
+      "bovine_udder",
+      "bovine_teat"
+    ],
+    "horn_width_multiplier": 1.6,
+    "horn_height_multiplier": 0.48,
+    "limb_width_multiplier": 1.35,
+    "limb_depth_multiplier": 1.2,
+    "head_width_multiplier": 1.22,
+    "head_length_multiplier": 0.72,
+    "limits": [
+      "not visually reviewed",
+      "no runtime qualification"
+    ]
+  },
+  "builder_sha256": "9c947e807e0655610e2fb768d9babc038231a860f8dbdecddaf221515efd8e29",
+  "assembly_sha256": "046b53f923d725815473ddc212d77791ba0b397b38e46fb5c9f496c5e635d147",
+  "parts": {
+    "head_sha256": "e54b278f9418fc7d09a11d3b66a71d377b7890fc37b7c2d227b9deff274a2816",
+    "front_left_sha256": "c563dcde2e9ffa40773dad33d4873b1c22ac850a5c86de5630872872b37d3d72",
+    "hind_left_sha256": "f649c06a403d2b9faeb22af1b773617c1de27c10ed9754875c1705b96f7ac31f"
+  },
+  "limitations": [
+    "horn roots visibly disconnected",
+    "static limb parts not assembled in editor",
+    "no game or animation qualification"
+  ]
+}
