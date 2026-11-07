@@ -41,3 +41,9 @@ Ces études ne sont ni des entrées strict-v1 ni des créations achevées. Rat, 
 ![Tête isolée](taureau-pieces/head.png)
 
 [Recette documentaire de revue](taureau-pieces/recipe.json). Tête élargie et raccourcie, deux membres gauches statiques extraits avec pivots de hanche. L’assemblage complet et la tête isolée ont été chargés par redirection locale dans l’atelier ; les membres extraits n’ont pas encore été réassemblés dans l’éditeur. **Les bases des cornes apparaissent décollées du crâne.** La qualité artistique, les attaches, la marche et l’intégration jeu restent à corriger et vérifier.
+
+## Serpent — peau et mâchoire extraites
+
+![Modèle source dans l’éditeur](serpent/preview.png)
+
+[Recette documentaire des pièces](serpent-pieces/recipe.json). La peau enroulée et un ensemble de mâchoire sont extraits du modèle de revue. Leur repositionnement aux origines indiquées reproduit les limites géométriques de chaque composant à moins de 0,000001 m. La capture montre le modèle source avant extraction : **aucun réassemblage interactif des pièces n’a été vérifié**. Les mâchoires présentent toujours des espaces ; pièces statiques, rig et intégration jeu non qualifiés.
