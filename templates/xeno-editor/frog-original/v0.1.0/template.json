@@ -1,0 +1,63 @@
+{
+  "$schema": "../../../schemas/xeno-editor/v1.2.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "xeno-editor:frog-original",
+  "slug": "frog-original",
+  "family": "xeno-editor",
+  "version": "0.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "xeno-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:3633bbd829e82c301cfa17fa5983a34c636296a5fa548e375dc99312522d18c6",
+  "spec": {
+    "display_name": "Grenouille originale",
+    "genome_file": "assets/xeno-editor/frog-original/v0.1.0/genome.json",
+    "source_recipe_file": "assets/xeno-editor/frog-original/v0.1.0/source-recipe.json",
+    "preview_file": "assets/xeno-editor/frog-original/v0.1.0/preview.png",
+    "godot_preview_file": "assets/xeno-editor/frog-original/v0.1.0/godot-preview.png",
+    "registration_file": "assets/xeno-editor/frog-original/v0.1.0/registration.json",
+    "genome_sha256": "9ac0c3d0c0aac1275ff3dd94799a69365225917332720d3f74bda7030adf33c2",
+    "source_recipe_sha256": "cd77f64c92d2b0cea6ee51c8ac91dd53552e8d33c2c9a6f14904eccbbb9ab59f",
+    "preview_sha256": "10cb05521f3b15032565dbc5637d35a0115ab7709623a420ea7d71175c77dc81",
+    "godot_preview_sha256": "6efbea6ba9a38241857f5b0c85099f73c07ff52e1b651a4baede40035bcae7cb",
+    "registration_sha256": "9c26b1a889fed8c1753ccc3fca50f47a24895d1db1f24636b745f8f24fda7297",
+    "reviewed_model_sha256": "ae8ee0491620d054293dcbdedb9d024f3a583a362c9c04f12180d28de9702a12",
+    "review_status": "review-only",
+    "evidence_scope": "editor-export-and-static-godot-import",
+    "parts": [
+      {
+        "id": "frog_body_01",
+        "file": "assets/xeno-editor/frog-original/v0.1.0/parts/frog_body_01.glb",
+        "sha256": "25a1a762f146ebaa6e2b1c0349af68936f0d505f582ccdac8b711cb965656e24"
+      },
+      {
+        "id": "frog_head_01",
+        "file": "assets/xeno-editor/frog-original/v0.1.0/parts/frog_head_01.glb",
+        "sha256": "9c84bca30a5cad3c61539bdb7719d274b9db4b90b660151b4508b4531432b462"
+      },
+      {
+        "id": "frog_foot_fl_01",
+        "file": "assets/xeno-editor/frog-original/v0.1.0/parts/frog_foot_fl_01.glb",
+        "sha256": "ce33a2301be73a4b18d50533dc58e33ea6e546cb473a2ca205cf47c119db6e7e"
+      },
+      {
+        "id": "frog_foot_fr_01",
+        "file": "assets/xeno-editor/frog-original/v0.1.0/parts/frog_foot_fr_01.glb",
+        "sha256": "b7095c35ab611f58057f5c2bacedc20bdc25e0ccd740fde43db1ff6ff00d3d3f"
+      },
+      {
+        "id": "frog_foot_hl_01",
+        "file": "assets/xeno-editor/frog-original/v0.1.0/parts/frog_foot_hl_01.glb",
+        "sha256": "b3162c650ef8f18d3c0b35c830bd5ef1a4eb14d99a90e58986d161b99d83e427"
+      },
+      {
+        "id": "frog_foot_hr_01",
+        "file": "assets/xeno-editor/frog-original/v0.1.0/parts/frog_foot_hr_01.glb",
+        "sha256": "adcacd7ed6fd524b6b9b6666c47457b53da006b6bc0852953c2631fc71d304b3"
+      }
+    ]
+  }
+}

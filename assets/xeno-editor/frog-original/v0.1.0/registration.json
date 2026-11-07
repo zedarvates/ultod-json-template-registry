@@ -1,0 +1,336 @@
+{
+  "schema": "uo.creature-editor-review-parts-fragment/v1",
+  "delivery": "review_only",
+  "parts": [
+    {
+      "part_id": "frog_body_01",
+      "name": "frog body 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "frog_head_01",
+      "name": "frog head 01",
+      "category": "head",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "frog_foot_fl_01",
+      "name": "frog foot fl 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "frog_foot_fr_01",
+      "name": "frog foot fr 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "frog_foot_hl_01",
+      "name": "frog foot hl 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "frog_foot_hr_01",
+      "name": "frog foot hr 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "frog_body_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/frog_body_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "25a1a762f146ebaa6e2b1c0349af68936f0d505f582ccdac8b711cb965656e24",
+      "bytes": 96548,
+      "triangles": 3598,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural frog geometry; uniform colors"
+      }
+    },
+    {
+      "id": "frog_head_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/frog_head_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "9c84bca30a5cad3c61539bdb7719d274b9db4b90b660151b4508b4531432b462",
+      "bytes": 124696,
+      "triangles": 6376,
+      "metadata": {
+        "category": "head",
+        "part_role": "primitive",
+        "source": "original procedural frog geometry; uniform colors"
+      }
+    },
+    {
+      "id": "frog_foot_fl_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/frog_foot_fl_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "ce33a2301be73a4b18d50533dc58e33ea6e546cb473a2ca205cf47c119db6e7e",
+      "bytes": 10852,
+      "triangles": 280,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural frog geometry; uniform colors"
+      }
+    },
+    {
+      "id": "frog_foot_fr_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/frog_foot_fr_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "b7095c35ab611f58057f5c2bacedc20bdc25e0ccd740fde43db1ff6ff00d3d3f",
+      "bytes": 10840,
+      "triangles": 280,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural frog geometry; uniform colors"
+      }
+    },
+    {
+      "id": "frog_foot_hl_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/frog_foot_hl_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "b3162c650ef8f18d3c0b35c830bd5ef1a4eb14d99a90e58986d161b99d83e427",
+      "bytes": 15020,
+      "triangles": 384,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural frog geometry; uniform colors"
+      }
+    },
+    {
+      "id": "frog_foot_hr_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/frog_foot_hr_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "adcacd7ed6fd524b6b9b6666c47457b53da006b6bc0852953c2631fc71d304b3",
+      "bytes": 15004,
+      "triangles": 384,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural frog geometry; uniform colors"
+      }
+    }
+  ],
+  "design": {
+    "parts": {
+      "frog_body_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static frog component; armor category is technical."
+      },
+      "frog_head_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "head",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static frog component; armor category is technical."
+      },
+      "frog_foot_fl_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static frog component; armor category is technical."
+      },
+      "frog_foot_fr_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static frog component; armor category is technical."
+      },
+      "frog_foot_hl_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static frog component; armor category is technical."
+      },
+      "frog_foot_hr_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static frog component; armor category is technical."
+      }
+    }
+  }
+}
