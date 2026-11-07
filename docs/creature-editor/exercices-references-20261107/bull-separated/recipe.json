@@ -1,0 +1,61 @@
+{
+  "schema": "uo.bull-separated-review/v1",
+  "delivery": "review_only",
+  "parts": {
+    "body": {
+      "file": "body.glb",
+      "sha256": "d2231baa6c032d9397578876bd4af047cb8437f6f4c5735ee938c36742bddf30",
+      "pivot_m": [
+        0,
+        0,
+        0
+      ],
+      "geometry_count": 24
+    },
+    "FrontL": {
+      "file": "FrontL.glb",
+      "sha256": "c44992e347153e5f2eaa9ead0e557d43481d8c82622d2414bda4a4afa7e45331",
+      "pivot_m": [
+        -0.27,
+        1.22,
+        -0.48
+      ],
+      "geometry_count": 9
+    },
+    "FrontR": {
+      "file": "FrontR.glb",
+      "sha256": "5c989d032a0d5b9d80574950e44484f3f5b469066f32e93451faec9f6e372b72",
+      "pivot_m": [
+        0.27,
+        1.22,
+        -0.48
+      ],
+      "geometry_count": 9
+    },
+    "HindL": {
+      "file": "HindL.glb",
+      "sha256": "d1fe16212350862512addbfcda50bc8ac5469e55e5e90b06d131d8688248fa1b",
+      "pivot_m": [
+        -0.27,
+        1.12,
+        0.78
+      ],
+      "geometry_count": 9
+    },
+    "HindR": {
+      "file": "HindR.glb",
+      "sha256": "4f1920b42673eb354187cf63716e7645c4393ee519f6763732223d53c060b1cb",
+      "pivot_m": [
+        0.27,
+        1.12,
+        0.78
+      ],
+      "geometry_count": 9
+    }
+  },
+  "limits": [
+    "static unrigged pieces",
+    "unwelded joins",
+    "no animation or runtime qualification"
+  ]
+}
