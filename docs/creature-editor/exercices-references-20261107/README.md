@@ -47,3 +47,11 @@ Ces études ne sont ni des entrées strict-v1 ni des créations achevées. Rat, 
 ![Modèle source dans l’éditeur](serpent/preview.png)
 
 [Recette documentaire des pièces](serpent-pieces/recipe.json). La peau enroulée et un ensemble de mâchoire sont extraits du modèle de revue. Leur repositionnement aux origines indiquées reproduit les limites géométriques de chaque composant à moins de 0,000001 m. La capture montre le modèle source avant extraction : **aucun réassemblage interactif des pièces n’a été vérifié**. Les mâchoires présentent toujours des espaces ; pièces statiques, rig et intégration jeu non qualifiés.
+
+## Taureau — recalage des cornes
+
+![Tête et cornes recalées en revue](taureau-cornes/head.png)
+
+![Assemblage bovin de revue](taureau-cornes/assembly.png)
+
+[Recette documentaire de revue](taureau-cornes/recipe.json). Les cornes ont été rapprochées du crâne : distance minimale entre sommets passée d’environ 37 mm à 5–7 mm ; sur cette vue, les bases paraissent en contact. Les surfaces restent distinctes ; aucune soudure ni qualification exhaustive des intersections n’est attestée. Tête et assemblage ont été affichés en pose statique dans l’atelier par redirection locale. Les membres extraits restent à assembler dans l’éditeur ; animation et jeu non qualifiés.
