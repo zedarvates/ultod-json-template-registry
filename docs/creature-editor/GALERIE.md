@@ -10,7 +10,7 @@ Les images montrent des prototypes locaux et les variantes précisées dans chaq
 
 ![Araignée géante — huit pattes — capture Godot du clip de marche local](spider-original/v0.1.0/preview.png)
 
-[Fiche 0.1.0](spider-original/v0.1.0/README.md) · [Recette JSON](spider-original/v0.1.0/recipe.json)
+[Fiche 0.1.0](spider-original/v0.1.0/README.md) · [Recette JSON](spider-original/v0.1.0/recipe.json) · [Vérification du 7 novembre : éditeur et Godot](spider-original/revalidation-20261107/README.md)
 
 Génome natif de revue : 8 pattes locomotrices et tête crânienne dédiée, sans torse dupliqué. Orientation locale du composant de tête : 90° autour de Y. Le lien de marche référence un clip précalculé lié au SHA du modèle ; les modifications de forme demandent une nouvelle revue.
 
