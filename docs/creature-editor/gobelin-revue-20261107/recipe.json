@@ -1,0 +1,17 @@
+{
+  "schema": "uo.goblin-project/v1",
+  "generator": "uo.goblin-native-sculpt/v1",
+  "delivery": "review_only",
+  "source_sha256": "baa84fea14c42447434d503b0d52911c4f1180516515b9fd50427bdb4d8b8f70",
+  "source_skin_review_sha256": "0edb1276231c3f5e9a89d3eec0dbe6035db3e993fb0f232e1e9d09472bbcc19a",
+  "recipe": {
+    "schema": "uo.goblin-walk-shape/v1",
+    "delivery": "review_only",
+    "stride_m": 0.32,
+    "period_s": 1.15,
+    "duty": 0.68,
+    "lift_m": 0.055,
+    "ankle_width_m": 0.17,
+    "pelvis_drop_m": 0.026
+  }
+}

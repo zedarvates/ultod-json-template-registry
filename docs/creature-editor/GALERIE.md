@@ -277,3 +277,10 @@ Relief facial repris, couronnes différenciées et pivot mandibulaire corrigé. 
 Revue locale encore stylisée. Crâne, bassin et proportions restent à affiner avant approbation photoréaliste. Contrôles de marche sur sol plat et séparation verticale des deux arcades sur les ouvertures échantillonnées ; pas de collisions dentaires/craniales exhaustives, forces, terrain, attaque, équipement, monde principal, serveur/réseau, VR ou FPS qualifiés.
 
 La version statique du [scorpion 0.1.0](scorpion-original/v0.1.0/README.md) et le [génome d’araignée déjà catalogué](../../templates/xeno-editor/giant-spider-eight-legs/v0.2.0/README.md) restent conservés. L’inventaire et la recréation des autres familles se poursuivent.
+
+
+## Gobelin des forêts — revue locale
+
+![Gobelin dans Godot](gobelin-revue-20261107/preview.png)
+
+[Recette, captures et limites](gobelin-revue-20261107/README.md)
