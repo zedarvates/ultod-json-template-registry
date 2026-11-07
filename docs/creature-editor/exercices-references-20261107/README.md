@@ -56,4 +56,10 @@ Ces études ne sont ni des entrées strict-v1 ni des créations achevées. Rat, 
 
 ![Assemblage bovin de revue](taureau-cornes/assembly.png)
 
-[Recette documentaire de revue](taureau-cornes/recipe.json). Les cornes ont été rapprochées du crâne : distance minimale entre sommets passée d’environ 37 mm à 5–7 mm ; sur cette vue, les bases paraissent en contact. Les surfaces restent distinctes ; aucune soudure ni qualification exhaustive des intersections n’est attestée. Tête et assemblage ont été affichés en pose statique dans l’atelier par redirection locale. Les membres extraits restent à assembler dans l’éditeur ; animation et jeu non qualifiés.
+[Recette documentaire de revue](taureau-cornes/recipe.json). Les cornes ont été rapprochées du crâne : distance minimale entre sommets passée d’environ 37 mm à 5–7 mm ; sur cette vue, les bases paraissent en contact. Les surfaces restent distinctes ; aucune soudure ni qualification exhaustive des intersections n’est attestée. Tête et assemblage ont été affichés en pose statique dans l’atelier par redirection locale. L’animation et le jeu restent non qualifiés.
+
+
+## Nouvelles études d’assemblage
+
+- [Taureau : torse et quatre membres séparés](bull-separated/README.md), assemblés avant import dans l’éditeur. Les raccords restent à souder et à vérifier.
+- [Serpent : variante avec raccords de mâchoire](serpent-jaw-fit/README.md), affichée dans l’éditeur. Ses pièces séparées ne sont pas encore réassemblées dans l’éditeur.
