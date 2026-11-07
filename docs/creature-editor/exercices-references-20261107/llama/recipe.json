@@ -1,0 +1,97 @@
+{
+  "schema": "uo.llama-reference-pieces/v1",
+  "delivery": "review_only",
+  "reference": "Designer (4).png",
+  "parts": {
+    "body": {
+      "file": "body_llama_fleece.glb",
+      "sha256": "67fe12182736949245d744a64eaed1680dec4f9d039729d7ca6e1fdc80c71a04",
+      "bytes": 26648,
+      "triangles": 1280,
+      "bounds": [
+        [
+          -0.38,
+          0.73,
+          -0.58
+        ],
+        [
+          0.38,
+          1.5699999999999998,
+          0.58
+        ]
+      ]
+    },
+    "neck": {
+      "file": "neck_llama_wool.glb",
+      "sha256": "2ac8c33f7fa9e962d1c6405b4e13c104a8dbe94046dbdec13a88ccd1ae57a7c8",
+      "bytes": 3572,
+      "triangles": 128,
+      "bounds": [
+        [
+          -0.18,
+          1.2090986691908447,
+          -0.67
+        ],
+        [
+          0.18,
+          2.111914522061843,
+          -0.2747085822464772
+        ]
+      ]
+    },
+    "head": {
+      "file": "head_llama_ears.glb",
+      "sha256": "b3b3ef44870765b21526f8f68d5ca5456b6e3dec33925232ddb8ceda0694da45",
+      "bytes": 14948,
+      "triangles": 1008,
+      "bounds": [
+        [
+          -0.162,
+          2.02,
+          -0.84
+        ],
+        [
+          0.162,
+          2.533599176763826,
+          -0.4
+        ]
+      ]
+    },
+    "legs": {
+      "file": "legs_llama_slender.glb",
+      "sha256": "6b8ab864ebe5f893dc1ef1fb303de2b540d8be7adfb9144cf48cd3e287a1b807",
+      "bytes": 7004,
+      "triangles": 240,
+      "bounds": [
+        [
+          -0.22,
+          0.0049999999999999975,
+          -0.845
+        ],
+        [
+          0.22,
+          0.5900000000000001,
+          0.875
+        ]
+      ]
+    }
+  },
+  "assembled": {
+    "file": "llama_assembled.glb",
+    "sha256": "25d1eea731a89b66848fcc5a12b0004353420dbd246f53b1e54f549549a83b81",
+    "bytes": 51340,
+    "triangles": 2656,
+    "bounds": [
+      [
+        -0.38,
+        0.0049999999999999975,
+        -0.845
+      ],
+      [
+        0.38,
+        1.5699999999999998,
+        0.875
+      ]
+    ]
+  }
+}

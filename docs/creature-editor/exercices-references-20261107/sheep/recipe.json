@@ -1,0 +1,79 @@
+{
+  "schema": "uo.sheep-reference-pieces/v1",
+  "delivery": "review_only",
+  "reference": "Designer (6).png",
+  "parts": {
+    "fleece_coat": {
+      "file": "coat_sheep_fleece.glb",
+      "sha256": "0eba25c9c7fc5140ce60fe7e53ee75ecc35aaa1f604dce6859cc0953d2977c61",
+      "bytes": 103464,
+      "triangles": 5120,
+      "bounds": [
+        [
+          -0.48471489210116475,
+          0.39388546366539595,
+          -0.6550914671397389
+        ],
+        [
+          0.48471489210116475,
+          1.5005624403661413,
+          0.6550914671397389
+        ]
+      ]
+    },
+    "head": {
+      "file": "head_sheep_snout.glb",
+      "sha256": "88dd74d854abb55ba2dde8fd1bd67d8132e9b466b327d0fdbb377d0df895d9e3",
+      "bytes": 41816,
+      "triangles": 2560,
+      "bounds": [
+        [
+          -0.33999999999999997,
+          0.95,
+          -0.91
+        ],
+        [
+          0.33999999999999997,
+          1.3499999999999999,
+          -0.39
+        ]
+      ]
+    },
+    "legs": {
+      "file": "legs_sheep_cloven.glb",
+      "sha256": "706cba1b7b6f491b90fa7f938bbf2663167af03bdb86aaa2c7b5682621a81a7d",
+      "bytes": 6984,
+      "triangles": 240,
+      "bounds": [
+        [
+          -0.265,
+          0.0049999999999999975,
+          -0.6950000000000001
+        ],
+        [
+          0.265,
+          0.46499999999999997,
+          0.725
+        ]
+      ]
+    }
+  },
+  "assembled": {
+    "file": "sheep_assembled.glb",
+    "sha256": "fa762aee1a57f9e94abb6decb2189d66e2ef09f12a87fc1e359eb01bff19b351",
+    "bytes": 151712,
+    "triangles": 7920,
+    "bounds": [
+      [
+        -0.48471489210116475,
+        0.0049999999999999975,
+        -0.6950000000000001
+      ],
+      [
+        0.48471489210116475,
+        1.5005624403661413,
+        0.725
+      ]
+    ]
+  }
+}

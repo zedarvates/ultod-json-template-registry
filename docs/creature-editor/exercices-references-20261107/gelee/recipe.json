@@ -1,7 +1,61 @@
 {
-  "schema": "uo.slime-preview/v1",
+  "schema": "uo.slime-reference-pieces/v1",
   "delivery": "review_only",
-  "asset_sha256": "f56ce4e727c17ad42591243a7a9f05997b294dd976b5d186abb80ed7ff558ed8",
-  "softness": 0.2,
-  "frequency_hz": 1.3
+  "reference": "Designer (5).png",
+  "parts": {
+    "dome": {
+      "file": "dome_slime_jelly.glb",
+      "sha256": "af7013e80262144c2a6708524b2491004c464d200ebdcf06c1d810da31f8d94e",
+      "bytes": 26208,
+      "triangles": 1248,
+      "bounds": [
+        [
+          -0.5535530926329326,
+          0.0,
+          -0.5535530926329326
+        ],
+        [
+          0.5535530926329326,
+          0.45,
+          0.5535530926329326
+        ]
+      ]
+    },
+    "nuclei": {
+      "file": "core_slime_nuclei.glb",
+      "sha256": "776a13790be780ee02c70917473a0048854906aa35188d56432b9591308fb4f8",
+      "bytes": 9796,
+      "triangles": 640,
+      "bounds": [
+        [
+          -0.185,
+          0.165,
+          -0.195
+        ],
+        [
+          0.185,
+          0.275,
+          -0.125
+        ]
+      ]
+    }
+  },
+  "assembled": {
+    "file": "slime_assembled.glb",
+    "sha256": "03d2dbfe930e590d25cb3cb23592bafe7390edb098687173d961b4007adede17",
+    "bytes": 35760,
+    "triangles": 1888,
+    "bounds": [
+      [
+        -0.5535530926329326,
+        0.0,
+        -0.5535530926329326
+      ],
+      [
+        0.5535530926329326,
+        0.45,
+        0.5535530926329326
+      ]
+    ]
+  }
 }

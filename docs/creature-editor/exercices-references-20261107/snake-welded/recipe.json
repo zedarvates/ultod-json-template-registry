@@ -1,0 +1,29 @@
+{
+  "schema": "uo.serpent-welded-review/v1",
+  "delivery": "review_only",
+  "reference": "Designer (3).png",
+  "model_sha256": "b855b22339e1ff8fa3a54ce1ea1b77ea5e0660dbb3fa0856edc31100746d7751",
+  "triangles": 52850,
+  "dimensions_m": [
+    1.603384,
+    1.401288,
+    1.720021
+  ],
+  "topology": {
+    "nonmanifold_edges": 0,
+    "components": 1,
+    "status": "PASS_MANIFOLD_WELD",
+    "junctions_welded": true
+  },
+  "improvements": [
+    "Broad triangular viper cranium with elevated eye brows based on Designer (3).png",
+    "Continuous welded junction between cranium, jaws, hinges, and coiled skin (0 non-manifold edges)",
+    "Sharp curved venom fangs and extended forked tongue",
+    "Color scale transition: blue-green/teal dorsal to pale cream belly"
+  ],
+  "limits": [
+    "Static review candidate",
+    "No skeletal rig or slither animation",
+    "Not qualified for game engine physics"
+  ]
+}

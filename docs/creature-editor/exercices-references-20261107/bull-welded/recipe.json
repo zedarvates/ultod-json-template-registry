@@ -1,0 +1,27 @@
+{
+  "schema": "uo.bull-welded-review/v1",
+  "delivery": "review_only",
+  "reference": "Designer (9).png",
+  "model_sha256": "b8dfacb3097e84b5fa1e5a611bf5329e8aada11943e696c4cd8917939f23be41",
+  "triangles": 33662,
+  "dimensions_m": [
+    1.399078,
+    2.019472,
+    2.99469
+  ],
+  "topology": {
+    "nonmanifold_edges": 0,
+    "status": "PASS_MANIFOLD_WELD",
+    "junctions_welded": true
+  },
+  "improvements": [
+    "Muscular withers hump and dorsal ridge added based on Designer (9).png",
+    "Forward and upward curving horns with dark tip gradient",
+    "Continuous shoulder and hip transition remeshed and smoothed (0 non-manifold edges)"
+  ],
+  "limits": [
+    "Static review candidate",
+    "No skeletal rig or walk animation",
+    "Not qualified for game engine physics"
+  ]
+}

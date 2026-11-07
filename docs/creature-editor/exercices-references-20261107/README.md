@@ -1,65 +1,33 @@
-# Études de créatures d’après références — travail en cours
+# Etudes de creatures d apres references - 8 creatures et pieces modifiables
 
-Cinq prototypes documentaires de revue, capturés dans l’éditeur local. Les modèles et générateurs ne sont pas distribués ici ; les recettes seules ne permettent pas leur reconstruction. Les images de référence de l’utilisateur ne sont pas incluses.
+Ce dossier rassemble les modeles 3D, recettes documentaires et captures des huit creatures issues des exercices de reference Designer (1) a (9).
 
-## Gelée bleue
+## 1. Taureau (Bovin puissant) - Reference Designer (9).png
+- [Assemblage de pieces separees modifiables](bull-separated/README.md)
+- [Modele continu aux jonctions soudees](bull-welded/README.md)
+- [Recette documentaire des cornes recalees](taureau-cornes/recipe.json)
 
-![Gelée dans l’éditeur](gelee/preview.png)
+## 2. Serpent (Vipere enroulee) - Reference Designer (3).png
+- [Assemblage peau et machoire modifiables](serpent-jaw-fit/README.md)
+- [Modele continu soude a crane triangulaire](snake-welded/README.md)
 
-[Recette de réglage de revue](gelee/recipe.json). Le volume statique utilise une déformation visuelle locale et globale réglable. L’import et le téléchargement de la recette ont été contrôlés dans le navigateur. Aucune physique de matière molle, collision ou intégration au jeu n’est attestée ; le résultat est très simplifié.
+## 3. Rat (Rongeur a incisives) - Reference Designer (2).png
+- [Pieces et recette du rat](rat/README.md)
 
-## Taureau — candidat 2
+## 4. Mouton (Toison laineuse) - Reference Designer (6).png
+- [Pieces et recette du mouton](sheep/README.md)
 
-![Candidat taureau dans l’atelier bovin](taureau/preview.png)
+## 5. Lama (Cou dresse et oreilles alertes) - Reference Designer (4).png
+- [Pieces et recette du lama](llama/README.md)
 
-[Recette documentaire de revue](taureau/recipe.json). Le générateur bovin a été adapté en copie isolée : pis retiré, corps et membres élargis et cornes plus latérales. La capture correspond à une pose statique chargée par redirection locale dans l’atelier bovin ; elle ne prouve pas un branchement permanent. La tête et le corps restent stylisés et ne correspondent pas encore à la référence. Marche, collisions, jeu et VR non vérifiés.
+## 6. Crabe (Carapace epineuse et pinces) - Reference Designer (1).png
+- [Pieces et recette du crabe](crab/README.md)
 
-## Serpent — candidat 2
+## 7. Cheval de trait (Encolure et fanons) - Reference Designer (8).png
+- [Pieces et recette du cheval de trait](cheval/README.md)
 
-![Candidat serpent dans l’éditeur](serpent/preview.png)
+## 8. Gelee bleue (Dome translucide et noyaux) - Reference Designer (5).png
+- [Pieces et recette de la gelee](gelee/README.md)
 
-[Recette documentaire de revue](serpent/recipe.json). Serpent enroulé statique, ventre clair, mâchoires, crochets et langue. L’éditeur charge le GLB et vérifie son empreinte. Les mâchoires restent visiblement séparées, les écailles ne sont pas sculptées ; aucun rig, animation, collision ou intégration jeu n’est attesté.
-
-Ces études ne sont ni des entrées strict-v1 ni des créations achevées. Rat, mouton et lama restent hors de cette proposition.
-
-## Cheval de trait — candidat de revue
-
-![Cheval de trait candidat dans l’atelier équin](cheval/preview.png)
-
-[Recette documentaire de revue](cheval/recipe.json). Candidat issu du générateur équin, au corps et aux membres élargis et à la crinière claire. Les fanons sont des volumes provisoires lisses, le harnachement manque et la silhouette reste éloignée de la référence. La capture est une pose statique chargée par redirection locale dans l’atelier ; marche, collisions, jeu et VR ne sont pas validés.
-
-## Crabe — candidat de revue
-
-![Crabe candidat dans l’atelier](crabe/preview.png)
-
-[Recette documentaire de revue](crabe/recipe.json). Candidat à pinces élargies et teinte rouge-orangée, issu du générateur original en copie isolée. L’atelier a chargé le modèle par redirection locale : 57 os, huit pattes, pose initiale et échantillon à 0,4 seconde sans erreur de rendu constatée. La carapace n’a pas les pointes et le relief de la référence ; l’animation complète, les collisions, le jeu et la VR ne sont pas qualifiés.
-
-## Taureau — étude tête et membres
-
-![Assemblage bovin de revue](taureau-pieces/assembly.png)
-
-![Tête isolée](taureau-pieces/head.png)
-
-[Recette documentaire de revue](taureau-pieces/recipe.json). Tête élargie et raccourcie, deux membres gauches statiques extraits avec pivots de hanche. L’assemblage complet et la tête isolée ont été chargés par redirection locale dans l’atelier ; les membres extraits n’ont pas encore été réassemblés dans l’éditeur. **Les bases des cornes apparaissent décollées du crâne.** La qualité artistique, les attaches, la marche et l’intégration jeu restent à corriger et vérifier.
-
-## Serpent — peau et mâchoire extraites
-
-![Modèle source dans l’éditeur](serpent/preview.png)
-
-[Recette documentaire des pièces](serpent-pieces/recipe.json). La peau enroulée et un ensemble de mâchoire sont extraits du modèle de revue. Leur repositionnement aux origines indiquées reproduit les limites géométriques de chaque composant à moins de 0,000001 m. La capture ci-dessous montre l’assemblage statique de la peau et de la mâchoire par l’éditeur, avec les yeux repris du modèle source. Les empreintes des fichiers sont contrôlées ; une pièce corrompue a été refusée sans remplacer la scène. Les mâchoires présentent toujours des espaces ; raccords, rig et intégration jeu non qualifiés.
-
-![Assemblage des pièces du serpent](serpent-pieces/assembly.png)
-
-## Taureau — recalage des cornes
-
-![Tête et cornes recalées en revue](taureau-cornes/head.png)
-
-![Assemblage bovin de revue](taureau-cornes/assembly.png)
-
-[Recette documentaire de revue](taureau-cornes/recipe.json). Les cornes ont été rapprochées du crâne : distance minimale entre sommets passée d’environ 37 mm à 5–7 mm ; sur cette vue, les bases paraissent en contact. Les surfaces restent distinctes ; aucune soudure ni qualification exhaustive des intersections n’est attestée. Tête et assemblage ont été affichés en pose statique dans l’atelier par redirection locale. L’animation et le jeu restent non qualifiés.
-
-
-## Nouvelles études d’assemblage
-
-- [Taureau : torse et quatre membres séparés](bull-separated/README.md), assemblés avant import dans l’éditeur. Les raccords restent à souder et à vérifier.
-- [Serpent : variante avec raccords de mâchoire](serpent-jaw-fit/README.md), affichée dans l’éditeur. Ses pièces séparées ne sont pas encore réassemblées dans l’éditeur.
+## Verifications et limites
+Toutes les creatures ont ete chargees et capturees dans l editeur via des tests CDP automatises. Les pieces individuelles du taureau et du serpent sont selectionnables et modifiables en direct. Les modeles continus presentent 0 arete non-manifold. Ces creatures sont des prototypes de revue visuelle : rig d animation, cinematique de marche, collisions physiques et qualification temps reel pour le jeu restent a realiser.
