@@ -1,0 +1,390 @@
+{
+  "schema": "uo.creature-editor-review-parts-fragment/v1",
+  "delivery": "review_only",
+  "parts": [
+    {
+      "part_id": "boar_body_01",
+      "name": "boar body 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "boar_head_01",
+      "name": "boar head 01",
+      "category": "head",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "boar_tail_01",
+      "name": "boar tail 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "boar_foot_fl_01",
+      "name": "boar foot fl 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "boar_foot_fr_01",
+      "name": "boar foot fr 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "boar_foot_hl_01",
+      "name": "boar foot hl 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "boar_foot_hr_01",
+      "name": "boar foot hr 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "boar_body_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/boar_body_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "a862bf37eec93767463add50c374b867e1590b092ea547dd99b5f610993f3bf6",
+      "bytes": 104068,
+      "triangles": 3864,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural boar geometry; uniform colors"
+      }
+    },
+    {
+      "id": "boar_head_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/boar_head_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "05abe6054f54aec552b81b85e4b9cc4148de3acffc175e44c41df608f2ff7c4d",
+      "bytes": 89752,
+      "triangles": 3948,
+      "metadata": {
+        "category": "head",
+        "part_role": "primitive",
+        "source": "original procedural boar geometry; uniform colors"
+      }
+    },
+    {
+      "id": "boar_tail_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/boar_tail_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "c0470be3ff9ffe59799010adf85acbd6d0c2e640b8ff66d4f70d0da47b28b07c",
+      "bytes": 17036,
+      "triangles": 486,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural boar geometry; uniform colors"
+      }
+    },
+    {
+      "id": "boar_foot_fl_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/boar_foot_fl_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "5a14be4e831800b2e87ac4898a5072c6fb8163a12fab57a6e28c60925b7da844",
+      "bytes": 8444,
+      "triangles": 192,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural boar geometry; uniform colors"
+      }
+    },
+    {
+      "id": "boar_foot_fr_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/boar_foot_fr_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "2259043d40589371d9e33ba2381523cbc7e6fc0854e915312952634742bf1178",
+      "bytes": 8428,
+      "triangles": 192,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural boar geometry; uniform colors"
+      }
+    },
+    {
+      "id": "boar_foot_hl_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/boar_foot_hl_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "3c9e5e823b62ed1de88a325e88ac3fe0bad997dbbcf8c5721516199f903c31d1",
+      "bytes": 8424,
+      "triangles": 192,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural boar geometry; uniform colors"
+      }
+    },
+    {
+      "id": "boar_foot_hr_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/boar_foot_hr_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "bd8bac488f75fbc1d9973f182ab520c1c98ed9ad913b9289c5c4785636fedd6f",
+      "bytes": 8408,
+      "triangles": 192,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural boar geometry; uniform colors"
+      }
+    }
+  ],
+  "design": {
+    "parts": {
+      "boar_body_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static boar component; armor category is technical."
+      },
+      "boar_head_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "head",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static boar component; armor category is technical."
+      },
+      "boar_tail_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static boar component; armor category is technical."
+      },
+      "boar_foot_fl_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static boar component; armor category is technical."
+      },
+      "boar_foot_fr_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static boar component; armor category is technical."
+      },
+      "boar_foot_hl_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static boar component; armor category is technical."
+      },
+      "boar_foot_hr_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static boar component; armor category is technical."
+      }
+    }
+  }
+}
