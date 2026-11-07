@@ -46,7 +46,9 @@ Ces études ne sont ni des entrées strict-v1 ni des créations achevées. Rat, 
 
 ![Modèle source dans l’éditeur](serpent/preview.png)
 
-[Recette documentaire des pièces](serpent-pieces/recipe.json). La peau enroulée et un ensemble de mâchoire sont extraits du modèle de revue. Leur repositionnement aux origines indiquées reproduit les limites géométriques de chaque composant à moins de 0,000001 m. La capture montre le modèle source avant extraction : **aucun réassemblage interactif des pièces n’a été vérifié**. Les mâchoires présentent toujours des espaces ; pièces statiques, rig et intégration jeu non qualifiés.
+[Recette documentaire des pièces](serpent-pieces/recipe.json). La peau enroulée et un ensemble de mâchoire sont extraits du modèle de revue. Leur repositionnement aux origines indiquées reproduit les limites géométriques de chaque composant à moins de 0,000001 m. La capture ci-dessous montre l’assemblage statique de la peau et de la mâchoire par l’éditeur, avec les yeux repris du modèle source. Les empreintes des fichiers sont contrôlées ; une pièce corrompue a été refusée sans remplacer la scène. Les mâchoires présentent toujours des espaces ; raccords, rig et intégration jeu non qualifiés.
+
+![Assemblage des pièces du serpent](serpent-pieces/assembly.png)
 
 ## Taureau — recalage des cornes
 
