@@ -284,3 +284,10 @@ La version statique du [scorpion 0.1.0](scorpion-original/v0.1.0/README.md) et l
 ![Gobelin dans Godot](gobelin-revue-20261107/preview.png)
 
 [Recette, captures et limites](gobelin-revue-20261107/README.md)
+
+
+## Gelée bleue — étude de revue
+
+![Gelée dans Godot](gelee-bleue-revue-20261107/preview.png)
+
+[Recette, captures et limites](gelee-bleue-revue-20261107/README.md)
