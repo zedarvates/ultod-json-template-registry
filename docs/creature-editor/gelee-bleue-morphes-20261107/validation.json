@@ -1,0 +1,80 @@
+{
+  "schema": "uo.slime-morph-documentary-validation/v1",
+  "delivery": "review_only",
+  "model_sha256": "4b12e9d2bf1766b0441d2671693000ff92d22b3acd775d634379b2a445a65efd",
+  "triangles": 3744,
+  "texture_dimensions": [
+    [
+      512,
+      512
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "estimated_rgba8_complete_mips_bytes": 2097148,
+  "mesh_nodes": 10,
+  "morphs_per_mesh": 2,
+  "uv": {
+    "collapsed_triangles": 0,
+    "anisotropy_p95": 1.4246212935313747,
+    "anisotropy_maximum": 1.7633588407823122
+  },
+  "normal_error_degrees": {
+    "p95": 0.29786582499359865,
+    "p99": 0.7135287003777797,
+    "maximum": 1.559459993904734
+  },
+  "morph_samples": 244,
+  "pairwise_geometry": {
+    "samples": 93,
+    "pairs": 45,
+    "intentional_crossings": [
+      "eye_-1 / eye_glint_-1",
+      "eye_-1 / gel_body",
+      "eye_1 / eye_glint_1",
+      "eye_1 / gel_body"
+    ],
+    "self_intersections": "none sampled",
+    "internal_vertices": "inside at sampled poses"
+  },
+  "engine_imports": [
+    {
+      "method": "gl_compatibility",
+      "proof": "native-morph-06-gl_compatibility-final/result.json",
+      "maximum_vertex_error_m": 2.38883785641519e-07
+    },
+    {
+      "method": "forward_plus",
+      "proof": "native-morph-06-forward_plus-final/result.json",
+      "maximum_vertex_error_m": 2.38883785641519e-07
+    }
+  ],
+  "editor_mode": "morph_targets; original vertex buffers unchanged",
+  "editor_recipe": {
+    "schema": "uo.slime-preview/v1",
+    "delivery": "review_only",
+    "asset_sha256": "4b12e9d2bf1766b0441d2671693000ff92d22b3acd775d634379b2a445a65efd",
+    "softness": 0.2,
+    "frequency_hz": 1.3
+  },
+  "native_preparation_only": {
+    "cpu": {
+      "median_us": 2137,
+      "p95_us": 2276
+    },
+    "morph": {
+      "median_us": 7,
+      "p95_us": 10
+    },
+    "samples": 200,
+    "scope": "Same GLB and 10 parts; interleaved host-side sample calls only. Excludes deferred rendering work, GPU, frame time, memory, power, crowds, collisions and gameplay."
+  },
+  "source_material_sha256": "73ee3481f8b5bb3ee5190ddaff35064b02716c30c4c3e3ca4d49994926de0324",
+  "scope": "Local visual review only; sampled intersections, no continuous-time or physics proof, no main-world/server gameplay, no crowd FPS or final visual approval."
+}
