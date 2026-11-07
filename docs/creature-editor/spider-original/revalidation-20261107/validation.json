@@ -1,0 +1,113 @@
+{
+  "scope": "Revue isolée : 4 cycles rectilignes sur sol plat ; aucune validation terrain, collisions complètes, gameplay, réseau, VR ou finition artistique.",
+  "model_sha256": "b715d1b8db99f391fd74edd7057b53ffb2b7e8285bafe15fc08c88a0a85b594c",
+  "recipe_sha256": "30711ab3d2a1531c2cb763f96dc38819cc1da3ddc984930a4dfac1b6c3649184",
+  "triangles": 7560,
+  "textures": [
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "legs": 8,
+  "bones": 16,
+  "cpu": {
+    "family": "spider",
+    "sha256": "b715d1b8db99f391fd74edd7057b53ffb2b7e8285bafe15fc08c88a0a85b594c",
+    "samples": 601,
+    "duration": 5,
+    "minimum_surface_y_m": 9.880373035850258e-05,
+    "maximum_stance_surface_y_m": 0.0006572726942411788,
+    "maximum_stance_anchor_error_m": 7.625096985450713e-05,
+    "minimum_supports": 4,
+    "maximum_edge_ratio_error": 1.0338794309561194e-07,
+    "minimum_peak_swing_clearance_m": 0.04484868786883327
+  },
+  "editor": {
+    "minimum": 9.880413066765126e-05,
+    "maxStance": 0.000657074076456543,
+    "error": 7.625475933408363e-05,
+    "minSupport": 4,
+    "minPeak": 0.044089560154413066,
+    "state": {
+      "active": true,
+      "busy": false,
+      "last_error": "",
+      "family": "spider",
+      "time": 1.1,
+      "sha256": "b715d1b8db99f391fd74edd7057b53ffb2b7e8285bafe15fc08c88a0a85b594c",
+      "skinned_legs": 8,
+      "bones": 16,
+      "paused": true
+    },
+    "static_export_refused": true,
+    "closed_without_authoring_changes": true
+  },
+  "godot_forward_plus": {
+    "bones": 16,
+    "captures": [
+      "walk-000.png",
+      "walk-008.png",
+      "walk-016.png",
+      "walk-060.png",
+      "walk-120.png"
+    ],
+    "duration": 5,
+    "family": "spider",
+    "frames": 121,
+    "gameplay": "UNVERIFIED",
+    "glb_sha256": "b715d1b8db99f391fd74edd7057b53ffb2b7e8285bafe15fc08c88a0a85b594c",
+    "maximum_planar_anchor_error_m": 7.62492782087065e-05,
+    "maximum_stance_surface_y_m": 0.000657021999359131,
+    "minimum_peak_swing_clearance_m": 0.0440895259380341,
+    "minimum_supports": 4,
+    "minimum_surface_y_m": 9.87648963928223e-05,
+    "scope": "Actual imported clip, Skeleton3D and baked native posed vertices on flat plane only",
+    "skinned_legs": 8,
+    "status": "PASS",
+    "terrain": "UNVERIFIED",
+    "triangles": 7560,
+    "vertices": 4082,
+    "vr": "UNVERIFIED"
+  },
+  "godot_compatibility": {
+    "bones": 16,
+    "captures": [
+      "walk-000.png",
+      "walk-008.png",
+      "walk-016.png",
+      "walk-060.png",
+      "walk-120.png"
+    ],
+    "duration": 5,
+    "family": "spider",
+    "frames": 121,
+    "gameplay": "UNVERIFIED",
+    "glb_sha256": "b715d1b8db99f391fd74edd7057b53ffb2b7e8285bafe15fc08c88a0a85b594c",
+    "maximum_planar_anchor_error_m": 7.62492782087065e-05,
+    "maximum_stance_surface_y_m": 0.000657021999359131,
+    "minimum_peak_swing_clearance_m": 0.0440895259380341,
+    "minimum_supports": 4,
+    "minimum_surface_y_m": 9.87648963928223e-05,
+    "scope": "Actual imported clip, Skeleton3D and baked native posed vertices on flat plane only",
+    "skinned_legs": 8,
+    "status": "PASS",
+    "terrain": "UNVERIFIED",
+    "triangles": 7560,
+    "vertices": 4082,
+    "vr": "UNVERIFIED"
+  },
+  "image_sha256": {
+    "editor-head.png": "338124501066bcfe6c80e79b96282b6a724c8f54edba260ca675ebb873429a98",
+    "editor-walk.png": "18095a4cae54fb3696e675d7257a2eff835f1ce352ccbbb1da9330ee3ad224ef",
+    "godot-walk.png": "cff7fa2cf7f82418eeee3200a3ea8c3be09c956d23699e2b32c6670b1aef97a9"
+  }
+}
