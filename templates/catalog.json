@@ -124439,6 +124439,25 @@
       "file": "templates/xeno-editor/crocodile-original/v0.1.0/template.json",
       "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
       "sha256": "fdce5619d5881462b78e658febf6094dcb00f652a6d21470652a2aee8bf3e145"
+    },
+    {
+      "id": "xeno-editor:rabbit-original",
+      "slug": "rabbit-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:5282bf37126a3423eac7602f7ba1859fe4eaafb49a11542ae31447f5bf2b0d72",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "rabbit-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/rabbit-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "8419e603a9c8fc125b348736d9e6cdd5510aa1179e923a225d009d328ca6a863"
     }
   ],
   "aliases": []

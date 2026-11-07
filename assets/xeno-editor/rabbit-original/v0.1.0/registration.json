@@ -1,0 +1,336 @@
+{
+  "schema": "uo.creature-editor-review-parts-fragment/v1",
+  "delivery": "review_only",
+  "parts": [
+    {
+      "part_id": "rabbit_body_01",
+      "name": "rabbit body 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "rabbit_head_01",
+      "name": "rabbit head 01",
+      "category": "head",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "rabbit_foot_fl_01",
+      "name": "rabbit foot fl 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "rabbit_foot_fr_01",
+      "name": "rabbit foot fr 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "rabbit_foot_hl_01",
+      "name": "rabbit foot hl 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "rabbit_foot_hr_01",
+      "name": "rabbit foot hr 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "rabbit_body_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/rabbit_body_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "b8ea4cf378f34eabe42c14e8d1938d50e2b4adc2104e87baa9d35d70b13973d1",
+      "bytes": 100436,
+      "triangles": 3888,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural rabbit geometry; uniform colors"
+      }
+    },
+    {
+      "id": "rabbit_head_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/rabbit_head_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "8ffa0f0e88711a64a1e328b83a3c4aa3688d6a4fc89e343789e95839c19123c2",
+      "bytes": 121048,
+      "triangles": 5368,
+      "metadata": {
+        "category": "head",
+        "part_role": "primitive",
+        "source": "original procedural rabbit geometry; uniform colors"
+      }
+    },
+    {
+      "id": "rabbit_foot_fl_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/rabbit_foot_fl_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "b251654ab1a14e464e2928b30c3e43b28b98302db0a5659a8aebe1b90ac19c09",
+      "bytes": 21920,
+      "triangles": 550,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural rabbit geometry; uniform colors"
+      }
+    },
+    {
+      "id": "rabbit_foot_fr_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/rabbit_foot_fr_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "2a99ccefe9b4958055f0a0740a05b1e9642f2bc692b3276f9069eca97596cca8",
+      "bytes": 21856,
+      "triangles": 550,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural rabbit geometry; uniform colors"
+      }
+    },
+    {
+      "id": "rabbit_foot_hl_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/rabbit_foot_hl_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "98612ccd8799c2243c58e7b38b1fbe89dc7e7936ea9a35e8d5e8a35923002489",
+      "bytes": 17784,
+      "triangles": 448,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural rabbit geometry; uniform colors"
+      }
+    },
+    {
+      "id": "rabbit_foot_hr_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/rabbit_foot_hr_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "fe99efa9642166445e37d42de77637abb99463f39a8067104a05a1e121811e39",
+      "bytes": 17764,
+      "triangles": 448,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural rabbit geometry; uniform colors"
+      }
+    }
+  ],
+  "design": {
+    "parts": {
+      "rabbit_body_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static rabbit component; armor category is technical."
+      },
+      "rabbit_head_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "head",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static rabbit component; armor category is technical."
+      },
+      "rabbit_foot_fl_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static rabbit component; armor category is technical."
+      },
+      "rabbit_foot_fr_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static rabbit component; armor category is technical."
+      },
+      "rabbit_foot_hl_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static rabbit component; armor category is technical."
+      },
+      "rabbit_foot_hr_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static rabbit component; armor category is technical."
+      }
+    }
+  }
+}
