@@ -1,9 +1,13 @@
-# Serpent - maillage continu et jonctions soudees
+# Serpent - maillage continu, squelette et reptation
 
-Modele continu pour revue avec jonctions soudees en un composant unique (0 arete non-manifold).
+Modele continu aux jonctions soudees (0 arete non-manifold) dote d un squelette vertebral de 17 os et d une animation d ondulation (SnakeSlither, 51 pistes).
 
-![Serpent soude dans l atelier](snake_welded.png)
+![Serpent en ondulation dans l editeur](snake_slither_deformation.png)
 
-[Recette de revue](recipe.json). Le crane adopte le profil triangulaire elargi des viperes de la reference Designer (3).png avec arcade sourciliere proeminente, gueule ouverte montrant deux crochets recourbes et langue bifide. Les machoires et charnieres sont unifiees au cou et au corps enroule sans couture ouverte.
+![Squelette au repos](snake_skeleton_rest.png)
 
-Limites : candidat statique de revue, sans rig d ondulation ni qualification moteur de jeu.
+[Modele rigge et anime (GLB)](serpent_rigged_walk.glb) | [Modele soude statique](serpent_welded.glb) | [Recette](recipe.json)
+
+- **Squelette vertebral** : chaine de 15 vertebres le long du corps enroule, crane triangulaire de vipere et machoire inferieure articulee.
+- **Animation d ondulation** : onde sinusoidale propagee le long des vertebres, frappe avant de la tete et ouverture de la gueule exhibant les crochets venimeux.
+- **Deformation verifiee** : teste dans l editeur Three.js via AnimationMixer avec deplacement fluide du maillage continu.

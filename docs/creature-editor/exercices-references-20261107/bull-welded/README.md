@@ -1,9 +1,13 @@
-# Taureau - maillage continu et jonctions soudees
+# Taureau - maillage continu, squelette et marche
 
-Modele continu pour revue avec jonctions soudees (0 arete non-manifold).
+Modele continu aux jonctions soudees (0 arete non-manifold) dote d un squelette de 18 os et d une animation de marche quadrupede (BovineWalk, 54 pistes).
 
-![Taureau soude dans l atelier](bull_welded.png)
+![Taureau en cycle de marche dans l editeur](bull_walk_deformation.png)
 
-[Recette de revue](recipe.json). Le garrot a ete releve pour restituer la bosse musculaire visible sur la reference Designer (9).png ; les cornes s incurvent vers l avant puis vers le haut avec un degrade de teinte aux pointes. Les quatre membres sont soudes au torse par union volumique et lissage des transitions d epaules et de hanches.
+![Squelette au repos](bull_skeleton_rest.png)
 
-Limites : modele statique de revue, sans squelette d animation ni collision physique temps reel.
+[Modele rigge et anime (GLB)](bull_rigged_walk.glb) | [Modele soude statique](bull_welded.glb) | [Recette](recipe.json)
+
+- **Squelette articule** : bassin, colonne vertebro-lombaire, garrot rehausse, encolure, crane et machoire, plus 4 chaines de membres completes (hanche, genou, jarret, sabot).
+- **Animation de marche** : cycle de marche a 4 temps avec dephasage alternatif, balancement du garrot et de la tete.
+- **Deformation verifiee** : teste dans l editeur Three.js via AnimationMixer avec deplacement effectif des sommets du maillage skinné.
