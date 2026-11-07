@@ -33,3 +33,11 @@ Ces études ne sont ni des entrées strict-v1 ni des créations achevées. Rat, 
 ![Crabe candidat dans l’atelier](crabe/preview.png)
 
 [Recette documentaire de revue](crabe/recipe.json). Candidat à pinces élargies et teinte rouge-orangée, issu du générateur original en copie isolée. L’atelier a chargé le modèle par redirection locale : 57 os, huit pattes, pose initiale et échantillon à 0,4 seconde sans erreur de rendu constatée. La carapace n’a pas les pointes et le relief de la référence ; l’animation complète, les collisions, le jeu et la VR ne sont pas qualifiés.
+
+## Taureau — étude tête et membres
+
+![Assemblage bovin de revue](taureau-pieces/assembly.png)
+
+![Tête isolée](taureau-pieces/head.png)
+
+[Recette documentaire de revue](taureau-pieces/recipe.json). Tête élargie et raccourcie, deux membres gauches statiques extraits avec pivots de hanche. L’assemblage complet et la tête isolée ont été chargés par redirection locale dans l’atelier ; les membres extraits n’ont pas encore été réassemblés dans l’éditeur. **Les bases des cornes apparaissent décollées du crâne.** La qualité artistique, les attaches, la marche et l’intégration jeu restent à corriger et vérifier.
