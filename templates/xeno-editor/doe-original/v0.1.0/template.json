@@ -1,0 +1,63 @@
+{
+  "$schema": "../../../schemas/xeno-editor/v1.2.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "xeno-editor:doe-original",
+  "slug": "doe-original",
+  "family": "xeno-editor",
+  "version": "0.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "xeno-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:d738a0667b4bb51c70c25491efd39626eb398220fb7076d7f73164ddb901765e",
+  "spec": {
+    "display_name": "Biche originale",
+    "genome_file": "assets/xeno-editor/doe-original/v0.1.0/genome.json",
+    "source_recipe_file": "assets/xeno-editor/doe-original/v0.1.0/source-recipe.json",
+    "preview_file": "assets/xeno-editor/doe-original/v0.1.0/preview.png",
+    "godot_preview_file": "assets/xeno-editor/doe-original/v0.1.0/godot-preview.png",
+    "registration_file": "assets/xeno-editor/doe-original/v0.1.0/registration.json",
+    "genome_sha256": "f8dc30f355224cac9116ecdc38db2a2870779e476af879736be09c50f13eb84f",
+    "source_recipe_sha256": "e04a32dea18c95756429ed5ed2d6674230cfbc21fd905a5880e04b7c0ddb0043",
+    "preview_sha256": "1a8e4f8959268862c1a8f926e3f86b6358c5a004cbfca107f4caaf8bab163ce2",
+    "godot_preview_sha256": "e3abcaeb13f02d1d11b6c973ff6f44bdeea872511f38e5c1ac6f045cb976036a",
+    "registration_sha256": "2363631a095fc80869451354fdfef567546c4e5dc1c8c6331e71926067e8f7fd",
+    "reviewed_model_sha256": "c2d2825a32ff9bb74a93d54dfd8db98fa059a2488e5cb9e826c8bee4fb05412e",
+    "review_status": "review-only",
+    "evidence_scope": "editor-export-and-static-godot-import",
+    "parts": [
+      {
+        "id": "deer_body_01",
+        "file": "assets/xeno-editor/doe-original/v0.1.0/parts/deer_body_01.glb",
+        "sha256": "a763640ca1742863b75c28b960f15589ee6687e7b4325e8422e3ef88ddb6e6ca"
+      },
+      {
+        "id": "deer_head_01",
+        "file": "assets/xeno-editor/doe-original/v0.1.0/parts/deer_head_01.glb",
+        "sha256": "f22cc210bb7474719fb661bd5ec59ab4a2c7f5bbadcd61626603bb8dc2fd6047"
+      },
+      {
+        "id": "deer_foot_fl_01",
+        "file": "assets/xeno-editor/doe-original/v0.1.0/parts/deer_foot_fl_01.glb",
+        "sha256": "5c79beb5ca61a3054ed1a02e6da856174247b96af363807e6b03a1f838bb3a1c"
+      },
+      {
+        "id": "deer_foot_fr_01",
+        "file": "assets/xeno-editor/doe-original/v0.1.0/parts/deer_foot_fr_01.glb",
+        "sha256": "77dbe8af3389c7d0daaa1166e6f1d4eb731cf5ba7119166961ced4dd57dd0783"
+      },
+      {
+        "id": "deer_foot_hl_01",
+        "file": "assets/xeno-editor/doe-original/v0.1.0/parts/deer_foot_hl_01.glb",
+        "sha256": "dfd1a03c2ba5c9fbca38ccf88c3964e39c9d56930b8ad01a19616c6f54504967"
+      },
+      {
+        "id": "deer_foot_hr_01",
+        "file": "assets/xeno-editor/doe-original/v0.1.0/parts/deer_foot_hr_01.glb",
+        "sha256": "92f76029bba15c0a0935c029d6e7e541dbe42f779553cf4e190afd31ef4b8d01"
+      }
+    ]
+  }
+}

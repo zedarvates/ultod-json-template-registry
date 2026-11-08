@@ -18,3 +18,4 @@ Les entrées décrivent des génomes conservés pour revue. Les assets et géné
 - [Crocodile original v0.1.0](crocodile-original/v0.1.0/README.md)
 - [Lapin original v0.1.0](rabbit-original/v0.1.0/README.md)
 - [Ours brun original v0.1.0](brown-bear-original/v0.1.0/README.md)
+- [Biche originale v0.1.0](doe-original/v0.1.0/README.md)

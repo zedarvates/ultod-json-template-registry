@@ -124477,6 +124477,25 @@
       "file": "templates/xeno-editor/brown-bear-original/v0.1.0/template.json",
       "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
       "sha256": "b5719ef446c15d0b2fece0dfa8090491d63c9f693b589b7f10ff5159bcb0a40a"
+    },
+    {
+      "id": "xeno-editor:doe-original",
+      "slug": "doe-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:d738a0667b4bb51c70c25491efd39626eb398220fb7076d7f73164ddb901765e",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "doe-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/doe-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "e2c92674cd87f7f55d91ea6a46d7c8d4d7af6475f3205d3fc514ebf837805eab"
     }
   ],
   "aliases": []
