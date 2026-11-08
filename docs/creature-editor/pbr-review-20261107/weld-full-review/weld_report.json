@@ -1,0 +1,91 @@
+{
+  "horse": {
+    "source": "C:\\Users\\redga\\.codex\\visualizations\\2026\\11\\06\\01a1b062-c811-7593-80b6-c86ba538a7a9\\pbr-eight-20261107\\quadruped-repair-v2\\horse_pbr_repair.glb",
+    "source_sha256": "9f623335407b79c919af0f3ca5d382f700b9514d021014d4be0b96f57040d888",
+    "output": "horse_weld_review.glb",
+    "sha256": "b6337ea145d6234e84332b2bf42870ae76182d3eb7ae4c20601bca1f035f49ff",
+    "joined_nodes": [
+      "geometry_0",
+      "blond_mane",
+      "neck_crest",
+      "leg_FL",
+      "leg_FL_feathering",
+      "leg_FL_hoof",
+      "leg_FR",
+      "leg_FR_feathering",
+      "leg_FR_hoof",
+      "leg_HL",
+      "leg_HL_feathering",
+      "leg_HL_hoof",
+      "leg_HR",
+      "leg_HR_feathering",
+      "leg_HR_hoof",
+      "horse_head_proxy",
+      "horse_muzzle_proxy",
+      "horse_ear_proxy_-1",
+      "horse_ear_proxy_1"
+    ],
+    "body_components": 1,
+    "component_sizes": [
+      22698
+    ],
+    "nonmanifold_edges": 0,
+    "voxel_size_m": 0.025,
+    "status": "static experimental proxy; nearest-surface material transfer; eyes excluded; UV and fidelity require review"
+  },
+  "sheep": {
+    "source": "C:\\Users\\redga\\.codex\\visualizations\\2026\\11\\06\\01a1b062-c811-7593-80b6-c86ba538a7a9\\pbr-eight-20261107\\quadruped-repair-v2\\sheep_pbr_repair.glb",
+    "source_sha256": "c02cb052cfb8c7ffacc0531cbc79ca5c46f2ebc254a6efceb9c9c17696e9296b",
+    "output": "sheep_weld_review.glb",
+    "sha256": "7e4d5b08e0ee380349232dbb1676cf119a5da76cac68c2d8d3b28e993c4ef470",
+    "joined_nodes": [
+      "geometry_0",
+      "ear_-1",
+      "ear_1",
+      "head_snout",
+      "leg_FL",
+      "leg_FL_hoof",
+      "leg_FR",
+      "leg_FR_hoof",
+      "leg_HL",
+      "leg_HL_hoof",
+      "leg_HR",
+      "leg_HR_hoof"
+    ],
+    "body_components": 1,
+    "component_sizes": [
+      11324
+    ],
+    "nonmanifold_edges": 0,
+    "voxel_size_m": 0.025,
+    "status": "static experimental proxy; nearest-surface material transfer; eyes excluded; UV and fidelity require review"
+  },
+  "llama": {
+    "source": "C:\\Users\\redga\\.codex\\visualizations\\2026\\11\\06\\01a1b062-c811-7593-80b6-c86ba538a7a9\\pbr-eight-20261107\\quadruped-repair-v2\\llama_pbr_repair.glb",
+    "source_sha256": "6e39261ed4adaedbb62e8cb68f0885eb6e7ab70398a6ca26d384c0c650c8849d",
+    "output": "llama_weld_review.glb",
+    "sha256": "ec1684b6bd4e0554c00bc81d46b37b15434a7ec0fe3a8c82bdb5f1a86ff8c851",
+    "joined_nodes": [
+      "geometry_0",
+      "ear_-1",
+      "ear_1",
+      "head",
+      "neck_ruff",
+      "leg_FL",
+      "leg_FL_foot",
+      "leg_FR",
+      "leg_FR_foot",
+      "leg_HL",
+      "leg_HL_foot",
+      "leg_HR",
+      "leg_HR_foot"
+    ],
+    "body_components": 1,
+    "component_sizes": [
+      9954
+    ],
+    "nonmanifold_edges": 0,
+    "voxel_size_m": 0.025,
+    "status": "static experimental proxy; nearest-surface material transfer; eyes excluded; UV and fidelity require review"
+  }
+}
