@@ -1,0 +1,78 @@
+{
+  "$schema": "../../../schemas/xeno-editor/v1.2.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "xeno-editor:kraken-original",
+  "slug": "kraken-original",
+  "family": "xeno-editor",
+  "version": "0.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "xeno-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:6016cc057ca55ff7b16af5a78308a9a1a8afe3c12507248097025230ce7b0c5c",
+  "spec": {
+    "display_name": "Kraken original",
+    "genome_file": "assets/xeno-editor/kraken-original/v0.1.0/genome.json",
+    "source_recipe_file": "assets/xeno-editor/kraken-original/v0.1.0/source-recipe.json",
+    "preview_file": "assets/xeno-editor/kraken-original/v0.1.0/preview.png",
+    "godot_preview_file": "assets/xeno-editor/kraken-original/v0.1.0/godot-preview.png",
+    "registration_file": "assets/xeno-editor/kraken-original/v0.1.0/registration.json",
+    "genome_sha256": "52a7c6218a64ebe645b55ed013c17f190e12af3db95c819b26c75dc07c6efa0a",
+    "source_recipe_sha256": "fbea78274415b6acb333c4b4b11095143c369648c217c9bd7f3db03be4de25a4",
+    "preview_sha256": "f55d2d6c6e5dc5a376477c5b5440ea7ee0acea404eac6c8955a7a5979d9250fc",
+    "godot_preview_sha256": "e1a4de81e4bc36c2ad37d4f8b8cb74387399f6261ae37b825aa1a459b0cd7e00",
+    "registration_sha256": "1e643f0b609094e511227ed4802d72a157ce2ca01c5c14118501f6c63b269b9f",
+    "reviewed_model_sha256": "78710580a447c9b23235ed3f2e6d33fd5cd439df2ee1a490bb9caeb66c5c8a3c",
+    "review_status": "review-only",
+    "evidence_scope": "editor-export-and-static-godot-import",
+    "parts": [
+      {
+        "id": "kraken_body_01",
+        "file": "assets/xeno-editor/kraken-original/v0.1.0/parts/kraken_body_01.glb",
+        "sha256": "47948c279b39f3d7c7391869f5eb8ed8d89fdf4f4336248f67c7f723d83bb2ad"
+      },
+      {
+        "id": "kraken_arm_0_01",
+        "file": "assets/xeno-editor/kraken-original/v0.1.0/parts/kraken_arm_0_01.glb",
+        "sha256": "032159f99f396c00aea8ccfa7b05a69e779458e61284bb078267b3aa0bf54036"
+      },
+      {
+        "id": "kraken_arm_1_01",
+        "file": "assets/xeno-editor/kraken-original/v0.1.0/parts/kraken_arm_1_01.glb",
+        "sha256": "85e9a540aa1d3856bebb536345362f5592fd432a66f7e91dc1a548630c19863d"
+      },
+      {
+        "id": "kraken_arm_2_01",
+        "file": "assets/xeno-editor/kraken-original/v0.1.0/parts/kraken_arm_2_01.glb",
+        "sha256": "aa691e71d2f21363d4da5d437bf5daa6ac9056c4a803091fcf88d296e33b3261"
+      },
+      {
+        "id": "kraken_arm_3_01",
+        "file": "assets/xeno-editor/kraken-original/v0.1.0/parts/kraken_arm_3_01.glb",
+        "sha256": "4006601348623ca96da8debc0c04013fdeb5032e8faba95234b9cee4e65f800a"
+      },
+      {
+        "id": "kraken_arm_4_01",
+        "file": "assets/xeno-editor/kraken-original/v0.1.0/parts/kraken_arm_4_01.glb",
+        "sha256": "780c81cedb714a179556ff3b44c663e66e816bbac985a525afd84ba7964cd4cb"
+      },
+      {
+        "id": "kraken_arm_5_01",
+        "file": "assets/xeno-editor/kraken-original/v0.1.0/parts/kraken_arm_5_01.glb",
+        "sha256": "5a534806b10fd477019c31c736beebe36ec2c4353200fa4dfdc56266bfe85990"
+      },
+      {
+        "id": "kraken_arm_6_01",
+        "file": "assets/xeno-editor/kraken-original/v0.1.0/parts/kraken_arm_6_01.glb",
+        "sha256": "215bd01d64a0c693add63b7c243294962fc45551dd5e1073512e70dc443cc0c2"
+      },
+      {
+        "id": "kraken_arm_7_01",
+        "file": "assets/xeno-editor/kraken-original/v0.1.0/parts/kraken_arm_7_01.glb",
+        "sha256": "902782663a3b03e19e11addc66a3937d8bda91ba154ba99fb8fe5c1eefc88ee3"
+      }
+    ]
+  }
+}

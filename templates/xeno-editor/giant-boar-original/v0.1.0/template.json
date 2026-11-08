@@ -1,0 +1,68 @@
+{
+  "$schema": "../../../schemas/xeno-editor/v1.2.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "xeno-editor:giant-boar-original",
+  "slug": "giant-boar-original",
+  "family": "xeno-editor",
+  "version": "0.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "xeno-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:2e9fdd9937846462fb900a5994f0febf76dc06cfbbdbe877e35160bd7fe52454",
+  "spec": {
+    "display_name": "Sanglier géant original",
+    "genome_file": "assets/xeno-editor/giant-boar-original/v0.1.0/genome.json",
+    "source_recipe_file": "assets/xeno-editor/giant-boar-original/v0.1.0/source-recipe.json",
+    "preview_file": "assets/xeno-editor/giant-boar-original/v0.1.0/preview.png",
+    "godot_preview_file": "assets/xeno-editor/giant-boar-original/v0.1.0/godot-preview.png",
+    "registration_file": "assets/xeno-editor/giant-boar-original/v0.1.0/registration.json",
+    "genome_sha256": "f6ea6a08cb4c0e5ab013c51b2664abe579a6531c306e095961c35d8631f59fc3",
+    "source_recipe_sha256": "bf5ca87c5806a03c31a5235b1e2dbc6fa449baba1bbb863a0944d8fc88a1780b",
+    "preview_sha256": "4055ab503bcc72be75fe472c354a5f0693971467e76e6db7548d7f4bd8426a0f",
+    "godot_preview_sha256": "b750c0bb0ce384681194675ec8b9ee9fadd60f4d786bbd67d06bac2588d462d6",
+    "registration_sha256": "4d54f22e8537cd1701690233115daf871d94390191fbbe7fac7dac36ed8f7785",
+    "reviewed_model_sha256": "ee4daf28d8f5f810ed3756f7676d277365bb008910b040fde89e6f243bc34582",
+    "review_status": "review-only",
+    "evidence_scope": "editor-export-and-static-godot-import",
+    "parts": [
+      {
+        "id": "boar_body_01",
+        "file": "assets/xeno-editor/giant-boar-original/v0.1.0/parts/boar_body_01.glb",
+        "sha256": "a862bf37eec93767463add50c374b867e1590b092ea547dd99b5f610993f3bf6"
+      },
+      {
+        "id": "boar_head_01",
+        "file": "assets/xeno-editor/giant-boar-original/v0.1.0/parts/boar_head_01.glb",
+        "sha256": "05abe6054f54aec552b81b85e4b9cc4148de3acffc175e44c41df608f2ff7c4d"
+      },
+      {
+        "id": "boar_tail_01",
+        "file": "assets/xeno-editor/giant-boar-original/v0.1.0/parts/boar_tail_01.glb",
+        "sha256": "c0470be3ff9ffe59799010adf85acbd6d0c2e640b8ff66d4f70d0da47b28b07c"
+      },
+      {
+        "id": "boar_foot_fl_01",
+        "file": "assets/xeno-editor/giant-boar-original/v0.1.0/parts/boar_foot_fl_01.glb",
+        "sha256": "5a14be4e831800b2e87ac4898a5072c6fb8163a12fab57a6e28c60925b7da844"
+      },
+      {
+        "id": "boar_foot_fr_01",
+        "file": "assets/xeno-editor/giant-boar-original/v0.1.0/parts/boar_foot_fr_01.glb",
+        "sha256": "2259043d40589371d9e33ba2381523cbc7e6fc0854e915312952634742bf1178"
+      },
+      {
+        "id": "boar_foot_hl_01",
+        "file": "assets/xeno-editor/giant-boar-original/v0.1.0/parts/boar_foot_hl_01.glb",
+        "sha256": "3c9e5e823b62ed1de88a325e88ac3fe0bad997dbbcf8c5721516199f903c31d1"
+      },
+      {
+        "id": "boar_foot_hr_01",
+        "file": "assets/xeno-editor/giant-boar-original/v0.1.0/parts/boar_foot_hr_01.glb",
+        "sha256": "bd8bac488f75fbc1d9973f182ab520c1c98ed9ad913b9289c5c4785636fedd6f"
+      }
+    ]
+  }
+}

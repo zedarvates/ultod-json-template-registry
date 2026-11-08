@@ -1,0 +1,63 @@
+{
+  "$schema": "../../../schemas/xeno-editor/v1.2.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "xeno-editor:crocodile-original",
+  "slug": "crocodile-original",
+  "family": "xeno-editor",
+  "version": "0.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "xeno-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:69728981cc0f71a82d2e52c4c3fde8b91263cd6c73715f55505c15b44da48978",
+  "spec": {
+    "display_name": "Crocodile original",
+    "genome_file": "assets/xeno-editor/crocodile-original/v0.1.0/genome.json",
+    "source_recipe_file": "assets/xeno-editor/crocodile-original/v0.1.0/source-recipe.json",
+    "preview_file": "assets/xeno-editor/crocodile-original/v0.1.0/preview.png",
+    "godot_preview_file": "assets/xeno-editor/crocodile-original/v0.1.0/godot-preview.png",
+    "registration_file": "assets/xeno-editor/crocodile-original/v0.1.0/registration.json",
+    "genome_sha256": "9fb28741557874c92b26d1b4394e2d82fc1c54f12243ebecf7b31d6c25305487",
+    "source_recipe_sha256": "29924c9731032c8e92eb056dbbda2d49f390d56f5c15f728fd4f0addf11f1052",
+    "preview_sha256": "2b17c4680fc580634e3f8717b9cd7a4d08921bed6518b4f06ed7cebead3d4606",
+    "godot_preview_sha256": "33109da7fa62f7fa16aab522cbe2ba2a3bcc32e712814f33e43751a2da139fc0",
+    "registration_sha256": "8bc266587f0dbe5698dc0bfb5c085dfad8fc485372d7e510e1b36dd8f8978aac",
+    "reviewed_model_sha256": "0f69a882750687b56d9bc0609eb22ab880a0a5aa96d71cbcbb6c684dd2355478",
+    "review_status": "review-only",
+    "evidence_scope": "editor-export-and-static-godot-import",
+    "parts": [
+      {
+        "id": "croc_body_01",
+        "file": "assets/xeno-editor/crocodile-original/v0.1.0/parts/croc_body_01.glb",
+        "sha256": "3eb3e8675bdbd3049547c1ec7a08a759b46cf60bbf738a388e3859ed2c555bf7"
+      },
+      {
+        "id": "croc_head_01",
+        "file": "assets/xeno-editor/crocodile-original/v0.1.0/parts/croc_head_01.glb",
+        "sha256": "690533502c89aaf677caa4373f613a3bebc1e83a893a8302d7b653e0876f7b74"
+      },
+      {
+        "id": "croc_foot_fl_01",
+        "file": "assets/xeno-editor/crocodile-original/v0.1.0/parts/croc_foot_fl_01.glb",
+        "sha256": "33f8eb19a7e93755730900ded3b4cdebe97e3932a7af30681a235a685499b7bb"
+      },
+      {
+        "id": "croc_foot_fr_01",
+        "file": "assets/xeno-editor/crocodile-original/v0.1.0/parts/croc_foot_fr_01.glb",
+        "sha256": "2c18a3fa60b2ce14d5ef23d1dc3fed530c9e9f2affbded17632d5a0f41d0c7f0"
+      },
+      {
+        "id": "croc_foot_hl_01",
+        "file": "assets/xeno-editor/crocodile-original/v0.1.0/parts/croc_foot_hl_01.glb",
+        "sha256": "1cebbe0d8c50aabfb77f60c09572aec5145855410603b104882e3040b8966dda"
+      },
+      {
+        "id": "croc_foot_hr_01",
+        "file": "assets/xeno-editor/crocodile-original/v0.1.0/parts/croc_foot_hr_01.glb",
+        "sha256": "7ce6dc462b13eaf72fb7a985219f1bb952e35621d1af98d908d6701315a68fab"
+      }
+    ]
+  }
+}

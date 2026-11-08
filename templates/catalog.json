@@ -124363,6 +124363,158 @@
       "file": "templates/xeno-editor/ancient-golem-original/v0.1.0/template.json",
       "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
       "sha256": "e56e197d15a7079e88b3401c2a117765ea19093c2b14a97136ae53400aadefc2"
+    },
+    {
+      "id": "xeno-editor:giant-boar-original",
+      "slug": "giant-boar-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:2e9fdd9937846462fb900a5994f0febf76dc06cfbbdbe877e35160bd7fe52454",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "giant-boar-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/giant-boar-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "a3d188c0c5f5cfe0063290537721b56355aeefbe8dc9b3a45848df5068f03cd0"
+    },
+    {
+      "id": "xeno-editor:frog-original",
+      "slug": "frog-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:3633bbd829e82c301cfa17fa5983a34c636296a5fa548e375dc99312522d18c6",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "frog-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/frog-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "de6f35702e4bbeeff3a27eb3411aad1c7260872c0336afd327f5fb58646c0f1c"
+    },
+    {
+      "id": "xeno-editor:kraken-original",
+      "slug": "kraken-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:6016cc057ca55ff7b16af5a78308a9a1a8afe3c12507248097025230ce7b0c5c",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "kraken-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/kraken-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "2044390f6ce648955a9afeb5ea0a291fdfe5286621cb9c6efec604c53ff5405a"
+    },
+    {
+      "id": "xeno-editor:crocodile-original",
+      "slug": "crocodile-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:69728981cc0f71a82d2e52c4c3fde8b91263cd6c73715f55505c15b44da48978",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "crocodile-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/crocodile-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "fdce5619d5881462b78e658febf6094dcb00f652a6d21470652a2aee8bf3e145"
+    },
+    {
+      "id": "xeno-editor:rabbit-original",
+      "slug": "rabbit-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:5282bf37126a3423eac7602f7ba1859fe4eaafb49a11542ae31447f5bf2b0d72",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "rabbit-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/rabbit-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "8419e603a9c8fc125b348736d9e6cdd5510aa1179e923a225d009d328ca6a863"
+    },
+    {
+      "id": "xeno-editor:brown-bear-original",
+      "slug": "brown-bear-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:0f60bee88a7af679626aaaf46bfa4349b41c63a516adce12f06f8e319addf610",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "brown-bear-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/brown-bear-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "b5719ef446c15d0b2fece0dfa8090491d63c9f693b589b7f10ff5159bcb0a40a"
+    },
+    {
+      "id": "xeno-editor:doe-original",
+      "slug": "doe-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:d738a0667b4bb51c70c25491efd39626eb398220fb7076d7f73164ddb901765e",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "doe-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/doe-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "e2c92674cd87f7f55d91ea6a46d7c8d4d7af6475f3205d3fc514ebf837805eab"
+    },
+    {
+      "id": "xeno-editor:stag-original",
+      "slug": "stag-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:fb9212d199eb370f35c2070920e29b2f90df63d104b4535b717aa3779a8a20db",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "stag-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/stag-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "3cff121e05ad42db468a358c6ef950e4d55647f626fadaece8960d8dac9eb1be"
     }
   ],
   "aliases": []

@@ -1,0 +1,336 @@
+{
+  "schema": "uo.creature-editor-review-parts-fragment/v1",
+  "delivery": "review_only",
+  "parts": [
+    {
+      "part_id": "deer_body_01",
+      "name": "deer body 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "deer_head_01",
+      "name": "deer head 01",
+      "category": "head",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "deer_foot_fl_01",
+      "name": "deer foot fl 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "deer_foot_fr_01",
+      "name": "deer foot fr 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "deer_foot_hl_01",
+      "name": "deer foot hl 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "deer_foot_hr_01",
+      "name": "deer foot hr 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "deer_body_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/deer_body_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "a763640ca1742863b75c28b960f15589ee6687e7b4325e8422e3ef88ddb6e6ca",
+      "bytes": 129064,
+      "triangles": 5018,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural deer geometry; uniform colors"
+      }
+    },
+    {
+      "id": "deer_head_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/deer_head_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "f22cc210bb7474719fb661bd5ec59ab4a2c7f5bbadcd61626603bb8dc2fd6047",
+      "bytes": 126892,
+      "triangles": 5064,
+      "metadata": {
+        "category": "head",
+        "part_role": "primitive",
+        "source": "original procedural deer geometry; uniform colors"
+      }
+    },
+    {
+      "id": "deer_foot_fl_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/deer_foot_fl_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "5c79beb5ca61a3054ed1a02e6da856174247b96af363807e6b03a1f838bb3a1c",
+      "bytes": 12468,
+      "triangles": 432,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural deer geometry; uniform colors"
+      }
+    },
+    {
+      "id": "deer_foot_fr_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/deer_foot_fr_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "77dbe8af3389c7d0daaa1166e6f1d4eb731cf5ba7119166961ced4dd57dd0783",
+      "bytes": 12456,
+      "triangles": 432,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural deer geometry; uniform colors"
+      }
+    },
+    {
+      "id": "deer_foot_hl_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/deer_foot_hl_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "dfd1a03c2ba5c9fbca38ccf88c3964e39c9d56930b8ad01a19616c6f54504967",
+      "bytes": 12448,
+      "triangles": 432,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural deer geometry; uniform colors"
+      }
+    },
+    {
+      "id": "deer_foot_hr_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/deer_foot_hr_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "92f76029bba15c0a0935c029d6e7e541dbe42f779553cf4e190afd31ef4b8d01",
+      "bytes": 12436,
+      "triangles": 432,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural deer geometry; uniform colors"
+      }
+    }
+  ],
+  "design": {
+    "parts": {
+      "deer_body_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static deer component; armor category is technical."
+      },
+      "deer_head_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "head",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static deer component; armor category is technical."
+      },
+      "deer_foot_fl_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static deer component; armor category is technical."
+      },
+      "deer_foot_fr_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static deer component; armor category is technical."
+      },
+      "deer_foot_hl_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static deer component; armor category is technical."
+      },
+      "deer_foot_hr_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static deer component; armor category is technical."
+      }
+    }
+  }
+}

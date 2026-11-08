@@ -1,0 +1,498 @@
+{
+  "schema": "uo.creature-editor-review-parts-fragment/v1",
+  "delivery": "review_only",
+  "parts": [
+    {
+      "part_id": "kraken_body_01",
+      "name": "kraken body 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "kraken_arm_0_01",
+      "name": "kraken arm 0 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "kraken_arm_1_01",
+      "name": "kraken arm 1 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "kraken_arm_2_01",
+      "name": "kraken arm 2 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "kraken_arm_3_01",
+      "name": "kraken arm 3 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "kraken_arm_4_01",
+      "name": "kraken arm 4 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "kraken_arm_5_01",
+      "name": "kraken arm 5 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "kraken_arm_6_01",
+      "name": "kraken arm 6 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "kraken_arm_7_01",
+      "name": "kraken arm 7 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "kraken_body_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/kraken_body_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "47948c279b39f3d7c7391869f5eb8ed8d89fdf4f4336248f67c7f723d83bb2ad",
+      "bytes": 68664,
+      "triangles": 2764,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural kraken geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "kraken_arm_0_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/kraken_arm_0_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "032159f99f396c00aea8ccfa7b05a69e779458e61284bb078267b3aa0bf54036",
+      "bytes": 41860,
+      "triangles": 1156,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural kraken geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "kraken_arm_1_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/kraken_arm_1_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "85e9a540aa1d3856bebb536345362f5592fd432a66f7e91dc1a548630c19863d",
+      "bytes": 42340,
+      "triangles": 1156,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural kraken geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "kraken_arm_2_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/kraken_arm_2_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "aa691e71d2f21363d4da5d437bf5daa6ac9056c4a803091fcf88d296e33b3261",
+      "bytes": 41136,
+      "triangles": 1156,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural kraken geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "kraken_arm_3_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/kraken_arm_3_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "4006601348623ca96da8debc0c04013fdeb5032e8faba95234b9cee4e65f800a",
+      "bytes": 42344,
+      "triangles": 1156,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural kraken geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "kraken_arm_4_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/kraken_arm_4_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "780c81cedb714a179556ff3b44c663e66e816bbac985a525afd84ba7964cd4cb",
+      "bytes": 41892,
+      "triangles": 1156,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural kraken geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "kraken_arm_5_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/kraken_arm_5_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "5a534806b10fd477019c31c736beebe36ec2c4353200fa4dfdc56266bfe85990",
+      "bytes": 42408,
+      "triangles": 1156,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural kraken geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "kraken_arm_6_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/kraken_arm_6_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "215bd01d64a0c693add63b7c243294962fc45551dd5e1073512e70dc443cc0c2",
+      "bytes": 41172,
+      "triangles": 1156,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural kraken geometry; new uniform colors"
+      }
+    },
+    {
+      "id": "kraken_arm_7_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/kraken_arm_7_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "902782663a3b03e19e11addc66a3937d8bda91ba154ba99fb8fe5c1eefc88ee3",
+      "bytes": 42296,
+      "triangles": 1156,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original local procedural kraken geometry; new uniform colors"
+      }
+    }
+  ],
+  "design": {
+    "parts": {
+      "kraken_body_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original kraken component, static review."
+      },
+      "kraken_arm_0_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original kraken component, static review."
+      },
+      "kraken_arm_1_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original kraken component, static review."
+      },
+      "kraken_arm_2_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original kraken component, static review."
+      },
+      "kraken_arm_3_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original kraken component, static review."
+      },
+      "kraken_arm_4_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original kraken component, static review."
+      },
+      "kraken_arm_5_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original kraken component, static review."
+      },
+      "kraken_arm_6_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original kraken component, static review."
+      },
+      "kraken_arm_7_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original kraken component, static review."
+      }
+    }
+  }
+}

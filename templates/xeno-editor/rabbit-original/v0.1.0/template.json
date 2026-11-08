@@ -1,0 +1,63 @@
+{
+  "$schema": "../../../schemas/xeno-editor/v1.2.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "xeno-editor:rabbit-original",
+  "slug": "rabbit-original",
+  "family": "xeno-editor",
+  "version": "0.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "xeno-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:5282bf37126a3423eac7602f7ba1859fe4eaafb49a11542ae31447f5bf2b0d72",
+  "spec": {
+    "display_name": "Lapin original",
+    "genome_file": "assets/xeno-editor/rabbit-original/v0.1.0/genome.json",
+    "source_recipe_file": "assets/xeno-editor/rabbit-original/v0.1.0/source-recipe.json",
+    "preview_file": "assets/xeno-editor/rabbit-original/v0.1.0/preview.png",
+    "godot_preview_file": "assets/xeno-editor/rabbit-original/v0.1.0/godot-preview.png",
+    "registration_file": "assets/xeno-editor/rabbit-original/v0.1.0/registration.json",
+    "genome_sha256": "3209f3d98b69ca2e1a02c04cc864c52c90c65609391d74cf15904cddd0844e5b",
+    "source_recipe_sha256": "d19abf0f214c5be99c9c85bc4f14a6b7052c54f8f1e4c43fdf7238af8051c5c0",
+    "preview_sha256": "d70c5a9d4403f541fea3449a5d8fe9366e989fbe3c4d613bf5536603368eb982",
+    "godot_preview_sha256": "9621caf69bfa9410e0d9e7b17ec6bbbac827a4a592125b7894d9718fde9eaedd",
+    "registration_sha256": "faa3c8462393652df094ffde19820859009a2c484d58ea497a68f3b4e6c77dd3",
+    "reviewed_model_sha256": "4fd27abdf6772e0d1a12faac2c1e187d02d9fa512432b35082ddd05d70c8f0bd",
+    "review_status": "review-only",
+    "evidence_scope": "editor-export-and-static-godot-import",
+    "parts": [
+      {
+        "id": "rabbit_body_01",
+        "file": "assets/xeno-editor/rabbit-original/v0.1.0/parts/rabbit_body_01.glb",
+        "sha256": "b8ea4cf378f34eabe42c14e8d1938d50e2b4adc2104e87baa9d35d70b13973d1"
+      },
+      {
+        "id": "rabbit_head_01",
+        "file": "assets/xeno-editor/rabbit-original/v0.1.0/parts/rabbit_head_01.glb",
+        "sha256": "8ffa0f0e88711a64a1e328b83a3c4aa3688d6a4fc89e343789e95839c19123c2"
+      },
+      {
+        "id": "rabbit_foot_fl_01",
+        "file": "assets/xeno-editor/rabbit-original/v0.1.0/parts/rabbit_foot_fl_01.glb",
+        "sha256": "b251654ab1a14e464e2928b30c3e43b28b98302db0a5659a8aebe1b90ac19c09"
+      },
+      {
+        "id": "rabbit_foot_fr_01",
+        "file": "assets/xeno-editor/rabbit-original/v0.1.0/parts/rabbit_foot_fr_01.glb",
+        "sha256": "2a99ccefe9b4958055f0a0740a05b1e9642f2bc692b3276f9069eca97596cca8"
+      },
+      {
+        "id": "rabbit_foot_hl_01",
+        "file": "assets/xeno-editor/rabbit-original/v0.1.0/parts/rabbit_foot_hl_01.glb",
+        "sha256": "98612ccd8799c2243c58e7b38b1fbe89dc7e7936ea9a35e8d5e8a35923002489"
+      },
+      {
+        "id": "rabbit_foot_hr_01",
+        "file": "assets/xeno-editor/rabbit-original/v0.1.0/parts/rabbit_foot_hr_01.glb",
+        "sha256": "fe99efa9642166445e37d42de77637abb99463f39a8067104a05a1e121811e39"
+      }
+    ]
+  }
+}
