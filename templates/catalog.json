@@ -124496,6 +124496,25 @@
       "file": "templates/xeno-editor/doe-original/v0.1.0/template.json",
       "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
       "sha256": "e2c92674cd87f7f55d91ea6a46d7c8d4d7af6475f3205d3fc514ebf837805eab"
+    },
+    {
+      "id": "xeno-editor:stag-original",
+      "slug": "stag-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:fb9212d199eb370f35c2070920e29b2f90df63d104b4535b717aa3779a8a20db",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "stag-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/stag-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "3cff121e05ad42db468a358c6ef950e4d55647f626fadaece8960d8dac9eb1be"
     }
   ],
   "aliases": []

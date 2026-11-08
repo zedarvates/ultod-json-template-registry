@@ -1,0 +1,63 @@
+{
+  "$schema": "../../../schemas/xeno-editor/v1.2.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "xeno-editor:stag-original",
+  "slug": "stag-original",
+  "family": "xeno-editor",
+  "version": "0.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "xeno-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:fb9212d199eb370f35c2070920e29b2f90df63d104b4535b717aa3779a8a20db",
+  "spec": {
+    "display_name": "Cerf original",
+    "genome_file": "assets/xeno-editor/stag-original/v0.1.0/genome.json",
+    "source_recipe_file": "assets/xeno-editor/stag-original/v0.1.0/source-recipe.json",
+    "preview_file": "assets/xeno-editor/stag-original/v0.1.0/preview.png",
+    "godot_preview_file": "assets/xeno-editor/stag-original/v0.1.0/godot-preview.png",
+    "registration_file": "assets/xeno-editor/stag-original/v0.1.0/registration.json",
+    "genome_sha256": "94f36911c445ae1d4a9ddcbfb107f9645b369bcb9d454ed0f2c753ceed41a319",
+    "source_recipe_sha256": "694778f057d2482741bb6d1357388a3323731889723bac1336ac97fd88979f35",
+    "preview_sha256": "1b6db557d38ec1cd5ee2628489a62634c306bd99b80576930f98cfaa4301740a",
+    "godot_preview_sha256": "cfe9b3998010c990592f9ea49f0e7c5ec4ae4cc3343758203394b5eabfc51fae",
+    "registration_sha256": "5c2391c1892fb203e611d04b50fb502b09e2ad0b74342f1560f5c2a45072c74e",
+    "reviewed_model_sha256": "e61a781620af4ddcf78832037a9dffa439d83bd6d4cb0e5cd1708846501e0ab7",
+    "review_status": "review-only",
+    "evidence_scope": "editor-export-and-static-godot-import",
+    "parts": [
+      {
+        "id": "stag_body_01",
+        "file": "assets/xeno-editor/stag-original/v0.1.0/parts/stag_body_01.glb",
+        "sha256": "a763640ca1742863b75c28b960f15589ee6687e7b4325e8422e3ef88ddb6e6ca"
+      },
+      {
+        "id": "stag_head_01",
+        "file": "assets/xeno-editor/stag-original/v0.1.0/parts/stag_head_01.glb",
+        "sha256": "f461d77c3391f7f2315dc302bc556c47b972d05d641050e6ea5ee88c9125bd31"
+      },
+      {
+        "id": "stag_foot_fl_01",
+        "file": "assets/xeno-editor/stag-original/v0.1.0/parts/stag_foot_fl_01.glb",
+        "sha256": "5c79beb5ca61a3054ed1a02e6da856174247b96af363807e6b03a1f838bb3a1c"
+      },
+      {
+        "id": "stag_foot_fr_01",
+        "file": "assets/xeno-editor/stag-original/v0.1.0/parts/stag_foot_fr_01.glb",
+        "sha256": "77dbe8af3389c7d0daaa1166e6f1d4eb731cf5ba7119166961ced4dd57dd0783"
+      },
+      {
+        "id": "stag_foot_hl_01",
+        "file": "assets/xeno-editor/stag-original/v0.1.0/parts/stag_foot_hl_01.glb",
+        "sha256": "dfd1a03c2ba5c9fbca38ccf88c3964e39c9d56930b8ad01a19616c6f54504967"
+      },
+      {
+        "id": "stag_foot_hr_01",
+        "file": "assets/xeno-editor/stag-original/v0.1.0/parts/stag_foot_hr_01.glb",
+        "sha256": "92f76029bba15c0a0935c029d6e7e541dbe42f779553cf4e190afd31ef4b8d01"
+      }
+    ]
+  }
+}
