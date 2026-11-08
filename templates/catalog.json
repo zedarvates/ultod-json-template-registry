@@ -124458,6 +124458,25 @@
       "file": "templates/xeno-editor/rabbit-original/v0.1.0/template.json",
       "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
       "sha256": "8419e603a9c8fc125b348736d9e6cdd5510aa1179e923a225d009d328ca6a863"
+    },
+    {
+      "id": "xeno-editor:brown-bear-original",
+      "slug": "brown-bear-original",
+      "family": "xeno-editor",
+      "version": "0.1.0",
+      "contract_version": "1.0.0",
+      "spec_checksum": "sha256:0f60bee88a7af679626aaaf46bfa4349b41c63a516adce12f06f8e319addf610",
+      "intended_consumers": [
+        "xeno-editor"
+      ],
+      "compatibility": [],
+      "name": "brown-bear-original",
+      "kind": "xeno-editor-template",
+      "status": "experimental",
+      "validation_profile": "strict-v1",
+      "file": "templates/xeno-editor/brown-bear-original/v0.1.0/template.json",
+      "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
+      "sha256": "b5719ef446c15d0b2fece0dfa8090491d63c9f693b589b7f10ff5159bcb0a40a"
     }
   ],
   "aliases": []

@@ -1,0 +1,63 @@
+{
+  "$schema": "../../../schemas/xeno-editor/v1.2.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "xeno-editor:brown-bear-original",
+  "slug": "brown-bear-original",
+  "family": "xeno-editor",
+  "version": "0.1.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "xeno-editor"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:0f60bee88a7af679626aaaf46bfa4349b41c63a516adce12f06f8e319addf610",
+  "spec": {
+    "display_name": "Ours brun original",
+    "genome_file": "assets/xeno-editor/brown-bear-original/v0.1.0/genome.json",
+    "source_recipe_file": "assets/xeno-editor/brown-bear-original/v0.1.0/source-recipe.json",
+    "preview_file": "assets/xeno-editor/brown-bear-original/v0.1.0/preview.png",
+    "godot_preview_file": "assets/xeno-editor/brown-bear-original/v0.1.0/godot-preview.png",
+    "registration_file": "assets/xeno-editor/brown-bear-original/v0.1.0/registration.json",
+    "genome_sha256": "f6651c52bd4e30765740257c6e0be6ade0324b34fb46e5d2d6712dc77ee1df0c",
+    "source_recipe_sha256": "1581ff45ed3af9c2014d1301f7d75d9d096d9697365aefa1da44df6fe54bbe63",
+    "preview_sha256": "04d6a3cf69f8c2f984121eba9c43fcf9eb4f2a30996154a3576cdaef4b4d460e",
+    "godot_preview_sha256": "99951a4f0c4c91c8df5f95e474aed3d1184372fd0091b7ad756bf1678c3552f1",
+    "registration_sha256": "94437908b39e2f0098a631529c42f8dc75d98608ca2a2e54d9b5c6806f8ffc52",
+    "reviewed_model_sha256": "60cb24dc21dc00c1865c9319864c75fe1fb26c7dfd6c185a7e306869edea3860",
+    "review_status": "review-only",
+    "evidence_scope": "editor-export-and-static-godot-import",
+    "parts": [
+      {
+        "id": "bear_body_01",
+        "file": "assets/xeno-editor/brown-bear-original/v0.1.0/parts/bear_body_01.glb",
+        "sha256": "73dfd7bce7a88668b884648a53ff8ffe477b4a2c0cc2205901aedb6267d60bb8"
+      },
+      {
+        "id": "bear_head_01",
+        "file": "assets/xeno-editor/brown-bear-original/v0.1.0/parts/bear_head_01.glb",
+        "sha256": "da894c4c843bc9ede826f0c69cf7213c8043a667ef838d77c407e185ad7f7ec2"
+      },
+      {
+        "id": "bear_foot_fl_01",
+        "file": "assets/xeno-editor/brown-bear-original/v0.1.0/parts/bear_foot_fl_01.glb",
+        "sha256": "37ae72cfa99c3074f0f8b877a5ddb42f4463b93e3f2f1f0f2f4d1875bff2e74f"
+      },
+      {
+        "id": "bear_foot_fr_01",
+        "file": "assets/xeno-editor/brown-bear-original/v0.1.0/parts/bear_foot_fr_01.glb",
+        "sha256": "cb7ed0e6870e526cd64fb4462bce8f6d92289064e7f2a4afe783bfd71b8d1897"
+      },
+      {
+        "id": "bear_foot_hl_01",
+        "file": "assets/xeno-editor/brown-bear-original/v0.1.0/parts/bear_foot_hl_01.glb",
+        "sha256": "e916a2d5932f1b3786a09d381f7136b107ad313876bc2d7e40e5cc4f452499fc"
+      },
+      {
+        "id": "bear_foot_hr_01",
+        "file": "assets/xeno-editor/brown-bear-original/v0.1.0/parts/bear_foot_hr_01.glb",
+        "sha256": "960d134f6a59e208811964769f3f9b0b6855f890600c5b8244b9dc090902abcc"
+      }
+    ]
+  }
+}

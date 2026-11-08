@@ -1,0 +1,336 @@
+{
+  "schema": "uo.creature-editor-review-parts-fragment/v1",
+  "delivery": "review_only",
+  "parts": [
+    {
+      "part_id": "bear_body_01",
+      "name": "bear body 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "bear_head_01",
+      "name": "bear head 01",
+      "category": "head",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "bear_foot_fl_01",
+      "name": "bear foot fl 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "bear_foot_fr_01",
+      "name": "bear foot fr 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "bear_foot_hl_01",
+      "name": "bear foot hl 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    },
+    {
+      "part_id": "bear_foot_hr_01",
+      "name": "bear foot hr 01",
+      "category": "armor",
+      "review_only": true,
+      "server_authoritative": false,
+      "human_reviewed": false,
+      "implementation_status": "real_mesh_review",
+      "stats": {
+        "hp_bonus": 0,
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "speed_bonus": 0,
+        "intelligence_bonus": 0,
+        "energy_cost": 0
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "bear_body_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/bear_body_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "73dfd7bce7a88668b884648a53ff8ffe477b4a2c0cc2205901aedb6267d60bb8",
+      "bytes": 108224,
+      "triangles": 4248,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural bear geometry; uniform colors"
+      }
+    },
+    {
+      "id": "bear_head_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/bear_head_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "da894c4c843bc9ede826f0c69cf7213c8043a667ef838d77c407e185ad7f7ec2",
+      "bytes": 113632,
+      "triangles": 3520,
+      "metadata": {
+        "category": "head",
+        "part_role": "primitive",
+        "source": "original procedural bear geometry; uniform colors"
+      }
+    },
+    {
+      "id": "bear_foot_fl_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/bear_foot_fl_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "37ae72cfa99c3074f0f8b877a5ddb42f4463b93e3f2f1f0f2f4d1875bff2e74f",
+      "bytes": 21896,
+      "triangles": 802,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural bear geometry; uniform colors"
+      }
+    },
+    {
+      "id": "bear_foot_fr_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/bear_foot_fr_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "cb7ed0e6870e526cd64fb4462bce8f6d92289064e7f2a4afe783bfd71b8d1897",
+      "bytes": 21868,
+      "triangles": 802,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural bear geometry; uniform colors"
+      }
+    },
+    {
+      "id": "bear_foot_hl_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/bear_foot_hl_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "e916a2d5932f1b3786a09d381f7136b107ad313876bc2d7e40e5cc4f452499fc",
+      "bytes": 21844,
+      "triangles": 802,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural bear geometry; uniform colors"
+      }
+    },
+    {
+      "id": "bear_foot_hr_01",
+      "kind": "xeno_part",
+      "relative_path": "XenoParts/bear_foot_hr_01.glb",
+      "status": "ready",
+      "review_only": true,
+      "human_reviewed": false,
+      "sha256": "960d134f6a59e208811964769f3f9b0b6855f890600c5b8244b9dc090902abcc",
+      "bytes": 21820,
+      "triangles": 802,
+      "metadata": {
+        "category": "armor",
+        "part_role": "primitive",
+        "source": "original procedural bear geometry; uniform colors"
+      }
+    }
+  ],
+  "design": {
+    "parts": {
+      "bear_body_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static bear component; armor category is technical."
+      },
+      "bear_head_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "head",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static bear component; armor category is technical."
+      },
+      "bear_foot_fl_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static bear component; armor category is technical."
+      },
+      "bear_foot_fr_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static bear component; armor category is technical."
+      },
+      "bear_foot_hl_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static bear component; armor category is technical."
+      },
+      "bear_foot_hr_01": {
+        "role": "primitive",
+        "status": "ready",
+        "cardinality": {
+          "default": 1,
+          "max": 1,
+          "source_max": 1
+        },
+        "mirror": {
+          "allowed": false
+        },
+        "mount": {
+          "anatomy": "armor",
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "audit": "Original static bear component; armor category is technical."
+      }
+    }
+  }
+}
