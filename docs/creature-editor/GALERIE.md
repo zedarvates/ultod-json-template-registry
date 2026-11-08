@@ -180,7 +180,7 @@ Instantané historique de revue ; consulter la fiche pour la portée exacte des 
 
 ![Scarabée géant — six pattes — capture Godot du clip de marche local](beetle-original/v0.1.0/preview.png)
 
-[Fiche 0.1.0](beetle-original/v0.1.0/README.md) · [Recette JSON](beetle-original/v0.1.0/recipe.json)
+[Fiche 0.1.0](beetle-original/v0.1.0/README.md) · [Recette JSON](beetle-original/v0.1.0/recipe.json) · [Vérification du 8 novembre : éditeur et Godot](beetle-original/revalidation-20261108/README.md)
 
 Génome natif de revue : 6 pattes locomotrices et tête crânienne dédiée, sans torse dupliqué. Orientation locale du composant de tête : 180° autour de Y. Le lien de marche référence un clip précalculé lié au SHA du modèle ; les modifications de forme demandent une nouvelle revue.
 
