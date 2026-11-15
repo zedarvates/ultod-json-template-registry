@@ -124363,6 +124363,38 @@
       "file": "templates/xeno-editor/ancient-golem-original/v0.1.0/template.json",
       "schema_file": "templates/schemas/xeno-editor/v1.2.0/schema.json",
       "sha256": "e56e197d15a7079e88b3401c2a117765ea19093c2b14a97136ae53400aadefc2"
+    },
+    {
+      "name": "game-ui",
+      "kind": "json-schema",
+      "version": "1.0.0",
+      "status": "experimental",
+      "file": "templates/schemas/game-ui/v1.0.0/schema.json",
+      "sha256": "8a853ae674e81b4c99b5747082461e8ce13866858e121caf51f2db0e927c60f0",
+      "compatibility": [],
+      "validation_profile": "strict-schema-v1",
+      "contract_version": "1.0.0"
+    },
+    {
+      "id": "game-ui:classic-dark-fantasy",
+      "slug": "classic-dark-fantasy",
+      "family": "game-ui",
+      "name": "classic-dark-fantasy",
+      "kind": "game-ui-template",
+      "version": "1.0.0",
+      "contract_version": "1.0.0",
+      "validation_profile": "strict-v1",
+      "status": "experimental",
+      "schema_file": "templates/schemas/game-ui/v1.0.0/schema.json",
+      "file": "templates/game-ui/classic-dark-fantasy/v1.0.0/template.json",
+      "sha256": "a4cee4befcead8eb968e996f13dd06734c4cac2deca2d0d3f15cdbcb8484ff6e",
+      "spec_checksum": "sha256:4687029019e50f66e956dec154b9550afdc4afeceec4e8f19364a540fb72823f",
+      "intended_consumers": [
+        "godot-classic-client",
+        "web-client"
+      ],
+      "compatibility": [],
+      "supersedes": []
     }
   ],
   "aliases": []
