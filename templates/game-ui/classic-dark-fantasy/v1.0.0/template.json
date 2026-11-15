@@ -1,0 +1,134 @@
+{
+  "$schema": "../../../schemas/game-ui/v1.0.0/schema.json",
+  "contract_version": "1.0.0",
+  "id": "game-ui:classic-dark-fantasy",
+  "slug": "classic-dark-fantasy",
+  "family": "game-ui",
+  "version": "1.0.0",
+  "authority": "declarative",
+  "intended_consumers": [
+    "godot-classic-client",
+    "web-client"
+  ],
+  "compatibility": [],
+  "dependencies": [],
+  "spec_checksum": "sha256:4687029019e50f66e956dec154b9550afdc4afeceec4e8f19364a540fb72823f",
+  "spec": {
+    "display_name": "Classic dark fantasy interface",
+    "theme": "dark-fantasy",
+    "components": [
+      {
+        "id": "player",
+        "kind": "player-frame",
+        "region": "top-left",
+        "movable": true,
+        "resizable": true
+      },
+      {
+        "id": "target",
+        "kind": "target-frame",
+        "region": "top-center",
+        "movable": true,
+        "resizable": true
+      },
+      {
+        "id": "minimap",
+        "kind": "minimap",
+        "region": "top-right",
+        "movable": true,
+        "resizable": true
+      },
+      {
+        "id": "quest-tracker",
+        "kind": "quest-tracker",
+        "region": "right",
+        "movable": true,
+        "resizable": true
+      },
+      {
+        "id": "chat",
+        "kind": "chat",
+        "region": "bottom-left",
+        "movable": true,
+        "resizable": true
+      },
+      {
+        "id": "action-main",
+        "kind": "action-bar",
+        "region": "bottom-center",
+        "movable": true,
+        "resizable": true
+      },
+      {
+        "id": "action-extra-one",
+        "kind": "action-bar",
+        "region": "bottom-center",
+        "movable": true,
+        "resizable": true
+      },
+      {
+        "id": "action-extra-two",
+        "kind": "action-bar",
+        "region": "bottom-center",
+        "movable": true,
+        "resizable": true
+      },
+      {
+        "id": "action-side-one",
+        "kind": "action-bar",
+        "region": "right",
+        "movable": true,
+        "resizable": true,
+        "max_slots": 16
+      },
+      {
+        "id": "action-side-two",
+        "kind": "action-bar",
+        "region": "right",
+        "movable": true,
+        "resizable": true,
+        "max_slots": 16
+      },
+      {
+        "id": "flight",
+        "kind": "flight-control",
+        "region": "bottom-center",
+        "movable": true,
+        "resizable": true
+      },
+      {
+        "id": "shortcuts",
+        "kind": "window-shortcuts",
+        "region": "bottom-right",
+        "movable": true,
+        "resizable": true
+      }
+    ],
+    "windows": [
+      "inventory",
+      "character",
+      "spellbook",
+      "quest-book",
+      "map",
+      "crafting",
+      "merchant",
+      "mail",
+      "guild",
+      "group",
+      "settings"
+    ],
+    "features": [
+      "layout-save",
+      "action-drag-drop",
+      "chat-tabs",
+      "chat-logs",
+      "combat-log",
+      "minimap-controls",
+      "buffs-and-debuffs",
+      "target-bars",
+      "flight-gauge",
+      "inventory-stacks",
+      "page-turn-animation"
+    ]
+  }
+}
