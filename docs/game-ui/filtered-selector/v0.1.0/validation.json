@@ -1,0 +1,63 @@
+{
+  "behavior": "filtered-selector",
+  "version": "0.1.0",
+  "status": "experimental",
+  "recorded_on": "2026-11-18",
+  "registry_binding": {
+    "template": "game-ui:classic-dark-fantasy@1.0.0",
+    "window": "quest-book",
+    "kind": "documentation"
+  },
+  "contract": {
+    "option_fields": ["id", "label"],
+    "filter": "Correspondance partielle du libellé, insensible à la casse et aux accents, dans l’ordre d’origine.",
+    "on_open": "Vider le filtre, activer la sélection confirmée si elle existe, placer le focus dans le champ.",
+    "on_filter": "Activer la première correspondance sans changer la sélection confirmée.",
+    "on_move": "Déplacer l’option active sans reboucler aux extrémités.",
+    "on_confirm": "Émettre l’identifiant de l’option, fermer et rendre le focus au déclencheur.",
+    "on_cancel": "Fermer, conserver la dernière sélection confirmée et rendre le focus au déclencheur.",
+    "empty": "Signaler l’absence de résultat. La confirmation ne change pas la sélection."
+  },
+  "results": {
+    "web": {
+      "application": "Parcimonia — Atelier de décisions",
+      "environment": "Prévisualisation locale, identité simulée, Chrome automatisé",
+      "viewport_widths_px": [360, 1280],
+      "inputs": "Les cinq analyses exécutables du registre MCP tools/list",
+      "status": "passed",
+      "site_tests": { "passed": 10, "failed": 0 },
+      "checks": [
+        "Concordance des options et de leurs intitulés avec tools/list",
+        "Filtrage sans casse ni accents, navigation aux flèches et résultat vide",
+        "Confirmation clavier et souris, annulation et retour du focus",
+        "Récupération du brouillon après changement d’analyse",
+        "Restitution à l’identique des cinq descriptions par l’analyse de contexte"
+      ],
+      "worker_sha256": "061f6a9bc054aad830bb9ee3ce82f365b66adbd840876ca45c7c05178912c6af",
+      "pending": ["Hébergement", "Tactile", "Lecteur d’écran"]
+    },
+    "godot": {
+      "application": "Astreval — Journal de quêtes autonome",
+      "engine": "Godot 4.8.beta3.mono.official.c51ff06e8",
+      "target_framework": "net10.0",
+      "inputs": "Les cinq quêtes reprises du prototype Web Astreval",
+      "status": "passed",
+      "build": { "errors": 0, "warnings": 0 },
+      "verification_scene": "res://Verification.tscn",
+      "pass_marker": "ATELIER_UI_GODOT_PASS",
+      "runs": [
+        { "mode": "headless", "status": "passed" },
+        { "mode": "windowed", "viewport_px": [960, 640], "status": "passed" }
+      ],
+      "checks": [
+        "Filtrage sans casse ni accents, navigation et résultat vide",
+        "Confirmation clavier et souris, annulation et retour du focus",
+        "Réouverture sur la dernière quête confirmée",
+        "Saisie et confirmation dans la même frame avec un résultat vide",
+        "Ouverture, croix directionnelle, confirmation A et annulation B avec des événements injectés"
+      ],
+      "project_archive_sha256": "b5572ca7fed879ff9e72c263519c46fa9b4e12b7dddab3eea3d9d48e855bc759",
+      "pending": ["Manette physique", "Intégration au client actif", "VR"]
+    }
+  }
+}
