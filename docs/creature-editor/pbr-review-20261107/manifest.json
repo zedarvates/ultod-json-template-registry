@@ -1,0 +1,234 @@
+{
+  "bull": {
+    "source": "C:\\Users\\redga\\.codex\\visualizations\\2026\\11\\06\\01a1b062-c811-7593-80b6-c86ba538a7a9\\reference-pieces-20261107\\bull\\bull_rigged_walk.glb",
+    "source_sha256": "73ed62d21fce5f12233154150111f48a16b86adcb58b4d17b842fdc523063d2d",
+    "output": "bull_pbr_review.glb",
+    "output_sha256": "aa6090501f0dfb27fa8fbb1a6adb8ed3ba6748e5d1d6bc69d4293b9842ea685f",
+    "mesh_count": 2,
+    "material": "hair",
+    "maps": {
+      "basecolor": {
+        "file": "bull_basecolor.png",
+        "sha256": "b1e9c2b16297f5bda5b7b28f257ec107f711f0c738cc60a420cc1161fc660ed5"
+      },
+      "roughness": {
+        "file": "bull_roughness.png",
+        "sha256": "bac2268133dcfe629651b0f381adb40563937ea5b74aecc23f33727a931fb668"
+      },
+      "normal": {
+        "file": "bull_normal.png",
+        "sha256": "38a6a499200f260a2ac5b7e6472b63af025ed967a4b3e55ef8c53b5098d09366"
+      }
+    },
+    "limitations": [
+      "procedural review textures, not photorealistic",
+      "neutral normal map; no measured microgeometry",
+      "single material per creature; source material regions replaced",
+      "UV layout and seams need visual inspection",
+      "rig and animation remain unvalidated"
+    ]
+  },
+  "horse": {
+    "source": "C:\\Users\\redga\\.codex\\visualizations\\2026\\11\\06\\01a1b062-c811-7593-80b6-c86ba538a7a9\\reference-pieces-20261107\\cheval\\cheval_rigged_walk.glb",
+    "source_sha256": "92a86cce6082bbff5dc8607e765366f8e6a290c84fd53843f5c5c688105552ed",
+    "output": "horse_pbr_review.glb",
+    "output_sha256": "f1c6db2316f0618dd210b43a3f49fb36bae202c82606e4c2c57016e1f1294ab4",
+    "mesh_count": 2,
+    "material": "hair",
+    "maps": {
+      "basecolor": {
+        "file": "horse_basecolor.png",
+        "sha256": "3c7bab695a91221ab71429f1480edb595389e6aa4b62902c3543da9adfb24476"
+      },
+      "roughness": {
+        "file": "horse_roughness.png",
+        "sha256": "9f3eb723cfc9bbc0f6e10e80d032efa479091d36af7958e450040ea81a1952e5"
+      },
+      "normal": {
+        "file": "horse_normal.png",
+        "sha256": "38a6a499200f260a2ac5b7e6472b63af025ed967a4b3e55ef8c53b5098d09366"
+      }
+    },
+    "limitations": [
+      "procedural review textures, not photorealistic",
+      "neutral normal map; no measured microgeometry",
+      "single material per creature; source material regions replaced",
+      "UV layout and seams need visual inspection",
+      "rig and animation remain unvalidated"
+    ]
+  },
+  "sheep": {
+    "source": "C:\\Users\\redga\\.codex\\visualizations\\2026\\11\\06\\01a1b062-c811-7593-80b6-c86ba538a7a9\\reference-pieces-20261107\\sheep\\sheep_rigged_walk.glb",
+    "source_sha256": "4d39e820e17aff70bd51d11f51fa1079aba43759a4fa2f93dc00db76974b6af1",
+    "output": "sheep_pbr_review.glb",
+    "output_sha256": "813643137a8760e022dd1fda9fe5ff944cd4b143ca44f057db16b297d49c4c1b",
+    "mesh_count": 2,
+    "material": "wool",
+    "maps": {
+      "basecolor": {
+        "file": "sheep_basecolor.png",
+        "sha256": "3ed1a8049eeb1dcf60a6623f46970f3497bba57704f31e519ebdf88f7291c9b0"
+      },
+      "roughness": {
+        "file": "sheep_roughness.png",
+        "sha256": "f5533581a93c4d56dcda4b07785192cc56a95448b59330d0df5921edb8f78213"
+      },
+      "normal": {
+        "file": "sheep_normal.png",
+        "sha256": "38a6a499200f260a2ac5b7e6472b63af025ed967a4b3e55ef8c53b5098d09366"
+      }
+    },
+    "limitations": [
+      "procedural review textures, not photorealistic",
+      "neutral normal map; no measured microgeometry",
+      "single material per creature; source material regions replaced",
+      "UV layout and seams need visual inspection",
+      "rig and animation remain unvalidated"
+    ]
+  },
+  "llama": {
+    "source": "C:\\Users\\redga\\.codex\\visualizations\\2026\\11\\06\\01a1b062-c811-7593-80b6-c86ba538a7a9\\reference-pieces-20261107\\llama\\llama_rigged_walk.glb",
+    "source_sha256": "2b85e281964b8a071a64ed8e36364387999e9d81247d24852b29ce810dc59ba4",
+    "output": "llama_pbr_review.glb",
+    "output_sha256": "7be2243ad5bd7e03c1c93271c18de42532a464890591f5fd26c7489f62917274",
+    "mesh_count": 2,
+    "material": "wool",
+    "maps": {
+      "basecolor": {
+        "file": "llama_basecolor.png",
+        "sha256": "3e7a8dcd2c2abaff7c67d2031a54cd42330bdddec561828c08a8ea5384aff343"
+      },
+      "roughness": {
+        "file": "llama_roughness.png",
+        "sha256": "1f4b8bc4272927f2477d24c188d34991426d80ddf634e598153751bbb674187e"
+      },
+      "normal": {
+        "file": "llama_normal.png",
+        "sha256": "38a6a499200f260a2ac5b7e6472b63af025ed967a4b3e55ef8c53b5098d09366"
+      }
+    },
+    "limitations": [
+      "procedural review textures, not photorealistic",
+      "neutral normal map; no measured microgeometry",
+      "single material per creature; source material regions replaced",
+      "UV layout and seams need visual inspection",
+      "rig and animation remain unvalidated"
+    ]
+  },
+  "rat": {
+    "source": "C:\\Users\\redga\\.codex\\visualizations\\2026\\11\\06\\01a1b062-c811-7593-80b6-c86ba538a7a9\\reference-pieces-20261107\\rat\\rat_rigged_walk.glb",
+    "source_sha256": "ed9647c58e354ca63910a54d56b032bdeac06e87698220934c408e7cba979f4b",
+    "output": "rat_pbr_review.glb",
+    "output_sha256": "d4e22d30288ae42c33a963913586da0e4da542b8803aba0a3aaa4541ecca6aca",
+    "mesh_count": 2,
+    "material": "hair",
+    "maps": {
+      "basecolor": {
+        "file": "rat_basecolor.png",
+        "sha256": "e66b74ea7260da6193785991e6e13414b06c0449f6327d8c4ed4dd1742632262"
+      },
+      "roughness": {
+        "file": "rat_roughness.png",
+        "sha256": "33724a76e246c4c4f1545d0dc48efe157dffc9336498e9ddef7e62c264949b52"
+      },
+      "normal": {
+        "file": "rat_normal.png",
+        "sha256": "38a6a499200f260a2ac5b7e6472b63af025ed967a4b3e55ef8c53b5098d09366"
+      }
+    },
+    "limitations": [
+      "procedural review textures, not photorealistic",
+      "neutral normal map; no measured microgeometry",
+      "single material per creature; source material regions replaced",
+      "UV layout and seams need visual inspection",
+      "rig and animation remain unvalidated"
+    ]
+  },
+  "crab": {
+    "source": "C:\\Users\\redga\\.codex\\visualizations\\2026\\11\\06\\01a1b062-c811-7593-80b6-c86ba538a7a9\\reference-pieces-20261107\\crab\\crab_rigged_walk.glb",
+    "source_sha256": "3db96bf3c876b4d13840444eb9bb39ed5adb2a8d16dd235682c1100a06f9d0fd",
+    "output": "crab_pbr_review.glb",
+    "output_sha256": "a1f60eba758a8449941839491885e215a364617b594938d17ba25875154b4a4b",
+    "mesh_count": 2,
+    "material": "shell",
+    "maps": {
+      "basecolor": {
+        "file": "crab_basecolor.png",
+        "sha256": "d2a1c4d2f0511481db09219e2a3beb7e1af273355a07f97d78aae59e9916c560"
+      },
+      "roughness": {
+        "file": "crab_roughness.png",
+        "sha256": "165617ecce57d5f1af4047091aafccaadb8c0c72c5c25e62dbe5b414e69f46ff"
+      },
+      "normal": {
+        "file": "crab_normal.png",
+        "sha256": "38a6a499200f260a2ac5b7e6472b63af025ed967a4b3e55ef8c53b5098d09366"
+      }
+    },
+    "limitations": [
+      "procedural review textures, not photorealistic",
+      "neutral normal map; no measured microgeometry",
+      "single material per creature; source material regions replaced",
+      "UV layout and seams need visual inspection",
+      "rig and animation remain unvalidated"
+    ]
+  },
+  "snake": {
+    "source": "C:\\Users\\redga\\.codex\\visualizations\\2026\\11\\06\\01a1b062-c811-7593-80b6-c86ba538a7a9\\reference-pieces-20261107\\snake\\serpent_rigged_walk.glb",
+    "source_sha256": "bc7032f7058b5dba11be4292349ecaaf4f43590566a089fc9f74894100921077",
+    "output": "snake_pbr_review.glb",
+    "output_sha256": "852c97e96e40299080132b6bc8fea0f4ff7ec23d4670461249cdfbcd96a25b98",
+    "mesh_count": 2,
+    "material": "scales",
+    "maps": {
+      "basecolor": {
+        "file": "snake_basecolor.png",
+        "sha256": "2b8ff146746f428a53bfe0da3153016d9337c31b317b2cd0af0ba76fb282002f"
+      },
+      "roughness": {
+        "file": "snake_roughness.png",
+        "sha256": "cc3834138a91b866b24edb583d2f1f99075ca647abbe7c8a938d1814ecd64745"
+      },
+      "normal": {
+        "file": "snake_normal.png",
+        "sha256": "38a6a499200f260a2ac5b7e6472b63af025ed967a4b3e55ef8c53b5098d09366"
+      }
+    },
+    "limitations": [
+      "procedural review textures, not photorealistic",
+      "neutral normal map; no measured microgeometry",
+      "single material per creature; source material regions replaced",
+      "UV layout and seams need visual inspection",
+      "rig and animation remain unvalidated"
+    ]
+  },
+  "slime": {
+    "source": "C:\\Users\\redga\\.codex\\visualizations\\2026\\11\\06\\01a1b062-c811-7593-80b6-c86ba538a7a9\\reference-pieces-20261107\\gelee\\slime_rigged_walk.glb",
+    "source_sha256": "77e675ebcce11b03d8b938f0d388f3b87a96ccccba3c10e78b643d1ea3412248",
+    "output": "slime_pbr_review.glb",
+    "output_sha256": "0fa4be63ee08637afd1711786e7fc321524e5755ee49a83cceae1ea3d9bfbdb5",
+    "mesh_count": 2,
+    "material": "gel",
+    "maps": {
+      "basecolor": {
+        "file": "slime_basecolor.png",
+        "sha256": "90228e0960b1ecc0edce0924fa010a21a13ecb9ad01bd4ef4a7228fe11af8981"
+      },
+      "roughness": {
+        "file": "slime_roughness.png",
+        "sha256": "336def5cdf7d417e6a500356ca54fda0b607eafe377d96e3aec376b3af8c932a"
+      },
+      "normal": {
+        "file": "slime_normal.png",
+        "sha256": "38a6a499200f260a2ac5b7e6472b63af025ed967a4b3e55ef8c53b5098d09366"
+      }
+    },
+    "limitations": [
+      "procedural review textures, not photorealistic",
+      "neutral normal map; no measured microgeometry",
+      "single material per creature; source material regions replaced",
+      "UV layout and seams need visual inspection",
+      "rig and animation remain unvalidated"
+    ]
+  }
+}

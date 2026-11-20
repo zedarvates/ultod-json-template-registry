@@ -1,0 +1,330 @@
+{
+  "bull": {
+    "before": {
+      "triangles": 33662,
+      "skins": 1,
+      "joints": [
+        18
+      ],
+      "animations": 1,
+      "channels": [
+        54
+      ],
+      "uv": false,
+      "images": 0,
+      "hasNormal": false,
+      "hasColor": false,
+      "hasRough": false
+    },
+    "after": {
+      "triangles": 33662,
+      "skins": 1,
+      "joints": [
+        18
+      ],
+      "animations": 1,
+      "channels": [
+        54
+      ],
+      "uv": true,
+      "images": 3,
+      "hasNormal": true,
+      "hasColor": true,
+      "hasRough": true
+    },
+    "checks": {
+      "triangles": true,
+      "joints": true,
+      "channels": true,
+      "uv": true,
+      "maps": true
+    }
+  },
+  "horse": {
+    "before": {
+      "triangles": 1888,
+      "skins": 1,
+      "joints": [
+        12
+      ],
+      "animations": 1,
+      "channels": [
+        36
+      ],
+      "uv": false,
+      "images": 0,
+      "hasNormal": false,
+      "hasColor": false,
+      "hasRough": false
+    },
+    "after": {
+      "triangles": 1888,
+      "skins": 1,
+      "joints": [
+        12
+      ],
+      "animations": 1,
+      "channels": [
+        36
+      ],
+      "uv": true,
+      "images": 3,
+      "hasNormal": true,
+      "hasColor": true,
+      "hasRough": true
+    },
+    "checks": {
+      "triangles": true,
+      "joints": true,
+      "channels": true,
+      "uv": true,
+      "maps": true
+    }
+  },
+  "sheep": {
+    "before": {
+      "triangles": 5360,
+      "skins": 1,
+      "joints": [
+        12
+      ],
+      "animations": 1,
+      "channels": [
+        36
+      ],
+      "uv": false,
+      "images": 0,
+      "hasNormal": false,
+      "hasColor": false,
+      "hasRough": false
+    },
+    "after": {
+      "triangles": 5360,
+      "skins": 1,
+      "joints": [
+        12
+      ],
+      "animations": 1,
+      "channels": [
+        36
+      ],
+      "uv": true,
+      "images": 3,
+      "hasNormal": true,
+      "hasColor": true,
+      "hasRough": true
+    },
+    "checks": {
+      "triangles": true,
+      "joints": true,
+      "channels": true,
+      "uv": true,
+      "maps": true
+    }
+  },
+  "llama": {
+    "before": {
+      "triangles": 1520,
+      "skins": 1,
+      "joints": [
+        13
+      ],
+      "animations": 1,
+      "channels": [
+        39
+      ],
+      "uv": false,
+      "images": 0,
+      "hasNormal": false,
+      "hasColor": false,
+      "hasRough": false
+    },
+    "after": {
+      "triangles": 1520,
+      "skins": 1,
+      "joints": [
+        13
+      ],
+      "animations": 1,
+      "channels": [
+        39
+      ],
+      "uv": true,
+      "images": 3,
+      "hasNormal": true,
+      "hasColor": true,
+      "hasRough": true
+    },
+    "checks": {
+      "triangles": true,
+      "joints": true,
+      "channels": true,
+      "uv": true,
+      "maps": true
+    }
+  },
+  "rat": {
+    "before": {
+      "triangles": 2736,
+      "skins": 1,
+      "joints": [
+        13
+      ],
+      "animations": 1,
+      "channels": [
+        39
+      ],
+      "uv": false,
+      "images": 0,
+      "hasNormal": false,
+      "hasColor": false,
+      "hasRough": false
+    },
+    "after": {
+      "triangles": 2736,
+      "skins": 1,
+      "joints": [
+        13
+      ],
+      "animations": 1,
+      "channels": [
+        39
+      ],
+      "uv": true,
+      "images": 3,
+      "hasNormal": true,
+      "hasColor": true,
+      "hasRough": true
+    },
+    "checks": {
+      "triangles": true,
+      "joints": true,
+      "channels": true,
+      "uv": true,
+      "maps": true
+    }
+  },
+  "crab": {
+    "before": {
+      "triangles": 480,
+      "skins": 1,
+      "joints": [
+        19
+      ],
+      "animations": 1,
+      "channels": [
+        57
+      ],
+      "uv": false,
+      "images": 0,
+      "hasNormal": false,
+      "hasColor": false,
+      "hasRough": false
+    },
+    "after": {
+      "triangles": 480,
+      "skins": 1,
+      "joints": [
+        19
+      ],
+      "animations": 1,
+      "channels": [
+        57
+      ],
+      "uv": true,
+      "images": 3,
+      "hasNormal": true,
+      "hasColor": true,
+      "hasRough": true
+    },
+    "checks": {
+      "triangles": true,
+      "joints": true,
+      "channels": true,
+      "uv": true,
+      "maps": true
+    }
+  },
+  "snake": {
+    "before": {
+      "triangles": 52850,
+      "skins": 1,
+      "joints": [
+        17
+      ],
+      "animations": 1,
+      "channels": [
+        51
+      ],
+      "uv": false,
+      "images": 0,
+      "hasNormal": false,
+      "hasColor": false,
+      "hasRough": false
+    },
+    "after": {
+      "triangles": 52850,
+      "skins": 1,
+      "joints": [
+        17
+      ],
+      "animations": 1,
+      "channels": [
+        51
+      ],
+      "uv": true,
+      "images": 3,
+      "hasNormal": true,
+      "hasColor": true,
+      "hasRough": true
+    },
+    "checks": {
+      "triangles": true,
+      "joints": true,
+      "channels": true,
+      "uv": true,
+      "maps": true
+    }
+  },
+  "slime": {
+    "before": {
+      "triangles": 1888,
+      "skins": 1,
+      "joints": [
+        4
+      ],
+      "animations": 1,
+      "channels": [
+        12
+      ],
+      "uv": false,
+      "images": 0,
+      "hasNormal": false,
+      "hasColor": false,
+      "hasRough": false
+    },
+    "after": {
+      "triangles": 1888,
+      "skins": 1,
+      "joints": [
+        4
+      ],
+      "animations": 1,
+      "channels": [
+        12
+      ],
+      "uv": true,
+      "images": 3,
+      "hasNormal": true,
+      "hasColor": true,
+      "hasRough": true
+    },
+    "checks": {
+      "triangles": true,
+      "joints": true,
+      "channels": true,
+      "uv": true,
+      "maps": true
+    }
+  }
+}

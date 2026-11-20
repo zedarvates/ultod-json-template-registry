@@ -1,0 +1,155 @@
+{
+  "horse": {
+    "source_relative_to_bestiary": "horse/build-10/model.glb",
+    "sha256": "5a8c0ef700e77094ccce03d499b46717f2cd9a4d614ef3dba3cefe123ea51e80",
+    "bytes": 2372688,
+    "source_status": "review_only",
+    "source_schema": "uo.horse-review/v1",
+    "recipe": {
+      "schema": "uo.horse-shape/v1",
+      "delivery": "review_only",
+      "body_length_m": 1.8,
+      "stride_m": 0.28,
+      "lift_m": 0.12,
+      "period_s": 1.9,
+      "tail_sway_rad": 0.02,
+      "mane_sway_rad": 0.012
+    },
+    "source_limits": [
+      "Original editor head/mane remain pending human art review; no final photorealism",
+      "Source nostril meshes are surface proxies, not a proved open nasal passage",
+      "Flat-ground isolated review only, no forces, terrain, turns, gameplay, server authority or VR approval"
+    ],
+    "editor_capture": "horse_editor.png",
+    "editor_scope": "static review; source materials; IK disabled; LOD nodes may overlap",
+    "matching_reference": "candidate only; reference fidelity not approved"
+  },
+  "crab": {
+    "source_relative_to_bestiary": "crab/build-06/model.glb",
+    "sha256": "70f6189cb045430cf109eecd502e7ab05ca26b8fbb8157ffe71511892c56ef90",
+    "bytes": 1816884,
+    "source_status": "review_only",
+    "source_schema": "uo.crab-review/v1",
+    "recipe": {
+      "schema": "uo.crab-shape/v1",
+      "delivery": "review_only",
+      "body_scale": 1.0,
+      "period_s": 1.6,
+      "stride_m": 0.065,
+      "lift_m": 0.04,
+      "claw_open_deg": 14.0
+    },
+    "source_limits": [
+      "Original review with photographic-style chitin if selected; final photorealism and species variants not approved",
+      "Sampled kinematic support is not mass/force balance, terrain, collisions or server-authoritative locomotion",
+      "Claw articulation is visual only, no combat, pressure or feeding simulation",
+      "Main world, network, VR and FPS unqualified"
+    ],
+    "editor_capture": "crab_editor.png",
+    "editor_scope": "static review; source materials; IK disabled; LOD nodes may overlap",
+    "matching_reference": "candidate only; reference fidelity not approved"
+  },
+  "bull": {
+    "source_relative_to_bestiary": "bovine/build-08/model.glb",
+    "sha256": "04872e3f86d90d0dc8ae02d4909e6ffcf9e36aa3ca0fbb42bd11e55fc0bb1060",
+    "bytes": 2269356,
+    "source_status": "review_only",
+    "source_schema": "uo.bovine-review/v1",
+    "recipe": {
+      "schema": "uo.bovine-shape/v2",
+      "cranial_profile": "bovine-cranium-v3",
+      "delivery": "review_only",
+      "body_length_m": 1.8,
+      "tail_length_m": 0.72,
+      "ear_height_m": 0.14,
+      "horn_length_m": 0.3,
+      "stride_m": 0.28,
+      "lift_m": 0.11,
+      "period_s": 1.9
+    },
+    "source_limits": [
+      "Review candidate, not final photographic approval",
+      "No exhaustive collisions, physical forces, terrain, main-world/gameplay or VR proof"
+    ],
+    "editor_capture": "bull_editor.png",
+    "editor_scope": "static review; source materials; IK disabled; LOD nodes may overlap",
+    "matching_reference": "bovine source is explicitly cow, not target bull"
+  },
+  "snake": {
+    "source_relative_to_bestiary": "serpent/build-07/model.glb",
+    "sha256": "e59d7d6e89923f2216f9cf6d16c5cbeb2430578045d5ddfbec1d69d759b23c33",
+    "bytes": 718296,
+    "source_status": "review_only",
+    "source_schema": "uo.serpent-review/v1",
+    "recipe": {
+      "schema": "uo.serpent-shape/v1",
+      "delivery": "review_only",
+      "body_length_m": 3,
+      "body_radius_m": 0.085,
+      "wave_amplitude_m": 0.2,
+      "wave_cycles": 1.2,
+      "head_width_m": 0.12,
+      "scale_hue": 0.14
+    },
+    "source_limits": [
+      "Skin/rig and local wave require deformation/native qualification",
+      "No traction/friction, slopes, server gameplay, VR or photographic-fidelity approval"
+    ],
+    "editor_capture": "snake_editor.png",
+    "editor_scope": "static review; source materials; IK disabled; LOD nodes may overlap",
+    "matching_reference": "candidate only; reference fidelity not approved"
+  },
+  "rat": {
+    "source_relative_to_bestiary": "rat/build-15/model.glb",
+    "sha256": "95d2329a66b2f93bd2e404b7931ddc957c741e16d3eaba5dfa49d0acc3844796",
+    "bytes": 1666132,
+    "source_status": "review_only",
+    "source_schema": "uo.rat-review/v1",
+    "recipe": {
+      "schema": "uo.rat-shape/v1",
+      "delivery": "review_only",
+      "body_length_m": 1.3,
+      "tail_length_m": 1.2,
+      "ear_radius_m": 0.1,
+      "stride_m": 0.2,
+      "period_s": 1.8
+    },
+    "source_limits": [
+      "Not final photorealistic approval",
+      "No physical forces, terrain, exhaustive collisions, main world, gameplay or VR"
+    ],
+    "editor_capture": "rat_editor.png",
+    "editor_scope": "static review; source materials; IK disabled; LOD nodes may overlap",
+    "matching_reference": "candidate only; reference fidelity not approved"
+  },
+  "sheep": {
+    "source_relative_to_bestiary": "sheep/candidate-08/walk-05/model.glb",
+    "sha256": "cf2df07aaead47721475d54f6de9d6021025d6cd514c28abf104291d4ae62a4d",
+    "bytes": 1664484,
+    "source_status": "review_only",
+    "source_schema": "uo.sheep-walk-trial/v1",
+    "recipe": {
+      "schema": "uo.sheep-shape/v1",
+      "delivery": "review_only",
+      "identity": "sheep",
+      "body_length_m": 1.15,
+      "body_width_m": 0.5,
+      "body_height_m": 0.57,
+      "leg_count": 4,
+      "hoof_cloves_each": 2,
+      "head_profile": "ewe-head-original-v5-uv-caps",
+      "wool_source": "assets/sheep-wool-original.png",
+      "wool_source_sha256": "629c0a9086f0fcc9812e9d4775ae90ead1dbd02aa4975d8c5dd8f15f3d7b8cff",
+      "face_source": "assets/sheep-face-original.png",
+      "face_source_sha256": "5182c57add056fa09c74e83264c88d43c3457056430e4441ac614a1abdbbb2da",
+      "leg_profile": "ewe-hoof-overlap-v1"
+    },
+    "source_limits": [
+      "Unqualified gait trial: body and legs remain separate surfaces",
+      "No final anatomy, skin intersections, terrain, gameplay or server authority"
+    ],
+    "editor_capture": "sheep_editor.png",
+    "editor_scope": "static review; source materials; IK disabled; LOD nodes may overlap",
+    "matching_reference": "candidate only; reference fidelity not approved"
+  }
+}

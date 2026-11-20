@@ -1,0 +1,49 @@
+{
+  "horse": {
+    "source": "horse_pbr_review.glb",
+    "source_sha256": "45f676dc105b44a937c4fc1c3096df6b363b552f9f74a7d3b9b232e22e246ce4",
+    "output": "horse_pbr_repair.glb",
+    "output_sha256": "9f623335407b79c919af0f3ca5d382f700b9514d021014d4be0b96f57040d888",
+    "rotated_meshes": [
+      "leg_FL",
+      "leg_FL_feathering",
+      "leg_FL_hoof",
+      "leg_FR",
+      "leg_FR_feathering",
+      "leg_FR_hoof",
+      "leg_HL",
+      "leg_HL_feathering",
+      "leg_HL_hoof",
+      "leg_HR",
+      "leg_HR_feathering",
+      "leg_HR_hoof"
+    ],
+    "status": "static proxy review; seams, anatomy, UV and realistic texture unvalidated"
+  },
+  "sheep": {
+    "source": "sheep_pbr_review.glb",
+    "source_sha256": "7f1c1b90af761026fe5e5f959280b7c9af5148d4cbd94af4b5e0c53522bf2d77",
+    "output": "sheep_pbr_repair.glb",
+    "output_sha256": "c02cb052cfb8c7ffacc0531cbc79ca5c46f2ebc254a6efceb9c9c17696e9296b",
+    "rotated_meshes": [
+      "leg_FL",
+      "leg_FR",
+      "leg_HL",
+      "leg_HR"
+    ],
+    "status": "static proxy review; seams, anatomy, UV and realistic texture unvalidated"
+  },
+  "llama": {
+    "source": "llama_pbr_review.glb",
+    "source_sha256": "3a6fea6811cbfd195c1014a857045dfcc8f9aad1db0800392cab294fb7b25862",
+    "output": "llama_pbr_repair.glb",
+    "output_sha256": "6e39261ed4adaedbb62e8cb68f0885eb6e7ab70398a6ca26d384c0c650c8849d",
+    "rotated_meshes": [
+      "leg_FL",
+      "leg_FR",
+      "leg_HL",
+      "leg_HR"
+    ],
+    "status": "static proxy review; seams, anatomy, UV and realistic texture unvalidated"
+  }
+}

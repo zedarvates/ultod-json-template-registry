@@ -1,0 +1,68 @@
+{
+  "horse": {
+    "source": "C:\\Users\\redga\\.codex\\visualizations\\2026\\11\\06\\01a1b062-c811-7593-80b6-c86ba538a7a9\\pbr-eight-20261107\\quadruped-repair-v2\\horse_pbr_repair.glb",
+    "source_sha256": "9f623335407b79c919af0f3ca5d382f700b9514d021014d4be0b96f57040d888",
+    "output": "horse_weld_review.glb",
+    "sha256": "602ec0a468165678aad9b2026356f525ec48b033af484ed6c8edbec173fc7fca",
+    "joined_nodes": [
+      "geometry_0",
+      "neck_crest",
+      "leg_FL",
+      "leg_FL_feathering",
+      "leg_FR",
+      "leg_FR_feathering",
+      "leg_HL",
+      "leg_HL_feathering",
+      "leg_HR",
+      "leg_HR_feathering"
+    ],
+    "body_components": 1,
+    "component_sizes": [
+      19994
+    ],
+    "nonmanifold_edges": 0,
+    "voxel_size_m": 0.025,
+    "status": "static experimental proxy; anatomical fidelity and seams require review"
+  },
+  "sheep": {
+    "source": "C:\\Users\\redga\\.codex\\visualizations\\2026\\11\\06\\01a1b062-c811-7593-80b6-c86ba538a7a9\\pbr-eight-20261107\\quadruped-repair-v2\\sheep_pbr_repair.glb",
+    "source_sha256": "c02cb052cfb8c7ffacc0531cbc79ca5c46f2ebc254a6efceb9c9c17696e9296b",
+    "output": "sheep_weld_review.glb",
+    "sha256": "752e006745ef8edc5827db86f7075ed9bb95ded58b186baf379e898f76013e11",
+    "joined_nodes": [
+      "geometry_0",
+      "leg_FL",
+      "leg_FR",
+      "leg_HL",
+      "leg_HR"
+    ],
+    "body_components": 1,
+    "component_sizes": [
+      10500
+    ],
+    "nonmanifold_edges": 0,
+    "voxel_size_m": 0.025,
+    "status": "static experimental proxy; anatomical fidelity and seams require review"
+  },
+  "llama": {
+    "source": "C:\\Users\\redga\\.codex\\visualizations\\2026\\11\\06\\01a1b062-c811-7593-80b6-c86ba538a7a9\\pbr-eight-20261107\\quadruped-repair-v2\\llama_pbr_repair.glb",
+    "source_sha256": "6e39261ed4adaedbb62e8cb68f0885eb6e7ab70398a6ca26d384c0c650c8849d",
+    "output": "llama_weld_review.glb",
+    "sha256": "16b24a7dffdb279eaa49847cfc1f465c39418a4249e4ce4f79fb9dab87984bb1",
+    "joined_nodes": [
+      "geometry_0",
+      "neck_ruff",
+      "leg_FL",
+      "leg_FR",
+      "leg_HL",
+      "leg_HR"
+    ],
+    "body_components": 1,
+    "component_sizes": [
+      9062
+    ],
+    "nonmanifold_edges": 0,
+    "voxel_size_m": 0.025,
+    "status": "static experimental proxy; anatomical fidelity and seams require review"
+  }
+}

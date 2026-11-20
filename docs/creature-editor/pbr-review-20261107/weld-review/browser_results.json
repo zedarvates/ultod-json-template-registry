@@ -1,0 +1,104 @@
+{
+  "horse": {
+    "contract": {
+      "loaded": true,
+      "name": "horse_pbr_review.glb",
+      "sha256": "602ec0a468165678aad9b2026356f525ec48b033af484ed6c8edbec173fc7fca",
+      "bytes": 1594920,
+      "triangles": 46320,
+      "mesh_nodes": 12,
+      "dimensions_m_xyz": [
+        0.95646,
+        2.53,
+        2.185953
+      ],
+      "delivery": "review_only",
+      "implementation_status": "scaffolding_proxy",
+      "server_authoritative": false,
+      "embedded_skeleton": false,
+      "skinned_meshes": 0,
+      "bone_count": 0,
+      "rig_overlay": null,
+      "material_mode": "silhouette",
+      "vertex_colored_meshes": 0,
+      "textured_meshes": 0,
+      "uv0_meshes": 12,
+      "embedded_basecolor_meshes": 6,
+      "embedded_normal_meshes": 6,
+      "embedded_orm_meshes": 0,
+      "embedded_roughness_meshes": 6,
+      "pbr_complete": false,
+      "pbr_limitation": "basecolor_only_or_incomplete",
+      "appearance_status": "silhouette_review"
+    },
+    "modeLabel": "🎨 Volume : matériaux source"
+  },
+  "sheep": {
+    "contract": {
+      "loaded": true,
+      "name": "sheep_pbr_review.glb",
+      "sha256": "752e006745ef8edc5827db86f7075ed9bb95ded58b186baf379e898f76013e11",
+      "bytes": 1081412,
+      "triangles": 23604,
+      "mesh_nodes": 10,
+      "dimensions_m_xyz": [
+        0.965734,
+        1.494822,
+        1.562231
+      ],
+      "delivery": "review_only",
+      "implementation_status": "scaffolding_proxy",
+      "server_authoritative": false,
+      "embedded_skeleton": false,
+      "skinned_meshes": 0,
+      "bone_count": 0,
+      "rig_overlay": null,
+      "material_mode": "silhouette",
+      "vertex_colored_meshes": 0,
+      "textured_meshes": 0,
+      "uv0_meshes": 10,
+      "embedded_basecolor_meshes": 10,
+      "embedded_normal_meshes": 10,
+      "embedded_orm_meshes": 0,
+      "embedded_roughness_meshes": 10,
+      "pbr_complete": false,
+      "pbr_limitation": "basecolor_only_or_incomplete",
+      "appearance_status": "silhouette_review"
+    },
+    "modeLabel": "🎨 Volume : matériaux source"
+  },
+  "llama": {
+    "contract": {
+      "loaded": true,
+      "name": "llama_pbr_review.glb",
+      "sha256": "16b24a7dffdb279eaa49847cfc1f465c39418a4249e4ce4f79fb9dab87984bb1",
+      "bytes": 761316,
+      "triangles": 19176,
+      "mesh_nodes": 10,
+      "dimensions_m_xyz": [
+        0.756143,
+        2.528599,
+        1.41672
+      ],
+      "delivery": "review_only",
+      "implementation_status": "scaffolding_proxy",
+      "server_authoritative": false,
+      "embedded_skeleton": false,
+      "skinned_meshes": 0,
+      "bone_count": 0,
+      "rig_overlay": null,
+      "material_mode": "silhouette",
+      "vertex_colored_meshes": 0,
+      "textured_meshes": 0,
+      "uv0_meshes": 10,
+      "embedded_basecolor_meshes": 10,
+      "embedded_normal_meshes": 10,
+      "embedded_orm_meshes": 0,
+      "embedded_roughness_meshes": 10,
+      "pbr_complete": false,
+      "pbr_limitation": "basecolor_only_or_incomplete",
+      "appearance_status": "silhouette_review"
+    },
+    "modeLabel": "🎨 Volume : matériaux source"
+  }
+}
